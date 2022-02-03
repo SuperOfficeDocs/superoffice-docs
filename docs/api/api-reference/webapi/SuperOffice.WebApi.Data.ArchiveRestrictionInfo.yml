@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  commentId: T:SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  id: ArchiveRestrictionInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.#ctor
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.ColumnInfo
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.DisplayValues
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterParenthesis
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.IsActive
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Name
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Operator
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.SubRestrictions
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.UniqueHash
+  - SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Values
+  langs:
+  - csharp
+  - vb
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ArchiveRestrictionInfo.\nThis class carries information about a restriction on the query of an archive provider    \n"
+  syntax:
+    content: 'public class ArchiveRestrictionInfo : Object'
+    content.vb: >-
+      Public Class ArchiveRestrictionInfo
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchiveRestrictionInfo()
+  nameWithType: ArchiveRestrictionInfo.ArchiveRestrictionInfo()
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.ArchiveRestrictionInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ArchiveRestrictionInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Name
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ArchiveRestrictionInfo.Name
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe programmatic column name, including any required prefixes\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Operator
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Operator
+  id: Operator
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: Operator
+  nameWithType: ArchiveRestrictionInfo.Operator
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Operator
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe operator, such as =, etc\n"
+  syntax:
+    content: public virtual string Operator { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Operator As String
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Operator*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Values
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Values
+  id: Values
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: ArchiveRestrictionInfo.Values
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Values
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue(s) to test against\n"
+  syntax:
+    content: public virtual string[] Values { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Values As String()
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Values*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.DisplayValues
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.DisplayValues
+  id: DisplayValues
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayValues
+  nameWithType: ArchiveRestrictionInfo.DisplayValues
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.DisplayValues
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay representation of value(s) - list ID&apos;s are decoded to display texts, other values are represented in a format suitable for decoding and display through the CultureDataFormatter.\n"
+  syntax:
+    content: public virtual string[] DisplayValues { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property DisplayValues As String()
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.DisplayValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.ColumnInfo
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.ColumnInfo
+  id: ColumnInfo
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: ColumnInfo
+  nameWithType: ArchiveRestrictionInfo.ColumnInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.ColumnInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional complete ArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true\n"
+  syntax:
+    content: public virtual ArchiveColumnInfo ColumnInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    content.vb: Public Overridable Property ColumnInfo As ArchiveColumnInfo
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.ColumnInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.IsActive
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.IsActive
+  id: IsActive
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: ArchiveRestrictionInfo.IsActive
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.IsActive
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this restriction active?  Inactive restrictions will not influence the generated query\n"
+  syntax:
+    content: public virtual bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsActive As Boolean
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.IsActive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.SubRestrictions
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.SubRestrictions
+  id: SubRestrictions
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: SubRestrictions
+  nameWithType: ArchiveRestrictionInfo.SubRestrictions
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.SubRestrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional collection of sub criteria, usually null but set for Saint counter fields\n"
+  syntax:
+    content: public virtual ArchiveRestrictionInfo[] SubRestrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    content.vb: Public Overridable Property SubRestrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.SubRestrictions*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterParenthesis
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterParenthesis
+  id: InterParenthesis
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: InterParenthesis
+  nameWithType: ArchiveRestrictionInfo.InterParenthesis
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterParenthesis
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGet or set the parenthesis (if any) associated with this restriction. Positive values indicate a number of opening parentheses (deepening nesting level), while negative numbers indicate closing parentheses. Zero means no change in nesting level (no parentheses).\n"
+  syntax:
+    content: public virtual int InterParenthesis { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property InterParenthesis As Integer
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterParenthesis*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String
+  id: InterOperator_String
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: InterOperator_String
+  nameWithType: ArchiveRestrictionInfo.InterOperator_String
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGet or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And\nRaw string enum value.\n"
+  syntax:
+    content: public string InterOperator_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InterOperator_String As String
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator
+    commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator
+  id: InterOperator
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: InterOperator
+  nameWithType: ArchiveRestrictionInfo.InterOperator
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGet or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<InterRestrictionOperator> InterOperator { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.InterRestrictionOperator}
+    content.vb: Public Property InterOperator As Nullable(Of InterRestrictionOperator)
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String
+    commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.UniqueHash
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.UniqueHash
+  id: UniqueHash
+  parent: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: UniqueHash
+  nameWithType: ArchiveRestrictionInfo.UniqueHash
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.UniqueHash
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int UniqueHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UniqueHash As Integer
+  overload: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.UniqueHash*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.#ctor
+  isExternal: true
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo.ArchiveRestrictionInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.ArchiveRestrictionInfo
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: ArchiveRestrictionInfo.Name
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Operator*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Operator
+  isExternal: true
+  name: Operator
+  nameWithType: ArchiveRestrictionInfo.Operator
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Operator
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Values*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Values
+  isExternal: true
+  name: Values
+  nameWithType: ArchiveRestrictionInfo.Values
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.Values
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.DisplayValues*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.DisplayValues
+  isExternal: true
+  name: DisplayValues
+  nameWithType: ArchiveRestrictionInfo.DisplayValues
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.DisplayValues
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.ColumnInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.ColumnInfo
+  isExternal: true
+  name: ColumnInfo
+  nameWithType: ArchiveRestrictionInfo.ColumnInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.ColumnInfo
+- uid: SuperOffice.WebApi.Data.ArchiveColumnInfo
+  commentId: T:SuperOffice.WebApi.Data.ArchiveColumnInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.IsActive*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: ArchiveRestrictionInfo.IsActive
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.IsActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.SubRestrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.SubRestrictions
+  isExternal: true
+  name: SubRestrictions
+  nameWithType: ArchiveRestrictionInfo.SubRestrictions
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.SubRestrictions
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterParenthesis*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterParenthesis
+  isExternal: true
+  name: InterParenthesis
+  nameWithType: ArchiveRestrictionInfo.InterParenthesis
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterParenthesis
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String
+  isExternal: true
+  name: InterOperator_String
+  nameWithType: ArchiveRestrictionInfo.InterOperator_String
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator
+  isExternal: true
+  name: InterOperator
+  nameWithType: ArchiveRestrictionInfo.InterOperator
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String
+  commentId: P:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.InterOperator_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.InterRestrictionOperator}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.InterRestrictionOperator}'
+  definition: System.Nullable`1
+  name: Nullable<InterRestrictionOperator>
+  nameWithType: Nullable<InterRestrictionOperator>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.InterRestrictionOperator>
+  nameWithType.vb: Nullable(Of InterRestrictionOperator)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.InterRestrictionOperator)
+  name.vb: Nullable(Of InterRestrictionOperator)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.InterRestrictionOperator
+    name: InterRestrictionOperator
+    nameWithType: InterRestrictionOperator
+    fullName: SuperOffice.WebApi.Data.InterRestrictionOperator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.InterRestrictionOperator
+    name: InterRestrictionOperator
+    nameWithType: InterRestrictionOperator
+    fullName: SuperOffice.WebApi.Data.InterRestrictionOperator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.UniqueHash*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveRestrictionInfo.UniqueHash
+  isExternal: true
+  name: UniqueHash
+  nameWithType: ArchiveRestrictionInfo.UniqueHash
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.UniqueHash

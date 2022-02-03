@@ -1,0 +1,1060 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Cache.FreetextStatus
+  commentId: T:SuperOffice.CRM.Cache.FreetextStatus
+  id: FreetextStatus
+  parent: SuperOffice.CRM.Cache
+  children:
+  - SuperOffice.CRM.Cache.FreetextStatus.#ctor
+  - SuperOffice.CRM.Cache.FreetextStatus.AutoEnableTravelAreas
+  - SuperOffice.CRM.Cache.FreetextStatus.CountWords
+  - SuperOffice.CRM.Cache.FreetextStatus.FreeTextEnabled
+  - SuperOffice.CRM.Cache.FreetextStatus.IsIndexerRunning
+  - SuperOffice.CRM.Cache.FreetextStatus.LastGenerated
+  - SuperOffice.CRM.Cache.FreetextStatus.MultiWordOperator
+  - SuperOffice.CRM.Cache.FreetextStatus.Occurrences
+  - SuperOffice.CRM.Cache.FreetextStatus.SingleWordOperator
+  langs:
+  - csharp
+  - vb
+  name: FreetextStatus
+  nameWithType: FreetextStatus
+  fullName: SuperOffice.CRM.Cache.FreetextStatus
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nCached status values - refreshed every 5 minutes\n"
+  syntax:
+    content: public class FreetextStatus
+    content.vb: Public Class FreetextStatus
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Cache.FreetextStatus.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Cache.FreetextStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.FreetextStatus)
+  - SuperOffice.CRM.Cache.FreetextStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Cache.FreetextStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Cache.FreetextStatus.#ctor
+  commentId: M:SuperOffice.CRM.Cache.FreetextStatus.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Cache.FreetextStatus
+  langs:
+  - csharp
+  - vb
+  name: FreetextStatus()
+  nameWithType: FreetextStatus.FreetextStatus()
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.FreetextStatus()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public FreetextStatus()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Cache.FreetextStatus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.FreetextStatus.FreeTextEnabled
+  commentId: P:SuperOffice.CRM.Cache.FreetextStatus.FreeTextEnabled
+  id: FreeTextEnabled
+  parent: SuperOffice.CRM.Cache.FreetextStatus
+  langs:
+  - csharp
+  - vb
+  name: FreeTextEnabled
+  nameWithType: FreetextStatus.FreeTextEnabled
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.FreeTextEnabled
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nUserPref &apos;Freetext&apos; &apos;Enabled&apos;\n"
+  syntax:
+    content: public bool FreeTextEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property FreeTextEnabled As Boolean
+  overload: SuperOffice.CRM.Cache.FreetextStatus.FreeTextEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.FreetextStatus.SingleWordOperator
+  commentId: P:SuperOffice.CRM.Cache.FreetextStatus.SingleWordOperator
+  id: SingleWordOperator
+  parent: SuperOffice.CRM.Cache.FreetextStatus
+  langs:
+  - csharp
+  - vb
+  name: SingleWordOperator
+  nameWithType: FreetextStatus.SingleWordOperator
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.SingleWordOperator
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nStarts with, contains or exact match \n"
+  syntax:
+    content: public FreeTextOperator SingleWordOperator { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.FreeTextOperator
+    content.vb: Public Property SingleWordOperator As FreeTextOperator
+  overload: SuperOffice.CRM.Cache.FreetextStatus.SingleWordOperator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.FreetextStatus.MultiWordOperator
+  commentId: P:SuperOffice.CRM.Cache.FreetextStatus.MultiWordOperator
+  id: MultiWordOperator
+  parent: SuperOffice.CRM.Cache.FreetextStatus
+  langs:
+  - csharp
+  - vb
+  name: MultiWordOperator
+  nameWithType: FreetextStatus.MultiWordOperator
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.MultiWordOperator
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nStarts with, contains or exact match \n"
+  syntax:
+    content: public FreeTextOperator MultiWordOperator { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.FreeTextOperator
+    content.vb: Public Property MultiWordOperator As FreeTextOperator
+  overload: SuperOffice.CRM.Cache.FreetextStatus.MultiWordOperator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.FreetextStatus.CountWords
+  commentId: P:SuperOffice.CRM.Cache.FreetextStatus.CountWords
+  id: CountWords
+  parent: SuperOffice.CRM.Cache.FreetextStatus
+  langs:
+  - csharp
+  - vb
+  name: CountWords
+  nameWithType: FreetextStatus.CountWords
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.CountWords
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nCount of unique search words \n"
+  syntax:
+    content: public int CountWords { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CountWords As Integer
+  overload: SuperOffice.CRM.Cache.FreetextStatus.CountWords*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.FreetextStatus.Occurrences
+  commentId: P:SuperOffice.CRM.Cache.FreetextStatus.Occurrences
+  id: Occurrences
+  parent: SuperOffice.CRM.Cache.FreetextStatus
+  langs:
+  - csharp
+  - vb
+  name: Occurrences
+  nameWithType: FreetextStatus.Occurrences
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.Occurrences
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nTotal count of search words \n"
+  syntax:
+    content: public int Occurrences { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Occurrences As Integer
+  overload: SuperOffice.CRM.Cache.FreetextStatus.Occurrences*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.FreetextStatus.LastGenerated
+  commentId: P:SuperOffice.CRM.Cache.FreetextStatus.LastGenerated
+  id: LastGenerated
+  parent: SuperOffice.CRM.Cache.FreetextStatus
+  langs:
+  - csharp
+  - vb
+  name: LastGenerated
+  nameWithType: FreetextStatus.LastGenerated
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.LastGenerated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nLast time search has been generated \n"
+  syntax:
+    content: public DateTime LastGenerated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property LastGenerated As Date
+  overload: SuperOffice.CRM.Cache.FreetextStatus.LastGenerated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.FreetextStatus.AutoEnableTravelAreas
+  commentId: P:SuperOffice.CRM.Cache.FreetextStatus.AutoEnableTravelAreas
+  id: AutoEnableTravelAreas
+  parent: SuperOffice.CRM.Cache.FreetextStatus
+  langs:
+  - csharp
+  - vb
+  name: AutoEnableTravelAreas
+  nameWithType: FreetextStatus.AutoEnableTravelAreas
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.AutoEnableTravelAreas
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nAutomatically enable freetext search for new travel areas \n"
+  syntax:
+    content: public bool AutoEnableTravelAreas { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoEnableTravelAreas As Boolean
+  overload: SuperOffice.CRM.Cache.FreetextStatus.AutoEnableTravelAreas*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.FreetextStatus.IsIndexerRunning
+  commentId: P:SuperOffice.CRM.Cache.FreetextStatus.IsIndexerRunning
+  id: IsIndexerRunning
+  parent: SuperOffice.CRM.Cache.FreetextStatus
+  langs:
+  - csharp
+  - vb
+  name: IsIndexerRunning
+  nameWithType: FreetextStatus.IsIndexerRunning
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.IsIndexerRunning
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nIs the freetxt indexer running now?\n"
+  syntax:
+    content: public bool IsIndexerRunning { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsIndexerRunning As Boolean
+  overload: SuperOffice.CRM.Cache.FreetextStatus.IsIndexerRunning*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Cache
+  commentId: N:SuperOffice.CRM.Cache
+  isExternal: true
+  name: SuperOffice.CRM.Cache
+  nameWithType: SuperOffice.CRM.Cache
+  fullName: SuperOffice.CRM.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.FreetextStatus.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FreetextStatus, To>()
+  nameWithType: EnumUtil.MapEnums<FreetextStatus, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.FreetextStatus, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FreetextStatus, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.FreetextStatus, To)()
+  name.vb: MapEnums(Of FreetextStatus, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FreetextStatus, To>
+    nameWithType: EnumUtil.MapEnums<FreetextStatus, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.FreetextStatus, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FreetextStatus, To)
+    nameWithType: EnumUtil.MapEnums(Of FreetextStatus, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.FreetextStatus, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.FreetextStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.FreetextStatus)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<FreetextStatus>(FreetextStatus)
+  nameWithType: ObjectExtensions.AssignByReflection<FreetextStatus>(FreetextStatus)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Cache.FreetextStatus>(SuperOffice.CRM.Cache.FreetextStatus)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FreetextStatus)(FreetextStatus)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Cache.FreetextStatus)(SuperOffice.CRM.Cache.FreetextStatus)
+  name.vb: AssignByReflection(Of FreetextStatus)(FreetextStatus)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<FreetextStatus>
+    nameWithType: ObjectExtensions.AssignByReflection<FreetextStatus>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Cache.FreetextStatus>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Cache.FreetextStatus
+    name: FreetextStatus
+    nameWithType: FreetextStatus
+    fullName: SuperOffice.CRM.Cache.FreetextStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of FreetextStatus)
+    nameWithType: ObjectExtensions.AssignByReflection(Of FreetextStatus)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Cache.FreetextStatus)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Cache.FreetextStatus
+    name: FreetextStatus
+    nameWithType: FreetextStatus
+    fullName: SuperOffice.CRM.Cache.FreetextStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.FreetextStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<FreetextStatus>()
+  nameWithType: ObjectExtensions.GraphCopy<FreetextStatus>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Cache.FreetextStatus>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FreetextStatus)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Cache.FreetextStatus)()
+  name.vb: GraphCopy(Of FreetextStatus)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<FreetextStatus>
+    nameWithType: ObjectExtensions.GraphCopy<FreetextStatus>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Cache.FreetextStatus>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of FreetextStatus)
+    nameWithType: ObjectExtensions.GraphCopy(Of FreetextStatus)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Cache.FreetextStatus)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.FreetextStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FreetextStatus, To>()
+  nameWithType: Converters.MapEnums<FreetextStatus, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.FreetextStatus, To>()
+  nameWithType.vb: Converters.MapEnums(Of FreetextStatus, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.FreetextStatus, To)()
+  name.vb: MapEnums(Of FreetextStatus, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FreetextStatus, To>
+    nameWithType: Converters.MapEnums<FreetextStatus, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.FreetextStatus, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FreetextStatus, To)
+    nameWithType: Converters.MapEnums(Of FreetextStatus, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.FreetextStatus, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Cache.FreetextStatus.#ctor*
+  commentId: Overload:SuperOffice.CRM.Cache.FreetextStatus.#ctor
+  isExternal: true
+  name: FreetextStatus
+  nameWithType: FreetextStatus.FreetextStatus
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.FreetextStatus
+- uid: SuperOffice.CRM.Cache.FreetextStatus.FreeTextEnabled*
+  commentId: Overload:SuperOffice.CRM.Cache.FreetextStatus.FreeTextEnabled
+  isExternal: true
+  name: FreeTextEnabled
+  nameWithType: FreetextStatus.FreeTextEnabled
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.FreeTextEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Cache.FreetextStatus.SingleWordOperator*
+  commentId: Overload:SuperOffice.CRM.Cache.FreetextStatus.SingleWordOperator
+  isExternal: true
+  name: SingleWordOperator
+  nameWithType: FreetextStatus.SingleWordOperator
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.SingleWordOperator
+- uid: SuperOffice.Data.FreeTextOperator
+  commentId: T:SuperOffice.Data.FreeTextOperator
+  parent: SuperOffice.Data
+  isExternal: true
+  name: FreeTextOperator
+  nameWithType: FreeTextOperator
+  fullName: SuperOffice.Data.FreeTextOperator
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Cache.FreetextStatus.MultiWordOperator*
+  commentId: Overload:SuperOffice.CRM.Cache.FreetextStatus.MultiWordOperator
+  isExternal: true
+  name: MultiWordOperator
+  nameWithType: FreetextStatus.MultiWordOperator
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.MultiWordOperator
+- uid: SuperOffice.CRM.Cache.FreetextStatus.CountWords*
+  commentId: Overload:SuperOffice.CRM.Cache.FreetextStatus.CountWords
+  isExternal: true
+  name: CountWords
+  nameWithType: FreetextStatus.CountWords
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.CountWords
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Cache.FreetextStatus.Occurrences*
+  commentId: Overload:SuperOffice.CRM.Cache.FreetextStatus.Occurrences
+  isExternal: true
+  name: Occurrences
+  nameWithType: FreetextStatus.Occurrences
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.Occurrences
+- uid: SuperOffice.CRM.Cache.FreetextStatus.LastGenerated*
+  commentId: Overload:SuperOffice.CRM.Cache.FreetextStatus.LastGenerated
+  isExternal: true
+  name: LastGenerated
+  nameWithType: FreetextStatus.LastGenerated
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.LastGenerated
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Cache.FreetextStatus.AutoEnableTravelAreas*
+  commentId: Overload:SuperOffice.CRM.Cache.FreetextStatus.AutoEnableTravelAreas
+  isExternal: true
+  name: AutoEnableTravelAreas
+  nameWithType: FreetextStatus.AutoEnableTravelAreas
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.AutoEnableTravelAreas
+- uid: SuperOffice.CRM.Cache.FreetextStatus.IsIndexerRunning*
+  commentId: Overload:SuperOffice.CRM.Cache.FreetextStatus.IsIndexerRunning
+  isExternal: true
+  name: IsIndexerRunning
+  nameWithType: FreetextStatus.IsIndexerRunning
+  fullName: SuperOffice.CRM.Cache.FreetextStatus.IsIndexerRunning

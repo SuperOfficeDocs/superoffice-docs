@@ -1,0 +1,1166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.PriceListInfo
+  commentId: T:SuperOffice.CRM.PriceListInfo
+  id: PriceListInfo
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.PriceListInfo.#ctor
+  - SuperOffice.CRM.PriceListInfo.Currency
+  - SuperOffice.CRM.PriceListInfo.CurrencyName
+  - SuperOffice.CRM.PriceListInfo.Description
+  - SuperOffice.CRM.PriceListInfo.ERPPriceListKey
+  - SuperOffice.CRM.PriceListInfo.IsActive
+  - SuperOffice.CRM.PriceListInfo.IsValid
+  - SuperOffice.CRM.PriceListInfo.Name
+  - SuperOffice.CRM.PriceListInfo.QuoteConnectionId
+  - SuperOffice.CRM.PriceListInfo.ToString
+  - SuperOffice.CRM.PriceListInfo.ValidFrom
+  - SuperOffice.CRM.PriceListInfo.ValidTo
+  langs:
+  - csharp
+  - vb
+  name: PriceListInfo
+  nameWithType: PriceListInfo
+  fullName: SuperOffice.CRM.PriceListInfo
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nA pricelist is basically a collection of products. \nIt can be valid in a time period, and outright deactivated. \nAll prices in the product list is in a specific currency.\nWe have decieded not to separate prices and products\n, which means that we get a simpler data model, but some redundancy.\n"
+  syntax:
+    content: public class PriceListInfo
+    content.vb: Public Class PriceListInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.PriceListInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.PriceListInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.PriceListInfo)
+  - SuperOffice.CRM.PriceListInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.PriceListInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.PriceListInfo.ToString
+  commentId: M:SuperOffice.CRM.PriceListInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PriceListInfo.ToString()
+  fullName: SuperOffice.CRM.PriceListInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nHelper for simplified debugging.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.PriceListInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.PriceListInfo.IsValid
+  commentId: M:SuperOffice.CRM.PriceListInfo.IsValid
+  id: IsValid
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: IsValid()
+  nameWithType: PriceListInfo.IsValid()
+  fullName: SuperOffice.CRM.PriceListInfo.IsValid()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nChecks if the pricelist is valid according to the current date\n"
+  remarks: "\nIf ValidTo is set to DateTime.MinValue, it will be interpreted as valid\n"
+  syntax:
+    content: public bool IsValid()
+    return:
+      type: System.Boolean
+      description: True if valid according to current date
+    content.vb: Public Function IsValid As Boolean
+  overload: SuperOffice.CRM.PriceListInfo.IsValid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PriceListInfo.#ctor
+  commentId: M:SuperOffice.CRM.PriceListInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: PriceListInfo()
+  nameWithType: PriceListInfo.PriceListInfo()
+  fullName: SuperOffice.CRM.PriceListInfo.PriceListInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public PriceListInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.PriceListInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PriceListInfo.ERPPriceListKey
+  commentId: P:SuperOffice.CRM.PriceListInfo.ERPPriceListKey
+  id: ERPPriceListKey
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: ERPPriceListKey
+  nameWithType: PriceListInfo.ERPPriceListKey
+  fullName: SuperOffice.CRM.PriceListInfo.ERPPriceListKey
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nReference to the pricelist in the product supplier system.\n"
+  syntax:
+    content: public string ERPPriceListKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ERPPriceListKey As String
+  overload: SuperOffice.CRM.PriceListInfo.ERPPriceListKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PriceListInfo.QuoteConnectionId
+  commentId: P:SuperOffice.CRM.PriceListInfo.QuoteConnectionId
+  id: QuoteConnectionId
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnectionId
+  nameWithType: PriceListInfo.QuoteConnectionId
+  fullName: SuperOffice.CRM.PriceListInfo.QuoteConnectionId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe connection in SuperOffice this pricelist comes from.\n"
+  syntax:
+    content: public int QuoteConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteConnectionId As Integer
+  overload: SuperOffice.CRM.PriceListInfo.QuoteConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PriceListInfo.Name
+  commentId: P:SuperOffice.CRM.PriceListInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PriceListInfo.Name
+  fullName: SuperOffice.CRM.PriceListInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nName of this pricelist to use in the user interface.\n"
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.CRM.PriceListInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PriceListInfo.Description
+  commentId: P:SuperOffice.CRM.PriceListInfo.Description
+  id: Description
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: PriceListInfo.Description
+  fullName: SuperOffice.CRM.PriceListInfo.Description
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nDescription of this pricelist , will be used as tool-tip in the user interface.\n"
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: SuperOffice.CRM.PriceListInfo.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PriceListInfo.Currency
+  commentId: P:SuperOffice.CRM.PriceListInfo.Currency
+  id: Currency
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: PriceListInfo.Currency
+  fullName: SuperOffice.CRM.PriceListInfo.Currency
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe iso currency code, like &apos;USD&apos; or &apos;NOK&apos;.\n"
+  syntax:
+    content: public string Currency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Currency As String
+  overload: SuperOffice.CRM.PriceListInfo.Currency*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PriceListInfo.CurrencyName
+  commentId: P:SuperOffice.CRM.PriceListInfo.CurrencyName
+  id: CurrencyName
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: CurrencyName
+  nameWithType: PriceListInfo.CurrencyName
+  fullName: SuperOffice.CRM.PriceListInfo.CurrencyName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe name to use in the user interface, like perhaps &apos;US dollar&apos; or &apos;$&apos;\n"
+  syntax:
+    content: public string CurrencyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrencyName As String
+  overload: SuperOffice.CRM.PriceListInfo.CurrencyName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PriceListInfo.ValidFrom
+  commentId: P:SuperOffice.CRM.PriceListInfo.ValidFrom
+  id: ValidFrom
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: ValidFrom
+  nameWithType: PriceListInfo.ValidFrom
+  fullName: SuperOffice.CRM.PriceListInfo.ValidFrom
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe date (inclusive) the pricelist start to be valid. \nThis can be DateTime.MinValue to signal that it doesn&apos;t have a specific start date.\n"
+  syntax:
+    content: public DateTime ValidFrom { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ValidFrom As Date
+  overload: SuperOffice.CRM.PriceListInfo.ValidFrom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PriceListInfo.ValidTo
+  commentId: P:SuperOffice.CRM.PriceListInfo.ValidTo
+  id: ValidTo
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: ValidTo
+  nameWithType: PriceListInfo.ValidTo
+  fullName: SuperOffice.CRM.PriceListInfo.ValidTo
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe date (inclusive) the pricelist ends to be valid. \nThis can be DateTime.MaxValue to signal that it doesn&apos;t have a specific end date.\n"
+  syntax:
+    content: public DateTime ValidTo { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ValidTo As Date
+  overload: SuperOffice.CRM.PriceListInfo.ValidTo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PriceListInfo.IsActive
+  commentId: P:SuperOffice.CRM.PriceListInfo.IsActive
+  id: IsActive
+  parent: SuperOffice.CRM.PriceListInfo
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: PriceListInfo.IsActive
+  fullName: SuperOffice.CRM.PriceListInfo.IsActive
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nIs the list active (as opposed to being worked on, suddenly canceled, etc.\n"
+  syntax:
+    content: public bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsActive As Boolean
+  overload: SuperOffice.CRM.PriceListInfo.IsActive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.PriceListInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PriceListInfo, To>()
+  nameWithType: EnumUtil.MapEnums<PriceListInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.PriceListInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PriceListInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.PriceListInfo, To)()
+  name.vb: MapEnums(Of PriceListInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PriceListInfo, To>
+    nameWithType: EnumUtil.MapEnums<PriceListInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.PriceListInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PriceListInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of PriceListInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.PriceListInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.PriceListInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.PriceListInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<PriceListInfo>(PriceListInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<PriceListInfo>(PriceListInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.PriceListInfo>(SuperOffice.CRM.PriceListInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PriceListInfo)(PriceListInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.PriceListInfo)(SuperOffice.CRM.PriceListInfo)
+  name.vb: AssignByReflection(Of PriceListInfo)(PriceListInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<PriceListInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<PriceListInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.PriceListInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.PriceListInfo
+    name: PriceListInfo
+    nameWithType: PriceListInfo
+    fullName: SuperOffice.CRM.PriceListInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of PriceListInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of PriceListInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.PriceListInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.PriceListInfo
+    name: PriceListInfo
+    nameWithType: PriceListInfo
+    fullName: SuperOffice.CRM.PriceListInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.PriceListInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<PriceListInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<PriceListInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.PriceListInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of PriceListInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.PriceListInfo)()
+  name.vb: GraphCopy(Of PriceListInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<PriceListInfo>
+    nameWithType: ObjectExtensions.GraphCopy<PriceListInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.PriceListInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of PriceListInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of PriceListInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.PriceListInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.PriceListInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PriceListInfo, To>()
+  nameWithType: Converters.MapEnums<PriceListInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.PriceListInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of PriceListInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.PriceListInfo, To)()
+  name.vb: MapEnums(Of PriceListInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PriceListInfo, To>
+    nameWithType: Converters.MapEnums<PriceListInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.PriceListInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PriceListInfo, To)
+    nameWithType: Converters.MapEnums(Of PriceListInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.PriceListInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.PriceListInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PriceListInfo.ToString
+  fullName: SuperOffice.CRM.PriceListInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.PriceListInfo.IsValid*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.IsValid
+  isExternal: true
+  name: IsValid
+  nameWithType: PriceListInfo.IsValid
+  fullName: SuperOffice.CRM.PriceListInfo.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.PriceListInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.#ctor
+  isExternal: true
+  name: PriceListInfo
+  nameWithType: PriceListInfo.PriceListInfo
+  fullName: SuperOffice.CRM.PriceListInfo.PriceListInfo
+- uid: SuperOffice.CRM.PriceListInfo.ERPPriceListKey*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.ERPPriceListKey
+  isExternal: true
+  name: ERPPriceListKey
+  nameWithType: PriceListInfo.ERPPriceListKey
+  fullName: SuperOffice.CRM.PriceListInfo.ERPPriceListKey
+- uid: SuperOffice.CRM.PriceListInfo.QuoteConnectionId*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.QuoteConnectionId
+  isExternal: true
+  name: QuoteConnectionId
+  nameWithType: PriceListInfo.QuoteConnectionId
+  fullName: SuperOffice.CRM.PriceListInfo.QuoteConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.PriceListInfo.Name*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: PriceListInfo.Name
+  fullName: SuperOffice.CRM.PriceListInfo.Name
+- uid: SuperOffice.CRM.PriceListInfo.Description*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: PriceListInfo.Description
+  fullName: SuperOffice.CRM.PriceListInfo.Description
+- uid: SuperOffice.CRM.PriceListInfo.Currency*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.Currency
+  isExternal: true
+  name: Currency
+  nameWithType: PriceListInfo.Currency
+  fullName: SuperOffice.CRM.PriceListInfo.Currency
+- uid: SuperOffice.CRM.PriceListInfo.CurrencyName*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.CurrencyName
+  isExternal: true
+  name: CurrencyName
+  nameWithType: PriceListInfo.CurrencyName
+  fullName: SuperOffice.CRM.PriceListInfo.CurrencyName
+- uid: SuperOffice.CRM.PriceListInfo.ValidFrom*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.ValidFrom
+  isExternal: true
+  name: ValidFrom
+  nameWithType: PriceListInfo.ValidFrom
+  fullName: SuperOffice.CRM.PriceListInfo.ValidFrom
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.PriceListInfo.ValidTo*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.ValidTo
+  isExternal: true
+  name: ValidTo
+  nameWithType: PriceListInfo.ValidTo
+  fullName: SuperOffice.CRM.PriceListInfo.ValidTo
+- uid: SuperOffice.CRM.PriceListInfo.IsActive*
+  commentId: Overload:SuperOffice.CRM.PriceListInfo.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: PriceListInfo.IsActive
+  fullName: SuperOffice.CRM.PriceListInfo.IsActive

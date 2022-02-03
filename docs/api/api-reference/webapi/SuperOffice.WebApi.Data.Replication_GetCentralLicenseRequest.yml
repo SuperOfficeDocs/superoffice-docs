@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest
+  commentId: T:SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest
+  id: Replication_GetCentralLicenseRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Replication_GetCentralLicenseRequest
+  nameWithType: Replication_GetCentralLicenseRequest
+  fullName: SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Replication_GetCentralLicenseRequest : Object'
+    content.vb: >-
+      Public Class Replication_GetCentralLicenseRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest
+  langs:
+  - csharp
+  - vb
+  name: Replication_GetCentralLicenseRequest()
+  nameWithType: Replication_GetCentralLicenseRequest.Replication_GetCentralLicenseRequest()
+  fullName: SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest.Replication_GetCentralLicenseRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Replication_GetCentralLicenseRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest.#ctor
+  isExternal: true
+  name: Replication_GetCentralLicenseRequest
+  nameWithType: Replication_GetCentralLicenseRequest.Replication_GetCentralLicenseRequest
+  fullName: SuperOffice.WebApi.Data.Replication_GetCentralLicenseRequest.Replication_GetCentralLicenseRequest

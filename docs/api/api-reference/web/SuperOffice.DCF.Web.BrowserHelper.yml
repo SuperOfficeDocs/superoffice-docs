@@ -1,0 +1,938 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.BrowserHelper
+  commentId: T:SuperOffice.DCF.Web.BrowserHelper
+  id: BrowserHelper
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.BrowserHelper.Is64bitMsie(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsAndroid(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsChrome(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsChromeOs(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsEdge(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsFirefox(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsIntelOsX(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsIntelWindows(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsIos(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsLinux(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsMobile(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsOsX(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsSafari(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsUnknownOs(System.String)
+  - SuperOffice.DCF.Web.BrowserHelper.IsWindows(System.String)
+  langs:
+  - csharp
+  - vb
+  name: BrowserHelper
+  nameWithType: BrowserHelper
+  fullName: SuperOffice.DCF.Web.BrowserHelper
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static class BrowserHelper
+    content.vb: Public Module BrowserHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Web.BrowserHelper.Is64bitMsie(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.Is64bitMsie(System.String)
+  id: Is64bitMsie(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: Is64bitMsie(String)
+  nameWithType: BrowserHelper.Is64bitMsie(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.Is64bitMsie(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool Is64bitMsie(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Is64bitMsie(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.Is64bitMsie*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsOsX(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsOsX(System.String)
+  id: IsOsX(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsOsX(String)
+  nameWithType: BrowserHelper.IsOsX(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsOsX(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsOsX(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsOsX(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsOsX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsIos(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsIos(System.String)
+  id: IsIos(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsIos(String)
+  nameWithType: BrowserHelper.IsIos(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsIos(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsIos(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsIos(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsIos*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsAndroid(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsAndroid(System.String)
+  id: IsAndroid(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsAndroid(String)
+  nameWithType: BrowserHelper.IsAndroid(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsAndroid(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsAndroid(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsAndroid(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsAndroid*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsMobile(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsMobile(System.String)
+  id: IsMobile(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsMobile(String)
+  nameWithType: BrowserHelper.IsMobile(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsMobile(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsMobile(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsMobile(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsMobile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsIntelOsX(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsIntelOsX(System.String)
+  id: IsIntelOsX(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsIntelOsX(String)
+  nameWithType: BrowserHelper.IsIntelOsX(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsIntelOsX(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsIntelOsX(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsIntelOsX(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsIntelOsX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsWindows(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsWindows(System.String)
+  id: IsWindows(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsWindows(String)
+  nameWithType: BrowserHelper.IsWindows(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsWindows(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsWindows(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsWindows(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsWindows*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsIntelWindows(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsIntelWindows(System.String)
+  id: IsIntelWindows(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsIntelWindows(String)
+  nameWithType: BrowserHelper.IsIntelWindows(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsIntelWindows(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsIntelWindows(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsIntelWindows(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsIntelWindows*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsLinux(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsLinux(System.String)
+  id: IsLinux(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsLinux(String)
+  nameWithType: BrowserHelper.IsLinux(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsLinux(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsLinux(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsLinux(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsLinux*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsChromeOs(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsChromeOs(System.String)
+  id: IsChromeOs(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsChromeOs(String)
+  nameWithType: BrowserHelper.IsChromeOs(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsChromeOs(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsChromeOs(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsChromeOs(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsChromeOs*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsUnknownOs(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsUnknownOs(System.String)
+  id: IsUnknownOs(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsUnknownOs(String)
+  nameWithType: BrowserHelper.IsUnknownOs(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsUnknownOs(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsUnknownOs(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsUnknownOs(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsUnknownOs*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsFirefox(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsFirefox(System.String)
+  id: IsFirefox(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsFirefox(String)
+  nameWithType: BrowserHelper.IsFirefox(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsFirefox(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsFirefox(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsFirefox(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsFirefox*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsChrome(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsChrome(System.String)
+  id: IsChrome(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsChrome(String)
+  nameWithType: BrowserHelper.IsChrome(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsChrome(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsChrome(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsChrome(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsChrome*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsEdge(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsEdge(System.String)
+  id: IsEdge(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsEdge(String)
+  nameWithType: BrowserHelper.IsEdge(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsEdge(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsEdge(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsEdge(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsEdge*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsSafari(System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserHelper.IsSafari(System.String)
+  id: IsSafari(System.String)
+  parent: SuperOffice.DCF.Web.BrowserHelper
+  langs:
+  - csharp
+  - vb
+  name: IsSafari(String)
+  nameWithType: BrowserHelper.IsSafari(String)
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsSafari(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsSafari(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSafari(userAgent As String) As Boolean
+  overload: SuperOffice.DCF.Web.BrowserHelper.IsSafari*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.BrowserHelper.Is64bitMsie*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.Is64bitMsie
+  isExternal: true
+  name: Is64bitMsie
+  nameWithType: BrowserHelper.Is64bitMsie
+  fullName: SuperOffice.DCF.Web.BrowserHelper.Is64bitMsie
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsOsX*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsOsX
+  isExternal: true
+  name: IsOsX
+  nameWithType: BrowserHelper.IsOsX
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsOsX
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsIos*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsIos
+  isExternal: true
+  name: IsIos
+  nameWithType: BrowserHelper.IsIos
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsIos
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsAndroid*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsAndroid
+  isExternal: true
+  name: IsAndroid
+  nameWithType: BrowserHelper.IsAndroid
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsAndroid
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsMobile*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsMobile
+  isExternal: true
+  name: IsMobile
+  nameWithType: BrowserHelper.IsMobile
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsMobile
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsIntelOsX*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsIntelOsX
+  isExternal: true
+  name: IsIntelOsX
+  nameWithType: BrowserHelper.IsIntelOsX
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsIntelOsX
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsWindows*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsWindows
+  isExternal: true
+  name: IsWindows
+  nameWithType: BrowserHelper.IsWindows
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsWindows
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsIntelWindows*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsIntelWindows
+  isExternal: true
+  name: IsIntelWindows
+  nameWithType: BrowserHelper.IsIntelWindows
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsIntelWindows
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsLinux*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsLinux
+  isExternal: true
+  name: IsLinux
+  nameWithType: BrowserHelper.IsLinux
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsLinux
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsChromeOs*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsChromeOs
+  isExternal: true
+  name: IsChromeOs
+  nameWithType: BrowserHelper.IsChromeOs
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsChromeOs
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsUnknownOs*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsUnknownOs
+  isExternal: true
+  name: IsUnknownOs
+  nameWithType: BrowserHelper.IsUnknownOs
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsUnknownOs
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsFirefox*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsFirefox
+  isExternal: true
+  name: IsFirefox
+  nameWithType: BrowserHelper.IsFirefox
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsFirefox
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsChrome*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsChrome
+  isExternal: true
+  name: IsChrome
+  nameWithType: BrowserHelper.IsChrome
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsChrome
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsEdge*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsEdge
+  isExternal: true
+  name: IsEdge
+  nameWithType: BrowserHelper.IsEdge
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsEdge
+- uid: SuperOffice.DCF.Web.BrowserHelper.IsSafari*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserHelper.IsSafari
+  isExternal: true
+  name: IsSafari
+  nameWithType: BrowserHelper.IsSafari
+  fullName: SuperOffice.DCF.Web.BrowserHelper.IsSafari

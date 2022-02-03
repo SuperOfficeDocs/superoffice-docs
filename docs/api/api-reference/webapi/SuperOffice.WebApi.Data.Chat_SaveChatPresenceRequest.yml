@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest
+  commentId: T:SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest
+  id: Chat_SaveChatPresenceRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.#ctor
+  - SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.ChatPresence
+  langs:
+  - csharp
+  - vb
+  name: Chat_SaveChatPresenceRequest
+  nameWithType: Chat_SaveChatPresenceRequest
+  fullName: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Chat_SaveChatPresenceRequest : Object'
+    content.vb: >-
+      Public Class Chat_SaveChatPresenceRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest
+  langs:
+  - csharp
+  - vb
+  name: Chat_SaveChatPresenceRequest()
+  nameWithType: Chat_SaveChatPresenceRequest.Chat_SaveChatPresenceRequest()
+  fullName: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.Chat_SaveChatPresenceRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Chat_SaveChatPresenceRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.ChatPresence
+  commentId: P:SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.ChatPresence
+  id: ChatPresence
+  parent: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest
+  langs:
+  - csharp
+  - vb
+  name: ChatPresence
+  nameWithType: Chat_SaveChatPresenceRequest.ChatPresence
+  fullName: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.ChatPresence
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ChatPresence[] ChatPresence { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ChatPresence[]
+    content.vb: Public Property ChatPresence As ChatPresence()
+  overload: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.ChatPresence*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.#ctor
+  isExternal: true
+  name: Chat_SaveChatPresenceRequest
+  nameWithType: Chat_SaveChatPresenceRequest.Chat_SaveChatPresenceRequest
+  fullName: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.Chat_SaveChatPresenceRequest
+- uid: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.ChatPresence*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.ChatPresence
+  isExternal: true
+  name: ChatPresence
+  nameWithType: Chat_SaveChatPresenceRequest.ChatPresence
+  fullName: SuperOffice.WebApi.Data.Chat_SaveChatPresenceRequest.ChatPresence
+- uid: SuperOffice.WebApi.Data.ChatPresence[]
+  isExternal: true
+  name: ChatPresence[]
+  nameWithType: ChatPresence[]
+  fullName: SuperOffice.WebApi.Data.ChatPresence[]
+  nameWithType.vb: ChatPresence()
+  fullName.vb: SuperOffice.WebApi.Data.ChatPresence()
+  name.vb: ChatPresence()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ChatPresence
+    name: ChatPresence
+    nameWithType: ChatPresence
+    fullName: SuperOffice.WebApi.Data.ChatPresence
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ChatPresence
+    name: ChatPresence
+    nameWithType: ChatPresence
+    fullName: SuperOffice.WebApi.Data.ChatPresence
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

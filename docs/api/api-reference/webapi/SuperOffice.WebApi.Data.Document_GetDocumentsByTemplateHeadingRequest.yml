@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest
+  id: Document_GetDocumentsByTemplateHeadingRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.TemplateHeadingId
+  langs:
+  - csharp
+  - vb
+  name: Document_GetDocumentsByTemplateHeadingRequest
+  nameWithType: Document_GetDocumentsByTemplateHeadingRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_GetDocumentsByTemplateHeadingRequest : Object'
+    content.vb: >-
+      Public Class Document_GetDocumentsByTemplateHeadingRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_GetDocumentsByTemplateHeadingRequest()
+  nameWithType: Document_GetDocumentsByTemplateHeadingRequest.Document_GetDocumentsByTemplateHeadingRequest()
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.Document_GetDocumentsByTemplateHeadingRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_GetDocumentsByTemplateHeadingRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.TemplateHeadingId
+  commentId: P:SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.TemplateHeadingId
+  id: TemplateHeadingId
+  parent: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest
+  langs:
+  - csharp
+  - vb
+  name: TemplateHeadingId
+  nameWithType: Document_GetDocumentsByTemplateHeadingRequest.TemplateHeadingId
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.TemplateHeadingId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TemplateHeadingId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TemplateHeadingId As Integer
+  overload: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.TemplateHeadingId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.#ctor
+  isExternal: true
+  name: Document_GetDocumentsByTemplateHeadingRequest
+  nameWithType: Document_GetDocumentsByTemplateHeadingRequest.Document_GetDocumentsByTemplateHeadingRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.Document_GetDocumentsByTemplateHeadingRequest
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.TemplateHeadingId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.TemplateHeadingId
+  isExternal: true
+  name: TemplateHeadingId
+  nameWithType: Document_GetDocumentsByTemplateHeadingRequest.TemplateHeadingId
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentsByTemplateHeadingRequest.TemplateHeadingId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

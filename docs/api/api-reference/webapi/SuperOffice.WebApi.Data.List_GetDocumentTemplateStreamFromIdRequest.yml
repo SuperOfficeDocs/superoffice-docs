@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest
+  id: List_GetDocumentTemplateStreamFromIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.DocumentTemplateId
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.LanguageCode
+  langs:
+  - csharp
+  - vb
+  name: List_GetDocumentTemplateStreamFromIdRequest
+  nameWithType: List_GetDocumentTemplateStreamFromIdRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetDocumentTemplateStreamFromIdRequest : Object'
+    content.vb: >-
+      Public Class List_GetDocumentTemplateStreamFromIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetDocumentTemplateStreamFromIdRequest()
+  nameWithType: List_GetDocumentTemplateStreamFromIdRequest.List_GetDocumentTemplateStreamFromIdRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.List_GetDocumentTemplateStreamFromIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetDocumentTemplateStreamFromIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.DocumentTemplateId
+  commentId: P:SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.DocumentTemplateId
+  id: DocumentTemplateId
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateId
+  nameWithType: List_GetDocumentTemplateStreamFromIdRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.DocumentTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.DocumentTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.LanguageCode
+  commentId: P:SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.LanguageCode
+  id: LanguageCode
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: LanguageCode
+  nameWithType: List_GetDocumentTemplateStreamFromIdRequest.LanguageCode
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.LanguageCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LanguageCode As String
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.LanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.#ctor
+  isExternal: true
+  name: List_GetDocumentTemplateStreamFromIdRequest
+  nameWithType: List_GetDocumentTemplateStreamFromIdRequest.List_GetDocumentTemplateStreamFromIdRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.List_GetDocumentTemplateStreamFromIdRequest
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.DocumentTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.DocumentTemplateId
+  isExternal: true
+  name: DocumentTemplateId
+  nameWithType: List_GetDocumentTemplateStreamFromIdRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.DocumentTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.LanguageCode*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.LanguageCode
+  isExternal: true
+  name: LanguageCode
+  nameWithType: List_GetDocumentTemplateStreamFromIdRequest.LanguageCode
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateStreamFromIdRequest.LanguageCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

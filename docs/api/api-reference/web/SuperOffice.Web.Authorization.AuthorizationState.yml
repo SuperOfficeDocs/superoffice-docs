@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Authorization.AuthorizationState
+  commentId: T:SuperOffice.Web.Authorization.AuthorizationState
+  id: AuthorizationState
+  parent: SuperOffice.Web.Authorization
+  children:
+  - SuperOffice.Web.Authorization.AuthorizationState.Authorized
+  - SuperOffice.Web.Authorization.AuthorizationState.Denied
+  - SuperOffice.Web.Authorization.AuthorizationState.DontCare
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationState
+  nameWithType: AuthorizationState
+  fullName: SuperOffice.Web.Authorization.AuthorizationState
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Authorization
+  syntax:
+    content: public enum AuthorizationState
+    content.vb: Public Enum AuthorizationState
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Web.Authorization.AuthorizationState.Denied
+  commentId: F:SuperOffice.Web.Authorization.AuthorizationState.Denied
+  id: Denied
+  parent: SuperOffice.Web.Authorization.AuthorizationState
+  langs:
+  - csharp
+  - vb
+  name: Denied
+  nameWithType: AuthorizationState.Denied
+  fullName: SuperOffice.Web.Authorization.AuthorizationState.Denied
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Authorization
+  syntax:
+    content: Denied = 0
+    return:
+      type: SuperOffice.Web.Authorization.AuthorizationState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Web.Authorization.AuthorizationState.DontCare
+  commentId: F:SuperOffice.Web.Authorization.AuthorizationState.DontCare
+  id: DontCare
+  parent: SuperOffice.Web.Authorization.AuthorizationState
+  langs:
+  - csharp
+  - vb
+  name: DontCare
+  nameWithType: AuthorizationState.DontCare
+  fullName: SuperOffice.Web.Authorization.AuthorizationState.DontCare
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Authorization
+  syntax:
+    content: DontCare = 1
+    return:
+      type: SuperOffice.Web.Authorization.AuthorizationState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Web.Authorization.AuthorizationState.Authorized
+  commentId: F:SuperOffice.Web.Authorization.AuthorizationState.Authorized
+  id: Authorized
+  parent: SuperOffice.Web.Authorization.AuthorizationState
+  langs:
+  - csharp
+  - vb
+  name: Authorized
+  nameWithType: AuthorizationState.Authorized
+  fullName: SuperOffice.Web.Authorization.AuthorizationState.Authorized
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Authorization
+  syntax:
+    content: Authorized = 2
+    return:
+      type: SuperOffice.Web.Authorization.AuthorizationState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Web.Authorization
+  commentId: N:SuperOffice.Web.Authorization
+  isExternal: true
+  name: SuperOffice.Web.Authorization
+  nameWithType: SuperOffice.Web.Authorization
+  fullName: SuperOffice.Web.Authorization
+- uid: SuperOffice.Web.Authorization.AuthorizationState
+  commentId: T:SuperOffice.Web.Authorization.AuthorizationState
+  parent: SuperOffice.Web.Authorization
+  isExternal: true
+  name: AuthorizationState
+  nameWithType: AuthorizationState
+  fullName: SuperOffice.Web.Authorization.AuthorizationState

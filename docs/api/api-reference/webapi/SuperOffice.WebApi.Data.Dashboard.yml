@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dashboard
+  commentId: T:SuperOffice.WebApi.Data.Dashboard
+  id: Dashboard
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dashboard.#ctor
+  - SuperOffice.WebApi.Data.Dashboard.AssociateId
+  - SuperOffice.WebApi.Data.Dashboard.Caption
+  - SuperOffice.WebApi.Data.Dashboard.DashboardId
+  - SuperOffice.WebApi.Data.Dashboard.Layout
+  - SuperOffice.WebApi.Data.Dashboard.Layout_String
+  - SuperOffice.WebApi.Data.Dashboard.Tiles
+  langs:
+  - csharp
+  - vb
+  name: Dashboard
+  nameWithType: Dashboard
+  fullName: SuperOffice.WebApi.Data.Dashboard
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Dashboard.\nDashboard configuration    \n"
+  example:
+  - "\nGet Dashboard 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new DashboardAgent(configuration);\nvar dashboard = agent.GetDashboard( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Dashboard : Carrier'
+    content.vb: >-
+      Public Class Dashboard
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DashboardAgent
+    commentId: T:SuperOffice.WebApi.Agents.DashboardAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dashboard.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dashboard.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dashboard
+  langs:
+  - csharp
+  - vb
+  name: Dashboard()
+  nameWithType: Dashboard.Dashboard()
+  fullName: SuperOffice.WebApi.Data.Dashboard.Dashboard()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Dashboard()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dashboard.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard.DashboardId
+  commentId: P:SuperOffice.WebApi.Data.Dashboard.DashboardId
+  id: DashboardId
+  parent: SuperOffice.WebApi.Data.Dashboard
+  langs:
+  - csharp
+  - vb
+  name: DashboardId
+  nameWithType: Dashboard.DashboardId
+  fullName: SuperOffice.WebApi.Data.Dashboard.DashboardId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe dashboard id\n"
+  syntax:
+    content: public virtual int DashboardId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DashboardId As Integer
+  overload: SuperOffice.WebApi.Data.Dashboard.DashboardId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Dashboard.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Dashboard.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Dashboard
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Dashboard.AssociateId
+  fullName: SuperOffice.WebApi.Data.Dashboard.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the associate who owns this dashboard\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Dashboard.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Dashboard.Caption
+  commentId: P:SuperOffice.WebApi.Data.Dashboard.Caption
+  id: Caption
+  parent: SuperOffice.WebApi.Data.Dashboard
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: Dashboard.Caption
+  fullName: SuperOffice.WebApi.Data.Dashboard.Caption
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe caption for this dashboard\n"
+  syntax:
+    content: public virtual string Caption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Caption As String
+  overload: SuperOffice.WebApi.Data.Dashboard.Caption*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Dashboard.Layout_String
+  commentId: P:SuperOffice.WebApi.Data.Dashboard.Layout_String
+  id: Layout_String
+  parent: SuperOffice.WebApi.Data.Dashboard
+  langs:
+  - csharp
+  - vb
+  name: Layout_String
+  nameWithType: Dashboard.Layout_String
+  fullName: SuperOffice.WebApi.Data.Dashboard.Layout_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe dashboard layout, how the tiles are organized on the screen\nRaw string enum value.\n"
+  syntax:
+    content: public string Layout_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Layout_String As String
+  overload: SuperOffice.WebApi.Data.Dashboard.Layout_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Dashboard.Layout
+    commentId: P:SuperOffice.WebApi.Data.Dashboard.Layout
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard.Layout
+  commentId: P:SuperOffice.WebApi.Data.Dashboard.Layout
+  id: Layout
+  parent: SuperOffice.WebApi.Data.Dashboard
+  langs:
+  - csharp
+  - vb
+  name: Layout
+  nameWithType: Dashboard.Layout
+  fullName: SuperOffice.WebApi.Data.Dashboard.Layout
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe dashboard layout, how the tiles are organized on the screen\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<DashboardLayout> Layout { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.DashboardLayout}
+    content.vb: Public Property Layout As Nullable(Of DashboardLayout)
+  overload: SuperOffice.WebApi.Data.Dashboard.Layout*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Dashboard.Layout_String
+    commentId: P:SuperOffice.WebApi.Data.Dashboard.Layout_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard.Tiles
+  commentId: P:SuperOffice.WebApi.Data.Dashboard.Tiles
+  id: Tiles
+  parent: SuperOffice.WebApi.Data.Dashboard
+  langs:
+  - csharp
+  - vb
+  name: Tiles
+  nameWithType: Dashboard.Tiles
+  fullName: SuperOffice.WebApi.Data.Dashboard.Tiles
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tiles associated with this dashboard\n"
+  syntax:
+    content: public virtual DashboardTile[] Tiles { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTile[]
+    content.vb: Public Overridable Property Tiles As DashboardTile()
+  overload: SuperOffice.WebApi.Data.Dashboard.Tiles*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DashboardAgent
+  commentId: T:SuperOffice.WebApi.Agents.DashboardAgent
+  isExternal: true
+  name: DashboardAgent
+  nameWithType: DashboardAgent
+  fullName: SuperOffice.WebApi.Agents.DashboardAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dashboard.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard.#ctor
+  isExternal: true
+  name: Dashboard
+  nameWithType: Dashboard.Dashboard
+  fullName: SuperOffice.WebApi.Data.Dashboard.Dashboard
+- uid: SuperOffice.WebApi.Data.Dashboard.DashboardId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard.DashboardId
+  isExternal: true
+  name: DashboardId
+  nameWithType: Dashboard.DashboardId
+  fullName: SuperOffice.WebApi.Data.Dashboard.DashboardId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Dashboard.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Dashboard.AssociateId
+  fullName: SuperOffice.WebApi.Data.Dashboard.AssociateId
+- uid: SuperOffice.WebApi.Data.Dashboard.Caption*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard.Caption
+  isExternal: true
+  name: Caption
+  nameWithType: Dashboard.Caption
+  fullName: SuperOffice.WebApi.Data.Dashboard.Caption
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Dashboard.Layout_String*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard.Layout_String
+  isExternal: true
+  name: Layout_String
+  nameWithType: Dashboard.Layout_String
+  fullName: SuperOffice.WebApi.Data.Dashboard.Layout_String
+- uid: SuperOffice.WebApi.Data.Dashboard.Layout
+  commentId: P:SuperOffice.WebApi.Data.Dashboard.Layout
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.Dashboard.Layout*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard.Layout
+  isExternal: true
+  name: Layout
+  nameWithType: Dashboard.Layout
+  fullName: SuperOffice.WebApi.Data.Dashboard.Layout
+- uid: SuperOffice.WebApi.Data.Dashboard.Layout_String
+  commentId: P:SuperOffice.WebApi.Data.Dashboard.Layout_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.DashboardLayout}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.DashboardLayout}'
+  definition: System.Nullable`1
+  name: Nullable<DashboardLayout>
+  nameWithType: Nullable<DashboardLayout>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.DashboardLayout>
+  nameWithType.vb: Nullable(Of DashboardLayout)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DashboardLayout)
+  name.vb: Nullable(Of DashboardLayout)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DashboardLayout
+    name: DashboardLayout
+    nameWithType: DashboardLayout
+    fullName: SuperOffice.WebApi.Data.DashboardLayout
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DashboardLayout
+    name: DashboardLayout
+    nameWithType: DashboardLayout
+    fullName: SuperOffice.WebApi.Data.DashboardLayout
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.Dashboard.Tiles*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard.Tiles
+  isExternal: true
+  name: Tiles
+  nameWithType: Dashboard.Tiles
+  fullName: SuperOffice.WebApi.Data.Dashboard.Tiles
+- uid: SuperOffice.WebApi.Data.DashboardTile[]
+  isExternal: true
+  name: DashboardTile[]
+  nameWithType: DashboardTile[]
+  fullName: SuperOffice.WebApi.Data.DashboardTile[]
+  nameWithType.vb: DashboardTile()
+  fullName.vb: SuperOffice.WebApi.Data.DashboardTile()
+  name.vb: DashboardTile()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.DashboardTile
+    name: DashboardTile
+    nameWithType: DashboardTile
+    fullName: SuperOffice.WebApi.Data.DashboardTile
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.DashboardTile
+    name: DashboardTile
+    nameWithType: DashboardTile
+    fullName: SuperOffice.WebApi.Data.DashboardTile
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TileData
+  commentId: T:SuperOffice.WebApi.Data.TileData
+  id: TileData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TileData.#ctor
+  - SuperOffice.WebApi.Data.TileData.Columns
+  - SuperOffice.WebApi.Data.TileData.Result
+  langs:
+  - csharp
+  - vb
+  name: TileData
+  nameWithType: TileData
+  fullName: SuperOffice.WebApi.Data.TileData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TileData.\nClass representing data to be visualized in a dashboard tile.    \n"
+  syntax:
+    content: 'public class TileData : Object'
+    content.vb: >-
+      Public Class TileData
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DashboardAgent
+    commentId: T:SuperOffice.WebApi.Agents.DashboardAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TileData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TileData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TileData
+  langs:
+  - csharp
+  - vb
+  name: TileData()
+  nameWithType: TileData.TileData()
+  fullName: SuperOffice.WebApi.Data.TileData.TileData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TileData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TileData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TileData.Columns
+  commentId: P:SuperOffice.WebApi.Data.TileData.Columns
+  id: Columns
+  parent: SuperOffice.WebApi.Data.TileData
+  langs:
+  - csharp
+  - vb
+  name: Columns
+  nameWithType: TileData.Columns
+  fullName: SuperOffice.WebApi.Data.TileData.Columns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nColumn information\n"
+  syntax:
+    content: public virtual ArchiveColumnInfo[] Columns { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveColumnInfo[]
+    content.vb: Public Overridable Property Columns As ArchiveColumnInfo()
+  overload: SuperOffice.WebApi.Data.TileData.Columns*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TileData.Result
+  commentId: P:SuperOffice.WebApi.Data.TileData.Result
+  id: Result
+  parent: SuperOffice.WebApi.Data.TileData
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: TileData.Result
+  fullName: SuperOffice.WebApi.Data.TileData.Result
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe result set\n"
+  syntax:
+    content: public virtual ArchiveListResult Result { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveListResult
+    content.vb: Public Overridable Property Result As ArchiveListResult
+  overload: SuperOffice.WebApi.Data.TileData.Result*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.DashboardAgent
+  commentId: T:SuperOffice.WebApi.Agents.DashboardAgent
+  isExternal: true
+  name: DashboardAgent
+  nameWithType: DashboardAgent
+  fullName: SuperOffice.WebApi.Agents.DashboardAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TileData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TileData.#ctor
+  isExternal: true
+  name: TileData
+  nameWithType: TileData.TileData
+  fullName: SuperOffice.WebApi.Data.TileData.TileData
+- uid: SuperOffice.WebApi.Data.TileData.Columns*
+  commentId: Overload:SuperOffice.WebApi.Data.TileData.Columns
+  isExternal: true
+  name: Columns
+  nameWithType: TileData.Columns
+  fullName: SuperOffice.WebApi.Data.TileData.Columns
+- uid: SuperOffice.WebApi.Data.ArchiveColumnInfo[]
+  isExternal: true
+  name: ArchiveColumnInfo[]
+  nameWithType: ArchiveColumnInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo[]
+  nameWithType.vb: ArchiveColumnInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveColumnInfo()
+  name.vb: ArchiveColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.TileData.Result*
+  commentId: Overload:SuperOffice.WebApi.Data.TileData.Result
+  isExternal: true
+  name: Result
+  nameWithType: TileData.Result
+  fullName: SuperOffice.WebApi.Data.TileData.Result
+- uid: SuperOffice.WebApi.Data.ArchiveListResult
+  commentId: T:SuperOffice.WebApi.Data.ArchiveListResult
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ArchiveListResult
+  nameWithType: ArchiveListResult
+  fullName: SuperOffice.WebApi.Data.ArchiveListResult

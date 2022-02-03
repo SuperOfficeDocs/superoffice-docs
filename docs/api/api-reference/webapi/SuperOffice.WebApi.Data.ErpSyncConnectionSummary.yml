@@ -1,0 +1,406 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+  id: ErpSyncConnectionSummary
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSyncConnectionSummary.#ctor
+  - SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Active
+  - SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Actors
+  - SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Deleted
+  - SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayDescription
+  - SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayName
+  - SuperOffice.WebApi.Data.ErpSyncConnectionSummary.LastSync
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncConnectionSummary
+  nameWithType: ErpSyncConnectionSummary
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ErpSyncConnectionSummary.\nSummary of the current setup of the ERP Integration, for one ERP connection    \n"
+  syntax:
+    content: 'public class ErpSyncConnectionSummary : Carrier'
+    content.vb: >-
+      Public Class ErpSyncConnectionSummary
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
+    commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncConnectionSummary()
+  nameWithType: ErpSyncConnectionSummary.ErpSyncConnectionSummary()
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.ErpSyncConnectionSummary()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ErpSyncConnectionSummary()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayName
+  id: DisplayName
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ErpSyncConnectionSummary.DisplayName
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nConnection name shown to user; multi-language support\n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayDescription
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayDescription
+  id: DisplayDescription
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+  langs:
+  - csharp
+  - vb
+  name: DisplayDescription
+  nameWithType: ErpSyncConnectionSummary.DisplayDescription
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip/description shown to user; multi-language support\n"
+  syntax:
+    content: public virtual string DisplayDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayDescription As String
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Active
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Active
+  id: Active
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: ErpSyncConnectionSummary.Active
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Active
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the connection currently active\n"
+  syntax:
+    content: public virtual bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Active As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Active*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Deleted
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ErpSyncConnectionSummary.Deleted
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the connection deleted\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.LastSync
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.LastSync
+  id: LastSync
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+  langs:
+  - csharp
+  - vb
+  name: LastSync
+  nameWithType: ErpSyncConnectionSummary.LastSync
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.LastSync
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe time of the last sync\n"
+  syntax:
+    content: public virtual DateTime LastSync { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastSync As DateTime
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.LastSync*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Actors
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Actors
+  id: Actors
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+  langs:
+  - csharp
+  - vb
+  name: Actors
+  nameWithType: ErpSyncConnectionSummary.Actors
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Actors
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummaries of the configuration of the actors configured for this connection\n"
+  syntax:
+    content: public virtual ErpSyncActorSummary[] Actors { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ErpSyncActorSummary[]
+    content.vb: Public Overridable Property Actors As ErpSyncActorSummary()
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Actors*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.#ctor
+  isExternal: true
+  name: ErpSyncConnectionSummary
+  nameWithType: ErpSyncConnectionSummary.ErpSyncConnectionSummary
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.ErpSyncConnectionSummary
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: ErpSyncConnectionSummary.DisplayName
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayDescription
+  isExternal: true
+  name: DisplayDescription
+  nameWithType: ErpSyncConnectionSummary.DisplayDescription
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.DisplayDescription
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Active*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Active
+  isExternal: true
+  name: Active
+  nameWithType: ErpSyncConnectionSummary.Active
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: ErpSyncConnectionSummary.Deleted
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Deleted
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.LastSync*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.LastSync
+  isExternal: true
+  name: LastSync
+  nameWithType: ErpSyncConnectionSummary.LastSync
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.LastSync
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Actors*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Actors
+  isExternal: true
+  name: Actors
+  nameWithType: ErpSyncConnectionSummary.Actors
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary.Actors
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary[]
+  isExternal: true
+  name: ErpSyncActorSummary[]
+  nameWithType: ErpSyncActorSummary[]
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary[]
+  nameWithType.vb: ErpSyncActorSummary()
+  fullName.vb: SuperOffice.WebApi.Data.ErpSyncActorSummary()
+  name.vb: ErpSyncActorSummary()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ErpSyncActorSummary
+    name: ErpSyncActorSummary
+    nameWithType: ErpSyncActorSummary
+    fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ErpSyncActorSummary
+    name: ErpSyncActorSummary
+    nameWithType: ErpSyncActorSummary
+    fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

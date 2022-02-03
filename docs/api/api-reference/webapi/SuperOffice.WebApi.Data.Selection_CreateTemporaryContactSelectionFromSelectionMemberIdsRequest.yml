@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+  id: Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionId
+  - SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionMemberIds
+  langs:
+  - csharp
+  - vb
+  name: Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+  nameWithType: Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest : Object'
+    content.vb: >-
+      Public Class Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest()
+  nameWithType: Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionMemberIds
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionMemberIds
+  id: SelectionMemberIds
+  parent: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionMemberIds
+  nameWithType: Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionMemberIds
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionMemberIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] SelectionMemberIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property SelectionMemberIds As Integer()
+  overload: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionMemberIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.#ctor
+  isExternal: true
+  name: Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+  nameWithType: Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionMemberIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionMemberIds
+  isExternal: true
+  name: SelectionMemberIds
+  nameWithType: Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionMemberIds
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest.SelectionMemberIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoPlaceHolder
+  commentId: T:SuperOffice.Web.UI.Controls.SoPlaceHolder
+  id: SoPlaceHolder
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoPlaceHolder.#ctor
+  - SuperOffice.Web.UI.Controls.SoPlaceHolder.OnLoad(System.EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: SoPlaceHolder
+  nameWithType: SoPlaceHolder
+  fullName: SuperOffice.Web.UI.Controls.SoPlaceHolder
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoPlaceHolder : Panel'
+    content.vb: >-
+      Public Class SoPlaceHolder
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoPlaceHolder.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.Web.UI.Controls.SoPlaceHolder.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.Web.UI.Controls.SoPlaceHolder
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: SoPlaceHolder.OnLoad(EventArgs)
+  fullName: SuperOffice.Web.UI.Controls.SoPlaceHolder.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overload: SuperOffice.Web.UI.Controls.SoPlaceHolder.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoPlaceHolder.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoPlaceHolder.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoPlaceHolder
+  langs:
+  - csharp
+  - vb
+  name: SoPlaceHolder()
+  nameWithType: SoPlaceHolder.SoPlaceHolder()
+  fullName: SuperOffice.Web.UI.Controls.SoPlaceHolder.SoPlaceHolder()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoPlaceHolder()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoPlaceHolder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoPlaceHolder.OnLoad*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoPlaceHolder.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: SoPlaceHolder.OnLoad
+  fullName: SuperOffice.Web.UI.Controls.SoPlaceHolder.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.Web.UI.Controls.SoPlaceHolder.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoPlaceHolder.#ctor
+  isExternal: true
+  name: SoPlaceHolder
+  nameWithType: SoPlaceHolder.SoPlaceHolder
+  fullName: SuperOffice.Web.UI.Controls.SoPlaceHolder.SoPlaceHolder

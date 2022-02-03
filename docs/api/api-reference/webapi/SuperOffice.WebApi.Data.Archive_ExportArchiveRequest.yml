@@ -1,0 +1,510 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  commentId: T:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  id: Archive_ExportArchiveRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.#ctor
+  - SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns
+  - SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context
+  - SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities
+  - SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount
+  - SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType
+  - SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName
+  - SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions
+  - SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds
+  - SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder
+  langs:
+  - csharp
+  - vb
+  name: Archive_ExportArchiveRequest
+  nameWithType: Archive_ExportArchiveRequest
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Archive_ExportArchiveRequest : Object'
+    content.vb: >-
+      Public Class Archive_ExportArchiveRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: Archive_ExportArchiveRequest()
+  nameWithType: Archive_ExportArchiveRequest.Archive_ExportArchiveRequest()
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Archive_ExportArchiveRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Archive_ExportArchiveRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Archive_ExportArchiveRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: Archive_ExportArchiveRequest.Context
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities
+  commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities
+  id: DesiredEntities
+  parent: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: DesiredEntities
+  nameWithType: Archive_ExportArchiveRequest.DesiredEntities
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] DesiredEntities { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property DesiredEntities As String()
+  overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns
+  commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns
+  id: Columns
+  parent: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: Columns
+  nameWithType: Archive_ExportArchiveRequest.Columns
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] Columns { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Columns As String()
+  overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder
+  commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder
+  id: SortOrder
+  parent: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: Archive_ExportArchiveRequest.SortOrder
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveOrderByInfo[] SortOrder { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+    content.vb: Public Property SortOrder As ArchiveOrderByInfo()
+  overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions
+  commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions
+  id: Restrictions
+  parent: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: Archive_ExportArchiveRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveRestrictionInfo[] Restrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    content.vb: Public Property Restrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType
+  commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType
+  id: ExportType
+  parent: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: ExportType
+  nameWithType: Archive_ExportArchiveRequest.ExportType
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ExportType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExportType As String
+  overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds
+  commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds
+  id: SelectedRowIds
+  parent: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectedRowIds
+  nameWithType: Archive_ExportArchiveRequest.SelectedRowIds
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] SelectedRowIds { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property SelectedRowIds As String()
+  overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount
+  commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount
+  id: EstimatedRowCount
+  parent: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
+  langs:
+  - csharp
+  - vb
+  name: EstimatedRowCount
+  nameWithType: Archive_ExportArchiveRequest.EstimatedRowCount
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int EstimatedRowCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EstimatedRowCount As Integer
+  overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.#ctor
+  isExternal: true
+  name: Archive_ExportArchiveRequest
+  nameWithType: Archive_ExportArchiveRequest.Archive_ExportArchiveRequest
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Archive_ExportArchiveRequest
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Archive_ExportArchiveRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: Archive_ExportArchiveRequest.Context
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities
+  isExternal: true
+  name: DesiredEntities
+  nameWithType: Archive_ExportArchiveRequest.DesiredEntities
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns
+  isExternal: true
+  name: Columns
+  nameWithType: Archive_ExportArchiveRequest.Columns
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder
+  isExternal: true
+  name: SortOrder
+  nameWithType: Archive_ExportArchiveRequest.SortOrder
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions
+  isExternal: true
+  name: Restrictions
+  nameWithType: Archive_ExportArchiveRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType
+  isExternal: true
+  name: ExportType
+  nameWithType: Archive_ExportArchiveRequest.ExportType
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds
+  isExternal: true
+  name: SelectedRowIds
+  nameWithType: Archive_ExportArchiveRequest.SelectedRowIds
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds
+- uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount
+  isExternal: true
+  name: EstimatedRowCount
+  nameWithType: Archive_ExportArchiveRequest.EstimatedRowCount
+  fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

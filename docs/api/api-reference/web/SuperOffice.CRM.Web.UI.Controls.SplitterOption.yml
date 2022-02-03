@@ -1,0 +1,595 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SplitterOption
+  id: SplitterOption
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SplitterOption.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.SplitterOption.dockElements
+  - SuperOffice.CRM.Web.UI.Controls.SplitterOption.id
+  - SuperOffice.CRM.Web.UI.Controls.SplitterOption.minNextHeight
+  - SuperOffice.CRM.Web.UI.Controls.SplitterOption.minPreviousHeight
+  - SuperOffice.CRM.Web.UI.Controls.SplitterOption.offset
+  langs:
+  - csharp
+  - vb
+  name: SplitterOption
+  nameWithType: SplitterOption
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public class SplitterOption
+    content.vb: Public Class SplitterOption
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SplitterOption.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.SplitterOption
+  langs:
+  - csharp
+  - vb
+  name: SplitterOption()
+  nameWithType: SplitterOption.SplitterOption()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.SplitterOption()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SplitterOption()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.SplitterOption.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.id
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SplitterOption.id
+  id: id
+  parent: SuperOffice.CRM.Web.UI.Controls.SplitterOption
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: SplitterOption.id
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.id
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property id As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SplitterOption.id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.offset
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SplitterOption.offset
+  id: offset
+  parent: SuperOffice.CRM.Web.UI.Controls.SplitterOption
+  langs:
+  - csharp
+  - vb
+  name: offset
+  nameWithType: SplitterOption.offset
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.offset
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string offset { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property offset As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SplitterOption.offset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.dockElements
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SplitterOption.dockElements
+  id: dockElements
+  parent: SuperOffice.CRM.Web.UI.Controls.SplitterOption
+  langs:
+  - csharp
+  - vb
+  name: dockElements
+  nameWithType: SplitterOption.dockElements
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.dockElements
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SplitterOption.DockElement[] dockElements { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SplitterOption.DockElement[]
+    content.vb: Public Property dockElements As SplitterOption.DockElement()
+  overload: SuperOffice.CRM.Web.UI.Controls.SplitterOption.dockElements*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.minPreviousHeight
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SplitterOption.minPreviousHeight
+  id: minPreviousHeight
+  parent: SuperOffice.CRM.Web.UI.Controls.SplitterOption
+  langs:
+  - csharp
+  - vb
+  name: minPreviousHeight
+  nameWithType: SplitterOption.minPreviousHeight
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.minPreviousHeight
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int minPreviousHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property minPreviousHeight As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.SplitterOption.minPreviousHeight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.minNextHeight
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SplitterOption.minNextHeight
+  id: minNextHeight
+  parent: SuperOffice.CRM.Web.UI.Controls.SplitterOption
+  langs:
+  - csharp
+  - vb
+  name: minNextHeight
+  nameWithType: SplitterOption.minNextHeight
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.minNextHeight
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int minNextHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property minNextHeight As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.SplitterOption.minNextHeight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SplitterOption.#ctor
+  isExternal: true
+  name: SplitterOption
+  nameWithType: SplitterOption.SplitterOption
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.SplitterOption
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.id*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SplitterOption.id
+  isExternal: true
+  name: id
+  nameWithType: SplitterOption.id
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.offset*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SplitterOption.offset
+  isExternal: true
+  name: offset
+  nameWithType: SplitterOption.offset
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.offset
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.dockElements*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SplitterOption.dockElements
+  isExternal: true
+  name: dockElements
+  nameWithType: SplitterOption.dockElements
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.dockElements
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.DockElement[]
+  isExternal: true
+  name: SplitterOption.DockElement[]
+  nameWithType: SplitterOption.DockElement[]
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.DockElement[]
+  nameWithType.vb: SplitterOption.DockElement()
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.SplitterOption.DockElement()
+  name.vb: SplitterOption.DockElement()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.DockElement
+    name: SplitterOption.DockElement
+    nameWithType: SplitterOption.DockElement
+    fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.DockElement
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.DockElement
+    name: SplitterOption.DockElement
+    nameWithType: SplitterOption.DockElement
+    fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.DockElement
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.minPreviousHeight*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SplitterOption.minPreviousHeight
+  isExternal: true
+  name: minPreviousHeight
+  nameWithType: SplitterOption.minPreviousHeight
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.minPreviousHeight
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.minNextHeight*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SplitterOption.minNextHeight
+  isExternal: true
+  name: minNextHeight
+  nameWithType: SplitterOption.minNextHeight
+  fullName: SuperOffice.CRM.Web.UI.Controls.SplitterOption.minNextHeight

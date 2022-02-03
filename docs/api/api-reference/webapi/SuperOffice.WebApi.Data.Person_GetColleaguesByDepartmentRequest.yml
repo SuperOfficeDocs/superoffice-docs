@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest
+  id: Person_GetColleaguesByDepartmentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.DepartmentId
+  langs:
+  - csharp
+  - vb
+  name: Person_GetColleaguesByDepartmentRequest
+  nameWithType: Person_GetColleaguesByDepartmentRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetColleaguesByDepartmentRequest : Object'
+    content.vb: >-
+      Public Class Person_GetColleaguesByDepartmentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetColleaguesByDepartmentRequest()
+  nameWithType: Person_GetColleaguesByDepartmentRequest.Person_GetColleaguesByDepartmentRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.Person_GetColleaguesByDepartmentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetColleaguesByDepartmentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.DepartmentId
+  commentId: P:SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.DepartmentId
+  id: DepartmentId
+  parent: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest
+  langs:
+  - csharp
+  - vb
+  name: DepartmentId
+  nameWithType: Person_GetColleaguesByDepartmentRequest.DepartmentId
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.DepartmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DepartmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DepartmentId As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.DepartmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.#ctor
+  isExternal: true
+  name: Person_GetColleaguesByDepartmentRequest
+  nameWithType: Person_GetColleaguesByDepartmentRequest.Person_GetColleaguesByDepartmentRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.Person_GetColleaguesByDepartmentRequest
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.DepartmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.DepartmentId
+  isExternal: true
+  name: DepartmentId
+  nameWithType: Person_GetColleaguesByDepartmentRequest.DepartmentId
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesByDepartmentRequest.DepartmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

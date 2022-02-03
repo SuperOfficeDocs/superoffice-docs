@@ -1,0 +1,1053 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ISaleInfo
+  commentId: T:SuperOffice.CRM.ISaleInfo
+  id: ISaleInfo
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.ISaleInfo.Amount
+  - SuperOffice.CRM.ISaleInfo.Associate
+  - SuperOffice.CRM.ISaleInfo.Competitor
+  - SuperOffice.CRM.ISaleInfo.Credited
+  - SuperOffice.CRM.ISaleInfo.Currency
+  - SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.Int32)
+  - SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.String)
+  - SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.Int32)
+  - SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.String)
+  - SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.Int32)
+  - SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.String)
+  - SuperOffice.CRM.ISaleInfo.NextDueDate
+  - SuperOffice.CRM.ISaleInfo.Number
+  - SuperOffice.CRM.ISaleInfo.Probability
+  - SuperOffice.CRM.ISaleInfo.PublishEndDate
+  - SuperOffice.CRM.ISaleInfo.PublishStartDate
+  - SuperOffice.CRM.ISaleInfo.Reason
+  - SuperOffice.CRM.ISaleInfo.SaleDate
+  - SuperOffice.CRM.ISaleInfo.SaleId
+  - SuperOffice.CRM.ISaleInfo.Stage
+  - SuperOffice.CRM.ISaleInfo.Status
+  - SuperOffice.CRM.ISaleInfo.Title
+  - SuperOffice.CRM.ISaleInfo.Type
+  langs:
+  - csharp
+  - vb
+  name: ISaleInfo
+  nameWithType: ISaleInfo
+  fullName: SuperOffice.CRM.ISaleInfo
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nInterface providing information about a sale.\n"
+  syntax:
+    content: public interface ISaleInfo
+    content.vb: Public Interface ISaleInfo
+  extensionMethods:
+  - SuperOffice.CRM.ISaleInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ISaleInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.Int32)
+  commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.Int32)
+  id: GetUserDefinedDecimal(System.Int32)
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: ISaleInfo.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nUser-defined field 1-10 of the decimal (.NET double) number type.\n"
+  syntax:
+    content: string GetUserDefinedDecimal(int fieldNo)
+    parameters:
+    - id: fieldNo
+      type: System.Int32
+      description: Field number (1-10).
+    return:
+      type: System.String
+      description: User-defined field value.
+    content.vb: Function GetUserDefinedDecimal(fieldNo As Integer) As String
+  overload: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal*
+- uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.Int32)
+  commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.Int32)
+  id: GetUserDefinedInt(System.Int32)
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedInt(Int32)
+  nameWithType: ISaleInfo.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet user-defined field 1-60 of the whole (.NET Int32) number type.\n"
+  syntax:
+    content: string GetUserDefinedInt(int fieldNo)
+    parameters:
+    - id: fieldNo
+      type: System.Int32
+      description: Field number (1-60).
+    return:
+      type: System.String
+      description: User-defined field value.
+    content.vb: Function GetUserDefinedInt(fieldNo As Integer) As String
+  overload: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt*
+- uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.Int32)
+  commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.Int32)
+  id: GetUserDefinedString(System.Int32)
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedString(Int32)
+  nameWithType: ISaleInfo.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet user-defined field 1-49 of the text (.NET string) type.\n"
+  syntax:
+    content: string GetUserDefinedString(int fieldNo)
+    parameters:
+    - id: fieldNo
+      type: System.Int32
+      description: Field number (1-39).
+    return:
+      type: System.String
+      description: User-defined field value.
+    content.vb: Function GetUserDefinedString(fieldNo As Integer) As String
+  overload: SuperOffice.CRM.ISaleInfo.GetUserDefinedString*
+- uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.String)
+  commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.String)
+  id: GetUserDefinedDecimal(System.String)
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedDecimal(String)
+  nameWithType: ISaleInfo.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet the decimal udef value based on the prog.id name of the udef field.\n"
+  syntax:
+    content: double GetUserDefinedDecimal(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+      description: Program name of udef field
+    return:
+      type: System.Double
+      description: double value of field, or NAN if field not found
+    content.vb: Function GetUserDefinedDecimal(progId As String) As Double
+  overload: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal*
+- uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.String)
+  commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.String)
+  id: GetUserDefinedInt(System.String)
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedInt(String)
+  nameWithType: ISaleInfo.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet the int udef value based on the prog.id name of the udef field.\n"
+  syntax:
+    content: int GetUserDefinedInt(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+      description: Program name of udef field
+    return:
+      type: System.Int32
+      description: int value of field, or MINVALUE if field not found
+    content.vb: Function GetUserDefinedInt(progId As String) As Integer
+  overload: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt*
+- uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.String)
+  commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.String)
+  id: GetUserDefinedString(System.String)
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedString(String)
+  nameWithType: ISaleInfo.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet the string udef value based on the prog.id name of the udef field.\n"
+  syntax:
+    content: string GetUserDefinedString(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+      description: Program name of udef field
+    return:
+      type: System.String
+      description: string value of field, or NULL if field not found
+    content.vb: Function GetUserDefinedString(progId As String) As String
+  overload: SuperOffice.CRM.ISaleInfo.GetUserDefinedString*
+- uid: SuperOffice.CRM.ISaleInfo.SaleId
+  commentId: P:SuperOffice.CRM.ISaleInfo.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: ISaleInfo.SaleId
+  fullName: SuperOffice.CRM.ISaleInfo.SaleId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nPrimary key of the sale record\n"
+  syntax:
+    content: int SaleId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SaleId As Integer
+  overload: SuperOffice.CRM.ISaleInfo.SaleId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Associate
+  commentId: P:SuperOffice.CRM.ISaleInfo.Associate
+  id: Associate
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: ISaleInfo.Associate
+  fullName: SuperOffice.CRM.ISaleInfo.Associate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nOwner of the sale\n"
+  syntax:
+    content: string Associate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Associate As String
+  overload: SuperOffice.CRM.ISaleInfo.Associate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Number
+  commentId: P:SuperOffice.CRM.ISaleInfo.Number
+  id: Number
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: ISaleInfo.Number
+  fullName: SuperOffice.CRM.ISaleInfo.Number
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSale number\n"
+  syntax:
+    content: string Number { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Number As String
+  overload: SuperOffice.CRM.ISaleInfo.Number*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Title
+  commentId: P:SuperOffice.CRM.ISaleInfo.Title
+  id: Title
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ISaleInfo.Title
+  fullName: SuperOffice.CRM.ISaleInfo.Title
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nTitle of the sale\n"
+  syntax:
+    content: string Title { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Title As String
+  overload: SuperOffice.CRM.ISaleInfo.Title*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Amount
+  commentId: P:SuperOffice.CRM.ISaleInfo.Amount
+  id: Amount
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: ISaleInfo.Amount
+  fullName: SuperOffice.CRM.ISaleInfo.Amount
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSale amount\n"
+  syntax:
+    content: double Amount { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: ReadOnly Property Amount As Double
+  overload: SuperOffice.CRM.ISaleInfo.Amount*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Currency
+  commentId: P:SuperOffice.CRM.ISaleInfo.Currency
+  id: Currency
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: ISaleInfo.Currency
+  fullName: SuperOffice.CRM.ISaleInfo.Currency
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSale currency\n"
+  syntax:
+    content: string Currency { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Currency As String
+  overload: SuperOffice.CRM.ISaleInfo.Currency*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.PublishStartDate
+  commentId: P:SuperOffice.CRM.ISaleInfo.PublishStartDate
+  id: PublishStartDate
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: PublishStartDate
+  nameWithType: ISaleInfo.PublishStartDate
+  fullName: SuperOffice.CRM.ISaleInfo.PublishStartDate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSale, end date for publishing\n"
+  remarks: "\nAssumed to be formatted like &quot;yyyyMMdd&quot;\n"
+  syntax:
+    content: string PublishStartDate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property PublishStartDate As String
+  overload: SuperOffice.CRM.ISaleInfo.PublishStartDate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.PublishEndDate
+  commentId: P:SuperOffice.CRM.ISaleInfo.PublishEndDate
+  id: PublishEndDate
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: PublishEndDate
+  nameWithType: ISaleInfo.PublishEndDate
+  fullName: SuperOffice.CRM.ISaleInfo.PublishEndDate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSale, start date for publishing\n"
+  remarks: "\nAssumed to be formatted like &quot;yyyyMMdd&quot;\n"
+  syntax:
+    content: string PublishEndDate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property PublishEndDate As String
+  overload: SuperOffice.CRM.ISaleInfo.PublishEndDate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Type
+  commentId: P:SuperOffice.CRM.ISaleInfo.Type
+  id: Type
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ISaleInfo.Type
+  fullName: SuperOffice.CRM.ISaleInfo.Type
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSale type - an MDO list item name\n"
+  syntax:
+    content: string Type { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Type As String
+  overload: SuperOffice.CRM.ISaleInfo.Type*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Stage
+  commentId: P:SuperOffice.CRM.ISaleInfo.Stage
+  id: Stage
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Stage
+  nameWithType: ISaleInfo.Stage
+  fullName: SuperOffice.CRM.ISaleInfo.Stage
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSale stage - an MDO list item name\n"
+  syntax:
+    content: string Stage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Stage As String
+  overload: SuperOffice.CRM.ISaleInfo.Stage*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Credited
+  commentId: P:SuperOffice.CRM.ISaleInfo.Credited
+  id: Credited
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Credited
+  nameWithType: ISaleInfo.Credited
+  fullName: SuperOffice.CRM.ISaleInfo.Credited
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCredited to - an MDO list item name\n"
+  syntax:
+    content: string Credited { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Credited As String
+  overload: SuperOffice.CRM.ISaleInfo.Credited*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Competitor
+  commentId: P:SuperOffice.CRM.ISaleInfo.Competitor
+  id: Competitor
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Competitor
+  nameWithType: ISaleInfo.Competitor
+  fullName: SuperOffice.CRM.ISaleInfo.Competitor
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nMain Competitor for sale - an MDO list item name\n"
+  syntax:
+    content: string Competitor { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Competitor As String
+  overload: SuperOffice.CRM.ISaleInfo.Competitor*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Probability
+  commentId: P:SuperOffice.CRM.ISaleInfo.Probability
+  id: Probability
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Probability
+  nameWithType: ISaleInfo.Probability
+  fullName: SuperOffice.CRM.ISaleInfo.Probability
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nProbability percent - default derived from Stage list item.\n"
+  syntax:
+    content: short Probability { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: ReadOnly Property Probability As Short
+  overload: SuperOffice.CRM.ISaleInfo.Probability*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.NextDueDate
+  commentId: P:SuperOffice.CRM.ISaleInfo.NextDueDate
+  id: NextDueDate
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: NextDueDate
+  nameWithType: ISaleInfo.NextDueDate
+  fullName: SuperOffice.CRM.ISaleInfo.NextDueDate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nDate of the first uncompleted activity. \n"
+  remarks: "\nAssumed to be formatted like &quot;yyyyMMdd&quot;\n"
+  syntax:
+    content: string NextDueDate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property NextDueDate As String
+  overload: SuperOffice.CRM.ISaleInfo.NextDueDate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Reason
+  commentId: P:SuperOffice.CRM.ISaleInfo.Reason
+  id: Reason
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: ISaleInfo.Reason
+  fullName: SuperOffice.CRM.ISaleInfo.Reason
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nReason the sale is lost/sold etc\n"
+  syntax:
+    content: string Reason { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Reason As String
+  overload: SuperOffice.CRM.ISaleInfo.Reason*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.SaleDate
+  commentId: P:SuperOffice.CRM.ISaleInfo.SaleDate
+  id: SaleDate
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: SaleDate
+  nameWithType: ISaleInfo.SaleDate
+  fullName: SuperOffice.CRM.ISaleInfo.SaleDate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nExpected closing date\n"
+  remarks: "\nAssumed to be formatted like &quot;yyyyMMdd&quot;\n"
+  syntax:
+    content: string SaleDate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property SaleDate As String
+  overload: SuperOffice.CRM.ISaleInfo.SaleDate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISaleInfo.Status
+  commentId: P:SuperOffice.CRM.ISaleInfo.Status
+  id: Status
+  parent: SuperOffice.CRM.ISaleInfo
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: ISaleInfo.Status
+  fullName: SuperOffice.CRM.ISaleInfo.Status
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nOpen/Sold/Lost/Stalled\n"
+  syntax:
+    content: string Status { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Status As String
+  overload: SuperOffice.CRM.ISaleInfo.Status*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.ISaleInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISaleInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ISaleInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ISaleInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISaleInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ISaleInfo, To)()
+  name.vb: MapEnums(Of ISaleInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISaleInfo, To>
+    nameWithType: EnumUtil.MapEnums<ISaleInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ISaleInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISaleInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ISaleInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ISaleInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ISaleInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISaleInfo, To>()
+  nameWithType: Converters.MapEnums<ISaleInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ISaleInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISaleInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ISaleInfo, To)()
+  name.vb: MapEnums(Of ISaleInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISaleInfo, To>
+    nameWithType: Converters.MapEnums<ISaleInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ISaleInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISaleInfo, To)
+    nameWithType: Converters.MapEnums(Of ISaleInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ISaleInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal
+  isExternal: true
+  name: GetUserDefinedDecimal
+  nameWithType: ISaleInfo.GetUserDefinedDecimal
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.GetUserDefinedInt
+  isExternal: true
+  name: GetUserDefinedInt
+  nameWithType: ISaleInfo.GetUserDefinedInt
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt
+- uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedString*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.GetUserDefinedString
+  isExternal: true
+  name: GetUserDefinedString
+  nameWithType: ISaleInfo.GetUserDefinedString
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedString
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.ISaleInfo.SaleId*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: ISaleInfo.SaleId
+  fullName: SuperOffice.CRM.ISaleInfo.SaleId
+- uid: SuperOffice.CRM.ISaleInfo.Associate*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: ISaleInfo.Associate
+  fullName: SuperOffice.CRM.ISaleInfo.Associate
+- uid: SuperOffice.CRM.ISaleInfo.Number*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Number
+  isExternal: true
+  name: Number
+  nameWithType: ISaleInfo.Number
+  fullName: SuperOffice.CRM.ISaleInfo.Number
+- uid: SuperOffice.CRM.ISaleInfo.Title*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Title
+  isExternal: true
+  name: Title
+  nameWithType: ISaleInfo.Title
+  fullName: SuperOffice.CRM.ISaleInfo.Title
+- uid: SuperOffice.CRM.ISaleInfo.Amount*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Amount
+  isExternal: true
+  name: Amount
+  nameWithType: ISaleInfo.Amount
+  fullName: SuperOffice.CRM.ISaleInfo.Amount
+- uid: SuperOffice.CRM.ISaleInfo.Currency*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Currency
+  isExternal: true
+  name: Currency
+  nameWithType: ISaleInfo.Currency
+  fullName: SuperOffice.CRM.ISaleInfo.Currency
+- uid: SuperOffice.CRM.ISaleInfo.PublishStartDate*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.PublishStartDate
+  isExternal: true
+  name: PublishStartDate
+  nameWithType: ISaleInfo.PublishStartDate
+  fullName: SuperOffice.CRM.ISaleInfo.PublishStartDate
+- uid: SuperOffice.CRM.ISaleInfo.PublishEndDate*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.PublishEndDate
+  isExternal: true
+  name: PublishEndDate
+  nameWithType: ISaleInfo.PublishEndDate
+  fullName: SuperOffice.CRM.ISaleInfo.PublishEndDate
+- uid: SuperOffice.CRM.ISaleInfo.Type*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Type
+  isExternal: true
+  name: Type
+  nameWithType: ISaleInfo.Type
+  fullName: SuperOffice.CRM.ISaleInfo.Type
+- uid: SuperOffice.CRM.ISaleInfo.Stage*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Stage
+  isExternal: true
+  name: Stage
+  nameWithType: ISaleInfo.Stage
+  fullName: SuperOffice.CRM.ISaleInfo.Stage
+- uid: SuperOffice.CRM.ISaleInfo.Credited*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Credited
+  isExternal: true
+  name: Credited
+  nameWithType: ISaleInfo.Credited
+  fullName: SuperOffice.CRM.ISaleInfo.Credited
+- uid: SuperOffice.CRM.ISaleInfo.Competitor*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Competitor
+  isExternal: true
+  name: Competitor
+  nameWithType: ISaleInfo.Competitor
+  fullName: SuperOffice.CRM.ISaleInfo.Competitor
+- uid: SuperOffice.CRM.ISaleInfo.Probability*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Probability
+  isExternal: true
+  name: Probability
+  nameWithType: ISaleInfo.Probability
+  fullName: SuperOffice.CRM.ISaleInfo.Probability
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.ISaleInfo.NextDueDate*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.NextDueDate
+  isExternal: true
+  name: NextDueDate
+  nameWithType: ISaleInfo.NextDueDate
+  fullName: SuperOffice.CRM.ISaleInfo.NextDueDate
+- uid: SuperOffice.CRM.ISaleInfo.Reason*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Reason
+  isExternal: true
+  name: Reason
+  nameWithType: ISaleInfo.Reason
+  fullName: SuperOffice.CRM.ISaleInfo.Reason
+- uid: SuperOffice.CRM.ISaleInfo.SaleDate*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.SaleDate
+  isExternal: true
+  name: SaleDate
+  nameWithType: ISaleInfo.SaleDate
+  fullName: SuperOffice.CRM.ISaleInfo.SaleDate
+- uid: SuperOffice.CRM.ISaleInfo.Status*
+  commentId: Overload:SuperOffice.CRM.ISaleInfo.Status
+  isExternal: true
+  name: Status
+  nameWithType: ISaleInfo.Status
+  fullName: SuperOffice.CRM.ISaleInfo.Status

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest
+  commentId: T:SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest
+  id: User_GetUserFromPersonIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.#ctor
+  - SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: User_GetUserFromPersonIdRequest
+  nameWithType: User_GetUserFromPersonIdRequest
+  fullName: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_GetUserFromPersonIdRequest : Object'
+    content.vb: >-
+      Public Class User_GetUserFromPersonIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest
+  langs:
+  - csharp
+  - vb
+  name: User_GetUserFromPersonIdRequest()
+  nameWithType: User_GetUserFromPersonIdRequest.User_GetUserFromPersonIdRequest()
+  fullName: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.User_GetUserFromPersonIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_GetUserFromPersonIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: User_GetUserFromPersonIdRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.#ctor
+  isExternal: true
+  name: User_GetUserFromPersonIdRequest
+  nameWithType: User_GetUserFromPersonIdRequest.User_GetUserFromPersonIdRequest
+  fullName: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.User_GetUserFromPersonIdRequest
+- uid: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: User_GetUserFromPersonIdRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.User_GetUserFromPersonIdRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

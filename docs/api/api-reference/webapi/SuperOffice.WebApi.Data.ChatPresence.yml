@@ -1,0 +1,368 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatPresence
+  commentId: T:SuperOffice.WebApi.Data.ChatPresence
+  id: ChatPresence
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatPresence.#ctor
+  - SuperOffice.WebApi.Data.ChatPresence.ChatTopics
+  - SuperOffice.WebApi.Data.ChatPresence.DisplayName
+  - SuperOffice.WebApi.Data.ChatPresence.OngoingChats
+  - SuperOffice.WebApi.Data.ChatPresence.Present
+  - SuperOffice.WebApi.Data.ChatPresence.UserId
+  langs:
+  - csharp
+  - vb
+  name: ChatPresence
+  nameWithType: ChatPresence
+  fullName: SuperOffice.WebApi.Data.ChatPresence
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ChatPresence.\nRepresents presence information for a chat user, bundled with some other useful information    \n"
+  syntax:
+    content: 'public class ChatPresence : Carrier'
+    content.vb: >-
+      Public Class ChatPresence
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ChatAgent
+    commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatPresence.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ChatPresence.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ChatPresence
+  langs:
+  - csharp
+  - vb
+  name: ChatPresence()
+  nameWithType: ChatPresence.ChatPresence()
+  fullName: SuperOffice.WebApi.Data.ChatPresence.ChatPresence()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ChatPresence()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ChatPresence.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatPresence.UserId
+  commentId: P:SuperOffice.WebApi.Data.ChatPresence.UserId
+  id: UserId
+  parent: SuperOffice.WebApi.Data.ChatPresence
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: ChatPresence.UserId
+  fullName: SuperOffice.WebApi.Data.ChatPresence.UserId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id for the chat user\n"
+  syntax:
+    content: public virtual int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserId As Integer
+  overload: SuperOffice.WebApi.Data.ChatPresence.UserId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatPresence.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.ChatPresence.DisplayName
+  id: DisplayName
+  parent: SuperOffice.WebApi.Data.ChatPresence
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ChatPresence.DisplayName
+  fullName: SuperOffice.WebApi.Data.ChatPresence.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe display name of the chat user\n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.WebApi.Data.ChatPresence.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatPresence.OngoingChats
+  commentId: P:SuperOffice.WebApi.Data.ChatPresence.OngoingChats
+  id: OngoingChats
+  parent: SuperOffice.WebApi.Data.ChatPresence
+  langs:
+  - csharp
+  - vb
+  name: OngoingChats
+  nameWithType: ChatPresence.OngoingChats
+  fullName: SuperOffice.WebApi.Data.ChatPresence.OngoingChats
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe number of ongoing chats this users has now\n"
+  syntax:
+    content: public virtual int OngoingChats { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OngoingChats As Integer
+  overload: SuperOffice.WebApi.Data.ChatPresence.OngoingChats*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatPresence.Present
+  commentId: P:SuperOffice.WebApi.Data.ChatPresence.Present
+  id: Present
+  parent: SuperOffice.WebApi.Data.ChatPresence
+  langs:
+  - csharp
+  - vb
+  name: Present
+  nameWithType: ChatPresence.Present
+  fullName: SuperOffice.WebApi.Data.ChatPresence.Present
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates if the user has the chat presence turned on or off\n"
+  syntax:
+    content: public virtual bool Present { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Present As Boolean
+  overload: SuperOffice.WebApi.Data.ChatPresence.Present*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatPresence.ChatTopics
+  commentId: P:SuperOffice.WebApi.Data.ChatPresence.ChatTopics
+  id: ChatTopics
+  parent: SuperOffice.WebApi.Data.ChatPresence
+  langs:
+  - csharp
+  - vb
+  name: ChatTopics
+  nameWithType: ChatPresence.ChatTopics
+  fullName: SuperOffice.WebApi.Data.ChatPresence.ChatTopics
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn array of ids with chat topics that this user is a member of\n"
+  syntax:
+    content: public virtual int[] ChatTopics { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property ChatTopics As Integer()
+  overload: SuperOffice.WebApi.Data.ChatPresence.ChatTopics*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ChatAgent
+  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.WebApi.Agents.ChatAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ChatPresence.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatPresence.#ctor
+  isExternal: true
+  name: ChatPresence
+  nameWithType: ChatPresence.ChatPresence
+  fullName: SuperOffice.WebApi.Data.ChatPresence.ChatPresence
+- uid: SuperOffice.WebApi.Data.ChatPresence.UserId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatPresence.UserId
+  isExternal: true
+  name: UserId
+  nameWithType: ChatPresence.UserId
+  fullName: SuperOffice.WebApi.Data.ChatPresence.UserId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ChatPresence.DisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatPresence.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: ChatPresence.DisplayName
+  fullName: SuperOffice.WebApi.Data.ChatPresence.DisplayName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ChatPresence.OngoingChats*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatPresence.OngoingChats
+  isExternal: true
+  name: OngoingChats
+  nameWithType: ChatPresence.OngoingChats
+  fullName: SuperOffice.WebApi.Data.ChatPresence.OngoingChats
+- uid: SuperOffice.WebApi.Data.ChatPresence.Present*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatPresence.Present
+  isExternal: true
+  name: Present
+  nameWithType: ChatPresence.Present
+  fullName: SuperOffice.WebApi.Data.ChatPresence.Present
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ChatPresence.ChatTopics*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatPresence.ChatTopics
+  isExternal: true
+  name: ChatTopics
+  nameWithType: ChatPresence.ChatTopics
+  fullName: SuperOffice.WebApi.Data.ChatPresence.ChatTopics
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

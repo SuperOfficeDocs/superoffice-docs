@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.IDocumentInfo2
+  commentId: T:SuperOffice.CRM.IDocumentInfo2
+  id: IDocumentInfo2
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.IDocumentInfo2.SuggestedDocumentId
+  langs:
+  - csharp
+  - vb
+  name: IDocumentInfo2
+  nameWithType: IDocumentInfo2
+  fullName: SuperOffice.CRM.IDocumentInfo2
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: 'public interface IDocumentInfo2 : IDocumentInfo'
+    content.vb: >-
+      Public Interface IDocumentInfo2
+          Inherits IDocumentInfo
+  inheritedMembers:
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
+  - SuperOffice.CRM.IDocumentInfo.AssociateId
+  - SuperOffice.CRM.IDocumentInfo.AssociateLoginName
+  - SuperOffice.CRM.IDocumentInfo.AssociateFullName
+  - SuperOffice.CRM.IDocumentInfo.AppointmentId
+  - SuperOffice.CRM.IDocumentInfo.DocumentId
+  - SuperOffice.CRM.IDocumentInfo.ContactId
+  - SuperOffice.CRM.IDocumentInfo.PersonId
+  - SuperOffice.CRM.IDocumentInfo.ProjectId
+  - SuperOffice.CRM.IDocumentInfo.ActiveDate
+  - SuperOffice.CRM.IDocumentInfo.PublishStartDate
+  - SuperOffice.CRM.IDocumentInfo.PublishEndDate
+  - SuperOffice.CRM.IDocumentInfo.Registered
+  - SuperOffice.CRM.IDocumentInfo.Name
+  - SuperOffice.CRM.IDocumentInfo.Header
+  - SuperOffice.CRM.IDocumentInfo.Description
+  - SuperOffice.CRM.IDocumentInfo.OurRef
+  - SuperOffice.CRM.IDocumentInfo.YourRef
+  - SuperOffice.CRM.IDocumentInfo.Salutation
+  - SuperOffice.CRM.IDocumentInfo.Attention
+  - SuperOffice.CRM.IDocumentInfo.ArchiveProvider
+  - SuperOffice.CRM.IDocumentInfo.ExternalReference
+  - SuperOffice.CRM.IDocumentInfo.SerialNumber
+  - SuperOffice.CRM.IDocumentInfo.LockSemantics
+  - SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
+  extensionMethods:
+  - SuperOffice.CRM.IDocumentInfo2.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.IDocumentInfo2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.IDocumentInfo2.SuggestedDocumentId
+  commentId: P:SuperOffice.CRM.IDocumentInfo2.SuggestedDocumentId
+  id: SuggestedDocumentId
+  parent: SuperOffice.CRM.IDocumentInfo2
+  langs:
+  - csharp
+  - vb
+  name: SuggestedDocumentId
+  nameWithType: IDocumentInfo2.SuggestedDocumentId
+  fullName: SuperOffice.CRM.IDocumentInfo2.SuggestedDocumentId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe documents SuggestedDocument ID. Return 0 if document is not part of a sale/project guide\n"
+  syntax:
+    content: int SuggestedDocumentId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SuggestedDocumentId As Integer
+  overload: SuperOffice.CRM.IDocumentInfo2.SuggestedDocumentId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: GetUserDefinedDecimal(String)
+  nameWithType: IDocumentInfo.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
+    name: GetUserDefinedDecimal
+    nameWithType: IDocumentInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
+    name: GetUserDefinedDecimal
+    nameWithType: IDocumentInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: GetUserDefinedInt(String)
+  nameWithType: IDocumentInfo.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
+    name: GetUserDefinedInt
+    nameWithType: IDocumentInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
+    name: GetUserDefinedInt
+    nameWithType: IDocumentInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: GetUserDefinedString(String)
+  nameWithType: IDocumentInfo.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
+    name: GetUserDefinedString
+    nameWithType: IDocumentInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
+    name: GetUserDefinedString
+    nameWithType: IDocumentInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: IDocumentInfo.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
+    name: GetUserDefinedDecimal
+    nameWithType: IDocumentInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
+    name: GetUserDefinedDecimal
+    nameWithType: IDocumentInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: GetUserDefinedInt(Int32)
+  nameWithType: IDocumentInfo.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
+    name: GetUserDefinedInt
+    nameWithType: IDocumentInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
+    name: GetUserDefinedInt
+    nameWithType: IDocumentInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: GetUserDefinedString(Int32)
+  nameWithType: IDocumentInfo.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
+    name: GetUserDefinedString
+    nameWithType: IDocumentInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
+    name: GetUserDefinedString
+    nameWithType: IDocumentInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IDocumentInfo.AssociateId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.AssociateId
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: AssociateId
+  nameWithType: IDocumentInfo.AssociateId
+  fullName: SuperOffice.CRM.IDocumentInfo.AssociateId
+- uid: SuperOffice.CRM.IDocumentInfo.AssociateLoginName
+  commentId: P:SuperOffice.CRM.IDocumentInfo.AssociateLoginName
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: AssociateLoginName
+  nameWithType: IDocumentInfo.AssociateLoginName
+  fullName: SuperOffice.CRM.IDocumentInfo.AssociateLoginName
+- uid: SuperOffice.CRM.IDocumentInfo.AssociateFullName
+  commentId: P:SuperOffice.CRM.IDocumentInfo.AssociateFullName
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: AssociateFullName
+  nameWithType: IDocumentInfo.AssociateFullName
+  fullName: SuperOffice.CRM.IDocumentInfo.AssociateFullName
+- uid: SuperOffice.CRM.IDocumentInfo.AppointmentId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.AppointmentId
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: AppointmentId
+  nameWithType: IDocumentInfo.AppointmentId
+  fullName: SuperOffice.CRM.IDocumentInfo.AppointmentId
+- uid: SuperOffice.CRM.IDocumentInfo.DocumentId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.DocumentId
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: DocumentId
+  nameWithType: IDocumentInfo.DocumentId
+  fullName: SuperOffice.CRM.IDocumentInfo.DocumentId
+- uid: SuperOffice.CRM.IDocumentInfo.ContactId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.ContactId
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: ContactId
+  nameWithType: IDocumentInfo.ContactId
+  fullName: SuperOffice.CRM.IDocumentInfo.ContactId
+- uid: SuperOffice.CRM.IDocumentInfo.PersonId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.PersonId
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: PersonId
+  nameWithType: IDocumentInfo.PersonId
+  fullName: SuperOffice.CRM.IDocumentInfo.PersonId
+- uid: SuperOffice.CRM.IDocumentInfo.ProjectId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.ProjectId
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: ProjectId
+  nameWithType: IDocumentInfo.ProjectId
+  fullName: SuperOffice.CRM.IDocumentInfo.ProjectId
+- uid: SuperOffice.CRM.IDocumentInfo.ActiveDate
+  commentId: P:SuperOffice.CRM.IDocumentInfo.ActiveDate
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: ActiveDate
+  nameWithType: IDocumentInfo.ActiveDate
+  fullName: SuperOffice.CRM.IDocumentInfo.ActiveDate
+- uid: SuperOffice.CRM.IDocumentInfo.PublishStartDate
+  commentId: P:SuperOffice.CRM.IDocumentInfo.PublishStartDate
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: PublishStartDate
+  nameWithType: IDocumentInfo.PublishStartDate
+  fullName: SuperOffice.CRM.IDocumentInfo.PublishStartDate
+- uid: SuperOffice.CRM.IDocumentInfo.PublishEndDate
+  commentId: P:SuperOffice.CRM.IDocumentInfo.PublishEndDate
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: PublishEndDate
+  nameWithType: IDocumentInfo.PublishEndDate
+  fullName: SuperOffice.CRM.IDocumentInfo.PublishEndDate
+- uid: SuperOffice.CRM.IDocumentInfo.Registered
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Registered
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: Registered
+  nameWithType: IDocumentInfo.Registered
+  fullName: SuperOffice.CRM.IDocumentInfo.Registered
+- uid: SuperOffice.CRM.IDocumentInfo.Name
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Name
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: Name
+  nameWithType: IDocumentInfo.Name
+  fullName: SuperOffice.CRM.IDocumentInfo.Name
+- uid: SuperOffice.CRM.IDocumentInfo.Header
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Header
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: Header
+  nameWithType: IDocumentInfo.Header
+  fullName: SuperOffice.CRM.IDocumentInfo.Header
+- uid: SuperOffice.CRM.IDocumentInfo.Description
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Description
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: Description
+  nameWithType: IDocumentInfo.Description
+  fullName: SuperOffice.CRM.IDocumentInfo.Description
+- uid: SuperOffice.CRM.IDocumentInfo.OurRef
+  commentId: P:SuperOffice.CRM.IDocumentInfo.OurRef
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: OurRef
+  nameWithType: IDocumentInfo.OurRef
+  fullName: SuperOffice.CRM.IDocumentInfo.OurRef
+- uid: SuperOffice.CRM.IDocumentInfo.YourRef
+  commentId: P:SuperOffice.CRM.IDocumentInfo.YourRef
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: YourRef
+  nameWithType: IDocumentInfo.YourRef
+  fullName: SuperOffice.CRM.IDocumentInfo.YourRef
+- uid: SuperOffice.CRM.IDocumentInfo.Salutation
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Salutation
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: Salutation
+  nameWithType: IDocumentInfo.Salutation
+  fullName: SuperOffice.CRM.IDocumentInfo.Salutation
+- uid: SuperOffice.CRM.IDocumentInfo.Attention
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Attention
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: Attention
+  nameWithType: IDocumentInfo.Attention
+  fullName: SuperOffice.CRM.IDocumentInfo.Attention
+- uid: SuperOffice.CRM.IDocumentInfo.ArchiveProvider
+  commentId: P:SuperOffice.CRM.IDocumentInfo.ArchiveProvider
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: ArchiveProvider
+  nameWithType: IDocumentInfo.ArchiveProvider
+  fullName: SuperOffice.CRM.IDocumentInfo.ArchiveProvider
+- uid: SuperOffice.CRM.IDocumentInfo.ExternalReference
+  commentId: P:SuperOffice.CRM.IDocumentInfo.ExternalReference
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: ExternalReference
+  nameWithType: IDocumentInfo.ExternalReference
+  fullName: SuperOffice.CRM.IDocumentInfo.ExternalReference
+- uid: SuperOffice.CRM.IDocumentInfo.SerialNumber
+  commentId: P:SuperOffice.CRM.IDocumentInfo.SerialNumber
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: SerialNumber
+  nameWithType: IDocumentInfo.SerialNumber
+  fullName: SuperOffice.CRM.IDocumentInfo.SerialNumber
+- uid: SuperOffice.CRM.IDocumentInfo.LockSemantics
+  commentId: P:SuperOffice.CRM.IDocumentInfo.LockSemantics
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: LockSemantics
+  nameWithType: IDocumentInfo.LockSemantics
+  fullName: SuperOffice.CRM.IDocumentInfo.LockSemantics
+- uid: SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
+  commentId: P:SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: DocumentTemplateInfo
+  nameWithType: IDocumentInfo.DocumentTemplateInfo
+  fullName: SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
+- uid: SuperOffice.CRM.IDocumentInfo2.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IDocumentInfo2, To>()
+  nameWithType: EnumUtil.MapEnums<IDocumentInfo2, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IDocumentInfo2, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IDocumentInfo2, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IDocumentInfo2, To)()
+  name.vb: MapEnums(Of IDocumentInfo2, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IDocumentInfo2, To>
+    nameWithType: EnumUtil.MapEnums<IDocumentInfo2, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.IDocumentInfo2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IDocumentInfo2, To)
+    nameWithType: EnumUtil.MapEnums(Of IDocumentInfo2, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.IDocumentInfo2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IDocumentInfo2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IDocumentInfo2, To>()
+  nameWithType: Converters.MapEnums<IDocumentInfo2, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IDocumentInfo2, To>()
+  nameWithType.vb: Converters.MapEnums(Of IDocumentInfo2, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IDocumentInfo2, To)()
+  name.vb: MapEnums(Of IDocumentInfo2, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IDocumentInfo2, To>
+    nameWithType: Converters.MapEnums<IDocumentInfo2, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IDocumentInfo2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IDocumentInfo2, To)
+    nameWithType: Converters.MapEnums(Of IDocumentInfo2, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IDocumentInfo2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IDocumentInfo
+  commentId: T:SuperOffice.CRM.IDocumentInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IDocumentInfo
+  nameWithType: IDocumentInfo
+  fullName: SuperOffice.CRM.IDocumentInfo
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.IDocumentInfo2.SuggestedDocumentId*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo2.SuggestedDocumentId
+  isExternal: true
+  name: SuggestedDocumentId
+  nameWithType: IDocumentInfo2.SuggestedDocumentId
+  fullName: SuperOffice.CRM.IDocumentInfo2.SuggestedDocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_RemoveProductRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_RemoveProductRequest
+  id: Quote_RemoveProductRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_RemoveProductRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_RemoveProductRequest.ProductId
+  langs:
+  - csharp
+  - vb
+  name: Quote_RemoveProductRequest
+  nameWithType: Quote_RemoveProductRequest
+  fullName: SuperOffice.WebApi.Data.Quote_RemoveProductRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_RemoveProductRequest : Object'
+    content.vb: >-
+      Public Class Quote_RemoveProductRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_RemoveProductRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_RemoveProductRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_RemoveProductRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_RemoveProductRequest()
+  nameWithType: Quote_RemoveProductRequest.Quote_RemoveProductRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_RemoveProductRequest.Quote_RemoveProductRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_RemoveProductRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_RemoveProductRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_RemoveProductRequest.ProductId
+  commentId: P:SuperOffice.WebApi.Data.Quote_RemoveProductRequest.ProductId
+  id: ProductId
+  parent: SuperOffice.WebApi.Data.Quote_RemoveProductRequest
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: Quote_RemoveProductRequest.ProductId
+  fullName: SuperOffice.WebApi.Data.Quote_RemoveProductRequest.ProductId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProductId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_RemoveProductRequest.ProductId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_RemoveProductRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_RemoveProductRequest.#ctor
+  isExternal: true
+  name: Quote_RemoveProductRequest
+  nameWithType: Quote_RemoveProductRequest.Quote_RemoveProductRequest
+  fullName: SuperOffice.WebApi.Data.Quote_RemoveProductRequest.Quote_RemoveProductRequest
+- uid: SuperOffice.WebApi.Data.Quote_RemoveProductRequest.ProductId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_RemoveProductRequest.ProductId
+  isExternal: true
+  name: ProductId
+  nameWithType: Quote_RemoveProductRequest.ProductId
+  fullName: SuperOffice.WebApi.Data.Quote_RemoveProductRequest.ProductId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

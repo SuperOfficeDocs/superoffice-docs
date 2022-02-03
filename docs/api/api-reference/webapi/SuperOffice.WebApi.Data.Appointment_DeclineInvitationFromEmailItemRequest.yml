@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest
+  id: Appointment_DeclineInvitationFromEmailItemRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.EmailItemId
+  - SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.RejectReason
+  langs:
+  - csharp
+  - vb
+  name: Appointment_DeclineInvitationFromEmailItemRequest
+  nameWithType: Appointment_DeclineInvitationFromEmailItemRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_DeclineInvitationFromEmailItemRequest : Object'
+    content.vb: >-
+      Public Class Appointment_DeclineInvitationFromEmailItemRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_DeclineInvitationFromEmailItemRequest()
+  nameWithType: Appointment_DeclineInvitationFromEmailItemRequest.Appointment_DeclineInvitationFromEmailItemRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.Appointment_DeclineInvitationFromEmailItemRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_DeclineInvitationFromEmailItemRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.EmailItemId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.EmailItemId
+  id: EmailItemId
+  parent: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailItemId
+  nameWithType: Appointment_DeclineInvitationFromEmailItemRequest.EmailItemId
+  fullName: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.EmailItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int EmailItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EmailItemId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.EmailItemId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.RejectReason
+  commentId: P:SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.RejectReason
+  id: RejectReason
+  parent: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest
+  langs:
+  - csharp
+  - vb
+  name: RejectReason
+  nameWithType: Appointment_DeclineInvitationFromEmailItemRequest.RejectReason
+  fullName: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.RejectReason
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string RejectReason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RejectReason As String
+  overload: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.RejectReason*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.#ctor
+  isExternal: true
+  name: Appointment_DeclineInvitationFromEmailItemRequest
+  nameWithType: Appointment_DeclineInvitationFromEmailItemRequest.Appointment_DeclineInvitationFromEmailItemRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.Appointment_DeclineInvitationFromEmailItemRequest
+- uid: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.EmailItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.EmailItemId
+  isExternal: true
+  name: EmailItemId
+  nameWithType: Appointment_DeclineInvitationFromEmailItemRequest.EmailItemId
+  fullName: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.EmailItemId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.RejectReason*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.RejectReason
+  isExternal: true
+  name: RejectReason
+  nameWithType: Appointment_DeclineInvitationFromEmailItemRequest.RejectReason
+  fullName: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest.RejectReason
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

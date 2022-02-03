@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+  id: Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.QuoteVersionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+  nameWithType: Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_CreateOrUpdateQuoteVersionAttachmentsRequest : Object'
+    content.vb: >-
+      Public Class Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_CreateOrUpdateQuoteVersionAttachmentsRequest()
+  nameWithType: Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_CreateOrUpdateQuoteVersionAttachmentsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.#ctor
+  isExternal: true
+  name: Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+  nameWithType: Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest
+- uid: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateOrUpdateQuoteVersionAttachmentsRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest
+  id: Contact_CreateNewEntryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.Duplicate
+  langs:
+  - csharp
+  - vb
+  name: Contact_CreateNewEntryRequest
+  nameWithType: Contact_CreateNewEntryRequest
+  fullName: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_CreateNewEntryRequest : Object'
+    content.vb: >-
+      Public Class Contact_CreateNewEntryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_CreateNewEntryRequest()
+  nameWithType: Contact_CreateNewEntryRequest.Contact_CreateNewEntryRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.Contact_CreateNewEntryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_CreateNewEntryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.Duplicate
+  commentId: P:SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.Duplicate
+  id: Duplicate
+  parent: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest
+  langs:
+  - csharp
+  - vb
+  name: Duplicate
+  nameWithType: Contact_CreateNewEntryRequest.Duplicate
+  fullName: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.Duplicate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DuplicateEntry Duplicate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DuplicateEntry
+    content.vb: Public Property Duplicate As DuplicateEntry
+  overload: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.Duplicate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.#ctor
+  isExternal: true
+  name: Contact_CreateNewEntryRequest
+  nameWithType: Contact_CreateNewEntryRequest.Contact_CreateNewEntryRequest
+  fullName: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.Contact_CreateNewEntryRequest
+- uid: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.Duplicate*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.Duplicate
+  isExternal: true
+  name: Duplicate
+  nameWithType: Contact_CreateNewEntryRequest.Duplicate
+  fullName: SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest.Duplicate
+- uid: SuperOffice.WebApi.Data.DuplicateEntry
+  commentId: T:SuperOffice.WebApi.Data.DuplicateEntry
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DuplicateEntry
+  nameWithType: DuplicateEntry
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry

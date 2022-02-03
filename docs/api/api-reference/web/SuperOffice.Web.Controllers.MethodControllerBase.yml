@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Controllers.MethodControllerBase
+  commentId: T:SuperOffice.Web.Controllers.MethodControllerBase
+  id: MethodControllerBase
+  parent: SuperOffice.Web.Controllers
+  children:
+  - SuperOffice.Web.Controllers.MethodControllerBase.#ctor
+  - SuperOffice.Web.Controllers.MethodControllerBase._method(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: MethodControllerBase
+  nameWithType: MethodControllerBase
+  fullName: SuperOffice.Web.Controllers.MethodControllerBase
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: 'public class MethodControllerBase : ApiController'
+    content.vb: >-
+      Public Class MethodControllerBase
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.DCF.Web.Controllers.MethodsController
+  - SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.Controllers.MethodControllerBase._method(System.Object)
+  commentId: M:SuperOffice.Web.Controllers.MethodControllerBase._method(System.Object)
+  id: _method(System.Object)
+  parent: SuperOffice.Web.Controllers.MethodControllerBase
+  langs:
+  - csharp
+  - vb
+  name: _method(Object)
+  nameWithType: MethodControllerBase._method(Object)
+  fullName: SuperOffice.Web.Controllers.MethodControllerBase._method(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: protected object _method(object data)
+    parameters:
+    - id: data
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: Protected Function _method(data As Object) As Object
+  overload: SuperOffice.Web.Controllers.MethodControllerBase._method*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Web.Controllers.MethodControllerBase.#ctor
+  commentId: M:SuperOffice.Web.Controllers.MethodControllerBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.Controllers.MethodControllerBase
+  langs:
+  - csharp
+  - vb
+  name: MethodControllerBase()
+  nameWithType: MethodControllerBase.MethodControllerBase()
+  fullName: SuperOffice.Web.Controllers.MethodControllerBase.MethodControllerBase()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Controllers
+  syntax:
+    content: public MethodControllerBase()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.Controllers.MethodControllerBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.Controllers
+  commentId: N:SuperOffice.Web.Controllers
+  isExternal: true
+  name: SuperOffice.Web.Controllers
+  nameWithType: SuperOffice.Web.Controllers
+  fullName: SuperOffice.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.Controllers.MethodControllerBase._method*
+  commentId: Overload:SuperOffice.Web.Controllers.MethodControllerBase._method
+  isExternal: true
+  name: _method
+  nameWithType: MethodControllerBase._method
+  fullName: SuperOffice.Web.Controllers.MethodControllerBase._method
+- uid: SuperOffice.Web.Controllers.MethodControllerBase.#ctor*
+  commentId: Overload:SuperOffice.Web.Controllers.MethodControllerBase.#ctor
+  isExternal: true
+  name: MethodControllerBase
+  nameWithType: MethodControllerBase.MethodControllerBase
+  fullName: SuperOffice.Web.Controllers.MethodControllerBase.MethodControllerBase

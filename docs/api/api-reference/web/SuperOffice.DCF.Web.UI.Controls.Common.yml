@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.Common
+  commentId: N:SuperOffice.DCF.Web.UI.Controls.Common
+  id: SuperOffice.DCF.Web.UI.Controls.Common
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DCF.Web.UI.Controls.Common
+  nameWithType: SuperOffice.DCF.Web.UI.Controls.Common
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+  isExternal: true
+  name: ErrorReport
+  nameWithType: ErrorReport
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest
+  id: Selection_GetSelectionForFindRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.EntityName
+  - SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.TypicalSearchId
+  langs:
+  - csharp
+  - vb
+  name: Selection_GetSelectionForFindRequest
+  nameWithType: Selection_GetSelectionForFindRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_GetSelectionForFindRequest : Object'
+    content.vb: >-
+      Public Class Selection_GetSelectionForFindRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_GetSelectionForFindRequest()
+  nameWithType: Selection_GetSelectionForFindRequest.Selection_GetSelectionForFindRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.Selection_GetSelectionForFindRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_GetSelectionForFindRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.EntityName
+  commentId: P:SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.EntityName
+  id: EntityName
+  parent: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: Selection_GetSelectionForFindRequest.EntityName
+  fullName: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.EntityName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EntityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EntityName As String
+  overload: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.EntityName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.TypicalSearchId
+  commentId: P:SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.TypicalSearchId
+  id: TypicalSearchId
+  parent: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest
+  langs:
+  - csharp
+  - vb
+  name: TypicalSearchId
+  nameWithType: Selection_GetSelectionForFindRequest.TypicalSearchId
+  fullName: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.TypicalSearchId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TypicalSearchId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TypicalSearchId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.TypicalSearchId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.#ctor
+  isExternal: true
+  name: Selection_GetSelectionForFindRequest
+  nameWithType: Selection_GetSelectionForFindRequest.Selection_GetSelectionForFindRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.Selection_GetSelectionForFindRequest
+- uid: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.EntityName*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.EntityName
+  isExternal: true
+  name: EntityName
+  nameWithType: Selection_GetSelectionForFindRequest.EntityName
+  fullName: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.EntityName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.TypicalSearchId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.TypicalSearchId
+  isExternal: true
+  name: TypicalSearchId
+  nameWithType: Selection_GetSelectionForFindRequest.TypicalSearchId
+  fullName: SuperOffice.WebApi.Data.Selection_GetSelectionForFindRequest.TypicalSearchId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

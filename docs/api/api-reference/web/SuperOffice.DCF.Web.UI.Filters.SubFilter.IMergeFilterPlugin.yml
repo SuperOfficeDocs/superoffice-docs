@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+  id: IMergeFilterPlugin
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IMergeFilterPlugin
+  nameWithType: IMergeFilterPlugin
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  syntax:
+    content: 'public interface IMergeFilterPlugin : IPlugin'
+    content.vb: >-
+      Public Interface IMergeFilterPlugin
+          Inherits IPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  commentId: N:SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  nameWithType: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter

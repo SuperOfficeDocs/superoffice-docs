@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField
+  commentId: T:SuperOffice.WebApi.Data.ProductExtraDataField
+  id: ProductExtraDataField
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ProductExtraDataField.#ctor
+  - SuperOffice.WebApi.Data.ProductExtraDataField.Name
+  - SuperOffice.WebApi.Data.ProductExtraDataField.Type
+  - SuperOffice.WebApi.Data.ProductExtraDataField.Type_String
+  - SuperOffice.WebApi.Data.ProductExtraDataField.Value
+  langs:
+  - csharp
+  - vb
+  name: ProductExtraDataField
+  nameWithType: ProductExtraDataField
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ProductExtraDataField.\nA way to show some simple extra data on a product, typically to hep the user to identify the correct product. Basically a bucket of additional info that the ERP system would like to store and show in the user interface. Information placed here is shown in the GUI if the “provide-extra-data” capability is true.    \n"
+  syntax:
+    content: 'public class ProductExtraDataField : Carrier'
+    content.vb: >-
+      Public Class ProductExtraDataField
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ProductExtraDataField.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ProductExtraDataField
+  langs:
+  - csharp
+  - vb
+  name: ProductExtraDataField()
+  nameWithType: ProductExtraDataField.ProductExtraDataField()
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField.ProductExtraDataField()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ProductExtraDataField()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ProductExtraDataField.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.Name
+  commentId: P:SuperOffice.WebApi.Data.ProductExtraDataField.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ProductExtraDataField
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ProductExtraDataField.Name
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLabel for the field\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ProductExtraDataField.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.Value
+  commentId: P:SuperOffice.WebApi.Data.ProductExtraDataField.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.ProductExtraDataField
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ProductExtraDataField.Value
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for the field. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user&apos;s computer is set up).\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.ProductExtraDataField.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.Type_String
+  commentId: P:SuperOffice.WebApi.Data.ProductExtraDataField.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.ProductExtraDataField
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: ProductExtraDataField.Type_String
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nString, url, image. How the value should be interpreted.\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.ProductExtraDataField.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ProductExtraDataField.Type
+    commentId: P:SuperOffice.WebApi.Data.ProductExtraDataField.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.Type
+  commentId: P:SuperOffice.WebApi.Data.ProductExtraDataField.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.ProductExtraDataField
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ProductExtraDataField.Type
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nString, url, image. How the value should be interpreted.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ExtraDataFieldType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ExtraDataFieldType}
+    content.vb: Public Property Type As Nullable(Of ExtraDataFieldType)
+  overload: SuperOffice.WebApi.Data.ProductExtraDataField.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ProductExtraDataField.Type_String
+    commentId: P:SuperOffice.WebApi.Data.ProductExtraDataField.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ProductExtraDataField.#ctor
+  isExternal: true
+  name: ProductExtraDataField
+  nameWithType: ProductExtraDataField.ProductExtraDataField
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField.ProductExtraDataField
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ProductExtraDataField.Name
+  isExternal: true
+  name: Name
+  nameWithType: ProductExtraDataField.Name
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.ProductExtraDataField.Value
+  isExternal: true
+  name: Value
+  nameWithType: ProductExtraDataField.Value
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField.Value
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ProductExtraDataField.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: ProductExtraDataField.Type_String
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField.Type_String
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.Type
+  commentId: P:SuperOffice.WebApi.Data.ProductExtraDataField.Type
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.ProductExtraDataField.Type
+  isExternal: true
+  name: Type
+  nameWithType: ProductExtraDataField.Type
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField.Type
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField.Type_String
+  commentId: P:SuperOffice.WebApi.Data.ProductExtraDataField.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ExtraDataFieldType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ExtraDataFieldType}'
+  definition: System.Nullable`1
+  name: Nullable<ExtraDataFieldType>
+  nameWithType: Nullable<ExtraDataFieldType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ExtraDataFieldType>
+  nameWithType.vb: Nullable(Of ExtraDataFieldType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ExtraDataFieldType)
+  name.vb: Nullable(Of ExtraDataFieldType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ExtraDataFieldType
+    name: ExtraDataFieldType
+    nameWithType: ExtraDataFieldType
+    fullName: SuperOffice.WebApi.Data.ExtraDataFieldType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ExtraDataFieldType
+    name: ExtraDataFieldType
+    nameWithType: ExtraDataFieldType
+    fullName: SuperOffice.WebApi.Data.ExtraDataFieldType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

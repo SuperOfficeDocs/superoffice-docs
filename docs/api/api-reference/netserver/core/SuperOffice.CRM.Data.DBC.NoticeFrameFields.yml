@@ -1,0 +1,557 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.NoticeFrameFields
+  commentId: T:SuperOffice.CRM.Data.DBC.NoticeFrameFields
+  id: DBC.NoticeFrameFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.NoticeFrameFields.AverageDt
+  - SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorD
+  - SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorI
+  - SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorP
+  - SuperOffice.CRM.Data.DBC.NoticeFrameFields.NoticeFrameId
+  - SuperOffice.CRM.Data.DBC.NoticeFrameFields.RefreshRate
+  - SuperOffice.CRM.Data.DBC.NoticeFrameFields.T0
+  langs:
+  - csharp
+  - vb
+  name: DBC.NoticeFrameFields
+  nameWithType: DBC.NoticeFrameFields
+  fullName: SuperOffice.CRM.Data.DBC.NoticeFrameFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for NoticeFrame, PID controller for automatic adjustment of pop up message check rate\n"
+  syntax:
+    content: public static class NoticeFrameFields
+    content.vb: Public Module NoticeFrameFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.NoticeFrameFields.NoticeFrameId
+  commentId: F:SuperOffice.CRM.Data.DBC.NoticeFrameFields.NoticeFrameId
+  id: NoticeFrameId
+  parent: SuperOffice.CRM.Data.DBC.NoticeFrameFields
+  langs:
+  - csharp
+  - vb
+  name: NoticeFrameId
+  nameWithType: DBC.NoticeFrameFields.NoticeFrameId
+  fullName: SuperOffice.CRM.Data.DBC.NoticeFrameFields.NoticeFrameId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nNoticeFrame.NoticeFrameId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string NoticeFrameId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const NoticeFrameId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorP
+  commentId: F:SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorP
+  id: ErrorP
+  parent: SuperOffice.CRM.Data.DBC.NoticeFrameFields
+  langs:
+  - csharp
+  - vb
+  name: ErrorP
+  nameWithType: DBC.NoticeFrameFields.ErrorP
+  fullName: SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorP
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nNoticeFrame.ErrorP: PID error P\n"
+  syntax:
+    content: public const string ErrorP = "error_p"
+    return:
+      type: System.String
+    content.vb: Public Const ErrorP As String = "error_p"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorI
+  commentId: F:SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorI
+  id: ErrorI
+  parent: SuperOffice.CRM.Data.DBC.NoticeFrameFields
+  langs:
+  - csharp
+  - vb
+  name: ErrorI
+  nameWithType: DBC.NoticeFrameFields.ErrorI
+  fullName: SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorI
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nNoticeFrame.ErrorI: PID error I\n"
+  syntax:
+    content: public const string ErrorI = "error_i"
+    return:
+      type: System.String
+    content.vb: Public Const ErrorI As String = "error_i"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorD
+  commentId: F:SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorD
+  id: ErrorD
+  parent: SuperOffice.CRM.Data.DBC.NoticeFrameFields
+  langs:
+  - csharp
+  - vb
+  name: ErrorD
+  nameWithType: DBC.NoticeFrameFields.ErrorD
+  fullName: SuperOffice.CRM.Data.DBC.NoticeFrameFields.ErrorD
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nNoticeFrame.ErrorD: PID error D\n"
+  syntax:
+    content: public const string ErrorD = "error_d"
+    return:
+      type: System.String
+    content.vb: Public Const ErrorD As String = "error_d"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.NoticeFrameFields.T0
+  commentId: F:SuperOffice.CRM.Data.DBC.NoticeFrameFields.T0
+  id: T0
+  parent: SuperOffice.CRM.Data.DBC.NoticeFrameFields
+  langs:
+  - csharp
+  - vb
+  name: T0
+  nameWithType: DBC.NoticeFrameFields.T0
+  fullName: SuperOffice.CRM.Data.DBC.NoticeFrameFields.T0
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nNoticeFrame.T0: Last executing\n"
+  syntax:
+    content: public const string T0 = "t0"
+    return:
+      type: System.String
+    content.vb: Public Const T0 As String = "t0"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.NoticeFrameFields.AverageDt
+  commentId: F:SuperOffice.CRM.Data.DBC.NoticeFrameFields.AverageDt
+  id: AverageDt
+  parent: SuperOffice.CRM.Data.DBC.NoticeFrameFields
+  langs:
+  - csharp
+  - vb
+  name: AverageDt
+  nameWithType: DBC.NoticeFrameFields.AverageDt
+  fullName: SuperOffice.CRM.Data.DBC.NoticeFrameFields.AverageDt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nNoticeFrame.AverageDt: Average dt\n"
+  syntax:
+    content: public const string AverageDt = "average_dt"
+    return:
+      type: System.String
+    content.vb: Public Const AverageDt As String = "average_dt"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.NoticeFrameFields.RefreshRate
+  commentId: F:SuperOffice.CRM.Data.DBC.NoticeFrameFields.RefreshRate
+  id: RefreshRate
+  parent: SuperOffice.CRM.Data.DBC.NoticeFrameFields
+  langs:
+  - csharp
+  - vb
+  name: RefreshRate
+  nameWithType: DBC.NoticeFrameFields.RefreshRate
+  fullName: SuperOffice.CRM.Data.DBC.NoticeFrameFields.RefreshRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nNoticeFrame.RefreshRate: Notice frame refresh rate\n"
+  syntax:
+    content: public const string RefreshRate = "refresh_rate"
+    return:
+      type: System.String
+    content.vb: Public Const RefreshRate As String = "refresh_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

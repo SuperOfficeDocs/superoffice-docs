@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest
+  id: Document_SubstituteTemplateVariablesExRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.Parameters
+  langs:
+  - csharp
+  - vb
+  name: Document_SubstituteTemplateVariablesExRequest
+  nameWithType: Document_SubstituteTemplateVariablesExRequest
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_SubstituteTemplateVariablesExRequest : Object'
+    content.vb: >-
+      Public Class Document_SubstituteTemplateVariablesExRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_SubstituteTemplateVariablesExRequest()
+  nameWithType: Document_SubstituteTemplateVariablesExRequest.Document_SubstituteTemplateVariablesExRequest()
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.Document_SubstituteTemplateVariablesExRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_SubstituteTemplateVariablesExRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.Parameters
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.Parameters
+  id: Parameters
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: Document_SubstituteTemplateVariablesExRequest.Parameters
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.Parameters
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TemplateVariablesParameters Parameters { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TemplateVariablesParameters
+    content.vb: Public Property Parameters As TemplateVariablesParameters
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.Parameters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.#ctor
+  isExternal: true
+  name: Document_SubstituteTemplateVariablesExRequest
+  nameWithType: Document_SubstituteTemplateVariablesExRequest.Document_SubstituteTemplateVariablesExRequest
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.Document_SubstituteTemplateVariablesExRequest
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.Parameters*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.Parameters
+  isExternal: true
+  name: Parameters
+  nameWithType: Document_SubstituteTemplateVariablesExRequest.Parameters
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesExRequest.Parameters
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  commentId: T:SuperOffice.WebApi.Data.TemplateVariablesParameters
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TemplateVariablesParameters
+  nameWithType: TemplateVariablesParameters
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters

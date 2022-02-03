@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FreeText_AddWordsRequest
+  commentId: T:SuperOffice.WebApi.Data.FreeText_AddWordsRequest
+  id: FreeText_AddWordsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FreeText_AddWordsRequest.#ctor
+  - SuperOffice.WebApi.Data.FreeText_AddWordsRequest.StopWords
+  langs:
+  - csharp
+  - vb
+  name: FreeText_AddWordsRequest
+  nameWithType: FreeText_AddWordsRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_AddWordsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class FreeText_AddWordsRequest : Object'
+    content.vb: >-
+      Public Class FreeText_AddWordsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FreeText_AddWordsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FreeText_AddWordsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FreeText_AddWordsRequest
+  langs:
+  - csharp
+  - vb
+  name: FreeText_AddWordsRequest()
+  nameWithType: FreeText_AddWordsRequest.FreeText_AddWordsRequest()
+  fullName: SuperOffice.WebApi.Data.FreeText_AddWordsRequest.FreeText_AddWordsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public FreeText_AddWordsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FreeText_AddWordsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText_AddWordsRequest.StopWords
+  commentId: P:SuperOffice.WebApi.Data.FreeText_AddWordsRequest.StopWords
+  id: StopWords
+  parent: SuperOffice.WebApi.Data.FreeText_AddWordsRequest
+  langs:
+  - csharp
+  - vb
+  name: StopWords
+  nameWithType: FreeText_AddWordsRequest.StopWords
+  fullName: SuperOffice.WebApi.Data.FreeText_AddWordsRequest.StopWords
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StopWords { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StopWords As String
+  overload: SuperOffice.WebApi.Data.FreeText_AddWordsRequest.StopWords*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FreeText_AddWordsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_AddWordsRequest.#ctor
+  isExternal: true
+  name: FreeText_AddWordsRequest
+  nameWithType: FreeText_AddWordsRequest.FreeText_AddWordsRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_AddWordsRequest.FreeText_AddWordsRequest
+- uid: SuperOffice.WebApi.Data.FreeText_AddWordsRequest.StopWords*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_AddWordsRequest.StopWords
+  isExternal: true
+  name: StopWords
+  nameWithType: FreeText_AddWordsRequest.StopWords
+  fullName: SuperOffice.WebApi.Data.FreeText_AddWordsRequest.StopWords
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

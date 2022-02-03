@@ -1,0 +1,607 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  id: SoArchiveControlController.RowActionLinkHintRequest
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.actionName
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.archiveControlContext
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.entityIds
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.Id
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.orderBy
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.page
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.rowIds
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.rowLinkHints
+  langs:
+  - csharp
+  - vb
+  name: SoArchiveControlController.RowActionLinkHintRequest
+  nameWithType: SoArchiveControlController.RowActionLinkHintRequest
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public class RowActionLinkHintRequest
+    content.vb: Public Class RowActionLinkHintRequest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.Id
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.Id
+  id: Id
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SoArchiveControlController.RowActionLinkHintRequest.Id
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.Id
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Id
+    return:
+      type: System.String
+    content.vb: Public Id As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.orderBy
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.orderBy
+  id: orderBy
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  langs:
+  - csharp
+  - vb
+  name: orderBy
+  nameWithType: SoArchiveControlController.RowActionLinkHintRequest.orderBy
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.orderBy
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string orderBy
+    return:
+      type: System.String
+    content.vb: Public orderBy As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.page
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.page
+  id: page
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  langs:
+  - csharp
+  - vb
+  name: page
+  nameWithType: SoArchiveControlController.RowActionLinkHintRequest.page
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.page
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int page
+    return:
+      type: System.Int32
+    content.vb: Public page As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.archiveControlContext
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.archiveControlContext
+  id: archiveControlContext
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  langs:
+  - csharp
+  - vb
+  name: archiveControlContext
+  nameWithType: SoArchiveControlController.RowActionLinkHintRequest.archiveControlContext
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.archiveControlContext
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public ArchiveControlContext archiveControlContext
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    content.vb: Public archiveControlContext As ArchiveControlContext
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.actionName
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.actionName
+  id: actionName
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  langs:
+  - csharp
+  - vb
+  name: actionName
+  nameWithType: SoArchiveControlController.RowActionLinkHintRequest.actionName
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.actionName
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string actionName
+    return:
+      type: System.String
+    content.vb: Public actionName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.entityIds
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.entityIds
+  id: entityIds
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  langs:
+  - csharp
+  - vb
+  name: entityIds
+  nameWithType: SoArchiveControlController.RowActionLinkHintRequest.entityIds
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.entityIds
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string entityIds
+    return:
+      type: System.String
+    content.vb: Public entityIds As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.rowLinkHints
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.rowLinkHints
+  id: rowLinkHints
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  langs:
+  - csharp
+  - vb
+  name: rowLinkHints
+  nameWithType: SoArchiveControlController.RowActionLinkHintRequest.rowLinkHints
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.rowLinkHints
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string rowLinkHints
+    return:
+      type: System.String
+    content.vb: Public rowLinkHints As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.rowIds
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.rowIds
+  id: rowIds
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  langs:
+  - csharp
+  - vb
+  name: rowIds
+  nameWithType: SoArchiveControlController.RowActionLinkHintRequest.rowIds
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.rowIds
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string rowIds
+    return:
+      type: System.String
+    content.vb: Public rowIds As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+  langs:
+  - csharp
+  - vb
+  name: RowActionLinkHintRequest()
+  nameWithType: SoArchiveControlController.RowActionLinkHintRequest.RowActionLinkHintRequest()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.RowActionLinkHintRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public RowActionLinkHintRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: ArchiveControlContext
+  nameWithType: ArchiveControlContext
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.#ctor
+  isExternal: true
+  name: RowActionLinkHintRequest
+  nameWithType: SoArchiveControlController.RowActionLinkHintRequest.RowActionLinkHintRequest
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest.RowActionLinkHintRequest

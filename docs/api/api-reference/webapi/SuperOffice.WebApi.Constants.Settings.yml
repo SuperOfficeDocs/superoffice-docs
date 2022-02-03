@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Constants.Settings
+  commentId: T:SuperOffice.WebApi.Constants.Settings
+  id: Constants.Settings
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.Constants.Settings.Name
+  langs:
+  - csharp
+  - vb
+  name: Constants.Settings
+  nameWithType: Constants.Settings
+  fullName: SuperOffice.WebApi.Constants.Settings
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: 'public static class Settings : Object'
+    content.vb: >-
+      Public Module Settings
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Constants.Settings.Name
+  commentId: F:SuperOffice.WebApi.Constants.Settings.Name
+  id: Name
+  parent: SuperOffice.WebApi.Constants.Settings
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Constants.Settings.Name
+  fullName: SuperOffice.WebApi.Constants.Settings.Name
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Name = "WebApi.Client/"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "WebApi.Client/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

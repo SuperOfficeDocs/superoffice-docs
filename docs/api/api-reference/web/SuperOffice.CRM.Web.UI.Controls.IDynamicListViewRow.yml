@@ -1,0 +1,36 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.IDynamicListViewRow
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.IDynamicListViewRow
+  id: IDynamicListViewRow
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IDynamicListViewRow
+  nameWithType: IDynamicListViewRow
+  fullName: SuperOffice.CRM.Web.UI.Controls.IDynamicListViewRow
+  type: Interface
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public interface IDynamicListViewRow
+    content.vb: Public Interface IDynamicListViewRow
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls

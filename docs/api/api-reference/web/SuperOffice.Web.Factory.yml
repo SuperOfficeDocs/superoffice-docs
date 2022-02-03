@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Factory
+  commentId: N:SuperOffice.Web.Factory
+  id: SuperOffice.Web.Factory
+  children:
+  - SuperOffice.Web.Factory.WebContainers
+  - SuperOffice.Web.Factory.WebRequestInstanceContainer
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.Factory
+  nameWithType: SuperOffice.Web.Factory
+  fullName: SuperOffice.Web.Factory
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.Factory.WebContainers
+  commentId: T:SuperOffice.Web.Factory.WebContainers
+  isExternal: true
+  name: WebContainers
+  nameWithType: WebContainers
+  fullName: SuperOffice.Web.Factory.WebContainers
+- uid: SuperOffice.Web.Factory.WebRequestInstanceContainer
+  commentId: T:SuperOffice.Web.Factory.WebRequestInstanceContainer
+  isExternal: true
+  name: WebRequestInstanceContainer
+  nameWithType: WebRequestInstanceContainer
+  fullName: SuperOffice.Web.Factory.WebRequestInstanceContainer

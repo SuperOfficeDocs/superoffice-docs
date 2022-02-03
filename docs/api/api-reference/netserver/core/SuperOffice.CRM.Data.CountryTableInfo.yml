@@ -1,0 +1,3447 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.CountryTableInfo
+  commentId: T:SuperOffice.CRM.Data.CountryTableInfo
+  id: CountryTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.CountryTableInfo.Abbrev2
+  - SuperOffice.CRM.Data.CountryTableInfo.Abbrev3
+  - SuperOffice.CRM.Data.CountryTableInfo.AddressLayout
+  - SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutDomestic
+  - SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutForeign
+  - SuperOffice.CRM.Data.CountryTableInfo.CountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.CurrencyId
+  - SuperOffice.CRM.Data.CountryTableInfo.CurrencyId_InnerJoin_Currency
+  - SuperOffice.CRM.Data.CountryTableInfo.CustomPhoneDesc
+  - SuperOffice.CRM.Data.CountryTableInfo.DefaultLcid
+  - SuperOffice.CRM.Data.CountryTableInfo.Definition
+  - SuperOffice.CRM.Data.CountryTableInfo.Deleted
+  - SuperOffice.CRM.Data.CountryTableInfo.DialInPrefix
+  - SuperOffice.CRM.Data.CountryTableInfo.DialOutPrefix
+  - SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.CountryTableInfo.DomainName
+  - SuperOffice.CRM.Data.CountryTableInfo.EnglishName
+  - SuperOffice.CRM.Data.CountryTableInfo.FlagresId
+  - SuperOffice.CRM.Data.CountryTableInfo.InterAreaPrefix
+  - SuperOffice.CRM.Data.CountryTableInfo.IsBuiltIn
+  - SuperOffice.CRM.Data.CountryTableInfo.IsoNumber
+  - SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Contact_CountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryGroupLink_CountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryHeadingLink_CountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_LanguageInfoCountry_CountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Person_CountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_PhoneFormat_CountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_DeliveryCountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_InvoiceCountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_RedLetterDay_CountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_TZLocation_CountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_ZipToCity_CountryId
+  - SuperOffice.CRM.Data.CountryTableInfo.Name
+  - SuperOffice.CRM.Data.CountryTableInfo.OrgNrText
+  - SuperOffice.CRM.Data.CountryTableInfo.PhonePartOfNA
+  - SuperOffice.CRM.Data.CountryTableInfo.Rank
+  - SuperOffice.CRM.Data.CountryTableInfo.Registered
+  - SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.CountryTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.CountryTableInfo.Tooltip
+  - SuperOffice.CRM.Data.CountryTableInfo.TzLocationId
+  - SuperOffice.CRM.Data.CountryTableInfo.TzLocationId_InnerJoin_TZLocation
+  - SuperOffice.CRM.Data.CountryTableInfo.Updated
+  - SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.CountryTableInfo.UpdatedCount
+  - SuperOffice.CRM.Data.CountryTableInfo.ZipPrefix
+  langs:
+  - csharp
+  - vb
+  name: CountryTableInfo
+  nameWithType: CountryTableInfo
+  fullName: SuperOffice.CRM.Data.CountryTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;country&apos;: Country information\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetCountryInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("country")]
+
+      public class CountryTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("country")>
+
+      Public Class CountryTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.CountryTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.CountryTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: country
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: CountryTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table Country in the database dictionary: country\n"
+  syntax:
+    content: public const string DictionaryTableName = "country"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "country"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: CountryTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table Country in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: CountryTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.CountryTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: CountryTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.CountryTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.CountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: CountryTableInfo.CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;country_id&apos; in table &apos;country&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo CountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property CountryId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Name
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CountryTableInfo.Name
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;name&apos; in table &apos;country&apos;: Dictionary type String[240], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nName of country in installed language\n"
+  syntax:
+    content: public StringFieldInfo Name { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Name As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Rank
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: CountryTableInfo.Rank
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Rank
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;rank&apos; in table &apos;country&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRank order \n"
+  syntax:
+    content: public UInt16FieldInfo Rank { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Rank As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Tooltip
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: CountryTableInfo.Tooltip
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Tooltip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;tooltip&apos; in table &apos;country&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTooltip or other description\n"
+  syntax:
+    content: public StringFieldInfo Tooltip { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Tooltip As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.Tooltip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Deleted
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: CountryTableInfo.Deleted
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Deleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;deleted&apos; in table &apos;country&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public UInt16FieldInfo Deleted { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Deleted As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.Deleted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.EnglishName
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.EnglishName
+  id: EnglishName
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EnglishName
+  nameWithType: CountryTableInfo.EnglishName
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.EnglishName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;english_name&apos; in table &apos;country&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nName of country in english\n"
+  syntax:
+    content: public StringFieldInfo EnglishName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property EnglishName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.EnglishName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.ZipPrefix
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.ZipPrefix
+  id: ZipPrefix
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ZipPrefix
+  nameWithType: CountryTableInfo.ZipPrefix
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.ZipPrefix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;zip_prefix&apos; in table &apos;country&apos;: Dictionary type String[6], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nN- DK- etc.\n"
+  syntax:
+    content: public StringFieldInfo ZipPrefix { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ZipPrefix As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.ZipPrefix*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.FlagresId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.FlagresId
+  id: FlagresId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FlagresId
+  nameWithType: CountryTableInfo.FlagresId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.FlagresId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;flagres_id&apos; in table &apos;country&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nResource ID of flag graphic\n"
+  syntax:
+    content: public FieldInfo FlagresId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property FlagresId As FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.FlagresId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.AddressLayout
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.AddressLayout
+  id: AddressLayout
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AddressLayout
+  nameWithType: CountryTableInfo.AddressLayout
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.AddressLayout
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;addressLayout&apos; in table &apos;country&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPoints to address format used in the GUI\n"
+  syntax:
+    content: public Int32FieldInfo AddressLayout { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property AddressLayout As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.AddressLayout*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutDomestic
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutDomestic
+  id: AddressLayoutDomestic
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AddressLayoutDomestic
+  nameWithType: CountryTableInfo.AddressLayoutDomestic
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutDomestic
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;addressLayoutDomestic&apos; in table &apos;country&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPoints to address format used for labels to own country\n"
+  syntax:
+    content: public Int32FieldInfo AddressLayoutDomestic { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property AddressLayoutDomestic As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutDomestic*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutForeign
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutForeign
+  id: AddressLayoutForeign
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AddressLayoutForeign
+  nameWithType: CountryTableInfo.AddressLayoutForeign
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutForeign
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;addressLayoutForeign&apos; in table &apos;country&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPoints to address format used for labels to other countries than own country\n"
+  syntax:
+    content: public Int32FieldInfo AddressLayoutForeign { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property AddressLayoutForeign As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutForeign*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.CurrencyId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: CountryTableInfo.CurrencyId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.CurrencyId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;currency_id&apos; in table &apos;country&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault currency for this country\n"
+  syntax:
+    content: public Int32FieldInfo CurrencyId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property CurrencyId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.CurrencyId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.OrgNrText
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.OrgNrText
+  id: OrgNrText
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OrgNrText
+  nameWithType: CountryTableInfo.OrgNrText
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.OrgNrText
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;orgNrText&apos; in table &apos;country&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLead text for organisation field\n"
+  syntax:
+    content: public StringFieldInfo OrgNrText { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property OrgNrText As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.OrgNrText*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.DomainName
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.DomainName
+  id: DomainName
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DomainName
+  nameWithType: CountryTableInfo.DomainName
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.DomainName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;domainName&apos; in table &apos;country&apos;: Dictionary type String[10], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault Web domain identifier (.no, .uk, etc; but without the dot)\n"
+  syntax:
+    content: public StringFieldInfo DomainName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property DomainName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.DomainName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: CountryTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered&apos; in table &apos;country&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: CountryTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;country&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: CountryTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated&apos; in table &apos;country&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: CountryTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;country&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: CountryTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updatedCount&apos; in table &apos;country&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.DefaultLcid
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.DefaultLcid
+  id: DefaultLcid
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultLcid
+  nameWithType: CountryTableInfo.DefaultLcid
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.DefaultLcid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;defaultLcid&apos; in table &apos;country&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLCID code in .NET, this should be the defaultLcid of the language that has the isDefault flag set in the LanguageInforCountry link table\n"
+  syntax:
+    content: public FieldInfo DefaultLcid { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property DefaultLcid As FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.DefaultLcid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.DialInPrefix
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.DialInPrefix
+  id: DialInPrefix
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DialInPrefix
+  nameWithType: CountryTableInfo.DialInPrefix
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.DialInPrefix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;dialInPrefix&apos; in table &apos;country&apos;: Dictionary type String[32], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrefix for dialing into the country from outside (country code)\n"
+  syntax:
+    content: public StringFieldInfo DialInPrefix { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property DialInPrefix As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.DialInPrefix*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.DialOutPrefix
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.DialOutPrefix
+  id: DialOutPrefix
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DialOutPrefix
+  nameWithType: CountryTableInfo.DialOutPrefix
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.DialOutPrefix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;dialOutPrefix&apos; in table &apos;country&apos;: Dictionary type String[32], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrefix for dialling out of the country, voice call\n"
+  syntax:
+    content: public StringFieldInfo DialOutPrefix { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property DialOutPrefix As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.DialOutPrefix*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.InterAreaPrefix
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.InterAreaPrefix
+  id: InterAreaPrefix
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: InterAreaPrefix
+  nameWithType: CountryTableInfo.InterAreaPrefix
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.InterAreaPrefix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;interAreaPrefix&apos; in table &apos;country&apos;: Dictionary type String[32], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrefix for inter-area dialling in the country\n"
+  syntax:
+    content: public StringFieldInfo InterAreaPrefix { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property InterAreaPrefix As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.InterAreaPrefix*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.CustomPhoneDesc
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.CustomPhoneDesc
+  id: CustomPhoneDesc
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CustomPhoneDesc
+  nameWithType: CountryTableInfo.CustomPhoneDesc
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.CustomPhoneDesc
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;customPhoneDesc&apos; in table &apos;country&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCustom phone description, if any (comes from ISO/ITU documents)\n"
+  syntax:
+    content: public StringFieldInfo CustomPhoneDesc { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property CustomPhoneDesc As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.CustomPhoneDesc*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.PhonePartOfNA
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.PhonePartOfNA
+  id: PhonePartOfNA
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PhonePartOfNA
+  nameWithType: CountryTableInfo.PhonePartOfNA
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.PhonePartOfNA
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;phonePartOfNA&apos; in table &apos;country&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIs the phone system part of the North American system\n"
+  syntax:
+    content: public UInt16FieldInfo PhonePartOfNA { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property PhonePartOfNA As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.PhonePartOfNA*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.IsBuiltIn
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: CountryTableInfo.IsBuiltIn
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.IsBuiltIn
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;isBuiltIn&apos; in table &apos;country&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIs this record populated by SuperOffice priming data?\n"
+  syntax:
+    content: public UInt16FieldInfo IsBuiltIn { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property IsBuiltIn As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.IsBuiltIn*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.IsoNumber
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.IsoNumber
+  id: IsoNumber
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IsoNumber
+  nameWithType: CountryTableInfo.IsoNumber
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.IsoNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;isoNumber&apos; in table &apos;country&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe primary key used by ISO to identify countries when they have a revolution and change their name from Upper Volta to Burkina Faso :-)\n"
+  syntax:
+    content: public FieldInfo IsoNumber { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property IsoNumber As FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.IsoNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Abbrev3
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.Abbrev3
+  id: Abbrev3
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Abbrev3
+  nameWithType: CountryTableInfo.Abbrev3
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Abbrev3
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;abbrev3&apos; in table &apos;country&apos;: Dictionary type String[4], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nISO 3-letter abbreviation\n"
+  syntax:
+    content: public StringFieldInfo Abbrev3 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Abbrev3 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.Abbrev3*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Abbrev2
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.Abbrev2
+  id: Abbrev2
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Abbrev2
+  nameWithType: CountryTableInfo.Abbrev2
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Abbrev2
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;abbrev2&apos; in table &apos;country&apos;: Dictionary type String[3], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nISO 2-letter abbreviation\n"
+  syntax:
+    content: public StringFieldInfo Abbrev2 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Abbrev2 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.Abbrev2*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.TzLocationId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.TzLocationId
+  id: TzLocationId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TzLocationId
+  nameWithType: CountryTableInfo.TzLocationId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.TzLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;tzLocationId&apos; in table &apos;country&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault timezone location for this country\n"
+  syntax:
+    content: public Int32FieldInfo TzLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property TzLocationId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CountryTableInfo.TzLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.CurrencyId_InnerJoin_Currency
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.CurrencyId_InnerJoin_Currency
+  id: CurrencyId_InnerJoin_Currency
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId_InnerJoin_Currency
+  nameWithType: CountryTableInfo.CurrencyId_InnerJoin_Currency
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.CurrencyId_InnerJoin_Currency
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key CurrencyId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.CurrencyTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<CurrencyTableInfo> CurrencyId_InnerJoin_Currency { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CurrencyTableInfo}
+    content.vb: Public ReadOnly Property CurrencyId_InnerJoin_Currency As TargetedInnerJoin(Of CurrencyTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.CurrencyId_InnerJoin_Currency*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: CountryTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: CountryTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.TzLocationId_InnerJoin_TZLocation
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.TzLocationId_InnerJoin_TZLocation
+  id: TzLocationId_InnerJoin_TZLocation
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TzLocationId_InnerJoin_TZLocation
+  nameWithType: CountryTableInfo.TzLocationId_InnerJoin_TZLocation
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.TzLocationId_InnerJoin_TZLocation
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key TzLocationId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TZLocationTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<TZLocationTableInfo> TzLocationId_InnerJoin_TZLocation { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TZLocationTableInfo}
+    content.vb: Public ReadOnly Property TzLocationId_InnerJoin_TZLocation As TargetedInnerJoin(Of TZLocationTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.TzLocationId_InnerJoin_TZLocation*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Contact_CountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Contact_CountryId
+  id: LeftOuterJoin_Contact_CountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Contact_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_Contact_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Contact_CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CountryId on this table, to Contact.<xref href=\"SuperOffice.CRM.Data.ContactTableInfo.CountryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ContactTableInfo> LeftOuterJoin_Contact_CountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ContactTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Contact_CountryId As TargetedLeftOuterJoin(Of ContactTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Contact_CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Person_CountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Person_CountryId
+  id: LeftOuterJoin_Person_CountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Person_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_Person_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Person_CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CountryId on this table, to Person.<xref href=\"SuperOffice.CRM.Data.PersonTableInfo.CountryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<PersonTableInfo> LeftOuterJoin_Person_CountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Person_CountryId As TargetedLeftOuterJoin(Of PersonTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Person_CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_ZipToCity_CountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_ZipToCity_CountryId
+  id: LeftOuterJoin_ZipToCity_CountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ZipToCity_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_ZipToCity_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_ZipToCity_CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CountryId on this table, to ZipToCity.<xref href=\"SuperOffice.CRM.Data.ZipToCityTableInfo.CountryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ZipToCityTableInfo> LeftOuterJoin_ZipToCity_CountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ZipToCityTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ZipToCity_CountryId As TargetedLeftOuterJoin(Of ZipToCityTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_ZipToCity_CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_RedLetterDay_CountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_RedLetterDay_CountryId
+  id: LeftOuterJoin_RedLetterDay_CountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_RedLetterDay_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_RedLetterDay_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_RedLetterDay_CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CountryId on this table, to RedLetterDay.<xref href=\"SuperOffice.CRM.Data.RedLetterDayTableInfo.CountryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<RedLetterDayTableInfo> LeftOuterJoin_RedLetterDay_CountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.RedLetterDayTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_RedLetterDay_CountryId As TargetedLeftOuterJoin(Of RedLetterDayTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_RedLetterDay_CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryGroupLink_CountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryGroupLink_CountryId
+  id: LeftOuterJoin_CountryGroupLink_CountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_CountryGroupLink_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_CountryGroupLink_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryGroupLink_CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CountryId on this table, to CountryGroupLink.<xref href=\"SuperOffice.CRM.Data.CountryGroupLinkTableInfo.CountryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<CountryGroupLinkTableInfo> LeftOuterJoin_CountryGroupLink_CountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CountryGroupLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_CountryGroupLink_CountryId As TargetedLeftOuterJoin(Of CountryGroupLinkTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryGroupLink_CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryHeadingLink_CountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryHeadingLink_CountryId
+  id: LeftOuterJoin_CountryHeadingLink_CountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_CountryHeadingLink_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_CountryHeadingLink_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryHeadingLink_CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CountryId on this table, to CountryHeadingLink.<xref href=\"SuperOffice.CRM.Data.CountryHeadingLinkTableInfo.CountryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<CountryHeadingLinkTableInfo> LeftOuterJoin_CountryHeadingLink_CountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CountryHeadingLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_CountryHeadingLink_CountryId As TargetedLeftOuterJoin(Of CountryHeadingLinkTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryHeadingLink_CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_DeliveryCountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_DeliveryCountryId
+  id: LeftOuterJoin_QuoteVersion_DeliveryCountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_QuoteVersion_DeliveryCountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_QuoteVersion_DeliveryCountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_DeliveryCountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CountryId on this table, to QuoteVersion.<xref href=\"SuperOffice.CRM.Data.QuoteVersionTableInfo.DeliveryCountryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<QuoteVersionTableInfo> LeftOuterJoin_QuoteVersion_DeliveryCountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteVersionTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_QuoteVersion_DeliveryCountryId As TargetedLeftOuterJoin(Of QuoteVersionTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_DeliveryCountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_InvoiceCountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_InvoiceCountryId
+  id: LeftOuterJoin_QuoteVersion_InvoiceCountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_QuoteVersion_InvoiceCountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_QuoteVersion_InvoiceCountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_InvoiceCountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CountryId on this table, to QuoteVersion.<xref href=\"SuperOffice.CRM.Data.QuoteVersionTableInfo.InvoiceCountryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<QuoteVersionTableInfo> LeftOuterJoin_QuoteVersion_InvoiceCountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteVersionTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_QuoteVersion_InvoiceCountryId As TargetedLeftOuterJoin(Of QuoteVersionTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_InvoiceCountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_LanguageInfoCountry_CountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_LanguageInfoCountry_CountryId
+  id: LeftOuterJoin_LanguageInfoCountry_CountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_LanguageInfoCountry_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_LanguageInfoCountry_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_LanguageInfoCountry_CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CountryId on this table, to LanguageInfoCountry.<xref href=\"SuperOffice.CRM.Data.LanguageInfoCountryTableInfo.CountryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<LanguageInfoCountryTableInfo> LeftOuterJoin_LanguageInfoCountry_CountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_LanguageInfoCountry_CountryId As TargetedLeftOuterJoin(Of LanguageInfoCountryTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_LanguageInfoCountry_CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_TZLocation_CountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_TZLocation_CountryId
+  id: LeftOuterJoin_TZLocation_CountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TZLocation_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_TZLocation_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_TZLocation_CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CountryId on this table, to TZLocation.<xref href=\"SuperOffice.CRM.Data.TZLocationTableInfo.CountryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TZLocationTableInfo> LeftOuterJoin_TZLocation_CountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TZLocationTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TZLocation_CountryId As TargetedLeftOuterJoin(Of TZLocationTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_TZLocation_CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_PhoneFormat_CountryId
+  commentId: P:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_PhoneFormat_CountryId
+  id: LeftOuterJoin_PhoneFormat_CountryId
+  parent: SuperOffice.CRM.Data.CountryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_PhoneFormat_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_PhoneFormat_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_PhoneFormat_CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CountryId on this table, to PhoneFormat.<xref href=\"SuperOffice.CRM.Data.PhoneFormatTableInfo.CountryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<PhoneFormatTableInfo> LeftOuterJoin_PhoneFormat_CountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PhoneFormatTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_PhoneFormat_CountryId As TargetedLeftOuterJoin(Of PhoneFormatTableInfo)
+  overload: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_PhoneFormat_CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CountryTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<CountryTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.CountryTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CountryTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.CountryTableInfo, To)()
+  name.vb: MapEnums(Of CountryTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CountryTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<CountryTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.CountryTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CountryTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of CountryTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.CountryTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CountryTableInfo, To>()
+  nameWithType: Converters.MapEnums<CountryTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.CountryTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of CountryTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.CountryTableInfo, To)()
+  name.vb: MapEnums(Of CountryTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CountryTableInfo, To>
+    nameWithType: Converters.MapEnums<CountryTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.CountryTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CountryTableInfo, To)
+    nameWithType: Converters.MapEnums(Of CountryTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.CountryTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: CountryTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.CountryTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: CountryTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: CountryTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Definition
+- uid: SuperOffice.CRM.Data.CountryTableInfo.CountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: CountryTableInfo.CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.CountryId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Name*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: CountryTableInfo.Name
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Name
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Rank*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: CountryTableInfo.Rank
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Rank
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: CountryTableInfo.Tooltip
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Tooltip
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Deleted*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: CountryTableInfo.Deleted
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Deleted
+- uid: SuperOffice.CRM.Data.CountryTableInfo.EnglishName*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.EnglishName
+  isExternal: true
+  name: EnglishName
+  nameWithType: CountryTableInfo.EnglishName
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.EnglishName
+- uid: SuperOffice.CRM.Data.CountryTableInfo.ZipPrefix*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.ZipPrefix
+  isExternal: true
+  name: ZipPrefix
+  nameWithType: CountryTableInfo.ZipPrefix
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.ZipPrefix
+- uid: SuperOffice.CRM.Data.CountryTableInfo.FlagresId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.FlagresId
+  isExternal: true
+  name: FlagresId
+  nameWithType: CountryTableInfo.FlagresId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.FlagresId
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.CRM.Data.CountryTableInfo.AddressLayout*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.AddressLayout
+  isExternal: true
+  name: AddressLayout
+  nameWithType: CountryTableInfo.AddressLayout
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.AddressLayout
+- uid: SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutDomestic*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutDomestic
+  isExternal: true
+  name: AddressLayoutDomestic
+  nameWithType: CountryTableInfo.AddressLayoutDomestic
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutDomestic
+- uid: SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutForeign*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutForeign
+  isExternal: true
+  name: AddressLayoutForeign
+  nameWithType: CountryTableInfo.AddressLayoutForeign
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.AddressLayoutForeign
+- uid: SuperOffice.CRM.Data.CountryTableInfo.CurrencyId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.CurrencyId
+  isExternal: true
+  name: CurrencyId
+  nameWithType: CountryTableInfo.CurrencyId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.CurrencyId
+- uid: SuperOffice.CRM.Data.CountryTableInfo.OrgNrText*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.OrgNrText
+  isExternal: true
+  name: OrgNrText
+  nameWithType: CountryTableInfo.OrgNrText
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.OrgNrText
+- uid: SuperOffice.CRM.Data.CountryTableInfo.DomainName*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.DomainName
+  isExternal: true
+  name: DomainName
+  nameWithType: CountryTableInfo.DomainName
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.DomainName
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: CountryTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Registered
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: CountryTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: CountryTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Updated
+- uid: SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: CountryTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.CountryTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: CountryTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.CountryTableInfo.DefaultLcid*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.DefaultLcid
+  isExternal: true
+  name: DefaultLcid
+  nameWithType: CountryTableInfo.DefaultLcid
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.DefaultLcid
+- uid: SuperOffice.CRM.Data.CountryTableInfo.DialInPrefix*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.DialInPrefix
+  isExternal: true
+  name: DialInPrefix
+  nameWithType: CountryTableInfo.DialInPrefix
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.DialInPrefix
+- uid: SuperOffice.CRM.Data.CountryTableInfo.DialOutPrefix*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.DialOutPrefix
+  isExternal: true
+  name: DialOutPrefix
+  nameWithType: CountryTableInfo.DialOutPrefix
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.DialOutPrefix
+- uid: SuperOffice.CRM.Data.CountryTableInfo.InterAreaPrefix*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.InterAreaPrefix
+  isExternal: true
+  name: InterAreaPrefix
+  nameWithType: CountryTableInfo.InterAreaPrefix
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.InterAreaPrefix
+- uid: SuperOffice.CRM.Data.CountryTableInfo.CustomPhoneDesc*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.CustomPhoneDesc
+  isExternal: true
+  name: CustomPhoneDesc
+  nameWithType: CountryTableInfo.CustomPhoneDesc
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.CustomPhoneDesc
+- uid: SuperOffice.CRM.Data.CountryTableInfo.PhonePartOfNA*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.PhonePartOfNA
+  isExternal: true
+  name: PhonePartOfNA
+  nameWithType: CountryTableInfo.PhonePartOfNA
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.PhonePartOfNA
+- uid: SuperOffice.CRM.Data.CountryTableInfo.IsBuiltIn*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.IsBuiltIn
+  isExternal: true
+  name: IsBuiltIn
+  nameWithType: CountryTableInfo.IsBuiltIn
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.IsBuiltIn
+- uid: SuperOffice.CRM.Data.CountryTableInfo.IsoNumber*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.IsoNumber
+  isExternal: true
+  name: IsoNumber
+  nameWithType: CountryTableInfo.IsoNumber
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.IsoNumber
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Abbrev3*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.Abbrev3
+  isExternal: true
+  name: Abbrev3
+  nameWithType: CountryTableInfo.Abbrev3
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Abbrev3
+- uid: SuperOffice.CRM.Data.CountryTableInfo.Abbrev2*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.Abbrev2
+  isExternal: true
+  name: Abbrev2
+  nameWithType: CountryTableInfo.Abbrev2
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.Abbrev2
+- uid: SuperOffice.CRM.Data.CountryTableInfo.TzLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.TzLocationId
+  isExternal: true
+  name: TzLocationId
+  nameWithType: CountryTableInfo.TzLocationId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.TzLocationId
+- uid: SuperOffice.CRM.Data.CountryTableInfo.CurrencyId_InnerJoin_Currency*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.CurrencyId_InnerJoin_Currency
+  isExternal: true
+  name: CurrencyId_InnerJoin_Currency
+  nameWithType: CountryTableInfo.CurrencyId_InnerJoin_Currency
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.CurrencyId_InnerJoin_Currency
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CurrencyTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CurrencyTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<CurrencyTableInfo>
+  nameWithType: TargetedInnerJoin<CurrencyTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.CurrencyTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of CurrencyTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.CurrencyTableInfo)
+  name.vb: TargetedInnerJoin(Of CurrencyTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.CurrencyTableInfo
+    name: CurrencyTableInfo
+    nameWithType: CurrencyTableInfo
+    fullName: SuperOffice.CRM.Data.CurrencyTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.CurrencyTableInfo
+    name: CurrencyTableInfo
+    nameWithType: CurrencyTableInfo
+    fullName: SuperOffice.CRM.Data.CurrencyTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: CountryTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: CountryTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.CountryTableInfo.TzLocationId_InnerJoin_TZLocation*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.TzLocationId_InnerJoin_TZLocation
+  isExternal: true
+  name: TzLocationId_InnerJoin_TZLocation
+  nameWithType: CountryTableInfo.TzLocationId_InnerJoin_TZLocation
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.TzLocationId_InnerJoin_TZLocation
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TZLocationTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TZLocationTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<TZLocationTableInfo>
+  nameWithType: TargetedInnerJoin<TZLocationTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.TZLocationTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TZLocationTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.TZLocationTableInfo)
+  name.vb: TargetedInnerJoin(Of TZLocationTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TZLocationTableInfo
+    name: TZLocationTableInfo
+    nameWithType: TZLocationTableInfo
+    fullName: SuperOffice.CRM.Data.TZLocationTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TZLocationTableInfo
+    name: TZLocationTableInfo
+    nameWithType: TZLocationTableInfo
+    fullName: SuperOffice.CRM.Data.TZLocationTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Contact_CountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Contact_CountryId
+  isExternal: true
+  name: LeftOuterJoin_Contact_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_Contact_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Contact_CountryId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ContactTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ContactTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ContactTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ContactTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ContactTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ContactTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Person_CountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Person_CountryId
+  isExternal: true
+  name: LeftOuterJoin_Person_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_Person_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_Person_CountryId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<PersonTableInfo>
+  nameWithType: TargetedLeftOuterJoin<PersonTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.PersonTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of PersonTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.PersonTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of PersonTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_ZipToCity_CountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_ZipToCity_CountryId
+  isExternal: true
+  name: LeftOuterJoin_ZipToCity_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_ZipToCity_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_ZipToCity_CountryId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ZipToCityTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ZipToCityTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ZipToCityTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ZipToCityTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ZipToCityTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ZipToCityTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ZipToCityTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ZipToCityTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ZipToCityTableInfo
+    name: ZipToCityTableInfo
+    nameWithType: ZipToCityTableInfo
+    fullName: SuperOffice.CRM.Data.ZipToCityTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ZipToCityTableInfo
+    name: ZipToCityTableInfo
+    nameWithType: ZipToCityTableInfo
+    fullName: SuperOffice.CRM.Data.ZipToCityTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_RedLetterDay_CountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_RedLetterDay_CountryId
+  isExternal: true
+  name: LeftOuterJoin_RedLetterDay_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_RedLetterDay_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_RedLetterDay_CountryId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.RedLetterDayTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.RedLetterDayTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<RedLetterDayTableInfo>
+  nameWithType: TargetedLeftOuterJoin<RedLetterDayTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.RedLetterDayTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of RedLetterDayTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.RedLetterDayTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of RedLetterDayTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.RedLetterDayTableInfo
+    name: RedLetterDayTableInfo
+    nameWithType: RedLetterDayTableInfo
+    fullName: SuperOffice.CRM.Data.RedLetterDayTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.RedLetterDayTableInfo
+    name: RedLetterDayTableInfo
+    nameWithType: RedLetterDayTableInfo
+    fullName: SuperOffice.CRM.Data.RedLetterDayTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryGroupLink_CountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryGroupLink_CountryId
+  isExternal: true
+  name: LeftOuterJoin_CountryGroupLink_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_CountryGroupLink_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryGroupLink_CountryId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CountryGroupLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CountryGroupLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<CountryGroupLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<CountryGroupLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.CountryGroupLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of CountryGroupLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.CountryGroupLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of CountryGroupLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.CountryGroupLinkTableInfo
+    name: CountryGroupLinkTableInfo
+    nameWithType: CountryGroupLinkTableInfo
+    fullName: SuperOffice.CRM.Data.CountryGroupLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.CountryGroupLinkTableInfo
+    name: CountryGroupLinkTableInfo
+    nameWithType: CountryGroupLinkTableInfo
+    fullName: SuperOffice.CRM.Data.CountryGroupLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryHeadingLink_CountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryHeadingLink_CountryId
+  isExternal: true
+  name: LeftOuterJoin_CountryHeadingLink_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_CountryHeadingLink_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_CountryHeadingLink_CountryId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CountryHeadingLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CountryHeadingLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<CountryHeadingLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<CountryHeadingLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.CountryHeadingLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of CountryHeadingLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.CountryHeadingLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of CountryHeadingLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
+    name: CountryHeadingLinkTableInfo
+    nameWithType: CountryHeadingLinkTableInfo
+    fullName: SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
+    name: CountryHeadingLinkTableInfo
+    nameWithType: CountryHeadingLinkTableInfo
+    fullName: SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_DeliveryCountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_DeliveryCountryId
+  isExternal: true
+  name: LeftOuterJoin_QuoteVersion_DeliveryCountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_QuoteVersion_DeliveryCountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_DeliveryCountryId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteVersionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteVersionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<QuoteVersionTableInfo>
+  nameWithType: TargetedLeftOuterJoin<QuoteVersionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.QuoteVersionTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of QuoteVersionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.QuoteVersionTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of QuoteVersionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.QuoteVersionTableInfo
+    name: QuoteVersionTableInfo
+    nameWithType: QuoteVersionTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.QuoteVersionTableInfo
+    name: QuoteVersionTableInfo
+    nameWithType: QuoteVersionTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_InvoiceCountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_InvoiceCountryId
+  isExternal: true
+  name: LeftOuterJoin_QuoteVersion_InvoiceCountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_QuoteVersion_InvoiceCountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_QuoteVersion_InvoiceCountryId
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_LanguageInfoCountry_CountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_LanguageInfoCountry_CountryId
+  isExternal: true
+  name: LeftOuterJoin_LanguageInfoCountry_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_LanguageInfoCountry_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_LanguageInfoCountry_CountryId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LanguageInfoCountryTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<LanguageInfoCountryTableInfo>
+  nameWithType: TargetedLeftOuterJoin<LanguageInfoCountryTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.LanguageInfoCountryTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of LanguageInfoCountryTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.LanguageInfoCountryTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of LanguageInfoCountryTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
+    name: LanguageInfoCountryTableInfo
+    nameWithType: LanguageInfoCountryTableInfo
+    fullName: SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
+    name: LanguageInfoCountryTableInfo
+    nameWithType: LanguageInfoCountryTableInfo
+    fullName: SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_TZLocation_CountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_TZLocation_CountryId
+  isExternal: true
+  name: LeftOuterJoin_TZLocation_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_TZLocation_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_TZLocation_CountryId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TZLocationTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TZLocationTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TZLocationTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TZLocationTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TZLocationTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TZLocationTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TZLocationTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TZLocationTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TZLocationTableInfo
+    name: TZLocationTableInfo
+    nameWithType: TZLocationTableInfo
+    fullName: SuperOffice.CRM.Data.TZLocationTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TZLocationTableInfo
+    name: TZLocationTableInfo
+    nameWithType: TZLocationTableInfo
+    fullName: SuperOffice.CRM.Data.TZLocationTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_PhoneFormat_CountryId*
+  commentId: Overload:SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_PhoneFormat_CountryId
+  isExternal: true
+  name: LeftOuterJoin_PhoneFormat_CountryId
+  nameWithType: CountryTableInfo.LeftOuterJoin_PhoneFormat_CountryId
+  fullName: SuperOffice.CRM.Data.CountryTableInfo.LeftOuterJoin_PhoneFormat_CountryId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PhoneFormatTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PhoneFormatTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<PhoneFormatTableInfo>
+  nameWithType: TargetedLeftOuterJoin<PhoneFormatTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.PhoneFormatTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of PhoneFormatTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.PhoneFormatTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of PhoneFormatTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.PhoneFormatTableInfo
+    name: PhoneFormatTableInfo
+    nameWithType: PhoneFormatTableInfo
+    fullName: SuperOffice.CRM.Data.PhoneFormatTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.PhoneFormatTableInfo
+    name: PhoneFormatTableInfo
+    nameWithType: PhoneFormatTableInfo
+    fullName: SuperOffice.CRM.Data.PhoneFormatTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

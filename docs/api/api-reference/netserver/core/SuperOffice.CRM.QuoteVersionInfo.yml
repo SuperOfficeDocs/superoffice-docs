@@ -1,0 +1,2179 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.QuoteVersionInfo
+  commentId: T:SuperOffice.CRM.QuoteVersionInfo
+  id: QuoteVersionInfo
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.QuoteVersionInfo.#ctor
+  - SuperOffice.CRM.QuoteVersionInfo.AddStatus(SuperOffice.CRM.QuoteStatusInfo,System.String,System.String)
+  - SuperOffice.CRM.QuoteVersionInfo.ApprovedBy
+  - SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredBy
+  - SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredDate
+  - SuperOffice.CRM.QuoteVersionInfo.ApprovedText
+  - SuperOffice.CRM.QuoteVersionInfo.ArchivedState
+  - SuperOffice.CRM.QuoteVersionInfo.ClearStatus
+  - SuperOffice.CRM.QuoteVersionInfo.DeliveryCountryId
+  - SuperOffice.CRM.QuoteVersionInfo.Description
+  - SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTermsKey
+  - SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTypeKey
+  - SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTermsKey
+  - SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTypeKey
+  - SuperOffice.CRM.QuoteVersionInfo.ERPQuoteVersionKey
+  - SuperOffice.CRM.QuoteVersionInfo.ExpirationDate
+  - SuperOffice.CRM.QuoteVersionInfo.ExtraField1
+  - SuperOffice.CRM.QuoteVersionInfo.ExtraField2
+  - SuperOffice.CRM.QuoteVersionInfo.ExtraField3
+  - SuperOffice.CRM.QuoteVersionInfo.ExtraField4
+  - SuperOffice.CRM.QuoteVersionInfo.ExtraField5
+  - SuperOffice.CRM.QuoteVersionInfo.FollowupId
+  - SuperOffice.CRM.QuoteVersionInfo.HasOwnDeliveryAddress
+  - SuperOffice.CRM.QuoteVersionInfo.HasOwnInvoiceAddress
+  - SuperOffice.CRM.QuoteVersionInfo.InvoiceCountryId
+  - SuperOffice.CRM.QuoteVersionInfo.LastRecalculated
+  - SuperOffice.CRM.QuoteVersionInfo.LikelyQuoteAlternativeId
+  - SuperOffice.CRM.QuoteVersionInfo.Number
+  - SuperOffice.CRM.QuoteVersionInfo.QuoteId
+  - SuperOffice.CRM.QuoteVersionInfo.QuoteVersionId
+  - SuperOffice.CRM.QuoteVersionInfo.Rank
+  - SuperOffice.CRM.QuoteVersionInfo.Reason
+  - SuperOffice.CRM.QuoteVersionInfo.SentDate
+  - SuperOffice.CRM.QuoteVersionInfo.State
+  - SuperOffice.CRM.QuoteVersionInfo.Status
+  - SuperOffice.CRM.QuoteVersionInfo.Updated
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionInfo
+  nameWithType: QuoteVersionInfo
+  fullName: SuperOffice.CRM.QuoteVersionInfo
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nRepresent a version of a quote\n<p></p>\nA quote is divided into one or more versions (or revisions, if you like), so a quote have 1..n QuoteVersions. \nI.e. a QuoteVersion always have a quote.\n<p></p>\nEven if versioning is disabled, a single version will exist.  When versioning is disabled, new versions are not created\n, but the only one is reused.\n"
+  syntax:
+    content: public class QuoteVersionInfo
+    content.vb: Public Class QuoteVersionInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.QuoteVersionInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.QuoteVersionInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.QuoteVersionInfo)
+  - SuperOffice.CRM.QuoteVersionInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.QuoteVersionInfo.SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion
+  - SuperOffice.CRM.QuoteVersionInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.QuoteVersionInfo.#ctor
+  commentId: M:SuperOffice.CRM.QuoteVersionInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionInfo()
+  nameWithType: QuoteVersionInfo.QuoteVersionInfo()
+  fullName: SuperOffice.CRM.QuoteVersionInfo.QuoteVersionInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nDefault ctor\n"
+  syntax:
+    content: public QuoteVersionInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.QuoteVersionInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ClearStatus
+  commentId: M:SuperOffice.CRM.QuoteVersionInfo.ClearStatus
+  id: ClearStatus
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ClearStatus()
+  nameWithType: QuoteVersionInfo.ClearStatus()
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ClearStatus()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSetting the status to ok and clearing the Reason field.\n"
+  syntax:
+    content: public void ClearStatus()
+    content.vb: Public Sub ClearStatus
+  overload: SuperOffice.CRM.QuoteVersionInfo.ClearStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.AddStatus(SuperOffice.CRM.QuoteStatusInfo,System.String,System.String)
+  commentId: M:SuperOffice.CRM.QuoteVersionInfo.AddStatus(SuperOffice.CRM.QuoteStatusInfo,System.String,System.String)
+  id: AddStatus(SuperOffice.CRM.QuoteStatusInfo,System.String,System.String)
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: AddStatus(QuoteStatusInfo, String, String)
+  nameWithType: QuoteVersionInfo.AddStatus(QuoteStatusInfo, String, String)
+  fullName: SuperOffice.CRM.QuoteVersionInfo.AddStatus(SuperOffice.CRM.QuoteStatusInfo, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nIncreases the status if necesarry, but doesn&apos;t decrease the status\nAdds line for the reason + the alternative name\n"
+  syntax:
+    content: public void AddStatus(QuoteStatusInfo status, string reason, string name = null)
+    parameters:
+    - id: status
+      type: SuperOffice.CRM.QuoteStatusInfo
+      description: alternative status
+    - id: reason
+      type: System.String
+      description: alternative reason
+    - id: name
+      type: System.String
+      description: name of the alternative/quoteline that triggered the reason
+    content.vb: Public Sub AddStatus(status As QuoteStatusInfo, reason As String, name As String = Nothing)
+  overload: SuperOffice.CRM.QuoteVersionInfo.AddStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.QuoteVersionId
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: QuoteVersionInfo.QuoteVersionId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nPrimary key in the CRM system\n"
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.CRM.QuoteVersionInfo.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ERPQuoteVersionKey
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ERPQuoteVersionKey
+  id: ERPQuoteVersionKey
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ERPQuoteVersionKey
+  nameWithType: QuoteVersionInfo.ERPQuoteVersionKey
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ERPQuoteVersionKey
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nKey in the ERP system that uniquely identifies this Version within the ERP system (if available, the field may be empty).\n"
+  syntax:
+    content: public string ERPQuoteVersionKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ERPQuoteVersionKey As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.ERPQuoteVersionKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.QuoteId
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.QuoteId
+  id: QuoteId
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: QuoteId
+  nameWithType: QuoteVersionInfo.QuoteId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.QuoteId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nForeign key to CRM quote (the conceptual parent)\n"
+  syntax:
+    content: public int QuoteId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteId As Integer
+  overload: SuperOffice.CRM.QuoteVersionInfo.QuoteId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.Description
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.Description
+  id: Description
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: QuoteVersionInfo.Description
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Description
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nDescription of Version.\nPotentially longer text description, typically used in a tooltip. \nMax 2K.\n"
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.Number
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.Number
+  id: Number
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: QuoteVersionInfo.Number
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Number
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nA quote number that the user (or ERP connector) can fill out.\n"
+  syntax:
+    content: public string Number { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Number As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.Number*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.State
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.State
+  id: State
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: QuoteVersionInfo.State
+  fullName: SuperOffice.CRM.QuoteVersionInfo.State
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCurrent state of this quote version.\nThe states will be like: CalculatedDraft, NotCalculatedDraft, Published, etc.\n"
+  syntax:
+    content: public QuoteVersionStateInfo State { get; set; }
+    parameters: []
+    return:
+      type: QuoteVersionStateInfo
+    content.vb: Public Property State As QuoteVersionStateInfo
+  overload: SuperOffice.CRM.QuoteVersionInfo.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ArchivedState
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ArchivedState
+  id: ArchivedState
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchivedState
+  nameWithType: QuoteVersionInfo.ArchivedState
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ArchivedState
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nState that this quote version had, right before it was changed to Archived; \nin this way we can show what happened before the archiving.\n"
+  syntax:
+    content: public QuoteVersionStateInfo ArchivedState { get; set; }
+    parameters: []
+    return:
+      type: QuoteVersionStateInfo
+    content.vb: Public Property ArchivedState As QuoteVersionStateInfo
+  overload: SuperOffice.CRM.QuoteVersionInfo.ArchivedState*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.LikelyQuoteAlternativeId
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.LikelyQuoteAlternativeId
+  id: LikelyQuoteAlternativeId
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: LikelyQuoteAlternativeId
+  nameWithType: QuoteVersionInfo.LikelyQuoteAlternativeId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.LikelyQuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe alternative that is considered most likely to be accepted. \nUsed to calculate probable income.\n"
+  syntax:
+    content: public int LikelyQuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LikelyQuoteAlternativeId As Integer
+  overload: SuperOffice.CRM.QuoteVersionInfo.LikelyQuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.SentDate
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.SentDate
+  id: SentDate
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: SentDate
+  nameWithType: QuoteVersionInfo.SentDate
+  fullName: SuperOffice.CRM.QuoteVersionInfo.SentDate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe date the version was sent to the customer. \n"
+  syntax:
+    content: public DateTime SentDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property SentDate As Date
+  overload: SuperOffice.CRM.QuoteVersionInfo.SentDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.FollowupId
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.FollowupId
+  id: FollowupId
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: FollowupId
+  nameWithType: QuoteVersionInfo.FollowupId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.FollowupId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nLink to a follow-up activity, created when this quote version was sent to the customer.\n"
+  syntax:
+    content: public int FollowupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FollowupId As Integer
+  overload: SuperOffice.CRM.QuoteVersionInfo.FollowupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExpirationDate
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ExpirationDate
+  id: ExpirationDate
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ExpirationDate
+  nameWithType: QuoteVersionInfo.ExpirationDate
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExpirationDate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nLast date the quote Version is valid, expiration is at midnight end of this day.\n"
+  syntax:
+    content: public DateTime ExpirationDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ExpirationDate As Date
+  overload: SuperOffice.CRM.QuoteVersionInfo.ExpirationDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.DeliveryCountryId
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.DeliveryCountryId
+  id: DeliveryCountryId
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: DeliveryCountryId
+  nameWithType: QuoteVersionInfo.DeliveryCountryId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.DeliveryCountryId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCountry of delivery address, typically copied from the contact record\n"
+  syntax:
+    content: public int DeliveryCountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DeliveryCountryId As Integer
+  overload: SuperOffice.CRM.QuoteVersionInfo.DeliveryCountryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.HasOwnDeliveryAddress
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.HasOwnDeliveryAddress
+  id: HasOwnDeliveryAddress
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: HasOwnDeliveryAddress
+  nameWithType: QuoteVersionInfo.HasOwnDeliveryAddress
+  fullName: SuperOffice.CRM.QuoteVersionInfo.HasOwnDeliveryAddress
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe delivery address is not the same as the contact&apos;s Street address\n"
+  syntax:
+    content: public bool HasOwnDeliveryAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasOwnDeliveryAddress As Boolean
+  overload: SuperOffice.CRM.QuoteVersionInfo.HasOwnDeliveryAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.InvoiceCountryId
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.InvoiceCountryId
+  id: InvoiceCountryId
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: InvoiceCountryId
+  nameWithType: QuoteVersionInfo.InvoiceCountryId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.InvoiceCountryId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCountry of invoice address, typically copied from contact record\n"
+  syntax:
+    content: public int InvoiceCountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property InvoiceCountryId As Integer
+  overload: SuperOffice.CRM.QuoteVersionInfo.InvoiceCountryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.HasOwnInvoiceAddress
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.HasOwnInvoiceAddress
+  id: HasOwnInvoiceAddress
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: HasOwnInvoiceAddress
+  nameWithType: QuoteVersionInfo.HasOwnInvoiceAddress
+  fullName: SuperOffice.CRM.QuoteVersionInfo.HasOwnInvoiceAddress
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe quote has an address for Invoicing. This will typically be copied from the company&apos;s addresses.\n"
+  syntax:
+    content: public bool HasOwnInvoiceAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasOwnInvoiceAddress As Boolean
+  overload: SuperOffice.CRM.QuoteVersionInfo.HasOwnInvoiceAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTermsKey
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTermsKey
+  id: ERPPaymentTermsKey
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ERPPaymentTermsKey
+  nameWithType: QuoteVersionInfo.ERPPaymentTermsKey
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTermsKey
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text.\nFor instance: «Standard 30 days»\n"
+  syntax:
+    content: public string ERPPaymentTermsKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ERPPaymentTermsKey As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTermsKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTypeKey
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTypeKey
+  id: ERPPaymentTypeKey
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ERPPaymentTypeKey
+  nameWithType: QuoteVersionInfo.ERPPaymentTypeKey
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTypeKey
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text.\nFor instance: “Invoice”\n"
+  syntax:
+    content: public string ERPPaymentTypeKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ERPPaymentTypeKey As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTypeKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTermsKey
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTermsKey
+  id: ERPDeliveryTermsKey
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ERPDeliveryTermsKey
+  nameWithType: QuoteVersionInfo.ERPDeliveryTermsKey
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTermsKey
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text.\nFor instance: &apos;FOB&apos; (&apos;Free on board&apos;)\n"
+  syntax:
+    content: public string ERPDeliveryTermsKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ERPDeliveryTermsKey As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTermsKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTypeKey
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTypeKey
+  id: ERPDeliveryTypeKey
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ERPDeliveryTypeKey
+  nameWithType: QuoteVersionInfo.ERPDeliveryTypeKey
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTypeKey
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text.\nFor instance: “Air” \n"
+  syntax:
+    content: public string ERPDeliveryTypeKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ERPDeliveryTypeKey As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTypeKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.Rank
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.Rank
+  id: Rank
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: QuoteVersionInfo.Rank
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Rank
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nRank/Version number, starts at 1.\n"
+  syntax:
+    content: public int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Rank As Integer
+  overload: SuperOffice.CRM.QuoteVersionInfo.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.Status
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.Status
+  id: Status
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: QuoteVersionInfo.Status
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Status
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nIf there was a problem with for instance calculation, this field is set to warning or error.\n"
+  syntax:
+    content: public QuoteStatusInfo Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.QuoteStatusInfo
+    content.vb: Public Property Status As QuoteStatusInfo
+  overload: SuperOffice.CRM.QuoteVersionInfo.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.Reason
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.Reason
+  id: Reason
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: QuoteVersionInfo.Reason
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Reason
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nIf there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown.\n"
+  syntax:
+    content: public string Reason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Reason As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.Reason*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ApprovedBy
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ApprovedBy
+  id: ApprovedBy
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ApprovedBy
+  nameWithType: QuoteVersionInfo.ApprovedBy
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ApprovedBy
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nId of associate who approved (or rejected approval) for this version\n"
+  syntax:
+    content: public int ApprovedBy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ApprovedBy As Integer
+  overload: SuperOffice.CRM.QuoteVersionInfo.ApprovedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ApprovedText
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ApprovedText
+  id: ApprovedText
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ApprovedText
+  nameWithType: QuoteVersionInfo.ApprovedText
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ApprovedText
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nText with comments on why approval was granted (or rejected)\n"
+  syntax:
+    content: public string ApprovedText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApprovedText As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.ApprovedText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredBy
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredBy
+  id: ApprovedRegisteredBy
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ApprovedRegisteredBy
+  nameWithType: QuoteVersionInfo.ApprovedRegisteredBy
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredBy
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nId of associate who actually entered the approval; might be different from ApprovedBy (f.x. due to telephone consultation/approval)\n"
+  syntax:
+    content: public int ApprovedRegisteredBy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ApprovedRegisteredBy As Integer
+  overload: SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredDate
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredDate
+  id: ApprovedRegisteredDate
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ApprovedRegisteredDate
+  nameWithType: QuoteVersionInfo.ApprovedRegisteredDate
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredDate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nWhen was approval granted or rejected\n"
+  syntax:
+    content: public DateTime ApprovedRegisteredDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ApprovedRegisteredDate As Date
+  overload: SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExtraField1
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ExtraField1
+  id: ExtraField1
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ExtraField1
+  nameWithType: QuoteVersionInfo.ExtraField1
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExtraField1
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process.\n"
+  syntax:
+    content: public string ExtraField1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraField1 As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.ExtraField1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExtraField2
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ExtraField2
+  id: ExtraField2
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ExtraField2
+  nameWithType: QuoteVersionInfo.ExtraField2
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExtraField2
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process.\n"
+  syntax:
+    content: public string ExtraField2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraField2 As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.ExtraField2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExtraField3
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ExtraField3
+  id: ExtraField3
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ExtraField3
+  nameWithType: QuoteVersionInfo.ExtraField3
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExtraField3
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process.\n"
+  syntax:
+    content: public string ExtraField3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraField3 As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.ExtraField3*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExtraField4
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ExtraField4
+  id: ExtraField4
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ExtraField4
+  nameWithType: QuoteVersionInfo.ExtraField4
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExtraField4
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process.\n"
+  syntax:
+    content: public string ExtraField4 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraField4 As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.ExtraField4*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExtraField5
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.ExtraField5
+  id: ExtraField5
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ExtraField5
+  nameWithType: QuoteVersionInfo.ExtraField5
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExtraField5
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process.\n"
+  syntax:
+    content: public string ExtraField5 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraField5 As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.ExtraField5*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.LastRecalculated
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.LastRecalculated
+  id: LastRecalculated
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: LastRecalculated
+  nameWithType: QuoteVersionInfo.LastRecalculated
+  fullName: SuperOffice.CRM.QuoteVersionInfo.LastRecalculated
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n.NET type: DateTime. When this version was last subjected to a total recalculation. \nThis field must be set by the connector, since the connector may choose to ignore a RecalculateVersion call \nbased on policies and possibly the current value of this field. \nSuperOffice will set this field to 1.1.1760 whenever any change occurs to the quote, to indicate that a \nrecalculation is needed.\n"
+  syntax:
+    content: public DateTime LastRecalculated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property LastRecalculated As Date
+  overload: SuperOffice.CRM.QuoteVersionInfo.LastRecalculated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.Updated
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: QuoteVersionInfo.Updated
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Updated
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nLast updated\n"
+  syntax:
+    content: public DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Updated As Date
+  overload: SuperOffice.CRM.QuoteVersionInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.QuoteVersionInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<QuoteVersionInfo, To>()
+  nameWithType: EnumUtil.MapEnums<QuoteVersionInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.QuoteVersionInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QuoteVersionInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.QuoteVersionInfo, To)()
+  name.vb: MapEnums(Of QuoteVersionInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QuoteVersionInfo, To>
+    nameWithType: EnumUtil.MapEnums<QuoteVersionInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.QuoteVersionInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QuoteVersionInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of QuoteVersionInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.QuoteVersionInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.QuoteVersionInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.QuoteVersionInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<QuoteVersionInfo>(QuoteVersionInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<QuoteVersionInfo>(QuoteVersionInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.QuoteVersionInfo>(SuperOffice.CRM.QuoteVersionInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteVersionInfo)(QuoteVersionInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.QuoteVersionInfo)(SuperOffice.CRM.QuoteVersionInfo)
+  name.vb: AssignByReflection(Of QuoteVersionInfo)(QuoteVersionInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<QuoteVersionInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<QuoteVersionInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.QuoteVersionInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionInfo
+    name: QuoteVersionInfo
+    nameWithType: QuoteVersionInfo
+    fullName: SuperOffice.CRM.QuoteVersionInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of QuoteVersionInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of QuoteVersionInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.QuoteVersionInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionInfo
+    name: QuoteVersionInfo
+    nameWithType: QuoteVersionInfo
+    fullName: SuperOffice.CRM.QuoteVersionInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.QuoteVersionInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<QuoteVersionInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<QuoteVersionInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.QuoteVersionInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteVersionInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.QuoteVersionInfo)()
+  name.vb: GraphCopy(Of QuoteVersionInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<QuoteVersionInfo>
+    nameWithType: ObjectExtensions.GraphCopy<QuoteVersionInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.QuoteVersionInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of QuoteVersionInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of QuoteVersionInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.QuoteVersionInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.QuoteVersionInfo.SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion
+  commentId: M:SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion(SuperOffice.CRM.QuoteVersionInfo)
+  parent: SuperOffice.CRM.Sale.QuoteExtensions
+  definition: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion(SuperOffice.CRM.QuoteVersionInfo)
+  name: CloneQuoteVersion()
+  nameWithType: QuoteExtensions.CloneQuoteVersion()
+  fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion
+    name: CloneQuoteVersion
+    nameWithType: QuoteExtensions.CloneQuoteVersion
+    fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion
+    name: CloneQuoteVersion
+    nameWithType: QuoteExtensions.CloneQuoteVersion
+    fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.QuoteVersionInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<QuoteVersionInfo, To>()
+  nameWithType: Converters.MapEnums<QuoteVersionInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.QuoteVersionInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of QuoteVersionInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.QuoteVersionInfo, To)()
+  name.vb: MapEnums(Of QuoteVersionInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QuoteVersionInfo, To>
+    nameWithType: Converters.MapEnums<QuoteVersionInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.QuoteVersionInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QuoteVersionInfo, To)
+    nameWithType: Converters.MapEnums(Of QuoteVersionInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.QuoteVersionInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion(SuperOffice.CRM.QuoteVersionInfo)
+  commentId: M:SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion(SuperOffice.CRM.QuoteVersionInfo)
+  isExternal: true
+  name: CloneQuoteVersion(QuoteVersionInfo)
+  nameWithType: QuoteExtensions.CloneQuoteVersion(QuoteVersionInfo)
+  fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion(SuperOffice.CRM.QuoteVersionInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion(SuperOffice.CRM.QuoteVersionInfo)
+    name: CloneQuoteVersion
+    nameWithType: QuoteExtensions.CloneQuoteVersion
+    fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionInfo
+    name: QuoteVersionInfo
+    nameWithType: QuoteVersionInfo
+    fullName: SuperOffice.CRM.QuoteVersionInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion(SuperOffice.CRM.QuoteVersionInfo)
+    name: CloneQuoteVersion
+    nameWithType: QuoteExtensions.CloneQuoteVersion
+    fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionInfo
+    name: QuoteVersionInfo
+    nameWithType: QuoteVersionInfo
+    fullName: SuperOffice.CRM.QuoteVersionInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Sale.QuoteExtensions
+  commentId: T:SuperOffice.CRM.Sale.QuoteExtensions
+  parent: SuperOffice.CRM.Sale
+  isExternal: true
+  name: QuoteExtensions
+  nameWithType: QuoteExtensions
+  fullName: SuperOffice.CRM.Sale.QuoteExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.CRM.Sale
+  commentId: N:SuperOffice.CRM.Sale
+  isExternal: true
+  name: SuperOffice.CRM.Sale
+  nameWithType: SuperOffice.CRM.Sale
+  fullName: SuperOffice.CRM.Sale
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.QuoteVersionInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.#ctor
+  isExternal: true
+  name: QuoteVersionInfo
+  nameWithType: QuoteVersionInfo.QuoteVersionInfo
+  fullName: SuperOffice.CRM.QuoteVersionInfo.QuoteVersionInfo
+- uid: SuperOffice.CRM.QuoteVersionInfo.ClearStatus*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ClearStatus
+  isExternal: true
+  name: ClearStatus
+  nameWithType: QuoteVersionInfo.ClearStatus
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ClearStatus
+- uid: SuperOffice.CRM.QuoteVersionInfo.AddStatus*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.AddStatus
+  isExternal: true
+  name: AddStatus
+  nameWithType: QuoteVersionInfo.AddStatus
+  fullName: SuperOffice.CRM.QuoteVersionInfo.AddStatus
+- uid: SuperOffice.CRM.QuoteStatusInfo
+  commentId: T:SuperOffice.CRM.QuoteStatusInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteStatusInfo
+  nameWithType: QuoteStatusInfo
+  fullName: SuperOffice.CRM.QuoteStatusInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.QuoteVersionInfo.QuoteVersionId*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: QuoteVersionInfo.QuoteVersionId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.QuoteVersionInfo.ERPQuoteVersionKey*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ERPQuoteVersionKey
+  isExternal: true
+  name: ERPQuoteVersionKey
+  nameWithType: QuoteVersionInfo.ERPQuoteVersionKey
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ERPQuoteVersionKey
+- uid: SuperOffice.CRM.QuoteVersionInfo.QuoteId*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.QuoteId
+  isExternal: true
+  name: QuoteId
+  nameWithType: QuoteVersionInfo.QuoteId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.QuoteId
+- uid: SuperOffice.CRM.QuoteVersionInfo.Description*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: QuoteVersionInfo.Description
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Description
+- uid: SuperOffice.CRM.QuoteVersionInfo.Number*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.Number
+  isExternal: true
+  name: Number
+  nameWithType: QuoteVersionInfo.Number
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Number
+- uid: SuperOffice.CRM.QuoteVersionInfo.State*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.State
+  isExternal: true
+  name: State
+  nameWithType: QuoteVersionInfo.State
+  fullName: SuperOffice.CRM.QuoteVersionInfo.State
+- uid: QuoteVersionStateInfo
+  commentId: T:QuoteVersionStateInfo
+  isExternal: true
+  name: QuoteVersionStateInfo
+  nameWithType: QuoteVersionStateInfo
+  fullName: QuoteVersionStateInfo
+- uid: SuperOffice.CRM.QuoteVersionInfo.ArchivedState*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ArchivedState
+  isExternal: true
+  name: ArchivedState
+  nameWithType: QuoteVersionInfo.ArchivedState
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ArchivedState
+- uid: SuperOffice.CRM.QuoteVersionInfo.LikelyQuoteAlternativeId*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.LikelyQuoteAlternativeId
+  isExternal: true
+  name: LikelyQuoteAlternativeId
+  nameWithType: QuoteVersionInfo.LikelyQuoteAlternativeId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.LikelyQuoteAlternativeId
+- uid: SuperOffice.CRM.QuoteVersionInfo.SentDate*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.SentDate
+  isExternal: true
+  name: SentDate
+  nameWithType: QuoteVersionInfo.SentDate
+  fullName: SuperOffice.CRM.QuoteVersionInfo.SentDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.QuoteVersionInfo.FollowupId*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.FollowupId
+  isExternal: true
+  name: FollowupId
+  nameWithType: QuoteVersionInfo.FollowupId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.FollowupId
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExpirationDate*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ExpirationDate
+  isExternal: true
+  name: ExpirationDate
+  nameWithType: QuoteVersionInfo.ExpirationDate
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExpirationDate
+- uid: SuperOffice.CRM.QuoteVersionInfo.DeliveryCountryId*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.DeliveryCountryId
+  isExternal: true
+  name: DeliveryCountryId
+  nameWithType: QuoteVersionInfo.DeliveryCountryId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.DeliveryCountryId
+- uid: SuperOffice.CRM.QuoteVersionInfo.HasOwnDeliveryAddress*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.HasOwnDeliveryAddress
+  isExternal: true
+  name: HasOwnDeliveryAddress
+  nameWithType: QuoteVersionInfo.HasOwnDeliveryAddress
+  fullName: SuperOffice.CRM.QuoteVersionInfo.HasOwnDeliveryAddress
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.QuoteVersionInfo.InvoiceCountryId*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.InvoiceCountryId
+  isExternal: true
+  name: InvoiceCountryId
+  nameWithType: QuoteVersionInfo.InvoiceCountryId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.InvoiceCountryId
+- uid: SuperOffice.CRM.QuoteVersionInfo.HasOwnInvoiceAddress*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.HasOwnInvoiceAddress
+  isExternal: true
+  name: HasOwnInvoiceAddress
+  nameWithType: QuoteVersionInfo.HasOwnInvoiceAddress
+  fullName: SuperOffice.CRM.QuoteVersionInfo.HasOwnInvoiceAddress
+- uid: SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTermsKey*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTermsKey
+  isExternal: true
+  name: ERPPaymentTermsKey
+  nameWithType: QuoteVersionInfo.ERPPaymentTermsKey
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTermsKey
+- uid: SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTypeKey*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTypeKey
+  isExternal: true
+  name: ERPPaymentTypeKey
+  nameWithType: QuoteVersionInfo.ERPPaymentTypeKey
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ERPPaymentTypeKey
+- uid: SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTermsKey*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTermsKey
+  isExternal: true
+  name: ERPDeliveryTermsKey
+  nameWithType: QuoteVersionInfo.ERPDeliveryTermsKey
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTermsKey
+- uid: SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTypeKey*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTypeKey
+  isExternal: true
+  name: ERPDeliveryTypeKey
+  nameWithType: QuoteVersionInfo.ERPDeliveryTypeKey
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ERPDeliveryTypeKey
+- uid: SuperOffice.CRM.QuoteVersionInfo.Rank*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: QuoteVersionInfo.Rank
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Rank
+- uid: SuperOffice.CRM.QuoteVersionInfo.Status*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.Status
+  isExternal: true
+  name: Status
+  nameWithType: QuoteVersionInfo.Status
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Status
+- uid: SuperOffice.CRM.QuoteVersionInfo.Reason*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.Reason
+  isExternal: true
+  name: Reason
+  nameWithType: QuoteVersionInfo.Reason
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Reason
+- uid: SuperOffice.CRM.QuoteVersionInfo.ApprovedBy*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ApprovedBy
+  isExternal: true
+  name: ApprovedBy
+  nameWithType: QuoteVersionInfo.ApprovedBy
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ApprovedBy
+- uid: SuperOffice.CRM.QuoteVersionInfo.ApprovedText*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ApprovedText
+  isExternal: true
+  name: ApprovedText
+  nameWithType: QuoteVersionInfo.ApprovedText
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ApprovedText
+- uid: SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredBy*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredBy
+  isExternal: true
+  name: ApprovedRegisteredBy
+  nameWithType: QuoteVersionInfo.ApprovedRegisteredBy
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredBy
+- uid: SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredDate*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredDate
+  isExternal: true
+  name: ApprovedRegisteredDate
+  nameWithType: QuoteVersionInfo.ApprovedRegisteredDate
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredDate
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExtraField1*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ExtraField1
+  isExternal: true
+  name: ExtraField1
+  nameWithType: QuoteVersionInfo.ExtraField1
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExtraField1
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExtraField2*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ExtraField2
+  isExternal: true
+  name: ExtraField2
+  nameWithType: QuoteVersionInfo.ExtraField2
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExtraField2
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExtraField3*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ExtraField3
+  isExternal: true
+  name: ExtraField3
+  nameWithType: QuoteVersionInfo.ExtraField3
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExtraField3
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExtraField4*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ExtraField4
+  isExternal: true
+  name: ExtraField4
+  nameWithType: QuoteVersionInfo.ExtraField4
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExtraField4
+- uid: SuperOffice.CRM.QuoteVersionInfo.ExtraField5*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.ExtraField5
+  isExternal: true
+  name: ExtraField5
+  nameWithType: QuoteVersionInfo.ExtraField5
+  fullName: SuperOffice.CRM.QuoteVersionInfo.ExtraField5
+- uid: SuperOffice.CRM.QuoteVersionInfo.LastRecalculated*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.LastRecalculated
+  isExternal: true
+  name: LastRecalculated
+  nameWithType: QuoteVersionInfo.LastRecalculated
+  fullName: SuperOffice.CRM.QuoteVersionInfo.LastRecalculated
+- uid: SuperOffice.CRM.QuoteVersionInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: QuoteVersionInfo.Updated
+  fullName: SuperOffice.CRM.QuoteVersionInfo.Updated

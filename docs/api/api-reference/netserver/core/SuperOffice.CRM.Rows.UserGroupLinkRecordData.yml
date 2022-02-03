@@ -1,0 +1,1166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  commentId: T:SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  id: UserGroupLinkRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.#ctor
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.AssocId
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.EncryptedCheck
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.Registered
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.Remark
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.Updated
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.UserGroupId
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.UserGroupLinkId
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.ValidFrom
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.ValidTo
+  langs:
+  - csharp
+  - vb
+  name: UserGroupLinkRecordData
+  nameWithType: UserGroupLinkRecordData
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the UserGroupLink table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.UserGroupLinkRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.UserGroupLinkTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class UserGroupLinkRecordData
+    content.vb: Public Class UserGroupLinkRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.UserGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.UserGroupLinkId
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.UserGroupLinkId
+  id: UserGroupLinkId
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: UserGroupLinkId
+  nameWithType: UserGroupLinkRecordData.UserGroupLinkId
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.UserGroupLinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int UserGroupLinkId
+    return:
+      type: System.Int32
+    content.vb: Public UserGroupLinkId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.AssocId
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.AssocId
+  id: AssocId
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: AssocId
+  nameWithType: UserGroupLinkRecordData.AssocId
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.AssocId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to associate \n"
+  syntax:
+    content: public int AssocId
+    return:
+      type: System.Int32
+    content.vb: Public AssocId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.UserGroupId
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.UserGroupId
+  id: UserGroupId
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: UserGroupId
+  nameWithType: UserGroupLinkRecordData.UserGroupId
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.UserGroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to group \n"
+  syntax:
+    content: public int UserGroupId
+    return:
+      type: System.Int32
+    content.vb: Public UserGroupId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.Remark
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.Remark
+  id: Remark
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: Remark
+  nameWithType: UserGroupLinkRecordData.Remark
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.Remark
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nComment on why the assoc is linked to the group \n"
+  syntax:
+    content: public string Remark
+    return:
+      type: System.String
+    content.vb: Public Remark As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.ValidFrom
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.ValidFrom
+  id: ValidFrom
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: ValidFrom
+  nameWithType: UserGroupLinkRecordData.ValidFrom
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.ValidFrom
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the membership becomes valid \n"
+  syntax:
+    content: public DateTime ValidFrom
+    return:
+      type: System.DateTime
+    content.vb: Public ValidFrom As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.ValidTo
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.ValidTo
+  id: ValidTo
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: ValidTo
+  nameWithType: UserGroupLinkRecordData.ValidTo
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.ValidTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast datetime this membership is valid \n"
+  syntax:
+    content: public DateTime ValidTo
+    return:
+      type: System.DateTime
+    content.vb: Public ValidTo As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: UserGroupLinkRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: UserGroupLinkRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: UserGroupLinkRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: UserGroupLinkRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: UserGroupLinkRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.EncryptedCheck
+  commentId: F:SuperOffice.CRM.Rows.UserGroupLinkRecordData.EncryptedCheck
+  id: EncryptedCheck
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: EncryptedCheck
+  nameWithType: UserGroupLinkRecordData.EncryptedCheck
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.EncryptedCheck
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEncrypted data, to detect unwanted changes \n"
+  syntax:
+    content: public string EncryptedCheck
+    return:
+      type: System.String
+    content.vb: Public EncryptedCheck As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.UserGroupLinkRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: UserGroupLinkRecordData()
+  nameWithType: UserGroupLinkRecordData.UserGroupLinkRecordData()
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.UserGroupLinkRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public UserGroupLinkRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.UserGroupLinkRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<UserGroupLinkRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<UserGroupLinkRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UserGroupLinkRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UserGroupLinkRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UserGroupLinkRecordData, To)()
+  name.vb: MapEnums(Of UserGroupLinkRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UserGroupLinkRecordData, To>
+    nameWithType: EnumUtil.MapEnums<UserGroupLinkRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UserGroupLinkRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UserGroupLinkRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of UserGroupLinkRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UserGroupLinkRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<UserGroupLinkRecordData>(UserGroupLinkRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<UserGroupLinkRecordData>(UserGroupLinkRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.UserGroupLinkRecordData>(SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UserGroupLinkRecordData)(UserGroupLinkRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.UserGroupLinkRecordData)(SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+  name.vb: AssignByReflection(Of UserGroupLinkRecordData)(UserGroupLinkRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<UserGroupLinkRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<UserGroupLinkRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.UserGroupLinkRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+    name: UserGroupLinkRecordData
+    nameWithType: UserGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of UserGroupLinkRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of UserGroupLinkRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+    name: UserGroupLinkRecordData
+    nameWithType: UserGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<UserGroupLinkRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<UserGroupLinkRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.UserGroupLinkRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of UserGroupLinkRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.UserGroupLinkRecordData)()
+  name.vb: GraphCopy(Of UserGroupLinkRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<UserGroupLinkRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<UserGroupLinkRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.UserGroupLinkRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of UserGroupLinkRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of UserGroupLinkRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+  parent: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+  name: ToInsert()
+  nameWithType: UserGroupLinkRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: UserGroupLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: UserGroupLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UserGroupLinkRecordData, To>()
+  nameWithType: Converters.MapEnums<UserGroupLinkRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UserGroupLinkRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of UserGroupLinkRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UserGroupLinkRecordData, To)()
+  name.vb: MapEnums(Of UserGroupLinkRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UserGroupLinkRecordData, To>
+    nameWithType: Converters.MapEnums<UserGroupLinkRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UserGroupLinkRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UserGroupLinkRecordData, To)
+    nameWithType: Converters.MapEnums(Of UserGroupLinkRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UserGroupLinkRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+  commentId: M:SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+  isExternal: true
+  name: ToInsert(UserGroupLinkRecordData)
+  nameWithType: UserGroupLinkRecordDataExtensions.ToInsert(UserGroupLinkRecordData)
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+    name: ToInsert
+    nameWithType: UserGroupLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+    name: UserGroupLinkRecordData
+    nameWithType: UserGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UserGroupLinkRecordData)
+    name: ToInsert
+    nameWithType: UserGroupLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+    name: UserGroupLinkRecordData
+    nameWithType: UserGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: UserGroupLinkRecordDataExtensions
+  nameWithType: UserGroupLinkRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.UserGroupLinkRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.UserGroupLinkRecordData.#ctor
+  isExternal: true
+  name: UserGroupLinkRecordData
+  nameWithType: UserGroupLinkRecordData.UserGroupLinkRecordData
+  fullName: SuperOffice.CRM.Rows.UserGroupLinkRecordData.UserGroupLinkRecordData

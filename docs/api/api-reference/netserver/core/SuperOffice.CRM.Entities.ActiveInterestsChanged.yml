@@ -1,0 +1,404 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
+  commentId: T:SuperOffice.CRM.Entities.ActiveInterestsChanged
+  id: ActiveInterestsChanged
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+  - SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke(System.IAsyncResult)
+  - SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ActiveInterestsChanged
+  nameWithType: ActiveInterestsChanged
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nDelegate used for raising events when the number of active interests are changed.\n"
+  syntax:
+    content: public delegate void ActiveInterestsChanged(int activeInterests);
+    parameters:
+    - id: activeInterests
+      type: System.Int32
+      description: New number of active interests.
+    content.vb: Public Delegate Sub ActiveInterestsChanged(activeInterests As Integer)
+  extensionMethods:
+  - SuperOffice.CRM.Entities.ActiveInterestsChanged.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.ActiveInterestsChanged.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.CRM.Entities.ActiveInterestsChanged
+  langs:
+  - csharp
+  - vb
+  name: ActiveInterestsChanged(Object, IntPtr)
+  nameWithType: ActiveInterestsChanged.ActiveInterestsChanged(Object, IntPtr)
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.ActiveInterestsChanged(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public ActiveInterestsChanged(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke(System.Int32)
+  id: Invoke(System.Int32)
+  parent: SuperOffice.CRM.Entities.ActiveInterestsChanged
+  langs:
+  - csharp
+  - vb
+  name: Invoke(Int32)
+  nameWithType: ActiveInterestsChanged.Invoke(Int32)
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual void Invoke(int activeInterests)
+    parameters:
+    - id: activeInterests
+      type: System.Int32
+    content.vb: Public Overridable Sub Invoke(activeInterests As Integer)
+  overload: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+  parent: SuperOffice.CRM.Entities.ActiveInterestsChanged
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(Int32, AsyncCallback, Object)
+  nameWithType: ActiveInterestsChanged.BeginInvoke(Int32, AsyncCallback, Object)
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke(System.Int32, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(int activeInterests, AsyncCallback callback, object object)
+    parameters:
+    - id: activeInterests
+      type: System.Int32
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(activeInterests As Integer, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.CRM.Entities.ActiveInterestsChanged
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: ActiveInterestsChanged.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ActiveInterestsChanged, To>()
+  nameWithType: EnumUtil.MapEnums<ActiveInterestsChanged, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ActiveInterestsChanged, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ActiveInterestsChanged, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ActiveInterestsChanged, To)()
+  name.vb: MapEnums(Of ActiveInterestsChanged, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ActiveInterestsChanged, To>
+    nameWithType: EnumUtil.MapEnums<ActiveInterestsChanged, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ActiveInterestsChanged, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ActiveInterestsChanged, To)
+    nameWithType: EnumUtil.MapEnums(Of ActiveInterestsChanged, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ActiveInterestsChanged, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ActiveInterestsChanged, To>()
+  nameWithType: Converters.MapEnums<ActiveInterestsChanged, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ActiveInterestsChanged, To>()
+  nameWithType.vb: Converters.MapEnums(Of ActiveInterestsChanged, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ActiveInterestsChanged, To)()
+  name.vb: MapEnums(Of ActiveInterestsChanged, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ActiveInterestsChanged, To>
+    nameWithType: Converters.MapEnums<ActiveInterestsChanged, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ActiveInterestsChanged, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ActiveInterestsChanged, To)
+    nameWithType: Converters.MapEnums(Of ActiveInterestsChanged, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ActiveInterestsChanged, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor
+  isExternal: true
+  name: ActiveInterestsChanged
+  nameWithType: ActiveInterestsChanged.ActiveInterestsChanged
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.ActiveInterestsChanged
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke*
+  commentId: Overload:SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: ActiveInterestsChanged.Invoke
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke*
+  commentId: Overload:SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: ActiveInterestsChanged.BeginInvoke
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke*
+  commentId: Overload:SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: ActiveInterestsChanged.EndInvoke
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.EndInvoke

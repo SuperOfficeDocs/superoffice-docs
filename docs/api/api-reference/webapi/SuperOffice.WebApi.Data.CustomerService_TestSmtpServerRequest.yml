@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest
+  id: CustomerService_TestSmtpServerRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From
+  - SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri
+  - SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_TestSmtpServerRequest
+  nameWithType: CustomerService_TestSmtpServerRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_TestSmtpServerRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_TestSmtpServerRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_TestSmtpServerRequest()
+  nameWithType: CustomerService_TestSmtpServerRequest.CustomerService_TestSmtpServerRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.CustomerService_TestSmtpServerRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_TestSmtpServerRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri
+  id: SmtpUri
+  parent: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest
+  langs:
+  - csharp
+  - vb
+  name: SmtpUri
+  nameWithType: CustomerService_TestSmtpServerRequest.SmtpUri
+  fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string SmtpUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SmtpUri As String
+  overload: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From
+  id: From
+  parent: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: CustomerService_TestSmtpServerRequest.From
+  fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string From { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property From As String
+  overload: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword
+  id: UseStoredPassword
+  parent: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest
+  langs:
+  - csharp
+  - vb
+  name: UseStoredPassword
+  nameWithType: CustomerService_TestSmtpServerRequest.UseStoredPassword
+  fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool UseStoredPassword { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseStoredPassword As Boolean
+  overload: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.#ctor
+  isExternal: true
+  name: CustomerService_TestSmtpServerRequest
+  nameWithType: CustomerService_TestSmtpServerRequest.CustomerService_TestSmtpServerRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.CustomerService_TestSmtpServerRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri
+  isExternal: true
+  name: SmtpUri
+  nameWithType: CustomerService_TestSmtpServerRequest.SmtpUri
+  fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From
+  isExternal: true
+  name: From
+  nameWithType: CustomerService_TestSmtpServerRequest.From
+  fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From
+- uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword
+  isExternal: true
+  name: UseStoredPassword
+  nameWithType: CustomerService_TestSmtpServerRequest.UseStoredPassword
+  fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

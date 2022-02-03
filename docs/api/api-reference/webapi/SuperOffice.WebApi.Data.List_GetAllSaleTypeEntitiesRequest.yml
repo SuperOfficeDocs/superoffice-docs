@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest
+  id: List_GetAllSaleTypeEntitiesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.IncludeDeleted
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllSaleTypeEntitiesRequest
+  nameWithType: List_GetAllSaleTypeEntitiesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetAllSaleTypeEntitiesRequest : Object'
+    content.vb: >-
+      Public Class List_GetAllSaleTypeEntitiesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllSaleTypeEntitiesRequest()
+  nameWithType: List_GetAllSaleTypeEntitiesRequest.List_GetAllSaleTypeEntitiesRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.List_GetAllSaleTypeEntitiesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetAllSaleTypeEntitiesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.IncludeDeleted
+  commentId: P:SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.IncludeDeleted
+  id: IncludeDeleted
+  parent: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeDeleted
+  nameWithType: List_GetAllSaleTypeEntitiesRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.IncludeDeleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeDeleted As Boolean
+  overload: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.IncludeDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.#ctor
+  isExternal: true
+  name: List_GetAllSaleTypeEntitiesRequest
+  nameWithType: List_GetAllSaleTypeEntitiesRequest.List_GetAllSaleTypeEntitiesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.List_GetAllSaleTypeEntitiesRequest
+- uid: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.IncludeDeleted*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.IncludeDeleted
+  isExternal: true
+  name: IncludeDeleted
+  nameWithType: List_GetAllSaleTypeEntitiesRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllSaleTypeEntitiesRequest.IncludeDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

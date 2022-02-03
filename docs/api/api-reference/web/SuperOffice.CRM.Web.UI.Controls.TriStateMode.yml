@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.TriStateMode
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.TriStateMode
+  id: TriStateMode
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.TriStateMode.NoState
+  - SuperOffice.CRM.Web.UI.Controls.TriStateMode.TriState
+  - SuperOffice.CRM.Web.UI.Controls.TriStateMode.TwoState
+  langs:
+  - csharp
+  - vb
+  name: TriStateMode
+  nameWithType: TriStateMode
+  fullName: SuperOffice.CRM.Web.UI.Controls.TriStateMode
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum TriStateMode
+    content.vb: Public Enum TriStateMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.TriStateMode.TriState
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TriStateMode.TriState
+  id: TriState
+  parent: SuperOffice.CRM.Web.UI.Controls.TriStateMode
+  langs:
+  - csharp
+  - vb
+  name: TriState
+  nameWithType: TriStateMode.TriState
+  fullName: SuperOffice.CRM.Web.UI.Controls.TriStateMode.TriState
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: TriState = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TriStateMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.TriStateMode.TwoState
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TriStateMode.TwoState
+  id: TwoState
+  parent: SuperOffice.CRM.Web.UI.Controls.TriStateMode
+  langs:
+  - csharp
+  - vb
+  name: TwoState
+  nameWithType: TriStateMode.TwoState
+  fullName: SuperOffice.CRM.Web.UI.Controls.TriStateMode.TwoState
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: TwoState = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TriStateMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.TriStateMode.NoState
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TriStateMode.NoState
+  id: NoState
+  parent: SuperOffice.CRM.Web.UI.Controls.TriStateMode
+  langs:
+  - csharp
+  - vb
+  name: NoState
+  nameWithType: TriStateMode.NoState
+  fullName: SuperOffice.CRM.Web.UI.Controls.TriStateMode.NoState
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: NoState = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TriStateMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.TriStateMode
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.TriStateMode
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: TriStateMode
+  nameWithType: TriStateMode
+  fullName: SuperOffice.CRM.Web.UI.Controls.TriStateMode

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest
+  commentId: T:SuperOffice.WebApi.Data.Messaging_CreateMessageRequest
+  id: Messaging_CreateMessageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.#ctor
+  - SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.IncomingMessage
+  langs:
+  - csharp
+  - vb
+  name: Messaging_CreateMessageRequest
+  nameWithType: Messaging_CreateMessageRequest
+  fullName: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Messaging_CreateMessageRequest : Object'
+    content.vb: >-
+      Public Class Messaging_CreateMessageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: Messaging_CreateMessageRequest()
+  nameWithType: Messaging_CreateMessageRequest.Messaging_CreateMessageRequest()
+  fullName: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.Messaging_CreateMessageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Messaging_CreateMessageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.IncomingMessage
+  commentId: P:SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.IncomingMessage
+  id: IncomingMessage
+  parent: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: IncomingMessage
+  nameWithType: Messaging_CreateMessageRequest.IncomingMessage
+  fullName: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.IncomingMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public IncomingMessage IncomingMessage { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.IncomingMessage
+    content.vb: Public Property IncomingMessage As IncomingMessage
+  overload: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.IncomingMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.#ctor
+  isExternal: true
+  name: Messaging_CreateMessageRequest
+  nameWithType: Messaging_CreateMessageRequest.Messaging_CreateMessageRequest
+  fullName: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.Messaging_CreateMessageRequest
+- uid: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.IncomingMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.IncomingMessage
+  isExternal: true
+  name: IncomingMessage
+  nameWithType: Messaging_CreateMessageRequest.IncomingMessage
+  fullName: SuperOffice.WebApi.Data.Messaging_CreateMessageRequest.IncomingMessage
+- uid: SuperOffice.WebApi.Data.IncomingMessage
+  commentId: T:SuperOffice.WebApi.Data.IncomingMessage
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: IncomingMessage
+  nameWithType: IncomingMessage
+  fullName: SuperOffice.WebApi.Data.IncomingMessage

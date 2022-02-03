@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  id: DBC.WinPosSizeFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.AssocId
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraId
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraInfo
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.Height
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.LeftX
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.Owner
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.Registered
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.State
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.Updated
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpperY
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.Width
+  - SuperOffice.CRM.Data.DBC.WinPosSizeFields.WinPosSizeId
+  langs:
+  - csharp
+  - vb
+  name: DBC.WinPosSizeFields
+  nameWithType: DBC.WinPosSizeFields
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for WinPosSize, Stores the position and size of each window, so they can be shown in the same place again\n"
+  syntax:
+    content: public static class WinPosSizeFields
+    content.vb: Public Module WinPosSizeFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.WinPosSizeId
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.WinPosSizeId
+  id: WinPosSizeId
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: WinPosSizeId
+  nameWithType: DBC.WinPosSizeFields.WinPosSizeId
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.WinPosSizeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.WinPosSizeId: Primary key\n"
+  syntax:
+    content: public const string WinPosSizeId = "WinPosSize_id"
+    return:
+      type: System.String
+    content.vb: Public Const WinPosSizeId As String = "WinPosSize_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.AssocId
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.AssocId
+  id: AssocId
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: AssocId
+  nameWithType: DBC.WinPosSizeFields.AssocId
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.AssocId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.AssocId: Owning associate\n"
+  syntax:
+    content: public const string AssocId = "assoc_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssocId As String = "assoc_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Owner
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.Owner
+  id: Owner
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: DBC.WinPosSizeFields.Owner
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Owner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.Owner: The dialog, panel or whatever that owns this record\n"
+  syntax:
+    content: public const string Owner = "owner"
+    return:
+      type: System.String
+    content.vb: Public Const Owner As String = "owner"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.State
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.State
+  id: State
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: DBC.WinPosSizeFields.State
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.State
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.State: Normal = 0, Maximized = 1, Minimized = 2\n"
+  syntax:
+    content: public const string State = "state"
+    return:
+      type: System.String
+    content.vb: Public Const State As String = "state"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraId
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraId
+  id: ExtraId
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraId
+  nameWithType: DBC.WinPosSizeFields.ExtraId
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.ExtraId: Spare ID, not yet in use\n"
+  syntax:
+    content: public const string ExtraId = "extraId"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraId As String = "extraId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.LeftX
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.LeftX
+  id: LeftX
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: LeftX
+  nameWithType: DBC.WinPosSizeFields.LeftX
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.LeftX
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.LeftX: X of origin, left edge of widget\n"
+  syntax:
+    content: public const string LeftX = "leftX"
+    return:
+      type: System.String
+    content.vb: Public Const LeftX As String = "leftX"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpperY
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpperY
+  id: UpperY
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: UpperY
+  nameWithType: DBC.WinPosSizeFields.UpperY
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpperY
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.UpperY: Y of origin, upper edge of widget\n"
+  syntax:
+    content: public const string UpperY = "upperY"
+    return:
+      type: System.String
+    content.vb: Public Const UpperY As String = "upperY"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Width
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.Width
+  id: Width
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: DBC.WinPosSizeFields.Width
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Width
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.Width: The width of the widget\n"
+  syntax:
+    content: public const string Width = "width"
+    return:
+      type: System.String
+    content.vb: Public Const Width As String = "width"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Height
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.Height
+  id: Height
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: DBC.WinPosSizeFields.Height
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Height
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.Height: The height of the widget\n"
+  syntax:
+    content: public const string Height = "height"
+    return:
+      type: System.String
+    content.vb: Public Const Height As String = "height"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: DBC.WinPosSizeFields.ExtraInfo
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.ExtraInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.ExtraInfo: Extra information - show state, or whatever is required\n"
+  syntax:
+    content: public const string ExtraInfo = "extraInfo"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraInfo As String = "extraInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.WinPosSizeFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.WinPosSizeFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.WinPosSizeFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.WinPosSizeFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.WinPosSizeFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.WinPosSizeFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.WinPosSizeFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWinPosSize.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

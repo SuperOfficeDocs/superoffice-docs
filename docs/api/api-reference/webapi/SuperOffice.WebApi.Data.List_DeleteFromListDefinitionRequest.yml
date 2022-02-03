@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest
+  commentId: T:SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest
+  id: List_DeleteFromListDefinitionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.#ctor
+  - SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.Id
+  - SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.UdListDefinitionId
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteFromListDefinitionRequest
+  nameWithType: List_DeleteFromListDefinitionRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_DeleteFromListDefinitionRequest : Object'
+    content.vb: >-
+      Public Class List_DeleteFromListDefinitionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteFromListDefinitionRequest()
+  nameWithType: List_DeleteFromListDefinitionRequest.List_DeleteFromListDefinitionRequest()
+  fullName: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.List_DeleteFromListDefinitionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_DeleteFromListDefinitionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: List_DeleteFromListDefinitionRequest.Id
+  fullName: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.UdListDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.UdListDefinitionId
+  id: UdListDefinitionId
+  parent: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionId
+  nameWithType: List_DeleteFromListDefinitionRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.UdListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UdListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UdListDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.UdListDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.#ctor
+  isExternal: true
+  name: List_DeleteFromListDefinitionRequest
+  nameWithType: List_DeleteFromListDefinitionRequest.List_DeleteFromListDefinitionRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.List_DeleteFromListDefinitionRequest
+- uid: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: List_DeleteFromListDefinitionRequest.Id
+  fullName: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.UdListDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.UdListDefinitionId
+  isExternal: true
+  name: UdListDefinitionId
+  nameWithType: List_DeleteFromListDefinitionRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_DeleteFromListDefinitionRequest.UdListDefinitionId

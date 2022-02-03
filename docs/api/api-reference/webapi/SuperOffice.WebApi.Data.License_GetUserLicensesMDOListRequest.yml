@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest
+  commentId: T:SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest
+  id: License_GetUserLicensesMDOListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: License_GetUserLicensesMDOListRequest
+  nameWithType: License_GetUserLicensesMDOListRequest
+  fullName: SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class License_GetUserLicensesMDOListRequest : Object'
+    content.vb: >-
+      Public Class License_GetUserLicensesMDOListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest
+  langs:
+  - csharp
+  - vb
+  name: License_GetUserLicensesMDOListRequest()
+  nameWithType: License_GetUserLicensesMDOListRequest.License_GetUserLicensesMDOListRequest()
+  fullName: SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest.License_GetUserLicensesMDOListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public License_GetUserLicensesMDOListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest.#ctor
+  isExternal: true
+  name: License_GetUserLicensesMDOListRequest
+  nameWithType: License_GetUserLicensesMDOListRequest.License_GetUserLicensesMDOListRequest
+  fullName: SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest.License_GetUserLicensesMDOListRequest

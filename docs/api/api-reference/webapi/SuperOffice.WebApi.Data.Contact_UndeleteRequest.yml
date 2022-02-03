@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_UndeleteRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_UndeleteRequest
+  id: Contact_UndeleteRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_UndeleteRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_UndeleteRequest.Id
+  langs:
+  - csharp
+  - vb
+  name: Contact_UndeleteRequest
+  nameWithType: Contact_UndeleteRequest
+  fullName: SuperOffice.WebApi.Data.Contact_UndeleteRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_UndeleteRequest : Object'
+    content.vb: >-
+      Public Class Contact_UndeleteRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_UndeleteRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_UndeleteRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_UndeleteRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_UndeleteRequest()
+  nameWithType: Contact_UndeleteRequest.Contact_UndeleteRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_UndeleteRequest.Contact_UndeleteRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_UndeleteRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_UndeleteRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_UndeleteRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.Contact_UndeleteRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.Contact_UndeleteRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Contact_UndeleteRequest.Id
+  fullName: SuperOffice.WebApi.Data.Contact_UndeleteRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.Contact_UndeleteRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_UndeleteRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_UndeleteRequest.#ctor
+  isExternal: true
+  name: Contact_UndeleteRequest
+  nameWithType: Contact_UndeleteRequest.Contact_UndeleteRequest
+  fullName: SuperOffice.WebApi.Data.Contact_UndeleteRequest.Contact_UndeleteRequest
+- uid: SuperOffice.WebApi.Data.Contact_UndeleteRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_UndeleteRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: Contact_UndeleteRequest.Id
+  fullName: SuperOffice.WebApi.Data.Contact_UndeleteRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

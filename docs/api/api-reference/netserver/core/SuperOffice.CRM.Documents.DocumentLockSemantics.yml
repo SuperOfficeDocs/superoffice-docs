@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.DocumentLockSemantics
+  commentId: T:SuperOffice.CRM.Documents.DocumentLockSemantics
+  id: DocumentLockSemantics
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.DocumentLockSemantics.Locking
+  - SuperOffice.CRM.Documents.DocumentLockSemantics.None
+  - SuperOffice.CRM.Documents.DocumentLockSemantics.Versioning
+  langs:
+  - csharp
+  - vb
+  name: DocumentLockSemantics
+  nameWithType: DocumentLockSemantics
+  fullName: SuperOffice.CRM.Documents.DocumentLockSemantics
+  type: Enum
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nLocking semantics requested/applied to a document\n"
+  syntax:
+    content: public enum DocumentLockSemantics
+    content.vb: Public Enum DocumentLockSemantics
+  extensionMethods:
+  - SuperOffice.CRM.Documents.DocumentLockSemantics.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Documents.DocumentLockSemantics.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.DocumentLockSemantics)
+  - SuperOffice.CRM.Documents.DocumentLockSemantics.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Documents.DocumentLockSemantics.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Documents.DocumentLockSemantics.None
+  commentId: F:SuperOffice.CRM.Documents.DocumentLockSemantics.None
+  id: None
+  parent: SuperOffice.CRM.Documents.DocumentLockSemantics
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DocumentLockSemantics.None
+  fullName: SuperOffice.CRM.Documents.DocumentLockSemantics.None
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nNeither locking nor versioning is requested for the document\n"
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.CRM.Documents.DocumentLockSemantics
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.DocumentLockSemantics.Locking
+  commentId: F:SuperOffice.CRM.Documents.DocumentLockSemantics.Locking
+  id: Locking
+  parent: SuperOffice.CRM.Documents.DocumentLockSemantics
+  langs:
+  - csharp
+  - vb
+  name: Locking
+  nameWithType: DocumentLockSemantics.Locking
+  fullName: SuperOffice.CRM.Documents.DocumentLockSemantics.Locking
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nLocking, but not versioning, is requested for the document\n"
+  syntax:
+    content: Locking = 1
+    return:
+      type: SuperOffice.CRM.Documents.DocumentLockSemantics
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.DocumentLockSemantics.Versioning
+  commentId: F:SuperOffice.CRM.Documents.DocumentLockSemantics.Versioning
+  id: Versioning
+  parent: SuperOffice.CRM.Documents.DocumentLockSemantics
+  langs:
+  - csharp
+  - vb
+  name: Versioning
+  nameWithType: DocumentLockSemantics.Versioning
+  fullName: SuperOffice.CRM.Documents.DocumentLockSemantics.Versioning
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nVersioning is requested for the document (locking is implied)\n"
+  syntax:
+    content: Versioning = 2
+    return:
+      type: SuperOffice.CRM.Documents.DocumentLockSemantics
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: SuperOffice.CRM.Documents.DocumentLockSemantics.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DocumentLockSemantics, To>()
+  nameWithType: EnumUtil.MapEnums<DocumentLockSemantics, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.DocumentLockSemantics, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DocumentLockSemantics, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.DocumentLockSemantics, To)()
+  name.vb: MapEnums(Of DocumentLockSemantics, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DocumentLockSemantics, To>
+    nameWithType: EnumUtil.MapEnums<DocumentLockSemantics, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.DocumentLockSemantics, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DocumentLockSemantics, To)
+    nameWithType: EnumUtil.MapEnums(Of DocumentLockSemantics, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.DocumentLockSemantics, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.DocumentLockSemantics.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.DocumentLockSemantics)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DocumentLockSemantics>(DocumentLockSemantics)
+  nameWithType: ObjectExtensions.AssignByReflection<DocumentLockSemantics>(DocumentLockSemantics)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Documents.DocumentLockSemantics>(SuperOffice.CRM.Documents.DocumentLockSemantics)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DocumentLockSemantics)(DocumentLockSemantics)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Documents.DocumentLockSemantics)(SuperOffice.CRM.Documents.DocumentLockSemantics)
+  name.vb: AssignByReflection(Of DocumentLockSemantics)(DocumentLockSemantics)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DocumentLockSemantics>
+    nameWithType: ObjectExtensions.AssignByReflection<DocumentLockSemantics>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Documents.DocumentLockSemantics>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Documents.DocumentLockSemantics
+    name: DocumentLockSemantics
+    nameWithType: DocumentLockSemantics
+    fullName: SuperOffice.CRM.Documents.DocumentLockSemantics
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DocumentLockSemantics)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DocumentLockSemantics)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Documents.DocumentLockSemantics)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Documents.DocumentLockSemantics
+    name: DocumentLockSemantics
+    nameWithType: DocumentLockSemantics
+    fullName: SuperOffice.CRM.Documents.DocumentLockSemantics
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.DocumentLockSemantics.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DocumentLockSemantics>()
+  nameWithType: ObjectExtensions.GraphCopy<DocumentLockSemantics>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Documents.DocumentLockSemantics>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DocumentLockSemantics)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Documents.DocumentLockSemantics)()
+  name.vb: GraphCopy(Of DocumentLockSemantics)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DocumentLockSemantics>
+    nameWithType: ObjectExtensions.GraphCopy<DocumentLockSemantics>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Documents.DocumentLockSemantics>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DocumentLockSemantics)
+    nameWithType: ObjectExtensions.GraphCopy(Of DocumentLockSemantics)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Documents.DocumentLockSemantics)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.DocumentLockSemantics.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DocumentLockSemantics, To>()
+  nameWithType: Converters.MapEnums<DocumentLockSemantics, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.DocumentLockSemantics, To>()
+  nameWithType.vb: Converters.MapEnums(Of DocumentLockSemantics, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.DocumentLockSemantics, To)()
+  name.vb: MapEnums(Of DocumentLockSemantics, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DocumentLockSemantics, To>
+    nameWithType: Converters.MapEnums<DocumentLockSemantics, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.DocumentLockSemantics, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DocumentLockSemantics, To)
+    nameWithType: Converters.MapEnums(Of DocumentLockSemantics, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.DocumentLockSemantics, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Documents.DocumentLockSemantics
+  commentId: T:SuperOffice.CRM.Documents.DocumentLockSemantics
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: DocumentLockSemantics
+  nameWithType: DocumentLockSemantics
+  fullName: SuperOffice.CRM.Documents.DocumentLockSemantics

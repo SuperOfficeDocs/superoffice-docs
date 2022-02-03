@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RedLetterInformationListItem
+  commentId: T:SuperOffice.WebApi.Data.RedLetterInformationListItem
+  id: RedLetterInformationListItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RedLetterInformationListItem.#ctor
+  - SuperOffice.WebApi.Data.RedLetterInformationListItem.Date
+  - SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterDetails
+  - SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterInformation
+  langs:
+  - csharp
+  - vb
+  name: RedLetterInformationListItem
+  nameWithType: RedLetterInformationListItem
+  fullName: SuperOffice.WebApi.Data.RedLetterInformationListItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for RedLetterInformationListItem.\nDetailed information on red-letter days, including both holidays and other days with their individual texts.    \n"
+  syntax:
+    content: 'public class RedLetterInformationListItem : Carrier'
+    content.vb: >-
+      Public Class RedLetterInformationListItem
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.RedLetterInformationListItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.RedLetterInformationListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.RedLetterInformationListItem
+  langs:
+  - csharp
+  - vb
+  name: RedLetterInformationListItem()
+  nameWithType: RedLetterInformationListItem.RedLetterInformationListItem()
+  fullName: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterInformationListItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public RedLetterInformationListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.RedLetterInformationListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RedLetterInformationListItem.Date
+  commentId: P:SuperOffice.WebApi.Data.RedLetterInformationListItem.Date
+  id: Date
+  parent: SuperOffice.WebApi.Data.RedLetterInformationListItem
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: RedLetterInformationListItem.Date
+  fullName: SuperOffice.WebApi.Data.RedLetterInformationListItem.Date
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDate that this item is valid for; there is exactly one item per date, ordered by date.\n"
+  syntax:
+    content: public virtual DateTime Date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Date As DateTime
+  overload: SuperOffice.WebApi.Data.RedLetterInformationListItem.Date*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterInformation
+  commentId: P:SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterInformation
+  id: RedLetterInformation
+  parent: SuperOffice.WebApi.Data.RedLetterInformationListItem
+  langs:
+  - csharp
+  - vb
+  name: RedLetterInformation
+  nameWithType: RedLetterInformationListItem.RedLetterInformation
+  fullName: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterInformation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummary of redletter day information - holiday in own country, and in other countries known to the system.\n"
+  syntax:
+    content: public virtual RedLetterSummary RedLetterInformation { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RedLetterSummary
+    content.vb: Public Overridable Property RedLetterInformation As RedLetterSummary
+  overload: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterInformation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterDetails
+  commentId: P:SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterDetails
+  id: RedLetterDetails
+  parent: SuperOffice.WebApi.Data.RedLetterInformationListItem
+  langs:
+  - csharp
+  - vb
+  name: RedLetterDetails
+  nameWithType: RedLetterInformationListItem.RedLetterDetails
+  fullName: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterDetails
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRed letter day text details, all the texts related to the given day.\n"
+  syntax:
+    content: public virtual RedLetterDetails RedLetterDetails { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RedLetterDetails
+    content.vb: Public Overridable Property RedLetterDetails As RedLetterDetails
+  overload: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterDetails*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.RedLetterInformationListItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.RedLetterInformationListItem.#ctor
+  isExternal: true
+  name: RedLetterInformationListItem
+  nameWithType: RedLetterInformationListItem.RedLetterInformationListItem
+  fullName: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterInformationListItem
+- uid: SuperOffice.WebApi.Data.RedLetterInformationListItem.Date*
+  commentId: Overload:SuperOffice.WebApi.Data.RedLetterInformationListItem.Date
+  isExternal: true
+  name: Date
+  nameWithType: RedLetterInformationListItem.Date
+  fullName: SuperOffice.WebApi.Data.RedLetterInformationListItem.Date
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterInformation*
+  commentId: Overload:SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterInformation
+  isExternal: true
+  name: RedLetterInformation
+  nameWithType: RedLetterInformationListItem.RedLetterInformation
+  fullName: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterInformation
+- uid: SuperOffice.WebApi.Data.RedLetterSummary
+  commentId: T:SuperOffice.WebApi.Data.RedLetterSummary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RedLetterSummary
+  nameWithType: RedLetterSummary
+  fullName: SuperOffice.WebApi.Data.RedLetterSummary
+- uid: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterDetails*
+  commentId: Overload:SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterDetails
+  isExternal: true
+  name: RedLetterDetails
+  nameWithType: RedLetterInformationListItem.RedLetterDetails
+  fullName: SuperOffice.WebApi.Data.RedLetterInformationListItem.RedLetterDetails
+- uid: SuperOffice.WebApi.Data.RedLetterDetails
+  commentId: T:SuperOffice.WebApi.Data.RedLetterDetails
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RedLetterDetails
+  nameWithType: RedLetterDetails
+  fullName: SuperOffice.WebApi.Data.RedLetterDetails

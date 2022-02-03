@@ -1,0 +1,642 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoInputButton
+  commentId: T:SuperOffice.Web.UI.Controls.SoInputButton
+  id: SoInputButton
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoInputButton.#ctor
+  - SuperOffice.Web.UI.Controls.SoInputButton.#ctor(SuperOffice.Web.UI.Controls.SoInputButton.ButtonType)
+  - SuperOffice.Web.UI.Controls.SoInputButton.BlueButton
+  - SuperOffice.Web.UI.Controls.SoInputButton.BType
+  - SuperOffice.Web.UI.Controls.SoInputButton.Cssclass
+  - SuperOffice.Web.UI.Controls.SoInputButton.ImageHeight
+  - SuperOffice.Web.UI.Controls.SoInputButton.ImageSrc
+  - SuperOffice.Web.UI.Controls.SoInputButton.ImageWidth
+  - SuperOffice.Web.UI.Controls.SoInputButton.IsOkButton
+  - SuperOffice.Web.UI.Controls.SoInputButton.LightweightRender
+  - SuperOffice.Web.UI.Controls.SoInputButton.MenuButton
+  - SuperOffice.Web.UI.Controls.SoInputButton.MinWidth
+  - SuperOffice.Web.UI.Controls.SoInputButton.OnClientClick
+  - SuperOffice.Web.UI.Controls.SoInputButton.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoInputButton.UseLowHeightStyle
+  langs:
+  - csharp
+  - vb
+  name: SoInputButton
+  nameWithType: SoInputButton
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoInputButton : HtmlInputButton, INamingContainer'
+    content.vb: >-
+      Public Class SoInputButton
+          Inherits HtmlInputButton
+          Implements INamingContainer
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.UI.INamingContainer
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoInputButton.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: SoInputButton()
+  nameWithType: SoInputButton.SoInputButton()
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.SoInputButton()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoInputButton()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.#ctor(SuperOffice.Web.UI.Controls.SoInputButton.ButtonType)
+  commentId: M:SuperOffice.Web.UI.Controls.SoInputButton.#ctor(SuperOffice.Web.UI.Controls.SoInputButton.ButtonType)
+  id: '#ctor(SuperOffice.Web.UI.Controls.SoInputButton.ButtonType)'
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: SoInputButton(SoInputButton.ButtonType)
+  nameWithType: SoInputButton.SoInputButton(SoInputButton.ButtonType)
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.SoInputButton(SuperOffice.Web.UI.Controls.SoInputButton.ButtonType)
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoInputButton(SoInputButton.ButtonType bType)
+    parameters:
+    - id: bType
+      type: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+    content.vb: Public Sub New(bType As SoInputButton.ButtonType)
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoInputButton.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoInputButton.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.Cssclass
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.Cssclass
+  id: Cssclass
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: Cssclass
+  nameWithType: SoInputButton.Cssclass
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.Cssclass
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string Cssclass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Cssclass As String
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.Cssclass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.IsOkButton
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.IsOkButton
+  id: IsOkButton
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: IsOkButton
+  nameWithType: SoInputButton.IsOkButton
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.IsOkButton
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public bool IsOkButton { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsOkButton As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.IsOkButton*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.MinWidth
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.MinWidth
+  id: MinWidth
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: MinWidth
+  nameWithType: SoInputButton.MinWidth
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.MinWidth
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public Unit MinWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Web.UI.WebControls.Unit
+    content.vb: Public Property MinWidth As Unit
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.MinWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.LightweightRender
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.LightweightRender
+  id: LightweightRender
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: LightweightRender
+  nameWithType: SoInputButton.LightweightRender
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.LightweightRender
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public bool LightweightRender { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LightweightRender As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.LightweightRender*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.UseLowHeightStyle
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.UseLowHeightStyle
+  id: UseLowHeightStyle
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: UseLowHeightStyle
+  nameWithType: SoInputButton.UseLowHeightStyle
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.UseLowHeightStyle
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public bool UseLowHeightStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseLowHeightStyle As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.UseLowHeightStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.OnClientClick
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.OnClientClick
+  id: OnClientClick
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: OnClientClick
+  nameWithType: SoInputButton.OnClientClick
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.OnClientClick
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string OnClientClick { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OnClientClick As String
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.OnClientClick*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.BlueButton
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.BlueButton
+  id: BlueButton
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: BlueButton
+  nameWithType: SoInputButton.BlueButton
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.BlueButton
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public bool BlueButton { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property BlueButton As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.BlueButton*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.BType
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.BType
+  id: BType
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: BType
+  nameWithType: SoInputButton.BType
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.BType
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoInputButton.ButtonType BType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+    content.vb: Public Property BType As SoInputButton.ButtonType
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.BType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ImageSrc
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.ImageSrc
+  id: ImageSrc
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: ImageSrc
+  nameWithType: SoInputButton.ImageSrc
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ImageSrc
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string ImageSrc { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ImageSrc As String
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.ImageSrc*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ImageWidth
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.ImageWidth
+  id: ImageWidth
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: ImageWidth
+  nameWithType: SoInputButton.ImageWidth
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ImageWidth
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string ImageWidth { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ImageWidth As String
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.ImageWidth*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ImageHeight
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.ImageHeight
+  id: ImageHeight
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: ImageHeight
+  nameWithType: SoInputButton.ImageHeight
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ImageHeight
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string ImageHeight { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ImageHeight As String
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.ImageHeight*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.MenuButton
+  commentId: P:SuperOffice.Web.UI.Controls.SoInputButton.MenuButton
+  id: MenuButton
+  parent: SuperOffice.Web.UI.Controls.SoInputButton
+  langs:
+  - csharp
+  - vb
+  name: MenuButton
+  nameWithType: SoInputButton.MenuButton
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.MenuButton
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual bool MenuButton { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property MenuButton As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoInputButton.MenuButton*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.#ctor
+  isExternal: true
+  name: SoInputButton
+  nameWithType: SoInputButton.SoInputButton
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.SoInputButton
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  commentId: T:SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoInputButton.ButtonType
+  nameWithType: SoInputButton.ButtonType
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoInputButton.Render
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.Cssclass*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.Cssclass
+  isExternal: true
+  name: Cssclass
+  nameWithType: SoInputButton.Cssclass
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.Cssclass
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.IsOkButton*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.IsOkButton
+  isExternal: true
+  name: IsOkButton
+  nameWithType: SoInputButton.IsOkButton
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.IsOkButton
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.MinWidth*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.MinWidth
+  isExternal: true
+  name: MinWidth
+  nameWithType: SoInputButton.MinWidth
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.MinWidth
+- uid: System.Web.UI.WebControls.Unit
+  isExternal: true
+  name: Unit
+  nameWithType: Unit
+  fullName: System.Web.UI.WebControls.Unit
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.LightweightRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.LightweightRender
+  isExternal: true
+  name: LightweightRender
+  nameWithType: SoInputButton.LightweightRender
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.LightweightRender
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.UseLowHeightStyle*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.UseLowHeightStyle
+  isExternal: true
+  name: UseLowHeightStyle
+  nameWithType: SoInputButton.UseLowHeightStyle
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.UseLowHeightStyle
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.OnClientClick*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.OnClientClick
+  isExternal: true
+  name: OnClientClick
+  nameWithType: SoInputButton.OnClientClick
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.OnClientClick
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.BlueButton*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.BlueButton
+  isExternal: true
+  name: BlueButton
+  nameWithType: SoInputButton.BlueButton
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.BlueButton
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.BType*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.BType
+  isExternal: true
+  name: BType
+  nameWithType: SoInputButton.BType
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.BType
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ImageSrc*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.ImageSrc
+  isExternal: true
+  name: ImageSrc
+  nameWithType: SoInputButton.ImageSrc
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ImageSrc
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ImageWidth*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.ImageWidth
+  isExternal: true
+  name: ImageWidth
+  nameWithType: SoInputButton.ImageWidth
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ImageWidth
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ImageHeight*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.ImageHeight
+  isExternal: true
+  name: ImageHeight
+  nameWithType: SoInputButton.ImageHeight
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ImageHeight
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.MenuButton*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoInputButton.MenuButton
+  isExternal: true
+  name: MenuButton
+  nameWithType: SoInputButton.MenuButton
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.MenuButton

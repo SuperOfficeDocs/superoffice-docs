@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MDO_GetListRequest
+  commentId: T:SuperOffice.WebApi.Data.MDO_GetListRequest
+  id: MDO_GetListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MDO_GetListRequest.#ctor
+  - SuperOffice.WebApi.Data.MDO_GetListRequest.AdditionalInfo
+  - SuperOffice.WebApi.Data.MDO_GetListRequest.ForceFlatList
+  - SuperOffice.WebApi.Data.MDO_GetListRequest.Name
+  - SuperOffice.WebApi.Data.MDO_GetListRequest.OnlyHistory
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetListRequest
+  nameWithType: MDO_GetListRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class MDO_GetListRequest : Object'
+    content.vb: >-
+      Public Class MDO_GetListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MDO_GetListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MDO_GetListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MDO_GetListRequest
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetListRequest()
+  nameWithType: MDO_GetListRequest.MDO_GetListRequest()
+  fullName: SuperOffice.WebApi.Data.MDO_GetListRequest.MDO_GetListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public MDO_GetListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MDO_GetListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetListRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetListRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.MDO_GetListRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MDO_GetListRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetListRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.MDO_GetListRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetListRequest.ForceFlatList
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetListRequest.ForceFlatList
+  id: ForceFlatList
+  parent: SuperOffice.WebApi.Data.MDO_GetListRequest
+  langs:
+  - csharp
+  - vb
+  name: ForceFlatList
+  nameWithType: MDO_GetListRequest.ForceFlatList
+  fullName: SuperOffice.WebApi.Data.MDO_GetListRequest.ForceFlatList
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool ForceFlatList { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ForceFlatList As Boolean
+  overload: SuperOffice.WebApi.Data.MDO_GetListRequest.ForceFlatList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetListRequest.AdditionalInfo
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetListRequest.AdditionalInfo
+  id: AdditionalInfo
+  parent: SuperOffice.WebApi.Data.MDO_GetListRequest
+  langs:
+  - csharp
+  - vb
+  name: AdditionalInfo
+  nameWithType: MDO_GetListRequest.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.MDO_GetListRequest.AdditionalInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string AdditionalInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AdditionalInfo As String
+  overload: SuperOffice.WebApi.Data.MDO_GetListRequest.AdditionalInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetListRequest.OnlyHistory
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetListRequest.OnlyHistory
+  id: OnlyHistory
+  parent: SuperOffice.WebApi.Data.MDO_GetListRequest
+  langs:
+  - csharp
+  - vb
+  name: OnlyHistory
+  nameWithType: MDO_GetListRequest.OnlyHistory
+  fullName: SuperOffice.WebApi.Data.MDO_GetListRequest.OnlyHistory
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool OnlyHistory { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property OnlyHistory As Boolean
+  overload: SuperOffice.WebApi.Data.MDO_GetListRequest.OnlyHistory*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MDO_GetListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListRequest.#ctor
+  isExternal: true
+  name: MDO_GetListRequest
+  nameWithType: MDO_GetListRequest.MDO_GetListRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetListRequest.MDO_GetListRequest
+- uid: SuperOffice.WebApi.Data.MDO_GetListRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: MDO_GetListRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetListRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.MDO_GetListRequest.ForceFlatList*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListRequest.ForceFlatList
+  isExternal: true
+  name: ForceFlatList
+  nameWithType: MDO_GetListRequest.ForceFlatList
+  fullName: SuperOffice.WebApi.Data.MDO_GetListRequest.ForceFlatList
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.MDO_GetListRequest.AdditionalInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListRequest.AdditionalInfo
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: MDO_GetListRequest.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.MDO_GetListRequest.AdditionalInfo
+- uid: SuperOffice.WebApi.Data.MDO_GetListRequest.OnlyHistory*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListRequest.OnlyHistory
+  isExternal: true
+  name: OnlyHistory
+  nameWithType: MDO_GetListRequest.OnlyHistory
+  fullName: SuperOffice.WebApi.Data.MDO_GetListRequest.OnlyHistory

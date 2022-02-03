@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest
+  id: Person_AddEmailAddressToPersonRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.EmailAddress
+  - SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.PersonId
+  - SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.SetAsPrimaryEmail
+  langs:
+  - csharp
+  - vb
+  name: Person_AddEmailAddressToPersonRequest
+  nameWithType: Person_AddEmailAddressToPersonRequest
+  fullName: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_AddEmailAddressToPersonRequest : Object'
+    content.vb: >-
+      Public Class Person_AddEmailAddressToPersonRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_AddEmailAddressToPersonRequest()
+  nameWithType: Person_AddEmailAddressToPersonRequest.Person_AddEmailAddressToPersonRequest()
+  fullName: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.Person_AddEmailAddressToPersonRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_AddEmailAddressToPersonRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_AddEmailAddressToPersonRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: Person_AddEmailAddressToPersonRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.SetAsPrimaryEmail
+  commentId: P:SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.SetAsPrimaryEmail
+  id: SetAsPrimaryEmail
+  parent: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: SetAsPrimaryEmail
+  nameWithType: Person_AddEmailAddressToPersonRequest.SetAsPrimaryEmail
+  fullName: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.SetAsPrimaryEmail
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool SetAsPrimaryEmail { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SetAsPrimaryEmail As Boolean
+  overload: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.SetAsPrimaryEmail*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.#ctor
+  isExternal: true
+  name: Person_AddEmailAddressToPersonRequest
+  nameWithType: Person_AddEmailAddressToPersonRequest.Person_AddEmailAddressToPersonRequest
+  fullName: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.Person_AddEmailAddressToPersonRequest
+- uid: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_AddEmailAddressToPersonRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: Person_AddEmailAddressToPersonRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.EmailAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.SetAsPrimaryEmail*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.SetAsPrimaryEmail
+  isExternal: true
+  name: SetAsPrimaryEmail
+  nameWithType: Person_AddEmailAddressToPersonRequest.SetAsPrimaryEmail
+  fullName: SuperOffice.WebApi.Data.Person_AddEmailAddressToPersonRequest.SetAsPrimaryEmail
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

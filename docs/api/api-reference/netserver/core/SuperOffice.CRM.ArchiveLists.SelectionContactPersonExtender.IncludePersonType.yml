@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+  commentId: T:SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+  id: SelectionContactPersonExtender.IncludePersonType
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.All
+  - SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.First
+  - SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.None
+  langs:
+  - csharp
+  - vb
+  name: SelectionContactPersonExtender.IncludePersonType
+  nameWithType: SelectionContactPersonExtender.IncludePersonType
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis enum specifies the possible values for the include person option in dynamic selection and add selection members.\nThe values correspond to published database values. Note that the comment in the dictionary is wrong if it disagrees with \nthe enum values defined here :-)\n"
+  syntax:
+    content: public enum IncludePersonType
+    content.vb: Public Enum IncludePersonType
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType)
+  - SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.None
+  commentId: F:SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.None
+  id: None
+  parent: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: SelectionContactPersonExtender.IncludePersonType.None
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.None
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.First
+  commentId: F:SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.First
+  id: First
+  parent: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+  langs:
+  - csharp
+  - vb
+  name: First
+  nameWithType: SelectionContactPersonExtender.IncludePersonType.First
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.First
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: First = 1
+    return:
+      type: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.All
+  commentId: F:SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.All
+  id: All
+  parent: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: SelectionContactPersonExtender.IncludePersonType.All
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.All
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: All = 2
+    return:
+      type: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SelectionContactPersonExtender.IncludePersonType, To>()
+  nameWithType: EnumUtil.MapEnums<SelectionContactPersonExtender.IncludePersonType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SelectionContactPersonExtender.IncludePersonType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType, To)()
+  name.vb: MapEnums(Of SelectionContactPersonExtender.IncludePersonType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SelectionContactPersonExtender.IncludePersonType, To>
+    nameWithType: EnumUtil.MapEnums<SelectionContactPersonExtender.IncludePersonType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SelectionContactPersonExtender.IncludePersonType, To)
+    nameWithType: EnumUtil.MapEnums(Of SelectionContactPersonExtender.IncludePersonType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SelectionContactPersonExtender.IncludePersonType>(SelectionContactPersonExtender.IncludePersonType)
+  nameWithType: ObjectExtensions.AssignByReflection<SelectionContactPersonExtender.IncludePersonType>(SelectionContactPersonExtender.IncludePersonType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType>(SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SelectionContactPersonExtender.IncludePersonType)(SelectionContactPersonExtender.IncludePersonType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType)(SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType)
+  name.vb: AssignByReflection(Of SelectionContactPersonExtender.IncludePersonType)(SelectionContactPersonExtender.IncludePersonType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SelectionContactPersonExtender.IncludePersonType>
+    nameWithType: ObjectExtensions.AssignByReflection<SelectionContactPersonExtender.IncludePersonType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+    name: SelectionContactPersonExtender.IncludePersonType
+    nameWithType: SelectionContactPersonExtender.IncludePersonType
+    fullName: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SelectionContactPersonExtender.IncludePersonType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SelectionContactPersonExtender.IncludePersonType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+    name: SelectionContactPersonExtender.IncludePersonType
+    nameWithType: SelectionContactPersonExtender.IncludePersonType
+    fullName: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SelectionContactPersonExtender.IncludePersonType>()
+  nameWithType: ObjectExtensions.GraphCopy<SelectionContactPersonExtender.IncludePersonType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SelectionContactPersonExtender.IncludePersonType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType)()
+  name.vb: GraphCopy(Of SelectionContactPersonExtender.IncludePersonType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SelectionContactPersonExtender.IncludePersonType>
+    nameWithType: ObjectExtensions.GraphCopy<SelectionContactPersonExtender.IncludePersonType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SelectionContactPersonExtender.IncludePersonType)
+    nameWithType: ObjectExtensions.GraphCopy(Of SelectionContactPersonExtender.IncludePersonType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SelectionContactPersonExtender.IncludePersonType, To>()
+  nameWithType: Converters.MapEnums<SelectionContactPersonExtender.IncludePersonType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType, To>()
+  nameWithType.vb: Converters.MapEnums(Of SelectionContactPersonExtender.IncludePersonType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType, To)()
+  name.vb: MapEnums(Of SelectionContactPersonExtender.IncludePersonType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SelectionContactPersonExtender.IncludePersonType, To>
+    nameWithType: Converters.MapEnums<SelectionContactPersonExtender.IncludePersonType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SelectionContactPersonExtender.IncludePersonType, To)
+    nameWithType: Converters.MapEnums(Of SelectionContactPersonExtender.IncludePersonType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+  commentId: T:SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SelectionContactPersonExtender.IncludePersonType
+  nameWithType: SelectionContactPersonExtender.IncludePersonType
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType

@@ -1,0 +1,375 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncFieldValue
+  id: ErpSyncFieldValue
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSyncFieldValue.#ctor
+  - SuperOffice.WebApi.Data.ErpSyncFieldValue.CrmFieldKey
+  - SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayName
+  - SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayValue
+  - SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToCrm
+  - SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToErp
+  - SuperOffice.WebApi.Data.ErpSyncFieldValue.Value
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncFieldValue
+  nameWithType: ErpSyncFieldValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ErpSyncFieldValue.\n\n"
+  syntax:
+    content: 'public class ErpSyncFieldValue : Carrier'
+    content.vb: >-
+      Public Class ErpSyncFieldValue
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
+    commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSyncFieldValue.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldValue
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncFieldValue()
+  nameWithType: ErpSyncFieldValue.ErpSyncFieldValue()
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.ErpSyncFieldValue()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ErpSyncFieldValue()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldValue.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayName
+  id: DisplayName
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldValue
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ErpSyncFieldValue.DisplayName
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.CrmFieldKey
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldValue.CrmFieldKey
+  id: CrmFieldKey
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldValue
+  langs:
+  - csharp
+  - vb
+  name: CrmFieldKey
+  nameWithType: ErpSyncFieldValue.CrmFieldKey
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.CrmFieldKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe CRM field name, as implemented by the Sync entities\n"
+  syntax:
+    content: public virtual string CrmFieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CrmFieldKey As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldValue.CrmFieldKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.Value
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldValue.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldValue
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ErpSyncFieldValue.Value
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldValue.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayValue
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayValue
+  id: DisplayValue
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldValue
+  langs:
+  - csharp
+  - vb
+  name: DisplayValue
+  nameWithType: ErpSyncFieldValue.DisplayValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string DisplayValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayValue As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToCrm
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToCrm
+  id: SyncToCrm
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldValue
+  langs:
+  - csharp
+  - vb
+  name: SyncToCrm
+  nameWithType: ErpSyncFieldValue.SyncToCrm
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToCrm
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould value changes in ERP be automatically transferred to CRM\n"
+  syntax:
+    content: public virtual bool SyncToCrm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SyncToCrm As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToCrm*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToErp
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToErp
+  id: SyncToErp
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldValue
+  langs:
+  - csharp
+  - vb
+  name: SyncToErp
+  nameWithType: ErpSyncFieldValue.SyncToErp
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToErp
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould value changes in CRM be automatically transferred to ERP\n"
+  syntax:
+    content: public virtual bool SyncToErp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SyncToErp As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToErp*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldValue.#ctor
+  isExternal: true
+  name: ErpSyncFieldValue
+  nameWithType: ErpSyncFieldValue.ErpSyncFieldValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.ErpSyncFieldValue
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: ErpSyncFieldValue.DisplayName
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.CrmFieldKey*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldValue.CrmFieldKey
+  isExternal: true
+  name: CrmFieldKey
+  nameWithType: ErpSyncFieldValue.CrmFieldKey
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.CrmFieldKey
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldValue.Value
+  isExternal: true
+  name: Value
+  nameWithType: ErpSyncFieldValue.Value
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.Value
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayValue*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayValue
+  isExternal: true
+  name: DisplayValue
+  nameWithType: ErpSyncFieldValue.DisplayValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.DisplayValue
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToCrm*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToCrm
+  isExternal: true
+  name: SyncToCrm
+  nameWithType: ErpSyncFieldValue.SyncToCrm
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToCrm
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToErp*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToErp
+  isExternal: true
+  name: SyncToErp
+  nameWithType: ErpSyncFieldValue.SyncToErp
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue.SyncToErp

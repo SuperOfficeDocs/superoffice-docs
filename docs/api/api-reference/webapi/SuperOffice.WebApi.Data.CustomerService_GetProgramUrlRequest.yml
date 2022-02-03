@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest
+  id: CustomerService_GetProgramUrlRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.External
+  - SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.ProgramName
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetProgramUrlRequest
+  nameWithType: CustomerService_GetProgramUrlRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_GetProgramUrlRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_GetProgramUrlRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetProgramUrlRequest()
+  nameWithType: CustomerService_GetProgramUrlRequest.CustomerService_GetProgramUrlRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.CustomerService_GetProgramUrlRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_GetProgramUrlRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.ProgramName
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.ProgramName
+  id: ProgramName
+  parent: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: ProgramName
+  nameWithType: CustomerService_GetProgramUrlRequest.ProgramName
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.ProgramName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProgramName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProgramName As String
+  overload: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.ProgramName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.External
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.External
+  id: External
+  parent: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: External
+  nameWithType: CustomerService_GetProgramUrlRequest.External
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.External
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool External { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property External As Boolean
+  overload: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.External*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.#ctor
+  isExternal: true
+  name: CustomerService_GetProgramUrlRequest
+  nameWithType: CustomerService_GetProgramUrlRequest.CustomerService_GetProgramUrlRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.CustomerService_GetProgramUrlRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.ProgramName*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.ProgramName
+  isExternal: true
+  name: ProgramName
+  nameWithType: CustomerService_GetProgramUrlRequest.ProgramName
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.ProgramName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.External*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.External
+  isExternal: true
+  name: External
+  nameWithType: CustomerService_GetProgramUrlRequest.External
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetProgramUrlRequest.External
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

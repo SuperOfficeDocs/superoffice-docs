@@ -1,0 +1,606 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.ITempFileProvider
+  commentId: T:SuperOffice.CRM.Documents.ITempFileProvider
+  id: ITempFileProvider
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists(System.String)
+  - SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)
+  - SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile(System.String)
+  - SuperOffice.CRM.Documents.ITempFileProvider.GetLength(System.String)
+  - SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+  - SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete(System.String)
+  - SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+  - SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  langs:
+  - csharp
+  - vb
+  name: ITempFileProvider
+  nameWithType: ITempFileProvider
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nInterface defining a plugin that offers services for reading and writing temporary files.\n"
+  remarks: "\nTemporary files are used in several contexts - when transferring documents in chunks into and out of\nNetServer; when uploading a document to be saved through the Document dialog, and when handling mails\nand attachments.\n<p></p>\nThe default implementation supplied with NetServer provides these services using temporary files,\ncontrolled by the Documents section in the config file with respect to path and impersonation. \nAlternative implementations, for instance using database or in-memory storage, are also possible.\nThe term <strong>file</strong> is therefore not to be taken literally - though whatever implementation is\nactually used, the end result should support both sequential and random access, just like files.\n<p></p>\nClasses implementing this interface also need to be marked with\nthe <xref href=\"SuperOffice.CRM.Documents.TempFileProviderAttribute\" data-throw-if-not-resolved=\"false\"></xref> attribute.\n"
+  syntax:
+    content: 'public interface ITempFileProvider : IPlugin'
+    content.vb: >-
+      Public Interface ITempFileProvider
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.CRM.Documents.ITempFileProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Documents.ITempFileProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)
+  id: CreateFile(System.String)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: CreateFile(String)
+  nameWithType: ITempFileProvider.CreateFile(String)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCreate a temporary &apos;file&apos;\n"
+  syntax:
+    content: string CreateFile(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: >-
+        Name to be used for later access. The actual key used by the implementation should also take
+
+        into account the associate ID, since multiple concurrent users may use the same name, and that does <strong>not</strong> mean
+
+        file sharing between users.
+    return:
+      type: System.String
+    content.vb: Function CreateFile(name As String) As String
+  overload: SuperOffice.CRM.Documents.ITempFileProvider.CreateFile*
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists(System.String)
+  id: CheckIfFileExists(System.String)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: CheckIfFileExists(String)
+  nameWithType: ITempFileProvider.CheckIfFileExists(String)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCheck if a named temporary file/storage area exists\n"
+  syntax:
+    content: bool CheckIfFileExists(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: File name to check
+    return:
+      type: System.Boolean
+      description: True if such a file exists
+    content.vb: Function CheckIfFileExists(name As String) As Boolean
+  overload: SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists*
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete(System.String)
+  id: ReadFileComplete(System.String)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: ReadFileComplete(String)
+  nameWithType: ITempFileProvider.ReadFileComplete(String)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nMake the complete content of the file available as a stream (sequential read)\n"
+  syntax:
+    content: Stream ReadFileComplete(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: >-
+        Name identifying the file. See comments in the <xref href="SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)" data-throw-if-not-resolved="false"></xref>
+
+        method for more information on how file names are handled.
+    return:
+      type: System.IO.Stream
+      description: Stream representing the entire current contents of the file
+    content.vb: Function ReadFileComplete(name As String) As Stream
+  overload: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete*
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+  id: ReadFileChunk(System.String,System.Int64,System.Byte[])
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: ReadFileChunk(String, Int64, Byte[])
+  nameWithType: ITempFileProvider.ReadFileChunk(String, Int64, Byte[])
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nRead a chunk of data from the file (random access read)\n"
+  syntax:
+    content: int ReadFileChunk(string name, long filePosition, byte[] bufferToUpdate)
+    parameters:
+    - id: name
+      type: System.String
+      description: >-
+        Name identifying the file. See comments in the <xref href="SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)" data-throw-if-not-resolved="false"></xref>
+
+        method for more information on how file names are handled.
+    - id: filePosition
+      type: System.Int64
+      description: Position in bytes, starting at 0, to start reading from
+    - id: bufferToUpdate
+      type: System.Byte[]
+      description: >-
+        Data buffer to update. The length of this buffer is the maximum
+
+        number of bytes that will be read
+    return:
+      type: System.Int32
+      description: Actual number of bytes read. If less than the length of the buffer, end-of-file is indicated
+    content.vb: Function ReadFileChunk(name As String, filePosition As Long, bufferToUpdate As Byte()) As Integer
+  overload: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk*
+  nameWithType.vb: ITempFileProvider.ReadFileChunk(String, Int64, Byte())
+  fullName.vb: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte())
+  name.vb: ReadFileChunk(String, Int64, Byte())
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  id: WriteFileComplete(System.String,System.IO.Stream)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: WriteFileComplete(String, Stream)
+  nameWithType: ITempFileProvider.WriteFileComplete(String, Stream)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete(System.String, System.IO.Stream)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\n(Over)write - not append - the complete content of the file (sequential write). Any previous content is lost\n"
+  syntax:
+    content: void WriteFileComplete(string name, Stream data)
+    parameters:
+    - id: name
+      type: System.String
+      description: >-
+        Name identifying the file. See comments in the <xref href="SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)" data-throw-if-not-resolved="false"></xref>
+
+        method for more information on how file names are handled.
+    - id: data
+      type: System.IO.Stream
+      description: Stream to read data from
+    content.vb: Sub WriteFileComplete(name As String, data As Stream)
+  overload: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete*
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+  id: WriteFileChunk(System.String,System.Int64,System.Byte[])
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: WriteFileChunk(String, Int64, Byte[])
+  nameWithType: ITempFileProvider.WriteFileChunk(String, Int64, Byte[])
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nWrite a chunk of data to the file (random access write)\n"
+  syntax:
+    content: void WriteFileChunk(string name, long filePosition, byte[] bufferToWriteFrom)
+    parameters:
+    - id: name
+      type: System.String
+      description: >-
+        Name identifying the file. See comments in the <xref href="SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)" data-throw-if-not-resolved="false"></xref>
+
+        method for more information on how file names are handled.
+    - id: filePosition
+      type: System.Int64
+      description: Position in bytes, starting at 0, that will be written to
+    - id: bufferToWriteFrom
+      type: System.Byte[]
+      description: Buffer to write; buffer length determines the size of the write operation
+    content.vb: Sub WriteFileChunk(name As String, filePosition As Long, bufferToWriteFrom As Byte())
+  overload: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk*
+  nameWithType.vb: ITempFileProvider.WriteFileChunk(String, Int64, Byte())
+  fullName.vb: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte())
+  name.vb: WriteFileChunk(String, Int64, Byte())
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile(System.String)
+  id: DeleteFile(System.String)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: DeleteFile(String)
+  nameWithType: ITempFileProvider.DeleteFile(String)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDelete a temporary file\n"
+  syntax:
+    content: void DeleteFile(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: >-
+        Name identifying the file. See comments in the <xref href="SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)" data-throw-if-not-resolved="false"></xref>
+
+        method for more information on how file names are handled.
+    content.vb: Sub DeleteFile(name As String)
+  overload: SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile*
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.GetLength(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.GetLength(System.String)
+  id: GetLength(System.String)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: GetLength(String)
+  nameWithType: ITempFileProvider.GetLength(String)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.GetLength(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the current length in bytes of a temporary file\n"
+  syntax:
+    content: long GetLength(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: >-
+        Name identifying the file. See comments in the <xref href="SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)" data-throw-if-not-resolved="false"></xref>
+
+        method for more information on how file names are handled.
+    return:
+      type: System.Int64
+      description: Length of file in bytes; -1 if file does not exist
+    content.vb: Function GetLength(name As String) As Long
+  overload: SuperOffice.CRM.Documents.ITempFileProvider.GetLength*
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ITempFileProvider, To>()
+  nameWithType: EnumUtil.MapEnums<ITempFileProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.ITempFileProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ITempFileProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.ITempFileProvider, To)()
+  name.vb: MapEnums(Of ITempFileProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ITempFileProvider, To>
+    nameWithType: EnumUtil.MapEnums<ITempFileProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.ITempFileProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ITempFileProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of ITempFileProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.ITempFileProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ITempFileProvider, To>()
+  nameWithType: Converters.MapEnums<ITempFileProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.ITempFileProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of ITempFileProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.ITempFileProvider, To)()
+  name.vb: MapEnums(Of ITempFileProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ITempFileProvider, To>
+    nameWithType: Converters.MapEnums<ITempFileProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.ITempFileProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ITempFileProvider, To)
+    nameWithType: Converters.MapEnums(Of ITempFileProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.ITempFileProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.CreateFile*
+  commentId: Overload:SuperOffice.CRM.Documents.ITempFileProvider.CreateFile
+  isExternal: true
+  name: CreateFile
+  nameWithType: ITempFileProvider.CreateFile
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.CreateFile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists*
+  commentId: Overload:SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists
+  isExternal: true
+  name: CheckIfFileExists
+  nameWithType: ITempFileProvider.CheckIfFileExists
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete*
+  commentId: Overload:SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete
+  isExternal: true
+  name: ReadFileComplete
+  nameWithType: ITempFileProvider.ReadFileComplete
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk*
+  commentId: Overload:SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk
+  isExternal: true
+  name: ReadFileChunk
+  nameWithType: ITempFileProvider.ReadFileChunk
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete*
+  commentId: Overload:SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete
+  isExternal: true
+  name: WriteFileComplete
+  nameWithType: ITempFileProvider.WriteFileComplete
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk*
+  commentId: Overload:SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk
+  isExternal: true
+  name: WriteFileChunk
+  nameWithType: ITempFileProvider.WriteFileChunk
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile*
+  commentId: Overload:SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile
+  isExternal: true
+  name: DeleteFile
+  nameWithType: ITempFileProvider.DeleteFile
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.GetLength*
+  commentId: Overload:SuperOffice.CRM.Documents.ITempFileProvider.GetLength
+  isExternal: true
+  name: GetLength
+  nameWithType: ITempFileProvider.GetLength
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.GetLength

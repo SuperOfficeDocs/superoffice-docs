@@ -1,0 +1,89 @@
+<script>
+  _proj = {};
+
+  function onGetId(f) {
+    var urlbase = document.getElementById("url").value;
+
+    var user = document.getElementById("user").value;
+    var pass = document.getElementById("pass").value;
+
+    var project = document.getElementById('projectid');
+    var projectid = project.value;
+    var url = urlbase + "/project/" + projectid;
+
+    var req = new XMLHttpRequest();
+    req.responseType = "json";
+    req.open("GET", url, true);
+    req.withCredentials = true;
+    req.setRequestHeader("Authorization", "Basic " + btoa(user + ":" + pass))
+    req.onload = function () { onGetProject(req.response); };
+    req.onerror = function () { alert("Request Error - check Console for details."); };
+    req.send();
+
+    // Don't submit form
+    return false;
+  }
+
+  function onGetProject(proj) {
+    _proj = proj;
+
+    var n = document.getElementById('project_name');
+    var ti = document.getElementById('project_typeid');
+    var tn = document.getElementById('project_typename');
+
+    n.value = proj.Name;
+    ti.value = proj.ProjectType.Id;
+    tn.value = proj.ProjectType.Value;
+
+    n.style.fontWeight = "normal";
+    ti.style.fontWeight = "normal";
+    tn.style.fontWeight = "normal";
+  }
+
+  function SaveProject() {
+    var n = document.getElementById('project_name');
+    var ti = document.getElementById('project_typeid');
+    var tn = document.getElementById('project_typename');
+
+    _proj.Name = n.value;
+    _proj.ProjectType.Id = ti.value;
+    _proj.ProjectType.Name = tn.value;
+
+    var urlbase = document.getElementById("url").value;
+    var user = document.getElementById("user").value;
+    var pass = document.getElementById("pass").value;
+
+    var project = document.getElementById('projectid');
+    var projectid = project.value;
+    var url = urlbase + "/project/" + projectid;
+
+    var req = new XMLHttpRequest();
+    req.responseType = "json";
+    req.open("PUT", url, true);
+    req.withCredentials = true;
+    req.setRequestHeader("Authorization", "Basic " + btoa(user + ":" + pass));
+    req.setRequestHeader("Content-Type", 'application/json');
+    req.onload = function () { onSaveProject(req.response); };
+    req.onerror = function () { alert("Request Error - check Console for details."); };
+    req.send(JSON.stringify(_proj));
+
+    return false;
+  }
+
+  function onSaveProject(proj) {
+    _proj = proj;
+
+    var n = document.getElementById('project_name');
+    var ti = document.getElementById('project_typeid');
+    var tn = document.getElementById('project_typename');
+
+    n.value = proj.Name;
+    ti.value = proj.ProjectType.Id;
+    tn.value = proj.ProjectType.Value;
+
+    n.style.fontWeight = "bold";
+    ti.style.fontWeight = "bold";
+    tn.style.fontWeight = "bold";
+  }
+
+</script>

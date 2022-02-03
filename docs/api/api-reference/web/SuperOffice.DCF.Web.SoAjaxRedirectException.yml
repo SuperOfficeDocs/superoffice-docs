@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.SoAjaxRedirectException
+  commentId: T:SuperOffice.DCF.Web.SoAjaxRedirectException
+  id: SoAjaxRedirectException
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.SoAjaxRedirectException.#ctor(System.Exception)
+  - SuperOffice.DCF.Web.SoAjaxRedirectException.#ctor(System.String,System.Exception)
+  - SuperOffice.DCF.Web.SoAjaxRedirectException.Message
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxRedirectException
+  nameWithType: SoAjaxRedirectException
+  fullName: SuperOffice.DCF.Web.SoAjaxRedirectException
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: 'public class SoAjaxRedirectException : SoAjaxException'
+    content.vb: >-
+      Public Class SoAjaxRedirectException
+          Inherits SoAjaxException
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.SoAjaxException
+  inheritedMembers:
+  - SuperOffice.DCF.Web.SoAjaxException.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.SoAjaxRedirectException.#ctor(System.Exception)
+  commentId: M:SuperOffice.DCF.Web.SoAjaxRedirectException.#ctor(System.Exception)
+  id: '#ctor(System.Exception)'
+  parent: SuperOffice.DCF.Web.SoAjaxRedirectException
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxRedirectException(Exception)
+  nameWithType: SoAjaxRedirectException.SoAjaxRedirectException(Exception)
+  fullName: SuperOffice.DCF.Web.SoAjaxRedirectException.SoAjaxRedirectException(System.Exception)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public SoAjaxRedirectException(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+    content.vb: Public Sub New(ex As Exception)
+  overload: SuperOffice.DCF.Web.SoAjaxRedirectException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.SoAjaxRedirectException.#ctor(System.String,System.Exception)
+  commentId: M:SuperOffice.DCF.Web.SoAjaxRedirectException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: SuperOffice.DCF.Web.SoAjaxRedirectException
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxRedirectException(String, Exception)
+  nameWithType: SoAjaxRedirectException.SoAjaxRedirectException(String, Exception)
+  fullName: SuperOffice.DCF.Web.SoAjaxRedirectException.SoAjaxRedirectException(System.String, System.Exception)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public SoAjaxRedirectException(string redirectUrl, Exception ex)
+    parameters:
+    - id: redirectUrl
+      type: System.String
+    - id: ex
+      type: System.Exception
+    content.vb: Public Sub New(redirectUrl As String, ex As Exception)
+  overload: SuperOffice.DCF.Web.SoAjaxRedirectException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.SoAjaxRedirectException.Message
+  commentId: P:SuperOffice.DCF.Web.SoAjaxRedirectException.Message
+  id: Message
+  parent: SuperOffice.DCF.Web.SoAjaxRedirectException
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: SoAjaxRedirectException.Message
+  fullName: SuperOffice.DCF.Web.SoAjaxRedirectException.Message
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public override string Message { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Message As String
+  overridden: SuperOffice.DCF.Web.SoAjaxException.Message
+  overload: SuperOffice.DCF.Web.SoAjaxRedirectException.Message*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.SoAjaxException
+  commentId: T:SuperOffice.DCF.Web.SoAjaxException
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: SoAjaxException
+  nameWithType: SoAjaxException
+  fullName: SuperOffice.DCF.Web.SoAjaxException
+- uid: SuperOffice.DCF.Web.SoAjaxException.ToString
+  commentId: M:SuperOffice.DCF.Web.SoAjaxException.ToString
+  parent: SuperOffice.DCF.Web.SoAjaxException
+  isExternal: true
+  name: ToString()
+  nameWithType: SoAjaxException.ToString()
+  fullName: SuperOffice.DCF.Web.SoAjaxException.ToString()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.SoAjaxException.ToString
+    name: ToString
+    nameWithType: SoAjaxException.ToString
+    fullName: SuperOffice.DCF.Web.SoAjaxException.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.SoAjaxException.ToString
+    name: ToString
+    nameWithType: SoAjaxException.ToString
+    fullName: SuperOffice.DCF.Web.SoAjaxException.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.SoAjaxRedirectException.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.SoAjaxRedirectException.#ctor
+  isExternal: true
+  name: SoAjaxRedirectException
+  nameWithType: SoAjaxRedirectException.SoAjaxRedirectException
+  fullName: SuperOffice.DCF.Web.SoAjaxRedirectException.SoAjaxRedirectException
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.SoAjaxException.Message
+  commentId: P:SuperOffice.DCF.Web.SoAjaxException.Message
+  parent: SuperOffice.DCF.Web.SoAjaxException
+  isExternal: true
+  name: Message
+  nameWithType: SoAjaxException.Message
+  fullName: SuperOffice.DCF.Web.SoAjaxException.Message
+- uid: SuperOffice.DCF.Web.SoAjaxRedirectException.Message*
+  commentId: Overload:SuperOffice.DCF.Web.SoAjaxRedirectException.Message
+  isExternal: true
+  name: Message
+  nameWithType: SoAjaxRedirectException.Message
+  fullName: SuperOffice.DCF.Web.SoAjaxRedirectException.Message

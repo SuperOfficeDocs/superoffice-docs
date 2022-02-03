@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest
+  id: Document_GetSaleDocumentsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.SaleId
+  langs:
+  - csharp
+  - vb
+  name: Document_GetSaleDocumentsRequest
+  nameWithType: Document_GetSaleDocumentsRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_GetSaleDocumentsRequest : Object'
+    content.vb: >-
+      Public Class Document_GetSaleDocumentsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_GetSaleDocumentsRequest()
+  nameWithType: Document_GetSaleDocumentsRequest.Document_GetSaleDocumentsRequest()
+  fullName: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.Document_GetSaleDocumentsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_GetSaleDocumentsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Document_GetSaleDocumentsRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.#ctor
+  isExternal: true
+  name: Document_GetSaleDocumentsRequest
+  nameWithType: Document_GetSaleDocumentsRequest.Document_GetSaleDocumentsRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.Document_GetSaleDocumentsRequest
+- uid: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Document_GetSaleDocumentsRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Document_GetSaleDocumentsRequest.SaleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

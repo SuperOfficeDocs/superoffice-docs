@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetHeadingsRequest
+  id: List_GetHeadingsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetHeadingsRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetHeadingsRequest.ListItemId
+  - SuperOffice.WebApi.Data.List_GetHeadingsRequest.ShowDeleted
+  - SuperOffice.WebApi.Data.List_GetHeadingsRequest.UdListDefinitionId
+  langs:
+  - csharp
+  - vb
+  name: List_GetHeadingsRequest
+  nameWithType: List_GetHeadingsRequest
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetHeadingsRequest : Object'
+    content.vb: >-
+      Public Class List_GetHeadingsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetHeadingsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetHeadingsRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetHeadingsRequest()
+  nameWithType: List_GetHeadingsRequest.List_GetHeadingsRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsRequest.List_GetHeadingsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetHeadingsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetHeadingsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsRequest.UdListDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.List_GetHeadingsRequest.UdListDefinitionId
+  id: UdListDefinitionId
+  parent: SuperOffice.WebApi.Data.List_GetHeadingsRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionId
+  nameWithType: List_GetHeadingsRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsRequest.UdListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UdListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UdListDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.List_GetHeadingsRequest.UdListDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsRequest.ListItemId
+  commentId: P:SuperOffice.WebApi.Data.List_GetHeadingsRequest.ListItemId
+  id: ListItemId
+  parent: SuperOffice.WebApi.Data.List_GetHeadingsRequest
+  langs:
+  - csharp
+  - vb
+  name: ListItemId
+  nameWithType: List_GetHeadingsRequest.ListItemId
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsRequest.ListItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ListItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ListItemId As Integer
+  overload: SuperOffice.WebApi.Data.List_GetHeadingsRequest.ListItemId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsRequest.ShowDeleted
+  commentId: P:SuperOffice.WebApi.Data.List_GetHeadingsRequest.ShowDeleted
+  id: ShowDeleted
+  parent: SuperOffice.WebApi.Data.List_GetHeadingsRequest
+  langs:
+  - csharp
+  - vb
+  name: ShowDeleted
+  nameWithType: List_GetHeadingsRequest.ShowDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsRequest.ShowDeleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool ShowDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowDeleted As Boolean
+  overload: SuperOffice.WebApi.Data.List_GetHeadingsRequest.ShowDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetHeadingsRequest.#ctor
+  isExternal: true
+  name: List_GetHeadingsRequest
+  nameWithType: List_GetHeadingsRequest.List_GetHeadingsRequest
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsRequest.List_GetHeadingsRequest
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsRequest.UdListDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetHeadingsRequest.UdListDefinitionId
+  isExternal: true
+  name: UdListDefinitionId
+  nameWithType: List_GetHeadingsRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsRequest.UdListDefinitionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsRequest.ListItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetHeadingsRequest.ListItemId
+  isExternal: true
+  name: ListItemId
+  nameWithType: List_GetHeadingsRequest.ListItemId
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsRequest.ListItemId
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsRequest.ShowDeleted*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetHeadingsRequest.ShowDeleted
+  isExternal: true
+  name: ShowDeleted
+  nameWithType: List_GetHeadingsRequest.ShowDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsRequest.ShowDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

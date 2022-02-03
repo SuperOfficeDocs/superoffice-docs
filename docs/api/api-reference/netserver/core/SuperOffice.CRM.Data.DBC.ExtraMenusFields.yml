@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  id: DBC.ExtraMenusFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.BaseProgram
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraInfo
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraMenusId
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraTable
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.Flags
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.GroupId
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.IconUrl
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.Label
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.OrderPos
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.Screen
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.Target
+  - SuperOffice.CRM.Data.DBC.ExtraMenusFields.Url
+  langs:
+  - csharp
+  - vb
+  name: DBC.ExtraMenusFields
+  nameWithType: DBC.ExtraMenusFields
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ExtraMenus, This table contains entries for the extra menus in the system.\n"
+  syntax:
+    content: public static class ExtraMenusFields
+    content.vb: Public Module ExtraMenusFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraMenusId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraMenusId
+  id: ExtraMenusId
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraMenusId
+  nameWithType: DBC.ExtraMenusFields.ExtraMenusId
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraMenusId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.ExtraMenusId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string ExtraMenusId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraMenusId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.Screen
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.Screen
+  id: Screen
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: Screen
+  nameWithType: DBC.ExtraMenusFields.Screen
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.Screen
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.Screen: Enum indicating for what screen this is an extra menu (listTicket, listCustomer, main, etc).\n"
+  syntax:
+    content: public const string Screen = "screen"
+    return:
+      type: System.String
+    content.vb: Public Const Screen As String = "screen"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.Label
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.Label
+  id: Label
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: DBC.ExtraMenusFields.Label
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.Label
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.Label: The label for this menu.\n"
+  syntax:
+    content: public const string Label = "label"
+    return:
+      type: System.String
+    content.vb: Public Const Label As String = "label"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.Url
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.Url
+  id: Url
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: DBC.ExtraMenusFields.Url
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.Url
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.Url: The url for this menu.\n"
+  syntax:
+    content: public const string Url = "url"
+    return:
+      type: System.String
+    content.vb: Public Const Url As String = "url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.Target
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.Target
+  id: Target
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: DBC.ExtraMenusFields.Target
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.Target
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.Target: The target for this url.\n"
+  syntax:
+    content: public const string Target = "target"
+    return:
+      type: System.String
+    content.vb: Public Const Target As String = "target"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.IconUrl
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.IconUrl
+  id: IconUrl
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: IconUrl
+  nameWithType: DBC.ExtraMenusFields.IconUrl
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.IconUrl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.IconUrl: The icon url for this menu.\n"
+  syntax:
+    content: public const string IconUrl = "icon_url"
+    return:
+      type: System.String
+    content.vb: Public Const IconUrl As String = "icon_url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: DBC.ExtraMenusFields.ExtraInfo
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.ExtraInfo: Field used for various extra information depending on menu type\n"
+  syntax:
+    content: public const string ExtraInfo = "extra_info"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraInfo As String = "extra_info"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.OrderPos
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.OrderPos
+  id: OrderPos
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: OrderPos
+  nameWithType: DBC.ExtraMenusFields.OrderPos
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.OrderPos
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.OrderPos: Used to order elements when listed.\n"
+  syntax:
+    content: public const string OrderPos = "order_pos"
+    return:
+      type: System.String
+    content.vb: Public Const OrderPos As String = "order_pos"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.Flags
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: DBC.ExtraMenusFields.Flags
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.Flags: Flags\n"
+  syntax:
+    content: public const string Flags = "flags"
+    return:
+      type: System.String
+    content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.BaseProgram
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.BaseProgram
+  id: BaseProgram
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: BaseProgram
+  nameWithType: DBC.ExtraMenusFields.BaseProgram
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.BaseProgram
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.BaseProgram: Base program used in url (ticket, rms, ...)\n"
+  syntax:
+    content: public const string BaseProgram = "base_program"
+    return:
+      type: System.String
+    content.vb: Public Const BaseProgram As String = "base_program"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraTable
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraTable
+  id: ExtraTable
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraTable
+  nameWithType: DBC.ExtraMenusFields.ExtraTable
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.ExtraTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.ExtraTable: ExtraTable that the menu is connected to\n"
+  syntax:
+    content: public const string ExtraTable = "extra_table"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraTable As String = "extra_table"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraMenusFields.GroupId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraMenusFields.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Data.DBC.ExtraMenusFields
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: DBC.ExtraMenusFields.GroupId
+  fullName: SuperOffice.CRM.Data.DBC.ExtraMenusFields.GroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraMenus.GroupId: Link to extra_menus table if this menu item is to be shown in a custom menu group\n"
+  syntax:
+    content: public const string GroupId = "group_id"
+    return:
+      type: System.String
+    content.vb: Public Const GroupId As String = "group_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

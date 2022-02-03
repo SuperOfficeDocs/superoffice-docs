@@ -1,0 +1,734 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.S.Math
+  commentId: T:SuperOffice.Data.S.Math
+  id: S.Math
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.S.Math.NewAdd(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.Math.NewAdd(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.S.Math.NewDivide(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.Math.NewDivide(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.S.Math.NewMultiply(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.Math.NewMultiply(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument[])
+  langs:
+  - csharp
+  - vb
+  name: S.Math
+  nameWithType: S.Math
+  fullName: SuperOffice.Data.S.Math
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static class Math
+    content.vb: Public Module Math
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.S.Math.NewAdd(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.Math.NewAdd(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  id: NewAdd(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.Math
+  langs:
+  - csharp
+  - vb
+  name: NewAdd(Argument, Argument)
+  nameWithType: S.Math.NewAdd(Argument, Argument)
+  fullName: SuperOffice.Data.S.Math.NewAdd(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAdd\n"
+  syntax:
+    content: public static Add NewAdd(Argument left, Argument right)
+    parameters:
+    - id: left
+      type: SuperOffice.Data.SQL.Argument
+      description: The left-hand-side argument.
+    - id: right
+      type: SuperOffice.Data.SQL.Argument
+      description: The right-hand-side argument.
+    return:
+      type: SuperOffice.Data.SQL.Add
+    content.vb: Public Shared Function NewAdd(left As Argument, right As Argument) As Add
+  overload: SuperOffice.Data.S.Math.NewAdd*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Math.NewAdd(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.S.Math.NewAdd(SuperOffice.Data.SQL.Argument[])
+  id: NewAdd(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.S.Math
+  langs:
+  - csharp
+  - vb
+  name: NewAdd(Argument[])
+  nameWithType: S.Math.NewAdd(Argument[])
+  fullName: SuperOffice.Data.S.Math.NewAdd(SuperOffice.Data.SQL.Argument[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAdd. Takes an array of Arguments as parameter.\n"
+  syntax:
+    content: public static Add NewAdd(params Argument[] arguments)
+    parameters:
+    - id: arguments
+      type: SuperOffice.Data.SQL.Argument[]
+      description: The array of arguments.
+    return:
+      type: SuperOffice.Data.SQL.Add
+    content.vb: Public Shared Function NewAdd(ParamArray arguments As Argument()) As Add
+  overload: SuperOffice.Data.S.Math.NewAdd*
+  nameWithType.vb: S.Math.NewAdd(Argument())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.Math.NewAdd(SuperOffice.Data.SQL.Argument())
+  name.vb: NewAdd(Argument())
+- uid: SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  id: NewSubtract(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.Math
+  langs:
+  - csharp
+  - vb
+  name: NewSubtract(Argument, Argument)
+  nameWithType: S.Math.NewSubtract(Argument, Argument)
+  fullName: SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSubtract\n"
+  syntax:
+    content: public static Subtract NewSubtract(Argument left, Argument right)
+    parameters:
+    - id: left
+      type: SuperOffice.Data.SQL.Argument
+      description: The left-hand-side argument.
+    - id: right
+      type: SuperOffice.Data.SQL.Argument
+      description: The right-hand-side argument.
+    return:
+      type: SuperOffice.Data.SQL.Subtract
+    content.vb: Public Shared Function NewSubtract(left As Argument, right As Argument) As Subtract
+  overload: SuperOffice.Data.S.Math.NewSubtract*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument[])
+  id: NewSubtract(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.S.Math
+  langs:
+  - csharp
+  - vb
+  name: NewSubtract(Argument[])
+  nameWithType: S.Math.NewSubtract(Argument[])
+  fullName: SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSubtract. Takes an array of Arguments as parameter.\n"
+  syntax:
+    content: public static Subtract NewSubtract(params Argument[] arguments)
+    parameters:
+    - id: arguments
+      type: SuperOffice.Data.SQL.Argument[]
+      description: The array of arguments.
+    return:
+      type: SuperOffice.Data.SQL.Subtract
+    content.vb: Public Shared Function NewSubtract(ParamArray arguments As Argument()) As Subtract
+  overload: SuperOffice.Data.S.Math.NewSubtract*
+  nameWithType.vb: S.Math.NewSubtract(Argument())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument())
+  name.vb: NewSubtract(Argument())
+- uid: SuperOffice.Data.S.Math.NewMultiply(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.Math.NewMultiply(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  id: NewMultiply(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.Math
+  langs:
+  - csharp
+  - vb
+  name: NewMultiply(Argument, Argument)
+  nameWithType: S.Math.NewMultiply(Argument, Argument)
+  fullName: SuperOffice.Data.S.Math.NewMultiply(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nMultiply\n"
+  syntax:
+    content: public static Multiply NewMultiply(Argument left, Argument right)
+    parameters:
+    - id: left
+      type: SuperOffice.Data.SQL.Argument
+      description: The left-hand-side argument.
+    - id: right
+      type: SuperOffice.Data.SQL.Argument
+      description: The right-hand-side argument.
+    return:
+      type: SuperOffice.Data.SQL.Multiply
+    content.vb: Public Shared Function NewMultiply(left As Argument, right As Argument) As Multiply
+  overload: SuperOffice.Data.S.Math.NewMultiply*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Math.NewMultiply(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.S.Math.NewMultiply(SuperOffice.Data.SQL.Argument[])
+  id: NewMultiply(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.S.Math
+  langs:
+  - csharp
+  - vb
+  name: NewMultiply(Argument[])
+  nameWithType: S.Math.NewMultiply(Argument[])
+  fullName: SuperOffice.Data.S.Math.NewMultiply(SuperOffice.Data.SQL.Argument[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nMultiply. Takes an array of Arguments as parameter.\n"
+  syntax:
+    content: public static Multiply NewMultiply(params Argument[] arguments)
+    parameters:
+    - id: arguments
+      type: SuperOffice.Data.SQL.Argument[]
+      description: The array of arguments.
+    return:
+      type: SuperOffice.Data.SQL.Multiply
+    content.vb: Public Shared Function NewMultiply(ParamArray arguments As Argument()) As Multiply
+  overload: SuperOffice.Data.S.Math.NewMultiply*
+  nameWithType.vb: S.Math.NewMultiply(Argument())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.Math.NewMultiply(SuperOffice.Data.SQL.Argument())
+  name.vb: NewMultiply(Argument())
+- uid: SuperOffice.Data.S.Math.NewDivide(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.Math.NewDivide(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  id: NewDivide(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.Math
+  langs:
+  - csharp
+  - vb
+  name: NewDivide(Argument, Argument)
+  nameWithType: S.Math.NewDivide(Argument, Argument)
+  fullName: SuperOffice.Data.S.Math.NewDivide(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nDivide.\n"
+  syntax:
+    content: public static Divide NewDivide(Argument left, Argument right)
+    parameters:
+    - id: left
+      type: SuperOffice.Data.SQL.Argument
+      description: The left-hand-side argument.
+    - id: right
+      type: SuperOffice.Data.SQL.Argument
+      description: The right-hand-side argument.
+    return:
+      type: SuperOffice.Data.SQL.Divide
+    content.vb: Public Shared Function NewDivide(left As Argument, right As Argument) As Divide
+  overload: SuperOffice.Data.S.Math.NewDivide*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Math.NewDivide(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.S.Math.NewDivide(SuperOffice.Data.SQL.Argument[])
+  id: NewDivide(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.S.Math
+  langs:
+  - csharp
+  - vb
+  name: NewDivide(Argument[])
+  nameWithType: S.Math.NewDivide(Argument[])
+  fullName: SuperOffice.Data.S.Math.NewDivide(SuperOffice.Data.SQL.Argument[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nDivide. Takes an array of Arguments as parameter.\n"
+  syntax:
+    content: public static Divide NewDivide(params Argument[] arguments)
+    parameters:
+    - id: arguments
+      type: SuperOffice.Data.SQL.Argument[]
+      description: The array of arguments.
+    return:
+      type: SuperOffice.Data.SQL.Divide
+    content.vb: Public Shared Function NewDivide(ParamArray arguments As Argument()) As Divide
+  overload: SuperOffice.Data.S.Math.NewDivide*
+  nameWithType.vb: S.Math.NewDivide(Argument())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.Math.NewDivide(SuperOffice.Data.SQL.Argument())
+  name.vb: NewDivide(Argument())
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.S.Math.NewAdd*
+  commentId: Overload:SuperOffice.Data.S.Math.NewAdd
+  isExternal: true
+  name: NewAdd
+  nameWithType: S.Math.NewAdd
+  fullName: SuperOffice.Data.S.Math.NewAdd
+- uid: SuperOffice.Data.SQL.Argument
+  commentId: T:SuperOffice.Data.SQL.Argument
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Argument
+  nameWithType: Argument
+  fullName: SuperOffice.Data.SQL.Argument
+- uid: SuperOffice.Data.SQL.Add
+  commentId: T:SuperOffice.Data.SQL.Add
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Add
+  nameWithType: Add
+  fullName: SuperOffice.Data.SQL.Add
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.SQL.Argument[]
+  isExternal: true
+  name: Argument[]
+  nameWithType: Argument[]
+  fullName: SuperOffice.Data.SQL.Argument[]
+  nameWithType.vb: Argument()
+  fullName.vb: SuperOffice.Data.SQL.Argument()
+  name.vb: Argument()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.S.Math.NewSubtract*
+  commentId: Overload:SuperOffice.Data.S.Math.NewSubtract
+  isExternal: true
+  name: NewSubtract
+  nameWithType: S.Math.NewSubtract
+  fullName: SuperOffice.Data.S.Math.NewSubtract
+- uid: SuperOffice.Data.SQL.Subtract
+  commentId: T:SuperOffice.Data.SQL.Subtract
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Subtract
+  nameWithType: Subtract
+  fullName: SuperOffice.Data.SQL.Subtract
+- uid: SuperOffice.Data.S.Math.NewMultiply*
+  commentId: Overload:SuperOffice.Data.S.Math.NewMultiply
+  isExternal: true
+  name: NewMultiply
+  nameWithType: S.Math.NewMultiply
+  fullName: SuperOffice.Data.S.Math.NewMultiply
+- uid: SuperOffice.Data.SQL.Multiply
+  commentId: T:SuperOffice.Data.SQL.Multiply
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Multiply
+  nameWithType: Multiply
+  fullName: SuperOffice.Data.SQL.Multiply
+- uid: SuperOffice.Data.S.Math.NewDivide*
+  commentId: Overload:SuperOffice.Data.S.Math.NewDivide
+  isExternal: true
+  name: NewDivide
+  nameWithType: S.Math.NewDivide
+  fullName: SuperOffice.Data.S.Math.NewDivide
+- uid: SuperOffice.Data.SQL.Divide
+  commentId: T:SuperOffice.Data.SQL.Divide
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Divide
+  nameWithType: Divide
+  fullName: SuperOffice.Data.SQL.Divide

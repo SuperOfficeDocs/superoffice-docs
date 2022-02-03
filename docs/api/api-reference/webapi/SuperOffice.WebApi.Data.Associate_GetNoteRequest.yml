@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Associate_GetNoteRequest
+  commentId: T:SuperOffice.WebApi.Data.Associate_GetNoteRequest
+  id: Associate_GetNoteRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Associate_GetNoteRequest.#ctor
+  - SuperOffice.WebApi.Data.Associate_GetNoteRequest.AssociateId
+  langs:
+  - csharp
+  - vb
+  name: Associate_GetNoteRequest
+  nameWithType: Associate_GetNoteRequest
+  fullName: SuperOffice.WebApi.Data.Associate_GetNoteRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Associate_GetNoteRequest : Object'
+    content.vb: >-
+      Public Class Associate_GetNoteRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Associate_GetNoteRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Associate_GetNoteRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Associate_GetNoteRequest
+  langs:
+  - csharp
+  - vb
+  name: Associate_GetNoteRequest()
+  nameWithType: Associate_GetNoteRequest.Associate_GetNoteRequest()
+  fullName: SuperOffice.WebApi.Data.Associate_GetNoteRequest.Associate_GetNoteRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Associate_GetNoteRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Associate_GetNoteRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Associate_GetNoteRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Associate_GetNoteRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Associate_GetNoteRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Associate_GetNoteRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Associate_GetNoteRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Associate_GetNoteRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Associate_GetNoteRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate_GetNoteRequest.#ctor
+  isExternal: true
+  name: Associate_GetNoteRequest
+  nameWithType: Associate_GetNoteRequest.Associate_GetNoteRequest
+  fullName: SuperOffice.WebApi.Data.Associate_GetNoteRequest.Associate_GetNoteRequest
+- uid: SuperOffice.WebApi.Data.Associate_GetNoteRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate_GetNoteRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Associate_GetNoteRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Associate_GetNoteRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

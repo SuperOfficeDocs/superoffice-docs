@@ -1,0 +1,3931 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  commentId: T:SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  id: UDSaleSmallRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.#ctor
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double01
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double02
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double03
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double04
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double05
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double06
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double07
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double08
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double09
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double10
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long01
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long02
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long03
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long04
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long05
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long06
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long07
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long08
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long09
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long10
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long11
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long12
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long13
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long14
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long15
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long16
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long17
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long18
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long19
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long20
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long21
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long22
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long23
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long24
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long25
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long26
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long27
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long28
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long29
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long30
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long31
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long32
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long33
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long34
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long35
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long36
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long37
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long38
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long39
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long40
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long41
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long42
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long43
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long44
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long45
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long46
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long47
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long48
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long49
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long50
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long51
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long52
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long53
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long54
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long55
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long56
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long57
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long58
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long59
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long60
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String01
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String02
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String03
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String04
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String05
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String06
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String07
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String08
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String09
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String10
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String11
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String12
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String13
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String14
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String15
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String16
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String17
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String18
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String19
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String20
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String21
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String22
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String23
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String24
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String25
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String26
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String27
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String28
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String29
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String30
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String31
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String32
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String33
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String34
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String35
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String36
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String37
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String38
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String39
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.String40
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.UdsalesmallId
+  langs:
+  - csharp
+  - vb
+  name: UDSaleSmallRecordData
+  nameWithType: UDSaleSmallRecordData
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the udsalesmall table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.UDSaleSmallRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.UDSaleSmallTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class UDSaleSmallRecordData
+    content.vb: Public Class UDSaleSmallRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.UDSaleSmallRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.UdsalesmallId
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.UdsalesmallId
+  id: UdsalesmallId
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: UdsalesmallId
+  nameWithType: UDSaleSmallRecordData.UdsalesmallId
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.UdsalesmallId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int UdsalesmallId
+    return:
+      type: System.Int32
+    content.vb: Public UdsalesmallId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long01
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long01
+  id: Long01
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long01
+  nameWithType: UDSaleSmallRecordData.Long01
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long01
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 1, indexed \n"
+  syntax:
+    content: public int Long01
+    return:
+      type: System.Int32
+    content.vb: Public Long01 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long02
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long02
+  id: Long02
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long02
+  nameWithType: UDSaleSmallRecordData.Long02
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long02
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 2, indexed \n"
+  syntax:
+    content: public int Long02
+    return:
+      type: System.Int32
+    content.vb: Public Long02 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long03
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long03
+  id: Long03
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long03
+  nameWithType: UDSaleSmallRecordData.Long03
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long03
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 3, indexed \n"
+  syntax:
+    content: public int Long03
+    return:
+      type: System.Int32
+    content.vb: Public Long03 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long04
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long04
+  id: Long04
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long04
+  nameWithType: UDSaleSmallRecordData.Long04
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long04
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 4, indexed \n"
+  syntax:
+    content: public int Long04
+    return:
+      type: System.Int32
+    content.vb: Public Long04 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long05
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long05
+  id: Long05
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long05
+  nameWithType: UDSaleSmallRecordData.Long05
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long05
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 5, not indexed \n"
+  syntax:
+    content: public int Long05
+    return:
+      type: System.Int32
+    content.vb: Public Long05 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long06
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long06
+  id: Long06
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long06
+  nameWithType: UDSaleSmallRecordData.Long06
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long06
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 6, not indexed \n"
+  syntax:
+    content: public int Long06
+    return:
+      type: System.Int32
+    content.vb: Public Long06 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long07
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long07
+  id: Long07
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long07
+  nameWithType: UDSaleSmallRecordData.Long07
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long07
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 7, not indexed \n"
+  syntax:
+    content: public int Long07
+    return:
+      type: System.Int32
+    content.vb: Public Long07 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long08
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long08
+  id: Long08
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long08
+  nameWithType: UDSaleSmallRecordData.Long08
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long08
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 8, not indexed \n"
+  syntax:
+    content: public int Long08
+    return:
+      type: System.Int32
+    content.vb: Public Long08 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long09
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long09
+  id: Long09
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long09
+  nameWithType: UDSaleSmallRecordData.Long09
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long09
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 9, not indexed \n"
+  syntax:
+    content: public int Long09
+    return:
+      type: System.Int32
+    content.vb: Public Long09 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long10
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long10
+  id: Long10
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long10
+  nameWithType: UDSaleSmallRecordData.Long10
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long10
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 10, not indexed \n"
+  syntax:
+    content: public int Long10
+    return:
+      type: System.Int32
+    content.vb: Public Long10 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long11
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long11
+  id: Long11
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long11
+  nameWithType: UDSaleSmallRecordData.Long11
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long11
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 11, not indexed \n"
+  syntax:
+    content: public int Long11
+    return:
+      type: System.Int32
+    content.vb: Public Long11 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long12
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long12
+  id: Long12
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long12
+  nameWithType: UDSaleSmallRecordData.Long12
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long12
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 12, not indexed \n"
+  syntax:
+    content: public int Long12
+    return:
+      type: System.Int32
+    content.vb: Public Long12 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long13
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long13
+  id: Long13
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long13
+  nameWithType: UDSaleSmallRecordData.Long13
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long13
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 13, not indexed \n"
+  syntax:
+    content: public int Long13
+    return:
+      type: System.Int32
+    content.vb: Public Long13 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long14
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long14
+  id: Long14
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long14
+  nameWithType: UDSaleSmallRecordData.Long14
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long14
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 14, not indexed \n"
+  syntax:
+    content: public int Long14
+    return:
+      type: System.Int32
+    content.vb: Public Long14 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long15
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long15
+  id: Long15
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long15
+  nameWithType: UDSaleSmallRecordData.Long15
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long15
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 15, not indexed \n"
+  syntax:
+    content: public int Long15
+    return:
+      type: System.Int32
+    content.vb: Public Long15 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long16
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long16
+  id: Long16
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long16
+  nameWithType: UDSaleSmallRecordData.Long16
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long16
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 16, not indexed \n"
+  syntax:
+    content: public int Long16
+    return:
+      type: System.Int32
+    content.vb: Public Long16 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long17
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long17
+  id: Long17
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long17
+  nameWithType: UDSaleSmallRecordData.Long17
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long17
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 17, not indexed \n"
+  syntax:
+    content: public int Long17
+    return:
+      type: System.Int32
+    content.vb: Public Long17 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long18
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long18
+  id: Long18
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long18
+  nameWithType: UDSaleSmallRecordData.Long18
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long18
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 18, not indexed \n"
+  syntax:
+    content: public int Long18
+    return:
+      type: System.Int32
+    content.vb: Public Long18 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long19
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long19
+  id: Long19
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long19
+  nameWithType: UDSaleSmallRecordData.Long19
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long19
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 19, not indexed \n"
+  syntax:
+    content: public int Long19
+    return:
+      type: System.Int32
+    content.vb: Public Long19 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long20
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long20
+  id: Long20
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long20
+  nameWithType: UDSaleSmallRecordData.Long20
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long20
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 20, not indexed \n"
+  syntax:
+    content: public int Long20
+    return:
+      type: System.Int32
+    content.vb: Public Long20 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long21
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long21
+  id: Long21
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long21
+  nameWithType: UDSaleSmallRecordData.Long21
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long21
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 21, not indexed \n"
+  syntax:
+    content: public int Long21
+    return:
+      type: System.Int32
+    content.vb: Public Long21 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long22
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long22
+  id: Long22
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long22
+  nameWithType: UDSaleSmallRecordData.Long22
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long22
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 22, not indexed \n"
+  syntax:
+    content: public int Long22
+    return:
+      type: System.Int32
+    content.vb: Public Long22 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long23
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long23
+  id: Long23
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long23
+  nameWithType: UDSaleSmallRecordData.Long23
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long23
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 23, not indexed \n"
+  syntax:
+    content: public int Long23
+    return:
+      type: System.Int32
+    content.vb: Public Long23 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long24
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long24
+  id: Long24
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long24
+  nameWithType: UDSaleSmallRecordData.Long24
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long24
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 24, not indexed \n"
+  syntax:
+    content: public int Long24
+    return:
+      type: System.Int32
+    content.vb: Public Long24 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long25
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long25
+  id: Long25
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long25
+  nameWithType: UDSaleSmallRecordData.Long25
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long25
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 25, not indexed \n"
+  syntax:
+    content: public int Long25
+    return:
+      type: System.Int32
+    content.vb: Public Long25 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long26
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long26
+  id: Long26
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long26
+  nameWithType: UDSaleSmallRecordData.Long26
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long26
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 26, not indexed \n"
+  syntax:
+    content: public int Long26
+    return:
+      type: System.Int32
+    content.vb: Public Long26 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long27
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long27
+  id: Long27
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long27
+  nameWithType: UDSaleSmallRecordData.Long27
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long27
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 27, not indexed \n"
+  syntax:
+    content: public int Long27
+    return:
+      type: System.Int32
+    content.vb: Public Long27 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long28
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long28
+  id: Long28
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long28
+  nameWithType: UDSaleSmallRecordData.Long28
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long28
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 28, not indexed \n"
+  syntax:
+    content: public int Long28
+    return:
+      type: System.Int32
+    content.vb: Public Long28 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long29
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long29
+  id: Long29
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long29
+  nameWithType: UDSaleSmallRecordData.Long29
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long29
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 29, not indexed \n"
+  syntax:
+    content: public int Long29
+    return:
+      type: System.Int32
+    content.vb: Public Long29 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long30
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long30
+  id: Long30
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long30
+  nameWithType: UDSaleSmallRecordData.Long30
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long30
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 30, not indexed \n"
+  syntax:
+    content: public int Long30
+    return:
+      type: System.Int32
+    content.vb: Public Long30 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long31
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long31
+  id: Long31
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long31
+  nameWithType: UDSaleSmallRecordData.Long31
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long31
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 31, not indexed \n"
+  syntax:
+    content: public int Long31
+    return:
+      type: System.Int32
+    content.vb: Public Long31 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long32
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long32
+  id: Long32
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long32
+  nameWithType: UDSaleSmallRecordData.Long32
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long32
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 32, not indexed \n"
+  syntax:
+    content: public int Long32
+    return:
+      type: System.Int32
+    content.vb: Public Long32 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long33
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long33
+  id: Long33
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long33
+  nameWithType: UDSaleSmallRecordData.Long33
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long33
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 33, not indexed \n"
+  syntax:
+    content: public int Long33
+    return:
+      type: System.Int32
+    content.vb: Public Long33 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long34
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long34
+  id: Long34
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long34
+  nameWithType: UDSaleSmallRecordData.Long34
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long34
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 34, not indexed \n"
+  syntax:
+    content: public int Long34
+    return:
+      type: System.Int32
+    content.vb: Public Long34 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long35
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long35
+  id: Long35
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long35
+  nameWithType: UDSaleSmallRecordData.Long35
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long35
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 35, not indexed \n"
+  syntax:
+    content: public int Long35
+    return:
+      type: System.Int32
+    content.vb: Public Long35 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long36
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long36
+  id: Long36
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long36
+  nameWithType: UDSaleSmallRecordData.Long36
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long36
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 36, not indexed \n"
+  syntax:
+    content: public int Long36
+    return:
+      type: System.Int32
+    content.vb: Public Long36 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long37
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long37
+  id: Long37
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long37
+  nameWithType: UDSaleSmallRecordData.Long37
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long37
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 37, not indexed \n"
+  syntax:
+    content: public int Long37
+    return:
+      type: System.Int32
+    content.vb: Public Long37 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long38
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long38
+  id: Long38
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long38
+  nameWithType: UDSaleSmallRecordData.Long38
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long38
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 38, not indexed \n"
+  syntax:
+    content: public int Long38
+    return:
+      type: System.Int32
+    content.vb: Public Long38 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long39
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long39
+  id: Long39
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long39
+  nameWithType: UDSaleSmallRecordData.Long39
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long39
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 39, not indexed \n"
+  syntax:
+    content: public int Long39
+    return:
+      type: System.Int32
+    content.vb: Public Long39 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long40
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long40
+  id: Long40
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long40
+  nameWithType: UDSaleSmallRecordData.Long40
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long40
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 40, not indexed \n"
+  syntax:
+    content: public int Long40
+    return:
+      type: System.Int32
+    content.vb: Public Long40 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long41
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long41
+  id: Long41
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long41
+  nameWithType: UDSaleSmallRecordData.Long41
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long41
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 41, not indexed \n"
+  syntax:
+    content: public int Long41
+    return:
+      type: System.Int32
+    content.vb: Public Long41 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long42
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long42
+  id: Long42
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long42
+  nameWithType: UDSaleSmallRecordData.Long42
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long42
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 42, not indexed \n"
+  syntax:
+    content: public int Long42
+    return:
+      type: System.Int32
+    content.vb: Public Long42 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long43
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long43
+  id: Long43
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long43
+  nameWithType: UDSaleSmallRecordData.Long43
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long43
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 43, not indexed \n"
+  syntax:
+    content: public int Long43
+    return:
+      type: System.Int32
+    content.vb: Public Long43 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long44
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long44
+  id: Long44
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long44
+  nameWithType: UDSaleSmallRecordData.Long44
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long44
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 44, not indexed \n"
+  syntax:
+    content: public int Long44
+    return:
+      type: System.Int32
+    content.vb: Public Long44 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long45
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long45
+  id: Long45
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long45
+  nameWithType: UDSaleSmallRecordData.Long45
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long45
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 45, not indexed \n"
+  syntax:
+    content: public int Long45
+    return:
+      type: System.Int32
+    content.vb: Public Long45 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long46
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long46
+  id: Long46
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long46
+  nameWithType: UDSaleSmallRecordData.Long46
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long46
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 46, not indexed \n"
+  syntax:
+    content: public int Long46
+    return:
+      type: System.Int32
+    content.vb: Public Long46 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long47
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long47
+  id: Long47
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long47
+  nameWithType: UDSaleSmallRecordData.Long47
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long47
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 47, not indexed \n"
+  syntax:
+    content: public int Long47
+    return:
+      type: System.Int32
+    content.vb: Public Long47 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long48
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long48
+  id: Long48
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long48
+  nameWithType: UDSaleSmallRecordData.Long48
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long48
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 48, not indexed \n"
+  syntax:
+    content: public int Long48
+    return:
+      type: System.Int32
+    content.vb: Public Long48 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long49
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long49
+  id: Long49
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long49
+  nameWithType: UDSaleSmallRecordData.Long49
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long49
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 49, not indexed \n"
+  syntax:
+    content: public int Long49
+    return:
+      type: System.Int32
+    content.vb: Public Long49 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long50
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long50
+  id: Long50
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long50
+  nameWithType: UDSaleSmallRecordData.Long50
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long50
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 50, not indexed \n"
+  syntax:
+    content: public int Long50
+    return:
+      type: System.Int32
+    content.vb: Public Long50 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long51
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long51
+  id: Long51
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long51
+  nameWithType: UDSaleSmallRecordData.Long51
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long51
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 51, not indexed \n"
+  syntax:
+    content: public int Long51
+    return:
+      type: System.Int32
+    content.vb: Public Long51 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long52
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long52
+  id: Long52
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long52
+  nameWithType: UDSaleSmallRecordData.Long52
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long52
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 52, not indexed \n"
+  syntax:
+    content: public int Long52
+    return:
+      type: System.Int32
+    content.vb: Public Long52 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long53
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long53
+  id: Long53
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long53
+  nameWithType: UDSaleSmallRecordData.Long53
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long53
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 53, not indexed \n"
+  syntax:
+    content: public int Long53
+    return:
+      type: System.Int32
+    content.vb: Public Long53 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long54
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long54
+  id: Long54
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long54
+  nameWithType: UDSaleSmallRecordData.Long54
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long54
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 54, not indexed \n"
+  syntax:
+    content: public int Long54
+    return:
+      type: System.Int32
+    content.vb: Public Long54 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long55
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long55
+  id: Long55
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long55
+  nameWithType: UDSaleSmallRecordData.Long55
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long55
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 55, not indexed \n"
+  syntax:
+    content: public int Long55
+    return:
+      type: System.Int32
+    content.vb: Public Long55 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long56
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long56
+  id: Long56
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long56
+  nameWithType: UDSaleSmallRecordData.Long56
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long56
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 56, not indexed \n"
+  syntax:
+    content: public int Long56
+    return:
+      type: System.Int32
+    content.vb: Public Long56 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long57
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long57
+  id: Long57
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long57
+  nameWithType: UDSaleSmallRecordData.Long57
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long57
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 57, not indexed \n"
+  syntax:
+    content: public int Long57
+    return:
+      type: System.Int32
+    content.vb: Public Long57 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long58
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long58
+  id: Long58
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long58
+  nameWithType: UDSaleSmallRecordData.Long58
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long58
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 58, not indexed \n"
+  syntax:
+    content: public int Long58
+    return:
+      type: System.Int32
+    content.vb: Public Long58 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long59
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long59
+  id: Long59
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long59
+  nameWithType: UDSaleSmallRecordData.Long59
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long59
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 59, not indexed \n"
+  syntax:
+    content: public int Long59
+    return:
+      type: System.Int32
+    content.vb: Public Long59 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long60
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long60
+  id: Long60
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Long60
+  nameWithType: UDSaleSmallRecordData.Long60
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Long60
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nlong value 60, not indexed \n"
+  syntax:
+    content: public int Long60
+    return:
+      type: System.Int32
+    content.vb: Public Long60 As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String01
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String01
+  id: String01
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String01
+  nameWithType: UDSaleSmallRecordData.String01
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String01
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 1, indexed \n"
+  syntax:
+    content: public string String01
+    return:
+      type: System.String
+    content.vb: Public String01 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String02
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String02
+  id: String02
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String02
+  nameWithType: UDSaleSmallRecordData.String02
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String02
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 2, indexed \n"
+  syntax:
+    content: public string String02
+    return:
+      type: System.String
+    content.vb: Public String02 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String03
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String03
+  id: String03
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String03
+  nameWithType: UDSaleSmallRecordData.String03
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String03
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 3, indexed \n"
+  syntax:
+    content: public string String03
+    return:
+      type: System.String
+    content.vb: Public String03 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String04
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String04
+  id: String04
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String04
+  nameWithType: UDSaleSmallRecordData.String04
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String04
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 4, indexed \n"
+  syntax:
+    content: public string String04
+    return:
+      type: System.String
+    content.vb: Public String04 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String05
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String05
+  id: String05
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String05
+  nameWithType: UDSaleSmallRecordData.String05
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String05
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 5, not indexed \n"
+  syntax:
+    content: public string String05
+    return:
+      type: System.String
+    content.vb: Public String05 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String06
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String06
+  id: String06
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String06
+  nameWithType: UDSaleSmallRecordData.String06
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String06
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 6, not indexed \n"
+  syntax:
+    content: public string String06
+    return:
+      type: System.String
+    content.vb: Public String06 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String07
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String07
+  id: String07
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String07
+  nameWithType: UDSaleSmallRecordData.String07
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String07
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 7, not indexed \n"
+  syntax:
+    content: public string String07
+    return:
+      type: System.String
+    content.vb: Public String07 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String08
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String08
+  id: String08
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String08
+  nameWithType: UDSaleSmallRecordData.String08
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String08
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 8, not indexed \n"
+  syntax:
+    content: public string String08
+    return:
+      type: System.String
+    content.vb: Public String08 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String09
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String09
+  id: String09
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String09
+  nameWithType: UDSaleSmallRecordData.String09
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String09
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 9, not indexed \n"
+  syntax:
+    content: public string String09
+    return:
+      type: System.String
+    content.vb: Public String09 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String10
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String10
+  id: String10
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String10
+  nameWithType: UDSaleSmallRecordData.String10
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String10
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 10, not indexed \n"
+  syntax:
+    content: public string String10
+    return:
+      type: System.String
+    content.vb: Public String10 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String11
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String11
+  id: String11
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String11
+  nameWithType: UDSaleSmallRecordData.String11
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String11
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 11, not indexed \n"
+  syntax:
+    content: public string String11
+    return:
+      type: System.String
+    content.vb: Public String11 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String12
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String12
+  id: String12
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String12
+  nameWithType: UDSaleSmallRecordData.String12
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String12
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 12, not indexed \n"
+  syntax:
+    content: public string String12
+    return:
+      type: System.String
+    content.vb: Public String12 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String13
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String13
+  id: String13
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String13
+  nameWithType: UDSaleSmallRecordData.String13
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String13
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 13, not indexed \n"
+  syntax:
+    content: public string String13
+    return:
+      type: System.String
+    content.vb: Public String13 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String14
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String14
+  id: String14
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String14
+  nameWithType: UDSaleSmallRecordData.String14
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String14
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 14, not indexed \n"
+  syntax:
+    content: public string String14
+    return:
+      type: System.String
+    content.vb: Public String14 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String15
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String15
+  id: String15
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String15
+  nameWithType: UDSaleSmallRecordData.String15
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String15
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 15, not indexed \n"
+  syntax:
+    content: public string String15
+    return:
+      type: System.String
+    content.vb: Public String15 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String16
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String16
+  id: String16
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String16
+  nameWithType: UDSaleSmallRecordData.String16
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String16
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 16, not indexed \n"
+  syntax:
+    content: public string String16
+    return:
+      type: System.String
+    content.vb: Public String16 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String17
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String17
+  id: String17
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String17
+  nameWithType: UDSaleSmallRecordData.String17
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String17
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 17, not indexed \n"
+  syntax:
+    content: public string String17
+    return:
+      type: System.String
+    content.vb: Public String17 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String18
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String18
+  id: String18
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String18
+  nameWithType: UDSaleSmallRecordData.String18
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String18
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 18, not indexed \n"
+  syntax:
+    content: public string String18
+    return:
+      type: System.String
+    content.vb: Public String18 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String19
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String19
+  id: String19
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String19
+  nameWithType: UDSaleSmallRecordData.String19
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String19
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 19, not indexed \n"
+  syntax:
+    content: public string String19
+    return:
+      type: System.String
+    content.vb: Public String19 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String20
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String20
+  id: String20
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String20
+  nameWithType: UDSaleSmallRecordData.String20
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String20
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 20, not indexed \n"
+  syntax:
+    content: public string String20
+    return:
+      type: System.String
+    content.vb: Public String20 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String21
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String21
+  id: String21
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String21
+  nameWithType: UDSaleSmallRecordData.String21
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String21
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 21, not indexed \n"
+  syntax:
+    content: public string String21
+    return:
+      type: System.String
+    content.vb: Public String21 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String22
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String22
+  id: String22
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String22
+  nameWithType: UDSaleSmallRecordData.String22
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String22
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 22, not indexed \n"
+  syntax:
+    content: public string String22
+    return:
+      type: System.String
+    content.vb: Public String22 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String23
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String23
+  id: String23
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String23
+  nameWithType: UDSaleSmallRecordData.String23
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String23
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 23, not indexed \n"
+  syntax:
+    content: public string String23
+    return:
+      type: System.String
+    content.vb: Public String23 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String24
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String24
+  id: String24
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String24
+  nameWithType: UDSaleSmallRecordData.String24
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String24
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 24, not indexed \n"
+  syntax:
+    content: public string String24
+    return:
+      type: System.String
+    content.vb: Public String24 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String25
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String25
+  id: String25
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String25
+  nameWithType: UDSaleSmallRecordData.String25
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String25
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 25, not indexed \n"
+  syntax:
+    content: public string String25
+    return:
+      type: System.String
+    content.vb: Public String25 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String26
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String26
+  id: String26
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String26
+  nameWithType: UDSaleSmallRecordData.String26
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String26
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 26, not indexed \n"
+  syntax:
+    content: public string String26
+    return:
+      type: System.String
+    content.vb: Public String26 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String27
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String27
+  id: String27
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String27
+  nameWithType: UDSaleSmallRecordData.String27
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String27
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 27, not indexed \n"
+  syntax:
+    content: public string String27
+    return:
+      type: System.String
+    content.vb: Public String27 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String28
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String28
+  id: String28
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String28
+  nameWithType: UDSaleSmallRecordData.String28
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String28
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 28, not indexed \n"
+  syntax:
+    content: public string String28
+    return:
+      type: System.String
+    content.vb: Public String28 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String29
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String29
+  id: String29
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String29
+  nameWithType: UDSaleSmallRecordData.String29
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String29
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 29, not indexed \n"
+  syntax:
+    content: public string String29
+    return:
+      type: System.String
+    content.vb: Public String29 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String30
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String30
+  id: String30
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String30
+  nameWithType: UDSaleSmallRecordData.String30
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String30
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 30, not indexed \n"
+  syntax:
+    content: public string String30
+    return:
+      type: System.String
+    content.vb: Public String30 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String31
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String31
+  id: String31
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String31
+  nameWithType: UDSaleSmallRecordData.String31
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String31
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 31, not indexed \n"
+  syntax:
+    content: public string String31
+    return:
+      type: System.String
+    content.vb: Public String31 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String32
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String32
+  id: String32
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String32
+  nameWithType: UDSaleSmallRecordData.String32
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String32
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 32, not indexed \n"
+  syntax:
+    content: public string String32
+    return:
+      type: System.String
+    content.vb: Public String32 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String33
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String33
+  id: String33
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String33
+  nameWithType: UDSaleSmallRecordData.String33
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String33
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 33, not indexed \n"
+  syntax:
+    content: public string String33
+    return:
+      type: System.String
+    content.vb: Public String33 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String34
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String34
+  id: String34
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String34
+  nameWithType: UDSaleSmallRecordData.String34
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String34
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 34, not indexed \n"
+  syntax:
+    content: public string String34
+    return:
+      type: System.String
+    content.vb: Public String34 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String35
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String35
+  id: String35
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String35
+  nameWithType: UDSaleSmallRecordData.String35
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String35
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 35, not indexed \n"
+  syntax:
+    content: public string String35
+    return:
+      type: System.String
+    content.vb: Public String35 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String36
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String36
+  id: String36
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String36
+  nameWithType: UDSaleSmallRecordData.String36
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String36
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 36, not indexed \n"
+  syntax:
+    content: public string String36
+    return:
+      type: System.String
+    content.vb: Public String36 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String37
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String37
+  id: String37
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String37
+  nameWithType: UDSaleSmallRecordData.String37
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String37
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 37, not indexed \n"
+  syntax:
+    content: public string String37
+    return:
+      type: System.String
+    content.vb: Public String37 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String38
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String38
+  id: String38
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String38
+  nameWithType: UDSaleSmallRecordData.String38
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String38
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 38, not indexed \n"
+  syntax:
+    content: public string String38
+    return:
+      type: System.String
+    content.vb: Public String38 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String39
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String39
+  id: String39
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String39
+  nameWithType: UDSaleSmallRecordData.String39
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String39
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 39, not indexed \n"
+  syntax:
+    content: public string String39
+    return:
+      type: System.String
+    content.vb: Public String39 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String40
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.String40
+  id: String40
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: String40
+  nameWithType: UDSaleSmallRecordData.String40
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.String40
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstring value 40, not indexed \n"
+  syntax:
+    content: public string String40
+    return:
+      type: System.String
+    content.vb: Public String40 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double01
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double01
+  id: Double01
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Double01
+  nameWithType: UDSaleSmallRecordData.Double01
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double01
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndouble value 1, indexed \n"
+  syntax:
+    content: public double Double01
+    return:
+      type: System.Double
+    content.vb: Public Double01 As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double02
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double02
+  id: Double02
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Double02
+  nameWithType: UDSaleSmallRecordData.Double02
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double02
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndouble value 2, indexed \n"
+  syntax:
+    content: public double Double02
+    return:
+      type: System.Double
+    content.vb: Public Double02 As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double03
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double03
+  id: Double03
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Double03
+  nameWithType: UDSaleSmallRecordData.Double03
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double03
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndouble value 3, indexed \n"
+  syntax:
+    content: public double Double03
+    return:
+      type: System.Double
+    content.vb: Public Double03 As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double04
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double04
+  id: Double04
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Double04
+  nameWithType: UDSaleSmallRecordData.Double04
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double04
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndouble value 4, indexed \n"
+  syntax:
+    content: public double Double04
+    return:
+      type: System.Double
+    content.vb: Public Double04 As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double05
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double05
+  id: Double05
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Double05
+  nameWithType: UDSaleSmallRecordData.Double05
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double05
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndouble value 5, not indexed \n"
+  syntax:
+    content: public double Double05
+    return:
+      type: System.Double
+    content.vb: Public Double05 As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double06
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double06
+  id: Double06
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Double06
+  nameWithType: UDSaleSmallRecordData.Double06
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double06
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndouble value 6, not indexed \n"
+  syntax:
+    content: public double Double06
+    return:
+      type: System.Double
+    content.vb: Public Double06 As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double07
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double07
+  id: Double07
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Double07
+  nameWithType: UDSaleSmallRecordData.Double07
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double07
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndouble value 7, not indexed \n"
+  syntax:
+    content: public double Double07
+    return:
+      type: System.Double
+    content.vb: Public Double07 As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double08
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double08
+  id: Double08
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Double08
+  nameWithType: UDSaleSmallRecordData.Double08
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double08
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndouble value 8, not indexed \n"
+  syntax:
+    content: public double Double08
+    return:
+      type: System.Double
+    content.vb: Public Double08 As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double09
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double09
+  id: Double09
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Double09
+  nameWithType: UDSaleSmallRecordData.Double09
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double09
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndouble value 9, not indexed \n"
+  syntax:
+    content: public double Double09
+    return:
+      type: System.Double
+    content.vb: Public Double09 As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double10
+  commentId: F:SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double10
+  id: Double10
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: Double10
+  nameWithType: UDSaleSmallRecordData.Double10
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.Double10
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndouble value 10, not indexed \n"
+  syntax:
+    content: public double Double10
+    return:
+      type: System.Double
+    content.vb: Public Double10 As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.UDSaleSmallRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+  langs:
+  - csharp
+  - vb
+  name: UDSaleSmallRecordData()
+  nameWithType: UDSaleSmallRecordData.UDSaleSmallRecordData()
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.UDSaleSmallRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public UDSaleSmallRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.UDSaleSmallRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<UDSaleSmallRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<UDSaleSmallRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UDSaleSmallRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UDSaleSmallRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UDSaleSmallRecordData, To)()
+  name.vb: MapEnums(Of UDSaleSmallRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UDSaleSmallRecordData, To>
+    nameWithType: EnumUtil.MapEnums<UDSaleSmallRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UDSaleSmallRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UDSaleSmallRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of UDSaleSmallRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UDSaleSmallRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<UDSaleSmallRecordData>(UDSaleSmallRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<UDSaleSmallRecordData>(UDSaleSmallRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.UDSaleSmallRecordData>(SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UDSaleSmallRecordData)(UDSaleSmallRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.UDSaleSmallRecordData)(SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+  name.vb: AssignByReflection(Of UDSaleSmallRecordData)(UDSaleSmallRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<UDSaleSmallRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<UDSaleSmallRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.UDSaleSmallRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+    name: UDSaleSmallRecordData
+    nameWithType: UDSaleSmallRecordData
+    fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of UDSaleSmallRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of UDSaleSmallRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+    name: UDSaleSmallRecordData
+    nameWithType: UDSaleSmallRecordData
+    fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<UDSaleSmallRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<UDSaleSmallRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.UDSaleSmallRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of UDSaleSmallRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.UDSaleSmallRecordData)()
+  name.vb: GraphCopy(Of UDSaleSmallRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<UDSaleSmallRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<UDSaleSmallRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.UDSaleSmallRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of UDSaleSmallRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of UDSaleSmallRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+  parent: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+  name: ToInsert()
+  nameWithType: UDSaleSmallRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: UDSaleSmallRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: UDSaleSmallRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UDSaleSmallRecordData, To>()
+  nameWithType: Converters.MapEnums<UDSaleSmallRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UDSaleSmallRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of UDSaleSmallRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UDSaleSmallRecordData, To)()
+  name.vb: MapEnums(Of UDSaleSmallRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UDSaleSmallRecordData, To>
+    nameWithType: Converters.MapEnums<UDSaleSmallRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UDSaleSmallRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UDSaleSmallRecordData, To)
+    nameWithType: Converters.MapEnums(Of UDSaleSmallRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UDSaleSmallRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+  commentId: M:SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+  isExternal: true
+  name: ToInsert(UDSaleSmallRecordData)
+  nameWithType: UDSaleSmallRecordDataExtensions.ToInsert(UDSaleSmallRecordData)
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+    name: ToInsert
+    nameWithType: UDSaleSmallRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+    name: UDSaleSmallRecordData
+    nameWithType: UDSaleSmallRecordData
+    fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.UDSaleSmallRecordData)
+    name: ToInsert
+    nameWithType: UDSaleSmallRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+    name: UDSaleSmallRecordData
+    nameWithType: UDSaleSmallRecordData
+    fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: UDSaleSmallRecordDataExtensions
+  nameWithType: UDSaleSmallRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.Rows.UDSaleSmallRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.UDSaleSmallRecordData.#ctor
+  isExternal: true
+  name: UDSaleSmallRecordData
+  nameWithType: UDSaleSmallRecordData.UDSaleSmallRecordData
+  fullName: SuperOffice.CRM.Rows.UDSaleSmallRecordData.UDSaleSmallRecordData

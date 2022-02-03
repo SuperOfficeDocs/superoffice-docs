@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Weekday
+  commentId: T:SuperOffice.WebApi.Data.Weekday
+  id: Weekday
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Weekday.Friday
+  - SuperOffice.WebApi.Data.Weekday.Monday
+  - SuperOffice.WebApi.Data.Weekday.Saturday
+  - SuperOffice.WebApi.Data.Weekday.Sunday
+  - SuperOffice.WebApi.Data.Weekday.Thursday
+  - SuperOffice.WebApi.Data.Weekday.Tuesday
+  - SuperOffice.WebApi.Data.Weekday.Unknown
+  - SuperOffice.WebApi.Data.Weekday.value__
+  - SuperOffice.WebApi.Data.Weekday.Wednesday
+  langs:
+  - csharp
+  - vb
+  name: Weekday
+  nameWithType: Weekday
+  fullName: SuperOffice.WebApi.Data.Weekday
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnumerator for the days of the week\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class Weekday : Enum'
+    content.vb: >-
+      Public NotInheritable Class Weekday
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.Weekday.value__
+  commentId: F:SuperOffice.WebApi.Data.Weekday.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.Weekday
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: Weekday.value__
+  fullName: SuperOffice.WebApi.Data.Weekday.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Weekday.Unknown
+  commentId: F:SuperOffice.WebApi.Data.Weekday.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.Weekday
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: Weekday.Unknown
+  fullName: SuperOffice.WebApi.Data.Weekday.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: 0: Unknown/undecided type\n"
+  syntax:
+    content: public const Weekday Unknown
+    return:
+      type: SuperOffice.WebApi.Data.Weekday
+    content.vb: Public Const Unknown As Weekday
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Weekday.Monday
+  commentId: F:SuperOffice.WebApi.Data.Weekday.Monday
+  id: Monday
+  parent: SuperOffice.WebApi.Data.Weekday
+  langs:
+  - csharp
+  - vb
+  name: Monday
+  nameWithType: Weekday.Monday
+  fullName: SuperOffice.WebApi.Data.Weekday.Monday
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Monday\n"
+  syntax:
+    content: public const Weekday Monday
+    return:
+      type: SuperOffice.WebApi.Data.Weekday
+    content.vb: Public Const Monday As Weekday
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Weekday.Tuesday
+  commentId: F:SuperOffice.WebApi.Data.Weekday.Tuesday
+  id: Tuesday
+  parent: SuperOffice.WebApi.Data.Weekday
+  langs:
+  - csharp
+  - vb
+  name: Tuesday
+  nameWithType: Weekday.Tuesday
+  fullName: SuperOffice.WebApi.Data.Weekday.Tuesday
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Tuesday\n"
+  syntax:
+    content: public const Weekday Tuesday
+    return:
+      type: SuperOffice.WebApi.Data.Weekday
+    content.vb: Public Const Tuesday As Weekday
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Weekday.Wednesday
+  commentId: F:SuperOffice.WebApi.Data.Weekday.Wednesday
+  id: Wednesday
+  parent: SuperOffice.WebApi.Data.Weekday
+  langs:
+  - csharp
+  - vb
+  name: Wednesday
+  nameWithType: Weekday.Wednesday
+  fullName: SuperOffice.WebApi.Data.Weekday.Wednesday
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Wednesday\n"
+  syntax:
+    content: public const Weekday Wednesday
+    return:
+      type: SuperOffice.WebApi.Data.Weekday
+    content.vb: Public Const Wednesday As Weekday
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Weekday.Thursday
+  commentId: F:SuperOffice.WebApi.Data.Weekday.Thursday
+  id: Thursday
+  parent: SuperOffice.WebApi.Data.Weekday
+  langs:
+  - csharp
+  - vb
+  name: Thursday
+  nameWithType: Weekday.Thursday
+  fullName: SuperOffice.WebApi.Data.Weekday.Thursday
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Thursday\n"
+  syntax:
+    content: public const Weekday Thursday
+    return:
+      type: SuperOffice.WebApi.Data.Weekday
+    content.vb: Public Const Thursday As Weekday
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Weekday.Friday
+  commentId: F:SuperOffice.WebApi.Data.Weekday.Friday
+  id: Friday
+  parent: SuperOffice.WebApi.Data.Weekday
+  langs:
+  - csharp
+  - vb
+  name: Friday
+  nameWithType: Weekday.Friday
+  fullName: SuperOffice.WebApi.Data.Weekday.Friday
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: Friday\n"
+  syntax:
+    content: public const Weekday Friday
+    return:
+      type: SuperOffice.WebApi.Data.Weekday
+    content.vb: Public Const Friday As Weekday
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Weekday.Saturday
+  commentId: F:SuperOffice.WebApi.Data.Weekday.Saturday
+  id: Saturday
+  parent: SuperOffice.WebApi.Data.Weekday
+  langs:
+  - csharp
+  - vb
+  name: Saturday
+  nameWithType: Weekday.Saturday
+  fullName: SuperOffice.WebApi.Data.Weekday.Saturday
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n32: Saturday\n"
+  syntax:
+    content: public const Weekday Saturday
+    return:
+      type: SuperOffice.WebApi.Data.Weekday
+    content.vb: Public Const Saturday As Weekday
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Weekday.Sunday
+  commentId: F:SuperOffice.WebApi.Data.Weekday.Sunday
+  id: Sunday
+  parent: SuperOffice.WebApi.Data.Weekday
+  langs:
+  - csharp
+  - vb
+  name: Sunday
+  nameWithType: Weekday.Sunday
+  fullName: SuperOffice.WebApi.Data.Weekday.Sunday
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n64: Sunday\n"
+  syntax:
+    content: public const Weekday Sunday
+    return:
+      type: SuperOffice.WebApi.Data.Weekday
+    content.vb: Public Const Sunday As Weekday
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Weekday
+  commentId: T:SuperOffice.WebApi.Data.Weekday
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Weekday
+  nameWithType: Weekday
+  fullName: SuperOffice.WebApi.Data.Weekday

@@ -1,0 +1,388 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ISoItem
+  commentId: T:SuperOffice.Data.ISoItem
+  id: ISoItem
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ISoItem.Delete
+  - SuperOffice.Data.ISoItem.IsDeleted
+  - SuperOffice.Data.ISoItem.IsDirty
+  - SuperOffice.Data.ISoItem.IsNew
+  - SuperOffice.Data.ISoItem.Save
+  langs:
+  - csharp
+  - vb
+  name: ISoItem
+  nameWithType: ISoItem
+  fullName: SuperOffice.Data.ISoItem
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSupport for database modifications.\n"
+  remarks: "\nInterface for implementing objects supporting modifications of data.\n<table><tbody><tr><td>When to use.</td><td>Use this object when implementing objects that save data to the database.</td></tr><tr><td>When to implement.</td><td>\n\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public interface ISoItem
+    content.vb: Public Interface ISoItem
+  extensionMethods:
+  - SuperOffice.Data.ISoItem.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ISoItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.ISoItem.Delete
+  commentId: M:SuperOffice.Data.ISoItem.Delete
+  id: Delete
+  parent: SuperOffice.Data.ISoItem
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: ISoItem.Delete()
+  fullName: SuperOffice.Data.ISoItem.Delete()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nDelete the object.\n"
+  syntax:
+    content: void Delete()
+    content.vb: Sub Delete
+  overload: SuperOffice.Data.ISoItem.Delete*
+- uid: SuperOffice.Data.ISoItem.Save
+  commentId: M:SuperOffice.Data.ISoItem.Save
+  id: Save
+  parent: SuperOffice.Data.ISoItem
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: ISoItem.Save()
+  fullName: SuperOffice.Data.ISoItem.Save()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSaves the object.\n"
+  syntax:
+    content: void Save()
+    content.vb: Sub Save
+  overload: SuperOffice.Data.ISoItem.Save*
+- uid: SuperOffice.Data.ISoItem.IsNew
+  commentId: P:SuperOffice.Data.ISoItem.IsNew
+  id: IsNew
+  parent: SuperOffice.Data.ISoItem
+  langs:
+  - csharp
+  - vb
+  name: IsNew
+  nameWithType: ISoItem.IsNew
+  fullName: SuperOffice.Data.ISoItem.IsNew
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nIs the object new or not?\n"
+  syntax:
+    content: bool IsNew { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: <code>true</code> if new; otherwise, <code>false</code>.
+    content.vb: ReadOnly Property IsNew As Boolean
+  overload: SuperOffice.Data.ISoItem.IsNew*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Data.ISoItem.IsDeleted
+  commentId: P:SuperOffice.Data.ISoItem.IsDeleted
+  id: IsDeleted
+  parent: SuperOffice.Data.ISoItem
+  langs:
+  - csharp
+  - vb
+  name: IsDeleted
+  nameWithType: ISoItem.IsDeleted
+  fullName: SuperOffice.Data.ISoItem.IsDeleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nIs the object deleted?\n"
+  syntax:
+    content: bool IsDeleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if deleted; otherwise, <code>false</code>.\n"
+    content.vb: ReadOnly Property IsDeleted As Boolean
+  overload: SuperOffice.Data.ISoItem.IsDeleted*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Data.ISoItem.IsDirty
+  commentId: P:SuperOffice.Data.ISoItem.IsDirty
+  id: IsDirty
+  parent: SuperOffice.Data.ISoItem
+  langs:
+  - csharp
+  - vb
+  name: IsDirty
+  nameWithType: ISoItem.IsDirty
+  fullName: SuperOffice.Data.ISoItem.IsDirty
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nIs the object dirty, e.g. has some of the data in the object been changed?\n"
+  syntax:
+    content: bool IsDirty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: <code>true</code> if dirty; otherwise, <code>false</code>.
+    content.vb: ReadOnly Property IsDirty As Boolean
+  overload: SuperOffice.Data.ISoItem.IsDirty*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ISoItem.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISoItem, To>()
+  nameWithType: EnumUtil.MapEnums<ISoItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ISoItem, To)()
+  name.vb: MapEnums(Of ISoItem, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoItem, To>
+    nameWithType: EnumUtil.MapEnums<ISoItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoItem, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ISoItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ISoItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISoItem, To>()
+  nameWithType: Converters.MapEnums<ISoItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoItem, To)()
+  name.vb: MapEnums(Of ISoItem, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoItem, To>
+    nameWithType: Converters.MapEnums<ISoItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoItem, To)
+    nameWithType: Converters.MapEnums(Of ISoItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ISoItem.Delete*
+  commentId: Overload:SuperOffice.Data.ISoItem.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: ISoItem.Delete
+  fullName: SuperOffice.Data.ISoItem.Delete
+- uid: SuperOffice.Data.ISoItem.Save*
+  commentId: Overload:SuperOffice.Data.ISoItem.Save
+  isExternal: true
+  name: Save
+  nameWithType: ISoItem.Save
+  fullName: SuperOffice.Data.ISoItem.Save
+- uid: SuperOffice.Data.ISoItem.IsNew*
+  commentId: Overload:SuperOffice.Data.ISoItem.IsNew
+  isExternal: true
+  name: IsNew
+  nameWithType: ISoItem.IsNew
+  fullName: SuperOffice.Data.ISoItem.IsNew
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.ISoItem.IsDeleted*
+  commentId: Overload:SuperOffice.Data.ISoItem.IsDeleted
+  isExternal: true
+  name: IsDeleted
+  nameWithType: ISoItem.IsDeleted
+  fullName: SuperOffice.Data.ISoItem.IsDeleted
+- uid: SuperOffice.Data.ISoItem.IsDirty*
+  commentId: Overload:SuperOffice.Data.ISoItem.IsDirty
+  isExternal: true
+  name: IsDirty
+  nameWithType: ISoItem.IsDirty
+  fullName: SuperOffice.Data.ISoItem.IsDirty

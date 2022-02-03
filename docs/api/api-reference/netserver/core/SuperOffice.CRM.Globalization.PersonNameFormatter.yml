@@ -1,0 +1,1081 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter
+  commentId: T:SuperOffice.CRM.Globalization.PersonNameFormatter
+  id: PersonNameFormatter
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateNameFormatStylePreference
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(SuperOffice.CRM.Entities.Person)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(SuperOffice.CRM.Rows.PersonRow)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(System.String,System.String,System.String,System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Entities.Person)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Rows.PersonRow)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(System.String,System.String,System.String)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(System.String,System.String,System.String,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetNameFormatStylePreference
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetOrderBy(SuperOffice.CRM.Data.PersonTableInfo,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.TryGetNameParts(System.String,System.String@,System.String@,System.String@)
+  langs:
+  - csharp
+  - vb
+  name: PersonNameFormatter
+  nameWithType: PersonNameFormatter
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nCollection of helper functions to format names.\n"
+  syntax:
+    content: public static class PersonNameFormatter
+    content.vb: Public Module PersonNameFormatter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(System.String,System.String,System.String)
+  id: GetFullName(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(String, String, String)
+  nameWithType: PersonNameFormatter.GetFullName(String, String, String)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet the persons full name (internal name used in clients for employees).\n"
+  syntax:
+    content: public static string GetFullName(string firstName, string middleName, string lastName)
+    parameters:
+    - id: firstName
+      type: System.String
+      description: Persons first name.
+    - id: middleName
+      type: System.String
+      description: Persons middle name.
+    - id: lastName
+      type: System.String
+      description: Persons last name.
+    return:
+      type: System.String
+      description: Persons full name.
+    content.vb: Public Shared Function GetFullName(firstName As String, middleName As String, lastName As String) As String
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Rows.PersonRow)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Rows.PersonRow)
+  id: GetFullName(SuperOffice.CRM.Rows.PersonRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(PersonRow)
+  nameWithType: PersonNameFormatter.GetFullName(PersonRow)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Rows.PersonRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet the persons full name (internal name used in clients for employees).\n"
+  syntax:
+    content: public static string GetFullName(this PersonRow person)
+    parameters:
+    - id: person
+      type: SuperOffice.CRM.Rows.PersonRow
+      description: Person to get full name for.
+    return:
+      type: System.String
+      description: Persons full name.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFullName(person As PersonRow) As String
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Entities.Person)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Entities.Person)
+  id: GetFullName(SuperOffice.CRM.Entities.Person)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(Person)
+  nameWithType: PersonNameFormatter.GetFullName(Person)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Entities.Person)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet the persons full name (internal name used in clients for employees).\n"
+  syntax:
+    content: public static string GetFullName(this Person person)
+    parameters:
+    - id: person
+      type: SuperOffice.CRM.Entities.Person
+      description: Person to get full name for.
+    return:
+      type: System.String
+      description: Persons full name.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFullName(person As Person) As String
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  id: GetFullName(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(PersonRow, PersonNameFormatter.NameFormatStylePreference)
+  nameWithType: PersonNameFormatter.GetFullName(PersonRow, PersonNameFormatter.NameFormatStylePreference)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet the persons full name (internal name used in clients for employees).\n"
+  syntax:
+    content: public static string GetFullName(this PersonRow person, PersonNameFormatter.NameFormatStylePreference style)
+    parameters:
+    - id: person
+      type: SuperOffice.CRM.Rows.PersonRow
+      description: Person to get full name for.
+    - id: style
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+    return:
+      type: System.String
+      description: Persons full name.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFullName(person As PersonRow, style As PersonNameFormatter.NameFormatStylePreference) As String
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  id: GetFullName(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(Person, PersonNameFormatter.NameFormatStylePreference)
+  nameWithType: PersonNameFormatter.GetFullName(Person, PersonNameFormatter.NameFormatStylePreference)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet the persons full name (internal name used in clients for employees).\n"
+  syntax:
+    content: public static string GetFullName(this Person person, PersonNameFormatter.NameFormatStylePreference style)
+    parameters:
+    - id: person
+      type: SuperOffice.CRM.Entities.Person
+      description: Person to get full name for.
+    - id: style
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+    return:
+      type: System.String
+      description: Persons full name.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFullName(person As Person, style As PersonNameFormatter.NameFormatStylePreference) As String
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(System.String,System.String,System.String,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(System.String,System.String,System.String,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  id: GetFullName(System.String,System.String,System.String,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(String, String, String, PersonNameFormatter.NameFormatStylePreference)
+  nameWithType: PersonNameFormatter.GetFullName(String, String, String, PersonNameFormatter.NameFormatStylePreference)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName(System.String, System.String, System.String, SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet the persons full name (internal name used in clients for employees).\n"
+  syntax:
+    content: public static string GetFullName(string firstName, string middleName, string lastName, PersonNameFormatter.NameFormatStylePreference style)
+    parameters:
+    - id: firstName
+      type: System.String
+      description: Persons first name.
+    - id: middleName
+      type: System.String
+      description: Persons middle name.
+    - id: lastName
+      type: System.String
+      description: Persons last name.
+    - id: style
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+    return:
+      type: System.String
+      description: Persons full name.
+    content.vb: Public Shared Function GetFullName(firstName As String, middleName As String, lastName As String, style As PersonNameFormatter.NameFormatStylePreference) As String
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetNameFormatStylePreference
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetNameFormatStylePreference
+  id: GetNameFormatStylePreference
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetNameFormatStylePreference()
+  nameWithType: PersonNameFormatter.GetNameFormatStylePreference()
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetNameFormatStylePreference()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet the name formatting preference for persons\n"
+  syntax:
+    content: public static PersonNameFormatter.NameFormatStylePreference GetNameFormatStylePreference()
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+    content.vb: Public Shared Function GetNameFormatStylePreference As PersonNameFormatter.NameFormatStylePreference
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetNameFormatStylePreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateNameFormatStylePreference
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateNameFormatStylePreference
+  id: GetAssociateNameFormatStylePreference
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateNameFormatStylePreference()
+  nameWithType: PersonNameFormatter.GetAssociateNameFormatStylePreference()
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateNameFormatStylePreference()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet the name formatting preference for associates; fallback to persons&apos; preference, ultimately to First/Last name\n"
+  syntax:
+    content: public static PersonNameFormatter.NameFormatStylePreference GetAssociateNameFormatStylePreference()
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+    content.vb: Public Shared Function GetAssociateNameFormatStylePreference As PersonNameFormatter.NameFormatStylePreference
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateNameFormatStylePreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(System.String,System.String,System.String,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(System.String,System.String,System.String,System.Int32,System.String,System.String)
+  id: GetFormalName(System.String,System.String,System.String,System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFormalName(String, String, String, Int32, String, String)
+  nameWithType: PersonNameFormatter.GetFormalName(String, String, String, Int32, String, String)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(System.String, System.String, System.String, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet formal name for a person, as used in labels.\n"
+  syntax:
+    content: public static string GetFormalName(string firstName, string middleName, string lastName, int countryId, string title, string mrMrs)
+    parameters:
+    - id: firstName
+      type: System.String
+      description: First name of the person.
+    - id: middleName
+      type: System.String
+      description: Middle name of the person.
+    - id: lastName
+      type: System.String
+      description: Last name of a person.
+    - id: countryId
+      type: System.Int32
+      description: CountryId for the person, the persons origin.
+    - id: title
+      type: System.String
+      description: Title of the person.
+    - id: mrMrs
+      type: System.String
+      description: Mr/Mrs/Miss/Ms, etc. for the person.
+    return:
+      type: System.String
+      description: Formal name for a person, as used in labels.
+    content.vb: Public Shared Function GetFormalName(firstName As String, middleName As String, lastName As String, countryId As Integer, title As String, mrMrs As String) As String
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(SuperOffice.CRM.Rows.PersonRow)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(SuperOffice.CRM.Rows.PersonRow)
+  id: GetFormalName(SuperOffice.CRM.Rows.PersonRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFormalName(PersonRow)
+  nameWithType: PersonNameFormatter.GetFormalName(PersonRow)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(SuperOffice.CRM.Rows.PersonRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet formal name for a person, as used in labels.\n"
+  syntax:
+    content: public static string GetFormalName(this PersonRow person)
+    parameters:
+    - id: person
+      type: SuperOffice.CRM.Rows.PersonRow
+      description: Person to get formal name for.
+    return:
+      type: System.String
+      description: Formal name for a person, as used in labels.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFormalName(person As PersonRow) As String
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(SuperOffice.CRM.Entities.Person)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(SuperOffice.CRM.Entities.Person)
+  id: GetFormalName(SuperOffice.CRM.Entities.Person)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFormalName(Person)
+  nameWithType: PersonNameFormatter.GetFormalName(Person)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName(SuperOffice.CRM.Entities.Person)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet formal name for a person, as used in labels.\n"
+  syntax:
+    content: public static string GetFormalName(this Person person)
+    parameters:
+    - id: person
+      type: SuperOffice.CRM.Entities.Person
+      description: Person to get formal name for.
+    return:
+      type: System.String
+      description: Formal name for a person, as used in labels.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFormalName(person As Person) As String
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  id: GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetPersonOrderBy(PersonTableInfo)
+  nameWithType: PersonNameFormatter.GetPersonOrderBy(PersonTableInfo)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public static FieldInfo[] GetPersonOrderBy(this PersonTableInfo personInfo)
+    parameters:
+    - id: personInfo
+      type: SuperOffice.CRM.Data.PersonTableInfo
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetPersonOrderBy(personInfo As PersonTableInfo) As FieldInfo()
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  id: GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateOrderBy(PersonTableInfo)
+  nameWithType: PersonNameFormatter.GetAssociateOrderBy(PersonTableInfo)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy(SuperOffice.CRM.Data.PersonTableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public static FieldInfo[] GetAssociateOrderBy(this PersonTableInfo personInfo)
+    parameters:
+    - id: personInfo
+      type: SuperOffice.CRM.Data.PersonTableInfo
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetAssociateOrderBy(personInfo As PersonTableInfo) As FieldInfo()
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetOrderBy(SuperOffice.CRM.Data.PersonTableInfo,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.GetOrderBy(SuperOffice.CRM.Data.PersonTableInfo,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  id: GetOrderBy(SuperOffice.CRM.Data.PersonTableInfo,SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetOrderBy(PersonTableInfo, PersonNameFormatter.NameFormatStylePreference)
+  nameWithType: PersonNameFormatter.GetOrderBy(PersonTableInfo, PersonNameFormatter.NameFormatStylePreference)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetOrderBy(SuperOffice.CRM.Data.PersonTableInfo, SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public static FieldInfo[] GetOrderBy(PersonTableInfo personInfo, PersonNameFormatter.NameFormatStylePreference format)
+    parameters:
+    - id: personInfo
+      type: SuperOffice.CRM.Data.PersonTableInfo
+    - id: format
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo[]
+    content.vb: Public Shared Function GetOrderBy(personInfo As PersonTableInfo, format As PersonNameFormatter.NameFormatStylePreference) As FieldInfo()
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.GetOrderBy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.TryGetNameParts(System.String,System.String@,System.String@,System.String@)
+  commentId: M:SuperOffice.CRM.Globalization.PersonNameFormatter.TryGetNameParts(System.String,System.String@,System.String@,System.String@)
+  id: TryGetNameParts(System.String,System.String@,System.String@,System.String@)
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: TryGetNameParts(String, out String, out String, out String)
+  nameWithType: PersonNameFormatter.TryGetNameParts(String, out String, out String, out String)
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.TryGetNameParts(System.String, out System.String, out System.String, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nTries to extract the name into parts based on database preferences.\n"
+  syntax:
+    content: public static bool TryGetNameParts(string fullName, out string firstName, out string middleName, out string lastName)
+    parameters:
+    - id: fullName
+      type: System.String
+      description: The full name of the person, without salutation.
+    - id: firstName
+      type: System.String
+      description: Firstname only if database is configured to use middlenames. Otherwise, all components not lastname.
+    - id: middleName
+      type: System.String
+      description: MiddleName is database is configured to use it. Otherwise null.
+    - id: lastName
+      type: System.String
+      description: LastName only.
+    return:
+      type: System.Boolean
+      description: true if parsing succeeded.
+    content.vb: Public Shared Function TryGetNameParts(fullName As String, ByRef firstName As String, ByRef middleName As String, ByRef lastName As String) As Boolean
+  overload: SuperOffice.CRM.Globalization.PersonNameFormatter.TryGetNameParts*
+  nameWithType.vb: PersonNameFormatter.TryGetNameParts(String, ByRef String, ByRef String, ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Globalization.PersonNameFormatter.TryGetNameParts(System.String, ByRef System.String, ByRef System.String, ByRef System.String)
+  name.vb: TryGetNameParts(String, ByRef String, ByRef String, ByRef String)
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName*
+  commentId: Overload:SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName
+  isExternal: true
+  name: GetFullName
+  nameWithType: PersonNameFormatter.GetFullName
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFullName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Rows.PersonRow
+  commentId: T:SuperOffice.CRM.Rows.PersonRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: PersonRow
+  nameWithType: PersonRow
+  fullName: SuperOffice.CRM.Rows.PersonRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Entities.Person
+  commentId: T:SuperOffice.CRM.Entities.Person
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Entities.Person
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  commentId: T:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: PersonNameFormatter.NameFormatStylePreference
+  nameWithType: PersonNameFormatter.NameFormatStylePreference
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetNameFormatStylePreference*
+  commentId: Overload:SuperOffice.CRM.Globalization.PersonNameFormatter.GetNameFormatStylePreference
+  isExternal: true
+  name: GetNameFormatStylePreference
+  nameWithType: PersonNameFormatter.GetNameFormatStylePreference
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetNameFormatStylePreference
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateNameFormatStylePreference*
+  commentId: Overload:SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateNameFormatStylePreference
+  isExternal: true
+  name: GetAssociateNameFormatStylePreference
+  nameWithType: PersonNameFormatter.GetAssociateNameFormatStylePreference
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateNameFormatStylePreference
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName*
+  commentId: Overload:SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName
+  isExternal: true
+  name: GetFormalName
+  nameWithType: PersonNameFormatter.GetFormalName
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetFormalName
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy*
+  commentId: Overload:SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy
+  isExternal: true
+  name: GetPersonOrderBy
+  nameWithType: PersonNameFormatter.GetPersonOrderBy
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy
+- uid: SuperOffice.CRM.Data.PersonTableInfo
+  commentId: T:SuperOffice.CRM.Data.PersonTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PersonTableInfo
+  nameWithType: PersonTableInfo
+  fullName: SuperOffice.CRM.Data.PersonTableInfo
+- uid: SuperOffice.Data.SQL.FieldInfo[]
+  isExternal: true
+  name: FieldInfo[]
+  nameWithType: FieldInfo[]
+  fullName: SuperOffice.Data.SQL.FieldInfo[]
+  nameWithType.vb: FieldInfo()
+  fullName.vb: SuperOffice.Data.SQL.FieldInfo()
+  name.vb: FieldInfo()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy*
+  commentId: Overload:SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy
+  isExternal: true
+  name: GetAssociateOrderBy
+  nameWithType: PersonNameFormatter.GetAssociateOrderBy
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetAssociateOrderBy
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.GetOrderBy*
+  commentId: Overload:SuperOffice.CRM.Globalization.PersonNameFormatter.GetOrderBy
+  isExternal: true
+  name: GetOrderBy
+  nameWithType: PersonNameFormatter.GetOrderBy
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.GetOrderBy
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.TryGetNameParts*
+  commentId: Overload:SuperOffice.CRM.Globalization.PersonNameFormatter.TryGetNameParts
+  isExternal: true
+  name: TryGetNameParts
+  nameWithType: PersonNameFormatter.TryGetNameParts
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.TryGetNameParts
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

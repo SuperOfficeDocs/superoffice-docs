@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ServiceAuth
+  commentId: T:SuperOffice.WebApi.Data.ServiceAuth
+  id: ServiceAuth
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ServiceAuth.#ctor
+  - SuperOffice.WebApi.Data.ServiceAuth.AuthType
+  - SuperOffice.WebApi.Data.ServiceAuth.Password
+  - SuperOffice.WebApi.Data.ServiceAuth.Port
+  - SuperOffice.WebApi.Data.ServiceAuth.Server
+  - SuperOffice.WebApi.Data.ServiceAuth.ServiceAuthId
+  - SuperOffice.WebApi.Data.ServiceAuth.Username
+  langs:
+  - csharp
+  - vb
+  name: ServiceAuth
+  nameWithType: ServiceAuth
+  fullName: SuperOffice.WebApi.Data.ServiceAuth
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ServiceAuth.\nProperties for service authentication    \n"
+  example:
+  - "\nGet ServiceAuth 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new UserAgent(configuration);\nvar serviceAuth = agent.GetServiceAuth( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ServiceAuth : Carrier'
+    content.vb: >-
+      Public Class ServiceAuth
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ServiceAuth.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ServiceAuth.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ServiceAuth
+  langs:
+  - csharp
+  - vb
+  name: ServiceAuth()
+  nameWithType: ServiceAuth.ServiceAuth()
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.ServiceAuth()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ServiceAuth()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ServiceAuth.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ServiceAuth.ServiceAuthId
+  commentId: P:SuperOffice.WebApi.Data.ServiceAuth.ServiceAuthId
+  id: ServiceAuthId
+  parent: SuperOffice.WebApi.Data.ServiceAuth
+  langs:
+  - csharp
+  - vb
+  name: ServiceAuthId
+  nameWithType: ServiceAuth.ServiceAuthId
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.ServiceAuthId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key\n"
+  syntax:
+    content: public virtual int ServiceAuthId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ServiceAuthId As Integer
+  overload: SuperOffice.WebApi.Data.ServiceAuth.ServiceAuthId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ServiceAuth.Server
+  commentId: P:SuperOffice.WebApi.Data.ServiceAuth.Server
+  id: Server
+  parent: SuperOffice.WebApi.Data.ServiceAuth
+  langs:
+  - csharp
+  - vb
+  name: Server
+  nameWithType: ServiceAuth.Server
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.Server
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe mail server\n"
+  syntax:
+    content: public virtual string Server { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Server As String
+  overload: SuperOffice.WebApi.Data.ServiceAuth.Server*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ServiceAuth.Port
+  commentId: P:SuperOffice.WebApi.Data.ServiceAuth.Port
+  id: Port
+  parent: SuperOffice.WebApi.Data.ServiceAuth
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: ServiceAuth.Port
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.Port
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe server port\n"
+  syntax:
+    content: public virtual int Port { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Port As Integer
+  overload: SuperOffice.WebApi.Data.ServiceAuth.Port*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ServiceAuth.AuthType
+  commentId: P:SuperOffice.WebApi.Data.ServiceAuth.AuthType
+  id: AuthType
+  parent: SuperOffice.WebApi.Data.ServiceAuth
+  langs:
+  - csharp
+  - vb
+  name: AuthType
+  nameWithType: ServiceAuth.AuthType
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.AuthType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of authentication, plain-text, OAuth...\n"
+  syntax:
+    content: public virtual string AuthType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AuthType As String
+  overload: SuperOffice.WebApi.Data.ServiceAuth.AuthType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ServiceAuth.Username
+  commentId: P:SuperOffice.WebApi.Data.ServiceAuth.Username
+  id: Username
+  parent: SuperOffice.WebApi.Data.ServiceAuth
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: ServiceAuth.Username
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.Username
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe username\n"
+  syntax:
+    content: public virtual string Username { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Username As String
+  overload: SuperOffice.WebApi.Data.ServiceAuth.Username*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ServiceAuth.Password
+  commentId: P:SuperOffice.WebApi.Data.ServiceAuth.Password
+  id: Password
+  parent: SuperOffice.WebApi.Data.ServiceAuth
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: ServiceAuth.Password
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.Password
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe (decrypted) password or token\n"
+  syntax:
+    content: public virtual string Password { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Password As String
+  overload: SuperOffice.WebApi.Data.ServiceAuth.Password*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.UserAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.WebApi.Agents.UserAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ServiceAuth.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ServiceAuth.#ctor
+  isExternal: true
+  name: ServiceAuth
+  nameWithType: ServiceAuth.ServiceAuth
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.ServiceAuth
+- uid: SuperOffice.WebApi.Data.ServiceAuth.ServiceAuthId*
+  commentId: Overload:SuperOffice.WebApi.Data.ServiceAuth.ServiceAuthId
+  isExternal: true
+  name: ServiceAuthId
+  nameWithType: ServiceAuth.ServiceAuthId
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.ServiceAuthId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ServiceAuth.Server*
+  commentId: Overload:SuperOffice.WebApi.Data.ServiceAuth.Server
+  isExternal: true
+  name: Server
+  nameWithType: ServiceAuth.Server
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.Server
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ServiceAuth.Port*
+  commentId: Overload:SuperOffice.WebApi.Data.ServiceAuth.Port
+  isExternal: true
+  name: Port
+  nameWithType: ServiceAuth.Port
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.Port
+- uid: SuperOffice.WebApi.Data.ServiceAuth.AuthType*
+  commentId: Overload:SuperOffice.WebApi.Data.ServiceAuth.AuthType
+  isExternal: true
+  name: AuthType
+  nameWithType: ServiceAuth.AuthType
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.AuthType
+- uid: SuperOffice.WebApi.Data.ServiceAuth.Username*
+  commentId: Overload:SuperOffice.WebApi.Data.ServiceAuth.Username
+  isExternal: true
+  name: Username
+  nameWithType: ServiceAuth.Username
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.Username
+- uid: SuperOffice.WebApi.Data.ServiceAuth.Password*
+  commentId: Overload:SuperOffice.WebApi.Data.ServiceAuth.Password
+  isExternal: true
+  name: Password
+  nameWithType: ServiceAuth.Password
+  fullName: SuperOffice.WebApi.Data.ServiceAuth.Password

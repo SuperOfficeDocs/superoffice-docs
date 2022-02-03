@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest
+  id: Configuration_GetCRMUrlRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Currents
+  - SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Frameless
+  - SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.SoProtocol
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetCRMUrlRequest
+  nameWithType: Configuration_GetCRMUrlRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_GetCRMUrlRequest : Object'
+    content.vb: >-
+      Public Class Configuration_GetCRMUrlRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetCRMUrlRequest()
+  nameWithType: Configuration_GetCRMUrlRequest.Configuration_GetCRMUrlRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Configuration_GetCRMUrlRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_GetCRMUrlRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.SoProtocol
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.SoProtocol
+  id: SoProtocol
+  parent: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: SoProtocol
+  nameWithType: Configuration_GetCRMUrlRequest.SoProtocol
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.SoProtocol
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string SoProtocol { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SoProtocol As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.SoProtocol*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Currents
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Currents
+  id: Currents
+  parent: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Currents
+  nameWithType: Configuration_GetCRMUrlRequest.Currents
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Currents
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Currents { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Currents As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Currents*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Frameless
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Frameless
+  id: Frameless
+  parent: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Frameless
+  nameWithType: Configuration_GetCRMUrlRequest.Frameless
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Frameless
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Frameless { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Frameless As Boolean
+  overload: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Frameless*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.#ctor
+  isExternal: true
+  name: Configuration_GetCRMUrlRequest
+  nameWithType: Configuration_GetCRMUrlRequest.Configuration_GetCRMUrlRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Configuration_GetCRMUrlRequest
+- uid: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.SoProtocol*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.SoProtocol
+  isExternal: true
+  name: SoProtocol
+  nameWithType: Configuration_GetCRMUrlRequest.SoProtocol
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.SoProtocol
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Currents*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Currents
+  isExternal: true
+  name: Currents
+  nameWithType: Configuration_GetCRMUrlRequest.Currents
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Currents
+- uid: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Frameless*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Frameless
+  isExternal: true
+  name: Frameless
+  nameWithType: Configuration_GetCRMUrlRequest.Frameless
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCRMUrlRequest.Frameless
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

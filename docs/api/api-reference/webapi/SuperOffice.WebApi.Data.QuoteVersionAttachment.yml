@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteVersionAttachment
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersionAttachment
+  id: QuoteVersionAttachment
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteVersionAttachment.#ctor
+  - SuperOffice.WebApi.Data.QuoteVersionAttachment.DocumentId
+  - SuperOffice.WebApi.Data.QuoteVersionAttachment.Included
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionAttachment
+  nameWithType: QuoteVersionAttachment
+  fullName: SuperOffice.WebApi.Data.QuoteVersionAttachment
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuoteVersionAttachment.\nAttachment documents for a given version of a Quote    \n"
+  syntax:
+    content: 'public class QuoteVersionAttachment : Carrier'
+    content.vb: >-
+      Public Class QuoteVersionAttachment
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteVersionAttachment.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuoteVersionAttachment.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuoteVersionAttachment
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionAttachment()
+  nameWithType: QuoteVersionAttachment.QuoteVersionAttachment()
+  fullName: SuperOffice.WebApi.Data.QuoteVersionAttachment.QuoteVersionAttachment()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuoteVersionAttachment()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuoteVersionAttachment.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteVersionAttachment.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionAttachment.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.QuoteVersionAttachment
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: QuoteVersionAttachment.DocumentId
+  fullName: SuperOffice.WebApi.Data.QuoteVersionAttachment.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLink to document\n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteVersionAttachment.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionAttachment.Included
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionAttachment.Included
+  id: Included
+  parent: SuperOffice.WebApi.Data.QuoteVersionAttachment
+  langs:
+  - csharp
+  - vb
+  name: Included
+  nameWithType: QuoteVersionAttachment.Included
+  fullName: SuperOffice.WebApi.Data.QuoteVersionAttachment.Included
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWill this attachment be included in the next &apos;Send Quote&apos; operation\n"
+  syntax:
+    content: public virtual bool Included { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Included As Boolean
+  overload: SuperOffice.WebApi.Data.QuoteVersionAttachment.Included*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuoteVersionAttachment.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionAttachment.#ctor
+  isExternal: true
+  name: QuoteVersionAttachment
+  nameWithType: QuoteVersionAttachment.QuoteVersionAttachment
+  fullName: SuperOffice.WebApi.Data.QuoteVersionAttachment.QuoteVersionAttachment
+- uid: SuperOffice.WebApi.Data.QuoteVersionAttachment.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionAttachment.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: QuoteVersionAttachment.DocumentId
+  fullName: SuperOffice.WebApi.Data.QuoteVersionAttachment.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.QuoteVersionAttachment.Included*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionAttachment.Included
+  isExternal: true
+  name: Included
+  nameWithType: QuoteVersionAttachment.Included
+  fullName: SuperOffice.WebApi.Data.QuoteVersionAttachment.Included
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

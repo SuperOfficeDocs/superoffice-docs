@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TemplateInfo
+  commentId: T:SuperOffice.WebApi.Data.TemplateInfo
+  id: TemplateInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TemplateInfo.#ctor
+  - SuperOffice.WebApi.Data.TemplateInfo.Description
+  - SuperOffice.WebApi.Data.TemplateInfo.ExternalReference
+  - SuperOffice.WebApi.Data.TemplateInfo.Name
+  - SuperOffice.WebApi.Data.TemplateInfo.PluginId
+  langs:
+  - csharp
+  - vb
+  name: TemplateInfo
+  nameWithType: TemplateInfo
+  fullName: SuperOffice.WebApi.Data.TemplateInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TemplateInfo.\nInformation about a document template, i.e., a document that generally contains unresolved merge tags and that is used as the source for creating new documents    \n"
+  syntax:
+    content: 'public class TemplateInfo : Object'
+    content.vb: >-
+      Public Class TemplateInfo
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TemplateInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TemplateInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: TemplateInfo()
+  nameWithType: TemplateInfo.TemplateInfo()
+  fullName: SuperOffice.WebApi.Data.TemplateInfo.TemplateInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TemplateInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TemplateInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TemplateInfo.Name
+  commentId: P:SuperOffice.WebApi.Data.TemplateInfo.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.TemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TemplateInfo.Name
+  fullName: SuperOffice.WebApi.Data.TemplateInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the document, shown in lists etc to the user\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.TemplateInfo.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateInfo.Description
+  commentId: P:SuperOffice.WebApi.Data.TemplateInfo.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.TemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: TemplateInfo.Description
+  fullName: SuperOffice.WebApi.Data.TemplateInfo.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDocument description, shown as a tooltip or in some extended description area\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.TemplateInfo.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateInfo.ExternalReference
+  commentId: P:SuperOffice.WebApi.Data.TemplateInfo.ExternalReference
+  id: ExternalReference
+  parent: SuperOffice.WebApi.Data.TemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: ExternalReference
+  nameWithType: TemplateInfo.ExternalReference
+  fullName: SuperOffice.WebApi.Data.TemplateInfo.ExternalReference
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUnique key that identifies the document so it can be retrieved\n"
+  syntax:
+    content: public virtual string ExternalReference { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExternalReference As String
+  overload: SuperOffice.WebApi.Data.TemplateInfo.ExternalReference*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateInfo.PluginId
+  commentId: P:SuperOffice.WebApi.Data.TemplateInfo.PluginId
+  id: PluginId
+  parent: SuperOffice.WebApi.Data.TemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: PluginId
+  nameWithType: TemplateInfo.PluginId
+  fullName: SuperOffice.WebApi.Data.TemplateInfo.PluginId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nID of plugin that stores this template, so it can be retrieved\n"
+  syntax:
+    content: public virtual int PluginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PluginId As Integer
+  overload: SuperOffice.WebApi.Data.TemplateInfo.PluginId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.DocumentAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  isExternal: true
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TemplateInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateInfo.#ctor
+  isExternal: true
+  name: TemplateInfo
+  nameWithType: TemplateInfo.TemplateInfo
+  fullName: SuperOffice.WebApi.Data.TemplateInfo.TemplateInfo
+- uid: SuperOffice.WebApi.Data.TemplateInfo.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: TemplateInfo.Name
+  fullName: SuperOffice.WebApi.Data.TemplateInfo.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TemplateInfo.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: TemplateInfo.Description
+  fullName: SuperOffice.WebApi.Data.TemplateInfo.Description
+- uid: SuperOffice.WebApi.Data.TemplateInfo.ExternalReference*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateInfo.ExternalReference
+  isExternal: true
+  name: ExternalReference
+  nameWithType: TemplateInfo.ExternalReference
+  fullName: SuperOffice.WebApi.Data.TemplateInfo.ExternalReference
+- uid: SuperOffice.WebApi.Data.TemplateInfo.PluginId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateInfo.PluginId
+  isExternal: true
+  name: PluginId
+  nameWithType: TemplateInfo.PluginId
+  fullName: SuperOffice.WebApi.Data.TemplateInfo.PluginId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

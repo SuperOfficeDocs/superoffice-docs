@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest
+  commentId: T:SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest
+  id: User_CreateDefaultUserFromUserTypeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.#ctor
+  - SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.UserType
+  langs:
+  - csharp
+  - vb
+  name: User_CreateDefaultUserFromUserTypeRequest
+  nameWithType: User_CreateDefaultUserFromUserTypeRequest
+  fullName: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_CreateDefaultUserFromUserTypeRequest : Object'
+    content.vb: >-
+      Public Class User_CreateDefaultUserFromUserTypeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: User_CreateDefaultUserFromUserTypeRequest()
+  nameWithType: User_CreateDefaultUserFromUserTypeRequest.User_CreateDefaultUserFromUserTypeRequest()
+  fullName: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.User_CreateDefaultUserFromUserTypeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_CreateDefaultUserFromUserTypeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.UserType
+  commentId: P:SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.UserType
+  id: UserType
+  parent: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: User_CreateDefaultUserFromUserTypeRequest.UserType
+  fullName: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.UserType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserType UserType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UserType
+    content.vb: Public Property UserType As UserType
+  overload: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.UserType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.#ctor
+  isExternal: true
+  name: User_CreateDefaultUserFromUserTypeRequest
+  nameWithType: User_CreateDefaultUserFromUserTypeRequest.User_CreateDefaultUserFromUserTypeRequest
+  fullName: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.User_CreateDefaultUserFromUserTypeRequest
+- uid: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.UserType*
+  commentId: Overload:SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: User_CreateDefaultUserFromUserTypeRequest.UserType
+  fullName: SuperOffice.WebApi.Data.User_CreateDefaultUserFromUserTypeRequest.UserType
+- uid: SuperOffice.WebApi.Data.UserType
+  commentId: T:SuperOffice.WebApi.Data.UserType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.WebApi.Data.UserType

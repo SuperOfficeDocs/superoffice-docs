@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest
+  id: Selection_UpdateTypicalSearchRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.Searches
+  langs:
+  - csharp
+  - vb
+  name: Selection_UpdateTypicalSearchRequest
+  nameWithType: Selection_UpdateTypicalSearchRequest
+  fullName: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_UpdateTypicalSearchRequest : Object'
+    content.vb: >-
+      Public Class Selection_UpdateTypicalSearchRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_UpdateTypicalSearchRequest()
+  nameWithType: Selection_UpdateTypicalSearchRequest.Selection_UpdateTypicalSearchRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.Selection_UpdateTypicalSearchRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_UpdateTypicalSearchRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.Searches
+  commentId: P:SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.Searches
+  id: Searches
+  parent: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: Searches
+  nameWithType: Selection_UpdateTypicalSearchRequest.Searches
+  fullName: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.Searches
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TypicalSearches Searches { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TypicalSearches
+    content.vb: Public Property Searches As TypicalSearches
+  overload: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.Searches*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.#ctor
+  isExternal: true
+  name: Selection_UpdateTypicalSearchRequest
+  nameWithType: Selection_UpdateTypicalSearchRequest.Selection_UpdateTypicalSearchRequest
+  fullName: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.Selection_UpdateTypicalSearchRequest
+- uid: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.Searches*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.Searches
+  isExternal: true
+  name: Searches
+  nameWithType: Selection_UpdateTypicalSearchRequest.Searches
+  fullName: SuperOffice.WebApi.Data.Selection_UpdateTypicalSearchRequest.Searches
+- uid: SuperOffice.WebApi.Data.TypicalSearches
+  commentId: T:SuperOffice.WebApi.Data.TypicalSearches
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TypicalSearches
+  nameWithType: TypicalSearches
+  fullName: SuperOffice.WebApi.Data.TypicalSearches

@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Associate_SaveNoteRequest
+  commentId: T:SuperOffice.WebApi.Data.Associate_SaveNoteRequest
+  id: Associate_SaveNoteRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Associate_SaveNoteRequest.#ctor
+  - SuperOffice.WebApi.Data.Associate_SaveNoteRequest.AssociateId
+  - SuperOffice.WebApi.Data.Associate_SaveNoteRequest.Note
+  langs:
+  - csharp
+  - vb
+  name: Associate_SaveNoteRequest
+  nameWithType: Associate_SaveNoteRequest
+  fullName: SuperOffice.WebApi.Data.Associate_SaveNoteRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Associate_SaveNoteRequest : Object'
+    content.vb: >-
+      Public Class Associate_SaveNoteRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Associate_SaveNoteRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Associate_SaveNoteRequest
+  langs:
+  - csharp
+  - vb
+  name: Associate_SaveNoteRequest()
+  nameWithType: Associate_SaveNoteRequest.Associate_SaveNoteRequest()
+  fullName: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.Associate_SaveNoteRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Associate_SaveNoteRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Associate_SaveNoteRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Associate_SaveNoteRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Associate_SaveNoteRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.Note
+  commentId: P:SuperOffice.WebApi.Data.Associate_SaveNoteRequest.Note
+  id: Note
+  parent: SuperOffice.WebApi.Data.Associate_SaveNoteRequest
+  langs:
+  - csharp
+  - vb
+  name: Note
+  nameWithType: Associate_SaveNoteRequest.Note
+  fullName: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.Note
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] Note { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Note As String()
+  overload: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.Note*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate_SaveNoteRequest.#ctor
+  isExternal: true
+  name: Associate_SaveNoteRequest
+  nameWithType: Associate_SaveNoteRequest.Associate_SaveNoteRequest
+  fullName: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.Associate_SaveNoteRequest
+- uid: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate_SaveNoteRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Associate_SaveNoteRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.Note*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate_SaveNoteRequest.Note
+  isExternal: true
+  name: Note
+  nameWithType: Associate_SaveNoteRequest.Note
+  fullName: SuperOffice.WebApi.Data.Associate_SaveNoteRequest.Note
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

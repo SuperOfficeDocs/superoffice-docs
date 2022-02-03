@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
+  id: GuideHeaderItem
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.#ctor
+  - SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.#ctor(System.String,System.String)
+  - SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.Render(System.Web.UI.HtmlTextWriter)
+  langs:
+  - csharp
+  - vb
+  name: GuideHeaderItem
+  nameWithType: GuideHeaderItem
+  fullName: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: 'public class GuideHeaderItem : WizardHeaderItem'
+    content.vb: >-
+      Public Class GuideHeaderItem
+          Inherits WizardHeaderItem
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Caption
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Selected
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Header
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Icon
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.SelectedIcon
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.BlankIcon
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.SoProtocol
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.ModeParam
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.ForceNavigatable
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.IsLast
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.IsFirst
+  - SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.AllowNavigation
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.#ctor(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
+  langs:
+  - csharp
+  - vb
+  name: GuideHeaderItem(String, String)
+  nameWithType: GuideHeaderItem.GuideHeaderItem(String, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.GuideHeaderItem(System.String, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public GuideHeaderItem(string caption, string soprotocol)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: soprotocol
+      type: System.String
+    content.vb: Public Sub New(caption As String, soprotocol As String)
+  overload: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
+  langs:
+  - csharp
+  - vb
+  name: GuideHeaderItem()
+  nameWithType: GuideHeaderItem.GuideHeaderItem()
+  fullName: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.GuideHeaderItem()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public GuideHeaderItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: GuideHeaderItem.Render(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overridden: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Render(System.Web.UI.HtmlTextWriter)
+  overload: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: WizardHeaderItem
+  nameWithType: WizardHeaderItem
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Caption
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Caption
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: Caption
+  nameWithType: WizardHeaderItem.Caption
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Caption
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Selected
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Selected
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: Selected
+  nameWithType: WizardHeaderItem.Selected
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Selected
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Header
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Header
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: Header
+  nameWithType: WizardHeaderItem.Header
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Header
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Icon
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Icon
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: Icon
+  nameWithType: WizardHeaderItem.Icon
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Icon
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.SelectedIcon
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.SelectedIcon
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: SelectedIcon
+  nameWithType: WizardHeaderItem.SelectedIcon
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.SelectedIcon
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.BlankIcon
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.BlankIcon
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: BlankIcon
+  nameWithType: WizardHeaderItem.BlankIcon
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.BlankIcon
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.SoProtocol
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.SoProtocol
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: SoProtocol
+  nameWithType: WizardHeaderItem.SoProtocol
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.SoProtocol
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.ModeParam
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.ModeParam
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: ModeParam
+  nameWithType: WizardHeaderItem.ModeParam
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.ModeParam
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.ForceNavigatable
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.ForceNavigatable
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: ForceNavigatable
+  nameWithType: WizardHeaderItem.ForceNavigatable
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.ForceNavigatable
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.IsLast
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.IsLast
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: IsLast
+  nameWithType: WizardHeaderItem.IsLast
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.IsLast
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.IsFirst
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.IsFirst
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: IsFirst
+  nameWithType: WizardHeaderItem.IsFirst
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.IsFirst
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.AllowNavigation
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.AllowNavigation
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: AllowNavigation
+  nameWithType: WizardHeaderItem.AllowNavigation
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.AllowNavigation
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.#ctor
+  isExternal: true
+  name: GuideHeaderItem
+  nameWithType: GuideHeaderItem.GuideHeaderItem
+  fullName: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.GuideHeaderItem
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+  isExternal: true
+  name: Render(HtmlTextWriter)
+  nameWithType: WizardHeaderItem.Render(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Render(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: WizardHeaderItem.Render
+    fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: WizardHeaderItem.Render
+    fullName: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.Render*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.Render
+  isExternal: true
+  name: Render
+  nameWithType: GuideHeaderItem.Render
+  fullName: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter

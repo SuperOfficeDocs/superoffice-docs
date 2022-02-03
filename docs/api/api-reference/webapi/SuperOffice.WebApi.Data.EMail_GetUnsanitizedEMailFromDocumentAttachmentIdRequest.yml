@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  id: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.AttachmentIds
+  - SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.DocId
+  - SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.IncludeAttachments
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  nameWithType: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest()
+  nameWithType: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.DocId
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.DocId
+  id: DocId
+  parent: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  langs:
+  - csharp
+  - vb
+  name: DocId
+  nameWithType: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.DocId
+  fullName: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.DocId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.DocId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.AttachmentIds
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.AttachmentIds
+  id: AttachmentIds
+  parent: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  langs:
+  - csharp
+  - vb
+  name: AttachmentIds
+  nameWithType: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.AttachmentIds
+  fullName: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.AttachmentIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] AttachmentIds { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property AttachmentIds As String()
+  overload: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.AttachmentIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.IncludeAttachments
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.IncludeAttachments
+  id: IncludeAttachments
+  parent: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeAttachments
+  nameWithType: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.IncludeAttachments
+  fullName: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.IncludeAttachments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeAttachments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeAttachments As Boolean
+  overload: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.IncludeAttachments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.#ctor
+  isExternal: true
+  name: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  nameWithType: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.DocId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.DocId
+  isExternal: true
+  name: DocId
+  nameWithType: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.DocId
+  fullName: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.DocId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.AttachmentIds*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.AttachmentIds
+  isExternal: true
+  name: AttachmentIds
+  nameWithType: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.AttachmentIds
+  fullName: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.AttachmentIds
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.IncludeAttachments*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.IncludeAttachments
+  isExternal: true
+  name: IncludeAttachments
+  nameWithType: EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.IncludeAttachments
+  fullName: SuperOffice.WebApi.Data.EMail_GetUnsanitizedEMailFromDocumentAttachmentIdRequest.IncludeAttachments
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,661 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent
+  commentId: T:SuperOffice.CRM.Web.Data.SelectionCurrent
+  id: SelectionCurrent
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.SelectionCurrent.#ctor
+  - SuperOffice.CRM.Web.Data.SelectionCurrent.ArchiveName
+  - SuperOffice.CRM.Web.Data.SelectionCurrent.HasShadowArchive
+  - SuperOffice.CRM.Web.Data.SelectionCurrent.MemberArchiveVisible
+  - SuperOffice.CRM.Web.Data.SelectionCurrent.ProviderName
+  - SuperOffice.CRM.Web.Data.SelectionCurrent.SelectionId
+  - SuperOffice.CRM.Web.Data.SelectionCurrent.SelectionMemberType
+  - SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowArchiveName
+  - SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowArchiveVisible
+  - SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowProviderName
+  - SuperOffice.CRM.Web.Data.SelectionCurrent.TargetTableNumber
+  langs:
+  - csharp
+  - vb
+  name: SelectionCurrent
+  nameWithType: SelectionCurrent
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public class SelectionCurrent
+    content.vb: Public Class SelectionCurrent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.SelectionId
+  commentId: F:SuperOffice.CRM.Web.Data.SelectionCurrent.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Web.Data.SelectionCurrent
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: SelectionCurrent.SelectionId
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.SelectionId
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int SelectionId
+    return:
+      type: System.Int32
+    content.vb: Public SelectionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.TargetTableNumber
+  commentId: F:SuperOffice.CRM.Web.Data.SelectionCurrent.TargetTableNumber
+  id: TargetTableNumber
+  parent: SuperOffice.CRM.Web.Data.SelectionCurrent
+  langs:
+  - csharp
+  - vb
+  name: TargetTableNumber
+  nameWithType: SelectionCurrent.TargetTableNumber
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.TargetTableNumber
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int TargetTableNumber
+    return:
+      type: System.Int32
+    content.vb: Public TargetTableNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.SelectionMemberType
+  commentId: F:SuperOffice.CRM.Web.Data.SelectionCurrent.SelectionMemberType
+  id: SelectionMemberType
+  parent: SuperOffice.CRM.Web.Data.SelectionCurrent
+  langs:
+  - csharp
+  - vb
+  name: SelectionMemberType
+  nameWithType: SelectionCurrent.SelectionMemberType
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.SelectionMemberType
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string SelectionMemberType
+    return:
+      type: System.String
+    content.vb: Public SelectionMemberType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.ProviderName
+  commentId: F:SuperOffice.CRM.Web.Data.SelectionCurrent.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.Web.Data.SelectionCurrent
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: SelectionCurrent.ProviderName
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.ProviderName
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string ProviderName
+    return:
+      type: System.String
+    content.vb: Public ProviderName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.ArchiveName
+  commentId: F:SuperOffice.CRM.Web.Data.SelectionCurrent.ArchiveName
+  id: ArchiveName
+  parent: SuperOffice.CRM.Web.Data.SelectionCurrent
+  langs:
+  - csharp
+  - vb
+  name: ArchiveName
+  nameWithType: SelectionCurrent.ArchiveName
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.ArchiveName
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string ArchiveName
+    return:
+      type: System.String
+    content.vb: Public ArchiveName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowProviderName
+  commentId: F:SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowProviderName
+  id: ShadowProviderName
+  parent: SuperOffice.CRM.Web.Data.SelectionCurrent
+  langs:
+  - csharp
+  - vb
+  name: ShadowProviderName
+  nameWithType: SelectionCurrent.ShadowProviderName
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowProviderName
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string ShadowProviderName
+    return:
+      type: System.String
+    content.vb: Public ShadowProviderName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowArchiveName
+  commentId: F:SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowArchiveName
+  id: ShadowArchiveName
+  parent: SuperOffice.CRM.Web.Data.SelectionCurrent
+  langs:
+  - csharp
+  - vb
+  name: ShadowArchiveName
+  nameWithType: SelectionCurrent.ShadowArchiveName
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowArchiveName
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string ShadowArchiveName
+    return:
+      type: System.String
+    content.vb: Public ShadowArchiveName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.HasShadowArchive
+  commentId: F:SuperOffice.CRM.Web.Data.SelectionCurrent.HasShadowArchive
+  id: HasShadowArchive
+  parent: SuperOffice.CRM.Web.Data.SelectionCurrent
+  langs:
+  - csharp
+  - vb
+  name: HasShadowArchive
+  nameWithType: SelectionCurrent.HasShadowArchive
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.HasShadowArchive
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool HasShadowArchive
+    return:
+      type: System.Boolean
+    content.vb: Public HasShadowArchive As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.MemberArchiveVisible
+  commentId: F:SuperOffice.CRM.Web.Data.SelectionCurrent.MemberArchiveVisible
+  id: MemberArchiveVisible
+  parent: SuperOffice.CRM.Web.Data.SelectionCurrent
+  langs:
+  - csharp
+  - vb
+  name: MemberArchiveVisible
+  nameWithType: SelectionCurrent.MemberArchiveVisible
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.MemberArchiveVisible
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool MemberArchiveVisible
+    return:
+      type: System.Boolean
+    content.vb: Public MemberArchiveVisible As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowArchiveVisible
+  commentId: F:SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowArchiveVisible
+  id: ShadowArchiveVisible
+  parent: SuperOffice.CRM.Web.Data.SelectionCurrent
+  langs:
+  - csharp
+  - vb
+  name: ShadowArchiveVisible
+  nameWithType: SelectionCurrent.ShadowArchiveVisible
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.ShadowArchiveVisible
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool ShadowArchiveVisible
+    return:
+      type: System.Boolean
+    content.vb: Public ShadowArchiveVisible As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.SelectionCurrent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.SelectionCurrent
+  langs:
+  - csharp
+  - vb
+  name: SelectionCurrent()
+  nameWithType: SelectionCurrent.SelectionCurrent()
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.SelectionCurrent()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public SelectionCurrent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.SelectionCurrent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Data.SelectionCurrent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.SelectionCurrent.#ctor
+  isExternal: true
+  name: SelectionCurrent
+  nameWithType: SelectionCurrent.SelectionCurrent
+  fullName: SuperOffice.CRM.Web.Data.SelectionCurrent.SelectionCurrent

@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CheckoutState
+  commentId: T:SuperOffice.WebApi.Data.CheckoutState
+  id: CheckoutState
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CheckoutState.CheckedOutOther
+  - SuperOffice.WebApi.Data.CheckoutState.CheckedOutOwn
+  - SuperOffice.WebApi.Data.CheckoutState.LockingNotSupported
+  - SuperOffice.WebApi.Data.CheckoutState.NotCheckedOut
+  - SuperOffice.WebApi.Data.CheckoutState.value__
+  langs:
+  - csharp
+  - vb
+  name: CheckoutState
+  nameWithType: CheckoutState
+  fullName: SuperOffice.WebApi.Data.CheckoutState
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnum listing the possible checkout states of a document, as seen from outside the document plugin\n"
+  syntax:
+    content: 'public sealed class CheckoutState : Enum'
+    content.vb: >-
+      Public NotInheritable Class CheckoutState
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.CheckoutState.value__
+  commentId: F:SuperOffice.WebApi.Data.CheckoutState.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.CheckoutState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CheckoutState.value__
+  fullName: SuperOffice.WebApi.Data.CheckoutState.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CheckoutState.NotCheckedOut
+  commentId: F:SuperOffice.WebApi.Data.CheckoutState.NotCheckedOut
+  id: NotCheckedOut
+  parent: SuperOffice.WebApi.Data.CheckoutState
+  langs:
+  - csharp
+  - vb
+  name: NotCheckedOut
+  nameWithType: CheckoutState.NotCheckedOut
+  fullName: SuperOffice.WebApi.Data.CheckoutState.NotCheckedOut
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Document is not checked out\n"
+  syntax:
+    content: public const CheckoutState NotCheckedOut
+    return:
+      type: SuperOffice.WebApi.Data.CheckoutState
+    content.vb: Public Const NotCheckedOut As CheckoutState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CheckoutState.CheckedOutOwn
+  commentId: F:SuperOffice.WebApi.Data.CheckoutState.CheckedOutOwn
+  id: CheckedOutOwn
+  parent: SuperOffice.WebApi.Data.CheckoutState
+  langs:
+  - csharp
+  - vb
+  name: CheckedOutOwn
+  nameWithType: CheckoutState.CheckedOutOwn
+  fullName: SuperOffice.WebApi.Data.CheckoutState.CheckedOutOwn
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Document is checked out, to the user making the query\n"
+  syntax:
+    content: public const CheckoutState CheckedOutOwn
+    return:
+      type: SuperOffice.WebApi.Data.CheckoutState
+    content.vb: Public Const CheckedOutOwn As CheckoutState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CheckoutState.CheckedOutOther
+  commentId: F:SuperOffice.WebApi.Data.CheckoutState.CheckedOutOther
+  id: CheckedOutOther
+  parent: SuperOffice.WebApi.Data.CheckoutState
+  langs:
+  - csharp
+  - vb
+  name: CheckedOutOther
+  nameWithType: CheckoutState.CheckedOutOther
+  fullName: SuperOffice.WebApi.Data.CheckoutState.CheckedOutOther
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Document is checked out, to a user different from the one making the query\n"
+  syntax:
+    content: public const CheckoutState CheckedOutOther
+    return:
+      type: SuperOffice.WebApi.Data.CheckoutState
+    content.vb: Public Const CheckedOutOther As CheckoutState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CheckoutState.LockingNotSupported
+  commentId: F:SuperOffice.WebApi.Data.CheckoutState.LockingNotSupported
+  id: LockingNotSupported
+  parent: SuperOffice.WebApi.Data.CheckoutState
+  langs:
+  - csharp
+  - vb
+  name: LockingNotSupported
+  nameWithType: CheckoutState.LockingNotSupported
+  fullName: SuperOffice.WebApi.Data.CheckoutState.LockingNotSupported
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Locking is not supported or selected for this document. The document is always &apos;writeable&apos; in the sense of not being protected by any locks. The document may still be read-only due to Sentry constraints.\n"
+  syntax:
+    content: public const CheckoutState LockingNotSupported
+    return:
+      type: SuperOffice.WebApi.Data.CheckoutState
+    content.vb: Public Const LockingNotSupported As CheckoutState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CheckoutState
+  commentId: T:SuperOffice.WebApi.Data.CheckoutState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CheckoutState
+  nameWithType: CheckoutState
+  fullName: SuperOffice.WebApi.Data.CheckoutState

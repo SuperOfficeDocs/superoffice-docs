@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+  id: Appointment_UpdateAppointmentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.AssociateId
+  - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.EndTime
+  - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Id
+  - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.StartTime
+  - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Status
+  - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Type
+  langs:
+  - csharp
+  - vb
+  name: Appointment_UpdateAppointmentRequest
+  nameWithType: Appointment_UpdateAppointmentRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_UpdateAppointmentRequest : Object'
+    content.vb: >-
+      Public Class Appointment_UpdateAppointmentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_UpdateAppointmentRequest()
+  nameWithType: Appointment_UpdateAppointmentRequest.Appointment_UpdateAppointmentRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Appointment_UpdateAppointmentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_UpdateAppointmentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Appointment_UpdateAppointmentRequest.Id
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.StartTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.StartTime
+  id: StartTime
+  parent: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: Appointment_UpdateAppointmentRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.StartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime StartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.StartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.EndTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.EndTime
+  id: EndTime
+  parent: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: EndTime
+  nameWithType: Appointment_UpdateAppointmentRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.EndTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime EndTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.EndTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Status
+  commentId: P:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Appointment_UpdateAppointmentRequest.Status
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Type
+  commentId: P:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Appointment_UpdateAppointmentRequest.Type
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Type { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Type As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Appointment_UpdateAppointmentRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.#ctor
+  isExternal: true
+  name: Appointment_UpdateAppointmentRequest
+  nameWithType: Appointment_UpdateAppointmentRequest.Appointment_UpdateAppointmentRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Appointment_UpdateAppointmentRequest
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: Appointment_UpdateAppointmentRequest.Id
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.StartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.StartTime
+  isExternal: true
+  name: StartTime
+  nameWithType: Appointment_UpdateAppointmentRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.StartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.EndTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.EndTime
+  isExternal: true
+  name: EndTime
+  nameWithType: Appointment_UpdateAppointmentRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.EndTime
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Status
+  isExternal: true
+  name: Status
+  nameWithType: Appointment_UpdateAppointmentRequest.Status
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Status
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Type
+  isExternal: true
+  name: Type
+  nameWithType: Appointment_UpdateAppointmentRequest.Type
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.Type
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Appointment_UpdateAppointmentRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest.AssociateId

@@ -1,0 +1,557 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.IntOperators
+  commentId: T:SuperOffice.ErpSync.IntOperators
+  id: IntOperators
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.IntOperators.BETWEEN
+  - SuperOffice.ErpSync.IntOperators.EQUALS
+  - SuperOffice.ErpSync.IntOperators.GREATER_OR_EQUAL
+  - SuperOffice.ErpSync.IntOperators.GREATER_THAN
+  - SuperOffice.ErpSync.IntOperators.LESS_OR_EQUAL
+  - SuperOffice.ErpSync.IntOperators.LESS_THAN
+  - SuperOffice.ErpSync.IntOperators.NOT_EQUALS
+  langs:
+  - csharp
+  - vb
+  name: IntOperators
+  nameWithType: IntOperators
+  fullName: SuperOffice.ErpSync.IntOperators
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nSupported operators for int fields through advanced search\n"
+  syntax:
+    content: public static class IntOperators
+    content.vb: Public Module IntOperators
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.ErpSync.IntOperators.EQUALS
+  commentId: F:SuperOffice.ErpSync.IntOperators.EQUALS
+  id: EQUALS
+  parent: SuperOffice.ErpSync.IntOperators
+  langs:
+  - csharp
+  - vb
+  name: EQUALS
+  nameWithType: IntOperators.EQUALS
+  fullName: SuperOffice.ErpSync.IntOperators.EQUALS
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Equals&quot; operator.\n"
+  syntax:
+    content: public const string EQUALS = "="
+    return:
+      type: System.String
+    content.vb: Public Const EQUALS As String = "="
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.IntOperators.GREATER_THAN
+  commentId: F:SuperOffice.ErpSync.IntOperators.GREATER_THAN
+  id: GREATER_THAN
+  parent: SuperOffice.ErpSync.IntOperators
+  langs:
+  - csharp
+  - vb
+  name: GREATER_THAN
+  nameWithType: IntOperators.GREATER_THAN
+  fullName: SuperOffice.ErpSync.IntOperators.GREATER_THAN
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Greater than&quot; operator.\n"
+  syntax:
+    content: public const string GREATER_THAN = ">"
+    return:
+      type: System.String
+    content.vb: Public Const GREATER_THAN As String = ">"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.IntOperators.LESS_THAN
+  commentId: F:SuperOffice.ErpSync.IntOperators.LESS_THAN
+  id: LESS_THAN
+  parent: SuperOffice.ErpSync.IntOperators
+  langs:
+  - csharp
+  - vb
+  name: LESS_THAN
+  nameWithType: IntOperators.LESS_THAN
+  fullName: SuperOffice.ErpSync.IntOperators.LESS_THAN
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Less than&quot; operator.\n"
+  syntax:
+    content: public const string LESS_THAN = "<"
+    return:
+      type: System.String
+    content.vb: Public Const LESS_THAN As String = "<"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.IntOperators.GREATER_OR_EQUAL
+  commentId: F:SuperOffice.ErpSync.IntOperators.GREATER_OR_EQUAL
+  id: GREATER_OR_EQUAL
+  parent: SuperOffice.ErpSync.IntOperators
+  langs:
+  - csharp
+  - vb
+  name: GREATER_OR_EQUAL
+  nameWithType: IntOperators.GREATER_OR_EQUAL
+  fullName: SuperOffice.ErpSync.IntOperators.GREATER_OR_EQUAL
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Greater than or equals&quot; operator.\n"
+  syntax:
+    content: public const string GREATER_OR_EQUAL = ">="
+    return:
+      type: System.String
+    content.vb: Public Const GREATER_OR_EQUAL As String = ">="
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.IntOperators.LESS_OR_EQUAL
+  commentId: F:SuperOffice.ErpSync.IntOperators.LESS_OR_EQUAL
+  id: LESS_OR_EQUAL
+  parent: SuperOffice.ErpSync.IntOperators
+  langs:
+  - csharp
+  - vb
+  name: LESS_OR_EQUAL
+  nameWithType: IntOperators.LESS_OR_EQUAL
+  fullName: SuperOffice.ErpSync.IntOperators.LESS_OR_EQUAL
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Less than or equals&quot; operator.\n"
+  syntax:
+    content: public const string LESS_OR_EQUAL = "<="
+    return:
+      type: System.String
+    content.vb: Public Const LESS_OR_EQUAL As String = "<="
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.IntOperators.NOT_EQUALS
+  commentId: F:SuperOffice.ErpSync.IntOperators.NOT_EQUALS
+  id: NOT_EQUALS
+  parent: SuperOffice.ErpSync.IntOperators
+  langs:
+  - csharp
+  - vb
+  name: NOT_EQUALS
+  nameWithType: IntOperators.NOT_EQUALS
+  fullName: SuperOffice.ErpSync.IntOperators.NOT_EQUALS
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Does not equal&quot; operator.\n"
+  syntax:
+    content: public const string NOT_EQUALS = "!="
+    return:
+      type: System.String
+    content.vb: Public Const NOT_EQUALS As String = "!="
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.IntOperators.BETWEEN
+  commentId: F:SuperOffice.ErpSync.IntOperators.BETWEEN
+  id: BETWEEN
+  parent: SuperOffice.ErpSync.IntOperators
+  langs:
+  - csharp
+  - vb
+  name: BETWEEN
+  nameWithType: IntOperators.BETWEEN
+  fullName: SuperOffice.ErpSync.IntOperators.BETWEEN
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Between&quot; operator. Search values are presented in desired order.\n"
+  syntax:
+    content: public const string BETWEEN = "between"
+    return:
+      type: System.String
+    content.vb: Public Const BETWEEN As String = "between"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel
+  id: UserPreferenceStrings.MiniPanel
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel.LockMiniPanel
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.MiniPanel
+  nameWithType: UserPreferenceStrings.MiniPanel
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference keys for the mini panel.\n"
+  syntax:
+    content: 'public static class MiniPanel : Object'
+    content.vb: >-
+      Public Module MiniPanel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.MiniPanel.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "MiniPanel"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "MiniPanel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel.LockMiniPanel
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel.LockMiniPanel
+  id: LockMiniPanel
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel
+  langs:
+  - csharp
+  - vb
+  name: LockMiniPanel
+  nameWithType: UserPreferenceStrings.MiniPanel.LockMiniPanel
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel.LockMiniPanel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf the minipanel is not locked, the userpref is empty. \nIf locked, the preference contains the soprotocol for the locked view.\n"
+  syntax:
+    content: public const string LockMiniPanel = "LockMiniPanel"
+    return:
+      type: System.String
+    content.vb: Public Const LockMiniPanel As String = "LockMiniPanel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

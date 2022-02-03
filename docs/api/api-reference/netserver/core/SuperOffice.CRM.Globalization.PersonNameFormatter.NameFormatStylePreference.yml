@@ -1,0 +1,675 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  commentId: T:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  id: PersonNameFormatter.NameFormatStylePreference
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Alphabetic
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.FirstNameLastName
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.FirstNameOnly
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Group
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.LastNameFirstName
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.LastNameOnly
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.ListOrder
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Position
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.SortOrder
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.UsePreferences
+  langs:
+  - csharp
+  - vb
+  name: PersonNameFormatter.NameFormatStylePreference
+  nameWithType: PersonNameFormatter.NameFormatStylePreference
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nEnumerator used to determine the format of the full name.\n"
+  syntax:
+    content: public enum NameFormatStylePreference
+    content.vb: Public Enum NameFormatStylePreference
+  extensionMethods:
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.UsePreferences
+  commentId: F:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.UsePreferences
+  id: UsePreferences
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  langs:
+  - csharp
+  - vb
+  name: UsePreferences
+  nameWithType: PersonNameFormatter.NameFormatStylePreference.UsePreferences
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.UsePreferences
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: UsePreferences = 0
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.FirstNameLastName
+  commentId: F:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.FirstNameLastName
+  id: FirstNameLastName
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  langs:
+  - csharp
+  - vb
+  name: FirstNameLastName
+  nameWithType: PersonNameFormatter.NameFormatStylePreference.FirstNameLastName
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.FirstNameLastName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: FirstNameLastName = 1
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.LastNameFirstName
+  commentId: F:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.LastNameFirstName
+  id: LastNameFirstName
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  langs:
+  - csharp
+  - vb
+  name: LastNameFirstName
+  nameWithType: PersonNameFormatter.NameFormatStylePreference.LastNameFirstName
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.LastNameFirstName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: LastNameFirstName = 2
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Position
+  commentId: F:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Position
+  id: Position
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: PersonNameFormatter.NameFormatStylePreference.Position
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Position
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: Position = 3
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.ListOrder
+  commentId: F:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.ListOrder
+  id: ListOrder
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  langs:
+  - csharp
+  - vb
+  name: ListOrder
+  nameWithType: PersonNameFormatter.NameFormatStylePreference.ListOrder
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.ListOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: ListOrder = 4
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Alphabetic
+  commentId: F:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Alphabetic
+  id: Alphabetic
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  langs:
+  - csharp
+  - vb
+  name: Alphabetic
+  nameWithType: PersonNameFormatter.NameFormatStylePreference.Alphabetic
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Alphabetic
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: Alphabetic = 5
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Group
+  commentId: F:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Group
+  id: Group
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: PersonNameFormatter.NameFormatStylePreference.Group
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.Group
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: Group = 6
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.SortOrder
+  commentId: F:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.SortOrder
+  id: SortOrder
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: PersonNameFormatter.NameFormatStylePreference.SortOrder
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.SortOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: SortOrder = 7
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.FirstNameOnly
+  commentId: F:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.FirstNameOnly
+  id: FirstNameOnly
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  langs:
+  - csharp
+  - vb
+  name: FirstNameOnly
+  nameWithType: PersonNameFormatter.NameFormatStylePreference.FirstNameOnly
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.FirstNameOnly
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: FirstNameOnly = 8
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.LastNameOnly
+  commentId: F:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.LastNameOnly
+  id: LastNameOnly
+  parent: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  langs:
+  - csharp
+  - vb
+  name: LastNameOnly
+  nameWithType: PersonNameFormatter.NameFormatStylePreference.LastNameOnly
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.LastNameOnly
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: LastNameOnly = 9
+    return:
+      type: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PersonNameFormatter.NameFormatStylePreference, To>()
+  nameWithType: EnumUtil.MapEnums<PersonNameFormatter.NameFormatStylePreference, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PersonNameFormatter.NameFormatStylePreference, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference, To)()
+  name.vb: MapEnums(Of PersonNameFormatter.NameFormatStylePreference, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PersonNameFormatter.NameFormatStylePreference, To>
+    nameWithType: EnumUtil.MapEnums<PersonNameFormatter.NameFormatStylePreference, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PersonNameFormatter.NameFormatStylePreference, To)
+    nameWithType: EnumUtil.MapEnums(Of PersonNameFormatter.NameFormatStylePreference, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<PersonNameFormatter.NameFormatStylePreference>(PersonNameFormatter.NameFormatStylePreference)
+  nameWithType: ObjectExtensions.AssignByReflection<PersonNameFormatter.NameFormatStylePreference>(PersonNameFormatter.NameFormatStylePreference)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference>(SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PersonNameFormatter.NameFormatStylePreference)(PersonNameFormatter.NameFormatStylePreference)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)(SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+  name.vb: AssignByReflection(Of PersonNameFormatter.NameFormatStylePreference)(PersonNameFormatter.NameFormatStylePreference)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<PersonNameFormatter.NameFormatStylePreference>
+    nameWithType: ObjectExtensions.AssignByReflection<PersonNameFormatter.NameFormatStylePreference>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+    name: PersonNameFormatter.NameFormatStylePreference
+    nameWithType: PersonNameFormatter.NameFormatStylePreference
+    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of PersonNameFormatter.NameFormatStylePreference)
+    nameWithType: ObjectExtensions.AssignByReflection(Of PersonNameFormatter.NameFormatStylePreference)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+    name: PersonNameFormatter.NameFormatStylePreference
+    nameWithType: PersonNameFormatter.NameFormatStylePreference
+    fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<PersonNameFormatter.NameFormatStylePreference>()
+  nameWithType: ObjectExtensions.GraphCopy<PersonNameFormatter.NameFormatStylePreference>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of PersonNameFormatter.NameFormatStylePreference)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)()
+  name.vb: GraphCopy(Of PersonNameFormatter.NameFormatStylePreference)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<PersonNameFormatter.NameFormatStylePreference>
+    nameWithType: ObjectExtensions.GraphCopy<PersonNameFormatter.NameFormatStylePreference>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of PersonNameFormatter.NameFormatStylePreference)
+    nameWithType: ObjectExtensions.GraphCopy(Of PersonNameFormatter.NameFormatStylePreference)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PersonNameFormatter.NameFormatStylePreference, To>()
+  nameWithType: Converters.MapEnums<PersonNameFormatter.NameFormatStylePreference, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference, To>()
+  nameWithType.vb: Converters.MapEnums(Of PersonNameFormatter.NameFormatStylePreference, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference, To)()
+  name.vb: MapEnums(Of PersonNameFormatter.NameFormatStylePreference, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PersonNameFormatter.NameFormatStylePreference, To>
+    nameWithType: Converters.MapEnums<PersonNameFormatter.NameFormatStylePreference, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PersonNameFormatter.NameFormatStylePreference, To)
+    nameWithType: Converters.MapEnums(Of PersonNameFormatter.NameFormatStylePreference, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  commentId: T:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: PersonNameFormatter.NameFormatStylePreference
+  nameWithType: PersonNameFormatter.NameFormatStylePreference
+  fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference

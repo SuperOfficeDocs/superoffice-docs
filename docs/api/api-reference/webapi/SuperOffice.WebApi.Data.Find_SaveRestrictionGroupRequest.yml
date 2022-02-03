@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest
+  commentId: T:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest
+  id: Find_SaveRestrictionGroupRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.#ctor
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.Context
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.ProviderName
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.RestrictionGroup
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageKey
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageType
+  langs:
+  - csharp
+  - vb
+  name: Find_SaveRestrictionGroupRequest
+  nameWithType: Find_SaveRestrictionGroupRequest
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Find_SaveRestrictionGroupRequest : Object'
+    content.vb: >-
+      Public Class Find_SaveRestrictionGroupRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Find_SaveRestrictionGroupRequest()
+  nameWithType: Find_SaveRestrictionGroupRequest.Find_SaveRestrictionGroupRequest()
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.Find_SaveRestrictionGroupRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Find_SaveRestrictionGroupRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageType
+  commentId: P:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageType
+  id: StorageType
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageType
+  nameWithType: Find_SaveRestrictionGroupRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageType As String
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Find_SaveRestrictionGroupRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageKey
+  commentId: P:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageKey
+  id: StorageKey
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageKey
+  nameWithType: Find_SaveRestrictionGroupRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageKey As String
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.RestrictionGroup
+  commentId: P:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.RestrictionGroup
+  id: RestrictionGroup
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: RestrictionGroup
+  nameWithType: Find_SaveRestrictionGroupRequest.RestrictionGroup
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.RestrictionGroup
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveRestrictionGroup RestrictionGroup { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    content.vb: Public Property RestrictionGroup As ArchiveRestrictionGroup
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.RestrictionGroup*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: Find_SaveRestrictionGroupRequest.Context
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.#ctor
+  isExternal: true
+  name: Find_SaveRestrictionGroupRequest
+  nameWithType: Find_SaveRestrictionGroupRequest.Find_SaveRestrictionGroupRequest
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.Find_SaveRestrictionGroupRequest
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageType*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageType
+  isExternal: true
+  name: StorageType
+  nameWithType: Find_SaveRestrictionGroupRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Find_SaveRestrictionGroupRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.ProviderName
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageKey
+  isExternal: true
+  name: StorageKey
+  nameWithType: Find_SaveRestrictionGroupRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.StorageKey
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.RestrictionGroup*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.RestrictionGroup
+  isExternal: true
+  name: RestrictionGroup
+  nameWithType: Find_SaveRestrictionGroupRequest.RestrictionGroup
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.RestrictionGroup
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+  commentId: T:SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ArchiveRestrictionGroup
+  nameWithType: ArchiveRestrictionGroup
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: Find_SaveRestrictionGroupRequest.Context
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionGroupRequest.Context

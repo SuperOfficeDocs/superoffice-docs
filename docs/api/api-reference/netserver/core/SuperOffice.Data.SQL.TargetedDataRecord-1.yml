@@ -1,0 +1,2395 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  id: TargetedDataRecord`1
+  parent: SuperOffice.Data.SQL
+  children:
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32(System.Int32)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetOrdinal(System.String)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetString(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.GetValues(System.Object[])
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.Reader
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.Table
+  langs:
+  - csharp
+  - vb
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: 'public sealed class TargetedDataRecord<MainTableInfo> : ISoDataRecord where MainTableInfo : TableInfo'
+    typeParameters:
+    - id: MainTableInfo
+    content.vb: >-
+      Public NotInheritable Class TargetedDataRecord(Of MainTableInfo As TableInfo)
+          Implements ISoDataRecord
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Data.ISoDataRecord
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.TargetedDataRecord`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  id: GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetBoolean(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetBoolean(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public bool GetBoolean(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetBoolean(field As FieldInfo) As Boolean
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetBoolean*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetBoolean(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  id: GetByte(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetByte(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetByte(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public byte GetByte(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Byte
+    content.vb: Public Function GetByte(field As FieldInfo) As Byte
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetByte*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetByte(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetByte(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  id: GetChar(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetChar(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetChar(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public char GetChar(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Char
+    content.vb: Public Function GetChar(field As FieldInfo) As Char
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetChar*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetChar(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetChar(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  id: GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetDateTime(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetDateTime(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public DateTime GetDateTime(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.DateTime
+    content.vb: Public Function GetDateTime(field As FieldInfo) As Date
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetDateTime*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetDateTime(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  id: GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetDecimal(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetDecimal(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public decimal GetDecimal(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Decimal
+    content.vb: Public Function GetDecimal(field As FieldInfo) As Decimal
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetDecimal*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetDecimal(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  id: GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetDouble(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetDouble(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public double GetDouble(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Double
+    content.vb: Public Function GetDouble(field As FieldInfo) As Double
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetDouble*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetDouble(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetDouble(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  id: GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetFloat(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetFloat(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public float GetFloat(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Single
+    content.vb: Public Function GetFloat(field As FieldInfo) As Single
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetFloat*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetFloat(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetFloat(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  id: GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetGuid(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetGuid(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public Guid GetGuid(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Guid
+    content.vb: Public Function GetGuid(field As FieldInfo) As Guid
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetGuid*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetGuid(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetGuid(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  id: GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetInt16(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetInt16(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public short GetInt16(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Int16
+    content.vb: Public Function GetInt16(field As FieldInfo) As Short
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt16*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetInt16(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetInt16(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  id: GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetInt32(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetInt32(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public int GetInt32(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Int32
+    content.vb: Public Function GetInt32(field As FieldInfo) As Integer
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetInt32(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetInt32(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  id: GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetInt32Array(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetInt32Array(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public int[] GetInt32Array(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Int32[]
+    content.vb: Public Function GetInt32Array(field As FieldInfo) As Integer()
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32Array*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetInt32Array(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32(System.Int32)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32(System.Int32)
+  id: GetInt32(System.Int32)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetInt32(Int32)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetInt32(Int32)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetInt32(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public int GetInt32(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function GetInt32(index As Integer) As Integer
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetInt32(System.Int32)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetInt32(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetInt32(System.Int32)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  id: GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetInt64(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetInt64(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public long GetInt64(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Int64
+    content.vb: Public Function GetInt64(field As FieldInfo) As Long
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt64*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetInt64(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetInt64(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetOrdinal(System.String)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetOrdinal(System.String)
+  id: GetOrdinal(System.String)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetOrdinal(String)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetOrdinal(String)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetOrdinal(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public int GetOrdinal(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function GetOrdinal(name As String) As Integer
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetOrdinal*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetOrdinal(System.String)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetOrdinal(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetOrdinal(System.String)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetString(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetString(SuperOffice.Data.SQL.FieldInfo)
+  id: GetString(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetString(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetString(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetString(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public string GetString(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.String
+    content.vb: Public Function GetString(field As FieldInfo) As String
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetString*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetString(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetString(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  id: GetValue(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetValue(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetValue(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public object GetValue(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Object
+    content.vb: Public Function GetValue(field As FieldInfo) As Object
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetValue*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetValue(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetValue(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetValues(System.Object[])
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetValues(System.Object[])
+  id: GetValues(System.Object[])
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetValues(Object[])
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetValues(Object[])
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetValues(System.Object[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public int GetValues(object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+    return:
+      type: System.Int32
+    content.vb: Public Function GetValues(values As Object()) As Integer
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetValues*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetValues(System.Object[])
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetValues(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetValues(System.Object())
+  name.vb: GetValues(Object())
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+  id: GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: GetEnum<E>(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetEnum<E>(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetEnum<E>(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public E GetEnum<E>(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    typeParameters:
+    - id: E
+    return:
+      type: '{E}'
+    content.vb: Public Function GetEnum(Of E)(field As FieldInfo) As E
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.GetEnum*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetEnum(Of E)(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetEnum(Of E)(SuperOffice.Data.SQL.FieldInfo)
+  name.vb: GetEnum(Of E)(FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.TargetedDataRecord`1.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  id: IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: IsDBNull(FieldInfo)
+  nameWithType: TargetedDataRecord<MainTableInfo>.IsDBNull(FieldInfo)
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public bool IsDBNull(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsDBNull(field As FieldInfo) As Boolean
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.IsDBNull*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).IsDBNull(FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.Table
+  commentId: P:SuperOffice.Data.SQL.TargetedDataRecord`1.Table
+  id: Table
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: Table
+  nameWithType: TargetedDataRecord<MainTableInfo>.Table
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.Table
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public MainTableInfo Table { get; }
+    parameters: []
+    return:
+      type: '{MainTableInfo}'
+    content.vb: Public ReadOnly Property Table As MainTableInfo
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.Table*
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).Table
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).Table
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.Reader
+  commentId: P:SuperOffice.Data.SQL.TargetedDataRecord`1.Reader
+  id: Reader
+  parent: SuperOffice.Data.SQL.TargetedDataRecord`1
+  langs:
+  - csharp
+  - vb
+  name: Reader
+  nameWithType: TargetedDataRecord<MainTableInfo>.Reader
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.Reader
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public SoDataReader Reader { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SoDataReader
+    content.vb: Public ReadOnly Property Reader As SoDataReader
+  overload: SuperOffice.Data.SQL.TargetedDataRecord`1.Reader*
+  implements:
+  - SuperOffice.Data.ISoDataRecord.Reader
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).Reader
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).Reader
+references:
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.ISoDataRecord
+  commentId: T:SuperOffice.Data.ISoDataRecord
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ISoDataRecord
+  nameWithType: ISoDataRecord
+  fullName: SuperOffice.Data.ISoDataRecord
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TargetedDataRecord<MainTableInfo>, To>()
+  nameWithType: EnumUtil.MapEnums<TargetedDataRecord<MainTableInfo>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TargetedDataRecord(Of MainTableInfo), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo), To)()
+  name.vb: MapEnums(Of TargetedDataRecord(Of MainTableInfo), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TargetedDataRecord<MainTableInfo>, To>
+    nameWithType: EnumUtil.MapEnums<TargetedDataRecord<MainTableInfo>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TargetedDataRecord(Of MainTableInfo), To)
+    nameWithType: EnumUtil.MapEnums(Of TargetedDataRecord(Of MainTableInfo), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TargetedDataRecord<MainTableInfo>, To>()
+  nameWithType: Converters.MapEnums<TargetedDataRecord<MainTableInfo>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>, To>()
+  nameWithType.vb: Converters.MapEnums(Of TargetedDataRecord(Of MainTableInfo), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo), To)()
+  name.vb: MapEnums(Of TargetedDataRecord(Of MainTableInfo), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TargetedDataRecord<MainTableInfo>, To>
+    nameWithType: Converters.MapEnums<TargetedDataRecord<MainTableInfo>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TargetedDataRecord(Of MainTableInfo), To)
+    nameWithType: Converters.MapEnums(Of TargetedDataRecord(Of MainTableInfo), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetBoolean*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetBoolean
+  isExternal: true
+  name: GetBoolean
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetBoolean
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetBoolean
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetBoolean
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetBoolean
+- uid: SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetBoolean(FieldInfo)
+  nameWithType: ISoDataRecord.GetBoolean(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+    name: GetBoolean
+    nameWithType: ISoDataRecord.GetBoolean
+    fullName: SuperOffice.Data.ISoDataRecord.GetBoolean
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+    name: GetBoolean
+    nameWithType: ISoDataRecord.GetBoolean
+    fullName: SuperOffice.Data.ISoDataRecord.GetBoolean
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetByte*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetByte
+  isExternal: true
+  name: GetByte
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetByte
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetByte
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetByte
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetByte
+- uid: SuperOffice.Data.ISoDataRecord.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetByte(FieldInfo)
+  nameWithType: ISoDataRecord.GetByte(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetByte(SuperOffice.Data.SQL.FieldInfo)
+    name: GetByte
+    nameWithType: ISoDataRecord.GetByte
+    fullName: SuperOffice.Data.ISoDataRecord.GetByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetByte(SuperOffice.Data.SQL.FieldInfo)
+    name: GetByte
+    nameWithType: ISoDataRecord.GetByte
+    fullName: SuperOffice.Data.ISoDataRecord.GetByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetChar*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetChar
+  isExternal: true
+  name: GetChar
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetChar
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetChar
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetChar
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetChar
+- uid: SuperOffice.Data.ISoDataRecord.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetChar(FieldInfo)
+  nameWithType: ISoDataRecord.GetChar(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetChar(SuperOffice.Data.SQL.FieldInfo)
+    name: GetChar
+    nameWithType: ISoDataRecord.GetChar
+    fullName: SuperOffice.Data.ISoDataRecord.GetChar
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetChar(SuperOffice.Data.SQL.FieldInfo)
+    name: GetChar
+    nameWithType: ISoDataRecord.GetChar
+    fullName: SuperOffice.Data.ISoDataRecord.GetChar
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetDateTime*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetDateTime
+  isExternal: true
+  name: GetDateTime
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetDateTime
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetDateTime
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetDateTime
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetDateTime
+- uid: SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetDateTime(FieldInfo)
+  nameWithType: ISoDataRecord.GetDateTime(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+    name: GetDateTime
+    nameWithType: ISoDataRecord.GetDateTime
+    fullName: SuperOffice.Data.ISoDataRecord.GetDateTime
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+    name: GetDateTime
+    nameWithType: ISoDataRecord.GetDateTime
+    fullName: SuperOffice.Data.ISoDataRecord.GetDateTime
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetDecimal*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetDecimal
+  isExternal: true
+  name: GetDecimal
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetDecimal
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetDecimal
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetDecimal
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetDecimal
+- uid: SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetDecimal(FieldInfo)
+  nameWithType: ISoDataRecord.GetDecimal(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+    name: GetDecimal
+    nameWithType: ISoDataRecord.GetDecimal
+    fullName: SuperOffice.Data.ISoDataRecord.GetDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+    name: GetDecimal
+    nameWithType: ISoDataRecord.GetDecimal
+    fullName: SuperOffice.Data.ISoDataRecord.GetDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetDouble*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetDouble
+  isExternal: true
+  name: GetDouble
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetDouble
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetDouble
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetDouble
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetDouble
+- uid: SuperOffice.Data.ISoDataRecord.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetDouble(FieldInfo)
+  nameWithType: ISoDataRecord.GetDouble(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+    name: GetDouble
+    nameWithType: ISoDataRecord.GetDouble
+    fullName: SuperOffice.Data.ISoDataRecord.GetDouble
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+    name: GetDouble
+    nameWithType: ISoDataRecord.GetDouble
+    fullName: SuperOffice.Data.ISoDataRecord.GetDouble
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetFloat*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetFloat
+  isExternal: true
+  name: GetFloat
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetFloat
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetFloat
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetFloat
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetFloat
+- uid: SuperOffice.Data.ISoDataRecord.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetFloat(FieldInfo)
+  nameWithType: ISoDataRecord.GetFloat(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+    name: GetFloat
+    nameWithType: ISoDataRecord.GetFloat
+    fullName: SuperOffice.Data.ISoDataRecord.GetFloat
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+    name: GetFloat
+    nameWithType: ISoDataRecord.GetFloat
+    fullName: SuperOffice.Data.ISoDataRecord.GetFloat
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetGuid*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetGuid
+  isExternal: true
+  name: GetGuid
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetGuid
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetGuid
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetGuid
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetGuid
+- uid: SuperOffice.Data.ISoDataRecord.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetGuid(FieldInfo)
+  nameWithType: ISoDataRecord.GetGuid(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+    name: GetGuid
+    nameWithType: ISoDataRecord.GetGuid
+    fullName: SuperOffice.Data.ISoDataRecord.GetGuid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+    name: GetGuid
+    nameWithType: ISoDataRecord.GetGuid
+    fullName: SuperOffice.Data.ISoDataRecord.GetGuid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt16*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt16
+  isExternal: true
+  name: GetInt16
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetInt16
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetInt16
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetInt16
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetInt16
+- uid: SuperOffice.Data.ISoDataRecord.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetInt16(FieldInfo)
+  nameWithType: ISoDataRecord.GetInt16(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+    name: GetInt16
+    nameWithType: ISoDataRecord.GetInt16
+    fullName: SuperOffice.Data.ISoDataRecord.GetInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+    name: GetInt16
+    nameWithType: ISoDataRecord.GetInt16
+    fullName: SuperOffice.Data.ISoDataRecord.GetInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32
+  isExternal: true
+  name: GetInt32
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetInt32
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetInt32
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetInt32
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetInt32
+- uid: SuperOffice.Data.ISoDataRecord.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetInt32(FieldInfo)
+  nameWithType: ISoDataRecord.GetInt32(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+    name: GetInt32
+    nameWithType: ISoDataRecord.GetInt32
+    fullName: SuperOffice.Data.ISoDataRecord.GetInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+    name: GetInt32
+    nameWithType: ISoDataRecord.GetInt32
+    fullName: SuperOffice.Data.ISoDataRecord.GetInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32Array*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt32Array
+  isExternal: true
+  name: GetInt32Array
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetInt32Array
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetInt32Array
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetInt32Array
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetInt32Array
+- uid: SuperOffice.Data.ISoDataRecord.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetInt32Array(FieldInfo)
+  nameWithType: ISoDataRecord.GetInt32Array(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+    name: GetInt32Array
+    nameWithType: ISoDataRecord.GetInt32Array
+    fullName: SuperOffice.Data.ISoDataRecord.GetInt32Array
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+    name: GetInt32Array
+    nameWithType: ISoDataRecord.GetInt32Array
+    fullName: SuperOffice.Data.ISoDataRecord.GetInt32Array
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.ISoDataRecord.GetInt32(System.Int32)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetInt32(System.Int32)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetInt32(Int32)
+  nameWithType: ISoDataRecord.GetInt32(Int32)
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt32(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetInt32(System.Int32)
+    name: GetInt32
+    nameWithType: ISoDataRecord.GetInt32
+    fullName: SuperOffice.Data.ISoDataRecord.GetInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetInt32(System.Int32)
+    name: GetInt32
+    nameWithType: ISoDataRecord.GetInt32
+    fullName: SuperOffice.Data.ISoDataRecord.GetInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt64*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetInt64
+  isExternal: true
+  name: GetInt64
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetInt64
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetInt64
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetInt64
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetInt64
+- uid: SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetInt64(FieldInfo)
+  nameWithType: ISoDataRecord.GetInt64(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+    name: GetInt64
+    nameWithType: ISoDataRecord.GetInt64
+    fullName: SuperOffice.Data.ISoDataRecord.GetInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+    name: GetInt64
+    nameWithType: ISoDataRecord.GetInt64
+    fullName: SuperOffice.Data.ISoDataRecord.GetInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetOrdinal*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetOrdinal
+  isExternal: true
+  name: GetOrdinal
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetOrdinal
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetOrdinal
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetOrdinal
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetOrdinal
+- uid: SuperOffice.Data.ISoDataRecord.GetOrdinal(System.String)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetOrdinal(System.String)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetOrdinal(String)
+  nameWithType: ISoDataRecord.GetOrdinal(String)
+  fullName: SuperOffice.Data.ISoDataRecord.GetOrdinal(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetOrdinal(System.String)
+    name: GetOrdinal
+    nameWithType: ISoDataRecord.GetOrdinal
+    fullName: SuperOffice.Data.ISoDataRecord.GetOrdinal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetOrdinal(System.String)
+    name: GetOrdinal
+    nameWithType: ISoDataRecord.GetOrdinal
+    fullName: SuperOffice.Data.ISoDataRecord.GetOrdinal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetString*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetString
+  isExternal: true
+  name: GetString
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetString
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetString
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetString
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetString
+- uid: SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetString(FieldInfo)
+  nameWithType: ISoDataRecord.GetString(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
+    name: GetString
+    nameWithType: ISoDataRecord.GetString
+    fullName: SuperOffice.Data.ISoDataRecord.GetString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
+    name: GetString
+    nameWithType: ISoDataRecord.GetString
+    fullName: SuperOffice.Data.ISoDataRecord.GetString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetValue*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetValue
+  isExternal: true
+  name: GetValue
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetValue
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetValue
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetValue
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetValue
+- uid: SuperOffice.Data.ISoDataRecord.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetValue(FieldInfo)
+  nameWithType: ISoDataRecord.GetValue(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetValue(SuperOffice.Data.SQL.FieldInfo)
+    name: GetValue
+    nameWithType: ISoDataRecord.GetValue
+    fullName: SuperOffice.Data.ISoDataRecord.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetValue(SuperOffice.Data.SQL.FieldInfo)
+    name: GetValue
+    nameWithType: ISoDataRecord.GetValue
+    fullName: SuperOffice.Data.ISoDataRecord.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetValues*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetValues
+  isExternal: true
+  name: GetValues
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetValues
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetValues
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetValues
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetValues
+- uid: SuperOffice.Data.ISoDataRecord.GetValues(System.Object[])
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetValues(System.Object[])
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetValues(Object[])
+  nameWithType: ISoDataRecord.GetValues(Object[])
+  fullName: SuperOffice.Data.ISoDataRecord.GetValues(System.Object[])
+  nameWithType.vb: ISoDataRecord.GetValues(Object())
+  fullName.vb: SuperOffice.Data.ISoDataRecord.GetValues(System.Object())
+  name.vb: GetValues(Object())
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetValues(System.Object[])
+    name: GetValues
+    nameWithType: ISoDataRecord.GetValues
+    fullName: SuperOffice.Data.ISoDataRecord.GetValues
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetValues(System.Object[])
+    name: GetValues
+    nameWithType: ISoDataRecord.GetValues
+    fullName: SuperOffice.Data.ISoDataRecord.GetValues
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.GetEnum*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.GetEnum
+  isExternal: true
+  name: GetEnum
+  nameWithType: TargetedDataRecord<MainTableInfo>.GetEnum
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.GetEnum
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).GetEnum
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).GetEnum
+- uid: SuperOffice.Data.ISoDataRecord.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: GetEnum<E>(FieldInfo)
+  nameWithType: ISoDataRecord.GetEnum<E>(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetEnum<E>(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: ISoDataRecord.GetEnum(Of E)(FieldInfo)
+  fullName.vb: SuperOffice.Data.ISoDataRecord.GetEnum(Of E)(SuperOffice.Data.SQL.FieldInfo)
+  name.vb: GetEnum(Of E)(FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+    name: GetEnum<E>
+    nameWithType: ISoDataRecord.GetEnum<E>
+    fullName: SuperOffice.Data.ISoDataRecord.GetEnum<E>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+    name: GetEnum(Of E)
+    nameWithType: ISoDataRecord.GetEnum(Of E)
+    fullName: SuperOffice.Data.ISoDataRecord.GetEnum(Of E)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{E}'
+  commentId: '!:E'
+  definition: E
+  name: E
+  nameWithType: E
+  fullName: E
+- uid: E
+  name: E
+  nameWithType: E
+  fullName: E
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.IsDBNull*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.IsDBNull
+  isExternal: true
+  name: IsDBNull
+  nameWithType: TargetedDataRecord<MainTableInfo>.IsDBNull
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.IsDBNull
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).IsDBNull
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).IsDBNull
+- uid: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: IsDBNull(FieldInfo)
+  nameWithType: ISoDataRecord.IsDBNull(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+    name: IsDBNull
+    nameWithType: ISoDataRecord.IsDBNull
+    fullName: SuperOffice.Data.ISoDataRecord.IsDBNull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+    name: IsDBNull
+    nameWithType: ISoDataRecord.IsDBNull
+    fullName: SuperOffice.Data.ISoDataRecord.IsDBNull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.Table*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.Table
+  isExternal: true
+  name: Table
+  nameWithType: TargetedDataRecord<MainTableInfo>.Table
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.Table
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).Table
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).Table
+- uid: '{MainTableInfo}'
+  commentId: '!:MainTableInfo'
+  definition: MainTableInfo
+  name: MainTableInfo
+  nameWithType: MainTableInfo
+  fullName: MainTableInfo
+- uid: MainTableInfo
+  name: MainTableInfo
+  nameWithType: MainTableInfo
+  fullName: MainTableInfo
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1.Reader*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedDataRecord`1.Reader
+  isExternal: true
+  name: Reader
+  nameWithType: TargetedDataRecord<MainTableInfo>.Reader
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>.Reader
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo).Reader
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo).Reader
+- uid: SuperOffice.Data.ISoDataRecord.Reader
+  commentId: P:SuperOffice.Data.ISoDataRecord.Reader
+  parent: SuperOffice.Data.ISoDataRecord
+  isExternal: true
+  name: Reader
+  nameWithType: ISoDataRecord.Reader
+  fullName: SuperOffice.Data.ISoDataRecord.Reader
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader

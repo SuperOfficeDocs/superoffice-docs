@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest
+  id: List_SetTicketCategoriesForUserGroupRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.CategoryIds
+  - SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.UserGroupId
+  langs:
+  - csharp
+  - vb
+  name: List_SetTicketCategoriesForUserGroupRequest
+  nameWithType: List_SetTicketCategoriesForUserGroupRequest
+  fullName: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SetTicketCategoriesForUserGroupRequest : Object'
+    content.vb: >-
+      Public Class List_SetTicketCategoriesForUserGroupRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SetTicketCategoriesForUserGroupRequest()
+  nameWithType: List_SetTicketCategoriesForUserGroupRequest.List_SetTicketCategoriesForUserGroupRequest()
+  fullName: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.List_SetTicketCategoriesForUserGroupRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SetTicketCategoriesForUserGroupRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.UserGroupId
+  commentId: P:SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.UserGroupId
+  id: UserGroupId
+  parent: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: UserGroupId
+  nameWithType: List_SetTicketCategoriesForUserGroupRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.UserGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UserGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserGroupId As Integer
+  overload: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.UserGroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.CategoryIds
+  commentId: P:SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.CategoryIds
+  id: CategoryIds
+  parent: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: CategoryIds
+  nameWithType: List_SetTicketCategoriesForUserGroupRequest.CategoryIds
+  fullName: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.CategoryIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] CategoryIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property CategoryIds As Integer()
+  overload: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.CategoryIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.#ctor
+  isExternal: true
+  name: List_SetTicketCategoriesForUserGroupRequest
+  nameWithType: List_SetTicketCategoriesForUserGroupRequest.List_SetTicketCategoriesForUserGroupRequest
+  fullName: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.List_SetTicketCategoriesForUserGroupRequest
+- uid: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.UserGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.UserGroupId
+  isExternal: true
+  name: UserGroupId
+  nameWithType: List_SetTicketCategoriesForUserGroupRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.UserGroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.CategoryIds*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.CategoryIds
+  isExternal: true
+  name: CategoryIds
+  nameWithType: List_SetTicketCategoriesForUserGroupRequest.CategoryIds
+  fullName: SuperOffice.WebApi.Data.List_SetTicketCategoriesForUserGroupRequest.CategoryIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

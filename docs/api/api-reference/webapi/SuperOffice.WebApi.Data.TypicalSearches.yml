@@ -1,0 +1,328 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TypicalSearches
+  commentId: T:SuperOffice.WebApi.Data.TypicalSearches
+  id: TypicalSearches
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TypicalSearches.#ctor
+  - SuperOffice.WebApi.Data.TypicalSearches.DeleteLeftovers
+  - SuperOffice.WebApi.Data.TypicalSearches.MasterVersion
+  - SuperOffice.WebApi.Data.TypicalSearches.Searches
+  - SuperOffice.WebApi.Data.TypicalSearches.Source
+  langs:
+  - csharp
+  - vb
+  name: TypicalSearches
+  nameWithType: TypicalSearches
+  fullName: SuperOffice.WebApi.Data.TypicalSearches
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TypicalSearches.\nFull set of all TypicalSearch elements maintained by one source (including criteria)    \n"
+  syntax:
+    content: 'public class TypicalSearches : Carrier'
+    content.vb: >-
+      Public Class TypicalSearches
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.SelectionAgent
+    commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TypicalSearches.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TypicalSearches.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: TypicalSearches()
+  nameWithType: TypicalSearches.TypicalSearches()
+  fullName: SuperOffice.WebApi.Data.TypicalSearches.TypicalSearches()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TypicalSearches()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TypicalSearches.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TypicalSearches.Source
+  commentId: P:SuperOffice.WebApi.Data.TypicalSearches.Source
+  id: Source
+  parent: SuperOffice.WebApi.Data.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: TypicalSearches.Source
+  fullName: SuperOffice.WebApi.Data.TypicalSearches.Source
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of organisation that sources and maintains this TypicalSearch. Allows for both SuperOffice and partners to maintain sets of typical searches without conflict\n"
+  syntax:
+    content: public virtual string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Source As String
+  overload: SuperOffice.WebApi.Data.TypicalSearches.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TypicalSearches.MasterVersion
+  commentId: P:SuperOffice.WebApi.Data.TypicalSearches.MasterVersion
+  id: MasterVersion
+  parent: SuperOffice.WebApi.Data.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: MasterVersion
+  nameWithType: TypicalSearches.MasterVersion
+  fullName: SuperOffice.WebApi.Data.TypicalSearches.MasterVersion
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe master version number in this update, at least the highest of those in the searches, but can be higher to force an update (and delete of missing elements)\n"
+  syntax:
+    content: public virtual int MasterVersion { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MasterVersion As Integer
+  overload: SuperOffice.WebApi.Data.TypicalSearches.MasterVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TypicalSearches.DeleteLeftovers
+  commentId: P:SuperOffice.WebApi.Data.TypicalSearches.DeleteLeftovers
+  id: DeleteLeftovers
+  parent: SuperOffice.WebApi.Data.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: DeleteLeftovers
+  nameWithType: TypicalSearches.DeleteLeftovers
+  fullName: SuperOffice.WebApi.Data.TypicalSearches.DeleteLeftovers
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true, then any TypicalSearch records in the database that are NOT referenced in this call, should be deleted\n"
+  syntax:
+    content: public virtual bool DeleteLeftovers { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property DeleteLeftovers As Boolean
+  overload: SuperOffice.WebApi.Data.TypicalSearches.DeleteLeftovers*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TypicalSearches.Searches
+  commentId: P:SuperOffice.WebApi.Data.TypicalSearches.Searches
+  id: Searches
+  parent: SuperOffice.WebApi.Data.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: Searches
+  nameWithType: TypicalSearches.Searches
+  fullName: SuperOffice.WebApi.Data.TypicalSearches.Searches
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe TypicalSearch structures (including criteria) to import\n"
+  syntax:
+    content: public virtual TypicalSearch[] Searches { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TypicalSearch[]
+    content.vb: Public Overridable Property Searches As TypicalSearch()
+  overload: SuperOffice.WebApi.Data.TypicalSearches.Searches*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.SelectionAgent
+  commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
+  isExternal: true
+  name: SelectionAgent
+  nameWithType: SelectionAgent
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TypicalSearches.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TypicalSearches.#ctor
+  isExternal: true
+  name: TypicalSearches
+  nameWithType: TypicalSearches.TypicalSearches
+  fullName: SuperOffice.WebApi.Data.TypicalSearches.TypicalSearches
+- uid: SuperOffice.WebApi.Data.TypicalSearches.Source*
+  commentId: Overload:SuperOffice.WebApi.Data.TypicalSearches.Source
+  isExternal: true
+  name: Source
+  nameWithType: TypicalSearches.Source
+  fullName: SuperOffice.WebApi.Data.TypicalSearches.Source
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TypicalSearches.MasterVersion*
+  commentId: Overload:SuperOffice.WebApi.Data.TypicalSearches.MasterVersion
+  isExternal: true
+  name: MasterVersion
+  nameWithType: TypicalSearches.MasterVersion
+  fullName: SuperOffice.WebApi.Data.TypicalSearches.MasterVersion
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TypicalSearches.DeleteLeftovers*
+  commentId: Overload:SuperOffice.WebApi.Data.TypicalSearches.DeleteLeftovers
+  isExternal: true
+  name: DeleteLeftovers
+  nameWithType: TypicalSearches.DeleteLeftovers
+  fullName: SuperOffice.WebApi.Data.TypicalSearches.DeleteLeftovers
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.TypicalSearches.Searches*
+  commentId: Overload:SuperOffice.WebApi.Data.TypicalSearches.Searches
+  isExternal: true
+  name: Searches
+  nameWithType: TypicalSearches.Searches
+  fullName: SuperOffice.WebApi.Data.TypicalSearches.Searches
+- uid: SuperOffice.WebApi.Data.TypicalSearch[]
+  isExternal: true
+  name: TypicalSearch[]
+  nameWithType: TypicalSearch[]
+  fullName: SuperOffice.WebApi.Data.TypicalSearch[]
+  nameWithType.vb: TypicalSearch()
+  fullName.vb: SuperOffice.WebApi.Data.TypicalSearch()
+  name.vb: TypicalSearch()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.TypicalSearch
+    name: TypicalSearch
+    nameWithType: TypicalSearch
+    fullName: SuperOffice.WebApi.Data.TypicalSearch
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.TypicalSearch
+    name: TypicalSearch
+    nameWithType: TypicalSearch
+    fullName: SuperOffice.WebApi.Data.TypicalSearch
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

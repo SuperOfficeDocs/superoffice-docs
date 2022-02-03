@@ -1,0 +1,637 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType
+  commentId: T:SuperOffice.CRM.Administration.SoUser.PermissionType
+  id: SoUser.PermissionType
+  parent: SuperOffice.CRM.Administration
+  children:
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.Administrator
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.All
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.AllAdministrators
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.ManageExternal
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.Own
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.OwnNotPerson
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.OwnPerson
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.System
+  langs:
+  - csharp
+  - vb
+  name: SoUser.PermissionType
+  nameWithType: SoUser.PermissionType
+  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nType of permission required for dealing with a person&apos;s license information\n"
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum PermissionType
+    content.vb: >-
+      <Flags>
+
+      Public Enum PermissionType
+  extensionMethods:
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.SoUser.PermissionType)
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Administration.SoUser.PermissionType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.OwnNotPerson
+  commentId: F:SuperOffice.CRM.Administration.SoUser.PermissionType.OwnNotPerson
+  id: OwnNotPerson
+  parent: SuperOffice.CRM.Administration.SoUser.PermissionType
+  langs:
+  - csharp
+  - vb
+  name: OwnNotPerson
+  nameWithType: SoUser.PermissionType.OwnNotPerson
+  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType.OwnNotPerson
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nThe currently logged on person can manage for himself\n"
+  syntax:
+    content: OwnNotPerson = 1
+    return:
+      type: SuperOffice.CRM.Administration.SoUser.PermissionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.OwnPerson
+  commentId: F:SuperOffice.CRM.Administration.SoUser.PermissionType.OwnPerson
+  id: OwnPerson
+  parent: SuperOffice.CRM.Administration.SoUser.PermissionType
+  langs:
+  - csharp
+  - vb
+  name: OwnPerson
+  nameWithType: SoUser.PermissionType.OwnPerson
+  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType.OwnPerson
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nThe currently logged on person can manage for himself if he is a named user\n"
+  syntax:
+    content: OwnPerson = 2
+    return:
+      type: SuperOffice.CRM.Administration.SoUser.PermissionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.Administrator
+  commentId: F:SuperOffice.CRM.Administration.SoUser.PermissionType.Administrator
+  id: Administrator
+  parent: SuperOffice.CRM.Administration.SoUser.PermissionType
+  langs:
+  - csharp
+  - vb
+  name: Administrator
+  nameWithType: SoUser.PermissionType.Administrator
+  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType.Administrator
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nAdministrators can manage on behalf of others\n"
+  syntax:
+    content: Administrator = 4
+    return:
+      type: SuperOffice.CRM.Administration.SoUser.PermissionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.System
+  commentId: F:SuperOffice.CRM.Administration.SoUser.PermissionType.System
+  id: System
+  parent: SuperOffice.CRM.Administration.SoUser.PermissionType
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: SoUser.PermissionType.System
+  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType.System
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nSystem users can manage on behalf of others.\n"
+  syntax:
+    content: System = 8
+    return:
+      type: SuperOffice.CRM.Administration.SoUser.PermissionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.ManageExternal
+  commentId: F:SuperOffice.CRM.Administration.SoUser.PermissionType.ManageExternal
+  id: ManageExternal
+  parent: SuperOffice.CRM.Administration.SoUser.PermissionType
+  langs:
+  - csharp
+  - vb
+  name: ManageExternal
+  nameWithType: SoUser.PermissionType.ManageExternal
+  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType.ManageExternal
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nThe user can manage external users\n"
+  syntax:
+    content: ManageExternal = 16
+    return:
+      type: SuperOffice.CRM.Administration.SoUser.PermissionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.Own
+  commentId: F:SuperOffice.CRM.Administration.SoUser.PermissionType.Own
+  id: Own
+  parent: SuperOffice.CRM.Administration.SoUser.PermissionType
+  langs:
+  - csharp
+  - vb
+  name: Own
+  nameWithType: SoUser.PermissionType.Own
+  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType.Own
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nEverybody can manage on behalf of himself\n"
+  syntax:
+    content: Own = 3
+    return:
+      type: SuperOffice.CRM.Administration.SoUser.PermissionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.AllAdministrators
+  commentId: F:SuperOffice.CRM.Administration.SoUser.PermissionType.AllAdministrators
+  id: AllAdministrators
+  parent: SuperOffice.CRM.Administration.SoUser.PermissionType
+  langs:
+  - csharp
+  - vb
+  name: AllAdministrators
+  nameWithType: SoUser.PermissionType.AllAdministrators
+  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType.AllAdministrators
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nAll administrators (Administrator and System)\n"
+  syntax:
+    content: AllAdministrators = 28
+    return:
+      type: SuperOffice.CRM.Administration.SoUser.PermissionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.All
+  commentId: F:SuperOffice.CRM.Administration.SoUser.PermissionType.All
+  id: All
+  parent: SuperOffice.CRM.Administration.SoUser.PermissionType
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: SoUser.PermissionType.All
+  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType.All
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nEverybody can manage on behalf of himself and all administrators (Administrator and System) can manage onbehalf of others\n"
+  syntax:
+    content: All = 31
+    return:
+      type: SuperOffice.CRM.Administration.SoUser.PermissionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Administration
+  commentId: N:SuperOffice.CRM.Administration
+  isExternal: true
+  name: SuperOffice.CRM.Administration
+  nameWithType: SuperOffice.CRM.Administration
+  fullName: SuperOffice.CRM.Administration
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoUser.PermissionType, To>()
+  nameWithType: EnumUtil.MapEnums<SoUser.PermissionType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.SoUser.PermissionType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoUser.PermissionType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.SoUser.PermissionType, To)()
+  name.vb: MapEnums(Of SoUser.PermissionType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoUser.PermissionType, To>
+    nameWithType: EnumUtil.MapEnums<SoUser.PermissionType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.SoUser.PermissionType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoUser.PermissionType, To)
+    nameWithType: EnumUtil.MapEnums(Of SoUser.PermissionType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.SoUser.PermissionType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.SoUser.PermissionType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoUser.PermissionType>(SoUser.PermissionType)
+  nameWithType: ObjectExtensions.AssignByReflection<SoUser.PermissionType>(SoUser.PermissionType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Administration.SoUser.PermissionType>(SuperOffice.CRM.Administration.SoUser.PermissionType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoUser.PermissionType)(SoUser.PermissionType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Administration.SoUser.PermissionType)(SuperOffice.CRM.Administration.SoUser.PermissionType)
+  name.vb: AssignByReflection(Of SoUser.PermissionType)(SoUser.PermissionType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoUser.PermissionType>
+    nameWithType: ObjectExtensions.AssignByReflection<SoUser.PermissionType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Administration.SoUser.PermissionType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Administration.SoUser.PermissionType
+    name: SoUser.PermissionType
+    nameWithType: SoUser.PermissionType
+    fullName: SuperOffice.CRM.Administration.SoUser.PermissionType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoUser.PermissionType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoUser.PermissionType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Administration.SoUser.PermissionType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Administration.SoUser.PermissionType
+    name: SoUser.PermissionType
+    nameWithType: SoUser.PermissionType
+    fullName: SuperOffice.CRM.Administration.SoUser.PermissionType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoUser.PermissionType>()
+  nameWithType: ObjectExtensions.GraphCopy<SoUser.PermissionType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Administration.SoUser.PermissionType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoUser.PermissionType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Administration.SoUser.PermissionType)()
+  name.vb: GraphCopy(Of SoUser.PermissionType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoUser.PermissionType>
+    nameWithType: ObjectExtensions.GraphCopy<SoUser.PermissionType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Administration.SoUser.PermissionType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoUser.PermissionType)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoUser.PermissionType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Administration.SoUser.PermissionType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoUser.PermissionType, To>()
+  nameWithType: Converters.MapEnums<SoUser.PermissionType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.SoUser.PermissionType, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoUser.PermissionType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.SoUser.PermissionType, To)()
+  name.vb: MapEnums(Of SoUser.PermissionType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoUser.PermissionType, To>
+    nameWithType: Converters.MapEnums<SoUser.PermissionType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.SoUser.PermissionType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoUser.PermissionType, To)
+    nameWithType: Converters.MapEnums(Of SoUser.PermissionType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.SoUser.PermissionType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType
+  commentId: T:SuperOffice.CRM.Administration.SoUser.PermissionType
+  parent: SuperOffice.CRM.Administration
+  isExternal: true
+  name: SoUser.PermissionType
+  nameWithType: SoUser.PermissionType
+  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType

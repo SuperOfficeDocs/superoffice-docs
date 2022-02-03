@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest
+  id: ErpSync_ForceResyncNoBlankValuesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.ErpConnectionId
+  - SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.InternalKeyIds
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_ForceResyncNoBlankValuesRequest
+  nameWithType: ErpSync_ForceResyncNoBlankValuesRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_ForceResyncNoBlankValuesRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_ForceResyncNoBlankValuesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_ForceResyncNoBlankValuesRequest()
+  nameWithType: ErpSync_ForceResyncNoBlankValuesRequest.ErpSync_ForceResyncNoBlankValuesRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.ErpSync_ForceResyncNoBlankValuesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_ForceResyncNoBlankValuesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_ForceResyncNoBlankValuesRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.InternalKeyIds
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.InternalKeyIds
+  id: InternalKeyIds
+  parent: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest
+  langs:
+  - csharp
+  - vb
+  name: InternalKeyIds
+  nameWithType: ErpSync_ForceResyncNoBlankValuesRequest.InternalKeyIds
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.InternalKeyIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] InternalKeyIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property InternalKeyIds As Integer()
+  overload: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.InternalKeyIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.#ctor
+  isExternal: true
+  name: ErpSync_ForceResyncNoBlankValuesRequest
+  nameWithType: ErpSync_ForceResyncNoBlankValuesRequest.ErpSync_ForceResyncNoBlankValuesRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.ErpSync_ForceResyncNoBlankValuesRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_ForceResyncNoBlankValuesRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.InternalKeyIds*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.InternalKeyIds
+  isExternal: true
+  name: InternalKeyIds
+  nameWithType: ErpSync_ForceResyncNoBlankValuesRequest.InternalKeyIds
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncNoBlankValuesRequest.InternalKeyIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

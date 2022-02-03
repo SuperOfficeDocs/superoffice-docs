@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Factory
+  commentId: N:SuperOffice.Factory
+  id: SuperOffice.Factory
+  children:
+  - SuperOffice.Factory.ClientClassFactory
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Factory
+  nameWithType: SuperOffice.Factory
+  fullName: SuperOffice.Factory
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCF
+references:
+- uid: SuperOffice.Factory.ClientClassFactory
+  commentId: T:SuperOffice.Factory.ClientClassFactory
+  isExternal: true
+  name: ClientClassFactory
+  nameWithType: ClientClassFactory
+  fullName: SuperOffice.Factory.ClientClassFactory

@@ -1,0 +1,991 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper
+  commentId: T:SuperOffice.CRM.Security.SentryIgnorableHelper
+  id: SentryIgnorableHelper
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.SentryIgnorableHelper.#ctor
+  - SuperOffice.CRM.Security.SentryIgnorableHelper.BeginIgnoreSentryCheck
+  - SuperOffice.CRM.Security.SentryIgnorableHelper.EndIgnoreSentryCheck
+  - SuperOffice.CRM.Security.SentryIgnorableHelper.IsSentryIgnored
+  - SuperOffice.CRM.Security.SentryIgnorableHelper.ToString
+  langs:
+  - csharp
+  - vb
+  name: SentryIgnorableHelper
+  nameWithType: SentryIgnorableHelper
+  fullName: SuperOffice.CRM.Security.SentryIgnorableHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nHelper class that can be used by implementations of the <xref href=\"SuperOffice.CRM.Security.ISentryIgnorable\" data-throw-if-not-resolved=\"false\"></xref> interface.\n"
+  syntax:
+    content: 'public sealed class SentryIgnorableHelper : ISentryIgnorable'
+    content.vb: >-
+      Public NotInheritable Class SentryIgnorableHelper
+          Implements ISentryIgnorable
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Security.ISentryIgnorable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Security.SentryIgnorableHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.SentryIgnorableHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.SentryIgnorableHelper)
+  - SuperOffice.CRM.Security.SentryIgnorableHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Security.SentryIgnorableHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Security.SentryIgnorableHelper.BeginIgnoreSentryCheck
+  id: BeginIgnoreSentryCheck
+  parent: SuperOffice.CRM.Security.SentryIgnorableHelper
+  langs:
+  - csharp
+  - vb
+  name: BeginIgnoreSentryCheck()
+  nameWithType: SentryIgnorableHelper.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Security.SentryIgnorableHelper.BeginIgnoreSentryCheck()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nStarts the process of ignoring sentry on the object implementing the interface on the current thread.\n"
+  syntax:
+    content: public IgnoreSentryCheck BeginIgnoreSentryCheck()
+    return:
+      type: SuperOffice.CRM.Security.IgnoreSentryCheck
+      description: Disposable object that calls <xref href="SuperOffice.CRM.Security.SentryIgnorableHelper.EndIgnoreSentryCheck" data-throw-if-not-resolved="false"></xref> on Dispose.
+    content.vb: Public Function BeginIgnoreSentryCheck As IgnoreSentryCheck
+  overload: SuperOffice.CRM.Security.SentryIgnorableHelper.BeginIgnoreSentryCheck*
+  implements:
+  - SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Security.SentryIgnorableHelper.EndIgnoreSentryCheck
+  id: EndIgnoreSentryCheck
+  parent: SuperOffice.CRM.Security.SentryIgnorableHelper
+  langs:
+  - csharp
+  - vb
+  name: EndIgnoreSentryCheck()
+  nameWithType: SentryIgnorableHelper.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Security.SentryIgnorableHelper.EndIgnoreSentryCheck()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nEnds the process of ignoring sentry on the object implementing the interface on the current thread.\n"
+  syntax:
+    content: public void EndIgnoreSentryCheck()
+    content.vb: Public Sub
+  overload: SuperOffice.CRM.Security.SentryIgnorableHelper.EndIgnoreSentryCheck*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoException
+    commentId: T:SuperOffice.Exceptions.SoException
+    description: Thrown if Sentry is not ignored.
+  implements:
+  - SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.ToString
+  commentId: M:SuperOffice.CRM.Security.SentryIgnorableHelper.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Security.SentryIgnorableHelper
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SentryIgnorableHelper.ToString()
+  fullName: SuperOffice.CRM.Security.SentryIgnorableHelper.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Security.SentryIgnorableHelper.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.#ctor
+  commentId: M:SuperOffice.CRM.Security.SentryIgnorableHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Security.SentryIgnorableHelper
+  langs:
+  - csharp
+  - vb
+  name: SentryIgnorableHelper()
+  nameWithType: SentryIgnorableHelper.SentryIgnorableHelper()
+  fullName: SuperOffice.CRM.Security.SentryIgnorableHelper.SentryIgnorableHelper()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public SentryIgnorableHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Security.SentryIgnorableHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Security.SentryIgnorableHelper.IsSentryIgnored
+  id: IsSentryIgnored
+  parent: SuperOffice.CRM.Security.SentryIgnorableHelper
+  langs:
+  - csharp
+  - vb
+  name: IsSentryIgnored
+  nameWithType: SentryIgnorableHelper.IsSentryIgnored
+  fullName: SuperOffice.CRM.Security.SentryIgnorableHelper.IsSentryIgnored
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet value indicating whether sentry is ignored on the current object for the current thread.\n"
+  syntax:
+    content: public bool IsSentryIgnored { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSentryIgnored As Boolean
+  overload: SuperOffice.CRM.Security.SentryIgnorableHelper.IsSentryIgnored*
+  implements:
+  - SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Security.ISentryIgnorable
+  commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: ISentryIgnorable
+  nameWithType: ISentryIgnorable
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SentryIgnorableHelper, To>()
+  nameWithType: EnumUtil.MapEnums<SentryIgnorableHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.SentryIgnorableHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SentryIgnorableHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.SentryIgnorableHelper, To)()
+  name.vb: MapEnums(Of SentryIgnorableHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SentryIgnorableHelper, To>
+    nameWithType: EnumUtil.MapEnums<SentryIgnorableHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.SentryIgnorableHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SentryIgnorableHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of SentryIgnorableHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.SentryIgnorableHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.SentryIgnorableHelper)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SentryIgnorableHelper>(SentryIgnorableHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<SentryIgnorableHelper>(SentryIgnorableHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.SentryIgnorableHelper>(SuperOffice.CRM.Security.SentryIgnorableHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SentryIgnorableHelper)(SentryIgnorableHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.SentryIgnorableHelper)(SuperOffice.CRM.Security.SentryIgnorableHelper)
+  name.vb: AssignByReflection(Of SentryIgnorableHelper)(SentryIgnorableHelper)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SentryIgnorableHelper>
+    nameWithType: ObjectExtensions.AssignByReflection<SentryIgnorableHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.SentryIgnorableHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.SentryIgnorableHelper
+    name: SentryIgnorableHelper
+    nameWithType: SentryIgnorableHelper
+    fullName: SuperOffice.CRM.Security.SentryIgnorableHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SentryIgnorableHelper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SentryIgnorableHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.SentryIgnorableHelper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.SentryIgnorableHelper
+    name: SentryIgnorableHelper
+    nameWithType: SentryIgnorableHelper
+    fullName: SuperOffice.CRM.Security.SentryIgnorableHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SentryIgnorableHelper>()
+  nameWithType: ObjectExtensions.GraphCopy<SentryIgnorableHelper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.SentryIgnorableHelper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SentryIgnorableHelper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.SentryIgnorableHelper)()
+  name.vb: GraphCopy(Of SentryIgnorableHelper)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SentryIgnorableHelper>
+    nameWithType: ObjectExtensions.GraphCopy<SentryIgnorableHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.SentryIgnorableHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SentryIgnorableHelper)
+    nameWithType: ObjectExtensions.GraphCopy(Of SentryIgnorableHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.SentryIgnorableHelper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SentryIgnorableHelper, To>()
+  nameWithType: Converters.MapEnums<SentryIgnorableHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.SentryIgnorableHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of SentryIgnorableHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.SentryIgnorableHelper, To)()
+  name.vb: MapEnums(Of SentryIgnorableHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SentryIgnorableHelper, To>
+    nameWithType: Converters.MapEnums<SentryIgnorableHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.SentryIgnorableHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SentryIgnorableHelper, To)
+    nameWithType: Converters.MapEnums(Of SentryIgnorableHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.SentryIgnorableHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.BeginIgnoreSentryCheck*
+  commentId: Overload:SuperOffice.CRM.Security.SentryIgnorableHelper.BeginIgnoreSentryCheck
+  isExternal: true
+  name: BeginIgnoreSentryCheck
+  nameWithType: SentryIgnorableHelper.BeginIgnoreSentryCheck
+  fullName: SuperOffice.CRM.Security.SentryIgnorableHelper.BeginIgnoreSentryCheck
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+  parent: SuperOffice.CRM.Security.ISentryIgnorable
+  isExternal: true
+  name: BeginIgnoreSentryCheck()
+  nameWithType: ISentryIgnorable.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: ISentryIgnorable.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: ISentryIgnorable.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.IgnoreSentryCheck
+  commentId: T:SuperOffice.CRM.Security.IgnoreSentryCheck
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: IgnoreSentryCheck
+  nameWithType: IgnoreSentryCheck
+  fullName: SuperOffice.CRM.Security.IgnoreSentryCheck
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.EndIgnoreSentryCheck*
+  commentId: Overload:SuperOffice.CRM.Security.SentryIgnorableHelper.EndIgnoreSentryCheck
+  isExternal: true
+  name: EndIgnoreSentryCheck
+  nameWithType: SentryIgnorableHelper.EndIgnoreSentryCheck
+  fullName: SuperOffice.CRM.Security.SentryIgnorableHelper.EndIgnoreSentryCheck
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+  parent: SuperOffice.CRM.Security.ISentryIgnorable
+  isExternal: true
+  name: EndIgnoreSentryCheck()
+  nameWithType: ISentryIgnorable.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: ISentryIgnorable.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: ISentryIgnorable.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Exceptions.SoException
+  commentId: T:SuperOffice.Exceptions.SoException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoException
+  nameWithType: SoException
+  fullName: SuperOffice.Exceptions.SoException
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.ToString*
+  commentId: Overload:SuperOffice.CRM.Security.SentryIgnorableHelper.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SentryIgnorableHelper.ToString
+  fullName: SuperOffice.CRM.Security.SentryIgnorableHelper.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.Security.SentryIgnorableHelper.#ctor
+  isExternal: true
+  name: SentryIgnorableHelper
+  nameWithType: SentryIgnorableHelper.SentryIgnorableHelper
+  fullName: SuperOffice.CRM.Security.SentryIgnorableHelper.SentryIgnorableHelper
+- uid: SuperOffice.CRM.Security.SentryIgnorableHelper.IsSentryIgnored*
+  commentId: Overload:SuperOffice.CRM.Security.SentryIgnorableHelper.IsSentryIgnored
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: SentryIgnorableHelper.IsSentryIgnored
+  fullName: SuperOffice.CRM.Security.SentryIgnorableHelper.IsSentryIgnored
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+  parent: SuperOffice.CRM.Security.ISentryIgnorable
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: ISentryIgnorable.IsSentryIgnored
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

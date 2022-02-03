@@ -1,0 +1,642 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  commentId: T:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  id: OpenIdConfiguration
+  parent: SuperOffice.WebApi.IdentityModel
+  children:
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.#ctor
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.AuthorizationEndpoint
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ClaimsSupported
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.EndsessionEndpoint
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.GrantTypesSupported
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.IdTokenSigningAlgValuesSupported
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.Issuer
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JsonWebKeySet
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JwksUri
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseModesSupported
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseTypesSupported
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ScopesSupported
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.SubjectTypesSupported
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpoint
+  - SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpointAuthMethodsSupported
+  langs:
+  - csharp
+  - vb
+  name: OpenIdConfiguration
+  nameWithType: OpenIdConfiguration
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: 'public class OpenIdConfiguration : Object'
+    content.vb: >-
+      Public Class OpenIdConfiguration
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.#ctor
+  commentId: M:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OpenIdConfiguration()
+  nameWithType: OpenIdConfiguration.OpenIdConfiguration()
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.OpenIdConfiguration()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public OpenIdConfiguration()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.AuthorizationEndpoint
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.AuthorizationEndpoint
+  id: AuthorizationEndpoint
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationEndpoint
+  nameWithType: OpenIdConfiguration.AuthorizationEndpoint
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.AuthorizationEndpoint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string AuthorizationEndpoint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AuthorizationEndpoint As String
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.AuthorizationEndpoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ClaimsSupported
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ClaimsSupported
+  id: ClaimsSupported
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ClaimsSupported
+  nameWithType: OpenIdConfiguration.ClaimsSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ClaimsSupported
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string[] ClaimsSupported { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ClaimsSupported As String()
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ClaimsSupported*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.EndsessionEndpoint
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.EndsessionEndpoint
+  id: EndsessionEndpoint
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EndsessionEndpoint
+  nameWithType: OpenIdConfiguration.EndsessionEndpoint
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.EndsessionEndpoint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string EndsessionEndpoint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EndsessionEndpoint As String
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.EndsessionEndpoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.GrantTypesSupported
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.GrantTypesSupported
+  id: GrantTypesSupported
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GrantTypesSupported
+  nameWithType: OpenIdConfiguration.GrantTypesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.GrantTypesSupported
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string[] GrantTypesSupported { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property GrantTypesSupported As String()
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.GrantTypesSupported*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.IdTokenSigningAlgValuesSupported
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.IdTokenSigningAlgValuesSupported
+  id: IdTokenSigningAlgValuesSupported
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: IdTokenSigningAlgValuesSupported
+  nameWithType: OpenIdConfiguration.IdTokenSigningAlgValuesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.IdTokenSigningAlgValuesSupported
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string[] IdTokenSigningAlgValuesSupported { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property IdTokenSigningAlgValuesSupported As String()
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.IdTokenSigningAlgValuesSupported*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.Issuer
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.Issuer
+  id: Issuer
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Issuer
+  nameWithType: OpenIdConfiguration.Issuer
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.Issuer
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string Issuer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Issuer As String
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.Issuer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JwksUri
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JwksUri
+  id: JwksUri
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: JwksUri
+  nameWithType: OpenIdConfiguration.JwksUri
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JwksUri
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string JwksUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property JwksUri As String
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JwksUri*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JsonWebKeySet
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JsonWebKeySet
+  id: JsonWebKeySet
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: JsonWebKeySet
+  nameWithType: OpenIdConfiguration.JsonWebKeySet
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JsonWebKeySet
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public JsonWebKeySet JsonWebKeySet { get; }
+    parameters: []
+    return:
+      type: Microsoft.IdentityModel.Tokens.JsonWebKeySet
+    content.vb: Public ReadOnly Property JsonWebKeySet As JsonWebKeySet
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JsonWebKeySet*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseModesSupported
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseModesSupported
+  id: ResponseModesSupported
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ResponseModesSupported
+  nameWithType: OpenIdConfiguration.ResponseModesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseModesSupported
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string[] ResponseModesSupported { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ResponseModesSupported As String()
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseModesSupported*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseTypesSupported
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseTypesSupported
+  id: ResponseTypesSupported
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ResponseTypesSupported
+  nameWithType: OpenIdConfiguration.ResponseTypesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseTypesSupported
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string[] ResponseTypesSupported { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ResponseTypesSupported As String()
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseTypesSupported*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ScopesSupported
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ScopesSupported
+  id: ScopesSupported
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ScopesSupported
+  nameWithType: OpenIdConfiguration.ScopesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ScopesSupported
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string[] ScopesSupported { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ScopesSupported As String()
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ScopesSupported*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.SubjectTypesSupported
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.SubjectTypesSupported
+  id: SubjectTypesSupported
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SubjectTypesSupported
+  nameWithType: OpenIdConfiguration.SubjectTypesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.SubjectTypesSupported
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string[] SubjectTypesSupported { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property SubjectTypesSupported As String()
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.SubjectTypesSupported*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpoint
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpoint
+  id: TokenEndpoint
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TokenEndpoint
+  nameWithType: OpenIdConfiguration.TokenEndpoint
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpoint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string TokenEndpoint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TokenEndpoint As String
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpointAuthMethodsSupported
+  commentId: P:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpointAuthMethodsSupported
+  id: TokenEndpointAuthMethodsSupported
+  parent: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TokenEndpointAuthMethodsSupported
+  nameWithType: OpenIdConfiguration.TokenEndpointAuthMethodsSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpointAuthMethodsSupported
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string[] TokenEndpointAuthMethodsSupported { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property TokenEndpointAuthMethodsSupported As String()
+  overload: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpointAuthMethodsSupported*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.IdentityModel
+  commentId: N:SuperOffice.WebApi.IdentityModel
+  isExternal: true
+  name: SuperOffice.WebApi.IdentityModel
+  nameWithType: SuperOffice.WebApi.IdentityModel
+  fullName: SuperOffice.WebApi.IdentityModel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.#ctor*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.#ctor
+  isExternal: true
+  name: OpenIdConfiguration
+  nameWithType: OpenIdConfiguration.OpenIdConfiguration
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.OpenIdConfiguration
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.AuthorizationEndpoint*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.AuthorizationEndpoint
+  isExternal: true
+  name: AuthorizationEndpoint
+  nameWithType: OpenIdConfiguration.AuthorizationEndpoint
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.AuthorizationEndpoint
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ClaimsSupported*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ClaimsSupported
+  isExternal: true
+  name: ClaimsSupported
+  nameWithType: OpenIdConfiguration.ClaimsSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ClaimsSupported
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.EndsessionEndpoint*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.EndsessionEndpoint
+  isExternal: true
+  name: EndsessionEndpoint
+  nameWithType: OpenIdConfiguration.EndsessionEndpoint
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.EndsessionEndpoint
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.GrantTypesSupported*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.GrantTypesSupported
+  isExternal: true
+  name: GrantTypesSupported
+  nameWithType: OpenIdConfiguration.GrantTypesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.GrantTypesSupported
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.IdTokenSigningAlgValuesSupported*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.IdTokenSigningAlgValuesSupported
+  isExternal: true
+  name: IdTokenSigningAlgValuesSupported
+  nameWithType: OpenIdConfiguration.IdTokenSigningAlgValuesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.IdTokenSigningAlgValuesSupported
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.Issuer*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.Issuer
+  isExternal: true
+  name: Issuer
+  nameWithType: OpenIdConfiguration.Issuer
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.Issuer
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JwksUri*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JwksUri
+  isExternal: true
+  name: JwksUri
+  nameWithType: OpenIdConfiguration.JwksUri
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JwksUri
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JsonWebKeySet*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JsonWebKeySet
+  isExternal: true
+  name: JsonWebKeySet
+  nameWithType: OpenIdConfiguration.JsonWebKeySet
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.JsonWebKeySet
+- uid: Microsoft.IdentityModel.Tokens.JsonWebKeySet
+  commentId: '!:Microsoft.IdentityModel.Tokens.JsonWebKeySet'
+  isExternal: true
+  name: JsonWebKeySet
+  nameWithType: JsonWebKeySet
+  fullName: Microsoft.IdentityModel.Tokens.JsonWebKeySet
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseModesSupported*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseModesSupported
+  isExternal: true
+  name: ResponseModesSupported
+  nameWithType: OpenIdConfiguration.ResponseModesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseModesSupported
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseTypesSupported*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseTypesSupported
+  isExternal: true
+  name: ResponseTypesSupported
+  nameWithType: OpenIdConfiguration.ResponseTypesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ResponseTypesSupported
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ScopesSupported*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ScopesSupported
+  isExternal: true
+  name: ScopesSupported
+  nameWithType: OpenIdConfiguration.ScopesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.ScopesSupported
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.SubjectTypesSupported*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.SubjectTypesSupported
+  isExternal: true
+  name: SubjectTypesSupported
+  nameWithType: OpenIdConfiguration.SubjectTypesSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.SubjectTypesSupported
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpoint*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpoint
+  isExternal: true
+  name: TokenEndpoint
+  nameWithType: OpenIdConfiguration.TokenEndpoint
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpoint
+- uid: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpointAuthMethodsSupported*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpointAuthMethodsSupported
+  isExternal: true
+  name: TokenEndpointAuthMethodsSupported
+  nameWithType: OpenIdConfiguration.TokenEndpointAuthMethodsSupported
+  fullName: SuperOffice.WebApi.IdentityModel.OpenIdConfiguration.TokenEndpointAuthMethodsSupported

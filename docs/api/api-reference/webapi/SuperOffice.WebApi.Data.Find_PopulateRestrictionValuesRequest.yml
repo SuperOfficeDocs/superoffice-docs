@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest
+  commentId: T:SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest
+  id: Find_PopulateRestrictionValuesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.#ctor
+  - SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.Restrictions
+  langs:
+  - csharp
+  - vb
+  name: Find_PopulateRestrictionValuesRequest
+  nameWithType: Find_PopulateRestrictionValuesRequest
+  fullName: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Find_PopulateRestrictionValuesRequest : Object'
+    content.vb: >-
+      Public Class Find_PopulateRestrictionValuesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest
+  langs:
+  - csharp
+  - vb
+  name: Find_PopulateRestrictionValuesRequest()
+  nameWithType: Find_PopulateRestrictionValuesRequest.Find_PopulateRestrictionValuesRequest()
+  fullName: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.Find_PopulateRestrictionValuesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Find_PopulateRestrictionValuesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.Restrictions
+  commentId: P:SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.Restrictions
+  id: Restrictions
+  parent: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: Find_PopulateRestrictionValuesRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.Restrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveRestrictionInfo[] Restrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    content.vb: Public Property Restrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.Restrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.#ctor
+  isExternal: true
+  name: Find_PopulateRestrictionValuesRequest
+  nameWithType: Find_PopulateRestrictionValuesRequest.Find_PopulateRestrictionValuesRequest
+  fullName: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.Find_PopulateRestrictionValuesRequest
+- uid: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.Restrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.Restrictions
+  isExternal: true
+  name: Restrictions
+  nameWithType: Find_PopulateRestrictionValuesRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Find_PopulateRestrictionValuesRequest.Restrictions
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

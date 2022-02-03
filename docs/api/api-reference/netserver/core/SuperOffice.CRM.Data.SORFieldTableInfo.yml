@@ -1,0 +1,2399 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo
+  commentId: T:SuperOffice.CRM.Data.SORFieldTableInfo
+  id: SORFieldTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.SORFieldTableInfo.Alignment
+  - SuperOffice.CRM.Data.SORFieldTableInfo.Content
+  - SuperOffice.CRM.Data.SORFieldTableInfo.ContentResId
+  - SuperOffice.CRM.Data.SORFieldTableInfo.DataFormat
+  - SuperOffice.CRM.Data.SORFieldTableInfo.Definition
+  - SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.SORFieldTableInfo.FieldType
+  - SuperOffice.CRM.Data.SORFieldTableInfo.FontBold
+  - SuperOffice.CRM.Data.SORFieldTableInfo.FontColor
+  - SuperOffice.CRM.Data.SORFieldTableInfo.FontItalic
+  - SuperOffice.CRM.Data.SORFieldTableInfo.FontName
+  - SuperOffice.CRM.Data.SORFieldTableInfo.FontSize
+  - SuperOffice.CRM.Data.SORFieldTableInfo.FontStrikethrough
+  - SuperOffice.CRM.Data.SORFieldTableInfo.FontUnderline
+  - SuperOffice.CRM.Data.SORFieldTableInfo.Func
+  - SuperOffice.CRM.Data.SORFieldTableInfo.GroupType
+  - SuperOffice.CRM.Data.SORFieldTableInfo.Registered
+  - SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.SORFieldTableInfo.Running
+  - SuperOffice.CRM.Data.SORFieldTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.SORFieldTableInfo.SetHeight
+  - SuperOffice.CRM.Data.SORFieldTableInfo.SetLeft
+  - SuperOffice.CRM.Data.SORFieldTableInfo.SetTop
+  - SuperOffice.CRM.Data.SORFieldTableInfo.SetWidth
+  - SuperOffice.CRM.Data.SORFieldTableInfo.Sgroup
+  - SuperOffice.CRM.Data.SORFieldTableInfo.SORFieldId
+  - SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId
+  - SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId_InnerJoin_SORSection
+  - SuperOffice.CRM.Data.SORFieldTableInfo.Updated
+  - SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedCount
+  - SuperOffice.CRM.Data.SORFieldTableInfo.Visible
+  langs:
+  - csharp
+  - vb
+  name: SORFieldTableInfo
+  nameWithType: SORFieldTableInfo
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;SORField&apos;: SuperOffice reporter data\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetSORFieldInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("SORField")]
+
+      public class SORFieldTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("SORField")>
+
+      Public Class SORFieldTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.SORFieldTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.SORFieldTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SORField
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: SORFieldTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table SORField in the database dictionary: SORField\n"
+  syntax:
+    content: public const string DictionaryTableName = "SORField"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "SORField"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: SORFieldTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table SORField in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: SORFieldTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: SORFieldTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SORFieldId
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.SORFieldId
+  id: SORFieldId
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SORFieldId
+  nameWithType: SORFieldTableInfo.SORFieldId
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SORFieldId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;SORField_id&apos; in table &apos;SORField&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo SORFieldId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SORFieldId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.SORFieldId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId
+  id: SORSectionId
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SORSectionId
+  nameWithType: SORFieldTableInfo.SORSectionId
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;SORSection_id&apos; in table &apos;SORField&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nForeign key to Section\n"
+  syntax:
+    content: public Int32FieldInfo SORSectionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SORSectionId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FieldType
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.FieldType
+  id: FieldType
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: SORFieldTableInfo.FieldType
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FieldType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;fieldType&apos; in table &apos;SORField&apos;: Dictionary type String[15], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nfield, label, line, image, pagenr, pages, date, associatename\n"
+  syntax:
+    content: public StringFieldInfo FieldType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FieldType As StringFieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.FieldType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Content
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.Content
+  id: Content
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: SORFieldTableInfo.Content
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Content
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;content&apos; in table &apos;SORField&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField: db field name; Label: caption; image: file name; otherwise - empty\n"
+  syntax:
+    content: public StringFieldInfo Content { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Content As StringFieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.Content*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.ContentResId
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.ContentResId
+  id: ContentResId
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContentResId
+  nameWithType: SORFieldTableInfo.ContentResId
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.ContentResId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;contentResId&apos; in table &apos;SORField&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nresource id if translatable resource\n"
+  syntax:
+    content: public FieldInfo ContentResId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property ContentResId As FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.ContentResId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SetTop
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.SetTop
+  id: SetTop
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SetTop
+  nameWithType: SORFieldTableInfo.SetTop
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SetTop
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;setTop&apos; in table &apos;SORField&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ntop position in twips\n"
+  syntax:
+    content: public FieldInfo SetTop { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property SetTop As FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.SetTop*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SetLeft
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.SetLeft
+  id: SetLeft
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SetLeft
+  nameWithType: SORFieldTableInfo.SetLeft
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SetLeft
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;setLeft&apos; in table &apos;SORField&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nleft position in twips\n"
+  syntax:
+    content: public FieldInfo SetLeft { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property SetLeft As FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.SetLeft*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SetHeight
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.SetHeight
+  id: SetHeight
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SetHeight
+  nameWithType: SORFieldTableInfo.SetHeight
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SetHeight
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;setHeight&apos; in table &apos;SORField&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nheight in twips\n"
+  syntax:
+    content: public FieldInfo SetHeight { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property SetHeight As FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.SetHeight*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SetWidth
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.SetWidth
+  id: SetWidth
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SetWidth
+  nameWithType: SORFieldTableInfo.SetWidth
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SetWidth
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;setWidth&apos; in table &apos;SORField&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nwidth in twips\n"
+  syntax:
+    content: public FieldInfo SetWidth { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property SetWidth As FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.SetWidth*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Running
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.Running
+  id: Running
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Running
+  nameWithType: SORFieldTableInfo.Running
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Running
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;running&apos; in table &apos;SORField&apos;: Dictionary type Short, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n-1=NULL, 0=ddSRNone, 1=ddSRGroup, 2=ddSRAll\n"
+  syntax:
+    content: public Int16FieldInfo Running { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int16FieldInfo
+    content.vb: Public ReadOnly Property Running As Int16FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.Running*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Func
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.Func
+  id: Func
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Func
+  nameWithType: SORFieldTableInfo.Func
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Func
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;func&apos; in table &apos;SORField&apos;: Dictionary type Short, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n-1=NULL, 0=ddSFSum, 1=ddSFAvg, 2=ddSFCount, 3=dSFMin, 4=ddSFMax\n"
+  syntax:
+    content: public Int16FieldInfo Func { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int16FieldInfo
+    content.vb: Public ReadOnly Property Func As Int16FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.Func*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.GroupType
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.GroupType
+  id: GroupType
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: GroupType
+  nameWithType: SORFieldTableInfo.GroupType
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.GroupType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;groupType&apos; in table &apos;SORField&apos;: Dictionary type Short, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n-1=NULL, 0=ddSMNone, 1=ddSMGrandTotal, 2=ddSMPageTotal, 3=ddSMSubTotal, 4=ddSMPageCount\n"
+  syntax:
+    content: public Int16FieldInfo GroupType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int16FieldInfo
+    content.vb: Public ReadOnly Property GroupType As Int16FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.GroupType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Sgroup
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.Sgroup
+  id: Sgroup
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Sgroup
+  nameWithType: SORFieldTableInfo.Sgroup
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Sgroup
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;sgroup&apos; in table &apos;SORField&apos;: Dictionary type String[15], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhich group to use for heading: GroupHeader1-3 or empty string\n"
+  syntax:
+    content: public StringFieldInfo Sgroup { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Sgroup As StringFieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.Sgroup*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Visible
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.Visible
+  id: Visible
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Visible
+  nameWithType: SORFieldTableInfo.Visible
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Visible
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;visible&apos; in table &apos;SORField&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIs field visible, 1=true\n"
+  syntax:
+    content: public UInt16FieldInfo Visible { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Visible As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.Visible*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontName
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.FontName
+  id: FontName
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FontName
+  nameWithType: SORFieldTableInfo.FontName
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;fontName&apos; in table &apos;SORField&apos;: Dictionary type String[150], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nName of font\n"
+  syntax:
+    content: public StringFieldInfo FontName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FontName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.FontName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontSize
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.FontSize
+  id: FontSize
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FontSize
+  nameWithType: SORFieldTableInfo.FontSize
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontSize
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;fontSize&apos; in table &apos;SORField&apos;: Dictionary type Short, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIn points\n"
+  syntax:
+    content: public Int16FieldInfo FontSize { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int16FieldInfo
+    content.vb: Public ReadOnly Property FontSize As Int16FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.FontSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontColor
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.FontColor
+  id: FontColor
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FontColor
+  nameWithType: SORFieldTableInfo.FontColor
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontColor
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;fontColor&apos; in table &apos;SORField&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ncolour index\n"
+  syntax:
+    content: public Int32FieldInfo FontColor { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property FontColor As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.FontColor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontBold
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.FontBold
+  id: FontBold
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FontBold
+  nameWithType: SORFieldTableInfo.FontBold
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontBold
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;fontBold&apos; in table &apos;SORField&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n1=bold\n"
+  syntax:
+    content: public UInt16FieldInfo FontBold { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property FontBold As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.FontBold*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontItalic
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.FontItalic
+  id: FontItalic
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FontItalic
+  nameWithType: SORFieldTableInfo.FontItalic
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontItalic
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;fontItalic&apos; in table &apos;SORField&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n1=iatlic\n"
+  syntax:
+    content: public UInt16FieldInfo FontItalic { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property FontItalic As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.FontItalic*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontStrikethrough
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.FontStrikethrough
+  id: FontStrikethrough
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FontStrikethrough
+  nameWithType: SORFieldTableInfo.FontStrikethrough
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontStrikethrough
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;fontStrikethrough&apos; in table &apos;SORField&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n1=strikethrough\n"
+  syntax:
+    content: public UInt16FieldInfo FontStrikethrough { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property FontStrikethrough As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.FontStrikethrough*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontUnderline
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.FontUnderline
+  id: FontUnderline
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FontUnderline
+  nameWithType: SORFieldTableInfo.FontUnderline
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontUnderline
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;fontUnderline&apos; in table &apos;SORField&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n1=underline\n"
+  syntax:
+    content: public UInt16FieldInfo FontUnderline { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property FontUnderline As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.FontUnderline*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Alignment
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.Alignment
+  id: Alignment
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Alignment
+  nameWithType: SORFieldTableInfo.Alignment
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Alignment
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;alignment&apos; in table &apos;SORField&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n0=left, 1=right, 2=center\n"
+  syntax:
+    content: public UInt16FieldInfo Alignment { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Alignment As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.Alignment*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.DataFormat
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.DataFormat
+  id: DataFormat
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DataFormat
+  nameWithType: SORFieldTableInfo.DataFormat
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.DataFormat
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;dataFormat&apos; in table &apos;SORField&apos;: Dictionary type String[20], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField format mask\n"
+  syntax:
+    content: public StringFieldInfo DataFormat { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property DataFormat As StringFieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.DataFormat*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: SORFieldTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered&apos; in table &apos;SORField&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: SORFieldTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;SORField&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: SORFieldTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated&apos; in table &apos;SORField&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: SORFieldTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;SORField&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: SORFieldTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updatedCount&apos; in table &apos;SORField&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId_InnerJoin_SORSection
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId_InnerJoin_SORSection
+  id: SORSectionId_InnerJoin_SORSection
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SORSectionId_InnerJoin_SORSection
+  nameWithType: SORFieldTableInfo.SORSectionId_InnerJoin_SORSection
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId_InnerJoin_SORSection
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key SORSectionId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.SORSectionTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<SORSectionTableInfo> SORSectionId_InnerJoin_SORSection { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SORSectionTableInfo}
+    content.vb: Public ReadOnly Property SORSectionId_InnerJoin_SORSection As TargetedInnerJoin(Of SORSectionTableInfo)
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId_InnerJoin_SORSection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: SORFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.SORFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: SORFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SORFieldTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<SORFieldTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.SORFieldTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SORFieldTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.SORFieldTableInfo, To)()
+  name.vb: MapEnums(Of SORFieldTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SORFieldTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<SORFieldTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.SORFieldTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SORFieldTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of SORFieldTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.SORFieldTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SORFieldTableInfo, To>()
+  nameWithType: Converters.MapEnums<SORFieldTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.SORFieldTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of SORFieldTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.SORFieldTableInfo, To)()
+  name.vb: MapEnums(Of SORFieldTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SORFieldTableInfo, To>
+    nameWithType: Converters.MapEnums<SORFieldTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.SORFieldTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SORFieldTableInfo, To)
+    nameWithType: Converters.MapEnums(Of SORFieldTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.SORFieldTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: SORFieldTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: SORFieldTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: SORFieldTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Definition
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SORFieldId*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.SORFieldId
+  isExternal: true
+  name: SORFieldId
+  nameWithType: SORFieldTableInfo.SORFieldId
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SORFieldId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId
+  isExternal: true
+  name: SORSectionId
+  nameWithType: SORFieldTableInfo.SORSectionId
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FieldType*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: SORFieldTableInfo.FieldType
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FieldType
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Content*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.Content
+  isExternal: true
+  name: Content
+  nameWithType: SORFieldTableInfo.Content
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Content
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.ContentResId*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.ContentResId
+  isExternal: true
+  name: ContentResId
+  nameWithType: SORFieldTableInfo.ContentResId
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.ContentResId
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SetTop*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.SetTop
+  isExternal: true
+  name: SetTop
+  nameWithType: SORFieldTableInfo.SetTop
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SetTop
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SetLeft*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.SetLeft
+  isExternal: true
+  name: SetLeft
+  nameWithType: SORFieldTableInfo.SetLeft
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SetLeft
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SetHeight*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.SetHeight
+  isExternal: true
+  name: SetHeight
+  nameWithType: SORFieldTableInfo.SetHeight
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SetHeight
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SetWidth*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.SetWidth
+  isExternal: true
+  name: SetWidth
+  nameWithType: SORFieldTableInfo.SetWidth
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SetWidth
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Running*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.Running
+  isExternal: true
+  name: Running
+  nameWithType: SORFieldTableInfo.Running
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Running
+- uid: SuperOffice.Data.SQL.Int16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int16FieldInfo
+  nameWithType: Int16FieldInfo
+  fullName: SuperOffice.Data.SQL.Int16FieldInfo
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Func*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.Func
+  isExternal: true
+  name: Func
+  nameWithType: SORFieldTableInfo.Func
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Func
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.GroupType*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.GroupType
+  isExternal: true
+  name: GroupType
+  nameWithType: SORFieldTableInfo.GroupType
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.GroupType
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Sgroup*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.Sgroup
+  isExternal: true
+  name: Sgroup
+  nameWithType: SORFieldTableInfo.Sgroup
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Sgroup
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Visible*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.Visible
+  isExternal: true
+  name: Visible
+  nameWithType: SORFieldTableInfo.Visible
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Visible
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontName*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.FontName
+  isExternal: true
+  name: FontName
+  nameWithType: SORFieldTableInfo.FontName
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontName
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontSize*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.FontSize
+  isExternal: true
+  name: FontSize
+  nameWithType: SORFieldTableInfo.FontSize
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontSize
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontColor*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.FontColor
+  isExternal: true
+  name: FontColor
+  nameWithType: SORFieldTableInfo.FontColor
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontColor
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontBold*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.FontBold
+  isExternal: true
+  name: FontBold
+  nameWithType: SORFieldTableInfo.FontBold
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontBold
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontItalic*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.FontItalic
+  isExternal: true
+  name: FontItalic
+  nameWithType: SORFieldTableInfo.FontItalic
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontItalic
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontStrikethrough*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.FontStrikethrough
+  isExternal: true
+  name: FontStrikethrough
+  nameWithType: SORFieldTableInfo.FontStrikethrough
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontStrikethrough
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.FontUnderline*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.FontUnderline
+  isExternal: true
+  name: FontUnderline
+  nameWithType: SORFieldTableInfo.FontUnderline
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.FontUnderline
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Alignment*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.Alignment
+  isExternal: true
+  name: Alignment
+  nameWithType: SORFieldTableInfo.Alignment
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Alignment
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.DataFormat*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.DataFormat
+  isExternal: true
+  name: DataFormat
+  nameWithType: SORFieldTableInfo.DataFormat
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.DataFormat
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: SORFieldTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Registered
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: SORFieldTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: SORFieldTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.Updated
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: SORFieldTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: SORFieldTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId_InnerJoin_SORSection*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId_InnerJoin_SORSection
+  isExternal: true
+  name: SORSectionId_InnerJoin_SORSection
+  nameWithType: SORFieldTableInfo.SORSectionId_InnerJoin_SORSection
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.SORSectionId_InnerJoin_SORSection
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SORSectionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SORSectionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<SORSectionTableInfo>
+  nameWithType: TargetedInnerJoin<SORSectionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.SORSectionTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of SORSectionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.SORSectionTableInfo)
+  name.vb: TargetedInnerJoin(Of SORSectionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.SORSectionTableInfo
+    name: SORSectionTableInfo
+    nameWithType: SORSectionTableInfo
+    fullName: SuperOffice.CRM.Data.SORSectionTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.SORSectionTableInfo
+    name: SORSectionTableInfo
+    nameWithType: SORSectionTableInfo
+    fullName: SuperOffice.CRM.Data.SORSectionTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: SORFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: SORFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.SORFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate

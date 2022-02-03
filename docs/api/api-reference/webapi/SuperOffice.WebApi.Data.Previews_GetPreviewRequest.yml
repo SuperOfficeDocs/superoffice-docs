@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Previews_GetPreviewRequest
+  commentId: T:SuperOffice.WebApi.Data.Previews_GetPreviewRequest
+  id: Previews_GetPreviewRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Previews_GetPreviewRequest.#ctor
+  - SuperOffice.WebApi.Data.Previews_GetPreviewRequest.PreviewHint
+  langs:
+  - csharp
+  - vb
+  name: Previews_GetPreviewRequest
+  nameWithType: Previews_GetPreviewRequest
+  fullName: SuperOffice.WebApi.Data.Previews_GetPreviewRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Previews_GetPreviewRequest : Object'
+    content.vb: >-
+      Public Class Previews_GetPreviewRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Previews_GetPreviewRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Previews_GetPreviewRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Previews_GetPreviewRequest
+  langs:
+  - csharp
+  - vb
+  name: Previews_GetPreviewRequest()
+  nameWithType: Previews_GetPreviewRequest.Previews_GetPreviewRequest()
+  fullName: SuperOffice.WebApi.Data.Previews_GetPreviewRequest.Previews_GetPreviewRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Previews_GetPreviewRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Previews_GetPreviewRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Previews_GetPreviewRequest.PreviewHint
+  commentId: P:SuperOffice.WebApi.Data.Previews_GetPreviewRequest.PreviewHint
+  id: PreviewHint
+  parent: SuperOffice.WebApi.Data.Previews_GetPreviewRequest
+  langs:
+  - csharp
+  - vb
+  name: PreviewHint
+  nameWithType: Previews_GetPreviewRequest.PreviewHint
+  fullName: SuperOffice.WebApi.Data.Previews_GetPreviewRequest.PreviewHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PreviewHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PreviewHint As String
+  overload: SuperOffice.WebApi.Data.Previews_GetPreviewRequest.PreviewHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Previews_GetPreviewRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Previews_GetPreviewRequest.#ctor
+  isExternal: true
+  name: Previews_GetPreviewRequest
+  nameWithType: Previews_GetPreviewRequest.Previews_GetPreviewRequest
+  fullName: SuperOffice.WebApi.Data.Previews_GetPreviewRequest.Previews_GetPreviewRequest
+- uid: SuperOffice.WebApi.Data.Previews_GetPreviewRequest.PreviewHint*
+  commentId: Overload:SuperOffice.WebApi.Data.Previews_GetPreviewRequest.PreviewHint
+  isExternal: true
+  name: PreviewHint
+  nameWithType: Previews_GetPreviewRequest.PreviewHint
+  fullName: SuperOffice.WebApi.Data.Previews_GetPreviewRequest.PreviewHint
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

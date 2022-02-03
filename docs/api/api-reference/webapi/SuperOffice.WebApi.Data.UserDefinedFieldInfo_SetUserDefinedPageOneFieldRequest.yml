@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  id: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.#ctor
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.FieldLineNo
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.OwnerType
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UdefFieldId
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserGroupId
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  nameWithType: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest : Object'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest()
+  nameWithType: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.OwnerType
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.OwnerType
+  id: OwnerType
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  langs:
+  - csharp
+  - vb
+  name: OwnerType
+  nameWithType: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.OwnerType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.OwnerType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UDefType OwnerType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Property OwnerType As UDefType
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.OwnerType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UdefFieldId
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UdefFieldId
+  id: UdefFieldId
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  langs:
+  - csharp
+  - vb
+  name: UdefFieldId
+  nameWithType: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UdefFieldId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UdefFieldId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UdefFieldId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UdefFieldId As Integer
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UdefFieldId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserGroupId
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserGroupId
+  id: UserGroupId
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  langs:
+  - csharp
+  - vb
+  name: UserGroupId
+  nameWithType: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UserGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserGroupId As Integer
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserGroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.FieldLineNo
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.FieldLineNo
+  id: FieldLineNo
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  langs:
+  - csharp
+  - vb
+  name: FieldLineNo
+  nameWithType: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.FieldLineNo
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.FieldLineNo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int FieldLineNo { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FieldLineNo As Integer
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.FieldLineNo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  nameWithType: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.OwnerType*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.OwnerType
+  isExternal: true
+  name: OwnerType
+  nameWithType: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.OwnerType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.OwnerType
+- uid: SuperOffice.WebApi.Data.UDefType
+  commentId: T:SuperOffice.WebApi.Data.UDefType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.WebApi.Data.UDefType
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UdefFieldId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UdefFieldId
+  isExternal: true
+  name: UdefFieldId
+  nameWithType: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UdefFieldId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UdefFieldId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserGroupId
+  isExternal: true
+  name: UserGroupId
+  nameWithType: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.UserGroupId
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.FieldLineNo*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.FieldLineNo
+  isExternal: true
+  name: FieldLineNo
+  nameWithType: UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.FieldLineNo
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetUserDefinedPageOneFieldRequest.FieldLineNo

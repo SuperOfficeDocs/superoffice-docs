@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest
+  commentId: T:SuperOffice.WebApi.Data.List_MoveAllTicketsRequest
+  id: List_MoveAllTicketsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.#ctor
+  - SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.FromTicketCategoryId
+  - SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.ToTicketCategoryId
+  langs:
+  - csharp
+  - vb
+  name: List_MoveAllTicketsRequest
+  nameWithType: List_MoveAllTicketsRequest
+  fullName: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_MoveAllTicketsRequest : Object'
+    content.vb: >-
+      Public Class List_MoveAllTicketsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest
+  langs:
+  - csharp
+  - vb
+  name: List_MoveAllTicketsRequest()
+  nameWithType: List_MoveAllTicketsRequest.List_MoveAllTicketsRequest()
+  fullName: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.List_MoveAllTicketsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_MoveAllTicketsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.FromTicketCategoryId
+  commentId: P:SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.FromTicketCategoryId
+  id: FromTicketCategoryId
+  parent: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest
+  langs:
+  - csharp
+  - vb
+  name: FromTicketCategoryId
+  nameWithType: List_MoveAllTicketsRequest.FromTicketCategoryId
+  fullName: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.FromTicketCategoryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int FromTicketCategoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FromTicketCategoryId As Integer
+  overload: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.FromTicketCategoryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.ToTicketCategoryId
+  commentId: P:SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.ToTicketCategoryId
+  id: ToTicketCategoryId
+  parent: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest
+  langs:
+  - csharp
+  - vb
+  name: ToTicketCategoryId
+  nameWithType: List_MoveAllTicketsRequest.ToTicketCategoryId
+  fullName: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.ToTicketCategoryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ToTicketCategoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ToTicketCategoryId As Integer
+  overload: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.ToTicketCategoryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.#ctor
+  isExternal: true
+  name: List_MoveAllTicketsRequest
+  nameWithType: List_MoveAllTicketsRequest.List_MoveAllTicketsRequest
+  fullName: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.List_MoveAllTicketsRequest
+- uid: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.FromTicketCategoryId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.FromTicketCategoryId
+  isExternal: true
+  name: FromTicketCategoryId
+  nameWithType: List_MoveAllTicketsRequest.FromTicketCategoryId
+  fullName: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.FromTicketCategoryId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.ToTicketCategoryId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.ToTicketCategoryId
+  isExternal: true
+  name: ToTicketCategoryId
+  nameWithType: List_MoveAllTicketsRequest.ToTicketCategoryId
+  fullName: SuperOffice.WebApi.Data.List_MoveAllTicketsRequest.ToTicketCategoryId

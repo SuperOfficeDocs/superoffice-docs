@@ -1,0 +1,469 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  commentId: T:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  id: ShipmentMessageBlockEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.#ctor
+  - SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.AssociateId
+  - SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Block
+  - SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Registered
+  - SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.RegisteredAssociateId
+  - SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  - SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Updated
+  - SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedAssociateId
+  - SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: ShipmentMessageBlockEntity
+  nameWithType: ShipmentMessageBlockEntity
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ShipmentMessageBlockEntity.\nThis entity contains information about design blocks that can be used in a shipment/mailing message    \n"
+  example:
+  - "\nGet ShipmentMessageBlockEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new MarketingAgent(configuration);\nvar shipmentMessageBlockEntity = agent.GetShipmentMessageBlockEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ShipmentMessageBlockEntity : Carrier'
+    content.vb: >-
+      Public Class ShipmentMessageBlockEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.MarketingAgent
+    commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: ShipmentMessageBlockEntity()
+  nameWithType: ShipmentMessageBlockEntity.ShipmentMessageBlockEntity()
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.ShipmentMessageBlockEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ShipmentMessageBlockEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  commentId: P:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  id: ShipmentMessageBlockId
+  parent: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: ShipmentMessageBlockId
+  nameWithType: ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ShipmentMessageBlockId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ShipmentMessageBlockId As Integer
+  overload: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.ShipmentMessageBlockId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: ShipmentMessageBlockEntity.AssociateId
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate that owns this block\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Block
+  commentId: P:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Block
+  id: Block
+  parent: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: Block
+  nameWithType: ShipmentMessageBlockEntity.Block
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Block
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe block definition. Normally this will be a json structure\n"
+  syntax:
+    content: public virtual string Block { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Block As String
+  overload: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Block*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Registered
+  commentId: P:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ShipmentMessageBlockEntity.Registered
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Registered
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As DateTime
+  overload: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.RegisteredAssociateId
+  commentId: P:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: ShipmentMessageBlockEntity.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.RegisteredAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered by whom\n"
+  syntax:
+    content: public virtual int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RegisteredAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Updated
+  commentId: P:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ShipmentMessageBlockEntity.Updated
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Updated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As DateTime
+  overload: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedAssociateId
+  commentId: P:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: ShipmentMessageBlockEntity.UpdatedAssociateId
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated by whom\n"
+  syntax:
+    content: public virtual int UpdatedAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UpdatedAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedCount
+  commentId: P:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: ShipmentMessageBlockEntity.UpdatedCount
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedCount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of updates made to this record\n"
+  syntax:
+    content: public virtual short UpdatedCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property UpdatedCount As Short
+  overload: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.MarketingAgent
+  commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
+  isExternal: true
+  name: MarketingAgent
+  nameWithType: MarketingAgent
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.#ctor
+  isExternal: true
+  name: ShipmentMessageBlockEntity
+  nameWithType: ShipmentMessageBlockEntity.ShipmentMessageBlockEntity
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.ShipmentMessageBlockEntity
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.ShipmentMessageBlockId*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  isExternal: true
+  name: ShipmentMessageBlockId
+  nameWithType: ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: ShipmentMessageBlockEntity.AssociateId
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.AssociateId
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Block*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Block
+  isExternal: true
+  name: Block
+  nameWithType: ShipmentMessageBlockEntity.Block
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Block
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: ShipmentMessageBlockEntity.Registered
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Registered
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: ShipmentMessageBlockEntity.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.RegisteredAssociateId
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: ShipmentMessageBlockEntity.Updated
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.Updated
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: ShipmentMessageBlockEntity.UpdatedAssociateId
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedAssociateId
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedCount*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: ShipmentMessageBlockEntity.UpdatedCount
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity.UpdatedCount
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16

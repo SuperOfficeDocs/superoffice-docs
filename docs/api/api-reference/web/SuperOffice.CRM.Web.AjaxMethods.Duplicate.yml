@@ -1,0 +1,539 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Duplicate
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Duplicate
+  id: Duplicate
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Duplicate.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Duplicate.CreateNewEntry(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Duplicate.GetDuplicateDialogScript(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Duplicate.IsContactNameDepartmentDuplicate(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Duplicate
+  nameWithType: Duplicate
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Duplicate
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Duplicate")]
+
+      public class Duplicate : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Duplicate")>
+
+      Public Class Duplicate
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Duplicate
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Duplicate.CreateNewEntry(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Duplicate.CreateNewEntry(System.String,System.String,System.String,System.String)
+  id: CreateNewEntry(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Duplicate
+  langs:
+  - csharp
+  - vb
+  name: CreateNewEntry(String, String, String, String)
+  nameWithType: Duplicate.CreateNewEntry(String, String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Duplicate.CreateNewEntry(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string CreateNewEntry(string type, string rule, string entryName, string identifier)
+    parameters:
+    - id: type
+      type: System.String
+    - id: rule
+      type: System.String
+    - id: entryName
+      type: System.String
+    - id: identifier
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function CreateNewEntry(type As String, rule As String, entryName As String, identifier As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Duplicate.CreateNewEntry*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Duplicate.IsContactNameDepartmentDuplicate(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Duplicate.IsContactNameDepartmentDuplicate(System.String,System.String)
+  id: IsContactNameDepartmentDuplicate(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Duplicate
+  langs:
+  - csharp
+  - vb
+  name: IsContactNameDepartmentDuplicate(String, String)
+  nameWithType: Duplicate.IsContactNameDepartmentDuplicate(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Duplicate.IsContactNameDepartmentDuplicate(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public bool IsContactNameDepartmentDuplicate(string name, string department)
+    parameters:
+    - id: name
+      type: System.String
+    - id: department
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsContactNameDepartmentDuplicate(name As String, department As String) As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.Duplicate.IsContactNameDepartmentDuplicate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Duplicate.GetDuplicateDialogScript(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Duplicate.GetDuplicateDialogScript(System.String,System.String)
+  id: GetDuplicateDialogScript(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Duplicate
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicateDialogScript(String, String)
+  nameWithType: Duplicate.GetDuplicateDialogScript(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Duplicate.GetDuplicateDialogScript(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetDuplicateDialogScript(string type, string name)
+    parameters:
+    - id: type
+      type: System.String
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetDuplicateDialogScript(type As String, name As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Duplicate.GetDuplicateDialogScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Duplicate.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Duplicate.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Duplicate
+  langs:
+  - csharp
+  - vb
+  name: Duplicate()
+  nameWithType: Duplicate.Duplicate()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Duplicate.Duplicate()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Duplicate()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Duplicate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Duplicate.CreateNewEntry*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Duplicate.CreateNewEntry
+  isExternal: true
+  name: CreateNewEntry
+  nameWithType: Duplicate.CreateNewEntry
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Duplicate.CreateNewEntry
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.Duplicate.IsContactNameDepartmentDuplicate*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Duplicate.IsContactNameDepartmentDuplicate
+  isExternal: true
+  name: IsContactNameDepartmentDuplicate
+  nameWithType: Duplicate.IsContactNameDepartmentDuplicate
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Duplicate.IsContactNameDepartmentDuplicate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.Duplicate.GetDuplicateDialogScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Duplicate.GetDuplicateDialogScript
+  isExternal: true
+  name: GetDuplicateDialogScript
+  nameWithType: Duplicate.GetDuplicateDialogScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Duplicate.GetDuplicateDialogScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Duplicate.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Duplicate.#ctor
+  isExternal: true
+  name: Duplicate
+  nameWithType: Duplicate.Duplicate
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Duplicate.Duplicate

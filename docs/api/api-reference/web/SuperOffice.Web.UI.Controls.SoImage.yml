@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoImage
+  commentId: T:SuperOffice.Web.UI.Controls.SoImage
+  id: SoImage
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoImage.#ctor
+  - SuperOffice.Web.UI.Controls.SoImage.#ctor(System.String)
+  - SuperOffice.Web.UI.Controls.SoImage.ActiveSrc
+  - SuperOffice.Web.UI.Controls.SoImage.Attributes
+  - SuperOffice.Web.UI.Controls.SoImage.CssClass
+  - SuperOffice.Web.UI.Controls.SoImage.Disabled
+  - SuperOffice.Web.UI.Controls.SoImage.DisabledSrc
+  - SuperOffice.Web.UI.Controls.SoImage.HoverSrc
+  - SuperOffice.Web.UI.Controls.SoImage.OnClick
+  - SuperOffice.Web.UI.Controls.SoImage.OnMouseDown
+  - SuperOffice.Web.UI.Controls.SoImage.OnMouseMove
+  - SuperOffice.Web.UI.Controls.SoImage.OnMouseOut
+  - SuperOffice.Web.UI.Controls.SoImage.OnMouseOver
+  - SuperOffice.Web.UI.Controls.SoImage.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoImage.RequireSprite
+  - SuperOffice.Web.UI.Controls.SoImage.Src
+  - SuperOffice.Web.UI.Controls.SoImage.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: SoImage
+  nameWithType: SoImage
+  fullName: SuperOffice.Web.UI.Controls.SoImage
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoImage : HtmlImage'
+    content.vb: >-
+      Public Class SoImage
+          Inherits HtmlImage
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoImage.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoImage.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: SoImage()
+  nameWithType: SoImage.SoImage()
+  fullName: SuperOffice.Web.UI.Controls.SoImage.SoImage()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoImage()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoImage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.#ctor(System.String)
+  commentId: M:SuperOffice.Web.UI.Controls.SoImage.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: SoImage(String)
+  nameWithType: SoImage.SoImage(String)
+  fullName: SuperOffice.Web.UI.Controls.SoImage.SoImage(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoImage(string source)
+    parameters:
+    - id: source
+      type: System.String
+    content.vb: Public Sub New(source As String)
+  overload: SuperOffice.Web.UI.Controls.SoImage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoImage.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoImage.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoImage.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoImage.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoImage.Src
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.Src
+  id: Src
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: Src
+  nameWithType: SoImage.Src
+  fullName: SuperOffice.Web.UI.Controls.SoImage.Src
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string Src { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Src As String
+  overload: SuperOffice.Web.UI.Controls.SoImage.Src*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.ActiveSrc
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.ActiveSrc
+  id: ActiveSrc
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: ActiveSrc
+  nameWithType: SoImage.ActiveSrc
+  fullName: SuperOffice.Web.UI.Controls.SoImage.ActiveSrc
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string ActiveSrc { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ActiveSrc As String
+  overload: SuperOffice.Web.UI.Controls.SoImage.ActiveSrc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.HoverSrc
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.HoverSrc
+  id: HoverSrc
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: HoverSrc
+  nameWithType: SoImage.HoverSrc
+  fullName: SuperOffice.Web.UI.Controls.SoImage.HoverSrc
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string HoverSrc { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HoverSrc As String
+  overload: SuperOffice.Web.UI.Controls.SoImage.HoverSrc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.DisabledSrc
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.DisabledSrc
+  id: DisabledSrc
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: DisabledSrc
+  nameWithType: SoImage.DisabledSrc
+  fullName: SuperOffice.Web.UI.Controls.SoImage.DisabledSrc
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string DisabledSrc { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisabledSrc As String
+  overload: SuperOffice.Web.UI.Controls.SoImage.DisabledSrc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.Disabled
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.Disabled
+  id: Disabled
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: SoImage.Disabled
+  fullName: SuperOffice.Web.UI.Controls.SoImage.Disabled
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public bool Disabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Disabled As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoImage.Disabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.Tooltip
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.Tooltip
+  id: Tooltip
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SoImage.Tooltip
+  fullName: SuperOffice.Web.UI.Controls.SoImage.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tooltip As String
+  overload: SuperOffice.Web.UI.Controls.SoImage.Tooltip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.OnClick
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.OnClick
+  id: OnClick
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: OnClick
+  nameWithType: SoImage.OnClick
+  fullName: SuperOffice.Web.UI.Controls.SoImage.OnClick
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string OnClick { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OnClick As String
+  overload: SuperOffice.Web.UI.Controls.SoImage.OnClick*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.OnMouseOver
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.OnMouseOver
+  id: OnMouseOver
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: OnMouseOver
+  nameWithType: SoImage.OnMouseOver
+  fullName: SuperOffice.Web.UI.Controls.SoImage.OnMouseOver
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string OnMouseOver { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OnMouseOver As String
+  overload: SuperOffice.Web.UI.Controls.SoImage.OnMouseOver*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.OnMouseOut
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.OnMouseOut
+  id: OnMouseOut
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: OnMouseOut
+  nameWithType: SoImage.OnMouseOut
+  fullName: SuperOffice.Web.UI.Controls.SoImage.OnMouseOut
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string OnMouseOut { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OnMouseOut As String
+  overload: SuperOffice.Web.UI.Controls.SoImage.OnMouseOut*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.OnMouseDown
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.OnMouseDown
+  id: OnMouseDown
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: OnMouseDown
+  nameWithType: SoImage.OnMouseDown
+  fullName: SuperOffice.Web.UI.Controls.SoImage.OnMouseDown
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string OnMouseDown { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OnMouseDown As String
+  overload: SuperOffice.Web.UI.Controls.SoImage.OnMouseDown*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.OnMouseMove
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.OnMouseMove
+  id: OnMouseMove
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: OnMouseMove
+  nameWithType: SoImage.OnMouseMove
+  fullName: SuperOffice.Web.UI.Controls.SoImage.OnMouseMove
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string OnMouseMove { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OnMouseMove As String
+  overload: SuperOffice.Web.UI.Controls.SoImage.OnMouseMove*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.CssClass
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.CssClass
+  id: CssClass
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: CssClass
+  nameWithType: SoImage.CssClass
+  fullName: SuperOffice.Web.UI.Controls.SoImage.CssClass
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string CssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CssClass As String
+  overload: SuperOffice.Web.UI.Controls.SoImage.CssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.RequireSprite
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.RequireSprite
+  id: RequireSprite
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: RequireSprite
+  nameWithType: SoImage.RequireSprite
+  fullName: SuperOffice.Web.UI.Controls.SoImage.RequireSprite
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public bool RequireSprite { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RequireSprite As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoImage.RequireSprite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoImage.Attributes
+  commentId: P:SuperOffice.Web.UI.Controls.SoImage.Attributes
+  id: Attributes
+  parent: SuperOffice.Web.UI.Controls.SoImage
+  langs:
+  - csharp
+  - vb
+  name: Attributes
+  nameWithType: SoImage.Attributes
+  fullName: SuperOffice.Web.UI.Controls.SoImage.Attributes
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: >-
+      [Obsolete("Setting attributes on image directly is obsolete!")]
+
+      public AttributeCollection Attributes { get; }
+    parameters: []
+    return:
+      type: System.Web.UI.AttributeCollection
+    content.vb: >-
+      <Obsolete("Setting attributes on image directly is obsolete!")>
+
+      Public ReadOnly Property Attributes As AttributeCollection
+  overload: SuperOffice.Web.UI.Controls.SoImage.Attributes*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Setting attributes on image directly is obsolete!
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoImage.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.#ctor
+  isExternal: true
+  name: SoImage
+  nameWithType: SoImage.SoImage
+  fullName: SuperOffice.Web.UI.Controls.SoImage.SoImage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.UI.Controls.SoImage.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoImage.Render
+  fullName: SuperOffice.Web.UI.Controls.SoImage.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoImage.Src*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.Src
+  isExternal: true
+  name: Src
+  nameWithType: SoImage.Src
+  fullName: SuperOffice.Web.UI.Controls.SoImage.Src
+- uid: SuperOffice.Web.UI.Controls.SoImage.ActiveSrc*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.ActiveSrc
+  isExternal: true
+  name: ActiveSrc
+  nameWithType: SoImage.ActiveSrc
+  fullName: SuperOffice.Web.UI.Controls.SoImage.ActiveSrc
+- uid: SuperOffice.Web.UI.Controls.SoImage.HoverSrc*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.HoverSrc
+  isExternal: true
+  name: HoverSrc
+  nameWithType: SoImage.HoverSrc
+  fullName: SuperOffice.Web.UI.Controls.SoImage.HoverSrc
+- uid: SuperOffice.Web.UI.Controls.SoImage.DisabledSrc*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.DisabledSrc
+  isExternal: true
+  name: DisabledSrc
+  nameWithType: SoImage.DisabledSrc
+  fullName: SuperOffice.Web.UI.Controls.SoImage.DisabledSrc
+- uid: SuperOffice.Web.UI.Controls.SoImage.Disabled*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.Disabled
+  isExternal: true
+  name: Disabled
+  nameWithType: SoImage.Disabled
+  fullName: SuperOffice.Web.UI.Controls.SoImage.Disabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Web.UI.Controls.SoImage.Tooltip*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SoImage.Tooltip
+  fullName: SuperOffice.Web.UI.Controls.SoImage.Tooltip
+- uid: SuperOffice.Web.UI.Controls.SoImage.OnClick*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.OnClick
+  isExternal: true
+  name: OnClick
+  nameWithType: SoImage.OnClick
+  fullName: SuperOffice.Web.UI.Controls.SoImage.OnClick
+- uid: SuperOffice.Web.UI.Controls.SoImage.OnMouseOver*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.OnMouseOver
+  isExternal: true
+  name: OnMouseOver
+  nameWithType: SoImage.OnMouseOver
+  fullName: SuperOffice.Web.UI.Controls.SoImage.OnMouseOver
+- uid: SuperOffice.Web.UI.Controls.SoImage.OnMouseOut*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.OnMouseOut
+  isExternal: true
+  name: OnMouseOut
+  nameWithType: SoImage.OnMouseOut
+  fullName: SuperOffice.Web.UI.Controls.SoImage.OnMouseOut
+- uid: SuperOffice.Web.UI.Controls.SoImage.OnMouseDown*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.OnMouseDown
+  isExternal: true
+  name: OnMouseDown
+  nameWithType: SoImage.OnMouseDown
+  fullName: SuperOffice.Web.UI.Controls.SoImage.OnMouseDown
+- uid: SuperOffice.Web.UI.Controls.SoImage.OnMouseMove*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.OnMouseMove
+  isExternal: true
+  name: OnMouseMove
+  nameWithType: SoImage.OnMouseMove
+  fullName: SuperOffice.Web.UI.Controls.SoImage.OnMouseMove
+- uid: SuperOffice.Web.UI.Controls.SoImage.CssClass*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.CssClass
+  isExternal: true
+  name: CssClass
+  nameWithType: SoImage.CssClass
+  fullName: SuperOffice.Web.UI.Controls.SoImage.CssClass
+- uid: SuperOffice.Web.UI.Controls.SoImage.RequireSprite*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.RequireSprite
+  isExternal: true
+  name: RequireSprite
+  nameWithType: SoImage.RequireSprite
+  fullName: SuperOffice.Web.UI.Controls.SoImage.RequireSprite
+- uid: SuperOffice.Web.UI.Controls.SoImage.Attributes*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImage.Attributes
+  isExternal: true
+  name: Attributes
+  nameWithType: SoImage.Attributes
+  fullName: SuperOffice.Web.UI.Controls.SoImage.Attributes
+- uid: System.Web.UI.AttributeCollection
+  isExternal: true
+  name: AttributeCollection
+  nameWithType: AttributeCollection
+  fullName: System.Web.UI.AttributeCollection

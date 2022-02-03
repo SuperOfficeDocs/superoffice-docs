@@ -1,0 +1,576 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  id: Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.AppointmentId
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ContactId
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CultureName
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomTags
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomValues
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.DocumentId
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.GeneratorEncoding
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.PersonId
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ProjectId
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SaleId
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SelectionId
+  - SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.Source
+  langs:
+  - csharp
+  - vb
+  name: Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_SubstituteTemplateVariablesWithCustomTagsRequest : Object'
+    content.vb: >-
+      Public Class Document_SubstituteTemplateVariablesWithCustomTagsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_SubstituteTemplateVariablesWithCustomTagsRequest()
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.Document_SubstituteTemplateVariablesWithCustomTagsRequest()
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.Document_SubstituteTemplateVariablesWithCustomTagsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_SubstituteTemplateVariablesWithCustomTagsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.Source
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.Source
+  id: Source
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.Source
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.Source
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Source As String
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.Source*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.GeneratorEncoding
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.GeneratorEncoding
+  id: GeneratorEncoding
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: GeneratorEncoding
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.GeneratorEncoding
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.GeneratorEncoding
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public GeneratorEncoding GeneratorEncoding { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.GeneratorEncoding
+    content.vb: Public Property GeneratorEncoding As GeneratorEncoding
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.GeneratorEncoding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomTags
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomTags
+  id: CustomTags
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomTags
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomTags
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomTags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] CustomTags { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property CustomTags As String()
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomTags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomValues
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomValues
+  id: CustomValues
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomValues
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomValues
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomValues
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] CustomValues { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property CustomValues As String()
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CultureName
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CultureName
+  id: CultureName
+  parent: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: CultureName
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.CultureName
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CultureName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string CultureName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CultureName As String
+  overload: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CultureName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.#ctor
+  isExternal: true
+  name: Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.Document_SubstituteTemplateVariablesWithCustomTagsRequest
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.Source*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.Source
+  isExternal: true
+  name: Source
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.Source
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.Source
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.GeneratorEncoding*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.GeneratorEncoding
+  isExternal: true
+  name: GeneratorEncoding
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.GeneratorEncoding
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.GeneratorEncoding
+- uid: SuperOffice.WebApi.Data.GeneratorEncoding
+  commentId: T:SuperOffice.WebApi.Data.GeneratorEncoding
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: GeneratorEncoding
+  nameWithType: GeneratorEncoding
+  fullName: SuperOffice.WebApi.Data.GeneratorEncoding
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomTags*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomTags
+  isExternal: true
+  name: CustomTags
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomTags
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomTags
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomValues*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomValues
+  isExternal: true
+  name: CustomValues
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomValues
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CustomValues
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.PersonId
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.AppointmentId
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.DocumentId
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SaleId
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.SelectionId
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.ProjectId
+- uid: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CultureName*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CultureName
+  isExternal: true
+  name: CultureName
+  nameWithType: Document_SubstituteTemplateVariablesWithCustomTagsRequest.CultureName
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteTemplateVariablesWithCustomTagsRequest.CultureName

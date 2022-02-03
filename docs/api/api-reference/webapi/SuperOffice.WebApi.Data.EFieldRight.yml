@@ -1,0 +1,459 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EFieldRight
+  commentId: T:SuperOffice.WebApi.Data.EFieldRight
+  id: EFieldRight
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EFieldRight.None
+  - SuperOffice.WebApi.Data.EFieldRight.Read
+  - SuperOffice.WebApi.Data.EFieldRight.UIHintMandatory
+  - SuperOffice.WebApi.Data.EFieldRight.UIHintReadOnly
+  - SuperOffice.WebApi.Data.EFieldRight.UIHints
+  - SuperOffice.WebApi.Data.EFieldRight.UndefinedValue256
+  - SuperOffice.WebApi.Data.EFieldRight.Unused1
+  - SuperOffice.WebApi.Data.EFieldRight.Unused2
+  - SuperOffice.WebApi.Data.EFieldRight.Unused3
+  - SuperOffice.WebApi.Data.EFieldRight.Unused4
+  - SuperOffice.WebApi.Data.EFieldRight.Update
+  - SuperOffice.WebApi.Data.EFieldRight.value__
+  - SuperOffice.WebApi.Data.EFieldRight.Write
+  langs:
+  - csharp
+  - vb
+  name: EFieldRight
+  nameWithType: EFieldRight
+  fullName: SuperOffice.WebApi.Data.EFieldRight
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAccess levels to a single field. Read and/or write.\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class EFieldRight : Enum'
+    content.vb: >-
+      Public NotInheritable Class EFieldRight
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.EFieldRight.value__
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EFieldRight.value__
+  fullName: SuperOffice.WebApi.Data.EFieldRight.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EFieldRight.None
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.None
+  id: None
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: EFieldRight.None
+  fullName: SuperOffice.WebApi.Data.EFieldRight.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Hidden from user.\n"
+  syntax:
+    content: public const EFieldRight None
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const None As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.Read
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.Read
+  id: Read
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: EFieldRight.Read
+  fullName: SuperOffice.WebApi.Data.EFieldRight.Read
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Read-only right\n"
+  syntax:
+    content: public const EFieldRight Read
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const Read As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.Write
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.Write
+  id: Write
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: Write
+  nameWithType: EFieldRight.Write
+  fullName: SuperOffice.WebApi.Data.EFieldRight.Write
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Write-only (not terribly useful)\n"
+  syntax:
+    content: public const EFieldRight Write
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const Write As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.Update
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.Update
+  id: Update
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: EFieldRight.Update
+  fullName: SuperOffice.WebApi.Data.EFieldRight.Update
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Read + Write rights combined\n"
+  syntax:
+    content: public const EFieldRight Update
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const Update As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.Unused1
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.Unused1
+  id: Unused1
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: Unused1
+  nameWithType: EFieldRight.Unused1
+  fullName: SuperOffice.WebApi.Data.EFieldRight.Unused1
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: \n"
+  syntax:
+    content: public const EFieldRight Unused1
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const Unused1 As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.Unused2
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.Unused2
+  id: Unused2
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: Unused2
+  nameWithType: EFieldRight.Unused2
+  fullName: SuperOffice.WebApi.Data.EFieldRight.Unused2
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: \n"
+  syntax:
+    content: public const EFieldRight Unused2
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const Unused2 As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.Unused3
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.Unused3
+  id: Unused3
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: Unused3
+  nameWithType: EFieldRight.Unused3
+  fullName: SuperOffice.WebApi.Data.EFieldRight.Unused3
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: \n"
+  syntax:
+    content: public const EFieldRight Unused3
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const Unused3 As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.Unused4
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.Unused4
+  id: Unused4
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: Unused4
+  nameWithType: EFieldRight.Unused4
+  fullName: SuperOffice.WebApi.Data.EFieldRight.Unused4
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n32: \n"
+  syntax:
+    content: public const EFieldRight Unused4
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const Unused4 As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.UIHintMandatory
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.UIHintMandatory
+  id: UIHintMandatory
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: UIHintMandatory
+  nameWithType: EFieldRight.UIHintMandatory
+  fullName: SuperOffice.WebApi.Data.EFieldRight.UIHintMandatory
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n64: Field must be filled out (not blank)\n"
+  syntax:
+    content: public const EFieldRight UIHintMandatory
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const UIHintMandatory As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.UIHintReadOnly
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.UIHintReadOnly
+  id: UIHintReadOnly
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: UIHintReadOnly
+  nameWithType: EFieldRight.UIHintReadOnly
+  fullName: SuperOffice.WebApi.Data.EFieldRight.UIHintReadOnly
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n128: Field can only be read, not updated, in the user interface.\n"
+  syntax:
+    content: public const EFieldRight UIHintReadOnly
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const UIHintReadOnly As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.UIHints
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.UIHints
+  id: UIHints
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: UIHints
+  nameWithType: EFieldRight.UIHints
+  fullName: SuperOffice.WebApi.Data.EFieldRight.UIHints
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n192: Rights only applied in the user interface.  These rights are threated as deny rights.\n"
+  syntax:
+    content: public const EFieldRight UIHints
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const UIHints As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.UndefinedValue256
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.UndefinedValue256
+  id: UndefinedValue256
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: UndefinedValue256
+  nameWithType: EFieldRight.UndefinedValue256
+  fullName: SuperOffice.WebApi.Data.EFieldRight.UndefinedValue256
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n256: Undefined and generated value 256\n"
+  syntax:
+    content: public const EFieldRight UndefinedValue256
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const UndefinedValue256 As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EFieldRight
+  commentId: T:SuperOffice.WebApi.Data.EFieldRight
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EFieldRight
+  nameWithType: EFieldRight
+  fullName: SuperOffice.WebApi.Data.EFieldRight

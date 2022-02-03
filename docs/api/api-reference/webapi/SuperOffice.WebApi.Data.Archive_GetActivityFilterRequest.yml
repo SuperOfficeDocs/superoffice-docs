@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest
+  commentId: T:SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest
+  id: Archive_GetActivityFilterRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetActivityFilterRequest
+  nameWithType: Archive_GetActivityFilterRequest
+  fullName: SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Archive_GetActivityFilterRequest : Object'
+    content.vb: >-
+      Public Class Archive_GetActivityFilterRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetActivityFilterRequest()
+  nameWithType: Archive_GetActivityFilterRequest.Archive_GetActivityFilterRequest()
+  fullName: SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest.Archive_GetActivityFilterRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Archive_GetActivityFilterRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest.#ctor
+  isExternal: true
+  name: Archive_GetActivityFilterRequest
+  nameWithType: Archive_GetActivityFilterRequest.Archive_GetActivityFilterRequest
+  fullName: SuperOffice.WebApi.Data.Archive_GetActivityFilterRequest.Archive_GetActivityFilterRequest

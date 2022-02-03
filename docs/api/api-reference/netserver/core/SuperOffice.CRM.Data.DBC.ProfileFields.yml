@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ProfileFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ProfileFields
+  id: DBC.ProfileFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ProfileFields.ListCompaniesHeader
+  - SuperOffice.CRM.Data.DBC.ProfileFields.ListCompaniesHeader2
+  - SuperOffice.CRM.Data.DBC.ProfileFields.ListCustomersHeader
+  - SuperOffice.CRM.Data.DBC.ProfileFields.ListCustomersHeader2
+  - SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketHeader
+  - SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketsHeader
+  - SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketsHeader2
+  - SuperOffice.CRM.Data.DBC.ProfileFields.Name
+  - SuperOffice.CRM.Data.DBC.ProfileFields.ProfileId
+  - SuperOffice.CRM.Data.DBC.ProfileFields.UserId
+  langs:
+  - csharp
+  - vb
+  name: DBC.ProfileFields
+  nameWithType: DBC.ProfileFields
+  fullName: SuperOffice.CRM.Data.DBC.ProfileFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Profile, Deprecated. This table contains entries for the user profiles.\n"
+  syntax:
+    content: public static class ProfileFields
+    content.vb: Public Module ProfileFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ProfileFields.ProfileId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProfileFields.ProfileId
+  id: ProfileId
+  parent: SuperOffice.CRM.Data.DBC.ProfileFields
+  langs:
+  - csharp
+  - vb
+  name: ProfileId
+  nameWithType: DBC.ProfileFields.ProfileId
+  fullName: SuperOffice.CRM.Data.DBC.ProfileFields.ProfileId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProfile.ProfileId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string ProfileId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const ProfileId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProfileFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ProfileFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ProfileFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ProfileFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ProfileFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProfile.Name: This is the name of the profile\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProfileFields.UserId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProfileFields.UserId
+  id: UserId
+  parent: SuperOffice.CRM.Data.DBC.ProfileFields
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: DBC.ProfileFields.UserId
+  fullName: SuperOffice.CRM.Data.DBC.ProfileFields.UserId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProfile.UserId: The id of the user.\n"
+  syntax:
+    content: public const string UserId = "user_id"
+    return:
+      type: System.String
+    content.vb: Public Const UserId As String = "user_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketHeader
+  commentId: F:SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketHeader
+  id: ListTicketHeader
+  parent: SuperOffice.CRM.Data.DBC.ProfileFields
+  langs:
+  - csharp
+  - vb
+  name: ListTicketHeader
+  nameWithType: DBC.ProfileFields.ListTicketHeader
+  fullName: SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProfile.ListTicketHeader: The fields for listing one ticket. Encoded as CSV string.\n"
+  syntax:
+    content: public const string ListTicketHeader = "list_ticket_header"
+    return:
+      type: System.String
+    content.vb: Public Const ListTicketHeader As String = "list_ticket_header"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketsHeader
+  commentId: F:SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketsHeader
+  id: ListTicketsHeader
+  parent: SuperOffice.CRM.Data.DBC.ProfileFields
+  langs:
+  - csharp
+  - vb
+  name: ListTicketsHeader
+  nameWithType: DBC.ProfileFields.ListTicketsHeader
+  fullName: SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketsHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProfile.ListTicketsHeader: Depricated\n"
+  syntax:
+    content: public const string ListTicketsHeader = "list_tickets_header"
+    return:
+      type: System.String
+    content.vb: Public Const ListTicketsHeader As String = "list_tickets_header"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProfileFields.ListCustomersHeader
+  commentId: F:SuperOffice.CRM.Data.DBC.ProfileFields.ListCustomersHeader
+  id: ListCustomersHeader
+  parent: SuperOffice.CRM.Data.DBC.ProfileFields
+  langs:
+  - csharp
+  - vb
+  name: ListCustomersHeader
+  nameWithType: DBC.ProfileFields.ListCustomersHeader
+  fullName: SuperOffice.CRM.Data.DBC.ProfileFields.ListCustomersHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProfile.ListCustomersHeader: Depricated\n"
+  syntax:
+    content: public const string ListCustomersHeader = "list_customers_header"
+    return:
+      type: System.String
+    content.vb: Public Const ListCustomersHeader As String = "list_customers_header"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProfileFields.ListCompaniesHeader
+  commentId: F:SuperOffice.CRM.Data.DBC.ProfileFields.ListCompaniesHeader
+  id: ListCompaniesHeader
+  parent: SuperOffice.CRM.Data.DBC.ProfileFields
+  langs:
+  - csharp
+  - vb
+  name: ListCompaniesHeader
+  nameWithType: DBC.ProfileFields.ListCompaniesHeader
+  fullName: SuperOffice.CRM.Data.DBC.ProfileFields.ListCompaniesHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProfile.ListCompaniesHeader: Depricated\n"
+  syntax:
+    content: public const string ListCompaniesHeader = "list_companies_header"
+    return:
+      type: System.String
+    content.vb: Public Const ListCompaniesHeader As String = "list_companies_header"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketsHeader2
+  commentId: F:SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketsHeader2
+  id: ListTicketsHeader2
+  parent: SuperOffice.CRM.Data.DBC.ProfileFields
+  langs:
+  - csharp
+  - vb
+  name: ListTicketsHeader2
+  nameWithType: DBC.ProfileFields.ListTicketsHeader2
+  fullName: SuperOffice.CRM.Data.DBC.ProfileFields.ListTicketsHeader2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProfile.ListTicketsHeader2: The fields for listing several tickets. Encoded as CSV string.\n"
+  syntax:
+    content: public const string ListTicketsHeader2 = "list_tickets_header2"
+    return:
+      type: System.String
+    content.vb: Public Const ListTicketsHeader2 As String = "list_tickets_header2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProfileFields.ListCustomersHeader2
+  commentId: F:SuperOffice.CRM.Data.DBC.ProfileFields.ListCustomersHeader2
+  id: ListCustomersHeader2
+  parent: SuperOffice.CRM.Data.DBC.ProfileFields
+  langs:
+  - csharp
+  - vb
+  name: ListCustomersHeader2
+  nameWithType: DBC.ProfileFields.ListCustomersHeader2
+  fullName: SuperOffice.CRM.Data.DBC.ProfileFields.ListCustomersHeader2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProfile.ListCustomersHeader2: The fields for listing customers. Encoded as CSV string.\n"
+  syntax:
+    content: public const string ListCustomersHeader2 = "list_customers_header2"
+    return:
+      type: System.String
+    content.vb: Public Const ListCustomersHeader2 As String = "list_customers_header2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProfileFields.ListCompaniesHeader2
+  commentId: F:SuperOffice.CRM.Data.DBC.ProfileFields.ListCompaniesHeader2
+  id: ListCompaniesHeader2
+  parent: SuperOffice.CRM.Data.DBC.ProfileFields
+  langs:
+  - csharp
+  - vb
+  name: ListCompaniesHeader2
+  nameWithType: DBC.ProfileFields.ListCompaniesHeader2
+  fullName: SuperOffice.CRM.Data.DBC.ProfileFields.ListCompaniesHeader2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProfile.ListCompaniesHeader2: The fields for listing companies. Encoded as CSV string.\n"
+  syntax:
+    content: public const string ListCompaniesHeader2 = "list_companies_header2"
+    return:
+      type: System.String
+    content.vb: Public Const ListCompaniesHeader2 As String = "list_companies_header2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

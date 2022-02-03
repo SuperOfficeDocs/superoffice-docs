@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  commentId: T:SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  id: Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.#ctor
+  - SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.AssociateIds
+  langs:
+  - csharp
+  - vb
+  name: Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  nameWithType: Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  fullName: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sentry_CanCreateAppointmentInAssociateDiariesRequest : Object'
+    content.vb: >-
+      Public Class Sentry_CanCreateAppointmentInAssociateDiariesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  langs:
+  - csharp
+  - vb
+  name: Sentry_CanCreateAppointmentInAssociateDiariesRequest()
+  nameWithType: Sentry_CanCreateAppointmentInAssociateDiariesRequest.Sentry_CanCreateAppointmentInAssociateDiariesRequest()
+  fullName: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.Sentry_CanCreateAppointmentInAssociateDiariesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sentry_CanCreateAppointmentInAssociateDiariesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.AssociateIds
+  commentId: P:SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.AssociateIds
+  id: AssociateIds
+  parent: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateIds
+  nameWithType: Sentry_CanCreateAppointmentInAssociateDiariesRequest.AssociateIds
+  fullName: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.AssociateIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] AssociateIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property AssociateIds As Integer()
+  overload: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.AssociateIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.#ctor
+  isExternal: true
+  name: Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  nameWithType: Sentry_CanCreateAppointmentInAssociateDiariesRequest.Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  fullName: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.Sentry_CanCreateAppointmentInAssociateDiariesRequest
+- uid: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.AssociateIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.AssociateIds
+  isExternal: true
+  name: AssociateIds
+  nameWithType: Sentry_CanCreateAppointmentInAssociateDiariesRequest.AssociateIds
+  fullName: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest.AssociateIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

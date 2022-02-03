@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest
+  commentId: T:SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest
+  id: BLOB_SaveImageStreamRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.#ctor
+  - SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Description
+  - SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Image
+  - SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Type
+  langs:
+  - csharp
+  - vb
+  name: BLOB_SaveImageStreamRequest
+  nameWithType: BLOB_SaveImageStreamRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BLOB_SaveImageStreamRequest : Object'
+    content.vb: >-
+      Public Class BLOB_SaveImageStreamRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: BLOB_SaveImageStreamRequest()
+  nameWithType: BLOB_SaveImageStreamRequest.BLOB_SaveImageStreamRequest()
+  fullName: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.BLOB_SaveImageStreamRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BLOB_SaveImageStreamRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Type
+  commentId: P:SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: BLOB_SaveImageStreamRequest.Type
+  fullName: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BlobLinkType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Property Type As BlobLinkType
+  overload: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Image
+  commentId: P:SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Image
+  id: Image
+  parent: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: BLOB_SaveImageStreamRequest.Image
+  fullName: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Image
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public byte[] Image { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Image As Byte()
+  overload: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Image*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Description
+  commentId: P:SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: BLOB_SaveImageStreamRequest.Description
+  fullName: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.#ctor
+  isExternal: true
+  name: BLOB_SaveImageStreamRequest
+  nameWithType: BLOB_SaveImageStreamRequest.BLOB_SaveImageStreamRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.BLOB_SaveImageStreamRequest
+- uid: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Type
+  isExternal: true
+  name: Type
+  nameWithType: BLOB_SaveImageStreamRequest.Type
+  fullName: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Type
+- uid: SuperOffice.WebApi.Data.BlobLinkType
+  commentId: T:SuperOffice.WebApi.Data.BlobLinkType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: BlobLinkType
+  nameWithType: BlobLinkType
+  fullName: SuperOffice.WebApi.Data.BlobLinkType
+- uid: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Image*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Image
+  isExternal: true
+  name: Image
+  nameWithType: BLOB_SaveImageStreamRequest.Image
+  fullName: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Image
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Description
+  isExternal: true
+  name: Description
+  nameWithType: BLOB_SaveImageStreamRequest.Description
+  fullName: SuperOffice.WebApi.Data.BLOB_SaveImageStreamRequest.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest
+  id: EMail_GetEmailMessageIdsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.ConnectionInfoExtended
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEmailMessageIdsRequest
+  nameWithType: EMail_GetEmailMessageIdsRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetEmailMessageIdsRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetEmailMessageIdsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEmailMessageIdsRequest()
+  nameWithType: EMail_GetEmailMessageIdsRequest.EMail_GetEmailMessageIdsRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.EMail_GetEmailMessageIdsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetEmailMessageIdsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.ConnectionInfoExtended
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.ConnectionInfoExtended
+  id: ConnectionInfoExtended
+  parent: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionInfoExtended
+  nameWithType: EMail_GetEmailMessageIdsRequest.ConnectionInfoExtended
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.ConnectionInfoExtended
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfoExtended ConnectionInfoExtended { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfoExtended
+    content.vb: Public Property ConnectionInfoExtended As EMailConnectionInfoExtended
+  overload: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.ConnectionInfoExtended*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.#ctor
+  isExternal: true
+  name: EMail_GetEmailMessageIdsRequest
+  nameWithType: EMail_GetEmailMessageIdsRequest.EMail_GetEmailMessageIdsRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.EMail_GetEmailMessageIdsRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.ConnectionInfoExtended*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.ConnectionInfoExtended
+  isExternal: true
+  name: ConnectionInfoExtended
+  nameWithType: EMail_GetEmailMessageIdsRequest.ConnectionInfoExtended
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailMessageIdsRequest.ConnectionInfoExtended
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfoExtended
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfoExtended
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfoExtended
+  nameWithType: EMailConnectionInfoExtended
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfoExtended

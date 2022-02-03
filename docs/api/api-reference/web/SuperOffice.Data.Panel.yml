@@ -1,0 +1,352 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Panel
+  commentId: T:SuperOffice.Data.Panel
+  id: Panel
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.Panel.Browser
+  - SuperOffice.Data.Panel.Contact
+  - SuperOffice.Data.Panel.Custom
+  - SuperOffice.Data.Panel.Diary
+  - SuperOffice.Data.Panel.EMail
+  - SuperOffice.Data.Panel.MySuperOffice
+  - SuperOffice.Data.Panel.None
+  - SuperOffice.Data.Panel.Obsolete1
+  - SuperOffice.Data.Panel.Project
+  - SuperOffice.Data.Panel.Reporter
+  - SuperOffice.Data.Panel.Selection
+  langs:
+  - csharp
+  - vb
+  name: Panel
+  nameWithType: Panel
+  fullName: SuperOffice.Data.Panel
+  type: Enum
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nPanel enums representing the values stored in the UserPreference table\n"
+  syntax:
+    content: 'public enum Panel : short'
+    content.vb: Public Enum Panel As Short
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.Panel.None
+  commentId: F:SuperOffice.Data.Panel.None
+  id: None
+  parent: SuperOffice.Data.Panel
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: Panel.None
+  fullName: SuperOffice.Data.Panel.None
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Data.Panel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Panel.Contact
+  commentId: F:SuperOffice.Data.Panel.Contact
+  id: Contact
+  parent: SuperOffice.Data.Panel
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: Panel.Contact
+  fullName: SuperOffice.Data.Panel.Contact
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Contact = 1
+    return:
+      type: SuperOffice.Data.Panel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Panel.Selection
+  commentId: F:SuperOffice.Data.Panel.Selection
+  id: Selection
+  parent: SuperOffice.Data.Panel
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: Panel.Selection
+  fullName: SuperOffice.Data.Panel.Selection
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Selection = 2
+    return:
+      type: SuperOffice.Data.Panel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Panel.Project
+  commentId: F:SuperOffice.Data.Panel.Project
+  id: Project
+  parent: SuperOffice.Data.Panel
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: Panel.Project
+  fullName: SuperOffice.Data.Panel.Project
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Project = 3
+    return:
+      type: SuperOffice.Data.Panel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Panel.Diary
+  commentId: F:SuperOffice.Data.Panel.Diary
+  id: Diary
+  parent: SuperOffice.Data.Panel
+  langs:
+  - csharp
+  - vb
+  name: Diary
+  nameWithType: Panel.Diary
+  fullName: SuperOffice.Data.Panel.Diary
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Diary = 4
+    return:
+      type: SuperOffice.Data.Panel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Panel.EMail
+  commentId: F:SuperOffice.Data.Panel.EMail
+  id: EMail
+  parent: SuperOffice.Data.Panel
+  langs:
+  - csharp
+  - vb
+  name: EMail
+  nameWithType: Panel.EMail
+  fullName: SuperOffice.Data.Panel.EMail
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: EMail = 5
+    return:
+      type: SuperOffice.Data.Panel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Panel.Reporter
+  commentId: F:SuperOffice.Data.Panel.Reporter
+  id: Reporter
+  parent: SuperOffice.Data.Panel
+  langs:
+  - csharp
+  - vb
+  name: Reporter
+  nameWithType: Panel.Reporter
+  fullName: SuperOffice.Data.Panel.Reporter
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Reporter = 6
+    return:
+      type: SuperOffice.Data.Panel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Panel.MySuperOffice
+  commentId: F:SuperOffice.Data.Panel.MySuperOffice
+  id: MySuperOffice
+  parent: SuperOffice.Data.Panel
+  langs:
+  - csharp
+  - vb
+  name: MySuperOffice
+  nameWithType: Panel.MySuperOffice
+  fullName: SuperOffice.Data.Panel.MySuperOffice
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: MySuperOffice = 7
+    return:
+      type: SuperOffice.Data.Panel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Panel.Custom
+  commentId: F:SuperOffice.Data.Panel.Custom
+  id: Custom
+  parent: SuperOffice.Data.Panel
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: Panel.Custom
+  fullName: SuperOffice.Data.Panel.Custom
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Custom = 8
+    return:
+      type: SuperOffice.Data.Panel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Panel.Obsolete1
+  commentId: F:SuperOffice.Data.Panel.Obsolete1
+  id: Obsolete1
+  parent: SuperOffice.Data.Panel
+  langs:
+  - csharp
+  - vb
+  name: Obsolete1
+  nameWithType: Panel.Obsolete1
+  fullName: SuperOffice.Data.Panel.Obsolete1
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Obsolete1 = 9
+    return:
+      type: SuperOffice.Data.Panel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Panel.Browser
+  commentId: F:SuperOffice.Data.Panel.Browser
+  id: Browser
+  parent: SuperOffice.Data.Panel
+  langs:
+  - csharp
+  - vb
+  name: Browser
+  nameWithType: Panel.Browser
+  fullName: SuperOffice.Data.Panel.Browser
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Browser = 10
+    return:
+      type: SuperOffice.Data.Panel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.Panel
+  commentId: T:SuperOffice.Data.Panel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: Panel
+  nameWithType: Panel
+  fullName: SuperOffice.Data.Panel

@@ -1,0 +1,1198 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+  id: ProjectSoundexDuplicateRule
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  children:
+  - SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.#ctor
+  - SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  - SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayName
+  - SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayTooltip
+  - SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.GetDuplicates(System.String[])
+  - SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.IsActive
+  - SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.Name
+  langs:
+  - csharp
+  - vb
+  name: ProjectSoundexDuplicateRule
+  nameWithType: ProjectSoundexDuplicateRule
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: "\nMatch projects by soundex name\n"
+  syntax:
+    content: >-
+      [ProjectDuplicateRulePlugin("ProjectSoundExDuplicateRule")]
+
+      public class ProjectSoundexDuplicateRule : IProjectDuplicateRule, IDuplicateRule, IPlugin
+    content.vb: >-
+      <ProjectDuplicateRulePlugin("ProjectSoundExDuplicateRule")>
+
+      Public Class ProjectSoundexDuplicateRule
+          Implements IProjectDuplicateRule, IDuplicateRule, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IProjectDuplicateRule
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule)
+  - SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.Data.Util.Duplicates.ProjectDuplicateRulePluginAttribute
+    ctor: SuperOffice.CRM.Data.Util.Duplicates.ProjectDuplicateRulePluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ProjectSoundExDuplicateRule
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.GetDuplicates(System.String[])
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.GetDuplicates(System.String[])
+  id: GetDuplicates(System.String[])
+  parent: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicates(String[])
+  nameWithType: ProjectSoundexDuplicateRule.GetDuplicates(String[])
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.GetDuplicates(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: "\nGet matching records in the superoffice database, using a soundex value\n"
+  syntax:
+    content: public DuplicateEntry[] GetDuplicates(params string[] projectName)
+    parameters:
+    - id: projectName
+      type: System.String[]
+      description: Name of project to lookup
+    return:
+      type: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]
+      description: Any duplicates found in the database
+    content.vb: Public Function GetDuplicates(ParamArray projectName As String()) As DuplicateEntry()
+  overload: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.GetDuplicates*
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String[])
+  nameWithType.vb: ProjectSoundexDuplicateRule.GetDuplicates(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.GetDuplicates(System.String())
+  name.vb: GetDuplicates(String())
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  id: CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  parent: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: CreateNewEntity(DuplicateEntry)
+  nameWithType: ProjectSoundexDuplicateRule.CreateNewEntity(DuplicateEntry)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: "\nThis operation is not supported for this rule\n"
+  syntax:
+    content: public int CreateNewEntity(DuplicateEntry entry)
+    parameters:
+    - id: entry
+      type: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+      description: Entry to create project from
+    return:
+      type: System.Int32
+      description: Primary key of project from superoffice database
+    content.vb: Public Function CreateNewEntity(entry As DuplicateEntry) As Integer
+  overload: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.CreateNewEntity*
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.#ctor
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: ProjectSoundexDuplicateRule()
+  nameWithType: ProjectSoundexDuplicateRule.ProjectSoundexDuplicateRule()
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.ProjectSoundexDuplicateRule()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  syntax:
+    content: public ProjectSoundexDuplicateRule()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.IsActive
+  commentId: P:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.IsActive
+  id: IsActive
+  parent: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: ProjectSoundexDuplicateRule.IsActive
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.IsActive
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: "\nIndicates if this is an active rule that should be asked for duplicates\n"
+  syntax:
+    content: public bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsActive As Boolean
+  overload: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.IsActive*
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.IsActive
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.Name
+  commentId: P:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ProjectSoundexDuplicateRule.Name
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: "\nUnique identifying name for rule\n"
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.Name*
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.Name
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayName
+  commentId: P:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ProjectSoundexDuplicateRule.DisplayName
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: "\nDisplay name of rule\n"
+  syntax:
+    content: public string DisplayName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DisplayName As String
+  overload: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayName*
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayName
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayTooltip
+  commentId: P:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayTooltip
+  id: DisplayTooltip
+  parent: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: DisplayTooltip
+  nameWithType: ProjectSoundexDuplicateRule.DisplayTooltip
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayTooltip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util.Duplicates
+  summary: "\nDescription of rule\n"
+  syntax:
+    content: public string DisplayTooltip { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DisplayTooltip As String
+  overload: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayTooltip*
+  implements:
+  - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayTooltip
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data.Util.Duplicates
+  commentId: N:SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  name: SuperOffice.CRM.Data.Util.Duplicates
+  nameWithType: SuperOffice.CRM.Data.Util.Duplicates
+  fullName: SuperOffice.CRM.Data.Util.Duplicates
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IProjectDuplicateRule
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IProjectDuplicateRule
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  name: IProjectDuplicateRule
+  nameWithType: IProjectDuplicateRule
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IProjectDuplicateRule
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  name: IDuplicateRule
+  nameWithType: IDuplicateRule
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ProjectSoundexDuplicateRule, To>()
+  nameWithType: EnumUtil.MapEnums<ProjectSoundexDuplicateRule, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProjectSoundexDuplicateRule, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule, To)()
+  name.vb: MapEnums(Of ProjectSoundexDuplicateRule, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProjectSoundexDuplicateRule, To>
+    nameWithType: EnumUtil.MapEnums<ProjectSoundexDuplicateRule, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProjectSoundexDuplicateRule, To)
+    nameWithType: EnumUtil.MapEnums(Of ProjectSoundexDuplicateRule, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ProjectSoundexDuplicateRule>(ProjectSoundexDuplicateRule)
+  nameWithType: ObjectExtensions.AssignByReflection<ProjectSoundexDuplicateRule>(ProjectSoundexDuplicateRule)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule>(SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ProjectSoundexDuplicateRule)(ProjectSoundexDuplicateRule)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule)(SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule)
+  name.vb: AssignByReflection(Of ProjectSoundexDuplicateRule)(ProjectSoundexDuplicateRule)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ProjectSoundexDuplicateRule>
+    nameWithType: ObjectExtensions.AssignByReflection<ProjectSoundexDuplicateRule>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+    name: ProjectSoundexDuplicateRule
+    nameWithType: ProjectSoundexDuplicateRule
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ProjectSoundexDuplicateRule)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ProjectSoundexDuplicateRule)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+    name: ProjectSoundexDuplicateRule
+    nameWithType: ProjectSoundexDuplicateRule
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ProjectSoundexDuplicateRule>()
+  nameWithType: ObjectExtensions.GraphCopy<ProjectSoundexDuplicateRule>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ProjectSoundexDuplicateRule)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule)()
+  name.vb: GraphCopy(Of ProjectSoundexDuplicateRule)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ProjectSoundexDuplicateRule>
+    nameWithType: ObjectExtensions.GraphCopy<ProjectSoundexDuplicateRule>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ProjectSoundexDuplicateRule)
+    nameWithType: ObjectExtensions.GraphCopy(Of ProjectSoundexDuplicateRule)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ProjectSoundexDuplicateRule, To>()
+  nameWithType: Converters.MapEnums<ProjectSoundexDuplicateRule, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProjectSoundexDuplicateRule, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule, To)()
+  name.vb: MapEnums(Of ProjectSoundexDuplicateRule, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProjectSoundexDuplicateRule, To>
+    nameWithType: Converters.MapEnums<ProjectSoundexDuplicateRule, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProjectSoundexDuplicateRule, To)
+    nameWithType: Converters.MapEnums(Of ProjectSoundexDuplicateRule, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.GetDuplicates*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.GetDuplicates
+  isExternal: true
+  name: GetDuplicates
+  nameWithType: ProjectSoundexDuplicateRule.GetDuplicates
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.GetDuplicates
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String[])
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String[])
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  isExternal: true
+  name: GetDuplicates(String[])
+  nameWithType: IDuplicateRule.GetDuplicates(String[])
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String[])
+  nameWithType.vb: IDuplicateRule.GetDuplicates(String())
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String())
+  name.vb: GetDuplicates(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String[])
+    name: GetDuplicates
+    nameWithType: IDuplicateRule.GetDuplicates
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String[])
+    name: GetDuplicates
+    nameWithType: IDuplicateRule.GetDuplicates
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]
+  isExternal: true
+  name: DuplicateEntry[]
+  nameWithType: DuplicateEntry[]
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]
+  nameWithType.vb: DuplicateEntry()
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry()
+  name.vb: DuplicateEntry()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.CreateNewEntity*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.CreateNewEntity
+  isExternal: true
+  name: CreateNewEntity
+  nameWithType: ProjectSoundexDuplicateRule.CreateNewEntity
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.CreateNewEntity
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  isExternal: true
+  name: CreateNewEntity(DuplicateEntry)
+  nameWithType: IDuplicateRule.CreateNewEntity(DuplicateEntry)
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+    name: CreateNewEntity
+    nameWithType: IDuplicateRule.CreateNewEntity
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
+    name: CreateNewEntity
+    nameWithType: IDuplicateRule.CreateNewEntity
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+  parent: SuperOffice.CRM.Data.Util.Duplicates
+  isExternal: true
+  name: DuplicateEntry
+  nameWithType: DuplicateEntry
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.#ctor*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.#ctor
+  isExternal: true
+  name: ProjectSoundexDuplicateRule
+  nameWithType: ProjectSoundexDuplicateRule.ProjectSoundexDuplicateRule
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.ProjectSoundexDuplicateRule
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.IsActive*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: ProjectSoundexDuplicateRule.IsActive
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.IsActive
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.IsActive
+  commentId: P:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.IsActive
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  isExternal: true
+  name: IsActive
+  nameWithType: IDuplicateRule.IsActive
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.IsActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.Name*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.Name
+  isExternal: true
+  name: Name
+  nameWithType: ProjectSoundexDuplicateRule.Name
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.Name
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.Name
+  commentId: P:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.Name
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  isExternal: true
+  name: Name
+  nameWithType: IDuplicateRule.Name
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayName*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: ProjectSoundexDuplicateRule.DisplayName
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayName
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayName
+  commentId: P:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayName
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  isExternal: true
+  name: DisplayName
+  nameWithType: IDuplicateRule.DisplayName
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayName
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayTooltip*
+  commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayTooltip
+  isExternal: true
+  name: DisplayTooltip
+  nameWithType: ProjectSoundexDuplicateRule.DisplayTooltip
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.DisplayTooltip
+- uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayTooltip
+  commentId: P:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayTooltip
+  parent: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
+  isExternal: true
+  name: DisplayTooltip
+  nameWithType: IDuplicateRule.DisplayTooltip
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayTooltip

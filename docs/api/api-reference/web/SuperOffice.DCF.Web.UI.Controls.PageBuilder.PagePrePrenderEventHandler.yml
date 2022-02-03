@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler
+  id: PageBuilder.PagePrePrenderEventHandler
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.EndInvoke(System.IAsyncResult)
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.Invoke(System.Object,System.EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PageBuilder.PagePrePrenderEventHandler
+  nameWithType: PageBuilder.PagePrePrenderEventHandler
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler
+  type: Delegate
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public delegate void PagePrePrenderEventHandler(object sender, EventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.EventArgs
+    content.vb: Public Delegate Sub PagePrePrenderEventHandler(sender As Object, e As EventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler
+  langs:
+  - csharp
+  - vb
+  name: PagePrePrenderEventHandler(Object, IntPtr)
+  nameWithType: PageBuilder.PagePrePrenderEventHandler.PagePrePrenderEventHandler(Object, IntPtr)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.PagePrePrenderEventHandler(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public PagePrePrenderEventHandler(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.Invoke(System.Object,System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.Invoke(System.Object,System.EventArgs)
+  id: Invoke(System.Object,System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler
+  langs:
+  - csharp
+  - vb
+  name: Invoke(Object, EventArgs)
+  nameWithType: PageBuilder.PagePrePrenderEventHandler.Invoke(Object, EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.Invoke(System.Object, System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public virtual void Invoke(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.EventArgs
+    content.vb: Public Overridable Sub Invoke(sender As Object, e As EventArgs)
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(Object, EventArgs, AsyncCallback, Object)
+  nameWithType: PageBuilder.PagePrePrenderEventHandler.BeginInvoke(Object, EventArgs, AsyncCallback, Object)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.BeginInvoke(System.Object, System.EventArgs, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(object sender, EventArgs e, AsyncCallback callback, object object)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.EventArgs
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(sender As Object, e As EventArgs, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: PageBuilder.PagePrePrenderEventHandler.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.#ctor
+  isExternal: true
+  name: PagePrePrenderEventHandler
+  nameWithType: PageBuilder.PagePrePrenderEventHandler.PagePrePrenderEventHandler
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.PagePrePrenderEventHandler
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.Invoke*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: PageBuilder.PagePrePrenderEventHandler.Invoke
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.Invoke
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.BeginInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: PageBuilder.PagePrePrenderEventHandler.BeginInvoke
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.EndInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: PageBuilder.PagePrePrenderEventHandler.EndInvoke
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler.EndInvoke

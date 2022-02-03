@@ -1,0 +1,778 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  id: ServerEventPluginInfo
+  parent: SuperOffice.DCF.Web.ServerEvent
+  children:
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.#ctor
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.CreateServerEventPluginInfo(System.String,System.String,System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.DefaultInterval
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.EventType
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.GetInterval
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.IsReadyToExecute
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.Name
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInDialog
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInMainPage
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInThisContext(SuperOffice.DCF.Web.ServerEventContext)
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.SetInterval(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ServerEventPluginInfo
+  nameWithType: ServerEventPluginInfo
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public class ServerEventPluginInfo
+    content.vb: Public Class ServerEventPluginInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.CreateServerEventPluginInfo(System.String,System.String,System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.CreateServerEventPluginInfo(System.String,System.String,System.Xml.XmlNode)
+  id: CreateServerEventPluginInfo(System.String,System.String,System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: CreateServerEventPluginInfo(String, String, XmlNode)
+  nameWithType: ServerEventPluginInfo.CreateServerEventPluginInfo(String, String, XmlNode)
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.CreateServerEventPluginInfo(System.String, System.String, System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public static ServerEventPluginInfo CreateServerEventPluginInfo(string name, string eventType, XmlNode conditions)
+    parameters:
+    - id: name
+      type: System.String
+    - id: eventType
+      type: System.String
+    - id: conditions
+      type: System.Xml.XmlNode
+    return:
+      type: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+    content.vb: Public Shared Function CreateServerEventPluginInfo(name As String, eventType As String, conditions As XmlNode) As ServerEventPluginInfo
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.CreateServerEventPluginInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInThisContext(SuperOffice.DCF.Web.ServerEventContext)
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInThisContext(SuperOffice.DCF.Web.ServerEventContext)
+  id: RunInThisContext(SuperOffice.DCF.Web.ServerEventContext)
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: RunInThisContext(ServerEventContext)
+  nameWithType: ServerEventPluginInfo.RunInThisContext(ServerEventContext)
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInThisContext(SuperOffice.DCF.Web.ServerEventContext)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public bool RunInThisContext(ServerEventContext context)
+    parameters:
+    - id: context
+      type: SuperOffice.DCF.Web.ServerEventContext
+    return:
+      type: System.Boolean
+    content.vb: Public Function RunInThisContext(context As ServerEventContext) As Boolean
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInThisContext*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.IsReadyToExecute
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.IsReadyToExecute
+  id: IsReadyToExecute
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: IsReadyToExecute()
+  nameWithType: ServerEventPluginInfo.IsReadyToExecute()
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.IsReadyToExecute()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public bool IsReadyToExecute()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsReadyToExecute As Boolean
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.IsReadyToExecute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInDialog
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInDialog
+  id: RunInDialog
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: RunInDialog()
+  nameWithType: ServerEventPluginInfo.RunInDialog()
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInDialog()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public bool RunInDialog()
+    return:
+      type: System.Boolean
+    content.vb: Public Function RunInDialog As Boolean
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInDialog*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInMainPage
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInMainPage
+  id: RunInMainPage
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: RunInMainPage()
+  nameWithType: ServerEventPluginInfo.RunInMainPage()
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInMainPage()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public bool RunInMainPage()
+    return:
+      type: System.Boolean
+    content.vb: Public Function RunInMainPage As Boolean
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInMainPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.SetInterval(System.Int32)
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.SetInterval(System.Int32)
+  id: SetInterval(System.Int32)
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: SetInterval(Int32)
+  nameWithType: ServerEventPluginInfo.SetInterval(Int32)
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.SetInterval(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public void SetInterval(int interval)
+    parameters:
+    - id: interval
+      type: System.Int32
+    content.vb: Public Sub SetInterval(interval As Integer)
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.SetInterval*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.GetInterval
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.GetInterval
+  id: GetInterval
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: GetInterval()
+  nameWithType: ServerEventPluginInfo.GetInterval()
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.GetInterval()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public int GetInterval()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetInterval As Integer
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.GetInterval*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.#ctor
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: ServerEventPluginInfo()
+  nameWithType: ServerEventPluginInfo.ServerEventPluginInfo()
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.ServerEventPluginInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public ServerEventPluginInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.Name
+  commentId: P:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.Name
+  id: Name
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ServerEventPluginInfo.Name
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.EventType
+  commentId: P:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.EventType
+  id: EventType
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: EventType
+  nameWithType: ServerEventPluginInfo.EventType
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.EventType
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public string EventType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EventType As String
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.EventType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.DefaultInterval
+  commentId: P:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.DefaultInterval
+  id: DefaultInterval
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultInterval
+  nameWithType: ServerEventPluginInfo.DefaultInterval
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.DefaultInterval
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public int DefaultInterval { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DefaultInterval As Integer
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.DefaultInterval*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web.ServerEvent
+  commentId: N:SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: SuperOffice.DCF.Web.ServerEvent
+  nameWithType: SuperOffice.DCF.Web.ServerEvent
+  fullName: SuperOffice.DCF.Web.ServerEvent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.CreateServerEventPluginInfo*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.CreateServerEventPluginInfo
+  isExternal: true
+  name: CreateServerEventPluginInfo
+  nameWithType: ServerEventPluginInfo.CreateServerEventPluginInfo
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.CreateServerEventPluginInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  parent: SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: ServerEventPluginInfo
+  nameWithType: ServerEventPluginInfo
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInThisContext*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInThisContext
+  isExternal: true
+  name: RunInThisContext
+  nameWithType: ServerEventPluginInfo.RunInThisContext
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInThisContext
+- uid: SuperOffice.DCF.Web.ServerEventContext
+  commentId: T:SuperOffice.DCF.Web.ServerEventContext
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: ServerEventContext
+  nameWithType: ServerEventContext
+  fullName: SuperOffice.DCF.Web.ServerEventContext
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.IsReadyToExecute*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.IsReadyToExecute
+  isExternal: true
+  name: IsReadyToExecute
+  nameWithType: ServerEventPluginInfo.IsReadyToExecute
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.IsReadyToExecute
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInDialog*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInDialog
+  isExternal: true
+  name: RunInDialog
+  nameWithType: ServerEventPluginInfo.RunInDialog
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInDialog
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInMainPage*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInMainPage
+  isExternal: true
+  name: RunInMainPage
+  nameWithType: ServerEventPluginInfo.RunInMainPage
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.RunInMainPage
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.SetInterval*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.SetInterval
+  isExternal: true
+  name: SetInterval
+  nameWithType: ServerEventPluginInfo.SetInterval
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.SetInterval
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.GetInterval*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.GetInterval
+  isExternal: true
+  name: GetInterval
+  nameWithType: ServerEventPluginInfo.GetInterval
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.GetInterval
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.#ctor
+  isExternal: true
+  name: ServerEventPluginInfo
+  nameWithType: ServerEventPluginInfo.ServerEventPluginInfo
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.ServerEventPluginInfo
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.Name*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: ServerEventPluginInfo.Name
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.Name
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.EventType*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.EventType
+  isExternal: true
+  name: EventType
+  nameWithType: ServerEventPluginInfo.EventType
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.EventType
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.DefaultInterval*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.DefaultInterval
+  isExternal: true
+  name: DefaultInterval
+  nameWithType: ServerEventPluginInfo.DefaultInterval
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo.DefaultInterval

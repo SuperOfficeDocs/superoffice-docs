@@ -1,0 +1,176 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest
+  id: Person_GetColleaguesBySourceRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.Count
+  - SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.SourceType
+  langs:
+  - csharp
+  - vb
+  name: Person_GetColleaguesBySourceRequest
+  nameWithType: Person_GetColleaguesBySourceRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetColleaguesBySourceRequest : Object'
+    content.vb: >-
+      Public Class Person_GetColleaguesBySourceRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetColleaguesBySourceRequest()
+  nameWithType: Person_GetColleaguesBySourceRequest.Person_GetColleaguesBySourceRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.Person_GetColleaguesBySourceRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetColleaguesBySourceRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.SourceType
+  commentId: P:SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.SourceType
+  id: SourceType
+  parent: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest
+  langs:
+  - csharp
+  - vb
+  name: SourceType
+  nameWithType: Person_GetColleaguesBySourceRequest.SourceType
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.SourceType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AssociateSourceType SourceType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AssociateSourceType
+    content.vb: Public Property SourceType As AssociateSourceType
+  overload: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.SourceType*
+  see:
+  - linkId: SuperOffice.WebApi.Data.AssociateSourceType
+    commentId: T:SuperOffice.WebApi.Data.AssociateSourceType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.Count
+  commentId: P:SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.Count
+  id: Count
+  parent: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: Person_GetColleaguesBySourceRequest.Count
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.Count
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.#ctor
+  isExternal: true
+  name: Person_GetColleaguesBySourceRequest
+  nameWithType: Person_GetColleaguesBySourceRequest.Person_GetColleaguesBySourceRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.Person_GetColleaguesBySourceRequest
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.SourceType*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.SourceType
+  isExternal: true
+  name: SourceType
+  nameWithType: Person_GetColleaguesBySourceRequest.SourceType
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.SourceType
+- uid: SuperOffice.WebApi.Data.AssociateSourceType
+  commentId: T:SuperOffice.WebApi.Data.AssociateSourceType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AssociateSourceType
+  nameWithType: AssociateSourceType
+  fullName: SuperOffice.WebApi.Data.AssociateSourceType
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.Count*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.Count
+  isExternal: true
+  name: Count
+  nameWithType: Person_GetColleaguesBySourceRequest.Count
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesBySourceRequest.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

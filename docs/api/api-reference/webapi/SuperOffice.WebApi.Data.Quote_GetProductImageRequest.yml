@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GetProductImageRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GetProductImageRequest
+  id: Quote_GetProductImageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GetProductImageRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GetProductImageRequest.ERPProductKey
+  - SuperOffice.WebApi.Data.Quote_GetProductImageRequest.QuoteConnectionId
+  - SuperOffice.WebApi.Data.Quote_GetProductImageRequest.Rank
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetProductImageRequest
+  nameWithType: Quote_GetProductImageRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductImageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GetProductImageRequest : Object'
+    content.vb: >-
+      Public Class Quote_GetProductImageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GetProductImageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GetProductImageRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetProductImageRequest()
+  nameWithType: Quote_GetProductImageRequest.Quote_GetProductImageRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.Quote_GetProductImageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GetProductImageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.QuoteConnectionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetProductImageRequest.QuoteConnectionId
+  id: QuoteConnectionId
+  parent: SuperOffice.WebApi.Data.Quote_GetProductImageRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnectionId
+  nameWithType: Quote_GetProductImageRequest.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.QuoteConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.QuoteConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.ERPProductKey
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetProductImageRequest.ERPProductKey
+  id: ERPProductKey
+  parent: SuperOffice.WebApi.Data.Quote_GetProductImageRequest
+  langs:
+  - csharp
+  - vb
+  name: ERPProductKey
+  nameWithType: Quote_GetProductImageRequest.ERPProductKey
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.ERPProductKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ERPProductKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ERPProductKey As String
+  overload: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.ERPProductKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.Rank
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetProductImageRequest.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.Quote_GetProductImageRequest
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Quote_GetProductImageRequest.Rank
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Rank As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetProductImageRequest.#ctor
+  isExternal: true
+  name: Quote_GetProductImageRequest
+  nameWithType: Quote_GetProductImageRequest.Quote_GetProductImageRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.Quote_GetProductImageRequest
+- uid: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.QuoteConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetProductImageRequest.QuoteConnectionId
+  isExternal: true
+  name: QuoteConnectionId
+  nameWithType: Quote_GetProductImageRequest.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.QuoteConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.ERPProductKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetProductImageRequest.ERPProductKey
+  isExternal: true
+  name: ERPProductKey
+  nameWithType: Quote_GetProductImageRequest.ERPProductKey
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.ERPProductKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetProductImageRequest.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: Quote_GetProductImageRequest.Rank
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductImageRequest.Rank

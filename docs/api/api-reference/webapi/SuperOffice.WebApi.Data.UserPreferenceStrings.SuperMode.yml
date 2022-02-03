@@ -1,0 +1,452 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  id: UserPreferenceStrings.SuperMode
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.MainPanel
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TaskBarConfiguration
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TaskBarMode
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopArchivePerson
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopContactView
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopDiaryView
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopEmailView
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopPanel
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopProjArchive
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopProjectView
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopReporterView
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopSelectionView
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.SuperMode
+  nameWithType: UserPreferenceStrings.SuperMode
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSuperMode\n"
+  syntax:
+    content: 'public static class SuperMode : Object'
+    content.vb: >-
+      Public Module SuperMode
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.SuperMode.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "SuperMode"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "SuperMode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.MainPanel
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.MainPanel
+  id: MainPanel
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: MainPanel
+  nameWithType: UserPreferenceStrings.SuperMode.MainPanel
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.MainPanel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMainPanel currently set for user.\n"
+  syntax:
+    content: public const string MainPanel = "MainPanel"
+    return:
+      type: System.String
+    content.vb: Public Const MainPanel As String = "MainPanel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopArchivePerson
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopArchivePerson
+  id: TopArchivePerson
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: TopArchivePerson
+  nameWithType: UserPreferenceStrings.SuperMode.TopArchivePerson
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopArchivePerson
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent active view in Contacts section tab\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string TopArchivePerson = "TopArchivePerson"
+    return:
+      type: System.String
+    content.vb: Public Const TopArchivePerson As String = "TopArchivePerson"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopContactView
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopContactView
+  id: TopContactView
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: TopContactView
+  nameWithType: UserPreferenceStrings.SuperMode.TopContactView
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopContactView
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent active view in Company screen\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string TopContactView = "TopContactView"
+    return:
+      type: System.String
+    content.vb: Public Const TopContactView As String = "TopContactView"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopDiaryView
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopDiaryView
+  id: TopDiaryView
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: TopDiaryView
+  nameWithType: UserPreferenceStrings.SuperMode.TopDiaryView
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopDiaryView
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent active view in Diary screen\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string TopDiaryView = "TopDiaryView"
+    return:
+      type: System.String
+    content.vb: Public Const TopDiaryView As String = "TopDiaryView"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopEmailView
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopEmailView
+  id: TopEmailView
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: TopEmailView
+  nameWithType: UserPreferenceStrings.SuperMode.TopEmailView
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopEmailView
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent active view in E-mail screen\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string TopEmailView = "TopEmailView"
+    return:
+      type: System.String
+    content.vb: Public Const TopEmailView As String = "TopEmailView"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopPanel
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopPanel
+  id: TopPanel
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: TopPanel
+  nameWithType: UserPreferenceStrings.SuperMode.TopPanel
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopPanel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent active screen\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string TopPanel = "TopPanel"
+    return:
+      type: System.String
+    content.vb: Public Const TopPanel As String = "TopPanel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopProjArchive
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopProjArchive
+  id: TopProjArchive
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: TopProjArchive
+  nameWithType: UserPreferenceStrings.SuperMode.TopProjArchive
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopProjArchive
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent active view in Projects section tab\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string TopProjArchive = "TopProjArchive"
+    return:
+      type: System.String
+    content.vb: Public Const TopProjArchive As String = "TopProjArchive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopProjectView
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopProjectView
+  id: TopProjectView
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: TopProjectView
+  nameWithType: UserPreferenceStrings.SuperMode.TopProjectView
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopProjectView
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent active view in Project screen\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string TopProjectView = "TopProjectView"
+    return:
+      type: System.String
+    content.vb: Public Const TopProjectView As String = "TopProjectView"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopReporterView
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopReporterView
+  id: TopReporterView
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: TopReporterView
+  nameWithType: UserPreferenceStrings.SuperMode.TopReporterView
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopReporterView
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActive view in the Reports screen when you last logged out\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string TopReporterView = "TopReporterView"
+    return:
+      type: System.String
+    content.vb: Public Const TopReporterView As String = "TopReporterView"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopSelectionView
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopSelectionView
+  id: TopSelectionView
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: TopSelectionView
+  nameWithType: UserPreferenceStrings.SuperMode.TopSelectionView
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TopSelectionView
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent active view in Selection screen\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string TopSelectionView = "TopSelectionView"
+    return:
+      type: System.String
+    content.vb: Public Const TopSelectionView As String = "TopSelectionView"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TaskBarConfiguration
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TaskBarConfiguration
+  id: TaskBarConfiguration
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: TaskBarConfiguration
+  nameWithType: UserPreferenceStrings.SuperMode.TaskBarConfiguration
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TaskBarConfiguration
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent selection of task bar buttons\n"
+  syntax:
+    content: public const string TaskBarConfiguration = "TaskBarConfiguration"
+    return:
+      type: System.String
+    content.vb: Public Const TaskBarConfiguration As String = "TaskBarConfiguration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TaskBarMode
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TaskBarMode
+  id: TaskBarMode
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
+  langs:
+  - csharp
+  - vb
+  name: TaskBarMode
+  nameWithType: UserPreferenceStrings.SuperMode.TaskBarMode
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode.TaskBarMode
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the taskbar shows &apos;showall&apos;, &apos;hideall&apos; or &apos;normal&apos; of the buttons\n"
+  syntax:
+    content: public const string TaskBarMode = "TaskBarMode"
+    return:
+      type: System.String
+    content.vb: Public Const TaskBarMode As String = "TaskBarMode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

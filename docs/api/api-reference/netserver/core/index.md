@@ -1,0 +1,1 @@
+# NetServer Core API Placeholder

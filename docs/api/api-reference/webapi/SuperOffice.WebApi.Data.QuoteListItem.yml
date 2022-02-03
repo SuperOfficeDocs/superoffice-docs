@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteListItem
+  commentId: T:SuperOffice.WebApi.Data.QuoteListItem
+  id: QuoteListItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteListItem.#ctor
+  - SuperOffice.WebApi.Data.QuoteListItem.DisplayDescription
+  - SuperOffice.WebApi.Data.QuoteListItem.DisplayValue
+  - SuperOffice.WebApi.Data.QuoteListItem.ERPQuoteListItemKey
+  langs:
+  - csharp
+  - vb
+  name: QuoteListItem
+  nameWithType: QuoteListItem
+  fullName: SuperOffice.WebApi.Data.QuoteListItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuoteListItem.\nOne line in a list    \n"
+  syntax:
+    content: 'public class QuoteListItem : Carrier'
+    content.vb: >-
+      Public Class QuoteListItem
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteListItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuoteListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuoteListItem
+  langs:
+  - csharp
+  - vb
+  name: QuoteListItem()
+  nameWithType: QuoteListItem.QuoteListItem()
+  fullName: SuperOffice.WebApi.Data.QuoteListItem.QuoteListItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuoteListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuoteListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteListItem.ERPQuoteListItemKey
+  commentId: P:SuperOffice.WebApi.Data.QuoteListItem.ERPQuoteListItemKey
+  id: ERPQuoteListItemKey
+  parent: SuperOffice.WebApi.Data.QuoteListItem
+  langs:
+  - csharp
+  - vb
+  name: ERPQuoteListItemKey
+  nameWithType: QuoteListItem.ERPQuoteListItemKey
+  fullName: SuperOffice.WebApi.Data.QuoteListItem.ERPQuoteListItemKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key for the item.\n"
+  syntax:
+    content: public virtual string ERPQuoteListItemKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPQuoteListItemKey As String
+  overload: SuperOffice.WebApi.Data.QuoteListItem.ERPQuoteListItemKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteListItem.DisplayValue
+  commentId: P:SuperOffice.WebApi.Data.QuoteListItem.DisplayValue
+  id: DisplayValue
+  parent: SuperOffice.WebApi.Data.QuoteListItem
+  langs:
+  - csharp
+  - vb
+  name: DisplayValue
+  nameWithType: QuoteListItem.DisplayValue
+  fullName: SuperOffice.WebApi.Data.QuoteListItem.DisplayValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nList item text to display.\n"
+  syntax:
+    content: public virtual string DisplayValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayValue As String
+  overload: SuperOffice.WebApi.Data.QuoteListItem.DisplayValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteListItem.DisplayDescription
+  commentId: P:SuperOffice.WebApi.Data.QuoteListItem.DisplayDescription
+  id: DisplayDescription
+  parent: SuperOffice.WebApi.Data.QuoteListItem
+  langs:
+  - csharp
+  - vb
+  name: DisplayDescription
+  nameWithType: QuoteListItem.DisplayDescription
+  fullName: SuperOffice.WebApi.Data.QuoteListItem.DisplayDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTypically used in a tooltip.\n"
+  syntax:
+    content: public virtual string DisplayDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayDescription As String
+  overload: SuperOffice.WebApi.Data.QuoteListItem.DisplayDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuoteListItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteListItem.#ctor
+  isExternal: true
+  name: QuoteListItem
+  nameWithType: QuoteListItem.QuoteListItem
+  fullName: SuperOffice.WebApi.Data.QuoteListItem.QuoteListItem
+- uid: SuperOffice.WebApi.Data.QuoteListItem.ERPQuoteListItemKey*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteListItem.ERPQuoteListItemKey
+  isExternal: true
+  name: ERPQuoteListItemKey
+  nameWithType: QuoteListItem.ERPQuoteListItemKey
+  fullName: SuperOffice.WebApi.Data.QuoteListItem.ERPQuoteListItemKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.QuoteListItem.DisplayValue*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteListItem.DisplayValue
+  isExternal: true
+  name: DisplayValue
+  nameWithType: QuoteListItem.DisplayValue
+  fullName: SuperOffice.WebApi.Data.QuoteListItem.DisplayValue
+- uid: SuperOffice.WebApi.Data.QuoteListItem.DisplayDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteListItem.DisplayDescription
+  isExternal: true
+  name: DisplayDescription
+  nameWithType: QuoteListItem.DisplayDescription
+  fullName: SuperOffice.WebApi.Data.QuoteListItem.DisplayDescription

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest
+  id: ErpSync_SupportsAdvancedSearchRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpActorType
+  - SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpConnectionId
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_SupportsAdvancedSearchRequest
+  nameWithType: ErpSync_SupportsAdvancedSearchRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_SupportsAdvancedSearchRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_SupportsAdvancedSearchRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_SupportsAdvancedSearchRequest()
+  nameWithType: ErpSync_SupportsAdvancedSearchRequest.ErpSync_SupportsAdvancedSearchRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpSync_SupportsAdvancedSearchRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_SupportsAdvancedSearchRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_SupportsAdvancedSearchRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpActorType
+  id: ErpActorType
+  parent: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpActorType
+  nameWithType: ErpSync_SupportsAdvancedSearchRequest.ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpActorType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpActorType ErpActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Property ErpActorType As ErpActorType
+  overload: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.#ctor
+  isExternal: true
+  name: ErpSync_SupportsAdvancedSearchRequest
+  nameWithType: ErpSync_SupportsAdvancedSearchRequest.ErpSync_SupportsAdvancedSearchRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpSync_SupportsAdvancedSearchRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_SupportsAdvancedSearchRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpActorType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpSync_SupportsAdvancedSearchRequest.ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_SupportsAdvancedSearchRequest.ErpActorType
+- uid: SuperOffice.WebApi.Data.ErpActorType
+  commentId: T:SuperOffice.WebApi.Data.ErpActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpActorType

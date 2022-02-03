@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest
+  commentId: T:SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest
+  id: FreeText_SetAutoEnableTravelAreasRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.#ctor
+  - SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.AutoEnable
+  langs:
+  - csharp
+  - vb
+  name: FreeText_SetAutoEnableTravelAreasRequest
+  nameWithType: FreeText_SetAutoEnableTravelAreasRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class FreeText_SetAutoEnableTravelAreasRequest : Object'
+    content.vb: >-
+      Public Class FreeText_SetAutoEnableTravelAreasRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest
+  langs:
+  - csharp
+  - vb
+  name: FreeText_SetAutoEnableTravelAreasRequest()
+  nameWithType: FreeText_SetAutoEnableTravelAreasRequest.FreeText_SetAutoEnableTravelAreasRequest()
+  fullName: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.FreeText_SetAutoEnableTravelAreasRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public FreeText_SetAutoEnableTravelAreasRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.AutoEnable
+  commentId: P:SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.AutoEnable
+  id: AutoEnable
+  parent: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest
+  langs:
+  - csharp
+  - vb
+  name: AutoEnable
+  nameWithType: FreeText_SetAutoEnableTravelAreasRequest.AutoEnable
+  fullName: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.AutoEnable
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool AutoEnable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoEnable As Boolean
+  overload: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.AutoEnable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.#ctor
+  isExternal: true
+  name: FreeText_SetAutoEnableTravelAreasRequest
+  nameWithType: FreeText_SetAutoEnableTravelAreasRequest.FreeText_SetAutoEnableTravelAreasRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.FreeText_SetAutoEnableTravelAreasRequest
+- uid: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.AutoEnable*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.AutoEnable
+  isExternal: true
+  name: AutoEnable
+  nameWithType: FreeText_SetAutoEnableTravelAreasRequest.AutoEnable
+  fullName: SuperOffice.WebApi.Data.FreeText_SetAutoEnableTravelAreasRequest.AutoEnable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

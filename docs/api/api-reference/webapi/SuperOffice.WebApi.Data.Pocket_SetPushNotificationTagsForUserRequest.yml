@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest
+  commentId: T:SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest
+  id: Pocket_SetPushNotificationTagsForUserRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.#ctor
+  - SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.AssociateId
+  - SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.Tags
+  langs:
+  - csharp
+  - vb
+  name: Pocket_SetPushNotificationTagsForUserRequest
+  nameWithType: Pocket_SetPushNotificationTagsForUserRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Pocket_SetPushNotificationTagsForUserRequest : Object'
+    content.vb: >-
+      Public Class Pocket_SetPushNotificationTagsForUserRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest
+  langs:
+  - csharp
+  - vb
+  name: Pocket_SetPushNotificationTagsForUserRequest()
+  nameWithType: Pocket_SetPushNotificationTagsForUserRequest.Pocket_SetPushNotificationTagsForUserRequest()
+  fullName: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.Pocket_SetPushNotificationTagsForUserRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Pocket_SetPushNotificationTagsForUserRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Pocket_SetPushNotificationTagsForUserRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.Tags
+  commentId: P:SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.Tags
+  id: Tags
+  parent: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: Pocket_SetPushNotificationTagsForUserRequest.Tags
+  fullName: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.Tags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Tags { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tags As String
+  overload: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.Tags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.#ctor
+  isExternal: true
+  name: Pocket_SetPushNotificationTagsForUserRequest
+  nameWithType: Pocket_SetPushNotificationTagsForUserRequest.Pocket_SetPushNotificationTagsForUserRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.Pocket_SetPushNotificationTagsForUserRequest
+- uid: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Pocket_SetPushNotificationTagsForUserRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.Tags*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.Tags
+  isExternal: true
+  name: Tags
+  nameWithType: Pocket_SetPushNotificationTagsForUserRequest.Tags
+  fullName: SuperOffice.WebApi.Data.Pocket_SetPushNotificationTagsForUserRequest.Tags
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

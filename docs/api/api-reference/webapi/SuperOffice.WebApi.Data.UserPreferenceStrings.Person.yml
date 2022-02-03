@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Person
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Person
+  id: UserPreferenceStrings.Person
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Person.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Person.ShowActionButtons
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Person.SkipFormerEmployees
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Person
+  nameWithType: UserPreferenceStrings.Person
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Person
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson preferences\n"
+  syntax:
+    content: 'public static class Person : Object'
+    content.vb: >-
+      Public Module Person
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Person.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Person.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Person
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Person.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Person.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Person"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Person"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Person.SkipFormerEmployees
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Person.SkipFormerEmployees
+  id: SkipFormerEmployees
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Person
+  langs:
+  - csharp
+  - vb
+  name: SkipFormerEmployees
+  nameWithType: UserPreferenceStrings.Person.SkipFormerEmployees
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Person.SkipFormerEmployees
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould navigator search and steppers skip retired persons\n"
+  syntax:
+    content: public const string SkipFormerEmployees = "SkipFormerEmployees"
+    return:
+      type: System.String
+    content.vb: Public Const SkipFormerEmployees As String = "SkipFormerEmployees"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Person.ShowActionButtons
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Person.ShowActionButtons
+  id: ShowActionButtons
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Person
+  langs:
+  - csharp
+  - vb
+  name: ShowActionButtons
+  nameWithType: UserPreferenceStrings.Person.ShowActionButtons
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Person.ShowActionButtons
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould person card header show the action buttons\n"
+  syntax:
+    content: public const string ShowActionButtons = "ShowActionButtons"
+    return:
+      type: System.String
+    content.vb: Public Const ShowActionButtons As String = "ShowActionButtons"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

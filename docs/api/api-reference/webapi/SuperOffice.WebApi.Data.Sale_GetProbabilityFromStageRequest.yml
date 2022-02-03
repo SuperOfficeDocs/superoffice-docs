@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest
+  id: Sale_GetProbabilityFromStageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.StageId
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetProbabilityFromStageRequest
+  nameWithType: Sale_GetProbabilityFromStageRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_GetProbabilityFromStageRequest : Object'
+    content.vb: >-
+      Public Class Sale_GetProbabilityFromStageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetProbabilityFromStageRequest()
+  nameWithType: Sale_GetProbabilityFromStageRequest.Sale_GetProbabilityFromStageRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.Sale_GetProbabilityFromStageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_GetProbabilityFromStageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.StageId
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.StageId
+  id: StageId
+  parent: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest
+  langs:
+  - csharp
+  - vb
+  name: StageId
+  nameWithType: Sale_GetProbabilityFromStageRequest.StageId
+  fullName: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.StageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int StageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property StageId As Integer
+  overload: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.StageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.#ctor
+  isExternal: true
+  name: Sale_GetProbabilityFromStageRequest
+  nameWithType: Sale_GetProbabilityFromStageRequest.Sale_GetProbabilityFromStageRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.Sale_GetProbabilityFromStageRequest
+- uid: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.StageId*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.StageId
+  isExternal: true
+  name: StageId
+  nameWithType: Sale_GetProbabilityFromStageRequest.StageId
+  fullName: SuperOffice.WebApi.Data.Sale_GetProbabilityFromStageRequest.StageId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,290 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+  commentId: T:SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+  id: IEntityUdefHelperContainer
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefLarge
+  - SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefSmall
+  langs:
+  - csharp
+  - vb
+  name: IEntityUdefHelperContainer
+  nameWithType: IEntityUdefHelperContainer
+  fullName: SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nInterface implemented by containers of ser defined fields and used by the <xref href=\"SuperOffice.CRM.Entities.EntityUdefHelper\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public interface IEntityUdefHelperContainer
+    content.vb: Public Interface IEntityUdefHelperContainer
+  extensionMethods:
+  - SuperOffice.CRM.Entities.IEntityUdefHelperContainer.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.IEntityUdefHelperContainer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefSmall
+  commentId: P:SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefSmall
+  id: UDefSmall
+  parent: SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+  langs:
+  - csharp
+  - vb
+  name: UDefSmall
+  nameWithType: IEntityUdefHelperContainer.UDefSmall
+  fullName: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefSmall
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nMainTableName exposing the UdXXSmall row, where XX represents the name of the parent table of the user defined field.\n"
+  syntax:
+    content: TableRowBase UDefSmall { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TableRowBase
+    content.vb: ReadOnly Property UDefSmall As TableRowBase
+  overload: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefSmall*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefLarge
+  commentId: P:SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefLarge
+  id: UDefLarge
+  parent: SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+  langs:
+  - csharp
+  - vb
+  name: UDefLarge
+  nameWithType: IEntityUdefHelperContainer.UDefLarge
+  fullName: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefLarge
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nMainTableName exposing the UdXXLarge row, where XX represents the name of the parent table of the user defined field.\n"
+  syntax:
+    content: TableRowBase UDefLarge { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TableRowBase
+    content.vb: ReadOnly Property UDefLarge As TableRowBase
+  overload: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefLarge*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IEntityUdefHelperContainer, To>()
+  nameWithType: EnumUtil.MapEnums<IEntityUdefHelperContainer, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.IEntityUdefHelperContainer, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IEntityUdefHelperContainer, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.IEntityUdefHelperContainer, To)()
+  name.vb: MapEnums(Of IEntityUdefHelperContainer, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IEntityUdefHelperContainer, To>
+    nameWithType: EnumUtil.MapEnums<IEntityUdefHelperContainer, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.IEntityUdefHelperContainer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IEntityUdefHelperContainer, To)
+    nameWithType: EnumUtil.MapEnums(Of IEntityUdefHelperContainer, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.IEntityUdefHelperContainer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IEntityUdefHelperContainer, To>()
+  nameWithType: Converters.MapEnums<IEntityUdefHelperContainer, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.IEntityUdefHelperContainer, To>()
+  nameWithType.vb: Converters.MapEnums(Of IEntityUdefHelperContainer, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.IEntityUdefHelperContainer, To)()
+  name.vb: MapEnums(Of IEntityUdefHelperContainer, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IEntityUdefHelperContainer, To>
+    nameWithType: Converters.MapEnums<IEntityUdefHelperContainer, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.IEntityUdefHelperContainer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IEntityUdefHelperContainer, To)
+    nameWithType: Converters.MapEnums(Of IEntityUdefHelperContainer, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.IEntityUdefHelperContainer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefSmall*
+  commentId: Overload:SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefSmall
+  isExternal: true
+  name: UDefSmall
+  nameWithType: IEntityUdefHelperContainer.UDefSmall
+  fullName: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefSmall
+- uid: SuperOffice.CRM.Rows.TableRowBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TableRowBase
+  nameWithType: TableRowBase
+  fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefLarge*
+  commentId: Overload:SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefLarge
+  isExternal: true
+  name: UDefLarge
+  nameWithType: IEntityUdefHelperContainer.UDefLarge
+  fullName: SuperOffice.CRM.Entities.IEntityUdefHelperContainer.UDefLarge

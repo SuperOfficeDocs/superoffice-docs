@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ShipmentMessageType
+  commentId: T:SuperOffice.WebApi.Data.ShipmentMessageType
+  id: ShipmentMessageType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ShipmentMessageType.Document
+  - SuperOffice.WebApi.Data.ShipmentMessageType.Html
+  - SuperOffice.WebApi.Data.ShipmentMessageType.Plain
+  - SuperOffice.WebApi.Data.ShipmentMessageType.Sms
+  - SuperOffice.WebApi.Data.ShipmentMessageType.SourceView
+  - SuperOffice.WebApi.Data.ShipmentMessageType.value__
+  langs:
+  - csharp
+  - vb
+  name: ShipmentMessageType
+  nameWithType: ShipmentMessageType
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBitmask defining what type of shipment message this is\nThis Enum is used by:  s_message.flags\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class ShipmentMessageType : Enum'
+    content.vb: >-
+      Public NotInheritable Class ShipmentMessageType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ShipmentMessageType.value__
+  commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ShipmentMessageType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ShipmentMessageType.value__
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ShipmentMessageType.Plain
+  commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.Plain
+  id: Plain
+  parent: SuperOffice.WebApi.Data.ShipmentMessageType
+  langs:
+  - csharp
+  - vb
+  name: Plain
+  nameWithType: ShipmentMessageType.Plain
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageType.Plain
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Contains a plain part\n"
+  syntax:
+    content: public const ShipmentMessageType Plain
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentMessageType
+    content.vb: Public Const Plain As ShipmentMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentMessageType.Html
+  commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.Html
+  id: Html
+  parent: SuperOffice.WebApi.Data.ShipmentMessageType
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: ShipmentMessageType.Html
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageType.Html
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Contains a HTML part\n"
+  syntax:
+    content: public const ShipmentMessageType Html
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentMessageType
+    content.vb: Public Const Html As ShipmentMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentMessageType.SourceView
+  commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.SourceView
+  id: SourceView
+  parent: SuperOffice.WebApi.Data.ShipmentMessageType
+  langs:
+  - csharp
+  - vb
+  name: SourceView
+  nameWithType: ShipmentMessageType.SourceView
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageType.SourceView
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Obsolete\n"
+  syntax:
+    content: public const ShipmentMessageType SourceView
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentMessageType
+    content.vb: Public Const SourceView As ShipmentMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentMessageType.Sms
+  commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.Sms
+  id: Sms
+  parent: SuperOffice.WebApi.Data.ShipmentMessageType
+  langs:
+  - csharp
+  - vb
+  name: Sms
+  nameWithType: ShipmentMessageType.Sms
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageType.Sms
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Contains a SMS\n"
+  syntax:
+    content: public const ShipmentMessageType Sms
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentMessageType
+    content.vb: Public Const Sms As ShipmentMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentMessageType.Document
+  commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.Document
+  id: Document
+  parent: SuperOffice.WebApi.Data.ShipmentMessageType
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: ShipmentMessageType.Document
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageType.Document
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Contains a document. The document_message field contains the id of the actual document\n"
+  syntax:
+    content: public const ShipmentMessageType Document
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentMessageType
+    content.vb: Public Const Document As ShipmentMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ShipmentMessageType
+  commentId: T:SuperOffice.WebApi.Data.ShipmentMessageType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ShipmentMessageType
+  nameWithType: ShipmentMessageType
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageType

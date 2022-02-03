@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_IsNumberValidRequest
+  id: Contact_IsNumberValidRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.ContactId
+  - SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.Number
+  langs:
+  - csharp
+  - vb
+  name: Contact_IsNumberValidRequest
+  nameWithType: Contact_IsNumberValidRequest
+  fullName: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_IsNumberValidRequest : Object'
+    content.vb: >-
+      Public Class Contact_IsNumberValidRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_IsNumberValidRequest()
+  nameWithType: Contact_IsNumberValidRequest.Contact_IsNumberValidRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.Contact_IsNumberValidRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_IsNumberValidRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: Contact_IsNumberValidRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.Number
+  commentId: P:SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.Number
+  id: Number
+  parent: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: Contact_IsNumberValidRequest.Number
+  fullName: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.Number
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Number { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Number As String
+  overload: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.Number*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.#ctor
+  isExternal: true
+  name: Contact_IsNumberValidRequest
+  nameWithType: Contact_IsNumberValidRequest.Contact_IsNumberValidRequest
+  fullName: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.Contact_IsNumberValidRequest
+- uid: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: Contact_IsNumberValidRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.Number*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.Number
+  isExternal: true
+  name: Number
+  nameWithType: Contact_IsNumberValidRequest.Number
+  fullName: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest.Number
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

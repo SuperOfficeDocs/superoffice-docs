@@ -1,0 +1,395 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  commentId: T:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  id: Archive_GetArchiveListByColumnsWithContext2Request
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.#ctor
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Columns
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Context
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Entities
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Page
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.PageSize
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.ProviderName
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Restriction
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.SortOrder
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetArchiveListByColumnsWithContext2Request
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Archive_GetArchiveListByColumnsWithContext2Request : Object'
+    content.vb: >-
+      Public Class Archive_GetArchiveListByColumnsWithContext2Request
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetArchiveListByColumnsWithContext2Request()
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Archive_GetArchiveListByColumnsWithContext2Request()
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Archive_GetArchiveListByColumnsWithContext2Request()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Archive_GetArchiveListByColumnsWithContext2Request()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Columns
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Columns
+  id: Columns
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  langs:
+  - csharp
+  - vb
+  name: Columns
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Columns
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Columns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Columns { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Columns As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Columns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.SortOrder
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.SortOrder
+  id: SortOrder
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.SortOrder
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.SortOrder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string SortOrder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SortOrder As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.SortOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Restriction
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Restriction
+  id: Restriction
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  langs:
+  - csharp
+  - vb
+  name: Restriction
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Restriction
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Restriction
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Restriction { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Restriction As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Restriction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Entities
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Entities
+  id: Entities
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  langs:
+  - csharp
+  - vb
+  name: Entities
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Entities
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Entities
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Entities { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Entities As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Entities*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Page
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Page
+  id: Page
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Page
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Page
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Page { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Page As Integer
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Page*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.PageSize
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.PageSize
+  id: PageSize
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.PageSize
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.PageSize
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageSize As Integer
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.PageSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Context
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Context
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.#ctor
+  isExternal: true
+  name: Archive_GetArchiveListByColumnsWithContext2Request
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Archive_GetArchiveListByColumnsWithContext2Request
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Archive_GetArchiveListByColumnsWithContext2Request
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.ProviderName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Columns*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Columns
+  isExternal: true
+  name: Columns
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Columns
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Columns
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.SortOrder*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.SortOrder
+  isExternal: true
+  name: SortOrder
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.SortOrder
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.SortOrder
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Restriction*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Restriction
+  isExternal: true
+  name: Restriction
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Restriction
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Restriction
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Entities*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Entities
+  isExternal: true
+  name: Entities
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Entities
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Entities
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Page*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Page
+  isExternal: true
+  name: Page
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Page
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Page
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.PageSize*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.PageSize
+  isExternal: true
+  name: PageSize
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.PageSize
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.PageSize
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Context
+  isExternal: true
+  name: Context
+  nameWithType: Archive_GetArchiveListByColumnsWithContext2Request.Context
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithContext2Request.Context

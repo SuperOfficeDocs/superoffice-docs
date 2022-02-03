@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest
+  id: Contact_GetNameDepartmentDuplicatesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Department
+  - SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Name
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetNameDepartmentDuplicatesRequest
+  nameWithType: Contact_GetNameDepartmentDuplicatesRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_GetNameDepartmentDuplicatesRequest : Object'
+    content.vb: >-
+      Public Class Contact_GetNameDepartmentDuplicatesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetNameDepartmentDuplicatesRequest()
+  nameWithType: Contact_GetNameDepartmentDuplicatesRequest.Contact_GetNameDepartmentDuplicatesRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Contact_GetNameDepartmentDuplicatesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_GetNameDepartmentDuplicatesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Contact_GetNameDepartmentDuplicatesRequest.Name
+  fullName: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Department
+  commentId: P:SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Department
+  id: Department
+  parent: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest
+  langs:
+  - csharp
+  - vb
+  name: Department
+  nameWithType: Contact_GetNameDepartmentDuplicatesRequest.Department
+  fullName: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Department
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Department { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Department As String
+  overload: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Department*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.#ctor
+  isExternal: true
+  name: Contact_GetNameDepartmentDuplicatesRequest
+  nameWithType: Contact_GetNameDepartmentDuplicatesRequest.Contact_GetNameDepartmentDuplicatesRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Contact_GetNameDepartmentDuplicatesRequest
+- uid: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: Contact_GetNameDepartmentDuplicatesRequest.Name
+  fullName: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Department*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Department
+  isExternal: true
+  name: Department
+  nameWithType: Contact_GetNameDepartmentDuplicatesRequest.Department
+  fullName: SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest.Department

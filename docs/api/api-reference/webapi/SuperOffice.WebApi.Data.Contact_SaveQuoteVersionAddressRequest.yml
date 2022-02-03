@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest
+  id: Contact_SaveQuoteVersionAddressRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.Address
+  - SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.AddressType
+  - SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.CountryId
+  - SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.QuoteVersionId
+  langs:
+  - csharp
+  - vb
+  name: Contact_SaveQuoteVersionAddressRequest
+  nameWithType: Contact_SaveQuoteVersionAddressRequest
+  fullName: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_SaveQuoteVersionAddressRequest : Object'
+    content.vb: >-
+      Public Class Contact_SaveQuoteVersionAddressRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_SaveQuoteVersionAddressRequest()
+  nameWithType: Contact_SaveQuoteVersionAddressRequest.Contact_SaveQuoteVersionAddressRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.Contact_SaveQuoteVersionAddressRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_SaveQuoteVersionAddressRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Contact_SaveQuoteVersionAddressRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.Address
+  commentId: P:SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.Address
+  id: Address
+  parent: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: Contact_SaveQuoteVersionAddressRequest.Address
+  fullName: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.Address
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Address Address { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Address
+    content.vb: Public Property Address As Address
+  overload: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.Address*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.AddressType
+  commentId: P:SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.AddressType
+  id: AddressType
+  parent: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: AddressType
+  nameWithType: Contact_SaveQuoteVersionAddressRequest.AddressType
+  fullName: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.AddressType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AddressType AddressType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AddressType
+    content.vb: Public Property AddressType As AddressType
+  overload: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.AddressType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.CountryId
+  commentId: P:SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.CountryId
+  id: CountryId
+  parent: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: Contact_SaveQuoteVersionAddressRequest.CountryId
+  fullName: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.CountryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CountryId As Integer
+  overload: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.#ctor
+  isExternal: true
+  name: Contact_SaveQuoteVersionAddressRequest
+  nameWithType: Contact_SaveQuoteVersionAddressRequest.Contact_SaveQuoteVersionAddressRequest
+  fullName: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.Contact_SaveQuoteVersionAddressRequest
+- uid: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Contact_SaveQuoteVersionAddressRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.Address*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.Address
+  isExternal: true
+  name: Address
+  nameWithType: Contact_SaveQuoteVersionAddressRequest.Address
+  fullName: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.Address
+- uid: SuperOffice.WebApi.Data.Address
+  commentId: T:SuperOffice.WebApi.Data.Address
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Address
+  nameWithType: Address
+  fullName: SuperOffice.WebApi.Data.Address
+- uid: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.AddressType*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.AddressType
+  isExternal: true
+  name: AddressType
+  nameWithType: Contact_SaveQuoteVersionAddressRequest.AddressType
+  fullName: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.AddressType
+- uid: SuperOffice.WebApi.Data.AddressType
+  commentId: T:SuperOffice.WebApi.Data.AddressType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AddressType
+  nameWithType: AddressType
+  fullName: SuperOffice.WebApi.Data.AddressType
+- uid: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.CountryId*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: Contact_SaveQuoteVersionAddressRequest.CountryId
+  fullName: SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest.CountryId

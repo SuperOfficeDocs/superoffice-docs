@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Redirection
+  commentId: N:SuperOffice.Web.Redirection
+  id: SuperOffice.Web.Redirection
+  children:
+  - SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+  - SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute
+  - SuperOffice.Web.Redirection.SoFormsRedirectProvider
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.Redirection
+  nameWithType: SuperOffice.Web.Redirection
+  fullName: SuperOffice.Web.Redirection
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+  commentId: T:SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+  parent: SuperOffice.Web.Redirection
+  isExternal: true
+  name: ISoFormsRedirectPlugin
+  nameWithType: ISoFormsRedirectPlugin
+  fullName: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+- uid: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute
+  commentId: T:SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute
+  parent: SuperOffice.Web.Redirection
+  isExternal: true
+  name: SoFormsRedirectPluginAttribute
+  nameWithType: SoFormsRedirectPluginAttribute
+  fullName: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute
+- uid: SuperOffice.Web.Redirection.SoFormsRedirectProvider
+  commentId: T:SuperOffice.Web.Redirection.SoFormsRedirectProvider
+  isExternal: true
+  name: SoFormsRedirectProvider
+  nameWithType: SoFormsRedirectProvider
+  fullName: SuperOffice.Web.Redirection.SoFormsRedirectProvider
+- uid: SuperOffice.Web.Redirection
+  commentId: N:SuperOffice.Web.Redirection
+  isExternal: true
+  name: SuperOffice.Web.Redirection
+  nameWithType: SuperOffice.Web.Redirection
+  fullName: SuperOffice.Web.Redirection

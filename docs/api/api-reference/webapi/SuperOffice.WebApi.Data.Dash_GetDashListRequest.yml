@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dash_GetDashListRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_GetDashListRequest
+  id: Dash_GetDashListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dash_GetDashListRequest.#ctor
+  - SuperOffice.WebApi.Data.Dash_GetDashListRequest.Dashboards
+  langs:
+  - csharp
+  - vb
+  name: Dash_GetDashListRequest
+  nameWithType: Dash_GetDashListRequest
+  fullName: SuperOffice.WebApi.Data.Dash_GetDashListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dash_GetDashListRequest : Object'
+    content.vb: >-
+      Public Class Dash_GetDashListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dash_GetDashListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dash_GetDashListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dash_GetDashListRequest
+  langs:
+  - csharp
+  - vb
+  name: Dash_GetDashListRequest()
+  nameWithType: Dash_GetDashListRequest.Dash_GetDashListRequest()
+  fullName: SuperOffice.WebApi.Data.Dash_GetDashListRequest.Dash_GetDashListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dash_GetDashListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dash_GetDashListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_GetDashListRequest.Dashboards
+  commentId: P:SuperOffice.WebApi.Data.Dash_GetDashListRequest.Dashboards
+  id: Dashboards
+  parent: SuperOffice.WebApi.Data.Dash_GetDashListRequest
+  langs:
+  - csharp
+  - vb
+  name: Dashboards
+  nameWithType: Dash_GetDashListRequest.Dashboards
+  fullName: SuperOffice.WebApi.Data.Dash_GetDashListRequest.Dashboards
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] Dashboards { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property Dashboards As Integer()
+  overload: SuperOffice.WebApi.Data.Dash_GetDashListRequest.Dashboards*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dash_GetDashListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_GetDashListRequest.#ctor
+  isExternal: true
+  name: Dash_GetDashListRequest
+  nameWithType: Dash_GetDashListRequest.Dash_GetDashListRequest
+  fullName: SuperOffice.WebApi.Data.Dash_GetDashListRequest.Dash_GetDashListRequest
+- uid: SuperOffice.WebApi.Data.Dash_GetDashListRequest.Dashboards*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_GetDashListRequest.Dashboards
+  isExternal: true
+  name: Dashboards
+  nameWithType: Dash_GetDashListRequest.Dashboards
+  fullName: SuperOffice.WebApi.Data.Dash_GetDashListRequest.Dashboards
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

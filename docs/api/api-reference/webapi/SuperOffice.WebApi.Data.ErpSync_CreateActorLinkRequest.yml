@@ -1,0 +1,298 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest
+  id: ErpSync_CreateActorLinkRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmActorType
+  - SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmRecordId
+  - SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpActorType
+  - SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpConnectionId
+  - SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpKey
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_CreateActorLinkRequest
+  nameWithType: ErpSync_CreateActorLinkRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_CreateActorLinkRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_CreateActorLinkRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_CreateActorLinkRequest()
+  nameWithType: ErpSync_CreateActorLinkRequest.ErpSync_CreateActorLinkRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpSync_CreateActorLinkRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_CreateActorLinkRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_CreateActorLinkRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmRecordId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmRecordId
+  id: CrmRecordId
+  parent: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest
+  langs:
+  - csharp
+  - vb
+  name: CrmRecordId
+  nameWithType: ErpSync_CreateActorLinkRequest.CrmRecordId
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmRecordId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CrmRecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CrmRecordId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmRecordId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmActorType
+  id: CrmActorType
+  parent: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest
+  langs:
+  - csharp
+  - vb
+  name: CrmActorType
+  nameWithType: ErpSync_CreateActorLinkRequest.CrmActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmActorType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CrmActorType CrmActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CrmActorType
+    content.vb: Public Property CrmActorType As CrmActorType
+  overload: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpKey
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpKey
+  id: ErpKey
+  parent: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpKey
+  nameWithType: ErpSync_CreateActorLinkRequest.ErpKey
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ErpKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErpKey As String
+  overload: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpActorType
+  id: ErpActorType
+  parent: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpActorType
+  nameWithType: ErpSync_CreateActorLinkRequest.ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpActorType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpActorType ErpActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Property ErpActorType As ErpActorType
+  overload: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.#ctor
+  isExternal: true
+  name: ErpSync_CreateActorLinkRequest
+  nameWithType: ErpSync_CreateActorLinkRequest.ErpSync_CreateActorLinkRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpSync_CreateActorLinkRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_CreateActorLinkRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmRecordId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmRecordId
+  isExternal: true
+  name: CrmRecordId
+  nameWithType: ErpSync_CreateActorLinkRequest.CrmRecordId
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmRecordId
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmActorType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmActorType
+  isExternal: true
+  name: CrmActorType
+  nameWithType: ErpSync_CreateActorLinkRequest.CrmActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.CrmActorType
+- uid: SuperOffice.WebApi.Data.CrmActorType
+  commentId: T:SuperOffice.WebApi.Data.CrmActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: SuperOffice.WebApi.Data.CrmActorType
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpKey*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpKey
+  isExternal: true
+  name: ErpKey
+  nameWithType: ErpSync_CreateActorLinkRequest.ErpKey
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpActorType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpSync_CreateActorLinkRequest.ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_CreateActorLinkRequest.ErpActorType
+- uid: SuperOffice.WebApi.Data.ErpActorType
+  commentId: T:SuperOffice.WebApi.Data.ErpActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpActorType

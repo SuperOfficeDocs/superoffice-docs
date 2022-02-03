@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.MDOController
+  commentId: T:SuperOffice.CRM.Web.Controllers.MDOController
+  id: MDOController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.MDOController.#ctor
+  - SuperOffice.CRM.Web.Controllers.MDOController.GetList(SuperOffice.CRM.Web.Controllers.GetMdoListParams)
+  langs:
+  - csharp
+  - vb
+  name: MDOController
+  nameWithType: MDOController
+  fullName: SuperOffice.CRM.Web.Controllers.MDOController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: >-
+      [SoCorsWebApi]
+
+      public class MDOController : ApiController
+    content.vb: >-
+      <SoCorsWebApi>
+
+      Public Class MDOController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  attributes:
+  - type: SuperOffice.Services.WebApi.SoCorsWebApiAttribute
+    ctor: SuperOffice.Services.WebApi.SoCorsWebApiAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.MDOController.GetList(SuperOffice.CRM.Web.Controllers.GetMdoListParams)
+  commentId: M:SuperOffice.CRM.Web.Controllers.MDOController.GetList(SuperOffice.CRM.Web.Controllers.GetMdoListParams)
+  id: GetList(SuperOffice.CRM.Web.Controllers.GetMdoListParams)
+  parent: SuperOffice.CRM.Web.Controllers.MDOController
+  langs:
+  - csharp
+  - vb
+  name: GetList(GetMdoListParams)
+  nameWithType: MDOController.GetList(GetMdoListParams)
+  fullName: SuperOffice.CRM.Web.Controllers.MDOController.GetList(SuperOffice.CRM.Web.Controllers.GetMdoListParams)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public MDOListItem[] GetList(GetMdoListParams args)
+    parameters:
+    - id: args
+      type: SuperOffice.CRM.Web.Controllers.GetMdoListParams
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem[]
+    content.vb: Public Function GetList(args As GetMdoListParams) As MDOListItem()
+  overload: SuperOffice.CRM.Web.Controllers.MDOController.GetList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.MDOController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.MDOController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.MDOController
+  langs:
+  - csharp
+  - vb
+  name: MDOController()
+  nameWithType: MDOController.MDOController()
+  fullName: SuperOffice.CRM.Web.Controllers.MDOController.MDOController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public MDOController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.MDOController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.MDOController.GetList*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.MDOController.GetList
+  isExternal: true
+  name: GetList
+  nameWithType: MDOController.GetList
+  fullName: SuperOffice.CRM.Web.Controllers.MDOController.GetList
+- uid: SuperOffice.CRM.Web.Controllers.GetMdoListParams
+  commentId: T:SuperOffice.CRM.Web.Controllers.GetMdoListParams
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: GetMdoListParams
+  nameWithType: GetMdoListParams
+  fullName: SuperOffice.CRM.Web.Controllers.GetMdoListParams
+- uid: SuperOffice.CRM.Services.MDOListItem[]
+  isExternal: true
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.CRM.Services.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Controllers.MDOController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.MDOController.#ctor
+  isExternal: true
+  name: MDOController
+  nameWithType: MDOController.MDOController
+  fullName: SuperOffice.CRM.Web.Controllers.MDOController.MDOController

@@ -1,0 +1,417 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+  id: QuoteVersionStatusInformation
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteVersionStatusInformation.#ctor
+  - SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayMessage
+  - SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayTooltip
+  - SuperOffice.WebApi.Data.QuoteVersionStatusInformation.IconHint
+  - SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status
+  - SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionStatusInformation
+  nameWithType: QuoteVersionStatusInformation
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuoteVersionStatusInformation.\nInformation about possible button actions for the quote version dialog.    \n"
+  syntax:
+    content: 'public class QuoteVersionStatusInformation : Carrier'
+    content.vb: >-
+      Public Class QuoteVersionStatusInformation
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionStatusInformation()
+  nameWithType: QuoteVersionStatusInformation.QuoteVersionStatusInformation()
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.QuoteVersionStatusInformation()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuoteVersionStatusInformation()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String
+  id: Status_String
+  parent: SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+  langs:
+  - csharp
+  - vb
+  name: Status_String
+  nameWithType: QuoteVersionStatusInformation.Status_String
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus information for the quote version.\nRaw string enum value.\n"
+  syntax:
+    content: public string Status_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Status_String As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status
+    commentId: P:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: QuoteVersionStatusInformation.Status
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus information for the quote version.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<QuoteStatus> Status { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}
+    content.vb: Public Property Status As Nullable(Of QuoteStatus)
+  overload: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String
+    commentId: P:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.IconHint
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.IconHint
+  id: IconHint
+  parent: SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+  langs:
+  - csharp
+  - vb
+  name: IconHint
+  nameWithType: QuoteVersionStatusInformation.IconHint
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.IconHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIcon hint for the associated message.\n"
+  syntax:
+    content: public virtual string IconHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IconHint As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.IconHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayMessage
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayMessage
+  id: DisplayMessage
+  parent: SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+  langs:
+  - csharp
+  - vb
+  name: DisplayMessage
+  nameWithType: QuoteVersionStatusInformation.DisplayMessage
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGenerated error message for the Quote Version. Will check for errors on quote lines, alternatives and the version itself.\n"
+  syntax:
+    content: public virtual string DisplayMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayMessage As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayTooltip
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayTooltip
+  id: DisplayTooltip
+  parent: SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+  langs:
+  - csharp
+  - vb
+  name: DisplayTooltip
+  nameWithType: QuoteVersionStatusInformation.DisplayTooltip
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayTooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGenerated full tooltip for the Quote Version. Will check for errors on quote lines, alternatives and the version itself.\n"
+  syntax:
+    content: public virtual string DisplayTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayTooltip As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.#ctor
+  isExternal: true
+  name: QuoteVersionStatusInformation
+  nameWithType: QuoteVersionStatusInformation.QuoteVersionStatusInformation
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.QuoteVersionStatusInformation
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String
+  isExternal: true
+  name: Status_String
+  nameWithType: QuoteVersionStatusInformation.Status_String
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status
+  isExternal: true
+  name: Status
+  nameWithType: QuoteVersionStatusInformation.Status
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.Status_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}'
+  definition: System.Nullable`1
+  name: Nullable<QuoteStatus>
+  nameWithType: Nullable<QuoteStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.QuoteStatus>
+  nameWithType.vb: Nullable(Of QuoteStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.QuoteStatus)
+  name.vb: Nullable(Of QuoteStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.QuoteStatus
+    name: QuoteStatus
+    nameWithType: QuoteStatus
+    fullName: SuperOffice.WebApi.Data.QuoteStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.QuoteStatus
+    name: QuoteStatus
+    nameWithType: QuoteStatus
+    fullName: SuperOffice.WebApi.Data.QuoteStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.IconHint*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.IconHint
+  isExternal: true
+  name: IconHint
+  nameWithType: QuoteVersionStatusInformation.IconHint
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.IconHint
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayMessage
+  isExternal: true
+  name: DisplayMessage
+  nameWithType: QuoteVersionStatusInformation.DisplayMessage
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayMessage
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayTooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayTooltip
+  isExternal: true
+  name: DisplayTooltip
+  nameWithType: QuoteVersionStatusInformation.DisplayTooltip
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation.DisplayTooltip

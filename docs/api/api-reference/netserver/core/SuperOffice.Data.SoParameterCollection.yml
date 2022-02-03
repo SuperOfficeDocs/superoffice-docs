@@ -1,0 +1,3381 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SoParameterCollection
+  commentId: T:SuperOffice.Data.SoParameterCollection
+  id: SoParameterCollection
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.SoParameterCollection.#ctor
+  - SuperOffice.Data.SoParameterCollection.Add(SuperOffice.Data.SoParameter)
+  - SuperOffice.Data.SoParameterCollection.Add(System.Object)
+  - SuperOffice.Data.SoParameterCollection.Add(System.String,System.Data.DbType)
+  - SuperOffice.Data.SoParameterCollection.Add(System.String,System.Data.DbType,System.String)
+  - SuperOffice.Data.SoParameterCollection.Add(System.String,System.Object)
+  - SuperOffice.Data.SoParameterCollection.Contains(System.String)
+  - SuperOffice.Data.SoParameterCollection.IndexOf(System.String)
+  - SuperOffice.Data.SoParameterCollection.Item(System.String)
+  - SuperOffice.Data.SoParameterCollection.RemoveAt(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SoParameterCollection
+  nameWithType: SoParameterCollection
+  fullName: SuperOffice.Data.SoParameterCollection
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: 'public class SoParameterCollection : ArrayList, ICloneable, IDataParameterCollection, IList, ICollection, IEnumerable'
+    content.vb: >-
+      Public Class SoParameterCollection
+          Inherits ArrayList
+          Implements ICloneable, IDataParameterCollection, IList, ICollection, IEnumerable
+  inheritance:
+  - System.Object
+  - System.Collections.ArrayList
+  implements:
+  - System.ICloneable
+  - System.Data.IDataParameterCollection
+  - System.Collections.IList
+  - System.Collections.ICollection
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Collections.ArrayList.Adapter(System.Collections.IList)
+  - System.Collections.ArrayList.AddRange(System.Collections.ICollection)
+  - System.Collections.ArrayList.BinarySearch(System.Int32,System.Int32,System.Object,System.Collections.IComparer)
+  - System.Collections.ArrayList.BinarySearch(System.Object)
+  - System.Collections.ArrayList.BinarySearch(System.Object,System.Collections.IComparer)
+  - System.Collections.ArrayList.Clear
+  - System.Collections.ArrayList.Clone
+  - System.Collections.ArrayList.Contains(System.Object)
+  - System.Collections.ArrayList.CopyTo(System.Array)
+  - System.Collections.ArrayList.CopyTo(System.Array,System.Int32)
+  - System.Collections.ArrayList.CopyTo(System.Int32,System.Array,System.Int32,System.Int32)
+  - System.Collections.ArrayList.FixedSize(System.Collections.IList)
+  - System.Collections.ArrayList.FixedSize(System.Collections.ArrayList)
+  - System.Collections.ArrayList.GetEnumerator
+  - System.Collections.ArrayList.GetEnumerator(System.Int32,System.Int32)
+  - System.Collections.ArrayList.IndexOf(System.Object)
+  - System.Collections.ArrayList.IndexOf(System.Object,System.Int32)
+  - System.Collections.ArrayList.IndexOf(System.Object,System.Int32,System.Int32)
+  - System.Collections.ArrayList.Insert(System.Int32,System.Object)
+  - System.Collections.ArrayList.InsertRange(System.Int32,System.Collections.ICollection)
+  - System.Collections.ArrayList.LastIndexOf(System.Object)
+  - System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32)
+  - System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32,System.Int32)
+  - System.Collections.ArrayList.ReadOnly(System.Collections.IList)
+  - System.Collections.ArrayList.ReadOnly(System.Collections.ArrayList)
+  - System.Collections.ArrayList.Remove(System.Object)
+  - System.Collections.ArrayList.RemoveAt(System.Int32)
+  - System.Collections.ArrayList.RemoveRange(System.Int32,System.Int32)
+  - System.Collections.ArrayList.Repeat(System.Object,System.Int32)
+  - System.Collections.ArrayList.Reverse
+  - System.Collections.ArrayList.Reverse(System.Int32,System.Int32)
+  - System.Collections.ArrayList.SetRange(System.Int32,System.Collections.ICollection)
+  - System.Collections.ArrayList.GetRange(System.Int32,System.Int32)
+  - System.Collections.ArrayList.Sort
+  - System.Collections.ArrayList.Sort(System.Collections.IComparer)
+  - System.Collections.ArrayList.Sort(System.Int32,System.Int32,System.Collections.IComparer)
+  - System.Collections.ArrayList.Synchronized(System.Collections.IList)
+  - System.Collections.ArrayList.Synchronized(System.Collections.ArrayList)
+  - System.Collections.ArrayList.ToArray
+  - System.Collections.ArrayList.ToArray(System.Type)
+  - System.Collections.ArrayList.TrimToSize
+  - System.Collections.ArrayList.Capacity
+  - System.Collections.ArrayList.Count
+  - System.Collections.ArrayList.IsFixedSize
+  - System.Collections.ArrayList.IsReadOnly
+  - System.Collections.ArrayList.IsSynchronized
+  - System.Collections.ArrayList.SyncRoot
+  - System.Collections.ArrayList.Item(System.Int32)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.SoParameterCollection.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SoParameterCollection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SoParameterCollection)
+  - SuperOffice.Data.SoParameterCollection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.SoParameterCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.SoParameterCollection.Contains(System.String)
+  commentId: M:SuperOffice.Data.SoParameterCollection.Contains(System.String)
+  id: Contains(System.String)
+  parent: SuperOffice.Data.SoParameterCollection
+  langs:
+  - csharp
+  - vb
+  name: Contains(String)
+  nameWithType: SoParameterCollection.Contains(String)
+  fullName: SuperOffice.Data.SoParameterCollection.Contains(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGets a value indicating whether a parameter in the collection has the specified source table name.\n"
+  syntax:
+    content: public bool Contains(string parameterName)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the parameter.
+    return:
+      type: System.Boolean
+      description: "\ntrue if the collection contains the parameter; otherwise, false.\n"
+    content.vb: Public Function Contains(parameterName As String) As Boolean
+  overload: SuperOffice.Data.SoParameterCollection.Contains*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoParameterCollection.IndexOf(System.String)
+  commentId: M:SuperOffice.Data.SoParameterCollection.IndexOf(System.String)
+  id: IndexOf(System.String)
+  parent: SuperOffice.Data.SoParameterCollection
+  langs:
+  - csharp
+  - vb
+  name: IndexOf(String)
+  nameWithType: SoParameterCollection.IndexOf(String)
+  fullName: SuperOffice.Data.SoParameterCollection.IndexOf(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGets the location of the <xref href=\"System.Data.IDataParameter\" data-throw-if-not-resolved=\"false\"></xref> within the collection.\n"
+  syntax:
+    content: public int IndexOf(string parameterName)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the parameter.
+    return:
+      type: System.Int32
+      description: "\nThe zero-based location of the <xref href=\"System.Data.IDataParameter\" data-throw-if-not-resolved=\"false\"></xref> within the collection.\n"
+    content.vb: Public Function IndexOf(parameterName As String) As Integer
+  overload: SuperOffice.Data.SoParameterCollection.IndexOf*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoParameterCollection.RemoveAt(System.String)
+  commentId: M:SuperOffice.Data.SoParameterCollection.RemoveAt(System.String)
+  id: RemoveAt(System.String)
+  parent: SuperOffice.Data.SoParameterCollection
+  langs:
+  - csharp
+  - vb
+  name: RemoveAt(String)
+  nameWithType: SoParameterCollection.RemoveAt(String)
+  fullName: SuperOffice.Data.SoParameterCollection.RemoveAt(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nRemoves the <xref href=\"System.Data.IDataParameter\" data-throw-if-not-resolved=\"false\"></xref> from the collection.\n"
+  syntax:
+    content: public void RemoveAt(string parameterName)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the parameter.
+    content.vb: Public Sub RemoveAt(parameterName As String)
+  overload: SuperOffice.Data.SoParameterCollection.RemoveAt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoParameterCollection.Add(System.Object)
+  commentId: M:SuperOffice.Data.SoParameterCollection.Add(System.Object)
+  id: Add(System.Object)
+  parent: SuperOffice.Data.SoParameterCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(Object)
+  nameWithType: SoParameterCollection.Add(Object)
+  fullName: SuperOffice.Data.SoParameterCollection.Add(System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAdds an object to the end of the <xref href=\"System.Collections.ArrayList\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public override int Add(object value)
+    parameters:
+    - id: value
+      type: System.Object
+      description: The <xref href="System.Object" data-throw-if-not-resolved="false"></xref> to be added to the end of the <xref href="System.Collections.ArrayList" data-throw-if-not-resolved="false"></xref>. The value can be null.
+    return:
+      type: System.Int32
+      description: "\nThe <xref href=\"System.Collections.ArrayList\" data-throw-if-not-resolved=\"false\"></xref> index at which the value has been added.\n"
+    content.vb: Public Overrides Function Add(value As Object) As Integer
+  overridden: System.Collections.ArrayList.Add(System.Object)
+  overload: SuperOffice.Data.SoParameterCollection.Add*
+  exceptions:
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: 'The <xref href="System.Collections.ArrayList" data-throw-if-not-resolved="false"></xref> is read-only.-or- The <xref href="System.Collections.ArrayList" data-throw-if-not-resolved="false"></xref> has a fixed size. '
+  implements:
+  - System.Collections.IList.Add(System.Object)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Data.SoParameterCollection.Add(SuperOffice.Data.SoParameter)
+  commentId: M:SuperOffice.Data.SoParameterCollection.Add(SuperOffice.Data.SoParameter)
+  id: Add(SuperOffice.Data.SoParameter)
+  parent: SuperOffice.Data.SoParameterCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(SoParameter)
+  nameWithType: SoParameterCollection.Add(SoParameter)
+  fullName: SuperOffice.Data.SoParameterCollection.Add(SuperOffice.Data.SoParameter)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAdds the specified value.\n"
+  syntax:
+    content: public int Add(SoParameter value)
+    parameters:
+    - id: value
+      type: SuperOffice.Data.SoParameter
+      description: The value.
+    return:
+      type: System.Int32
+      description: "\nThe <xref href=\"System.Collections.ArrayList\" data-throw-if-not-resolved=\"false\"></xref> index at which the value has been added.\n"
+    content.vb: Public Function Add(value As SoParameter) As Integer
+  overload: SuperOffice.Data.SoParameterCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoParameterCollection.Add(System.String,System.Data.DbType)
+  commentId: M:SuperOffice.Data.SoParameterCollection.Add(System.String,System.Data.DbType)
+  id: Add(System.String,System.Data.DbType)
+  parent: SuperOffice.Data.SoParameterCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(String, DbType)
+  nameWithType: SoParameterCollection.Add(String, DbType)
+  fullName: SuperOffice.Data.SoParameterCollection.Add(System.String, System.Data.DbType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAdds the specified parameter name.\n"
+  syntax:
+    content: public int Add(string parameterName, DbType type)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the parameter to map.
+    - id: type
+      type: System.Data.DbType
+    return:
+      type: System.Int32
+      description: "\nThe <xref href=\"System.Collections.ArrayList\" data-throw-if-not-resolved=\"false\"></xref> index at which the value has been added.\n"
+    content.vb: Public Function Add(parameterName As String, type As DbType) As Integer
+  overload: SuperOffice.Data.SoParameterCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoParameterCollection.Add(System.String,System.Object)
+  commentId: M:SuperOffice.Data.SoParameterCollection.Add(System.String,System.Object)
+  id: Add(System.String,System.Object)
+  parent: SuperOffice.Data.SoParameterCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(String, Object)
+  nameWithType: SoParameterCollection.Add(String, Object)
+  fullName: SuperOffice.Data.SoParameterCollection.Add(System.String, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAdds the specified parameter name.\n"
+  syntax:
+    content: public int Add(string parameterName, object value)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the parameter to map.
+    - id: value
+      type: System.Object
+      description: The value.
+    return:
+      type: System.Int32
+      description: "\nThe <xref href=\"System.Collections.ArrayList\" data-throw-if-not-resolved=\"false\"></xref> index at which the value has been added.\n"
+    content.vb: Public Function Add(parameterName As String, value As Object) As Integer
+  overload: SuperOffice.Data.SoParameterCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoParameterCollection.Add(System.String,System.Data.DbType,System.String)
+  commentId: M:SuperOffice.Data.SoParameterCollection.Add(System.String,System.Data.DbType,System.String)
+  id: Add(System.String,System.Data.DbType,System.String)
+  parent: SuperOffice.Data.SoParameterCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(String, DbType, String)
+  nameWithType: SoParameterCollection.Add(String, DbType, String)
+  fullName: SuperOffice.Data.SoParameterCollection.Add(System.String, System.Data.DbType, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAdds the specified parameter name.\n"
+  syntax:
+    content: public int Add(string parameterName, DbType dbType, string sourceColumn)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the parameter to map.
+    - id: dbType
+      type: System.Data.DbType
+      description: Type of the db.
+    - id: sourceColumn
+      type: System.String
+      description: The name of the source column
+    return:
+      type: System.Int32
+      description: "\nThe <xref href=\"System.Collections.ArrayList\" data-throw-if-not-resolved=\"false\"></xref> index at which the value has been added.\n"
+    content.vb: Public Function Add(parameterName As String, dbType As DbType, sourceColumn As String) As Integer
+  overload: SuperOffice.Data.SoParameterCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoParameterCollection.#ctor
+  commentId: M:SuperOffice.Data.SoParameterCollection.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.SoParameterCollection
+  langs:
+  - csharp
+  - vb
+  name: SoParameterCollection()
+  nameWithType: SoParameterCollection.SoParameterCollection()
+  fullName: SuperOffice.Data.SoParameterCollection.SoParameterCollection()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public SoParameterCollection()
+    content.vb: Public Sub New
+  overload: SuperOffice.Data.SoParameterCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoParameterCollection.Item(System.String)
+  commentId: P:SuperOffice.Data.SoParameterCollection.Item(System.String)
+  id: Item(System.String)
+  parent: SuperOffice.Data.SoParameterCollection
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: SoParameterCollection.Item[String]
+  fullName: SuperOffice.Data.SoParameterCollection.Item[System.String]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGets or sets the <xref href=\"System.Object\" data-throw-if-not-resolved=\"false\"></xref> at the specified index.\n"
+  syntax:
+    content: public object this[string index] { get; set; }
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Property Item(index As String) As Object
+  overload: SuperOffice.Data.SoParameterCollection.Item*
+  nameWithType.vb: SoParameterCollection.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SoParameterCollection.Item(System.String)
+  name.vb: Item(String)
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.ArrayList
+  commentId: T:System.Collections.ArrayList
+  parent: System.Collections
+  isExternal: true
+  name: ArrayList
+  nameWithType: ArrayList
+  fullName: System.Collections.ArrayList
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.Data.IDataParameterCollection
+  commentId: '!:System.Data.IDataParameterCollection'
+  isExternal: true
+  name: IDataParameterCollection
+  nameWithType: IDataParameterCollection
+  fullName: System.Data.IDataParameterCollection
+- uid: System.Collections.IList
+  commentId: T:System.Collections.IList
+  parent: System.Collections
+  isExternal: true
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: System.Collections.ICollection
+  commentId: T:System.Collections.ICollection
+  parent: System.Collections
+  isExternal: true
+  name: ICollection
+  nameWithType: ICollection
+  fullName: System.Collections.ICollection
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Collections.ArrayList.Adapter(System.Collections.IList)
+  commentId: M:System.Collections.ArrayList.Adapter(System.Collections.IList)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Adapter(IList)
+  nameWithType: ArrayList.Adapter(IList)
+  fullName: System.Collections.ArrayList.Adapter(System.Collections.IList)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Adapter(System.Collections.IList)
+    name: Adapter
+    nameWithType: ArrayList.Adapter
+    fullName: System.Collections.ArrayList.Adapter
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IList
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.IList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Adapter(System.Collections.IList)
+    name: Adapter
+    nameWithType: ArrayList.Adapter
+    fullName: System.Collections.ArrayList.Adapter
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IList
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.IList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.AddRange(System.Collections.ICollection)
+  commentId: M:System.Collections.ArrayList.AddRange(System.Collections.ICollection)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: AddRange(ICollection)
+  nameWithType: ArrayList.AddRange(ICollection)
+  fullName: System.Collections.ArrayList.AddRange(System.Collections.ICollection)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.AddRange(System.Collections.ICollection)
+    name: AddRange
+    nameWithType: ArrayList.AddRange
+    fullName: System.Collections.ArrayList.AddRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.ICollection
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.ICollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.AddRange(System.Collections.ICollection)
+    name: AddRange
+    nameWithType: ArrayList.AddRange
+    fullName: System.Collections.ArrayList.AddRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.ICollection
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.ICollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.BinarySearch(System.Int32,System.Int32,System.Object,System.Collections.IComparer)
+  commentId: M:System.Collections.ArrayList.BinarySearch(System.Int32,System.Int32,System.Object,System.Collections.IComparer)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: BinarySearch(Int32, Int32, Object, IComparer)
+  nameWithType: ArrayList.BinarySearch(Int32, Int32, Object, IComparer)
+  fullName: System.Collections.ArrayList.BinarySearch(System.Int32, System.Int32, System.Object, System.Collections.IComparer)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.BinarySearch(System.Int32,System.Int32,System.Object,System.Collections.IComparer)
+    name: BinarySearch
+    nameWithType: ArrayList.BinarySearch
+    fullName: System.Collections.ArrayList.BinarySearch
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IComparer
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.IComparer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.BinarySearch(System.Int32,System.Int32,System.Object,System.Collections.IComparer)
+    name: BinarySearch
+    nameWithType: ArrayList.BinarySearch
+    fullName: System.Collections.ArrayList.BinarySearch
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IComparer
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.IComparer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.BinarySearch(System.Object)
+  commentId: M:System.Collections.ArrayList.BinarySearch(System.Object)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: BinarySearch(Object)
+  nameWithType: ArrayList.BinarySearch(Object)
+  fullName: System.Collections.ArrayList.BinarySearch(System.Object)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.BinarySearch(System.Object)
+    name: BinarySearch
+    nameWithType: ArrayList.BinarySearch
+    fullName: System.Collections.ArrayList.BinarySearch
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.BinarySearch(System.Object)
+    name: BinarySearch
+    nameWithType: ArrayList.BinarySearch
+    fullName: System.Collections.ArrayList.BinarySearch
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.BinarySearch(System.Object,System.Collections.IComparer)
+  commentId: M:System.Collections.ArrayList.BinarySearch(System.Object,System.Collections.IComparer)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: BinarySearch(Object, IComparer)
+  nameWithType: ArrayList.BinarySearch(Object, IComparer)
+  fullName: System.Collections.ArrayList.BinarySearch(System.Object, System.Collections.IComparer)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.BinarySearch(System.Object,System.Collections.IComparer)
+    name: BinarySearch
+    nameWithType: ArrayList.BinarySearch
+    fullName: System.Collections.ArrayList.BinarySearch
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IComparer
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.IComparer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.BinarySearch(System.Object,System.Collections.IComparer)
+    name: BinarySearch
+    nameWithType: ArrayList.BinarySearch
+    fullName: System.Collections.ArrayList.BinarySearch
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IComparer
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.IComparer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Clear
+  commentId: M:System.Collections.ArrayList.Clear
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Clear()
+  nameWithType: ArrayList.Clear()
+  fullName: System.Collections.ArrayList.Clear()
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Clear
+    name: Clear
+    nameWithType: ArrayList.Clear
+    fullName: System.Collections.ArrayList.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Clear
+    name: Clear
+    nameWithType: ArrayList.Clear
+    fullName: System.Collections.ArrayList.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Clone
+  commentId: M:System.Collections.ArrayList.Clone
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Clone()
+  nameWithType: ArrayList.Clone()
+  fullName: System.Collections.ArrayList.Clone()
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Clone
+    name: Clone
+    nameWithType: ArrayList.Clone
+    fullName: System.Collections.ArrayList.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Clone
+    name: Clone
+    nameWithType: ArrayList.Clone
+    fullName: System.Collections.ArrayList.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Contains(System.Object)
+  commentId: M:System.Collections.ArrayList.Contains(System.Object)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Contains(Object)
+  nameWithType: ArrayList.Contains(Object)
+  fullName: System.Collections.ArrayList.Contains(System.Object)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Contains(System.Object)
+    name: Contains
+    nameWithType: ArrayList.Contains
+    fullName: System.Collections.ArrayList.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Contains(System.Object)
+    name: Contains
+    nameWithType: ArrayList.Contains
+    fullName: System.Collections.ArrayList.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.CopyTo(System.Array)
+  commentId: M:System.Collections.ArrayList.CopyTo(System.Array)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: CopyTo(Array)
+  nameWithType: ArrayList.CopyTo(Array)
+  fullName: System.Collections.ArrayList.CopyTo(System.Array)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.CopyTo(System.Array)
+    name: CopyTo
+    nameWithType: ArrayList.CopyTo
+    fullName: System.Collections.ArrayList.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.CopyTo(System.Array)
+    name: CopyTo
+    nameWithType: ArrayList.CopyTo
+    fullName: System.Collections.ArrayList.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.CopyTo(System.Array,System.Int32)
+  commentId: M:System.Collections.ArrayList.CopyTo(System.Array,System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: CopyTo(Array, Int32)
+  nameWithType: ArrayList.CopyTo(Array, Int32)
+  fullName: System.Collections.ArrayList.CopyTo(System.Array, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    nameWithType: ArrayList.CopyTo
+    fullName: System.Collections.ArrayList.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    nameWithType: ArrayList.CopyTo
+    fullName: System.Collections.ArrayList.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.CopyTo(System.Int32,System.Array,System.Int32,System.Int32)
+  commentId: M:System.Collections.ArrayList.CopyTo(System.Int32,System.Array,System.Int32,System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: CopyTo(Int32, Array, Int32, Int32)
+  nameWithType: ArrayList.CopyTo(Int32, Array, Int32, Int32)
+  fullName: System.Collections.ArrayList.CopyTo(System.Int32, System.Array, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.CopyTo(System.Int32,System.Array,System.Int32,System.Int32)
+    name: CopyTo
+    nameWithType: ArrayList.CopyTo
+    fullName: System.Collections.ArrayList.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.CopyTo(System.Int32,System.Array,System.Int32,System.Int32)
+    name: CopyTo
+    nameWithType: ArrayList.CopyTo
+    fullName: System.Collections.ArrayList.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.FixedSize(System.Collections.IList)
+  commentId: M:System.Collections.ArrayList.FixedSize(System.Collections.IList)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: FixedSize(IList)
+  nameWithType: ArrayList.FixedSize(IList)
+  fullName: System.Collections.ArrayList.FixedSize(System.Collections.IList)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.FixedSize(System.Collections.IList)
+    name: FixedSize
+    nameWithType: ArrayList.FixedSize
+    fullName: System.Collections.ArrayList.FixedSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IList
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.IList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.FixedSize(System.Collections.IList)
+    name: FixedSize
+    nameWithType: ArrayList.FixedSize
+    fullName: System.Collections.ArrayList.FixedSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IList
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.IList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.FixedSize(System.Collections.ArrayList)
+  commentId: M:System.Collections.ArrayList.FixedSize(System.Collections.ArrayList)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: FixedSize(ArrayList)
+  nameWithType: ArrayList.FixedSize(ArrayList)
+  fullName: System.Collections.ArrayList.FixedSize(System.Collections.ArrayList)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.FixedSize(System.Collections.ArrayList)
+    name: FixedSize
+    nameWithType: ArrayList.FixedSize
+    fullName: System.Collections.ArrayList.FixedSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.ArrayList
+    name: ArrayList
+    nameWithType: ArrayList
+    fullName: System.Collections.ArrayList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.FixedSize(System.Collections.ArrayList)
+    name: FixedSize
+    nameWithType: ArrayList.FixedSize
+    fullName: System.Collections.ArrayList.FixedSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.ArrayList
+    name: ArrayList
+    nameWithType: ArrayList
+    fullName: System.Collections.ArrayList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.GetEnumerator
+  commentId: M:System.Collections.ArrayList.GetEnumerator
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: ArrayList.GetEnumerator()
+  fullName: System.Collections.ArrayList.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.ArrayList.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ArrayList.GetEnumerator
+    fullName: System.Collections.ArrayList.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ArrayList.GetEnumerator
+    fullName: System.Collections.ArrayList.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.GetEnumerator(System.Int32,System.Int32)
+  commentId: M:System.Collections.ArrayList.GetEnumerator(System.Int32,System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: GetEnumerator(Int32, Int32)
+  nameWithType: ArrayList.GetEnumerator(Int32, Int32)
+  fullName: System.Collections.ArrayList.GetEnumerator(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.GetEnumerator(System.Int32,System.Int32)
+    name: GetEnumerator
+    nameWithType: ArrayList.GetEnumerator
+    fullName: System.Collections.ArrayList.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.GetEnumerator(System.Int32,System.Int32)
+    name: GetEnumerator
+    nameWithType: ArrayList.GetEnumerator
+    fullName: System.Collections.ArrayList.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.IndexOf(System.Object)
+  commentId: M:System.Collections.ArrayList.IndexOf(System.Object)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: IndexOf(Object)
+  nameWithType: ArrayList.IndexOf(Object)
+  fullName: System.Collections.ArrayList.IndexOf(System.Object)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.IndexOf(System.Object)
+    name: IndexOf
+    nameWithType: ArrayList.IndexOf
+    fullName: System.Collections.ArrayList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.IndexOf(System.Object)
+    name: IndexOf
+    nameWithType: ArrayList.IndexOf
+    fullName: System.Collections.ArrayList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.IndexOf(System.Object,System.Int32)
+  commentId: M:System.Collections.ArrayList.IndexOf(System.Object,System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: IndexOf(Object, Int32)
+  nameWithType: ArrayList.IndexOf(Object, Int32)
+  fullName: System.Collections.ArrayList.IndexOf(System.Object, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.IndexOf(System.Object,System.Int32)
+    name: IndexOf
+    nameWithType: ArrayList.IndexOf
+    fullName: System.Collections.ArrayList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.IndexOf(System.Object,System.Int32)
+    name: IndexOf
+    nameWithType: ArrayList.IndexOf
+    fullName: System.Collections.ArrayList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.IndexOf(System.Object,System.Int32,System.Int32)
+  commentId: M:System.Collections.ArrayList.IndexOf(System.Object,System.Int32,System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: IndexOf(Object, Int32, Int32)
+  nameWithType: ArrayList.IndexOf(Object, Int32, Int32)
+  fullName: System.Collections.ArrayList.IndexOf(System.Object, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.IndexOf(System.Object,System.Int32,System.Int32)
+    name: IndexOf
+    nameWithType: ArrayList.IndexOf
+    fullName: System.Collections.ArrayList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.IndexOf(System.Object,System.Int32,System.Int32)
+    name: IndexOf
+    nameWithType: ArrayList.IndexOf
+    fullName: System.Collections.ArrayList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Insert(System.Int32,System.Object)
+  commentId: M:System.Collections.ArrayList.Insert(System.Int32,System.Object)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Insert(Int32, Object)
+  nameWithType: ArrayList.Insert(Int32, Object)
+  fullName: System.Collections.ArrayList.Insert(System.Int32, System.Object)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Insert(System.Int32,System.Object)
+    name: Insert
+    nameWithType: ArrayList.Insert
+    fullName: System.Collections.ArrayList.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Insert(System.Int32,System.Object)
+    name: Insert
+    nameWithType: ArrayList.Insert
+    fullName: System.Collections.ArrayList.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.InsertRange(System.Int32,System.Collections.ICollection)
+  commentId: M:System.Collections.ArrayList.InsertRange(System.Int32,System.Collections.ICollection)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: InsertRange(Int32, ICollection)
+  nameWithType: ArrayList.InsertRange(Int32, ICollection)
+  fullName: System.Collections.ArrayList.InsertRange(System.Int32, System.Collections.ICollection)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.InsertRange(System.Int32,System.Collections.ICollection)
+    name: InsertRange
+    nameWithType: ArrayList.InsertRange
+    fullName: System.Collections.ArrayList.InsertRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.ICollection
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.ICollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.InsertRange(System.Int32,System.Collections.ICollection)
+    name: InsertRange
+    nameWithType: ArrayList.InsertRange
+    fullName: System.Collections.ArrayList.InsertRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.ICollection
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.ICollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.LastIndexOf(System.Object)
+  commentId: M:System.Collections.ArrayList.LastIndexOf(System.Object)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: LastIndexOf(Object)
+  nameWithType: ArrayList.LastIndexOf(Object)
+  fullName: System.Collections.ArrayList.LastIndexOf(System.Object)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.LastIndexOf(System.Object)
+    name: LastIndexOf
+    nameWithType: ArrayList.LastIndexOf
+    fullName: System.Collections.ArrayList.LastIndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.LastIndexOf(System.Object)
+    name: LastIndexOf
+    nameWithType: ArrayList.LastIndexOf
+    fullName: System.Collections.ArrayList.LastIndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32)
+  commentId: M:System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: LastIndexOf(Object, Int32)
+  nameWithType: ArrayList.LastIndexOf(Object, Int32)
+  fullName: System.Collections.ArrayList.LastIndexOf(System.Object, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32)
+    name: LastIndexOf
+    nameWithType: ArrayList.LastIndexOf
+    fullName: System.Collections.ArrayList.LastIndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32)
+    name: LastIndexOf
+    nameWithType: ArrayList.LastIndexOf
+    fullName: System.Collections.ArrayList.LastIndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32,System.Int32)
+  commentId: M:System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32,System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: LastIndexOf(Object, Int32, Int32)
+  nameWithType: ArrayList.LastIndexOf(Object, Int32, Int32)
+  fullName: System.Collections.ArrayList.LastIndexOf(System.Object, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32,System.Int32)
+    name: LastIndexOf
+    nameWithType: ArrayList.LastIndexOf
+    fullName: System.Collections.ArrayList.LastIndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.LastIndexOf(System.Object,System.Int32,System.Int32)
+    name: LastIndexOf
+    nameWithType: ArrayList.LastIndexOf
+    fullName: System.Collections.ArrayList.LastIndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.ReadOnly(System.Collections.IList)
+  commentId: M:System.Collections.ArrayList.ReadOnly(System.Collections.IList)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: ReadOnly(IList)
+  nameWithType: ArrayList.ReadOnly(IList)
+  fullName: System.Collections.ArrayList.ReadOnly(System.Collections.IList)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.ReadOnly(System.Collections.IList)
+    name: ReadOnly
+    nameWithType: ArrayList.ReadOnly
+    fullName: System.Collections.ArrayList.ReadOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IList
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.IList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.ReadOnly(System.Collections.IList)
+    name: ReadOnly
+    nameWithType: ArrayList.ReadOnly
+    fullName: System.Collections.ArrayList.ReadOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IList
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.IList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.ReadOnly(System.Collections.ArrayList)
+  commentId: M:System.Collections.ArrayList.ReadOnly(System.Collections.ArrayList)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: ReadOnly(ArrayList)
+  nameWithType: ArrayList.ReadOnly(ArrayList)
+  fullName: System.Collections.ArrayList.ReadOnly(System.Collections.ArrayList)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.ReadOnly(System.Collections.ArrayList)
+    name: ReadOnly
+    nameWithType: ArrayList.ReadOnly
+    fullName: System.Collections.ArrayList.ReadOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.ArrayList
+    name: ArrayList
+    nameWithType: ArrayList
+    fullName: System.Collections.ArrayList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.ReadOnly(System.Collections.ArrayList)
+    name: ReadOnly
+    nameWithType: ArrayList.ReadOnly
+    fullName: System.Collections.ArrayList.ReadOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.ArrayList
+    name: ArrayList
+    nameWithType: ArrayList
+    fullName: System.Collections.ArrayList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Remove(System.Object)
+  commentId: M:System.Collections.ArrayList.Remove(System.Object)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Remove(Object)
+  nameWithType: ArrayList.Remove(Object)
+  fullName: System.Collections.ArrayList.Remove(System.Object)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Remove(System.Object)
+    name: Remove
+    nameWithType: ArrayList.Remove
+    fullName: System.Collections.ArrayList.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Remove(System.Object)
+    name: Remove
+    nameWithType: ArrayList.Remove
+    fullName: System.Collections.ArrayList.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.RemoveAt(System.Int32)
+  commentId: M:System.Collections.ArrayList.RemoveAt(System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: RemoveAt(Int32)
+  nameWithType: ArrayList.RemoveAt(Int32)
+  fullName: System.Collections.ArrayList.RemoveAt(System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: ArrayList.RemoveAt
+    fullName: System.Collections.ArrayList.RemoveAt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: ArrayList.RemoveAt
+    fullName: System.Collections.ArrayList.RemoveAt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.RemoveRange(System.Int32,System.Int32)
+  commentId: M:System.Collections.ArrayList.RemoveRange(System.Int32,System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: RemoveRange(Int32, Int32)
+  nameWithType: ArrayList.RemoveRange(Int32, Int32)
+  fullName: System.Collections.ArrayList.RemoveRange(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.RemoveRange(System.Int32,System.Int32)
+    name: RemoveRange
+    nameWithType: ArrayList.RemoveRange
+    fullName: System.Collections.ArrayList.RemoveRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.RemoveRange(System.Int32,System.Int32)
+    name: RemoveRange
+    nameWithType: ArrayList.RemoveRange
+    fullName: System.Collections.ArrayList.RemoveRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Repeat(System.Object,System.Int32)
+  commentId: M:System.Collections.ArrayList.Repeat(System.Object,System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Repeat(Object, Int32)
+  nameWithType: ArrayList.Repeat(Object, Int32)
+  fullName: System.Collections.ArrayList.Repeat(System.Object, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Repeat(System.Object,System.Int32)
+    name: Repeat
+    nameWithType: ArrayList.Repeat
+    fullName: System.Collections.ArrayList.Repeat
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Repeat(System.Object,System.Int32)
+    name: Repeat
+    nameWithType: ArrayList.Repeat
+    fullName: System.Collections.ArrayList.Repeat
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Reverse
+  commentId: M:System.Collections.ArrayList.Reverse
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Reverse()
+  nameWithType: ArrayList.Reverse()
+  fullName: System.Collections.ArrayList.Reverse()
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Reverse
+    name: Reverse
+    nameWithType: ArrayList.Reverse
+    fullName: System.Collections.ArrayList.Reverse
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Reverse
+    name: Reverse
+    nameWithType: ArrayList.Reverse
+    fullName: System.Collections.ArrayList.Reverse
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Reverse(System.Int32,System.Int32)
+  commentId: M:System.Collections.ArrayList.Reverse(System.Int32,System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Reverse(Int32, Int32)
+  nameWithType: ArrayList.Reverse(Int32, Int32)
+  fullName: System.Collections.ArrayList.Reverse(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Reverse(System.Int32,System.Int32)
+    name: Reverse
+    nameWithType: ArrayList.Reverse
+    fullName: System.Collections.ArrayList.Reverse
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Reverse(System.Int32,System.Int32)
+    name: Reverse
+    nameWithType: ArrayList.Reverse
+    fullName: System.Collections.ArrayList.Reverse
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.SetRange(System.Int32,System.Collections.ICollection)
+  commentId: M:System.Collections.ArrayList.SetRange(System.Int32,System.Collections.ICollection)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: SetRange(Int32, ICollection)
+  nameWithType: ArrayList.SetRange(Int32, ICollection)
+  fullName: System.Collections.ArrayList.SetRange(System.Int32, System.Collections.ICollection)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.SetRange(System.Int32,System.Collections.ICollection)
+    name: SetRange
+    nameWithType: ArrayList.SetRange
+    fullName: System.Collections.ArrayList.SetRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.ICollection
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.ICollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.SetRange(System.Int32,System.Collections.ICollection)
+    name: SetRange
+    nameWithType: ArrayList.SetRange
+    fullName: System.Collections.ArrayList.SetRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.ICollection
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.ICollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.GetRange(System.Int32,System.Int32)
+  commentId: M:System.Collections.ArrayList.GetRange(System.Int32,System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: GetRange(Int32, Int32)
+  nameWithType: ArrayList.GetRange(Int32, Int32)
+  fullName: System.Collections.ArrayList.GetRange(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.GetRange(System.Int32,System.Int32)
+    name: GetRange
+    nameWithType: ArrayList.GetRange
+    fullName: System.Collections.ArrayList.GetRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.GetRange(System.Int32,System.Int32)
+    name: GetRange
+    nameWithType: ArrayList.GetRange
+    fullName: System.Collections.ArrayList.GetRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Sort
+  commentId: M:System.Collections.ArrayList.Sort
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Sort()
+  nameWithType: ArrayList.Sort()
+  fullName: System.Collections.ArrayList.Sort()
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Sort
+    name: Sort
+    nameWithType: ArrayList.Sort
+    fullName: System.Collections.ArrayList.Sort
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Sort
+    name: Sort
+    nameWithType: ArrayList.Sort
+    fullName: System.Collections.ArrayList.Sort
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Sort(System.Collections.IComparer)
+  commentId: M:System.Collections.ArrayList.Sort(System.Collections.IComparer)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Sort(IComparer)
+  nameWithType: ArrayList.Sort(IComparer)
+  fullName: System.Collections.ArrayList.Sort(System.Collections.IComparer)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Sort(System.Collections.IComparer)
+    name: Sort
+    nameWithType: ArrayList.Sort
+    fullName: System.Collections.ArrayList.Sort
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IComparer
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.IComparer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Sort(System.Collections.IComparer)
+    name: Sort
+    nameWithType: ArrayList.Sort
+    fullName: System.Collections.ArrayList.Sort
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IComparer
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.IComparer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Sort(System.Int32,System.Int32,System.Collections.IComparer)
+  commentId: M:System.Collections.ArrayList.Sort(System.Int32,System.Int32,System.Collections.IComparer)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Sort(Int32, Int32, IComparer)
+  nameWithType: ArrayList.Sort(Int32, Int32, IComparer)
+  fullName: System.Collections.ArrayList.Sort(System.Int32, System.Int32, System.Collections.IComparer)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Sort(System.Int32,System.Int32,System.Collections.IComparer)
+    name: Sort
+    nameWithType: ArrayList.Sort
+    fullName: System.Collections.ArrayList.Sort
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IComparer
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.IComparer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Sort(System.Int32,System.Int32,System.Collections.IComparer)
+    name: Sort
+    nameWithType: ArrayList.Sort
+    fullName: System.Collections.ArrayList.Sort
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IComparer
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.IComparer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Synchronized(System.Collections.IList)
+  commentId: M:System.Collections.ArrayList.Synchronized(System.Collections.IList)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Synchronized(IList)
+  nameWithType: ArrayList.Synchronized(IList)
+  fullName: System.Collections.ArrayList.Synchronized(System.Collections.IList)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Synchronized(System.Collections.IList)
+    name: Synchronized
+    nameWithType: ArrayList.Synchronized
+    fullName: System.Collections.ArrayList.Synchronized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IList
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.IList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Synchronized(System.Collections.IList)
+    name: Synchronized
+    nameWithType: ArrayList.Synchronized
+    fullName: System.Collections.ArrayList.Synchronized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IList
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.IList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Synchronized(System.Collections.ArrayList)
+  commentId: M:System.Collections.ArrayList.Synchronized(System.Collections.ArrayList)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Synchronized(ArrayList)
+  nameWithType: ArrayList.Synchronized(ArrayList)
+  fullName: System.Collections.ArrayList.Synchronized(System.Collections.ArrayList)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Synchronized(System.Collections.ArrayList)
+    name: Synchronized
+    nameWithType: ArrayList.Synchronized
+    fullName: System.Collections.ArrayList.Synchronized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.ArrayList
+    name: ArrayList
+    nameWithType: ArrayList
+    fullName: System.Collections.ArrayList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Synchronized(System.Collections.ArrayList)
+    name: Synchronized
+    nameWithType: ArrayList.Synchronized
+    fullName: System.Collections.ArrayList.Synchronized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.ArrayList
+    name: ArrayList
+    nameWithType: ArrayList
+    fullName: System.Collections.ArrayList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.ToArray
+  commentId: M:System.Collections.ArrayList.ToArray
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: ToArray()
+  nameWithType: ArrayList.ToArray()
+  fullName: System.Collections.ArrayList.ToArray()
+  spec.csharp:
+  - uid: System.Collections.ArrayList.ToArray
+    name: ToArray
+    nameWithType: ArrayList.ToArray
+    fullName: System.Collections.ArrayList.ToArray
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.ToArray
+    name: ToArray
+    nameWithType: ArrayList.ToArray
+    fullName: System.Collections.ArrayList.ToArray
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.ToArray(System.Type)
+  commentId: M:System.Collections.ArrayList.ToArray(System.Type)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: ToArray(Type)
+  nameWithType: ArrayList.ToArray(Type)
+  fullName: System.Collections.ArrayList.ToArray(System.Type)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.ToArray(System.Type)
+    name: ToArray
+    nameWithType: ArrayList.ToArray
+    fullName: System.Collections.ArrayList.ToArray
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.ToArray(System.Type)
+    name: ToArray
+    nameWithType: ArrayList.ToArray
+    fullName: System.Collections.ArrayList.ToArray
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.TrimToSize
+  commentId: M:System.Collections.ArrayList.TrimToSize
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: TrimToSize()
+  nameWithType: ArrayList.TrimToSize()
+  fullName: System.Collections.ArrayList.TrimToSize()
+  spec.csharp:
+  - uid: System.Collections.ArrayList.TrimToSize
+    name: TrimToSize
+    nameWithType: ArrayList.TrimToSize
+    fullName: System.Collections.ArrayList.TrimToSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.TrimToSize
+    name: TrimToSize
+    nameWithType: ArrayList.TrimToSize
+    fullName: System.Collections.ArrayList.TrimToSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ArrayList.Capacity
+  commentId: P:System.Collections.ArrayList.Capacity
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Capacity
+  nameWithType: ArrayList.Capacity
+  fullName: System.Collections.ArrayList.Capacity
+- uid: System.Collections.ArrayList.Count
+  commentId: P:System.Collections.ArrayList.Count
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Count
+  nameWithType: ArrayList.Count
+  fullName: System.Collections.ArrayList.Count
+- uid: System.Collections.ArrayList.IsFixedSize
+  commentId: P:System.Collections.ArrayList.IsFixedSize
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: IsFixedSize
+  nameWithType: ArrayList.IsFixedSize
+  fullName: System.Collections.ArrayList.IsFixedSize
+- uid: System.Collections.ArrayList.IsReadOnly
+  commentId: P:System.Collections.ArrayList.IsReadOnly
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: ArrayList.IsReadOnly
+  fullName: System.Collections.ArrayList.IsReadOnly
+- uid: System.Collections.ArrayList.IsSynchronized
+  commentId: P:System.Collections.ArrayList.IsSynchronized
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: IsSynchronized
+  nameWithType: ArrayList.IsSynchronized
+  fullName: System.Collections.ArrayList.IsSynchronized
+- uid: System.Collections.ArrayList.SyncRoot
+  commentId: P:System.Collections.ArrayList.SyncRoot
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: SyncRoot
+  nameWithType: ArrayList.SyncRoot
+  fullName: System.Collections.ArrayList.SyncRoot
+- uid: System.Collections.ArrayList.Item(System.Int32)
+  commentId: P:System.Collections.ArrayList.Item(System.Int32)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: ArrayList.Item[Int32]
+  fullName: System.Collections.ArrayList.Item[System.Int32]
+  nameWithType.vb: ArrayList.Item(Int32)
+  fullName.vb: System.Collections.ArrayList.Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Item(System.Int32)
+    name: Item
+    nameWithType: ArrayList.Item
+    fullName: System.Collections.ArrayList.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: System.Collections.ArrayList.Item(System.Int32)
+    name: Item
+    nameWithType: ArrayList.Item
+    fullName: System.Collections.ArrayList.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoParameterCollection.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoParameterCollection, To>()
+  nameWithType: EnumUtil.MapEnums<SoParameterCollection, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SoParameterCollection, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoParameterCollection, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SoParameterCollection, To)()
+  name.vb: MapEnums(Of SoParameterCollection, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoParameterCollection, To>
+    nameWithType: EnumUtil.MapEnums<SoParameterCollection, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SoParameterCollection, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoParameterCollection, To)
+    nameWithType: EnumUtil.MapEnums(Of SoParameterCollection, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SoParameterCollection, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoParameterCollection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SoParameterCollection)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoParameterCollection>(SoParameterCollection)
+  nameWithType: ObjectExtensions.AssignByReflection<SoParameterCollection>(SoParameterCollection)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SoParameterCollection>(SuperOffice.Data.SoParameterCollection)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoParameterCollection)(SoParameterCollection)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SoParameterCollection)(SuperOffice.Data.SoParameterCollection)
+  name.vb: AssignByReflection(Of SoParameterCollection)(SoParameterCollection)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoParameterCollection>
+    nameWithType: ObjectExtensions.AssignByReflection<SoParameterCollection>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SoParameterCollection>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoParameterCollection
+    name: SoParameterCollection
+    nameWithType: SoParameterCollection
+    fullName: SuperOffice.Data.SoParameterCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoParameterCollection)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoParameterCollection)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SoParameterCollection)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoParameterCollection
+    name: SoParameterCollection
+    nameWithType: SoParameterCollection
+    fullName: SuperOffice.Data.SoParameterCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoParameterCollection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoParameterCollection>()
+  nameWithType: ObjectExtensions.GraphCopy<SoParameterCollection>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SoParameterCollection>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoParameterCollection)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SoParameterCollection)()
+  name.vb: GraphCopy(Of SoParameterCollection)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoParameterCollection>
+    nameWithType: ObjectExtensions.GraphCopy<SoParameterCollection>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SoParameterCollection>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoParameterCollection)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoParameterCollection)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SoParameterCollection)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoParameterCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoParameterCollection, To>()
+  nameWithType: Converters.MapEnums<SoParameterCollection, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoParameterCollection, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoParameterCollection, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoParameterCollection, To)()
+  name.vb: MapEnums(Of SoParameterCollection, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoParameterCollection, To>
+    nameWithType: Converters.MapEnums<SoParameterCollection, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoParameterCollection, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoParameterCollection, To)
+    nameWithType: Converters.MapEnums(Of SoParameterCollection, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoParameterCollection, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.SoParameterCollection.Contains*
+  commentId: Overload:SuperOffice.Data.SoParameterCollection.Contains
+  isExternal: true
+  name: Contains
+  nameWithType: SoParameterCollection.Contains
+  fullName: SuperOffice.Data.SoParameterCollection.Contains
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SoParameterCollection.IndexOf*
+  commentId: Overload:SuperOffice.Data.SoParameterCollection.IndexOf
+  isExternal: true
+  name: IndexOf
+  nameWithType: SoParameterCollection.IndexOf
+  fullName: SuperOffice.Data.SoParameterCollection.IndexOf
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.SoParameterCollection.RemoveAt*
+  commentId: Overload:SuperOffice.Data.SoParameterCollection.RemoveAt
+  isExternal: true
+  name: RemoveAt
+  nameWithType: SoParameterCollection.RemoveAt
+  fullName: SuperOffice.Data.SoParameterCollection.RemoveAt
+- uid: System.Collections.ArrayList.Add(System.Object)
+  commentId: M:System.Collections.ArrayList.Add(System.Object)
+  parent: System.Collections.ArrayList
+  isExternal: true
+  name: Add(Object)
+  nameWithType: ArrayList.Add(Object)
+  fullName: System.Collections.ArrayList.Add(System.Object)
+  spec.csharp:
+  - uid: System.Collections.ArrayList.Add(System.Object)
+    name: Add
+    nameWithType: ArrayList.Add
+    fullName: System.Collections.ArrayList.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ArrayList.Add(System.Object)
+    name: Add
+    nameWithType: ArrayList.Add
+    fullName: System.Collections.ArrayList.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoParameterCollection.Add*
+  commentId: Overload:SuperOffice.Data.SoParameterCollection.Add
+  isExternal: true
+  name: Add
+  nameWithType: SoParameterCollection.Add
+  fullName: SuperOffice.Data.SoParameterCollection.Add
+- uid: System.Collections.IList.Add(System.Object)
+  commentId: M:System.Collections.IList.Add(System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: Add(Object)
+  nameWithType: IList.Add(Object)
+  fullName: System.Collections.IList.Add(System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.Add(System.Object)
+    name: Add
+    nameWithType: IList.Add
+    fullName: System.Collections.IList.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.Add(System.Object)
+    name: Add
+    nameWithType: IList.Add
+    fullName: System.Collections.IList.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.NotSupportedException
+  commentId: T:System.NotSupportedException
+  isExternal: true
+- uid: SuperOffice.Data.SoParameter
+  commentId: T:SuperOffice.Data.SoParameter
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoParameter
+  nameWithType: SoParameter
+  fullName: SuperOffice.Data.SoParameter
+- uid: System.Data.DbType
+  isExternal: true
+  name: DbType
+  nameWithType: DbType
+  fullName: System.Data.DbType
+- uid: SuperOffice.Data.SoParameterCollection.#ctor*
+  commentId: Overload:SuperOffice.Data.SoParameterCollection.#ctor
+  isExternal: true
+  name: SoParameterCollection
+  nameWithType: SoParameterCollection.SoParameterCollection
+  fullName: SuperOffice.Data.SoParameterCollection.SoParameterCollection
+- uid: SuperOffice.Data.SoParameterCollection.Item*
+  commentId: Overload:SuperOffice.Data.SoParameterCollection.Item
+  isExternal: true
+  name: Item
+  nameWithType: SoParameterCollection.Item
+  fullName: SuperOffice.Data.SoParameterCollection.Item

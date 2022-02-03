@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest
+  commentId: T:SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest
+  id: BLOB_ChangePersonImageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.#ctor
+  - SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.BlobId
+  - SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: BLOB_ChangePersonImageRequest
+  nameWithType: BLOB_ChangePersonImageRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BLOB_ChangePersonImageRequest : Object'
+    content.vb: >-
+      Public Class BLOB_ChangePersonImageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest
+  langs:
+  - csharp
+  - vb
+  name: BLOB_ChangePersonImageRequest()
+  nameWithType: BLOB_ChangePersonImageRequest.BLOB_ChangePersonImageRequest()
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.BLOB_ChangePersonImageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BLOB_ChangePersonImageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: BLOB_ChangePersonImageRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.BlobId
+  commentId: P:SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.BlobId
+  id: BlobId
+  parent: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest
+  langs:
+  - csharp
+  - vb
+  name: BlobId
+  nameWithType: BLOB_ChangePersonImageRequest.BlobId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.BlobId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int BlobId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BlobId As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.BlobId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.#ctor
+  isExternal: true
+  name: BLOB_ChangePersonImageRequest
+  nameWithType: BLOB_ChangePersonImageRequest.BLOB_ChangePersonImageRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.BLOB_ChangePersonImageRequest
+- uid: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: BLOB_ChangePersonImageRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.BlobId*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.BlobId
+  isExternal: true
+  name: BlobId
+  nameWithType: BLOB_ChangePersonImageRequest.BlobId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest.BlobId

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest
+  id: Ticket_SetTicketMessageImportantRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.Important
+  - SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.TicketMessageId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SetTicketMessageImportantRequest
+  nameWithType: Ticket_SetTicketMessageImportantRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_SetTicketMessageImportantRequest : Object'
+    content.vb: >-
+      Public Class Ticket_SetTicketMessageImportantRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SetTicketMessageImportantRequest()
+  nameWithType: Ticket_SetTicketMessageImportantRequest.Ticket_SetTicketMessageImportantRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.Ticket_SetTicketMessageImportantRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_SetTicketMessageImportantRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.TicketMessageId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.TicketMessageId
+  id: TicketMessageId
+  parent: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageId
+  nameWithType: Ticket_SetTicketMessageImportantRequest.TicketMessageId
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.TicketMessageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketMessageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketMessageId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.TicketMessageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.Important
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.Important
+  id: Important
+  parent: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest
+  langs:
+  - csharp
+  - vb
+  name: Important
+  nameWithType: Ticket_SetTicketMessageImportantRequest.Important
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.Important
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Important { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Important As Boolean
+  overload: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.Important*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.#ctor
+  isExternal: true
+  name: Ticket_SetTicketMessageImportantRequest
+  nameWithType: Ticket_SetTicketMessageImportantRequest.Ticket_SetTicketMessageImportantRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.Ticket_SetTicketMessageImportantRequest
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.TicketMessageId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.TicketMessageId
+  isExternal: true
+  name: TicketMessageId
+  nameWithType: Ticket_SetTicketMessageImportantRequest.TicketMessageId
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.TicketMessageId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.Important*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.Important
+  isExternal: true
+  name: Important
+  nameWithType: Ticket_SetTicketMessageImportantRequest.Important
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest.Important
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

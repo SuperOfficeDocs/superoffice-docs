@@ -1,0 +1,578 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Cache.Card
+  commentId: T:SuperOffice.Cache.Card
+  id: Card
+  parent: SuperOffice.Cache
+  children:
+  - SuperOffice.Cache.Card.#ctor
+  - SuperOffice.Cache.Card.#ctor(System.String,SuperOffice.Cache.View)
+  - SuperOffice.Cache.Card.CurrentView
+  - SuperOffice.Cache.Card.Id
+  - SuperOffice.Cache.Card.Partial
+  - SuperOffice.Cache.Card.SelectedView
+  langs:
+  - csharp
+  - vb
+  name: Card
+  nameWithType: Card
+  fullName: SuperOffice.Cache.Card
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSuperState class representing a card\n"
+  syntax:
+    content: public class Card
+    content.vb: Public Class Card
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Cache.Card.#ctor
+  commentId: M:SuperOffice.Cache.Card.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Cache.Card
+  langs:
+  - csharp
+  - vb
+  name: Card()
+  nameWithType: Card.Card()
+  fullName: SuperOffice.Cache.Card.Card()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Card()
+    content.vb: Public Sub New
+  overload: SuperOffice.Cache.Card.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.Card.#ctor(System.String,SuperOffice.Cache.View)
+  commentId: M:SuperOffice.Cache.Card.#ctor(System.String,SuperOffice.Cache.View)
+  id: '#ctor(System.String,SuperOffice.Cache.View)'
+  parent: SuperOffice.Cache.Card
+  langs:
+  - csharp
+  - vb
+  name: Card(String, View)
+  nameWithType: Card.Card(String, View)
+  fullName: SuperOffice.Cache.Card.Card(System.String, SuperOffice.Cache.View)
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nInit constructor\n"
+  syntax:
+    content: public Card(string id, View view)
+    parameters:
+    - id: id
+      type: System.String
+      description: The card name / identifier
+    - id: view
+      type: SuperOffice.Cache.View
+      description: The card&apos;s active view
+    content.vb: Public Sub New(id As String, view As View)
+  overload: SuperOffice.Cache.Card.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.Card.Id
+  commentId: P:SuperOffice.Cache.Card.Id
+  id: Id
+  parent: SuperOffice.Cache.Card
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Card.Id
+  fullName: SuperOffice.Cache.Card.Id
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe card name / identifier\n"
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: SuperOffice.Cache.Card.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.Card.CurrentView
+  commentId: P:SuperOffice.Cache.Card.CurrentView
+  id: CurrentView
+  parent: SuperOffice.Cache.Card
+  langs:
+  - csharp
+  - vb
+  name: CurrentView
+  nameWithType: Card.CurrentView
+  fullName: SuperOffice.Cache.Card.CurrentView
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe current view for this Card\n"
+  syntax:
+    content: public View CurrentView { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Cache.View
+    content.vb: Public Property CurrentView As View
+  overload: SuperOffice.Cache.Card.CurrentView*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.Card.SelectedView
+  commentId: P:SuperOffice.Cache.Card.SelectedView
+  id: SelectedView
+  parent: SuperOffice.Cache.Card
+  langs:
+  - csharp
+  - vb
+  name: SelectedView
+  nameWithType: Card.SelectedView
+  fullName: SuperOffice.Cache.Card.SelectedView
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe current view is not always the same as the current view.\nFor instance for cards that has both tabbed and plain views we would like to know what the selected card is\n"
+  syntax:
+    content: public View SelectedView { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Cache.View
+    content.vb: Public Property SelectedView As View
+  overload: SuperOffice.Cache.Card.SelectedView*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.Card.Partial
+  commentId: P:SuperOffice.Cache.Card.Partial
+  id: Partial
+  parent: SuperOffice.Cache.Card
+  langs:
+  - csharp
+  - vb
+  name: Partial
+  nameWithType: Card.Partial
+  fullName: SuperOffice.Cache.Card.Partial
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  syntax:
+    content: public bool Partial { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Partial As Boolean
+  overload: SuperOffice.Cache.Card.Partial*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Cache.Card.#ctor*
+  commentId: Overload:SuperOffice.Cache.Card.#ctor
+  isExternal: true
+  name: Card
+  nameWithType: Card.Card
+  fullName: SuperOffice.Cache.Card.Card
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Cache.View
+  commentId: T:SuperOffice.Cache.View
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: View
+  nameWithType: View
+  fullName: SuperOffice.Cache.View
+- uid: SuperOffice.Cache.Card.Id*
+  commentId: Overload:SuperOffice.Cache.Card.Id
+  isExternal: true
+  name: Id
+  nameWithType: Card.Id
+  fullName: SuperOffice.Cache.Card.Id
+- uid: SuperOffice.Cache.Card.CurrentView*
+  commentId: Overload:SuperOffice.Cache.Card.CurrentView
+  isExternal: true
+  name: CurrentView
+  nameWithType: Card.CurrentView
+  fullName: SuperOffice.Cache.Card.CurrentView
+- uid: SuperOffice.Cache.Card.SelectedView*
+  commentId: Overload:SuperOffice.Cache.Card.SelectedView
+  isExternal: true
+  name: SelectedView
+  nameWithType: Card.SelectedView
+  fullName: SuperOffice.Cache.Card.SelectedView
+- uid: SuperOffice.Cache.Card.Partial*
+  commentId: Overload:SuperOffice.Cache.Card.Partial
+  isExternal: true
+  name: Partial
+  nameWithType: Card.Partial
+  fullName: SuperOffice.Cache.Card.Partial
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

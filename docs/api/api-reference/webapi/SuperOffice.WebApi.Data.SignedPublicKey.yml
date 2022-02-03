@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SignedPublicKey
+  commentId: T:SuperOffice.WebApi.Data.SignedPublicKey
+  id: SignedPublicKey
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SignedPublicKey.#ctor
+  - SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
+  - SuperOffice.WebApi.Data.SignedPublicKey.Key
+  - SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
+  - SuperOffice.WebApi.Data.SignedPublicKey.Signature
+  - SuperOffice.WebApi.Data.SignedPublicKey.SignDate
+  langs:
+  - csharp
+  - vb
+  name: SignedPublicKey
+  nameWithType: SignedPublicKey
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SignedPublicKey.\nRepresents all licenses for this owner at this site.    \n"
+  syntax:
+    content: 'public class SignedPublicKey : Object'
+    content.vb: >-
+      Public Class SignedPublicKey
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.LicenseAgent
+    commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SignedPublicKey.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SignedPublicKey
+  langs:
+  - csharp
+  - vb
+  name: SignedPublicKey()
+  nameWithType: SignedPublicKey.SignedPublicKey()
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.SignedPublicKey()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SignedPublicKey()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SignedPublicKey.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
+  commentId: P:SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
+  id: OwnerName
+  parent: SuperOffice.WebApi.Data.SignedPublicKey
+  langs:
+  - csharp
+  - vb
+  name: OwnerName
+  nameWithType: SignedPublicKey.OwnerName
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.\n"
+  syntax:
+    content: public virtual string OwnerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnerName As String
+  overload: SuperOffice.WebApi.Data.SignedPublicKey.OwnerName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.SignDate
+  commentId: P:SuperOffice.WebApi.Data.SignedPublicKey.SignDate
+  id: SignDate
+  parent: SuperOffice.WebApi.Data.SignedPublicKey
+  langs:
+  - csharp
+  - vb
+  name: SignDate
+  nameWithType: SignedPublicKey.SignDate
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.SignDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDate when the the public key was signed. No Timezone.\n"
+  syntax:
+    content: public virtual DateTime SignDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property SignDate As DateTime
+  overload: SuperOffice.WebApi.Data.SignedPublicKey.SignDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
+  commentId: P:SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
+  id: ExpiryDate
+  parent: SuperOffice.WebApi.Data.SignedPublicKey
+  langs:
+  - csharp
+  - vb
+  name: ExpiryDate
+  nameWithType: SignedPublicKey.ExpiryDate
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDate when the signature expires. No Timezone.\n"
+  syntax:
+    content: public virtual DateTime ExpiryDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ExpiryDate As DateTime
+  overload: SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.Key
+  commentId: P:SuperOffice.WebApi.Data.SignedPublicKey.Key
+  id: Key
+  parent: SuperOffice.WebApi.Data.SignedPublicKey
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: SignedPublicKey.Key
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.Key
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPublic key held by module owner.\n"
+  syntax:
+    content: public virtual DSAParameters Key { get; set; }
+    parameters: []
+    return:
+      type: System.Security.Cryptography.DSAParameters
+    content.vb: Public Overridable Property Key As DSAParameters
+  overload: SuperOffice.WebApi.Data.SignedPublicKey.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.Signature
+  commentId: P:SuperOffice.WebApi.Data.SignedPublicKey.Signature
+  id: Signature
+  parent: SuperOffice.WebApi.Data.SignedPublicKey
+  langs:
+  - csharp
+  - vb
+  name: Signature
+  nameWithType: SignedPublicKey.Signature
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.Signature
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSignature - Base64 encoded value\n"
+  syntax:
+    content: public virtual string Signature { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Signature As String
+  overload: SuperOffice.WebApi.Data.SignedPublicKey.Signature*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.LicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  isExternal: true
+  name: LicenseAgent
+  nameWithType: LicenseAgent
+  fullName: SuperOffice.WebApi.Agents.LicenseAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.#ctor
+  isExternal: true
+  name: SignedPublicKey
+  nameWithType: SignedPublicKey.SignedPublicKey
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.SignedPublicKey
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.OwnerName*
+  commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
+  isExternal: true
+  name: OwnerName
+  nameWithType: SignedPublicKey.OwnerName
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.OwnerName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.SignDate*
+  commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.SignDate
+  isExternal: true
+  name: SignDate
+  nameWithType: SignedPublicKey.SignDate
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.SignDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate*
+  commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
+  isExternal: true
+  name: ExpiryDate
+  nameWithType: SignedPublicKey.ExpiryDate
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.ExpiryDate
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.Key*
+  commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.Key
+  isExternal: true
+  name: Key
+  nameWithType: SignedPublicKey.Key
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.Key
+- uid: System.Security.Cryptography.DSAParameters
+  commentId: '!:System.Security.Cryptography.DSAParameters'
+  isExternal: true
+  name: DSAParameters
+  nameWithType: DSAParameters
+  fullName: System.Security.Cryptography.DSAParameters
+- uid: SuperOffice.WebApi.Data.SignedPublicKey.Signature*
+  commentId: Overload:SuperOffice.WebApi.Data.SignedPublicKey.Signature
+  isExternal: true
+  name: Signature
+  nameWithType: SignedPublicKey.Signature
+  fullName: SuperOffice.WebApi.Data.SignedPublicKey.Signature

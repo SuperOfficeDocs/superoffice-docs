@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Services
+  commentId: N:SuperOffice.Services
+  id: SuperOffice.Services
+  children:
+  - SuperOffice.Services.ClassFactoryInitializer
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Services
+  nameWithType: SuperOffice.Services
+  fullName: SuperOffice.Services
+  type: Namespace
+  assemblies:
+  - SuperOffice.Services
+references:
+- uid: SuperOffice.Services.ClassFactoryInitializer
+  commentId: T:SuperOffice.Services.ClassFactoryInitializer
+  isExternal: true
+  name: ClassFactoryInitializer
+  nameWithType: ClassFactoryInitializer
+  fullName: SuperOffice.Services.ClassFactoryInitializer

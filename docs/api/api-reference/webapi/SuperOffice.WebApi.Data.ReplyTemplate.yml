@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ReplyTemplate
+  commentId: T:SuperOffice.WebApi.Data.ReplyTemplate
+  id: ReplyTemplate
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ReplyTemplate.#ctor
+  - SuperOffice.WebApi.Data.ReplyTemplate.Description
+  - SuperOffice.WebApi.Data.ReplyTemplate.FolderId
+  - SuperOffice.WebApi.Data.ReplyTemplate.Name
+  - SuperOffice.WebApi.Data.ReplyTemplate.ReplyTemplateId
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplate
+  nameWithType: ReplyTemplate
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ReplyTemplate.\nReply template item    \n"
+  syntax:
+    content: 'public class ReplyTemplate : Object'
+    content.vb: >-
+      Public Class ReplyTemplate
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ReplyTemplate.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ReplyTemplate.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ReplyTemplate
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplate()
+  nameWithType: ReplyTemplate.ReplyTemplate()
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate.ReplyTemplate()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ReplyTemplate()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ReplyTemplate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReplyTemplate.ReplyTemplateId
+  commentId: P:SuperOffice.WebApi.Data.ReplyTemplate.ReplyTemplateId
+  id: ReplyTemplateId
+  parent: SuperOffice.WebApi.Data.ReplyTemplate
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateId
+  nameWithType: ReplyTemplate.ReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate.ReplyTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int ReplyTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.ReplyTemplate.ReplyTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReplyTemplate.Name
+  commentId: P:SuperOffice.WebApi.Data.ReplyTemplate.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ReplyTemplate
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ReplyTemplate.Name
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name for this reply template.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ReplyTemplate.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReplyTemplate.Description
+  commentId: P:SuperOffice.WebApi.Data.ReplyTemplate.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.ReplyTemplate
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ReplyTemplate.Description
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe description for this reply template.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.ReplyTemplate.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReplyTemplate.FolderId
+  commentId: P:SuperOffice.WebApi.Data.ReplyTemplate.FolderId
+  id: FolderId
+  parent: SuperOffice.WebApi.Data.ReplyTemplate
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: ReplyTemplate.FolderId
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate.FolderId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the folder in which this reply template is located. NULL or -1 if this is a toplevel reply template.\n"
+  syntax:
+    content: public virtual int FolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FolderId As Integer
+  overload: SuperOffice.WebApi.Data.ReplyTemplate.FolderId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ReplyTemplate.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ReplyTemplate.#ctor
+  isExternal: true
+  name: ReplyTemplate
+  nameWithType: ReplyTemplate.ReplyTemplate
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate.ReplyTemplate
+- uid: SuperOffice.WebApi.Data.ReplyTemplate.ReplyTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.ReplyTemplate.ReplyTemplateId
+  isExternal: true
+  name: ReplyTemplateId
+  nameWithType: ReplyTemplate.ReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate.ReplyTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ReplyTemplate.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ReplyTemplate.Name
+  isExternal: true
+  name: Name
+  nameWithType: ReplyTemplate.Name
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ReplyTemplate.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.ReplyTemplate.Description
+  isExternal: true
+  name: Description
+  nameWithType: ReplyTemplate.Description
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate.Description
+- uid: SuperOffice.WebApi.Data.ReplyTemplate.FolderId*
+  commentId: Overload:SuperOffice.WebApi.Data.ReplyTemplate.FolderId
+  isExternal: true
+  name: FolderId
+  nameWithType: ReplyTemplate.FolderId
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate.FolderId

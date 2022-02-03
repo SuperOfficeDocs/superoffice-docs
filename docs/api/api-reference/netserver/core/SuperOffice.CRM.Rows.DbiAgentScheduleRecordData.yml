@@ -1,0 +1,1012 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+  commentId: T:SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+  id: DbiAgentScheduleRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.#ctor
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.AgentId
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.DbiAgentScheduleId
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.IdString
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ReceivedObjects
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ScheduleId
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ScriptId
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SentObjects
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentScheduleRecordData
+  nameWithType: DbiAgentScheduleRecordData
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the dbi_agent_schedule table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.DbiAgentScheduleRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.DbiAgentScheduleTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class DbiAgentScheduleRecordData
+    content.vb: Public Class DbiAgentScheduleRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.DbiAgentScheduleId
+  commentId: F:SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.DbiAgentScheduleId
+  id: DbiAgentScheduleId
+  parent: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentScheduleId
+  nameWithType: DbiAgentScheduleRecordData.DbiAgentScheduleId
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.DbiAgentScheduleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int DbiAgentScheduleId
+    return:
+      type: System.Int32
+    content.vb: Public DbiAgentScheduleId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.AgentId
+  commentId: F:SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.AgentId
+  id: AgentId
+  parent: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+  langs:
+  - csharp
+  - vb
+  name: AgentId
+  nameWithType: DbiAgentScheduleRecordData.AgentId
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.AgentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAgent \n"
+  syntax:
+    content: public int AgentId
+    return:
+      type: System.Int32
+    content.vb: Public AgentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ScriptId
+  commentId: F:SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ScriptId
+  id: ScriptId
+  parent: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+  langs:
+  - csharp
+  - vb
+  name: ScriptId
+  nameWithType: DbiAgentScheduleRecordData.ScriptId
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ScriptId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCommunication script \n"
+  syntax:
+    content: public int ScriptId
+    return:
+      type: System.Int32
+    content.vb: Public ScriptId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ScheduleId
+  commentId: F:SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ScheduleId
+  id: ScheduleId
+  parent: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+  langs:
+  - csharp
+  - vb
+  name: ScheduleId
+  nameWithType: DbiAgentScheduleRecordData.ScheduleId
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ScheduleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUpdate schedule \n"
+  syntax:
+    content: public int ScheduleId
+    return:
+      type: System.Int32
+    content.vb: Public ScheduleId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SentObjects
+  commentId: F:SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SentObjects
+  id: SentObjects
+  parent: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+  langs:
+  - csharp
+  - vb
+  name: SentObjects
+  nameWithType: DbiAgentScheduleRecordData.SentObjects
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SentObjects
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of objects sent during the last syncronization \n"
+  syntax:
+    content: public int SentObjects
+    return:
+      type: System.Int32
+    content.vb: Public SentObjects As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ReceivedObjects
+  commentId: F:SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ReceivedObjects
+  id: ReceivedObjects
+  parent: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReceivedObjects
+  nameWithType: DbiAgentScheduleRecordData.ReceivedObjects
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.ReceivedObjects
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of objects received during the last syncronization \n"
+  syntax:
+    content: public int ReceivedObjects
+    return:
+      type: System.Int32
+    content.vb: Public ReceivedObjects As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.IdString
+  commentId: F:SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.IdString
+  id: IdString
+  parent: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+  langs:
+  - csharp
+  - vb
+  name: IdString
+  nameWithType: DbiAgentScheduleRecordData.IdString
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.IdString
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA field for an id_string which may be used to access the agent schedule \n"
+  syntax:
+    content: public string IdString
+    return:
+      type: System.String
+    content.vb: Public IdString As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentScheduleRecordData()
+  nameWithType: DbiAgentScheduleRecordData.DbiAgentScheduleRecordData()
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.DbiAgentScheduleRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public DbiAgentScheduleRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DbiAgentScheduleRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<DbiAgentScheduleRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.DbiAgentScheduleRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DbiAgentScheduleRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.DbiAgentScheduleRecordData, To)()
+  name.vb: MapEnums(Of DbiAgentScheduleRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DbiAgentScheduleRecordData, To>
+    nameWithType: EnumUtil.MapEnums<DbiAgentScheduleRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.DbiAgentScheduleRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DbiAgentScheduleRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of DbiAgentScheduleRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.DbiAgentScheduleRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DbiAgentScheduleRecordData>(DbiAgentScheduleRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<DbiAgentScheduleRecordData>(DbiAgentScheduleRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.DbiAgentScheduleRecordData>(SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DbiAgentScheduleRecordData)(DbiAgentScheduleRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)(SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+  name.vb: AssignByReflection(Of DbiAgentScheduleRecordData)(DbiAgentScheduleRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DbiAgentScheduleRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<DbiAgentScheduleRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.DbiAgentScheduleRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+    name: DbiAgentScheduleRecordData
+    nameWithType: DbiAgentScheduleRecordData
+    fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DbiAgentScheduleRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DbiAgentScheduleRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+    name: DbiAgentScheduleRecordData
+    nameWithType: DbiAgentScheduleRecordData
+    fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DbiAgentScheduleRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<DbiAgentScheduleRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.DbiAgentScheduleRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DbiAgentScheduleRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)()
+  name.vb: GraphCopy(Of DbiAgentScheduleRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DbiAgentScheduleRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<DbiAgentScheduleRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.DbiAgentScheduleRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DbiAgentScheduleRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of DbiAgentScheduleRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+  parent: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+  name: ToInsert()
+  nameWithType: DbiAgentScheduleRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: DbiAgentScheduleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: DbiAgentScheduleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DbiAgentScheduleRecordData, To>()
+  nameWithType: Converters.MapEnums<DbiAgentScheduleRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.DbiAgentScheduleRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of DbiAgentScheduleRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.DbiAgentScheduleRecordData, To)()
+  name.vb: MapEnums(Of DbiAgentScheduleRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DbiAgentScheduleRecordData, To>
+    nameWithType: Converters.MapEnums<DbiAgentScheduleRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.DbiAgentScheduleRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DbiAgentScheduleRecordData, To)
+    nameWithType: Converters.MapEnums(Of DbiAgentScheduleRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.DbiAgentScheduleRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+  commentId: M:SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+  isExternal: true
+  name: ToInsert(DbiAgentScheduleRecordData)
+  nameWithType: DbiAgentScheduleRecordDataExtensions.ToInsert(DbiAgentScheduleRecordData)
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+    name: ToInsert
+    nameWithType: DbiAgentScheduleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+    name: DbiAgentScheduleRecordData
+    nameWithType: DbiAgentScheduleRecordData
+    fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DbiAgentScheduleRecordData)
+    name: ToInsert
+    nameWithType: DbiAgentScheduleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+    name: DbiAgentScheduleRecordData
+    nameWithType: DbiAgentScheduleRecordData
+    fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: DbiAgentScheduleRecordDataExtensions
+  nameWithType: DbiAgentScheduleRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.#ctor
+  isExternal: true
+  name: DbiAgentScheduleRecordData
+  nameWithType: DbiAgentScheduleRecordData.DbiAgentScheduleRecordData
+  fullName: SuperOffice.CRM.Rows.DbiAgentScheduleRecordData.DbiAgentScheduleRecordData

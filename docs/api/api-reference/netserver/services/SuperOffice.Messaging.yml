@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging
+  commentId: N:SuperOffice.Messaging
+  id: SuperOffice.Messaging
+  children:
+  - SuperOffice.Messaging.IMessagingPlugin
+  - SuperOffice.Messaging.IMessagingWithConfigPlugin
+  - SuperOffice.Messaging.InboxItem
+  - SuperOffice.Messaging.MessagingManager
+  - SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  - SuperOffice.Messaging.MessagingPluginAttribute
+  - SuperOffice.Messaging.MessagingWithConfigPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Messaging
+  nameWithType: SuperOffice.Messaging
+  fullName: SuperOffice.Messaging
+  type: Namespace
+  assemblies:
+  - SuperOffice.Messaging
+references:
+- uid: SuperOffice.Messaging.InboxItem
+  commentId: T:SuperOffice.Messaging.InboxItem
+  isExternal: true
+  name: InboxItem
+  nameWithType: InboxItem
+  fullName: SuperOffice.Messaging.InboxItem
+- uid: SuperOffice.Messaging.MessagingManager
+  commentId: T:SuperOffice.Messaging.MessagingManager
+  parent: SuperOffice.Messaging
+  isExternal: true
+  name: MessagingManager
+  nameWithType: MessagingManager
+  fullName: SuperOffice.Messaging.MessagingManager
+- uid: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  commentId: T:SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  parent: SuperOffice.Messaging
+  isExternal: true
+  name: MessagingManager.MessageReplyStatus
+  nameWithType: MessagingManager.MessageReplyStatus
+  fullName: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+- uid: SuperOffice.Messaging.MessagingPluginAttribute
+  commentId: T:SuperOffice.Messaging.MessagingPluginAttribute
+  isExternal: true
+  name: MessagingPluginAttribute
+  nameWithType: MessagingPluginAttribute
+  fullName: SuperOffice.Messaging.MessagingPluginAttribute
+- uid: SuperOffice.Messaging.MessagingWithConfigPluginAttribute
+  commentId: T:SuperOffice.Messaging.MessagingWithConfigPluginAttribute
+  isExternal: true
+  name: MessagingWithConfigPluginAttribute
+  nameWithType: MessagingWithConfigPluginAttribute
+  fullName: SuperOffice.Messaging.MessagingWithConfigPluginAttribute
+- uid: SuperOffice.Messaging.IMessagingPlugin
+  commentId: T:SuperOffice.Messaging.IMessagingPlugin
+  isExternal: true
+  name: IMessagingPlugin
+  nameWithType: IMessagingPlugin
+  fullName: SuperOffice.Messaging.IMessagingPlugin
+- uid: SuperOffice.Messaging.IMessagingWithConfigPlugin
+  commentId: T:SuperOffice.Messaging.IMessagingWithConfigPlugin
+  isExternal: true
+  name: IMessagingWithConfigPlugin
+  nameWithType: IMessagingWithConfigPlugin
+  fullName: SuperOffice.Messaging.IMessagingWithConfigPlugin
+- uid: SuperOffice.Messaging
+  commentId: N:SuperOffice.Messaging
+  isExternal: true
+  name: SuperOffice.Messaging
+  nameWithType: SuperOffice.Messaging
+  fullName: SuperOffice.Messaging

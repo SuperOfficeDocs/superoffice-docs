@@ -1,0 +1,395 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem
+  commentId: T:SuperOffice.WebApi.Data.ChatSummaryItem
+  id: ChatSummaryItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatSummaryItem.#ctor
+  - SuperOffice.WebApi.Data.ChatSummaryItem.ChatSessionId
+  - SuperOffice.WebApi.Data.ChatSummaryItem.CompanyName
+  - SuperOffice.WebApi.Data.ChatSummaryItem.FirstMessage
+  - SuperOffice.WebApi.Data.ChatSummaryItem.LastMessage
+  - SuperOffice.WebApi.Data.ChatSummaryItem.Name
+  - SuperOffice.WebApi.Data.ChatSummaryItem.WhenEnded
+  - SuperOffice.WebApi.Data.ChatSummaryItem.WhenRequested
+  langs:
+  - csharp
+  - vb
+  name: ChatSummaryItem
+  nameWithType: ChatSummaryItem
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ChatSummaryItem.\nChat session summary: id, title, created date    \n"
+  syntax:
+    content: 'public class ChatSummaryItem : Object'
+    content.vb: >-
+      Public Class ChatSummaryItem
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ChatAgent
+    commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ChatSummaryItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: ChatSummaryItem()
+  nameWithType: ChatSummaryItem.ChatSummaryItem()
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.ChatSummaryItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ChatSummaryItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ChatSummaryItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.ChatSessionId
+  commentId: P:SuperOffice.WebApi.Data.ChatSummaryItem.ChatSessionId
+  id: ChatSessionId
+  parent: SuperOffice.WebApi.Data.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionId
+  nameWithType: ChatSummaryItem.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.ChatSessionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int ChatSessionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ChatSessionId As Integer
+  overload: SuperOffice.WebApi.Data.ChatSummaryItem.ChatSessionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.Name
+  commentId: P:SuperOffice.WebApi.Data.ChatSummaryItem.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ChatSummaryItem.Name
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of customer, if provided\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ChatSummaryItem.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.CompanyName
+  commentId: P:SuperOffice.WebApi.Data.ChatSummaryItem.CompanyName
+  id: CompanyName
+  parent: SuperOffice.WebApi.Data.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: CompanyName
+  nameWithType: ChatSummaryItem.CompanyName
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.CompanyName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the customers company, if provided\n"
+  syntax:
+    content: public virtual string CompanyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CompanyName As String
+  overload: SuperOffice.WebApi.Data.ChatSummaryItem.CompanyName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.FirstMessage
+  commentId: P:SuperOffice.WebApi.Data.ChatSummaryItem.FirstMessage
+  id: FirstMessage
+  parent: SuperOffice.WebApi.Data.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: FirstMessage
+  nameWithType: ChatSummaryItem.FirstMessage
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.FirstMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA copy of the first message in the chat session\n"
+  syntax:
+    content: public virtual string FirstMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FirstMessage As String
+  overload: SuperOffice.WebApi.Data.ChatSummaryItem.FirstMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.LastMessage
+  commentId: P:SuperOffice.WebApi.Data.ChatSummaryItem.LastMessage
+  id: LastMessage
+  parent: SuperOffice.WebApi.Data.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: LastMessage
+  nameWithType: ChatSummaryItem.LastMessage
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.LastMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA copy of the last message in the chat session\n"
+  syntax:
+    content: public virtual string LastMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LastMessage As String
+  overload: SuperOffice.WebApi.Data.ChatSummaryItem.LastMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.WhenRequested
+  commentId: P:SuperOffice.WebApi.Data.ChatSummaryItem.WhenRequested
+  id: WhenRequested
+  parent: SuperOffice.WebApi.Data.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: WhenRequested
+  nameWithType: ChatSummaryItem.WhenRequested
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.WhenRequested
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen the session was requested by the customer.\n"
+  syntax:
+    content: public virtual DateTime WhenRequested { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property WhenRequested As DateTime
+  overload: SuperOffice.WebApi.Data.ChatSummaryItem.WhenRequested*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.WhenEnded
+  commentId: P:SuperOffice.WebApi.Data.ChatSummaryItem.WhenEnded
+  id: WhenEnded
+  parent: SuperOffice.WebApi.Data.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: WhenEnded
+  nameWithType: ChatSummaryItem.WhenEnded
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.WhenEnded
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen the session was ended.\n"
+  syntax:
+    content: public virtual DateTime WhenEnded { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property WhenEnded As DateTime
+  overload: SuperOffice.WebApi.Data.ChatSummaryItem.WhenEnded*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.ChatAgent
+  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.WebApi.Agents.ChatAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSummaryItem.#ctor
+  isExternal: true
+  name: ChatSummaryItem
+  nameWithType: ChatSummaryItem.ChatSummaryItem
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.ChatSummaryItem
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.ChatSessionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSummaryItem.ChatSessionId
+  isExternal: true
+  name: ChatSessionId
+  nameWithType: ChatSummaryItem.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.ChatSessionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSummaryItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: ChatSummaryItem.Name
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.CompanyName*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSummaryItem.CompanyName
+  isExternal: true
+  name: CompanyName
+  nameWithType: ChatSummaryItem.CompanyName
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.CompanyName
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.FirstMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSummaryItem.FirstMessage
+  isExternal: true
+  name: FirstMessage
+  nameWithType: ChatSummaryItem.FirstMessage
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.FirstMessage
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.LastMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSummaryItem.LastMessage
+  isExternal: true
+  name: LastMessage
+  nameWithType: ChatSummaryItem.LastMessage
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.LastMessage
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.WhenRequested*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSummaryItem.WhenRequested
+  isExternal: true
+  name: WhenRequested
+  nameWithType: ChatSummaryItem.WhenRequested
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.WhenRequested
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem.WhenEnded*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSummaryItem.WhenEnded
+  isExternal: true
+  name: WhenEnded
+  nameWithType: ChatSummaryItem.WhenEnded
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem.WhenEnded

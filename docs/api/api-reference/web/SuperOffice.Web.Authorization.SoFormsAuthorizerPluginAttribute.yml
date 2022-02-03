@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute
+  commentId: T:SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute
+  id: SoFormsAuthorizerPluginAttribute
+  parent: SuperOffice.Web.Authorization
+  children:
+  - SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute.#ctor(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SoFormsAuthorizerPluginAttribute
+  nameWithType: SoFormsAuthorizerPluginAttribute
+  fullName: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Authorization
+  syntax:
+    content: 'public class SoFormsAuthorizerPluginAttribute : PluginAttribute'
+    content.vb: >-
+      Public Class SoFormsAuthorizerPluginAttribute
+          Inherits PluginAttribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute.#ctor(System.String)
+  commentId: M:SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: SoFormsAuthorizerPluginAttribute(String)
+  nameWithType: SoFormsAuthorizerPluginAttribute.SoFormsAuthorizerPluginAttribute(String)
+  fullName: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute.SoFormsAuthorizerPluginAttribute(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Authorization
+  syntax:
+    content: public SoFormsAuthorizerPluginAttribute(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.Authorization
+  commentId: N:SuperOffice.Web.Authorization
+  isExternal: true
+  name: SuperOffice.Web.Authorization
+  nameWithType: SuperOffice.Web.Authorization
+  fullName: SuperOffice.Web.Authorization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute.#ctor
+  isExternal: true
+  name: SoFormsAuthorizerPluginAttribute
+  nameWithType: SoFormsAuthorizerPluginAttribute.SoFormsAuthorizerPluginAttribute
+  fullName: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute.SoFormsAuthorizerPluginAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

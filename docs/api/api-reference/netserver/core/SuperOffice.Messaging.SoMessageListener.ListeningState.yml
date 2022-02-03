@@ -1,0 +1,540 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState
+  commentId: T:SuperOffice.Messaging.SoMessageListener.ListeningState
+  id: SoMessageListener.ListeningState
+  parent: SuperOffice.Messaging
+  children:
+  - SuperOffice.Messaging.SoMessageListener.ListeningState.Error
+  - SuperOffice.Messaging.SoMessageListener.ListeningState.Initializing
+  - SuperOffice.Messaging.SoMessageListener.ListeningState.Listening
+  - SuperOffice.Messaging.SoMessageListener.ListeningState.Stopped
+  - SuperOffice.Messaging.SoMessageListener.ListeningState.Stopping
+  langs:
+  - csharp
+  - vb
+  name: SoMessageListener.ListeningState
+  nameWithType: SoMessageListener.ListeningState
+  fullName: SuperOffice.Messaging.SoMessageListener.ListeningState
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nState of the message listener.\n"
+  syntax:
+    content: public enum ListeningState
+    content.vb: Public Enum ListeningState
+  extensionMethods:
+  - SuperOffice.Messaging.SoMessageListener.ListeningState.EnumUtil.MapEnums``2
+  - SuperOffice.Messaging.SoMessageListener.ListeningState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Messaging.SoMessageListener.ListeningState)
+  - SuperOffice.Messaging.SoMessageListener.ListeningState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Messaging.SoMessageListener.ListeningState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState.Initializing
+  commentId: F:SuperOffice.Messaging.SoMessageListener.ListeningState.Initializing
+  id: Initializing
+  parent: SuperOffice.Messaging.SoMessageListener.ListeningState
+  langs:
+  - csharp
+  - vb
+  name: Initializing
+  nameWithType: SoMessageListener.ListeningState.Initializing
+  fullName: SuperOffice.Messaging.SoMessageListener.ListeningState.Initializing
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nThe message listener is initializing.\n"
+  syntax:
+    content: Initializing = 0
+    return:
+      type: SuperOffice.Messaging.SoMessageListener.ListeningState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState.Listening
+  commentId: F:SuperOffice.Messaging.SoMessageListener.ListeningState.Listening
+  id: Listening
+  parent: SuperOffice.Messaging.SoMessageListener.ListeningState
+  langs:
+  - csharp
+  - vb
+  name: Listening
+  nameWithType: SoMessageListener.ListeningState.Listening
+  fullName: SuperOffice.Messaging.SoMessageListener.ListeningState.Listening
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nThe message listener is currently listening for messages.\n"
+  syntax:
+    content: Listening = 1
+    return:
+      type: SuperOffice.Messaging.SoMessageListener.ListeningState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState.Stopping
+  commentId: F:SuperOffice.Messaging.SoMessageListener.ListeningState.Stopping
+  id: Stopping
+  parent: SuperOffice.Messaging.SoMessageListener.ListeningState
+  langs:
+  - csharp
+  - vb
+  name: Stopping
+  nameWithType: SoMessageListener.ListeningState.Stopping
+  fullName: SuperOffice.Messaging.SoMessageListener.ListeningState.Stopping
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nThe message listener is in the process of shutting down.\n"
+  syntax:
+    content: Stopping = 2
+    return:
+      type: SuperOffice.Messaging.SoMessageListener.ListeningState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState.Stopped
+  commentId: F:SuperOffice.Messaging.SoMessageListener.ListeningState.Stopped
+  id: Stopped
+  parent: SuperOffice.Messaging.SoMessageListener.ListeningState
+  langs:
+  - csharp
+  - vb
+  name: Stopped
+  nameWithType: SoMessageListener.ListeningState.Stopped
+  fullName: SuperOffice.Messaging.SoMessageListener.ListeningState.Stopped
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nThe message listener has stopped.\n"
+  syntax:
+    content: Stopped = 3
+    return:
+      type: SuperOffice.Messaging.SoMessageListener.ListeningState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState.Error
+  commentId: F:SuperOffice.Messaging.SoMessageListener.ListeningState.Error
+  id: Error
+  parent: SuperOffice.Messaging.SoMessageListener.ListeningState
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: SoMessageListener.ListeningState.Error
+  fullName: SuperOffice.Messaging.SoMessageListener.ListeningState.Error
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nThe message listener has stopped because an error occured.\n"
+  syntax:
+    content: Error = 4
+    return:
+      type: SuperOffice.Messaging.SoMessageListener.ListeningState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Messaging
+  commentId: N:SuperOffice.Messaging
+  isExternal: true
+  name: SuperOffice.Messaging
+  nameWithType: SuperOffice.Messaging
+  fullName: SuperOffice.Messaging
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoMessageListener.ListeningState, To>()
+  nameWithType: EnumUtil.MapEnums<SoMessageListener.ListeningState, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Messaging.SoMessageListener.ListeningState, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoMessageListener.ListeningState, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Messaging.SoMessageListener.ListeningState, To)()
+  name.vb: MapEnums(Of SoMessageListener.ListeningState, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoMessageListener.ListeningState, To>
+    nameWithType: EnumUtil.MapEnums<SoMessageListener.ListeningState, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Messaging.SoMessageListener.ListeningState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoMessageListener.ListeningState, To)
+    nameWithType: EnumUtil.MapEnums(Of SoMessageListener.ListeningState, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Messaging.SoMessageListener.ListeningState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Messaging.SoMessageListener.ListeningState)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoMessageListener.ListeningState>(SoMessageListener.ListeningState)
+  nameWithType: ObjectExtensions.AssignByReflection<SoMessageListener.ListeningState>(SoMessageListener.ListeningState)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Messaging.SoMessageListener.ListeningState>(SuperOffice.Messaging.SoMessageListener.ListeningState)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoMessageListener.ListeningState)(SoMessageListener.ListeningState)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Messaging.SoMessageListener.ListeningState)(SuperOffice.Messaging.SoMessageListener.ListeningState)
+  name.vb: AssignByReflection(Of SoMessageListener.ListeningState)(SoMessageListener.ListeningState)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoMessageListener.ListeningState>
+    nameWithType: ObjectExtensions.AssignByReflection<SoMessageListener.ListeningState>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Messaging.SoMessageListener.ListeningState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Messaging.SoMessageListener.ListeningState
+    name: SoMessageListener.ListeningState
+    nameWithType: SoMessageListener.ListeningState
+    fullName: SuperOffice.Messaging.SoMessageListener.ListeningState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoMessageListener.ListeningState)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoMessageListener.ListeningState)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Messaging.SoMessageListener.ListeningState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Messaging.SoMessageListener.ListeningState
+    name: SoMessageListener.ListeningState
+    nameWithType: SoMessageListener.ListeningState
+    fullName: SuperOffice.Messaging.SoMessageListener.ListeningState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoMessageListener.ListeningState>()
+  nameWithType: ObjectExtensions.GraphCopy<SoMessageListener.ListeningState>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Messaging.SoMessageListener.ListeningState>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoMessageListener.ListeningState)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Messaging.SoMessageListener.ListeningState)()
+  name.vb: GraphCopy(Of SoMessageListener.ListeningState)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoMessageListener.ListeningState>
+    nameWithType: ObjectExtensions.GraphCopy<SoMessageListener.ListeningState>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Messaging.SoMessageListener.ListeningState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoMessageListener.ListeningState)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoMessageListener.ListeningState)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Messaging.SoMessageListener.ListeningState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoMessageListener.ListeningState, To>()
+  nameWithType: Converters.MapEnums<SoMessageListener.ListeningState, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.SoMessageListener.ListeningState, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoMessageListener.ListeningState, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.SoMessageListener.ListeningState, To)()
+  name.vb: MapEnums(Of SoMessageListener.ListeningState, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoMessageListener.ListeningState, To>
+    nameWithType: Converters.MapEnums<SoMessageListener.ListeningState, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.SoMessageListener.ListeningState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoMessageListener.ListeningState, To)
+    nameWithType: Converters.MapEnums(Of SoMessageListener.ListeningState, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.SoMessageListener.ListeningState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState
+  commentId: T:SuperOffice.Messaging.SoMessageListener.ListeningState
+  parent: SuperOffice.Messaging
+  isExternal: true
+  name: SoMessageListener.ListeningState
+  nameWithType: SoMessageListener.ListeningState
+  fullName: SuperOffice.Messaging.SoMessageListener.ListeningState

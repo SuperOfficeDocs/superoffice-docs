@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CategorizationStatusResponse
+  commentId: T:SuperOffice.WebApi.Data.CategorizationStatusResponse
+  id: CategorizationStatusResponse
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CategorizationStatusResponse.#ctor
+  - SuperOffice.WebApi.Data.CategorizationStatusResponse.ContextIdentifier
+  - SuperOffice.WebApi.Data.CategorizationStatusResponse.CurrentModel
+  - SuperOffice.WebApi.Data.CategorizationStatusResponse.PreviousModel
+  - SuperOffice.WebApi.Data.CategorizationStatusResponse.Status
+  langs:
+  - csharp
+  - vb
+  name: CategorizationStatusResponse
+  nameWithType: CategorizationStatusResponse
+  fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CategorizationStatusResponse.\nCarrier to describe the current categorization training status for a tenant in HugoAI    \n"
+  syntax:
+    content: 'public class CategorizationStatusResponse : Carrier'
+    content.vb: >-
+      Public Class CategorizationStatusResponse
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AIAgent
+    commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CategorizationStatusResponse.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CategorizationStatusResponse.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CategorizationStatusResponse
+  langs:
+  - csharp
+  - vb
+  name: CategorizationStatusResponse()
+  nameWithType: CategorizationStatusResponse.CategorizationStatusResponse()
+  fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse.CategorizationStatusResponse()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CategorizationStatusResponse()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CategorizationStatusResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CategorizationStatusResponse.ContextIdentifier
+  commentId: P:SuperOffice.WebApi.Data.CategorizationStatusResponse.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.WebApi.Data.CategorizationStatusResponse
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: CategorizationStatusResponse.ContextIdentifier
+  fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse.ContextIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContextidentifier to identify customer\n"
+  syntax:
+    content: public virtual string ContextIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContextIdentifier As String
+  overload: SuperOffice.WebApi.Data.CategorizationStatusResponse.ContextIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CategorizationStatusResponse.Status
+  commentId: P:SuperOffice.WebApi.Data.CategorizationStatusResponse.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.CategorizationStatusResponse
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: CategorizationStatusResponse.Status
+  fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDetermines if a training is running, finished or unavailable\n"
+  syntax:
+    content: public virtual string Status { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Status As String
+  overload: SuperOffice.WebApi.Data.CategorizationStatusResponse.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CategorizationStatusResponse.CurrentModel
+  commentId: P:SuperOffice.WebApi.Data.CategorizationStatusResponse.CurrentModel
+  id: CurrentModel
+  parent: SuperOffice.WebApi.Data.CategorizationStatusResponse
+  langs:
+  - csharp
+  - vb
+  name: CurrentModel
+  nameWithType: CategorizationStatusResponse.CurrentModel
+  fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse.CurrentModel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent model information\n"
+  syntax:
+    content: public virtual CategorizationModelDetails CurrentModel { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CategorizationModelDetails
+    content.vb: Public Overridable Property CurrentModel As CategorizationModelDetails
+  overload: SuperOffice.WebApi.Data.CategorizationStatusResponse.CurrentModel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CategorizationStatusResponse.PreviousModel
+  commentId: P:SuperOffice.WebApi.Data.CategorizationStatusResponse.PreviousModel
+  id: PreviousModel
+  parent: SuperOffice.WebApi.Data.CategorizationStatusResponse
+  langs:
+  - csharp
+  - vb
+  name: PreviousModel
+  nameWithType: CategorizationStatusResponse.PreviousModel
+  fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse.PreviousModel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrevious model information\n"
+  syntax:
+    content: public virtual CategorizationModelDetails PreviousModel { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CategorizationModelDetails
+    content.vb: Public Overridable Property PreviousModel As CategorizationModelDetails
+  overload: SuperOffice.WebApi.Data.CategorizationStatusResponse.PreviousModel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AIAgent
+  commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.WebApi.Agents.AIAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CategorizationStatusResponse.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CategorizationStatusResponse.#ctor
+  isExternal: true
+  name: CategorizationStatusResponse
+  nameWithType: CategorizationStatusResponse.CategorizationStatusResponse
+  fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse.CategorizationStatusResponse
+- uid: SuperOffice.WebApi.Data.CategorizationStatusResponse.ContextIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.CategorizationStatusResponse.ContextIdentifier
+  isExternal: true
+  name: ContextIdentifier
+  nameWithType: CategorizationStatusResponse.ContextIdentifier
+  fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse.ContextIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CategorizationStatusResponse.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.CategorizationStatusResponse.Status
+  isExternal: true
+  name: Status
+  nameWithType: CategorizationStatusResponse.Status
+  fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse.Status
+- uid: SuperOffice.WebApi.Data.CategorizationStatusResponse.CurrentModel*
+  commentId: Overload:SuperOffice.WebApi.Data.CategorizationStatusResponse.CurrentModel
+  isExternal: true
+  name: CurrentModel
+  nameWithType: CategorizationStatusResponse.CurrentModel
+  fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse.CurrentModel
+- uid: SuperOffice.WebApi.Data.CategorizationModelDetails
+  commentId: T:SuperOffice.WebApi.Data.CategorizationModelDetails
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CategorizationModelDetails
+  nameWithType: CategorizationModelDetails
+  fullName: SuperOffice.WebApi.Data.CategorizationModelDetails
+- uid: SuperOffice.WebApi.Data.CategorizationStatusResponse.PreviousModel*
+  commentId: Overload:SuperOffice.WebApi.Data.CategorizationStatusResponse.PreviousModel
+  isExternal: true
+  name: PreviousModel
+  nameWithType: CategorizationStatusResponse.PreviousModel
+  fullName: SuperOffice.WebApi.Data.CategorizationStatusResponse.PreviousModel

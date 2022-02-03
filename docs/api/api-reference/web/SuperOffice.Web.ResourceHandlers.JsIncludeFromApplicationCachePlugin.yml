@@ -1,0 +1,1014 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  commentId: T:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  id: JsIncludeFromApplicationCachePlugin
+  parent: SuperOffice.Web.ResourceHandlers
+  children:
+  - SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.#ctor
+  - SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.Cache(System.Object,System.String)
+  - SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.CacheCollection
+  - SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ClearCache(System.String)
+  - SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.GetCacheHash(System.String)
+  - SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.IsCached(System.String)
+  - SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProcessRequest(System.Web.HttpContextBase)
+  - SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: JsIncludeFromApplicationCachePlugin
+  nameWithType: JsIncludeFromApplicationCachePlugin
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: >-
+      [SoResourceHandlerPlugin("jsinclude", 1073741823)]
+
+      public class JsIncludeFromApplicationCachePlugin : ISoResourceHandlerProviderPlugin, IPlugin
+    content.vb: >-
+      <SoResourceHandlerPlugin("jsinclude", 1073741823)>
+
+      Public Class JsIncludeFromApplicationCachePlugin
+          Implements ISoResourceHandlerProviderPlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute
+    ctor: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: jsinclude
+    - type: System.Int32
+      value: 1073741823
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProviderName
+  commentId: F:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProviderName
+  id: ProviderName
+  parent: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: JsIncludeFromApplicationCachePlugin.ProviderName
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProviderName
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public const string ProviderName = "jsinclude"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "jsinclude"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.Cache(System.Object,System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.Cache(System.Object,System.String)
+  id: Cache(System.Object,System.String)
+  parent: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  langs:
+  - csharp
+  - vb
+  name: Cache(Object, String)
+  nameWithType: JsIncludeFromApplicationCachePlugin.Cache(Object, String)
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.Cache(System.Object, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public void Cache(object obj, string module)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: module
+      type: System.String
+    content.vb: Public Sub Cache(obj As Object, module As String)
+  overload: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.Cache*
+  implements:
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache(System.Object,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ClearCache(System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ClearCache(System.String)
+  id: ClearCache(System.String)
+  parent: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  langs:
+  - csharp
+  - vb
+  name: ClearCache(String)
+  nameWithType: JsIncludeFromApplicationCachePlugin.ClearCache(String)
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ClearCache(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public void ClearCache(string module)
+    parameters:
+    - id: module
+      type: System.String
+    content.vb: Public Sub ClearCache(module As String)
+  overload: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ClearCache*
+  implements:
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProcessRequest(System.Web.HttpContextBase)
+  commentId: M:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProcessRequest(System.Web.HttpContextBase)
+  id: ProcessRequest(System.Web.HttpContextBase)
+  parent: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  langs:
+  - csharp
+  - vb
+  name: ProcessRequest(HttpContextBase)
+  nameWithType: JsIncludeFromApplicationCachePlugin.ProcessRequest(HttpContextBase)
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProcessRequest(System.Web.HttpContextBase)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public void ProcessRequest(HttpContextBase context)
+    parameters:
+    - id: context
+      type: System.Web.HttpContextBase
+    content.vb: Public Sub ProcessRequest(context As HttpContextBase)
+  overload: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProcessRequest*
+  implements:
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest(System.Web.HttpContextBase)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.IsCached(System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.IsCached(System.String)
+  id: IsCached(System.String)
+  parent: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  langs:
+  - csharp
+  - vb
+  name: IsCached(String)
+  nameWithType: JsIncludeFromApplicationCachePlugin.IsCached(String)
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.IsCached(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public bool IsCached(string module)
+    parameters:
+    - id: module
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsCached(module As String) As Boolean
+  overload: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.IsCached*
+  implements:
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.GetCacheHash(System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.GetCacheHash(System.String)
+  id: GetCacheHash(System.String)
+  parent: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  langs:
+  - csharp
+  - vb
+  name: GetCacheHash(String)
+  nameWithType: JsIncludeFromApplicationCachePlugin.GetCacheHash(String)
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.GetCacheHash(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public string GetCacheHash(string module)
+    parameters:
+    - id: module
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetCacheHash(module As String) As String
+  overload: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.GetCacheHash*
+  implements:
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.#ctor
+  commentId: M:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  langs:
+  - csharp
+  - vb
+  name: JsIncludeFromApplicationCachePlugin()
+  nameWithType: JsIncludeFromApplicationCachePlugin.JsIncludeFromApplicationCachePlugin()
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.JsIncludeFromApplicationCachePlugin()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public JsIncludeFromApplicationCachePlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.CacheCollection
+  commentId: P:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.CacheCollection
+  id: CacheCollection
+  parent: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  langs:
+  - csharp
+  - vb
+  name: CacheCollection
+  nameWithType: JsIncludeFromApplicationCachePlugin.CacheCollection
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.CacheCollection
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: protected Dictionary<string, CacheContainer> CacheCollection { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.Web.ResourceHandlers.CacheContainer}
+    content.vb: Protected ReadOnly Property CacheCollection As Dictionary(Of String, CacheContainer)
+  overload: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.CacheCollection*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+references:
+- uid: SuperOffice.Web.ResourceHandlers
+  commentId: N:SuperOffice.Web.ResourceHandlers
+  isExternal: true
+  name: SuperOffice.Web.ResourceHandlers
+  nameWithType: SuperOffice.Web.ResourceHandlers
+  fullName: SuperOffice.Web.ResourceHandlers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  commentId: T:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  parent: SuperOffice.Web.ResourceHandlers
+  isExternal: true
+  name: ISoResourceHandlerProviderPlugin
+  nameWithType: ISoResourceHandlerProviderPlugin
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.Cache*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.Cache
+  isExternal: true
+  name: Cache
+  nameWithType: JsIncludeFromApplicationCachePlugin.Cache
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.Cache
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache(System.Object,System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache(System.Object,System.String)
+  parent: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  isExternal: true
+  name: Cache(Object, String)
+  nameWithType: ISoResourceHandlerProviderPlugin.Cache(Object, String)
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache(System.Object, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache(System.Object,System.String)
+    name: Cache
+    nameWithType: ISoResourceHandlerProviderPlugin.Cache
+    fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache(System.Object,System.String)
+    name: Cache
+    nameWithType: ISoResourceHandlerProviderPlugin.Cache
+    fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ClearCache*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ClearCache
+  isExternal: true
+  name: ClearCache
+  nameWithType: JsIncludeFromApplicationCachePlugin.ClearCache
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ClearCache
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache(System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache(System.String)
+  parent: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  isExternal: true
+  name: ClearCache(String)
+  nameWithType: ISoResourceHandlerProviderPlugin.ClearCache(String)
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache(System.String)
+    name: ClearCache
+    nameWithType: ISoResourceHandlerProviderPlugin.ClearCache
+    fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache(System.String)
+    name: ClearCache
+    nameWithType: ISoResourceHandlerProviderPlugin.ClearCache
+    fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProcessRequest*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProcessRequest
+  isExternal: true
+  name: ProcessRequest
+  nameWithType: JsIncludeFromApplicationCachePlugin.ProcessRequest
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.ProcessRequest
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest(System.Web.HttpContextBase)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest(System.Web.HttpContextBase)
+  parent: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  isExternal: true
+  name: ProcessRequest(HttpContextBase)
+  nameWithType: ISoResourceHandlerProviderPlugin.ProcessRequest(HttpContextBase)
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest(System.Web.HttpContextBase)
+  spec.csharp:
+  - uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest(System.Web.HttpContextBase)
+    name: ProcessRequest
+    nameWithType: ISoResourceHandlerProviderPlugin.ProcessRequest
+    fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.HttpContextBase
+    name: HttpContextBase
+    nameWithType: HttpContextBase
+    fullName: System.Web.HttpContextBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest(System.Web.HttpContextBase)
+    name: ProcessRequest
+    nameWithType: ISoResourceHandlerProviderPlugin.ProcessRequest
+    fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.HttpContextBase
+    name: HttpContextBase
+    nameWithType: HttpContextBase
+    fullName: System.Web.HttpContextBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Web.HttpContextBase
+  isExternal: true
+  name: HttpContextBase
+  nameWithType: HttpContextBase
+  fullName: System.Web.HttpContextBase
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.IsCached*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.IsCached
+  isExternal: true
+  name: IsCached
+  nameWithType: JsIncludeFromApplicationCachePlugin.IsCached
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.IsCached
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached(System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached(System.String)
+  parent: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  isExternal: true
+  name: IsCached(String)
+  nameWithType: ISoResourceHandlerProviderPlugin.IsCached(String)
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached(System.String)
+    name: IsCached
+    nameWithType: ISoResourceHandlerProviderPlugin.IsCached
+    fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached(System.String)
+    name: IsCached
+    nameWithType: ISoResourceHandlerProviderPlugin.IsCached
+    fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.GetCacheHash*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.GetCacheHash
+  isExternal: true
+  name: GetCacheHash
+  nameWithType: JsIncludeFromApplicationCachePlugin.GetCacheHash
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.GetCacheHash
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash(System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash(System.String)
+  parent: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  isExternal: true
+  name: GetCacheHash(String)
+  nameWithType: ISoResourceHandlerProviderPlugin.GetCacheHash(String)
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash(System.String)
+    name: GetCacheHash
+    nameWithType: ISoResourceHandlerProviderPlugin.GetCacheHash
+    fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash(System.String)
+    name: GetCacheHash
+    nameWithType: ISoResourceHandlerProviderPlugin.GetCacheHash
+    fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.#ctor*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.#ctor
+  isExternal: true
+  name: JsIncludeFromApplicationCachePlugin
+  nameWithType: JsIncludeFromApplicationCachePlugin.JsIncludeFromApplicationCachePlugin
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.JsIncludeFromApplicationCachePlugin
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.CacheCollection*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.CacheCollection
+  isExternal: true
+  name: CacheCollection
+  nameWithType: JsIncludeFromApplicationCachePlugin.CacheCollection
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin.CacheCollection
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.Web.ResourceHandlers.CacheContainer}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.Web.ResourceHandlers.CacheContainer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, CacheContainer>
+  nameWithType: Dictionary<String, CacheContainer>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.Web.ResourceHandlers.CacheContainer>
+  nameWithType.vb: Dictionary(Of String, CacheContainer)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.Web.ResourceHandlers.CacheContainer)
+  name.vb: Dictionary(Of String, CacheContainer)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Web.ResourceHandlers.CacheContainer
+    name: CacheContainer
+    nameWithType: CacheContainer
+    fullName: SuperOffice.Web.ResourceHandlers.CacheContainer
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Web.ResourceHandlers.CacheContainer
+    name: CacheContainer
+    nameWithType: CacheContainer
+    fullName: SuperOffice.Web.ResourceHandlers.CacheContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

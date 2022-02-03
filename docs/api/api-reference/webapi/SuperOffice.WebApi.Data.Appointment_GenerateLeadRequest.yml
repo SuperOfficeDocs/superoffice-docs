@@ -1,0 +1,543 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  id: Appointment_GenerateLeadRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.AssociateIdForNewContact
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsContact
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsFirstname
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsLastname
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadContact
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadDescription
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonEmail
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonFirstname
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonLastname
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPhoneNumber
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.Relation
+  - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.RelationId
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GenerateLeadRequest
+  nameWithType: Appointment_GenerateLeadRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GenerateLeadRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GenerateLeadRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GenerateLeadRequest()
+  nameWithType: Appointment_GenerateLeadRequest.Appointment_GenerateLeadRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.Appointment_GenerateLeadRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GenerateLeadRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.AssociateIdForNewContact
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.AssociateIdForNewContact
+  id: AssociateIdForNewContact
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateIdForNewContact
+  nameWithType: Appointment_GenerateLeadRequest.AssociateIdForNewContact
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.AssociateIdForNewContact
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateIdForNewContact { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateIdForNewContact As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.AssociateIdForNewContact*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadDescription
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadDescription
+  id: LeadDescription
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: LeadDescription
+  nameWithType: Appointment_GenerateLeadRequest.LeadDescription
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LeadDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LeadDescription As String
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.Relation
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.Relation
+  id: Relation
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: Relation
+  nameWithType: Appointment_GenerateLeadRequest.Relation
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.Relation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Relation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Relation As String
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.Relation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.RelationId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.RelationId
+  id: RelationId
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: RelationId
+  nameWithType: Appointment_GenerateLeadRequest.RelationId
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.RelationId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int RelationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RelationId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.RelationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadContact
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadContact
+  id: LeadContact
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: LeadContact
+  nameWithType: Appointment_GenerateLeadRequest.LeadContact
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadContact
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LeadContact { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LeadContact As String
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadContact*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonFirstname
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonFirstname
+  id: LeadPersonFirstname
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: LeadPersonFirstname
+  nameWithType: Appointment_GenerateLeadRequest.LeadPersonFirstname
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonFirstname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LeadPersonFirstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LeadPersonFirstname As String
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonFirstname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonLastname
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonLastname
+  id: LeadPersonLastname
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: LeadPersonLastname
+  nameWithType: Appointment_GenerateLeadRequest.LeadPersonLastname
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonLastname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LeadPersonLastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LeadPersonLastname As String
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonLastname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonEmail
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonEmail
+  id: LeadPersonEmail
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: LeadPersonEmail
+  nameWithType: Appointment_GenerateLeadRequest.LeadPersonEmail
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonEmail
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LeadPersonEmail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LeadPersonEmail As String
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonEmail*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPhoneNumber
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPhoneNumber
+  id: LeadPhoneNumber
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: LeadPhoneNumber
+  nameWithType: Appointment_GenerateLeadRequest.LeadPhoneNumber
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPhoneNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LeadPhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LeadPhoneNumber As String
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsContact
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsContact
+  id: CreatorsContact
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: CreatorsContact
+  nameWithType: Appointment_GenerateLeadRequest.CreatorsContact
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsContact
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string CreatorsContact { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CreatorsContact As String
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsContact*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsFirstname
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsFirstname
+  id: CreatorsFirstname
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: CreatorsFirstname
+  nameWithType: Appointment_GenerateLeadRequest.CreatorsFirstname
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsFirstname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string CreatorsFirstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CreatorsFirstname As String
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsFirstname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsLastname
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsLastname
+  id: CreatorsLastname
+  parent: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
+  langs:
+  - csharp
+  - vb
+  name: CreatorsLastname
+  nameWithType: Appointment_GenerateLeadRequest.CreatorsLastname
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsLastname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string CreatorsLastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CreatorsLastname As String
+  overload: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsLastname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.#ctor
+  isExternal: true
+  name: Appointment_GenerateLeadRequest
+  nameWithType: Appointment_GenerateLeadRequest.Appointment_GenerateLeadRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.Appointment_GenerateLeadRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.AssociateIdForNewContact*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.AssociateIdForNewContact
+  isExternal: true
+  name: AssociateIdForNewContact
+  nameWithType: Appointment_GenerateLeadRequest.AssociateIdForNewContact
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.AssociateIdForNewContact
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadDescription
+  isExternal: true
+  name: LeadDescription
+  nameWithType: Appointment_GenerateLeadRequest.LeadDescription
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadDescription
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.Relation*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.Relation
+  isExternal: true
+  name: Relation
+  nameWithType: Appointment_GenerateLeadRequest.Relation
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.Relation
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.RelationId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.RelationId
+  isExternal: true
+  name: RelationId
+  nameWithType: Appointment_GenerateLeadRequest.RelationId
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.RelationId
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadContact*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadContact
+  isExternal: true
+  name: LeadContact
+  nameWithType: Appointment_GenerateLeadRequest.LeadContact
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadContact
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonFirstname*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonFirstname
+  isExternal: true
+  name: LeadPersonFirstname
+  nameWithType: Appointment_GenerateLeadRequest.LeadPersonFirstname
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonFirstname
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonLastname*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonLastname
+  isExternal: true
+  name: LeadPersonLastname
+  nameWithType: Appointment_GenerateLeadRequest.LeadPersonLastname
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonLastname
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonEmail*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonEmail
+  isExternal: true
+  name: LeadPersonEmail
+  nameWithType: Appointment_GenerateLeadRequest.LeadPersonEmail
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPersonEmail
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPhoneNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPhoneNumber
+  isExternal: true
+  name: LeadPhoneNumber
+  nameWithType: Appointment_GenerateLeadRequest.LeadPhoneNumber
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.LeadPhoneNumber
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsContact*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsContact
+  isExternal: true
+  name: CreatorsContact
+  nameWithType: Appointment_GenerateLeadRequest.CreatorsContact
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsContact
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsFirstname*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsFirstname
+  isExternal: true
+  name: CreatorsFirstname
+  nameWithType: Appointment_GenerateLeadRequest.CreatorsFirstname
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsFirstname
+- uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsLastname*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsLastname
+  isExternal: true
+  name: CreatorsLastname
+  nameWithType: Appointment_GenerateLeadRequest.CreatorsLastname
+  fullName: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest.CreatorsLastname

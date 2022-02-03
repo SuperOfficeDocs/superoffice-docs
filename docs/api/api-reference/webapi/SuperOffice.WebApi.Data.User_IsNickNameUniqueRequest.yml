@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest
+  commentId: T:SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest
+  id: User_IsNickNameUniqueRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.#ctor
+  - SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.AssociateId
+  - SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.NickName
+  langs:
+  - csharp
+  - vb
+  name: User_IsNickNameUniqueRequest
+  nameWithType: User_IsNickNameUniqueRequest
+  fullName: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_IsNickNameUniqueRequest : Object'
+    content.vb: >-
+      Public Class User_IsNickNameUniqueRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest
+  langs:
+  - csharp
+  - vb
+  name: User_IsNickNameUniqueRequest()
+  nameWithType: User_IsNickNameUniqueRequest.User_IsNickNameUniqueRequest()
+  fullName: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.User_IsNickNameUniqueRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_IsNickNameUniqueRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: User_IsNickNameUniqueRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.NickName
+  commentId: P:SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.NickName
+  id: NickName
+  parent: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest
+  langs:
+  - csharp
+  - vb
+  name: NickName
+  nameWithType: User_IsNickNameUniqueRequest.NickName
+  fullName: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.NickName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string NickName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NickName As String
+  overload: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.NickName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.#ctor
+  isExternal: true
+  name: User_IsNickNameUniqueRequest
+  nameWithType: User_IsNickNameUniqueRequest.User_IsNickNameUniqueRequest
+  fullName: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.User_IsNickNameUniqueRequest
+- uid: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: User_IsNickNameUniqueRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.NickName*
+  commentId: Overload:SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.NickName
+  isExternal: true
+  name: NickName
+  nameWithType: User_IsNickNameUniqueRequest.NickName
+  fullName: SuperOffice.WebApi.Data.User_IsNickNameUniqueRequest.NickName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

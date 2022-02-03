@@ -1,0 +1,702 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatMessage
+  commentId: T:SuperOffice.WebApi.Data.ChatMessage
+  id: ChatMessage
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatMessage.#ctor
+  - SuperOffice.WebApi.Data.ChatMessage.Author
+  - SuperOffice.WebApi.Data.ChatMessage.ChatMessageId
+  - SuperOffice.WebApi.Data.ChatMessage.ChatSessionId
+  - SuperOffice.WebApi.Data.ChatMessage.Message
+  - SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer
+  - SuperOffice.WebApi.Data.ChatMessage.SpecialParam
+  - SuperOffice.WebApi.Data.ChatMessage.SpecialType
+  - SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+  - SuperOffice.WebApi.Data.ChatMessage.Type
+  - SuperOffice.WebApi.Data.ChatMessage.Type_String
+  - SuperOffice.WebApi.Data.ChatMessage.WhenPosted
+  langs:
+  - csharp
+  - vb
+  name: ChatMessage
+  nameWithType: ChatMessage
+  fullName: SuperOffice.WebApi.Data.ChatMessage
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ChatMessage.\nA message in a chat session    \n"
+  syntax:
+    content: 'public class ChatMessage : Object'
+    content.vb: >-
+      Public Class ChatMessage
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ChatAgent
+    commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatMessage.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ChatMessage.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: ChatMessage()
+  nameWithType: ChatMessage.ChatMessage()
+  fullName: SuperOffice.WebApi.Data.ChatMessage.ChatMessage()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ChatMessage()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ChatMessage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatMessage.ChatMessageId
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.ChatMessageId
+  id: ChatMessageId
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: ChatMessageId
+  nameWithType: ChatMessage.ChatMessageId
+  fullName: SuperOffice.WebApi.Data.ChatMessage.ChatMessageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int ChatMessageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ChatMessageId As Integer
+  overload: SuperOffice.WebApi.Data.ChatMessage.ChatMessageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatMessage.ChatSessionId
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.ChatSessionId
+  id: ChatSessionId
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionId
+  nameWithType: ChatMessage.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.ChatMessage.ChatSessionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe reference to the associated chat session.\n"
+  syntax:
+    content: public virtual int ChatSessionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ChatSessionId As Integer
+  overload: SuperOffice.WebApi.Data.ChatMessage.ChatSessionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatMessage.Type_String
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: ChatMessage.Type_String
+  fullName: SuperOffice.WebApi.Data.ChatMessage.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of the message.\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.ChatMessage.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatMessage.Type
+    commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatMessage.Type
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ChatMessage.Type
+  fullName: SuperOffice.WebApi.Data.ChatMessage.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of the message.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ChatMessageType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ChatMessageType}
+    content.vb: Public Property Type As Nullable(Of ChatMessageType)
+  overload: SuperOffice.WebApi.Data.ChatMessage.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatMessage.Type_String
+    commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatMessage.Message
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ChatMessage.Message
+  fullName: SuperOffice.WebApi.Data.ChatMessage.Message
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe message.\n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.WebApi.Data.ChatMessage.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatMessage.Author
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.Author
+  id: Author
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: ChatMessage.Author
+  fullName: SuperOffice.WebApi.Data.ChatMessage.Author
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe author of the message.\n"
+  syntax:
+    content: public virtual string Author { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Author As String
+  overload: SuperOffice.WebApi.Data.ChatMessage.Author*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer
+  id: ReadByCustomer
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: ReadByCustomer
+  nameWithType: ChatMessage.ReadByCustomer
+  fullName: SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the message has been read by the customer or not.\n"
+  syntax:
+    content: public virtual short ReadByCustomer { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ReadByCustomer As Short
+  overload: SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+  id: SpecialType_String
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: SpecialType_String
+  nameWithType: ChatMessage.SpecialType_String
+  fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnum indicating if it is a special message, such as an URL redirection, etc.\nRaw string enum value.\n"
+  syntax:
+    content: public string SpecialType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SpecialType_String As String
+  overload: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatMessage.SpecialType
+    commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType
+  id: SpecialType
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: SpecialType
+  nameWithType: ChatMessage.SpecialType
+  fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnum indicating if it is a special message, such as an URL redirection, etc.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ChatMessageSpecialType> SpecialType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ChatMessageSpecialType}
+    content.vb: Public Property SpecialType As Nullable(Of ChatMessageSpecialType)
+  overload: SuperOffice.WebApi.Data.ChatMessage.SpecialType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+    commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialParam
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialParam
+  id: SpecialParam
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: SpecialParam
+  nameWithType: ChatMessage.SpecialParam
+  fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialParam
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSpecial parameter for the special_type.\n"
+  syntax:
+    content: public virtual string SpecialParam { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SpecialParam As String
+  overload: SuperOffice.WebApi.Data.ChatMessage.SpecialParam*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatMessage.WhenPosted
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.WhenPosted
+  id: WhenPosted
+  parent: SuperOffice.WebApi.Data.ChatMessage
+  langs:
+  - csharp
+  - vb
+  name: WhenPosted
+  nameWithType: ChatMessage.WhenPosted
+  fullName: SuperOffice.WebApi.Data.ChatMessage.WhenPosted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen the message was posted (UTC timestamp).\n"
+  syntax:
+    content: public virtual DateTime WhenPosted { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property WhenPosted As DateTime
+  overload: SuperOffice.WebApi.Data.ChatMessage.WhenPosted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.ChatAgent
+  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.WebApi.Agents.ChatAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ChatMessage.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.#ctor
+  isExternal: true
+  name: ChatMessage
+  nameWithType: ChatMessage.ChatMessage
+  fullName: SuperOffice.WebApi.Data.ChatMessage.ChatMessage
+- uid: SuperOffice.WebApi.Data.ChatMessage.ChatMessageId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.ChatMessageId
+  isExternal: true
+  name: ChatMessageId
+  nameWithType: ChatMessage.ChatMessageId
+  fullName: SuperOffice.WebApi.Data.ChatMessage.ChatMessageId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ChatMessage.ChatSessionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.ChatSessionId
+  isExternal: true
+  name: ChatSessionId
+  nameWithType: ChatMessage.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.ChatMessage.ChatSessionId
+- uid: SuperOffice.WebApi.Data.ChatMessage.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: ChatMessage.Type_String
+  fullName: SuperOffice.WebApi.Data.ChatMessage.Type_String
+- uid: SuperOffice.WebApi.Data.ChatMessage.Type
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ChatMessage.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.Type
+  isExternal: true
+  name: Type
+  nameWithType: ChatMessage.Type
+  fullName: SuperOffice.WebApi.Data.ChatMessage.Type
+- uid: SuperOffice.WebApi.Data.ChatMessage.Type_String
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ChatMessageType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ChatMessageType}'
+  definition: System.Nullable`1
+  name: Nullable<ChatMessageType>
+  nameWithType: Nullable<ChatMessageType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ChatMessageType>
+  nameWithType.vb: Nullable(Of ChatMessageType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ChatMessageType)
+  name.vb: Nullable(Of ChatMessageType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ChatMessageType
+    name: ChatMessageType
+    nameWithType: ChatMessageType
+    fullName: SuperOffice.WebApi.Data.ChatMessageType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ChatMessageType
+    name: ChatMessageType
+    nameWithType: ChatMessageType
+    fullName: SuperOffice.WebApi.Data.ChatMessageType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ChatMessage.Message*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.Message
+  isExternal: true
+  name: Message
+  nameWithType: ChatMessage.Message
+  fullName: SuperOffice.WebApi.Data.ChatMessage.Message
+- uid: SuperOffice.WebApi.Data.ChatMessage.Author*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.Author
+  isExternal: true
+  name: Author
+  nameWithType: ChatMessage.Author
+  fullName: SuperOffice.WebApi.Data.ChatMessage.Author
+- uid: SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer
+  isExternal: true
+  name: ReadByCustomer
+  nameWithType: ChatMessage.ReadByCustomer
+  fullName: SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+  isExternal: true
+  name: SpecialType_String
+  nameWithType: ChatMessage.SpecialType_String
+  fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.SpecialType
+  isExternal: true
+  name: SpecialType
+  nameWithType: ChatMessage.SpecialType
+  fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialType
+- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ChatMessageSpecialType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ChatMessageSpecialType}'
+  definition: System.Nullable`1
+  name: Nullable<ChatMessageSpecialType>
+  nameWithType: Nullable<ChatMessageSpecialType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ChatMessageSpecialType>
+  nameWithType.vb: Nullable(Of ChatMessageSpecialType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ChatMessageSpecialType)
+  name.vb: Nullable(Of ChatMessageSpecialType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ChatMessageSpecialType
+    name: ChatMessageSpecialType
+    nameWithType: ChatMessageSpecialType
+    fullName: SuperOffice.WebApi.Data.ChatMessageSpecialType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ChatMessageSpecialType
+    name: ChatMessageSpecialType
+    nameWithType: ChatMessageSpecialType
+    fullName: SuperOffice.WebApi.Data.ChatMessageSpecialType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialParam*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.SpecialParam
+  isExternal: true
+  name: SpecialParam
+  nameWithType: ChatMessage.SpecialParam
+  fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialParam
+- uid: SuperOffice.WebApi.Data.ChatMessage.WhenPosted*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.WhenPosted
+  isExternal: true
+  name: WhenPosted
+  nameWithType: ChatMessage.WhenPosted
+  fullName: SuperOffice.WebApi.Data.ChatMessage.WhenPosted
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  id: SoDialogBase.RadioListItemDefinition
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean)
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.String)
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Caption
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.DescriptionText
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Enabled
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Hidden
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Selected
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.UsePadding
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Value
+  langs:
+  - csharp
+  - vb
+  name: SoDialogBase.RadioListItemDefinition
+  nameWithType: SoDialogBase.RadioListItemDefinition
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public class RadioListItemDefinition
+    content.vb: Public Class RadioListItemDefinition
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean)
+  id: '#ctor(System.String,System.String,System.Boolean,System.Boolean)'
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  langs:
+  - csharp
+  - vb
+  name: RadioListItemDefinition(String, String, Boolean, Boolean)
+  nameWithType: SoDialogBase.RadioListItemDefinition.RadioListItemDefinition(String, String, Boolean, Boolean)
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.RadioListItemDefinition(System.String, System.String, System.Boolean, System.Boolean)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public RadioListItemDefinition(string caption, string value, bool selected, bool enabled)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: value
+      type: System.String
+    - id: selected
+      type: System.Boolean
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Sub New(caption As String, value As String, selected As Boolean, enabled As Boolean)
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  id: '#ctor(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)'
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  langs:
+  - csharp
+  - vb
+  name: RadioListItemDefinition(String, String, Boolean, Boolean, Boolean)
+  nameWithType: SoDialogBase.RadioListItemDefinition.RadioListItemDefinition(String, String, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.RadioListItemDefinition(System.String, System.String, System.Boolean, System.Boolean, System.Boolean)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public RadioListItemDefinition(string caption, string value, bool selected, bool enabled, bool usePadding)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: value
+      type: System.String
+    - id: selected
+      type: System.Boolean
+    - id: enabled
+      type: System.Boolean
+    - id: usePadding
+      type: System.Boolean
+    content.vb: Public Sub New(caption As String, value As String, selected As Boolean, enabled As Boolean, usePadding As Boolean)
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.String)
+  id: '#ctor(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.String)'
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  langs:
+  - csharp
+  - vb
+  name: RadioListItemDefinition(String, String, Boolean, Boolean, Boolean, String)
+  nameWithType: SoDialogBase.RadioListItemDefinition.RadioListItemDefinition(String, String, Boolean, Boolean, Boolean, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.RadioListItemDefinition(System.String, System.String, System.Boolean, System.Boolean, System.Boolean, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public RadioListItemDefinition(string caption, string value, bool selected, bool enabled, bool usePadding, string descriptionText)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: value
+      type: System.String
+    - id: selected
+      type: System.Boolean
+    - id: enabled
+      type: System.Boolean
+    - id: usePadding
+      type: System.Boolean
+    - id: descriptionText
+      type: System.String
+    content.vb: Public Sub New(caption As String, value As String, selected As Boolean, enabled As Boolean, usePadding As Boolean, descriptionText As String)
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.UsePadding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.UsePadding
+  id: UsePadding
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  langs:
+  - csharp
+  - vb
+  name: UsePadding
+  nameWithType: SoDialogBase.RadioListItemDefinition.UsePadding
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.UsePadding
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public bool UsePadding { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UsePadding As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.UsePadding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Hidden
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Hidden
+  id: Hidden
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: SoDialogBase.RadioListItemDefinition.Hidden
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Hidden
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public bool Hidden { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Hidden As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Hidden*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Value
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Value
+  id: Value
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SoDialogBase.RadioListItemDefinition.Value
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Value
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Caption
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Caption
+  id: Caption
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: SoDialogBase.RadioListItemDefinition.Caption
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Caption
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Caption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Caption As String
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Selected
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Selected
+  id: Selected
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: SoDialogBase.RadioListItemDefinition.Selected
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Selected
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public bool Selected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Selected As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Selected*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Enabled
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Enabled
+  id: Enabled
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: SoDialogBase.RadioListItemDefinition.Enabled
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Enabled
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Enabled As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Enabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.DescriptionText
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.DescriptionText
+  id: DescriptionText
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+  langs:
+  - csharp
+  - vb
+  name: DescriptionText
+  nameWithType: SoDialogBase.RadioListItemDefinition.DescriptionText
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.DescriptionText
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string DescriptionText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DescriptionText As String
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.DescriptionText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.#ctor
+  isExternal: true
+  name: RadioListItemDefinition
+  nameWithType: SoDialogBase.RadioListItemDefinition.RadioListItemDefinition
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.RadioListItemDefinition
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.UsePadding*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.UsePadding
+  isExternal: true
+  name: UsePadding
+  nameWithType: SoDialogBase.RadioListItemDefinition.UsePadding
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.UsePadding
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Hidden*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Hidden
+  isExternal: true
+  name: Hidden
+  nameWithType: SoDialogBase.RadioListItemDefinition.Hidden
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Hidden
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Value*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Value
+  isExternal: true
+  name: Value
+  nameWithType: SoDialogBase.RadioListItemDefinition.Value
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Value
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Caption*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Caption
+  isExternal: true
+  name: Caption
+  nameWithType: SoDialogBase.RadioListItemDefinition.Caption
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Caption
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Selected*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Selected
+  isExternal: true
+  name: Selected
+  nameWithType: SoDialogBase.RadioListItemDefinition.Selected
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Selected
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Enabled*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Enabled
+  isExternal: true
+  name: Enabled
+  nameWithType: SoDialogBase.RadioListItemDefinition.Enabled
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.Enabled
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.DescriptionText*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.DescriptionText
+  isExternal: true
+  name: DescriptionText
+  nameWithType: SoDialogBase.RadioListItemDefinition.DescriptionText
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition.DescriptionText

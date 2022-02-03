@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dictionary.CodeGenerationState
+  commentId: T:SuperOffice.Data.Dictionary.CodeGenerationState
+  id: CodeGenerationState
+  parent: SuperOffice.Data.Dictionary
+  children:
+  - SuperOffice.Data.Dictionary.CodeGenerationState.GeneratedAndInDatabase
+  - SuperOffice.Data.Dictionary.CodeGenerationState.GeneratedButMissingFromDatabase
+  - SuperOffice.Data.Dictionary.CodeGenerationState.InDatabaseButNotGenerated
+  langs:
+  - csharp
+  - vb
+  name: CodeGenerationState
+  nameWithType: CodeGenerationState
+  fullName: SuperOffice.Data.Dictionary.CodeGenerationState
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nRelation between the generated code in NetServer and the actual database state, applies to both tables and fields\n"
+  syntax:
+    content: public enum CodeGenerationState
+    content.vb: Public Enum CodeGenerationState
+  extensionMethods:
+  - SuperOffice.Data.Dictionary.CodeGenerationState.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dictionary.CodeGenerationState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dictionary.CodeGenerationState)
+  - SuperOffice.Data.Dictionary.CodeGenerationState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.Dictionary.CodeGenerationState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.Dictionary.CodeGenerationState.GeneratedAndInDatabase
+  commentId: F:SuperOffice.Data.Dictionary.CodeGenerationState.GeneratedAndInDatabase
+  id: GeneratedAndInDatabase
+  parent: SuperOffice.Data.Dictionary.CodeGenerationState
+  langs:
+  - csharp
+  - vb
+  name: GeneratedAndInDatabase
+  nameWithType: CodeGenerationState.GeneratedAndInDatabase
+  fullName: SuperOffice.Data.Dictionary.CodeGenerationState.GeneratedAndInDatabase
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nThe normal state for &apos;our&apos; stuff: Known at generation time, and present in the database\n"
+  syntax:
+    content: GeneratedAndInDatabase = 0
+    return:
+      type: SuperOffice.Data.Dictionary.CodeGenerationState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dictionary.CodeGenerationState.GeneratedButMissingFromDatabase
+  commentId: F:SuperOffice.Data.Dictionary.CodeGenerationState.GeneratedButMissingFromDatabase
+  id: GeneratedButMissingFromDatabase
+  parent: SuperOffice.Data.Dictionary.CodeGenerationState
+  langs:
+  - csharp
+  - vb
+  name: GeneratedButMissingFromDatabase
+  nameWithType: CodeGenerationState.GeneratedButMissingFromDatabase
+  fullName: SuperOffice.Data.Dictionary.CodeGenerationState.GeneratedButMissingFromDatabase
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nProbably a NetServer newer than the database: Code generation, but the object is not in the database\n"
+  syntax:
+    content: GeneratedButMissingFromDatabase = 1
+    return:
+      type: SuperOffice.Data.Dictionary.CodeGenerationState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dictionary.CodeGenerationState.InDatabaseButNotGenerated
+  commentId: F:SuperOffice.Data.Dictionary.CodeGenerationState.InDatabaseButNotGenerated
+  id: InDatabaseButNotGenerated
+  parent: SuperOffice.Data.Dictionary.CodeGenerationState
+  langs:
+  - csharp
+  - vb
+  name: InDatabaseButNotGenerated
+  nameWithType: CodeGenerationState.InDatabaseButNotGenerated
+  fullName: SuperOffice.Data.Dictionary.CodeGenerationState.InDatabaseButNotGenerated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nPartner addition, or an obsolete NetServer: Object in database but not known to our code\n"
+  syntax:
+    content: InDatabaseButNotGenerated = 2
+    return:
+      type: SuperOffice.Data.Dictionary.CodeGenerationState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.Dictionary.CodeGenerationState.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CodeGenerationState, To>()
+  nameWithType: EnumUtil.MapEnums<CodeGenerationState, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.CodeGenerationState, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CodeGenerationState, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.CodeGenerationState, To)()
+  name.vb: MapEnums(Of CodeGenerationState, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CodeGenerationState, To>
+    nameWithType: EnumUtil.MapEnums<CodeGenerationState, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.CodeGenerationState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CodeGenerationState, To)
+    nameWithType: EnumUtil.MapEnums(Of CodeGenerationState, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.CodeGenerationState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dictionary.CodeGenerationState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dictionary.CodeGenerationState)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CodeGenerationState>(CodeGenerationState)
+  nameWithType: ObjectExtensions.AssignByReflection<CodeGenerationState>(CodeGenerationState)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dictionary.CodeGenerationState>(SuperOffice.Data.Dictionary.CodeGenerationState)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CodeGenerationState)(CodeGenerationState)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dictionary.CodeGenerationState)(SuperOffice.Data.Dictionary.CodeGenerationState)
+  name.vb: AssignByReflection(Of CodeGenerationState)(CodeGenerationState)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CodeGenerationState>
+    nameWithType: ObjectExtensions.AssignByReflection<CodeGenerationState>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dictionary.CodeGenerationState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.CodeGenerationState
+    name: CodeGenerationState
+    nameWithType: CodeGenerationState
+    fullName: SuperOffice.Data.Dictionary.CodeGenerationState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CodeGenerationState)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CodeGenerationState)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dictionary.CodeGenerationState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.CodeGenerationState
+    name: CodeGenerationState
+    nameWithType: CodeGenerationState
+    fullName: SuperOffice.Data.Dictionary.CodeGenerationState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dictionary.CodeGenerationState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CodeGenerationState>()
+  nameWithType: ObjectExtensions.GraphCopy<CodeGenerationState>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dictionary.CodeGenerationState>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CodeGenerationState)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dictionary.CodeGenerationState)()
+  name.vb: GraphCopy(Of CodeGenerationState)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CodeGenerationState>
+    nameWithType: ObjectExtensions.GraphCopy<CodeGenerationState>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dictionary.CodeGenerationState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CodeGenerationState)
+    nameWithType: ObjectExtensions.GraphCopy(Of CodeGenerationState)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dictionary.CodeGenerationState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dictionary.CodeGenerationState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CodeGenerationState, To>()
+  nameWithType: Converters.MapEnums<CodeGenerationState, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.CodeGenerationState, To>()
+  nameWithType.vb: Converters.MapEnums(Of CodeGenerationState, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.CodeGenerationState, To)()
+  name.vb: MapEnums(Of CodeGenerationState, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CodeGenerationState, To>
+    nameWithType: Converters.MapEnums<CodeGenerationState, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.CodeGenerationState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CodeGenerationState, To)
+    nameWithType: Converters.MapEnums(Of CodeGenerationState, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.CodeGenerationState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Dictionary.CodeGenerationState
+  commentId: T:SuperOffice.Data.Dictionary.CodeGenerationState
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: CodeGenerationState
+  nameWithType: CodeGenerationState
+  fullName: SuperOffice.Data.Dictionary.CodeGenerationState

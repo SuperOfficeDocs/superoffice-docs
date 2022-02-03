@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceDailyPattern
+  id: RecurrenceDailyPattern
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryCyclicDay
+  - SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryWeekday
+  - SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryWorkday
+  - SuperOffice.WebApi.Data.RecurrenceDailyPattern.Unknown
+  - SuperOffice.WebApi.Data.RecurrenceDailyPattern.value__
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceDailyPattern
+  nameWithType: RecurrenceDailyPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnumerator describing the different patterns for a daily recurrence\n"
+  syntax:
+    content: 'public sealed class RecurrenceDailyPattern : Enum'
+    content.vb: >-
+      Public NotInheritable Class RecurrenceDailyPattern
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.RecurrenceDailyPattern.value__
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceDailyPattern.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RecurrenceDailyPattern.value__
+  fullName: SuperOffice.WebApi.Data.RecurrenceDailyPattern.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceDailyPattern.Unknown
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceDailyPattern.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: RecurrenceDailyPattern.Unknown
+  fullName: SuperOffice.WebApi.Data.RecurrenceDailyPattern.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: 0: Unknown/undecided type\n"
+  syntax:
+    content: public const RecurrenceDailyPattern Unknown
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+    content.vb: Public Const Unknown As RecurrenceDailyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryWorkday
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryWorkday
+  id: EveryWorkday
+  parent: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+  langs:
+  - csharp
+  - vb
+  name: EveryWorkday
+  nameWithType: RecurrenceDailyPattern.EveryWorkday
+  fullName: SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryWorkday
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The recurrence is for every workday (Mon-Fri)\n"
+  syntax:
+    content: public const RecurrenceDailyPattern EveryWorkday
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+    content.vb: Public Const EveryWorkday As RecurrenceDailyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryWeekday
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryWeekday
+  id: EveryWeekday
+  parent: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+  langs:
+  - csharp
+  - vb
+  name: EveryWeekday
+  nameWithType: RecurrenceDailyPattern.EveryWeekday
+  fullName: SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryWeekday
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The recurrence is for every workday (Mon-Sun)\n"
+  syntax:
+    content: public const RecurrenceDailyPattern EveryWeekday
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+    content.vb: Public Const EveryWeekday As RecurrenceDailyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryCyclicDay
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryCyclicDay
+  id: EveryCyclicDay
+  parent: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+  langs:
+  - csharp
+  - vb
+  name: EveryCyclicDay
+  nameWithType: RecurrenceDailyPattern.EveryCyclicDay
+  fullName: SuperOffice.WebApi.Data.RecurrenceDailyPattern.EveryCyclicDay
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: The recurrence is for every cyclic interval of days.\n"
+  syntax:
+    content: public const RecurrenceDailyPattern EveryCyclicDay
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+    content.vb: Public Const EveryCyclicDay As RecurrenceDailyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.RecurrenceDailyPattern
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceDailyPattern
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceDailyPattern
+  nameWithType: RecurrenceDailyPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceDailyPattern

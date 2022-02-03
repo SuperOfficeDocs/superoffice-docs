@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.NotificationPlatform
+  commentId: T:SuperOffice.WebApi.Data.NotificationPlatform
+  id: NotificationPlatform
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.NotificationPlatform.Apple
+  - SuperOffice.WebApi.Data.NotificationPlatform.AppleAdHoc
+  - SuperOffice.WebApi.Data.NotificationPlatform.AppleDeveloper
+  - SuperOffice.WebApi.Data.NotificationPlatform.Google
+  - SuperOffice.WebApi.Data.NotificationPlatform.GoogleDeveloper
+  - SuperOffice.WebApi.Data.NotificationPlatform.Microsoft
+  - SuperOffice.WebApi.Data.NotificationPlatform.value__
+  langs:
+  - csharp
+  - vb
+  name: NotificationPlatform
+  nameWithType: NotificationPlatform
+  fullName: SuperOffice.WebApi.Data.NotificationPlatform
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for field &apos;DevicePlatform&apos; in table &apos;PushNotificationService&apos;\nThis Enum is used by:  PushNotificationService.DevicePlatform\n"
+  syntax:
+    content: 'public sealed class NotificationPlatform : Enum'
+    content.vb: >-
+      Public NotInheritable Class NotificationPlatform
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.NotificationPlatform.value__
+  commentId: F:SuperOffice.WebApi.Data.NotificationPlatform.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.NotificationPlatform
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: NotificationPlatform.value__
+  fullName: SuperOffice.WebApi.Data.NotificationPlatform.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.NotificationPlatform.Apple
+  commentId: F:SuperOffice.WebApi.Data.NotificationPlatform.Apple
+  id: Apple
+  parent: SuperOffice.WebApi.Data.NotificationPlatform
+  langs:
+  - csharp
+  - vb
+  name: Apple
+  nameWithType: NotificationPlatform.Apple
+  fullName: SuperOffice.WebApi.Data.NotificationPlatform.Apple
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Device is by Apple\n"
+  syntax:
+    content: public const NotificationPlatform Apple
+    return:
+      type: SuperOffice.WebApi.Data.NotificationPlatform
+    content.vb: Public Const Apple As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NotificationPlatform.Google
+  commentId: F:SuperOffice.WebApi.Data.NotificationPlatform.Google
+  id: Google
+  parent: SuperOffice.WebApi.Data.NotificationPlatform
+  langs:
+  - csharp
+  - vb
+  name: Google
+  nameWithType: NotificationPlatform.Google
+  fullName: SuperOffice.WebApi.Data.NotificationPlatform.Google
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Device is by Google\n"
+  syntax:
+    content: public const NotificationPlatform Google
+    return:
+      type: SuperOffice.WebApi.Data.NotificationPlatform
+    content.vb: Public Const Google As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NotificationPlatform.Microsoft
+  commentId: F:SuperOffice.WebApi.Data.NotificationPlatform.Microsoft
+  id: Microsoft
+  parent: SuperOffice.WebApi.Data.NotificationPlatform
+  langs:
+  - csharp
+  - vb
+  name: Microsoft
+  nameWithType: NotificationPlatform.Microsoft
+  fullName: SuperOffice.WebApi.Data.NotificationPlatform.Microsoft
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Device is by Microsoft\n"
+  syntax:
+    content: public const NotificationPlatform Microsoft
+    return:
+      type: SuperOffice.WebApi.Data.NotificationPlatform
+    content.vb: Public Const Microsoft As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NotificationPlatform.AppleDeveloper
+  commentId: F:SuperOffice.WebApi.Data.NotificationPlatform.AppleDeveloper
+  id: AppleDeveloper
+  parent: SuperOffice.WebApi.Data.NotificationPlatform
+  langs:
+  - csharp
+  - vb
+  name: AppleDeveloper
+  nameWithType: NotificationPlatform.AppleDeveloper
+  fullName: SuperOffice.WebApi.Data.NotificationPlatform.AppleDeveloper
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Device is by Apple, used for development and debugging\n"
+  syntax:
+    content: public const NotificationPlatform AppleDeveloper
+    return:
+      type: SuperOffice.WebApi.Data.NotificationPlatform
+    content.vb: Public Const AppleDeveloper As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NotificationPlatform.AppleAdHoc
+  commentId: F:SuperOffice.WebApi.Data.NotificationPlatform.AppleAdHoc
+  id: AppleAdHoc
+  parent: SuperOffice.WebApi.Data.NotificationPlatform
+  langs:
+  - csharp
+  - vb
+  name: AppleAdHoc
+  nameWithType: NotificationPlatform.AppleAdHoc
+  fullName: SuperOffice.WebApi.Data.NotificationPlatform.AppleAdHoc
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Device is by Apple, used for testing\n"
+  syntax:
+    content: public const NotificationPlatform AppleAdHoc
+    return:
+      type: SuperOffice.WebApi.Data.NotificationPlatform
+    content.vb: Public Const AppleAdHoc As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NotificationPlatform.GoogleDeveloper
+  commentId: F:SuperOffice.WebApi.Data.NotificationPlatform.GoogleDeveloper
+  id: GoogleDeveloper
+  parent: SuperOffice.WebApi.Data.NotificationPlatform
+  langs:
+  - csharp
+  - vb
+  name: GoogleDeveloper
+  nameWithType: NotificationPlatform.GoogleDeveloper
+  fullName: SuperOffice.WebApi.Data.NotificationPlatform.GoogleDeveloper
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Device is by Google, used for testing, development and debugging\n"
+  syntax:
+    content: public const NotificationPlatform GoogleDeveloper
+    return:
+      type: SuperOffice.WebApi.Data.NotificationPlatform
+    content.vb: Public Const GoogleDeveloper As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.NotificationPlatform
+  commentId: T:SuperOffice.WebApi.Data.NotificationPlatform
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: NotificationPlatform
+  nameWithType: NotificationPlatform
+  fullName: SuperOffice.WebApi.Data.NotificationPlatform

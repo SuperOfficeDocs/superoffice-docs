@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DashCollection
+  commentId: T:SuperOffice.WebApi.Data.DashCollection
+  id: DashCollection
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DashCollection.#ctor
+  - SuperOffice.WebApi.Data.DashCollection.Favourites
+  - SuperOffice.WebApi.Data.DashCollection.Other
+  - SuperOffice.WebApi.Data.DashCollection.Pinned
+  langs:
+  - csharp
+  - vb
+  name: DashCollection
+  nameWithType: DashCollection
+  fullName: SuperOffice.WebApi.Data.DashCollection
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DashCollection.\nCollection of dashboards for an associate    \n"
+  syntax:
+    content: 'public class DashCollection : Carrier'
+    content.vb: >-
+      Public Class DashCollection
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DashAgent
+    commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DashCollection.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DashCollection.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DashCollection
+  langs:
+  - csharp
+  - vb
+  name: DashCollection()
+  nameWithType: DashCollection.DashCollection()
+  fullName: SuperOffice.WebApi.Data.DashCollection.DashCollection()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DashCollection()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DashCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashCollection.Pinned
+  commentId: P:SuperOffice.WebApi.Data.DashCollection.Pinned
+  id: Pinned
+  parent: SuperOffice.WebApi.Data.DashCollection
+  langs:
+  - csharp
+  - vb
+  name: Pinned
+  nameWithType: DashCollection.Pinned
+  fullName: SuperOffice.WebApi.Data.DashCollection.Pinned
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDashboards pinned to the associate\n"
+  syntax:
+    content: public virtual Dash[] Pinned { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Dash[]
+    content.vb: Public Overridable Property Pinned As Dash()
+  overload: SuperOffice.WebApi.Data.DashCollection.Pinned*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashCollection.Favourites
+  commentId: P:SuperOffice.WebApi.Data.DashCollection.Favourites
+  id: Favourites
+  parent: SuperOffice.WebApi.Data.DashCollection
+  langs:
+  - csharp
+  - vb
+  name: Favourites
+  nameWithType: DashCollection.Favourites
+  fullName: SuperOffice.WebApi.Data.DashCollection.Favourites
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe assocates favourite dashboards\n"
+  syntax:
+    content: public virtual Dash[] Favourites { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Dash[]
+    content.vb: Public Overridable Property Favourites As Dash()
+  overload: SuperOffice.WebApi.Data.DashCollection.Favourites*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashCollection.Other
+  commentId: P:SuperOffice.WebApi.Data.DashCollection.Other
+  id: Other
+  parent: SuperOffice.WebApi.Data.DashCollection
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: DashCollection.Other
+  fullName: SuperOffice.WebApi.Data.DashCollection.Other
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOther dashboards\n"
+  syntax:
+    content: public virtual Dash[] Other { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Dash[]
+    content.vb: Public Overridable Property Other As Dash()
+  overload: SuperOffice.WebApi.Data.DashCollection.Other*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DashAgent
+  commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  isExternal: true
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.WebApi.Agents.DashAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DashCollection.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DashCollection.#ctor
+  isExternal: true
+  name: DashCollection
+  nameWithType: DashCollection.DashCollection
+  fullName: SuperOffice.WebApi.Data.DashCollection.DashCollection
+- uid: SuperOffice.WebApi.Data.DashCollection.Pinned*
+  commentId: Overload:SuperOffice.WebApi.Data.DashCollection.Pinned
+  isExternal: true
+  name: Pinned
+  nameWithType: DashCollection.Pinned
+  fullName: SuperOffice.WebApi.Data.DashCollection.Pinned
+- uid: SuperOffice.WebApi.Data.Dash[]
+  isExternal: true
+  name: Dash[]
+  nameWithType: Dash[]
+  fullName: SuperOffice.WebApi.Data.Dash[]
+  nameWithType.vb: Dash()
+  fullName.vb: SuperOffice.WebApi.Data.Dash()
+  name.vb: Dash()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.Dash
+    name: Dash
+    nameWithType: Dash
+    fullName: SuperOffice.WebApi.Data.Dash
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.Dash
+    name: Dash
+    nameWithType: Dash
+    fullName: SuperOffice.WebApi.Data.Dash
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.DashCollection.Favourites*
+  commentId: Overload:SuperOffice.WebApi.Data.DashCollection.Favourites
+  isExternal: true
+  name: Favourites
+  nameWithType: DashCollection.Favourites
+  fullName: SuperOffice.WebApi.Data.DashCollection.Favourites
+- uid: SuperOffice.WebApi.Data.DashCollection.Other*
+  commentId: Overload:SuperOffice.WebApi.Data.DashCollection.Other
+  isExternal: true
+  name: Other
+  nameWithType: DashCollection.Other
+  fullName: SuperOffice.WebApi.Data.DashCollection.Other

@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields
+  commentId: T:SuperOffice.CRM.Data.DBC.AmountClassFields
+  id: DBC.AmountClassFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.AmountClassId
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.AmountFrom
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.AmountTo
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.CurrencyId
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.Deleted
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.Name
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.Rank
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.Registered
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.Tooltip
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.Updated
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.AmountClassFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.AmountClassFields
+  nameWithType: DBC.AmountClassFields
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for AmountClass, Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --> high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com \n"
+  syntax:
+    content: public static class AmountClassFields
+    content.vb: Public Module AmountClassFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.AmountClassId
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.AmountClassId
+  id: AmountClassId
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: AmountClassId
+  nameWithType: DBC.AmountClassFields.AmountClassId
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.AmountClassId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.AmountClassId: Primary key\n"
+  syntax:
+    content: public const string AmountClassId = "AmountClass_Id"
+    return:
+      type: System.String
+    content.vb: Public Const AmountClassId As String = "AmountClass_Id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.AmountClassFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.Name: The list item\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.AmountClassFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.Rank: Rank order\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.Tooltip
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DBC.AmountClassFields.Tooltip
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.Tooltip: Tooltip or other description\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.AmountClassFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.AmountFrom
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.AmountFrom
+  id: AmountFrom
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: AmountFrom
+  nameWithType: DBC.AmountClassFields.AmountFrom
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.AmountFrom
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.AmountFrom: Lower limit of this amount class\n"
+  syntax:
+    content: public const string AmountFrom = "amountFrom"
+    return:
+      type: System.String
+    content.vb: Public Const AmountFrom As String = "amountFrom"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.AmountTo
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.AmountTo
+  id: AmountTo
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: AmountTo
+  nameWithType: DBC.AmountClassFields.AmountTo
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.AmountTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.AmountTo: Upper limit of this amount class\n"
+  syntax:
+    content: public const string AmountTo = "amountTo"
+    return:
+      type: System.String
+    content.vb: Public Const AmountTo As String = "amountTo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.CurrencyId
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: DBC.AmountClassFields.CurrencyId
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.CurrencyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.CurrencyId: Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications.\n"
+  syntax:
+    content: public const string CurrencyId = "currencyId"
+    return:
+      type: System.String
+    content.vb: Public Const CurrencyId As String = "currencyId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.AmountClassFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.AmountClassFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.AmountClassFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.AmountClassFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AmountClassFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.AmountClassFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.AmountClassFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.AmountClassFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.AmountClassFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAmountClass.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

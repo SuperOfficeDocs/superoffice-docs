@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  id: UserPreferenceStrings.Numbering
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllocate
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllowBlank
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultReadOnly
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultSatPrefix
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultStart
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultTravelPrefix
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultUnique
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.NumberEachTemplate
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Numbering
+  nameWithType: UserPreferenceStrings.Numbering
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumbering\n"
+  syntax:
+    content: 'public static class Numbering : Object'
+    content.vb: >-
+      Public Module Numbering
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Numbering.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Numbering"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Numbering"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllocate
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllocate
+  id: DefaultAllocate
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  langs:
+  - csharp
+  - vb
+  name: DefaultAllocate
+  nameWithType: UserPreferenceStrings.Numbering.DefaultAllocate
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllocate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAutomatic allocation of a new number when a new document is created\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string DefaultAllocate = "DefaultAllocate"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAllocate As String = "DefaultAllocate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllowBlank
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllowBlank
+  id: DefaultAllowBlank
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  langs:
+  - csharp
+  - vb
+  name: DefaultAllowBlank
+  nameWithType: UserPreferenceStrings.Numbering.DefaultAllowBlank
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllowBlank
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether blank values are permitted for new counters\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string DefaultAllowBlank = "DefaultAllowBlank"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAllowBlank As String = "DefaultAllowBlank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultReadOnly
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultReadOnly
+  id: DefaultReadOnly
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  langs:
+  - csharp
+  - vb
+  name: DefaultReadOnly
+  nameWithType: UserPreferenceStrings.Numbering.DefaultReadOnly
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultReadOnly
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether numbers allocated to a document or documents of a given template type may be amended (write-protected)\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string DefaultReadOnly = "DefaultReadOnly"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultReadOnly As String = "DefaultReadOnly"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultSatPrefix
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultSatPrefix
+  id: DefaultSatPrefix
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  langs:
+  - csharp
+  - vb
+  name: DefaultSatPrefix
+  nameWithType: UserPreferenceStrings.Numbering.DefaultSatPrefix
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultSatPrefix
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault prefix for new counters on Satellite databases \n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DefaultSatPrefix = "DefaultSatPrefix"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSatPrefix As String = "DefaultSatPrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultTravelPrefix
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultTravelPrefix
+  id: DefaultTravelPrefix
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  langs:
+  - csharp
+  - vb
+  name: DefaultTravelPrefix
+  nameWithType: UserPreferenceStrings.Numbering.DefaultTravelPrefix
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultTravelPrefix
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault prefix for new counters on Travel databases\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DefaultTravelPrefix = "DefaultTravelPrefix"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTravelPrefix As String = "DefaultTravelPrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultUnique
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultUnique
+  id: DefaultUnique
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  langs:
+  - csharp
+  - vb
+  name: DefaultUnique
+  nameWithType: UserPreferenceStrings.Numbering.DefaultUnique
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultUnique
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumbers with a new counter must be unique.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string DefaultUnique = "DefaultUnique"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultUnique As String = "DefaultUnique"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.NumberEachTemplate
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.NumberEachTemplate
+  id: NumberEachTemplate
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  langs:
+  - csharp
+  - vb
+  name: NumberEachTemplate
+  nameWithType: UserPreferenceStrings.Numbering.NumberEachTemplate
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.NumberEachTemplate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf Yes, separate counters are maintained for each document template\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string NumberEachTemplate = "NumberEachTemplate"
+    return:
+      type: System.String
+    content.vb: Public Const NumberEachTemplate As String = "NumberEachTemplate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultStart
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultStart
+  id: DefaultStart
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
+  langs:
+  - csharp
+  - vb
+  name: DefaultStart
+  nameWithType: UserPreferenceStrings.Numbering.DefaultStart
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultStart
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf Yes, separate counters are maintained for each document template\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string DefaultStart = "DefaultStart"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultStart As String = "DefaultStart"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

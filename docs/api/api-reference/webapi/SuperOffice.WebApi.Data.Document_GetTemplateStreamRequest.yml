@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest
+  id: Document_GetTemplateStreamRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.AllowPersonal
+  - SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.TemplateName
+  - SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.UiCulture
+  langs:
+  - csharp
+  - vb
+  name: Document_GetTemplateStreamRequest
+  nameWithType: Document_GetTemplateStreamRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_GetTemplateStreamRequest : Object'
+    content.vb: >-
+      Public Class Document_GetTemplateStreamRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_GetTemplateStreamRequest()
+  nameWithType: Document_GetTemplateStreamRequest.Document_GetTemplateStreamRequest()
+  fullName: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.Document_GetTemplateStreamRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_GetTemplateStreamRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.TemplateName
+  commentId: P:SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.TemplateName
+  id: TemplateName
+  parent: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: TemplateName
+  nameWithType: Document_GetTemplateStreamRequest.TemplateName
+  fullName: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.TemplateName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TemplateName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TemplateName As String
+  overload: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.TemplateName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.AllowPersonal
+  commentId: P:SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.AllowPersonal
+  id: AllowPersonal
+  parent: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: AllowPersonal
+  nameWithType: Document_GetTemplateStreamRequest.AllowPersonal
+  fullName: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.AllowPersonal
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool AllowPersonal { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllowPersonal As Boolean
+  overload: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.AllowPersonal*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.UiCulture
+  commentId: P:SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.UiCulture
+  id: UiCulture
+  parent: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: UiCulture
+  nameWithType: Document_GetTemplateStreamRequest.UiCulture
+  fullName: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.UiCulture
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UiCulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UiCulture As String
+  overload: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.UiCulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.#ctor
+  isExternal: true
+  name: Document_GetTemplateStreamRequest
+  nameWithType: Document_GetTemplateStreamRequest.Document_GetTemplateStreamRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.Document_GetTemplateStreamRequest
+- uid: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.TemplateName*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.TemplateName
+  isExternal: true
+  name: TemplateName
+  nameWithType: Document_GetTemplateStreamRequest.TemplateName
+  fullName: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.TemplateName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.AllowPersonal*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.AllowPersonal
+  isExternal: true
+  name: AllowPersonal
+  nameWithType: Document_GetTemplateStreamRequest.AllowPersonal
+  fullName: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.AllowPersonal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.UiCulture*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.UiCulture
+  isExternal: true
+  name: UiCulture
+  nameWithType: Document_GetTemplateStreamRequest.UiCulture
+  fullName: SuperOffice.WebApi.Data.Document_GetTemplateStreamRequest.UiCulture

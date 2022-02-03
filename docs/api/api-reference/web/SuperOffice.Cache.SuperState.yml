@@ -1,0 +1,1627 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Cache.SuperState
+  commentId: T:SuperOffice.Cache.SuperState
+  id: SuperState
+  parent: SuperOffice.Cache
+  children:
+  - SuperOffice.Cache.SuperState.#ctor
+  - SuperOffice.Cache.SuperState.BatchTaskTimeStamp
+  - SuperOffice.Cache.SuperState.Current
+  - SuperOffice.Cache.SuperState.CurrentMainPage
+  - SuperOffice.Cache.SuperState.CurrentMainPageId
+  - SuperOffice.Cache.SuperState.CurrentPage
+  - SuperOffice.Cache.SuperState.CurrentTriggers
+  - SuperOffice.Cache.SuperState.HistorySaveTimeStamp
+  - SuperOffice.Cache.SuperState.MainPageHeight
+  - SuperOffice.Cache.SuperState.MainPageWidth
+  - SuperOffice.Cache.SuperState.MiniPanelDictionary
+  - SuperOffice.Cache.SuperState.PageHasChanged
+  - SuperOffice.Cache.SuperState.Pages
+  - SuperOffice.Cache.SuperState.Params
+  - SuperOffice.Cache.SuperState.PeriodicHistorySave
+  - SuperOffice.Cache.SuperState.PeriodicShowInvitations
+  - SuperOffice.Cache.SuperState.PreviousPage
+  - SuperOffice.Cache.SuperState.RequestedCurrentList
+  - SuperOffice.Cache.SuperState.ShowInvitationsTimeStamp
+  - SuperOffice.Cache.SuperState.WebAppUsage
+  - SuperOffice.Cache.SuperState.WindowsPosSize
+  langs:
+  - csharp
+  - vb
+  name: SuperState
+  nameWithType: SuperState
+  fullName: SuperOffice.Cache.SuperState
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe client&apos;s superstate\nHolds the view state of the web client\n"
+  syntax:
+    content: public class SuperState
+    content.vb: Public Class SuperState
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Cache.SuperState.#ctor
+  commentId: M:SuperOffice.Cache.SuperState.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: SuperState()
+  nameWithType: SuperState.SuperState()
+  fullName: SuperOffice.Cache.SuperState.SuperState()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SuperState()
+    content.vb: Public Sub New
+  overload: SuperOffice.Cache.SuperState.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.CurrentPage
+  commentId: P:SuperOffice.Cache.SuperState.CurrentPage
+  id: CurrentPage
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: CurrentPage
+  nameWithType: SuperState.CurrentPage
+  fullName: SuperOffice.Cache.SuperState.CurrentPage
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe page that is active for the current request\n"
+  syntax:
+    content: public PageState CurrentPage { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Cache.PageState
+    content.vb: Public Property CurrentPage As PageState
+  overload: SuperOffice.Cache.SuperState.CurrentPage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.PreviousPage
+  commentId: P:SuperOffice.Cache.SuperState.PreviousPage
+  id: PreviousPage
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: PreviousPage
+  nameWithType: SuperState.PreviousPage
+  fullName: SuperOffice.Cache.SuperState.PreviousPage
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe previous page state\n"
+  syntax:
+    content: public PageState PreviousPage { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Cache.PageState
+    content.vb: Public Property PreviousPage As PageState
+  overload: SuperOffice.Cache.SuperState.PreviousPage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.CurrentMainPageId
+  commentId: P:SuperOffice.Cache.SuperState.CurrentMainPageId
+  id: CurrentMainPageId
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: CurrentMainPageId
+  nameWithType: SuperState.CurrentMainPageId
+  fullName: SuperOffice.Cache.SuperState.CurrentMainPageId
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe id of the current main page. This is used to remember what the main page is when running inside dialogs\n"
+  syntax:
+    content: public string CurrentMainPageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentMainPageId As String
+  overload: SuperOffice.Cache.SuperState.CurrentMainPageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.CurrentMainPage
+  commentId: P:SuperOffice.Cache.SuperState.CurrentMainPage
+  id: CurrentMainPage
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: CurrentMainPage
+  nameWithType: SuperState.CurrentMainPage
+  fullName: SuperOffice.Cache.SuperState.CurrentMainPage
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe current main page.\n"
+  syntax:
+    content: public PageState CurrentMainPage { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Cache.PageState
+    content.vb: Public ReadOnly Property CurrentMainPage As PageState
+  overload: SuperOffice.Cache.SuperState.CurrentMainPage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Cache.SuperState.Pages
+  commentId: P:SuperOffice.Cache.SuperState.Pages
+  id: Pages
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: Pages
+  nameWithType: SuperState.Pages
+  fullName: SuperOffice.Cache.SuperState.Pages
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe collection of all active pages\n"
+  syntax:
+    content: public Dictionary<string, PageState> Pages { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.Cache.PageState}
+    content.vb: Public Property Pages As Dictionary(Of String, PageState)
+  overload: SuperOffice.Cache.SuperState.Pages*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.Current
+  commentId: P:SuperOffice.Cache.SuperState.Current
+  id: Current
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: SuperState.Current
+  fullName: SuperOffice.Cache.SuperState.Current
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe history list, ordered by the entity key\nUsed for all history elements such as entities and lists\n"
+  syntax:
+    content: public Dictionary<string, List<HistoryItem>> Current { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{SuperOffice.Cache.HistoryItem}}
+    content.vb: Public Property Current As Dictionary(Of String, List(Of HistoryItem))
+  overload: SuperOffice.Cache.SuperState.Current*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.RequestedCurrentList
+  commentId: P:SuperOffice.Cache.SuperState.RequestedCurrentList
+  id: RequestedCurrentList
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: RequestedCurrentList
+  nameWithType: SuperState.RequestedCurrentList
+  fullName: SuperOffice.Cache.SuperState.RequestedCurrentList
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe active current value.\nCurrent values often set other current values as well. This is the current that started the avalanche\n"
+  syntax:
+    content: public string RequestedCurrentList { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RequestedCurrentList As String
+  overload: SuperOffice.Cache.SuperState.RequestedCurrentList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.MiniPanelDictionary
+  commentId: P:SuperOffice.Cache.SuperState.MiniPanelDictionary
+  id: MiniPanelDictionary
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: MiniPanelDictionary
+  nameWithType: SuperState.MiniPanelDictionary
+  fullName: SuperOffice.Cache.SuperState.MiniPanelDictionary
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nDictionary of all current Main panel vs MiniPanel combinations\nThe key will match the SuperOffice.Data.MainView enumeration for known main views\nThe value will match the SuperOffice.Data.MiniPanel enumeration for known mini panels\n"
+  syntax:
+    content: public Dictionary<string, string> MiniPanelDictionary { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Property MiniPanelDictionary As Dictionary(Of String, String)
+  overload: SuperOffice.Cache.SuperState.MiniPanelDictionary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.WindowsPosSize
+  commentId: P:SuperOffice.Cache.SuperState.WindowsPosSize
+  id: WindowsPosSize
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: WindowsPosSize
+  nameWithType: SuperState.WindowsPosSize
+  fullName: SuperOffice.Cache.SuperState.WindowsPosSize
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nDictionary of all the current window positions and sizes\n"
+  syntax:
+    content: public Dictionary<string, WindowPosSize> WindowsPosSize { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Services.WindowPosSize}
+    content.vb: Public Property WindowsPosSize As Dictionary(Of String, WindowPosSize)
+  overload: SuperOffice.Cache.SuperState.WindowsPosSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.Params
+  commentId: P:SuperOffice.Cache.SuperState.Params
+  id: Params
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: Params
+  nameWithType: SuperState.Params
+  fullName: SuperOffice.Cache.SuperState.Params
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nCustom parameters collection used to store miscellaneous superstate and layout data\n"
+  syntax:
+    content: public Dictionary<string, string> Params { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Property Params As Dictionary(Of String, String)
+  overload: SuperOffice.Cache.SuperState.Params*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.CurrentTriggers
+  commentId: P:SuperOffice.Cache.SuperState.CurrentTriggers
+  id: CurrentTriggers
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: CurrentTriggers
+  nameWithType: SuperState.CurrentTriggers
+  fullName: SuperOffice.Cache.SuperState.CurrentTriggers
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe list of current types that the superstate depends on\n<example>db_id</example>\n"
+  syntax:
+    content: public List<string> CurrentTriggers { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property CurrentTriggers As List(Of String)
+  overload: SuperOffice.Cache.SuperState.CurrentTriggers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.MainPageHeight
+  commentId: P:SuperOffice.Cache.SuperState.MainPageHeight
+  id: MainPageHeight
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: MainPageHeight
+  nameWithType: SuperState.MainPageHeight
+  fullName: SuperOffice.Cache.SuperState.MainPageHeight
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe pixel height of the main page\n"
+  syntax:
+    content: public int MainPageHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MainPageHeight As Integer
+  overload: SuperOffice.Cache.SuperState.MainPageHeight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.MainPageWidth
+  commentId: P:SuperOffice.Cache.SuperState.MainPageWidth
+  id: MainPageWidth
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: MainPageWidth
+  nameWithType: SuperState.MainPageWidth
+  fullName: SuperOffice.Cache.SuperState.MainPageWidth
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe pixel width of the main page\n"
+  syntax:
+    content: public int MainPageWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MainPageWidth As Integer
+  overload: SuperOffice.Cache.SuperState.MainPageWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.PeriodicHistorySave
+  commentId: P:SuperOffice.Cache.SuperState.PeriodicHistorySave
+  id: PeriodicHistorySave
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: PeriodicHistorySave
+  nameWithType: SuperState.PeriodicHistorySave
+  fullName: SuperOffice.Cache.SuperState.PeriodicHistorySave
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe time period (in minutes) between each history save\n"
+  syntax:
+    content: public int PeriodicHistorySave { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PeriodicHistorySave As Integer
+  overload: SuperOffice.Cache.SuperState.PeriodicHistorySave*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.HistorySaveTimeStamp
+  commentId: P:SuperOffice.Cache.SuperState.HistorySaveTimeStamp
+  id: HistorySaveTimeStamp
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: HistorySaveTimeStamp
+  nameWithType: SuperState.HistorySaveTimeStamp
+  fullName: SuperOffice.Cache.SuperState.HistorySaveTimeStamp
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nTimeStamp for the last history save\n"
+  syntax:
+    content: public DateTime HistorySaveTimeStamp { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property HistorySaveTimeStamp As Date
+  overload: SuperOffice.Cache.SuperState.HistorySaveTimeStamp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.PeriodicShowInvitations
+  commentId: P:SuperOffice.Cache.SuperState.PeriodicShowInvitations
+  id: PeriodicShowInvitations
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: PeriodicShowInvitations
+  nameWithType: SuperState.PeriodicShowInvitations
+  fullName: SuperOffice.Cache.SuperState.PeriodicShowInvitations
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe time period (in minutes) between each check for new invitations\n"
+  syntax:
+    content: public int PeriodicShowInvitations { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PeriodicShowInvitations As Integer
+  overload: SuperOffice.Cache.SuperState.PeriodicShowInvitations*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.ShowInvitationsTimeStamp
+  commentId: P:SuperOffice.Cache.SuperState.ShowInvitationsTimeStamp
+  id: ShowInvitationsTimeStamp
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: ShowInvitationsTimeStamp
+  nameWithType: SuperState.ShowInvitationsTimeStamp
+  fullName: SuperOffice.Cache.SuperState.ShowInvitationsTimeStamp
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nTimeStamp for the last time the invitations dialog was shown\n"
+  syntax:
+    content: public DateTime ShowInvitationsTimeStamp { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ShowInvitationsTimeStamp As Date
+  overload: SuperOffice.Cache.SuperState.ShowInvitationsTimeStamp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.BatchTaskTimeStamp
+  commentId: P:SuperOffice.Cache.SuperState.BatchTaskTimeStamp
+  id: BatchTaskTimeStamp
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskTimeStamp
+  nameWithType: SuperState.BatchTaskTimeStamp
+  fullName: SuperOffice.Cache.SuperState.BatchTaskTimeStamp
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nTimeStamp for the last time the invitations dialog was shown\n"
+  syntax:
+    content: public DateTime BatchTaskTimeStamp { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property BatchTaskTimeStamp As Date
+  overload: SuperOffice.Cache.SuperState.BatchTaskTimeStamp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.PageHasChanged
+  commentId: P:SuperOffice.Cache.SuperState.PageHasChanged
+  id: PageHasChanged
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: PageHasChanged
+  nameWithType: SuperState.PageHasChanged
+  fullName: SuperOffice.Cache.SuperState.PageHasChanged
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  syntax:
+    content: public bool PageHasChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PageHasChanged As Boolean
+  overload: SuperOffice.Cache.SuperState.PageHasChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperState.WebAppUsage
+  commentId: P:SuperOffice.Cache.SuperState.WebAppUsage
+  id: WebAppUsage
+  parent: SuperOffice.Cache.SuperState
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsage
+  nameWithType: SuperState.WebAppUsage
+  fullName: SuperOffice.Cache.SuperState.WebAppUsage
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  syntax:
+    content: public Dictionary<string, WebAppUsage> WebAppUsage { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Services.WebAppUsage}
+    content.vb: Public Property WebAppUsage As Dictionary(Of String, WebAppUsage)
+  overload: SuperOffice.Cache.SuperState.WebAppUsage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Cache.SuperState.#ctor*
+  commentId: Overload:SuperOffice.Cache.SuperState.#ctor
+  isExternal: true
+  name: SuperState
+  nameWithType: SuperState.SuperState
+  fullName: SuperOffice.Cache.SuperState.SuperState
+- uid: SuperOffice.Cache.SuperState.CurrentPage*
+  commentId: Overload:SuperOffice.Cache.SuperState.CurrentPage
+  isExternal: true
+  name: CurrentPage
+  nameWithType: SuperState.CurrentPage
+  fullName: SuperOffice.Cache.SuperState.CurrentPage
+- uid: SuperOffice.Cache.PageState
+  commentId: T:SuperOffice.Cache.PageState
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: PageState
+  nameWithType: PageState
+  fullName: SuperOffice.Cache.PageState
+- uid: SuperOffice.Cache.SuperState.PreviousPage*
+  commentId: Overload:SuperOffice.Cache.SuperState.PreviousPage
+  isExternal: true
+  name: PreviousPage
+  nameWithType: SuperState.PreviousPage
+  fullName: SuperOffice.Cache.SuperState.PreviousPage
+- uid: SuperOffice.Cache.SuperState.CurrentMainPageId*
+  commentId: Overload:SuperOffice.Cache.SuperState.CurrentMainPageId
+  isExternal: true
+  name: CurrentMainPageId
+  nameWithType: SuperState.CurrentMainPageId
+  fullName: SuperOffice.Cache.SuperState.CurrentMainPageId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Cache.SuperState.CurrentMainPage*
+  commentId: Overload:SuperOffice.Cache.SuperState.CurrentMainPage
+  isExternal: true
+  name: CurrentMainPage
+  nameWithType: SuperState.CurrentMainPage
+  fullName: SuperOffice.Cache.SuperState.CurrentMainPage
+- uid: SuperOffice.Cache.SuperState.Pages*
+  commentId: Overload:SuperOffice.Cache.SuperState.Pages
+  isExternal: true
+  name: Pages
+  nameWithType: SuperState.Pages
+  fullName: SuperOffice.Cache.SuperState.Pages
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.Cache.PageState}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.Cache.PageState}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, PageState>
+  nameWithType: Dictionary<String, PageState>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.Cache.PageState>
+  nameWithType.vb: Dictionary(Of String, PageState)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.Cache.PageState)
+  name.vb: Dictionary(Of String, PageState)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.PageState
+    name: PageState
+    nameWithType: PageState
+    fullName: SuperOffice.Cache.PageState
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.PageState
+    name: PageState
+    nameWithType: PageState
+    fullName: SuperOffice.Cache.PageState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Cache.SuperState.Current*
+  commentId: Overload:SuperOffice.Cache.SuperState.Current
+  isExternal: true
+  name: Current
+  nameWithType: SuperState.Current
+  fullName: SuperOffice.Cache.SuperState.Current
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{SuperOffice.Cache.HistoryItem}}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{SuperOffice.Cache.HistoryItem}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, List<HistoryItem>>
+  nameWithType: Dictionary<String, List<HistoryItem>>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<SuperOffice.Cache.HistoryItem>>
+  nameWithType.vb: Dictionary(Of String, List(Of HistoryItem))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of SuperOffice.Cache.HistoryItem))
+  name.vb: Dictionary(Of String, List(Of HistoryItem))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Cache.SuperState.RequestedCurrentList*
+  commentId: Overload:SuperOffice.Cache.SuperState.RequestedCurrentList
+  isExternal: true
+  name: RequestedCurrentList
+  nameWithType: SuperState.RequestedCurrentList
+  fullName: SuperOffice.Cache.SuperState.RequestedCurrentList
+- uid: SuperOffice.Cache.SuperState.MiniPanelDictionary*
+  commentId: Overload:SuperOffice.Cache.SuperState.MiniPanelDictionary
+  isExternal: true
+  name: MiniPanelDictionary
+  nameWithType: SuperState.MiniPanelDictionary
+  fullName: SuperOffice.Cache.SuperState.MiniPanelDictionary
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Cache.SuperState.WindowsPosSize*
+  commentId: Overload:SuperOffice.Cache.SuperState.WindowsPosSize
+  isExternal: true
+  name: WindowsPosSize
+  nameWithType: SuperState.WindowsPosSize
+  fullName: SuperOffice.Cache.SuperState.WindowsPosSize
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Services.WindowPosSize}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Services.WindowPosSize}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, WindowPosSize>
+  nameWithType: Dictionary<String, WindowPosSize>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.Services.WindowPosSize>
+  nameWithType.vb: Dictionary(Of String, WindowPosSize)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.Services.WindowPosSize)
+  name.vb: Dictionary(Of String, WindowPosSize)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.WindowPosSize
+    name: WindowPosSize
+    nameWithType: WindowPosSize
+    fullName: SuperOffice.CRM.Services.WindowPosSize
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.WindowPosSize
+    name: WindowPosSize
+    nameWithType: WindowPosSize
+    fullName: SuperOffice.CRM.Services.WindowPosSize
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Cache.SuperState.Params*
+  commentId: Overload:SuperOffice.Cache.SuperState.Params
+  isExternal: true
+  name: Params
+  nameWithType: SuperState.Params
+  fullName: SuperOffice.Cache.SuperState.Params
+- uid: SuperOffice.Cache.SuperState.CurrentTriggers*
+  commentId: Overload:SuperOffice.Cache.SuperState.CurrentTriggers
+  isExternal: true
+  name: CurrentTriggers
+  nameWithType: SuperState.CurrentTriggers
+  fullName: SuperOffice.Cache.SuperState.CurrentTriggers
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Cache.SuperState.MainPageHeight*
+  commentId: Overload:SuperOffice.Cache.SuperState.MainPageHeight
+  isExternal: true
+  name: MainPageHeight
+  nameWithType: SuperState.MainPageHeight
+  fullName: SuperOffice.Cache.SuperState.MainPageHeight
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Cache.SuperState.MainPageWidth*
+  commentId: Overload:SuperOffice.Cache.SuperState.MainPageWidth
+  isExternal: true
+  name: MainPageWidth
+  nameWithType: SuperState.MainPageWidth
+  fullName: SuperOffice.Cache.SuperState.MainPageWidth
+- uid: SuperOffice.Cache.SuperState.PeriodicHistorySave*
+  commentId: Overload:SuperOffice.Cache.SuperState.PeriodicHistorySave
+  isExternal: true
+  name: PeriodicHistorySave
+  nameWithType: SuperState.PeriodicHistorySave
+  fullName: SuperOffice.Cache.SuperState.PeriodicHistorySave
+- uid: SuperOffice.Cache.SuperState.HistorySaveTimeStamp*
+  commentId: Overload:SuperOffice.Cache.SuperState.HistorySaveTimeStamp
+  isExternal: true
+  name: HistorySaveTimeStamp
+  nameWithType: SuperState.HistorySaveTimeStamp
+  fullName: SuperOffice.Cache.SuperState.HistorySaveTimeStamp
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Cache.SuperState.PeriodicShowInvitations*
+  commentId: Overload:SuperOffice.Cache.SuperState.PeriodicShowInvitations
+  isExternal: true
+  name: PeriodicShowInvitations
+  nameWithType: SuperState.PeriodicShowInvitations
+  fullName: SuperOffice.Cache.SuperState.PeriodicShowInvitations
+- uid: SuperOffice.Cache.SuperState.ShowInvitationsTimeStamp*
+  commentId: Overload:SuperOffice.Cache.SuperState.ShowInvitationsTimeStamp
+  isExternal: true
+  name: ShowInvitationsTimeStamp
+  nameWithType: SuperState.ShowInvitationsTimeStamp
+  fullName: SuperOffice.Cache.SuperState.ShowInvitationsTimeStamp
+- uid: SuperOffice.Cache.SuperState.BatchTaskTimeStamp*
+  commentId: Overload:SuperOffice.Cache.SuperState.BatchTaskTimeStamp
+  isExternal: true
+  name: BatchTaskTimeStamp
+  nameWithType: SuperState.BatchTaskTimeStamp
+  fullName: SuperOffice.Cache.SuperState.BatchTaskTimeStamp
+- uid: SuperOffice.Cache.SuperState.PageHasChanged*
+  commentId: Overload:SuperOffice.Cache.SuperState.PageHasChanged
+  isExternal: true
+  name: PageHasChanged
+  nameWithType: SuperState.PageHasChanged
+  fullName: SuperOffice.Cache.SuperState.PageHasChanged
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Cache.SuperState.WebAppUsage*
+  commentId: Overload:SuperOffice.Cache.SuperState.WebAppUsage
+  isExternal: true
+  name: WebAppUsage
+  nameWithType: SuperState.WebAppUsage
+  fullName: SuperOffice.Cache.SuperState.WebAppUsage
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Services.WebAppUsage}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Services.WebAppUsage}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, WebAppUsage>
+  nameWithType: Dictionary<String, WebAppUsage>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.Services.WebAppUsage>
+  nameWithType.vb: Dictionary(Of String, WebAppUsage)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.Services.WebAppUsage)
+  name.vb: Dictionary(Of String, WebAppUsage)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.WebAppUsage
+    name: WebAppUsage
+    nameWithType: WebAppUsage
+    fullName: SuperOffice.CRM.Services.WebAppUsage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.WebAppUsage
+    name: WebAppUsage
+    nameWithType: WebAppUsage
+    fullName: SuperOffice.CRM.Services.WebAppUsage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

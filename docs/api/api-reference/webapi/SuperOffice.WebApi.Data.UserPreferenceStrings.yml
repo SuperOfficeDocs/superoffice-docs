@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings
+  id: UserPreferenceStrings
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DotReplacement
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings
+  nameWithType: UserPreferenceStrings
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHelper class that exposes section and key names for the UserPreference table. The top level\nmembers of this class are classes that represent sections; use the .Section member to get the actual\nsection name. Inner members represent the keys within each section.. The PreferenceLevel enum contains the\nvalues for the DefLevel element of the UserPreference table.\n"
+  syntax:
+    content: 'public static class UserPreferenceStrings : Object'
+    content.vb: >-
+      Public Module UserPreferenceStrings
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DotReplacement
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DotReplacement
+  id: DotReplacement
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings
+  langs:
+  - csharp
+  - vb
+  name: DotReplacement
+  nameWithType: UserPreferenceStrings.DotReplacement
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DotReplacement
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string DotReplacement = "$!|"
+    return:
+      type: System.String
+    content.vb: Public Const DotReplacement As String = "$!|"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

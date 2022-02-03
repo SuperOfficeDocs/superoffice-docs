@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.UI.Configuration
+  commentId: N:SuperOffice.UI.Configuration
+  id: SuperOffice.UI.Configuration
+  children:
+  - SuperOffice.UI.Configuration.Constants
+  - SuperOffice.UI.Configuration.Constants.Clients
+  - SuperOffice.UI.Configuration.Control
+  - SuperOffice.UI.Configuration.ControlGroup
+  - SuperOffice.UI.Configuration.ICustomUIProvider
+  - SuperOffice.UI.Configuration.Layout
+  - SuperOffice.UI.Configuration.View
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.UI.Configuration
+  nameWithType: SuperOffice.UI.Configuration
+  fullName: SuperOffice.UI.Configuration
+  type: Namespace
+  assemblies:
+  - SuperOffice.Plugins
+references:
+- uid: SuperOffice.UI.Configuration.ICustomUIProvider
+  commentId: T:SuperOffice.UI.Configuration.ICustomUIProvider
+  isExternal: true
+  name: ICustomUIProvider
+  nameWithType: ICustomUIProvider
+  fullName: SuperOffice.UI.Configuration.ICustomUIProvider
+- uid: SuperOffice.UI.Configuration.Constants
+  commentId: T:SuperOffice.UI.Configuration.Constants
+  isExternal: true
+  name: Constants
+  nameWithType: Constants
+  fullName: SuperOffice.UI.Configuration.Constants
+- uid: SuperOffice.UI.Configuration.Constants.Clients
+  commentId: T:SuperOffice.UI.Configuration.Constants.Clients
+  isExternal: true
+  name: Constants.Clients
+  nameWithType: Constants.Clients
+  fullName: SuperOffice.UI.Configuration.Constants.Clients
+- uid: SuperOffice.UI.Configuration.Layout
+  commentId: T:SuperOffice.UI.Configuration.Layout
+  parent: SuperOffice.UI.Configuration
+  isExternal: true
+  name: Layout
+  nameWithType: Layout
+  fullName: SuperOffice.UI.Configuration.Layout
+- uid: SuperOffice.UI.Configuration.View
+  commentId: T:SuperOffice.UI.Configuration.View
+  parent: SuperOffice.UI.Configuration
+  isExternal: true
+  name: View
+  nameWithType: View
+  fullName: SuperOffice.UI.Configuration.View
+- uid: SuperOffice.UI.Configuration.ControlGroup
+  commentId: T:SuperOffice.UI.Configuration.ControlGroup
+  isExternal: true
+  name: ControlGroup
+  nameWithType: ControlGroup
+  fullName: SuperOffice.UI.Configuration.ControlGroup
+- uid: SuperOffice.UI.Configuration.Control
+  commentId: T:SuperOffice.UI.Configuration.Control
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: SuperOffice.UI.Configuration.Control
+- uid: SuperOffice.UI.Configuration
+  commentId: N:SuperOffice.UI.Configuration
+  isExternal: true
+  name: SuperOffice.UI.Configuration
+  nameWithType: SuperOffice.UI.Configuration
+  fullName: SuperOffice.UI.Configuration

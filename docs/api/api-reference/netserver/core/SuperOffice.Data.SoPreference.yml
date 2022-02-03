@@ -1,0 +1,1478 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SoPreference
+  commentId: T:SuperOffice.Data.SoPreference
+  id: SoPreference
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.SoPreference.AsyncFullInit
+  - SuperOffice.Data.SoPreference.CacheLifetime
+  - SuperOffice.Data.SoPreference.GetBool(System.String,System.String,System.Boolean)
+  - SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String)
+  - SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String,System.DateTime)
+  - SuperOffice.Data.SoPreference.GetInt(System.String,System.String,System.Int32)
+  - SuperOffice.Data.SoPreference.GetKeys(System.String)
+  - SuperOffice.Data.SoPreference.GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
+  - SuperOffice.Data.SoPreference.GetSectionAndKeyFromId(System.Int32)
+  - SuperOffice.Data.SoPreference.GetSections
+  - SuperOffice.Data.SoPreference.GetString(System.String,System.String)
+  - SuperOffice.Data.SoPreference.GetString(System.String,System.String,System.String)
+  - SuperOffice.Data.SoPreference.IndividualCacheKey(System.String,System.String)
+  - SuperOffice.Data.SoPreference.ParseBooleanPreference(System.String,System.Boolean)
+  - SuperOffice.Data.SoPreference.SectionCacheKey(System.String)
+  - SuperOffice.Data.SoPreference.SetCachedValue(System.Int32,System.String,System.String,System.String,SuperOffice.Data.PreferenceLevel)
+  - SuperOffice.Data.SoPreference.SetCachedValue(System.String,System.String,System.String)
+  - SuperOffice.Data.SoPreference.SetKeys(System.String)
+  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Boolean)
+  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.DateTime)
+  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Int32)
+  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String)
+  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32)
+  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: SoPreference
+  nameWithType: SoPreference
+  fullName: SuperOffice.Data.SoPreference
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReads user preferences at several levels, returning the preference value that is defined at the lowest level.\n<p>\nA user preference defined at level 5 is more specific than a preference read at level 2.\n</p>\n"
+  remarks: "\nCaching is done using the SoPrincipal-based cache mechanism. This is emptied on every roundtrip.\nThat is intentional, to avoid stale data. In the interest of performance, we read complete sections,\nso if you ask for one preference we read-ahead all the preferences in that section and cache them for this\nroundtrip.\n<p></p>\nWe assume that the <see cref=\"!:SetCachedItem\"></see> in CurrentPrincipal will accept multiple Set calls\non the same item, and that the latest value will be the one that survives.\n"
+  syntax:
+    content: public static class SoPreference
+    content.vb: Public Module SoPreference
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.SoPreference.GetSections
+  commentId: M:SuperOffice.Data.SoPreference.GetSections
+  id: GetSections
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetSections()
+  nameWithType: SoPreference.GetSections()
+  fullName: SuperOffice.Data.SoPreference.GetSections()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet all sections defined for the current associate, from the cache if possible, otherwise from the database.\n"
+  remarks: "\nAn intended side effect is that the key cache for each section plus the value\ncache for each key are set.\n"
+  syntax:
+    content: public static string[] GetSections()
+    return:
+      type: System.String[]
+      description: Array of sections
+    content.vb: Public Shared Function GetSections As String()
+  overload: SuperOffice.Data.SoPreference.GetSections*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.AsyncFullInit
+  commentId: M:SuperOffice.Data.SoPreference.AsyncFullInit
+  id: AsyncFullInit
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: AsyncFullInit()
+  nameWithType: SoPreference.AsyncFullInit()
+  fullName: SuperOffice.Data.SoPreference.AsyncFullInit()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReserved for internal use\n"
+  remarks: "\nThis method calls <xref href=\"SuperOffice.Data.SoPreference.GetSections\" data-throw-if-not-resolved=\"false\"></xref> to trigger a full initialization (read\nall sections and data), asynchronously. Use the <xref href=\"SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(System.Int32%2cSuperOffice.Threading.AsyncContext%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>\nto wait for it to complete at your convenience, and <strong>DO NOT</strong> call any other \npreference-related methods in the meantime.\n"
+  syntax:
+    content: public static AsyncContext AsyncFullInit()
+    return:
+      type: SuperOffice.Threading.AsyncContext
+    content.vb: Public Shared Function AsyncFullInit As AsyncContext
+  overload: SuperOffice.Data.SoPreference.AsyncFullInit*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetKeys(System.String)
+  commentId: M:SuperOffice.Data.SoPreference.GetKeys(System.String)
+  id: GetKeys(System.String)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetKeys(String)
+  nameWithType: SoPreference.GetKeys(String)
+  fullName: SuperOffice.Data.SoPreference.GetKeys(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet all available keys within a section from the cache if possible, otherwise from the database.\n"
+  remarks: "\nAn intended side effect is that the value\ncache for each key are set.\n"
+  syntax:
+    content: public static string[] GetKeys(string section)
+    parameters:
+    - id: section
+      type: System.String
+      description: Name of the section.
+    return:
+      type: System.String[]
+      description: Available keys in the section.
+    content.vb: Public Shared Function GetKeys(section As String) As String()
+  overload: SuperOffice.Data.SoPreference.GetKeys*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.SetKeys(System.String)
+  commentId: M:SuperOffice.Data.SoPreference.SetKeys(System.String)
+  id: SetKeys(System.String)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: SetKeys(String)
+  nameWithType: SoPreference.SetKeys(String)
+  fullName: SuperOffice.Data.SoPreference.SetKeys(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static string[] SetKeys(string section)
+    parameters:
+    - id: section
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function SetKeys(section As String) As String()
+  overload: SuperOffice.Data.SoPreference.SetKeys*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetSectionAndKeyFromId(System.Int32)
+  commentId: M:SuperOffice.Data.SoPreference.GetSectionAndKeyFromId(System.Int32)
+  id: GetSectionAndKeyFromId(System.Int32)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetSectionAndKeyFromId(Int32)
+  nameWithType: SoPreference.GetSectionAndKeyFromId(Int32)
+  fullName: SuperOffice.Data.SoPreference.GetSectionAndKeyFromId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: >-
+      [Obsolete("Please do not manipulate preferences by ID, only use section/key", true)]
+
+      public static UserPreferenceCacheObject GetSectionAndKeyFromId(int primaryId)
+    parameters:
+    - id: primaryId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.UserPreferenceCacheObject
+    content.vb: >-
+      <Obsolete("Please do not manipulate preferences by ID, only use section/key", True)>
+
+      Public Shared Function GetSectionAndKeyFromId(primaryId As Integer) As UserPreferenceCacheObject
+  overload: SuperOffice.Data.SoPreference.GetSectionAndKeyFromId*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Please do not manipulate preferences by ID, only use section/key
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetString(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Data.SoPreference.GetString(System.String,System.String,System.String)
+  id: GetString(System.String,System.String,System.String)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetString(String, String, String)
+  nameWithType: SoPreference.GetString(String, String, String)
+  fullName: SuperOffice.Data.SoPreference.GetString(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet string value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
+  syntax:
+    content: public static string GetString(string section, string key, string defaultValue)
+    parameters:
+    - id: section
+      type: System.String
+      description: Name of the section.
+    - id: key
+      type: System.String
+      description: Name of the key.
+    - id: defaultValue
+      type: System.String
+      description: Default value
+    return:
+      type: System.String
+      description: "\nUser preference.  If the user preference does not exist, the defualtValue is returned.\n"
+    content.vb: Public Shared Function GetString(section As String, key As String, defaultValue As String) As String
+  overload: SuperOffice.Data.SoPreference.GetString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.SetCachedValue(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Data.SoPreference.SetCachedValue(System.String,System.String,System.String)
+  id: SetCachedValue(System.String,System.String,System.String)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: SetCachedValue(String, String, String)
+  nameWithType: SoPreference.SetCachedValue(String, String, String)
+  fullName: SuperOffice.Data.SoPreference.SetCachedValue(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nUpdate the cache with one item. This method is internal since it is also called from UserPreferenceRow/implementation,\nto keep the cache up to date with saved changes. NOTE that this does NOT take into account farm/cluster situations,\nwhere we instead rely on a fairly short cache lifetime... that may or may not be good enough.\n"
+  syntax:
+    content: public static void SetCachedValue(string section, string key, string value)
+    parameters:
+    - id: section
+      type: System.String
+      description: Preference section
+    - id: key
+      type: System.String
+      description: Preference key
+    - id: value
+      type: System.String
+      description: Raw value to set
+    content.vb: Public Shared Sub SetCachedValue(section As String, key As String, value As String)
+  overload: SuperOffice.Data.SoPreference.SetCachedValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.SetCachedValue(System.Int32,System.String,System.String,System.String,SuperOffice.Data.PreferenceLevel)
+  commentId: M:SuperOffice.Data.SoPreference.SetCachedValue(System.Int32,System.String,System.String,System.String,SuperOffice.Data.PreferenceLevel)
+  id: SetCachedValue(System.Int32,System.String,System.String,System.String,SuperOffice.Data.PreferenceLevel)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: SetCachedValue(Int32, String, String, String, PreferenceLevel)
+  nameWithType: SoPreference.SetCachedValue(Int32, String, String, String, PreferenceLevel)
+  fullName: SuperOffice.Data.SoPreference.SetCachedValue(System.Int32, System.String, System.String, System.String, SuperOffice.Data.PreferenceLevel)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nUpdate individual and section caches\n"
+  syntax:
+    content: public static void SetCachedValue(int primaryId, string section, string key, string value, PreferenceLevel level)
+    parameters:
+    - id: primaryId
+      type: System.Int32
+      description: Obsolete, not used
+    - id: section
+      type: System.String
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    - id: level
+      type: SuperOffice.Data.PreferenceLevel
+      description: Obsolete, not used
+    content.vb: Public Shared Sub SetCachedValue(primaryId As Integer, section As String, key As String, value As String, level As PreferenceLevel)
+  overload: SuperOffice.Data.SoPreference.SetCachedValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetString(System.String,System.String)
+  commentId: M:SuperOffice.Data.SoPreference.GetString(System.String,System.String)
+  id: GetString(System.String,System.String)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetString(String, String)
+  nameWithType: SoPreference.GetString(String, String)
+  fullName: SuperOffice.Data.SoPreference.GetString(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet string value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
+  syntax:
+    content: public static string GetString(string section, string key)
+    parameters:
+    - id: section
+      type: System.String
+      description: Name of the section.
+    - id: key
+      type: System.String
+      description: Name of the key.
+    return:
+      type: System.String
+      description: User preference.  If the user preference does not exist, <xref href="System.String.Empty" data-throw-if-not-resolved="false"></xref> is returned.
+    content.vb: Public Shared Function GetString(section As String, key As String) As String
+  overload: SuperOffice.Data.SoPreference.GetString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetBool(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.Data.SoPreference.GetBool(System.String,System.String,System.Boolean)
+  id: GetBool(System.String,System.String,System.Boolean)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetBool(String, String, Boolean)
+  nameWithType: SoPreference.GetBool(String, String, Boolean)
+  fullName: SuperOffice.Data.SoPreference.GetBool(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet boolean value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
+  syntax:
+    content: public static bool GetBool(string section, string key, bool defaultValue)
+    parameters:
+    - id: section
+      type: System.String
+      description: Name of the section.
+    - id: key
+      type: System.String
+      description: Name of the key.
+    - id: defaultValue
+      type: System.Boolean
+      description: Default value
+    return:
+      type: System.Boolean
+      description: User preference.  If the user preference does not excist, the defualtValue is returned.
+    content.vb: Public Shared Function GetBool(section As String, key As String, defaultValue As Boolean) As Boolean
+  overload: SuperOffice.Data.SoPreference.GetBool*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.ParseBooleanPreference(System.String,System.Boolean)
+  commentId: M:SuperOffice.Data.SoPreference.ParseBooleanPreference(System.String,System.Boolean)
+  id: ParseBooleanPreference(System.String,System.Boolean)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: ParseBooleanPreference(String, Boolean)
+  nameWithType: SoPreference.ParseBooleanPreference(String, Boolean)
+  fullName: SuperOffice.Data.SoPreference.ParseBooleanPreference(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nParse a string value into a boolean; if that is not possible then return the default instead\n"
+  syntax:
+    content: public static bool ParseBooleanPreference(string value, bool defaultValue)
+    parameters:
+    - id: value
+      type: System.String
+    - id: defaultValue
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ParseBooleanPreference(value As String, defaultValue As Boolean) As Boolean
+  overload: SuperOffice.Data.SoPreference.ParseBooleanPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetInt(System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.Data.SoPreference.GetInt(System.String,System.String,System.Int32)
+  id: GetInt(System.String,System.String,System.Int32)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetInt(String, String, Int32)
+  nameWithType: SoPreference.GetInt(String, String, Int32)
+  fullName: SuperOffice.Data.SoPreference.GetInt(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet integer value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
+  syntax:
+    content: public static int GetInt(string section, string key, int defaultValue)
+    parameters:
+    - id: section
+      type: System.String
+      description: Name of the section.
+    - id: key
+      type: System.String
+      description: Name of the key.
+    - id: defaultValue
+      type: System.Int32
+      description: Default value
+    return:
+      type: System.Int32
+      description: User preference.  If the user preference does not exist, the defualtValue is returned.
+    content.vb: Public Shared Function GetInt(section As String, key As String, defaultValue As Integer) As Integer
+  overload: SuperOffice.Data.SoPreference.GetInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String,System.DateTime)
+  commentId: M:SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String,System.DateTime)
+  id: GetDateTime(System.String,System.String,System.DateTime)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetDateTime(String, String, DateTime)
+  nameWithType: SoPreference.GetDateTime(String, String, DateTime)
+  fullName: SuperOffice.Data.SoPreference.GetDateTime(System.String, System.String, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet DateTime value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
+  syntax:
+    content: public static DateTime GetDateTime(string section, string key, DateTime defaultValue)
+    parameters:
+    - id: section
+      type: System.String
+      description: Name of the section.
+    - id: key
+      type: System.String
+      description: Name of the key.
+    - id: defaultValue
+      type: System.DateTime
+      description: Default value
+    return:
+      type: System.DateTime
+      description: User preference.  If the user preference does not excist, the defualtValue is returned.
+    content.vb: Public Shared Function GetDateTime(section As String, key As String, defaultValue As Date) As Date
+  overload: SuperOffice.Data.SoPreference.GetDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String)
+  commentId: M:SuperOffice.Data.SoPreference.GetDateTime(System.String,System.String)
+  id: GetDateTime(System.String,System.String)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetDateTime(String, String)
+  nameWithType: SoPreference.GetDateTime(String, String)
+  fullName: SuperOffice.Data.SoPreference.GetDateTime(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet DateTime value for a user preference, from the cache if possible. If not, read all keys and their\nvalues from the database, update the caches, and return the wanted value.\n"
+  syntax:
+    content: public static DateTime GetDateTime(string section, string key)
+    parameters:
+    - id: section
+      type: System.String
+      description: Name of the section.
+    - id: key
+      type: System.String
+      description: Name of the key.
+    return:
+      type: System.DateTime
+      description: User preference.  If the user preference does not excist, midnight January 1st, 1970 is returned.
+    content.vb: Public Shared Function GetDateTime(section As String, key As String) As Date
+  overload: SuperOffice.Data.SoPreference.GetDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Int32)
+  id: SetPreference(System.String,System.String,System.Int32)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: SetPreference(String, String, Int32)
+  nameWithType: SoPreference.SetPreference(String, String, Int32)
+  fullName: SuperOffice.Data.SoPreference.SetPreference(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSet a preference on the Individual (associate) level\n"
+  syntax:
+    content: public static void SetPreference(string section, string key, int value)
+    parameters:
+    - id: section
+      type: System.String
+      description: Preference section
+    - id: key
+      type: System.String
+      description: Preference key
+    - id: value
+      type: System.Int32
+      description: New value, will overwrite the old or create a new record if no associate-level preference existed for the current associate
+    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As Integer)
+  overload: SuperOffice.Data.SoPreference.SetPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Boolean)
+  id: SetPreference(System.String,System.String,System.Boolean)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: SetPreference(String, String, Boolean)
+  nameWithType: SoPreference.SetPreference(String, String, Boolean)
+  fullName: SuperOffice.Data.SoPreference.SetPreference(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSet a preference on the Individual (associate) level\n"
+  syntax:
+    content: public static void SetPreference(string section, string key, bool value)
+    parameters:
+    - id: section
+      type: System.String
+      description: Preference section
+    - id: key
+      type: System.String
+      description: Preference key
+    - id: value
+      type: System.Boolean
+      description: New value, will overwrite the old or create a new record if no associate-level preference existed for the current associate
+    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As Boolean)
+  overload: SuperOffice.Data.SoPreference.SetPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.DateTime)
+  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.DateTime)
+  id: SetPreference(System.String,System.String,System.DateTime)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: SetPreference(String, String, DateTime)
+  nameWithType: SoPreference.SetPreference(String, String, DateTime)
+  fullName: SuperOffice.Data.SoPreference.SetPreference(System.String, System.String, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSet a preference on the Individual (associate) level\n"
+  syntax:
+    content: public static void SetPreference(string section, string key, DateTime value)
+    parameters:
+    - id: section
+      type: System.String
+      description: Preference section
+    - id: key
+      type: System.String
+      description: Preference key
+    - id: value
+      type: System.DateTime
+      description: New value, will overwrite the old or create a new record if no associate-level preference existed for the current associate
+    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As Date)
+  overload: SuperOffice.Data.SoPreference.SetPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String)
+  id: SetPreference(System.String,System.String,System.String)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: SetPreference(String, String, String)
+  nameWithType: SoPreference.SetPreference(String, String, String)
+  fullName: SuperOffice.Data.SoPreference.SetPreference(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSet a preference on the Individual (associate) level\n"
+  syntax:
+    content: public static void SetPreference(string section, string key, string value)
+    parameters:
+    - id: section
+      type: System.String
+      description: Preference section
+    - id: key
+      type: System.String
+      description: Preference key
+    - id: value
+      type: System.String
+      description: New value, will overwrite the old or create a new record if no associate-level preference existed for the current associate
+    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As String)
+  overload: SuperOffice.Data.SoPreference.SetPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32)
+  id: SetPreference(System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: SetPreference(String, String, String, Int32)
+  nameWithType: SoPreference.SetPreference(String, String, String, Int32)
+  fullName: SuperOffice.Data.SoPreference.SetPreference(System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSet a preference on the individual (associate) level for a specified associate\n"
+  syntax:
+    content: public static void SetPreference(string section, string key, string value, int associateId)
+    parameters:
+    - id: section
+      type: System.String
+      description: Preference section
+    - id: key
+      type: System.String
+      description: Preference key
+    - id: value
+      type: System.String
+      description: New value, will overwrite the old or create a new record if no associate-level preference existed for the associate
+    - id: associateId
+      type: System.Int32
+      description: Identity of associate to set preference for
+    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As String, associateId As Integer)
+  overload: SuperOffice.Data.SoPreference.SetPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)
+  id: SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: SetPreference(String, String, String, Int32, PreferenceLevel, Boolean, Boolean)
+  nameWithType: SoPreference.SetPreference(String, String, String, Int32, PreferenceLevel, Boolean, Boolean)
+  fullName: SuperOffice.Data.SoPreference.SetPreference(System.String, System.String, System.String, System.Int32, SuperOffice.Data.PreferenceLevel, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSet a preference \n"
+  syntax:
+    content: public static int SetPreference(string section, string key, string value, int ownerId, PreferenceLevel level, bool removeOnLowerLevels = false, bool skipPermissionCheck = false)
+    parameters:
+    - id: section
+      type: System.String
+      description: Preference section
+    - id: key
+      type: System.String
+      description: Preference key
+    - id: value
+      type: System.String
+      description: New value, will overwrite the old or create a new record if no associate-level preference existed for the associate
+    - id: ownerId
+      type: System.Int32
+      description: The id to set for the ownerId field. This will point to different id type depending on the preference type
+    - id: level
+      type: SuperOffice.Data.PreferenceLevel
+      description: The level to set for this preference
+    - id: removeOnLowerLevels
+      type: System.Boolean
+      description: Will remove same preference on lower levels if set to true
+    - id: skipPermissionCheck
+      type: System.Boolean
+      description: Set this to true to skip the check for setting system wide preferences
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function SetPreference(section As String, key As String, value As String, ownerId As Integer, level As PreferenceLevel, removeOnLowerLevels As Boolean = False, skipPermissionCheck As Boolean = False) As Integer
+  overload: SuperOffice.Data.SoPreference.SetPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
+  commentId: M:SuperOffice.Data.SoPreference.GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
+  id: GetPreference(System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: GetPreference(String, String, Int32, PreferenceLevel, Boolean)
+  nameWithType: SoPreference.GetPreference(String, String, Int32, PreferenceLevel, Boolean)
+  fullName: SuperOffice.Data.SoPreference.GetPreference(System.String, System.String, System.Int32, SuperOffice.Data.PreferenceLevel, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet a preference value directly from the database, specifying a full section/key/level/owner independent of the current user\n"
+  syntax:
+    content: public static string GetPreference(string section, string key, int ownerId, PreferenceLevel level, bool skipPermissionCheck = false)
+    parameters:
+    - id: section
+      type: System.String
+      description: Preference section
+    - id: key
+      type: System.String
+      description: Preference key
+    - id: ownerId
+      type: System.Int32
+      description: The id to set for the ownerId field. This will point to different id type depending on the preference type
+    - id: level
+      type: SuperOffice.Data.PreferenceLevel
+      description: The level to set for this preference
+    - id: skipPermissionCheck
+      type: System.Boolean
+      description: Set this to true to skip the check for setting system wide preferences
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetPreference(section As String, key As String, ownerId As Integer, level As PreferenceLevel, skipPermissionCheck As Boolean = False) As String
+  overload: SuperOffice.Data.SoPreference.GetPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.SectionCacheKey(System.String)
+  commentId: M:SuperOffice.Data.SoPreference.SectionCacheKey(System.String)
+  id: SectionCacheKey(System.String)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: SectionCacheKey(String)
+  nameWithType: SoPreference.SectionCacheKey(String)
+  fullName: SuperOffice.Data.SoPreference.SectionCacheKey(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet the cache key for the list of keys in one section\n"
+  syntax:
+    content: public static string SectionCacheKey(string section)
+    parameters:
+    - id: section
+      type: System.String
+      description: Section name
+    return:
+      type: System.String
+      description: Cache key for use in SoPrincipal
+    content.vb: Public Shared Function SectionCacheKey(section As String) As String
+  overload: SuperOffice.Data.SoPreference.SectionCacheKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.IndividualCacheKey(System.String,System.String)
+  commentId: M:SuperOffice.Data.SoPreference.IndividualCacheKey(System.String,System.String)
+  id: IndividualCacheKey(System.String,System.String)
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: IndividualCacheKey(String, String)
+  nameWithType: SoPreference.IndividualCacheKey(String, String)
+  fullName: SuperOffice.Data.SoPreference.IndividualCacheKey(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet the cache key for one single value\n"
+  syntax:
+    content: public static string IndividualCacheKey(string section, string key)
+    parameters:
+    - id: section
+      type: System.String
+      description: Section name
+    - id: key
+      type: System.String
+      description: Key name
+    return:
+      type: System.String
+      description: Cache key for use in SoPrincipal
+    content.vb: Public Shared Function IndividualCacheKey(section As String, key As String) As String
+  overload: SuperOffice.Data.SoPreference.IndividualCacheKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SoPreference.CacheLifetime
+  commentId: P:SuperOffice.Data.SoPreference.CacheLifetime
+  id: CacheLifetime
+  parent: SuperOffice.Data.SoPreference
+  langs:
+  - csharp
+  - vb
+  name: CacheLifetime
+  nameWithType: SoPreference.CacheLifetime
+  fullName: SuperOffice.Data.SoPreference.CacheLifetime
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCache lifetime for user preferences; note that the cache used will expire when principal is recycled (roundtrip end if in typical Web context)\n"
+  syntax:
+    content: public static double CacheLifetime { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: The cache lifetime.
+    content.vb: Public Shared Property CacheLifetime As Double
+  overload: SuperOffice.Data.SoPreference.CacheLifetime*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SoPreference.GetSections*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetSections
+  isExternal: true
+  name: GetSections
+  nameWithType: SoPreference.GetSections
+  fullName: SuperOffice.Data.SoPreference.GetSections
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.SoPreference.AsyncFullInit*
+  commentId: Overload:SuperOffice.Data.SoPreference.AsyncFullInit
+  isExternal: true
+  name: AsyncFullInit
+  nameWithType: SoPreference.AsyncFullInit
+  fullName: SuperOffice.Data.SoPreference.AsyncFullInit
+- uid: SuperOffice.Threading.AsyncContext
+  commentId: T:SuperOffice.Threading.AsyncContext
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncContext
+  nameWithType: AsyncContext
+  fullName: SuperOffice.Threading.AsyncContext
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: SuperOffice.Data.SoPreference.GetKeys*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetKeys
+  isExternal: true
+  name: GetKeys
+  nameWithType: SoPreference.GetKeys
+  fullName: SuperOffice.Data.SoPreference.GetKeys
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.SoPreference.SetKeys*
+  commentId: Overload:SuperOffice.Data.SoPreference.SetKeys
+  isExternal: true
+  name: SetKeys
+  nameWithType: SoPreference.SetKeys
+  fullName: SuperOffice.Data.SoPreference.SetKeys
+- uid: SuperOffice.Data.SoPreference.GetSectionAndKeyFromId*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetSectionAndKeyFromId
+  isExternal: true
+  name: GetSectionAndKeyFromId
+  nameWithType: SoPreference.GetSectionAndKeyFromId
+  fullName: SuperOffice.Data.SoPreference.GetSectionAndKeyFromId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.UserPreferenceCacheObject
+  commentId: T:SuperOffice.Data.UserPreferenceCacheObject
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UserPreferenceCacheObject
+  nameWithType: UserPreferenceCacheObject
+  fullName: SuperOffice.Data.UserPreferenceCacheObject
+- uid: SuperOffice.Data.SoPreference.GetString*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetString
+  isExternal: true
+  name: GetString
+  nameWithType: SoPreference.GetString
+  fullName: SuperOffice.Data.SoPreference.GetString
+- uid: SuperOffice.Data.SoPreference.SetCachedValue*
+  commentId: Overload:SuperOffice.Data.SoPreference.SetCachedValue
+  isExternal: true
+  name: SetCachedValue
+  nameWithType: SoPreference.SetCachedValue
+  fullName: SuperOffice.Data.SoPreference.SetCachedValue
+- uid: SuperOffice.Data.PreferenceLevel
+  commentId: T:SuperOffice.Data.PreferenceLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: SuperOffice.Data.PreferenceLevel
+- uid: SuperOffice.Data.SoPreference.GetBool*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetBool
+  isExternal: true
+  name: GetBool
+  nameWithType: SoPreference.GetBool
+  fullName: SuperOffice.Data.SoPreference.GetBool
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SoPreference.ParseBooleanPreference*
+  commentId: Overload:SuperOffice.Data.SoPreference.ParseBooleanPreference
+  isExternal: true
+  name: ParseBooleanPreference
+  nameWithType: SoPreference.ParseBooleanPreference
+  fullName: SuperOffice.Data.SoPreference.ParseBooleanPreference
+- uid: SuperOffice.Data.SoPreference.GetInt*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetInt
+  isExternal: true
+  name: GetInt
+  nameWithType: SoPreference.GetInt
+  fullName: SuperOffice.Data.SoPreference.GetInt
+- uid: SuperOffice.Data.SoPreference.GetDateTime*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetDateTime
+  isExternal: true
+  name: GetDateTime
+  nameWithType: SoPreference.GetDateTime
+  fullName: SuperOffice.Data.SoPreference.GetDateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Data.SoPreference.SetPreference*
+  commentId: Overload:SuperOffice.Data.SoPreference.SetPreference
+  isExternal: true
+  name: SetPreference
+  nameWithType: SoPreference.SetPreference
+  fullName: SuperOffice.Data.SoPreference.SetPreference
+- uid: SuperOffice.Data.SoPreference.GetPreference*
+  commentId: Overload:SuperOffice.Data.SoPreference.GetPreference
+  isExternal: true
+  name: GetPreference
+  nameWithType: SoPreference.GetPreference
+  fullName: SuperOffice.Data.SoPreference.GetPreference
+- uid: SuperOffice.Data.SoPreference.SectionCacheKey*
+  commentId: Overload:SuperOffice.Data.SoPreference.SectionCacheKey
+  isExternal: true
+  name: SectionCacheKey
+  nameWithType: SoPreference.SectionCacheKey
+  fullName: SuperOffice.Data.SoPreference.SectionCacheKey
+- uid: SuperOffice.Data.SoPreference.IndividualCacheKey*
+  commentId: Overload:SuperOffice.Data.SoPreference.IndividualCacheKey
+  isExternal: true
+  name: IndividualCacheKey
+  nameWithType: SoPreference.IndividualCacheKey
+  fullName: SuperOffice.Data.SoPreference.IndividualCacheKey
+- uid: SuperOffice.Data.SoPreference.CacheLifetime*
+  commentId: Overload:SuperOffice.Data.SoPreference.CacheLifetime
+  isExternal: true
+  name: CacheLifetime
+  nameWithType: SoPreference.CacheLifetime
+  fullName: SuperOffice.Data.SoPreference.CacheLifetime
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

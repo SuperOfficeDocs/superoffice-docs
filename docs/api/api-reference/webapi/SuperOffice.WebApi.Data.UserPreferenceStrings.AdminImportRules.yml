@@ -1,0 +1,602 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  id: UserPreferenceStrings.AdminImportRules
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactBlankAction
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicate
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicateAction
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewBusinessItems
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewCategoryItems
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewInterestItems
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewPositionItems
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductCategoryItems
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductFamilyItems
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductTypeItems
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewUDListItems
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicate
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicateAction
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPhoneNumbers
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicate
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicateAction
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportUrlsEmails
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.AdminImportRules
+  nameWithType: UserPreferenceStrings.AdminImportRules
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference keys for the mini panel.\n"
+  syntax:
+    content: 'public static class AdminImportRules : Object'
+    content.vb: >-
+      Public Module AdminImportRules
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.AdminImportRules.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Import"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Import"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicate
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicate
+  id: AdminImportContactDuplicate
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportContactDuplicate
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicate
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact duplicate definition on import\n"
+  syntax:
+    content: public const string AdminImportContactDuplicate = "AdminImportContactDuplicate"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportContactDuplicate As String = "AdminImportContactDuplicate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicateAction
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicateAction
+  id: AdminImportContactDuplicateAction
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportContactDuplicateAction
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicateAction
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicateAction
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact duplicate action on import\n"
+  syntax:
+    content: public const string AdminImportContactDuplicateAction = "AdminImportContactDuplicateAction"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportContactDuplicateAction As String = "AdminImportContactDuplicateAction"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactBlankAction
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactBlankAction
+  id: AdminImportContactBlankAction
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportContactBlankAction
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportContactBlankAction
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportContactBlankAction
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact blank action on import\n"
+  syntax:
+    content: public const string AdminImportContactBlankAction = "AdminImportContactBlankAction"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportContactBlankAction As String = "AdminImportContactBlankAction"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicate
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicate
+  id: AdminImportPersonDuplicate
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportPersonDuplicate
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicate
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson duplicate definition on import\n"
+  syntax:
+    content: public const string AdminImportPersonDuplicate = "AdminImportPersonDuplicate"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportPersonDuplicate As String = "AdminImportPersonDuplicate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicateAction
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicateAction
+  id: AdminImportPersonDuplicateAction
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportPersonDuplicateAction
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicateAction
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicateAction
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson blank action on import\n"
+  syntax:
+    content: public const string AdminImportPersonDuplicateAction = "AdminImportPersonDuplicateAction"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportPersonDuplicateAction As String = "AdminImportPersonDuplicateAction"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewCategoryItems
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewCategoryItems
+  id: AdminImportNewCategoryItems
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportNewCategoryItems
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewCategoryItems
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewCategoryItems
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction on new list items on import\n"
+  syntax:
+    content: public const string AdminImportNewCategoryItems = "AdminImportNewCategoryItems"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportNewCategoryItems As String = "AdminImportNewCategoryItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewBusinessItems
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewBusinessItems
+  id: AdminImportNewBusinessItems
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportNewBusinessItems
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewBusinessItems
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewBusinessItems
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction on new list items on import\n"
+  syntax:
+    content: public const string AdminImportNewBusinessItems = "AdminImportNewBusinessItems"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportNewBusinessItems As String = "AdminImportNewBusinessItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewPositionItems
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewPositionItems
+  id: AdminImportNewPositionItems
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportNewPositionItems
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewPositionItems
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewPositionItems
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction on new list items on import\n"
+  syntax:
+    content: public const string AdminImportNewPositionItems = "AdminImportNewPositionItems"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportNewPositionItems As String = "AdminImportNewPositionItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewUDListItems
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewUDListItems
+  id: AdminImportNewUDListItems
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportNewUDListItems
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewUDListItems
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewUDListItems
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction on new list items on import\n"
+  syntax:
+    content: public const string AdminImportNewUDListItems = "AdminImportNewUDListItems"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportNewUDListItems As String = "AdminImportNewUDListItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewInterestItems
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewInterestItems
+  id: AdminImportNewInterestItems
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportNewInterestItems
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewInterestItems
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewInterestItems
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction on new list items on import\n"
+  syntax:
+    content: public const string AdminImportNewInterestItems = "AdminImportNewInterestItems"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportNewInterestItems As String = "AdminImportNewInterestItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPhoneNumbers
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPhoneNumbers
+  id: AdminImportPhoneNumbers
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportPhoneNumbers
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportPhoneNumbers
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportPhoneNumbers
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction on new phone numbers on import\n"
+  syntax:
+    content: public const string AdminImportPhoneNumbers = "AdminImportPhoneNumbers"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportPhoneNumbers As String = "AdminImportPhoneNumbers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportUrlsEmails
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportUrlsEmails
+  id: AdminImportUrlsEmails
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportUrlsEmails
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportUrlsEmails
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportUrlsEmails
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction on urls and emails on import\n"
+  syntax:
+    content: public const string AdminImportUrlsEmails = "AdminImportUrlsEmails"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportUrlsEmails As String = "AdminImportUrlsEmails"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicate
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicate
+  id: AdminImportProductDuplicate
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportProductDuplicate
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicate
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProduct duplicate definition on import\n"
+  syntax:
+    content: public const string AdminImportProductDuplicate = "AdminImportProductDuplicate"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportProductDuplicate As String = "AdminImportProductDuplicate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicateAction
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicateAction
+  id: AdminImportProductDuplicateAction
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportProductDuplicateAction
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicateAction
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicateAction
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProduct duplicate action on import\n"
+  syntax:
+    content: public const string AdminImportProductDuplicateAction = "AdminImportProductDuplicateAction"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportProductDuplicateAction As String = "AdminImportProductDuplicateAction"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductCategoryItems
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductCategoryItems
+  id: AdminImportNewProductCategoryItems
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportNewProductCategoryItems
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewProductCategoryItems
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductCategoryItems
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction on new list items in product category on import\n"
+  syntax:
+    content: public const string AdminImportNewProductCategoryItems = "AdminImportNewProductCategoryItems"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportNewProductCategoryItems As String = "AdminImportNewProductCategoryItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductFamilyItems
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductFamilyItems
+  id: AdminImportNewProductFamilyItems
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportNewProductFamilyItems
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewProductFamilyItems
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductFamilyItems
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction on new list items in product family on import\n"
+  syntax:
+    content: public const string AdminImportNewProductFamilyItems = "AdminImportNewProductFamilyItems"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportNewProductFamilyItems As String = "AdminImportNewProductFamilyItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductTypeItems
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductTypeItems
+  id: AdminImportNewProductTypeItems
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules
+  langs:
+  - csharp
+  - vb
+  name: AdminImportNewProductTypeItems
+  nameWithType: UserPreferenceStrings.AdminImportRules.AdminImportNewProductTypeItems
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AdminImportRules.AdminImportNewProductTypeItems
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction on new list items in product type on import\n"
+  syntax:
+    content: public const string AdminImportNewProductTypeItems = "AdminImportNewProductTypeItems"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportNewProductTypeItems As String = "AdminImportNewProductTypeItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

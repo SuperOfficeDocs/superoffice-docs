@@ -1,0 +1,5 @@
+items:
+- name: NetServer Core
+  href: core/
+- name: NetServer Services
+  href: services/

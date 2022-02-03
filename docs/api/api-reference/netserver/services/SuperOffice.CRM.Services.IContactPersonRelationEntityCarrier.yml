@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  id: IContactPersonRelationEntityCarrier
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+  - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+  langs:
+  - csharp
+  - vb
+  name: IContactPersonRelationEntityCarrier
+  nameWithType: IContactPersonRelationEntityCarrier
+  fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public interface IContactPersonRelationEntityCarrier
+    content.vb: Public Interface IContactPersonRelationEntityCarrier
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+  commentId: P:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+  id: Contact
+  parent: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: IContactPersonRelationEntityCarrier.Contact
+  fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contact associated with the activity. It may also be null if no contact is associated with the appointment.\n"
+  syntax:
+    content: Contact Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Contact
+    content.vb: Property Contact As Contact
+  overload: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+  commentId: P:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+  id: Person
+  parent: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: IContactPersonRelationEntityCarrier.Person
+  fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAn activity may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.\n"
+  syntax:
+    content: Person Person { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Person
+    content.vb: Property Person As Person
+  overload: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact*
+  commentId: Overload:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+  isExternal: true
+  name: Contact
+  nameWithType: IContactPersonRelationEntityCarrier.Contact
+  fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+- uid: SuperOffice.CRM.Services.Contact
+  commentId: T:SuperOffice.CRM.Services.Contact
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Services.Contact
+- uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person*
+  commentId: Overload:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+  isExternal: true
+  name: Person
+  nameWithType: IContactPersonRelationEntityCarrier.Person
+  fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+- uid: SuperOffice.CRM.Services.Person
+  commentId: T:SuperOffice.CRM.Services.Person
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Services.Person

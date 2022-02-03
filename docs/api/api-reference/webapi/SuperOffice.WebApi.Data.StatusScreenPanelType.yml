@@ -1,0 +1,639 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType
+  commentId: T:SuperOffice.WebApi.Data.StatusScreenPanelType
+  id: StatusScreenPanelType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.Hotlist
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.None
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerCategory
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerOrigin
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerPriority
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerStatus
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUser
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.OwnOpenRequests
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.StatusScreen
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.UnassignedRequests
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.UserReponseTimePerWeek
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerDay
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerMonth
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.value__
+  langs:
+  - csharp
+  - vb
+  name: StatusScreenPanelType
+  nameWithType: StatusScreenPanelType
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: 'public sealed class StatusScreenPanelType : Enum'
+    content.vb: >-
+      Public NotInheritable Class StatusScreenPanelType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.value__
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: StatusScreenPanelType.value__
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.None
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: StatusScreenPanelType.None
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: \n"
+  syntax:
+    content: public const StatusScreenPanelType None
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const None As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerCategory
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerCategory
+  id: OpenRequestsPerCategory
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerCategory
+  nameWithType: StatusScreenPanelType.OpenRequestsPerCategory
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerCategory
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: \n"
+  syntax:
+    content: public const StatusScreenPanelType OpenRequestsPerCategory
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const OpenRequestsPerCategory As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
+  id: OpenRequestsPerTopCategory
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerTopCategory
+  nameWithType: StatusScreenPanelType.OpenRequestsPerTopCategory
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: \n"
+  syntax:
+    content: public const StatusScreenPanelType OpenRequestsPerTopCategory
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const OpenRequestsPerTopCategory As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUser
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUser
+  id: OpenRequestsPerUser
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerUser
+  nameWithType: StatusScreenPanelType.OpenRequestsPerUser
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUser
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: \n"
+  syntax:
+    content: public const StatusScreenPanelType OpenRequestsPerUser
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const OpenRequestsPerUser As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
+  id: OpenRequestsPerUserGroup
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerUserGroup
+  nameWithType: StatusScreenPanelType.OpenRequestsPerUserGroup
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: \n"
+  syntax:
+    content: public const StatusScreenPanelType OpenRequestsPerUserGroup
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const OpenRequestsPerUserGroup As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerPriority
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerPriority
+  id: OpenRequestsPerPriority
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerPriority
+  nameWithType: StatusScreenPanelType.OpenRequestsPerPriority
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerPriority
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: \n"
+  syntax:
+    content: public const StatusScreenPanelType OpenRequestsPerPriority
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const OpenRequestsPerPriority As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerStatus
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerStatus
+  id: OpenRequestsPerStatus
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerStatus
+  nameWithType: StatusScreenPanelType.OpenRequestsPerStatus
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerStatus
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: \n"
+  syntax:
+    content: public const StatusScreenPanelType OpenRequestsPerStatus
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const OpenRequestsPerStatus As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerOrigin
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerOrigin
+  id: OpenRequestsPerOrigin
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerOrigin
+  nameWithType: StatusScreenPanelType.OpenRequestsPerOrigin
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerOrigin
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: \n"
+  syntax:
+    content: public const StatusScreenPanelType OpenRequestsPerOrigin
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const OpenRequestsPerOrigin As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
+  id: NumberOfCreatedRequestsPerDay
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: NumberOfCreatedRequestsPerDay
+  nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerDay
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: \n"
+  syntax:
+    content: public const StatusScreenPanelType NumberOfCreatedRequestsPerDay
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const NumberOfCreatedRequestsPerDay As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
+  id: NumberOfCreatedRequestsPerWeek
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: NumberOfCreatedRequestsPerWeek
+  nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n12: \n"
+  syntax:
+    content: public const StatusScreenPanelType NumberOfCreatedRequestsPerWeek
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const NumberOfCreatedRequestsPerWeek As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
+  id: NumberOfCreatedRequestsPerMonth
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: NumberOfCreatedRequestsPerMonth
+  nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n13: \n"
+  syntax:
+    content: public const StatusScreenPanelType NumberOfCreatedRequestsPerMonth
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const NumberOfCreatedRequestsPerMonth As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerDay
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerDay
+  id: UserResponseTimePerDay
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: UserResponseTimePerDay
+  nameWithType: StatusScreenPanelType.UserResponseTimePerDay
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerDay
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n21: \n"
+  syntax:
+    content: public const StatusScreenPanelType UserResponseTimePerDay
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const UserResponseTimePerDay As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.UserReponseTimePerWeek
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.UserReponseTimePerWeek
+  id: UserReponseTimePerWeek
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: UserReponseTimePerWeek
+  nameWithType: StatusScreenPanelType.UserReponseTimePerWeek
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.UserReponseTimePerWeek
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n22: \n"
+  syntax:
+    content: public const StatusScreenPanelType UserReponseTimePerWeek
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const UserReponseTimePerWeek As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerMonth
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerMonth
+  id: UserResponseTimePerMonth
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: UserResponseTimePerMonth
+  nameWithType: StatusScreenPanelType.UserResponseTimePerMonth
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerMonth
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n23: \n"
+  syntax:
+    content: public const StatusScreenPanelType UserResponseTimePerMonth
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const UserResponseTimePerMonth As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OwnOpenRequests
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OwnOpenRequests
+  id: OwnOpenRequests
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OwnOpenRequests
+  nameWithType: StatusScreenPanelType.OwnOpenRequests
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OwnOpenRequests
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n101: \n"
+  syntax:
+    content: public const StatusScreenPanelType OwnOpenRequests
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const OwnOpenRequests As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.UnassignedRequests
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.UnassignedRequests
+  id: UnassignedRequests
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: UnassignedRequests
+  nameWithType: StatusScreenPanelType.UnassignedRequests
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.UnassignedRequests
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n102: \n"
+  syntax:
+    content: public const StatusScreenPanelType UnassignedRequests
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const UnassignedRequests As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.Hotlist
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.Hotlist
+  id: Hotlist
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: Hotlist
+  nameWithType: StatusScreenPanelType.Hotlist
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.Hotlist
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n103: \n"
+  syntax:
+    content: public const StatusScreenPanelType Hotlist
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const Hotlist As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.StatusScreen
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.StatusScreen
+  id: StatusScreen
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: StatusScreen
+  nameWithType: StatusScreenPanelType.StatusScreen
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.StatusScreen
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n111: \n"
+  syntax:
+    content: public const StatusScreenPanelType StatusScreen
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType
+    content.vb: Public Const StatusScreen As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType
+  commentId: T:SuperOffice.WebApi.Data.StatusScreenPanelType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StatusScreenPanelType
+  nameWithType: StatusScreenPanelType
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType

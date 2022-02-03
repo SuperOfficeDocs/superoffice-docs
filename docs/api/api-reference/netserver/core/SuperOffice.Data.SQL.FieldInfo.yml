@@ -1,0 +1,3016 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  id: FieldInfo
+  parent: SuperOffice.Data.SQL
+  children:
+  - SuperOffice.Data.SQL.FieldInfo.#ctor(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.FieldDataType,System.String)
+  - SuperOffice.Data.SQL.FieldInfo._name
+  - SuperOffice.Data.SQL.FieldInfo._parent
+  - SuperOffice.Data.SQL.FieldInfo.Clone
+  - SuperOffice.Data.SQL.FieldInfo.DbName
+  - SuperOffice.Data.SQL.FieldInfo.Definition
+  - SuperOffice.Data.SQL.FieldInfo.Equals(System.Object)
+  - SuperOffice.Data.SQL.FieldInfo.GetHashCode
+  - SuperOffice.Data.SQL.FieldInfo.GetMainField
+  - SuperOffice.Data.SQL.FieldInfo.HasNoDefinition
+  - SuperOffice.Data.SQL.FieldInfo.IsPrimaryKey
+  - SuperOffice.Data.SQL.FieldInfo.IsSameField(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.FieldInfo.Name
+  - SuperOffice.Data.SQL.FieldInfo.op_Equality(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.FieldInfo.op_Inequality(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.FieldInfo.Parent
+  - SuperOffice.Data.SQL.FieldInfo.Size
+  - SuperOffice.Data.SQL.FieldInfo.System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.FieldInfo.ToString
+  langs:
+  - csharp
+  - vb
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nInformation about a database field. This class is mainly used as a base class for\nthe strongly typed subclasses, corresponding to the different field types in use.\n"
+  syntax:
+    content: 'public class FieldInfo : Argument, ICloneable, IEquatable<FieldInfo>'
+    content.vb: >-
+      Public Class FieldInfo
+          Inherits Argument
+          Implements ICloneable, IEquatable(Of FieldInfo)
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.QueryElement
+  - SuperOffice.Data.SQL.Argument
+  derivedClasses:
+  - SuperOffice.Data.SQL.TypedFieldInfoBase`1
+  implements:
+  - System.ICloneable
+  - System.IEquatable{SuperOffice.Data.SQL.FieldInfo}
+  inheritedMembers:
+  - SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.Argument.Like(System.String)
+  - SuperOffice.Data.SQL.Argument.NotLike(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.SQL.Argument.IsNull
+  - SuperOffice.Data.SQL.Argument.IsNotNull
+  - SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.SQL.Argument.ToArgumentArray``1({T}[])
+  - SuperOffice.Data.SQL.Argument.ToArgumentArray``1({T}[],System.Boolean)
+  - SuperOffice.Data.SQL.Argument.GetSubElements
+  - SuperOffice.Data.SQL.Argument.Alias
+  - SuperOffice.Data.SQL.Argument.DataType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.SQL.FieldInfo.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.FieldInfo.SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(System.Object,System.Int32[])
+  - SuperOffice.Data.SQL.FieldInfo.SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(System.Object,System.Int32@,System.Int32[])
+  - SuperOffice.Data.SQL.FieldInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.SQL.FieldInfo._parent
+  commentId: F:SuperOffice.Data.SQL.FieldInfo._parent
+  id: _parent
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: _parent
+  nameWithType: FieldInfo._parent
+  fullName: SuperOffice.Data.SQL.FieldInfo._parent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: protected TableInfo _parent
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Protected _parent As TableInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.SQL.FieldInfo._name
+  commentId: F:SuperOffice.Data.SQL.FieldInfo._name
+  id: _name
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: _name
+  nameWithType: FieldInfo._name
+  fullName: SuperOffice.Data.SQL.FieldInfo._name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: protected string _name
+    return:
+      type: System.String
+    content.vb: Protected _name As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.SQL.FieldInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.ToString
+  id: ToString
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FieldInfo.ToString()
+  fullName: SuperOffice.Data.SQL.FieldInfo.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nString output.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: table.fieldname
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.Data.SQL.FieldInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Data.SQL.FieldInfo.#ctor(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.FieldDataType,System.String)
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.#ctor(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.FieldDataType,System.String)
+  id: '#ctor(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.FieldDataType,System.String)'
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldInfo(TableInfo, FieldDataType, String)
+  nameWithType: FieldInfo.FieldInfo(TableInfo, FieldDataType, String)
+  fullName: SuperOffice.Data.SQL.FieldInfo.FieldInfo(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.FieldDataType, System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nConstructor for class FieldInfo.\n"
+  syntax:
+    content: public FieldInfo(TableInfo parent, FieldDataType dataType, string name)
+    parameters:
+    - id: parent
+      type: SuperOffice.Data.SQL.TableInfo
+      description: Instance of TableInfo representing the table this field is a member of.
+    - id: dataType
+      type: SuperOffice.Data.FieldDataType
+      description: Datatype of the field.
+    - id: name
+      type: System.String
+      description: The name of the field in the database.
+    content.vb: Public Sub New(parent As TableInfo, dataType As FieldDataType, name As String)
+  overload: SuperOffice.Data.SQL.FieldInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.FieldInfo.IsSameField(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.IsSameField(SuperOffice.Data.SQL.FieldInfo)
+  id: IsSameField(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: IsSameField(FieldInfo)
+  nameWithType: FieldInfo.IsSameField(FieldInfo)
+  fullName: SuperOffice.Data.SQL.FieldInfo.IsSameField(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nCompare two FieldInfos\n"
+  syntax:
+    content: public bool IsSameField(FieldInfo rhs)
+    parameters:
+    - id: rhs
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: FieldInfo to check
+    return:
+      type: System.Boolean
+      description: true if false, otherwise false
+    content.vb: Public Function IsSameField(rhs As FieldInfo) As Boolean
+  overload: SuperOffice.Data.SQL.FieldInfo.IsSameField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.FieldInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.Clone
+  id: Clone
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: FieldInfo.Clone()
+  fullName: SuperOffice.Data.SQL.FieldInfo.Clone()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nMemberwise Clone of this object\n"
+  syntax:
+    content: public override object Clone()
+    return:
+      type: System.Object
+      description: Copy of the fieldinfo that points to the same parent table.
+    content.vb: Public Overrides Function Clone As Object
+  overridden: SuperOffice.Data.SQL.QueryElement.Clone
+  overload: SuperOffice.Data.SQL.FieldInfo.Clone*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Data.SQL.FieldInfo.op_Equality(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.op_Equality(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  id: op_Equality(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Equality(FieldInfo, FieldInfo)
+  nameWithType: FieldInfo.Equality(FieldInfo, FieldInfo)
+  fullName: SuperOffice.Data.SQL.FieldInfo.Equality(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo)
+  type: Operator
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public static bool operator ==(FieldInfo a, FieldInfo b)
+    parameters:
+    - id: a
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: b
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As FieldInfo, b As FieldInfo) As Boolean
+  overload: SuperOffice.Data.SQL.FieldInfo.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SQL.FieldInfo.op_Inequality(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.op_Inequality(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  id: op_Inequality(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Inequality(FieldInfo, FieldInfo)
+  nameWithType: FieldInfo.Inequality(FieldInfo, FieldInfo)
+  fullName: SuperOffice.Data.SQL.FieldInfo.Inequality(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo)
+  type: Operator
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public static bool operator !=(FieldInfo a, FieldInfo b)
+    parameters:
+    - id: a
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: b
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As FieldInfo, b As FieldInfo) As Boolean
+  overload: SuperOffice.Data.SQL.FieldInfo.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.SQL.FieldInfo.Equals(System.Object)
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: FieldInfo.Equals(Object)
+  fullName: SuperOffice.Data.SQL.FieldInfo.Equals(System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: SuperOffice.Data.SQL.FieldInfo.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Data.SQL.FieldInfo.GetHashCode
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.GetHashCode
+  id: GetHashCode
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: FieldInfo.GetHashCode()
+  fullName: SuperOffice.Data.SQL.FieldInfo.GetHashCode()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: SuperOffice.Data.SQL.FieldInfo.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Data.SQL.FieldInfo.GetMainField
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.GetMainField
+  id: GetMainField
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: GetMainField()
+  nameWithType: FieldInfo.GetMainField()
+  fullName: SuperOffice.Data.SQL.FieldInfo.GetMainField()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public override FieldInfo GetMainField()
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public Overrides Function GetMainField As FieldInfo
+  overridden: SuperOffice.Data.SQL.Argument.GetMainField
+  overload: SuperOffice.Data.SQL.FieldInfo.GetMainField*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Data.SQL.FieldInfo.System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals(SuperOffice.Data.SQL.FieldInfo)
+  id: System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals(SuperOffice.Data.SQL.FieldInfo)
+  isEii: true
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: IEquatable<FieldInfo>.Equals(FieldInfo)
+  nameWithType: FieldInfo.IEquatable<FieldInfo>.Equals(FieldInfo)
+  fullName: SuperOffice.Data.SQL.FieldInfo.System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: bool IEquatable<FieldInfo>.Equals(FieldInfo other)
+    parameters:
+    - id: other
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Function System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals(other As FieldInfo) As Boolean Implements IEquatable(Of FieldInfo).Equals
+  overload: SuperOffice.Data.SQL.FieldInfo.System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals*
+  implements:
+  - System.IEquatable{SuperOffice.Data.SQL.FieldInfo}.Equals(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: FieldInfo.System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals(FieldInfo)
+  name.vb: System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals(FieldInfo)
+- uid: SuperOffice.Data.SQL.FieldInfo.Parent
+  commentId: P:SuperOffice.Data.SQL.FieldInfo.Parent
+  id: Parent
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: FieldInfo.Parent
+  fullName: SuperOffice.Data.SQL.FieldInfo.Parent
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nInstance of TableInfo representing the table this field is a member of.\n"
+  syntax:
+    content: public TableInfo Parent { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+      description: The parent tableinfo
+    content.vb: Public ReadOnly Property Parent As TableInfo
+  overload: SuperOffice.Data.SQL.FieldInfo.Parent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.FieldInfo.Name
+  commentId: P:SuperOffice.Data.SQL.FieldInfo.Name
+  id: Name
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FieldInfo.Name
+  fullName: SuperOffice.Data.SQL.FieldInfo.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nThe name of the field in the database.\n"
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: The name.
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.Data.SQL.FieldInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.FieldInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.FieldInfo.DbName
+  id: DbName
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: DbName
+  nameWithType: FieldInfo.DbName
+  fullName: SuperOffice.Data.SQL.FieldInfo.DbName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nThe name of the field in the database.\n"
+  syntax:
+    content: public string DbName { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: The name of the db.
+    content.vb: Public ReadOnly Property DbName As String
+  overload: SuperOffice.Data.SQL.FieldInfo.DbName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.FieldInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.FieldInfo.Definition
+  id: Definition
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: FieldInfo.Definition
+  fullName: SuperOffice.Data.SQL.FieldInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nReturn the deployed dictionary information for the field\n"
+  remarks: Dictionary information is not available for dictionary tables, and for <xref href="SuperOffice.Data.SQL.FieldInfo.HasNoDefinition" data-throw-if-not-resolved="false"></xref>=true fields.
+  syntax:
+    content: public SoField Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoField
+    content.vb: Public ReadOnly Property Definition As SoField
+  overload: SuperOffice.Data.SQL.FieldInfo.Definition*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.FieldInfo.IsPrimaryKey
+  commentId: P:SuperOffice.Data.SQL.FieldInfo.IsPrimaryKey
+  id: IsPrimaryKey
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: IsPrimaryKey
+  nameWithType: FieldInfo.IsPrimaryKey
+  fullName: SuperOffice.Data.SQL.FieldInfo.IsPrimaryKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nIs this field a primary key in the database\n"
+  syntax:
+    content: public bool IsPrimaryKey { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPrimaryKey As Boolean
+  overload: SuperOffice.Data.SQL.FieldInfo.IsPrimaryKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.FieldInfo.Size
+  commentId: P:SuperOffice.Data.SQL.FieldInfo.Size
+  id: Size
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: FieldInfo.Size
+  fullName: SuperOffice.Data.SQL.FieldInfo.Size
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nLength of the field in the database.\n"
+  syntax:
+    content: public override int Size { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property Size As Integer
+  overridden: SuperOffice.Data.SQL.Argument.Size
+  overload: SuperOffice.Data.SQL.FieldInfo.Size*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.FieldInfo.HasNoDefinition
+  commentId: P:SuperOffice.Data.SQL.FieldInfo.HasNoDefinition
+  id: HasNoDefinition
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: HasNoDefinition
+  nameWithType: FieldInfo.HasNoDefinition
+  fullName: SuperOffice.Data.SQL.FieldInfo.HasNoDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nIf this property is set, then this FieldInfo object does NOT have any corresponding\n<xref href=\"SuperOffice.Data.Dictionary.SoField\" data-throw-if-not-resolved=\"false\"></xref>, and properties referring to the definition will fail. This property\nis true only for fields that represent not-in-dictionary database columns.\n"
+  syntax:
+    content: public bool HasNoDefinition { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasNoDefinition As Boolean
+  overload: SuperOffice.Data.SQL.FieldInfo.HasNoDefinition*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.QueryElement
+  commentId: T:SuperOffice.Data.SQL.QueryElement
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: QueryElement
+  nameWithType: QueryElement
+  fullName: SuperOffice.Data.SQL.QueryElement
+- uid: SuperOffice.Data.SQL.Argument
+  commentId: T:SuperOffice.Data.SQL.Argument
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Argument
+  nameWithType: Argument
+  fullName: SuperOffice.Data.SQL.Argument
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.IEquatable{SuperOffice.Data.SQL.FieldInfo}
+  commentId: T:System.IEquatable{SuperOffice.Data.SQL.FieldInfo}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<FieldInfo>
+  nameWithType: IEquatable<FieldInfo>
+  fullName: System.IEquatable<SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: IEquatable(Of FieldInfo)
+  fullName.vb: System.IEquatable(Of SuperOffice.Data.SQL.FieldInfo)
+  name.vb: IEquatable(Of FieldInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: Equal(Argument)
+  nameWithType: Argument.Equal(Argument)
+  fullName: SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
+    name: Equal
+    nameWithType: Argument.Equal
+    fullName: SuperOffice.Data.SQL.Argument.Equal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
+    name: Equal
+    nameWithType: Argument.Equal
+    fullName: SuperOffice.Data.SQL.Argument.Equal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: UnEqual(Argument)
+  nameWithType: Argument.UnEqual(Argument)
+  fullName: SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
+    name: UnEqual
+    nameWithType: Argument.UnEqual
+    fullName: SuperOffice.Data.SQL.Argument.UnEqual
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
+    name: UnEqual
+    nameWithType: Argument.UnEqual
+    fullName: SuperOffice.Data.SQL.Argument.UnEqual
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: LessThan(Argument)
+  nameWithType: Argument.LessThan(Argument)
+  fullName: SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
+    name: LessThan
+    nameWithType: Argument.LessThan
+    fullName: SuperOffice.Data.SQL.Argument.LessThan
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
+    name: LessThan
+    nameWithType: Argument.LessThan
+    fullName: SuperOffice.Data.SQL.Argument.LessThan
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: LessThanOrEqual(Argument)
+  nameWithType: Argument.LessThanOrEqual(Argument)
+  fullName: SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
+    name: LessThanOrEqual
+    nameWithType: Argument.LessThanOrEqual
+    fullName: SuperOffice.Data.SQL.Argument.LessThanOrEqual
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
+    name: LessThanOrEqual
+    nameWithType: Argument.LessThanOrEqual
+    fullName: SuperOffice.Data.SQL.Argument.LessThanOrEqual
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: GreaterThan(Argument)
+  nameWithType: Argument.GreaterThan(Argument)
+  fullName: SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
+    name: GreaterThan
+    nameWithType: Argument.GreaterThan
+    fullName: SuperOffice.Data.SQL.Argument.GreaterThan
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
+    name: GreaterThan
+    nameWithType: Argument.GreaterThan
+    fullName: SuperOffice.Data.SQL.Argument.GreaterThan
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: GreaterThanOrEqual(Argument)
+  nameWithType: Argument.GreaterThanOrEqual(Argument)
+  fullName: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
+    name: GreaterThanOrEqual
+    nameWithType: Argument.GreaterThanOrEqual
+    fullName: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
+    name: GreaterThanOrEqual
+    nameWithType: Argument.GreaterThanOrEqual
+    fullName: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: Like(Argument)
+  nameWithType: Argument.Like(Argument)
+  fullName: SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
+    name: Like
+    nameWithType: Argument.Like
+    fullName: SuperOffice.Data.SQL.Argument.Like
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
+    name: Like
+    nameWithType: Argument.Like
+    fullName: SuperOffice.Data.SQL.Argument.Like
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.Like(System.String)
+  commentId: M:SuperOffice.Data.SQL.Argument.Like(System.String)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: Like(String)
+  nameWithType: Argument.Like(String)
+  fullName: SuperOffice.Data.SQL.Argument.Like(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.Like(System.String)
+    name: Like
+    nameWithType: Argument.Like
+    fullName: SuperOffice.Data.SQL.Argument.Like
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.Like(System.String)
+    name: Like
+    nameWithType: Argument.Like
+    fullName: SuperOffice.Data.SQL.Argument.Like
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.NotLike(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.NotLike(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: NotLike(Argument)
+  nameWithType: Argument.NotLike(Argument)
+  fullName: SuperOffice.Data.SQL.Argument.NotLike(SuperOffice.Data.SQL.Argument)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.NotLike(SuperOffice.Data.SQL.Argument)
+    name: NotLike
+    nameWithType: Argument.NotLike
+    fullName: SuperOffice.Data.SQL.Argument.NotLike
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.NotLike(SuperOffice.Data.SQL.Argument)
+    name: NotLike
+    nameWithType: Argument.NotLike
+    fullName: SuperOffice.Data.SQL.Argument.NotLike
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: NotBetween(Argument, Argument)
+  nameWithType: Argument.NotBetween(Argument, Argument)
+  fullName: SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+    name: NotBetween
+    nameWithType: Argument.NotBetween
+    fullName: SuperOffice.Data.SQL.Argument.NotBetween
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+    name: NotBetween
+    nameWithType: Argument.NotBetween
+    fullName: SuperOffice.Data.SQL.Argument.NotBetween
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: Between(Argument, Argument)
+  nameWithType: Argument.Between(Argument, Argument)
+  fullName: SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+    name: Between
+    nameWithType: Argument.Between
+    fullName: SuperOffice.Data.SQL.Argument.Between
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+    name: Between
+    nameWithType: Argument.Between
+    fullName: SuperOffice.Data.SQL.Argument.Between
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: In(Argument[])
+  nameWithType: Argument.In(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.In(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument())
+  name.vb: In(Argument())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
+    name: In
+    nameWithType: Argument.In
+    fullName: SuperOffice.Data.SQL.Argument.In
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
+    name: In
+    nameWithType: Argument.In
+    fullName: SuperOffice.Data.SQL.Argument.In
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: HasAny(Argument[])
+  nameWithType: Argument.HasAny(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.HasAny(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument())
+  name.vb: HasAny(Argument())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
+    name: HasAny
+    nameWithType: Argument.HasAny
+    fullName: SuperOffice.Data.SQL.Argument.HasAny
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
+    name: HasAny
+    nameWithType: Argument.HasAny
+    fullName: SuperOffice.Data.SQL.Argument.HasAny
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: HasAll(Argument[])
+  nameWithType: Argument.HasAll(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.HasAll(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument())
+  name.vb: HasAll(Argument())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
+    name: HasAll
+    nameWithType: Argument.HasAll
+    fullName: SuperOffice.Data.SQL.Argument.HasAll
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
+    name: HasAll
+    nameWithType: Argument.HasAll
+    fullName: SuperOffice.Data.SQL.Argument.HasAll
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: MissingAny(Argument[])
+  nameWithType: Argument.MissingAny(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.MissingAny(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument())
+  name.vb: MissingAny(Argument())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument[])
+    name: MissingAny
+    nameWithType: Argument.MissingAny
+    fullName: SuperOffice.Data.SQL.Argument.MissingAny
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument[])
+    name: MissingAny
+    nameWithType: Argument.MissingAny
+    fullName: SuperOffice.Data.SQL.Argument.MissingAny
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: MissingAll(Argument[])
+  nameWithType: Argument.MissingAll(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.MissingAll(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument())
+  name.vb: MissingAll(Argument())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument[])
+    name: MissingAll
+    nameWithType: Argument.MissingAll
+    fullName: SuperOffice.Data.SQL.Argument.MissingAll
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument[])
+    name: MissingAll
+    nameWithType: Argument.MissingAll
+    fullName: SuperOffice.Data.SQL.Argument.MissingAll
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.IsNull
+  commentId: M:SuperOffice.Data.SQL.Argument.IsNull
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: IsNull()
+  nameWithType: Argument.IsNull()
+  fullName: SuperOffice.Data.SQL.Argument.IsNull()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.IsNull
+    name: IsNull
+    nameWithType: Argument.IsNull
+    fullName: SuperOffice.Data.SQL.Argument.IsNull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.IsNull
+    name: IsNull
+    nameWithType: Argument.IsNull
+    fullName: SuperOffice.Data.SQL.Argument.IsNull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.IsNotNull
+  commentId: M:SuperOffice.Data.SQL.Argument.IsNotNull
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: IsNotNull()
+  nameWithType: Argument.IsNotNull()
+  fullName: SuperOffice.Data.SQL.Argument.IsNotNull()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.IsNotNull
+    name: IsNotNull
+    nameWithType: Argument.IsNotNull
+    fullName: SuperOffice.Data.SQL.Argument.IsNotNull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.IsNotNull
+    name: IsNotNull
+    nameWithType: Argument.IsNotNull
+    fullName: SuperOffice.Data.SQL.Argument.IsNotNull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: NotIn(Argument[])
+  nameWithType: Argument.NotIn(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.NotIn(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument())
+  name.vb: NotIn(Argument())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
+    name: NotIn
+    nameWithType: Argument.NotIn
+    fullName: SuperOffice.Data.SQL.Argument.NotIn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
+    name: NotIn
+    nameWithType: Argument.NotIn
+    fullName: SuperOffice.Data.SQL.Argument.NotIn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1({T}[])
+  commentId: M:SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
+  parent: SuperOffice.Data.SQL.Argument
+  definition: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
+  name: ToArgumentArray<T>(T[])
+  nameWithType: Argument.ToArgumentArray<T>(T[])
+  fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>(T[])
+  nameWithType.vb: Argument.ToArgumentArray(Of T)(T())
+  fullName.vb: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)(T())
+  name.vb: ToArgumentArray(Of T)(T())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
+    name: ToArgumentArray<T>
+    nameWithType: Argument.ToArgumentArray<T>
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
+    name: ToArgumentArray(Of T)
+    nameWithType: Argument.ToArgumentArray(Of T)
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1({T}[],System.Boolean)
+  commentId: M:SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
+  parent: SuperOffice.Data.SQL.Argument
+  definition: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
+  name: ToArgumentArray<T>(T[], Boolean)
+  nameWithType: Argument.ToArgumentArray<T>(T[], Boolean)
+  fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>(T[], System.Boolean)
+  nameWithType.vb: Argument.ToArgumentArray(Of T)(T(), Boolean)
+  fullName.vb: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)(T(), System.Boolean)
+  name.vb: ToArgumentArray(Of T)(T(), Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
+    name: ToArgumentArray<T>
+    nameWithType: Argument.ToArgumentArray<T>
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
+    name: ToArgumentArray(Of T)
+    nameWithType: Argument.ToArgumentArray(Of T)
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.GetSubElements
+  commentId: M:SuperOffice.Data.SQL.Argument.GetSubElements
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: GetSubElements()
+  nameWithType: Argument.GetSubElements()
+  fullName: SuperOffice.Data.SQL.Argument.GetSubElements()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.GetSubElements
+    name: GetSubElements
+    nameWithType: Argument.GetSubElements
+    fullName: SuperOffice.Data.SQL.Argument.GetSubElements
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.GetSubElements
+    name: GetSubElements
+    nameWithType: Argument.GetSubElements
+    fullName: SuperOffice.Data.SQL.Argument.GetSubElements
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.Alias
+  commentId: P:SuperOffice.Data.SQL.Argument.Alias
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: Alias
+  nameWithType: Argument.Alias
+  fullName: SuperOffice.Data.SQL.Argument.Alias
+- uid: SuperOffice.Data.SQL.Argument.DataType
+  commentId: P:SuperOffice.Data.SQL.Argument.DataType
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: DataType
+  nameWithType: Argument.DataType
+  fullName: SuperOffice.Data.SQL.Argument.DataType
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FieldInfo, To>()
+  nameWithType: EnumUtil.MapEnums<FieldInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.FieldInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FieldInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.FieldInfo, To)()
+  name.vb: MapEnums(Of FieldInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FieldInfo, To>
+    nameWithType: EnumUtil.MapEnums<FieldInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.FieldInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FieldInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of FieldInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.FieldInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo.SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(System.Object,System.Int32[])
+  commentId: M:SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32[])
+  parent: SuperOffice.Data.SoDuplicateChecker
+  definition: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32[])
+  name: CheckIfFieldHasValue(Object, Int32[])
+  nameWithType: SoDuplicateChecker.CheckIfFieldHasValue(Object, Int32[])
+  fullName: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(System.Object, System.Int32[])
+  nameWithType.vb: SoDuplicateChecker.CheckIfFieldHasValue(Object, Int32())
+  fullName.vb: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(System.Object, System.Int32())
+  name.vb: CheckIfFieldHasValue(Object, Int32())
+  spec.csharp:
+  - uid: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(System.Object,System.Int32[])
+    name: CheckIfFieldHasValue
+    nameWithType: SoDuplicateChecker.CheckIfFieldHasValue
+    fullName: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(System.Object,System.Int32[])
+    name: CheckIfFieldHasValue
+    nameWithType: SoDuplicateChecker.CheckIfFieldHasValue
+    fullName: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo.SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(System.Object,System.Int32@,System.Int32[])
+  commentId: M:SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32@,System.Int32[])
+  parent: SuperOffice.Data.SoDuplicateChecker
+  definition: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32@,System.Int32[])
+  name: TryGetPrimaryKey(Object, Int32, Int32[])
+  nameWithType: SoDuplicateChecker.TryGetPrimaryKey(Object, Int32, Int32[])
+  fullName: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(System.Object, System.Int32, System.Int32[])
+  nameWithType.vb: SoDuplicateChecker.TryGetPrimaryKey(Object, Int32, Int32())
+  fullName.vb: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(System.Object, System.Int32, System.Int32())
+  name.vb: TryGetPrimaryKey(Object, Int32, Int32())
+  spec.csharp:
+  - uid: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(System.Object,System.Int32@,System.Int32[])
+    name: TryGetPrimaryKey
+    nameWithType: SoDuplicateChecker.TryGetPrimaryKey
+    fullName: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(System.Object,System.Int32@,System.Int32[])
+    name: TryGetPrimaryKey
+    nameWithType: SoDuplicateChecker.TryGetPrimaryKey
+    fullName: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FieldInfo, To>()
+  nameWithType: Converters.MapEnums<FieldInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.FieldInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of FieldInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.FieldInfo, To)()
+  name.vb: MapEnums(Of FieldInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FieldInfo, To>
+    nameWithType: Converters.MapEnums<FieldInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.FieldInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FieldInfo, To)
+    nameWithType: Converters.MapEnums(Of FieldInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.FieldInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
+  commentId: M:SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
+  isExternal: true
+  name: ToArgumentArray<T>(T[])
+  nameWithType: Argument.ToArgumentArray<T>(T[])
+  fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>(T[])
+  nameWithType.vb: Argument.ToArgumentArray(Of T)(T())
+  fullName.vb: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)(T())
+  name.vb: ToArgumentArray(Of T)(T())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
+    name: ToArgumentArray<T>
+    nameWithType: Argument.ToArgumentArray<T>
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
+    name: ToArgumentArray(Of T)
+    nameWithType: Argument.ToArgumentArray(Of T)
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
+  commentId: M:SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
+  isExternal: true
+  name: ToArgumentArray<T>(T[], Boolean)
+  nameWithType: Argument.ToArgumentArray<T>(T[], Boolean)
+  fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>(T[], System.Boolean)
+  nameWithType.vb: Argument.ToArgumentArray(Of T)(T(), Boolean)
+  fullName.vb: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)(T(), System.Boolean)
+  name.vb: ToArgumentArray(Of T)(T(), Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
+    name: ToArgumentArray<T>
+    nameWithType: Argument.ToArgumentArray<T>
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
+    name: ToArgumentArray(Of T)
+    nameWithType: Argument.ToArgumentArray(Of T)
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32[])
+  commentId: M:SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32[])
+  isExternal: true
+  name: CheckIfFieldHasValue(FieldInfo, Object, Int32[])
+  nameWithType: SoDuplicateChecker.CheckIfFieldHasValue(FieldInfo, Object, Int32[])
+  fullName: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo, System.Object, System.Int32[])
+  nameWithType.vb: SoDuplicateChecker.CheckIfFieldHasValue(FieldInfo, Object, Int32())
+  fullName.vb: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo, System.Object, System.Int32())
+  name.vb: CheckIfFieldHasValue(FieldInfo, Object, Int32())
+  spec.csharp:
+  - uid: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32[])
+    name: CheckIfFieldHasValue
+    nameWithType: SoDuplicateChecker.CheckIfFieldHasValue
+    fullName: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32[])
+    name: CheckIfFieldHasValue
+    nameWithType: SoDuplicateChecker.CheckIfFieldHasValue
+    fullName: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoDuplicateChecker
+  commentId: T:SuperOffice.Data.SoDuplicateChecker
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDuplicateChecker
+  nameWithType: SoDuplicateChecker
+  fullName: SuperOffice.Data.SoDuplicateChecker
+- uid: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32@,System.Int32[])
+  commentId: M:SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32@,System.Int32[])
+  isExternal: true
+  name: TryGetPrimaryKey(FieldInfo, Object, Int32, Int32[])
+  nameWithType: SoDuplicateChecker.TryGetPrimaryKey(FieldInfo, Object, Int32, Int32[])
+  fullName: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo, System.Object, System.Int32, System.Int32[])
+  nameWithType.vb: SoDuplicateChecker.TryGetPrimaryKey(FieldInfo, Object, Int32, Int32())
+  fullName.vb: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo, System.Object, System.Int32, System.Int32())
+  name.vb: TryGetPrimaryKey(FieldInfo, Object, Int32, Int32())
+  spec.csharp:
+  - uid: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32@,System.Int32[])
+    name: TryGetPrimaryKey
+    nameWithType: SoDuplicateChecker.TryGetPrimaryKey
+    fullName: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32@,System.Int32[])
+    name: TryGetPrimaryKey
+    nameWithType: SoDuplicateChecker.TryGetPrimaryKey
+    fullName: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo.ToString*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FieldInfo.ToString
+  fullName: SuperOffice.Data.SQL.FieldInfo.ToString
+- uid: SuperOffice.Data.SQL.FieldInfo.#ctor*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.#ctor
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo.FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo.FieldInfo
+- uid: SuperOffice.Data.FieldDataType
+  commentId: T:SuperOffice.Data.FieldDataType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: FieldDataType
+  nameWithType: FieldDataType
+  fullName: SuperOffice.Data.FieldDataType
+- uid: SuperOffice.Data.SQL.FieldInfo.IsSameField*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.IsSameField
+  isExternal: true
+  name: IsSameField
+  nameWithType: FieldInfo.IsSameField
+  fullName: SuperOffice.Data.SQL.FieldInfo.IsSameField
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SQL.QueryElement.Clone
+  commentId: M:SuperOffice.Data.SQL.QueryElement.Clone
+  parent: SuperOffice.Data.SQL.QueryElement
+  isExternal: true
+  name: Clone()
+  nameWithType: QueryElement.Clone()
+  fullName: SuperOffice.Data.SQL.QueryElement.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.QueryElement.Clone
+    name: Clone
+    nameWithType: QueryElement.Clone
+    fullName: SuperOffice.Data.SQL.QueryElement.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.QueryElement.Clone
+    name: Clone
+    nameWithType: QueryElement.Clone
+    fullName: SuperOffice.Data.SQL.QueryElement.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo.Clone*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.Clone
+  isExternal: true
+  name: Clone
+  nameWithType: FieldInfo.Clone
+  fullName: SuperOffice.Data.SQL.FieldInfo.Clone
+- uid: SuperOffice.Data.SQL.FieldInfo.op_Equality*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.op_Equality
+  isExternal: true
+  name: Equality
+  nameWithType: FieldInfo.Equality
+  fullName: SuperOffice.Data.SQL.FieldInfo.Equality
+- uid: SuperOffice.Data.SQL.FieldInfo.op_Inequality*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.op_Inequality
+  isExternal: true
+  name: Inequality
+  nameWithType: FieldInfo.Inequality
+  fullName: SuperOffice.Data.SQL.FieldInfo.Inequality
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo.Equals*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.Equals
+  isExternal: true
+  name: Equals
+  nameWithType: FieldInfo.Equals
+  fullName: SuperOffice.Data.SQL.FieldInfo.Equals
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo.GetHashCode*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.GetHashCode
+  isExternal: true
+  name: GetHashCode
+  nameWithType: FieldInfo.GetHashCode
+  fullName: SuperOffice.Data.SQL.FieldInfo.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.SQL.Argument.GetMainField
+  commentId: M:SuperOffice.Data.SQL.Argument.GetMainField
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: GetMainField()
+  nameWithType: Argument.GetMainField()
+  fullName: SuperOffice.Data.SQL.Argument.GetMainField()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.GetMainField
+    name: GetMainField
+    nameWithType: Argument.GetMainField
+    fullName: SuperOffice.Data.SQL.Argument.GetMainField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.GetMainField
+    name: GetMainField
+    nameWithType: Argument.GetMainField
+    fullName: SuperOffice.Data.SQL.Argument.GetMainField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo.GetMainField*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.GetMainField
+  isExternal: true
+  name: GetMainField
+  nameWithType: FieldInfo.GetMainField
+  fullName: SuperOffice.Data.SQL.FieldInfo.GetMainField
+- uid: SuperOffice.Data.SQL.FieldInfo.System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals
+  isExternal: true
+  name: IEquatable<FieldInfo>.Equals
+  nameWithType: FieldInfo.IEquatable<FieldInfo>.Equals
+  fullName: SuperOffice.Data.SQL.FieldInfo.System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals
+  nameWithType.vb: FieldInfo.System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals
+  name.vb: System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals
+- uid: System.IEquatable{SuperOffice.Data.SQL.FieldInfo}.Equals(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:System.IEquatable{SuperOffice.Data.SQL.FieldInfo}.Equals(SuperOffice.Data.SQL.FieldInfo)
+  parent: System.IEquatable{SuperOffice.Data.SQL.FieldInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(FieldInfo)
+  nameWithType: IEquatable<FieldInfo>.Equals(FieldInfo)
+  fullName: System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: IEquatable(Of FieldInfo).Equals(FieldInfo)
+  fullName.vb: System.IEquatable(Of SuperOffice.Data.SQL.FieldInfo).Equals(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<FieldInfo>.Equals
+    fullName: System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of FieldInfo).Equals
+    fullName: System.IEquatable(Of SuperOffice.Data.SQL.FieldInfo).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<T>.Equals
+    fullName: System.IEquatable<T>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of T).Equals
+    fullName: System.IEquatable(Of T).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo.Parent*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.Parent
+  isExternal: true
+  name: Parent
+  nameWithType: FieldInfo.Parent
+  fullName: SuperOffice.Data.SQL.FieldInfo.Parent
+- uid: SuperOffice.Data.SQL.FieldInfo.Name*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: FieldInfo.Name
+  fullName: SuperOffice.Data.SQL.FieldInfo.Name
+- uid: SuperOffice.Data.SQL.FieldInfo.DbName*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.DbName
+  isExternal: true
+  name: DbName
+  nameWithType: FieldInfo.DbName
+  fullName: SuperOffice.Data.SQL.FieldInfo.DbName
+- uid: SuperOffice.Data.SQL.FieldInfo.Definition*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: FieldInfo.Definition
+  fullName: SuperOffice.Data.SQL.FieldInfo.Definition
+- uid: SuperOffice.Data.Dictionary.SoField
+  commentId: T:SuperOffice.Data.Dictionary.SoField
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoField
+  nameWithType: SoField
+  fullName: SuperOffice.Data.Dictionary.SoField
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.FieldInfo.IsPrimaryKey*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.IsPrimaryKey
+  isExternal: true
+  name: IsPrimaryKey
+  nameWithType: FieldInfo.IsPrimaryKey
+  fullName: SuperOffice.Data.SQL.FieldInfo.IsPrimaryKey
+- uid: SuperOffice.Data.SQL.Argument.Size
+  commentId: P:SuperOffice.Data.SQL.Argument.Size
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: Size
+  nameWithType: Argument.Size
+  fullName: SuperOffice.Data.SQL.Argument.Size
+- uid: SuperOffice.Data.SQL.FieldInfo.Size*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.Size
+  isExternal: true
+  name: Size
+  nameWithType: FieldInfo.Size
+  fullName: SuperOffice.Data.SQL.FieldInfo.Size
+- uid: SuperOffice.Data.SQL.FieldInfo.HasNoDefinition*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.HasNoDefinition
+  isExternal: true
+  name: HasNoDefinition
+  nameWithType: FieldInfo.HasNoDefinition
+  fullName: SuperOffice.Data.SQL.FieldInfo.HasNoDefinition

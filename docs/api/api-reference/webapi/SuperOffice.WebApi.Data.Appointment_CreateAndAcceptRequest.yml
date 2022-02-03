@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest
+  id: Appointment_CreateAndAcceptRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.EmailItemId
+  - SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.UpdateMode
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateAndAcceptRequest
+  nameWithType: Appointment_CreateAndAcceptRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_CreateAndAcceptRequest : Object'
+    content.vb: >-
+      Public Class Appointment_CreateAndAcceptRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateAndAcceptRequest()
+  nameWithType: Appointment_CreateAndAcceptRequest.Appointment_CreateAndAcceptRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.Appointment_CreateAndAcceptRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_CreateAndAcceptRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.EmailItemId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.EmailItemId
+  id: EmailItemId
+  parent: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailItemId
+  nameWithType: Appointment_CreateAndAcceptRequest.EmailItemId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.EmailItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int EmailItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EmailItemId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.EmailItemId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.UpdateMode
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.UpdateMode
+  id: UpdateMode
+  parent: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMode
+  nameWithType: Appointment_CreateAndAcceptRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.UpdateMode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RecurrenceUpdateMode UpdateMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Property UpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.UpdateMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.#ctor
+  isExternal: true
+  name: Appointment_CreateAndAcceptRequest
+  nameWithType: Appointment_CreateAndAcceptRequest.Appointment_CreateAndAcceptRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.Appointment_CreateAndAcceptRequest
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.EmailItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.EmailItemId
+  isExternal: true
+  name: EmailItemId
+  nameWithType: Appointment_CreateAndAcceptRequest.EmailItemId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.EmailItemId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.UpdateMode*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.UpdateMode
+  isExternal: true
+  name: UpdateMode
+  nameWithType: Appointment_CreateAndAcceptRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest.UpdateMode
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode

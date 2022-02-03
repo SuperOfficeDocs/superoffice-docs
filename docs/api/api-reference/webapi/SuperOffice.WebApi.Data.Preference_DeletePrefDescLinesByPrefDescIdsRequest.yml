@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest
+  id: Preference_DeletePrefDescLinesByPrefDescIdsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.#ctor
+  - SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.PrefDescIds
+  langs:
+  - csharp
+  - vb
+  name: Preference_DeletePrefDescLinesByPrefDescIdsRequest
+  nameWithType: Preference_DeletePrefDescLinesByPrefDescIdsRequest
+  fullName: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Preference_DeletePrefDescLinesByPrefDescIdsRequest : Object'
+    content.vb: >-
+      Public Class Preference_DeletePrefDescLinesByPrefDescIdsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference_DeletePrefDescLinesByPrefDescIdsRequest()
+  nameWithType: Preference_DeletePrefDescLinesByPrefDescIdsRequest.Preference_DeletePrefDescLinesByPrefDescIdsRequest()
+  fullName: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.Preference_DeletePrefDescLinesByPrefDescIdsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference_DeletePrefDescLinesByPrefDescIdsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.PrefDescIds
+  commentId: P:SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.PrefDescIds
+  id: PrefDescIds
+  parent: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: PrefDescIds
+  nameWithType: Preference_DeletePrefDescLinesByPrefDescIdsRequest.PrefDescIds
+  fullName: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.PrefDescIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] PrefDescIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property PrefDescIds As Integer()
+  overload: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.PrefDescIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.#ctor
+  isExternal: true
+  name: Preference_DeletePrefDescLinesByPrefDescIdsRequest
+  nameWithType: Preference_DeletePrefDescLinesByPrefDescIdsRequest.Preference_DeletePrefDescLinesByPrefDescIdsRequest
+  fullName: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.Preference_DeletePrefDescLinesByPrefDescIdsRequest
+- uid: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.PrefDescIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.PrefDescIds
+  isExternal: true
+  name: PrefDescIds
+  nameWithType: Preference_DeletePrefDescLinesByPrefDescIdsRequest.PrefDescIds
+  fullName: SuperOffice.WebApi.Data.Preference_DeletePrefDescLinesByPrefDescIdsRequest.PrefDescIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

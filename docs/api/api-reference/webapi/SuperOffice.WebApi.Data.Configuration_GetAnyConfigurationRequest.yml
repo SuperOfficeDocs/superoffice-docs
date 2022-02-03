@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest
+  id: Configuration_GetAnyConfigurationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Application
+  - SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Instance
+  - SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Item
+  - SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Type
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetAnyConfigurationRequest
+  nameWithType: Configuration_GetAnyConfigurationRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_GetAnyConfigurationRequest : Object'
+    content.vb: >-
+      Public Class Configuration_GetAnyConfigurationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetAnyConfigurationRequest()
+  nameWithType: Configuration_GetAnyConfigurationRequest.Configuration_GetAnyConfigurationRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Configuration_GetAnyConfigurationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_GetAnyConfigurationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Application
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Application
+  id: Application
+  parent: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest
+  langs:
+  - csharp
+  - vb
+  name: Application
+  nameWithType: Configuration_GetAnyConfigurationRequest.Application
+  fullName: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Application
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Application { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Application As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Application*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Instance
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Instance
+  id: Instance
+  parent: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Configuration_GetAnyConfigurationRequest.Instance
+  fullName: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Instance
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Instance { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Instance As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Instance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Item
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Item
+  id: Item
+  parent: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest
+  langs:
+  - csharp
+  - vb
+  name: Item
+  nameWithType: Configuration_GetAnyConfigurationRequest.Item
+  fullName: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Item
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Item { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Item As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Item*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Type
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Configuration_GetAnyConfigurationRequest.Type
+  fullName: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.#ctor
+  isExternal: true
+  name: Configuration_GetAnyConfigurationRequest
+  nameWithType: Configuration_GetAnyConfigurationRequest.Configuration_GetAnyConfigurationRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Configuration_GetAnyConfigurationRequest
+- uid: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Application*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Application
+  isExternal: true
+  name: Application
+  nameWithType: Configuration_GetAnyConfigurationRequest.Application
+  fullName: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Application
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Instance*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Instance
+  isExternal: true
+  name: Instance
+  nameWithType: Configuration_GetAnyConfigurationRequest.Instance
+  fullName: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Instance
+- uid: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Item*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Item
+  isExternal: true
+  name: Item
+  nameWithType: Configuration_GetAnyConfigurationRequest.Item
+  fullName: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Item
+- uid: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Type
+  isExternal: true
+  name: Type
+  nameWithType: Configuration_GetAnyConfigurationRequest.Type
+  fullName: SuperOffice.WebApi.Data.Configuration_GetAnyConfigurationRequest.Type

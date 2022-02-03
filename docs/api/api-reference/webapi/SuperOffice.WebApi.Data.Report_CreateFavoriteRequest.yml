@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest
+  commentId: T:SuperOffice.WebApi.Data.Report_CreateFavoriteRequest
+  id: Report_CreateFavoriteRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.#ctor
+  - SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Description
+  - SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Name
+  - SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.SourceId
+  langs:
+  - csharp
+  - vb
+  name: Report_CreateFavoriteRequest
+  nameWithType: Report_CreateFavoriteRequest
+  fullName: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Report_CreateFavoriteRequest : Object'
+    content.vb: >-
+      Public Class Report_CreateFavoriteRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest
+  langs:
+  - csharp
+  - vb
+  name: Report_CreateFavoriteRequest()
+  nameWithType: Report_CreateFavoriteRequest.Report_CreateFavoriteRequest()
+  fullName: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Report_CreateFavoriteRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Report_CreateFavoriteRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.SourceId
+  commentId: P:SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.SourceId
+  id: SourceId
+  parent: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest
+  langs:
+  - csharp
+  - vb
+  name: SourceId
+  nameWithType: Report_CreateFavoriteRequest.SourceId
+  fullName: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.SourceId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SourceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SourceId As Integer
+  overload: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.SourceId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Report_CreateFavoriteRequest.Name
+  fullName: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Description
+  commentId: P:SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Report_CreateFavoriteRequest.Description
+  fullName: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.#ctor
+  isExternal: true
+  name: Report_CreateFavoriteRequest
+  nameWithType: Report_CreateFavoriteRequest.Report_CreateFavoriteRequest
+  fullName: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Report_CreateFavoriteRequest
+- uid: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.SourceId*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.SourceId
+  isExternal: true
+  name: SourceId
+  nameWithType: Report_CreateFavoriteRequest.SourceId
+  fullName: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.SourceId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: Report_CreateFavoriteRequest.Name
+  fullName: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Description
+  isExternal: true
+  name: Description
+  nameWithType: Report_CreateFavoriteRequest.Description
+  fullName: SuperOffice.WebApi.Data.Report_CreateFavoriteRequest.Description

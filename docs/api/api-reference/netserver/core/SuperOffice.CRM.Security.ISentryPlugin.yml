@@ -1,0 +1,328 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.ISentryPlugin
+  commentId: T:SuperOffice.CRM.Security.ISentryPlugin
+  id: ISentryPlugin
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.ISentryPlugin.Init(SuperOffice.CRM.Security.Sentry)
+  - SuperOffice.CRM.Security.ISentryPlugin.ModifyFieldRights(SuperOffice.CRM.Security.FieldRights)
+  - SuperOffice.CRM.Security.ISentryPlugin.ModifyTableRights(SuperOffice.CRM.Security.TableRights)
+  langs:
+  - csharp
+  - vb
+  name: ISentryPlugin
+  nameWithType: ISentryPlugin
+  fullName: SuperOffice.CRM.Security.ISentryPlugin
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nInterface that has to be implemented by sentry plug-ins.  \nSentry plug-ins also needs to be declared with attribute <xref href=\"SuperOffice.CRM.Security.SentryPluginAttribute\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public interface ISentryPlugin : IPlugin'
+    content.vb: >-
+      Public Interface ISentryPlugin
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.CRM.Security.ISentryPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.ISentryPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Security.ISentryPlugin.Init(SuperOffice.CRM.Security.Sentry)
+  commentId: M:SuperOffice.CRM.Security.ISentryPlugin.Init(SuperOffice.CRM.Security.Sentry)
+  id: Init(SuperOffice.CRM.Security.Sentry)
+  parent: SuperOffice.CRM.Security.ISentryPlugin
+  langs:
+  - csharp
+  - vb
+  name: Init(Sentry)
+  nameWithType: ISentryPlugin.Init(Sentry)
+  fullName: SuperOffice.CRM.Security.ISentryPlugin.Init(SuperOffice.CRM.Security.Sentry)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCalled during the construction of the sentry.\n"
+  remarks: "\nConstruction of the sentry has not yet been completed when the init method is called.  \nThe only property that is permitted to access this early is <xref href=\"SuperOffice.CRM.Security.Sentry.SentryQueryInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: void Init(Sentry sentry)
+    parameters:
+    - id: sentry
+      type: SuperOffice.CRM.Security.Sentry
+      description: Instance of Sentry this instance of the plug-in is working with.
+    content.vb: Sub Init(sentry As Sentry)
+  overload: SuperOffice.CRM.Security.ISentryPlugin.Init*
+- uid: SuperOffice.CRM.Security.ISentryPlugin.ModifyTableRights(SuperOffice.CRM.Security.TableRights)
+  commentId: M:SuperOffice.CRM.Security.ISentryPlugin.ModifyTableRights(SuperOffice.CRM.Security.TableRights)
+  id: ModifyTableRights(SuperOffice.CRM.Security.TableRights)
+  parent: SuperOffice.CRM.Security.ISentryPlugin
+  langs:
+  - csharp
+  - vb
+  name: ModifyTableRights(TableRights)
+  nameWithType: ISentryPlugin.ModifyTableRights(TableRights)
+  fullName: SuperOffice.CRM.Security.ISentryPlugin.ModifyTableRights(SuperOffice.CRM.Security.TableRights)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCalled by the sentry every time it has completed the calculation of table rights.  \nModify the content of the rights collection as needed.\n"
+  syntax:
+    content: void ModifyTableRights(TableRights rights)
+    parameters:
+    - id: rights
+      type: SuperOffice.CRM.Security.TableRights
+      description: Rights collection to modify.
+    content.vb: Sub ModifyTableRights(rights As TableRights)
+  overload: SuperOffice.CRM.Security.ISentryPlugin.ModifyTableRights*
+- uid: SuperOffice.CRM.Security.ISentryPlugin.ModifyFieldRights(SuperOffice.CRM.Security.FieldRights)
+  commentId: M:SuperOffice.CRM.Security.ISentryPlugin.ModifyFieldRights(SuperOffice.CRM.Security.FieldRights)
+  id: ModifyFieldRights(SuperOffice.CRM.Security.FieldRights)
+  parent: SuperOffice.CRM.Security.ISentryPlugin
+  langs:
+  - csharp
+  - vb
+  name: ModifyFieldRights(FieldRights)
+  nameWithType: ISentryPlugin.ModifyFieldRights(FieldRights)
+  fullName: SuperOffice.CRM.Security.ISentryPlugin.ModifyFieldRights(SuperOffice.CRM.Security.FieldRights)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCalled by the sentry every time it has completed the calculation of field rights.  \nThis is done after table rights has been calculated.\nModify the content of the rights collection as needed.\n"
+  syntax:
+    content: void ModifyFieldRights(FieldRights rights)
+    parameters:
+    - id: rights
+      type: SuperOffice.CRM.Security.FieldRights
+      description: Rights collection to modify.
+    content.vb: Sub ModifyFieldRights(rights As FieldRights)
+  overload: SuperOffice.CRM.Security.ISentryPlugin.ModifyFieldRights*
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Security.ISentryPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISentryPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<ISentryPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.ISentryPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISentryPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.ISentryPlugin, To)()
+  name.vb: MapEnums(Of ISentryPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISentryPlugin, To>
+    nameWithType: EnumUtil.MapEnums<ISentryPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.ISentryPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISentryPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of ISentryPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.ISentryPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.ISentryPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISentryPlugin, To>()
+  nameWithType: Converters.MapEnums<ISentryPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.ISentryPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISentryPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.ISentryPlugin, To)()
+  name.vb: MapEnums(Of ISentryPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISentryPlugin, To>
+    nameWithType: Converters.MapEnums<ISentryPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.ISentryPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISentryPlugin, To)
+    nameWithType: Converters.MapEnums(Of ISentryPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.ISentryPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.ISentryPlugin.Init*
+  commentId: Overload:SuperOffice.CRM.Security.ISentryPlugin.Init
+  isExternal: true
+  name: Init
+  nameWithType: ISentryPlugin.Init
+  fullName: SuperOffice.CRM.Security.ISentryPlugin.Init
+- uid: SuperOffice.CRM.Security.Sentry
+  commentId: T:SuperOffice.CRM.Security.Sentry
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: Sentry
+  nameWithType: Sentry
+  fullName: SuperOffice.CRM.Security.Sentry
+- uid: SuperOffice.CRM.Security.ISentryPlugin.ModifyTableRights*
+  commentId: Overload:SuperOffice.CRM.Security.ISentryPlugin.ModifyTableRights
+  isExternal: true
+  name: ModifyTableRights
+  nameWithType: ISentryPlugin.ModifyTableRights
+  fullName: SuperOffice.CRM.Security.ISentryPlugin.ModifyTableRights
+- uid: SuperOffice.CRM.Security.TableRights
+  commentId: T:SuperOffice.CRM.Security.TableRights
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: TableRights
+  nameWithType: TableRights
+  fullName: SuperOffice.CRM.Security.TableRights
+- uid: SuperOffice.CRM.Security.ISentryPlugin.ModifyFieldRights*
+  commentId: Overload:SuperOffice.CRM.Security.ISentryPlugin.ModifyFieldRights
+  isExternal: true
+  name: ModifyFieldRights
+  nameWithType: ISentryPlugin.ModifyFieldRights
+  fullName: SuperOffice.CRM.Security.ISentryPlugin.ModifyFieldRights
+- uid: SuperOffice.CRM.Security.FieldRights
+  commentId: T:SuperOffice.CRM.Security.FieldRights
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FieldRights
+  nameWithType: FieldRights
+  fullName: SuperOffice.CRM.Security.FieldRights

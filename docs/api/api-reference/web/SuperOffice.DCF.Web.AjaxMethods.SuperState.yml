@@ -1,0 +1,1103 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  commentId: T:SuperOffice.DCF.Web.AjaxMethods.SuperState
+  id: SuperState
+  parent: SuperOffice.DCF.Web.AjaxMethods
+  children:
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.#ctor
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.CreateOpenDialogScript(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.GetCurrent(System.String)
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLoginUrl
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLogoutUrl
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.GetMainPageSoProtocol
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.GetPageName
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocol
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocolByPageId(System.String)
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSubClient
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSuperStateParam(System.String)
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.LogCustomSoProtocol(System.String)
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.LogOut
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.SaveSuperState
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrent(System.String,System.Int32,System.String,System.String)
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrentPageOnDialogClose
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSoProtocol(System.String)
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSpecifiedCurrentOnly(System.String,System.Int32,System.String,System.String)
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSuperStateParam(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SuperState
+  nameWithType: SuperState
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("SuperState")]
+
+      public class SuperState : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("SuperState")>
+
+      Public Class SuperState
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SuperState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLoginUrl
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLoginUrl
+  id: GetLoginUrl
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: GetLoginUrl()
+  nameWithType: SuperState.GetLoginUrl()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLoginUrl()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string GetLoginUrl()
+    return:
+      type: System.String
+    content.vb: Public Function GetLoginUrl As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLoginUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLogoutUrl
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLogoutUrl
+  id: GetLogoutUrl
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: GetLogoutUrl()
+  nameWithType: SuperState.GetLogoutUrl()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLogoutUrl()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string GetLogoutUrl()
+    return:
+      type: System.String
+    content.vb: Public Function GetLogoutUrl As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLogoutUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.LogOut
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.LogOut
+  id: LogOut
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: LogOut()
+  nameWithType: SuperState.LogOut()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.LogOut()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string LogOut()
+    return:
+      type: System.String
+    content.vb: Public Function LogOut As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.LogOut*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSuperStateParam(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSuperStateParam(System.String,System.String)
+  id: SetSuperStateParam(System.String,System.String)
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: SetSuperStateParam(String, String)
+  nameWithType: SuperState.SetSuperStateParam(String, String)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSuperStateParam(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public void SetSuperStateParam(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub SetSuperStateParam(key As String, value As String)
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSuperStateParam*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSuperStateParam(System.String)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSuperStateParam(System.String)
+  id: GetSuperStateParam(System.String)
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: GetSuperStateParam(String)
+  nameWithType: SuperState.GetSuperStateParam(String)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSuperStateParam(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string GetSuperStateParam(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetSuperStateParam(key As String) As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSuperStateParam*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrent(System.String,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrent(System.String,System.Int32,System.String,System.String)
+  id: SetCurrent(System.String,System.Int32,System.String,System.String)
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: SetCurrent(String, Int32, String, String)
+  nameWithType: SuperState.SetCurrent(String, Int32, String, String)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrent(System.String, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public void SetCurrent(string currentName, int id, string name, string type)
+    parameters:
+    - id: currentName
+      type: System.String
+    - id: id
+      type: System.Int32
+    - id: name
+      type: System.String
+    - id: type
+      type: System.String
+    content.vb: Public Sub SetCurrent(currentName As String, id As Integer, name As String, type As String)
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSpecifiedCurrentOnly(System.String,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSpecifiedCurrentOnly(System.String,System.Int32,System.String,System.String)
+  id: SetSpecifiedCurrentOnly(System.String,System.Int32,System.String,System.String)
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: SetSpecifiedCurrentOnly(String, Int32, String, String)
+  nameWithType: SuperState.SetSpecifiedCurrentOnly(String, Int32, String, String)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSpecifiedCurrentOnly(System.String, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public void SetSpecifiedCurrentOnly(string currentName, int id, string name, string type)
+    parameters:
+    - id: currentName
+      type: System.String
+    - id: id
+      type: System.Int32
+    - id: name
+      type: System.String
+    - id: type
+      type: System.String
+    content.vb: Public Sub SetSpecifiedCurrentOnly(currentName As String, id As Integer, name As String, type As String)
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSpecifiedCurrentOnly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetCurrent(System.String)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetCurrent(System.String)
+  id: GetCurrent(System.String)
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent(String)
+  nameWithType: SuperState.GetCurrent(String)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetCurrent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public HistoryItem GetCurrent(string currentName)
+    parameters:
+    - id: currentName
+      type: System.String
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Function GetCurrent(currentName As String) As HistoryItem
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetCurrent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SaveSuperState
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.SaveSuperState
+  id: SaveSuperState
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: SaveSuperState()
+  nameWithType: SuperState.SaveSuperState()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SaveSuperState()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoAjaxMethod(SoAjaxMethodType.ThreatErrorAsWarning)]
+
+      public void SaveSuperState()
+    content.vb: >-
+      <SoAjaxMethod(SoAjaxMethodType.ThreatErrorAsWarning)>
+
+      Public Sub SaveSuperState
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.SaveSuperState*
+  attributes:
+  - type: SuperOffice.DCF.Web.SoAjaxMethodAttribute
+    ctor: SuperOffice.DCF.Web.SoAjaxMethodAttribute.#ctor(SuperOffice.DCF.Web.SoAjaxMethodType)
+    arguments:
+    - type: SuperOffice.DCF.Web.SoAjaxMethodType
+      value: 2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.CreateOpenDialogScript(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.CreateOpenDialogScript(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  id: CreateOpenDialogScript(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: CreateOpenDialogScript(String, String, String, Boolean, Boolean, Boolean)
+  nameWithType: SuperState.CreateOpenDialogScript(String, String, String, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.CreateOpenDialogScript(System.String, System.String, System.String, System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string CreateOpenDialogScript(string windowName, string pageId, string soprotocol, bool isModal, bool isResizable, bool showMenu)
+    parameters:
+    - id: windowName
+      type: System.String
+    - id: pageId
+      type: System.String
+    - id: soprotocol
+      type: System.String
+    - id: isModal
+      type: System.Boolean
+    - id: isResizable
+      type: System.Boolean
+    - id: showMenu
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function CreateOpenDialogScript(windowName As String, pageId As String, soprotocol As String, isModal As Boolean, isResizable As Boolean, showMenu As Boolean) As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.CreateOpenDialogScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocol
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocol
+  id: GetSoProtocol
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: GetSoProtocol()
+  nameWithType: SuperState.GetSoProtocol()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocol()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string GetSoProtocol()
+    return:
+      type: System.String
+    content.vb: Public Function GetSoProtocol As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocol*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSoProtocol(System.String)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSoProtocol(System.String)
+  id: SetSoProtocol(System.String)
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: SetSoProtocol(String)
+  nameWithType: SuperState.SetSoProtocol(String)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSoProtocol(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public static string SetSoProtocol(string soprotocol)
+    parameters:
+    - id: soprotocol
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function SetSoProtocol(soprotocol As String) As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSoProtocol*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocolByPageId(System.String)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocolByPageId(System.String)
+  id: GetSoProtocolByPageId(System.String)
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: GetSoProtocolByPageId(String)
+  nameWithType: SuperState.GetSoProtocolByPageId(String)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocolByPageId(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string GetSoProtocolByPageId(string pageId)
+    parameters:
+    - id: pageId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetSoProtocolByPageId(pageId As String) As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocolByPageId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetMainPageSoProtocol
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetMainPageSoProtocol
+  id: GetMainPageSoProtocol
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: GetMainPageSoProtocol()
+  nameWithType: SuperState.GetMainPageSoProtocol()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetMainPageSoProtocol()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string GetMainPageSoProtocol()
+    return:
+      type: System.String
+    content.vb: Public Function GetMainPageSoProtocol As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetMainPageSoProtocol*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrentPageOnDialogClose
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrentPageOnDialogClose
+  id: SetCurrentPageOnDialogClose
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentPageOnDialogClose()
+  nameWithType: SuperState.SetCurrentPageOnDialogClose()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrentPageOnDialogClose()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public void SetCurrentPageOnDialogClose()
+    content.vb: Public Sub SetCurrentPageOnDialogClose
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrentPageOnDialogClose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetPageName
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetPageName
+  id: GetPageName
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: GetPageName()
+  nameWithType: SuperState.GetPageName()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetPageName()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string GetPageName()
+    return:
+      type: System.String
+    content.vb: Public Function GetPageName As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetPageName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSubClient
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSubClient
+  id: GetSubClient
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: GetSubClient()
+  nameWithType: SuperState.GetSubClient()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSubClient()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string GetSubClient()
+    return:
+      type: System.String
+    content.vb: Public Function GetSubClient As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSubClient*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.LogCustomSoProtocol(System.String)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.LogCustomSoProtocol(System.String)
+  id: LogCustomSoProtocol(System.String)
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: LogCustomSoProtocol(String)
+  nameWithType: SuperState.LogCustomSoProtocol(String)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.LogCustomSoProtocol(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public void LogCustomSoProtocol(string soProtocol)
+    parameters:
+    - id: soProtocol
+      type: System.String
+    content.vb: Public Sub LogCustomSoProtocol(soProtocol As String)
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.LogCustomSoProtocol*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.#ctor
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.SuperState.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: SuperState()
+  nameWithType: SuperState.SuperState()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SuperState()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public SuperState()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.AjaxMethods.SuperState.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.AjaxMethods
+  commentId: N:SuperOffice.DCF.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.DCF.Web.AjaxMethods
+  nameWithType: SuperOffice.DCF.Web.AjaxMethods
+  fullName: SuperOffice.DCF.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLoginUrl*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLoginUrl
+  isExternal: true
+  name: GetLoginUrl
+  nameWithType: SuperState.GetLoginUrl
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLoginUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLogoutUrl*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLogoutUrl
+  isExternal: true
+  name: GetLogoutUrl
+  nameWithType: SuperState.GetLogoutUrl
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetLogoutUrl
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.LogOut*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.LogOut
+  isExternal: true
+  name: LogOut
+  nameWithType: SuperState.LogOut
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.LogOut
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSuperStateParam*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSuperStateParam
+  isExternal: true
+  name: SetSuperStateParam
+  nameWithType: SuperState.SetSuperStateParam
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSuperStateParam
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSuperStateParam*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSuperStateParam
+  isExternal: true
+  name: GetSuperStateParam
+  nameWithType: SuperState.GetSuperStateParam
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSuperStateParam
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrent*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrent
+  isExternal: true
+  name: SetCurrent
+  nameWithType: SuperState.SetCurrent
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrent
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSpecifiedCurrentOnly*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSpecifiedCurrentOnly
+  isExternal: true
+  name: SetSpecifiedCurrentOnly
+  nameWithType: SuperState.SetSpecifiedCurrentOnly
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSpecifiedCurrentOnly
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetCurrent*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: SuperState.GetCurrent
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetCurrent
+- uid: SuperOffice.Cache.HistoryItem
+  commentId: T:SuperOffice.Cache.HistoryItem
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: SuperOffice.Cache.HistoryItem
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SaveSuperState*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.SaveSuperState
+  isExternal: true
+  name: SaveSuperState
+  nameWithType: SuperState.SaveSuperState
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SaveSuperState
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.CreateOpenDialogScript*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.CreateOpenDialogScript
+  isExternal: true
+  name: CreateOpenDialogScript
+  nameWithType: SuperState.CreateOpenDialogScript
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.CreateOpenDialogScript
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocol
+  isExternal: true
+  name: GetSoProtocol
+  nameWithType: SuperState.GetSoProtocol
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocol
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSoProtocol
+  isExternal: true
+  name: SetSoProtocol
+  nameWithType: SuperState.SetSoProtocol
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetSoProtocol
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocolByPageId*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocolByPageId
+  isExternal: true
+  name: GetSoProtocolByPageId
+  nameWithType: SuperState.GetSoProtocolByPageId
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSoProtocolByPageId
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetMainPageSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetMainPageSoProtocol
+  isExternal: true
+  name: GetMainPageSoProtocol
+  nameWithType: SuperState.GetMainPageSoProtocol
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetMainPageSoProtocol
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrentPageOnDialogClose*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrentPageOnDialogClose
+  isExternal: true
+  name: SetCurrentPageOnDialogClose
+  nameWithType: SuperState.SetCurrentPageOnDialogClose
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SetCurrentPageOnDialogClose
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetPageName*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetPageName
+  isExternal: true
+  name: GetPageName
+  nameWithType: SuperState.GetPageName
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetPageName
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSubClient*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSubClient
+  isExternal: true
+  name: GetSubClient
+  nameWithType: SuperState.GetSubClient
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.GetSubClient
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.LogCustomSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.LogCustomSoProtocol
+  isExternal: true
+  name: LogCustomSoProtocol
+  nameWithType: SuperState.LogCustomSoProtocol
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.LogCustomSoProtocol
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.SuperState.#ctor
+  isExternal: true
+  name: SuperState
+  nameWithType: SuperState.SuperState
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState.SuperState

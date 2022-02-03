@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetProductTypesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetProductTypesRequest
+  id: List_GetProductTypesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetProductTypesRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: List_GetProductTypesRequest
+  nameWithType: List_GetProductTypesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetProductTypesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetProductTypesRequest : Object'
+    content.vb: >-
+      Public Class List_GetProductTypesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetProductTypesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetProductTypesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetProductTypesRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetProductTypesRequest()
+  nameWithType: List_GetProductTypesRequest.List_GetProductTypesRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetProductTypesRequest.List_GetProductTypesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetProductTypesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetProductTypesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetProductTypesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetProductTypesRequest.#ctor
+  isExternal: true
+  name: List_GetProductTypesRequest
+  nameWithType: List_GetProductTypesRequest.List_GetProductTypesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetProductTypesRequest.List_GetProductTypesRequest

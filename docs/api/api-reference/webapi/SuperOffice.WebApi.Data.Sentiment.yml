@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sentiment
+  commentId: T:SuperOffice.WebApi.Data.Sentiment
+  id: Sentiment
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sentiment.#ctor
+  - SuperOffice.WebApi.Data.Sentiment.Confidence
+  - SuperOffice.WebApi.Data.Sentiment.Score
+  langs:
+  - csharp
+  - vb
+  name: Sentiment
+  nameWithType: Sentiment
+  fullName: SuperOffice.WebApi.Data.Sentiment
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Sentiment.\nSentiment information: Score (-100 to 100) and Confidence (0 to 100)    \n"
+  syntax:
+    content: 'public class Sentiment : Carrier'
+    content.vb: >-
+      Public Class Sentiment
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AIAgent
+    commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sentiment.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sentiment.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sentiment
+  langs:
+  - csharp
+  - vb
+  name: Sentiment()
+  nameWithType: Sentiment.Sentiment()
+  fullName: SuperOffice.WebApi.Data.Sentiment.Sentiment()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Sentiment()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sentiment.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sentiment.Score
+  commentId: P:SuperOffice.WebApi.Data.Sentiment.Score
+  id: Score
+  parent: SuperOffice.WebApi.Data.Sentiment
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: Sentiment.Score
+  fullName: SuperOffice.WebApi.Data.Sentiment.Score
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSentiment score, -100 = very unhappy, 100 = very happy, 0 = no idea (not recognized)\n"
+  syntax:
+    content: public virtual int Score { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Score As Integer
+  overload: SuperOffice.WebApi.Data.Sentiment.Score*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Sentiment.Confidence
+  commentId: P:SuperOffice.WebApi.Data.Sentiment.Confidence
+  id: Confidence
+  parent: SuperOffice.WebApi.Data.Sentiment
+  langs:
+  - csharp
+  - vb
+  name: Confidence
+  nameWithType: Sentiment.Confidence
+  fullName: SuperOffice.WebApi.Data.Sentiment.Confidence
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSentiment analysis confidence, where available. 0 = no idea, 100 = perfectly confident, -1 = no confidence score available\n"
+  syntax:
+    content: public virtual int Confidence { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Confidence As Integer
+  overload: SuperOffice.WebApi.Data.Sentiment.Confidence*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AIAgent
+  commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.WebApi.Agents.AIAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sentiment.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentiment.#ctor
+  isExternal: true
+  name: Sentiment
+  nameWithType: Sentiment.Sentiment
+  fullName: SuperOffice.WebApi.Data.Sentiment.Sentiment
+- uid: SuperOffice.WebApi.Data.Sentiment.Score*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentiment.Score
+  isExternal: true
+  name: Score
+  nameWithType: Sentiment.Score
+  fullName: SuperOffice.WebApi.Data.Sentiment.Score
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Sentiment.Confidence*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentiment.Confidence
+  isExternal: true
+  name: Confidence
+  nameWithType: Sentiment.Confidence
+  fullName: SuperOffice.WebApi.Data.Sentiment.Confidence

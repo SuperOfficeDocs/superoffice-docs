@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.TabMode
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.TabMode
+  id: TabMode
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.TabMode.Dropdown
+  - SuperOffice.CRM.Web.UI.Controls.TabMode.Hidden
+  - SuperOffice.CRM.Web.UI.Controls.TabMode.InlineHeader
+  - SuperOffice.CRM.Web.UI.Controls.TabMode.NavigatorSidebar
+  - SuperOffice.CRM.Web.UI.Controls.TabMode.Normal
+  - SuperOffice.CRM.Web.UI.Controls.TabMode.Sidebar
+  - SuperOffice.CRM.Web.UI.Controls.TabMode.Single
+  langs:
+  - csharp
+  - vb
+  name: TabMode
+  nameWithType: TabMode
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabMode
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum TabMode
+    content.vb: Public Enum TabMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.TabMode.Normal
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabMode.Normal
+  id: Normal
+  parent: SuperOffice.CRM.Web.UI.Controls.TabMode
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: TabMode.Normal
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabMode.Normal
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Normal = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TabMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.TabMode.Dropdown
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabMode.Dropdown
+  id: Dropdown
+  parent: SuperOffice.CRM.Web.UI.Controls.TabMode
+  langs:
+  - csharp
+  - vb
+  name: Dropdown
+  nameWithType: TabMode.Dropdown
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabMode.Dropdown
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Dropdown = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TabMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.TabMode.Hidden
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabMode.Hidden
+  id: Hidden
+  parent: SuperOffice.CRM.Web.UI.Controls.TabMode
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: TabMode.Hidden
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabMode.Hidden
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Hidden = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TabMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.TabMode.Single
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabMode.Single
+  id: Single
+  parent: SuperOffice.CRM.Web.UI.Controls.TabMode
+  langs:
+  - csharp
+  - vb
+  name: Single
+  nameWithType: TabMode.Single
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabMode.Single
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Single = 3
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TabMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.TabMode.Sidebar
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabMode.Sidebar
+  id: Sidebar
+  parent: SuperOffice.CRM.Web.UI.Controls.TabMode
+  langs:
+  - csharp
+  - vb
+  name: Sidebar
+  nameWithType: TabMode.Sidebar
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabMode.Sidebar
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Sidebar = 4
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TabMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.TabMode.NavigatorSidebar
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabMode.NavigatorSidebar
+  id: NavigatorSidebar
+  parent: SuperOffice.CRM.Web.UI.Controls.TabMode
+  langs:
+  - csharp
+  - vb
+  name: NavigatorSidebar
+  nameWithType: TabMode.NavigatorSidebar
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabMode.NavigatorSidebar
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: NavigatorSidebar = 5
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TabMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.TabMode.InlineHeader
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabMode.InlineHeader
+  id: InlineHeader
+  parent: SuperOffice.CRM.Web.UI.Controls.TabMode
+  langs:
+  - csharp
+  - vb
+  name: InlineHeader
+  nameWithType: TabMode.InlineHeader
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabMode.InlineHeader
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: InlineHeader = 6
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TabMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.TabMode
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.TabMode
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: TabMode
+  nameWithType: TabMode
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabMode

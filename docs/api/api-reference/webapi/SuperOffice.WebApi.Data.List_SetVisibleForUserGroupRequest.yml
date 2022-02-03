@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest
+  id: List_SetVisibleForUserGroupRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.Enable
+  - SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.ListItemId
+  - SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UdListDefinitionId
+  - SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UserGroupId
+  langs:
+  - csharp
+  - vb
+  name: List_SetVisibleForUserGroupRequest
+  nameWithType: List_SetVisibleForUserGroupRequest
+  fullName: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SetVisibleForUserGroupRequest : Object'
+    content.vb: >-
+      Public Class List_SetVisibleForUserGroupRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SetVisibleForUserGroupRequest()
+  nameWithType: List_SetVisibleForUserGroupRequest.List_SetVisibleForUserGroupRequest()
+  fullName: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.List_SetVisibleForUserGroupRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SetVisibleForUserGroupRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UdListDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UdListDefinitionId
+  id: UdListDefinitionId
+  parent: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionId
+  nameWithType: List_SetVisibleForUserGroupRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UdListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UdListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UdListDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UdListDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.ListItemId
+  commentId: P:SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.ListItemId
+  id: ListItemId
+  parent: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: ListItemId
+  nameWithType: List_SetVisibleForUserGroupRequest.ListItemId
+  fullName: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.ListItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ListItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ListItemId As Integer
+  overload: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.ListItemId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UserGroupId
+  commentId: P:SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UserGroupId
+  id: UserGroupId
+  parent: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: UserGroupId
+  nameWithType: List_SetVisibleForUserGroupRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UserGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] UserGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property UserGroupId As Integer()
+  overload: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UserGroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.Enable
+  commentId: P:SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.Enable
+  id: Enable
+  parent: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Enable
+  nameWithType: List_SetVisibleForUserGroupRequest.Enable
+  fullName: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.Enable
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Enable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Enable As Boolean
+  overload: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.Enable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.#ctor
+  isExternal: true
+  name: List_SetVisibleForUserGroupRequest
+  nameWithType: List_SetVisibleForUserGroupRequest.List_SetVisibleForUserGroupRequest
+  fullName: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.List_SetVisibleForUserGroupRequest
+- uid: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UdListDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UdListDefinitionId
+  isExternal: true
+  name: UdListDefinitionId
+  nameWithType: List_SetVisibleForUserGroupRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UdListDefinitionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.ListItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.ListItemId
+  isExternal: true
+  name: ListItemId
+  nameWithType: List_SetVisibleForUserGroupRequest.ListItemId
+  fullName: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.ListItemId
+- uid: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UserGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UserGroupId
+  isExternal: true
+  name: UserGroupId
+  nameWithType: List_SetVisibleForUserGroupRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.UserGroupId
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.Enable*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.Enable
+  isExternal: true
+  name: Enable
+  nameWithType: List_SetVisibleForUserGroupRequest.Enable
+  fullName: SuperOffice.WebApi.Data.List_SetVisibleForUserGroupRequest.Enable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

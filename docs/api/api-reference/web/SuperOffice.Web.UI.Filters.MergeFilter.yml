@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Filters.MergeFilter
+  commentId: N:SuperOffice.Web.UI.Filters.MergeFilter
+  id: SuperOffice.Web.UI.Filters.MergeFilter
+  children:
+  - SuperOffice.Web.UI.Filters.MergeFilter.ArchiveColumnListFilter
+  - SuperOffice.Web.UI.Filters.MergeFilter.FilterFilter
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.UI.Filters.MergeFilter
+  nameWithType: SuperOffice.Web.UI.Filters.MergeFilter
+  fullName: SuperOffice.Web.UI.Filters.MergeFilter
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.UI.Filters.MergeFilter.ArchiveColumnListFilter
+  commentId: T:SuperOffice.Web.UI.Filters.MergeFilter.ArchiveColumnListFilter
+  isExternal: true
+  name: ArchiveColumnListFilter
+  nameWithType: ArchiveColumnListFilter
+  fullName: SuperOffice.Web.UI.Filters.MergeFilter.ArchiveColumnListFilter
+- uid: SuperOffice.Web.UI.Filters.MergeFilter.FilterFilter
+  commentId: T:SuperOffice.Web.UI.Filters.MergeFilter.FilterFilter
+  isExternal: true
+  name: FilterFilter
+  nameWithType: FilterFilter
+  fullName: SuperOffice.Web.UI.Filters.MergeFilter.FilterFilter

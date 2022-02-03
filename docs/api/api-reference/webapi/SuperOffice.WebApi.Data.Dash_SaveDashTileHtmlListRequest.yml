@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
+  id: Dash_SaveDashTileHtmlListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.#ctor
+  - SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.DashboardTileDefinitionId
+  - SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.Languages
+  langs:
+  - csharp
+  - vb
+  name: Dash_SaveDashTileHtmlListRequest
+  nameWithType: Dash_SaveDashTileHtmlListRequest
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dash_SaveDashTileHtmlListRequest : Object'
+    content.vb: >-
+      Public Class Dash_SaveDashTileHtmlListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
+  langs:
+  - csharp
+  - vb
+  name: Dash_SaveDashTileHtmlListRequest()
+  nameWithType: Dash_SaveDashTileHtmlListRequest.Dash_SaveDashTileHtmlListRequest()
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.Dash_SaveDashTileHtmlListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dash_SaveDashTileHtmlListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.DashboardTileDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.DashboardTileDefinitionId
+  id: DashboardTileDefinitionId
+  parent: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinitionId
+  nameWithType: Dash_SaveDashTileHtmlListRequest.DashboardTileDefinitionId
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.DashboardTileDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DashboardTileDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DashboardTileDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.DashboardTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.Languages
+  commentId: P:SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.Languages
+  id: Languages
+  parent: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
+  langs:
+  - csharp
+  - vb
+  name: Languages
+  nameWithType: Dash_SaveDashTileHtmlListRequest.Languages
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.Languages
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DashTileHtml[] Languages { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DashTileHtml[]
+    content.vb: Public Property Languages As DashTileHtml()
+  overload: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.Languages*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.#ctor
+  isExternal: true
+  name: Dash_SaveDashTileHtmlListRequest
+  nameWithType: Dash_SaveDashTileHtmlListRequest.Dash_SaveDashTileHtmlListRequest
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.Dash_SaveDashTileHtmlListRequest
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.DashboardTileDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.DashboardTileDefinitionId
+  isExternal: true
+  name: DashboardTileDefinitionId
+  nameWithType: Dash_SaveDashTileHtmlListRequest.DashboardTileDefinitionId
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.DashboardTileDefinitionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.Languages*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.Languages
+  isExternal: true
+  name: Languages
+  nameWithType: Dash_SaveDashTileHtmlListRequest.Languages
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest.Languages
+- uid: SuperOffice.WebApi.Data.DashTileHtml[]
+  isExternal: true
+  name: DashTileHtml[]
+  nameWithType: DashTileHtml[]
+  fullName: SuperOffice.WebApi.Data.DashTileHtml[]
+  nameWithType.vb: DashTileHtml()
+  fullName.vb: SuperOffice.WebApi.Data.DashTileHtml()
+  name.vb: DashTileHtml()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.DashTileHtml
+    name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.WebApi.Data.DashTileHtml
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.DashTileHtml
+    name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.WebApi.Data.DashTileHtml
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

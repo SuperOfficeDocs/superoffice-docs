@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest
+  commentId: T:SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest
+  id: User_GetOrRegisterAccessGatewayInfoRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.#ctor
+  - SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.RedirectUri
+  langs:
+  - csharp
+  - vb
+  name: User_GetOrRegisterAccessGatewayInfoRequest
+  nameWithType: User_GetOrRegisterAccessGatewayInfoRequest
+  fullName: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_GetOrRegisterAccessGatewayInfoRequest : Object'
+    content.vb: >-
+      Public Class User_GetOrRegisterAccessGatewayInfoRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: User_GetOrRegisterAccessGatewayInfoRequest()
+  nameWithType: User_GetOrRegisterAccessGatewayInfoRequest.User_GetOrRegisterAccessGatewayInfoRequest()
+  fullName: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.User_GetOrRegisterAccessGatewayInfoRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_GetOrRegisterAccessGatewayInfoRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.RedirectUri
+  commentId: P:SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.RedirectUri
+  id: RedirectUri
+  parent: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: RedirectUri
+  nameWithType: User_GetOrRegisterAccessGatewayInfoRequest.RedirectUri
+  fullName: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.RedirectUri
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string RedirectUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RedirectUri As String
+  overload: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.RedirectUri*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.#ctor
+  isExternal: true
+  name: User_GetOrRegisterAccessGatewayInfoRequest
+  nameWithType: User_GetOrRegisterAccessGatewayInfoRequest.User_GetOrRegisterAccessGatewayInfoRequest
+  fullName: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.User_GetOrRegisterAccessGatewayInfoRequest
+- uid: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.RedirectUri*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.RedirectUri
+  isExternal: true
+  name: RedirectUri
+  nameWithType: User_GetOrRegisterAccessGatewayInfoRequest.RedirectUri
+  fullName: SuperOffice.WebApi.Data.User_GetOrRegisterAccessGatewayInfoRequest.RedirectUri
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

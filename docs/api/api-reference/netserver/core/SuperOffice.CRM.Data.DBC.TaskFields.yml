@@ -1,0 +1,887 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TaskFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TaskFields
+  id: DBC.TaskFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TaskFields.ColorIndex
+  - SuperOffice.CRM.Data.DBC.TaskFields.DefaultAlldayEvent
+  - SuperOffice.CRM.Data.DBC.TaskFields.DefaultFreeBusy
+  - SuperOffice.CRM.Data.DBC.TaskFields.DefaultPublishType
+  - SuperOffice.CRM.Data.DBC.TaskFields.DefaultVideomeetingStatus
+  - SuperOffice.CRM.Data.DBC.TaskFields.Deleted
+  - SuperOffice.CRM.Data.DBC.TaskFields.Direction
+  - SuperOffice.CRM.Data.DBC.TaskFields.IntentId
+  - SuperOffice.CRM.Data.DBC.TaskFields.Name
+  - SuperOffice.CRM.Data.DBC.TaskFields.Rank
+  - SuperOffice.CRM.Data.DBC.TaskFields.RecordType
+  - SuperOffice.CRM.Data.DBC.TaskFields.Registered
+  - SuperOffice.CRM.Data.DBC.TaskFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TaskFields.TaskId
+  - SuperOffice.CRM.Data.DBC.TaskFields.Tooltip
+  - SuperOffice.CRM.Data.DBC.TaskFields.Updated
+  - SuperOffice.CRM.Data.DBC.TaskFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TaskFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.TaskFields
+  nameWithType: DBC.TaskFields
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Task, Task list table, activity types, like Phone, Meeting\n"
+  syntax:
+    content: public static class TaskFields
+    content.vb: Public Module TaskFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.TaskId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.TaskId
+  id: TaskId
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: TaskId
+  nameWithType: DBC.TaskFields.TaskId
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.TaskId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.TaskId: Primary key\n"
+  syntax:
+    content: public const string TaskId = "Task_id"
+    return:
+      type: System.String
+    content.vb: Public Const TaskId As String = "Task_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.TaskFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.Name: The list item\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.TaskFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.Rank: Rank order\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.Tooltip
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DBC.TaskFields.Tooltip
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.Tooltip: Tooltip or other description\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.TaskFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.RecordType
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.RecordType
+  id: RecordType
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: RecordType
+  nameWithType: DBC.TaskFields.RecordType
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.RecordType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.RecordType: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes\n"
+  syntax:
+    content: public const string RecordType = "record_type"
+    return:
+      type: System.String
+    content.vb: Public Const RecordType As String = "record_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.Direction
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.Direction
+  id: Direction
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: DBC.TaskFields.Direction
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.Direction
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.Direction: 1 = incoming, 2 = outgoing, see EAppntDirection\n"
+  syntax:
+    content: public const string Direction = "direction"
+    return:
+      type: System.String
+    content.vb: Public Const Direction As String = "direction"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.ColorIndex
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.ColorIndex
+  id: ColorIndex
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: ColorIndex
+  nameWithType: DBC.TaskFields.ColorIndex
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.ColorIndex
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.ColorIndex: JAP\n"
+  syntax:
+    content: public const string ColorIndex = "color_index"
+    return:
+      type: System.String
+    content.vb: Public Const ColorIndex As String = "color_index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TaskFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TaskFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TaskFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TaskFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TaskFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.DefaultAlldayEvent
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.DefaultAlldayEvent
+  id: DefaultAlldayEvent
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultAlldayEvent
+  nameWithType: DBC.TaskFields.DefaultAlldayEvent
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.DefaultAlldayEvent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.DefaultAlldayEvent: Default value for alldayEvent flag\n"
+  syntax:
+    content: public const string DefaultAlldayEvent = "defaultAlldayEvent"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAlldayEvent As String = "defaultAlldayEvent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.DefaultFreeBusy
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.DefaultFreeBusy
+  id: DefaultFreeBusy
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultFreeBusy
+  nameWithType: DBC.TaskFields.DefaultFreeBusy
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.DefaultFreeBusy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.DefaultFreeBusy: Default value for Free/Busy indicator\n"
+  syntax:
+    content: public const string DefaultFreeBusy = "defaultFreeBusy"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultFreeBusy As String = "defaultFreeBusy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.DefaultPublishType
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.DefaultPublishType
+  id: DefaultPublishType
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultPublishType
+  nameWithType: DBC.TaskFields.DefaultPublishType
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.DefaultPublishType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.DefaultPublishType: Should this field be published by default?\n"
+  syntax:
+    content: public const string DefaultPublishType = "defaultPublishType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultPublishType As String = "defaultPublishType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.IntentId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.IntentId
+  id: IntentId
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: IntentId
+  nameWithType: DBC.TaskFields.IntentId
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.IntentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.IntentId: Link to the intention of this kind of task (used by SAINT)\n"
+  syntax:
+    content: public const string IntentId = "intentId"
+    return:
+      type: System.String
+    content.vb: Public Const IntentId As String = "intentId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskFields.DefaultVideomeetingStatus
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskFields.DefaultVideomeetingStatus
+  id: DefaultVideomeetingStatus
+  parent: SuperOffice.CRM.Data.DBC.TaskFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultVideomeetingStatus
+  nameWithType: DBC.TaskFields.DefaultVideomeetingStatus
+  fullName: SuperOffice.CRM.Data.DBC.TaskFields.DefaultVideomeetingStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTask.DefaultVideomeetingStatus: Default video-meeting status for meetings created in SuperOffice CRM.\n"
+  syntax:
+    content: public const string DefaultVideomeetingStatus = "default_videomeeting_status"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultVideomeetingStatus As String = "default_videomeeting_status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

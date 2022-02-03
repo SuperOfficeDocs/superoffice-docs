@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserGroup
+  commentId: T:SuperOffice.WebApi.Data.UserGroup
+  id: UserGroup
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserGroup.#ctor
+  - SuperOffice.WebApi.Data.UserGroup.Deleted
+  - SuperOffice.WebApi.Data.UserGroup.Id
+  - SuperOffice.WebApi.Data.UserGroup.Rank
+  - SuperOffice.WebApi.Data.UserGroup.Tooltip
+  - SuperOffice.WebApi.Data.UserGroup.Value
+  langs:
+  - csharp
+  - vb
+  name: UserGroup
+  nameWithType: UserGroup
+  fullName: SuperOffice.WebApi.Data.UserGroup
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for UserGroup.\nThe main user group that this user belongs to    \n"
+  example:
+  - "\nGet UserGroup 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new UserAgent(configuration);\nvar userGroup = agent.GetUserGroup( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class UserGroup : Carrier'
+    content.vb: >-
+      Public Class UserGroup
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserGroup.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserGroup.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserGroup
+  langs:
+  - csharp
+  - vb
+  name: UserGroup()
+  nameWithType: UserGroup.UserGroup()
+  fullName: SuperOffice.WebApi.Data.UserGroup.UserGroup()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public UserGroup()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserGroup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserGroup.Value
+  commentId: P:SuperOffice.WebApi.Data.UserGroup.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.UserGroup
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: UserGroup.Value
+  fullName: SuperOffice.WebApi.Data.UserGroup.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUserGroup name\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.UserGroup.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserGroup.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.UserGroup.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.UserGroup
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: UserGroup.Tooltip
+  fullName: SuperOffice.WebApi.Data.UserGroup.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.UserGroup.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserGroup.Id
+  commentId: P:SuperOffice.WebApi.Data.UserGroup.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.UserGroup
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: UserGroup.Id
+  fullName: SuperOffice.WebApi.Data.UserGroup.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.UserGroup.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserGroup.Rank
+  commentId: P:SuperOffice.WebApi.Data.UserGroup.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.UserGroup
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: UserGroup.Rank
+  fullName: SuperOffice.WebApi.Data.UserGroup.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank order \n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.UserGroup.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserGroup.Deleted
+  commentId: P:SuperOffice.WebApi.Data.UserGroup.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.UserGroup
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: UserGroup.Deleted
+  fullName: SuperOffice.WebApi.Data.UserGroup.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDeleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup.\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.UserGroup.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.UserAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.WebApi.Agents.UserAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserGroup.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserGroup.#ctor
+  isExternal: true
+  name: UserGroup
+  nameWithType: UserGroup.UserGroup
+  fullName: SuperOffice.WebApi.Data.UserGroup.UserGroup
+- uid: SuperOffice.WebApi.Data.UserGroup.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.UserGroup.Value
+  isExternal: true
+  name: Value
+  nameWithType: UserGroup.Value
+  fullName: SuperOffice.WebApi.Data.UserGroup.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.UserGroup.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.UserGroup.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: UserGroup.Tooltip
+  fullName: SuperOffice.WebApi.Data.UserGroup.Tooltip
+- uid: SuperOffice.WebApi.Data.UserGroup.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.UserGroup.Id
+  isExternal: true
+  name: Id
+  nameWithType: UserGroup.Id
+  fullName: SuperOffice.WebApi.Data.UserGroup.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.UserGroup.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.UserGroup.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: UserGroup.Rank
+  fullName: SuperOffice.WebApi.Data.UserGroup.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.UserGroup.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.UserGroup.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: UserGroup.Deleted
+  fullName: SuperOffice.WebApi.Data.UserGroup.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetAllTasksRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetAllTasksRequest
+  id: List_GetAllTasksRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetAllTasksRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetAllTasksRequest.IncludeDeleted
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllTasksRequest
+  nameWithType: List_GetAllTasksRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllTasksRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetAllTasksRequest : Object'
+    content.vb: >-
+      Public Class List_GetAllTasksRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetAllTasksRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetAllTasksRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetAllTasksRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllTasksRequest()
+  nameWithType: List_GetAllTasksRequest.List_GetAllTasksRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetAllTasksRequest.List_GetAllTasksRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetAllTasksRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetAllTasksRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetAllTasksRequest.IncludeDeleted
+  commentId: P:SuperOffice.WebApi.Data.List_GetAllTasksRequest.IncludeDeleted
+  id: IncludeDeleted
+  parent: SuperOffice.WebApi.Data.List_GetAllTasksRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeDeleted
+  nameWithType: List_GetAllTasksRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllTasksRequest.IncludeDeleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeDeleted As Boolean
+  overload: SuperOffice.WebApi.Data.List_GetAllTasksRequest.IncludeDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetAllTasksRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllTasksRequest.#ctor
+  isExternal: true
+  name: List_GetAllTasksRequest
+  nameWithType: List_GetAllTasksRequest.List_GetAllTasksRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllTasksRequest.List_GetAllTasksRequest
+- uid: SuperOffice.WebApi.Data.List_GetAllTasksRequest.IncludeDeleted*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllTasksRequest.IncludeDeleted
+  isExternal: true
+  name: IncludeDeleted
+  nameWithType: List_GetAllTasksRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllTasksRequest.IncludeDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

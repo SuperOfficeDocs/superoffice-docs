@@ -1,0 +1,491 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.SaleFilterDialogDataHandler
+  commentId: T:SuperOffice.CRM.SaleFilterDialogDataHandler
+  id: SaleFilterDialogDataHandler
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate
+  - SuperOffice.CRM.SaleFilterDialogDataHandler.Save(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: SaleFilterDialogDataHandler
+  nameWithType: SaleFilterDialogDataHandler
+  fullName: SuperOffice.CRM.SaleFilterDialogDataHandler
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nData fetch/save class for the Sale Filter dialog. \n"
+  syntax:
+    content: public static class SaleFilterDialogDataHandler
+    content.vb: Public Module SaleFilterDialogDataHandler
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate
+  commentId: M:SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate
+  id: GetToDate
+  parent: SuperOffice.CRM.SaleFilterDialogDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetToDate()
+  nameWithType: SaleFilterDialogDataHandler.GetToDate()
+  fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGet the &apos;to date&apos;, i.e., the date of the newest visible sales. The date is recalculated based on the &apos;days after&apos; (today)\nvalue every time this method is called, and so moves with real time.\n"
+  syntax:
+    content: public static DateTime GetToDate()
+    return:
+      type: System.DateTime
+      description: Date of latest visible activity, always greater than today
+    content.vb: Public Shared Function GetToDate As Date
+  overload: SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.SaleFilterDialogDataHandler.Save(System.Int32)
+  commentId: M:SuperOffice.CRM.SaleFilterDialogDataHandler.Save(System.Int32)
+  id: Save(System.Int32)
+  parent: SuperOffice.CRM.SaleFilterDialogDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Save(Int32)
+  nameWithType: SaleFilterDialogDataHandler.Save(Int32)
+  fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.Save(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\n"
+  remarks: "\n"
+  syntax:
+    content: public static void Save(int saleAdvanceDays)
+    parameters:
+    - id: saleAdvanceDays
+      type: System.Int32
+      description: Number of days ahead of Today
+    content.vb: Public Shared Sub Save(saleAdvanceDays As Integer)
+  overload: SuperOffice.CRM.SaleFilterDialogDataHandler.Save*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo)
+  id: AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.SaleFilterDialogDataHandler
+  langs:
+  - csharp
+  - vb
+  name: AddFilterRestrictions(Select, FieldInfo)
+  nameWithType: SaleFilterDialogDataHandler.AddFilterRestrictions(Select, FieldInfo)
+  fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static void AddFilterRestrictions(Select query, FieldInfo dateField)
+    parameters:
+    - id: query
+      type: SuperOffice.Data.SQL.Select
+    - id: dateField
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public Shared Sub AddFilterRestrictions(query As  Select, dateField As FieldInfo)
+  overload: SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate*
+  commentId: Overload:SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate
+  isExternal: true
+  name: GetToDate
+  nameWithType: SaleFilterDialogDataHandler.GetToDate
+  fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.GetToDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.SaleFilterDialogDataHandler.Save*
+  commentId: Overload:SuperOffice.CRM.SaleFilterDialogDataHandler.Save
+  isExternal: true
+  name: Save
+  nameWithType: SaleFilterDialogDataHandler.Save
+  fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.Save
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions*
+  commentId: Overload:SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions
+  isExternal: true
+  name: AddFilterRestrictions
+  nameWithType: SaleFilterDialogDataHandler.AddFilterRestrictions
+  fullName: SuperOffice.CRM.SaleFilterDialogDataHandler.AddFilterRestrictions
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL

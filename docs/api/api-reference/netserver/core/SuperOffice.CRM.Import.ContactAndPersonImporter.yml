@@ -1,0 +1,1079 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter
+  commentId: T:SuperOffice.CRM.Import.ContactAndPersonImporter
+  id: ContactAndPersonImporter
+  parent: SuperOffice.CRM.Import
+  children:
+  - SuperOffice.CRM.Import.ContactAndPersonImporter.#ctor
+  - SuperOffice.CRM.Import.ContactAndPersonImporter.DoImport(SuperOffice.CRM.Import.ImportItem[],System.String[],System.Boolean,System.String,System.Boolean,System.Boolean,System.Int32,SuperOffice.Data.ErpActorType,System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}},System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}},System.Action{System.Collections.Generic.List{System.String}},System.Action{System.Collections.Generic.List{System.String}})
+  - SuperOffice.CRM.Import.ContactAndPersonImporter.WriteStats(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ContactAndPersonImporter
+  nameWithType: ContactAndPersonImporter
+  fullName: SuperOffice.CRM.Import.ContactAndPersonImporter
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nImplements the import functionality in NetServer\n"
+  syntax:
+    content: public class ContactAndPersonImporter
+    content.vb: Public Class ContactAndPersonImporter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Import.ContactAndPersonImporter.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Import.ContactAndPersonImporter.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Import.ContactAndPersonImporter)
+  - SuperOffice.CRM.Import.ContactAndPersonImporter.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Import.ContactAndPersonImporter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter.#ctor
+  commentId: M:SuperOffice.CRM.Import.ContactAndPersonImporter.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Import.ContactAndPersonImporter
+  langs:
+  - csharp
+  - vb
+  name: ContactAndPersonImporter()
+  nameWithType: ContactAndPersonImporter.ContactAndPersonImporter()
+  fullName: SuperOffice.CRM.Import.ContactAndPersonImporter.ContactAndPersonImporter()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ContactAndPersonImporter()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Import.ContactAndPersonImporter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter.DoImport(SuperOffice.CRM.Import.ImportItem[],System.String[],System.Boolean,System.String,System.Boolean,System.Boolean,System.Int32,SuperOffice.Data.ErpActorType,System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}},System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}},System.Action{System.Collections.Generic.List{System.String}},System.Action{System.Collections.Generic.List{System.String}})
+  commentId: M:SuperOffice.CRM.Import.ContactAndPersonImporter.DoImport(SuperOffice.CRM.Import.ImportItem[],System.String[],System.Boolean,System.String,System.Boolean,System.Boolean,System.Int32,SuperOffice.Data.ErpActorType,System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}},System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}},System.Action{System.Collections.Generic.List{System.String}},System.Action{System.Collections.Generic.List{System.String}})
+  id: DoImport(SuperOffice.CRM.Import.ImportItem[],System.String[],System.Boolean,System.String,System.Boolean,System.Boolean,System.Int32,SuperOffice.Data.ErpActorType,System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}},System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}},System.Action{System.Collections.Generic.List{System.String}},System.Action{System.Collections.Generic.List{System.String}})
+  parent: SuperOffice.CRM.Import.ContactAndPersonImporter
+  langs:
+  - csharp
+  - vb
+  name: DoImport(ImportItem[], String[], Boolean, String, Boolean, Boolean, Int32, ErpActorType, Action<List<ContactPersonIdItem>>, Action<List<ContactPersonIdItem>>, Action<List<String>>, Action<List<String>>)
+  nameWithType: ContactAndPersonImporter.DoImport(ImportItem[], String[], Boolean, String, Boolean, Boolean, Int32, ErpActorType, Action<List<ContactPersonIdItem>>, Action<List<ContactPersonIdItem>>, Action<List<String>>, Action<List<String>>)
+  fullName: SuperOffice.CRM.Import.ContactAndPersonImporter.DoImport(SuperOffice.CRM.Import.ImportItem[], System.String[], System.Boolean, System.String, System.Boolean, System.Boolean, System.Int32, SuperOffice.Data.ErpActorType, System.Action<System.Collections.Generic.List<SuperOffice.CRM.Import.ContactPersonIdItem>>, System.Action<System.Collections.Generic.List<SuperOffice.CRM.Import.ContactPersonIdItem>>, System.Action<System.Collections.Generic.List<System.String>>, System.Action<System.Collections.Generic.List<System.String>>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nImport function\n"
+  syntax:
+    content: public ImportItem[] DoImport(ImportItem[] rows, string[] columnDefs, bool saveForReal, string culture, bool isErpContact, bool isErpPerson, int connectionId, ErpActorType actorType, Action<List<ContactPersonIdItem>> contactAndPersonsInserted, Action<List<ContactPersonIdItem>> contactsAndPersonsUpdated, Action<List<string>> erpContactKeysToSync, Action<List<string>> erpPersonKeysToSync)
+    parameters:
+    - id: rows
+      type: SuperOffice.CRM.Import.ImportItem[]
+    - id: columnDefs
+      type: System.String[]
+    - id: saveForReal
+      type: System.Boolean
+    - id: culture
+      type: System.String
+    - id: isErpContact
+      type: System.Boolean
+    - id: isErpPerson
+      type: System.Boolean
+    - id: connectionId
+      type: System.Int32
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+    - id: contactAndPersonsInserted
+      type: System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}}
+    - id: contactsAndPersonsUpdated
+      type: System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}}
+    - id: erpContactKeysToSync
+      type: System.Action{System.Collections.Generic.List{System.String}}
+    - id: erpPersonKeysToSync
+      type: System.Action{System.Collections.Generic.List{System.String}}
+    return:
+      type: SuperOffice.CRM.Import.ImportItem[]
+    content.vb: Public Function DoImport(rows As ImportItem(), columnDefs As String(), saveForReal As Boolean, culture As String, isErpContact As Boolean, isErpPerson As Boolean, connectionId As Integer, actorType As ErpActorType, contactAndPersonsInserted As Action(Of List(Of ContactPersonIdItem)), contactsAndPersonsUpdated As Action(Of List(Of ContactPersonIdItem)), erpContactKeysToSync As Action(Of List(Of String)), erpPersonKeysToSync As Action(Of List(Of String))) As ImportItem()
+  overload: SuperOffice.CRM.Import.ContactAndPersonImporter.DoImport*
+  nameWithType.vb: ContactAndPersonImporter.DoImport(ImportItem(), String(), Boolean, String, Boolean, Boolean, Int32, ErpActorType, Action(Of List(Of ContactPersonIdItem)), Action(Of List(Of ContactPersonIdItem)), Action(Of List(Of String)), Action(Of List(Of String)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Import.ContactAndPersonImporter.DoImport(SuperOffice.CRM.Import.ImportItem(), System.String(), System.Boolean, System.String, System.Boolean, System.Boolean, System.Int32, SuperOffice.Data.ErpActorType, System.Action(Of System.Collections.Generic.List(Of SuperOffice.CRM.Import.ContactPersonIdItem)), System.Action(Of System.Collections.Generic.List(Of SuperOffice.CRM.Import.ContactPersonIdItem)), System.Action(Of System.Collections.Generic.List(Of System.String)), System.Action(Of System.Collections.Generic.List(Of System.String)))
+  name.vb: DoImport(ImportItem(), String(), Boolean, String, Boolean, Boolean, Int32, ErpActorType, Action(Of List(Of ContactPersonIdItem)), Action(Of List(Of ContactPersonIdItem)), Action(Of List(Of String)), Action(Of List(Of String)))
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter.WriteStats(System.String)
+  commentId: M:SuperOffice.CRM.Import.ContactAndPersonImporter.WriteStats(System.String)
+  id: WriteStats(System.String)
+  parent: SuperOffice.CRM.Import.ContactAndPersonImporter
+  langs:
+  - csharp
+  - vb
+  name: WriteStats(String)
+  nameWithType: ContactAndPersonImporter.WriteStats(String)
+  fullName: SuperOffice.CRM.Import.ContactAndPersonImporter.WriteStats(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nWrites out statistics - time and memory\n"
+  syntax:
+    content: public void WriteStats(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub WriteStats(message As String)
+  overload: SuperOffice.CRM.Import.ContactAndPersonImporter.WriteStats*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Import
+  commentId: N:SuperOffice.CRM.Import
+  isExternal: true
+  name: SuperOffice.CRM.Import
+  nameWithType: SuperOffice.CRM.Import
+  fullName: SuperOffice.CRM.Import
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ContactAndPersonImporter, To>()
+  nameWithType: EnumUtil.MapEnums<ContactAndPersonImporter, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Import.ContactAndPersonImporter, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ContactAndPersonImporter, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Import.ContactAndPersonImporter, To)()
+  name.vb: MapEnums(Of ContactAndPersonImporter, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ContactAndPersonImporter, To>
+    nameWithType: EnumUtil.MapEnums<ContactAndPersonImporter, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Import.ContactAndPersonImporter, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ContactAndPersonImporter, To)
+    nameWithType: EnumUtil.MapEnums(Of ContactAndPersonImporter, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Import.ContactAndPersonImporter, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Import.ContactAndPersonImporter)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ContactAndPersonImporter>(ContactAndPersonImporter)
+  nameWithType: ObjectExtensions.AssignByReflection<ContactAndPersonImporter>(ContactAndPersonImporter)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Import.ContactAndPersonImporter>(SuperOffice.CRM.Import.ContactAndPersonImporter)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ContactAndPersonImporter)(ContactAndPersonImporter)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Import.ContactAndPersonImporter)(SuperOffice.CRM.Import.ContactAndPersonImporter)
+  name.vb: AssignByReflection(Of ContactAndPersonImporter)(ContactAndPersonImporter)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ContactAndPersonImporter>
+    nameWithType: ObjectExtensions.AssignByReflection<ContactAndPersonImporter>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Import.ContactAndPersonImporter>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Import.ContactAndPersonImporter
+    name: ContactAndPersonImporter
+    nameWithType: ContactAndPersonImporter
+    fullName: SuperOffice.CRM.Import.ContactAndPersonImporter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ContactAndPersonImporter)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ContactAndPersonImporter)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Import.ContactAndPersonImporter)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Import.ContactAndPersonImporter
+    name: ContactAndPersonImporter
+    nameWithType: ContactAndPersonImporter
+    fullName: SuperOffice.CRM.Import.ContactAndPersonImporter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ContactAndPersonImporter>()
+  nameWithType: ObjectExtensions.GraphCopy<ContactAndPersonImporter>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Import.ContactAndPersonImporter>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ContactAndPersonImporter)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Import.ContactAndPersonImporter)()
+  name.vb: GraphCopy(Of ContactAndPersonImporter)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ContactAndPersonImporter>
+    nameWithType: ObjectExtensions.GraphCopy<ContactAndPersonImporter>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Import.ContactAndPersonImporter>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ContactAndPersonImporter)
+    nameWithType: ObjectExtensions.GraphCopy(Of ContactAndPersonImporter)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Import.ContactAndPersonImporter)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ContactAndPersonImporter, To>()
+  nameWithType: Converters.MapEnums<ContactAndPersonImporter, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Import.ContactAndPersonImporter, To>()
+  nameWithType.vb: Converters.MapEnums(Of ContactAndPersonImporter, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Import.ContactAndPersonImporter, To)()
+  name.vb: MapEnums(Of ContactAndPersonImporter, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ContactAndPersonImporter, To>
+    nameWithType: Converters.MapEnums<ContactAndPersonImporter, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Import.ContactAndPersonImporter, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ContactAndPersonImporter, To)
+    nameWithType: Converters.MapEnums(Of ContactAndPersonImporter, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Import.ContactAndPersonImporter, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter.#ctor*
+  commentId: Overload:SuperOffice.CRM.Import.ContactAndPersonImporter.#ctor
+  isExternal: true
+  name: ContactAndPersonImporter
+  nameWithType: ContactAndPersonImporter.ContactAndPersonImporter
+  fullName: SuperOffice.CRM.Import.ContactAndPersonImporter.ContactAndPersonImporter
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter.DoImport*
+  commentId: Overload:SuperOffice.CRM.Import.ContactAndPersonImporter.DoImport
+  isExternal: true
+  name: DoImport
+  nameWithType: ContactAndPersonImporter.DoImport
+  fullName: SuperOffice.CRM.Import.ContactAndPersonImporter.DoImport
+- uid: SuperOffice.CRM.Import.ImportItem[]
+  isExternal: true
+  name: ImportItem[]
+  nameWithType: ImportItem[]
+  fullName: SuperOffice.CRM.Import.ImportItem[]
+  nameWithType.vb: ImportItem()
+  fullName.vb: SuperOffice.CRM.Import.ImportItem()
+  name.vb: ImportItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Import.ImportItem
+    name: ImportItem
+    nameWithType: ImportItem
+    fullName: SuperOffice.CRM.Import.ImportItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Import.ImportItem
+    name: ImportItem
+    nameWithType: ImportItem
+    fullName: SuperOffice.CRM.Import.ImportItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.ErpActorType
+  commentId: T:SuperOffice.Data.ErpActorType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType
+- uid: System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}}
+  commentId: T:System.Action{System.Collections.Generic.List{SuperOffice.CRM.Import.ContactPersonIdItem}}
+  parent: System
+  definition: System.Action`1
+  name: Action<List<ContactPersonIdItem>>
+  nameWithType: Action<List<ContactPersonIdItem>>
+  fullName: System.Action<System.Collections.Generic.List<SuperOffice.CRM.Import.ContactPersonIdItem>>
+  nameWithType.vb: Action(Of List(Of ContactPersonIdItem))
+  fullName.vb: System.Action(Of System.Collections.Generic.List(Of SuperOffice.CRM.Import.ContactPersonIdItem))
+  name.vb: Action(Of List(Of ContactPersonIdItem))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Import.ContactPersonIdItem
+    name: ContactPersonIdItem
+    nameWithType: ContactPersonIdItem
+    fullName: SuperOffice.CRM.Import.ContactPersonIdItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Import.ContactPersonIdItem
+    name: ContactPersonIdItem
+    nameWithType: ContactPersonIdItem
+    fullName: SuperOffice.CRM.Import.ContactPersonIdItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{System.Collections.Generic.List{System.String}}
+  commentId: T:System.Action{System.Collections.Generic.List{System.String}}
+  parent: System
+  definition: System.Action`1
+  name: Action<List<String>>
+  nameWithType: Action<List<String>>
+  fullName: System.Action<System.Collections.Generic.List<System.String>>
+  nameWithType.vb: Action(Of List(Of String))
+  fullName.vb: System.Action(Of System.Collections.Generic.List(Of System.String))
+  name.vb: Action(Of List(Of String))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter.WriteStats*
+  commentId: Overload:SuperOffice.CRM.Import.ContactAndPersonImporter.WriteStats
+  isExternal: true
+  name: WriteStats
+  nameWithType: ContactAndPersonImporter.WriteStats
+  fullName: SuperOffice.CRM.Import.ContactAndPersonImporter.WriteStats

@@ -1,0 +1,1457 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ProductFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ProductFields
+  id: DBC.ProductFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ProductFields.Code
+  - SuperOffice.CRM.Data.DBC.ProductFields.DefaultSubscriptionQuantity
+  - SuperOffice.CRM.Data.DBC.ProductFields.Description
+  - SuperOffice.CRM.Data.DBC.ProductFields.ERPProductKey
+  - SuperOffice.CRM.Data.DBC.ProductFields.ExtraField1
+  - SuperOffice.CRM.Data.DBC.ProductFields.ExtraField2
+  - SuperOffice.CRM.Data.DBC.ProductFields.ExtraField3
+  - SuperOffice.CRM.Data.DBC.ProductFields.ExtraField4
+  - SuperOffice.CRM.Data.DBC.ProductFields.ExtraField5
+  - SuperOffice.CRM.Data.DBC.ProductFields.ExtraInfo
+  - SuperOffice.CRM.Data.DBC.ProductFields.InAssortment
+  - SuperOffice.CRM.Data.DBC.ProductFields.IsSubscription
+  - SuperOffice.CRM.Data.DBC.ProductFields.ItemNumber
+  - SuperOffice.CRM.Data.DBC.ProductFields.Name
+  - SuperOffice.CRM.Data.DBC.ProductFields.PriceListId
+  - SuperOffice.CRM.Data.DBC.ProductFields.PriceUnit
+  - SuperOffice.CRM.Data.DBC.ProductFields.ProductCategoryKey
+  - SuperOffice.CRM.Data.DBC.ProductFields.ProductFamilyKey
+  - SuperOffice.CRM.Data.DBC.ProductFields.ProductId
+  - SuperOffice.CRM.Data.DBC.ProductFields.ProductTypeKey
+  - SuperOffice.CRM.Data.DBC.ProductFields.QuantityUnit
+  - SuperOffice.CRM.Data.DBC.ProductFields.Registered
+  - SuperOffice.CRM.Data.DBC.ProductFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.ProductFields.Rights
+  - SuperOffice.CRM.Data.DBC.ProductFields.Rule
+  - SuperOffice.CRM.Data.DBC.ProductFields.SubscriptionUnit
+  - SuperOffice.CRM.Data.DBC.ProductFields.Supplier
+  - SuperOffice.CRM.Data.DBC.ProductFields.SupplierCode
+  - SuperOffice.CRM.Data.DBC.ProductFields.UnitCost
+  - SuperOffice.CRM.Data.DBC.ProductFields.UnitListPrice
+  - SuperOffice.CRM.Data.DBC.ProductFields.UnitMinimumPrice
+  - SuperOffice.CRM.Data.DBC.ProductFields.Updated
+  - SuperOffice.CRM.Data.DBC.ProductFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.ProductFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.ProductFields.Url
+  - SuperOffice.CRM.Data.DBC.ProductFields.VAT
+  - SuperOffice.CRM.Data.DBC.ProductFields.VATInfo
+  langs:
+  - csharp
+  - vb
+  name: DBC.ProductFields
+  nameWithType: DBC.ProductFields
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Product, One Product, member of one price list\n"
+  syntax:
+    content: public static class ProductFields
+    content.vb: Public Module ProductFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ProductId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ProductId
+  id: ProductId
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: DBC.ProductFields.ProductId
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ProductId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ProductId: Primary key\n"
+  syntax:
+    content: public const string ProductId = "product_id"
+    return:
+      type: System.String
+    content.vb: Public Const ProductId As String = "product_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ERPProductKey
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ERPProductKey
+  id: ERPProductKey
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ERPProductKey
+  nameWithType: DBC.ProductFields.ERPProductKey
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ERPProductKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ERPProductKey: Reference/foreign key to the product in the given pricelist in the product supplier system, if it exists there.\n"
+  syntax:
+    content: public const string ERPProductKey = "ERPProductKey"
+    return:
+      type: System.String
+    content.vb: Public Const ERPProductKey As String = "ERPProductKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.PriceListId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.PriceListId
+  id: PriceListId
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: PriceListId
+  nameWithType: DBC.ProductFields.PriceListId
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.PriceListId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.PriceListId: Foreign key to the price list that this product is a part of.\n"
+  syntax:
+    content: public const string PriceListId = "PriceListId"
+    return:
+      type: System.String
+    content.vb: Public Const PriceListId As String = "PriceListId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ProductFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.Name: The name to use in the user interface.\n"
+  syntax:
+    content: public const string Name = "Name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "Name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.ProductFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.Description: The description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too.\n"
+  syntax:
+    content: public const string Description = "Description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "Description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.Code
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.Code
+  id: Code
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: DBC.ProductFields.Code
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.Code
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.Code: The product code / article number in the product supplier system.\n"
+  syntax:
+    content: public const string Code = "Code"
+    return:
+      type: System.String
+    content.vb: Public Const Code As String = "Code"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.QuantityUnit
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.QuantityUnit
+  id: QuantityUnit
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: QuantityUnit
+  nameWithType: DBC.ProductFields.QuantityUnit
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.QuantityUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.QuantityUnit: What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different\n"
+  syntax:
+    content: public const string QuantityUnit = "QuantityUnit"
+    return:
+      type: System.String
+    content.vb: Public Const QuantityUnit As String = "QuantityUnit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.PriceUnit
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.PriceUnit
+  id: PriceUnit
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: PriceUnit
+  nameWithType: DBC.ProductFields.PriceUnit
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.PriceUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.PriceUnit: What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products\n"
+  syntax:
+    content: public const string PriceUnit = "PriceUnit"
+    return:
+      type: System.String
+    content.vb: Public Const PriceUnit As String = "PriceUnit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.IsSubscription
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.IsSubscription
+  id: IsSubscription
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: IsSubscription
+  nameWithType: DBC.ProductFields.IsSubscription
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.IsSubscription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.IsSubscription: Is this a subscription product, sold in repeating intervals/amounts?\n"
+  syntax:
+    content: public const string IsSubscription = "IsSubscription"
+    return:
+      type: System.String
+    content.vb: Public Const IsSubscription As String = "IsSubscription"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.SubscriptionUnit
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.SubscriptionUnit
+  id: SubscriptionUnit
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionUnit
+  nameWithType: DBC.ProductFields.SubscriptionUnit
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.SubscriptionUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.SubscriptionUnit: Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit.\n"
+  syntax:
+    content: public const string SubscriptionUnit = "SubscriptionUnit"
+    return:
+      type: System.String
+    content.vb: Public Const SubscriptionUnit As String = "SubscriptionUnit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.DefaultSubscriptionQuantity
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.DefaultSubscriptionQuantity
+  id: DefaultSubscriptionQuantity
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultSubscriptionQuantity
+  nameWithType: DBC.ProductFields.DefaultSubscriptionQuantity
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.DefaultSubscriptionQuantity
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.DefaultSubscriptionQuantity: The default number of SubscriptionUnits to suggest when creating quote lines from this product\n"
+  syntax:
+    content: public const string DefaultSubscriptionQuantity = "DefaultSubscriptionQuantity"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSubscriptionQuantity As String = "DefaultSubscriptionQuantity"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ItemNumber
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ItemNumber
+  id: ItemNumber
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ItemNumber
+  nameWithType: DBC.ProductFields.ItemNumber
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ItemNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ItemNumber: Line item number, NOR: «Postnummer». Specific numbers from some hierarchy, for instance “1.4.3.2P”. Typically used to sort the items in the quote by some standard way.\n"
+  syntax:
+    content: public const string ItemNumber = "ItemNumber"
+    return:
+      type: System.String
+    content.vb: Public Const ItemNumber As String = "ItemNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.Url
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.Url
+  id: Url
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: DBC.ProductFields.Url
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.Url
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.Url: URL to product information web page.\n"
+  syntax:
+    content: public const string Url = "Url"
+    return:
+      type: System.String
+    content.vb: Public Const Url As String = "Url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ProductCategoryKey
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ProductCategoryKey
+  id: ProductCategoryKey
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ProductCategoryKey
+  nameWithType: DBC.ProductFields.ProductCategoryKey
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ProductCategoryKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ProductCategoryKey: Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category.\n"
+  syntax:
+    content: public const string ProductCategoryKey = "ProductCategoryKey"
+    return:
+      type: System.String
+    content.vb: Public Const ProductCategoryKey As String = "ProductCategoryKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ProductFamilyKey
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ProductFamilyKey
+  id: ProductFamilyKey
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ProductFamilyKey
+  nameWithType: DBC.ProductFields.ProductFamilyKey
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ProductFamilyKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ProductFamilyKey: Either a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text with the actual product family.\n"
+  syntax:
+    content: public const string ProductFamilyKey = "ProductFamilyKey"
+    return:
+      type: System.String
+    content.vb: Public Const ProductFamilyKey As String = "ProductFamilyKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ProductTypeKey
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ProductTypeKey
+  id: ProductTypeKey
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ProductTypeKey
+  nameWithType: DBC.ProductFields.ProductTypeKey
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ProductTypeKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ProductTypeKey: Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type.\n"
+  syntax:
+    content: public const string ProductTypeKey = "ProductTypeKey"
+    return:
+      type: System.String
+    content.vb: Public Const ProductTypeKey As String = "ProductTypeKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.VATInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.VATInfo
+  id: VATInfo
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: VATInfo
+  nameWithType: DBC.ProductFields.VATInfo
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.VATInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.VATInfo: A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates.\n"
+  syntax:
+    content: public const string VATInfo = "VATInfo"
+    return:
+      type: System.String
+    content.vb: Public Const VATInfo As String = "VATInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.VAT
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.VAT
+  id: VAT
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: VAT
+  nameWithType: DBC.ProductFields.VAT
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.VAT
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.VAT: Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI.\n"
+  syntax:
+    content: public const string VAT = "VAT"
+    return:
+      type: System.String
+    content.vb: Public Const VAT As String = "VAT"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.UnitCost
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.UnitCost
+  id: UnitCost
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: UnitCost
+  nameWithType: DBC.ProductFields.UnitCost
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.UnitCost
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.UnitCost: The cost price. Might not be given, use Decimal.MinValue to signal this.\n"
+  syntax:
+    content: public const string UnitCost = "UnitCost"
+    return:
+      type: System.String
+    content.vb: Public Const UnitCost As String = "UnitCost"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.UnitMinimumPrice
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.UnitMinimumPrice
+  id: UnitMinimumPrice
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: UnitMinimumPrice
+  nameWithType: DBC.ProductFields.UnitMinimumPrice
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.UnitMinimumPrice
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.UnitMinimumPrice: The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this.\n"
+  syntax:
+    content: public const string UnitMinimumPrice = "UnitMinimumPrice"
+    return:
+      type: System.String
+    content.vb: Public Const UnitMinimumPrice As String = "UnitMinimumPrice"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.UnitListPrice
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.UnitListPrice
+  id: UnitListPrice
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: UnitListPrice
+  nameWithType: DBC.ProductFields.UnitListPrice
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.UnitListPrice
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.UnitListPrice: (Basic Price, normal price, standard price.) This is the basic price from which the discount is computed from. The ListPrice will stay the same even when a larger amount is ordered.\n"
+  syntax:
+    content: public const string UnitListPrice = "UnitListPrice"
+    return:
+      type: System.String
+    content.vb: Public Const UnitListPrice As String = "UnitListPrice"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ExtraInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: DBC.ProductFields.ExtraInfo
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ExtraInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ExtraInfo: Extra data (fields with labels). Shall be shown in the quoteline dialog. Additional info that the ERP system would like to store and show in the user interface. Information placed here is shown in the GUI if the “provide-extra-data” capability is true. Different products can have different fields. It will not be possible to directly put info here into the quote document.\n"
+  syntax:
+    content: public const string ExtraInfo = "ExtraInfo"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraInfo As String = "ExtraInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.InAssortment
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.InAssortment
+  id: InAssortment
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: InAssortment
+  nameWithType: DBC.ProductFields.InAssortment
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.InAssortment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.InAssortment: True for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results.\n"
+  syntax:
+    content: public const string InAssortment = "InAssortment"
+    return:
+      type: System.String
+    content.vb: Public Const InAssortment As String = "InAssortment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.Supplier
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.Supplier
+  id: Supplier
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: Supplier
+  nameWithType: DBC.ProductFields.Supplier
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.Supplier
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.Supplier: In SuperOffice, an id from the contact table, when saved as an ERP cache, the name of the supplier\n"
+  syntax:
+    content: public const string Supplier = "Supplier"
+    return:
+      type: System.String
+    content.vb: Public Const Supplier As String = "Supplier"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.SupplierCode
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.SupplierCode
+  id: SupplierCode
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: SupplierCode
+  nameWithType: DBC.ProductFields.SupplierCode
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.SupplierCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.SupplierCode: Suppliers part code/number or other key-like field\n"
+  syntax:
+    content: public const string SupplierCode = "SupplierCode"
+    return:
+      type: System.String
+    content.vb: Public Const SupplierCode As String = "SupplierCode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.Rights
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.Rights
+  id: Rights
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: Rights
+  nameWithType: DBC.ProductFields.Rights
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.Rights
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.Rights: Field1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on. Will be used by SuperOffice to control the user interface when showing the record.\n"
+  syntax:
+    content: public const string Rights = "Rights"
+    return:
+      type: System.String
+    content.vb: Public Const Rights As String = "Rights"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.Rule
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.Rule
+  id: Rule
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: Rule
+  nameWithType: DBC.ProductFields.Rule
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.Rule
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.Rule: The names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive. Will NOT be used by SuperOffice.\n"
+  syntax:
+    content: public const string Rule = "Rule"
+    return:
+      type: System.String
+    content.vb: Public Const Rule As String = "Rule"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ExtraField1
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ExtraField1
+  id: ExtraField1
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField1
+  nameWithType: DBC.ProductFields.ExtraField1
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ExtraField1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ExtraField1: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public const string ExtraField1 = "extraField1"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField1 As String = "extraField1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ExtraField2
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ExtraField2
+  id: ExtraField2
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField2
+  nameWithType: DBC.ProductFields.ExtraField2
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ExtraField2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ExtraField2: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public const string ExtraField2 = "extraField2"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField2 As String = "extraField2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ExtraField3
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ExtraField3
+  id: ExtraField3
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField3
+  nameWithType: DBC.ProductFields.ExtraField3
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ExtraField3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ExtraField3: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public const string ExtraField3 = "extraField3"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField3 As String = "extraField3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ExtraField4
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ExtraField4
+  id: ExtraField4
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField4
+  nameWithType: DBC.ProductFields.ExtraField4
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ExtraField4
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ExtraField4: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public const string ExtraField4 = "extraField4"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField4 As String = "extraField4"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.ExtraField5
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.ExtraField5
+  id: ExtraField5
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField5
+  nameWithType: DBC.ProductFields.ExtraField5
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.ExtraField5
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.ExtraField5: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public const string ExtraField5 = "extraField5"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField5 As String = "extraField5"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.ProductFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.ProductFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.ProductFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.ProductFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProductFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.ProductFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.ProductFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.ProductFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.ProductFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProduct.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

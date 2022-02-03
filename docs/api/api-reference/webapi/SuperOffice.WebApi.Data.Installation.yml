@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Installation
+  commentId: T:SuperOffice.WebApi.Data.Installation
+  id: Installation
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Installation.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Installation
+  nameWithType: Installation
+  fullName: SuperOffice.WebApi.Data.Installation
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Installation.\nOperations related to installation, upgrade and maintenance    \n"
+  syntax:
+    content: 'public class Installation : Carrier'
+    content.vb: >-
+      Public Class Installation
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DiagnosticsAgent
+    commentId: T:SuperOffice.WebApi.Agents.DiagnosticsAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Installation.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Installation.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Installation
+  langs:
+  - csharp
+  - vb
+  name: Installation()
+  nameWithType: Installation.Installation()
+  fullName: SuperOffice.WebApi.Data.Installation.Installation()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Installation()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Installation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  commentId: T:SuperOffice.WebApi.Agents.DiagnosticsAgent
+  isExternal: true
+  name: DiagnosticsAgent
+  nameWithType: DiagnosticsAgent
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Installation.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Installation.#ctor
+  isExternal: true
+  name: Installation
+  nameWithType: Installation.Installation
+  fullName: SuperOffice.WebApi.Data.Installation.Installation

@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest
+  commentId: T:SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest
+  id: BLOB_GetChatImageWithSizeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.#ctor
+  - SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.ChatTopicId
+  - SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Height
+  - SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Width
+  langs:
+  - csharp
+  - vb
+  name: BLOB_GetChatImageWithSizeRequest
+  nameWithType: BLOB_GetChatImageWithSizeRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BLOB_GetChatImageWithSizeRequest : Object'
+    content.vb: >-
+      Public Class BLOB_GetChatImageWithSizeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest
+  langs:
+  - csharp
+  - vb
+  name: BLOB_GetChatImageWithSizeRequest()
+  nameWithType: BLOB_GetChatImageWithSizeRequest.BLOB_GetChatImageWithSizeRequest()
+  fullName: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.BLOB_GetChatImageWithSizeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BLOB_GetChatImageWithSizeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.ChatTopicId
+  commentId: P:SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.ChatTopicId
+  id: ChatTopicId
+  parent: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicId
+  nameWithType: BLOB_GetChatImageWithSizeRequest.ChatTopicId
+  fullName: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.ChatTopicId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ChatTopicId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatTopicId As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.ChatTopicId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Width
+  commentId: P:SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Width
+  id: Width
+  parent: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: BLOB_GetChatImageWithSizeRequest.Width
+  fullName: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Width
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Width As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Height
+  commentId: P:SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Height
+  id: Height
+  parent: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: BLOB_GetChatImageWithSizeRequest.Height
+  fullName: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Height
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Height { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Height As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.#ctor
+  isExternal: true
+  name: BLOB_GetChatImageWithSizeRequest
+  nameWithType: BLOB_GetChatImageWithSizeRequest.BLOB_GetChatImageWithSizeRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.BLOB_GetChatImageWithSizeRequest
+- uid: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.ChatTopicId*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.ChatTopicId
+  isExternal: true
+  name: ChatTopicId
+  nameWithType: BLOB_GetChatImageWithSizeRequest.ChatTopicId
+  fullName: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.ChatTopicId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Width*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Width
+  isExternal: true
+  name: Width
+  nameWithType: BLOB_GetChatImageWithSizeRequest.Width
+  fullName: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Width
+- uid: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Height*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Height
+  isExternal: true
+  name: Height
+  nameWithType: BLOB_GetChatImageWithSizeRequest.Height
+  fullName: SuperOffice.WebApi.Data.BLOB_GetChatImageWithSizeRequest.Height

@@ -1,0 +1,310 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  id: Dashboard_CreateNewFromTemplateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.#ctor
+  - SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Caption
+  - SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.DashboardTileId
+  - SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Description
+  - SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.SelectionId
+  - SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_CreateNewFromTemplateRequest
+  nameWithType: Dashboard_CreateNewFromTemplateRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dashboard_CreateNewFromTemplateRequest : Object'
+    content.vb: >-
+      Public Class Dashboard_CreateNewFromTemplateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_CreateNewFromTemplateRequest()
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.Dashboard_CreateNewFromTemplateRequest()
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Dashboard_CreateNewFromTemplateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dashboard_CreateNewFromTemplateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.DashboardTileId
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.DashboardTileId
+  id: DashboardTileId
+  parent: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileId
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.DashboardTileId
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.DashboardTileId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DashboardTileId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DashboardTileId As Integer
+  overload: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.DashboardTileId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Caption
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Caption
+  id: Caption
+  parent: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.Caption
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Caption
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Caption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Caption As String
+  overload: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Description
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.Description
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.VisibleFor
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.VisibleFor
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.VisibleFor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public VisibleFor[] VisibleFor { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.VisibleFor[]
+    content.vb: Public Property VisibleFor As VisibleFor()
+  overload: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.VisibleFor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.#ctor
+  isExternal: true
+  name: Dashboard_CreateNewFromTemplateRequest
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.Dashboard_CreateNewFromTemplateRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Dashboard_CreateNewFromTemplateRequest
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.DashboardTileId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.DashboardTileId
+  isExternal: true
+  name: DashboardTileId
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.DashboardTileId
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.DashboardTileId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Caption*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Caption
+  isExternal: true
+  name: Caption
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.Caption
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Caption
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Description
+  isExternal: true
+  name: Description
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.Description
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.Description
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.SelectionId
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.VisibleFor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.VisibleFor
+  isExternal: true
+  name: VisibleFor
+  nameWithType: Dashboard_CreateNewFromTemplateRequest.VisibleFor
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.VisibleFor
+- uid: SuperOffice.WebApi.Data.VisibleFor[]
+  isExternal: true
+  name: VisibleFor[]
+  nameWithType: VisibleFor[]
+  fullName: SuperOffice.WebApi.Data.VisibleFor[]
+  nameWithType.vb: VisibleFor()
+  fullName.vb: SuperOffice.WebApi.Data.VisibleFor()
+  name.vb: VisibleFor()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.WebApi.Data.VisibleFor
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.WebApi.Data.VisibleFor
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

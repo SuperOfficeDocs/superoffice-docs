@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest
+  id: Messaging_SetDeliveryStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.#ctor
+  - SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.ExternalMessageId
+  - SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Plugin
+  - SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Status
+  - SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.StatusDescription
+  langs:
+  - csharp
+  - vb
+  name: Messaging_SetDeliveryStatusRequest
+  nameWithType: Messaging_SetDeliveryStatusRequest
+  fullName: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Messaging_SetDeliveryStatusRequest : Object'
+    content.vb: >-
+      Public Class Messaging_SetDeliveryStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: Messaging_SetDeliveryStatusRequest()
+  nameWithType: Messaging_SetDeliveryStatusRequest.Messaging_SetDeliveryStatusRequest()
+  fullName: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Messaging_SetDeliveryStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Messaging_SetDeliveryStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Plugin
+  commentId: P:SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Plugin
+  id: Plugin
+  parent: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: Plugin
+  nameWithType: Messaging_SetDeliveryStatusRequest.Plugin
+  fullName: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Plugin
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Plugin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Plugin As String
+  overload: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Plugin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.ExternalMessageId
+  commentId: P:SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.ExternalMessageId
+  id: ExternalMessageId
+  parent: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: ExternalMessageId
+  nameWithType: Messaging_SetDeliveryStatusRequest.ExternalMessageId
+  fullName: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.ExternalMessageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ExternalMessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExternalMessageId As String
+  overload: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.ExternalMessageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Status
+  commentId: P:SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Messaging_SetDeliveryStatusRequest.Status
+  fullName: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.StatusDescription
+  commentId: P:SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.StatusDescription
+  id: StatusDescription
+  parent: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: StatusDescription
+  nameWithType: Messaging_SetDeliveryStatusRequest.StatusDescription
+  fullName: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.StatusDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StatusDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StatusDescription As String
+  overload: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.StatusDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.#ctor
+  isExternal: true
+  name: Messaging_SetDeliveryStatusRequest
+  nameWithType: Messaging_SetDeliveryStatusRequest.Messaging_SetDeliveryStatusRequest
+  fullName: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Messaging_SetDeliveryStatusRequest
+- uid: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Plugin*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Plugin
+  isExternal: true
+  name: Plugin
+  nameWithType: Messaging_SetDeliveryStatusRequest.Plugin
+  fullName: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Plugin
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.ExternalMessageId*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.ExternalMessageId
+  isExternal: true
+  name: ExternalMessageId
+  nameWithType: Messaging_SetDeliveryStatusRequest.ExternalMessageId
+  fullName: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.ExternalMessageId
+- uid: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Status
+  isExternal: true
+  name: Status
+  nameWithType: Messaging_SetDeliveryStatusRequest.Status
+  fullName: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.Status
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.StatusDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.StatusDescription
+  isExternal: true
+  name: StatusDescription
+  nameWithType: Messaging_SetDeliveryStatusRequest.StatusDescription
+  fullName: SuperOffice.WebApi.Data.Messaging_SetDeliveryStatusRequest.StatusDescription

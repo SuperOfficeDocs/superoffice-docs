@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetSalesRepRequest
+  id: Person_GetSalesRepRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetSalesRepRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_GetSalesRepRequest.ContactName
+  - SuperOffice.WebApi.Data.Person_GetSalesRepRequest.EmailAddress
+  - SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonFirstname
+  - SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonLastname
+  - SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: Person_GetSalesRepRequest
+  nameWithType: Person_GetSalesRepRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetSalesRepRequest : Object'
+    content.vb: >-
+      Public Class Person_GetSalesRepRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetSalesRepRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetSalesRepRequest()
+  nameWithType: Person_GetSalesRepRequest.Person_GetSalesRepRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.Person_GetSalesRepRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetSalesRepRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.ContactName
+  commentId: P:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.ContactName
+  id: ContactName
+  parent: SuperOffice.WebApi.Data.Person_GetSalesRepRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: Person_GetSalesRepRequest.ContactName
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.ContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContactName As String
+  overload: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.ContactName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonFirstname
+  commentId: P:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonFirstname
+  id: PersonFirstname
+  parent: SuperOffice.WebApi.Data.Person_GetSalesRepRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonFirstname
+  nameWithType: Person_GetSalesRepRequest.PersonFirstname
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonFirstname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PersonFirstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PersonFirstname As String
+  overload: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonFirstname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonLastname
+  commentId: P:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonLastname
+  id: PersonLastname
+  parent: SuperOffice.WebApi.Data.Person_GetSalesRepRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonLastname
+  nameWithType: Person_GetSalesRepRequest.PersonLastname
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonLastname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PersonLastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PersonLastname As String
+  overload: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonLastname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.Person_GetSalesRepRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: Person_GetSalesRepRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PhoneNumber
+  commentId: P:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PhoneNumber
+  id: PhoneNumber
+  parent: SuperOffice.WebApi.Data.Person_GetSalesRepRequest
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: Person_GetSalesRepRequest.PhoneNumber
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PhoneNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.#ctor
+  isExternal: true
+  name: Person_GetSalesRepRequest
+  nameWithType: Person_GetSalesRepRequest.Person_GetSalesRepRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.Person_GetSalesRepRequest
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.ContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: Person_GetSalesRepRequest.ContactName
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.ContactName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonFirstname*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonFirstname
+  isExternal: true
+  name: PersonFirstname
+  nameWithType: Person_GetSalesRepRequest.PersonFirstname
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonFirstname
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonLastname*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonLastname
+  isExternal: true
+  name: PersonLastname
+  nameWithType: Person_GetSalesRepRequest.PersonLastname
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PersonLastname
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: Person_GetSalesRepRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.EmailAddress
+- uid: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PhoneNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PhoneNumber
+  isExternal: true
+  name: PhoneNumber
+  nameWithType: Person_GetSalesRepRequest.PhoneNumber
+  fullName: SuperOffice.WebApi.Data.Person_GetSalesRepRequest.PhoneNumber

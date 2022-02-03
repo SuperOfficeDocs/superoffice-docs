@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.Logging
+  commentId: N:SuperOffice.Diagnostics.Logging
+  id: SuperOffice.Diagnostics.Logging
+  children:
+  - SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
+  - SuperOffice.Diagnostics.Logging.ILoggerProviderPluginAttribute
+  - SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+  - SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Diagnostics.Logging
+  nameWithType: SuperOffice.Diagnostics.Logging
+  fullName: SuperOffice.Diagnostics.Logging
+  type: Namespace
+  assemblies:
+  - SoCore
+references:
+- uid: SuperOffice.Diagnostics.Logging.ILoggerProviderPluginAttribute
+  commentId: T:SuperOffice.Diagnostics.Logging.ILoggerProviderPluginAttribute
+  isExternal: true
+  name: ILoggerProviderPluginAttribute
+  nameWithType: ILoggerProviderPluginAttribute
+  fullName: SuperOffice.Diagnostics.Logging.ILoggerProviderPluginAttribute
+- uid: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
+  commentId: T:SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
+  isExternal: true
+  name: ILoggerProviderPlugin
+  nameWithType: ILoggerProviderPlugin
+  fullName: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
+- uid: SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
+  commentId: T:SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
+  isExternal: true
+  name: SoMetricsPluginAttribute
+  nameWithType: SoMetricsPluginAttribute
+  fullName: SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
+- uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+  commentId: T:SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+  isExternal: true
+  name: ISoMetricsPlugin
+  nameWithType: ISoMetricsPlugin
+  fullName: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin

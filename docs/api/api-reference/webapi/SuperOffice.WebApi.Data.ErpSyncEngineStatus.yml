@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSyncEngineStatus
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncEngineStatus
+  id: ErpSyncEngineStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSyncEngineStatus.#ctor
+  - SuperOffice.WebApi.Data.ErpSyncEngineStatus.Interval
+  - SuperOffice.WebApi.Data.ErpSyncEngineStatus.IsRunning
+  - SuperOffice.WebApi.Data.ErpSyncEngineStatus.StatusMessage
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncEngineStatus
+  nameWithType: ErpSyncEngineStatus
+  fullName: SuperOffice.WebApi.Data.ErpSyncEngineStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ErpSyncEngineStatus.\nStatus of the Sync engine    \n"
+  syntax:
+    content: 'public class ErpSyncEngineStatus : Carrier'
+    content.vb: >-
+      Public Class ErpSyncEngineStatus
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
+    commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSyncEngineStatus.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSyncEngineStatus.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSyncEngineStatus
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncEngineStatus()
+  nameWithType: ErpSyncEngineStatus.ErpSyncEngineStatus()
+  fullName: SuperOffice.WebApi.Data.ErpSyncEngineStatus.ErpSyncEngineStatus()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ErpSyncEngineStatus()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSyncEngineStatus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncEngineStatus.IsRunning
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncEngineStatus.IsRunning
+  id: IsRunning
+  parent: SuperOffice.WebApi.Data.ErpSyncEngineStatus
+  langs:
+  - csharp
+  - vb
+  name: IsRunning
+  nameWithType: ErpSyncEngineStatus.IsRunning
+  fullName: SuperOffice.WebApi.Data.ErpSyncEngineStatus.IsRunning
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the engine currently running\n"
+  syntax:
+    content: public virtual bool IsRunning { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsRunning As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncEngineStatus.IsRunning*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncEngineStatus.StatusMessage
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncEngineStatus.StatusMessage
+  id: StatusMessage
+  parent: SuperOffice.WebApi.Data.ErpSyncEngineStatus
+  langs:
+  - csharp
+  - vb
+  name: StatusMessage
+  nameWithType: ErpSyncEngineStatus.StatusMessage
+  fullName: SuperOffice.WebApi.Data.ErpSyncEngineStatus.StatusMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent status message from the engine\n"
+  syntax:
+    content: public virtual string StatusMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StatusMessage As String
+  overload: SuperOffice.WebApi.Data.ErpSyncEngineStatus.StatusMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncEngineStatus.Interval
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncEngineStatus.Interval
+  id: Interval
+  parent: SuperOffice.WebApi.Data.ErpSyncEngineStatus
+  langs:
+  - csharp
+  - vb
+  name: Interval
+  nameWithType: ErpSyncEngineStatus.Interval
+  fullName: SuperOffice.WebApi.Data.ErpSyncEngineStatus.Interval
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe interval for each iteration of the sync engine\n"
+  syntax:
+    content: public virtual TimeSpan Interval { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Overridable Property Interval As TimeSpan
+  overload: SuperOffice.WebApi.Data.ErpSyncEngineStatus.Interval*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSyncEngineStatus.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncEngineStatus.#ctor
+  isExternal: true
+  name: ErpSyncEngineStatus
+  nameWithType: ErpSyncEngineStatus.ErpSyncEngineStatus
+  fullName: SuperOffice.WebApi.Data.ErpSyncEngineStatus.ErpSyncEngineStatus
+- uid: SuperOffice.WebApi.Data.ErpSyncEngineStatus.IsRunning*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncEngineStatus.IsRunning
+  isExternal: true
+  name: IsRunning
+  nameWithType: ErpSyncEngineStatus.IsRunning
+  fullName: SuperOffice.WebApi.Data.ErpSyncEngineStatus.IsRunning
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ErpSyncEngineStatus.StatusMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncEngineStatus.StatusMessage
+  isExternal: true
+  name: StatusMessage
+  nameWithType: ErpSyncEngineStatus.StatusMessage
+  fullName: SuperOffice.WebApi.Data.ErpSyncEngineStatus.StatusMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpSyncEngineStatus.Interval*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncEngineStatus.Interval
+  isExternal: true
+  name: Interval
+  nameWithType: ErpSyncEngineStatus.Interval
+  fullName: SuperOffice.WebApi.Data.ErpSyncEngineStatus.Interval
+- uid: System.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan

@@ -1,0 +1,908 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  commentId: T:SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  id: ConnectorExtensions
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetFieldMetadataTypeInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetListName(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionOperator(SuperOffice.CRM.SearchRestrictionInfo)
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetSearchOperator(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToArchiveRestrictionInfo(SuperOffice.CRM.SearchRestrictionInfo)
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToMetadataInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToSearchRestrictionInfo(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  langs:
+  - csharp
+  - vb
+  name: ConnectorExtensions
+  nameWithType: ConnectorExtensions
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nExtension methods to transform between Archive Providers and the world of Quote/ERP (<xref href=\"SuperOffice.CRM.FieldMetadataTypeInfo\" data-throw-if-not-resolved=\"false\"></xref>)\n"
+  syntax:
+    content: public static class ConnectorExtensions
+    content.vb: Public Module ConnectorExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetFieldMetadataTypeInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetFieldMetadataTypeInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  id: GetFieldMetadataTypeInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetFieldMetadataTypeInfo(ArchiveColumnInfo)
+  nameWithType: ConnectorExtensions.GetFieldMetadataTypeInfo(ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetFieldMetadataTypeInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static FieldMetadataTypeInfo GetFieldMetadataTypeInfo(this ArchiveColumnInfo column)
+    parameters:
+    - id: column
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    return:
+      type: SuperOffice.CRM.FieldMetadataTypeInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFieldMetadataTypeInfo(column As ArchiveColumnInfo) As FieldMetadataTypeInfo
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetFieldMetadataTypeInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetListName(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetListName(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  id: GetListName(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetListName(ArchiveColumnInfo)
+  nameWithType: ConnectorExtensions.GetListName(ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetListName(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static string GetListName(this ArchiveColumnInfo column)
+    parameters:
+    - id: column
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetListName(column As ArchiveColumnInfo) As String
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetListName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToMetadataInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToMetadataInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  id: ToMetadataInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToMetadataInfo(ArchiveColumnInfo)
+  nameWithType: ConnectorExtensions.ToMetadataInfo(ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToMetadataInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static FieldMetadataInfo ToMetadataInfo(this ArchiveColumnInfo column)
+    parameters:
+    - id: column
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    return:
+      type: SuperOffice.CRM.FieldMetadataInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToMetadataInfo(column As ArchiveColumnInfo) As FieldMetadataInfo
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToMetadataInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+  id: GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetRestrictionType(FieldMetadataInfo)
+  nameWithType: ConnectorExtensions.GetRestrictionType(FieldMetadataInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static string GetRestrictionType(this FieldMetadataInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.CRM.FieldMetadataInfo
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetRestrictionType(field As FieldMetadataInfo) As String
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  id: GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetRestrictionListName(FieldMetadataInfo, String)
+  nameWithType: ConnectorExtensions.GetRestrictionListName(FieldMetadataInfo, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static string GetRestrictionListName(this FieldMetadataInfo field, string connectorName)
+    parameters:
+    - id: field
+      type: SuperOffice.CRM.FieldMetadataInfo
+    - id: connectorName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetRestrictionListName(field As FieldMetadataInfo, connectorName As String) As String
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+  id: GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetDisplayType(FieldMetadataInfo)
+  nameWithType: ConnectorExtensions.GetDisplayType(FieldMetadataInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static string GetDisplayType(this FieldMetadataInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.CRM.FieldMetadataInfo
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetDisplayType(field As FieldMetadataInfo) As String
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+  id: GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultWidth(FieldMetadataInfo)
+  nameWithType: ConnectorExtensions.GetDefaultWidth(FieldMetadataInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static string GetDefaultWidth(this FieldMetadataInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.CRM.FieldMetadataInfo
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetDefaultWidth(field As FieldMetadataInfo) As String
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  id: ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToColumnInfo(FieldMetadataInfo, String)
+  nameWithType: ConnectorExtensions.ToColumnInfo(FieldMetadataInfo, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveColumnInfo ToColumnInfo(this FieldMetadataInfo field, string connectorName)
+    parameters:
+    - id: field
+      type: SuperOffice.CRM.FieldMetadataInfo
+    - id: connectorName
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToColumnInfo(field As FieldMetadataInfo, connectorName As String) As ArchiveColumnInfo
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetSearchOperator(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetSearchOperator(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  id: GetSearchOperator(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetSearchOperator(ArchiveRestrictionInfo)
+  nameWithType: ConnectorExtensions.GetSearchOperator(ArchiveRestrictionInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetSearchOperator(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static string GetSearchOperator(this ArchiveRestrictionInfo restriction)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetSearchOperator(restriction As ArchiveRestrictionInfo) As String
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetSearchOperator*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToSearchRestrictionInfo(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToSearchRestrictionInfo(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  id: ToSearchRestrictionInfo(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToSearchRestrictionInfo(ArchiveRestrictionInfo)
+  nameWithType: ConnectorExtensions.ToSearchRestrictionInfo(ArchiveRestrictionInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToSearchRestrictionInfo(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static SearchRestrictionInfo ToSearchRestrictionInfo(this ArchiveRestrictionInfo restriction)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    return:
+      type: SuperOffice.CRM.SearchRestrictionInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToSearchRestrictionInfo(restriction As ArchiveRestrictionInfo) As SearchRestrictionInfo
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToSearchRestrictionInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionOperator(SuperOffice.CRM.SearchRestrictionInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionOperator(SuperOffice.CRM.SearchRestrictionInfo)
+  id: GetRestrictionOperator(SuperOffice.CRM.SearchRestrictionInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetRestrictionOperator(SearchRestrictionInfo)
+  nameWithType: ConnectorExtensions.GetRestrictionOperator(SearchRestrictionInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionOperator(SuperOffice.CRM.SearchRestrictionInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static string GetRestrictionOperator(this SearchRestrictionInfo search)
+    parameters:
+    - id: search
+      type: SuperOffice.CRM.SearchRestrictionInfo
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetRestrictionOperator(search As SearchRestrictionInfo) As String
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionOperator*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToArchiveRestrictionInfo(SuperOffice.CRM.SearchRestrictionInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToArchiveRestrictionInfo(SuperOffice.CRM.SearchRestrictionInfo)
+  id: ToArchiveRestrictionInfo(SuperOffice.CRM.SearchRestrictionInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToArchiveRestrictionInfo(SearchRestrictionInfo)
+  nameWithType: ConnectorExtensions.ToArchiveRestrictionInfo(SearchRestrictionInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToArchiveRestrictionInfo(SuperOffice.CRM.SearchRestrictionInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveRestrictionInfo ToArchiveRestrictionInfo(this SearchRestrictionInfo search)
+    parameters:
+    - id: search
+      type: SuperOffice.CRM.SearchRestrictionInfo
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToArchiveRestrictionInfo(search As SearchRestrictionInfo) As ArchiveRestrictionInfo
+  overload: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToArchiveRestrictionInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetFieldMetadataTypeInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetFieldMetadataTypeInfo
+  isExternal: true
+  name: GetFieldMetadataTypeInfo
+  nameWithType: ConnectorExtensions.GetFieldMetadataTypeInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetFieldMetadataTypeInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.CRM.FieldMetadataTypeInfo
+  commentId: T:SuperOffice.CRM.FieldMetadataTypeInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: FieldMetadataTypeInfo
+  nameWithType: FieldMetadataTypeInfo
+  fullName: SuperOffice.CRM.FieldMetadataTypeInfo
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetListName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetListName
+  isExternal: true
+  name: GetListName
+  nameWithType: ConnectorExtensions.GetListName
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetListName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToMetadataInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToMetadataInfo
+  isExternal: true
+  name: ToMetadataInfo
+  nameWithType: ConnectorExtensions.ToMetadataInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToMetadataInfo
+- uid: SuperOffice.CRM.FieldMetadataInfo
+  commentId: T:SuperOffice.CRM.FieldMetadataInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: FieldMetadataInfo
+  nameWithType: FieldMetadataInfo
+  fullName: SuperOffice.CRM.FieldMetadataInfo
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType
+  isExternal: true
+  name: GetRestrictionType
+  nameWithType: ConnectorExtensions.GetRestrictionType
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName
+  isExternal: true
+  name: GetRestrictionListName
+  nameWithType: ConnectorExtensions.GetRestrictionListName
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType
+  isExternal: true
+  name: GetDisplayType
+  nameWithType: ConnectorExtensions.GetDisplayType
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth
+  isExternal: true
+  name: GetDefaultWidth
+  nameWithType: ConnectorExtensions.GetDefaultWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo
+  isExternal: true
+  name: ToColumnInfo
+  nameWithType: ConnectorExtensions.ToColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetSearchOperator*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetSearchOperator
+  isExternal: true
+  name: GetSearchOperator
+  nameWithType: ConnectorExtensions.GetSearchOperator
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetSearchOperator
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToSearchRestrictionInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToSearchRestrictionInfo
+  isExternal: true
+  name: ToSearchRestrictionInfo
+  nameWithType: ConnectorExtensions.ToSearchRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToSearchRestrictionInfo
+- uid: SuperOffice.CRM.SearchRestrictionInfo
+  commentId: T:SuperOffice.CRM.SearchRestrictionInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: SearchRestrictionInfo
+  nameWithType: SearchRestrictionInfo
+  fullName: SuperOffice.CRM.SearchRestrictionInfo
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionOperator*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionOperator
+  isExternal: true
+  name: GetRestrictionOperator
+  nameWithType: ConnectorExtensions.GetRestrictionOperator
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionOperator
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToArchiveRestrictionInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToArchiveRestrictionInfo
+  isExternal: true
+  name: ToArchiveRestrictionInfo
+  nameWithType: ConnectorExtensions.ToArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToArchiveRestrictionInfo

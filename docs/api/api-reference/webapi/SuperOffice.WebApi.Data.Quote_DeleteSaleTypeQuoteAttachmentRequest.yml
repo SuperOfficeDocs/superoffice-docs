@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest
+  id: Quote_DeleteSaleTypeQuoteAttachmentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.SaleTypeQuoteAttachmentId
+  langs:
+  - csharp
+  - vb
+  name: Quote_DeleteSaleTypeQuoteAttachmentRequest
+  nameWithType: Quote_DeleteSaleTypeQuoteAttachmentRequest
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_DeleteSaleTypeQuoteAttachmentRequest : Object'
+    content.vb: >-
+      Public Class Quote_DeleteSaleTypeQuoteAttachmentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_DeleteSaleTypeQuoteAttachmentRequest()
+  nameWithType: Quote_DeleteSaleTypeQuoteAttachmentRequest.Quote_DeleteSaleTypeQuoteAttachmentRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.Quote_DeleteSaleTypeQuoteAttachmentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_DeleteSaleTypeQuoteAttachmentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.SaleTypeQuoteAttachmentId
+  commentId: P:SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.SaleTypeQuoteAttachmentId
+  id: SaleTypeQuoteAttachmentId
+  parent: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeQuoteAttachmentId
+  nameWithType: Quote_DeleteSaleTypeQuoteAttachmentRequest.SaleTypeQuoteAttachmentId
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.SaleTypeQuoteAttachmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleTypeQuoteAttachmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleTypeQuoteAttachmentId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.SaleTypeQuoteAttachmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.#ctor
+  isExternal: true
+  name: Quote_DeleteSaleTypeQuoteAttachmentRequest
+  nameWithType: Quote_DeleteSaleTypeQuoteAttachmentRequest.Quote_DeleteSaleTypeQuoteAttachmentRequest
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.Quote_DeleteSaleTypeQuoteAttachmentRequest
+- uid: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.SaleTypeQuoteAttachmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.SaleTypeQuoteAttachmentId
+  isExternal: true
+  name: SaleTypeQuoteAttachmentId
+  nameWithType: Quote_DeleteSaleTypeQuoteAttachmentRequest.SaleTypeQuoteAttachmentId
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteSaleTypeQuoteAttachmentRequest.SaleTypeQuoteAttachmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

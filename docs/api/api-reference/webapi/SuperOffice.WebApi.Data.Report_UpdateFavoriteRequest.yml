@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest
+  commentId: T:SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest
+  id: Report_UpdateFavoriteRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.#ctor
+  - SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: Report_UpdateFavoriteRequest
+  nameWithType: Report_UpdateFavoriteRequest
+  fullName: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Report_UpdateFavoriteRequest : Object'
+    content.vb: >-
+      Public Class Report_UpdateFavoriteRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest
+  langs:
+  - csharp
+  - vb
+  name: Report_UpdateFavoriteRequest()
+  nameWithType: Report_UpdateFavoriteRequest.Report_UpdateFavoriteRequest()
+  fullName: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.Report_UpdateFavoriteRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Report_UpdateFavoriteRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.ReportEntity
+  commentId: P:SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.ReportEntity
+  id: ReportEntity
+  parent: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest
+  langs:
+  - csharp
+  - vb
+  name: ReportEntity
+  nameWithType: Report_UpdateFavoriteRequest.ReportEntity
+  fullName: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.ReportEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ReportEntity ReportEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ReportEntity
+    content.vb: Public Property ReportEntity As ReportEntity
+  overload: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.ReportEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.#ctor
+  isExternal: true
+  name: Report_UpdateFavoriteRequest
+  nameWithType: Report_UpdateFavoriteRequest.Report_UpdateFavoriteRequest
+  fullName: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.Report_UpdateFavoriteRequest
+- uid: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.ReportEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.ReportEntity
+  isExternal: true
+  name: ReportEntity
+  nameWithType: Report_UpdateFavoriteRequest.ReportEntity
+  fullName: SuperOffice.WebApi.Data.Report_UpdateFavoriteRequest.ReportEntity
+- uid: SuperOffice.WebApi.Data.ReportEntity
+  commentId: T:SuperOffice.WebApi.Data.ReportEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ReportEntity
+  nameWithType: ReportEntity
+  fullName: SuperOffice.WebApi.Data.ReportEntity

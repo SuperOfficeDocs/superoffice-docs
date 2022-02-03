@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Mailbox
+  commentId: T:SuperOffice.WebApi.Data.Mailbox
+  id: Mailbox
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Mailbox.#ctor
+  - SuperOffice.WebApi.Data.Mailbox.Address
+  - SuperOffice.WebApi.Data.Mailbox.CategoryName
+  - SuperOffice.WebApi.Data.Mailbox.MailInFilterId
+  - SuperOffice.WebApi.Data.Mailbox.PriorityName
+  langs:
+  - csharp
+  - vb
+  name: Mailbox
+  nameWithType: Mailbox
+  fullName: SuperOffice.WebApi.Data.Mailbox
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Mailbox.\nCarrier containing information about a Service mailbox    \n"
+  syntax:
+    content: 'public class Mailbox : Carrier'
+    content.vb: >-
+      Public Class Mailbox
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Mailbox.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Mailbox.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Mailbox
+  langs:
+  - csharp
+  - vb
+  name: Mailbox()
+  nameWithType: Mailbox.Mailbox()
+  fullName: SuperOffice.WebApi.Data.Mailbox.Mailbox()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Mailbox()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Mailbox.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Mailbox.MailInFilterId
+  commentId: P:SuperOffice.WebApi.Data.Mailbox.MailInFilterId
+  id: MailInFilterId
+  parent: SuperOffice.WebApi.Data.Mailbox
+  langs:
+  - csharp
+  - vb
+  name: MailInFilterId
+  nameWithType: Mailbox.MailInFilterId
+  fullName: SuperOffice.WebApi.Data.Mailbox.MailInFilterId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int MailInFilterId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MailInFilterId As Integer
+  overload: SuperOffice.WebApi.Data.Mailbox.MailInFilterId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Mailbox.Address
+  commentId: P:SuperOffice.WebApi.Data.Mailbox.Address
+  id: Address
+  parent: SuperOffice.WebApi.Data.Mailbox
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: Mailbox.Address
+  fullName: SuperOffice.WebApi.Data.Mailbox.Address
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe address associated with this mailbox (used as FROM: address when sending emails).\n"
+  syntax:
+    content: public virtual string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Address As String
+  overload: SuperOffice.WebApi.Data.Mailbox.Address*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Mailbox.CategoryName
+  commentId: P:SuperOffice.WebApi.Data.Mailbox.CategoryName
+  id: CategoryName
+  parent: SuperOffice.WebApi.Data.Mailbox
+  langs:
+  - csharp
+  - vb
+  name: CategoryName
+  nameWithType: Mailbox.CategoryName
+  fullName: SuperOffice.WebApi.Data.Mailbox.CategoryName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the category that the mailbox is connected to\n"
+  syntax:
+    content: public virtual string CategoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CategoryName As String
+  overload: SuperOffice.WebApi.Data.Mailbox.CategoryName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Mailbox.PriorityName
+  commentId: P:SuperOffice.WebApi.Data.Mailbox.PriorityName
+  id: PriorityName
+  parent: SuperOffice.WebApi.Data.Mailbox
+  langs:
+  - csharp
+  - vb
+  name: PriorityName
+  nameWithType: Mailbox.PriorityName
+  fullName: SuperOffice.WebApi.Data.Mailbox.PriorityName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the priority that the mailbox is connected to\n"
+  syntax:
+    content: public virtual string PriorityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PriorityName As String
+  overload: SuperOffice.WebApi.Data.Mailbox.PriorityName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Mailbox.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Mailbox.#ctor
+  isExternal: true
+  name: Mailbox
+  nameWithType: Mailbox.Mailbox
+  fullName: SuperOffice.WebApi.Data.Mailbox.Mailbox
+- uid: SuperOffice.WebApi.Data.Mailbox.MailInFilterId*
+  commentId: Overload:SuperOffice.WebApi.Data.Mailbox.MailInFilterId
+  isExternal: true
+  name: MailInFilterId
+  nameWithType: Mailbox.MailInFilterId
+  fullName: SuperOffice.WebApi.Data.Mailbox.MailInFilterId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Mailbox.Address*
+  commentId: Overload:SuperOffice.WebApi.Data.Mailbox.Address
+  isExternal: true
+  name: Address
+  nameWithType: Mailbox.Address
+  fullName: SuperOffice.WebApi.Data.Mailbox.Address
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Mailbox.CategoryName*
+  commentId: Overload:SuperOffice.WebApi.Data.Mailbox.CategoryName
+  isExternal: true
+  name: CategoryName
+  nameWithType: Mailbox.CategoryName
+  fullName: SuperOffice.WebApi.Data.Mailbox.CategoryName
+- uid: SuperOffice.WebApi.Data.Mailbox.PriorityName*
+  commentId: Overload:SuperOffice.WebApi.Data.Mailbox.PriorityName
+  isExternal: true
+  name: PriorityName
+  nameWithType: Mailbox.PriorityName
+  fullName: SuperOffice.WebApi.Data.Mailbox.PriorityName

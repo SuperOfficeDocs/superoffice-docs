@@ -1,0 +1,861 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  commentId: T:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  id: EMailAddRecipientsObject
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.#ctor
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.AssocGroupId
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Bcc
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Cc
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactId
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactName
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Mode
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectId
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectName
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionId
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionName
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SourceList
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.To
+  langs:
+  - csharp
+  - vb
+  name: EMailAddRecipientsObject
+  nameWithType: EMailAddRecipientsObject
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public class EMailAddRecipientsObject
+    content.vb: Public Class EMailAddRecipientsObject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: EMailAddRecipientsObject()
+  nameWithType: EMailAddRecipientsObject.EMailAddRecipientsObject()
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.EMailAddRecipientsObject()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public EMailAddRecipientsObject()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Mode
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Mode
+  id: Mode
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: Mode
+  nameWithType: EMailAddRecipientsObject.Mode
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Mode
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public EMailAddRecipientMode Mode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+    content.vb: Public Property Mode As EMailAddRecipientMode
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Mode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactId
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: EMailAddRecipientsObject.ContactId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactName
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactName
+  id: ContactName
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: EMailAddRecipientsObject.ContactName
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContactName As String
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectId
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: EMailAddRecipientsObject.ProjectId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectName
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectName
+  id: ProjectName
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: EMailAddRecipientsObject.ProjectName
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string ProjectName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProjectName As String
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionId
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: EMailAddRecipientsObject.SelectionId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionName
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionName
+  id: SelectionName
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: SelectionName
+  nameWithType: EMailAddRecipientsObject.SelectionName
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string SelectionName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectionName As String
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.AssocGroupId
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.AssocGroupId
+  id: AssocGroupId
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: AssocGroupId
+  nameWithType: EMailAddRecipientsObject.AssocGroupId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.AssocGroupId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int AssocGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssocGroupId As Integer
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.AssocGroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SourceList
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SourceList
+  id: SourceList
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: SourceList
+  nameWithType: EMailAddRecipientsObject.SourceList
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SourceList
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public SelectableMDOListItem[] SourceList { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    content.vb: Public Property SourceList As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SourceList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.To
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.To
+  id: To
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: EMailAddRecipientsObject.To
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.To
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string To { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property To As String
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.To*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Cc
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Cc
+  id: Cc
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: Cc
+  nameWithType: EMailAddRecipientsObject.Cc
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Cc
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string Cc { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Cc As String
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Cc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Bcc
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Bcc
+  id: Bcc
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+  langs:
+  - csharp
+  - vb
+  name: Bcc
+  nameWithType: EMailAddRecipientsObject.Bcc
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Bcc
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string Bcc { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Bcc As String
+  overload: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Bcc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.#ctor
+  isExternal: true
+  name: EMailAddRecipientsObject
+  nameWithType: EMailAddRecipientsObject.EMailAddRecipientsObject
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.EMailAddRecipientsObject
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Mode*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Mode
+  isExternal: true
+  name: Mode
+  nameWithType: EMailAddRecipientsObject.Mode
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Mode
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  commentId: T:SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  parent: SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: EMailAddRecipientMode
+  nameWithType: EMailAddRecipientMode
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: EMailAddRecipientsObject.ContactId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: EMailAddRecipientsObject.ContactName
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ContactName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: EMailAddRecipientsObject.ProjectId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectId
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectName
+  isExternal: true
+  name: ProjectName
+  nameWithType: EMailAddRecipientsObject.ProjectName
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.ProjectName
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: EMailAddRecipientsObject.SelectionId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionId
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionName
+  isExternal: true
+  name: SelectionName
+  nameWithType: EMailAddRecipientsObject.SelectionName
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SelectionName
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.AssocGroupId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.AssocGroupId
+  isExternal: true
+  name: AssocGroupId
+  nameWithType: EMailAddRecipientsObject.AssocGroupId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.AssocGroupId
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SourceList*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SourceList
+  isExternal: true
+  name: SourceList
+  nameWithType: EMailAddRecipientsObject.SourceList
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.SourceList
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.To*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.To
+  isExternal: true
+  name: To
+  nameWithType: EMailAddRecipientsObject.To
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.To
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Cc*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Cc
+  isExternal: true
+  name: Cc
+  nameWithType: EMailAddRecipientsObject.Cc
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Cc
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Bcc*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Bcc
+  isExternal: true
+  name: Bcc
+  nameWithType: EMailAddRecipientsObject.Bcc
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject.Bcc

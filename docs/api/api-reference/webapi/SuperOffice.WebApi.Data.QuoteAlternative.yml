@@ -1,0 +1,1284 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteAlternative
+  commentId: T:SuperOffice.WebApi.Data.QuoteAlternative
+  id: QuoteAlternative
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteAlternative.#ctor
+  - SuperOffice.WebApi.Data.QuoteAlternative.Description
+  - SuperOffice.WebApi.Data.QuoteAlternative.DiscountAmount
+  - SuperOffice.WebApi.Data.QuoteAlternative.DiscountPercent
+  - SuperOffice.WebApi.Data.QuoteAlternative.EarningAmount
+  - SuperOffice.WebApi.Data.QuoteAlternative.EarningPercent
+  - SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountAmount
+  - SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountPercent
+  - SuperOffice.WebApi.Data.QuoteAlternative.ERPQuoteAlternativeKey
+  - SuperOffice.WebApi.Data.QuoteAlternative.ExtraField1
+  - SuperOffice.WebApi.Data.QuoteAlternative.ExtraField2
+  - SuperOffice.WebApi.Data.QuoteAlternative.ExtraField3
+  - SuperOffice.WebApi.Data.QuoteAlternative.ExtraField4
+  - SuperOffice.WebApi.Data.QuoteAlternative.ExtraField5
+  - SuperOffice.WebApi.Data.QuoteAlternative.Name
+  - SuperOffice.WebApi.Data.QuoteAlternative.QuoteAlternativeId
+  - SuperOffice.WebApi.Data.QuoteAlternative.QuoteVersionId
+  - SuperOffice.WebApi.Data.QuoteAlternative.Reason
+  - SuperOffice.WebApi.Data.QuoteAlternative.Status
+  - SuperOffice.WebApi.Data.QuoteAlternative.Status_String
+  - SuperOffice.WebApi.Data.QuoteAlternative.SubTotal
+  - SuperOffice.WebApi.Data.QuoteAlternative.TotalPrice
+  - SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride
+  - SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String
+  - SuperOffice.WebApi.Data.QuoteAlternative.VAT
+  - SuperOffice.WebApi.Data.QuoteAlternative.VATInfo
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternative
+  nameWithType: QuoteAlternative
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuoteAlternative.\nInformation about a connection to the ERP system.    \n"
+  example:
+  - "\nGet QuoteAlternative 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new QuoteAgent(configuration);\nvar quoteAlternative = agent.GetQuoteAlternative( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class QuoteAlternative : Carrier'
+    content.vb: >-
+      Public Class QuoteAlternative
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuoteAlternative.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternative()
+  nameWithType: QuoteAlternative.QuoteAlternative()
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.QuoteAlternative()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuoteAlternative()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.QuoteAlternativeId
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: QuoteAlternative.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.QuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int QuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteAlternativeId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ERPQuoteAlternativeKey
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.ERPQuoteAlternativeKey
+  id: ERPQuoteAlternativeKey
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: ERPQuoteAlternativeKey
+  nameWithType: QuoteAlternative.ERPQuoteAlternativeKey
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ERPQuoteAlternativeKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nKey that identifies this alternative in the ERP system, if it exists there.\n"
+  syntax:
+    content: public virtual string ERPQuoteAlternativeKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPQuoteAlternativeKey As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.ERPQuoteAlternativeKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: QuoteAlternative.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe version that owns this alternative (the chain is Sale 1->1 Quote 1->+ QuoteVersion 1->+ QuoteAlternative.\n"
+  syntax:
+    content: public virtual int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Name
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: QuoteAlternative.Name
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of Alternative. Shown in tab in user interface, intentionally kept short\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Description
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: QuoteAlternative.Description
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tool-tip to use in the user interface (on the tab, for instance).\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Status_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.Status_String
+  id: Status_String
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: Status_String
+  nameWithType: QuoteAlternative.Status_String
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.Status_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf there was a problem with for instance calculation, this field is set to warning or error.\nRaw string enum value.\n"
+  syntax:
+    content: public string Status_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Status_String As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.Status_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteAlternative.Status
+    commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Status
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: QuoteAlternative.Status
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf there was a problem with for instance calculation, this field is set to warning or error.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<QuoteStatus> Status { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}
+    content.vb: Public Property Status As Nullable(Of QuoteStatus)
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.Status*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteAlternative.Status_String
+    commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.Status_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Reason
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.Reason
+  id: Reason
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: QuoteAlternative.Reason
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.Reason
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown.\n"
+  syntax:
+    content: public virtual string Reason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Reason As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.Reason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountPercent
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountPercent
+  id: ERPDiscountPercent
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: ERPDiscountPercent
+  nameWithType: QuoteAlternative.ERPDiscountPercent
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountPercent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe discount the system calculates based on customer /amount / whatever. Can be overridden by the sales rep in the field ‘DiscountPercent’ or ‘DiscountAmount’. Both the two ‘ERPDiscountPercent’ and ‘ERPDiscountAmount’ shall be filled out. If UserValueOverride is &apos;None&apos;, then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public virtual double ERPDiscountPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property ERPDiscountPercent As Double
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountAmount
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountAmount
+  id: ERPDiscountAmount
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: ERPDiscountAmount
+  nameWithType: QuoteAlternative.ERPDiscountAmount
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountAmount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe discount the system calculates based on customer /amount / whatever. Can be overridden by the user in the field ‘DiscountPercent’ or ‘DiscountAmount’. Both the two ‘ERPDiscountPercent’ and ‘ERPDiscountAmount’ shall be filled out. If UserValueOverride is &apos;None&apos;, then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent.\n"
+  syntax:
+    content: public virtual double ERPDiscountAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property ERPDiscountAmount As Double
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountAmount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.DiscountPercent
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.DiscountPercent
+  id: DiscountPercent
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: DiscountPercent
+  nameWithType: QuoteAlternative.DiscountPercent
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.DiscountPercent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe discount the sales rep specifies, in percent. Both the two ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount percent value into this field. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public virtual double DiscountPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property DiscountPercent As Double
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.DiscountPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.DiscountAmount
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.DiscountAmount
+  id: DiscountAmount
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: DiscountAmount
+  nameWithType: QuoteAlternative.DiscountAmount
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.DiscountAmount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe discount the sales rep specifies, in whatever currency the sale is in. Both the two ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount amount value into this field.\n"
+  syntax:
+    content: public virtual double DiscountAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property DiscountAmount As Double
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.DiscountAmount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String
+  id: UserValueOverride_String
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: UserValueOverride_String
+  nameWithType: QuoteAlternative.UserValueOverride_String
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHas the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the discountPercent.)\nRaw string enum value.\n"
+  syntax:
+    content: public string UserValueOverride_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserValueOverride_String As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride
+    commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride
+  id: UserValueOverride
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: UserValueOverride
+  nameWithType: QuoteAlternative.UserValueOverride
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHas the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the discountPercent.)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ValueOverride> UserValueOverride { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ValueOverride}
+    content.vb: Public Property UserValueOverride As Nullable(Of ValueOverride)
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String
+    commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.VATInfo
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.VATInfo
+  id: VATInfo
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: VATInfo
+  nameWithType: QuoteAlternative.VATInfo
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.VATInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExtra info about VAT that the connector might insert. This field has no business logic in the CRM code, but is available as a merge field in the quote documents.\n"
+  syntax:
+    content: public virtual string VATInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property VATInfo As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.VATInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.VAT
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.VAT
+  id: VAT
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: VAT
+  nameWithType: QuoteAlternative.VAT
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.VAT
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTax/VAT - THIS IS AN AMOUNT, available as a merge field in the quote document. The SuperOffice quote connector will calculate this field based on the vat PERCENTAGES on the individual lines; other connectors may implement other algorithms at will.\n"
+  syntax:
+    content: public virtual double VAT { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property VAT As Double
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.VAT*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.EarningPercent
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.EarningPercent
+  id: EarningPercent
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: EarningPercent
+  nameWithType: QuoteAlternative.EarningPercent
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.EarningPercent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe earning on this alternative, in percent of total. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public virtual double EarningPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property EarningPercent As Double
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.EarningPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.EarningAmount
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.EarningAmount
+  id: EarningAmount
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: EarningAmount
+  nameWithType: QuoteAlternative.EarningAmount
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.EarningAmount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEarning on this alternative, as an absolute amount\n"
+  syntax:
+    content: public virtual double EarningAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property EarningAmount As Double
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.EarningAmount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.SubTotal
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.SubTotal
+  id: SubTotal
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: SubTotal
+  nameWithType: QuoteAlternative.SubTotal
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.SubTotal
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue to help the user interface, is computed by summing the totalprice of the quotelines, and NOT by summing their subtotals\n"
+  syntax:
+    content: public virtual double SubTotal { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property SubTotal As Double
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.SubTotal*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.TotalPrice
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.TotalPrice
+  id: TotalPrice
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: TotalPrice
+  nameWithType: QuoteAlternative.TotalPrice
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.TotalPrice
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSum of the QuoteLines.TotalPrice - AlternativeDiscount or QuoteLines.TotalCost + Earning based on what, if anything, the user has entered last. Shall be calculated by the connector.\n"
+  syntax:
+    content: public virtual double TotalPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property TotalPrice As Double
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.TotalPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField1
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.ExtraField1
+  id: ExtraField1
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: ExtraField1
+  nameWithType: QuoteAlternative.ExtraField1
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField1
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process\n"
+  syntax:
+    content: public virtual string ExtraField1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField1 As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField2
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.ExtraField2
+  id: ExtraField2
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: ExtraField2
+  nameWithType: QuoteAlternative.ExtraField2
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField2
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process\n"
+  syntax:
+    content: public virtual string ExtraField2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField2 As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField3
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.ExtraField3
+  id: ExtraField3
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: ExtraField3
+  nameWithType: QuoteAlternative.ExtraField3
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField3
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process\n"
+  syntax:
+    content: public virtual string ExtraField3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField3 As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField4
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.ExtraField4
+  id: ExtraField4
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: ExtraField4
+  nameWithType: QuoteAlternative.ExtraField4
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField4
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process\n"
+  syntax:
+    content: public virtual string ExtraField4 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField4 As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField4*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField5
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.ExtraField5
+  id: ExtraField5
+  parent: SuperOffice.WebApi.Data.QuoteAlternative
+  langs:
+  - csharp
+  - vb
+  name: ExtraField5
+  nameWithType: QuoteAlternative.ExtraField5
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField5
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process\n"
+  syntax:
+    content: public virtual string ExtraField5 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField5 As String
+  overload: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField5*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.#ctor
+  isExternal: true
+  name: QuoteAlternative
+  nameWithType: QuoteAlternative.QuoteAlternative
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.QuoteAlternative
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.QuoteAlternativeId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.QuoteAlternativeId
+  isExternal: true
+  name: QuoteAlternativeId
+  nameWithType: QuoteAlternative.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.QuoteAlternativeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ERPQuoteAlternativeKey*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.ERPQuoteAlternativeKey
+  isExternal: true
+  name: ERPQuoteAlternativeKey
+  nameWithType: QuoteAlternative.ERPQuoteAlternativeKey
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ERPQuoteAlternativeKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: QuoteAlternative.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.QuoteVersionId
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.Name
+  isExternal: true
+  name: Name
+  nameWithType: QuoteAlternative.Name
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.Name
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.Description
+  isExternal: true
+  name: Description
+  nameWithType: QuoteAlternative.Description
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.Description
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.Status_String
+  isExternal: true
+  name: Status_String
+  nameWithType: QuoteAlternative.Status_String
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.Status_String
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Status
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.Status
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.Status
+  isExternal: true
+  name: Status
+  nameWithType: QuoteAlternative.Status
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.Status
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Status_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.Status_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}'
+  definition: System.Nullable`1
+  name: Nullable<QuoteStatus>
+  nameWithType: Nullable<QuoteStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.QuoteStatus>
+  nameWithType.vb: Nullable(Of QuoteStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.QuoteStatus)
+  name.vb: Nullable(Of QuoteStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.QuoteStatus
+    name: QuoteStatus
+    nameWithType: QuoteStatus
+    fullName: SuperOffice.WebApi.Data.QuoteStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.QuoteStatus
+    name: QuoteStatus
+    nameWithType: QuoteStatus
+    fullName: SuperOffice.WebApi.Data.QuoteStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.Reason*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.Reason
+  isExternal: true
+  name: Reason
+  nameWithType: QuoteAlternative.Reason
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.Reason
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountPercent*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountPercent
+  isExternal: true
+  name: ERPDiscountPercent
+  nameWithType: QuoteAlternative.ERPDiscountPercent
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountPercent
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountAmount*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountAmount
+  isExternal: true
+  name: ERPDiscountAmount
+  nameWithType: QuoteAlternative.ERPDiscountAmount
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ERPDiscountAmount
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.DiscountPercent*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.DiscountPercent
+  isExternal: true
+  name: DiscountPercent
+  nameWithType: QuoteAlternative.DiscountPercent
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.DiscountPercent
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.DiscountAmount*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.DiscountAmount
+  isExternal: true
+  name: DiscountAmount
+  nameWithType: QuoteAlternative.DiscountAmount
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.DiscountAmount
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String
+  isExternal: true
+  name: UserValueOverride_String
+  nameWithType: QuoteAlternative.UserValueOverride_String
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride
+  isExternal: true
+  name: UserValueOverride
+  nameWithType: QuoteAlternative.UserValueOverride
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteAlternative.UserValueOverride_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ValueOverride}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ValueOverride}'
+  definition: System.Nullable`1
+  name: Nullable<ValueOverride>
+  nameWithType: Nullable<ValueOverride>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ValueOverride>
+  nameWithType.vb: Nullable(Of ValueOverride)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ValueOverride)
+  name.vb: Nullable(Of ValueOverride)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ValueOverride
+    name: ValueOverride
+    nameWithType: ValueOverride
+    fullName: SuperOffice.WebApi.Data.ValueOverride
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ValueOverride
+    name: ValueOverride
+    nameWithType: ValueOverride
+    fullName: SuperOffice.WebApi.Data.ValueOverride
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.VATInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.VATInfo
+  isExternal: true
+  name: VATInfo
+  nameWithType: QuoteAlternative.VATInfo
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.VATInfo
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.VAT*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.VAT
+  isExternal: true
+  name: VAT
+  nameWithType: QuoteAlternative.VAT
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.VAT
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.EarningPercent*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.EarningPercent
+  isExternal: true
+  name: EarningPercent
+  nameWithType: QuoteAlternative.EarningPercent
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.EarningPercent
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.EarningAmount*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.EarningAmount
+  isExternal: true
+  name: EarningAmount
+  nameWithType: QuoteAlternative.EarningAmount
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.EarningAmount
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.SubTotal*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.SubTotal
+  isExternal: true
+  name: SubTotal
+  nameWithType: QuoteAlternative.SubTotal
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.SubTotal
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.TotalPrice*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.TotalPrice
+  isExternal: true
+  name: TotalPrice
+  nameWithType: QuoteAlternative.TotalPrice
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.TotalPrice
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField1*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.ExtraField1
+  isExternal: true
+  name: ExtraField1
+  nameWithType: QuoteAlternative.ExtraField1
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField1
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField2*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.ExtraField2
+  isExternal: true
+  name: ExtraField2
+  nameWithType: QuoteAlternative.ExtraField2
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField2
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField3*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.ExtraField3
+  isExternal: true
+  name: ExtraField3
+  nameWithType: QuoteAlternative.ExtraField3
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField3
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField4*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.ExtraField4
+  isExternal: true
+  name: ExtraField4
+  nameWithType: QuoteAlternative.ExtraField4
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField4
+- uid: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField5*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteAlternative.ExtraField5
+  isExternal: true
+  name: ExtraField5
+  nameWithType: QuoteAlternative.ExtraField5
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative.ExtraField5

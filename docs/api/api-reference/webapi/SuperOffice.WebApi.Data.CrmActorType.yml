@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CrmActorType
+  commentId: T:SuperOffice.WebApi.Data.CrmActorType
+  id: CrmActorType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CrmActorType.Contact
+  - SuperOffice.WebApi.Data.CrmActorType.Person
+  - SuperOffice.WebApi.Data.CrmActorType.Project
+  - SuperOffice.WebApi.Data.CrmActorType.Sale
+  - SuperOffice.WebApi.Data.CrmActorType.Unknown
+  - SuperOffice.WebApi.Data.CrmActorType.value__
+  langs:
+  - csharp
+  - vb
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: SuperOffice.WebApi.Data.CrmActorType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActor type within the CRM, system, a subset of the SuperOffice Entity types\nThis Enum is used by:  ErpConnectionActorType.ActorTypeCrm\n"
+  syntax:
+    content: 'public sealed class CrmActorType : Enum'
+    content.vb: >-
+      Public NotInheritable Class CrmActorType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.CrmActorType.value__
+  commentId: F:SuperOffice.WebApi.Data.CrmActorType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.CrmActorType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CrmActorType.value__
+  fullName: SuperOffice.WebApi.Data.CrmActorType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CrmActorType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.CrmActorType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.CrmActorType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: CrmActorType.Unknown
+  fullName: SuperOffice.WebApi.Data.CrmActorType.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax:
+    content: public const CrmActorType Unknown
+    return:
+      type: SuperOffice.WebApi.Data.CrmActorType
+    content.vb: Public Const Unknown As CrmActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CrmActorType.Contact
+  commentId: F:SuperOffice.WebApi.Data.CrmActorType.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.CrmActorType
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: CrmActorType.Contact
+  fullName: SuperOffice.WebApi.Data.CrmActorType.Contact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Crm Customer\n"
+  syntax:
+    content: public const CrmActorType Contact
+    return:
+      type: SuperOffice.WebApi.Data.CrmActorType
+    content.vb: Public Const Contact As CrmActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CrmActorType.Person
+  commentId: F:SuperOffice.WebApi.Data.CrmActorType.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data.CrmActorType
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: CrmActorType.Person
+  fullName: SuperOffice.WebApi.Data.CrmActorType.Person
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Person\n"
+  syntax:
+    content: public const CrmActorType Person
+    return:
+      type: SuperOffice.WebApi.Data.CrmActorType
+    content.vb: Public Const Person As CrmActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CrmActorType.Project
+  commentId: F:SuperOffice.WebApi.Data.CrmActorType.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.CrmActorType
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: CrmActorType.Project
+  fullName: SuperOffice.WebApi.Data.CrmActorType.Project
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Project\n"
+  syntax:
+    content: public const CrmActorType Project
+    return:
+      type: SuperOffice.WebApi.Data.CrmActorType
+    content.vb: Public Const Project As CrmActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CrmActorType.Sale
+  commentId: F:SuperOffice.WebApi.Data.CrmActorType.Sale
+  id: Sale
+  parent: SuperOffice.WebApi.Data.CrmActorType
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: CrmActorType.Sale
+  fullName: SuperOffice.WebApi.Data.CrmActorType.Sale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Sale\n"
+  syntax:
+    content: public const CrmActorType Sale
+    return:
+      type: SuperOffice.WebApi.Data.CrmActorType
+    content.vb: Public Const Sale As CrmActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.CrmActorType
+  commentId: T:SuperOffice.WebApi.Data.CrmActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: SuperOffice.WebApi.Data.CrmActorType

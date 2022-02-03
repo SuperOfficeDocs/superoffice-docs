@@ -1,0 +1,697 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.HierarchyEntity
+  commentId: T:SuperOffice.WebApi.Data.HierarchyEntity
+  id: HierarchyEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.HierarchyEntity.#ctor
+  - SuperOffice.WebApi.Data.HierarchyEntity.Children
+  - SuperOffice.WebApi.Data.HierarchyEntity.Domain
+  - SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+  - SuperOffice.WebApi.Data.HierarchyEntity.Fullname
+  - SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId
+  - SuperOffice.WebApi.Data.HierarchyEntity.Name
+  - SuperOffice.WebApi.Data.HierarchyEntity.ParentId
+  - SuperOffice.WebApi.Data.HierarchyEntity.Registered
+  - SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId
+  - SuperOffice.WebApi.Data.HierarchyEntity.Updated
+  - SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId
+  langs:
+  - csharp
+  - vb
+  name: HierarchyEntity
+  nameWithType: HierarchyEntity
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for HierarchyEntity.\nFolder structures    \n"
+  example:
+  - "\nGet HierarchyEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar hierarchyEntity = agent.GetHierarchyEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class HierarchyEntity : Carrier'
+    content.vb: >-
+      Public Class HierarchyEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.HierarchyEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: HierarchyEntity()
+  nameWithType: HierarchyEntity.HierarchyEntity()
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public HierarchyEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId
+  id: HierarchyId
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: HierarchyId
+  nameWithType: HierarchyEntity.HierarchyId
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int HierarchyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HierarchyId As Integer
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+  id: Domain_String
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: Domain_String
+  nameWithType: HierarchyEntity.Domain_String
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDomain seperating the different hierarchy\nRaw string enum value.\n"
+  syntax:
+    content: public string Domain_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Domain_String As String
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.HierarchyEntity.Domain
+    commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain
+  id: Domain
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: HierarchyEntity.Domain
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDomain seperating the different hierarchy\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<Domain> Domain { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.Domain}
+    content.vb: Public Property Domain As Nullable(Of Domain)
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.Domain*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+    commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: HierarchyEntity.Name
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of this hierarchy folder.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Fullname
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Fullname
+  id: Fullname
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: Fullname
+  nameWithType: HierarchyEntity.Fullname
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Fullname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe full name of this category, i.e. Foo/bar/test.\n"
+  syntax:
+    content: public virtual string Fullname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Fullname As String
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.Fullname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.ParentId
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.ParentId
+  id: ParentId
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: HierarchyEntity.ParentId
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.ParentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nParent table\n"
+  syntax:
+    content: public virtual int ParentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ParentId As Integer
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.ParentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Children
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Children
+  id: Children
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: HierarchyEntity.Children
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Children
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSub-items, if any.\n"
+  syntax:
+    content: public virtual HierarchyEntity[] Children { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.HierarchyEntity[]
+    content.vb: Public Overridable Property Children As HierarchyEntity()
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.Children*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Registered
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: HierarchyEntity.Registered
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Registered
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As DateTime
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: HierarchyEntity.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered by whom\n"
+  syntax:
+    content: public virtual int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RegisteredAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Updated
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: HierarchyEntity.Updated
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Updated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As DateTime
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.WebApi.Data.HierarchyEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: HierarchyEntity.UpdatedAssociateId
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated by whom\n"
+  syntax:
+    content: public virtual int UpdatedAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UpdatedAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.#ctor
+  isExternal: true
+  name: HierarchyEntity
+  nameWithType: HierarchyEntity.HierarchyEntity
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyEntity
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId
+  isExternal: true
+  name: HierarchyId
+  nameWithType: HierarchyEntity.HierarchyId
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+  isExternal: true
+  name: Domain_String
+  nameWithType: HierarchyEntity.Domain_String
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: HierarchyEntity.Domain
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+  commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.Domain}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.Domain}'
+  definition: System.Nullable`1
+  name: Nullable<Domain>
+  nameWithType: Nullable<Domain>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.Domain>
+  nameWithType.vb: Nullable(Of Domain)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.Domain)
+  name.vb: Nullable(Of Domain)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Domain
+    name: Domain
+    nameWithType: Domain
+    fullName: SuperOffice.WebApi.Data.Domain
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Domain
+    name: Domain
+    nameWithType: Domain
+    fullName: SuperOffice.WebApi.Data.Domain
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: HierarchyEntity.Name
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Name
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Fullname*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Fullname
+  isExternal: true
+  name: Fullname
+  nameWithType: HierarchyEntity.Fullname
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Fullname
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.ParentId*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.ParentId
+  isExternal: true
+  name: ParentId
+  nameWithType: HierarchyEntity.ParentId
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.ParentId
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Children*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Children
+  isExternal: true
+  name: Children
+  nameWithType: HierarchyEntity.Children
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Children
+- uid: SuperOffice.WebApi.Data.HierarchyEntity[]
+  isExternal: true
+  name: HierarchyEntity[]
+  nameWithType: HierarchyEntity[]
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity[]
+  nameWithType.vb: HierarchyEntity()
+  fullName.vb: SuperOffice.WebApi.Data.HierarchyEntity()
+  name.vb: HierarchyEntity()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.HierarchyEntity
+    name: HierarchyEntity
+    nameWithType: HierarchyEntity
+    fullName: SuperOffice.WebApi.Data.HierarchyEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.HierarchyEntity
+    name: HierarchyEntity
+    nameWithType: HierarchyEntity
+    fullName: SuperOffice.WebApi.Data.HierarchyEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: HierarchyEntity.Registered
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Registered
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: HierarchyEntity.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: HierarchyEntity.Updated
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Updated
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: HierarchyEntity.UpdatedAssociateId
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId

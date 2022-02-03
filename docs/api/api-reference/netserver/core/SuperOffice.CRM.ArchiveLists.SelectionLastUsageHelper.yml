@@ -1,0 +1,509 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper
+  commentId: T:SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper
+  id: SelectionLastUsageHelper
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.IncrementMemberCount(System.Int32,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastLoaded(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastMembershipChange(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateTotalMemberCount(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: SelectionLastUsageHelper
+  nameWithType: SelectionLastUsageHelper
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nHelper class for Selections of all kinds, to save tracking information about loading, changes and member counts\n"
+  syntax:
+    content: public static class SelectionLastUsageHelper
+    content.vb: Public Module SelectionLastUsageHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastLoaded(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastLoaded(System.Int32)
+  id: UpdateLastLoaded(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateLastLoaded(Int32)
+  nameWithType: SelectionLastUsageHelper.UpdateLastLoaded(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastLoaded(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nUpdate the last-loaded information\n"
+  syntax:
+    content: public static void UpdateLastLoaded(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: 0 means &apos;no updates&apos;
+    content.vb: Public Shared Sub UpdateLastLoaded(selectionId As Integer)
+  overload: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastLoaded*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastMembershipChange(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastMembershipChange(System.Int32)
+  id: UpdateLastMembershipChange(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateLastMembershipChange(Int32)
+  nameWithType: SelectionLastUsageHelper.UpdateLastMembershipChange(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastMembershipChange(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nUpdate the last-changed information\n"
+  syntax:
+    content: public static void UpdateLastMembershipChange(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: 0 means &apos;no updates&apos;
+    content.vb: Public Shared Sub UpdateLastMembershipChange(selectionId As Integer)
+  overload: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastMembershipChange*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateTotalMemberCount(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateTotalMemberCount(System.Int32,System.Int32)
+  id: UpdateTotalMemberCount(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateTotalMemberCount(Int32, Int32)
+  nameWithType: SelectionLastUsageHelper.UpdateTotalMemberCount(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateTotalMemberCount(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nUpdate the membership count information; only call if you have actually read the selection to the bottom or otherwise know the true count\n"
+  syntax:
+    content: public static void UpdateTotalMemberCount(int selectionId, int totalMemberCount)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: 0 means &apos;no updates&apos;
+    - id: totalMemberCount
+      type: System.Int32
+      description: New total member count, -1 means &apos;no change&apos;
+    content.vb: Public Shared Sub UpdateTotalMemberCount(selectionId As Integer, totalMemberCount As Integer)
+  overload: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateTotalMemberCount*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.IncrementMemberCount(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.IncrementMemberCount(System.Int32,System.Int32)
+  id: IncrementMemberCount(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper
+  langs:
+  - csharp
+  - vb
+  name: IncrementMemberCount(Int32, Int32)
+  nameWithType: SelectionLastUsageHelper.IncrementMemberCount(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.IncrementMemberCount(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nUpdate the membership count information; only call if you have actually read the selection to the bottom or otherwise know the true count\n"
+  syntax:
+    content: public static void IncrementMemberCount(int selectionId, int increment)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: 0 means &apos;no updates&apos;
+    - id: increment
+      type: System.Int32
+      description: Change to member count; can be negative to record removal of members
+    content.vb: Public Shared Sub IncrementMemberCount(selectionId As Integer, increment As Integer)
+  overload: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.IncrementMemberCount*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastLoaded*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastLoaded
+  isExternal: true
+  name: UpdateLastLoaded
+  nameWithType: SelectionLastUsageHelper.UpdateLastLoaded
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastLoaded
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastMembershipChange*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastMembershipChange
+  isExternal: true
+  name: UpdateLastMembershipChange
+  nameWithType: SelectionLastUsageHelper.UpdateLastMembershipChange
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateLastMembershipChange
+- uid: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateTotalMemberCount*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateTotalMemberCount
+  isExternal: true
+  name: UpdateTotalMemberCount
+  nameWithType: SelectionLastUsageHelper.UpdateTotalMemberCount
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.UpdateTotalMemberCount
+- uid: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.IncrementMemberCount*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.IncrementMemberCount
+  isExternal: true
+  name: IncrementMemberCount
+  nameWithType: SelectionLastUsageHelper.IncrementMemberCount
+  fullName: SuperOffice.CRM.ArchiveLists.SelectionLastUsageHelper.IncrementMemberCount

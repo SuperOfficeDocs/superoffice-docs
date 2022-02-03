@@ -1,0 +1,1042 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  id: ErpSyncFieldMapping
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.#ctor
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.AlreadyMapped
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayName
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayTooltip
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmFieldKey
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayName
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayTooltip
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldId
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldKey
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.ListReference
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInCRM
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInERP
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInGui
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInSearch
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToCrm
+  - SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToErp
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncFieldMapping
+  nameWithType: ErpSyncFieldMapping
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ErpSyncFieldMapping.\nMapping information for one field pair (ERP &lt;-> SuperOffice)    \n"
+  syntax:
+    content: 'public class ErpSyncFieldMapping : Carrier'
+    content.vb: >-
+      Public Class ErpSyncFieldMapping
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
+    commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSyncFieldMapping.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncFieldMapping()
+  nameWithType: ErpSyncFieldMapping.ErpSyncFieldMapping()
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpSyncFieldMapping()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ErpSyncFieldMapping()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldId
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldId
+  id: ErpFieldId
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldId
+  nameWithType: ErpSyncFieldMapping.ErpFieldId
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ErpFieldId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErpFieldId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmFieldKey
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmFieldKey
+  id: CrmFieldKey
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: CrmFieldKey
+  nameWithType: ErpSyncFieldMapping.CrmFieldKey
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmFieldKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe CRM field name, as implemented by the Sync entities\n"
+  syntax:
+    content: public virtual string CrmFieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CrmFieldKey As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmFieldKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayName
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayName
+  id: CrmDisplayName
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: CrmDisplayName
+  nameWithType: ErpSyncFieldMapping.CrmDisplayName
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay name of CRM field; ignored on Save\n"
+  syntax:
+    content: public virtual string CrmDisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CrmDisplayName As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayTooltip
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayTooltip
+  id: CrmDisplayTooltip
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: CrmDisplayTooltip
+  nameWithType: ErpSyncFieldMapping.CrmDisplayTooltip
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayTooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip text for CRM field; ignored on Save\n"
+  syntax:
+    content: public virtual string CrmDisplayTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CrmDisplayTooltip As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldKey
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldKey
+  id: ErpFieldKey
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldKey
+  nameWithType: ErpSyncFieldMapping.ErpFieldKey
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe ERP field key\n"
+  syntax:
+    content: public virtual string ErpFieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErpFieldKey As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String
+  id: FieldType_String
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: FieldType_String
+  nameWithType: ErpSyncFieldMapping.FieldType_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nField type\nRaw string enum value.\n"
+  syntax:
+    content: public string FieldType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FieldType_String As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType
+  id: FieldType
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: ErpSyncFieldMapping.FieldType
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nField type\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<FieldMetadataType> FieldType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.FieldMetadataType}
+    content.vb: Public Property FieldType As Nullable(Of FieldMetadataType)
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayName
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayName
+  id: ErpDisplayName
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpDisplayName
+  nameWithType: ErpSyncFieldMapping.ErpDisplayName
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay name of ERP field; ignored on Save\n"
+  syntax:
+    content: public virtual string ErpDisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErpDisplayName As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayTooltip
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayTooltip
+  id: ErpDisplayTooltip
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpDisplayTooltip
+  nameWithType: ErpSyncFieldMapping.ErpDisplayTooltip
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayTooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip text for ERP field; ignored on Save\n"
+  syntax:
+    content: public virtual string ErpDisplayTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErpDisplayTooltip As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToCrm
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToCrm
+  id: SyncToCrm
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: SyncToCrm
+  nameWithType: ErpSyncFieldMapping.SyncToCrm
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToCrm
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould value changes in ERP be automatically transferred to CRM\n"
+  syntax:
+    content: public virtual bool SyncToCrm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SyncToCrm As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToCrm*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToErp
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToErp
+  id: SyncToErp
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: SyncToErp
+  nameWithType: ErpSyncFieldMapping.SyncToErp
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToErp
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould value changes in CRM be automatically transferred to ERP\n"
+  syntax:
+    content: public virtual bool SyncToErp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SyncToErp As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToErp*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInGui
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInGui
+  id: ShowInGui
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ShowInGui
+  nameWithType: ErpSyncFieldMapping.ShowInGui
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInGui
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould this field be shown as a (read-only!) field in the CRM Gui\n"
+  syntax:
+    content: public virtual bool ShowInGui { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowInGui As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInGui*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInSearch
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInSearch
+  id: ShowInSearch
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ShowInSearch
+  nameWithType: ErpSyncFieldMapping.ShowInSearch
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInSearch
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould this field be shown in searches\n"
+  syntax:
+    content: public virtual bool ShowInSearch { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowInSearch As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInSearch*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.AlreadyMapped
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.AlreadyMapped
+  id: AlreadyMapped
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: AlreadyMapped
+  nameWithType: ErpSyncFieldMapping.AlreadyMapped
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.AlreadyMapped
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this ERPField already mapped in some other connection? If so, then it cannot be one-way mapped TO SuperOffice here\n"
+  syntax:
+    content: public virtual bool AlreadyMapped { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property AlreadyMapped As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.AlreadyMapped*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInERP
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInERP
+  id: MissingInERP
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: MissingInERP
+  nameWithType: ErpSyncFieldMapping.MissingInERP
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInERP
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field existed previously, but now the connection no longer supports it. Probably not a good sign, unmap it...\n"
+  syntax:
+    content: public virtual bool MissingInERP { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property MissingInERP As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInERP*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInCRM
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInCRM
+  id: MissingInCRM
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: MissingInCRM
+  nameWithType: ErpSyncFieldMapping.MissingInCRM
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInCRM
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field existed previously, but now CRM no longer supports it (udef change?). Probably not a good sign, unmap it...\n"
+  syntax:
+    content: public virtual bool MissingInCRM { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property MissingInCRM As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInCRM*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String
+  id: Access_String
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: Access_String
+  nameWithType: ErpSyncFieldMapping.Access_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAccess restrictions for the field\nRaw string enum value.\n"
+  syntax:
+    content: public string Access_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Access_String As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access
+  id: Access
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: Access
+  nameWithType: ErpSyncFieldMapping.Access
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAccess restrictions for the field\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<FieldAccess> Access { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.FieldAccess}
+    content.vb: Public Property Access As Nullable(Of FieldAccess)
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ListReference
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ListReference
+  id: ListReference
+  parent: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ListReference
+  nameWithType: ErpSyncFieldMapping.ListReference
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ListReference
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nField is read-only, for lookup in gui\n"
+  syntax:
+    content: public virtual string ListReference { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ListReference As String
+  overload: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ListReference*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.#ctor
+  isExternal: true
+  name: ErpSyncFieldMapping
+  nameWithType: ErpSyncFieldMapping.ErpSyncFieldMapping
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpSyncFieldMapping
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldId
+  isExternal: true
+  name: ErpFieldId
+  nameWithType: ErpSyncFieldMapping.ErpFieldId
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmFieldKey*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmFieldKey
+  isExternal: true
+  name: CrmFieldKey
+  nameWithType: ErpSyncFieldMapping.CrmFieldKey
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmFieldKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayName
+  isExternal: true
+  name: CrmDisplayName
+  nameWithType: ErpSyncFieldMapping.CrmDisplayName
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayName
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayTooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayTooltip
+  isExternal: true
+  name: CrmDisplayTooltip
+  nameWithType: ErpSyncFieldMapping.CrmDisplayTooltip
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.CrmDisplayTooltip
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldKey*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldKey
+  isExternal: true
+  name: ErpFieldKey
+  nameWithType: ErpSyncFieldMapping.ErpFieldKey
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpFieldKey
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String
+  isExternal: true
+  name: FieldType_String
+  nameWithType: ErpSyncFieldMapping.FieldType_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: ErpSyncFieldMapping.FieldType
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.FieldType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.FieldMetadataType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.FieldMetadataType}'
+  definition: System.Nullable`1
+  name: Nullable<FieldMetadataType>
+  nameWithType: Nullable<FieldMetadataType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.FieldMetadataType>
+  nameWithType.vb: Nullable(Of FieldMetadataType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.FieldMetadataType)
+  name.vb: Nullable(Of FieldMetadataType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FieldMetadataType
+    name: FieldMetadataType
+    nameWithType: FieldMetadataType
+    fullName: SuperOffice.WebApi.Data.FieldMetadataType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FieldMetadataType
+    name: FieldMetadataType
+    nameWithType: FieldMetadataType
+    fullName: SuperOffice.WebApi.Data.FieldMetadataType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayName
+  isExternal: true
+  name: ErpDisplayName
+  nameWithType: ErpSyncFieldMapping.ErpDisplayName
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayName
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayTooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayTooltip
+  isExternal: true
+  name: ErpDisplayTooltip
+  nameWithType: ErpSyncFieldMapping.ErpDisplayTooltip
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ErpDisplayTooltip
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToCrm*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToCrm
+  isExternal: true
+  name: SyncToCrm
+  nameWithType: ErpSyncFieldMapping.SyncToCrm
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToCrm
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToErp*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToErp
+  isExternal: true
+  name: SyncToErp
+  nameWithType: ErpSyncFieldMapping.SyncToErp
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.SyncToErp
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInGui*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInGui
+  isExternal: true
+  name: ShowInGui
+  nameWithType: ErpSyncFieldMapping.ShowInGui
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInGui
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInSearch*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInSearch
+  isExternal: true
+  name: ShowInSearch
+  nameWithType: ErpSyncFieldMapping.ShowInSearch
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ShowInSearch
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.AlreadyMapped*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.AlreadyMapped
+  isExternal: true
+  name: AlreadyMapped
+  nameWithType: ErpSyncFieldMapping.AlreadyMapped
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.AlreadyMapped
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInERP*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInERP
+  isExternal: true
+  name: MissingInERP
+  nameWithType: ErpSyncFieldMapping.MissingInERP
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInERP
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInCRM*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInCRM
+  isExternal: true
+  name: MissingInCRM
+  nameWithType: ErpSyncFieldMapping.MissingInCRM
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.MissingInCRM
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String
+  isExternal: true
+  name: Access_String
+  nameWithType: ErpSyncFieldMapping.Access_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access
+  isExternal: true
+  name: Access
+  nameWithType: ErpSyncFieldMapping.Access
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncFieldMapping.Access_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.FieldAccess}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.FieldAccess}'
+  definition: System.Nullable`1
+  name: Nullable<FieldAccess>
+  nameWithType: Nullable<FieldAccess>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.FieldAccess>
+  nameWithType.vb: Nullable(Of FieldAccess)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.FieldAccess)
+  name.vb: Nullable(Of FieldAccess)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FieldAccess
+    name: FieldAccess
+    nameWithType: FieldAccess
+    fullName: SuperOffice.WebApi.Data.FieldAccess
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FieldAccess
+    name: FieldAccess
+    nameWithType: FieldAccess
+    fullName: SuperOffice.WebApi.Data.FieldAccess
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ListReference*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncFieldMapping.ListReference
+  isExternal: true
+  name: ListReference
+  nameWithType: ErpSyncFieldMapping.ListReference
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping.ListReference

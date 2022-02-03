@@ -1,0 +1,274 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.StatisticsDataSet
+  commentId: T:SuperOffice.WebApi.Data.StatisticsDataSet
+  id: StatisticsDataSet
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.StatisticsDataSet.#ctor
+  - SuperOffice.WebApi.Data.StatisticsDataSet.Description
+  - SuperOffice.WebApi.Data.StatisticsDataSet.Label
+  - SuperOffice.WebApi.Data.StatisticsDataSet.Values
+  langs:
+  - csharp
+  - vb
+  name: StatisticsDataSet
+  nameWithType: StatisticsDataSet
+  fullName: SuperOffice.WebApi.Data.StatisticsDataSet
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for StatisticsDataSet.\n\n"
+  syntax:
+    content: 'public class StatisticsDataSet : Carrier'
+    content.vb: >-
+      Public Class StatisticsDataSet
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.StatisticsDataSet.#ctor
+  commentId: M:SuperOffice.WebApi.Data.StatisticsDataSet.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.StatisticsDataSet
+  langs:
+  - csharp
+  - vb
+  name: StatisticsDataSet()
+  nameWithType: StatisticsDataSet.StatisticsDataSet()
+  fullName: SuperOffice.WebApi.Data.StatisticsDataSet.StatisticsDataSet()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public StatisticsDataSet()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.StatisticsDataSet.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.StatisticsDataSet.Label
+  commentId: P:SuperOffice.WebApi.Data.StatisticsDataSet.Label
+  id: Label
+  parent: SuperOffice.WebApi.Data.StatisticsDataSet
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: StatisticsDataSet.Label
+  fullName: SuperOffice.WebApi.Data.StatisticsDataSet.Label
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe label for the data set\n"
+  syntax:
+    content: public virtual string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Label As String
+  overload: SuperOffice.WebApi.Data.StatisticsDataSet.Label*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatisticsDataSet.Values
+  commentId: P:SuperOffice.WebApi.Data.StatisticsDataSet.Values
+  id: Values
+  parent: SuperOffice.WebApi.Data.StatisticsDataSet
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: StatisticsDataSet.Values
+  fullName: SuperOffice.WebApi.Data.StatisticsDataSet.Values
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValues in this set\n"
+  syntax:
+    content: public virtual StatisticsDataValue[] Values { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StatisticsDataValue[]
+    content.vb: Public Overridable Property Values As StatisticsDataValue()
+  overload: SuperOffice.WebApi.Data.StatisticsDataSet.Values*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatisticsDataSet.Description
+  commentId: P:SuperOffice.WebApi.Data.StatisticsDataSet.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.StatisticsDataSet
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: StatisticsDataSet.Description
+  fullName: SuperOffice.WebApi.Data.StatisticsDataSet.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip for data value\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.StatisticsDataSet.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.StatisticsDataSet.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.StatisticsDataSet.#ctor
+  isExternal: true
+  name: StatisticsDataSet
+  nameWithType: StatisticsDataSet.StatisticsDataSet
+  fullName: SuperOffice.WebApi.Data.StatisticsDataSet.StatisticsDataSet
+- uid: SuperOffice.WebApi.Data.StatisticsDataSet.Label*
+  commentId: Overload:SuperOffice.WebApi.Data.StatisticsDataSet.Label
+  isExternal: true
+  name: Label
+  nameWithType: StatisticsDataSet.Label
+  fullName: SuperOffice.WebApi.Data.StatisticsDataSet.Label
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.StatisticsDataSet.Values*
+  commentId: Overload:SuperOffice.WebApi.Data.StatisticsDataSet.Values
+  isExternal: true
+  name: Values
+  nameWithType: StatisticsDataSet.Values
+  fullName: SuperOffice.WebApi.Data.StatisticsDataSet.Values
+- uid: SuperOffice.WebApi.Data.StatisticsDataValue[]
+  isExternal: true
+  name: StatisticsDataValue[]
+  nameWithType: StatisticsDataValue[]
+  fullName: SuperOffice.WebApi.Data.StatisticsDataValue[]
+  nameWithType.vb: StatisticsDataValue()
+  fullName.vb: SuperOffice.WebApi.Data.StatisticsDataValue()
+  name.vb: StatisticsDataValue()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.StatisticsDataValue
+    name: StatisticsDataValue
+    nameWithType: StatisticsDataValue
+    fullName: SuperOffice.WebApi.Data.StatisticsDataValue
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.StatisticsDataValue
+    name: StatisticsDataValue
+    nameWithType: StatisticsDataValue
+    fullName: SuperOffice.WebApi.Data.StatisticsDataValue
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.StatisticsDataSet.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.StatisticsDataSet.Description
+  isExternal: true
+  name: Description
+  nameWithType: StatisticsDataSet.Description
+  fullName: SuperOffice.WebApi.Data.StatisticsDataSet.Description

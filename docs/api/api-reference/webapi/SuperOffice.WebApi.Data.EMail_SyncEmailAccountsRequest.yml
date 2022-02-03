@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest
+  id: EMail_SyncEmailAccountsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.SyncUserAccounts
+  langs:
+  - csharp
+  - vb
+  name: EMail_SyncEmailAccountsRequest
+  nameWithType: EMail_SyncEmailAccountsRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_SyncEmailAccountsRequest : Object'
+    content.vb: >-
+      Public Class EMail_SyncEmailAccountsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_SyncEmailAccountsRequest()
+  nameWithType: EMail_SyncEmailAccountsRequest.EMail_SyncEmailAccountsRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.EMail_SyncEmailAccountsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_SyncEmailAccountsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.SyncUserAccounts
+  commentId: P:SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.SyncUserAccounts
+  id: SyncUserAccounts
+  parent: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest
+  langs:
+  - csharp
+  - vb
+  name: SyncUserAccounts
+  nameWithType: EMail_SyncEmailAccountsRequest.SyncUserAccounts
+  fullName: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.SyncUserAccounts
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public SyncUserAccount[] SyncUserAccounts { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SyncUserAccount[]
+    content.vb: Public Property SyncUserAccounts As SyncUserAccount()
+  overload: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.SyncUserAccounts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.#ctor
+  isExternal: true
+  name: EMail_SyncEmailAccountsRequest
+  nameWithType: EMail_SyncEmailAccountsRequest.EMail_SyncEmailAccountsRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.EMail_SyncEmailAccountsRequest
+- uid: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.SyncUserAccounts*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.SyncUserAccounts
+  isExternal: true
+  name: SyncUserAccounts
+  nameWithType: EMail_SyncEmailAccountsRequest.SyncUserAccounts
+  fullName: SuperOffice.WebApi.Data.EMail_SyncEmailAccountsRequest.SyncUserAccounts
+- uid: SuperOffice.WebApi.Data.SyncUserAccount[]
+  isExternal: true
+  name: SyncUserAccount[]
+  nameWithType: SyncUserAccount[]
+  fullName: SuperOffice.WebApi.Data.SyncUserAccount[]
+  nameWithType.vb: SyncUserAccount()
+  fullName.vb: SuperOffice.WebApi.Data.SyncUserAccount()
+  name.vb: SyncUserAccount()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.SyncUserAccount
+    name: SyncUserAccount
+    nameWithType: SyncUserAccount
+    fullName: SuperOffice.WebApi.Data.SyncUserAccount
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.SyncUserAccount
+    name: SyncUserAccount
+    nameWithType: SyncUserAccount
+    fullName: SuperOffice.WebApi.Data.SyncUserAccount
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,773 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.AuthorizationAccessToken
+  commentId: T:SuperOffice.WebApi.AuthorizationAccessToken
+  id: AuthorizationAccessToken
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.AuthorizationAccessToken.#ctor(System.String,SuperOffice.WebApi.Data.OnlineEnvironment)
+  - SuperOffice.WebApi.AuthorizationAccessToken.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.Data.OnlineEnvironment)
+  - SuperOffice.WebApi.AuthorizationAccessToken.AccessToken
+  - SuperOffice.WebApi.AuthorizationAccessToken.ClientId
+  - SuperOffice.WebApi.AuthorizationAccessToken.ClientSecret
+  - SuperOffice.WebApi.AuthorizationAccessToken.Environment
+  - SuperOffice.WebApi.AuthorizationAccessToken.GetAuthorization
+  - SuperOffice.WebApi.AuthorizationAccessToken.IdToken
+  - SuperOffice.WebApi.AuthorizationAccessToken.RedirectUrl
+  - SuperOffice.WebApi.AuthorizationAccessToken.RefreshAuthorization
+  - SuperOffice.WebApi.AuthorizationAccessToken.RefreshToken
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationAccessToken
+  nameWithType: AuthorizationAccessToken
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nOAuth 2.0 access token (and refresh token) <xref href=\"SuperOffice.WebApi.IAuthorization\" data-throw-if-not-resolved=\"false\"></xref>. \nWith a refresh token, AppToken and AppSecret defined we can automatically \nrefresh access token on expiry.\n"
+  syntax:
+    content: 'public class AuthorizationAccessToken : Object, IAuthorization'
+    content.vb: >-
+      Public Class AuthorizationAccessToken
+          Inherits Object
+          Implements IAuthorization
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.WebApi.IAuthorization
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.#ctor(System.String,SuperOffice.WebApi.Data.OnlineEnvironment)
+  commentId: M:SuperOffice.WebApi.AuthorizationAccessToken.#ctor(System.String,SuperOffice.WebApi.Data.OnlineEnvironment)
+  id: '#ctor(System.String,SuperOffice.WebApi.Data.OnlineEnvironment)'
+  parent: SuperOffice.WebApi.AuthorizationAccessToken
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationAccessToken(String, OnlineEnvironment)
+  nameWithType: AuthorizationAccessToken.AuthorizationAccessToken(String, OnlineEnvironment)
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.AuthorizationAccessToken(System.String, SuperOffice.WebApi.Data.OnlineEnvironment)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nAccessTokenAuthorization Constructor\n"
+  syntax:
+    content: public AuthorizationAccessToken(string accessToken, OnlineEnvironment environment)
+    parameters:
+    - id: accessToken
+      type: System.String
+      description: An OAuth 2.0 access_token.
+    - id: environment
+      type: SuperOffice.WebApi.Data.OnlineEnvironment
+      description: Determines CRM online environment, i.e. SOD, Stage or Production.
+    content.vb: Public Sub New(accessToken As String, environment As OnlineEnvironment)
+  overload: SuperOffice.WebApi.AuthorizationAccessToken.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.Data.OnlineEnvironment)
+  commentId: M:SuperOffice.WebApi.AuthorizationAccessToken.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.Data.OnlineEnvironment)
+  id: '#ctor(System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.Data.OnlineEnvironment)'
+  parent: SuperOffice.WebApi.AuthorizationAccessToken
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationAccessToken(String, String, String, String, String, String, OnlineEnvironment)
+  nameWithType: AuthorizationAccessToken.AuthorizationAccessToken(String, String, String, String, String, String, OnlineEnvironment)
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.AuthorizationAccessToken(System.String, System.String, System.String, System.String, System.String, System.String, SuperOffice.WebApi.Data.OnlineEnvironment)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nAccessTokenAuthorization Constructor. This will set up automatic refreshing of access tokens.\n"
+  syntax:
+    content: public AuthorizationAccessToken(string accessToken, string idToken, string refreshToken, string clientId, string clientSecret, string redirectUrl, OnlineEnvironment environment)
+    parameters:
+    - id: accessToken
+      type: System.String
+      description: An OAuth 2.0 access_token.
+    - id: idToken
+      type: System.String
+      description: An OAuth 2.0 id_token.
+    - id: refreshToken
+      type: System.String
+      description: Refresh token that can be used to get a new access token.
+    - id: clientId
+      type: System.String
+      description: Application identifier, equal to OAuth client_id.
+    - id: clientSecret
+      type: System.String
+      description: Application Secret, equal to Oauth client_secret.
+    - id: redirectUrl
+      type: System.String
+      description: Redirect URL registered to your app
+    - id: environment
+      type: SuperOffice.WebApi.Data.OnlineEnvironment
+      description: Determines CRM online environment, i.e. SOD, Stage or Production.
+    content.vb: Public Sub New(accessToken As String, idToken As String, refreshToken As String, clientId As String, clientSecret As String, redirectUrl As String, environment As OnlineEnvironment)
+  overload: SuperOffice.WebApi.AuthorizationAccessToken.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.GetAuthorization
+  commentId: M:SuperOffice.WebApi.AuthorizationAccessToken.GetAuthorization
+  id: GetAuthorization
+  parent: SuperOffice.WebApi.AuthorizationAccessToken
+  langs:
+  - csharp
+  - vb
+  name: GetAuthorization()
+  nameWithType: AuthorizationAccessToken.GetAuthorization()
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.GetAuthorization()
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nGets a tuple that represents authorization scheme and parameter.\n"
+  syntax:
+    content: public ValueTuple<string, string> GetAuthorization()
+    return:
+      type: System.ValueTuple{System.String,System.String}
+      description: Gets a <xref href="System.Tuple%602" data-throw-if-not-resolved="false"></xref> (string,string) where scheme is Bearer and parameter is the access token.
+    content.vb: Public Function GetAuthorization As ValueTuple(Of String, String)
+  overload: SuperOffice.WebApi.AuthorizationAccessToken.GetAuthorization*
+  implements:
+  - SuperOffice.WebApi.IAuthorization.GetAuthorization
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.AccessToken
+  commentId: P:SuperOffice.WebApi.AuthorizationAccessToken.AccessToken
+  id: AccessToken
+  parent: SuperOffice.WebApi.AuthorizationAccessToken
+  langs:
+  - csharp
+  - vb
+  name: AccessToken
+  nameWithType: AuthorizationAccessToken.AccessToken
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.AccessToken
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nOAuth access_token value.\n"
+  syntax:
+    content: public string AccessToken { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property AccessToken As String
+  overload: SuperOffice.WebApi.AuthorizationAccessToken.AccessToken*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.IdToken
+  commentId: P:SuperOffice.WebApi.AuthorizationAccessToken.IdToken
+  id: IdToken
+  parent: SuperOffice.WebApi.AuthorizationAccessToken
+  langs:
+  - csharp
+  - vb
+  name: IdToken
+  nameWithType: AuthorizationAccessToken.IdToken
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.IdToken
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nOAuth id_token value.\n"
+  syntax:
+    content: public string IdToken { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property IdToken As String
+  overload: SuperOffice.WebApi.AuthorizationAccessToken.IdToken*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.RefreshToken
+  commentId: P:SuperOffice.WebApi.AuthorizationAccessToken.RefreshToken
+  id: RefreshToken
+  parent: SuperOffice.WebApi.AuthorizationAccessToken
+  langs:
+  - csharp
+  - vb
+  name: RefreshToken
+  nameWithType: AuthorizationAccessToken.RefreshToken
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.RefreshToken
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nOAuth refresh_token value.\n"
+  syntax:
+    content: public string RefreshToken { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property RefreshToken As String
+  overload: SuperOffice.WebApi.AuthorizationAccessToken.RefreshToken*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.ClientId
+  commentId: P:SuperOffice.WebApi.AuthorizationAccessToken.ClientId
+  id: ClientId
+  parent: SuperOffice.WebApi.AuthorizationAccessToken
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: AuthorizationAccessToken.ClientId
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.ClientId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nOAuth client_id value.\n"
+  syntax:
+    content: public string ClientId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ClientId As String
+  overload: SuperOffice.WebApi.AuthorizationAccessToken.ClientId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.ClientSecret
+  commentId: P:SuperOffice.WebApi.AuthorizationAccessToken.ClientSecret
+  id: ClientSecret
+  parent: SuperOffice.WebApi.AuthorizationAccessToken
+  langs:
+  - csharp
+  - vb
+  name: ClientSecret
+  nameWithType: AuthorizationAccessToken.ClientSecret
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.ClientSecret
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nOAuth client_secret value.\n"
+  syntax:
+    content: public string ClientSecret { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ClientSecret As String
+  overload: SuperOffice.WebApi.AuthorizationAccessToken.ClientSecret*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.RedirectUrl
+  commentId: P:SuperOffice.WebApi.AuthorizationAccessToken.RedirectUrl
+  id: RedirectUrl
+  parent: SuperOffice.WebApi.AuthorizationAccessToken
+  langs:
+  - csharp
+  - vb
+  name: RedirectUrl
+  nameWithType: AuthorizationAccessToken.RedirectUrl
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.RedirectUrl
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nOAuth redirect_uri value.\n"
+  syntax:
+    content: public string RedirectUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property RedirectUrl As String
+  overload: SuperOffice.WebApi.AuthorizationAccessToken.RedirectUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.Environment
+  commentId: P:SuperOffice.WebApi.AuthorizationAccessToken.Environment
+  id: Environment
+  parent: SuperOffice.WebApi.AuthorizationAccessToken
+  langs:
+  - csharp
+  - vb
+  name: Environment
+  nameWithType: AuthorizationAccessToken.Environment
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.Environment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nSuperOffice CRM Online environment; SOD, Stage, Production.\n"
+  syntax:
+    content: public OnlineEnvironment Environment { get; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.OnlineEnvironment
+    content.vb: Public ReadOnly Property Environment As OnlineEnvironment
+  overload: SuperOffice.WebApi.AuthorizationAccessToken.Environment*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.RefreshAuthorization
+  commentId: P:SuperOffice.WebApi.AuthorizationAccessToken.RefreshAuthorization
+  id: RefreshAuthorization
+  parent: SuperOffice.WebApi.AuthorizationAccessToken
+  langs:
+  - csharp
+  - vb
+  name: RefreshAuthorization
+  nameWithType: AuthorizationAccessToken.RefreshAuthorization
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.RefreshAuthorization
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nTry to refresh this <xref href=\"SuperOffice.WebApi.IAuthorization\" data-throw-if-not-resolved=\"false\"></xref> instance.\n"
+  syntax:
+    content: public Func<ReAuthorizationArgs, IAuthorization> RefreshAuthorization { get; set; }
+    parameters: []
+    return:
+      type: System.Func{SuperOffice.WebApi.ReAuthorizationArgs,SuperOffice.WebApi.IAuthorization}
+    content.vb: Public Property RefreshAuthorization As Func(Of ReAuthorizationArgs, IAuthorization)
+  overload: SuperOffice.WebApi.AuthorizationAccessToken.RefreshAuthorization*
+  implements:
+  - SuperOffice.WebApi.IAuthorization.RefreshAuthorization
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.IAuthorization
+  commentId: T:SuperOffice.WebApi.IAuthorization
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: IAuthorization
+  nameWithType: IAuthorization
+  fullName: SuperOffice.WebApi.IAuthorization
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.#ctor*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationAccessToken.#ctor
+  isExternal: true
+  name: AuthorizationAccessToken
+  nameWithType: AuthorizationAccessToken.AuthorizationAccessToken
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.AuthorizationAccessToken
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.OnlineEnvironment
+  commentId: T:SuperOffice.WebApi.Data.OnlineEnvironment
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: OnlineEnvironment
+  nameWithType: OnlineEnvironment
+  fullName: SuperOffice.WebApi.Data.OnlineEnvironment
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.GetAuthorization*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationAccessToken.GetAuthorization
+  isExternal: true
+  name: GetAuthorization
+  nameWithType: AuthorizationAccessToken.GetAuthorization
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.GetAuthorization
+- uid: SuperOffice.WebApi.IAuthorization.GetAuthorization
+  commentId: M:SuperOffice.WebApi.IAuthorization.GetAuthorization
+  parent: SuperOffice.WebApi.IAuthorization
+  isExternal: true
+  name: GetAuthorization()
+  nameWithType: IAuthorization.GetAuthorization()
+  fullName: SuperOffice.WebApi.IAuthorization.GetAuthorization()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.IAuthorization.GetAuthorization
+    name: GetAuthorization
+    nameWithType: IAuthorization.GetAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization.GetAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.IAuthorization.GetAuthorization
+    name: GetAuthorization
+    nameWithType: IAuthorization.GetAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization.GetAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple{System.String,System.String}
+  commentId: '!:System.ValueTuple{System.String,System.String}'
+  definition: System.ValueTuple`2
+  name: ValueTuple<String, String>
+  nameWithType: ValueTuple<String, String>
+  fullName: System.ValueTuple<System.String, System.String>
+  nameWithType.vb: ValueTuple(Of String, String)
+  fullName.vb: System.ValueTuple(Of System.String, System.String)
+  name.vb: ValueTuple(Of String, String)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple`2
+  isExternal: true
+  name: ValueTuple<, >
+  nameWithType: ValueTuple<, >
+  fullName: System.ValueTuple<, >
+  nameWithType.vb: ValueTuple(Of , )
+  fullName.vb: System.ValueTuple(Of , )
+  name.vb: ValueTuple(Of , )
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.AccessToken*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationAccessToken.AccessToken
+  isExternal: true
+  name: AccessToken
+  nameWithType: AuthorizationAccessToken.AccessToken
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.AccessToken
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.IdToken*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationAccessToken.IdToken
+  isExternal: true
+  name: IdToken
+  nameWithType: AuthorizationAccessToken.IdToken
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.IdToken
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.RefreshToken*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationAccessToken.RefreshToken
+  isExternal: true
+  name: RefreshToken
+  nameWithType: AuthorizationAccessToken.RefreshToken
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.RefreshToken
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.ClientId*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationAccessToken.ClientId
+  isExternal: true
+  name: ClientId
+  nameWithType: AuthorizationAccessToken.ClientId
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.ClientId
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.ClientSecret*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationAccessToken.ClientSecret
+  isExternal: true
+  name: ClientSecret
+  nameWithType: AuthorizationAccessToken.ClientSecret
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.ClientSecret
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.RedirectUrl*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationAccessToken.RedirectUrl
+  isExternal: true
+  name: RedirectUrl
+  nameWithType: AuthorizationAccessToken.RedirectUrl
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.RedirectUrl
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.Environment*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationAccessToken.Environment
+  isExternal: true
+  name: Environment
+  nameWithType: AuthorizationAccessToken.Environment
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.Environment
+- uid: SuperOffice.WebApi.AuthorizationAccessToken.RefreshAuthorization*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationAccessToken.RefreshAuthorization
+  isExternal: true
+  name: RefreshAuthorization
+  nameWithType: AuthorizationAccessToken.RefreshAuthorization
+  fullName: SuperOffice.WebApi.AuthorizationAccessToken.RefreshAuthorization
+- uid: SuperOffice.WebApi.IAuthorization.RefreshAuthorization
+  commentId: P:SuperOffice.WebApi.IAuthorization.RefreshAuthorization
+  parent: SuperOffice.WebApi.IAuthorization
+  isExternal: true
+  name: RefreshAuthorization
+  nameWithType: IAuthorization.RefreshAuthorization
+  fullName: SuperOffice.WebApi.IAuthorization.RefreshAuthorization
+- uid: System.Func{SuperOffice.WebApi.ReAuthorizationArgs,SuperOffice.WebApi.IAuthorization}
+  commentId: '!:System.Func{SuperOffice.WebApi.ReAuthorizationArgs,SuperOffice.WebApi.IAuthorization}'
+  definition: System.Func`2
+  name: Func<ReAuthorizationArgs, IAuthorization>
+  nameWithType: Func<ReAuthorizationArgs, IAuthorization>
+  fullName: System.Func<SuperOffice.WebApi.ReAuthorizationArgs, SuperOffice.WebApi.IAuthorization>
+  nameWithType.vb: Func(Of ReAuthorizationArgs, IAuthorization)
+  fullName.vb: System.Func(Of SuperOffice.WebApi.ReAuthorizationArgs, SuperOffice.WebApi.IAuthorization)
+  name.vb: Func(Of ReAuthorizationArgs, IAuthorization)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.ReAuthorizationArgs
+    name: ReAuthorizationArgs
+    nameWithType: ReAuthorizationArgs
+    fullName: SuperOffice.WebApi.ReAuthorizationArgs
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.ReAuthorizationArgs
+    name: ReAuthorizationArgs
+    nameWithType: ReAuthorizationArgs
+    fullName: SuperOffice.WebApi.ReAuthorizationArgs
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

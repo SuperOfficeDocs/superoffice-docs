@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+  id: UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.#ctor
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.Info
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+  nameWithType: UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest : Object'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest()
+  nameWithType: UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.Info
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.Info
+  id: Info
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.Info
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.Info
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo Info { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+    content.vb: Public Property Info As UserDefinedFieldInfo
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.Info*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+  nameWithType: UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.Info*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.Info
+  isExternal: true
+  name: Info
+  nameWithType: UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.Info
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_FigureOutListIdFromListTableIdAndUDListDefinitionIdRequest.Info
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UserDefinedFieldInfo
+  nameWithType: UserDefinedFieldInfo
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  id: SoDateRange.RangeFlags
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Day
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Month
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.None
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Year
+  langs:
+  - csharp
+  - vb
+  name: SoDateRange.RangeFlags
+  nameWithType: SoDateRange.RangeFlags
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum RangeFlags
+    content.vb: Public Enum RangeFlags
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.None
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.None
+  id: None
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: SoDateRange.RangeFlags.None
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.None
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Year
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Year
+  id: Year
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: SoDateRange.RangeFlags.Year
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Year
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Year = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Month
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Month
+  id: Month
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: SoDateRange.RangeFlags.Month
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Month
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Month = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Day
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Day
+  id: Day
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: SoDateRange.RangeFlags.Day
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags.Day
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Day = 4
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoDateRange.RangeFlags
+  nameWithType: SoDateRange.RangeFlags
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags

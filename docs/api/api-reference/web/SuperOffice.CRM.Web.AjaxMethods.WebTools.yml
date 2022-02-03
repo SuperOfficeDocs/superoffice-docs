@@ -1,0 +1,518 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.WebTools
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.WebTools
+  id: WebTools
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.WebTools.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.WebTools.GetConnectedClients
+  - SuperOffice.CRM.Web.AjaxMethods.WebTools.GetWebtoolsInstallationParams(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: WebTools
+  nameWithType: WebTools
+  fullName: SuperOffice.CRM.Web.AjaxMethods.WebTools
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("WebTools")]
+
+      public class WebTools : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("WebTools")>
+
+      Public Class WebTools
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: WebTools
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.WebTools.GetConnectedClients
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.WebTools.GetConnectedClients
+  id: GetConnectedClients
+  parent: SuperOffice.CRM.Web.AjaxMethods.WebTools
+  langs:
+  - csharp
+  - vb
+  name: GetConnectedClients()
+  nameWithType: WebTools.GetConnectedClients()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.WebTools.GetConnectedClients()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoAjaxMethod(SoAjaxMethodType.ThreatErrorAsWarning)]
+
+      public WebToolsClientReport GetConnectedClients()
+    return:
+      type: SuperOffice.WebTools.Server.WebToolsClientReport
+    content.vb: >-
+      <SoAjaxMethod(SoAjaxMethodType.ThreatErrorAsWarning)>
+
+      Public Function GetConnectedClients As WebToolsClientReport
+  overload: SuperOffice.CRM.Web.AjaxMethods.WebTools.GetConnectedClients*
+  attributes:
+  - type: SuperOffice.DCF.Web.SoAjaxMethodAttribute
+    ctor: SuperOffice.DCF.Web.SoAjaxMethodAttribute.#ctor(SuperOffice.DCF.Web.SoAjaxMethodType)
+    arguments:
+    - type: SuperOffice.DCF.Web.SoAjaxMethodType
+      value: 2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.WebTools.GetWebtoolsInstallationParams(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.WebTools.GetWebtoolsInstallationParams(System.Boolean)
+  id: GetWebtoolsInstallationParams(System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.WebTools
+  langs:
+  - csharp
+  - vb
+  name: GetWebtoolsInstallationParams(Boolean)
+  nameWithType: WebTools.GetWebtoolsInstallationParams(Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.WebTools.GetWebtoolsInstallationParams(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoAjaxMethod(SoAjaxMethodType.ThreatErrorAsWarning)]
+
+      public WebToolsInstallationInfo GetWebtoolsInstallationParams(bool forceDialog)
+    parameters:
+    - id: forceDialog
+      type: System.Boolean
+    return:
+      type: SuperOffice.WebTools.AspNet.WebToolsInstallationInfo
+    content.vb: >-
+      <SoAjaxMethod(SoAjaxMethodType.ThreatErrorAsWarning)>
+
+      Public Function GetWebtoolsInstallationParams(forceDialog As Boolean) As WebToolsInstallationInfo
+  overload: SuperOffice.CRM.Web.AjaxMethods.WebTools.GetWebtoolsInstallationParams*
+  attributes:
+  - type: SuperOffice.DCF.Web.SoAjaxMethodAttribute
+    ctor: SuperOffice.DCF.Web.SoAjaxMethodAttribute.#ctor(SuperOffice.DCF.Web.SoAjaxMethodType)
+    arguments:
+    - type: SuperOffice.DCF.Web.SoAjaxMethodType
+      value: 2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.WebTools.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.WebTools.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.WebTools
+  langs:
+  - csharp
+  - vb
+  name: WebTools()
+  nameWithType: WebTools.WebTools()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.WebTools.WebTools()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public WebTools()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.WebTools.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.WebTools.GetConnectedClients*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.WebTools.GetConnectedClients
+  isExternal: true
+  name: GetConnectedClients
+  nameWithType: WebTools.GetConnectedClients
+  fullName: SuperOffice.CRM.Web.AjaxMethods.WebTools.GetConnectedClients
+- uid: SuperOffice.WebTools.Server.WebToolsClientReport
+  commentId: '!:SuperOffice.WebTools.Server.WebToolsClientReport'
+  isExternal: true
+  name: WebToolsClientReport
+  nameWithType: WebToolsClientReport
+  fullName: SuperOffice.WebTools.Server.WebToolsClientReport
+- uid: SuperOffice.CRM.Web.AjaxMethods.WebTools.GetWebtoolsInstallationParams*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.WebTools.GetWebtoolsInstallationParams
+  isExternal: true
+  name: GetWebtoolsInstallationParams
+  nameWithType: WebTools.GetWebtoolsInstallationParams
+  fullName: SuperOffice.CRM.Web.AjaxMethods.WebTools.GetWebtoolsInstallationParams
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebTools.AspNet.WebToolsInstallationInfo
+  commentId: '!:SuperOffice.WebTools.AspNet.WebToolsInstallationInfo'
+  isExternal: true
+  name: WebToolsInstallationInfo
+  nameWithType: WebToolsInstallationInfo
+  fullName: SuperOffice.WebTools.AspNet.WebToolsInstallationInfo
+- uid: SuperOffice.CRM.Web.AjaxMethods.WebTools.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.WebTools.#ctor
+  isExternal: true
+  name: WebTools
+  nameWithType: WebTools.WebTools
+  fullName: SuperOffice.CRM.Web.AjaxMethods.WebTools.WebTools

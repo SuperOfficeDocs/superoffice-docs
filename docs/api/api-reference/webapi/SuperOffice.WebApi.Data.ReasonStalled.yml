@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ReasonStalled
+  commentId: T:SuperOffice.WebApi.Data.ReasonStalled
+  id: ReasonStalled
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ReasonStalled.#ctor
+  - SuperOffice.WebApi.Data.ReasonStalled.Id
+  - SuperOffice.WebApi.Data.ReasonStalled.Tooltip
+  - SuperOffice.WebApi.Data.ReasonStalled.Value
+  langs:
+  - csharp
+  - vb
+  name: ReasonStalled
+  nameWithType: ReasonStalled
+  fullName: SuperOffice.WebApi.Data.ReasonStalled
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ReasonStalled.\n\n"
+  example:
+  - "\nGet ReasonStalled 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar reasonStalled = agent.GetReasonStalled( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ReasonStalled : Carrier'
+    content.vb: >-
+      Public Class ReasonStalled
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ReasonStalled.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ReasonStalled.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ReasonStalled
+  langs:
+  - csharp
+  - vb
+  name: ReasonStalled()
+  nameWithType: ReasonStalled.ReasonStalled()
+  fullName: SuperOffice.WebApi.Data.ReasonStalled.ReasonStalled()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ReasonStalled()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ReasonStalled.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReasonStalled.Id
+  commentId: P:SuperOffice.WebApi.Data.ReasonStalled.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.ReasonStalled
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ReasonStalled.Id
+  fullName: SuperOffice.WebApi.Data.ReasonStalled.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Id\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.ReasonStalled.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReasonStalled.Value
+  commentId: P:SuperOffice.WebApi.Data.ReasonStalled.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.ReasonStalled
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ReasonStalled.Value
+  fullName: SuperOffice.WebApi.Data.ReasonStalled.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Value\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.ReasonStalled.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReasonStalled.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.ReasonStalled.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.ReasonStalled
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: ReasonStalled.Tooltip
+  fullName: SuperOffice.WebApi.Data.ReasonStalled.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Tooltip\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.ReasonStalled.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ReasonStalled.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ReasonStalled.#ctor
+  isExternal: true
+  name: ReasonStalled
+  nameWithType: ReasonStalled.ReasonStalled
+  fullName: SuperOffice.WebApi.Data.ReasonStalled.ReasonStalled
+- uid: SuperOffice.WebApi.Data.ReasonStalled.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.ReasonStalled.Id
+  isExternal: true
+  name: Id
+  nameWithType: ReasonStalled.Id
+  fullName: SuperOffice.WebApi.Data.ReasonStalled.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ReasonStalled.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.ReasonStalled.Value
+  isExternal: true
+  name: Value
+  nameWithType: ReasonStalled.Value
+  fullName: SuperOffice.WebApi.Data.ReasonStalled.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ReasonStalled.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.ReasonStalled.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: ReasonStalled.Tooltip
+  fullName: SuperOffice.WebApi.Data.ReasonStalled.Tooltip

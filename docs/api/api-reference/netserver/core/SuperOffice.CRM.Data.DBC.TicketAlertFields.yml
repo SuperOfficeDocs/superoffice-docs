@@ -1,0 +1,857 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TicketAlertFields
+  id: DBC.TicketAlertFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.Action
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.AlertLevel
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.AlertTimeout
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.DelegateTo
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.EmailTo
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.Priority
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCatmast
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCatmastSms
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCustomer
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdEmail
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdSms
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdUser
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdUserSms
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.RtiCustomerSms
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.ScriptId
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.SmsTo
+  - SuperOffice.CRM.Data.DBC.TicketAlertFields.TicketAlertId
+  langs:
+  - csharp
+  - vb
+  name: DBC.TicketAlertFields
+  nameWithType: DBC.TicketAlertFields
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TicketAlert, This table will contain ticket escalation levels. A ticket will be escalated along a &apos;chain&apos; of these levels.\n"
+  syntax:
+    content: public static class TicketAlertFields
+    content.vb: Public Module TicketAlertFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.TicketAlertId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.TicketAlertId
+  id: TicketAlertId
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: TicketAlertId
+  nameWithType: DBC.TicketAlertFields.TicketAlertId
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.TicketAlertId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.TicketAlertId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string TicketAlertId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketAlertId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.Priority
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: DBC.TicketAlertFields.Priority
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.Priority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.Priority: The id of the ticket_priority entry this entry is connected to.\n"
+  syntax:
+    content: public const string Priority = "priority"
+    return:
+      type: System.String
+    content.vb: Public Const Priority As String = "priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.AlertLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.AlertLevel
+  id: AlertLevel
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: AlertLevel
+  nameWithType: DBC.TicketAlertFields.AlertLevel
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.AlertLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.AlertLevel: The alert level (strictly ascending number).\n"
+  syntax:
+    content: public const string AlertLevel = "alert_level"
+    return:
+      type: System.String
+    content.vb: Public Const AlertLevel As String = "alert_level"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.AlertTimeout
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.AlertTimeout
+  id: AlertTimeout
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: AlertTimeout
+  nameWithType: DBC.TicketAlertFields.AlertTimeout
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.AlertTimeout
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.AlertTimeout: The time (in minutes) before ticket is escalated to next level.\n"
+  syntax:
+    content: public const string AlertTimeout = "alert_timeout"
+    return:
+      type: System.String
+    content.vb: Public Const AlertTimeout As String = "alert_timeout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.Action
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.Action
+  id: Action
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: DBC.TicketAlertFields.Action
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.Action
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.Action: Bitmap indicating what should be done when escalating *to* this level.\n"
+  syntax:
+    content: public const string Action = "action"
+    return:
+      type: System.String
+    content.vb: Public Const Action As String = "action"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.DelegateTo
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.DelegateTo
+  id: DelegateTo
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: DelegateTo
+  nameWithType: DBC.TicketAlertFields.DelegateTo
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.DelegateTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.DelegateTo: If ticket should be redelegated on escalation, this field contains the id of the target user.\n"
+  syntax:
+    content: public const string DelegateTo = "delegate_to"
+    return:
+      type: System.String
+    content.vb: Public Const DelegateTo As String = "delegate_to"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.ScriptId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.ScriptId
+  id: ScriptId
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: ScriptId
+  nameWithType: DBC.TicketAlertFields.ScriptId
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.ScriptId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.ScriptId: Script that can be executed then the ticket alert action occur.\n"
+  syntax:
+    content: public const string ScriptId = "script_id"
+    return:
+      type: System.String
+    content.vb: Public Const ScriptId As String = "script_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.EmailTo
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.EmailTo
+  id: EmailTo
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: EmailTo
+  nameWithType: DBC.TicketAlertFields.EmailTo
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.EmailTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.EmailTo: If an email should be sent when escalating, this field will contain the recipient email address.\n"
+  syntax:
+    content: public const string EmailTo = "email_to"
+    return:
+      type: System.String
+    content.vb: Public Const EmailTo As String = "email_to"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.SmsTo
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.SmsTo
+  id: SmsTo
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: SmsTo
+  nameWithType: DBC.TicketAlertFields.SmsTo
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.SmsTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.SmsTo: If an sms should be sent when escalating, this field will contain the recipient email address.\n"
+  syntax:
+    content: public const string SmsTo = "sms_to"
+    return:
+      type: System.String
+    content.vb: Public Const SmsTo As String = "sms_to"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCustomer
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCustomer
+  id: ReplyTemplateIdCustomer
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdCustomer
+  nameWithType: DBC.TicketAlertFields.ReplyTemplateIdCustomer
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCustomer
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.ReplyTemplateIdCustomer: Reference to the reply template used in this alert, for mail to customer\n"
+  syntax:
+    content: public const string ReplyTemplateIdCustomer = "reply_template_id_customer"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTemplateIdCustomer As String = "reply_template_id_customer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdUser
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdUser
+  id: ReplyTemplateIdUser
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdUser
+  nameWithType: DBC.TicketAlertFields.ReplyTemplateIdUser
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdUser
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.ReplyTemplateIdUser: Reference to the reply template used in this alert, for mail to owner of ticket\n"
+  syntax:
+    content: public const string ReplyTemplateIdUser = "reply_template_id_user"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTemplateIdUser As String = "reply_template_id_user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCatmast
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCatmast
+  id: ReplyTemplateIdCatmast
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdCatmast
+  nameWithType: DBC.TicketAlertFields.ReplyTemplateIdCatmast
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCatmast
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.ReplyTemplateIdCatmast: Reference to the reply template used in this alert, for mail to category master\n"
+  syntax:
+    content: public const string ReplyTemplateIdCatmast = "reply_template_id_catmast"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTemplateIdCatmast As String = "reply_template_id_catmast"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdEmail
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdEmail
+  id: ReplyTemplateIdEmail
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdEmail
+  nameWithType: DBC.TicketAlertFields.ReplyTemplateIdEmail
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.ReplyTemplateIdEmail: Reference to the reply template used in this alert, for mail to custom address\n"
+  syntax:
+    content: public const string ReplyTemplateIdEmail = "reply_template_id_email"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTemplateIdEmail As String = "reply_template_id_email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.RtiCustomerSms
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.RtiCustomerSms
+  id: RtiCustomerSms
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: RtiCustomerSms
+  nameWithType: DBC.TicketAlertFields.RtiCustomerSms
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.RtiCustomerSms
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.RtiCustomerSms: Reference to the reply template used in this alert, for sms to customer\n"
+  syntax:
+    content: public const string RtiCustomerSms = "rti_customer_sms"
+    return:
+      type: System.String
+    content.vb: Public Const RtiCustomerSms As String = "rti_customer_sms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdUserSms
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdUserSms
+  id: ReplyTemplateIdUserSms
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdUserSms
+  nameWithType: DBC.TicketAlertFields.ReplyTemplateIdUserSms
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdUserSms
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.ReplyTemplateIdUserSms: Reference to the reply template used in this alert, for sms to owner of ticket\n"
+  syntax:
+    content: public const string ReplyTemplateIdUserSms = "reply_template_id_user_sms"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTemplateIdUserSms As String = "reply_template_id_user_sms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCatmastSms
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCatmastSms
+  id: ReplyTemplateIdCatmastSms
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdCatmastSms
+  nameWithType: DBC.TicketAlertFields.ReplyTemplateIdCatmastSms
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdCatmastSms
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.ReplyTemplateIdCatmastSms: Reference to the reply template used in this alert, for sms to category master\n"
+  syntax:
+    content: public const string ReplyTemplateIdCatmastSms = "reply_template_id_catmast_sms"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTemplateIdCatmastSms As String = "reply_template_id_catmast_sms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdSms
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdSms
+  id: ReplyTemplateIdSms
+  parent: SuperOffice.CRM.Data.DBC.TicketAlertFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdSms
+  nameWithType: DBC.TicketAlertFields.ReplyTemplateIdSms
+  fullName: SuperOffice.CRM.Data.DBC.TicketAlertFields.ReplyTemplateIdSms
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketAlert.ReplyTemplateIdSms: Reference to the reply template used in this alert, for sms to custom address\n"
+  syntax:
+    content: public const string ReplyTemplateIdSms = "reply_template_id_sms"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTemplateIdSms As String = "reply_template_id_sms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

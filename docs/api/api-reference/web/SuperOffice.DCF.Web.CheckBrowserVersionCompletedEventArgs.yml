@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs
+  commentId: T:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs
+  id: CheckBrowserVersionCompletedEventArgs
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs.Result
+  langs:
+  - csharp
+  - vb
+  name: CheckBrowserVersionCompletedEventArgs
+  nameWithType: CheckBrowserVersionCompletedEventArgs
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: 'public class CheckBrowserVersionCompletedEventArgs : AsyncCompletedEventArgs'
+    content.vb: >-
+      Public Class CheckBrowserVersionCompletedEventArgs
+          Inherits AsyncCompletedEventArgs
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs.Result
+  commentId: P:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs.Result
+  id: Result
+  parent: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: CheckBrowserVersionCompletedEventArgs.Result
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs.Result
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string Result { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Result As String
+  overload: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs.Result*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs.Result*
+  commentId: Overload:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs.Result
+  isExternal: true
+  name: Result
+  nameWithType: CheckBrowserVersionCompletedEventArgs.Result
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs.Result
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

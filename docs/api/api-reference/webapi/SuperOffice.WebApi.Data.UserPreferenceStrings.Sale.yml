@@ -1,0 +1,572 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  id: UserPreferenceStrings.Sale
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ConfirmCreateSuggAppointment
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.CreateQuoteFollowup
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuoteDeliveryTerm
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuoteDeliveryType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuotePaymentTerm
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuotePaymentType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.EnableSaleStakeholders
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.FollowupDaysBeforeQuoteExpiry
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ImageSize
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.MarkSaleSold
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendOrderAsEmail
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendQuoteAsEmail
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendQuoteFavouriteOnly
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SkipCompletedSales
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ThumbnailSize
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.UseCompanyPostalAddressForQuote
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Sale
+  nameWithType: UserPreferenceStrings.Sale
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference keys for sales settings\n"
+  syntax:
+    content: 'public static class Sale : Object'
+    content.vb: >-
+      Public Module Sale
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Sale.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Sale"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Sale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SkipCompletedSales
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SkipCompletedSales
+  id: SkipCompletedSales
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: SkipCompletedSales
+  nameWithType: UserPreferenceStrings.Sale.SkipCompletedSales
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SkipCompletedSales
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSet to true to skip completed sales when searching or stepping in sales.\n"
+  syntax:
+    content: public const string SkipCompletedSales = "SkipCompletedSales"
+    return:
+      type: System.String
+    content.vb: Public Const SkipCompletedSales As String = "SkipCompletedSales"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ConfirmCreateSuggAppointment
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ConfirmCreateSuggAppointment
+  id: ConfirmCreateSuggAppointment
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: ConfirmCreateSuggAppointment
+  nameWithType: UserPreferenceStrings.Sale.ConfirmCreateSuggAppointment
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ConfirmCreateSuggAppointment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSet to false to skip showing the dialog that asks you if you want to create a new appointment\nfrom a suggestion.\n"
+  syntax:
+    content: public const string ConfirmCreateSuggAppointment = "ConfirmCreateSuggAppointment"
+    return:
+      type: System.String
+    content.vb: Public Const ConfirmCreateSuggAppointment As String = "ConfirmCreateSuggAppointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.EnableSaleStakeholders
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.EnableSaleStakeholders
+  id: EnableSaleStakeholders
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: EnableSaleStakeholders
+  nameWithType: UserPreferenceStrings.Sale.EnableSaleStakeholders
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.EnableSaleStakeholders
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable/disable stakeholders archives and functionality\n"
+  syntax:
+    content: public const string EnableSaleStakeholders = "EnableSaleStakeholders"
+    return:
+      type: System.String
+    content.vb: Public Const EnableSaleStakeholders As String = "EnableSaleStakeholders"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.UseCompanyPostalAddressForQuote
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.UseCompanyPostalAddressForQuote
+  id: UseCompanyPostalAddressForQuote
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: UseCompanyPostalAddressForQuote
+  nameWithType: UserPreferenceStrings.Sale.UseCompanyPostalAddressForQuote
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.UseCompanyPostalAddressForQuote
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSet to true to always use company postal address for the delivery address if no custom delivery address is defined.\n"
+  syntax:
+    content: public const string UseCompanyPostalAddressForQuote = "UseCompanyPostalAddressForQuote"
+    return:
+      type: System.String
+    content.vb: Public Const UseCompanyPostalAddressForQuote As String = "UseCompanyPostalAddressForQuote"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.CreateQuoteFollowup
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.CreateQuoteFollowup
+  id: CreateQuoteFollowup
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: CreateQuoteFollowup
+  nameWithType: UserPreferenceStrings.Sale.CreateQuoteFollowup
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.CreateQuoteFollowup
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault create new followup when sending quote.\n"
+  syntax:
+    content: public const string CreateQuoteFollowup = "CreateQuoteFollowup"
+    return:
+      type: System.String
+    content.vb: Public Const CreateQuoteFollowup As String = "CreateQuoteFollowup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.FollowupDaysBeforeQuoteExpiry
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.FollowupDaysBeforeQuoteExpiry
+  id: FollowupDaysBeforeQuoteExpiry
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: FollowupDaysBeforeQuoteExpiry
+  nameWithType: UserPreferenceStrings.Sale.FollowupDaysBeforeQuoteExpiry
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.FollowupDaysBeforeQuoteExpiry
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of days before the quote expiry date to default the follow-up.\n"
+  syntax:
+    content: public const string FollowupDaysBeforeQuoteExpiry = "FollowupDaysBeforeQuoteExpiry"
+    return:
+      type: System.String
+    content.vb: Public Const FollowupDaysBeforeQuoteExpiry As String = "FollowupDaysBeforeQuoteExpiry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendOrderAsEmail
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendOrderAsEmail
+  id: SendOrderAsEmail
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: SendOrderAsEmail
+  nameWithType: UserPreferenceStrings.Sale.SendOrderAsEmail
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendOrderAsEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault choose to send the order confirmation of the quote as an email.\n"
+  syntax:
+    content: public const string SendOrderAsEmail = "SendOrderAsEmail"
+    return:
+      type: System.String
+    content.vb: Public Const SendOrderAsEmail As String = "SendOrderAsEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendQuoteAsEmail
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendQuoteAsEmail
+  id: SendQuoteAsEmail
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: SendQuoteAsEmail
+  nameWithType: UserPreferenceStrings.Sale.SendQuoteAsEmail
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendQuoteAsEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault choose to send the quote as an email.\n"
+  syntax:
+    content: public const string SendQuoteAsEmail = "SendQuoteAsEmail"
+    return:
+      type: System.String
+    content.vb: Public Const SendQuoteAsEmail As String = "SendQuoteAsEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.MarkSaleSold
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.MarkSaleSold
+  id: MarkSaleSold
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: MarkSaleSold
+  nameWithType: UserPreferenceStrings.Sale.MarkSaleSold
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.MarkSaleSold
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault choose to Mark sale as sold when place order on quote.\n"
+  syntax:
+    content: public const string MarkSaleSold = "MarkSaleSold"
+    return:
+      type: System.String
+    content.vb: Public Const MarkSaleSold As String = "MarkSaleSold"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuoteDeliveryTerm
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuoteDeliveryTerm
+  id: DefaultQuoteDeliveryTerm
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: DefaultQuoteDeliveryTerm
+  nameWithType: UserPreferenceStrings.Sale.DefaultQuoteDeliveryTerm
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuoteDeliveryTerm
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault delivery term for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultQuoteDeliveryTerm = "DefaultQuoteDeliveryTerm"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultQuoteDeliveryTerm As String = "DefaultQuoteDeliveryTerm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuoteDeliveryType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuoteDeliveryType
+  id: DefaultQuoteDeliveryType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: DefaultQuoteDeliveryType
+  nameWithType: UserPreferenceStrings.Sale.DefaultQuoteDeliveryType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuoteDeliveryType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault delivery type for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultQuoteDeliveryType = "DefaultQuoteDeliveryType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultQuoteDeliveryType As String = "DefaultQuoteDeliveryType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuotePaymentTerm
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuotePaymentTerm
+  id: DefaultQuotePaymentTerm
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: DefaultQuotePaymentTerm
+  nameWithType: UserPreferenceStrings.Sale.DefaultQuotePaymentTerm
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuotePaymentTerm
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault payment term for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultQuotePaymentTerm = "DefaultQuotePaymentTerm"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultQuotePaymentTerm As String = "DefaultQuotePaymentTerm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuotePaymentType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuotePaymentType
+  id: DefaultQuotePaymentType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: DefaultQuotePaymentType
+  nameWithType: UserPreferenceStrings.Sale.DefaultQuotePaymentType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.DefaultQuotePaymentType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault payment type for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultQuotePaymentType = "DefaultQuotePaymentType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultQuotePaymentType As String = "DefaultQuotePaymentType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendQuoteFavouriteOnly
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendQuoteFavouriteOnly
+  id: SendQuoteFavouriteOnly
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: SendQuoteFavouriteOnly
+  nameWithType: UserPreferenceStrings.Sale.SendQuoteFavouriteOnly
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.SendQuoteFavouriteOnly
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast state of checkbox in Send Quote dialog\n"
+  syntax:
+    content: public const string SendQuoteFavouriteOnly = "SendQuoteFavouriteOnly"
+    return:
+      type: System.String
+    content.vb: Public Const SendQuoteFavouriteOnly As String = "SendQuoteFavouriteOnly"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ImageSize
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ImageSize
+  id: ImageSize
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: ImageSize
+  nameWithType: UserPreferenceStrings.Sale.ImageSize
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ImageSize
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMaximum product image size, largest dimension\n"
+  syntax:
+    content: public const string ImageSize = "ImageSize"
+    return:
+      type: System.String
+    content.vb: Public Const ImageSize As String = "ImageSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ThumbnailSize
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ThumbnailSize
+  id: ThumbnailSize
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale
+  langs:
+  - csharp
+  - vb
+  name: ThumbnailSize
+  nameWithType: UserPreferenceStrings.Sale.ThumbnailSize
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sale.ThumbnailSize
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMaximum thumbnail size, largest dimension\n"
+  syntax:
+    content: public const string ThumbnailSize = "ThumbnailSize"
+    return:
+      type: System.String
+    content.vb: Public Const ThumbnailSize As String = "ThumbnailSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

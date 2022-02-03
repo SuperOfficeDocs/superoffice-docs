@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ReturnType
+  commentId: T:SuperOffice.WebApi.Data.ReturnType
+  id: ReturnType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ReturnType.CustomGui
+  - SuperOffice.WebApi.Data.ReturnType.Message
+  - SuperOffice.WebApi.Data.ReturnType.None
+  - SuperOffice.WebApi.Data.ReturnType.Other
+  - SuperOffice.WebApi.Data.ReturnType.SoProtocol
+  - SuperOffice.WebApi.Data.ReturnType.URL
+  - SuperOffice.WebApi.Data.ReturnType.value__
+  langs:
+  - csharp
+  - vb
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: SuperOffice.WebApi.Data.ReturnType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of responce\n"
+  syntax:
+    content: 'public sealed class ReturnType : Enum'
+    content.vb: >-
+      Public NotInheritable Class ReturnType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ReturnType.value__
+  commentId: F:SuperOffice.WebApi.Data.ReturnType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ReturnType.value__
+  fullName: SuperOffice.WebApi.Data.ReturnType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReturnType.None
+  commentId: F:SuperOffice.WebApi.Data.ReturnType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ReturnType.None
+  fullName: SuperOffice.WebApi.Data.ReturnType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: here is no return value to be parsed\n"
+  syntax:
+    content: public const ReturnType None
+    return:
+      type: SuperOffice.WebApi.Data.ReturnType
+    content.vb: Public Const None As ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReturnType.Message
+  commentId: F:SuperOffice.WebApi.Data.ReturnType.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ReturnType.Message
+  fullName: SuperOffice.WebApi.Data.ReturnType.Message
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The return value is a string, to be shown to the user as a message by client\n"
+  syntax:
+    content: public const ReturnType Message
+    return:
+      type: SuperOffice.WebApi.Data.ReturnType
+    content.vb: Public Const Message As ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReturnType.SoProtocol
+  commentId: F:SuperOffice.WebApi.Data.ReturnType.SoProtocol
+  id: SoProtocol
+  parent: SuperOffice.WebApi.Data.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: SoProtocol
+  nameWithType: ReturnType.SoProtocol
+  fullName: SuperOffice.WebApi.Data.ReturnType.SoProtocol
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The return value is an soprotocol-compliant navigation string, to be parsed according to the rules for soprotocol strings. Client should navigate according to the given protocol.\n"
+  syntax:
+    content: public const ReturnType SoProtocol
+    return:
+      type: SuperOffice.WebApi.Data.ReturnType
+    content.vb: Public Const SoProtocol As ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReturnType.CustomGui
+  commentId: F:SuperOffice.WebApi.Data.ReturnType.CustomGui
+  id: CustomGui
+  parent: SuperOffice.WebApi.Data.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: CustomGui
+  nameWithType: ReturnType.CustomGui
+  fullName: SuperOffice.WebApi.Data.ReturnType.CustomGui
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: The return value is the name of a custom GUI. The GetCustomGui method on the document plugin will be invoked, and the resulting GUI rendered by the client.\n"
+  syntax:
+    content: public const ReturnType CustomGui
+    return:
+      type: SuperOffice.WebApi.Data.ReturnType
+    content.vb: Public Const CustomGui As ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReturnType.Other
+  commentId: F:SuperOffice.WebApi.Data.ReturnType.Other
+  id: Other
+  parent: SuperOffice.WebApi.Data.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: ReturnType.Other
+  fullName: SuperOffice.WebApi.Data.ReturnType.Other
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: The return value is intended for custom processing; this implies that the document plugin has installed some component on the intended client that will intercept and handle this return value.  Note that this requires advanced knowledge of the client and its construction and navigation. Also note that this will make the functionality client-specific, so that it may not be available or work as intended on clients not specifically supported or known.\n"
+  syntax:
+    content: public const ReturnType Other
+    return:
+      type: SuperOffice.WebApi.Data.ReturnType
+    content.vb: Public Const Other As ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReturnType.URL
+  commentId: F:SuperOffice.WebApi.Data.ReturnType.URL
+  id: URL
+  parent: SuperOffice.WebApi.Data.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: ReturnType.URL
+  fullName: SuperOffice.WebApi.Data.ReturnType.URL
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: The return value is a URL that should be opened in a new window by the client.\n"
+  syntax:
+    content: public const ReturnType URL
+    return:
+      type: SuperOffice.WebApi.Data.ReturnType
+    content.vb: Public Const URL As ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ReturnType
+  commentId: T:SuperOffice.WebApi.Data.ReturnType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: SuperOffice.WebApi.Data.ReturnType

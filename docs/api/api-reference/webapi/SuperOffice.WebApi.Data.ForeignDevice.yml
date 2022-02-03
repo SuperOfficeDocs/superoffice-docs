@@ -1,0 +1,502 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForeignDevice
+  commentId: T:SuperOffice.WebApi.Data.ForeignDevice
+  id: ForeignDevice
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ForeignDevice.#ctor
+  - SuperOffice.WebApi.Data.ForeignDevice.AssociateFullName
+  - SuperOffice.WebApi.Data.ForeignDevice.CreatedBy
+  - SuperOffice.WebApi.Data.ForeignDevice.CreatedDate
+  - SuperOffice.WebApi.Data.ForeignDevice.DeviceIdentifier
+  - SuperOffice.WebApi.Data.ForeignDevice.ForeignAppId
+  - SuperOffice.WebApi.Data.ForeignDevice.ForeignDeviceId
+  - SuperOffice.WebApi.Data.ForeignDevice.Name
+  - SuperOffice.WebApi.Data.ForeignDevice.UpdatedBy
+  - SuperOffice.WebApi.Data.ForeignDevice.UpdatedDate
+  langs:
+  - csharp
+  - vb
+  name: ForeignDevice
+  nameWithType: ForeignDevice
+  fullName: SuperOffice.WebApi.Data.ForeignDevice
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ForeignDevice.\nSaves a foreign device belonging to the ForeignDevice and application name specified.    \n"
+  example:
+  - "\nGet ForeignDevice 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ForeignSystemAgent(configuration);\nvar foreignDevice = agent.GetForeignDevice( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ForeignDevice : Carrier'
+    content.vb: >-
+      Public Class ForeignDevice
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ForeignSystemAgent
+    commentId: T:SuperOffice.WebApi.Agents.ForeignSystemAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ForeignDevice.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ForeignDevice.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ForeignDevice
+  langs:
+  - csharp
+  - vb
+  name: ForeignDevice()
+  nameWithType: ForeignDevice.ForeignDevice()
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.ForeignDevice()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ForeignDevice()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ForeignDevice.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignDevice.ForeignDeviceId
+  commentId: P:SuperOffice.WebApi.Data.ForeignDevice.ForeignDeviceId
+  id: ForeignDeviceId
+  parent: SuperOffice.WebApi.Data.ForeignDevice
+  langs:
+  - csharp
+  - vb
+  name: ForeignDeviceId
+  nameWithType: ForeignDevice.ForeignDeviceId
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.ForeignDeviceId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ForeignDeviceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ForeignDeviceId As Integer
+  overload: SuperOffice.WebApi.Data.ForeignDevice.ForeignDeviceId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignDevice.Name
+  commentId: P:SuperOffice.WebApi.Data.ForeignDevice.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ForeignDevice
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ForeignDevice.Name
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of device\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ForeignDevice.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignDevice.CreatedDate
+  commentId: P:SuperOffice.WebApi.Data.ForeignDevice.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.WebApi.Data.ForeignDevice
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: ForeignDevice.CreatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.ForeignDevice.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignDevice.UpdatedDate
+  commentId: P:SuperOffice.WebApi.Data.ForeignDevice.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.WebApi.Data.ForeignDevice
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: ForeignDevice.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.ForeignDevice.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignDevice.AssociateFullName
+  commentId: P:SuperOffice.WebApi.Data.ForeignDevice.AssociateFullName
+  id: AssociateFullName
+  parent: SuperOffice.WebApi.Data.ForeignDevice
+  langs:
+  - csharp
+  - vb
+  name: AssociateFullName
+  nameWithType: ForeignDevice.AssociateFullName
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.AssociateFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person owning the Foreign Device\n"
+  syntax:
+    content: public virtual string AssociateFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AssociateFullName As String
+  overload: SuperOffice.WebApi.Data.ForeignDevice.AssociateFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignDevice.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.ForeignDevice.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.ForeignDevice
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: ForeignDevice.CreatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person that created the device.\n"
+  syntax:
+    content: public virtual string CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CreatedBy As String
+  overload: SuperOffice.WebApi.Data.ForeignDevice.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignDevice.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.ForeignDevice.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.ForeignDevice
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: ForeignDevice.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person that last updated this device.\n"
+  syntax:
+    content: public virtual string UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UpdatedBy As String
+  overload: SuperOffice.WebApi.Data.ForeignDevice.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignDevice.DeviceIdentifier
+  commentId: P:SuperOffice.WebApi.Data.ForeignDevice.DeviceIdentifier
+  id: DeviceIdentifier
+  parent: SuperOffice.WebApi.Data.ForeignDevice
+  langs:
+  - csharp
+  - vb
+  name: DeviceIdentifier
+  nameWithType: ForeignDevice.DeviceIdentifier
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.DeviceIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional unique id of device (Palm pilot device ID, etc)\n"
+  syntax:
+    content: public virtual string DeviceIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DeviceIdentifier As String
+  overload: SuperOffice.WebApi.Data.ForeignDevice.DeviceIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignDevice.ForeignAppId
+  commentId: P:SuperOffice.WebApi.Data.ForeignDevice.ForeignAppId
+  id: ForeignAppId
+  parent: SuperOffice.WebApi.Data.ForeignDevice
+  langs:
+  - csharp
+  - vb
+  name: ForeignAppId
+  nameWithType: ForeignDevice.ForeignAppId
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.ForeignAppId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to foregin application (device type)\n"
+  syntax:
+    content: public virtual int ForeignAppId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ForeignAppId As Integer
+  overload: SuperOffice.WebApi.Data.ForeignDevice.ForeignAppId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  commentId: T:SuperOffice.WebApi.Agents.ForeignSystemAgent
+  isExternal: true
+  name: ForeignSystemAgent
+  nameWithType: ForeignSystemAgent
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ForeignDevice.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignDevice.#ctor
+  isExternal: true
+  name: ForeignDevice
+  nameWithType: ForeignDevice.ForeignDevice
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.ForeignDevice
+- uid: SuperOffice.WebApi.Data.ForeignDevice.ForeignDeviceId*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignDevice.ForeignDeviceId
+  isExternal: true
+  name: ForeignDeviceId
+  nameWithType: ForeignDevice.ForeignDeviceId
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.ForeignDeviceId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ForeignDevice.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignDevice.Name
+  isExternal: true
+  name: Name
+  nameWithType: ForeignDevice.Name
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ForeignDevice.CreatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignDevice.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: ForeignDevice.CreatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.CreatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ForeignDevice.UpdatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignDevice.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: ForeignDevice.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.UpdatedDate
+- uid: SuperOffice.WebApi.Data.ForeignDevice.AssociateFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignDevice.AssociateFullName
+  isExternal: true
+  name: AssociateFullName
+  nameWithType: ForeignDevice.AssociateFullName
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.AssociateFullName
+- uid: SuperOffice.WebApi.Data.ForeignDevice.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignDevice.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: ForeignDevice.CreatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.CreatedBy
+- uid: SuperOffice.WebApi.Data.ForeignDevice.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignDevice.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: ForeignDevice.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.UpdatedBy
+- uid: SuperOffice.WebApi.Data.ForeignDevice.DeviceIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignDevice.DeviceIdentifier
+  isExternal: true
+  name: DeviceIdentifier
+  nameWithType: ForeignDevice.DeviceIdentifier
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.DeviceIdentifier
+- uid: SuperOffice.WebApi.Data.ForeignDevice.ForeignAppId*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignDevice.ForeignAppId
+  isExternal: true
+  name: ForeignAppId
+  nameWithType: ForeignDevice.ForeignAppId
+  fullName: SuperOffice.WebApi.Data.ForeignDevice.ForeignAppId

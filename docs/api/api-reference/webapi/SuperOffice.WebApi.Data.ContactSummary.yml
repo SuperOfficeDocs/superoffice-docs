@@ -1,0 +1,447 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ContactSummary
+  commentId: T:SuperOffice.WebApi.Data.ContactSummary
+  id: ContactSummary
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ContactSummary.#ctor
+  - SuperOffice.WebApi.Data.ContactSummary.Chats
+  - SuperOffice.WebApi.Data.ContactSummary.Contact
+  - SuperOffice.WebApi.Data.ContactSummary.Documents
+  - SuperOffice.WebApi.Data.ContactSummary.Followups
+  - SuperOffice.WebApi.Data.ContactSummary.Sales
+  - SuperOffice.WebApi.Data.ContactSummary.Tickets
+  langs:
+  - csharp
+  - vb
+  name: ContactSummary
+  nameWithType: ContactSummary
+  fullName: SuperOffice.WebApi.Data.ContactSummary
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ContactSummary.\nSummary of contact with recent activities, chats, and requests included.    \n"
+  syntax:
+    content: 'public class ContactSummary : Object'
+    content.vb: >-
+      Public Class ContactSummary
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ContactAgent
+    commentId: T:SuperOffice.WebApi.Agents.ContactAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ContactSummary.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ContactSummary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ContactSummary
+  langs:
+  - csharp
+  - vb
+  name: ContactSummary()
+  nameWithType: ContactSummary.ContactSummary()
+  fullName: SuperOffice.WebApi.Data.ContactSummary.ContactSummary()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ContactSummary()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ContactSummary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ContactSummary.Contact
+  commentId: P:SuperOffice.WebApi.Data.ContactSummary.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.ContactSummary
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: ContactSummary.Contact
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Contact
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSimple Contact data.\n"
+  syntax:
+    content: public virtual Contact Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Contact
+    content.vb: Public Overridable Property Contact As Contact
+  overload: SuperOffice.WebApi.Data.ContactSummary.Contact*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactSummary.Tickets
+  commentId: P:SuperOffice.WebApi.Data.ContactSummary.Tickets
+  id: Tickets
+  parent: SuperOffice.WebApi.Data.ContactSummary
+  langs:
+  - csharp
+  - vb
+  name: Tickets
+  nameWithType: ContactSummary.Tickets
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Tickets
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecent tickets on contact\n"
+  syntax:
+    content: public virtual TicketSummaryItem[] Tickets { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketSummaryItem[]
+    content.vb: Public Overridable Property Tickets As TicketSummaryItem()
+  overload: SuperOffice.WebApi.Data.ContactSummary.Tickets*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactSummary.Followups
+  commentId: P:SuperOffice.WebApi.Data.ContactSummary.Followups
+  id: Followups
+  parent: SuperOffice.WebApi.Data.ContactSummary
+  langs:
+  - csharp
+  - vb
+  name: Followups
+  nameWithType: ContactSummary.Followups
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Followups
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecent follow-ups on contact\n"
+  syntax:
+    content: public virtual ActivitySummaryItem[] Followups { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ActivitySummaryItem[]
+    content.vb: Public Overridable Property Followups As ActivitySummaryItem()
+  overload: SuperOffice.WebApi.Data.ContactSummary.Followups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactSummary.Documents
+  commentId: P:SuperOffice.WebApi.Data.ContactSummary.Documents
+  id: Documents
+  parent: SuperOffice.WebApi.Data.ContactSummary
+  langs:
+  - csharp
+  - vb
+  name: Documents
+  nameWithType: ContactSummary.Documents
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Documents
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecent documents on contact\n"
+  syntax:
+    content: public virtual ActivitySummaryItem[] Documents { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ActivitySummaryItem[]
+    content.vb: Public Overridable Property Documents As ActivitySummaryItem()
+  overload: SuperOffice.WebApi.Data.ContactSummary.Documents*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactSummary.Sales
+  commentId: P:SuperOffice.WebApi.Data.ContactSummary.Sales
+  id: Sales
+  parent: SuperOffice.WebApi.Data.ContactSummary
+  langs:
+  - csharp
+  - vb
+  name: Sales
+  nameWithType: ContactSummary.Sales
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Sales
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecent sales on contact\n"
+  syntax:
+    content: public virtual SaleSummaryItem[] Sales { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SaleSummaryItem[]
+    content.vb: Public Overridable Property Sales As SaleSummaryItem()
+  overload: SuperOffice.WebApi.Data.ContactSummary.Sales*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactSummary.Chats
+  commentId: P:SuperOffice.WebApi.Data.ContactSummary.Chats
+  id: Chats
+  parent: SuperOffice.WebApi.Data.ContactSummary
+  langs:
+  - csharp
+  - vb
+  name: Chats
+  nameWithType: ContactSummary.Chats
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Chats
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecent chats with contact\n"
+  syntax:
+    content: public virtual ChatSummaryItem[] Chats { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ChatSummaryItem[]
+    content.vb: Public Overridable Property Chats As ChatSummaryItem()
+  overload: SuperOffice.WebApi.Data.ContactSummary.Chats*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.ContactAgent
+  commentId: T:SuperOffice.WebApi.Agents.ContactAgent
+  isExternal: true
+  name: ContactAgent
+  nameWithType: ContactAgent
+  fullName: SuperOffice.WebApi.Agents.ContactAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ContactSummary.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactSummary.#ctor
+  isExternal: true
+  name: ContactSummary
+  nameWithType: ContactSummary.ContactSummary
+  fullName: SuperOffice.WebApi.Data.ContactSummary.ContactSummary
+- uid: SuperOffice.WebApi.Data.ContactSummary.Contact*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactSummary.Contact
+  isExternal: true
+  name: Contact
+  nameWithType: ContactSummary.Contact
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Contact
+- uid: SuperOffice.WebApi.Data.Contact
+  commentId: T:SuperOffice.WebApi.Data.Contact
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.WebApi.Data.Contact
+- uid: SuperOffice.WebApi.Data.ContactSummary.Tickets*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactSummary.Tickets
+  isExternal: true
+  name: Tickets
+  nameWithType: ContactSummary.Tickets
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Tickets
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem[]
+  isExternal: true
+  name: TicketSummaryItem[]
+  nameWithType: TicketSummaryItem[]
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem[]
+  nameWithType.vb: TicketSummaryItem()
+  fullName.vb: SuperOffice.WebApi.Data.TicketSummaryItem()
+  name.vb: TicketSummaryItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.TicketSummaryItem
+    name: TicketSummaryItem
+    nameWithType: TicketSummaryItem
+    fullName: SuperOffice.WebApi.Data.TicketSummaryItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.TicketSummaryItem
+    name: TicketSummaryItem
+    nameWithType: TicketSummaryItem
+    fullName: SuperOffice.WebApi.Data.TicketSummaryItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ContactSummary.Followups*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactSummary.Followups
+  isExternal: true
+  name: Followups
+  nameWithType: ContactSummary.Followups
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Followups
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem[]
+  isExternal: true
+  name: ActivitySummaryItem[]
+  nameWithType: ActivitySummaryItem[]
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem[]
+  nameWithType.vb: ActivitySummaryItem()
+  fullName.vb: SuperOffice.WebApi.Data.ActivitySummaryItem()
+  name.vb: ActivitySummaryItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ActivitySummaryItem
+    name: ActivitySummaryItem
+    nameWithType: ActivitySummaryItem
+    fullName: SuperOffice.WebApi.Data.ActivitySummaryItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ActivitySummaryItem
+    name: ActivitySummaryItem
+    nameWithType: ActivitySummaryItem
+    fullName: SuperOffice.WebApi.Data.ActivitySummaryItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ContactSummary.Documents*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactSummary.Documents
+  isExternal: true
+  name: Documents
+  nameWithType: ContactSummary.Documents
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Documents
+- uid: SuperOffice.WebApi.Data.ContactSummary.Sales*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactSummary.Sales
+  isExternal: true
+  name: Sales
+  nameWithType: ContactSummary.Sales
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Sales
+- uid: SuperOffice.WebApi.Data.SaleSummaryItem[]
+  isExternal: true
+  name: SaleSummaryItem[]
+  nameWithType: SaleSummaryItem[]
+  fullName: SuperOffice.WebApi.Data.SaleSummaryItem[]
+  nameWithType.vb: SaleSummaryItem()
+  fullName.vb: SuperOffice.WebApi.Data.SaleSummaryItem()
+  name.vb: SaleSummaryItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.SaleSummaryItem
+    name: SaleSummaryItem
+    nameWithType: SaleSummaryItem
+    fullName: SuperOffice.WebApi.Data.SaleSummaryItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.SaleSummaryItem
+    name: SaleSummaryItem
+    nameWithType: SaleSummaryItem
+    fullName: SuperOffice.WebApi.Data.SaleSummaryItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ContactSummary.Chats*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactSummary.Chats
+  isExternal: true
+  name: Chats
+  nameWithType: ContactSummary.Chats
+  fullName: SuperOffice.WebApi.Data.ContactSummary.Chats
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem[]
+  isExternal: true
+  name: ChatSummaryItem[]
+  nameWithType: ChatSummaryItem[]
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem[]
+  nameWithType.vb: ChatSummaryItem()
+  fullName.vb: SuperOffice.WebApi.Data.ChatSummaryItem()
+  name.vb: ChatSummaryItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ChatSummaryItem
+    name: ChatSummaryItem
+    nameWithType: ChatSummaryItem
+    fullName: SuperOffice.WebApi.Data.ChatSummaryItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ChatSummaryItem
+    name: ChatSummaryItem
+    nameWithType: ChatSummaryItem
+    fullName: SuperOffice.WebApi.Data.ChatSummaryItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

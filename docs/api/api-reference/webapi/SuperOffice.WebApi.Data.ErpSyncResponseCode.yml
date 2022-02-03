@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSyncResponseCode
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncResponseCode
+  id: ErpSyncResponseCode
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSyncResponseCode.ErrorConnectorHasConnections
+  - SuperOffice.WebApi.Data.ErpSyncResponseCode.ErrorNotFound
+  - SuperOffice.WebApi.Data.ErpSyncResponseCode.NoError
+  - SuperOffice.WebApi.Data.ErpSyncResponseCode.value__
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncResponseCode
+  nameWithType: ErpSyncResponseCode
+  fullName: SuperOffice.WebApi.Data.ErpSyncResponseCode
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nResponse codes used by ErpSync services\n"
+  syntax:
+    content: 'public sealed class ErpSyncResponseCode : Enum'
+    content.vb: >-
+      Public NotInheritable Class ErpSyncResponseCode
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSyncResponseCode.value__
+  commentId: F:SuperOffice.WebApi.Data.ErpSyncResponseCode.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ErpSyncResponseCode
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ErpSyncResponseCode.value__
+  fullName: SuperOffice.WebApi.Data.ErpSyncResponseCode.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncResponseCode.NoError
+  commentId: F:SuperOffice.WebApi.Data.ErpSyncResponseCode.NoError
+  id: NoError
+  parent: SuperOffice.WebApi.Data.ErpSyncResponseCode
+  langs:
+  - csharp
+  - vb
+  name: NoError
+  nameWithType: ErpSyncResponseCode.NoError
+  fullName: SuperOffice.WebApi.Data.ErpSyncResponseCode.NoError
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: No error\n"
+  syntax:
+    content: public const ErpSyncResponseCode NoError
+    return:
+      type: SuperOffice.WebApi.Data.ErpSyncResponseCode
+    content.vb: Public Const NoError As ErpSyncResponseCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ErpSyncResponseCode.ErrorConnectorHasConnections
+  commentId: F:SuperOffice.WebApi.Data.ErpSyncResponseCode.ErrorConnectorHasConnections
+  id: ErrorConnectorHasConnections
+  parent: SuperOffice.WebApi.Data.ErpSyncResponseCode
+  langs:
+  - csharp
+  - vb
+  name: ErrorConnectorHasConnections
+  nameWithType: ErpSyncResponseCode.ErrorConnectorHasConnections
+  fullName: SuperOffice.WebApi.Data.ErpSyncResponseCode.ErrorConnectorHasConnections
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Could not perform operation because connector has connections\n"
+  syntax:
+    content: public const ErpSyncResponseCode ErrorConnectorHasConnections
+    return:
+      type: SuperOffice.WebApi.Data.ErpSyncResponseCode
+    content.vb: Public Const ErrorConnectorHasConnections As ErpSyncResponseCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ErpSyncResponseCode.ErrorNotFound
+  commentId: F:SuperOffice.WebApi.Data.ErpSyncResponseCode.ErrorNotFound
+  id: ErrorNotFound
+  parent: SuperOffice.WebApi.Data.ErpSyncResponseCode
+  langs:
+  - csharp
+  - vb
+  name: ErrorNotFound
+  nameWithType: ErpSyncResponseCode.ErrorNotFound
+  fullName: SuperOffice.WebApi.Data.ErpSyncResponseCode.ErrorNotFound
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Could not perform operation because the entity wasn&apos;t found\n"
+  syntax:
+    content: public const ErpSyncResponseCode ErrorNotFound
+    return:
+      type: SuperOffice.WebApi.Data.ErpSyncResponseCode
+    content.vb: Public Const ErrorNotFound As ErpSyncResponseCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSyncResponseCode
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncResponseCode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpSyncResponseCode
+  nameWithType: ErpSyncResponseCode
+  fullName: SuperOffice.WebApi.Data.ErpSyncResponseCode

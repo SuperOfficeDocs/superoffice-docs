@@ -1,0 +1,1321 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.IDocumentInfo
+  commentId: T:SuperOffice.CRM.IDocumentInfo
+  id: IDocumentInfo
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.IDocumentInfo.ActiveDate
+  - SuperOffice.CRM.IDocumentInfo.AppointmentId
+  - SuperOffice.CRM.IDocumentInfo.ArchiveProvider
+  - SuperOffice.CRM.IDocumentInfo.AssociateFullName
+  - SuperOffice.CRM.IDocumentInfo.AssociateId
+  - SuperOffice.CRM.IDocumentInfo.AssociateLoginName
+  - SuperOffice.CRM.IDocumentInfo.Attention
+  - SuperOffice.CRM.IDocumentInfo.ContactId
+  - SuperOffice.CRM.IDocumentInfo.Description
+  - SuperOffice.CRM.IDocumentInfo.DocumentId
+  - SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
+  - SuperOffice.CRM.IDocumentInfo.ExternalReference
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
+  - SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
+  - SuperOffice.CRM.IDocumentInfo.Header
+  - SuperOffice.CRM.IDocumentInfo.LockSemantics
+  - SuperOffice.CRM.IDocumentInfo.Name
+  - SuperOffice.CRM.IDocumentInfo.OurRef
+  - SuperOffice.CRM.IDocumentInfo.PersonId
+  - SuperOffice.CRM.IDocumentInfo.ProjectId
+  - SuperOffice.CRM.IDocumentInfo.PublishEndDate
+  - SuperOffice.CRM.IDocumentInfo.PublishStartDate
+  - SuperOffice.CRM.IDocumentInfo.Registered
+  - SuperOffice.CRM.IDocumentInfo.Salutation
+  - SuperOffice.CRM.IDocumentInfo.SerialNumber
+  - SuperOffice.CRM.IDocumentInfo.YourRef
+  langs:
+  - csharp
+  - vb
+  name: IDocumentInfo
+  nameWithType: IDocumentInfo
+  fullName: SuperOffice.CRM.IDocumentInfo
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nInterface providing information about the document.\n"
+  syntax:
+    content: public interface IDocumentInfo
+    content.vb: Public Interface IDocumentInfo
+  extensionMethods:
+  - SuperOffice.CRM.IDocumentInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.IDocumentInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
+  id: GetUserDefinedDecimal(System.String)
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedDecimal(String)
+  nameWithType: IDocumentInfo.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet the decimal udef value based on the prog.id name of the udef field.\n"
+  syntax:
+    content: double GetUserDefinedDecimal(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+      description: Program name of udef field
+    return:
+      type: System.Double
+      description: double value of field, or NAN if field not found
+    content.vb: Function GetUserDefinedDecimal(progId As String) As Double
+  overload: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal*
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
+  id: GetUserDefinedInt(System.String)
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedInt(String)
+  nameWithType: IDocumentInfo.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet the int udef value based on the prog.id name of the udef field.\n"
+  syntax:
+    content: int GetUserDefinedInt(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+      description: Program name of udef field
+    return:
+      type: System.Int32
+      description: int value of field, or MINVALUE if field not found
+    content.vb: Function GetUserDefinedInt(progId As String) As Integer
+  overload: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt*
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
+  id: GetUserDefinedString(System.String)
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedString(String)
+  nameWithType: IDocumentInfo.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet the string udef value based on the prog.id name of the udef field.\n"
+  syntax:
+    content: string GetUserDefinedString(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+      description: Program name of udef field
+    return:
+      type: System.String
+      description: string value of field, or NULL if field not found
+    content.vb: Function GetUserDefinedString(progId As String) As String
+  overload: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString*
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
+  id: GetUserDefinedDecimal(System.Int32)
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: IDocumentInfo.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nUser-defined field 1-10 of the decimal (.NET double) number type.\n"
+  syntax:
+    content: string GetUserDefinedDecimal(int fieldNo)
+    parameters:
+    - id: fieldNo
+      type: System.Int32
+      description: Field number (1-10).
+    return:
+      type: System.String
+      description: User-defined field value.
+    content.vb: Function GetUserDefinedDecimal(fieldNo As Integer) As String
+  overload: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal*
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
+  id: GetUserDefinedInt(System.Int32)
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedInt(Int32)
+  nameWithType: IDocumentInfo.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet user-defined field 1-60 of the whole (.NET Int32) number type.\n"
+  syntax:
+    content: string GetUserDefinedInt(int fieldNo)
+    parameters:
+    - id: fieldNo
+      type: System.Int32
+      description: Field number (1-60).
+    return:
+      type: System.String
+      description: User-defined field value.
+    content.vb: Function GetUserDefinedInt(fieldNo As Integer) As String
+  overload: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt*
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
+  commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
+  id: GetUserDefinedString(System.Int32)
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedString(Int32)
+  nameWithType: IDocumentInfo.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet user-defined field 1-49 of the text (.NET string) type.\n"
+  syntax:
+    content: string GetUserDefinedString(int fieldNo)
+    parameters:
+    - id: fieldNo
+      type: System.Int32
+      description: Field number (1-39).
+    return:
+      type: System.String
+      description: User-defined field value.
+    content.vb: Function GetUserDefinedString(fieldNo As Integer) As String
+  overload: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString*
+- uid: SuperOffice.CRM.IDocumentInfo.AssociateId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: IDocumentInfo.AssociateId
+  fullName: SuperOffice.CRM.IDocumentInfo.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nOwner of the document\n"
+  syntax:
+    content: int AssociateId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property AssociateId As Integer
+  overload: SuperOffice.CRM.IDocumentInfo.AssociateId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.AssociateLoginName
+  commentId: P:SuperOffice.CRM.IDocumentInfo.AssociateLoginName
+  id: AssociateLoginName
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateLoginName
+  nameWithType: IDocumentInfo.AssociateLoginName
+  fullName: SuperOffice.CRM.IDocumentInfo.AssociateLoginName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nLogin name of the document owner\n"
+  syntax:
+    content: string AssociateLoginName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property AssociateLoginName As String
+  overload: SuperOffice.CRM.IDocumentInfo.AssociateLoginName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.AssociateFullName
+  commentId: P:SuperOffice.CRM.IDocumentInfo.AssociateFullName
+  id: AssociateFullName
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateFullName
+  nameWithType: IDocumentInfo.AssociateFullName
+  fullName: SuperOffice.CRM.IDocumentInfo.AssociateFullName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nFull name of the document owner\n"
+  syntax:
+    content: string AssociateFullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property AssociateFullName As String
+  overload: SuperOffice.CRM.IDocumentInfo.AssociateFullName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.AppointmentId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: IDocumentInfo.AppointmentId
+  fullName: SuperOffice.CRM.IDocumentInfo.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nPrimary key of the appointment exteding the document record.  This is NOT the appointment the document is linked to.\n"
+  syntax:
+    content: int AppointmentId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property AppointmentId As Integer
+  overload: SuperOffice.CRM.IDocumentInfo.AppointmentId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.DocumentId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: IDocumentInfo.DocumentId
+  fullName: SuperOffice.CRM.IDocumentInfo.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nPrimary key of the document record\n"
+  syntax:
+    content: int DocumentId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property DocumentId As Integer
+  overload: SuperOffice.CRM.IDocumentInfo.DocumentId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.ContactId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: IDocumentInfo.ContactId
+  fullName: SuperOffice.CRM.IDocumentInfo.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nPrimary key of the contact the document is related to\n"
+  syntax:
+    content: int ContactId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ContactId As Integer
+  overload: SuperOffice.CRM.IDocumentInfo.ContactId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.PersonId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: IDocumentInfo.PersonId
+  fullName: SuperOffice.CRM.IDocumentInfo.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nPrimary key of the person the document is related to\n"
+  syntax:
+    content: int PersonId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property PersonId As Integer
+  overload: SuperOffice.CRM.IDocumentInfo.PersonId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.ProjectId
+  commentId: P:SuperOffice.CRM.IDocumentInfo.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: IDocumentInfo.ProjectId
+  fullName: SuperOffice.CRM.IDocumentInfo.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nPrimary key of the project the document is related to\n"
+  syntax:
+    content: int ProjectId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ProjectId As Integer
+  overload: SuperOffice.CRM.IDocumentInfo.ProjectId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.ActiveDate
+  commentId: P:SuperOffice.CRM.IDocumentInfo.ActiveDate
+  id: ActiveDate
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: ActiveDate
+  nameWithType: IDocumentInfo.ActiveDate
+  fullName: SuperOffice.CRM.IDocumentInfo.ActiveDate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nActive date of the document.  <xref href=\"SuperOffice.CRM.IDocumentInfo.Registered\" data-throw-if-not-resolved=\"false\"></xref> is used in SO_ARC for calculating days\n"
+  syntax:
+    content: DateTime ActiveDate { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: ReadOnly Property ActiveDate As Date
+  overload: SuperOffice.CRM.IDocumentInfo.ActiveDate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.PublishStartDate
+  commentId: P:SuperOffice.CRM.IDocumentInfo.PublishStartDate
+  id: PublishStartDate
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: PublishStartDate
+  nameWithType: IDocumentInfo.PublishStartDate
+  fullName: SuperOffice.CRM.IDocumentInfo.PublishStartDate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nDocument, start date for publising.\n"
+  syntax:
+    content: string PublishStartDate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property PublishStartDate As String
+  overload: SuperOffice.CRM.IDocumentInfo.PublishStartDate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.PublishEndDate
+  commentId: P:SuperOffice.CRM.IDocumentInfo.PublishEndDate
+  id: PublishEndDate
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: PublishEndDate
+  nameWithType: IDocumentInfo.PublishEndDate
+  fullName: SuperOffice.CRM.IDocumentInfo.PublishEndDate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nDocument, end date for publishing.\n"
+  syntax:
+    content: string PublishEndDate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property PublishEndDate As String
+  overload: SuperOffice.CRM.IDocumentInfo.PublishEndDate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.Registered
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: IDocumentInfo.Registered
+  fullName: SuperOffice.CRM.IDocumentInfo.Registered
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe time the document record is created.  This is used to calculate the path of the document in SO_ARC\n"
+  syntax:
+    content: DateTime Registered { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: ReadOnly Property Registered As Date
+  overload: SuperOffice.CRM.IDocumentInfo.Registered*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.Name
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IDocumentInfo.Name
+  fullName: SuperOffice.CRM.IDocumentInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet or set file name, without archive path, user or period prefixes\n"
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: SuperOffice.CRM.IDocumentInfo.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.Header
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Header
+  id: Header
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: IDocumentInfo.Header
+  fullName: SuperOffice.CRM.IDocumentInfo.Header
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nVisible document name\n"
+  syntax:
+    content: string Header { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Header As String
+  overload: SuperOffice.CRM.IDocumentInfo.Header*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.Description
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Description
+  id: Description
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: IDocumentInfo.Description
+  fullName: SuperOffice.CRM.IDocumentInfo.Description
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nDescription of the document\n"
+  syntax:
+    content: string Description { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Description As String
+  overload: SuperOffice.CRM.IDocumentInfo.Description*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.OurRef
+  commentId: P:SuperOffice.CRM.IDocumentInfo.OurRef
+  id: OurRef
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: OurRef
+  nameWithType: IDocumentInfo.OurRef
+  fullName: SuperOffice.CRM.IDocumentInfo.OurRef
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nOur reference\n"
+  syntax:
+    content: string OurRef { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property OurRef As String
+  overload: SuperOffice.CRM.IDocumentInfo.OurRef*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.YourRef
+  commentId: P:SuperOffice.CRM.IDocumentInfo.YourRef
+  id: YourRef
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: YourRef
+  nameWithType: IDocumentInfo.YourRef
+  fullName: SuperOffice.CRM.IDocumentInfo.YourRef
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nYour reference\n"
+  syntax:
+    content: string YourRef { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property YourRef As String
+  overload: SuperOffice.CRM.IDocumentInfo.YourRef*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.Salutation
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Salutation
+  id: Salutation
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: Salutation
+  nameWithType: IDocumentInfo.Salutation
+  fullName: SuperOffice.CRM.IDocumentInfo.Salutation
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSalutation as entered, or created automatically from the contact (Mr/Ms and last name). \n"
+  syntax:
+    content: string Salutation { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Salutation As String
+  overload: SuperOffice.CRM.IDocumentInfo.Salutation*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.Attention
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Attention
+  id: Attention
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: Attention
+  nameWithType: IDocumentInfo.Attention
+  fullName: SuperOffice.CRM.IDocumentInfo.Attention
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSelected contact in the Document dialog or text that is specified in the Company field for a recipient of the document\n"
+  syntax:
+    content: string Attention { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Attention As String
+  overload: SuperOffice.CRM.IDocumentInfo.Attention*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.ArchiveProvider
+  commentId: P:SuperOffice.CRM.IDocumentInfo.ArchiveProvider
+  id: ArchiveProvider
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchiveProvider
+  nameWithType: IDocumentInfo.ArchiveProvider
+  fullName: SuperOffice.CRM.IDocumentInfo.ArchiveProvider
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nReference to archive provider and the Notes Link. Default = 0, this means SOArc plugin.\n"
+  syntax:
+    content: int ArchiveProvider { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ArchiveProvider As Integer
+  overload: SuperOffice.CRM.IDocumentInfo.ArchiveProvider*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.ExternalReference
+  commentId: P:SuperOffice.CRM.IDocumentInfo.ExternalReference
+  id: ExternalReference
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: ExternalReference
+  nameWithType: IDocumentInfo.ExternalReference
+  fullName: SuperOffice.CRM.IDocumentInfo.ExternalReference
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet or set external reference (notes ID, email ID, other ID used by the archive provider)\n"
+  syntax:
+    content: string ExternalReference { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ExternalReference As String
+  overload: SuperOffice.CRM.IDocumentInfo.ExternalReference*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.SerialNumber
+  commentId: P:SuperOffice.CRM.IDocumentInfo.SerialNumber
+  id: SerialNumber
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: SerialNumber
+  nameWithType: IDocumentInfo.SerialNumber
+  fullName: SuperOffice.CRM.IDocumentInfo.SerialNumber
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nAscending serial number (different for every template)\n"
+  syntax:
+    content: string SerialNumber { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property SerialNumber As String
+  overload: SuperOffice.CRM.IDocumentInfo.SerialNumber*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.LockSemantics
+  commentId: P:SuperOffice.CRM.IDocumentInfo.LockSemantics
+  id: LockSemantics
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: LockSemantics
+  nameWithType: IDocumentInfo.LockSemantics
+  fullName: SuperOffice.CRM.IDocumentInfo.LockSemantics
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nLocking semantics requested/applied to a document\n"
+  syntax:
+    content: DocumentLockSemantics LockSemantics { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Documents.DocumentLockSemantics
+    content.vb: ReadOnly Property LockSemantics As DocumentLockSemantics
+  overload: SuperOffice.CRM.IDocumentInfo.LockSemantics*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
+  commentId: P:SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
+  id: DocumentTemplateInfo
+  parent: SuperOffice.CRM.IDocumentInfo
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateInfo
+  nameWithType: IDocumentInfo.DocumentTemplateInfo
+  fullName: SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nInformation about the document template\n"
+  syntax:
+    content: IDocumentTemplateInfo DocumentTemplateInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+    content.vb: ReadOnly Property DocumentTemplateInfo As IDocumentTemplateInfo
+  overload: SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.IDocumentInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IDocumentInfo, To>()
+  nameWithType: EnumUtil.MapEnums<IDocumentInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IDocumentInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IDocumentInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IDocumentInfo, To)()
+  name.vb: MapEnums(Of IDocumentInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IDocumentInfo, To>
+    nameWithType: EnumUtil.MapEnums<IDocumentInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.IDocumentInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IDocumentInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of IDocumentInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.IDocumentInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IDocumentInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IDocumentInfo, To>()
+  nameWithType: Converters.MapEnums<IDocumentInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IDocumentInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of IDocumentInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IDocumentInfo, To)()
+  name.vb: MapEnums(Of IDocumentInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IDocumentInfo, To>
+    nameWithType: Converters.MapEnums<IDocumentInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IDocumentInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IDocumentInfo, To)
+    nameWithType: Converters.MapEnums(Of IDocumentInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IDocumentInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal
+  isExternal: true
+  name: GetUserDefinedDecimal
+  nameWithType: IDocumentInfo.GetUserDefinedDecimal
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt
+  isExternal: true
+  name: GetUserDefinedInt
+  nameWithType: IDocumentInfo.GetUserDefinedInt
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.GetUserDefinedString
+  isExternal: true
+  name: GetUserDefinedString
+  nameWithType: IDocumentInfo.GetUserDefinedString
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString
+- uid: SuperOffice.CRM.IDocumentInfo.AssociateId*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: IDocumentInfo.AssociateId
+  fullName: SuperOffice.CRM.IDocumentInfo.AssociateId
+- uid: SuperOffice.CRM.IDocumentInfo.AssociateLoginName*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.AssociateLoginName
+  isExternal: true
+  name: AssociateLoginName
+  nameWithType: IDocumentInfo.AssociateLoginName
+  fullName: SuperOffice.CRM.IDocumentInfo.AssociateLoginName
+- uid: SuperOffice.CRM.IDocumentInfo.AssociateFullName*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.AssociateFullName
+  isExternal: true
+  name: AssociateFullName
+  nameWithType: IDocumentInfo.AssociateFullName
+  fullName: SuperOffice.CRM.IDocumentInfo.AssociateFullName
+- uid: SuperOffice.CRM.IDocumentInfo.AppointmentId*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: IDocumentInfo.AppointmentId
+  fullName: SuperOffice.CRM.IDocumentInfo.AppointmentId
+- uid: SuperOffice.CRM.IDocumentInfo.DocumentId*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: IDocumentInfo.DocumentId
+  fullName: SuperOffice.CRM.IDocumentInfo.DocumentId
+- uid: SuperOffice.CRM.IDocumentInfo.ContactId*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: IDocumentInfo.ContactId
+  fullName: SuperOffice.CRM.IDocumentInfo.ContactId
+- uid: SuperOffice.CRM.IDocumentInfo.PersonId*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: IDocumentInfo.PersonId
+  fullName: SuperOffice.CRM.IDocumentInfo.PersonId
+- uid: SuperOffice.CRM.IDocumentInfo.ProjectId*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: IDocumentInfo.ProjectId
+  fullName: SuperOffice.CRM.IDocumentInfo.ProjectId
+- uid: SuperOffice.CRM.IDocumentInfo.ActiveDate*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.ActiveDate
+  isExternal: true
+  name: ActiveDate
+  nameWithType: IDocumentInfo.ActiveDate
+  fullName: SuperOffice.CRM.IDocumentInfo.ActiveDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.IDocumentInfo.PublishStartDate*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.PublishStartDate
+  isExternal: true
+  name: PublishStartDate
+  nameWithType: IDocumentInfo.PublishStartDate
+  fullName: SuperOffice.CRM.IDocumentInfo.PublishStartDate
+- uid: SuperOffice.CRM.IDocumentInfo.PublishEndDate*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.PublishEndDate
+  isExternal: true
+  name: PublishEndDate
+  nameWithType: IDocumentInfo.PublishEndDate
+  fullName: SuperOffice.CRM.IDocumentInfo.PublishEndDate
+- uid: SuperOffice.CRM.IDocumentInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: IDocumentInfo.Registered
+  fullName: SuperOffice.CRM.IDocumentInfo.Registered
+- uid: SuperOffice.CRM.IDocumentInfo.Name*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: IDocumentInfo.Name
+  fullName: SuperOffice.CRM.IDocumentInfo.Name
+- uid: SuperOffice.CRM.IDocumentInfo.Header*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.Header
+  isExternal: true
+  name: Header
+  nameWithType: IDocumentInfo.Header
+  fullName: SuperOffice.CRM.IDocumentInfo.Header
+- uid: SuperOffice.CRM.IDocumentInfo.Description*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: IDocumentInfo.Description
+  fullName: SuperOffice.CRM.IDocumentInfo.Description
+- uid: SuperOffice.CRM.IDocumentInfo.OurRef*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.OurRef
+  isExternal: true
+  name: OurRef
+  nameWithType: IDocumentInfo.OurRef
+  fullName: SuperOffice.CRM.IDocumentInfo.OurRef
+- uid: SuperOffice.CRM.IDocumentInfo.YourRef*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.YourRef
+  isExternal: true
+  name: YourRef
+  nameWithType: IDocumentInfo.YourRef
+  fullName: SuperOffice.CRM.IDocumentInfo.YourRef
+- uid: SuperOffice.CRM.IDocumentInfo.Salutation*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.Salutation
+  isExternal: true
+  name: Salutation
+  nameWithType: IDocumentInfo.Salutation
+  fullName: SuperOffice.CRM.IDocumentInfo.Salutation
+- uid: SuperOffice.CRM.IDocumentInfo.Attention*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.Attention
+  isExternal: true
+  name: Attention
+  nameWithType: IDocumentInfo.Attention
+  fullName: SuperOffice.CRM.IDocumentInfo.Attention
+- uid: SuperOffice.CRM.IDocumentInfo.ArchiveProvider*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.ArchiveProvider
+  isExternal: true
+  name: ArchiveProvider
+  nameWithType: IDocumentInfo.ArchiveProvider
+  fullName: SuperOffice.CRM.IDocumentInfo.ArchiveProvider
+- uid: SuperOffice.CRM.IDocumentInfo.ExternalReference*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.ExternalReference
+  isExternal: true
+  name: ExternalReference
+  nameWithType: IDocumentInfo.ExternalReference
+  fullName: SuperOffice.CRM.IDocumentInfo.ExternalReference
+- uid: SuperOffice.CRM.IDocumentInfo.SerialNumber*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.SerialNumber
+  isExternal: true
+  name: SerialNumber
+  nameWithType: IDocumentInfo.SerialNumber
+  fullName: SuperOffice.CRM.IDocumentInfo.SerialNumber
+- uid: SuperOffice.CRM.IDocumentInfo.LockSemantics*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.LockSemantics
+  isExternal: true
+  name: LockSemantics
+  nameWithType: IDocumentInfo.LockSemantics
+  fullName: SuperOffice.CRM.IDocumentInfo.LockSemantics
+- uid: SuperOffice.CRM.Documents.DocumentLockSemantics
+  commentId: T:SuperOffice.CRM.Documents.DocumentLockSemantics
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: DocumentLockSemantics
+  nameWithType: DocumentLockSemantics
+  fullName: SuperOffice.CRM.Documents.DocumentLockSemantics
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo*
+  commentId: Overload:SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
+  isExternal: true
+  name: DocumentTemplateInfo
+  nameWithType: IDocumentInfo.DocumentTemplateInfo
+  fullName: SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
+- uid: SuperOffice.CRM.IDocumentTemplateInfo
+  commentId: T:SuperOffice.CRM.IDocumentTemplateInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IDocumentTemplateInfo
+  nameWithType: IDocumentTemplateInfo
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo

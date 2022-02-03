@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation
+  commentId: T:SuperOffice.WebApi.Data.FieldInfoRelation
+  id: FieldInfoRelation
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FieldInfoRelation.#ctor
+  - SuperOffice.WebApi.Data.FieldInfoRelation.DefaultValue
+  - SuperOffice.WebApi.Data.FieldInfoRelation.MdoListName
+  - SuperOffice.WebApi.Data.FieldInfoRelation.TargetLabel
+  - SuperOffice.WebApi.Data.FieldInfoRelation.TargetTable
+  - SuperOffice.WebApi.Data.FieldInfoRelation.UseDropDown
+  langs:
+  - csharp
+  - vb
+  name: FieldInfoRelation
+  nameWithType: FieldInfoRelation
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for FieldInfoRelation.\nRelation to other table database field.    \n"
+  syntax:
+    content: 'public class FieldInfoRelation : FieldInfoBase'
+    content.vb: >-
+      Public Class FieldInfoRelation
+          Inherits FieldInfoBase
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.FieldInfoBase
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  - SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  - SuperOffice.WebApi.Data.FieldInfoBase.Description
+  - SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  - SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  - SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  - SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  - SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FieldInfoRelation.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: FieldInfoRelation()
+  nameWithType: FieldInfoRelation.FieldInfoRelation()
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.FieldInfoRelation()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public FieldInfoRelation()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FieldInfoRelation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.DefaultValue
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoRelation.DefaultValue
+  id: DefaultValue
+  parent: SuperOffice.WebApi.Data.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: FieldInfoRelation.DefaultValue
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.DefaultValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault record id.\n"
+  syntax:
+    content: public virtual int DefaultValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DefaultValue As Integer
+  overload: SuperOffice.WebApi.Data.FieldInfoRelation.DefaultValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.TargetTable
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoRelation.TargetTable
+  id: TargetTable
+  parent: SuperOffice.WebApi.Data.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: TargetTable
+  nameWithType: FieldInfoRelation.TargetTable
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.TargetTable
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of target table: &apos;contact&apos;, &apos;y_equipment&apos;\n"
+  syntax:
+    content: public virtual string TargetTable { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TargetTable As String
+  overload: SuperOffice.WebApi.Data.FieldInfoRelation.TargetTable*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.TargetLabel
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoRelation.TargetLabel
+  id: TargetLabel
+  parent: SuperOffice.WebApi.Data.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: TargetLabel
+  nameWithType: FieldInfoRelation.TargetLabel
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.TargetLabel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay name on target entity.\n"
+  syntax:
+    content: public virtual string TargetLabel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TargetLabel As String
+  overload: SuperOffice.WebApi.Data.FieldInfoRelation.TargetLabel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.UseDropDown
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoRelation.UseDropDown
+  id: UseDropDown
+  parent: SuperOffice.WebApi.Data.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: UseDropDown
+  nameWithType: FieldInfoRelation.UseDropDown
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.UseDropDown
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShow as dropdown list on target?\n"
+  syntax:
+    content: public virtual bool UseDropDown { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseDropDown As Boolean
+  overload: SuperOffice.WebApi.Data.FieldInfoRelation.UseDropDown*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.MdoListName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoRelation.MdoListName
+  id: MdoListName
+  parent: SuperOffice.WebApi.Data.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: MdoListName
+  nameWithType: FieldInfoRelation.MdoListName
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.MdoListName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMDO list name used to populate this list. (Read-only - derived from TargetTable)\n"
+  syntax:
+    content: public virtual string MdoListName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MdoListName As String
+  overload: SuperOffice.WebApi.Data.FieldInfoRelation.MdoListName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.FieldInfoBase
+  commentId: T:SuperOffice.WebApi.Data.FieldInfoBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FieldInfoBase
+  nameWithType: FieldInfoBase
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldType_String
+  nameWithType: FieldInfoBase.FieldType_String
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldType
+  nameWithType: FieldInfoBase.FieldType
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldName
+  nameWithType: FieldInfoBase.FieldName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: DisplayName
+  nameWithType: FieldInfoBase.DisplayName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.Description
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.Description
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: Description
+  nameWithType: FieldInfoBase.Description
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.Description
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: ShortLabel
+  nameWithType: FieldInfoBase.ShortLabel
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: HideLabel
+  nameWithType: FieldInfoBase.HideLabel
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: HideField
+  nameWithType: FieldInfoBase.HideField
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.HideField
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsIndexed
+  nameWithType: FieldInfoBase.IsIndexed
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsMandatory
+  nameWithType: FieldInfoBase.IsMandatory
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: FieldInfoBase.IsReadOnly
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsExternal
+  nameWithType: FieldInfoBase.IsExternal
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: Rank
+  nameWithType: FieldInfoBase.Rank
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.Rank
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: TemplateVariableName
+  nameWithType: FieldInfoBase.TemplateVariableName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+- uid: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  isExternal: true
+  name: UserDefinedFieldInfoAgent
+  nameWithType: UserDefinedFieldInfoAgent
+  fullName: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoRelation.#ctor
+  isExternal: true
+  name: FieldInfoRelation
+  nameWithType: FieldInfoRelation.FieldInfoRelation
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.FieldInfoRelation
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.DefaultValue*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoRelation.DefaultValue
+  isExternal: true
+  name: DefaultValue
+  nameWithType: FieldInfoRelation.DefaultValue
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.DefaultValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.TargetTable*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoRelation.TargetTable
+  isExternal: true
+  name: TargetTable
+  nameWithType: FieldInfoRelation.TargetTable
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.TargetTable
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.TargetLabel*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoRelation.TargetLabel
+  isExternal: true
+  name: TargetLabel
+  nameWithType: FieldInfoRelation.TargetLabel
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.TargetLabel
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.UseDropDown*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoRelation.UseDropDown
+  isExternal: true
+  name: UseDropDown
+  nameWithType: FieldInfoRelation.UseDropDown
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.UseDropDown
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.FieldInfoRelation.MdoListName*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoRelation.MdoListName
+  isExternal: true
+  name: MdoListName
+  nameWithType: FieldInfoRelation.MdoListName
+  fullName: SuperOffice.WebApi.Data.FieldInfoRelation.MdoListName

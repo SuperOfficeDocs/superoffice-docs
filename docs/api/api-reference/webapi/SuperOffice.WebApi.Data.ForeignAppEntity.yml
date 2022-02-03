@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity
+  commentId: T:SuperOffice.WebApi.Data.ForeignAppEntity
+  id: ForeignAppEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ForeignAppEntity.#ctor
+  - SuperOffice.WebApi.Data.ForeignAppEntity.CreatedBy
+  - SuperOffice.WebApi.Data.ForeignAppEntity.CreatedDate
+  - SuperOffice.WebApi.Data.ForeignAppEntity.Devices
+  - SuperOffice.WebApi.Data.ForeignAppEntity.ForeignAppId
+  - SuperOffice.WebApi.Data.ForeignAppEntity.Name
+  - SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedBy
+  - SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedDate
+  langs:
+  - csharp
+  - vb
+  name: ForeignAppEntity
+  nameWithType: ForeignAppEntity
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ForeignAppEntity.\n\n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All ForeignAppEntity: <pre><code>&quot;ForeignKeys&quot;</code></pre>
+  example:
+  - "\nGet ForeignAppEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ForeignSystemAgent(configuration);\nvar foreignAppEntity = agent.GetForeignAppEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ForeignAppEntity : Carrier'
+    content.vb: >-
+      Public Class ForeignAppEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ForeignSystemAgent
+    commentId: T:SuperOffice.WebApi.Agents.ForeignSystemAgent
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  - linkId: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+    commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ForeignAppEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ForeignAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ForeignAppEntity()
+  nameWithType: ForeignAppEntity.ForeignAppEntity()
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.ForeignAppEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ForeignAppEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ForeignAppEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.ForeignAppId
+  commentId: P:SuperOffice.WebApi.Data.ForeignAppEntity.ForeignAppId
+  id: ForeignAppId
+  parent: SuperOffice.WebApi.Data.ForeignAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ForeignAppId
+  nameWithType: ForeignAppEntity.ForeignAppId
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.ForeignAppId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ForeignAppId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ForeignAppId As Integer
+  overload: SuperOffice.WebApi.Data.ForeignAppEntity.ForeignAppId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.ForeignAppEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ForeignAppEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ForeignAppEntity.Name
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of foreign application\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ForeignAppEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.CreatedDate
+  commentId: P:SuperOffice.WebApi.Data.ForeignAppEntity.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.WebApi.Data.ForeignAppEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: ForeignAppEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.ForeignAppEntity.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedDate
+  commentId: P:SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.WebApi.Data.ForeignAppEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: ForeignAppEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.ForeignAppEntity.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.ForeignAppEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: ForeignAppEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person that created the foreign application.\n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.WebApi.Data.ForeignAppEntity.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.ForeignAppEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: ForeignAppEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person that last updated this foreign application.\n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.Devices
+  commentId: P:SuperOffice.WebApi.Data.ForeignAppEntity.Devices
+  id: Devices
+  parent: SuperOffice.WebApi.Data.ForeignAppEntity
+  langs:
+  - csharp
+  - vb
+  name: Devices
+  nameWithType: ForeignAppEntity.Devices
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.Devices
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe devices that belong to this foreign app.\n"
+  syntax:
+    content: public virtual ForeignDevice[] Devices { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ForeignDevice[]
+    content.vb: Public Overridable Property Devices As ForeignDevice()
+  overload: SuperOffice.WebApi.Data.ForeignAppEntity.Devices*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  commentId: T:SuperOffice.WebApi.Agents.ForeignSystemAgent
+  isExternal: true
+  name: ForeignSystemAgent
+  nameWithType: ForeignSystemAgent
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignAppEntity.#ctor
+  isExternal: true
+  name: ForeignAppEntity
+  nameWithType: ForeignAppEntity.ForeignAppEntity
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.ForeignAppEntity
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.ForeignAppId*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignAppEntity.ForeignAppId
+  isExternal: true
+  name: ForeignAppId
+  nameWithType: ForeignAppEntity.ForeignAppId
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.ForeignAppId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignAppEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: ForeignAppEntity.Name
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.CreatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignAppEntity.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: ForeignAppEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.CreatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: ForeignAppEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedDate
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignAppEntity.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: ForeignAppEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.CreatedBy
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: ForeignAppEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.UpdatedBy
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity.Devices*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignAppEntity.Devices
+  isExternal: true
+  name: Devices
+  nameWithType: ForeignAppEntity.Devices
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity.Devices
+- uid: SuperOffice.WebApi.Data.ForeignDevice[]
+  isExternal: true
+  name: ForeignDevice[]
+  nameWithType: ForeignDevice[]
+  fullName: SuperOffice.WebApi.Data.ForeignDevice[]
+  nameWithType.vb: ForeignDevice()
+  fullName.vb: SuperOffice.WebApi.Data.ForeignDevice()
+  name.vb: ForeignDevice()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.WebApi.Data.ForeignDevice
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.WebApi.Data.ForeignDevice
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

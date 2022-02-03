@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest
+  id: Selection_RemoveContactSelectionMembersRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.ContactPersonIds
+  - SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.SelectionId
+  langs:
+  - csharp
+  - vb
+  name: Selection_RemoveContactSelectionMembersRequest
+  nameWithType: Selection_RemoveContactSelectionMembersRequest
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_RemoveContactSelectionMembersRequest : Object'
+    content.vb: >-
+      Public Class Selection_RemoveContactSelectionMembersRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_RemoveContactSelectionMembersRequest()
+  nameWithType: Selection_RemoveContactSelectionMembersRequest.Selection_RemoveContactSelectionMembersRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.Selection_RemoveContactSelectionMembersRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_RemoveContactSelectionMembersRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_RemoveContactSelectionMembersRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.ContactPersonIds
+  commentId: P:SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.ContactPersonIds
+  id: ContactPersonIds
+  parent: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactPersonIds
+  nameWithType: Selection_RemoveContactSelectionMembersRequest.ContactPersonIds
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.ContactPersonIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ContactPersonId[] ContactPersonIds { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ContactPersonId[]
+    content.vb: Public Property ContactPersonIds As ContactPersonId()
+  overload: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.ContactPersonIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.#ctor
+  isExternal: true
+  name: Selection_RemoveContactSelectionMembersRequest
+  nameWithType: Selection_RemoveContactSelectionMembersRequest.Selection_RemoveContactSelectionMembersRequest
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.Selection_RemoveContactSelectionMembersRequest
+- uid: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_RemoveContactSelectionMembersRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.ContactPersonIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.ContactPersonIds
+  isExternal: true
+  name: ContactPersonIds
+  nameWithType: Selection_RemoveContactSelectionMembersRequest.ContactPersonIds
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveContactSelectionMembersRequest.ContactPersonIds
+- uid: SuperOffice.WebApi.Data.ContactPersonId[]
+  isExternal: true
+  name: ContactPersonId[]
+  nameWithType: ContactPersonId[]
+  fullName: SuperOffice.WebApi.Data.ContactPersonId[]
+  nameWithType.vb: ContactPersonId()
+  fullName.vb: SuperOffice.WebApi.Data.ContactPersonId()
+  name.vb: ContactPersonId()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ContactPersonId
+    name: ContactPersonId
+    nameWithType: ContactPersonId
+    fullName: SuperOffice.WebApi.Data.ContactPersonId
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ContactPersonId
+    name: ContactPersonId
+    nameWithType: ContactPersonId
+    fullName: SuperOffice.WebApi.Data.ContactPersonId
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,1201 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS
+  commentId: T:SuperOffice.ErpSync.FieldMetadataInfoWS
+  id: FieldMetadataInfoWS
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.#ctor
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.Access
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.DefaultValue
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayDescription
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayName
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.FieldKey
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.FieldType
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.ListName
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.MaxLength
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.Rank
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.ToString
+  langs:
+  - csharp
+  - vb
+  name: FieldMetadataInfoWS
+  nameWithType: FieldMetadataInfoWS
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nThis carrier describes a custom field to be added to the config dialog at runtime. \nIt is used to populate the Admin configuration dialog for a connection.\nNote that this is just a description of the field - it is not the field itself.\nThe GUI will use this info to build the user interface controls. The call to the \nERP Connector’s GetConfigurationFields method returns a list of fields and field types. \nThe Admin client builds a dialog with these fields.\n"
+  syntax:
+    content: public class FieldMetadataInfoWS
+    content.vb: Public Class FieldMetadataInfoWS
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.EnumUtil.MapEnums``2
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.ErpSync.FieldMetadataInfoWS.SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.ToString
+  commentId: M:SuperOffice.ErpSync.FieldMetadataInfoWS.ToString
+  id: ToString
+  parent: SuperOffice.ErpSync.FieldMetadataInfoWS
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FieldMetadataInfoWS.ToString()
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nOverride: Useful ToString for debugging\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.ErpSync.FieldMetadataInfoWS.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.#ctor
+  commentId: M:SuperOffice.ErpSync.FieldMetadataInfoWS.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.FieldMetadataInfoWS
+  langs:
+  - csharp
+  - vb
+  name: FieldMetadataInfoWS()
+  nameWithType: FieldMetadataInfoWS.FieldMetadataInfoWS()
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldMetadataInfoWS()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public FieldMetadataInfoWS()
+    content.vb: Public Sub New
+  overload: SuperOffice.ErpSync.FieldMetadataInfoWS.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldKey
+  commentId: P:SuperOffice.ErpSync.FieldMetadataInfoWS.FieldKey
+  id: FieldKey
+  parent: SuperOffice.ErpSync.FieldMetadataInfoWS
+  langs:
+  - csharp
+  - vb
+  name: FieldKey
+  nameWithType: FieldMetadataInfoWS.FieldKey
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldKey
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nInternal name of the field. Used as the key in the ConnectionConfigFieldInfo values when TestConnection is called.\n"
+  syntax:
+    content: public string FieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FieldKey As String
+  overload: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayName
+  commentId: P:SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayName
+  id: DisplayName
+  parent: SuperOffice.ErpSync.FieldMetadataInfoWS
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: FieldMetadataInfoWS.DisplayName
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nLocalized field name – shown in the GUI as the label for the control.\n"
+  syntax:
+    content: public string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayName As String
+  overload: SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayDescription
+  commentId: P:SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayDescription
+  id: DisplayDescription
+  parent: SuperOffice.ErpSync.FieldMetadataInfoWS
+  langs:
+  - csharp
+  - vb
+  name: DisplayDescription
+  nameWithType: FieldMetadataInfoWS.DisplayDescription
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayDescription
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nTooltip for the field name.\n"
+  syntax:
+    content: public string DisplayDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayDescription As String
+  overload: SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldType
+  commentId: P:SuperOffice.ErpSync.FieldMetadataInfoWS.FieldType
+  id: FieldType
+  parent: SuperOffice.ErpSync.FieldMetadataInfoWS
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: FieldMetadataInfoWS.FieldType
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldType
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nKind of field widget to use: textbox, number field, password field, dropdown list or checkbox?\n"
+  syntax:
+    content: public FieldMetadataTypeInfoWS FieldType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+    content.vb: Public Property FieldType As FieldMetadataTypeInfoWS
+  overload: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.ListName
+  commentId: P:SuperOffice.ErpSync.FieldMetadataInfoWS.ListName
+  id: ListName
+  parent: SuperOffice.ErpSync.FieldMetadataInfoWS
+  langs:
+  - csharp
+  - vb
+  name: ListName
+  nameWithType: FieldMetadataInfoWS.ListName
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.ListName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nUsed for getting the list items from the list provider. The source of the items are ultimately be accessed via\n<xref href=\"SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SuperOffice.CRM.IErpConnector.GetList(System.Guid%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref>, through various naming conventions and adapters. The actual Quote and ERP Connectors\nsolve this in slightly different ways.\n"
+  syntax:
+    content: public string ListName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ListName As String
+  overload: SuperOffice.ErpSync.FieldMetadataInfoWS.ListName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.DefaultValue
+  commentId: P:SuperOffice.ErpSync.FieldMetadataInfoWS.DefaultValue
+  id: DefaultValue
+  parent: SuperOffice.ErpSync.FieldMetadataInfoWS
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: FieldMetadataInfoWS.DefaultValue
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.DefaultValue
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nA default value for the field. The value in the widget when the configure dialog is opened in Add Connection mode.\nThis will vary a bit depending on the type, of course.\nObviously, if the field is a label, text or password, then the text is used.\n<p></p>\nIf the field is an int or double, we shall try to convert the string into a number. \n(If the conversion fails, we shall use zero or 0.00 as the default value.)\n<p></p>\nIf the field is a list, we shall try to find a list item where the fields default value matches the listsitem’s ERPQuoteListItemKey.\n"
+  syntax:
+    content: public string DefaultValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DefaultValue As String
+  overload: SuperOffice.ErpSync.FieldMetadataInfoWS.DefaultValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.Rank
+  commentId: P:SuperOffice.ErpSync.FieldMetadataInfoWS.Rank
+  id: Rank
+  parent: SuperOffice.ErpSync.FieldMetadataInfoWS
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: FieldMetadataInfoWS.Rank
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.Rank
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nA way to set the order of the fields. Lowest value will be displayed first/over the fields with other values.\nDuplicate ranks are not allowed.\n"
+  syntax:
+    content: public int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Rank As Integer
+  overload: SuperOffice.ErpSync.FieldMetadataInfoWS.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.MaxLength
+  commentId: P:SuperOffice.ErpSync.FieldMetadataInfoWS.MaxLength
+  id: MaxLength
+  parent: SuperOffice.ErpSync.FieldMetadataInfoWS
+  langs:
+  - csharp
+  - vb
+  name: MaxLength
+  nameWithType: FieldMetadataInfoWS.MaxLength
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.MaxLength
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nMaximum length for strings, if set. \n0 means no restriction (though sooner or later <strong>something</strong> will no doubt overflow if you pile on the gigabytes)\n"
+  syntax:
+    content: public int MaxLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxLength As Integer
+  overload: SuperOffice.ErpSync.FieldMetadataInfoWS.MaxLength*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.Access
+  commentId: P:SuperOffice.ErpSync.FieldMetadataInfoWS.Access
+  id: Access
+  parent: SuperOffice.ErpSync.FieldMetadataInfoWS
+  langs:
+  - csharp
+  - vb
+  name: Access
+  nameWithType: FieldMetadataInfoWS.Access
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.Access
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nAccess restrictions on the field\n"
+  syntax:
+    content: public FieldAccessInfoWS Access { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.ErpSync.FieldAccessInfoWS
+    content.vb: Public Property Access As FieldAccessInfoWS
+  overload: SuperOffice.ErpSync.FieldMetadataInfoWS.Access*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FieldMetadataInfoWS, To>()
+  nameWithType: EnumUtil.MapEnums<FieldMetadataInfoWS, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.FieldMetadataInfoWS, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FieldMetadataInfoWS, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.FieldMetadataInfoWS, To)()
+  name.vb: MapEnums(Of FieldMetadataInfoWS, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FieldMetadataInfoWS, To>
+    nameWithType: EnumUtil.MapEnums<FieldMetadataInfoWS, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.FieldMetadataInfoWS, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FieldMetadataInfoWS, To)
+    nameWithType: EnumUtil.MapEnums(Of FieldMetadataInfoWS, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.FieldMetadataInfoWS, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<FieldMetadataInfoWS>(FieldMetadataInfoWS)
+  nameWithType: ObjectExtensions.AssignByReflection<FieldMetadataInfoWS>(FieldMetadataInfoWS)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.FieldMetadataInfoWS>(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FieldMetadataInfoWS)(FieldMetadataInfoWS)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.FieldMetadataInfoWS)(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  name.vb: AssignByReflection(Of FieldMetadataInfoWS)(FieldMetadataInfoWS)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<FieldMetadataInfoWS>
+    nameWithType: ObjectExtensions.AssignByReflection<FieldMetadataInfoWS>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.FieldMetadataInfoWS>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.FieldMetadataInfoWS
+    name: FieldMetadataInfoWS
+    nameWithType: FieldMetadataInfoWS
+    fullName: SuperOffice.ErpSync.FieldMetadataInfoWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of FieldMetadataInfoWS)
+    nameWithType: ObjectExtensions.AssignByReflection(Of FieldMetadataInfoWS)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.FieldMetadataInfoWS)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.FieldMetadataInfoWS
+    name: FieldMetadataInfoWS
+    nameWithType: FieldMetadataInfoWS
+    fullName: SuperOffice.ErpSync.FieldMetadataInfoWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<FieldMetadataInfoWS>()
+  nameWithType: ObjectExtensions.GraphCopy<FieldMetadataInfoWS>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.FieldMetadataInfoWS>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FieldMetadataInfoWS)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.FieldMetadataInfoWS)()
+  name.vb: GraphCopy(Of FieldMetadataInfoWS)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<FieldMetadataInfoWS>
+    nameWithType: ObjectExtensions.GraphCopy<FieldMetadataInfoWS>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.FieldMetadataInfoWS>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of FieldMetadataInfoWS)
+    nameWithType: ObjectExtensions.GraphCopy(Of FieldMetadataInfoWS)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.FieldMetadataInfoWS)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FieldMetadataInfoWS, To>()
+  nameWithType: Converters.MapEnums<FieldMetadataInfoWS, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.FieldMetadataInfoWS, To>()
+  nameWithType.vb: Converters.MapEnums(Of FieldMetadataInfoWS, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.FieldMetadataInfoWS, To)()
+  name.vb: MapEnums(Of FieldMetadataInfoWS, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FieldMetadataInfoWS, To>
+    nameWithType: Converters.MapEnums<FieldMetadataInfoWS, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.FieldMetadataInfoWS, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FieldMetadataInfoWS, To)
+    nameWithType: Converters.MapEnums(Of FieldMetadataInfoWS, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.FieldMetadataInfoWS, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  name: ToPlugin()
+  nameWithType: Converters.ToPlugin()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  isExternal: true
+  name: ToPlugin(FieldMetadataInfoWS)
+  nameWithType: Converters.ToPlugin(FieldMetadataInfoWS)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.FieldMetadataInfoWS
+    name: FieldMetadataInfoWS
+    nameWithType: FieldMetadataInfoWS
+    fullName: SuperOffice.ErpSync.FieldMetadataInfoWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.FieldMetadataInfoWS
+    name: FieldMetadataInfoWS
+    nameWithType: FieldMetadataInfoWS
+    fullName: SuperOffice.ErpSync.FieldMetadataInfoWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.ToString*
+  commentId: Overload:SuperOffice.ErpSync.FieldMetadataInfoWS.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FieldMetadataInfoWS.ToString
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.FieldMetadataInfoWS.#ctor
+  isExternal: true
+  name: FieldMetadataInfoWS
+  nameWithType: FieldMetadataInfoWS.FieldMetadataInfoWS
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldMetadataInfoWS
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldKey*
+  commentId: Overload:SuperOffice.ErpSync.FieldMetadataInfoWS.FieldKey
+  isExternal: true
+  name: FieldKey
+  nameWithType: FieldMetadataInfoWS.FieldKey
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldKey
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayName*
+  commentId: Overload:SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: FieldMetadataInfoWS.DisplayName
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayName
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayDescription*
+  commentId: Overload:SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayDescription
+  isExternal: true
+  name: DisplayDescription
+  nameWithType: FieldMetadataInfoWS.DisplayDescription
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.DisplayDescription
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldType*
+  commentId: Overload:SuperOffice.ErpSync.FieldMetadataInfoWS.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: FieldMetadataInfoWS.FieldType
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.FieldType
+- uid: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+  commentId: T:SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: FieldMetadataTypeInfoWS
+  nameWithType: FieldMetadataTypeInfoWS
+  fullName: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.ListName*
+  commentId: Overload:SuperOffice.ErpSync.FieldMetadataInfoWS.ListName
+  isExternal: true
+  name: ListName
+  nameWithType: FieldMetadataInfoWS.ListName
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.ListName
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.DefaultValue*
+  commentId: Overload:SuperOffice.ErpSync.FieldMetadataInfoWS.DefaultValue
+  isExternal: true
+  name: DefaultValue
+  nameWithType: FieldMetadataInfoWS.DefaultValue
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.DefaultValue
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.Rank*
+  commentId: Overload:SuperOffice.ErpSync.FieldMetadataInfoWS.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: FieldMetadataInfoWS.Rank
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.Rank
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.MaxLength*
+  commentId: Overload:SuperOffice.ErpSync.FieldMetadataInfoWS.MaxLength
+  isExternal: true
+  name: MaxLength
+  nameWithType: FieldMetadataInfoWS.MaxLength
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.MaxLength
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS.Access*
+  commentId: Overload:SuperOffice.ErpSync.FieldMetadataInfoWS.Access
+  isExternal: true
+  name: Access
+  nameWithType: FieldMetadataInfoWS.Access
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS.Access
+- uid: SuperOffice.ErpSync.FieldAccessInfoWS
+  commentId: T:SuperOffice.ErpSync.FieldAccessInfoWS
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: FieldAccessInfoWS
+  nameWithType: FieldAccessInfoWS
+  fullName: SuperOffice.ErpSync.FieldAccessInfoWS

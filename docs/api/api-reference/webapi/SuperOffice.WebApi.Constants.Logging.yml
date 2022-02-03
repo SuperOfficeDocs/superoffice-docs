@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Constants.Logging
+  commentId: T:SuperOffice.WebApi.Constants.Logging
+  id: Constants.Logging
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.Constants.Logging.LibraryName
+  langs:
+  - csharp
+  - vb
+  name: Constants.Logging
+  nameWithType: Constants.Logging
+  fullName: SuperOffice.WebApi.Constants.Logging
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nLogging constants.\n"
+  syntax:
+    content: 'public static class Logging : Object'
+    content.vb: >-
+      Public Module Logging
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Constants.Logging.LibraryName
+  commentId: F:SuperOffice.WebApi.Constants.Logging.LibraryName
+  id: LibraryName
+  parent: SuperOffice.WebApi.Constants.Logging
+  langs:
+  - csharp
+  - vb
+  name: LibraryName
+  nameWithType: Constants.Logging.LibraryName
+  fullName: SuperOffice.WebApi.Constants.Logging.LibraryName
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string LibraryName = "SuperOffice.WebApi"
+    return:
+      type: System.String
+    content.vb: Public Const LibraryName As String = "SuperOffice.WebApi"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

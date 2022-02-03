@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest
+  commentId: T:SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest
+  id: TimeZone_ToggleActiveTimeZoneRowRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.#ctor
+  - SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.Id
+  langs:
+  - csharp
+  - vb
+  name: TimeZone_ToggleActiveTimeZoneRowRequest
+  nameWithType: TimeZone_ToggleActiveTimeZoneRowRequest
+  fullName: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class TimeZone_ToggleActiveTimeZoneRowRequest : Object'
+    content.vb: >-
+      Public Class TimeZone_ToggleActiveTimeZoneRowRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest
+  langs:
+  - csharp
+  - vb
+  name: TimeZone_ToggleActiveTimeZoneRowRequest()
+  nameWithType: TimeZone_ToggleActiveTimeZoneRowRequest.TimeZone_ToggleActiveTimeZoneRowRequest()
+  fullName: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.TimeZone_ToggleActiveTimeZoneRowRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TimeZone_ToggleActiveTimeZoneRowRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TimeZone_ToggleActiveTimeZoneRowRequest.Id
+  fullName: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.#ctor
+  isExternal: true
+  name: TimeZone_ToggleActiveTimeZoneRowRequest
+  nameWithType: TimeZone_ToggleActiveTimeZoneRowRequest.TimeZone_ToggleActiveTimeZoneRowRequest
+  fullName: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.TimeZone_ToggleActiveTimeZoneRowRequest
+- uid: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: TimeZone_ToggleActiveTimeZoneRowRequest.Id
+  fullName: SuperOffice.WebApi.Data.TimeZone_ToggleActiveTimeZoneRowRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

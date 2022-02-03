@@ -1,0 +1,447 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PersonSummary
+  commentId: T:SuperOffice.WebApi.Data.PersonSummary
+  id: PersonSummary
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PersonSummary.#ctor
+  - SuperOffice.WebApi.Data.PersonSummary.Chats
+  - SuperOffice.WebApi.Data.PersonSummary.Documents
+  - SuperOffice.WebApi.Data.PersonSummary.Followups
+  - SuperOffice.WebApi.Data.PersonSummary.Person
+  - SuperOffice.WebApi.Data.PersonSummary.Sales
+  - SuperOffice.WebApi.Data.PersonSummary.Tickets
+  langs:
+  - csharp
+  - vb
+  name: PersonSummary
+  nameWithType: PersonSummary
+  fullName: SuperOffice.WebApi.Data.PersonSummary
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PersonSummary.\nSummary of person, with recent activities, chats, and requests included.    \n"
+  syntax:
+    content: 'public class PersonSummary : Object'
+    content.vb: >-
+      Public Class PersonSummary
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PersonAgent
+    commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PersonSummary.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PersonSummary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PersonSummary
+  langs:
+  - csharp
+  - vb
+  name: PersonSummary()
+  nameWithType: PersonSummary.PersonSummary()
+  fullName: SuperOffice.WebApi.Data.PersonSummary.PersonSummary()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PersonSummary()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PersonSummary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PersonSummary.Person
+  commentId: P:SuperOffice.WebApi.Data.PersonSummary.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data.PersonSummary
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: PersonSummary.Person
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Person
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSimple Person data.\n"
+  syntax:
+    content: public virtual Person Person { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Person
+    content.vb: Public Overridable Property Person As Person
+  overload: SuperOffice.WebApi.Data.PersonSummary.Person*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonSummary.Tickets
+  commentId: P:SuperOffice.WebApi.Data.PersonSummary.Tickets
+  id: Tickets
+  parent: SuperOffice.WebApi.Data.PersonSummary
+  langs:
+  - csharp
+  - vb
+  name: Tickets
+  nameWithType: PersonSummary.Tickets
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Tickets
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecent tickets on person\n"
+  syntax:
+    content: public virtual TicketSummaryItem[] Tickets { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketSummaryItem[]
+    content.vb: Public Overridable Property Tickets As TicketSummaryItem()
+  overload: SuperOffice.WebApi.Data.PersonSummary.Tickets*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonSummary.Followups
+  commentId: P:SuperOffice.WebApi.Data.PersonSummary.Followups
+  id: Followups
+  parent: SuperOffice.WebApi.Data.PersonSummary
+  langs:
+  - csharp
+  - vb
+  name: Followups
+  nameWithType: PersonSummary.Followups
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Followups
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecent follow-ups on person\n"
+  syntax:
+    content: public virtual ActivitySummaryItem[] Followups { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ActivitySummaryItem[]
+    content.vb: Public Overridable Property Followups As ActivitySummaryItem()
+  overload: SuperOffice.WebApi.Data.PersonSummary.Followups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonSummary.Documents
+  commentId: P:SuperOffice.WebApi.Data.PersonSummary.Documents
+  id: Documents
+  parent: SuperOffice.WebApi.Data.PersonSummary
+  langs:
+  - csharp
+  - vb
+  name: Documents
+  nameWithType: PersonSummary.Documents
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Documents
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecent documents on person\n"
+  syntax:
+    content: public virtual ActivitySummaryItem[] Documents { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ActivitySummaryItem[]
+    content.vb: Public Overridable Property Documents As ActivitySummaryItem()
+  overload: SuperOffice.WebApi.Data.PersonSummary.Documents*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonSummary.Sales
+  commentId: P:SuperOffice.WebApi.Data.PersonSummary.Sales
+  id: Sales
+  parent: SuperOffice.WebApi.Data.PersonSummary
+  langs:
+  - csharp
+  - vb
+  name: Sales
+  nameWithType: PersonSummary.Sales
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Sales
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecent sales on person\n"
+  syntax:
+    content: public virtual SaleSummaryItem[] Sales { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SaleSummaryItem[]
+    content.vb: Public Overridable Property Sales As SaleSummaryItem()
+  overload: SuperOffice.WebApi.Data.PersonSummary.Sales*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonSummary.Chats
+  commentId: P:SuperOffice.WebApi.Data.PersonSummary.Chats
+  id: Chats
+  parent: SuperOffice.WebApi.Data.PersonSummary
+  langs:
+  - csharp
+  - vb
+  name: Chats
+  nameWithType: PersonSummary.Chats
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Chats
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecent chats with person\n"
+  syntax:
+    content: public virtual ChatSummaryItem[] Chats { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ChatSummaryItem[]
+    content.vb: Public Overridable Property Chats As ChatSummaryItem()
+  overload: SuperOffice.WebApi.Data.PersonSummary.Chats*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.PersonAgent
+  commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  isExternal: true
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.WebApi.Agents.PersonAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PersonSummary.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.#ctor
+  isExternal: true
+  name: PersonSummary
+  nameWithType: PersonSummary.PersonSummary
+  fullName: SuperOffice.WebApi.Data.PersonSummary.PersonSummary
+- uid: SuperOffice.WebApi.Data.PersonSummary.Person*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Person
+  isExternal: true
+  name: Person
+  nameWithType: PersonSummary.Person
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Person
+- uid: SuperOffice.WebApi.Data.Person
+  commentId: T:SuperOffice.WebApi.Data.Person
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.WebApi.Data.Person
+- uid: SuperOffice.WebApi.Data.PersonSummary.Tickets*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Tickets
+  isExternal: true
+  name: Tickets
+  nameWithType: PersonSummary.Tickets
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Tickets
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem[]
+  isExternal: true
+  name: TicketSummaryItem[]
+  nameWithType: TicketSummaryItem[]
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem[]
+  nameWithType.vb: TicketSummaryItem()
+  fullName.vb: SuperOffice.WebApi.Data.TicketSummaryItem()
+  name.vb: TicketSummaryItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.TicketSummaryItem
+    name: TicketSummaryItem
+    nameWithType: TicketSummaryItem
+    fullName: SuperOffice.WebApi.Data.TicketSummaryItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.TicketSummaryItem
+    name: TicketSummaryItem
+    nameWithType: TicketSummaryItem
+    fullName: SuperOffice.WebApi.Data.TicketSummaryItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PersonSummary.Followups*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Followups
+  isExternal: true
+  name: Followups
+  nameWithType: PersonSummary.Followups
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Followups
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem[]
+  isExternal: true
+  name: ActivitySummaryItem[]
+  nameWithType: ActivitySummaryItem[]
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem[]
+  nameWithType.vb: ActivitySummaryItem()
+  fullName.vb: SuperOffice.WebApi.Data.ActivitySummaryItem()
+  name.vb: ActivitySummaryItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ActivitySummaryItem
+    name: ActivitySummaryItem
+    nameWithType: ActivitySummaryItem
+    fullName: SuperOffice.WebApi.Data.ActivitySummaryItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ActivitySummaryItem
+    name: ActivitySummaryItem
+    nameWithType: ActivitySummaryItem
+    fullName: SuperOffice.WebApi.Data.ActivitySummaryItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PersonSummary.Documents*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Documents
+  isExternal: true
+  name: Documents
+  nameWithType: PersonSummary.Documents
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Documents
+- uid: SuperOffice.WebApi.Data.PersonSummary.Sales*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Sales
+  isExternal: true
+  name: Sales
+  nameWithType: PersonSummary.Sales
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Sales
+- uid: SuperOffice.WebApi.Data.SaleSummaryItem[]
+  isExternal: true
+  name: SaleSummaryItem[]
+  nameWithType: SaleSummaryItem[]
+  fullName: SuperOffice.WebApi.Data.SaleSummaryItem[]
+  nameWithType.vb: SaleSummaryItem()
+  fullName.vb: SuperOffice.WebApi.Data.SaleSummaryItem()
+  name.vb: SaleSummaryItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.SaleSummaryItem
+    name: SaleSummaryItem
+    nameWithType: SaleSummaryItem
+    fullName: SuperOffice.WebApi.Data.SaleSummaryItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.SaleSummaryItem
+    name: SaleSummaryItem
+    nameWithType: SaleSummaryItem
+    fullName: SuperOffice.WebApi.Data.SaleSummaryItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PersonSummary.Chats*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Chats
+  isExternal: true
+  name: Chats
+  nameWithType: PersonSummary.Chats
+  fullName: SuperOffice.WebApi.Data.PersonSummary.Chats
+- uid: SuperOffice.WebApi.Data.ChatSummaryItem[]
+  isExternal: true
+  name: ChatSummaryItem[]
+  nameWithType: ChatSummaryItem[]
+  fullName: SuperOffice.WebApi.Data.ChatSummaryItem[]
+  nameWithType.vb: ChatSummaryItem()
+  fullName.vb: SuperOffice.WebApi.Data.ChatSummaryItem()
+  name.vb: ChatSummaryItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ChatSummaryItem
+    name: ChatSummaryItem
+    nameWithType: ChatSummaryItem
+    fullName: SuperOffice.WebApi.Data.ChatSummaryItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ChatSummaryItem
+    name: ChatSummaryItem
+    nameWithType: ChatSummaryItem
+    fullName: SuperOffice.WebApi.Data.ChatSummaryItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

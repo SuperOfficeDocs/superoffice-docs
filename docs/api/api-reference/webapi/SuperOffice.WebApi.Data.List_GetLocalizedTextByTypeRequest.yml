@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest
+  id: List_GetLocalizedTextByTypeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.LanguageId
+  - SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.ResourceId
+  - SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.TextType
+  langs:
+  - csharp
+  - vb
+  name: List_GetLocalizedTextByTypeRequest
+  nameWithType: List_GetLocalizedTextByTypeRequest
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetLocalizedTextByTypeRequest : Object'
+    content.vb: >-
+      Public Class List_GetLocalizedTextByTypeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetLocalizedTextByTypeRequest()
+  nameWithType: List_GetLocalizedTextByTypeRequest.List_GetLocalizedTextByTypeRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.List_GetLocalizedTextByTypeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetLocalizedTextByTypeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.TextType
+  commentId: P:SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.TextType
+  id: TextType
+  parent: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: TextType
+  nameWithType: List_GetLocalizedTextByTypeRequest.TextType
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.TextType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public LocalizedTextType TextType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Property TextType As LocalizedTextType
+  overload: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.TextType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.ResourceId
+  commentId: P:SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.ResourceId
+  id: ResourceId
+  parent: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: ResourceId
+  nameWithType: List_GetLocalizedTextByTypeRequest.ResourceId
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.ResourceId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ResourceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ResourceId As Integer
+  overload: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.ResourceId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.LanguageId
+  commentId: P:SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.LanguageId
+  id: LanguageId
+  parent: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: LanguageId
+  nameWithType: List_GetLocalizedTextByTypeRequest.LanguageId
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.LanguageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int LanguageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LanguageId As Integer
+  overload: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.LanguageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.#ctor
+  isExternal: true
+  name: List_GetLocalizedTextByTypeRequest
+  nameWithType: List_GetLocalizedTextByTypeRequest.List_GetLocalizedTextByTypeRequest
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.List_GetLocalizedTextByTypeRequest
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.TextType*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.TextType
+  isExternal: true
+  name: TextType
+  nameWithType: List_GetLocalizedTextByTypeRequest.TextType
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.TextType
+- uid: SuperOffice.WebApi.Data.LocalizedTextType
+  commentId: T:SuperOffice.WebApi.Data.LocalizedTextType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: LocalizedTextType
+  nameWithType: LocalizedTextType
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.ResourceId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.ResourceId
+  isExternal: true
+  name: ResourceId
+  nameWithType: List_GetLocalizedTextByTypeRequest.ResourceId
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.ResourceId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.LanguageId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.LanguageId
+  isExternal: true
+  name: LanguageId
+  nameWithType: List_GetLocalizedTextByTypeRequest.LanguageId
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextByTypeRequest.LanguageId

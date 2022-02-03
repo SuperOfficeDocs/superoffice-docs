@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest
+  id: Archive_GetGroupAssociateIdsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.#ctor
+  - SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.GroupIds
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetGroupAssociateIdsRequest
+  nameWithType: Archive_GetGroupAssociateIdsRequest
+  fullName: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Archive_GetGroupAssociateIdsRequest : Object'
+    content.vb: >-
+      Public Class Archive_GetGroupAssociateIdsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetGroupAssociateIdsRequest()
+  nameWithType: Archive_GetGroupAssociateIdsRequest.Archive_GetGroupAssociateIdsRequest()
+  fullName: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.Archive_GetGroupAssociateIdsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Archive_GetGroupAssociateIdsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.GroupIds
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.GroupIds
+  id: GroupIds
+  parent: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: GroupIds
+  nameWithType: Archive_GetGroupAssociateIdsRequest.GroupIds
+  fullName: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.GroupIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] GroupIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property GroupIds As Integer()
+  overload: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.GroupIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.#ctor
+  isExternal: true
+  name: Archive_GetGroupAssociateIdsRequest
+  nameWithType: Archive_GetGroupAssociateIdsRequest.Archive_GetGroupAssociateIdsRequest
+  fullName: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.Archive_GetGroupAssociateIdsRequest
+- uid: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.GroupIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.GroupIds
+  isExternal: true
+  name: GroupIds
+  nameWithType: Archive_GetGroupAssociateIdsRequest.GroupIds
+  fullName: SuperOffice.WebApi.Data.Archive_GetGroupAssociateIdsRequest.GroupIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  id: DBC.ForeignDeviceFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.DeviceId
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.ForeignappId
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.ForeigndeviceId
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Lastsynced
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.LastsyncedTrans
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Name
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.OwnerId
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Registered
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Updated
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.ForeignDeviceFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.ForeignDeviceFields
+  nameWithType: DBC.ForeignDeviceFields
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ForeignDevice, Middle level of Foreign Key system\n"
+  syntax:
+    content: public static class ForeignDeviceFields
+    content.vb: Public Module ForeignDeviceFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.ForeigndeviceId
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.ForeigndeviceId
+  id: ForeigndeviceId
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: ForeigndeviceId
+  nameWithType: DBC.ForeignDeviceFields.ForeigndeviceId
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.ForeigndeviceId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.ForeigndeviceId: Primary key\n"
+  syntax:
+    content: public const string ForeigndeviceId = "foreigndevice_id"
+    return:
+      type: System.String
+    content.vb: Public Const ForeigndeviceId As String = "foreigndevice_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ForeignDeviceFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.Name: Name of device\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.DeviceId
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.DeviceId
+  id: DeviceId
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: DeviceId
+  nameWithType: DBC.ForeignDeviceFields.DeviceId
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.DeviceId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.DeviceId: Optional unique id of device (Palm pilot device ID, etc)\n"
+  syntax:
+    content: public const string DeviceId = "device_id"
+    return:
+      type: System.String
+    content.vb: Public Const DeviceId As String = "device_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.ForeignappId
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.ForeignappId
+  id: ForeignappId
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: ForeignappId
+  nameWithType: DBC.ForeignDeviceFields.ForeignappId
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.ForeignappId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.ForeignappId: Reference to foregin application (device type)\n"
+  syntax:
+    content: public const string ForeignappId = "foreignapp_id"
+    return:
+      type: System.String
+    content.vb: Public Const ForeignappId As String = "foreignapp_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.OwnerId
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.OwnerId
+  id: OwnerId
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerId
+  nameWithType: DBC.ForeignDeviceFields.OwnerId
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.OwnerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.OwnerId: Reference to SO user owning this device\n"
+  syntax:
+    content: public const string OwnerId = "owner_id"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerId As String = "owner_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Lastsynced
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Lastsynced
+  id: Lastsynced
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: Lastsynced
+  nameWithType: DBC.ForeignDeviceFields.Lastsynced
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Lastsynced
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.Lastsynced: Last sync date\n"
+  syntax:
+    content: public const string Lastsynced = "lastsynced"
+    return:
+      type: System.String
+    content.vb: Public Const Lastsynced As String = "lastsynced"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.LastsyncedTrans
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.LastsyncedTrans
+  id: LastsyncedTrans
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: LastsyncedTrans
+  nameWithType: DBC.ForeignDeviceFields.LastsyncedTrans
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.LastsyncedTrans
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.LastsyncedTrans: Last sync traveltransactionlog id number\n"
+  syntax:
+    content: public const string LastsyncedTrans = "lastsynced_trans"
+    return:
+      type: System.String
+    content.vb: Public Const LastsyncedTrans As String = "lastsynced_trans"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.ForeignDeviceFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.ForeignDeviceFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.ForeignDeviceFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.ForeignDeviceFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.ForeignDeviceFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.ForeignDeviceFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.ForeignDeviceFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.ForeignDeviceFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nForeignDevice.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest
+  id: Dash_CreateDefaultTileDefinitionForEntityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.#ctor
+  - SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.EntityName
+  langs:
+  - csharp
+  - vb
+  name: Dash_CreateDefaultTileDefinitionForEntityRequest
+  nameWithType: Dash_CreateDefaultTileDefinitionForEntityRequest
+  fullName: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dash_CreateDefaultTileDefinitionForEntityRequest : Object'
+    content.vb: >-
+      Public Class Dash_CreateDefaultTileDefinitionForEntityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: Dash_CreateDefaultTileDefinitionForEntityRequest()
+  nameWithType: Dash_CreateDefaultTileDefinitionForEntityRequest.Dash_CreateDefaultTileDefinitionForEntityRequest()
+  fullName: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.Dash_CreateDefaultTileDefinitionForEntityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dash_CreateDefaultTileDefinitionForEntityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.EntityName
+  commentId: P:SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.EntityName
+  id: EntityName
+  parent: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: Dash_CreateDefaultTileDefinitionForEntityRequest.EntityName
+  fullName: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.EntityName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EntityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EntityName As String
+  overload: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.EntityName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.#ctor
+  isExternal: true
+  name: Dash_CreateDefaultTileDefinitionForEntityRequest
+  nameWithType: Dash_CreateDefaultTileDefinitionForEntityRequest.Dash_CreateDefaultTileDefinitionForEntityRequest
+  fullName: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.Dash_CreateDefaultTileDefinitionForEntityRequest
+- uid: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.EntityName*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.EntityName
+  isExternal: true
+  name: EntityName
+  nameWithType: Dash_CreateDefaultTileDefinitionForEntityRequest.EntityName
+  fullName: SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest.EntityName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

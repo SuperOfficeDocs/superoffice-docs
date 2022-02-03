@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  commentId: T:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  id: DBC.AudienceVisibilityFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.AudienceVisibilityId
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Comment
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ConstraintEnabled
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ControllingRecord
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ControllingTable
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ExtraInfo
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Registered
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.SourceRecord
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.SourceTable
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Updated
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.AudienceVisibilityFields
+  nameWithType: DBC.AudienceVisibilityFields
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for AudienceVisibility, How projects (or whatever) should be made visible in audience\n"
+  syntax:
+    content: public static class AudienceVisibilityFields
+    content.vb: Public Module AudienceVisibilityFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.AudienceVisibilityId
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.AudienceVisibilityId
+  id: AudienceVisibilityId
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: AudienceVisibilityId
+  nameWithType: DBC.AudienceVisibilityFields.AudienceVisibilityId
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.AudienceVisibilityId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.AudienceVisibilityId: Primary key\n"
+  syntax:
+    content: public const string AudienceVisibilityId = "AudienceVisibility_id"
+    return:
+      type: System.String
+    content.vb: Public Const AudienceVisibilityId As String = "AudienceVisibility_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.SourceTable
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.SourceTable
+  id: SourceTable
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: SourceTable
+  nameWithType: DBC.AudienceVisibilityFields.SourceTable
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.SourceTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.SourceTable: Source table, only table &apos;project&apos; valid in Audience for Six\n"
+  syntax:
+    content: public const string SourceTable = "sourceTable"
+    return:
+      type: System.String
+    content.vb: Public Const SourceTable As String = "sourceTable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.SourceRecord
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.SourceRecord
+  id: SourceRecord
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: SourceRecord
+  nameWithType: DBC.AudienceVisibilityFields.SourceRecord
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.SourceRecord
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.SourceRecord: Record ID in source table. This is the record to be made visible\n"
+  syntax:
+    content: public const string SourceRecord = "sourceRecord"
+    return:
+      type: System.String
+    content.vb: Public Const SourceRecord As String = "sourceRecord"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ControllingTable
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ControllingTable
+  id: ControllingTable
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: ControllingTable
+  nameWithType: DBC.AudienceVisibilityFields.ControllingTable
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ControllingTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.ControllingTable: The table that controls visibility of the source record\n"
+  syntax:
+    content: public const string ControllingTable = "controllingTable"
+    return:
+      type: System.String
+    content.vb: Public Const ControllingTable As String = "controllingTable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ControllingRecord
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ControllingRecord
+  id: ControllingRecord
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: ControllingRecord
+  nameWithType: DBC.AudienceVisibilityFields.ControllingRecord
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ControllingRecord
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.ControllingRecord: The record in the controlling table that defines visibility of the source record\n"
+  syntax:
+    content: public const string ControllingRecord = "controllingRecord"
+    return:
+      type: System.String
+    content.vb: Public Const ControllingRecord As String = "controllingRecord"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ConstraintEnabled
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ConstraintEnabled
+  id: ConstraintEnabled
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: ConstraintEnabled
+  nameWithType: DBC.AudienceVisibilityFields.ConstraintEnabled
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ConstraintEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.ConstraintEnabled: If 1, this visibility constraint is enabled; otherwise it is there for the record, but not active\n"
+  syntax:
+    content: public const string ConstraintEnabled = "constraintEnabled"
+    return:
+      type: System.String
+    content.vb: Public Const ConstraintEnabled As String = "constraintEnabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Comment
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Comment
+  id: Comment
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: DBC.AudienceVisibilityFields.Comment
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Comment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.Comment: A possible user comment\n"
+  syntax:
+    content: public const string Comment = "comment"
+    return:
+      type: System.String
+    content.vb: Public Const Comment As String = "comment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ExtraInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: DBC.AudienceVisibilityFields.ExtraInfo
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.ExtraInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.ExtraInfo: Extra info value\n"
+  syntax:
+    content: public const string ExtraInfo = "extraInfo"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraInfo As String = "extraInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.AudienceVisibilityFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.AudienceVisibilityFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.AudienceVisibilityFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.AudienceVisibilityFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.AudienceVisibilityFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.AudienceVisibilityFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAudienceVisibility.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

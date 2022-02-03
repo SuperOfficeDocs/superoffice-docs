@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest
+  commentId: T:SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest
+  id: ViewState_DeleteHistoryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.#ctor
+  - SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.HistoryName
+  - SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.Id
+  langs:
+  - csharp
+  - vb
+  name: ViewState_DeleteHistoryRequest
+  nameWithType: ViewState_DeleteHistoryRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ViewState_DeleteHistoryRequest : Object'
+    content.vb: >-
+      Public Class ViewState_DeleteHistoryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: ViewState_DeleteHistoryRequest()
+  nameWithType: ViewState_DeleteHistoryRequest.ViewState_DeleteHistoryRequest()
+  fullName: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.ViewState_DeleteHistoryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ViewState_DeleteHistoryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.HistoryName
+  commentId: P:SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.HistoryName
+  id: HistoryName
+  parent: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: HistoryName
+  nameWithType: ViewState_DeleteHistoryRequest.HistoryName
+  fullName: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.HistoryName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string HistoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HistoryName As String
+  overload: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.HistoryName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ViewState_DeleteHistoryRequest.Id
+  fullName: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.#ctor
+  isExternal: true
+  name: ViewState_DeleteHistoryRequest
+  nameWithType: ViewState_DeleteHistoryRequest.ViewState_DeleteHistoryRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.ViewState_DeleteHistoryRequest
+- uid: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.HistoryName*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.HistoryName
+  isExternal: true
+  name: HistoryName
+  nameWithType: ViewState_DeleteHistoryRequest.HistoryName
+  fullName: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.HistoryName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: ViewState_DeleteHistoryRequest.Id
+  fullName: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

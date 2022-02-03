@@ -1,0 +1,1877 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteLineFields
+  id: DBC.QuoteLineFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Code
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.DeliveredQuantity
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Description
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.DiscountAmount
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.DiscountPercent
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.EarningAmount
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.EarningPercent
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPDiscountAmount
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPDiscountPercent
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPProductKey
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPQuoteLineKey
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField1
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField2
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField3
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField4
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField5
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraInfo
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.IsSubscription
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ItemNumber
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Name
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.PriceUnit
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductCategoryKey
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductFamilyKey
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductTypeKey
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Quantity
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.QuantityUnit
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.QuoteAlternativeId
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.QuoteLineId
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Rank
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Reason
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Registered
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Rights
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Rule
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Status
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionQuantity
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionStart
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionUnit
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Supplier
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.SupplierCode
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.TotalPrice
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitCost
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitListPrice
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitMinimumPrice
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Updated
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.Url
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.UserValueOverride
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.VAT
+  - SuperOffice.CRM.Data.DBC.QuoteLineFields.VATInfo
+  langs:
+  - csharp
+  - vb
+  name: DBC.QuoteLineFields
+  nameWithType: DBC.QuoteLineFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for QuoteLine, One line in a QuoteAlternative. QuoteLines are mainly information copied from the Products provider. Products information is sometimes edited by the user before being included in the quote, so most information is duplicated from Product rather than referenced directly.\n"
+  syntax:
+    content: public static class QuoteLineFields
+    content.vb: Public Module QuoteLineFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.QuoteLineId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.QuoteLineId
+  id: QuoteLineId
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineId
+  nameWithType: DBC.QuoteLineFields.QuoteLineId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.QuoteLineId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.QuoteLineId: Primary key\n"
+  syntax:
+    content: public const string QuoteLineId = "quoteline_id"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteLineId As String = "quoteline_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPQuoteLineKey
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPQuoteLineKey
+  id: ERPQuoteLineKey
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ERPQuoteLineKey
+  nameWithType: DBC.QuoteLineFields.ERPQuoteLineKey
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPQuoteLineKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ERPQuoteLineKey: The foreign key to the quoteline in ERP system (if it has such a representation).\n"
+  syntax:
+    content: public const string ERPQuoteLineKey = "ERPQuoteLineKey"
+    return:
+      type: System.String
+    content.vb: Public Const ERPQuoteLineKey As String = "ERPQuoteLineKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.QuoteAlternativeId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: DBC.QuoteLineFields.QuoteAlternativeId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.QuoteAlternativeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.QuoteAlternativeId: The alternative this line is part of, the conceptual Parent in CRM database.\n"
+  syntax:
+    content: public const string QuoteAlternativeId = "QuoteAlternativeId"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteAlternativeId As String = "QuoteAlternativeId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPProductKey
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPProductKey
+  id: ERPProductKey
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ERPProductKey
+  nameWithType: DBC.QuoteLineFields.ERPProductKey
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPProductKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ERPProductKey: Foreign key of product+pricelist this line is based on. Can be blank since the QuoteLine doesn’t have to be connected to a product.\n"
+  syntax:
+    content: public const string ERPProductKey = "ERPProductKey"
+    return:
+      type: System.String
+    content.vb: Public Const ERPProductKey As String = "ERPProductKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.QuoteLineFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Status: If there was a problem with for instance calculation, this field is set to warning or error. Typically shown as an icon. QuoteStatus is an enum with statuses: OK, OKWithInfo, Warning, Error.\n"
+  syntax:
+    content: public const string Status = "Status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "Status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Reason
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Reason
+  id: Reason
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: DBC.QuoteLineFields.Reason
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Reason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Reason: If QuoteStatus is not OK, then this field contains a localized explanation that the user can be shown.\n"
+  syntax:
+    content: public const string Reason = "Reason"
+    return:
+      type: System.String
+    content.vb: Public Const Reason As String = "Reason"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Quantity
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Quantity
+  id: Quantity
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: DBC.QuoteLineFields.Quantity
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Quantity
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Quantity: How many units; this is a decimal field since you might want to offer fractional units (2.5kg, or 0.5PC).\n"
+  syntax:
+    content: public const string Quantity = "Quantity"
+    return:
+      type: System.String
+    content.vb: Public Const Quantity As String = "Quantity"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.DeliveredQuantity
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.DeliveredQuantity
+  id: DeliveredQuantity
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: DeliveredQuantity
+  nameWithType: DBC.QuoteLineFields.DeliveredQuantity
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.DeliveredQuantity
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.DeliveredQuantity: How many units have been delivered - updated by ERP system.\n"
+  syntax:
+    content: public const string DeliveredQuantity = "DeliveredQuantity"
+    return:
+      type: System.String
+    content.vb: Public Const DeliveredQuantity As String = "DeliveredQuantity"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.QuoteLineFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Rank: QuoteLines can be re-ordered, so we must track the ordering.\n"
+  syntax:
+    content: public const string Rank = "Rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "Rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.QuoteLineFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Name: The name of the product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public const string Name = "Name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "Name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.QuoteLineFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Description: A longer description for the product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public const string Description = "Description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "Description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Code
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Code
+  id: Code
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: DBC.QuoteLineFields.Code
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Code
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Code: A value the salesmen use to quickly find the correct product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public const string Code = "Code"
+    return:
+      type: System.String
+    content.vb: Public Const Code As String = "Code"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.QuantityUnit
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.QuantityUnit
+  id: QuantityUnit
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: QuantityUnit
+  nameWithType: DBC.QuoteLineFields.QuantityUnit
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.QuantityUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.QuantityUnit: What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different.\n"
+  syntax:
+    content: public const string QuantityUnit = "QuantityUnit"
+    return:
+      type: System.String
+    content.vb: Public Const QuantityUnit As String = "QuantityUnit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.PriceUnit
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.PriceUnit
+  id: PriceUnit
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: PriceUnit
+  nameWithType: DBC.QuoteLineFields.PriceUnit
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.PriceUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.PriceUnit: What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products.\n"
+  syntax:
+    content: public const string PriceUnit = "PriceUnit"
+    return:
+      type: System.String
+    content.vb: Public Const PriceUnit As String = "PriceUnit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.IsSubscription
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.IsSubscription
+  id: IsSubscription
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: IsSubscription
+  nameWithType: DBC.QuoteLineFields.IsSubscription
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.IsSubscription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.IsSubscription: Is this a subscription product, sold in repeating intervals/amounts?\n"
+  syntax:
+    content: public const string IsSubscription = "IsSubscription"
+    return:
+      type: System.String
+    content.vb: Public Const IsSubscription As String = "IsSubscription"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionUnit
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionUnit
+  id: SubscriptionUnit
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionUnit
+  nameWithType: DBC.QuoteLineFields.SubscriptionUnit
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.SubscriptionUnit: Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit.\n"
+  syntax:
+    content: public const string SubscriptionUnit = "SubscriptionUnit"
+    return:
+      type: System.String
+    content.vb: Public Const SubscriptionUnit As String = "SubscriptionUnit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionQuantity
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionQuantity
+  id: SubscriptionQuantity
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionQuantity
+  nameWithType: DBC.QuoteLineFields.SubscriptionQuantity
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionQuantity
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.SubscriptionQuantity: The default number of SubscriptionUnits to suggest when creating quote lines from this product\n"
+  syntax:
+    content: public const string SubscriptionQuantity = "SubscriptionQuantity"
+    return:
+      type: System.String
+    content.vb: Public Const SubscriptionQuantity As String = "SubscriptionQuantity"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionStart
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionStart
+  id: SubscriptionStart
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionStart
+  nameWithType: DBC.QuoteLineFields.SubscriptionStart
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.SubscriptionStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.SubscriptionStart: Start date for subscription, as offered\n"
+  syntax:
+    content: public const string SubscriptionStart = "SubscriptionStart"
+    return:
+      type: System.String
+    content.vb: Public Const SubscriptionStart As String = "SubscriptionStart"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ItemNumber
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ItemNumber
+  id: ItemNumber
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ItemNumber
+  nameWithType: DBC.QuoteLineFields.ItemNumber
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ItemNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ItemNumber: Norwegian: «Postnummer». Specific numbers from some hierarchy, for instance &apos;1.4.3.2&apos;. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public const string ItemNumber = "ItemNumber"
+    return:
+      type: System.String
+    content.vb: Public Const ItemNumber As String = "ItemNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Url
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Url
+  id: Url
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: DBC.QuoteLineFields.Url
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Url
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Url: A url to the product info. Can be empty. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public const string Url = "Url"
+    return:
+      type: System.String
+    content.vb: Public Const Url As String = "Url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductCategoryKey
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductCategoryKey
+  id: ProductCategoryKey
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ProductCategoryKey
+  nameWithType: DBC.QuoteLineFields.ProductCategoryKey
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductCategoryKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ProductCategoryKey: Either a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public const string ProductCategoryKey = "ProductCategoryKey"
+    return:
+      type: System.String
+    content.vb: Public Const ProductCategoryKey As String = "ProductCategoryKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductFamilyKey
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductFamilyKey
+  id: ProductFamilyKey
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ProductFamilyKey
+  nameWithType: DBC.QuoteLineFields.ProductFamilyKey
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductFamilyKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ProductFamilyKey: Either a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public const string ProductFamilyKey = "ProductFamilyKey"
+    return:
+      type: System.String
+    content.vb: Public Const ProductFamilyKey As String = "ProductFamilyKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductTypeKey
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductTypeKey
+  id: ProductTypeKey
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ProductTypeKey
+  nameWithType: DBC.QuoteLineFields.ProductTypeKey
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ProductTypeKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ProductTypeKey: Either a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public const string ProductTypeKey = "ProductTypeKey"
+    return:
+      type: System.String
+    content.vb: Public Const ProductTypeKey As String = "ProductTypeKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Supplier
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Supplier
+  id: Supplier
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Supplier
+  nameWithType: DBC.QuoteLineFields.Supplier
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Supplier
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Supplier: The name of the supplier. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public const string Supplier = "Supplier"
+    return:
+      type: System.String
+    content.vb: Public Const Supplier As String = "Supplier"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.SupplierCode
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.SupplierCode
+  id: SupplierCode
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: SupplierCode
+  nameWithType: DBC.QuoteLineFields.SupplierCode
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.SupplierCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.SupplierCode: The suppliers&apos; code or part number for this product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public const string SupplierCode = "SupplierCode"
+    return:
+      type: System.String
+    content.vb: Public Const SupplierCode As String = "SupplierCode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.VATInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.VATInfo
+  id: VATInfo
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: VATInfo
+  nameWithType: DBC.QuoteLineFields.VATInfo
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.VATInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.VATInfo: Tax/VAT information, Extra info about VAT that the connector might insert, and the users might want to specify on the quote. The core CRM product has no business logic for this field, it is wholly up to connectors to use it.\n"
+  syntax:
+    content: public const string VATInfo = "VATInfo"
+    return:
+      type: System.String
+    content.vb: Public Const VATInfo As String = "VATInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.VAT
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.VAT
+  id: VAT
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: VAT
+  nameWithType: DBC.QuoteLineFields.VAT
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.VAT
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.VAT: Tax/VAT - THIS IS A PERCENTAGE. The connector is responsible for populating this field; the percentage will be used to calculate VAT amounts available as merge fields in the document templates (but amounts are never stored in the database).\n"
+  syntax:
+    content: public const string VAT = "VAT"
+    return:
+      type: System.String
+    content.vb: Public Const VAT As String = "VAT"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitCost
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitCost
+  id: UnitCost
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: UnitCost
+  nameWithType: DBC.QuoteLineFields.UnitCost
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitCost
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.UnitCost: The cost price per unit for this product. May be filled in by connector if it has the Provide-Cost capability.\n"
+  syntax:
+    content: public const string UnitCost = "UnitCost"
+    return:
+      type: System.String
+    content.vb: Public Const UnitCost As String = "UnitCost"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitMinimumPrice
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitMinimumPrice
+  id: UnitMinimumPrice
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: UnitMinimumPrice
+  nameWithType: DBC.QuoteLineFields.UnitMinimumPrice
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitMinimumPrice
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.UnitMinimumPrice: The minimum price this line can be sold for (to limit discounting). Will come from the connector. List price per unit must exceed the minimum price per unit.\n"
+  syntax:
+    content: public const string UnitMinimumPrice = "UnitMinimumPrice"
+    return:
+      type: System.String
+    content.vb: Public Const UnitMinimumPrice As String = "UnitMinimumPrice"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitListPrice
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitListPrice
+  id: UnitListPrice
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: UnitListPrice
+  nameWithType: DBC.QuoteLineFields.UnitListPrice
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.UnitListPrice
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.UnitListPrice: The standard list price; as given by ERP Connector, OR overridden by user\n"
+  syntax:
+    content: public const string UnitListPrice = "UnitListPrice"
+    return:
+      type: System.String
+    content.vb: Public Const UnitListPrice As String = "UnitListPrice"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: DBC.QuoteLineFields.ExtraInfo
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ExtraInfo: Extra information, supplied by QuoteConnector, used by a future dynamic GUI extension\n"
+  syntax:
+    content: public const string ExtraInfo = "ExtraInfo"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraInfo As String = "ExtraInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPDiscountPercent
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPDiscountPercent
+  id: ERPDiscountPercent
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ERPDiscountPercent
+  nameWithType: DBC.QuoteLineFields.ERPDiscountPercent
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPDiscountPercent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ERPDiscountPercent: The discount the system calculates based on customer / quantity / whatever. Can be overrided by the salesman in the field &apos;DiscountPercent&apos; or &apos;DiscountAmount&apos;. Both fields ERPDiscountPercent and ERPDiscountAmount will be filled out. If UserValueOverride is set to ‘None’ then the value is copied to DiscountPercent. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public const string ERPDiscountPercent = "ERPDiscountPercent"
+    return:
+      type: System.String
+    content.vb: Public Const ERPDiscountPercent As String = "ERPDiscountPercent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPDiscountAmount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPDiscountAmount
+  id: ERPDiscountAmount
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ERPDiscountAmount
+  nameWithType: DBC.QuoteLineFields.ERPDiscountAmount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ERPDiscountAmount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ERPDiscountAmount: The discount the system calculates based on customer / quantity / whatever. Can be overrided by the salesman in the field &apos;DiscountPercent&apos; or &apos;DiscountAmount&apos;. If UserValueOverride is set to ‘None’ then the value is copied to DiscountAmount. Both fields ERPDiscountPercent and ERPDiscountAmount will be filled out.\n"
+  syntax:
+    content: public const string ERPDiscountAmount = "ERPDiscountAmount"
+    return:
+      type: System.String
+    content.vb: Public Const ERPDiscountAmount As String = "ERPDiscountAmount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.DiscountPercent
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.DiscountPercent
+  id: DiscountPercent
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: DiscountPercent
+  nameWithType: DBC.QuoteLineFields.DiscountPercent
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.DiscountPercent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.DiscountPercent: The discount for the line, in percent. Both ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. If this field is filled out by the user, it overrides any discount suggested by the connector. If the user has not filled this in, the system will copy the ERP discount amount to this field. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public const string DiscountPercent = "DiscountPercent"
+    return:
+      type: System.String
+    content.vb: Public Const DiscountPercent As String = "DiscountPercent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.DiscountAmount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.DiscountAmount
+  id: DiscountAmount
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: DiscountAmount
+  nameWithType: DBC.QuoteLineFields.DiscountAmount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.DiscountAmount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.DiscountAmount: The discount for the line, in whatever currency the sale is in. Both ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. If this field is filled out by the user, it overrides any discount suggested by the connector. If the user has not filled this in, the system will copy the ERP discount amount to this field.\n"
+  syntax:
+    content: public const string DiscountAmount = "DiscountAmount"
+    return:
+      type: System.String
+    content.vb: Public Const DiscountAmount As String = "DiscountAmount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.UserValueOverride
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.UserValueOverride
+  id: UserValueOverride
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: UserValueOverride
+  nameWithType: DBC.QuoteLineFields.UserValueOverride
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.UserValueOverride
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.UserValueOverride: Has the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the DiscountPercent.)\n"
+  syntax:
+    content: public const string UserValueOverride = "UserValueOverride"
+    return:
+      type: System.String
+    content.vb: Public Const UserValueOverride As String = "UserValueOverride"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.EarningPercent
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.EarningPercent
+  id: EarningPercent
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: EarningPercent
+  nameWithType: DBC.QuoteLineFields.EarningPercent
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.EarningPercent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.EarningPercent: The earning, in percent. Both ‘EarningAmount and ‘EarningPercent shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public const string EarningPercent = "EarningPercent"
+    return:
+      type: System.String
+    content.vb: Public Const EarningPercent As String = "EarningPercent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.EarningAmount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.EarningAmount
+  id: EarningAmount
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: EarningAmount
+  nameWithType: DBC.QuoteLineFields.EarningAmount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.EarningAmount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.EarningAmount: The earning, in whatever currency the sale is in. Both ‘EarningAmount and ‘EarningPercent shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last.\n"
+  syntax:
+    content: public const string EarningAmount = "EarningAmount"
+    return:
+      type: System.String
+    content.vb: Public Const EarningAmount As String = "EarningAmount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.TotalPrice
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.TotalPrice
+  id: TotalPrice
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: TotalPrice
+  nameWithType: DBC.QuoteLineFields.TotalPrice
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.TotalPrice
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.TotalPrice: TotalPrice  = SubTotal - DiscountAmount or TotalPrice = (UnitCost * Quantity) + EarningAmount, according to what the user changed last.\n"
+  syntax:
+    content: public const string TotalPrice = "TotalPrice"
+    return:
+      type: System.String
+    content.vb: Public Const TotalPrice As String = "TotalPrice"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Rights
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Rights
+  id: Rights
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Rights
+  nameWithType: DBC.QuoteLineFields.Rights
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Rights
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Rights: Field1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on. Will be used by SuperOffice to control the user interface when showing the record.\n"
+  syntax:
+    content: public const string Rights = "Rights"
+    return:
+      type: System.String
+    content.vb: Public Const Rights As String = "Rights"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Rule
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Rule
+  id: Rule
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Rule
+  nameWithType: DBC.QuoteLineFields.Rule
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Rule
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Rule: The names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive\n"
+  syntax:
+    content: public const string Rule = "Rule"
+    return:
+      type: System.String
+    content.vb: Public Const Rule As String = "Rule"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField1
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField1
+  id: ExtraField1
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField1
+  nameWithType: DBC.QuoteLineFields.ExtraField1
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ExtraField1: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public const string ExtraField1 = "extraField1"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField1 As String = "extraField1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField2
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField2
+  id: ExtraField2
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField2
+  nameWithType: DBC.QuoteLineFields.ExtraField2
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ExtraField2: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public const string ExtraField2 = "extraField2"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField2 As String = "extraField2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField3
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField3
+  id: ExtraField3
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField3
+  nameWithType: DBC.QuoteLineFields.ExtraField3
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ExtraField3: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public const string ExtraField3 = "extraField3"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField3 As String = "extraField3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField4
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField4
+  id: ExtraField4
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField4
+  nameWithType: DBC.QuoteLineFields.ExtraField4
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField4
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ExtraField4: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public const string ExtraField4 = "extraField4"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField4 As String = "extraField4"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField5
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField5
+  id: ExtraField5
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField5
+  nameWithType: DBC.QuoteLineFields.ExtraField5
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.ExtraField5
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.ExtraField5: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public const string ExtraField5 = "extraField5"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField5 As String = "extraField5"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.QuoteLineFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.QuoteLineFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.QuoteLineFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.QuoteLineFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.QuoteLineFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLine.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

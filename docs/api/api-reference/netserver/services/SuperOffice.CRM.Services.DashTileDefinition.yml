@@ -1,0 +1,938 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DashTileDefinition
+  commentId: T:SuperOffice.CRM.Services.DashTileDefinition
+  id: DashTileDefinition
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DashTileDefinition.#ctor
+  - SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
+  - SuperOffice.CRM.Services.DashTileDefinition.CurrencyMode
+  - SuperOffice.CRM.Services.DashTileDefinition.DashboardTileDefinitionId
+  - SuperOffice.CRM.Services.DashTileDefinition.DefaultHeight
+  - SuperOffice.CRM.Services.DashTileDefinition.DefaultWidth
+  - SuperOffice.CRM.Services.DashTileDefinition.Description
+  - SuperOffice.CRM.Services.DashTileDefinition.EntityName
+  - SuperOffice.CRM.Services.DashTileDefinition.EntityType
+  - SuperOffice.CRM.Services.DashTileDefinition.LayoutConfig
+  - SuperOffice.CRM.Services.DashTileDefinition.Measure
+  - SuperOffice.CRM.Services.DashTileDefinition.MeasureByField
+  - SuperOffice.CRM.Services.DashTileDefinition.MeasureField
+  - SuperOffice.CRM.Services.DashTileDefinition.Name
+  - SuperOffice.CRM.Services.DashTileDefinition.ProviderName
+  - SuperOffice.CRM.Services.DashTileDefinition.SecondarySelectionId
+  - SuperOffice.CRM.Services.DashTileDefinition.SelectionId
+  - SuperOffice.CRM.Services.DashTileDefinition.SortBy
+  - SuperOffice.CRM.Services.DashTileDefinition.TileType
+  - SuperOffice.CRM.Services.DashTileDefinition.ToString
+  - SuperOffice.CRM.Services.DashTileDefinition.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: DashTileDefinition
+  nameWithType: DashTileDefinition
+  fullName: SuperOffice.CRM.Services.DashTileDefinition
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDashboard Tile definition\n<p></p>\nCarrier object for DashTileDefinition.\nServices for the DashTileDefinition Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDashAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet DashTileDefinition 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new DashAgent();\n    var dashTileDefinition = agent.GetDashTileDefinition( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class DashTileDefinition : Carrier'
+    content.vb: >-
+      Public Class DashTileDefinition
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.DashAgent
+    commentId: T:SuperOffice.CRM.Services.DashAgent
+  - linkId: SuperOffice.CRM.Services.IDashAgent
+    commentId: T:SuperOffice.CRM.Services.IDashAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DashTileDefinition.#ctor
+  commentId: M:SuperOffice.CRM.Services.DashTileDefinition.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: DashTileDefinition()
+  nameWithType: DashTileDefinition.DashTileDefinition()
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.DashTileDefinition()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DashTileDefinition()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DashTileDefinition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DashTileDefinition.ToString
+  commentId: M:SuperOffice.CRM.Services.DashTileDefinition.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DashTileDefinition.ToString()
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.DashTileDefinition.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.DashTileDefinition.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.DashTileDefinition.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: DashTileDefinition.ToString(String)
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.DashTileDefinition.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DashTileDefinition.DashboardTileDefinitionId
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.DashboardTileDefinitionId
+  id: DashboardTileDefinitionId
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinitionId
+  nameWithType: DashTileDefinition.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.DashboardTileDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int DashboardTileDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DashboardTileDefinitionId As Integer
+  overload: SuperOffice.CRM.Services.DashTileDefinition.DashboardTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.Name
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DashTileDefinition.Name
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the tile \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.DashTileDefinition.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.Description
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DashTileDefinition.Description
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDetailed description \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.DashTileDefinition.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.DefaultHeight
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.DefaultHeight
+  id: DefaultHeight
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: DefaultHeight
+  nameWithType: DashTileDefinition.DefaultHeight
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.DefaultHeight
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault height when added to a dashboard \n"
+  syntax:
+    content: public virtual int DefaultHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DefaultHeight As Integer
+  overload: SuperOffice.CRM.Services.DashTileDefinition.DefaultHeight*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.DefaultWidth
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.DefaultWidth
+  id: DefaultWidth
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: DefaultWidth
+  nameWithType: DashTileDefinition.DefaultWidth
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.DefaultWidth
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault width when added to a dashboard \n"
+  syntax:
+    content: public virtual int DefaultWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DefaultWidth As Integer
+  overload: SuperOffice.CRM.Services.DashTileDefinition.DefaultWidth*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.TileType
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.TileType
+  id: TileType
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: TileType
+  nameWithType: DashTileDefinition.TileType
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.TileType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDashboard tile type \n"
+  syntax:
+    content: public virtual DashTileType TileType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.DashTileType
+    content.vb: Public Overridable Property TileType As DashTileType
+  overload: SuperOffice.CRM.Services.DashTileDefinition.TileType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.EntityType
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.EntityType
+  id: EntityType
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: DashTileDefinition.EntityType
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.EntityType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDashboard entity type \n"
+  syntax:
+    content: public virtual DashTileEntityType EntityType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.DashTileEntityType
+    content.vb: Public Overridable Property EntityType As DashTileEntityType
+  overload: SuperOffice.CRM.Services.DashTileDefinition.EntityType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.EntityName
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.EntityName
+  id: EntityName
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: DashTileDefinition.EntityName
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.EntityName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe entity measured by this tile, defines what provider to use \n"
+  syntax:
+    content: public virtual string EntityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EntityName As String
+  overload: SuperOffice.CRM.Services.DashTileDefinition.EntityName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.SelectionId
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: DashTileDefinition.SelectionId
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSelection holding the criterias for the tile definition \n"
+  syntax:
+    content: public virtual int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SelectionId As Integer
+  overload: SuperOffice.CRM.Services.DashTileDefinition.SelectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.CurrencyMode
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.CurrencyMode
+  id: CurrencyMode
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: CurrencyMode
+  nameWithType: DashTileDefinition.CurrencyMode
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.CurrencyMode
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDashboard currency mode \n"
+  syntax:
+    content: public virtual DashTileCurrencyMode CurrencyMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.DashTileCurrencyMode
+    content.vb: Public Overridable Property CurrencyMode As DashTileCurrencyMode
+  overload: SuperOffice.CRM.Services.DashTileDefinition.CurrencyMode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: DashTileDefinition.CurrencyId
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCurrency of sale \n"
+  syntax:
+    content: public virtual int CurrencyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CurrencyId As Integer
+  overload: SuperOffice.CRM.Services.DashTileDefinition.CurrencyId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.Measure
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.Measure
+  id: Measure
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: Measure
+  nameWithType: DashTileDefinition.Measure
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.Measure
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDashboard measure type (Count, Sum, Avg, etc.) \n"
+  syntax:
+    content: public virtual DashTileMeasure Measure { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.DashTileMeasure
+    content.vb: Public Overridable Property Measure As DashTileMeasure
+  overload: SuperOffice.CRM.Services.DashTileDefinition.Measure*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.MeasureField
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.MeasureField
+  id: MeasureField
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: MeasureField
+  nameWithType: DashTileDefinition.MeasureField
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.MeasureField
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nField to be measured \n"
+  syntax:
+    content: public virtual string MeasureField { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MeasureField As String
+  overload: SuperOffice.CRM.Services.DashTileDefinition.MeasureField*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.SortBy
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.SortBy
+  id: SortBy
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: SortBy
+  nameWithType: DashTileDefinition.SortBy
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.SortBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSort by field \n"
+  syntax:
+    content: public virtual string SortBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SortBy As String
+  overload: SuperOffice.CRM.Services.DashTileDefinition.SortBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.LayoutConfig
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.LayoutConfig
+  id: LayoutConfig
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: LayoutConfig
+  nameWithType: DashTileDefinition.LayoutConfig
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.LayoutConfig
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe JSON formatted layout config \n"
+  syntax:
+    content: public virtual string LayoutConfig { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LayoutConfig As String
+  overload: SuperOffice.CRM.Services.DashTileDefinition.LayoutConfig*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.SecondarySelectionId
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.SecondarySelectionId
+  id: SecondarySelectionId
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: SecondarySelectionId
+  nameWithType: DashTileDefinition.SecondarySelectionId
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.SecondarySelectionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSelection holding the replaced or changed criterias (period comparisons etc) \n"
+  syntax:
+    content: public virtual int SecondarySelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SecondarySelectionId As Integer
+  overload: SuperOffice.CRM.Services.DashTileDefinition.SecondarySelectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.MeasureByField
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.MeasureByField
+  id: MeasureByField
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: MeasureByField
+  nameWithType: DashTileDefinition.MeasureByField
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.MeasureByField
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nField to group by \n"
+  syntax:
+    content: public virtual string MeasureByField { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MeasureByField As String
+  overload: SuperOffice.CRM.Services.DashTileDefinition.MeasureByField*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.ProviderName
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: DashTileDefinition.ProviderName
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of provider to use with this entity type - read only property \n"
+  syntax:
+    content: public virtual string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProviderName As String
+  overload: SuperOffice.CRM.Services.DashTileDefinition.ProviderName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.DashAgent
+  commentId: T:SuperOffice.CRM.Services.DashAgent
+  isExternal: true
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.CRM.Services.DashAgent
+- uid: SuperOffice.CRM.Services.IDashAgent
+  commentId: T:SuperOffice.CRM.Services.IDashAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDashAgent
+  nameWithType: IDashAgent
+  fullName: SuperOffice.CRM.Services.IDashAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DashTileDefinition.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.#ctor
+  isExternal: true
+  name: DashTileDefinition
+  nameWithType: DashTileDefinition.DashTileDefinition
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.DashTileDefinition
+- uid: SuperOffice.CRM.Services.DashTileDefinition.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DashTileDefinition.ToString
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.DashTileDefinition.DashboardTileDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.DashboardTileDefinitionId
+  isExternal: true
+  name: DashboardTileDefinitionId
+  nameWithType: DashTileDefinition.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.DashboardTileDefinitionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.DashTileDefinition.Name*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.Name
+  isExternal: true
+  name: Name
+  nameWithType: DashTileDefinition.Name
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.Name
+- uid: SuperOffice.CRM.Services.DashTileDefinition.Description*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.Description
+  isExternal: true
+  name: Description
+  nameWithType: DashTileDefinition.Description
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.Description
+- uid: SuperOffice.CRM.Services.DashTileDefinition.DefaultHeight*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.DefaultHeight
+  isExternal: true
+  name: DefaultHeight
+  nameWithType: DashTileDefinition.DefaultHeight
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.DefaultHeight
+- uid: SuperOffice.CRM.Services.DashTileDefinition.DefaultWidth*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.DefaultWidth
+  isExternal: true
+  name: DefaultWidth
+  nameWithType: DashTileDefinition.DefaultWidth
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.DefaultWidth
+- uid: SuperOffice.CRM.Services.DashTileDefinition.TileType*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.TileType
+  isExternal: true
+  name: TileType
+  nameWithType: DashTileDefinition.TileType
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.TileType
+- uid: SuperOffice.Data.DashTileType
+  commentId: '!:SuperOffice.Data.DashTileType'
+  isExternal: true
+  name: DashTileType
+  nameWithType: DashTileType
+  fullName: SuperOffice.Data.DashTileType
+- uid: SuperOffice.CRM.Services.DashTileDefinition.EntityType*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.EntityType
+  isExternal: true
+  name: EntityType
+  nameWithType: DashTileDefinition.EntityType
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.EntityType
+- uid: SuperOffice.Data.DashTileEntityType
+  commentId: '!:SuperOffice.Data.DashTileEntityType'
+  isExternal: true
+  name: DashTileEntityType
+  nameWithType: DashTileEntityType
+  fullName: SuperOffice.Data.DashTileEntityType
+- uid: SuperOffice.CRM.Services.DashTileDefinition.EntityName*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.EntityName
+  isExternal: true
+  name: EntityName
+  nameWithType: DashTileDefinition.EntityName
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.EntityName
+- uid: SuperOffice.CRM.Services.DashTileDefinition.SelectionId*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: DashTileDefinition.SelectionId
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.SelectionId
+- uid: SuperOffice.CRM.Services.DashTileDefinition.CurrencyMode*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.CurrencyMode
+  isExternal: true
+  name: CurrencyMode
+  nameWithType: DashTileDefinition.CurrencyMode
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.CurrencyMode
+- uid: SuperOffice.Data.DashTileCurrencyMode
+  commentId: '!:SuperOffice.Data.DashTileCurrencyMode'
+  isExternal: true
+  name: DashTileCurrencyMode
+  nameWithType: DashTileCurrencyMode
+  fullName: SuperOffice.Data.DashTileCurrencyMode
+- uid: SuperOffice.CRM.Services.DashTileDefinition.CurrencyId*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
+  isExternal: true
+  name: CurrencyId
+  nameWithType: DashTileDefinition.CurrencyId
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
+- uid: SuperOffice.CRM.Services.DashTileDefinition.Measure*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.Measure
+  isExternal: true
+  name: Measure
+  nameWithType: DashTileDefinition.Measure
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.Measure
+- uid: SuperOffice.Data.DashTileMeasure
+  commentId: '!:SuperOffice.Data.DashTileMeasure'
+  isExternal: true
+  name: DashTileMeasure
+  nameWithType: DashTileMeasure
+  fullName: SuperOffice.Data.DashTileMeasure
+- uid: SuperOffice.CRM.Services.DashTileDefinition.MeasureField*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.MeasureField
+  isExternal: true
+  name: MeasureField
+  nameWithType: DashTileDefinition.MeasureField
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.MeasureField
+- uid: SuperOffice.CRM.Services.DashTileDefinition.SortBy*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.SortBy
+  isExternal: true
+  name: SortBy
+  nameWithType: DashTileDefinition.SortBy
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.SortBy
+- uid: SuperOffice.CRM.Services.DashTileDefinition.LayoutConfig*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.LayoutConfig
+  isExternal: true
+  name: LayoutConfig
+  nameWithType: DashTileDefinition.LayoutConfig
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.LayoutConfig
+- uid: SuperOffice.CRM.Services.DashTileDefinition.SecondarySelectionId*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.SecondarySelectionId
+  isExternal: true
+  name: SecondarySelectionId
+  nameWithType: DashTileDefinition.SecondarySelectionId
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.SecondarySelectionId
+- uid: SuperOffice.CRM.Services.DashTileDefinition.MeasureByField*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.MeasureByField
+  isExternal: true
+  name: MeasureByField
+  nameWithType: DashTileDefinition.MeasureByField
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.MeasureByField
+- uid: SuperOffice.CRM.Services.DashTileDefinition.ProviderName*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: DashTileDefinition.ProviderName
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.ProviderName

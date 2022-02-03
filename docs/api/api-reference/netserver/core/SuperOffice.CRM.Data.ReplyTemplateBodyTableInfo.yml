@@ -1,0 +1,1611 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  commentId: T:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  id: ReplyTemplateBodyTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyHtml
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyPlain
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodySms
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Definition
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Flags
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Headers
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId_InnerJoin_CustLang
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateBodyId
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId_InnerJoin_ReplyTemplate
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Subject
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateBodyTableInfo
+  nameWithType: ReplyTemplateBodyTableInfo
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;reply_template_body&apos;: Contains the body of the reply templates in different languages\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetReplyTemplateBodyInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("reply_template_body")]
+
+      public class ReplyTemplateBodyTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("reply_template_body")>
+
+      Public Class ReplyTemplateBodyTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: reply_template_body
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: ReplyTemplateBodyTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table ReplyTemplateBody in the database dictionary: reply_template_body\n"
+  syntax:
+    content: public const string DictionaryTableName = "reply_template_body"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "reply_template_body"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: ReplyTemplateBodyTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table ReplyTemplateBody in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: ReplyTemplateBodyTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: ReplyTemplateBodyTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateBodyId
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateBodyId
+  id: ReplyTemplateBodyId
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateBodyId
+  nameWithType: ReplyTemplateBodyTableInfo.ReplyTemplateBodyId
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateBodyId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;id&apos; in table &apos;reply_template_body&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public Int32FieldInfo ReplyTemplateBodyId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ReplyTemplateBodyId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateBodyId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId
+  id: ReplyTemplateId
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateId
+  nameWithType: ReplyTemplateBodyTableInfo.ReplyTemplateId
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;reply_template_id&apos; in table &apos;reply_template_body&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLinks the body to a reply template\n"
+  syntax:
+    content: public Int32FieldInfo ReplyTemplateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ReplyTemplateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId
+  id: LanguageId
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LanguageId
+  nameWithType: ReplyTemplateBodyTableInfo.LanguageId
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;language_id&apos; in table &apos;reply_template_body&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLinks the body to a reply template\n"
+  syntax:
+    content: public Int32FieldInfo LanguageId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property LanguageId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Flags
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: ReplyTemplateBodyTableInfo.Flags
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Flags
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;flags&apos; in table &apos;reply_template_body&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIdentifies the status of the template body. Default, not default etc.\n"
+  syntax:
+    content: public Int32FieldInfo Flags { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Flags As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyPlain
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyPlain
+  id: BodyPlain
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: BodyPlain
+  nameWithType: ReplyTemplateBodyTableInfo.BodyPlain
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyPlain
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;body_plain&apos; in table &apos;reply_template_body&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe plain text version of the body.\n"
+  syntax:
+    content: public StringFieldInfo BodyPlain { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property BodyPlain As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyPlain*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyHtml
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyHtml
+  id: BodyHtml
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: BodyHtml
+  nameWithType: ReplyTemplateBodyTableInfo.BodyHtml
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyHtml
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;body_html&apos; in table &apos;reply_template_body&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe html version of the body.\n"
+  syntax:
+    content: public StringFieldInfo BodyHtml { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property BodyHtml As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyHtml*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Subject
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Subject
+  id: Subject
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: ReplyTemplateBodyTableInfo.Subject
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Subject
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;subject&apos; in table &apos;reply_template_body&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSubject of the outgoing message. Ignored if not needed\n"
+  syntax:
+    content: public StringFieldInfo Subject { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Subject As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Subject*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Headers
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Headers
+  id: Headers
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Headers
+  nameWithType: ReplyTemplateBodyTableInfo.Headers
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Headers
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;headers&apos; in table &apos;reply_template_body&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAdditional headers. Optional\n"
+  syntax:
+    content: public StringFieldInfo Headers { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Headers As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Headers*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodySms
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodySms
+  id: BodySms
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: BodySms
+  nameWithType: ReplyTemplateBodyTableInfo.BodySms
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodySms
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;body_sms&apos; in table &apos;reply_template_body&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe sms version of the body.\n"
+  syntax:
+    content: public StringFieldInfo BodySms { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property BodySms As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodySms*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId_InnerJoin_ReplyTemplate
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId_InnerJoin_ReplyTemplate
+  id: ReplyTemplateId_InnerJoin_ReplyTemplate
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateId_InnerJoin_ReplyTemplate
+  nameWithType: ReplyTemplateBodyTableInfo.ReplyTemplateId_InnerJoin_ReplyTemplate
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId_InnerJoin_ReplyTemplate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key ReplyTemplateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ReplyTemplateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<ReplyTemplateTableInfo> ReplyTemplateId_InnerJoin_ReplyTemplate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ReplyTemplateTableInfo}
+    content.vb: Public ReadOnly Property ReplyTemplateId_InnerJoin_ReplyTemplate As TargetedInnerJoin(Of ReplyTemplateTableInfo)
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId_InnerJoin_ReplyTemplate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId_InnerJoin_CustLang
+  commentId: P:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId_InnerJoin_CustLang
+  id: LanguageId_InnerJoin_CustLang
+  parent: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LanguageId_InnerJoin_CustLang
+  nameWithType: ReplyTemplateBodyTableInfo.LanguageId_InnerJoin_CustLang
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId_InnerJoin_CustLang
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key LanguageId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.CustLangTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<CustLangTableInfo> LanguageId_InnerJoin_CustLang { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CustLangTableInfo}
+    content.vb: Public ReadOnly Property LanguageId_InnerJoin_CustLang As TargetedInnerJoin(Of CustLangTableInfo)
+  overload: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId_InnerJoin_CustLang*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ReplyTemplateBodyTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ReplyTemplateBodyTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ReplyTemplateBodyTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo, To)()
+  name.vb: MapEnums(Of ReplyTemplateBodyTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ReplyTemplateBodyTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<ReplyTemplateBodyTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ReplyTemplateBodyTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ReplyTemplateBodyTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ReplyTemplateBodyTableInfo, To>()
+  nameWithType: Converters.MapEnums<ReplyTemplateBodyTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ReplyTemplateBodyTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo, To)()
+  name.vb: MapEnums(Of ReplyTemplateBodyTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ReplyTemplateBodyTableInfo, To>
+    nameWithType: Converters.MapEnums<ReplyTemplateBodyTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ReplyTemplateBodyTableInfo, To)
+    nameWithType: Converters.MapEnums(Of ReplyTemplateBodyTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: ReplyTemplateBodyTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: ReplyTemplateBodyTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: ReplyTemplateBodyTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Definition
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateBodyId*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateBodyId
+  isExternal: true
+  name: ReplyTemplateBodyId
+  nameWithType: ReplyTemplateBodyTableInfo.ReplyTemplateBodyId
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateBodyId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId
+  isExternal: true
+  name: ReplyTemplateId
+  nameWithType: ReplyTemplateBodyTableInfo.ReplyTemplateId
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId
+  isExternal: true
+  name: LanguageId
+  nameWithType: ReplyTemplateBodyTableInfo.LanguageId
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Flags*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: ReplyTemplateBodyTableInfo.Flags
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Flags
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyPlain*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyPlain
+  isExternal: true
+  name: BodyPlain
+  nameWithType: ReplyTemplateBodyTableInfo.BodyPlain
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyPlain
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyHtml*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyHtml
+  isExternal: true
+  name: BodyHtml
+  nameWithType: ReplyTemplateBodyTableInfo.BodyHtml
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodyHtml
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Subject*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Subject
+  isExternal: true
+  name: Subject
+  nameWithType: ReplyTemplateBodyTableInfo.Subject
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Subject
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Headers*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Headers
+  isExternal: true
+  name: Headers
+  nameWithType: ReplyTemplateBodyTableInfo.Headers
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.Headers
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodySms*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodySms
+  isExternal: true
+  name: BodySms
+  nameWithType: ReplyTemplateBodyTableInfo.BodySms
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.BodySms
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId_InnerJoin_ReplyTemplate*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId_InnerJoin_ReplyTemplate
+  isExternal: true
+  name: ReplyTemplateId_InnerJoin_ReplyTemplate
+  nameWithType: ReplyTemplateBodyTableInfo.ReplyTemplateId_InnerJoin_ReplyTemplate
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.ReplyTemplateId_InnerJoin_ReplyTemplate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ReplyTemplateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ReplyTemplateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<ReplyTemplateTableInfo>
+  nameWithType: TargetedInnerJoin<ReplyTemplateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ReplyTemplateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ReplyTemplateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ReplyTemplateTableInfo)
+  name.vb: TargetedInnerJoin(Of ReplyTemplateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ReplyTemplateTableInfo
+    name: ReplyTemplateTableInfo
+    nameWithType: ReplyTemplateTableInfo
+    fullName: SuperOffice.CRM.Data.ReplyTemplateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ReplyTemplateTableInfo
+    name: ReplyTemplateTableInfo
+    nameWithType: ReplyTemplateTableInfo
+    fullName: SuperOffice.CRM.Data.ReplyTemplateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId_InnerJoin_CustLang*
+  commentId: Overload:SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId_InnerJoin_CustLang
+  isExternal: true
+  name: LanguageId_InnerJoin_CustLang
+  nameWithType: ReplyTemplateBodyTableInfo.LanguageId_InnerJoin_CustLang
+  fullName: SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo.LanguageId_InnerJoin_CustLang
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CustLangTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CustLangTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<CustLangTableInfo>
+  nameWithType: TargetedInnerJoin<CustLangTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.CustLangTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of CustLangTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.CustLangTableInfo)
+  name.vb: TargetedInnerJoin(Of CustLangTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.CustLangTableInfo
+    name: CustLangTableInfo
+    nameWithType: CustLangTableInfo
+    fullName: SuperOffice.CRM.Data.CustLangTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.CustLangTableInfo
+    name: CustLangTableInfo
+    nameWithType: CustLangTableInfo
+    fullName: SuperOffice.CRM.Data.CustLangTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,2392 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo
+  commentId: T:SuperOffice.CRM.Data.ScheduleTableInfo
+  id: ScheduleTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId
+  - SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId_InnerJoin_Schedule
+  - SuperOffice.CRM.Data.ScheduleTableInfo.Asap
+  - SuperOffice.CRM.Data.ScheduleTableInfo.DayOfMonth
+  - SuperOffice.CRM.Data.ScheduleTableInfo.Definition
+  - SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.ScheduleTableInfo.Disabled
+  - SuperOffice.CRM.Data.ScheduleTableInfo.Domain
+  - SuperOffice.CRM.Data.ScheduleTableInfo.ErrorMessage
+  - SuperOffice.CRM.Data.ScheduleTableInfo.ExecutionTime
+  - SuperOffice.CRM.Data.ScheduleTableInfo.Frequency
+  - SuperOffice.CRM.Data.ScheduleTableInfo.LastError
+  - SuperOffice.CRM.Data.ScheduleTableInfo.LastExecution
+  - SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_DbiAgentSchedule_ScheduleId
+  - SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_ScheduledTask_ScheduleId
+  - SuperOffice.CRM.Data.ScheduleTableInfo.LockExpire
+  - SuperOffice.CRM.Data.ScheduleTableInfo.LockPid
+  - SuperOffice.CRM.Data.ScheduleTableInfo.LockTtl
+  - SuperOffice.CRM.Data.ScheduleTableInfo.MinOfHour
+  - SuperOffice.CRM.Data.ScheduleTableInfo.MinuteInterval
+  - SuperOffice.CRM.Data.ScheduleTableInfo.Months
+  - SuperOffice.CRM.Data.ScheduleTableInfo.Name
+  - SuperOffice.CRM.Data.ScheduleTableInfo.NextExecution
+  - SuperOffice.CRM.Data.ScheduleTableInfo.OnceAt
+  - SuperOffice.CRM.Data.ScheduleTableInfo.Retries
+  - SuperOffice.CRM.Data.ScheduleTableInfo.RetryInterval
+  - SuperOffice.CRM.Data.ScheduleTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.ScheduleTableInfo.ScheduleId
+  - SuperOffice.CRM.Data.ScheduleTableInfo.Status
+  - SuperOffice.CRM.Data.ScheduleTableInfo.Stop
+  - SuperOffice.CRM.Data.ScheduleTableInfo.TimeOfDay
+  - SuperOffice.CRM.Data.ScheduleTableInfo.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: ScheduleTableInfo
+  nameWithType: ScheduleTableInfo
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;schedule&apos;: Generic scheduled tasked handling time scheduling, locking and error messages\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetScheduleInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("schedule")]
+
+      public class ScheduleTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("schedule")>
+
+      Public Class ScheduleTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.ScheduleTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.ScheduleTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: schedule
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: ScheduleTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table Schedule in the database dictionary: schedule\n"
+  syntax:
+    content: public const string DictionaryTableName = "schedule"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "schedule"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: ScheduleTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table Schedule in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: ScheduleTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: ScheduleTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.ScheduleId
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.ScheduleId
+  id: ScheduleId
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ScheduleId
+  nameWithType: ScheduleTableInfo.ScheduleId
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.ScheduleId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;id&apos; in table &apos;schedule&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo ScheduleId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ScheduleId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.ScheduleId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Domain
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.Domain
+  id: Domain
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: ScheduleTableInfo.Domain
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Domain
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;domain&apos; in table &apos;schedule&apos;: Dictionary type Enum, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nType of scheduled task\n"
+  syntax:
+    content: public UInt16FieldInfo Domain { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Domain As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Status
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: ScheduleTableInfo.Status
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Status
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;status&apos; in table &apos;schedule&apos;: Dictionary type Enum, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSchedules current status\n"
+  syntax:
+    content: public UInt16FieldInfo Status { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Status As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.Status*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Frequency
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.Frequency
+  id: Frequency
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Frequency
+  nameWithType: ScheduleTableInfo.Frequency
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Frequency
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;frequency&apos; in table &apos;schedule&apos;: Dictionary type Enum, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nType of schedule algorithm to use\n"
+  syntax:
+    content: public UInt16FieldInfo Frequency { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Frequency As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.Frequency*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Asap
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.Asap
+  id: Asap
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Asap
+  nameWithType: ScheduleTableInfo.Asap
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Asap
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;asap&apos; in table &apos;schedule&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRun schedule ASAP\n"
+  syntax:
+    content: public UInt16FieldInfo Asap { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Asap As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.Asap*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Disabled
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.Disabled
+  id: Disabled
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: ScheduleTableInfo.Disabled
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Disabled
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;disabled&apos; in table &apos;schedule&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDisable the schedule\n"
+  syntax:
+    content: public UInt16FieldInfo Disabled { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Disabled As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.Disabled*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Stop
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.Stop
+  id: Stop
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Stop
+  nameWithType: ScheduleTableInfo.Stop
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Stop
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;stop&apos; in table &apos;schedule&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSignal to stop schedule\n"
+  syntax:
+    content: public UInt16FieldInfo Stop { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Stop As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.Stop*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Name
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ScheduleTableInfo.Name
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;name&apos; in table &apos;schedule&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nName of the schedule\n"
+  syntax:
+    content: public StringFieldInfo Name { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Name As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId
+  id: AfterScheduleId
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AfterScheduleId
+  nameWithType: ScheduleTableInfo.AfterScheduleId
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;after_schedule_id&apos; in table &apos;schedule&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRun after another schedule have completed\n"
+  syntax:
+    content: public Int32FieldInfo AfterScheduleId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property AfterScheduleId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.MinuteInterval
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.MinuteInterval
+  id: MinuteInterval
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MinuteInterval
+  nameWithType: ScheduleTableInfo.MinuteInterval
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.MinuteInterval
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;minute_interval&apos; in table &apos;schedule&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nInterval in minutes, used by Minutely\n"
+  syntax:
+    content: public Int32FieldInfo MinuteInterval { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property MinuteInterval As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.MinuteInterval*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Weekdays
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.Weekdays
+  id: Weekdays
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Weekdays
+  nameWithType: ScheduleTableInfo.Weekdays
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Weekdays
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;weekdays&apos; in table &apos;schedule&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBitfield: which days of the week to run\n"
+  syntax:
+    content: public Int32FieldInfo Weekdays { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Weekdays As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.Weekdays*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Months
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.Months
+  id: Months
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Months
+  nameWithType: ScheduleTableInfo.Months
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Months
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;months&apos; in table &apos;schedule&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBitfield: which months of the year to run\n"
+  syntax:
+    content: public Int32FieldInfo Months { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Months As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.Months*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.MinOfHour
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.MinOfHour
+  id: MinOfHour
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MinOfHour
+  nameWithType: ScheduleTableInfo.MinOfHour
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.MinOfHour
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;min_of_hour&apos; in table &apos;schedule&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRun at a given minute in an hour\n"
+  syntax:
+    content: public Int32FieldInfo MinOfHour { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property MinOfHour As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.MinOfHour*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.DayOfMonth
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.DayOfMonth
+  id: DayOfMonth
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DayOfMonth
+  nameWithType: ScheduleTableInfo.DayOfMonth
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.DayOfMonth
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;day_of_month&apos; in table &apos;schedule&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhat day of month to run\n"
+  syntax:
+    content: public Int32FieldInfo DayOfMonth { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property DayOfMonth As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.DayOfMonth*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.TimeOfDay
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.TimeOfDay
+  id: TimeOfDay
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TimeOfDay
+  nameWithType: ScheduleTableInfo.TimeOfDay
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.TimeOfDay
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;time_of_day&apos; in table &apos;schedule&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTime of day to execute if not specified.\n"
+  syntax:
+    content: public DateTimeFieldInfo TimeOfDay { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property TimeOfDay As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.TimeOfDay*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.OnceAt
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.OnceAt
+  id: OnceAt
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OnceAt
+  nameWithType: ScheduleTableInfo.OnceAt
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.OnceAt
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;once_at&apos; in table &apos;schedule&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nExecute once at\n"
+  syntax:
+    content: public DateTimeFieldInfo OnceAt { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property OnceAt As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.OnceAt*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.NextExecution
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.NextExecution
+  id: NextExecution
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: NextExecution
+  nameWithType: ScheduleTableInfo.NextExecution
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.NextExecution
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;next_execution&apos; in table &apos;schedule&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNext execution\n"
+  syntax:
+    content: public DateTimeFieldInfo NextExecution { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property NextExecution As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.NextExecution*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LastExecution
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.LastExecution
+  id: LastExecution
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastExecution
+  nameWithType: ScheduleTableInfo.LastExecution
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LastExecution
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;last_execution&apos; in table &apos;schedule&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast execution\n"
+  syntax:
+    content: public DateTimeFieldInfo LastExecution { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property LastExecution As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.LastExecution*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.ExecutionTime
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.ExecutionTime
+  id: ExecutionTime
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ExecutionTime
+  nameWithType: ScheduleTableInfo.ExecutionTime
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.ExecutionTime
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;execution_time&apos; in table &apos;schedule&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAmount of time in seconds used by last execution\n"
+  syntax:
+    content: public Int32FieldInfo ExecutionTime { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ExecutionTime As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.ExecutionTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LockExpire
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.LockExpire
+  id: LockExpire
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LockExpire
+  nameWithType: ScheduleTableInfo.LockExpire
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LockExpire
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;lock_expire&apos; in table &apos;schedule&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLock preventing the same schedule to run simultaniously\n"
+  syntax:
+    content: public DateTimeFieldInfo LockExpire { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property LockExpire As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.LockExpire*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LockPid
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.LockPid
+  id: LockPid
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LockPid
+  nameWithType: ScheduleTableInfo.LockPid
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LockPid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;lock_pid&apos; in table &apos;schedule&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPID preventing the same schedule to run simultaniously\n"
+  syntax:
+    content: public Int32FieldInfo LockPid { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property LockPid As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.LockPid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LockTtl
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.LockTtl
+  id: LockTtl
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LockTtl
+  nameWithType: ScheduleTableInfo.LockTtl
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LockTtl
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;lock_ttl&apos; in table &apos;schedule&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLock time to live\n"
+  syntax:
+    content: public Int32FieldInfo LockTtl { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property LockTtl As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.LockTtl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.ErrorMessage
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.ErrorMessage
+  id: ErrorMessage
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: ScheduleTableInfo.ErrorMessage
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.ErrorMessage
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;error_message&apos; in table &apos;schedule&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast error message\n"
+  syntax:
+    content: public StringFieldInfo ErrorMessage { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ErrorMessage As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LastError
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.LastError
+  id: LastError
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastError
+  nameWithType: ScheduleTableInfo.LastError
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LastError
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;last_error&apos; in table &apos;schedule&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTime of last error\n"
+  syntax:
+    content: public DateTimeFieldInfo LastError { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property LastError As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.LastError*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Retries
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.Retries
+  id: Retries
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Retries
+  nameWithType: ScheduleTableInfo.Retries
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Retries
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;retries&apos; in table &apos;schedule&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of retries since last successfull execution\n"
+  syntax:
+    content: public Int32FieldInfo Retries { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Retries As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.Retries*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.RetryInterval
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.RetryInterval
+  id: RetryInterval
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RetryInterval
+  nameWithType: ScheduleTableInfo.RetryInterval
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.RetryInterval
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;retry_interval&apos; in table &apos;schedule&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of minutes between each retry\n"
+  syntax:
+    content: public Int32FieldInfo RetryInterval { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RetryInterval As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.RetryInterval*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId_InnerJoin_Schedule
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId_InnerJoin_Schedule
+  id: AfterScheduleId_InnerJoin_Schedule
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AfterScheduleId_InnerJoin_Schedule
+  nameWithType: ScheduleTableInfo.AfterScheduleId_InnerJoin_Schedule
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId_InnerJoin_Schedule
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key AfterScheduleId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ScheduleTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<ScheduleTableInfo> AfterScheduleId_InnerJoin_Schedule { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ScheduleTableInfo}
+    content.vb: Public ReadOnly Property AfterScheduleId_InnerJoin_Schedule As TargetedInnerJoin(Of ScheduleTableInfo)
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId_InnerJoin_Schedule*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_ScheduledTask_ScheduleId
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_ScheduledTask_ScheduleId
+  id: LeftOuterJoin_ScheduledTask_ScheduleId
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ScheduledTask_ScheduleId
+  nameWithType: ScheduleTableInfo.LeftOuterJoin_ScheduledTask_ScheduleId
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_ScheduledTask_ScheduleId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key ScheduleId on this table, to ScheduledTask.<xref href=\"SuperOffice.CRM.Data.ScheduledTaskTableInfo.ScheduleId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ScheduledTaskTableInfo> LeftOuterJoin_ScheduledTask_ScheduleId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScheduledTaskTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ScheduledTask_ScheduleId As TargetedLeftOuterJoin(Of ScheduledTaskTableInfo)
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_ScheduledTask_ScheduleId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_DbiAgentSchedule_ScheduleId
+  commentId: P:SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_DbiAgentSchedule_ScheduleId
+  id: LeftOuterJoin_DbiAgentSchedule_ScheduleId
+  parent: SuperOffice.CRM.Data.ScheduleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_DbiAgentSchedule_ScheduleId
+  nameWithType: ScheduleTableInfo.LeftOuterJoin_DbiAgentSchedule_ScheduleId
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_DbiAgentSchedule_ScheduleId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key ScheduleId on this table, to DbiAgentSchedule.<xref href=\"SuperOffice.CRM.Data.DbiAgentScheduleTableInfo.ScheduleId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<DbiAgentScheduleTableInfo> LeftOuterJoin_DbiAgentSchedule_ScheduleId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DbiAgentScheduleTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_DbiAgentSchedule_ScheduleId As TargetedLeftOuterJoin(Of DbiAgentScheduleTableInfo)
+  overload: SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_DbiAgentSchedule_ScheduleId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ScheduleTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ScheduleTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ScheduleTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ScheduleTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ScheduleTableInfo, To)()
+  name.vb: MapEnums(Of ScheduleTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ScheduleTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<ScheduleTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ScheduleTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ScheduleTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ScheduleTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ScheduleTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ScheduleTableInfo, To>()
+  nameWithType: Converters.MapEnums<ScheduleTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ScheduleTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ScheduleTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ScheduleTableInfo, To)()
+  name.vb: MapEnums(Of ScheduleTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ScheduleTableInfo, To>
+    nameWithType: Converters.MapEnums<ScheduleTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ScheduleTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ScheduleTableInfo, To)
+    nameWithType: Converters.MapEnums(Of ScheduleTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ScheduleTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: ScheduleTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: ScheduleTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: ScheduleTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Definition
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.ScheduleId*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.ScheduleId
+  isExternal: true
+  name: ScheduleId
+  nameWithType: ScheduleTableInfo.ScheduleId
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.ScheduleId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Domain*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: ScheduleTableInfo.Domain
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Domain
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Status*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.Status
+  isExternal: true
+  name: Status
+  nameWithType: ScheduleTableInfo.Status
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Status
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Frequency*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.Frequency
+  isExternal: true
+  name: Frequency
+  nameWithType: ScheduleTableInfo.Frequency
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Frequency
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Asap*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.Asap
+  isExternal: true
+  name: Asap
+  nameWithType: ScheduleTableInfo.Asap
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Asap
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Disabled*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.Disabled
+  isExternal: true
+  name: Disabled
+  nameWithType: ScheduleTableInfo.Disabled
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Disabled
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Stop*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.Stop
+  isExternal: true
+  name: Stop
+  nameWithType: ScheduleTableInfo.Stop
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Stop
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Name*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: ScheduleTableInfo.Name
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Name
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId
+  isExternal: true
+  name: AfterScheduleId
+  nameWithType: ScheduleTableInfo.AfterScheduleId
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.MinuteInterval*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.MinuteInterval
+  isExternal: true
+  name: MinuteInterval
+  nameWithType: ScheduleTableInfo.MinuteInterval
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.MinuteInterval
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Weekdays*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.Weekdays
+  isExternal: true
+  name: Weekdays
+  nameWithType: ScheduleTableInfo.Weekdays
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Weekdays
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Months*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.Months
+  isExternal: true
+  name: Months
+  nameWithType: ScheduleTableInfo.Months
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Months
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.MinOfHour*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.MinOfHour
+  isExternal: true
+  name: MinOfHour
+  nameWithType: ScheduleTableInfo.MinOfHour
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.MinOfHour
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.DayOfMonth*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.DayOfMonth
+  isExternal: true
+  name: DayOfMonth
+  nameWithType: ScheduleTableInfo.DayOfMonth
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.DayOfMonth
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.TimeOfDay*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.TimeOfDay
+  isExternal: true
+  name: TimeOfDay
+  nameWithType: ScheduleTableInfo.TimeOfDay
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.TimeOfDay
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.OnceAt*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.OnceAt
+  isExternal: true
+  name: OnceAt
+  nameWithType: ScheduleTableInfo.OnceAt
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.OnceAt
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.NextExecution*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.NextExecution
+  isExternal: true
+  name: NextExecution
+  nameWithType: ScheduleTableInfo.NextExecution
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.NextExecution
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LastExecution*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.LastExecution
+  isExternal: true
+  name: LastExecution
+  nameWithType: ScheduleTableInfo.LastExecution
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LastExecution
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.ExecutionTime*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.ExecutionTime
+  isExternal: true
+  name: ExecutionTime
+  nameWithType: ScheduleTableInfo.ExecutionTime
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.ExecutionTime
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LockExpire*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.LockExpire
+  isExternal: true
+  name: LockExpire
+  nameWithType: ScheduleTableInfo.LockExpire
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LockExpire
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LockPid*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.LockPid
+  isExternal: true
+  name: LockPid
+  nameWithType: ScheduleTableInfo.LockPid
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LockPid
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LockTtl*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.LockTtl
+  isExternal: true
+  name: LockTtl
+  nameWithType: ScheduleTableInfo.LockTtl
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LockTtl
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.ErrorMessage*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.ErrorMessage
+  isExternal: true
+  name: ErrorMessage
+  nameWithType: ScheduleTableInfo.ErrorMessage
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.ErrorMessage
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LastError*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.LastError
+  isExternal: true
+  name: LastError
+  nameWithType: ScheduleTableInfo.LastError
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LastError
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.Retries*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.Retries
+  isExternal: true
+  name: Retries
+  nameWithType: ScheduleTableInfo.Retries
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.Retries
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.RetryInterval*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.RetryInterval
+  isExternal: true
+  name: RetryInterval
+  nameWithType: ScheduleTableInfo.RetryInterval
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.RetryInterval
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId_InnerJoin_Schedule*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId_InnerJoin_Schedule
+  isExternal: true
+  name: AfterScheduleId_InnerJoin_Schedule
+  nameWithType: ScheduleTableInfo.AfterScheduleId_InnerJoin_Schedule
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.AfterScheduleId_InnerJoin_Schedule
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ScheduleTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ScheduleTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<ScheduleTableInfo>
+  nameWithType: TargetedInnerJoin<ScheduleTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ScheduleTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ScheduleTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ScheduleTableInfo)
+  name.vb: TargetedInnerJoin(Of ScheduleTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ScheduleTableInfo
+    name: ScheduleTableInfo
+    nameWithType: ScheduleTableInfo
+    fullName: SuperOffice.CRM.Data.ScheduleTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ScheduleTableInfo
+    name: ScheduleTableInfo
+    nameWithType: ScheduleTableInfo
+    fullName: SuperOffice.CRM.Data.ScheduleTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_ScheduledTask_ScheduleId*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_ScheduledTask_ScheduleId
+  isExternal: true
+  name: LeftOuterJoin_ScheduledTask_ScheduleId
+  nameWithType: ScheduleTableInfo.LeftOuterJoin_ScheduledTask_ScheduleId
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_ScheduledTask_ScheduleId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScheduledTaskTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScheduledTaskTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ScheduledTaskTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ScheduledTaskTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ScheduledTaskTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ScheduledTaskTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ScheduledTaskTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ScheduledTaskTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ScheduledTaskTableInfo
+    name: ScheduledTaskTableInfo
+    nameWithType: ScheduledTaskTableInfo
+    fullName: SuperOffice.CRM.Data.ScheduledTaskTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ScheduledTaskTableInfo
+    name: ScheduledTaskTableInfo
+    nameWithType: ScheduledTaskTableInfo
+    fullName: SuperOffice.CRM.Data.ScheduledTaskTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_DbiAgentSchedule_ScheduleId*
+  commentId: Overload:SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_DbiAgentSchedule_ScheduleId
+  isExternal: true
+  name: LeftOuterJoin_DbiAgentSchedule_ScheduleId
+  nameWithType: ScheduleTableInfo.LeftOuterJoin_DbiAgentSchedule_ScheduleId
+  fullName: SuperOffice.CRM.Data.ScheduleTableInfo.LeftOuterJoin_DbiAgentSchedule_ScheduleId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DbiAgentScheduleTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DbiAgentScheduleTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<DbiAgentScheduleTableInfo>
+  nameWithType: TargetedLeftOuterJoin<DbiAgentScheduleTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.DbiAgentScheduleTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of DbiAgentScheduleTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.DbiAgentScheduleTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of DbiAgentScheduleTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
+    name: DbiAgentScheduleTableInfo
+    nameWithType: DbiAgentScheduleTableInfo
+    fullName: SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
+    name: DbiAgentScheduleTableInfo
+    nameWithType: DbiAgentScheduleTableInfo
+    fullName: SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

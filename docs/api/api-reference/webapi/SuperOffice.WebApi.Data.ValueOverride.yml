@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ValueOverride
+  commentId: T:SuperOffice.WebApi.Data.ValueOverride
+  id: ValueOverride
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ValueOverride.DiscountAmount
+  - SuperOffice.WebApi.Data.ValueOverride.DiscountPercent
+  - SuperOffice.WebApi.Data.ValueOverride.EarningAmount
+  - SuperOffice.WebApi.Data.ValueOverride.EarningPercent
+  - SuperOffice.WebApi.Data.ValueOverride.None
+  - SuperOffice.WebApi.Data.ValueOverride.Total
+  - SuperOffice.WebApi.Data.ValueOverride.value__
+  langs:
+  - csharp
+  - vb
+  name: ValueOverride
+  nameWithType: ValueOverride
+  fullName: SuperOffice.WebApi.Data.ValueOverride
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHas a pre-calculated value been overriden in a QuoteAlternative or QuoteLine, and in that case what &amp; how?\nThis Enum is used by:  QuoteAlternative.UserValueOverride; QuoteLine.UserValueOverride\n"
+  syntax:
+    content: 'public sealed class ValueOverride : Enum'
+    content.vb: >-
+      Public NotInheritable Class ValueOverride
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ValueOverride.value__
+  commentId: F:SuperOffice.WebApi.Data.ValueOverride.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ValueOverride
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ValueOverride.value__
+  fullName: SuperOffice.WebApi.Data.ValueOverride.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ValueOverride.None
+  commentId: F:SuperOffice.WebApi.Data.ValueOverride.None
+  id: None
+  parent: SuperOffice.WebApi.Data.ValueOverride
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ValueOverride.None
+  fullName: SuperOffice.WebApi.Data.ValueOverride.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Discount data is from the ERP system and has not been overridden\n"
+  syntax:
+    content: public const ValueOverride None
+    return:
+      type: SuperOffice.WebApi.Data.ValueOverride
+    content.vb: Public Const None As ValueOverride
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ValueOverride.Total
+  commentId: F:SuperOffice.WebApi.Data.ValueOverride.Total
+  id: Total
+  parent: SuperOffice.WebApi.Data.ValueOverride
+  langs:
+  - csharp
+  - vb
+  name: Total
+  nameWithType: ValueOverride.Total
+  fullName: SuperOffice.WebApi.Data.ValueOverride.Total
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The Total amount has been overridden; all other fields should be recalculated\n"
+  syntax:
+    content: public const ValueOverride Total
+    return:
+      type: SuperOffice.WebApi.Data.ValueOverride
+    content.vb: Public Const Total As ValueOverride
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ValueOverride.DiscountPercent
+  commentId: F:SuperOffice.WebApi.Data.ValueOverride.DiscountPercent
+  id: DiscountPercent
+  parent: SuperOffice.WebApi.Data.ValueOverride
+  langs:
+  - csharp
+  - vb
+  name: DiscountPercent
+  nameWithType: ValueOverride.DiscountPercent
+  fullName: SuperOffice.WebApi.Data.ValueOverride.DiscountPercent
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The discount percentage has been overriden; all other fields should be recalculated\n"
+  syntax:
+    content: public const ValueOverride DiscountPercent
+    return:
+      type: SuperOffice.WebApi.Data.ValueOverride
+    content.vb: Public Const DiscountPercent As ValueOverride
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ValueOverride.DiscountAmount
+  commentId: F:SuperOffice.WebApi.Data.ValueOverride.DiscountAmount
+  id: DiscountAmount
+  parent: SuperOffice.WebApi.Data.ValueOverride
+  langs:
+  - csharp
+  - vb
+  name: DiscountAmount
+  nameWithType: ValueOverride.DiscountAmount
+  fullName: SuperOffice.WebApi.Data.ValueOverride.DiscountAmount
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: The discount amount has been overridden; all other fields should be recalculated\n"
+  syntax:
+    content: public const ValueOverride DiscountAmount
+    return:
+      type: SuperOffice.WebApi.Data.ValueOverride
+    content.vb: Public Const DiscountAmount As ValueOverride
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ValueOverride.EarningPercent
+  commentId: F:SuperOffice.WebApi.Data.ValueOverride.EarningPercent
+  id: EarningPercent
+  parent: SuperOffice.WebApi.Data.ValueOverride
+  langs:
+  - csharp
+  - vb
+  name: EarningPercent
+  nameWithType: ValueOverride.EarningPercent
+  fullName: SuperOffice.WebApi.Data.ValueOverride.EarningPercent
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: The earning percent has been overridden; all other fields should be recalculated\n"
+  syntax:
+    content: public const ValueOverride EarningPercent
+    return:
+      type: SuperOffice.WebApi.Data.ValueOverride
+    content.vb: Public Const EarningPercent As ValueOverride
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ValueOverride.EarningAmount
+  commentId: F:SuperOffice.WebApi.Data.ValueOverride.EarningAmount
+  id: EarningAmount
+  parent: SuperOffice.WebApi.Data.ValueOverride
+  langs:
+  - csharp
+  - vb
+  name: EarningAmount
+  nameWithType: ValueOverride.EarningAmount
+  fullName: SuperOffice.WebApi.Data.ValueOverride.EarningAmount
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: The earning amount has been overridden; all other fields should be recalculated\n"
+  syntax:
+    content: public const ValueOverride EarningAmount
+    return:
+      type: SuperOffice.WebApi.Data.ValueOverride
+    content.vb: Public Const EarningAmount As ValueOverride
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ValueOverride
+  commentId: T:SuperOffice.WebApi.Data.ValueOverride
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ValueOverride
+  nameWithType: ValueOverride
+  fullName: SuperOffice.WebApi.Data.ValueOverride

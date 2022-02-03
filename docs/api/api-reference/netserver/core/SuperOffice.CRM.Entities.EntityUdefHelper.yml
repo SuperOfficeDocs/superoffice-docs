@@ -1,0 +1,2055 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityUdefHelper
+  id: EntityUdefHelper
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.EntityUdefHelper.#ctor(SuperOffice.CRM.Entities.IEntityUdefHelperContainer)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.ConvertDbTypeToString(System.String,System.Object)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.ConvertSpecificTypeToString(System.String,System.Object)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.CopyTo(SuperOffice.CRM.Entities.EntityUdefHelper)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTextSuffix
+  - SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTooltipSuffix
+  - SuperOffice.CRM.Entities.EntityUdefHelper.GetFieldRight(System.String)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.GetProgIdFromFieldLabel(System.String)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.GetValue(System.String)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.Item(System.String)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.OnUdefValueChange
+  - SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds
+  - SuperOffice.CRM.Entities.EntityUdefHelper.SetDefault(System.String)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.SetDefaults
+  - SuperOffice.CRM.Entities.EntityUdefHelper.SetValue(System.String,System.Object)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.TrySetValue(System.String,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: EntityUdefHelper
+  nameWithType: EntityUdefHelper
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGeneric Udef helper class. EntityUdefHelper can read udef fields for entities.\nThe constructor takes to TableRowBase instances, of type UdxxxSmallRow and UdxxxLargeRow, \nwhere xxx can be Contact, Sale, Project, Person\n"
+  example:
+  - "\n<pre><code>  Contact c = Contact.GetFromIdxContactId(3);  \n  string s = c.UdefHelper.GetValue(&quot;SuperOffice:1&quot;) as string;\n  string s = c.UdefHelper[&quot;SuperOffice:1&quot;) as string;\n  c.UdefHelper.SetValue(&quot;SuperOffice:1&quot;, &quot;foobar&quot;);</code></pre>\n"
+  syntax:
+    content: 'public sealed class EntityUdefHelper : UdefValueHelper'
+    content.vb: >-
+      Public NotInheritable Class EntityUdefHelper
+          Inherits UdefValueHelper
+  seealso:
+  - linkId: SuperOffice.CRM.Entities.Contact
+    commentId: T:SuperOffice.CRM.Entities.Contact
+  - linkId: SuperOffice.CRM.Entities.Person
+    commentId: T:SuperOffice.CRM.Entities.Person
+  - linkId: SuperOffice.CRM.Rows.UDefFieldCache
+    commentId: T:SuperOffice.CRM.Rows.UDefFieldCache
+  - linkId: SuperOffice.CRM.Rows.UDefFieldRow
+    commentId: T:SuperOffice.CRM.Rows.UDefFieldRow
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Data.Util.UdefValueHelper
+  inheritedMembers:
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbTypeToString(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificTypeToString(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbToSpecificType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDecimalToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertListToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertCheckboxToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertUnlimitedDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertNumberToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.ErrorIdentification(SuperOffice.CRM.Rows.UDefFieldRow)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.TimeTLocal2DateTime(System.Int32)
+  - SuperOffice.CRM.Data.Util.UdefValueHelper.DateTime2TimeTLocal(System.DateTime)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.EntityUdefHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.EntityUdefHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.GetProgIdFromFieldLabel(System.String)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.GetProgIdFromFieldLabel(System.String)
+  id: GetProgIdFromFieldLabel(System.String)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetProgIdFromFieldLabel(String)
+  nameWithType: EntityUdefHelper.GetProgIdFromFieldLabel(String)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.GetProgIdFromFieldLabel(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nReturns the prog-id for a given field-label. Useful if you don&apos;t know\nthe prog-id. Note that field-labels are fuzzy matches, and may give you\na different field than the one you are expecting.\n"
+  syntax:
+    content: public string GetProgIdFromFieldLabel(string fieldLabel)
+    parameters:
+    - id: fieldLabel
+      type: System.String
+      description: The label of the field as seen in the GUI
+    return:
+      type: System.String
+      description: The unique prog.id (e.g. &quot;SuperOffice:3&quot;) of the field, or null if no match found.
+    content.vb: Public Function GetProgIdFromFieldLabel(fieldLabel As String) As String
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.GetProgIdFromFieldLabel*
+  seealso:
+  - linkId: SuperOffice.CRM.Rows.UDefFieldCache
+    commentId: T:SuperOffice.CRM.Rows.UDefFieldCache
+  - linkId: SuperOffice.CRM.Rows.UDefFieldRow
+    commentId: T:SuperOffice.CRM.Rows.UDefFieldRow
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.GetValue(System.String)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.GetValue(System.String)
+  id: GetValue(System.String)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetValue(String)
+  nameWithType: EntityUdefHelper.GetValue(String)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.GetValue(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet udef value using the unique prog.id name of the field.\n"
+  syntax:
+    content: public object GetValue(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+      description: progId is a string identifier on the field. It defaults to &quot;SuperOffice:[udefidentity int]&quot; but can be set to any unique string.
+    return:
+      type: System.Object
+      description: The value asked for as an object
+    content.vb: Public Function GetValue(progId As String) As Object
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.GetValue*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalOperationException
+    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+    description: "\nThrown if the incoming data type cannot be converted to the underlying storage type\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.TrySetValue(System.String,System.Object)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.TrySetValue(System.String,System.Object)
+  id: TrySetValue(System.String,System.Object)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: TrySetValue(String, Object)
+  nameWithType: EntityUdefHelper.TrySetValue(String, Object)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.TrySetValue(System.String, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public bool TrySetValue(string progId, object value)
+    parameters:
+    - id: progId
+      type: System.String
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Function TrySetValue(progId As String, value As Object) As Boolean
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.TrySetValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.SetValue(System.String,System.Object)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.SetValue(System.String,System.Object)
+  id: SetValue(System.String,System.Object)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: SetValue(String, Object)
+  nameWithType: EntityUdefHelper.SetValue(String, Object)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.SetValue(System.String, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet udef value. The incoming data type must either correspond to the database storage type,\nor be convertible to it. strings are accepted provided they have the proper format. Number and date strings\nmust be formatted using InvariantInfo from System.Globalization.\n"
+  syntax:
+    content: public void SetValue(string progId, object value)
+    parameters:
+    - id: progId
+      type: System.String
+      description: 'progId is a string defined as this: [identifier string].[udefidentity int]'
+    - id: value
+      type: System.Object
+    content.vb: Public Sub SetValue(progId As String, value As Object)
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.SetValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.GetFieldRight(System.String)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.GetFieldRight(System.String)
+  id: GetFieldRight(System.String)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFieldRight(String)
+  nameWithType: EntityUdefHelper.GetFieldRight(String)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.GetFieldRight(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet a <xref href=\"SuperOffice.CRM.Security.FieldRight\" data-throw-if-not-resolved=\"false\"></xref> for the udef value.\n"
+  syntax:
+    content: public FieldRight GetFieldRight(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+      description: 'progId is a string defined as this: [identifier string].[udefidentity int]'
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+      description: Permissions on the field.
+    content.vb: Public Function GetFieldRight(progId As String) As FieldRight
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.GetFieldRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.SetDefault(System.String)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.SetDefault(System.String)
+  id: SetDefault(System.String)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: SetDefault(String)
+  nameWithType: EntityUdefHelper.SetDefault(String)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.SetDefault(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet the value of the given field to be the default value specified in the fields&apos; definition, if any.\nAlso update display text and tooltip if relevant.\n"
+  syntax:
+    content: public void SetDefault(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+      description: Field identification; if no such field exists nothing happens
+    content.vb: Public Sub SetDefault(progId As String)
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.SetDefault*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.SetDefaults
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.SetDefaults
+  id: SetDefaults
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults()
+  nameWithType: EntityUdefHelper.SetDefaults()
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.SetDefaults()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet the values of ALL defined fields to their default values. Note that slots in the\nudefSmall and udefLarge tables that have not been assigned to any field are NOT modified.\nAlso update display texts and tooltips as relevant.\n"
+  syntax:
+    content: public void SetDefaults()
+    content.vb: Public Sub SetDefaults
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.SetDefaults*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.#ctor(SuperOffice.CRM.Entities.IEntityUdefHelperContainer)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.#ctor(SuperOffice.CRM.Entities.IEntityUdefHelperContainer)
+  id: '#ctor(SuperOffice.CRM.Entities.IEntityUdefHelperContainer)'
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: EntityUdefHelper(IEntityUdefHelperContainer)
+  nameWithType: EntityUdefHelper.EntityUdefHelper(IEntityUdefHelperContainer)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.EntityUdefHelper(SuperOffice.CRM.Entities.IEntityUdefHelperContainer)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nConstructor for the class that takes reference to a \n<xref href=\"SuperOffice.CRM.Entities.IEntityUdefHelperContainer\" data-throw-if-not-resolved=\"false\"></xref> as an argument.  \n"
+  syntax:
+    content: public EntityUdefHelper(IEntityUdefHelperContainer container)
+    parameters:
+    - id: container
+      type: SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+      description: "\nReference to object holding the actuall UdXXYY rows, where XX is name of \nholder of the userdefined fields and YY is Small and Large.\n"
+    content.vb: Public Sub New(container As IEntityUdefHelperContainer)
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.ConvertDbTypeToString(System.String,System.Object)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.ConvertDbTypeToString(System.String,System.Object)
+  id: ConvertDbTypeToString(System.String,System.Object)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertDbTypeToString(String, Object)
+  nameWithType: EntityUdefHelper.ConvertDbTypeToString(String, Object)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.ConvertDbTypeToString(System.String, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nUtility function for converting a udef STORAGE value with its definition into a string. \n"
+  remarks: "\nString values created in this way will be correctly parsed by the methods that set udef values,\nfor instance by doing \n<pre><code>con.Udef[&quot;MyFieldProgid&quot;] = someStringValue;</code></pre>\nThe from string conversion works for all udef data types. Note that all date and number formats must\nuse the InvariantInfo culture!\n"
+  syntax:
+    content: public string ConvertDbTypeToString(string progId, object value)
+    parameters:
+    - id: progId
+      type: System.String
+      description: ProgId of field to be converted
+    - id: value
+      type: System.Object
+      description: STORAGE value (that is, int or string) to be converted
+    return:
+      type: System.String
+      description: Udef value as string; all formats are according to the InvariantInfo culture.
+    content.vb: Public Function ConvertDbTypeToString(progId As String, value As Object) As String
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.ConvertDbTypeToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.ConvertSpecificTypeToString(System.String,System.Object)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.ConvertSpecificTypeToString(System.String,System.Object)
+  id: ConvertSpecificTypeToString(System.String,System.Object)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertSpecificTypeToString(String, Object)
+  nameWithType: EntityUdefHelper.ConvertSpecificTypeToString(String, Object)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.ConvertSpecificTypeToString(System.String, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nUtility function for converting a udef CLR value with its definition into a string.\n"
+  remarks: "\nString values created in this way will be correctly parsed by the methods that set udef values,\nfor instance by doing \n<pre><code>con.Udef[&quot;MyFieldProgid&quot;] = someStringValue;</code></pre>\nThe from string conversion works for all udef data types. Note that all date and number formats must\nuse the InvariantInfo culture!\n"
+  syntax:
+    content: public string ConvertSpecificTypeToString(string progId, object value)
+    parameters:
+    - id: progId
+      type: System.String
+      description: ProgId of field to be converted
+    - id: value
+      type: System.Object
+      description: CLR value (that is, DateTime, int, bool etc) to be converted
+    return:
+      type: System.String
+      description: Udef value as string; all formats are according to the InvariantInfo culture.
+    content.vb: Public Function ConvertSpecificTypeToString(progId As String, value As Object) As String
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.ConvertSpecificTypeToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.CopyTo(SuperOffice.CRM.Entities.EntityUdefHelper)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.CopyTo(SuperOffice.CRM.Entities.EntityUdefHelper)
+  id: CopyTo(SuperOffice.CRM.Entities.EntityUdefHelper)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: CopyTo(EntityUdefHelper)
+  nameWithType: EntityUdefHelper.CopyTo(EntityUdefHelper)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.CopyTo(SuperOffice.CRM.Entities.EntityUdefHelper)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet all the values from the current udef helper on the other udef helper.  \n"
+  syntax:
+    content: public void CopyTo(EntityUdefHelper otherUdefHelper)
+    parameters:
+    - id: otherUdefHelper
+      type: SuperOffice.CRM.Entities.EntityUdefHelper
+      description: The other udef helper to set the values on.
+    content.vb: Public Sub CopyTo(otherUdefHelper As EntityUdefHelper)
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.CopyTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds
+  commentId: P:SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds
+  id: ProgIds
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: ProgIds
+  nameWithType: EntityUdefHelper.ProgIds
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nA list of all the prog.id names for the udef fields on this object.\n"
+  remarks: "\nYou can use the prog.id names with <xref href=\"SuperOffice.CRM.Entities.EntityUdefHelper.GetValue(System.String)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Entities.EntityUdefHelper.SetValue(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> \nto update the value stored in the field.\n<p></p>\nNote that the prog.id name is different from the label of the udef field.\nThe Label is shown to the user, while the prog.id is not shown - it is used as a way of identifying\na field programmatically. A typical prog.id might be &quot;SuperOffice:7&quot;.\n"
+  syntax:
+    content: public List<string> ProgIds { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public ReadOnly Property ProgIds As List(Of String)
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.Item(System.String)
+  commentId: P:SuperOffice.CRM.Entities.EntityUdefHelper.Item(System.String)
+  id: Item(System.String)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: EntityUdefHelper.Item[String]
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.Item[System.String]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet or get udef value. During set, the incoming data type must either correspond to the database storage type,\nor be convertible to it. strings are accepted provided they have the proper format. Number and date strings\nmust be formatted using InvariantInfo from System.Globalization.\n"
+  remarks: Same as the GetValue() method.
+  syntax:
+    content: public object this[string progId] { get; set; }
+    parameters:
+    - id: progId
+      type: System.String
+      description: 'progId is a string defined as this: [identifier string].[udefidentity int]'
+    return:
+      type: System.Object
+      description: The value asked for as an object (e.g. Int32, string, etc)
+    content.vb: Public Property Item(progId As String) As Object
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.Item*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalOperationException
+    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+    description: "\nThrown if the incoming data type cannot be converted to the underlying storage type\n"
+  nameWithType.vb: EntityUdefHelper.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Entities.EntityUdefHelper.Item(System.String)
+  name.vb: Item(String)
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTextSuffix
+  commentId: P:SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTextSuffix
+  id: DisplayTextSuffix
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: DisplayTextSuffix
+  nameWithType: EntityUdefHelper.DisplayTextSuffix
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTextSuffix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe name suffix for pseudo-fields that contain the display name for a udef field that refers to a list.\nFor each such field NN, there will be a field NN + DisplaySuffix that contains the text corresponding\nto the current value of NN. The pseudo-field is not updatable, but will be updated whevener the parent field is set.\n"
+  syntax:
+    content: public static string DisplayTextSuffix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DisplayTextSuffix As String
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTextSuffix*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTooltipSuffix
+  commentId: P:SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTooltipSuffix
+  id: DisplayTooltipSuffix
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: DisplayTooltipSuffix
+  nameWithType: EntityUdefHelper.DisplayTooltipSuffix
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTooltipSuffix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe name suffix for pseudo-fields that contain the display tooltip text for a udef field that refers to a list.\nFor each such field NN, there will be a field NN + DisplayTooltip that contains the tooltip corresponding\nto the current value of NN. The pseudo-field is not updatable, but will be updated whenever the parent field is set.\n"
+  syntax:
+    content: public static string DisplayTooltipSuffix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DisplayTooltipSuffix As String
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTooltipSuffix*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.OnUdefValueChange
+  commentId: E:SuperOffice.CRM.Entities.EntityUdefHelper.OnUdefValueChange
+  id: OnUdefValueChange
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: OnUdefValueChange
+  nameWithType: EntityUdefHelper.OnUdefValueChange
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.OnUdefValueChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSubscribe or unsubscribe to event raised every time the value of an udef field is modified.\n"
+  syntax:
+    content: public event EntityUdefHelper.UdefValueChange OnUdefValueChange
+    return:
+      type: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+    content.vb: Public Event OnUdefValueChange As EntityUdefHelper.UdefValueChange
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper
+  commentId: T:SuperOffice.CRM.Data.Util.UdefValueHelper
+  parent: SuperOffice.CRM.Data.Util
+  isExternal: true
+  name: UdefValueHelper
+  nameWithType: UdefValueHelper
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbTypeToString(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbTypeToString(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: ConvertDbTypeToString(UDefFieldRow, Object)
+  nameWithType: UdefValueHelper.ConvertDbTypeToString(UDefFieldRow, Object)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbTypeToString(SuperOffice.CRM.Rows.UDefFieldRow, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbTypeToString(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertDbTypeToString
+    nameWithType: UdefValueHelper.ConvertDbTypeToString
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbTypeToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbTypeToString(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertDbTypeToString
+    nameWithType: UdefValueHelper.ConvertDbTypeToString
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbTypeToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificTypeToString(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificTypeToString(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: ConvertSpecificTypeToString(UDefFieldRow, Object)
+  nameWithType: UdefValueHelper.ConvertSpecificTypeToString(UDefFieldRow, Object)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificTypeToString(SuperOffice.CRM.Rows.UDefFieldRow, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificTypeToString(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertSpecificTypeToString
+    nameWithType: UdefValueHelper.ConvertSpecificTypeToString
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificTypeToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificTypeToString(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertSpecificTypeToString
+    nameWithType: UdefValueHelper.ConvertSpecificTypeToString
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificTypeToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbToSpecificType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbToSpecificType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: ConvertDbToSpecificType(UDefFieldRow, Object)
+  nameWithType: UdefValueHelper.ConvertDbToSpecificType(UDefFieldRow, Object)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbToSpecificType(SuperOffice.CRM.Rows.UDefFieldRow, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbToSpecificType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertDbToSpecificType
+    nameWithType: UdefValueHelper.ConvertDbToSpecificType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbToSpecificType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbToSpecificType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertDbToSpecificType
+    nameWithType: UdefValueHelper.ConvertDbToSpecificType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDbToSpecificType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: ConvertSpecificToDbType(UDefFieldRow, Object)
+  nameWithType: UdefValueHelper.ConvertSpecificToDbType(UDefFieldRow, Object)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificToDbType(SuperOffice.CRM.Rows.UDefFieldRow, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertSpecificToDbType
+    nameWithType: UdefValueHelper.ConvertSpecificToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertSpecificToDbType
+    nameWithType: UdefValueHelper.ConvertSpecificToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertSpecificToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDecimalToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDecimalToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: ConvertDecimalToDbType(UDefFieldRow, Object)
+  nameWithType: UdefValueHelper.ConvertDecimalToDbType(UDefFieldRow, Object)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDecimalToDbType(SuperOffice.CRM.Rows.UDefFieldRow, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDecimalToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertDecimalToDbType
+    nameWithType: UdefValueHelper.ConvertDecimalToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDecimalToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDecimalToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertDecimalToDbType
+    nameWithType: UdefValueHelper.ConvertDecimalToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDecimalToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertListToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertListToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: ConvertListToDbType(UDefFieldRow, Object)
+  nameWithType: UdefValueHelper.ConvertListToDbType(UDefFieldRow, Object)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertListToDbType(SuperOffice.CRM.Rows.UDefFieldRow, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertListToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertListToDbType
+    nameWithType: UdefValueHelper.ConvertListToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertListToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertListToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertListToDbType
+    nameWithType: UdefValueHelper.ConvertListToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertListToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertCheckboxToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertCheckboxToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: ConvertCheckboxToDbType(UDefFieldRow, Object)
+  nameWithType: UdefValueHelper.ConvertCheckboxToDbType(UDefFieldRow, Object)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertCheckboxToDbType(SuperOffice.CRM.Rows.UDefFieldRow, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertCheckboxToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertCheckboxToDbType
+    nameWithType: UdefValueHelper.ConvertCheckboxToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertCheckboxToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertCheckboxToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertCheckboxToDbType
+    nameWithType: UdefValueHelper.ConvertCheckboxToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertCheckboxToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertUnlimitedDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertUnlimitedDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: ConvertUnlimitedDateToDbType(UDefFieldRow, Object)
+  nameWithType: UdefValueHelper.ConvertUnlimitedDateToDbType(UDefFieldRow, Object)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertUnlimitedDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertUnlimitedDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertUnlimitedDateToDbType
+    nameWithType: UdefValueHelper.ConvertUnlimitedDateToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertUnlimitedDateToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertUnlimitedDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertUnlimitedDateToDbType
+    nameWithType: UdefValueHelper.ConvertUnlimitedDateToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertUnlimitedDateToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: ConvertDateToDbType(UDefFieldRow, Object)
+  nameWithType: UdefValueHelper.ConvertDateToDbType(UDefFieldRow, Object)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertDateToDbType
+    nameWithType: UdefValueHelper.ConvertDateToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDateToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDateToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertDateToDbType
+    nameWithType: UdefValueHelper.ConvertDateToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertDateToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertNumberToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertNumberToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: ConvertNumberToDbType(UDefFieldRow, Object)
+  nameWithType: UdefValueHelper.ConvertNumberToDbType(UDefFieldRow, Object)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertNumberToDbType(SuperOffice.CRM.Rows.UDefFieldRow, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertNumberToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertNumberToDbType
+    nameWithType: UdefValueHelper.ConvertNumberToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertNumberToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertNumberToDbType(SuperOffice.CRM.Rows.UDefFieldRow,System.Object)
+    name: ConvertNumberToDbType
+    nameWithType: UdefValueHelper.ConvertNumberToDbType
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ConvertNumberToDbType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ErrorIdentification(SuperOffice.CRM.Rows.UDefFieldRow)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.ErrorIdentification(SuperOffice.CRM.Rows.UDefFieldRow)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: ErrorIdentification(UDefFieldRow)
+  nameWithType: UdefValueHelper.ErrorIdentification(UDefFieldRow)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ErrorIdentification(SuperOffice.CRM.Rows.UDefFieldRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ErrorIdentification(SuperOffice.CRM.Rows.UDefFieldRow)
+    name: ErrorIdentification
+    nameWithType: UdefValueHelper.ErrorIdentification
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ErrorIdentification
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.ErrorIdentification(SuperOffice.CRM.Rows.UDefFieldRow)
+    name: ErrorIdentification
+    nameWithType: UdefValueHelper.ErrorIdentification
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.ErrorIdentification
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.UDefFieldRow
+    name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.TimeTLocal2DateTime(System.Int32)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.TimeTLocal2DateTime(System.Int32)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: TimeTLocal2DateTime(Int32)
+  nameWithType: UdefValueHelper.TimeTLocal2DateTime(Int32)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.TimeTLocal2DateTime(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.TimeTLocal2DateTime(System.Int32)
+    name: TimeTLocal2DateTime
+    nameWithType: UdefValueHelper.TimeTLocal2DateTime
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.TimeTLocal2DateTime
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.TimeTLocal2DateTime(System.Int32)
+    name: TimeTLocal2DateTime
+    nameWithType: UdefValueHelper.TimeTLocal2DateTime
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.TimeTLocal2DateTime
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper.DateTime2TimeTLocal(System.DateTime)
+  commentId: M:SuperOffice.CRM.Data.Util.UdefValueHelper.DateTime2TimeTLocal(System.DateTime)
+  parent: SuperOffice.CRM.Data.Util.UdefValueHelper
+  isExternal: true
+  name: DateTime2TimeTLocal(DateTime)
+  nameWithType: UdefValueHelper.DateTime2TimeTLocal(DateTime)
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.DateTime2TimeTLocal(System.DateTime)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.DateTime2TimeTLocal(System.DateTime)
+    name: DateTime2TimeTLocal
+    nameWithType: UdefValueHelper.DateTime2TimeTLocal
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.DateTime2TimeTLocal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.UdefValueHelper.DateTime2TimeTLocal(System.DateTime)
+    name: DateTime2TimeTLocal
+    nameWithType: UdefValueHelper.DateTime2TimeTLocal
+    fullName: SuperOffice.CRM.Data.Util.UdefValueHelper.DateTime2TimeTLocal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EntityUdefHelper, To>()
+  nameWithType: EnumUtil.MapEnums<EntityUdefHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityUdefHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EntityUdefHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityUdefHelper, To)()
+  name.vb: MapEnums(Of EntityUdefHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EntityUdefHelper, To>
+    nameWithType: EnumUtil.MapEnums<EntityUdefHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityUdefHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EntityUdefHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of EntityUdefHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityUdefHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EntityUdefHelper, To>()
+  nameWithType: Converters.MapEnums<EntityUdefHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityUdefHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of EntityUdefHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityUdefHelper, To)()
+  name.vb: MapEnums(Of EntityUdefHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EntityUdefHelper, To>
+    nameWithType: Converters.MapEnums<EntityUdefHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityUdefHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EntityUdefHelper, To)
+    nameWithType: Converters.MapEnums(Of EntityUdefHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityUdefHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Contact
+  commentId: T:SuperOffice.CRM.Entities.Contact
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Entities.Contact
+- uid: SuperOffice.CRM.Entities.Person
+  commentId: T:SuperOffice.CRM.Entities.Person
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Entities.Person
+- uid: SuperOffice.CRM.Rows.UDefFieldCache
+  commentId: T:SuperOffice.CRM.Rows.UDefFieldCache
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: UDefFieldCache
+  nameWithType: UDefFieldCache
+  fullName: SuperOffice.CRM.Rows.UDefFieldCache
+- uid: SuperOffice.CRM.Rows.UDefFieldRow
+  commentId: T:SuperOffice.CRM.Rows.UDefFieldRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: UDefFieldRow
+  nameWithType: UDefFieldRow
+  fullName: SuperOffice.CRM.Rows.UDefFieldRow
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Data.Util
+  commentId: N:SuperOffice.CRM.Data.Util
+  isExternal: true
+  name: SuperOffice.CRM.Data.Util
+  nameWithType: SuperOffice.CRM.Data.Util
+  fullName: SuperOffice.CRM.Data.Util
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.GetProgIdFromFieldLabel*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.GetProgIdFromFieldLabel
+  isExternal: true
+  name: GetProgIdFromFieldLabel
+  nameWithType: EntityUdefHelper.GetProgIdFromFieldLabel
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.GetProgIdFromFieldLabel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.GetValue*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.GetValue
+  isExternal: true
+  name: GetValue
+  nameWithType: EntityUdefHelper.GetValue
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.GetValue
+- uid: SuperOffice.Exceptions.SoIllegalOperationException
+  commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+  isExternal: true
+  name: SoIllegalOperationException
+  nameWithType: SoIllegalOperationException
+  fullName: SuperOffice.Exceptions.SoIllegalOperationException
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.TrySetValue*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.TrySetValue
+  isExternal: true
+  name: TrySetValue
+  nameWithType: EntityUdefHelper.TrySetValue
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.TrySetValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.SetValue*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.SetValue
+  isExternal: true
+  name: SetValue
+  nameWithType: EntityUdefHelper.SetValue
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.SetValue
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.GetFieldRight*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.GetFieldRight
+  isExternal: true
+  name: GetFieldRight
+  nameWithType: EntityUdefHelper.GetFieldRight
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.GetFieldRight
+- uid: SuperOffice.CRM.Security.FieldRight
+  commentId: T:SuperOffice.CRM.Security.FieldRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.SetDefault*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.SetDefault
+  isExternal: true
+  name: SetDefault
+  nameWithType: EntityUdefHelper.SetDefault
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.SetDefault
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.SetDefaults*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.SetDefaults
+  isExternal: true
+  name: SetDefaults
+  nameWithType: EntityUdefHelper.SetDefaults
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.SetDefaults
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.#ctor
+  isExternal: true
+  name: EntityUdefHelper
+  nameWithType: EntityUdefHelper.EntityUdefHelper
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.EntityUdefHelper
+- uid: SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+  commentId: T:SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: IEntityUdefHelperContainer
+  nameWithType: IEntityUdefHelperContainer
+  fullName: SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.ConvertDbTypeToString*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.ConvertDbTypeToString
+  isExternal: true
+  name: ConvertDbTypeToString
+  nameWithType: EntityUdefHelper.ConvertDbTypeToString
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.ConvertDbTypeToString
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.ConvertSpecificTypeToString*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.ConvertSpecificTypeToString
+  isExternal: true
+  name: ConvertSpecificTypeToString
+  nameWithType: EntityUdefHelper.ConvertSpecificTypeToString
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.ConvertSpecificTypeToString
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.CopyTo*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.CopyTo
+  isExternal: true
+  name: CopyTo
+  nameWithType: EntityUdefHelper.CopyTo
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.CopyTo
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityUdefHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityUdefHelper
+  nameWithType: EntityUdefHelper
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds
+  isExternal: true
+  name: ProgIds
+  nameWithType: EntityUdefHelper.ProgIds
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.Item*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.Item
+  isExternal: true
+  name: Item
+  nameWithType: EntityUdefHelper.Item
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.Item
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTextSuffix*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTextSuffix
+  isExternal: true
+  name: DisplayTextSuffix
+  nameWithType: EntityUdefHelper.DisplayTextSuffix
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTextSuffix
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTooltipSuffix*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTooltipSuffix
+  isExternal: true
+  name: DisplayTooltipSuffix
+  nameWithType: EntityUdefHelper.DisplayTooltipSuffix
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTooltipSuffix
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  commentId: T:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityUdefHelper.UdefValueChange
+  nameWithType: EntityUdefHelper.UdefValueChange
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange

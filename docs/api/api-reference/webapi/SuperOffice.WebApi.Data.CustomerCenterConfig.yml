@@ -1,0 +1,591 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig
+  commentId: T:SuperOffice.WebApi.Data.CustomerCenterConfig
+  id: CustomerCenterConfig
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerCenterConfig.#ctor
+  - SuperOffice.WebApi.Data.CustomerCenterConfig.Config
+  - SuperOffice.WebApi.Data.CustomerCenterConfig.CustConfigId
+  - SuperOffice.WebApi.Data.CustomerCenterConfig.CustLangId
+  - SuperOffice.WebApi.Data.CustomerCenterConfig.Registered
+  - SuperOffice.WebApi.Data.CustomerCenterConfig.RegisteredAssociateId
+  - SuperOffice.WebApi.Data.CustomerCenterConfig.Type
+  - SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String
+  - SuperOffice.WebApi.Data.CustomerCenterConfig.Updated
+  - SuperOffice.WebApi.Data.CustomerCenterConfig.UpdatedAssociateId
+  langs:
+  - csharp
+  - vb
+  name: CustomerCenterConfig
+  nameWithType: CustomerCenterConfig
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CustomerCenterConfig.\nContains configuration when displaying the Customer Center    \n"
+  example:
+  - "\nGet CustomerCenterConfig 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new CustomerServiceAgent(configuration);\nvar customerCenterConfig = agent.GetCustomerCenterConfig( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class CustomerCenterConfig : Carrier'
+    content.vb: >-
+      Public Class CustomerCenterConfig
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerCenterConfig.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: CustomerCenterConfig()
+  nameWithType: CustomerCenterConfig.CustomerCenterConfig()
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.CustomerCenterConfig()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CustomerCenterConfig()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerCenterConfig.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.CustConfigId
+  commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.CustConfigId
+  id: CustConfigId
+  parent: SuperOffice.WebApi.Data.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: CustConfigId
+  nameWithType: CustomerCenterConfig.CustConfigId
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.CustConfigId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int CustConfigId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustConfigId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerCenterConfig.CustConfigId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String
+  commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: CustomerCenterConfig.Type_String
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat kind of data is in this row\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.CustomerCenterConfig.Type
+    commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Type
+  commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: CustomerCenterConfig.Type
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat kind of data is in this row\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ConfigType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ConfigType}
+    content.vb: Public Property Type As Nullable(Of ConfigType)
+  overload: SuperOffice.WebApi.Data.CustomerCenterConfig.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String
+    commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Config
+  commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.Config
+  id: Config
+  parent: SuperOffice.WebApi.Data.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: CustomerCenterConfig.Config
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.Config
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA JSON-formatted config\n"
+  syntax:
+    content: public virtual string Config { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Config As String
+  overload: SuperOffice.WebApi.Data.CustomerCenterConfig.Config*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.CustLangId
+  commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.CustLangId
+  id: CustLangId
+  parent: SuperOffice.WebApi.Data.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: CustLangId
+  nameWithType: CustomerCenterConfig.CustLangId
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.CustLangId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe customer language which this config belongs to. 0 indicates that the config is global\n"
+  syntax:
+    content: public virtual int CustLangId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustLangId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerCenterConfig.CustLangId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Registered
+  commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: CustomerCenterConfig.Registered
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.Registered
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As DateTime
+  overload: SuperOffice.WebApi.Data.CustomerCenterConfig.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.RegisteredAssociateId
+  commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.WebApi.Data.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: CustomerCenterConfig.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.RegisteredAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered by whom\n"
+  syntax:
+    content: public virtual int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RegisteredAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerCenterConfig.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Updated
+  commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: CustomerCenterConfig.Updated
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.Updated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As DateTime
+  overload: SuperOffice.WebApi.Data.CustomerCenterConfig.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.UpdatedAssociateId
+  commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.WebApi.Data.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: CustomerCenterConfig.UpdatedAssociateId
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.UpdatedAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated by whom\n"
+  syntax:
+    content: public virtual int UpdatedAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UpdatedAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerCenterConfig.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerCenterConfig.#ctor
+  isExternal: true
+  name: CustomerCenterConfig
+  nameWithType: CustomerCenterConfig.CustomerCenterConfig
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.CustomerCenterConfig
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.CustConfigId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerCenterConfig.CustConfigId
+  isExternal: true
+  name: CustConfigId
+  nameWithType: CustomerCenterConfig.CustConfigId
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.CustConfigId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: CustomerCenterConfig.Type_String
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Type
+  commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.Type
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerCenterConfig.Type
+  isExternal: true
+  name: Type
+  nameWithType: CustomerCenterConfig.Type
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.Type
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String
+  commentId: P:SuperOffice.WebApi.Data.CustomerCenterConfig.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ConfigType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ConfigType}'
+  definition: System.Nullable`1
+  name: Nullable<ConfigType>
+  nameWithType: Nullable<ConfigType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ConfigType>
+  nameWithType.vb: Nullable(Of ConfigType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ConfigType)
+  name.vb: Nullable(Of ConfigType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ConfigType
+    name: ConfigType
+    nameWithType: ConfigType
+    fullName: SuperOffice.WebApi.Data.ConfigType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ConfigType
+    name: ConfigType
+    nameWithType: ConfigType
+    fullName: SuperOffice.WebApi.Data.ConfigType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Config*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerCenterConfig.Config
+  isExternal: true
+  name: Config
+  nameWithType: CustomerCenterConfig.Config
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.Config
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.CustLangId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerCenterConfig.CustLangId
+  isExternal: true
+  name: CustLangId
+  nameWithType: CustomerCenterConfig.CustLangId
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.CustLangId
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerCenterConfig.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: CustomerCenterConfig.Registered
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.Registered
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerCenterConfig.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: CustomerCenterConfig.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.RegisteredAssociateId
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerCenterConfig.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: CustomerCenterConfig.Updated
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.Updated
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerCenterConfig.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: CustomerCenterConfig.UpdatedAssociateId
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig.UpdatedAssociateId

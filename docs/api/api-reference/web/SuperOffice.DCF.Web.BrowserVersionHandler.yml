@@ -1,0 +1,381 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler
+  commentId: T:SuperOffice.DCF.Web.BrowserVersionHandler
+  id: BrowserVersionHandler
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.BrowserVersionHandler.#ctor
+  - SuperOffice.DCF.Web.BrowserVersionHandler.CancelAsync(System.Object)
+  - SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersion(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)
+  - SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionCompleted
+  - SuperOffice.DCF.Web.BrowserVersionHandler.Url
+  - SuperOffice.DCF.Web.BrowserVersionHandler.UseDefaultCredentials
+  langs:
+  - csharp
+  - vb
+  name: BrowserVersionHandler
+  nameWithType: BrowserVersionHandler
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: 'public class BrowserVersionHandler : SoapHttpClientProtocol'
+    content.vb: >-
+      Public Class BrowserVersionHandler
+          Inherits SoapHttpClientProtocol
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.#ctor
+  commentId: M:SuperOffice.DCF.Web.BrowserVersionHandler.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.BrowserVersionHandler
+  langs:
+  - csharp
+  - vb
+  name: BrowserVersionHandler()
+  nameWithType: BrowserVersionHandler.BrowserVersionHandler()
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.BrowserVersionHandler()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public BrowserVersionHandler()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.BrowserVersionHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersion(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersion(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  id: CheckBrowserVersion(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.BrowserVersionHandler
+  langs:
+  - csharp
+  - vb
+  name: CheckBrowserVersion(String, String, String, String, String, String, String)
+  nameWithType: BrowserVersionHandler.CheckBrowserVersion(String, String, String, String, String, String, String)
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersion(System.String, System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string CheckBrowserVersion(string product, string productVersion, string culture, string browser, string browserVersion, string browserPlatform, string userAgent)
+    parameters:
+    - id: product
+      type: System.String
+    - id: productVersion
+      type: System.String
+    - id: culture
+      type: System.String
+    - id: browser
+      type: System.String
+    - id: browserVersion
+      type: System.String
+    - id: browserPlatform
+      type: System.String
+    - id: userAgent
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function CheckBrowserVersion(product As String, productVersion As String, culture As String, browser As String, browserVersion As String, browserPlatform As String, userAgent As String) As String
+  overload: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersion*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  id: CheckBrowserVersionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.BrowserVersionHandler
+  langs:
+  - csharp
+  - vb
+  name: CheckBrowserVersionAsync(String, String, String, String, String, String, String)
+  nameWithType: BrowserVersionHandler.CheckBrowserVersionAsync(String, String, String, String, String, String, String)
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync(System.String, System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public void CheckBrowserVersionAsync(string product, string productVersion, string culture, string browser, string browserVersion, string browserPlatform, string userAgent)
+    parameters:
+    - id: product
+      type: System.String
+    - id: productVersion
+      type: System.String
+    - id: culture
+      type: System.String
+    - id: browser
+      type: System.String
+    - id: browserVersion
+      type: System.String
+    - id: browserPlatform
+      type: System.String
+    - id: userAgent
+      type: System.String
+    content.vb: Public Sub CheckBrowserVersionAsync(product As String, productVersion As String, culture As String, browser As String, browserVersion As String, browserPlatform As String, userAgent As String)
+  overload: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)
+  commentId: M:SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)
+  id: CheckBrowserVersionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)
+  parent: SuperOffice.DCF.Web.BrowserVersionHandler
+  langs:
+  - csharp
+  - vb
+  name: CheckBrowserVersionAsync(String, String, String, String, String, String, String, Object)
+  nameWithType: BrowserVersionHandler.CheckBrowserVersionAsync(String, String, String, String, String, String, String, Object)
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public void CheckBrowserVersionAsync(string product, string productVersion, string culture, string browser, string browserVersion, string browserPlatform, string userAgent, object userState)
+    parameters:
+    - id: product
+      type: System.String
+    - id: productVersion
+      type: System.String
+    - id: culture
+      type: System.String
+    - id: browser
+      type: System.String
+    - id: browserVersion
+      type: System.String
+    - id: browserPlatform
+      type: System.String
+    - id: userAgent
+      type: System.String
+    - id: userState
+      type: System.Object
+    content.vb: Public Sub CheckBrowserVersionAsync(product As String, productVersion As String, culture As String, browser As String, browserVersion As String, browserPlatform As String, userAgent As String, userState As Object)
+  overload: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.CancelAsync(System.Object)
+  commentId: M:SuperOffice.DCF.Web.BrowserVersionHandler.CancelAsync(System.Object)
+  id: CancelAsync(System.Object)
+  parent: SuperOffice.DCF.Web.BrowserVersionHandler
+  langs:
+  - csharp
+  - vb
+  name: CancelAsync(Object)
+  nameWithType: BrowserVersionHandler.CancelAsync(Object)
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.CancelAsync(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public void CancelAsync(object userState)
+    parameters:
+    - id: userState
+      type: System.Object
+    content.vb: Public Sub CancelAsync(userState As Object)
+  overload: SuperOffice.DCF.Web.BrowserVersionHandler.CancelAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.Url
+  commentId: P:SuperOffice.DCF.Web.BrowserVersionHandler.Url
+  id: Url
+  parent: SuperOffice.DCF.Web.BrowserVersionHandler
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: BrowserVersionHandler.Url
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.Url
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: SuperOffice.DCF.Web.BrowserVersionHandler.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.UseDefaultCredentials
+  commentId: P:SuperOffice.DCF.Web.BrowserVersionHandler.UseDefaultCredentials
+  id: UseDefaultCredentials
+  parent: SuperOffice.DCF.Web.BrowserVersionHandler
+  langs:
+  - csharp
+  - vb
+  name: UseDefaultCredentials
+  nameWithType: BrowserVersionHandler.UseDefaultCredentials
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.UseDefaultCredentials
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public bool UseDefaultCredentials { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseDefaultCredentials As Boolean
+  overload: SuperOffice.DCF.Web.BrowserVersionHandler.UseDefaultCredentials*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionCompleted
+  commentId: E:SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionCompleted
+  id: CheckBrowserVersionCompleted
+  parent: SuperOffice.DCF.Web.BrowserVersionHandler
+  langs:
+  - csharp
+  - vb
+  name: CheckBrowserVersionCompleted
+  nameWithType: BrowserVersionHandler.CheckBrowserVersionCompleted
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionCompleted
+  type: Event
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public event CheckBrowserVersionCompletedEventHandler CheckBrowserVersionCompleted
+    return:
+      type: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler
+    content.vb: Public Event CheckBrowserVersionCompleted As CheckBrowserVersionCompletedEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserVersionHandler.#ctor
+  isExternal: true
+  name: BrowserVersionHandler
+  nameWithType: BrowserVersionHandler.BrowserVersionHandler
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.BrowserVersionHandler
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersion*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersion
+  isExternal: true
+  name: CheckBrowserVersion
+  nameWithType: BrowserVersionHandler.CheckBrowserVersion
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersion
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync
+  isExternal: true
+  name: CheckBrowserVersionAsync
+  nameWithType: BrowserVersionHandler.CheckBrowserVersionAsync
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.CheckBrowserVersionAsync
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.CancelAsync*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserVersionHandler.CancelAsync
+  isExternal: true
+  name: CancelAsync
+  nameWithType: BrowserVersionHandler.CancelAsync
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.CancelAsync
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.Url*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserVersionHandler.Url
+  isExternal: true
+  name: Url
+  nameWithType: BrowserVersionHandler.Url
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.Url
+- uid: SuperOffice.DCF.Web.BrowserVersionHandler.UseDefaultCredentials*
+  commentId: Overload:SuperOffice.DCF.Web.BrowserVersionHandler.UseDefaultCredentials
+  isExternal: true
+  name: UseDefaultCredentials
+  nameWithType: BrowserVersionHandler.UseDefaultCredentials
+  fullName: SuperOffice.DCF.Web.BrowserVersionHandler.UseDefaultCredentials
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler
+  commentId: T:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: CheckBrowserVersionCompletedEventHandler
+  nameWithType: CheckBrowserVersionCompletedEventHandler
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler

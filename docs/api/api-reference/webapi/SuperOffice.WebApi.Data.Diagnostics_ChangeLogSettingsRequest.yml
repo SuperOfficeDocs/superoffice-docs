@@ -1,0 +1,388 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  id: Diagnostics_ChangeLogSettingsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.#ctor
+  - SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogFailureAudit
+  - SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogInformation
+  - SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogSuccessAudit
+  - SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToEventLog
+  - SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToFile
+  - SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToSuperOffice
+  - SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToTrace
+  - SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogWarning
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_ChangeLogSettingsRequest
+  nameWithType: Diagnostics_ChangeLogSettingsRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Diagnostics_ChangeLogSettingsRequest : Object'
+    content.vb: >-
+      Public Class Diagnostics_ChangeLogSettingsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_ChangeLogSettingsRequest()
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.Diagnostics_ChangeLogSettingsRequest()
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.Diagnostics_ChangeLogSettingsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Diagnostics_ChangeLogSettingsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogWarning
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogWarning
+  id: LogWarning
+  parent: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  langs:
+  - csharp
+  - vb
+  name: LogWarning
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogWarning
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogWarning
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool LogWarning { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LogWarning As Boolean
+  overload: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogWarning*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogInformation
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogInformation
+  id: LogInformation
+  parent: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  langs:
+  - csharp
+  - vb
+  name: LogInformation
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogInformation
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogInformation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool LogInformation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LogInformation As Boolean
+  overload: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogInformation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogSuccessAudit
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogSuccessAudit
+  id: LogSuccessAudit
+  parent: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  langs:
+  - csharp
+  - vb
+  name: LogSuccessAudit
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogSuccessAudit
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogSuccessAudit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool LogSuccessAudit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LogSuccessAudit As Boolean
+  overload: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogSuccessAudit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogFailureAudit
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogFailureAudit
+  id: LogFailureAudit
+  parent: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  langs:
+  - csharp
+  - vb
+  name: LogFailureAudit
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogFailureAudit
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogFailureAudit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool LogFailureAudit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LogFailureAudit As Boolean
+  overload: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogFailureAudit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToEventLog
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToEventLog
+  id: LogToEventLog
+  parent: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  langs:
+  - csharp
+  - vb
+  name: LogToEventLog
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogToEventLog
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToEventLog
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool LogToEventLog { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LogToEventLog As Boolean
+  overload: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToEventLog*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToSuperOffice
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToSuperOffice
+  id: LogToSuperOffice
+  parent: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  langs:
+  - csharp
+  - vb
+  name: LogToSuperOffice
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogToSuperOffice
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToSuperOffice
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool LogToSuperOffice { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LogToSuperOffice As Boolean
+  overload: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToSuperOffice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToFile
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToFile
+  id: LogToFile
+  parent: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  langs:
+  - csharp
+  - vb
+  name: LogToFile
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogToFile
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToFile
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool LogToFile { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LogToFile As Boolean
+  overload: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToFile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToTrace
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToTrace
+  id: LogToTrace
+  parent: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest
+  langs:
+  - csharp
+  - vb
+  name: LogToTrace
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogToTrace
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToTrace
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool LogToTrace { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LogToTrace As Boolean
+  overload: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToTrace*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.#ctor
+  isExternal: true
+  name: Diagnostics_ChangeLogSettingsRequest
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.Diagnostics_ChangeLogSettingsRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.Diagnostics_ChangeLogSettingsRequest
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogWarning*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogWarning
+  isExternal: true
+  name: LogWarning
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogWarning
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogWarning
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogInformation*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogInformation
+  isExternal: true
+  name: LogInformation
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogInformation
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogInformation
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogSuccessAudit*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogSuccessAudit
+  isExternal: true
+  name: LogSuccessAudit
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogSuccessAudit
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogSuccessAudit
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogFailureAudit*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogFailureAudit
+  isExternal: true
+  name: LogFailureAudit
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogFailureAudit
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogFailureAudit
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToEventLog*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToEventLog
+  isExternal: true
+  name: LogToEventLog
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogToEventLog
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToEventLog
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToSuperOffice*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToSuperOffice
+  isExternal: true
+  name: LogToSuperOffice
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogToSuperOffice
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToSuperOffice
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToFile*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToFile
+  isExternal: true
+  name: LogToFile
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogToFile
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToFile
+- uid: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToTrace*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToTrace
+  isExternal: true
+  name: LogToTrace
+  nameWithType: Diagnostics_ChangeLogSettingsRequest.LogToTrace
+  fullName: SuperOffice.WebApi.Data.Diagnostics_ChangeLogSettingsRequest.LogToTrace

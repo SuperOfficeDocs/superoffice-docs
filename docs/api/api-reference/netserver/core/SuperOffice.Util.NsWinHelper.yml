@@ -1,0 +1,917 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.NsWinHelper
+  commentId: T:SuperOffice.Util.NsWinHelper
+  id: NsWinHelper
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.NsWinHelper.CheckUpgradeToNewPricelist(System.String,System.String,System.String)
+  - SuperOffice.Util.NsWinHelper.GetBaseUrl
+  - SuperOffice.Util.NsWinHelper.GetShopUrl(System.String,System.String)
+  - SuperOffice.Util.NsWinHelper.GetUniqueFileName(System.String)
+  - SuperOffice.Util.NsWinHelper.LicenseExists(System.String)
+  - SuperOffice.Util.NsWinHelper.LoadNewLicenseFromServerIfNeeded
+  - SuperOffice.Util.NsWinHelper.MakeLegalFileNameAndDirectory(System.String)
+  - SuperOffice.Util.NsWinHelper.MapAndValidateLicenseWithDb(SuperOffice.License.LicenseInfo)
+  - SuperOffice.Util.NsWinHelper.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
+  - SuperOffice.Util.NsWinHelper.SetCachedPreference(System.String,System.String,System.String)
+  - SuperOffice.Util.NsWinHelper.StartForcePreferenceCacheInit
+  - SuperOffice.Util.NsWinHelper.UpgradeToNewPricelist(System.String,System.String,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  langs:
+  - csharp
+  - vb
+  name: NsWinHelper
+  nameWithType: NsWinHelper
+  fullName: SuperOffice.Util.NsWinHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nDispatcher / helper class for Windows code. <strong>NOTE: THERE ARE SEVERE LIMITS ON THE NUMBER OF USING&apos;s YOU CAN HAVE IN THIS FILE!</strong>\nToo many and the C++ compiler will crash with a stack overflow, believe it or not.\n"
+  remarks: "\nIt may seem that the C++ compiler (at least in 2010 version) does not have enough space allocated for symbol tables created when pulling in \nManaged namespaces - some kind of escalation/drill-down happens and you get a compile-time hard crash with an overflow diagnostic.\nUsing a two-level dispatch like here is a (the only?) way out.\n"
+  syntax:
+    content: public static class NsWinHelper
+    content.vb: Public Module NsWinHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.NsWinHelper.MakeLegalFileNameAndDirectory(System.String)
+  commentId: M:SuperOffice.Util.NsWinHelper.MakeLegalFileNameAndDirectory(System.String)
+  id: MakeLegalFileNameAndDirectory(System.String)
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: MakeLegalFileNameAndDirectory(String)
+  nameWithType: NsWinHelper.MakeLegalFileNameAndDirectory(String)
+  fullName: SuperOffice.Util.NsWinHelper.MakeLegalFileNameAndDirectory(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGiven a suggested file name (typically derived from a document.header), and make it legal;\ncreate directories on the way\n"
+  syntax:
+    content: public static string MakeLegalFileNameAndDirectory(string suggestedFullPathWithExtension)
+    parameters:
+    - id: suggestedFullPathWithExtension
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function MakeLegalFileNameAndDirectory(suggestedFullPathWithExtension As String) As String
+  overload: SuperOffice.Util.NsWinHelper.MakeLegalFileNameAndDirectory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.NsWinHelper.GetUniqueFileName(System.String)
+  commentId: M:SuperOffice.Util.NsWinHelper.GetUniqueFileName(System.String)
+  id: GetUniqueFileName(System.String)
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUniqueFileName(String)
+  nameWithType: NsWinHelper.GetUniqueFileName(String)
+  fullName: SuperOffice.Util.NsWinHelper.GetUniqueFileName(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nThis will get a unique file name in the given path.\n"
+  remarks: "\nthis will ensure to return an unique file name for the given location If it finds a file(s)\nwith the same name it will create a filename with a suffix with a proper index.\ne.g It&apos;ll create Test[2].docx (if it finds the Test.docx &amp; Test[1].docx in the requested location\n"
+  syntax:
+    content: public static string GetUniqueFileName(string completeFilePath)
+    parameters:
+    - id: completeFilePath
+      type: System.String
+      description: Complete file path including the file name
+    return:
+      type: System.String
+      description: A string to a unique filename with no path which is guaranteed not to exist in the path provided.
+    content.vb: Public Shared Function GetUniqueFileName(completeFilePath As String) As String
+  overload: SuperOffice.Util.NsWinHelper.GetUniqueFileName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.NsWinHelper.CheckUpgradeToNewPricelist(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Util.NsWinHelper.CheckUpgradeToNewPricelist(System.String,System.String,System.String)
+  id: CheckUpgradeToNewPricelist(System.String,System.String,System.String)
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: CheckUpgradeToNewPricelist(String, String, String)
+  nameWithType: NsWinHelper.CheckUpgradeToNewPricelist(String, String, String)
+  fullName: SuperOffice.Util.NsWinHelper.CheckUpgradeToNewPricelist(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nCheck if it&apos;s possible to upgrade <strong>all users in the database</strong> from their current 7.5 licenses to the new pricelist in 8.0\n"
+  syntax:
+    content: public static void CheckUpgradeToNewPricelist(string systemUser, string password, string additionalInfo)
+    parameters:
+    - id: systemUser
+      type: System.String
+    - id: password
+      type: System.String
+    - id: additionalInfo
+      type: System.String
+    content.vb: Public Shared Sub CheckUpgradeToNewPricelist(systemUser As String, password As String, additionalInfo As String)
+  overload: SuperOffice.Util.NsWinHelper.CheckUpgradeToNewPricelist*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoException
+    commentId: T:SuperOffice.Exceptions.SoException
+    description: If something is not OK, the relevant exception will be thrown
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.NsWinHelper.UpgradeToNewPricelist(System.String,System.String,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  commentId: M:SuperOffice.Util.NsWinHelper.UpgradeToNewPricelist(System.String,System.String,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  id: UpgradeToNewPricelist(System.String,System.String,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: UpgradeToNewPricelist(String, String, String, ProgressEstimateCallback, ProgressStepCallback)
+  nameWithType: NsWinHelper.UpgradeToNewPricelist(String, String, String, ProgressEstimateCallback, ProgressStepCallback)
+  fullName: SuperOffice.Util.NsWinHelper.UpgradeToNewPricelist(System.String, System.String, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nUpgrade <strong>all users in the database</strong> from their current 7.5 licenses to the new pricelist in 8.0\n"
+  syntax:
+    content: public static void UpgradeToNewPricelist(string systemUser, string password, string additionalInfo, ProgressEstimateCallback estimateCB, ProgressStepCallback stepCB)
+    parameters:
+    - id: systemUser
+      type: System.String
+    - id: password
+      type: System.String
+    - id: additionalInfo
+      type: System.String
+    - id: estimateCB
+      type: SuperOffice.CRM.ProgressEstimateCallback
+    - id: stepCB
+      type: SuperOffice.CRM.ProgressStepCallback
+    content.vb: Public Shared Sub UpgradeToNewPricelist(systemUser As String, password As String, additionalInfo As String, estimateCB As ProgressEstimateCallback, stepCB As ProgressStepCallback)
+  overload: SuperOffice.Util.NsWinHelper.UpgradeToNewPricelist*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.NsWinHelper.MapAndValidateLicenseWithDb(SuperOffice.License.LicenseInfo)
+  commentId: M:SuperOffice.Util.NsWinHelper.MapAndValidateLicenseWithDb(SuperOffice.License.LicenseInfo)
+  id: MapAndValidateLicenseWithDb(SuperOffice.License.LicenseInfo)
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: MapAndValidateLicenseWithDb(LicenseInfo)
+  nameWithType: NsWinHelper.MapAndValidateLicenseWithDb(LicenseInfo)
+  fullName: SuperOffice.Util.NsWinHelper.MapAndValidateLicenseWithDb(SuperOffice.License.LicenseInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGet the current license from the database, map the incoming one on to it, and\nvalidate to see if the result is acceptable (can be Activated)\n"
+  syntax:
+    content: public static ExtendedLicenseInfo MapAndValidateLicenseWithDb(LicenseInfo info)
+    parameters:
+    - id: info
+      type: SuperOffice.License.LicenseInfo
+    return:
+      type: SuperOffice.License.ExtendedLicenseInfo
+      description: License including activation flags and problem tag
+    content.vb: Public Shared Function MapAndValidateLicenseWithDb(info As LicenseInfo) As ExtendedLicenseInfo
+  overload: SuperOffice.Util.NsWinHelper.MapAndValidateLicenseWithDb*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.NsWinHelper.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
+  commentId: M:SuperOffice.Util.NsWinHelper.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
+  id: PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: PopulateSignedPublicKey(LicenseInfo, Stream)
+  nameWithType: NsWinHelper.PopulateSignedPublicKey(LicenseInfo, Stream)
+  fullName: SuperOffice.Util.NsWinHelper.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo, System.IO.Stream)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void PopulateSignedPublicKey(LicenseInfo licenseInfo, Stream publicKey)
+    parameters:
+    - id: licenseInfo
+      type: SuperOffice.License.LicenseInfo
+    - id: publicKey
+      type: System.IO.Stream
+    content.vb: Public Shared Sub PopulateSignedPublicKey(licenseInfo As LicenseInfo, publicKey As Stream)
+  overload: SuperOffice.Util.NsWinHelper.PopulateSignedPublicKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.NsWinHelper.LicenseExists(System.String)
+  commentId: M:SuperOffice.Util.NsWinHelper.LicenseExists(System.String)
+  id: LicenseExists(System.String)
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: LicenseExists(String)
+  nameWithType: NsWinHelper.LicenseExists(String)
+  fullName: SuperOffice.Util.NsWinHelper.LicenseExists(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nDetermine if a license (owner.module) exists at all - regardsless of numbers, assignment etc\n"
+  syntax:
+    content: public static bool LicenseExists(string license)
+    parameters:
+    - id: license
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function LicenseExists(license As String) As Boolean
+  overload: SuperOffice.Util.NsWinHelper.LicenseExists*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.NsWinHelper.LoadNewLicenseFromServerIfNeeded
+  commentId: M:SuperOffice.Util.NsWinHelper.LoadNewLicenseFromServerIfNeeded
+  id: LoadNewLicenseFromServerIfNeeded
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: LoadNewLicenseFromServerIfNeeded()
+  nameWithType: NsWinHelper.LoadNewLicenseFromServerIfNeeded()
+  fullName: SuperOffice.Util.NsWinHelper.LoadNewLicenseFromServerIfNeeded()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nCheck nextCheckDate on all modules, and call server for those that are in the past\n"
+  syntax:
+    content: public static void LoadNewLicenseFromServerIfNeeded()
+    content.vb: Public Shared Sub LoadNewLicenseFromServerIfNeeded
+  overload: SuperOffice.Util.NsWinHelper.LoadNewLicenseFromServerIfNeeded*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.NsWinHelper.GetShopUrl(System.String,System.String)
+  commentId: M:SuperOffice.Util.NsWinHelper.GetShopUrl(System.String,System.String)
+  id: GetShopUrl(System.String,System.String)
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: GetShopUrl(String, String)
+  nameWithType: NsWinHelper.GetShopUrl(String, String)
+  fullName: SuperOffice.Util.NsWinHelper.GetShopUrl(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGet the shop url for a module owner, including a context string\n"
+  syntax:
+    content: public static string GetShopUrl(string ownerName, string context)
+    parameters:
+    - id: ownerName
+      type: System.String
+    - id: context
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetShopUrl(ownerName As String, context As String) As String
+  overload: SuperOffice.Util.NsWinHelper.GetShopUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.NsWinHelper.SetCachedPreference(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Util.NsWinHelper.SetCachedPreference(System.String,System.String,System.String)
+  id: SetCachedPreference(System.String,System.String,System.String)
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCachedPreference(String, String, String)
+  nameWithType: NsWinHelper.SetCachedPreference(String, String, String)
+  fullName: SuperOffice.Util.NsWinHelper.SetCachedPreference(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void SetCachedPreference(string section, string key, string value)
+    parameters:
+    - id: section
+      type: System.String
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Shared Sub SetCachedPreference(section As String, key As String, value As String)
+  overload: SuperOffice.Util.NsWinHelper.SetCachedPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.NsWinHelper.StartForcePreferenceCacheInit
+  commentId: M:SuperOffice.Util.NsWinHelper.StartForcePreferenceCacheInit
+  id: StartForcePreferenceCacheInit
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: StartForcePreferenceCacheInit()
+  nameWithType: NsWinHelper.StartForcePreferenceCacheInit()
+  fullName: SuperOffice.Util.NsWinHelper.StartForcePreferenceCacheInit()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static AsyncContext StartForcePreferenceCacheInit()
+    return:
+      type: SuperOffice.Threading.AsyncContext
+    content.vb: Public Shared Function StartForcePreferenceCacheInit As AsyncContext
+  overload: SuperOffice.Util.NsWinHelper.StartForcePreferenceCacheInit*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.NsWinHelper.GetBaseUrl
+  commentId: M:SuperOffice.Util.NsWinHelper.GetBaseUrl
+  id: GetBaseUrl
+  parent: SuperOffice.Util.NsWinHelper
+  langs:
+  - csharp
+  - vb
+  name: GetBaseUrl()
+  nameWithType: NsWinHelper.GetBaseUrl()
+  fullName: SuperOffice.Util.NsWinHelper.GetBaseUrl()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetBaseUrl()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetBaseUrl As String
+  overload: SuperOffice.Util.NsWinHelper.GetBaseUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.NsWinHelper.MakeLegalFileNameAndDirectory*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.MakeLegalFileNameAndDirectory
+  isExternal: true
+  name: MakeLegalFileNameAndDirectory
+  nameWithType: NsWinHelper.MakeLegalFileNameAndDirectory
+  fullName: SuperOffice.Util.NsWinHelper.MakeLegalFileNameAndDirectory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.NsWinHelper.GetUniqueFileName*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.GetUniqueFileName
+  isExternal: true
+  name: GetUniqueFileName
+  nameWithType: NsWinHelper.GetUniqueFileName
+  fullName: SuperOffice.Util.NsWinHelper.GetUniqueFileName
+- uid: SuperOffice.Util.NsWinHelper.CheckUpgradeToNewPricelist*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.CheckUpgradeToNewPricelist
+  isExternal: true
+  name: CheckUpgradeToNewPricelist
+  nameWithType: NsWinHelper.CheckUpgradeToNewPricelist
+  fullName: SuperOffice.Util.NsWinHelper.CheckUpgradeToNewPricelist
+- uid: SuperOffice.Exceptions.SoException
+  commentId: T:SuperOffice.Exceptions.SoException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoException
+  nameWithType: SoException
+  fullName: SuperOffice.Exceptions.SoException
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: SuperOffice.Util.NsWinHelper.UpgradeToNewPricelist*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.UpgradeToNewPricelist
+  isExternal: true
+  name: UpgradeToNewPricelist
+  nameWithType: NsWinHelper.UpgradeToNewPricelist
+  fullName: SuperOffice.Util.NsWinHelper.UpgradeToNewPricelist
+- uid: SuperOffice.CRM.ProgressEstimateCallback
+  commentId: T:SuperOffice.CRM.ProgressEstimateCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressEstimateCallback
+  nameWithType: ProgressEstimateCallback
+  fullName: SuperOffice.CRM.ProgressEstimateCallback
+- uid: SuperOffice.CRM.ProgressStepCallback
+  commentId: T:SuperOffice.CRM.ProgressStepCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressStepCallback
+  nameWithType: ProgressStepCallback
+  fullName: SuperOffice.CRM.ProgressStepCallback
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.Util.NsWinHelper.MapAndValidateLicenseWithDb*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.MapAndValidateLicenseWithDb
+  isExternal: true
+  name: MapAndValidateLicenseWithDb
+  nameWithType: NsWinHelper.MapAndValidateLicenseWithDb
+  fullName: SuperOffice.Util.NsWinHelper.MapAndValidateLicenseWithDb
+- uid: SuperOffice.License.LicenseInfo
+  isExternal: true
+  name: LicenseInfo
+  nameWithType: LicenseInfo
+  fullName: SuperOffice.License.LicenseInfo
+- uid: SuperOffice.License.ExtendedLicenseInfo
+  commentId: T:SuperOffice.License.ExtendedLicenseInfo
+  parent: SuperOffice.License
+  isExternal: true
+  name: ExtendedLicenseInfo
+  nameWithType: ExtendedLicenseInfo
+  fullName: SuperOffice.License.ExtendedLicenseInfo
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+- uid: SuperOffice.Util.NsWinHelper.PopulateSignedPublicKey*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.PopulateSignedPublicKey
+  isExternal: true
+  name: PopulateSignedPublicKey
+  nameWithType: NsWinHelper.PopulateSignedPublicKey
+  fullName: SuperOffice.Util.NsWinHelper.PopulateSignedPublicKey
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.Util.NsWinHelper.LicenseExists*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.LicenseExists
+  isExternal: true
+  name: LicenseExists
+  nameWithType: NsWinHelper.LicenseExists
+  fullName: SuperOffice.Util.NsWinHelper.LicenseExists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.NsWinHelper.LoadNewLicenseFromServerIfNeeded*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.LoadNewLicenseFromServerIfNeeded
+  isExternal: true
+  name: LoadNewLicenseFromServerIfNeeded
+  nameWithType: NsWinHelper.LoadNewLicenseFromServerIfNeeded
+  fullName: SuperOffice.Util.NsWinHelper.LoadNewLicenseFromServerIfNeeded
+- uid: SuperOffice.Util.NsWinHelper.GetShopUrl*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.GetShopUrl
+  isExternal: true
+  name: GetShopUrl
+  nameWithType: NsWinHelper.GetShopUrl
+  fullName: SuperOffice.Util.NsWinHelper.GetShopUrl
+- uid: SuperOffice.Util.NsWinHelper.SetCachedPreference*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.SetCachedPreference
+  isExternal: true
+  name: SetCachedPreference
+  nameWithType: NsWinHelper.SetCachedPreference
+  fullName: SuperOffice.Util.NsWinHelper.SetCachedPreference
+- uid: SuperOffice.Util.NsWinHelper.StartForcePreferenceCacheInit*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.StartForcePreferenceCacheInit
+  isExternal: true
+  name: StartForcePreferenceCacheInit
+  nameWithType: NsWinHelper.StartForcePreferenceCacheInit
+  fullName: SuperOffice.Util.NsWinHelper.StartForcePreferenceCacheInit
+- uid: SuperOffice.Threading.AsyncContext
+  commentId: T:SuperOffice.Threading.AsyncContext
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncContext
+  nameWithType: AsyncContext
+  fullName: SuperOffice.Threading.AsyncContext
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: SuperOffice.Util.NsWinHelper.GetBaseUrl*
+  commentId: Overload:SuperOffice.Util.NsWinHelper.GetBaseUrl
+  isExternal: true
+  name: GetBaseUrl
+  nameWithType: NsWinHelper.GetBaseUrl
+  fullName: SuperOffice.Util.NsWinHelper.GetBaseUrl

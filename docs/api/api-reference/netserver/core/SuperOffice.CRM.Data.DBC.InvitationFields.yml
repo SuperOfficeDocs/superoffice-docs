@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields
+  commentId: T:SuperOffice.CRM.Data.DBC.InvitationFields
+  id: DBC.InvitationFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.InvitationFields.AppointmentId
+  - SuperOffice.CRM.Data.DBC.InvitationFields.EventDtstamp
+  - SuperOffice.CRM.Data.DBC.InvitationFields.EventSequence
+  - SuperOffice.CRM.Data.DBC.InvitationFields.EventUid
+  - SuperOffice.CRM.Data.DBC.InvitationFields.InvitationId
+  - SuperOffice.CRM.Data.DBC.InvitationFields.OrganizerEmail
+  - SuperOffice.CRM.Data.DBC.InvitationFields.OrganizerFullname
+  - SuperOffice.CRM.Data.DBC.InvitationFields.RecurringEndDate
+  - SuperOffice.CRM.Data.DBC.InvitationFields.RecurringStartDate
+  - SuperOffice.CRM.Data.DBC.InvitationFields.Registered
+  - SuperOffice.CRM.Data.DBC.InvitationFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.InvitationFields.Updated
+  - SuperOffice.CRM.Data.DBC.InvitationFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.InvitationFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.InvitationFields
+  nameWithType: DBC.InvitationFields
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Invitation, Invitations to events\n"
+  syntax:
+    content: public static class InvitationFields
+    content.vb: Public Module InvitationFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.InvitationId
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.InvitationId
+  id: InvitationId
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: InvitationId
+  nameWithType: DBC.InvitationFields.InvitationId
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.InvitationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.InvitationId: Primary key\n"
+  syntax:
+    content: public const string InvitationId = "invitation_id"
+    return:
+      type: System.String
+    content.vb: Public Const InvitationId As String = "invitation_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.EventUid
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.EventUid
+  id: EventUid
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: EventUid
+  nameWithType: DBC.InvitationFields.EventUid
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.EventUid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.EventUid: The UID associated with this event, all integrators should refer to this UID when referring to the event\n"
+  syntax:
+    content: public const string EventUid = "event_uid"
+    return:
+      type: System.String
+    content.vb: Public Const EventUid As String = "event_uid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.EventSequence
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.EventSequence
+  id: EventSequence
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: EventSequence
+  nameWithType: DBC.InvitationFields.EventSequence
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.EventSequence
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.EventSequence: The current sequence number of the event info, so we know if we got a new or old event update\n"
+  syntax:
+    content: public const string EventSequence = "event_sequence"
+    return:
+      type: System.String
+    content.vb: Public Const EventSequence As String = "event_sequence"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.EventDtstamp
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.EventDtstamp
+  id: EventDtstamp
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: EventDtstamp
+  nameWithType: DBC.InvitationFields.EventDtstamp
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.EventDtstamp
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.EventDtstamp: DTSTAMP so we know if we got a new or old event update when sequence is the same\n"
+  syntax:
+    content: public const string EventDtstamp = "event_dtstamp"
+    return:
+      type: System.String
+    content.vb: Public Const EventDtstamp As String = "event_dtstamp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.AppointmentId
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: DBC.InvitationFields.AppointmentId
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.AppointmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.AppointmentId: The id of the mother appointment record\n"
+  syntax:
+    content: public const string AppointmentId = "appointment_id"
+    return:
+      type: System.String
+    content.vb: Public Const AppointmentId As String = "appointment_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.InvitationFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.InvitationFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.InvitationFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.InvitationFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.InvitationFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.OrganizerEmail
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.OrganizerEmail
+  id: OrganizerEmail
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: OrganizerEmail
+  nameWithType: DBC.InvitationFields.OrganizerEmail
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.OrganizerEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.OrganizerEmail: The email address of the organizer of the event.\n"
+  syntax:
+    content: public const string OrganizerEmail = "organizer_email"
+    return:
+      type: System.String
+    content.vb: Public Const OrganizerEmail As String = "organizer_email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.OrganizerFullname
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.OrganizerFullname
+  id: OrganizerFullname
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: OrganizerFullname
+  nameWithType: DBC.InvitationFields.OrganizerFullname
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.OrganizerFullname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.OrganizerFullname: The organizer&apos;s full name\n"
+  syntax:
+    content: public const string OrganizerFullname = "organizer_fullname"
+    return:
+      type: System.String
+    content.vb: Public Const OrganizerFullname As String = "organizer_fullname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.RecurringEndDate
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.RecurringEndDate
+  id: RecurringEndDate
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: RecurringEndDate
+  nameWithType: DBC.InvitationFields.RecurringEndDate
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.RecurringEndDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.RecurringEndDate: The end date for a recurring event\n"
+  syntax:
+    content: public const string RecurringEndDate = "recurring_end_date"
+    return:
+      type: System.String
+    content.vb: Public Const RecurringEndDate As String = "recurring_end_date"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InvitationFields.RecurringStartDate
+  commentId: F:SuperOffice.CRM.Data.DBC.InvitationFields.RecurringStartDate
+  id: RecurringStartDate
+  parent: SuperOffice.CRM.Data.DBC.InvitationFields
+  langs:
+  - csharp
+  - vb
+  name: RecurringStartDate
+  nameWithType: DBC.InvitationFields.RecurringStartDate
+  fullName: SuperOffice.CRM.Data.DBC.InvitationFields.RecurringStartDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInvitation.RecurringStartDate: The start date for a recurring event\n"
+  syntax:
+    content: public const string RecurringStartDate = "recurring_start_date"
+    return:
+      type: System.String
+    content.vb: Public Const RecurringStartDate As String = "recurring_start_date"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

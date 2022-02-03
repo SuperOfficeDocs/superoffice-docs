@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ArchiveListResult
+  commentId: T:SuperOffice.WebApi.Data.ArchiveListResult
+  id: ArchiveListResult
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ArchiveListResult.#ctor
+  - SuperOffice.WebApi.Data.ArchiveListResult.RowCount
+  - SuperOffice.WebApi.Data.ArchiveListResult.Rows
+  langs:
+  - csharp
+  - vb
+  name: ArchiveListResult
+  nameWithType: ArchiveListResult
+  fullName: SuperOffice.WebApi.Data.ArchiveListResult
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ArchiveListResult.\nHeader/Detail variant of archive result, with a Row Count plus the actual rows. Future extensions may include other header data on the same level as the RowCount    \n"
+  syntax:
+    content: 'public class ArchiveListResult : Carrier'
+    content.vb: >-
+      Public Class ArchiveListResult
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ArchiveListResult.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ArchiveListResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ArchiveListResult
+  langs:
+  - csharp
+  - vb
+  name: ArchiveListResult()
+  nameWithType: ArchiveListResult.ArchiveListResult()
+  fullName: SuperOffice.WebApi.Data.ArchiveListResult.ArchiveListResult()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ArchiveListResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ArchiveListResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ArchiveListResult.RowCount
+  commentId: P:SuperOffice.WebApi.Data.ArchiveListResult.RowCount
+  id: RowCount
+  parent: SuperOffice.WebApi.Data.ArchiveListResult
+  langs:
+  - csharp
+  - vb
+  name: RowCount
+  nameWithType: ArchiveListResult.RowCount
+  fullName: SuperOffice.WebApi.Data.ArchiveListResult.RowCount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCount of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation\n"
+  syntax:
+    content: public virtual int RowCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RowCount As Integer
+  overload: SuperOffice.WebApi.Data.ArchiveListResult.RowCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveListResult.Rows
+  commentId: P:SuperOffice.WebApi.Data.ArchiveListResult.Rows
+  id: Rows
+  parent: SuperOffice.WebApi.Data.ArchiveListResult
+  langs:
+  - csharp
+  - vb
+  name: Rows
+  nameWithType: ArchiveListResult.Rows
+  fullName: SuperOffice.WebApi.Data.ArchiveListResult.Rows
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate\n"
+  syntax:
+    content: public virtual ArchiveListItem[] Rows { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveListItem[]
+    content.vb: Public Overridable Property Rows As ArchiveListItem()
+  overload: SuperOffice.WebApi.Data.ArchiveListResult.Rows*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ArchiveListResult.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveListResult.#ctor
+  isExternal: true
+  name: ArchiveListResult
+  nameWithType: ArchiveListResult.ArchiveListResult
+  fullName: SuperOffice.WebApi.Data.ArchiveListResult.ArchiveListResult
+- uid: SuperOffice.WebApi.Data.ArchiveListResult.RowCount*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveListResult.RowCount
+  isExternal: true
+  name: RowCount
+  nameWithType: ArchiveListResult.RowCount
+  fullName: SuperOffice.WebApi.Data.ArchiveListResult.RowCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ArchiveListResult.Rows*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveListResult.Rows
+  isExternal: true
+  name: Rows
+  nameWithType: ArchiveListResult.Rows
+  fullName: SuperOffice.WebApi.Data.ArchiveListResult.Rows
+- uid: SuperOffice.WebApi.Data.ArchiveListItem[]
+  isExternal: true
+  name: ArchiveListItem[]
+  nameWithType: ArchiveListItem[]
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem[]
+  nameWithType.vb: ArchiveListItem()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveListItem()
+  name.vb: ArchiveListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.WebApi.Data.ArchiveListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.WebApi.Data.ArchiveListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

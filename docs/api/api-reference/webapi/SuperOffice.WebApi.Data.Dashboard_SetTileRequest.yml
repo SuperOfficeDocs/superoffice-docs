@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_SetTileRequest
+  id: Dashboard_SetTileRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dashboard_SetTileRequest.#ctor
+  - SuperOffice.WebApi.Data.Dashboard_SetTileRequest.DashboardId
+  - SuperOffice.WebApi.Data.Dashboard_SetTileRequest.Position
+  - SuperOffice.WebApi.Data.Dashboard_SetTileRequest.TileId
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_SetTileRequest
+  nameWithType: Dashboard_SetTileRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_SetTileRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dashboard_SetTileRequest : Object'
+    content.vb: >-
+      Public Class Dashboard_SetTileRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dashboard_SetTileRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dashboard_SetTileRequest
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_SetTileRequest()
+  nameWithType: Dashboard_SetTileRequest.Dashboard_SetTileRequest()
+  fullName: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.Dashboard_SetTileRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dashboard_SetTileRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.DashboardId
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_SetTileRequest.DashboardId
+  id: DashboardId
+  parent: SuperOffice.WebApi.Data.Dashboard_SetTileRequest
+  langs:
+  - csharp
+  - vb
+  name: DashboardId
+  nameWithType: Dashboard_SetTileRequest.DashboardId
+  fullName: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.DashboardId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DashboardId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DashboardId As Integer
+  overload: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.DashboardId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.TileId
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_SetTileRequest.TileId
+  id: TileId
+  parent: SuperOffice.WebApi.Data.Dashboard_SetTileRequest
+  langs:
+  - csharp
+  - vb
+  name: TileId
+  nameWithType: Dashboard_SetTileRequest.TileId
+  fullName: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.TileId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TileId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TileId As Integer
+  overload: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.TileId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.Position
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_SetTileRequest.Position
+  id: Position
+  parent: SuperOffice.WebApi.Data.Dashboard_SetTileRequest
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Dashboard_SetTileRequest.Position
+  fullName: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.Position
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Position { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Position As Integer
+  overload: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.Position*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_SetTileRequest.#ctor
+  isExternal: true
+  name: Dashboard_SetTileRequest
+  nameWithType: Dashboard_SetTileRequest.Dashboard_SetTileRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.Dashboard_SetTileRequest
+- uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.DashboardId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_SetTileRequest.DashboardId
+  isExternal: true
+  name: DashboardId
+  nameWithType: Dashboard_SetTileRequest.DashboardId
+  fullName: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.DashboardId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.TileId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_SetTileRequest.TileId
+  isExternal: true
+  name: TileId
+  nameWithType: Dashboard_SetTileRequest.TileId
+  fullName: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.TileId
+- uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.Position*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_SetTileRequest.Position
+  isExternal: true
+  name: Position
+  nameWithType: Dashboard_SetTileRequest.Position
+  fullName: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.Position

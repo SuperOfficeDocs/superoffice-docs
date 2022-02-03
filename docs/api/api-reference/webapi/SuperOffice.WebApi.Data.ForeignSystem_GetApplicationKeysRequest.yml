@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest
+  commentId: T:SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest
+  id: ForeignSystem_GetApplicationKeysRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.#ctor
+  - SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.ApplicationName
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystem_GetApplicationKeysRequest
+  nameWithType: ForeignSystem_GetApplicationKeysRequest
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ForeignSystem_GetApplicationKeysRequest : Object'
+    content.vb: >-
+      Public Class ForeignSystem_GetApplicationKeysRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystem_GetApplicationKeysRequest()
+  nameWithType: ForeignSystem_GetApplicationKeysRequest.ForeignSystem_GetApplicationKeysRequest()
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.ForeignSystem_GetApplicationKeysRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ForeignSystem_GetApplicationKeysRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.ApplicationName
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.ApplicationName
+  id: ApplicationName
+  parent: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest
+  langs:
+  - csharp
+  - vb
+  name: ApplicationName
+  nameWithType: ForeignSystem_GetApplicationKeysRequest.ApplicationName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.ApplicationName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ApplicationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApplicationName As String
+  overload: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.ApplicationName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.#ctor
+  isExternal: true
+  name: ForeignSystem_GetApplicationKeysRequest
+  nameWithType: ForeignSystem_GetApplicationKeysRequest.ForeignSystem_GetApplicationKeysRequest
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.ForeignSystem_GetApplicationKeysRequest
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.ApplicationName*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.ApplicationName
+  isExternal: true
+  name: ApplicationName
+  nameWithType: ForeignSystem_GetApplicationKeysRequest.ApplicationName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationKeysRequest.ApplicationName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketSecurityLevel
+  commentId: T:SuperOffice.WebApi.Data.TicketSecurityLevel
+  id: TicketSecurityLevel
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketSecurityLevel.External
+  - SuperOffice.WebApi.Data.TicketSecurityLevel.Internal
+  - SuperOffice.WebApi.Data.TicketSecurityLevel.Unknown
+  - SuperOffice.WebApi.Data.TicketSecurityLevel.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: SuperOffice.WebApi.Data.TicketSecurityLevel
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates if a ticket is external or internal\nThis Enum is used by:  ej_message.slevel; ticket.slevel\n"
+  syntax:
+    content: 'public sealed class TicketSecurityLevel : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketSecurityLevel
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketSecurityLevel.value__
+  commentId: F:SuperOffice.WebApi.Data.TicketSecurityLevel.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TicketSecurityLevel
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketSecurityLevel.value__
+  fullName: SuperOffice.WebApi.Data.TicketSecurityLevel.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketSecurityLevel.Unknown
+  commentId: F:SuperOffice.WebApi.Data.TicketSecurityLevel.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.TicketSecurityLevel
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TicketSecurityLevel.Unknown
+  fullName: SuperOffice.WebApi.Data.TicketSecurityLevel.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown level\n"
+  syntax:
+    content: public const TicketSecurityLevel Unknown
+    return:
+      type: SuperOffice.WebApi.Data.TicketSecurityLevel
+    content.vb: Public Const Unknown As TicketSecurityLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketSecurityLevel.Internal
+  commentId: F:SuperOffice.WebApi.Data.TicketSecurityLevel.Internal
+  id: Internal
+  parent: SuperOffice.WebApi.Data.TicketSecurityLevel
+  langs:
+  - csharp
+  - vb
+  name: Internal
+  nameWithType: TicketSecurityLevel.Internal
+  fullName: SuperOffice.WebApi.Data.TicketSecurityLevel.Internal
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Internal tickets will not be shown on the Customer Centre\n"
+  syntax:
+    content: public const TicketSecurityLevel Internal
+    return:
+      type: SuperOffice.WebApi.Data.TicketSecurityLevel
+    content.vb: Public Const Internal As TicketSecurityLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketSecurityLevel.External
+  commentId: F:SuperOffice.WebApi.Data.TicketSecurityLevel.External
+  id: External
+  parent: SuperOffice.WebApi.Data.TicketSecurityLevel
+  langs:
+  - csharp
+  - vb
+  name: External
+  nameWithType: TicketSecurityLevel.External
+  fullName: SuperOffice.WebApi.Data.TicketSecurityLevel.External
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: External tickets will be shown on the Customer Centre\n"
+  syntax:
+    content: public const TicketSecurityLevel External
+    return:
+      type: SuperOffice.WebApi.Data.TicketSecurityLevel
+    content.vb: Public Const External As TicketSecurityLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TicketSecurityLevel
+  commentId: T:SuperOffice.WebApi.Data.TicketSecurityLevel
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: SuperOffice.WebApi.Data.TicketSecurityLevel

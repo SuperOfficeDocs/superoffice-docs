@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.EMailEntityType
+  commentId: T:SuperOffice.CRM.Web.Util.EMailEntityType
+  id: EMailEntityType
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.EMailEntityType.kAttachmentEmail
+  - SuperOffice.CRM.Web.Util.EMailEntityType.kDefaultEmail
+  - SuperOffice.CRM.Web.Util.EMailEntityType.kDocumentAttachmentEmail
+  - SuperOffice.CRM.Web.Util.EMailEntityType.kDocumentEmail
+  langs:
+  - csharp
+  - vb
+  name: EMailEntityType
+  nameWithType: EMailEntityType
+  fullName: SuperOffice.CRM.Web.Util.EMailEntityType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public enum EMailEntityType
+    content.vb: Public Enum EMailEntityType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.Util.EMailEntityType.kDefaultEmail
+  commentId: F:SuperOffice.CRM.Web.Util.EMailEntityType.kDefaultEmail
+  id: kDefaultEmail
+  parent: SuperOffice.CRM.Web.Util.EMailEntityType
+  langs:
+  - csharp
+  - vb
+  name: kDefaultEmail
+  nameWithType: EMailEntityType.kDefaultEmail
+  fullName: SuperOffice.CRM.Web.Util.EMailEntityType.kDefaultEmail
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: kDefaultEmail = 0
+    return:
+      type: SuperOffice.CRM.Web.Util.EMailEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Util.EMailEntityType.kDocumentEmail
+  commentId: F:SuperOffice.CRM.Web.Util.EMailEntityType.kDocumentEmail
+  id: kDocumentEmail
+  parent: SuperOffice.CRM.Web.Util.EMailEntityType
+  langs:
+  - csharp
+  - vb
+  name: kDocumentEmail
+  nameWithType: EMailEntityType.kDocumentEmail
+  fullName: SuperOffice.CRM.Web.Util.EMailEntityType.kDocumentEmail
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: kDocumentEmail = 1
+    return:
+      type: SuperOffice.CRM.Web.Util.EMailEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Util.EMailEntityType.kAttachmentEmail
+  commentId: F:SuperOffice.CRM.Web.Util.EMailEntityType.kAttachmentEmail
+  id: kAttachmentEmail
+  parent: SuperOffice.CRM.Web.Util.EMailEntityType
+  langs:
+  - csharp
+  - vb
+  name: kAttachmentEmail
+  nameWithType: EMailEntityType.kAttachmentEmail
+  fullName: SuperOffice.CRM.Web.Util.EMailEntityType.kAttachmentEmail
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: kAttachmentEmail = 2
+    return:
+      type: SuperOffice.CRM.Web.Util.EMailEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Util.EMailEntityType.kDocumentAttachmentEmail
+  commentId: F:SuperOffice.CRM.Web.Util.EMailEntityType.kDocumentAttachmentEmail
+  id: kDocumentAttachmentEmail
+  parent: SuperOffice.CRM.Web.Util.EMailEntityType
+  langs:
+  - csharp
+  - vb
+  name: kDocumentAttachmentEmail
+  nameWithType: EMailEntityType.kDocumentAttachmentEmail
+  fullName: SuperOffice.CRM.Web.Util.EMailEntityType.kDocumentAttachmentEmail
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: kDocumentAttachmentEmail = 3
+    return:
+      type: SuperOffice.CRM.Web.Util.EMailEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: SuperOffice.CRM.Web.Util.EMailEntityType
+  commentId: T:SuperOffice.CRM.Web.Util.EMailEntityType
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: EMailEntityType
+  nameWithType: EMailEntityType
+  fullName: SuperOffice.CRM.Web.Util.EMailEntityType

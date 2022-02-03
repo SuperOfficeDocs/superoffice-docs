@@ -1,0 +1,1915 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase
+  id: DocumentSelectionProviderBase
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  children:
+  - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.#ctor(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.GetDocumentSelectionMembersRows(System.Int32,System.String[],System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: DocumentSelectionProviderBase
+  nameWithType: DocumentSelectionProviderBase
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nBase class Selection document archive.\n"
+  syntax:
+    content: 'public class DocumentSelectionProviderBase : SelectionProviderBase, IArchiveMultiQueryProvider, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin'
+    content.vb: >-
+      Public Class DocumentSelectionProviderBase
+          Inherits SelectionProviderBase
+          Implements IArchiveMultiQueryProvider, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  derivedClasses:
+  - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.DocumentShadowSelectionProvider
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider
+  - SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.ColumnSelectionId
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._staticProviderName
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._dynamicProviderName
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._combinedProviderName
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._staticProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._dynamicProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._combinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetSelectionRestricion(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],SuperOffice.CRM.Rows.SelectionRow)
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.GetRows(System.String)
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AcceptRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PreGetRows
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetFinalRowCount
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider``1({ProviderType})
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider``1({ProviderType})
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.CreateAndAddProviders(SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo[])
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Close
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetReader(System.String)
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetResultInformation
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetPagingInfo(System.Int32,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableColumns
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableEntities
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredEntities(System.String[])
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderBy
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitDistinctPrimaryKeys
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderByRequiresAll
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RestrictionRequiresAll
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderByRequired
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RestrictionHelper
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.ColumnHelper
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PageSize
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PageNumber
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.HaveReadToEnd
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Providers
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.#ctor(System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.#ctor(System.String,System.String,System.String,System.Boolean)
+  id: '#ctor(System.String,System.String,System.String,System.Boolean)'
+  parent: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: DocumentSelectionProviderBase(String, String, String, Boolean)
+  nameWithType: DocumentSelectionProviderBase.DocumentSelectionProviderBase(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.DocumentSelectionProviderBase(System.String, System.String, System.String, System.Boolean)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public DocumentSelectionProviderBase(string staticProvidername, string dynamicProviderName, string combinedProviderName, bool isShadow)
+    parameters:
+    - id: staticProvidername
+      type: System.String
+    - id: dynamicProviderName
+      type: System.String
+    - id: combinedProviderName
+      type: System.String
+    - id: isShadow
+      type: System.Boolean
+    content.vb: Public Sub New(staticProvidername As String, dynamicProviderName As String, combinedProviderName As String, isShadow As Boolean)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.GetDocumentSelectionMembersRows(System.Int32,System.String[],System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.GetDocumentSelectionMembersRows(System.Int32,System.String[],System.Boolean)
+  id: GetDocumentSelectionMembersRows(System.Int32,System.String[],System.Boolean)
+  parent: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentSelectionMembersRows(Int32, String[], Boolean)
+  nameWithType: DocumentSelectionProviderBase.GetDocumentSelectionMembersRows(Int32, String[], Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.GetDocumentSelectionMembersRows(System.Int32, System.String[], System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nRetrieve all selection members for a given selection\n"
+  syntax:
+    content: public static IEnumerable<ArchiveRow> GetDocumentSelectionMembersRows(int selectionId, string[] returnColumns, bool includeStopped)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: Identity of selection to get members from
+    - id: returnColumns
+      type: System.String[]
+      description: Name of columns to return
+    - id: includeStopped
+      type: System.Boolean
+      description: Include contacts marked with stop
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+      description: All selection members for given selection
+    content.vb: Public Shared Function GetDocumentSelectionMembersRows(selectionId As Integer, returnColumns As String(), includeStopped As Boolean) As IEnumerable(Of ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.GetDocumentSelectionMembersRows*
+  nameWithType.vb: DocumentSelectionProviderBase.GetDocumentSelectionMembersRows(Int32, String(), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.GetDocumentSelectionMembersRows(System.Int32, System.String(), System.Boolean)
+  name.vb: GetDocumentSelectionMembersRows(Int32, String(), Boolean)
+references:
+- uid: SuperOffice.CRM.ArchiveLists.Archive
+  commentId: N:SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists.Archive
+  nameWithType: SuperOffice.CRM.ArchiveLists.Archive
+  fullName: SuperOffice.CRM.ArchiveLists.Archive
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: MultiQueryProviderBase
+  nameWithType: MultiQueryProviderBase
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: SelectionProviderBase
+  nameWithType: SelectionProviderBase
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveMultiQueryProvider
+  nameWithType: IArchiveMultiQueryProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProvider
+  nameWithType: IArchiveProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasRows
+  nameWithType: IArchiveProviderHasRows
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasColumns
+  nameWithType: IArchiveProviderHasColumns
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasEntities
+  nameWithType: IArchiveProviderHasEntities
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.ColumnSelectionId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.ColumnSelectionId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  isExternal: true
+  name: ColumnSelectionId
+  nameWithType: SelectionProviderBase.ColumnSelectionId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.ColumnSelectionId
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._staticProviderName
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._staticProviderName
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  isExternal: true
+  name: _staticProviderName
+  nameWithType: SelectionProviderBase._staticProviderName
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._staticProviderName
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._dynamicProviderName
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._dynamicProviderName
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  isExternal: true
+  name: _dynamicProviderName
+  nameWithType: SelectionProviderBase._dynamicProviderName
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._dynamicProviderName
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._combinedProviderName
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._combinedProviderName
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  isExternal: true
+  name: _combinedProviderName
+  nameWithType: SelectionProviderBase._combinedProviderName
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._combinedProviderName
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._staticProvider
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._staticProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  isExternal: true
+  name: _staticProvider
+  nameWithType: SelectionProviderBase._staticProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._staticProvider
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._dynamicProvider
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._dynamicProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  isExternal: true
+  name: _dynamicProvider
+  nameWithType: SelectionProviderBase._dynamicProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._dynamicProvider
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._combinedProvider
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._combinedProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  isExternal: true
+  name: _combinedProvider
+  nameWithType: SelectionProviderBase._combinedProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._combinedProvider
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  isExternal: true
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: SelectionProviderBase.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: SelectionProviderBase.SetRestriction(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: SelectionProviderBase.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: SelectionProviderBase.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetSelectionRestricion(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],SuperOffice.CRM.Rows.SelectionRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetSelectionRestricion(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],SuperOffice.CRM.Rows.SelectionRow)
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  isExternal: true
+  name: SetSelectionRestricion(ArchiveRestrictionInfo[], SelectionRow)
+  nameWithType: SelectionProviderBase.SetSelectionRestricion(ArchiveRestrictionInfo[], SelectionRow)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetSelectionRestricion(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], SuperOffice.CRM.Rows.SelectionRow)
+  nameWithType.vb: SelectionProviderBase.SetSelectionRestricion(ArchiveRestrictionInfo(), SelectionRow)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetSelectionRestricion(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), SuperOffice.CRM.Rows.SelectionRow)
+  name.vb: SetSelectionRestricion(ArchiveRestrictionInfo(), SelectionRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetSelectionRestricion(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],SuperOffice.CRM.Rows.SelectionRow)
+    name: SetSelectionRestricion
+    nameWithType: SelectionProviderBase.SetSelectionRestricion
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetSelectionRestricion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.SelectionRow
+    name: SelectionRow
+    nameWithType: SelectionRow
+    fullName: SuperOffice.CRM.Rows.SelectionRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetSelectionRestricion(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],SuperOffice.CRM.Rows.SelectionRow)
+    name: SetSelectionRestricion
+    nameWithType: SelectionProviderBase.SetSelectionRestricion
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.SetSelectionRestricion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.SelectionRow
+    name: SelectionRow
+    nameWithType: SelectionRow
+    fullName: SuperOffice.CRM.Rows.SelectionRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.GetRows(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.GetRows(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
+  isExternal: true
+  name: GetRows(String)
+  nameWithType: SelectionProviderBase.GetRows(String)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.GetRows(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.GetRows(System.String)
+    name: GetRows
+    nameWithType: SelectionProviderBase.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.GetRows(System.String)
+    name: GetRows
+    nameWithType: SelectionProviderBase.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: InnerPopulateRow(ArchiveRow)
+  nameWithType: MultiQueryProviderBase.InnerPopulateRow(ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRow
+    nameWithType: MultiQueryProviderBase.InnerPopulateRow
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRow
+    nameWithType: MultiQueryProviderBase.InnerPopulateRow
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AcceptRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AcceptRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: AcceptRow(ArchiveRow)
+  nameWithType: MultiQueryProviderBase.AcceptRow(ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AcceptRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AcceptRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: AcceptRow
+    nameWithType: MultiQueryProviderBase.AcceptRow
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AcceptRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AcceptRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: AcceptRow
+    nameWithType: MultiQueryProviderBase.AcceptRow
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AcceptRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PreGetRows
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PreGetRows
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: PreGetRows()
+  nameWithType: MultiQueryProviderBase.PreGetRows()
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PreGetRows()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PreGetRows
+    name: PreGetRows
+    nameWithType: MultiQueryProviderBase.PreGetRows
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PreGetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PreGetRows
+    name: PreGetRows
+    nameWithType: MultiQueryProviderBase.PreGetRows
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PreGetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetFinalRowCount
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetFinalRowCount
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: GetFinalRowCount()
+  nameWithType: MultiQueryProviderBase.GetFinalRowCount()
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetFinalRowCount()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetFinalRowCount
+    name: GetFinalRowCount
+    nameWithType: MultiQueryProviderBase.GetFinalRowCount
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetFinalRowCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetFinalRowCount
+    name: GetFinalRowCount
+    nameWithType: MultiQueryProviderBase.GetFinalRowCount
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetFinalRowCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider``1({ProviderType})
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider``1(``0)
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  definition: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider``1(``0)
+  name: AddSubProvider<ProviderType>(ProviderType)
+  nameWithType: MultiQueryProviderBase.AddSubProvider<ProviderType>(ProviderType)
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider<ProviderType>(ProviderType)
+  nameWithType.vb: MultiQueryProviderBase.AddSubProvider(Of ProviderType)(ProviderType)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider(Of ProviderType)(ProviderType)
+  name.vb: AddSubProvider(Of ProviderType)(ProviderType)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider``1(``0)
+    name: AddSubProvider<ProviderType>
+    nameWithType: MultiQueryProviderBase.AddSubProvider<ProviderType>
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider<ProviderType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: ProviderType
+    nameWithType: ProviderType
+    fullName: ProviderType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider``1(``0)
+    name: AddSubProvider(Of ProviderType)
+    nameWithType: MultiQueryProviderBase.AddSubProvider(Of ProviderType)
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider(Of ProviderType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: ProviderType
+    nameWithType: ProviderType
+    fullName: ProviderType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider``1({ProviderType})
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider``1(``0)
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  definition: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider``1(``0)
+  name: RemoveSubProvider<ProviderType>(ProviderType)
+  nameWithType: MultiQueryProviderBase.RemoveSubProvider<ProviderType>(ProviderType)
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider<ProviderType>(ProviderType)
+  nameWithType.vb: MultiQueryProviderBase.RemoveSubProvider(Of ProviderType)(ProviderType)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider(Of ProviderType)(ProviderType)
+  name.vb: RemoveSubProvider(Of ProviderType)(ProviderType)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider``1(``0)
+    name: RemoveSubProvider<ProviderType>
+    nameWithType: MultiQueryProviderBase.RemoveSubProvider<ProviderType>
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider<ProviderType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: ProviderType
+    nameWithType: ProviderType
+    fullName: ProviderType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider``1(``0)
+    name: RemoveSubProvider(Of ProviderType)
+    nameWithType: MultiQueryProviderBase.RemoveSubProvider(Of ProviderType)
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider(Of ProviderType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: ProviderType
+    nameWithType: ProviderType
+    fullName: ProviderType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: SetRestrictionAndDropUnrestrictedProviders(ArchiveRestrictionInfo[])
+  nameWithType: MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestrictionAndDropUnrestrictedProviders(ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestrictionAndDropUnrestrictedProviders
+    nameWithType: MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestrictionAndDropUnrestrictedProviders
+    nameWithType: MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetRestrictionAndDropUnrestrictedProviders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.CreateAndAddProviders(SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.CreateAndAddProviders(SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: CreateAndAddProviders(MultiQueryProviderBase.AddProviderInfo[])
+  nameWithType: MultiQueryProviderBase.CreateAndAddProviders(MultiQueryProviderBase.AddProviderInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.CreateAndAddProviders(SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo[])
+  nameWithType.vb: MultiQueryProviderBase.CreateAndAddProviders(MultiQueryProviderBase.AddProviderInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.CreateAndAddProviders(SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo())
+  name.vb: CreateAndAddProviders(MultiQueryProviderBase.AddProviderInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.CreateAndAddProviders(SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo[])
+    name: CreateAndAddProviders
+    nameWithType: MultiQueryProviderBase.CreateAndAddProviders
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.CreateAndAddProviders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo
+    name: MultiQueryProviderBase.AddProviderInfo
+    nameWithType: MultiQueryProviderBase.AddProviderInfo
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.CreateAndAddProviders(SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo[])
+    name: CreateAndAddProviders
+    nameWithType: MultiQueryProviderBase.CreateAndAddProviders
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.CreateAndAddProviders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo
+    name: MultiQueryProviderBase.AddProviderInfo
+    nameWithType: MultiQueryProviderBase.AddProviderInfo
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Close
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Close
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: Close()
+  nameWithType: MultiQueryProviderBase.Close()
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Close()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Close
+    name: Close
+    nameWithType: MultiQueryProviderBase.Close
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Close
+    name: Close
+    nameWithType: MultiQueryProviderBase.Close
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetReader(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetReader(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: GetReader(String)
+  nameWithType: MultiQueryProviderBase.GetReader(String)
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetReader(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetReader(System.String)
+    name: GetReader
+    nameWithType: MultiQueryProviderBase.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetReader(System.String)
+    name: GetReader
+    nameWithType: MultiQueryProviderBase.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetResultInformation
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetResultInformation
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: GetResultInformation()
+  nameWithType: MultiQueryProviderBase.GetResultInformation()
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetResultInformation()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetResultInformation
+    name: GetResultInformation
+    nameWithType: MultiQueryProviderBase.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetResultInformation
+    name: GetResultInformation
+    nameWithType: MultiQueryProviderBase.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetPagingInfo(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetPagingInfo(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: MultiQueryProviderBase.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetPagingInfo(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: MultiQueryProviderBase.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: MultiQueryProviderBase.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableColumns
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: GetAvailableColumns()
+  nameWithType: MultiQueryProviderBase.GetAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableColumns()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: MultiQueryProviderBase.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: MultiQueryProviderBase.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: SetDesiredColumns(String[])
+  nameWithType: MultiQueryProviderBase.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredColumns(System.String[])
+  nameWithType.vb: MultiQueryProviderBase.SetDesiredColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: MultiQueryProviderBase.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: MultiQueryProviderBase.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: MultiQueryProviderBase.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: MultiQueryProviderBase.SetOrderBy(ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: MultiQueryProviderBase.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: MultiQueryProviderBase.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableEntities
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: GetAvailableEntities()
+  nameWithType: MultiQueryProviderBase.GetAvailableEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableEntities()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: MultiQueryProviderBase.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: MultiQueryProviderBase.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: SetDesiredEntities(String[])
+  nameWithType: MultiQueryProviderBase.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredEntities(System.String[])
+  nameWithType.vb: MultiQueryProviderBase.SetDesiredEntities(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: MultiQueryProviderBase.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: MultiQueryProviderBase.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: Options
+  nameWithType: MultiQueryProviderBase.Options
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderBy
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderBy
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: OrderBy
+  nameWithType: MultiQueryProviderBase.OrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderBy
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitDistinctPrimaryKeys
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitDistinctPrimaryKeys
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: InhibitDistinctPrimaryKeys
+  nameWithType: MultiQueryProviderBase.InhibitDistinctPrimaryKeys
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitDistinctPrimaryKeys
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderByRequiresAll
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderByRequiresAll
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: OrderByRequiresAll
+  nameWithType: MultiQueryProviderBase.OrderByRequiresAll
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderByRequiresAll
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RestrictionRequiresAll
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RestrictionRequiresAll
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: RestrictionRequiresAll
+  nameWithType: MultiQueryProviderBase.RestrictionRequiresAll
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RestrictionRequiresAll
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderByRequired
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderByRequired
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: OrderByRequired
+  nameWithType: MultiQueryProviderBase.OrderByRequired
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderByRequired
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RestrictionHelper
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RestrictionHelper
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: RestrictionHelper
+  nameWithType: MultiQueryProviderBase.RestrictionHelper
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RestrictionHelper
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.ColumnHelper
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.ColumnHelper
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: ColumnHelper
+  nameWithType: MultiQueryProviderBase.ColumnHelper
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.ColumnHelper
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PageSize
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PageSize
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: PageSize
+  nameWithType: MultiQueryProviderBase.PageSize
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PageSize
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PageNumber
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PageNumber
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: PageNumber
+  nameWithType: MultiQueryProviderBase.PageNumber
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PageNumber
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.HaveReadToEnd
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.HaveReadToEnd
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: HaveReadToEnd
+  nameWithType: MultiQueryProviderBase.HaveReadToEnd
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.HaveReadToEnd
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Providers
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Providers
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: Providers
+  nameWithType: MultiQueryProviderBase.Providers
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Providers
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  name: DebugXML
+  nameWithType: MultiQueryProviderBase.DebugXML
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DocumentSelectionProviderBase, To>()
+  nameWithType: EnumUtil.MapEnums<DocumentSelectionProviderBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DocumentSelectionProviderBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase, To)()
+  name.vb: MapEnums(Of DocumentSelectionProviderBase, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DocumentSelectionProviderBase, To>
+    nameWithType: EnumUtil.MapEnums<DocumentSelectionProviderBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DocumentSelectionProviderBase, To)
+    nameWithType: EnumUtil.MapEnums(Of DocumentSelectionProviderBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DocumentSelectionProviderBase, To>()
+  nameWithType: Converters.MapEnums<DocumentSelectionProviderBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of DocumentSelectionProviderBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase, To)()
+  name.vb: MapEnums(Of DocumentSelectionProviderBase, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DocumentSelectionProviderBase, To>
+    nameWithType: Converters.MapEnums<DocumentSelectionProviderBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DocumentSelectionProviderBase, To)
+    nameWithType: Converters.MapEnums(Of DocumentSelectionProviderBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider``1(``0)
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider``1(``0)
+  isExternal: true
+  name: AddSubProvider<ProviderType>(ProviderType)
+  nameWithType: MultiQueryProviderBase.AddSubProvider<ProviderType>(ProviderType)
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider<ProviderType>(ProviderType)
+  nameWithType.vb: MultiQueryProviderBase.AddSubProvider(Of ProviderType)(ProviderType)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider(Of ProviderType)(ProviderType)
+  name.vb: AddSubProvider(Of ProviderType)(ProviderType)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider``1(``0)
+    name: AddSubProvider<ProviderType>
+    nameWithType: MultiQueryProviderBase.AddSubProvider<ProviderType>
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider<ProviderType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: ProviderType
+    nameWithType: ProviderType
+    fullName: ProviderType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider``1(``0)
+    name: AddSubProvider(Of ProviderType)
+    nameWithType: MultiQueryProviderBase.AddSubProvider(Of ProviderType)
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddSubProvider(Of ProviderType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: ProviderType
+    nameWithType: ProviderType
+    fullName: ProviderType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider``1(``0)
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider``1(``0)
+  isExternal: true
+  name: RemoveSubProvider<ProviderType>(ProviderType)
+  nameWithType: MultiQueryProviderBase.RemoveSubProvider<ProviderType>(ProviderType)
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider<ProviderType>(ProviderType)
+  nameWithType.vb: MultiQueryProviderBase.RemoveSubProvider(Of ProviderType)(ProviderType)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider(Of ProviderType)(ProviderType)
+  name.vb: RemoveSubProvider(Of ProviderType)(ProviderType)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider``1(``0)
+    name: RemoveSubProvider<ProviderType>
+    nameWithType: MultiQueryProviderBase.RemoveSubProvider<ProviderType>
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider<ProviderType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: ProviderType
+    nameWithType: ProviderType
+    fullName: ProviderType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider``1(``0)
+    name: RemoveSubProvider(Of ProviderType)
+    nameWithType: MultiQueryProviderBase.RemoveSubProvider(Of ProviderType)
+    fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.RemoveSubProvider(Of ProviderType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: ProviderType
+    nameWithType: ProviderType
+    fullName: ProviderType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.#ctor
+  isExternal: true
+  name: DocumentSelectionProviderBase
+  nameWithType: DocumentSelectionProviderBase.DocumentSelectionProviderBase
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.DocumentSelectionProviderBase
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.GetDocumentSelectionMembersRows*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.GetDocumentSelectionMembersRows
+  isExternal: true
+  name: GetDocumentSelectionMembersRows
+  nameWithType: DocumentSelectionProviderBase.GetDocumentSelectionMembersRows
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBase.GetDocumentSelectionMembersRows
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ArchiveRow>
+  nameWithType: IEnumerable<ArchiveRow>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveRow>
+  nameWithType.vb: IEnumerable(Of ArchiveRow)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  name.vb: IEnumerable(Of ArchiveRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

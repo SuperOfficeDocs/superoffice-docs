@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer
+  id: UserPreferenceStrings.WebServer
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Location
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Name
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.WebServer
+  nameWithType: UserPreferenceStrings.WebServer
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWeb server\n"
+  syntax:
+    content: 'public static class WebServer : Object'
+    content.vb: >-
+      Public Module WebServer
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.WebServer.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "WebServer"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "WebServer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Location
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Location
+  id: Location
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: UserPreferenceStrings.WebServer.Location
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Location
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe location of the web server used by the web version&apos;s report generator\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string Location = "Location"
+    return:
+      type: System.String
+    content.vb: Public Const Location As String = "Location"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Name
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: UserPreferenceStrings.WebServer.Name
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.WebServer.Name
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the web server used by the web version&apos;s report generator\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string Name = "Name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "Name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest
+  id: EMail_AuthenticateOutgoingRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.ConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: EMail_AuthenticateOutgoingRequest
+  nameWithType: EMail_AuthenticateOutgoingRequest
+  fullName: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_AuthenticateOutgoingRequest : Object'
+    content.vb: >-
+      Public Class EMail_AuthenticateOutgoingRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_AuthenticateOutgoingRequest()
+  nameWithType: EMail_AuthenticateOutgoingRequest.EMail_AuthenticateOutgoingRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.EMail_AuthenticateOutgoingRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_AuthenticateOutgoingRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.ConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.ConnectionInfo
+  id: ConnectionInfo
+  parent: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionInfo
+  nameWithType: EMail_AuthenticateOutgoingRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.ConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo ConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property ConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.ConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.#ctor
+  isExternal: true
+  name: EMail_AuthenticateOutgoingRequest
+  nameWithType: EMail_AuthenticateOutgoingRequest.EMail_AuthenticateOutgoingRequest
+  fullName: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.EMail_AuthenticateOutgoingRequest
+- uid: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.ConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.ConnectionInfo
+  isExternal: true
+  name: ConnectionInfo
+  nameWithType: EMail_AuthenticateOutgoingRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_AuthenticateOutgoingRequest.ConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo

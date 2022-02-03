@@ -1,0 +1,588 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+  commentId: T:SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+  id: FindDataHandler.SetCritera
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.#ctor(System.String)
+  - SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.displayValue
+  - SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.isActive
+  - SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.isReadonly
+  - SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.name
+  - SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.operatorname
+  - SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.ToArchiveRestrictionInfo
+  - SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.value
+  langs:
+  - csharp
+  - vb
+  name: FindDataHandler.SetCritera
+  nameWithType: FindDataHandler.SetCritera
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public class SetCritera
+    content.vb: Public Class SetCritera
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.name
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.name
+  id: name
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: FindDataHandler.SetCritera.name
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.name
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.operatorname
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.operatorname
+  id: operatorname
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+  langs:
+  - csharp
+  - vb
+  name: operatorname
+  nameWithType: FindDataHandler.SetCritera.operatorname
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.operatorname
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string operatorname
+    return:
+      type: System.String
+    content.vb: Public operatorname As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.value
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.value
+  id: value
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: FindDataHandler.SetCritera.value
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.value
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string value
+    return:
+      type: System.String
+    content.vb: Public value As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.displayValue
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.displayValue
+  id: displayValue
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+  langs:
+  - csharp
+  - vb
+  name: displayValue
+  nameWithType: FindDataHandler.SetCritera.displayValue
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.displayValue
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string displayValue
+    return:
+      type: System.String
+    content.vb: Public displayValue As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.isActive
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.isActive
+  id: isActive
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+  langs:
+  - csharp
+  - vb
+  name: isActive
+  nameWithType: FindDataHandler.SetCritera.isActive
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.isActive
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool isActive
+    return:
+      type: System.Boolean
+    content.vb: Public isActive As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.isReadonly
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.isReadonly
+  id: isReadonly
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+  langs:
+  - csharp
+  - vb
+  name: isReadonly
+  nameWithType: FindDataHandler.SetCritera.isReadonly
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.isReadonly
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool isReadonly
+    return:
+      type: System.Boolean
+    content.vb: Public isReadonly As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+  langs:
+  - csharp
+  - vb
+  name: SetCritera(String)
+  nameWithType: FindDataHandler.SetCritera.SetCritera(String)
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.SetCritera(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public SetCritera(string requestItem)
+    parameters:
+    - id: requestItem
+      type: System.String
+    content.vb: Public Sub New(requestItem As String)
+  overload: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.ToArchiveRestrictionInfo
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.ToArchiveRestrictionInfo
+  id: ToArchiveRestrictionInfo
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+  langs:
+  - csharp
+  - vb
+  name: ToArchiveRestrictionInfo()
+  nameWithType: FindDataHandler.SetCritera.ToArchiveRestrictionInfo()
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.ToArchiveRestrictionInfo()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public ArchiveRestrictionInfo ToArchiveRestrictionInfo()
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    content.vb: Public Function ToArchiveRestrictionInfo As ArchiveRestrictionInfo
+  overload: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.ToArchiveRestrictionInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.#ctor
+  isExternal: true
+  name: SetCritera
+  nameWithType: FindDataHandler.SetCritera.SetCritera
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.SetCritera
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.ToArchiveRestrictionInfo*
+  commentId: Overload:SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.ToArchiveRestrictionInfo
+  isExternal: true
+  name: ToArchiveRestrictionInfo
+  nameWithType: FindDataHandler.SetCritera.ToArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera.ToArchiveRestrictionInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  isExternal: true
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo

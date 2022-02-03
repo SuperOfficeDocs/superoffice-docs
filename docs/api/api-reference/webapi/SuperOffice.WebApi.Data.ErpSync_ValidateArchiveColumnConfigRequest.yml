@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest
+  id: ErpSync_ValidateArchiveColumnConfigRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ErpConnectionId
+  - SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ListOwner
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_ValidateArchiveColumnConfigRequest
+  nameWithType: ErpSync_ValidateArchiveColumnConfigRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_ValidateArchiveColumnConfigRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_ValidateArchiveColumnConfigRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_ValidateArchiveColumnConfigRequest()
+  nameWithType: ErpSync_ValidateArchiveColumnConfigRequest.ErpSync_ValidateArchiveColumnConfigRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ErpSync_ValidateArchiveColumnConfigRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_ValidateArchiveColumnConfigRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ListOwner
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ListOwner
+  id: ListOwner
+  parent: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest
+  langs:
+  - csharp
+  - vb
+  name: ListOwner
+  nameWithType: ErpSync_ValidateArchiveColumnConfigRequest.ListOwner
+  fullName: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ListOwner
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ListOwner { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ListOwner As String
+  overload: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ListOwner*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_ValidateArchiveColumnConfigRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.#ctor
+  isExternal: true
+  name: ErpSync_ValidateArchiveColumnConfigRequest
+  nameWithType: ErpSync_ValidateArchiveColumnConfigRequest.ErpSync_ValidateArchiveColumnConfigRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ErpSync_ValidateArchiveColumnConfigRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ListOwner*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ListOwner
+  isExternal: true
+  name: ListOwner
+  nameWithType: ErpSync_ValidateArchiveColumnConfigRequest.ListOwner
+  fullName: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ListOwner
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_ValidateArchiveColumnConfigRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_ValidateArchiveColumnConfigRequest.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

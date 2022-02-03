@@ -1,0 +1,673 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.TooltipHelper
+  commentId: T:SuperOffice.CRM.TooltipHelper
+  id: TooltipHelper
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.TooltipHelper.GetProjectTooltip(SuperOffice.CRM.Entities.Project)
+  - SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.Int32)
+  - SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.String,System.String,System.String,System.Int32)
+  - SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(SuperOffice.CRM.Entities.Selection)
+  - SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(System.String,System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(System.String,System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: TooltipHelper
+  nameWithType: TooltipHelper
+  fullName: SuperOffice.CRM.TooltipHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nUtility class for generating tool tips.\n"
+  syntax:
+    content: public static class TooltipHelper
+    content.vb: Public Module TooltipHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.Int32)
+  commentId: M:SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.Int32)
+  id: GetProjectTooltip(System.Int32)
+  parent: SuperOffice.CRM.TooltipHelper
+  langs:
+  - csharp
+  - vb
+  name: GetProjectTooltip(Int32)
+  nameWithType: TooltipHelper.GetProjectTooltip(Int32)
+  fullName: SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGet Tooltip for a project.\n"
+  syntax:
+    content: public static string GetProjectTooltip(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: Primary key of the project.
+    return:
+      type: System.String
+      description: Tooltip for the project.
+    content.vb: Public Shared Function GetProjectTooltip(projectId As Integer) As String
+  overload: SuperOffice.CRM.TooltipHelper.GetProjectTooltip*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TooltipHelper.GetProjectTooltip(SuperOffice.CRM.Entities.Project)
+  commentId: M:SuperOffice.CRM.TooltipHelper.GetProjectTooltip(SuperOffice.CRM.Entities.Project)
+  id: GetProjectTooltip(SuperOffice.CRM.Entities.Project)
+  parent: SuperOffice.CRM.TooltipHelper
+  langs:
+  - csharp
+  - vb
+  name: GetProjectTooltip(Project)
+  nameWithType: TooltipHelper.GetProjectTooltip(Project)
+  fullName: SuperOffice.CRM.TooltipHelper.GetProjectTooltip(SuperOffice.CRM.Entities.Project)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGet Tooltip for a project.\n"
+  syntax:
+    content: public static string GetProjectTooltip(Project project)
+    parameters:
+    - id: project
+      type: SuperOffice.CRM.Entities.Project
+      description: Project entity.
+    return:
+      type: System.String
+      description: Tooltip for the project.
+    content.vb: Public Shared Function GetProjectTooltip(project As Project) As String
+  overload: SuperOffice.CRM.TooltipHelper.GetProjectTooltip*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.String,System.String,System.String,System.Int32)
+  id: GetProjectTooltip(System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.TooltipHelper
+  langs:
+  - csharp
+  - vb
+  name: GetProjectTooltip(String, String, String, Int32)
+  nameWithType: TooltipHelper.GetProjectTooltip(String, String, String, Int32)
+  fullName: SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGet Tooltip for a project.\n"
+  syntax:
+    content: public static string GetProjectTooltip(string name, string projectType, string text, int associateId)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the project
+    - id: projectType
+      type: System.String
+      description: Name of the project type.
+    - id: text
+      type: System.String
+      description: Project text
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.String
+      description: Tooltip for the project.
+    content.vb: Public Shared Function GetProjectTooltip(name As String, projectType As String, text As String, associateId As Integer) As String
+  overload: SuperOffice.CRM.TooltipHelper.GetProjectTooltip*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.String,System.String,System.String,System.String)
+  id: GetProjectTooltip(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.TooltipHelper
+  langs:
+  - csharp
+  - vb
+  name: GetProjectTooltip(String, String, String, String)
+  nameWithType: TooltipHelper.GetProjectTooltip(String, String, String, String)
+  fullName: SuperOffice.CRM.TooltipHelper.GetProjectTooltip(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGet Tooltip for a project.\n"
+  syntax:
+    content: public static string GetProjectTooltip(string name, string projectType, string text, string associateFullName)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the project
+    - id: projectType
+      type: System.String
+      description: Name of the project type.
+    - id: text
+      type: System.String
+      description: Project text
+    - id: associateFullName
+      type: System.String
+      description: Full name of an associate (e.g. in most cases a user)
+    return:
+      type: System.String
+      description: Tooltip for the project.
+    content.vb: Public Shared Function GetProjectTooltip(name As String, projectType As String, text As String, associateFullName As String) As String
+  overload: SuperOffice.CRM.TooltipHelper.GetProjectTooltip*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(SuperOffice.CRM.Entities.Selection)
+  commentId: M:SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(SuperOffice.CRM.Entities.Selection)
+  id: GetSelectionTooltip(SuperOffice.CRM.Entities.Selection)
+  parent: SuperOffice.CRM.TooltipHelper
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionTooltip(Selection)
+  nameWithType: TooltipHelper.GetSelectionTooltip(Selection)
+  fullName: SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(SuperOffice.CRM.Entities.Selection)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGet the tooltip for a selection.\n"
+  syntax:
+    content: public static string GetSelectionTooltip(Selection entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Selection
+      description: Entity to get the tooltip for.
+    return:
+      type: System.String
+      description: Tooltip for the selection.
+    content.vb: Public Shared Function GetSelectionTooltip(entity As Selection) As String
+  overload: SuperOffice.CRM.TooltipHelper.GetSelectionTooltip*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(System.String,System.String,System.Int32,System.Int32)
+  id: GetSelectionTooltip(System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.TooltipHelper
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionTooltip(String, String, Int32, Int32)
+  nameWithType: TooltipHelper.GetSelectionTooltip(String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(System.String, System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGet the tooltip for a selection.\n"
+  syntax:
+    content: public static string GetSelectionTooltip(string name, string text, int searchCategoryId, int associateId)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the selection.
+    - id: text
+      type: System.String
+      description: Text describing the selection.
+    - id: searchCategoryId
+      type: System.Int32
+      description: id of search category (e.g. selection type).
+    - id: associateId
+      type: System.Int32
+      description: Associate id of the selection&apos;s owner.
+    return:
+      type: System.String
+      description: Tooltip for the selection.
+    content.vb: Public Shared Function GetSelectionTooltip(name As String, text As String, searchCategoryId As Integer, associateId As Integer) As String
+  overload: SuperOffice.CRM.TooltipHelper.GetSelectionTooltip*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(System.String,System.String,System.String,System.String)
+  id: GetSelectionTooltip(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.TooltipHelper
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionTooltip(String, String, String, String)
+  nameWithType: TooltipHelper.GetSelectionTooltip(String, String, String, String)
+  fullName: SuperOffice.CRM.TooltipHelper.GetSelectionTooltip(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGet the tooltip for a selection.\n"
+  syntax:
+    content: public static string GetSelectionTooltip(string name, string text, string searchCategory, string associateFullName)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the selection.
+    - id: text
+      type: System.String
+      description: Text describing the selection.
+    - id: searchCategory
+      type: System.String
+      description: search category (e.g. selection type).
+    - id: associateFullName
+      type: System.String
+      description: Full name of the selection&apos;s owner.
+    return:
+      type: System.String
+      description: Tooltip for the selection.
+    content.vb: Public Shared Function GetSelectionTooltip(name As String, text As String, searchCategory As String, associateFullName As String) As String
+  overload: SuperOffice.CRM.TooltipHelper.GetSelectionTooltip*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.TooltipHelper.GetProjectTooltip*
+  commentId: Overload:SuperOffice.CRM.TooltipHelper.GetProjectTooltip
+  isExternal: true
+  name: GetProjectTooltip
+  nameWithType: TooltipHelper.GetProjectTooltip
+  fullName: SuperOffice.CRM.TooltipHelper.GetProjectTooltip
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Entities.Project
+  commentId: T:SuperOffice.CRM.Entities.Project
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.CRM.Entities.Project
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.TooltipHelper.GetSelectionTooltip*
+  commentId: Overload:SuperOffice.CRM.TooltipHelper.GetSelectionTooltip
+  isExternal: true
+  name: GetSelectionTooltip
+  nameWithType: TooltipHelper.GetSelectionTooltip
+  fullName: SuperOffice.CRM.TooltipHelper.GetSelectionTooltip
+- uid: SuperOffice.CRM.Entities.Selection
+  commentId: T:SuperOffice.CRM.Entities.Selection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Selection
+  nameWithType: Selection
+  fullName: SuperOffice.CRM.Entities.Selection

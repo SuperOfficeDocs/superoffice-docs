@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
+  id: Diagnostics_GetWebAppUsagesForPeriodRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.#ctor
+  - SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.FromDate
+  - SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.SearchTerm
+  - SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.ToDate
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_GetWebAppUsagesForPeriodRequest
+  nameWithType: Diagnostics_GetWebAppUsagesForPeriodRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Diagnostics_GetWebAppUsagesForPeriodRequest : Object'
+    content.vb: >-
+      Public Class Diagnostics_GetWebAppUsagesForPeriodRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_GetWebAppUsagesForPeriodRequest()
+  nameWithType: Diagnostics_GetWebAppUsagesForPeriodRequest.Diagnostics_GetWebAppUsagesForPeriodRequest()
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.Diagnostics_GetWebAppUsagesForPeriodRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Diagnostics_GetWebAppUsagesForPeriodRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.FromDate
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.FromDate
+  id: FromDate
+  parent: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
+  langs:
+  - csharp
+  - vb
+  name: FromDate
+  nameWithType: Diagnostics_GetWebAppUsagesForPeriodRequest.FromDate
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.FromDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime FromDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property FromDate As DateTime
+  overload: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.FromDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.ToDate
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.ToDate
+  id: ToDate
+  parent: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
+  langs:
+  - csharp
+  - vb
+  name: ToDate
+  nameWithType: Diagnostics_GetWebAppUsagesForPeriodRequest.ToDate
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.ToDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime ToDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ToDate As DateTime
+  overload: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.ToDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.SearchTerm
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.SearchTerm
+  id: SearchTerm
+  parent: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
+  langs:
+  - csharp
+  - vb
+  name: SearchTerm
+  nameWithType: Diagnostics_GetWebAppUsagesForPeriodRequest.SearchTerm
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.SearchTerm
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string SearchTerm { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SearchTerm As String
+  overload: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.SearchTerm*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.#ctor
+  isExternal: true
+  name: Diagnostics_GetWebAppUsagesForPeriodRequest
+  nameWithType: Diagnostics_GetWebAppUsagesForPeriodRequest.Diagnostics_GetWebAppUsagesForPeriodRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.Diagnostics_GetWebAppUsagesForPeriodRequest
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.FromDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.FromDate
+  isExternal: true
+  name: FromDate
+  nameWithType: Diagnostics_GetWebAppUsagesForPeriodRequest.FromDate
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.FromDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.ToDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.ToDate
+  isExternal: true
+  name: ToDate
+  nameWithType: Diagnostics_GetWebAppUsagesForPeriodRequest.ToDate
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.ToDate
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.SearchTerm*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.SearchTerm
+  isExternal: true
+  name: SearchTerm
+  nameWithType: Diagnostics_GetWebAppUsagesForPeriodRequest.SearchTerm
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest.SearchTerm
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

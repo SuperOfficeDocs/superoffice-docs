@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest
+  commentId: T:SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest
+  id: Pocket_RegisterDeviceForPushNotificationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.#ctor
+  - SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.DeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: Pocket_RegisterDeviceForPushNotificationRequest
+  nameWithType: Pocket_RegisterDeviceForPushNotificationRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Pocket_RegisterDeviceForPushNotificationRequest : Object'
+    content.vb: >-
+      Public Class Pocket_RegisterDeviceForPushNotificationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest
+  langs:
+  - csharp
+  - vb
+  name: Pocket_RegisterDeviceForPushNotificationRequest()
+  nameWithType: Pocket_RegisterDeviceForPushNotificationRequest.Pocket_RegisterDeviceForPushNotificationRequest()
+  fullName: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.Pocket_RegisterDeviceForPushNotificationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Pocket_RegisterDeviceForPushNotificationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.DeviceInfo
+  commentId: P:SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.DeviceInfo
+  id: DeviceInfo
+  parent: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest
+  langs:
+  - csharp
+  - vb
+  name: DeviceInfo
+  nameWithType: Pocket_RegisterDeviceForPushNotificationRequest.DeviceInfo
+  fullName: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.DeviceInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PocketDeviceInfo DeviceInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PocketDeviceInfo
+    content.vb: Public Property DeviceInfo As PocketDeviceInfo
+  overload: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.DeviceInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.#ctor
+  isExternal: true
+  name: Pocket_RegisterDeviceForPushNotificationRequest
+  nameWithType: Pocket_RegisterDeviceForPushNotificationRequest.Pocket_RegisterDeviceForPushNotificationRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.Pocket_RegisterDeviceForPushNotificationRequest
+- uid: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.DeviceInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.DeviceInfo
+  isExternal: true
+  name: DeviceInfo
+  nameWithType: Pocket_RegisterDeviceForPushNotificationRequest.DeviceInfo
+  fullName: SuperOffice.WebApi.Data.Pocket_RegisterDeviceForPushNotificationRequest.DeviceInfo
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo
+  commentId: T:SuperOffice.WebApi.Data.PocketDeviceInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PocketDeviceInfo
+  nameWithType: PocketDeviceInfo
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo

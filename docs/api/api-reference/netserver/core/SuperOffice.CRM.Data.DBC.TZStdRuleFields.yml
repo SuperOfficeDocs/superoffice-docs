@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  id: DBC.TZStdRuleFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TZStdRuleFields.Bias
+  - SuperOffice.CRM.Data.DBC.TZStdRuleFields.Description
+  - SuperOffice.CRM.Data.DBC.TZStdRuleFields.IsBuiltIn
+  - SuperOffice.CRM.Data.DBC.TZStdRuleFields.Registered
+  - SuperOffice.CRM.Data.DBC.TZStdRuleFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TZStdRuleFields.TZLocationId
+  - SuperOffice.CRM.Data.DBC.TZStdRuleFields.TZStdRuleId
+  - SuperOffice.CRM.Data.DBC.TZStdRuleFields.Updated
+  - SuperOffice.CRM.Data.DBC.TZStdRuleFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TZStdRuleFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.TZStdRuleFields.ValidFrom
+  langs:
+  - csharp
+  - vb
+  name: DBC.TZStdRuleFields
+  nameWithType: DBC.TZStdRuleFields
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TZStdRule, Time zone rule for standard time\n"
+  syntax:
+    content: public static class TZStdRuleFields
+    content.vb: Public Module TZStdRuleFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields.TZStdRuleId
+  commentId: F:SuperOffice.CRM.Data.DBC.TZStdRuleFields.TZStdRuleId
+  id: TZStdRuleId
+  parent: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  langs:
+  - csharp
+  - vb
+  name: TZStdRuleId
+  nameWithType: DBC.TZStdRuleFields.TZStdRuleId
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields.TZStdRuleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZStdRule.TZStdRuleId: Primary key\n"
+  syntax:
+    content: public const string TZStdRuleId = "TZStdRule_id"
+    return:
+      type: System.String
+    content.vb: Public Const TZStdRuleId As String = "TZStdRule_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields.TZLocationId
+  commentId: F:SuperOffice.CRM.Data.DBC.TZStdRuleFields.TZLocationId
+  id: TZLocationId
+  parent: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  langs:
+  - csharp
+  - vb
+  name: TZLocationId
+  nameWithType: DBC.TZStdRuleFields.TZLocationId
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields.TZLocationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZStdRule.TZLocationId: Location that this rule is valid for - one location has at least one rule; multiple rules are discerned by their validFrom dates\n"
+  syntax:
+    content: public const string TZLocationId = "TZLocationId"
+    return:
+      type: System.String
+    content.vb: Public Const TZLocationId As String = "TZLocationId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields.ValidFrom
+  commentId: F:SuperOffice.CRM.Data.DBC.TZStdRuleFields.ValidFrom
+  id: ValidFrom
+  parent: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  langs:
+  - csharp
+  - vb
+  name: ValidFrom
+  nameWithType: DBC.TZStdRuleFields.ValidFrom
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields.ValidFrom
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZStdRule.ValidFrom: Date this rule is valid from\n"
+  syntax:
+    content: public const string ValidFrom = "validFrom"
+    return:
+      type: System.String
+    content.vb: Public Const ValidFrom As String = "validFrom"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields.Bias
+  commentId: F:SuperOffice.CRM.Data.DBC.TZStdRuleFields.Bias
+  id: Bias
+  parent: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  langs:
+  - csharp
+  - vb
+  name: Bias
+  nameWithType: DBC.TZStdRuleFields.Bias
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields.Bias
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZStdRule.Bias: number of minutes bias relative to UTC time\n"
+  syntax:
+    content: public const string Bias = "bias"
+    return:
+      type: System.String
+    content.vb: Public Const Bias As String = "bias"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.TZStdRuleFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.TZStdRuleFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZStdRule.Description: Description, for identifying the rule in SoAdmin\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields.IsBuiltIn
+  commentId: F:SuperOffice.CRM.Data.DBC.TZStdRuleFields.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: DBC.TZStdRuleFields.IsBuiltIn
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields.IsBuiltIn
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZStdRule.IsBuiltIn: Is this row part of SuperOffice priming data\n"
+  syntax:
+    content: public const string IsBuiltIn = "isBuiltIn"
+    return:
+      type: System.String
+    content.vb: Public Const IsBuiltIn As String = "isBuiltIn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TZStdRuleFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TZStdRuleFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZStdRule.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TZStdRuleFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TZStdRuleFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZStdRule.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TZStdRuleFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TZStdRuleFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZStdRule.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TZStdRuleFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TZStdRuleFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZStdRule.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZStdRuleFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TZStdRuleFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TZStdRuleFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TZStdRuleFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TZStdRuleFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZStdRule.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

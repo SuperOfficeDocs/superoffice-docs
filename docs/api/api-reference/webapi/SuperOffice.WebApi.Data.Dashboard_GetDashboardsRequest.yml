@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
+  id: Dashboard_GetDashboardsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.#ctor
+  - SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.AssociateId
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_GetDashboardsRequest
+  nameWithType: Dashboard_GetDashboardsRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dashboard_GetDashboardsRequest : Object'
+    content.vb: >-
+      Public Class Dashboard_GetDashboardsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_GetDashboardsRequest()
+  nameWithType: Dashboard_GetDashboardsRequest.Dashboard_GetDashboardsRequest()
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.Dashboard_GetDashboardsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dashboard_GetDashboardsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Dashboard_GetDashboardsRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.#ctor
+  isExternal: true
+  name: Dashboard_GetDashboardsRequest
+  nameWithType: Dashboard_GetDashboardsRequest.Dashboard_GetDashboardsRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.Dashboard_GetDashboardsRequest
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Dashboard_GetDashboardsRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

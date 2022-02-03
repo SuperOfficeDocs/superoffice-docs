@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest
+  commentId: T:SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest
+  id: Report_DeleteFavoriteRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.#ctor
+  - SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.ReportEntityId
+  langs:
+  - csharp
+  - vb
+  name: Report_DeleteFavoriteRequest
+  nameWithType: Report_DeleteFavoriteRequest
+  fullName: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Report_DeleteFavoriteRequest : Object'
+    content.vb: >-
+      Public Class Report_DeleteFavoriteRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest
+  langs:
+  - csharp
+  - vb
+  name: Report_DeleteFavoriteRequest()
+  nameWithType: Report_DeleteFavoriteRequest.Report_DeleteFavoriteRequest()
+  fullName: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.Report_DeleteFavoriteRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Report_DeleteFavoriteRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.ReportEntityId
+  commentId: P:SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.ReportEntityId
+  id: ReportEntityId
+  parent: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest
+  langs:
+  - csharp
+  - vb
+  name: ReportEntityId
+  nameWithType: Report_DeleteFavoriteRequest.ReportEntityId
+  fullName: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.ReportEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ReportEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReportEntityId As Integer
+  overload: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.ReportEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.#ctor
+  isExternal: true
+  name: Report_DeleteFavoriteRequest
+  nameWithType: Report_DeleteFavoriteRequest.Report_DeleteFavoriteRequest
+  fullName: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.Report_DeleteFavoriteRequest
+- uid: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.ReportEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.ReportEntityId
+  isExternal: true
+  name: ReportEntityId
+  nameWithType: Report_DeleteFavoriteRequest.ReportEntityId
+  fullName: SuperOffice.WebApi.Data.Report_DeleteFavoriteRequest.ReportEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

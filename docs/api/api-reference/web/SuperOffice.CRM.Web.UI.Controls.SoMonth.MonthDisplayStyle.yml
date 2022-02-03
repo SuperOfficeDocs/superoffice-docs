@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle
+  id: SoMonth.MonthDisplayStyle
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle.Normal
+  - SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle.Small
+  langs:
+  - csharp
+  - vb
+  name: SoMonth.MonthDisplayStyle
+  nameWithType: SoMonth.MonthDisplayStyle
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum MonthDisplayStyle
+    content.vb: Public Enum MonthDisplayStyle
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle.Normal
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle.Normal
+  id: Normal
+  parent: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: SoMonth.MonthDisplayStyle.Normal
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle.Normal
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Normal = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle.Small
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle.Small
+  id: Small
+  parent: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle
+  langs:
+  - csharp
+  - vb
+  name: Small
+  nameWithType: SoMonth.MonthDisplayStyle.Small
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle.Small
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Small = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoMonth.MonthDisplayStyle
+  nameWithType: SoMonth.MonthDisplayStyle
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle

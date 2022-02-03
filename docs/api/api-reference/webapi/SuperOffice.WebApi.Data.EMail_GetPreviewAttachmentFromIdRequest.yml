@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest
+  id: EMail_GetPreviewAttachmentFromIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentFilename
+  - SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentId
+  - SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentType
+  - SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.MailItemId
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetPreviewAttachmentFromIdRequest
+  nameWithType: EMail_GetPreviewAttachmentFromIdRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetPreviewAttachmentFromIdRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetPreviewAttachmentFromIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetPreviewAttachmentFromIdRequest()
+  nameWithType: EMail_GetPreviewAttachmentFromIdRequest.EMail_GetPreviewAttachmentFromIdRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.EMail_GetPreviewAttachmentFromIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetPreviewAttachmentFromIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.MailItemId
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.MailItemId
+  id: MailItemId
+  parent: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: MailItemId
+  nameWithType: EMail_GetPreviewAttachmentFromIdRequest.MailItemId
+  fullName: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.MailItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int MailItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MailItemId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.MailItemId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentId
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentId
+  id: AttachmentId
+  parent: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: AttachmentId
+  nameWithType: EMail_GetPreviewAttachmentFromIdRequest.AttachmentId
+  fullName: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string AttachmentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AttachmentId As String
+  overload: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentType
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentType
+  id: AttachmentType
+  parent: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: AttachmentType
+  nameWithType: EMail_GetPreviewAttachmentFromIdRequest.AttachmentType
+  fullName: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string AttachmentType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AttachmentType As String
+  overload: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentFilename
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentFilename
+  id: AttachmentFilename
+  parent: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: AttachmentFilename
+  nameWithType: EMail_GetPreviewAttachmentFromIdRequest.AttachmentFilename
+  fullName: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentFilename
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string AttachmentFilename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AttachmentFilename As String
+  overload: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentFilename*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.#ctor
+  isExternal: true
+  name: EMail_GetPreviewAttachmentFromIdRequest
+  nameWithType: EMail_GetPreviewAttachmentFromIdRequest.EMail_GetPreviewAttachmentFromIdRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.EMail_GetPreviewAttachmentFromIdRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.MailItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.MailItemId
+  isExternal: true
+  name: MailItemId
+  nameWithType: EMail_GetPreviewAttachmentFromIdRequest.MailItemId
+  fullName: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.MailItemId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentId
+  isExternal: true
+  name: AttachmentId
+  nameWithType: EMail_GetPreviewAttachmentFromIdRequest.AttachmentId
+  fullName: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentType*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentType
+  isExternal: true
+  name: AttachmentType
+  nameWithType: EMail_GetPreviewAttachmentFromIdRequest.AttachmentType
+  fullName: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentType
+- uid: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentFilename*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentFilename
+  isExternal: true
+  name: AttachmentFilename
+  nameWithType: EMail_GetPreviewAttachmentFromIdRequest.AttachmentFilename
+  fullName: SuperOffice.WebApi.Data.EMail_GetPreviewAttachmentFromIdRequest.AttachmentFilename

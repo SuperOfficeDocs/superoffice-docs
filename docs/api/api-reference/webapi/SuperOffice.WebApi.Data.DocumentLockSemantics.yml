@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocumentLockSemantics
+  commentId: T:SuperOffice.WebApi.Data.DocumentLockSemantics
+  id: DocumentLockSemantics
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocumentLockSemantics.Locking
+  - SuperOffice.WebApi.Data.DocumentLockSemantics.None
+  - SuperOffice.WebApi.Data.DocumentLockSemantics.value__
+  - SuperOffice.WebApi.Data.DocumentLockSemantics.Versioning
+  langs:
+  - csharp
+  - vb
+  name: DocumentLockSemantics
+  nameWithType: DocumentLockSemantics
+  fullName: SuperOffice.WebApi.Data.DocumentLockSemantics
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLocking semantics requested/applied to a document\n"
+  syntax:
+    content: 'public sealed class DocumentLockSemantics : Enum'
+    content.vb: >-
+      Public NotInheritable Class DocumentLockSemantics
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DocumentLockSemantics.value__
+  commentId: F:SuperOffice.WebApi.Data.DocumentLockSemantics.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DocumentLockSemantics
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DocumentLockSemantics.value__
+  fullName: SuperOffice.WebApi.Data.DocumentLockSemantics.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentLockSemantics.None
+  commentId: F:SuperOffice.WebApi.Data.DocumentLockSemantics.None
+  id: None
+  parent: SuperOffice.WebApi.Data.DocumentLockSemantics
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DocumentLockSemantics.None
+  fullName: SuperOffice.WebApi.Data.DocumentLockSemantics.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Neither locking nor versioning is requested for the document\n"
+  syntax:
+    content: public const DocumentLockSemantics None
+    return:
+      type: SuperOffice.WebApi.Data.DocumentLockSemantics
+    content.vb: Public Const None As DocumentLockSemantics
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocumentLockSemantics.Locking
+  commentId: F:SuperOffice.WebApi.Data.DocumentLockSemantics.Locking
+  id: Locking
+  parent: SuperOffice.WebApi.Data.DocumentLockSemantics
+  langs:
+  - csharp
+  - vb
+  name: Locking
+  nameWithType: DocumentLockSemantics.Locking
+  fullName: SuperOffice.WebApi.Data.DocumentLockSemantics.Locking
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Locking, but not versioning, is requested for the document\n"
+  syntax:
+    content: public const DocumentLockSemantics Locking
+    return:
+      type: SuperOffice.WebApi.Data.DocumentLockSemantics
+    content.vb: Public Const Locking As DocumentLockSemantics
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocumentLockSemantics.Versioning
+  commentId: F:SuperOffice.WebApi.Data.DocumentLockSemantics.Versioning
+  id: Versioning
+  parent: SuperOffice.WebApi.Data.DocumentLockSemantics
+  langs:
+  - csharp
+  - vb
+  name: Versioning
+  nameWithType: DocumentLockSemantics.Versioning
+  fullName: SuperOffice.WebApi.Data.DocumentLockSemantics.Versioning
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Versioning is requested for the document (locking is implied)\n"
+  syntax:
+    content: public const DocumentLockSemantics Versioning
+    return:
+      type: SuperOffice.WebApi.Data.DocumentLockSemantics
+    content.vb: Public Const Versioning As DocumentLockSemantics
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DocumentLockSemantics
+  commentId: T:SuperOffice.WebApi.Data.DocumentLockSemantics
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DocumentLockSemantics
+  nameWithType: DocumentLockSemantics
+  fullName: SuperOffice.WebApi.Data.DocumentLockSemantics

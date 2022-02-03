@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  id: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.IHasSchema
+  - SuperOffice.Configuration.SchemaValidation
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCF
+references:
+- uid: SuperOffice.Configuration.IHasSchema
+  commentId: T:SuperOffice.Configuration.IHasSchema
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: IHasSchema
+  nameWithType: IHasSchema
+  fullName: SuperOffice.Configuration.IHasSchema
+- uid: SuperOffice.Configuration.SchemaValidation
+  commentId: T:SuperOffice.Configuration.SchemaValidation
+  isExternal: true
+  name: SchemaValidation
+  nameWithType: SchemaValidation
+  fullName: SuperOffice.Configuration.SchemaValidation
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration

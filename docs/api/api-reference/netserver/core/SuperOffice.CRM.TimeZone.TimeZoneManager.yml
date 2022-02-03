@@ -1,0 +1,800 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager
+  commentId: T:SuperOffice.CRM.TimeZone.TimeZoneManager
+  id: TimeZoneManager
+  parent: SuperOffice.CRM.TimeZone
+  children:
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.GetBaseTimeZoneId
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow(System.Int32,System.Boolean)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter(System.String,System.Boolean)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId(System.Int32)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow(System.Int32)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneManager
+  nameWithType: TimeZoneManager
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public static class TimeZoneManager
+    content.vb: Public Module TimeZoneManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable
+  id: CheckNewTimeZoneDataAvailable
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: CheckNewTimeZoneDataAvailable()
+  nameWithType: TimeZoneManager.CheckNewTimeZoneDataAvailable()
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public static bool CheckNewTimeZoneDataAvailable()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CheckNewTimeZoneDataAvailable As Boolean
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData
+  id: UpdateTimeZoneData
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateTimeZoneData()
+  nameWithType: TimeZoneManager.UpdateTimeZoneData()
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public static bool UpdateTimeZoneData()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function UpdateTimeZoneData As Boolean
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate
+  id: TimeOfLastTimeZoneUpdate
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: TimeOfLastTimeZoneUpdate()
+  nameWithType: TimeZoneManager.TimeOfLastTimeZoneUpdate()
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public static DateTime TimeOfLastTimeZoneUpdate()
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function TimeOfLastTimeZoneUpdate As Date
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow(System.Int32)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow(System.Int32)
+  id: ToggleActiveTimeZoneRow(System.Int32)
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: ToggleActiveTimeZoneRow(Int32)
+  nameWithType: TimeZoneManager.ToggleActiveTimeZoneRow(Int32)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public static void ToggleActiveTimeZoneRow(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    content.vb: Public Shared Sub ToggleActiveTimeZoneRow(id As Integer)
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow(System.Int32,System.Boolean)
+  id: SetActiveTimeZoneRow(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: SetActiveTimeZoneRow(Int32, Boolean)
+  nameWithType: TimeZoneManager.SetActiveTimeZoneRow(Int32, Boolean)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public static void SetActiveTimeZoneRow(int id, bool active)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: active
+      type: System.Boolean
+    content.vb: Public Shared Sub SetActiveTimeZoneRow(id As Integer, active As Boolean)
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter(System.String,System.Boolean)
+  id: SetActiveTimeZonesByFilter(System.String,System.Boolean)
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: SetActiveTimeZonesByFilter(String, Boolean)
+  nameWithType: TimeZoneManager.SetActiveTimeZonesByFilter(String, Boolean)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public static void SetActiveTimeZonesByFilter(string filter, bool active)
+    parameters:
+    - id: filter
+      type: System.String
+    - id: active
+      type: System.Boolean
+    content.vb: Public Shared Sub SetActiveTimeZonesByFilter(filter As String, active As Boolean)
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference
+  id: GetDefaultTimeZonePreference
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultTimeZonePreference()
+  nameWithType: TimeZoneManager.GetDefaultTimeZonePreference()
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public static int GetDefaultTimeZonePreference()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetDefaultTimeZonePreference As Integer
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones
+  id: DeleteTimeZones
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: DeleteTimeZones()
+  nameWithType: TimeZoneManager.DeleteTimeZones()
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public static void DeleteTimeZones()
+    content.vb: Public Shared Sub DeleteTimeZones
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData
+  id: InitializeTimeZoneData
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: InitializeTimeZoneData()
+  nameWithType: TimeZoneManager.InitializeTimeZoneData()
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  summary: "\nInitalizes the TimeZoneData\n"
+  syntax:
+    content: public static TimeZoneData[] InitializeTimeZoneData()
+    return:
+      type: SuperOffice.CRM.TimeZoneData[]
+    content.vb: Public Shared Function InitializeTimeZoneData As TimeZoneData()
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.GetBaseTimeZoneId
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.GetBaseTimeZoneId
+  id: GetBaseTimeZoneId
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: GetBaseTimeZoneId()
+  nameWithType: TimeZoneManager.GetBaseTimeZoneId()
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.GetBaseTimeZoneId()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  summary: "\nGet the base timezone id.\n"
+  syntax:
+    content: public static int GetBaseTimeZoneId()
+    return:
+      type: System.Int32
+      description: Returns the base timezone id. Returns 0 if not set.
+    content.vb: Public Shared Function GetBaseTimeZoneId As Integer
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.GetBaseTimeZoneId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId(System.Int32)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId(System.Int32)
+  id: SetBaseTimeZoneId(System.Int32)
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: SetBaseTimeZoneId(Int32)
+  nameWithType: TimeZoneManager.SetBaseTimeZoneId(Int32)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public static bool SetBaseTimeZoneId(int timeZoneId)
+    parameters:
+    - id: timeZoneId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function SetBaseTimeZoneId(timeZoneId As Integer) As Boolean
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.TimeZone
+  commentId: N:SuperOffice.CRM.TimeZone
+  isExternal: true
+  name: SuperOffice.CRM.TimeZone
+  nameWithType: SuperOffice.CRM.TimeZone
+  fullName: SuperOffice.CRM.TimeZone
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable
+  isExternal: true
+  name: CheckNewTimeZoneDataAvailable
+  nameWithType: TimeZoneManager.CheckNewTimeZoneDataAvailable
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.CheckNewTimeZoneDataAvailable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData
+  isExternal: true
+  name: UpdateTimeZoneData
+  nameWithType: TimeZoneManager.UpdateTimeZoneData
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.UpdateTimeZoneData
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate
+  isExternal: true
+  name: TimeOfLastTimeZoneUpdate
+  nameWithType: TimeZoneManager.TimeOfLastTimeZoneUpdate
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.TimeOfLastTimeZoneUpdate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow
+  isExternal: true
+  name: ToggleActiveTimeZoneRow
+  nameWithType: TimeZoneManager.ToggleActiveTimeZoneRow
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.ToggleActiveTimeZoneRow
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow
+  isExternal: true
+  name: SetActiveTimeZoneRow
+  nameWithType: TimeZoneManager.SetActiveTimeZoneRow
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRow
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter
+  isExternal: true
+  name: SetActiveTimeZonesByFilter
+  nameWithType: TimeZoneManager.SetActiveTimeZonesByFilter
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference
+  isExternal: true
+  name: GetDefaultTimeZonePreference
+  nameWithType: TimeZoneManager.GetDefaultTimeZonePreference
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreference
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones
+  isExternal: true
+  name: DeleteTimeZones
+  nameWithType: TimeZoneManager.DeleteTimeZones
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZones
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData
+  isExternal: true
+  name: InitializeTimeZoneData
+  nameWithType: TimeZoneManager.InitializeTimeZoneData
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData
+- uid: SuperOffice.CRM.TimeZoneData[]
+  isExternal: true
+  name: TimeZoneData[]
+  nameWithType: TimeZoneData[]
+  fullName: SuperOffice.CRM.TimeZoneData[]
+  nameWithType.vb: TimeZoneData()
+  fullName.vb: SuperOffice.CRM.TimeZoneData()
+  name.vb: TimeZoneData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.TimeZoneData
+    name: TimeZoneData
+    nameWithType: TimeZoneData
+    fullName: SuperOffice.CRM.TimeZoneData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.TimeZoneData
+    name: TimeZoneData
+    nameWithType: TimeZoneData
+    fullName: SuperOffice.CRM.TimeZoneData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.GetBaseTimeZoneId*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.GetBaseTimeZoneId
+  isExternal: true
+  name: GetBaseTimeZoneId
+  nameWithType: TimeZoneManager.GetBaseTimeZoneId
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.GetBaseTimeZoneId
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId
+  isExternal: true
+  name: SetBaseTimeZoneId
+  nameWithType: TimeZoneManager.SetBaseTimeZoneId
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.SetBaseTimeZoneId

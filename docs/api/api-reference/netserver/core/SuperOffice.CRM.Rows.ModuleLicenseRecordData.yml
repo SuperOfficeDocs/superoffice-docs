@@ -1,0 +1,1458 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  commentId: T:SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  id: ModuleLicenseRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.#ctor
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.AllowedAssocsMask
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.EncryptedCheck
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.ExtraFlags
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.ExtraInfo
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.Hidden
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.LicenseNumber
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.LicenseType
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleDescription
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleLicenseId
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleName
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleOwnerId
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleVersion
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.PrerequisiteModule
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.Registered
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.Signature
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.SortOrder
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.Tooltip
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.Unrestricted
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.Updated
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: ModuleLicenseRecordData
+  nameWithType: ModuleLicenseRecordData
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ModuleLicense table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ModuleLicenseRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ModuleLicenseTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class ModuleLicenseRecordData
+    content.vb: Public Class ModuleLicenseRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ModuleLicenseRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleLicenseId
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleLicenseId
+  id: ModuleLicenseId
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: ModuleLicenseId
+  nameWithType: ModuleLicenseRecordData.ModuleLicenseId
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleLicenseId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int ModuleLicenseId
+    return:
+      type: System.Int32
+    content.vb: Public ModuleLicenseId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleName
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleName
+  id: ModuleName
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: ModuleName
+  nameWithType: ModuleLicenseRecordData.ModuleName
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name of the module, not visible in GUI but used in the code. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please. \n"
+  syntax:
+    content: public string ModuleName
+    return:
+      type: System.String
+    content.vb: Public ModuleName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleDescription
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleDescription
+  id: ModuleDescription
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: ModuleDescription
+  nameWithType: ModuleLicenseRecordData.ModuleDescription
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleDescription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nHuman-readable description of module, shown in GUI, default language. Additional languages can be added to LocaleText, resource type 25 \n"
+  syntax:
+    content: public string ModuleDescription
+    return:
+      type: System.String
+    content.vb: Public ModuleDescription As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleVersion
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleVersion
+  id: ModuleVersion
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: ModuleVersion
+  nameWithType: ModuleLicenseRecordData.ModuleVersion
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleVersion
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nVersion string for this module \n"
+  syntax:
+    content: public string ModuleVersion
+    return:
+      type: System.String
+    content.vb: Public ModuleVersion As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Tooltip
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: ModuleLicenseRecordData.Tooltip
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTooltip text, anything you want; shown when the cursor hovers over the line in the GUI. Default language. Additional languages can be added to LocaleText, resource type 27 \n"
+  syntax:
+    content: public string Tooltip
+    return:
+      type: System.String
+    content.vb: Public Tooltip As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.LicenseType
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.LicenseType
+  id: LicenseType
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: LicenseType
+  nameWithType: ModuleLicenseRecordData.LicenseType
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.LicenseType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEntire system, per database, or per associate \n"
+  syntax:
+    content: public LicenseType LicenseType
+    return:
+      type: SuperOffice.License.LicenseType
+    content.vb: Public LicenseType As LicenseType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.LicenseNumber
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.LicenseNumber
+  id: LicenseNumber
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: LicenseNumber
+  nameWithType: ModuleLicenseRecordData.LicenseNumber
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.LicenseNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of systems, databases or associates licensed \n"
+  syntax:
+    content: public uint LicenseNumber
+    return:
+      type: System.UInt32
+    content.vb: Public LicenseNumber As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.AllowedAssocsMask
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.AllowedAssocsMask
+  id: AllowedAssocsMask
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: AllowedAssocsMask
+  nameWithType: ModuleLicenseRecordData.AllowedAssocsMask
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.AllowedAssocsMask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nBitmask of allowed associate types who can have this kind of license \n"
+  syntax:
+    content: public uint AllowedAssocsMask
+    return:
+      type: System.UInt32
+    content.vb: Public AllowedAssocsMask As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ExtraFlags
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.ExtraFlags
+  id: ExtraFlags
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtraFlags
+  nameWithType: ModuleLicenseRecordData.ExtraFlags
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ExtraFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUnspecified extra flags of license, part of checksum. Value=1 means this a &apos;user plan&apos;; such licenses cause the admin gui to switch to radiobutton view \n"
+  syntax:
+    content: public uint ExtraFlags
+    return:
+      type: System.UInt32
+    content.vb: Public ExtraFlags As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ExtraInfo
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: ModuleLicenseRecordData.ExtraInfo
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ExtraInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFree field, can be used by the module owner (example: host domain, for eJournal). NOTE: For rows with extraFlags=1 this field contains the list of modules that this plan comprises \n"
+  syntax:
+    content: public string ExtraInfo
+    return:
+      type: System.String
+    content.vb: Public ExtraInfo As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.EncryptedCheck
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.EncryptedCheck
+  id: EncryptedCheck
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: EncryptedCheck
+  nameWithType: ModuleLicenseRecordData.EncryptedCheck
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.EncryptedCheck
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEncrypted checksum that stops tampering and copying between databases \n"
+  syntax:
+    content: public string EncryptedCheck
+    return:
+      type: System.String
+    content.vb: Public EncryptedCheck As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ModuleLicenseRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: ModuleLicenseRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ModuleLicenseRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: ModuleLicenseRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: ModuleLicenseRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleOwnerId
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleOwnerId
+  id: ModuleOwnerId
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: ModuleOwnerId
+  nameWithType: ModuleLicenseRecordData.ModuleOwnerId
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleOwnerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to owner of this module \n"
+  syntax:
+    content: public int ModuleOwnerId
+    return:
+      type: System.Int32
+    content.vb: Public ModuleOwnerId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.SortOrder
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.SortOrder
+  id: SortOrder
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: ModuleLicenseRecordData.SortOrder
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.SortOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOrdering value - generated by SuperLicense and transferred here. Must be followed for signatures to be correct \n"
+  syntax:
+    content: public int SortOrder
+    return:
+      type: System.Int32
+    content.vb: Public SortOrder As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Signature
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.Signature
+  id: Signature
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: Signature
+  nameWithType: ModuleLicenseRecordData.Signature
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Signature
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSignature that verifies that this row is correctly transferred from SuperLicense \n"
+  syntax:
+    content: public string Signature
+    return:
+      type: System.String
+    content.vb: Public Signature As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Unrestricted
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.Unrestricted
+  id: Unrestricted
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: Unrestricted
+  nameWithType: ModuleLicenseRecordData.Unrestricted
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Unrestricted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf true, then there is no licenseNumber limit on how many of these modules may be assigned \n"
+  syntax:
+    content: public short Unrestricted
+    return:
+      type: System.Int16
+    content.vb: Public Unrestricted As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Hidden
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.Hidden
+  id: Hidden
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: ModuleLicenseRecordData.Hidden
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.Hidden
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf true, then this module should not appear in GUI and is not assignable by users \n"
+  syntax:
+    content: public short Hidden
+    return:
+      type: System.Int16
+    content.vb: Public Hidden As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.PrerequisiteModule
+  commentId: F:SuperOffice.CRM.Rows.ModuleLicenseRecordData.PrerequisiteModule
+  id: PrerequisiteModule
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: PrerequisiteModule
+  nameWithType: ModuleLicenseRecordData.PrerequisiteModule
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.PrerequisiteModule
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf set, specifies a module license needed before this license can be granted \n"
+  syntax:
+    content: public string PrerequisiteModule
+    return:
+      type: System.String
+    content.vb: Public PrerequisiteModule As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.ModuleLicenseRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+  langs:
+  - csharp
+  - vb
+  name: ModuleLicenseRecordData()
+  nameWithType: ModuleLicenseRecordData.ModuleLicenseRecordData()
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleLicenseRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public ModuleLicenseRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.ModuleLicenseRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ModuleLicenseRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ModuleLicenseRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ModuleLicenseRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ModuleLicenseRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ModuleLicenseRecordData, To)()
+  name.vb: MapEnums(Of ModuleLicenseRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ModuleLicenseRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ModuleLicenseRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ModuleLicenseRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ModuleLicenseRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ModuleLicenseRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ModuleLicenseRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ModuleLicenseRecordData>(ModuleLicenseRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ModuleLicenseRecordData>(ModuleLicenseRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ModuleLicenseRecordData>(SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ModuleLicenseRecordData)(ModuleLicenseRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ModuleLicenseRecordData)(SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+  name.vb: AssignByReflection(Of ModuleLicenseRecordData)(ModuleLicenseRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ModuleLicenseRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ModuleLicenseRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ModuleLicenseRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+    name: ModuleLicenseRecordData
+    nameWithType: ModuleLicenseRecordData
+    fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ModuleLicenseRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ModuleLicenseRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+    name: ModuleLicenseRecordData
+    nameWithType: ModuleLicenseRecordData
+    fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ModuleLicenseRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ModuleLicenseRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ModuleLicenseRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ModuleLicenseRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ModuleLicenseRecordData)()
+  name.vb: GraphCopy(Of ModuleLicenseRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ModuleLicenseRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ModuleLicenseRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ModuleLicenseRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ModuleLicenseRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ModuleLicenseRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+  parent: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+  name: ToInsert()
+  nameWithType: ModuleLicenseRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ModuleLicenseRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ModuleLicenseRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ModuleLicenseRecordData, To>()
+  nameWithType: Converters.MapEnums<ModuleLicenseRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ModuleLicenseRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ModuleLicenseRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ModuleLicenseRecordData, To)()
+  name.vb: MapEnums(Of ModuleLicenseRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ModuleLicenseRecordData, To>
+    nameWithType: Converters.MapEnums<ModuleLicenseRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ModuleLicenseRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ModuleLicenseRecordData, To)
+    nameWithType: Converters.MapEnums(Of ModuleLicenseRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ModuleLicenseRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+  isExternal: true
+  name: ToInsert(ModuleLicenseRecordData)
+  nameWithType: ModuleLicenseRecordDataExtensions.ToInsert(ModuleLicenseRecordData)
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+    name: ToInsert
+    nameWithType: ModuleLicenseRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+    name: ModuleLicenseRecordData
+    nameWithType: ModuleLicenseRecordData
+    fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleLicenseRecordData)
+    name: ToInsert
+    nameWithType: ModuleLicenseRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+    name: ModuleLicenseRecordData
+    nameWithType: ModuleLicenseRecordData
+    fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ModuleLicenseRecordDataExtensions
+  nameWithType: ModuleLicenseRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.License.LicenseType
+  isExternal: true
+  name: LicenseType
+  nameWithType: LicenseType
+  fullName: SuperOffice.License.LicenseType
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.ModuleLicenseRecordData.#ctor
+  isExternal: true
+  name: ModuleLicenseRecordData
+  nameWithType: ModuleLicenseRecordData.ModuleLicenseRecordData
+  fullName: SuperOffice.CRM.Rows.ModuleLicenseRecordData.ModuleLicenseRecordData

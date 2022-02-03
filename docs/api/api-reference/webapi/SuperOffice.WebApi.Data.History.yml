@@ -1,0 +1,424 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.History
+  commentId: T:SuperOffice.WebApi.Data.History
+  id: History
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.History.#ctor
+  - SuperOffice.WebApi.Data.History.AssociateId
+  - SuperOffice.WebApi.Data.History.HistoryId
+  - SuperOffice.WebApi.Data.History.HistoryName
+  - SuperOffice.WebApi.Data.History.Id
+  - SuperOffice.WebApi.Data.History.ItemInfo
+  - SuperOffice.WebApi.Data.History.Name
+  - SuperOffice.WebApi.Data.History.Rank
+  langs:
+  - csharp
+  - vb
+  name: History
+  nameWithType: History
+  fullName: SuperOffice.WebApi.Data.History
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for History.\nThe usage history of the currently logged in user is represented as History objects.    \n"
+  example:
+  - "\nGet History 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ViewStateAgent(configuration);\nvar history = agent.GetHistory( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class History : Carrier'
+    content.vb: >-
+      Public Class History
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ViewStateAgent
+    commentId: T:SuperOffice.WebApi.Agents.ViewStateAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.History.#ctor
+  commentId: M:SuperOffice.WebApi.Data.History.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.History
+  langs:
+  - csharp
+  - vb
+  name: History()
+  nameWithType: History.History()
+  fullName: SuperOffice.WebApi.Data.History.History()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public History()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.History.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.History.Rank
+  commentId: P:SuperOffice.WebApi.Data.History.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.History
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: History.Rank
+  fullName: SuperOffice.WebApi.Data.History.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSort order, indexed so it can used for sorting in the query\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.History.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.History.Id
+  commentId: P:SuperOffice.WebApi.Data.History.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.History
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: History.Id
+  fullName: SuperOffice.WebApi.Data.History.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the history item, for instance a contact id. Represents the history table&apos;s RecordId field, if the item is based on a history table record\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.History.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.History.HistoryName
+  commentId: P:SuperOffice.WebApi.Data.History.HistoryName
+  id: HistoryName
+  parent: SuperOffice.WebApi.Data.History
+  langs:
+  - csharp
+  - vb
+  name: HistoryName
+  nameWithType: History.HistoryName
+  fullName: SuperOffice.WebApi.Data.History.HistoryName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the history list, for instance contact. Represents the history table&apos;s TableId field\n"
+  syntax:
+    content: public virtual string HistoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property HistoryName As String
+  overload: SuperOffice.WebApi.Data.History.HistoryName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.History.HistoryId
+  commentId: P:SuperOffice.WebApi.Data.History.HistoryId
+  id: HistoryId
+  parent: SuperOffice.WebApi.Data.History
+  langs:
+  - csharp
+  - vb
+  name: HistoryId
+  nameWithType: History.HistoryId
+  fullName: SuperOffice.WebApi.Data.History.HistoryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int HistoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HistoryId As Integer
+  overload: SuperOffice.WebApi.Data.History.HistoryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.History.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.History.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.History
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: History.AssociateId
+  fullName: SuperOffice.WebApi.Data.History.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOwner of history list\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.History.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.History.Name
+  commentId: P:SuperOffice.WebApi.Data.History.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.History
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: History.Name
+  fullName: SuperOffice.WebApi.Data.History.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the history item, for instance contact name\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.History.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.History.ItemInfo
+  commentId: P:SuperOffice.WebApi.Data.History.ItemInfo
+  id: ItemInfo
+  parent: SuperOffice.WebApi.Data.History
+  langs:
+  - csharp
+  - vb
+  name: ItemInfo
+  nameWithType: History.ItemInfo
+  fullName: SuperOffice.WebApi.Data.History.ItemInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExtra information on the history item, e.g. The Associate Type for an associate or other relevant info.\n"
+  syntax:
+    content: public virtual string ItemInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ItemInfo As String
+  overload: SuperOffice.WebApi.Data.History.ItemInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ViewStateAgent
+  commentId: T:SuperOffice.WebApi.Agents.ViewStateAgent
+  isExternal: true
+  name: ViewStateAgent
+  nameWithType: ViewStateAgent
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.History.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.History.#ctor
+  isExternal: true
+  name: History
+  nameWithType: History.History
+  fullName: SuperOffice.WebApi.Data.History.History
+- uid: SuperOffice.WebApi.Data.History.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.History.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: History.Rank
+  fullName: SuperOffice.WebApi.Data.History.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.History.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.History.Id
+  isExternal: true
+  name: Id
+  nameWithType: History.Id
+  fullName: SuperOffice.WebApi.Data.History.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.History.HistoryName*
+  commentId: Overload:SuperOffice.WebApi.Data.History.HistoryName
+  isExternal: true
+  name: HistoryName
+  nameWithType: History.HistoryName
+  fullName: SuperOffice.WebApi.Data.History.HistoryName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.History.HistoryId*
+  commentId: Overload:SuperOffice.WebApi.Data.History.HistoryId
+  isExternal: true
+  name: HistoryId
+  nameWithType: History.HistoryId
+  fullName: SuperOffice.WebApi.Data.History.HistoryId
+- uid: SuperOffice.WebApi.Data.History.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.History.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: History.AssociateId
+  fullName: SuperOffice.WebApi.Data.History.AssociateId
+- uid: SuperOffice.WebApi.Data.History.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.History.Name
+  isExternal: true
+  name: Name
+  nameWithType: History.Name
+  fullName: SuperOffice.WebApi.Data.History.Name
+- uid: SuperOffice.WebApi.Data.History.ItemInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.History.ItemInfo
+  isExternal: true
+  name: ItemInfo
+  nameWithType: History.ItemInfo
+  fullName: SuperOffice.WebApi.Data.History.ItemInfo

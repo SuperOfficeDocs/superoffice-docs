@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.ContextMenu
+  commentId: N:SuperOffice.CRM.Web.Data.ContextMenu
+  id: SuperOffice.CRM.Web.Data.ContextMenu
+  children:
+  - SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Web.Data.ContextMenu
+  nameWithType: SuperOffice.CRM.Web.Data.ContextMenu
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu
+  type: Namespace
+  assemblies:
+  - SuperOffice.CRMWeb
+references:
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+  commentId: T:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+  isExternal: true
+  name: MenuManager
+  nameWithType: MenuManager
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager

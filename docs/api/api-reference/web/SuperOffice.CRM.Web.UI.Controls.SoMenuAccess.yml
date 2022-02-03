@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+  id: SoMenuAccess
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.Both
+  - SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.HyperText
+  - SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.Image
+  langs:
+  - csharp
+  - vb
+  name: SoMenuAccess
+  nameWithType: SoMenuAccess
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum SoMenuAccess
+    content.vb: Public Enum SoMenuAccess
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.HyperText
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.HyperText
+  id: HyperText
+  parent: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+  langs:
+  - csharp
+  - vb
+  name: HyperText
+  nameWithType: SoMenuAccess.HyperText
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.HyperText
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: HyperText = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.Image
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.Image
+  id: Image
+  parent: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: SoMenuAccess.Image
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.Image
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Image = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.Both
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.Both
+  id: Both
+  parent: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: SoMenuAccess.Both
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess.Both
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Both = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoMenuAccess
+  nameWithType: SoMenuAccess
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess

@@ -1,0 +1,891 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.LocalizationParameters
+  commentId: T:SuperOffice.DCF.Web.LocalizationParameters
+  id: LocalizationParameters
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.LocalizationParameters.#ctor
+  - SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedDayNames
+  - SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedMonthNames
+  - SuperOffice.DCF.Web.LocalizationParameters.DayNames
+  - SuperOffice.DCF.Web.LocalizationParameters.FirstDayOfWeek
+  - SuperOffice.DCF.Web.LocalizationParameters.InvariantShortDatePattern
+  - SuperOffice.DCF.Web.LocalizationParameters.InvariantShortTimePattern
+  - SuperOffice.DCF.Web.LocalizationParameters.LongDatePattern
+  - SuperOffice.DCF.Web.LocalizationParameters.LongTimePattern
+  - SuperOffice.DCF.Web.LocalizationParameters.MonthNames
+  - SuperOffice.DCF.Web.LocalizationParameters.NumberDecimalSeparator
+  - SuperOffice.DCF.Web.LocalizationParameters.NumberGroupSeparator
+  - SuperOffice.DCF.Web.LocalizationParameters.ShortDatePattern
+  - SuperOffice.DCF.Web.LocalizationParameters.ShortTimePattern
+  langs:
+  - csharp
+  - vb
+  name: LocalizationParameters
+  nameWithType: LocalizationParameters
+  fullName: SuperOffice.DCF.Web.LocalizationParameters
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public class LocalizationParameters
+    content.vb: Public Class LocalizationParameters
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.LocalizationParameters.#ctor
+  commentId: M:SuperOffice.DCF.Web.LocalizationParameters.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: LocalizationParameters()
+  nameWithType: LocalizationParameters.LocalizationParameters()
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.LocalizationParameters()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public LocalizationParameters()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.LocalizationParameters.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.DayNames
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.DayNames
+  id: DayNames
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: DayNames
+  nameWithType: LocalizationParameters.DayNames
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.DayNames
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string[] DayNames { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property DayNames As String()
+  overload: SuperOffice.DCF.Web.LocalizationParameters.DayNames*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedDayNames
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedDayNames
+  id: AbbreviatedDayNames
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: AbbreviatedDayNames
+  nameWithType: LocalizationParameters.AbbreviatedDayNames
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedDayNames
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string[] AbbreviatedDayNames { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property AbbreviatedDayNames As String()
+  overload: SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedDayNames*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.MonthNames
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.MonthNames
+  id: MonthNames
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: MonthNames
+  nameWithType: LocalizationParameters.MonthNames
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.MonthNames
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string[] MonthNames { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property MonthNames As String()
+  overload: SuperOffice.DCF.Web.LocalizationParameters.MonthNames*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedMonthNames
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedMonthNames
+  id: AbbreviatedMonthNames
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: AbbreviatedMonthNames
+  nameWithType: LocalizationParameters.AbbreviatedMonthNames
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedMonthNames
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string[] AbbreviatedMonthNames { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property AbbreviatedMonthNames As String()
+  overload: SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedMonthNames*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.FirstDayOfWeek
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.FirstDayOfWeek
+  id: FirstDayOfWeek
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: FirstDayOfWeek
+  nameWithType: LocalizationParameters.FirstDayOfWeek
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.FirstDayOfWeek
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public int FirstDayOfWeek { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FirstDayOfWeek As Integer
+  overload: SuperOffice.DCF.Web.LocalizationParameters.FirstDayOfWeek*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.ShortDatePattern
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.ShortDatePattern
+  id: ShortDatePattern
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: ShortDatePattern
+  nameWithType: LocalizationParameters.ShortDatePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.ShortDatePattern
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string ShortDatePattern { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShortDatePattern As String
+  overload: SuperOffice.DCF.Web.LocalizationParameters.ShortDatePattern*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.ShortTimePattern
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.ShortTimePattern
+  id: ShortTimePattern
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: ShortTimePattern
+  nameWithType: LocalizationParameters.ShortTimePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.ShortTimePattern
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string ShortTimePattern { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShortTimePattern As String
+  overload: SuperOffice.DCF.Web.LocalizationParameters.ShortTimePattern*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.LongTimePattern
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.LongTimePattern
+  id: LongTimePattern
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: LongTimePattern
+  nameWithType: LocalizationParameters.LongTimePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.LongTimePattern
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string LongTimePattern { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LongTimePattern As String
+  overload: SuperOffice.DCF.Web.LocalizationParameters.LongTimePattern*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.LongDatePattern
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.LongDatePattern
+  id: LongDatePattern
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: LongDatePattern
+  nameWithType: LocalizationParameters.LongDatePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.LongDatePattern
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string LongDatePattern { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LongDatePattern As String
+  overload: SuperOffice.DCF.Web.LocalizationParameters.LongDatePattern*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.InvariantShortDatePattern
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.InvariantShortDatePattern
+  id: InvariantShortDatePattern
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: InvariantShortDatePattern
+  nameWithType: LocalizationParameters.InvariantShortDatePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.InvariantShortDatePattern
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string InvariantShortDatePattern { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InvariantShortDatePattern As String
+  overload: SuperOffice.DCF.Web.LocalizationParameters.InvariantShortDatePattern*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.InvariantShortTimePattern
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.InvariantShortTimePattern
+  id: InvariantShortTimePattern
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: InvariantShortTimePattern
+  nameWithType: LocalizationParameters.InvariantShortTimePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.InvariantShortTimePattern
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string InvariantShortTimePattern { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InvariantShortTimePattern As String
+  overload: SuperOffice.DCF.Web.LocalizationParameters.InvariantShortTimePattern*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.NumberDecimalSeparator
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.NumberDecimalSeparator
+  id: NumberDecimalSeparator
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: NumberDecimalSeparator
+  nameWithType: LocalizationParameters.NumberDecimalSeparator
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.NumberDecimalSeparator
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string NumberDecimalSeparator { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NumberDecimalSeparator As String
+  overload: SuperOffice.DCF.Web.LocalizationParameters.NumberDecimalSeparator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.LocalizationParameters.NumberGroupSeparator
+  commentId: P:SuperOffice.DCF.Web.LocalizationParameters.NumberGroupSeparator
+  id: NumberGroupSeparator
+  parent: SuperOffice.DCF.Web.LocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: NumberGroupSeparator
+  nameWithType: LocalizationParameters.NumberGroupSeparator
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.NumberGroupSeparator
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string NumberGroupSeparator { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NumberGroupSeparator As String
+  overload: SuperOffice.DCF.Web.LocalizationParameters.NumberGroupSeparator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.LocalizationParameters.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.#ctor
+  isExternal: true
+  name: LocalizationParameters
+  nameWithType: LocalizationParameters.LocalizationParameters
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.LocalizationParameters
+- uid: SuperOffice.DCF.Web.LocalizationParameters.DayNames*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.DayNames
+  isExternal: true
+  name: DayNames
+  nameWithType: LocalizationParameters.DayNames
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.DayNames
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedDayNames*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedDayNames
+  isExternal: true
+  name: AbbreviatedDayNames
+  nameWithType: LocalizationParameters.AbbreviatedDayNames
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedDayNames
+- uid: SuperOffice.DCF.Web.LocalizationParameters.MonthNames*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.MonthNames
+  isExternal: true
+  name: MonthNames
+  nameWithType: LocalizationParameters.MonthNames
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.MonthNames
+- uid: SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedMonthNames*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedMonthNames
+  isExternal: true
+  name: AbbreviatedMonthNames
+  nameWithType: LocalizationParameters.AbbreviatedMonthNames
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.AbbreviatedMonthNames
+- uid: SuperOffice.DCF.Web.LocalizationParameters.FirstDayOfWeek*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.FirstDayOfWeek
+  isExternal: true
+  name: FirstDayOfWeek
+  nameWithType: LocalizationParameters.FirstDayOfWeek
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.FirstDayOfWeek
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Web.LocalizationParameters.ShortDatePattern*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.ShortDatePattern
+  isExternal: true
+  name: ShortDatePattern
+  nameWithType: LocalizationParameters.ShortDatePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.ShortDatePattern
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.LocalizationParameters.ShortTimePattern*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.ShortTimePattern
+  isExternal: true
+  name: ShortTimePattern
+  nameWithType: LocalizationParameters.ShortTimePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.ShortTimePattern
+- uid: SuperOffice.DCF.Web.LocalizationParameters.LongTimePattern*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.LongTimePattern
+  isExternal: true
+  name: LongTimePattern
+  nameWithType: LocalizationParameters.LongTimePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.LongTimePattern
+- uid: SuperOffice.DCF.Web.LocalizationParameters.LongDatePattern*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.LongDatePattern
+  isExternal: true
+  name: LongDatePattern
+  nameWithType: LocalizationParameters.LongDatePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.LongDatePattern
+- uid: SuperOffice.DCF.Web.LocalizationParameters.InvariantShortDatePattern*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.InvariantShortDatePattern
+  isExternal: true
+  name: InvariantShortDatePattern
+  nameWithType: LocalizationParameters.InvariantShortDatePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.InvariantShortDatePattern
+- uid: SuperOffice.DCF.Web.LocalizationParameters.InvariantShortTimePattern*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.InvariantShortTimePattern
+  isExternal: true
+  name: InvariantShortTimePattern
+  nameWithType: LocalizationParameters.InvariantShortTimePattern
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.InvariantShortTimePattern
+- uid: SuperOffice.DCF.Web.LocalizationParameters.NumberDecimalSeparator*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.NumberDecimalSeparator
+  isExternal: true
+  name: NumberDecimalSeparator
+  nameWithType: LocalizationParameters.NumberDecimalSeparator
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.NumberDecimalSeparator
+- uid: SuperOffice.DCF.Web.LocalizationParameters.NumberGroupSeparator*
+  commentId: Overload:SuperOffice.DCF.Web.LocalizationParameters.NumberGroupSeparator
+  isExternal: true
+  name: NumberGroupSeparator
+  nameWithType: LocalizationParameters.NumberGroupSeparator
+  fullName: SuperOffice.DCF.Web.LocalizationParameters.NumberGroupSeparator

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest
+  id: EMail_LatestItemIdByFolderRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.FolderId
+  langs:
+  - csharp
+  - vb
+  name: EMail_LatestItemIdByFolderRequest
+  nameWithType: EMail_LatestItemIdByFolderRequest
+  fullName: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_LatestItemIdByFolderRequest : Object'
+    content.vb: >-
+      Public Class EMail_LatestItemIdByFolderRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_LatestItemIdByFolderRequest()
+  nameWithType: EMail_LatestItemIdByFolderRequest.EMail_LatestItemIdByFolderRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.EMail_LatestItemIdByFolderRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_LatestItemIdByFolderRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.FolderId
+  commentId: P:SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.FolderId
+  id: FolderId
+  parent: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: EMail_LatestItemIdByFolderRequest.FolderId
+  fullName: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.FolderId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int FolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FolderId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.FolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.#ctor
+  isExternal: true
+  name: EMail_LatestItemIdByFolderRequest
+  nameWithType: EMail_LatestItemIdByFolderRequest.EMail_LatestItemIdByFolderRequest
+  fullName: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.EMail_LatestItemIdByFolderRequest
+- uid: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.FolderId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.FolderId
+  isExternal: true
+  name: FolderId
+  nameWithType: EMail_LatestItemIdByFolderRequest.FolderId
+  fullName: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest.FolderId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

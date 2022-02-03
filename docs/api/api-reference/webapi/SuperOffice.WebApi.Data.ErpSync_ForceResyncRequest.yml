@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest
+  id: ErpSync_ForceResyncRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.ErpConnectionId
+  - SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.InternalKeyIds
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_ForceResyncRequest
+  nameWithType: ErpSync_ForceResyncRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_ForceResyncRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_ForceResyncRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_ForceResyncRequest()
+  nameWithType: ErpSync_ForceResyncRequest.ErpSync_ForceResyncRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.ErpSync_ForceResyncRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_ForceResyncRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_ForceResyncRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.InternalKeyIds
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.InternalKeyIds
+  id: InternalKeyIds
+  parent: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest
+  langs:
+  - csharp
+  - vb
+  name: InternalKeyIds
+  nameWithType: ErpSync_ForceResyncRequest.InternalKeyIds
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.InternalKeyIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] InternalKeyIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property InternalKeyIds As Integer()
+  overload: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.InternalKeyIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.#ctor
+  isExternal: true
+  name: ErpSync_ForceResyncRequest
+  nameWithType: ErpSync_ForceResyncRequest.ErpSync_ForceResyncRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.ErpSync_ForceResyncRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_ForceResyncRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.InternalKeyIds*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.InternalKeyIds
+  isExternal: true
+  name: InternalKeyIds
+  nameWithType: ErpSync_ForceResyncRequest.InternalKeyIds
+  fullName: SuperOffice.WebApi.Data.ErpSync_ForceResyncRequest.InternalKeyIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

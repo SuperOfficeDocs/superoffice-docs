@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController
+  commentId: T:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController
+  id: TabbedViewController
+  parent: SuperOffice.CRM.Web.UI.Cards_and_Views
+  children:
+  - SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.#ctor
+  - SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClicked(SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest)
+  langs:
+  - csharp
+  - vb
+  name: TabbedViewController
+  nameWithType: TabbedViewController
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Cards_and_Views
+  syntax:
+    content: 'public class TabbedViewController : ApiController, IRequiresSessionState'
+    content.vb: >-
+      Public Class TabbedViewController
+          Inherits ApiController
+          Implements IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.SessionState.IRequiresSessionState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClicked(SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest)
+  commentId: M:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClicked(SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest)
+  id: TabItemClicked(SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest)
+  parent: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController
+  langs:
+  - csharp
+  - vb
+  name: TabItemClicked(TabbedViewController.TabItemClickedRequest)
+  nameWithType: TabbedViewController.TabItemClicked(TabbedViewController.TabItemClickedRequest)
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClicked(SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Cards_and_Views
+  syntax:
+    content: public void TabItemClicked(TabbedViewController.TabItemClickedRequest tabItemClickedRequest)
+    parameters:
+    - id: tabItemClickedRequest
+      type: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+    content.vb: Public Sub TabItemClicked(tabItemClickedRequest As TabbedViewController.TabItemClickedRequest)
+  overload: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClicked*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController
+  langs:
+  - csharp
+  - vb
+  name: TabbedViewController()
+  nameWithType: TabbedViewController.TabbedViewController()
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabbedViewController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Cards_and_Views
+  syntax:
+    content: public TabbedViewController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views
+  commentId: N:SuperOffice.CRM.Web.UI.Cards_and_Views
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Cards_and_Views
+  nameWithType: SuperOffice.CRM.Web.UI.Cards_and_Views
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClicked*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClicked
+  isExternal: true
+  name: TabItemClicked
+  nameWithType: TabbedViewController.TabItemClicked
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClicked
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+  commentId: T:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+  parent: SuperOffice.CRM.Web.UI.Cards_and_Views
+  isExternal: true
+  name: TabbedViewController.TabItemClickedRequest
+  nameWithType: TabbedViewController.TabItemClickedRequest
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.#ctor
+  isExternal: true
+  name: TabbedViewController
+  nameWithType: TabbedViewController.TabbedViewController
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabbedViewController

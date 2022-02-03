@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_SetAsSoldRequest
+  id: Sale_SetAsSoldRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.SaleIds
+  langs:
+  - csharp
+  - vb
+  name: Sale_SetAsSoldRequest
+  nameWithType: Sale_SetAsSoldRequest
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_SetAsSoldRequest : Object'
+    content.vb: >-
+      Public Class Sale_SetAsSoldRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_SetAsSoldRequest()
+  nameWithType: Sale_SetAsSoldRequest.Sale_SetAsSoldRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.Sale_SetAsSoldRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_SetAsSoldRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.SaleIds
+  commentId: P:SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.SaleIds
+  id: SaleIds
+  parent: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleIds
+  nameWithType: Sale_SetAsSoldRequest.SaleIds
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.SaleIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] SaleIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property SaleIds As Integer()
+  overload: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.SaleIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.#ctor
+  isExternal: true
+  name: Sale_SetAsSoldRequest
+  nameWithType: Sale_SetAsSoldRequest.Sale_SetAsSoldRequest
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.Sale_SetAsSoldRequest
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.SaleIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.SaleIds
+  isExternal: true
+  name: SaleIds
+  nameWithType: Sale_SetAsSoldRequest.SaleIds
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest.SaleIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

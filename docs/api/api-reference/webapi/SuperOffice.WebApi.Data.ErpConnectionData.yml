@@ -1,0 +1,790 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpConnectionData
+  commentId: T:SuperOffice.WebApi.Data.ErpConnectionData
+  id: ErpConnectionData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpConnectionData.#ctor
+  - SuperOffice.WebApi.Data.ErpConnectionData.Connected
+  - SuperOffice.WebApi.Data.ErpConnectionData.ConnectionName
+  - SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType
+  - SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String
+  - SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType
+  - SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String
+  - SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes
+  - SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String
+  - SuperOffice.WebApi.Data.ErpConnectionData.ErpConnectionId
+  - SuperOffice.WebApi.Data.ErpConnectionData.ErpFields
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionData
+  nameWithType: ErpConnectionData
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ErpConnectionData.\nContains connection data and field labels for one connection    \n"
+  syntax:
+    content: 'public class ErpConnectionData : Carrier'
+    content.vb: >-
+      Public Class ErpConnectionData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
+    commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpConnectionData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpConnectionData
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionData()
+  nameWithType: ErpConnectionData.ErpConnectionData()
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpConnectionData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ErpConnectionData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpConnectionData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpConnectionData
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpConnectionData.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the connection\n"
+  syntax:
+    content: public virtual int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpConnectionData.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ConnectionName
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ConnectionName
+  id: ConnectionName
+  parent: SuperOffice.WebApi.Data.ErpConnectionData
+  langs:
+  - csharp
+  - vb
+  name: ConnectionName
+  nameWithType: ErpConnectionData.ConnectionName
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ConnectionName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the connection\n"
+  syntax:
+    content: public virtual string ConnectionName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ConnectionName As String
+  overload: SuperOffice.WebApi.Data.ErpConnectionData.ConnectionName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.Connected
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.Connected
+  id: Connected
+  parent: SuperOffice.WebApi.Data.ErpConnectionData
+  langs:
+  - csharp
+  - vb
+  name: Connected
+  nameWithType: ErpConnectionData.Connected
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.Connected
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if this entity instance has syncronized connection\n"
+  syntax:
+    content: public virtual bool Connected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Connected As Boolean
+  overload: SuperOffice.WebApi.Data.ErpConnectionData.Connected*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpFields
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpFields
+  id: ErpFields
+  parent: SuperOffice.WebApi.Data.ErpConnectionData
+  langs:
+  - csharp
+  - vb
+  name: ErpFields
+  nameWithType: ErpConnectionData.ErpFields
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe ERP fields that should be displayed\n"
+  syntax:
+    content: public virtual FieldMetadata[] ErpFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.FieldMetadata[]
+    content.vb: Public Overridable Property ErpFields As FieldMetadata()
+  overload: SuperOffice.WebApi.Data.ErpConnectionData.ErpFields*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String
+  id: CrmActorType_String
+  parent: SuperOffice.WebApi.Data.ErpConnectionData
+  langs:
+  - csharp
+  - vb
+  name: CrmActorType_String
+  nameWithType: ErpConnectionData.CrmActorType_String
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe crm actor type which these fields belongs to\nRaw string enum value.\n"
+  syntax:
+    content: public string CrmActorType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CrmActorType_String As String
+  overload: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType
+    commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType
+  id: CrmActorType
+  parent: SuperOffice.WebApi.Data.ErpConnectionData
+  langs:
+  - csharp
+  - vb
+  name: CrmActorType
+  nameWithType: ErpConnectionData.CrmActorType
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe crm actor type which these fields belongs to\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<CrmActorType> CrmActorType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.CrmActorType}
+    content.vb: Public Property CrmActorType As Nullable(Of CrmActorType)
+  overload: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String
+    commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String
+  id: ErpActorType_String
+  parent: SuperOffice.WebApi.Data.ErpConnectionData
+  langs:
+  - csharp
+  - vb
+  name: ErpActorType_String
+  nameWithType: ErpConnectionData.ErpActorType_String
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe erp actor type which these fields belongs to\nRaw string enum value.\n"
+  syntax:
+    content: public string ErpActorType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErpActorType_String As String
+  overload: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType
+    commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType
+  id: ErpActorType
+  parent: SuperOffice.WebApi.Data.ErpConnectionData
+  langs:
+  - csharp
+  - vb
+  name: ErpActorType
+  nameWithType: ErpConnectionData.ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe erp actor type which these fields belongs to\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ErpActorType> ErpActorType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ErpActorType}
+    content.vb: Public Property ErpActorType As Nullable(Of ErpActorType)
+  overload: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String
+    commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String
+  id: ErpActorTypes_String
+  parent: SuperOffice.WebApi.Data.ErpConnectionData
+  langs:
+  - csharp
+  - vb
+  name: ErpActorTypes_String
+  nameWithType: ErpConnectionData.ErpActorTypes_String
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains all mapped ErpActorType for this CrmActorType\nRaw string enum values.\n"
+  syntax:
+    content: public string[] ErpActorTypes_String { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ErpActorTypes_String As String()
+  overload: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes
+    commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes
+  id: ErpActorTypes
+  parent: SuperOffice.WebApi.Data.ErpConnectionData
+  langs:
+  - csharp
+  - vb
+  name: ErpActorTypes
+  nameWithType: ErpConnectionData.ErpActorTypes
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains all mapped ErpActorType for this CrmActorType\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ErpActorType>[] ErpActorTypes { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ErpActorType}[]
+    content.vb: Public Property ErpActorTypes As Nullable(Of ErpActorType)()
+  overload: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String
+    commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionData.#ctor
+  isExternal: true
+  name: ErpConnectionData
+  nameWithType: ErpConnectionData.ErpConnectionData
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpConnectionData
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionData.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpConnectionData.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ConnectionName*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionData.ConnectionName
+  isExternal: true
+  name: ConnectionName
+  nameWithType: ErpConnectionData.ConnectionName
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ConnectionName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.Connected*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionData.Connected
+  isExternal: true
+  name: Connected
+  nameWithType: ErpConnectionData.Connected
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.Connected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpFields*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionData.ErpFields
+  isExternal: true
+  name: ErpFields
+  nameWithType: ErpConnectionData.ErpFields
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpFields
+- uid: SuperOffice.WebApi.Data.FieldMetadata[]
+  isExternal: true
+  name: FieldMetadata[]
+  nameWithType: FieldMetadata[]
+  fullName: SuperOffice.WebApi.Data.FieldMetadata[]
+  nameWithType.vb: FieldMetadata()
+  fullName.vb: SuperOffice.WebApi.Data.FieldMetadata()
+  name.vb: FieldMetadata()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.FieldMetadata
+    name: FieldMetadata
+    nameWithType: FieldMetadata
+    fullName: SuperOffice.WebApi.Data.FieldMetadata
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.FieldMetadata
+    name: FieldMetadata
+    nameWithType: FieldMetadata
+    fullName: SuperOffice.WebApi.Data.FieldMetadata
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String
+  isExternal: true
+  name: CrmActorType_String
+  nameWithType: ErpConnectionData.CrmActorType_String
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType
+  isExternal: true
+  name: CrmActorType
+  nameWithType: ErpConnectionData.CrmActorType
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.CrmActorType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.CrmActorType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.CrmActorType}'
+  definition: System.Nullable`1
+  name: Nullable<CrmActorType>
+  nameWithType: Nullable<CrmActorType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.CrmActorType>
+  nameWithType.vb: Nullable(Of CrmActorType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.CrmActorType)
+  name.vb: Nullable(Of CrmActorType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.CrmActorType
+    name: CrmActorType
+    nameWithType: CrmActorType
+    fullName: SuperOffice.WebApi.Data.CrmActorType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.CrmActorType
+    name: CrmActorType
+    nameWithType: CrmActorType
+    fullName: SuperOffice.WebApi.Data.CrmActorType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String
+  isExternal: true
+  name: ErpActorType_String
+  nameWithType: ErpConnectionData.ErpActorType_String
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpConnectionData.ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ErpActorType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ErpActorType}'
+  definition: System.Nullable`1
+  name: Nullable<ErpActorType>
+  nameWithType: Nullable<ErpActorType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ErpActorType>
+  nameWithType.vb: Nullable(Of ErpActorType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ErpActorType)
+  name.vb: Nullable(Of ErpActorType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.WebApi.Data.ErpActorType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.WebApi.Data.ErpActorType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String
+  isExternal: true
+  name: ErpActorTypes_String
+  nameWithType: ErpConnectionData.ErpActorTypes_String
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes
+  isExternal: true
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes
+  isExternal: true
+  name: ErpActorTypes
+  nameWithType: ErpConnectionData.ErpActorTypes
+  fullName: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes
+- uid: SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String
+  commentId: P:SuperOffice.WebApi.Data.ErpConnectionData.ErpActorTypes_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ErpActorType}[]
+  isExternal: true
+  name: Nullable<ErpActorType>[]
+  nameWithType: Nullable<ErpActorType>[]
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ErpActorType>[]
+  nameWithType.vb: Nullable(Of ErpActorType)()
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ErpActorType)()
+  name.vb: Nullable(Of ErpActorType)()
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.WebApi.Data.ErpActorType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.WebApi.Data.ErpActorType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,317 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest
+  commentId: T:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest
+  id: BulkUpdate_ExecuteBySelectionIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.#ctor
+  - SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.Context
+  - SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.FieldValueInfos
+  - SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.IsShadow
+  - SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.SelectionId
+  - SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdate_ExecuteBySelectionIdRequest
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BulkUpdate_ExecuteBySelectionIdRequest : Object'
+    content.vb: >-
+      Public Class BulkUpdate_ExecuteBySelectionIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdate_ExecuteBySelectionIdRequest()
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.BulkUpdate_ExecuteBySelectionIdRequest()
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.BulkUpdate_ExecuteBySelectionIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BulkUpdate_ExecuteBySelectionIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.FieldValueInfos
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.FieldValueInfos
+  id: FieldValueInfos
+  parent: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest
+  langs:
+  - csharp
+  - vb
+  name: FieldValueInfos
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.FieldValueInfos
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.FieldValueInfos
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public FieldValueInfo[] FieldValueInfos { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.FieldValueInfo[]
+    content.vb: Public Property FieldValueInfos As FieldValueInfo()
+  overload: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.FieldValueInfos*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.TableName
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.Context
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.IsShadow
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.IsShadow
+  id: IsShadow
+  parent: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest
+  langs:
+  - csharp
+  - vb
+  name: IsShadow
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.IsShadow
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.IsShadow
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IsShadow { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsShadow As Boolean
+  overload: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.IsShadow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.#ctor
+  isExternal: true
+  name: BulkUpdate_ExecuteBySelectionIdRequest
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.BulkUpdate_ExecuteBySelectionIdRequest
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.BulkUpdate_ExecuteBySelectionIdRequest
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.FieldValueInfos*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.FieldValueInfos
+  isExternal: true
+  name: FieldValueInfos
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.FieldValueInfos
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.FieldValueInfos
+- uid: SuperOffice.WebApi.Data.FieldValueInfo[]
+  isExternal: true
+  name: FieldValueInfo[]
+  nameWithType: FieldValueInfo[]
+  fullName: SuperOffice.WebApi.Data.FieldValueInfo[]
+  nameWithType.vb: FieldValueInfo()
+  fullName.vb: SuperOffice.WebApi.Data.FieldValueInfo()
+  name.vb: FieldValueInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.WebApi.Data.FieldValueInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.WebApi.Data.FieldValueInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.TableName
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.Context
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.Context
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.IsShadow*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.IsShadow
+  isExternal: true
+  name: IsShadow
+  nameWithType: BulkUpdate_ExecuteBySelectionIdRequest.IsShadow
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest.IsShadow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

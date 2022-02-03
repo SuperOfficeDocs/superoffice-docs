@@ -1,0 +1,683 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BlobEntity
+  commentId: T:SuperOffice.WebApi.Data.BlobEntity
+  id: BlobEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BlobEntity.#ctor
+  - SuperOffice.WebApi.Data.BlobEntity.BlobId
+  - SuperOffice.WebApi.Data.BlobEntity.BlobSize
+  - SuperOffice.WebApi.Data.BlobEntity.ConceptualType
+  - SuperOffice.WebApi.Data.BlobEntity.CreatedBy
+  - SuperOffice.WebApi.Data.BlobEntity.CreatedDate
+  - SuperOffice.WebApi.Data.BlobEntity.Description
+  - SuperOffice.WebApi.Data.BlobEntity.ExtraInfo
+  - SuperOffice.WebApi.Data.BlobEntity.IsEncrypted
+  - SuperOffice.WebApi.Data.BlobEntity.IsZipped
+  - SuperOffice.WebApi.Data.BlobEntity.MimeType
+  - SuperOffice.WebApi.Data.BlobEntity.OriginalSize
+  - SuperOffice.WebApi.Data.BlobEntity.UpdatedBy
+  - SuperOffice.WebApi.Data.BlobEntity.UpdatedDate
+  langs:
+  - csharp
+  - vb
+  name: BlobEntity
+  nameWithType: BlobEntity
+  fullName: SuperOffice.WebApi.Data.BlobEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for BlobEntity.\n\n"
+  example:
+  - "\nGet BlobEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new BLOBAgent(configuration);\nvar blobEntity = agent.GetBlobEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class BlobEntity : Carrier'
+    content.vb: >-
+      Public Class BlobEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.BLOBAgent
+    commentId: T:SuperOffice.WebApi.Agents.BLOBAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BlobEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BlobEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: BlobEntity()
+  nameWithType: BlobEntity.BlobEntity()
+  fullName: SuperOffice.WebApi.Data.BlobEntity.BlobEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public BlobEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BlobEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BlobEntity.BlobId
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.BlobId
+  id: BlobId
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: BlobId
+  nameWithType: BlobEntity.BlobId
+  fullName: SuperOffice.WebApi.Data.BlobEntity.BlobId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int BlobId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BlobId As Integer
+  overload: SuperOffice.WebApi.Data.BlobEntity.BlobId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.BlobSize
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.BlobSize
+  id: BlobSize
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: BlobSize
+  nameWithType: BlobEntity.BlobSize
+  fullName: SuperOffice.WebApi.Data.BlobEntity.BlobSize
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe length, in bytes, of the binary data AS STORED after any encryption and/or zipping. Important to get right, since some databases will not tell us just based on the blob itself!\n"
+  syntax:
+    content: public virtual uint BlobSize { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property BlobSize As UInteger
+  overload: SuperOffice.WebApi.Data.BlobEntity.BlobSize*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.Description
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: BlobEntity.Description
+  fullName: SuperOffice.WebApi.Data.BlobEntity.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA description that is entered by the user, and visible to the user\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.BlobEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: BlobEntity.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.BlobEntity.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExtra information, spare field, can be used for anything that makes sense. Should not refer to any particular context, that is something for the BinaryObjectLInk\n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.WebApi.Data.BlobEntity.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.IsEncrypted
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.IsEncrypted
+  id: IsEncrypted
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: IsEncrypted
+  nameWithType: BlobEntity.IsEncrypted
+  fullName: SuperOffice.WebApi.Data.BlobEntity.IsEncrypted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHas the data been encrypted.\n"
+  syntax:
+    content: public virtual bool IsEncrypted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsEncrypted As Boolean
+  overload: SuperOffice.WebApi.Data.BlobEntity.IsEncrypted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.IsZipped
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.IsZipped
+  id: IsZipped
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: IsZipped
+  nameWithType: BlobEntity.IsZipped
+  fullName: SuperOffice.WebApi.Data.BlobEntity.IsZipped
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHas the data been zipped.\n"
+  syntax:
+    content: public virtual bool IsZipped { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsZipped As Boolean
+  overload: SuperOffice.WebApi.Data.BlobEntity.IsZipped*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.MimeType
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.MimeType
+  id: MimeType
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: BlobEntity.MimeType
+  fullName: SuperOffice.WebApi.Data.BlobEntity.MimeType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMime type, describing the technical type (image/jpeg) of the data\n"
+  syntax:
+    content: public virtual string MimeType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MimeType As String
+  overload: SuperOffice.WebApi.Data.BlobEntity.MimeType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.OriginalSize
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.OriginalSize
+  id: OriginalSize
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: OriginalSize
+  nameWithType: BlobEntity.OriginalSize
+  fullName: SuperOffice.WebApi.Data.BlobEntity.OriginalSize
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOriginal size of the binary data, before encryption and/or zipping. This is what the ultimate client will get\n"
+  syntax:
+    content: public virtual uint OriginalSize { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property OriginalSize As UInteger
+  overload: SuperOffice.WebApi.Data.BlobEntity.OriginalSize*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.CreatedDate
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: BlobEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.BlobEntity.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.BlobEntity.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.UpdatedDate
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: BlobEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.BlobEntity.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.BlobEntity.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: BlobEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.BlobEntity.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person that first created the document. The property is read-only.\n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.WebApi.Data.BlobEntity.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: BlobEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.BlobEntity.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person that last updated the appointment.\n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.WebApi.Data.BlobEntity.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.BlobEntity.ConceptualType
+  commentId: P:SuperOffice.WebApi.Data.BlobEntity.ConceptualType
+  id: ConceptualType
+  parent: SuperOffice.WebApi.Data.BlobEntity
+  langs:
+  - csharp
+  - vb
+  name: ConceptualType
+  nameWithType: BlobEntity.ConceptualType
+  fullName: SuperOffice.WebApi.Data.BlobEntity.ConceptualType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is\n"
+  syntax:
+    content: public virtual string ConceptualType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ConceptualType As String
+  overload: SuperOffice.WebApi.Data.BlobEntity.ConceptualType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.BLOBAgent
+  commentId: T:SuperOffice.WebApi.Agents.BLOBAgent
+  isExternal: true
+  name: BLOBAgent
+  nameWithType: BLOBAgent
+  fullName: SuperOffice.WebApi.Agents.BLOBAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BlobEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.#ctor
+  isExternal: true
+  name: BlobEntity
+  nameWithType: BlobEntity.BlobEntity
+  fullName: SuperOffice.WebApi.Data.BlobEntity.BlobEntity
+- uid: SuperOffice.WebApi.Data.BlobEntity.BlobId*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.BlobId
+  isExternal: true
+  name: BlobId
+  nameWithType: BlobEntity.BlobId
+  fullName: SuperOffice.WebApi.Data.BlobEntity.BlobId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.BlobEntity.BlobSize*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.BlobSize
+  isExternal: true
+  name: BlobSize
+  nameWithType: BlobEntity.BlobSize
+  fullName: SuperOffice.WebApi.Data.BlobEntity.BlobSize
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: SuperOffice.WebApi.Data.BlobEntity.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.Description
+  isExternal: true
+  name: Description
+  nameWithType: BlobEntity.Description
+  fullName: SuperOffice.WebApi.Data.BlobEntity.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.BlobEntity.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: BlobEntity.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.BlobEntity.ExtraInfo
+- uid: SuperOffice.WebApi.Data.BlobEntity.IsEncrypted*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.IsEncrypted
+  isExternal: true
+  name: IsEncrypted
+  nameWithType: BlobEntity.IsEncrypted
+  fullName: SuperOffice.WebApi.Data.BlobEntity.IsEncrypted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.BlobEntity.IsZipped*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.IsZipped
+  isExternal: true
+  name: IsZipped
+  nameWithType: BlobEntity.IsZipped
+  fullName: SuperOffice.WebApi.Data.BlobEntity.IsZipped
+- uid: SuperOffice.WebApi.Data.BlobEntity.MimeType*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.MimeType
+  isExternal: true
+  name: MimeType
+  nameWithType: BlobEntity.MimeType
+  fullName: SuperOffice.WebApi.Data.BlobEntity.MimeType
+- uid: SuperOffice.WebApi.Data.BlobEntity.OriginalSize*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.OriginalSize
+  isExternal: true
+  name: OriginalSize
+  nameWithType: BlobEntity.OriginalSize
+  fullName: SuperOffice.WebApi.Data.BlobEntity.OriginalSize
+- uid: SuperOffice.WebApi.Data.BlobEntity.CreatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: BlobEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.BlobEntity.CreatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.BlobEntity.UpdatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: BlobEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.BlobEntity.UpdatedDate
+- uid: SuperOffice.WebApi.Data.BlobEntity.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: BlobEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.BlobEntity.CreatedBy
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.BlobEntity.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: BlobEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.BlobEntity.UpdatedBy
+- uid: SuperOffice.WebApi.Data.BlobEntity.ConceptualType*
+  commentId: Overload:SuperOffice.WebApi.Data.BlobEntity.ConceptualType
+  isExternal: true
+  name: ConceptualType
+  nameWithType: BlobEntity.ConceptualType
+  fullName: SuperOffice.WebApi.Data.BlobEntity.ConceptualType

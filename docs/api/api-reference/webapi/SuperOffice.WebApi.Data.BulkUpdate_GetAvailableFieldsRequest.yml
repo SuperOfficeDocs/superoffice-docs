@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest
+  commentId: T:SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest
+  id: BulkUpdate_GetAvailableFieldsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.#ctor
+  - SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.Tablename
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdate_GetAvailableFieldsRequest
+  nameWithType: BulkUpdate_GetAvailableFieldsRequest
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BulkUpdate_GetAvailableFieldsRequest : Object'
+    content.vb: >-
+      Public Class BulkUpdate_GetAvailableFieldsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdate_GetAvailableFieldsRequest()
+  nameWithType: BulkUpdate_GetAvailableFieldsRequest.BulkUpdate_GetAvailableFieldsRequest()
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.BulkUpdate_GetAvailableFieldsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BulkUpdate_GetAvailableFieldsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.Tablename
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.Tablename
+  id: Tablename
+  parent: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: Tablename
+  nameWithType: BulkUpdate_GetAvailableFieldsRequest.Tablename
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.Tablename
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Tablename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tablename As String
+  overload: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.Tablename*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.#ctor
+  isExternal: true
+  name: BulkUpdate_GetAvailableFieldsRequest
+  nameWithType: BulkUpdate_GetAvailableFieldsRequest.BulkUpdate_GetAvailableFieldsRequest
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.BulkUpdate_GetAvailableFieldsRequest
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.Tablename*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.Tablename
+  isExternal: true
+  name: Tablename
+  nameWithType: BulkUpdate_GetAvailableFieldsRequest.Tablename
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetAvailableFieldsRequest.Tablename
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

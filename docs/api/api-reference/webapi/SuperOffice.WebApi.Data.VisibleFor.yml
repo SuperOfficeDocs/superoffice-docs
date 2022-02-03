@@ -1,0 +1,384 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.VisibleFor
+  commentId: T:SuperOffice.WebApi.Data.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.VisibleFor.#ctor
+  - SuperOffice.WebApi.Data.VisibleFor.DisplayValue
+  - SuperOffice.WebApi.Data.VisibleFor.Visibility
+  - SuperOffice.WebApi.Data.VisibleFor.Visibility_String
+  - SuperOffice.WebApi.Data.VisibleFor.VisibleId
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: VisibleFor
+  fullName: SuperOffice.WebApi.Data.VisibleFor
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for VisibleFor.\n\n"
+  syntax:
+    content: 'public class VisibleFor : Carrier'
+    content.vb: >-
+      Public Class VisibleFor
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.SentryAgent
+    commentId: T:SuperOffice.WebApi.Agents.SentryAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.VisibleFor.#ctor
+  commentId: M:SuperOffice.WebApi.Data.VisibleFor.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor()
+  nameWithType: VisibleFor.VisibleFor()
+  fullName: SuperOffice.WebApi.Data.VisibleFor.VisibleFor()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public VisibleFor()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.VisibleFor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.VisibleFor.VisibleId
+  commentId: P:SuperOffice.WebApi.Data.VisibleFor.VisibleId
+  id: VisibleId
+  parent: SuperOffice.WebApi.Data.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: VisibleId
+  nameWithType: VisibleFor.VisibleId
+  fullName: SuperOffice.WebApi.Data.VisibleFor.VisibleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int VisibleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property VisibleId As Integer
+  overload: SuperOffice.WebApi.Data.VisibleFor.VisibleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.VisibleFor.Visibility_String
+  commentId: P:SuperOffice.WebApi.Data.VisibleFor.Visibility_String
+  id: Visibility_String
+  parent: SuperOffice.WebApi.Data.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: Visibility_String
+  nameWithType: VisibleFor.Visibility_String
+  fullName: SuperOffice.WebApi.Data.VisibleFor.Visibility_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\nRaw string enum value.\n"
+  syntax:
+    content: public string Visibility_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Visibility_String As String
+  overload: SuperOffice.WebApi.Data.VisibleFor.Visibility_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.VisibleFor.Visibility
+    commentId: P:SuperOffice.WebApi.Data.VisibleFor.Visibility
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.VisibleFor.Visibility
+  commentId: P:SuperOffice.WebApi.Data.VisibleFor.Visibility
+  id: Visibility
+  parent: SuperOffice.WebApi.Data.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: Visibility
+  nameWithType: VisibleFor.Visibility
+  fullName: SuperOffice.WebApi.Data.VisibleFor.Visibility
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<Visibility> Visibility { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.Visibility}
+    content.vb: Public Property Visibility As Nullable(Of Visibility)
+  overload: SuperOffice.WebApi.Data.VisibleFor.Visibility*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.VisibleFor.Visibility_String
+    commentId: P:SuperOffice.WebApi.Data.VisibleFor.Visibility_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.VisibleFor.DisplayValue
+  commentId: P:SuperOffice.WebApi.Data.VisibleFor.DisplayValue
+  id: DisplayValue
+  parent: SuperOffice.WebApi.Data.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: DisplayValue
+  nameWithType: VisibleFor.DisplayValue
+  fullName: SuperOffice.WebApi.Data.VisibleFor.DisplayValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string DisplayValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayValue As String
+  overload: SuperOffice.WebApi.Data.VisibleFor.DisplayValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.SentryAgent
+  commentId: T:SuperOffice.WebApi.Agents.SentryAgent
+  isExternal: true
+  name: SentryAgent
+  nameWithType: SentryAgent
+  fullName: SuperOffice.WebApi.Agents.SentryAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.VisibleFor.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.VisibleFor.#ctor
+  isExternal: true
+  name: VisibleFor
+  nameWithType: VisibleFor.VisibleFor
+  fullName: SuperOffice.WebApi.Data.VisibleFor.VisibleFor
+- uid: SuperOffice.WebApi.Data.VisibleFor.VisibleId*
+  commentId: Overload:SuperOffice.WebApi.Data.VisibleFor.VisibleId
+  isExternal: true
+  name: VisibleId
+  nameWithType: VisibleFor.VisibleId
+  fullName: SuperOffice.WebApi.Data.VisibleFor.VisibleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.VisibleFor.Visibility_String*
+  commentId: Overload:SuperOffice.WebApi.Data.VisibleFor.Visibility_String
+  isExternal: true
+  name: Visibility_String
+  nameWithType: VisibleFor.Visibility_String
+  fullName: SuperOffice.WebApi.Data.VisibleFor.Visibility_String
+- uid: SuperOffice.WebApi.Data.VisibleFor.Visibility
+  commentId: P:SuperOffice.WebApi.Data.VisibleFor.Visibility
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.VisibleFor.Visibility*
+  commentId: Overload:SuperOffice.WebApi.Data.VisibleFor.Visibility
+  isExternal: true
+  name: Visibility
+  nameWithType: VisibleFor.Visibility
+  fullName: SuperOffice.WebApi.Data.VisibleFor.Visibility
+- uid: SuperOffice.WebApi.Data.VisibleFor.Visibility_String
+  commentId: P:SuperOffice.WebApi.Data.VisibleFor.Visibility_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.Visibility}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.Visibility}'
+  definition: System.Nullable`1
+  name: Nullable<Visibility>
+  nameWithType: Nullable<Visibility>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.Visibility>
+  nameWithType.vb: Nullable(Of Visibility)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.Visibility)
+  name.vb: Nullable(Of Visibility)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Visibility
+    name: Visibility
+    nameWithType: Visibility
+    fullName: SuperOffice.WebApi.Data.Visibility
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Visibility
+    name: Visibility
+    nameWithType: Visibility
+    fullName: SuperOffice.WebApi.Data.Visibility
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.VisibleFor.DisplayValue*
+  commentId: Overload:SuperOffice.WebApi.Data.VisibleFor.DisplayValue
+  isExternal: true
+  name: DisplayValue
+  nameWithType: VisibleFor.DisplayValue
+  fullName: SuperOffice.WebApi.Data.VisibleFor.DisplayValue

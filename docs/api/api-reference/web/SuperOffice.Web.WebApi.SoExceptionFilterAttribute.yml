@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.WebApi.SoExceptionFilterAttribute
+  commentId: T:SuperOffice.Web.WebApi.SoExceptionFilterAttribute
+  id: SoExceptionFilterAttribute
+  parent: SuperOffice.Web.WebApi
+  children:
+  - SuperOffice.Web.WebApi.SoExceptionFilterAttribute.#ctor
+  - SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertExceptionToHttpResponse(System.Exception)
+  - SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertNestedExceptionToHttpResponse(System.Exception)
+  - SuperOffice.Web.WebApi.SoExceptionFilterAttribute.OnException(System.Web.Http.Filters.HttpActionExecutedContext)
+  langs:
+  - csharp
+  - vb
+  name: SoExceptionFilterAttribute
+  nameWithType: SoExceptionFilterAttribute
+  fullName: SuperOffice.Web.WebApi.SoExceptionFilterAttribute
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.WebApi
+  syntax:
+    content: 'public class SoExceptionFilterAttribute : ExceptionFilterAttribute'
+    content.vb: >-
+      Public Class SoExceptionFilterAttribute
+          Inherits ExceptionFilterAttribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertNestedExceptionToHttpResponse(System.Exception)
+  commentId: M:SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertNestedExceptionToHttpResponse(System.Exception)
+  id: ConvertNestedExceptionToHttpResponse(System.Exception)
+  parent: SuperOffice.Web.WebApi.SoExceptionFilterAttribute
+  langs:
+  - csharp
+  - vb
+  name: ConvertNestedExceptionToHttpResponse(Exception)
+  nameWithType: SoExceptionFilterAttribute.ConvertNestedExceptionToHttpResponse(Exception)
+  fullName: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertNestedExceptionToHttpResponse(System.Exception)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.WebApi
+  syntax:
+    content: public static HttpResponseMessage ConvertNestedExceptionToHttpResponse(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+    return:
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Public Shared Function ConvertNestedExceptionToHttpResponse(ex As Exception) As HttpResponseMessage
+  overload: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertNestedExceptionToHttpResponse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertExceptionToHttpResponse(System.Exception)
+  commentId: M:SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertExceptionToHttpResponse(System.Exception)
+  id: ConvertExceptionToHttpResponse(System.Exception)
+  parent: SuperOffice.Web.WebApi.SoExceptionFilterAttribute
+  langs:
+  - csharp
+  - vb
+  name: ConvertExceptionToHttpResponse(Exception)
+  nameWithType: SoExceptionFilterAttribute.ConvertExceptionToHttpResponse(Exception)
+  fullName: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertExceptionToHttpResponse(System.Exception)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.WebApi
+  syntax:
+    content: public static HttpResponseMessage ConvertExceptionToHttpResponse(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+    return:
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Public Shared Function ConvertExceptionToHttpResponse(ex As Exception) As HttpResponseMessage
+  overload: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertExceptionToHttpResponse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.OnException(System.Web.Http.Filters.HttpActionExecutedContext)
+  commentId: M:SuperOffice.Web.WebApi.SoExceptionFilterAttribute.OnException(System.Web.Http.Filters.HttpActionExecutedContext)
+  id: OnException(System.Web.Http.Filters.HttpActionExecutedContext)
+  parent: SuperOffice.Web.WebApi.SoExceptionFilterAttribute
+  langs:
+  - csharp
+  - vb
+  name: OnException(HttpActionExecutedContext)
+  nameWithType: SoExceptionFilterAttribute.OnException(HttpActionExecutedContext)
+  fullName: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.OnException(System.Web.Http.Filters.HttpActionExecutedContext)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.WebApi
+  syntax:
+    content: public override void OnException(HttpActionExecutedContext context)
+    parameters:
+    - id: context
+      type: System.Web.Http.Filters.HttpActionExecutedContext
+    content.vb: Public Overrides Sub OnException(context As HttpActionExecutedContext)
+  overload: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.OnException*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.#ctor
+  commentId: M:SuperOffice.Web.WebApi.SoExceptionFilterAttribute.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.WebApi.SoExceptionFilterAttribute
+  langs:
+  - csharp
+  - vb
+  name: SoExceptionFilterAttribute()
+  nameWithType: SoExceptionFilterAttribute.SoExceptionFilterAttribute()
+  fullName: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.SoExceptionFilterAttribute()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.WebApi
+  syntax:
+    content: public SoExceptionFilterAttribute()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.WebApi
+  commentId: N:SuperOffice.Web.WebApi
+  isExternal: true
+  name: SuperOffice.Web.WebApi
+  nameWithType: SuperOffice.Web.WebApi
+  fullName: SuperOffice.Web.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertNestedExceptionToHttpResponse*
+  commentId: Overload:SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertNestedExceptionToHttpResponse
+  isExternal: true
+  name: ConvertNestedExceptionToHttpResponse
+  nameWithType: SoExceptionFilterAttribute.ConvertNestedExceptionToHttpResponse
+  fullName: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertNestedExceptionToHttpResponse
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Net.Http.HttpResponseMessage
+  isExternal: true
+  name: HttpResponseMessage
+  nameWithType: HttpResponseMessage
+  fullName: System.Net.Http.HttpResponseMessage
+- uid: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertExceptionToHttpResponse*
+  commentId: Overload:SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertExceptionToHttpResponse
+  isExternal: true
+  name: ConvertExceptionToHttpResponse
+  nameWithType: SoExceptionFilterAttribute.ConvertExceptionToHttpResponse
+  fullName: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.ConvertExceptionToHttpResponse
+- uid: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.OnException*
+  commentId: Overload:SuperOffice.Web.WebApi.SoExceptionFilterAttribute.OnException
+  isExternal: true
+  name: OnException
+  nameWithType: SoExceptionFilterAttribute.OnException
+  fullName: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.OnException
+- uid: System.Web.Http.Filters.HttpActionExecutedContext
+  isExternal: true
+  name: HttpActionExecutedContext
+  nameWithType: HttpActionExecutedContext
+  fullName: System.Web.Http.Filters.HttpActionExecutedContext
+- uid: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.#ctor*
+  commentId: Overload:SuperOffice.Web.WebApi.SoExceptionFilterAttribute.#ctor
+  isExternal: true
+  name: SoExceptionFilterAttribute
+  nameWithType: SoExceptionFilterAttribute.SoExceptionFilterAttribute
+  fullName: SuperOffice.Web.WebApi.SoExceptionFilterAttribute.SoExceptionFilterAttribute

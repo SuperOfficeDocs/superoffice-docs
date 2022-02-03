@@ -1,0 +1,342 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PluginResponse
+  commentId: T:SuperOffice.WebApi.Data.PluginResponse
+  id: PluginResponse
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PluginResponse.#ctor
+  - SuperOffice.WebApi.Data.PluginResponse.Changes
+  - SuperOffice.WebApi.Data.PluginResponse.ErrorCode
+  - SuperOffice.WebApi.Data.PluginResponse.IsOk
+  - SuperOffice.WebApi.Data.PluginResponse.TechExplanation
+  - SuperOffice.WebApi.Data.PluginResponse.UserExplanation
+  langs:
+  - csharp
+  - vb
+  name: PluginResponse
+  nameWithType: PluginResponse
+  fullName: SuperOffice.WebApi.Data.PluginResponse
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PluginResponse.\nPluginResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button.    \n"
+  syntax:
+    content: 'public class PluginResponse : Carrier'
+    content.vb: >-
+      Public Class PluginResponse
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PluginResponse.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PluginResponse.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PluginResponse
+  langs:
+  - csharp
+  - vb
+  name: PluginResponse()
+  nameWithType: PluginResponse.PluginResponse()
+  fullName: SuperOffice.WebApi.Data.PluginResponse.PluginResponse()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PluginResponse()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PluginResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PluginResponse.IsOk
+  commentId: P:SuperOffice.WebApi.Data.PluginResponse.IsOk
+  id: IsOk
+  parent: SuperOffice.WebApi.Data.PluginResponse
+  langs:
+  - csharp
+  - vb
+  name: IsOk
+  nameWithType: PluginResponse.IsOk
+  fullName: SuperOffice.WebApi.Data.PluginResponse.IsOk
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAnswer to the question / An indication if the operation went well.\n"
+  syntax:
+    content: public virtual bool IsOk { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsOk As Boolean
+  overload: SuperOffice.WebApi.Data.PluginResponse.IsOk*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PluginResponse.UserExplanation
+  commentId: P:SuperOffice.WebApi.Data.PluginResponse.UserExplanation
+  id: UserExplanation
+  parent: SuperOffice.WebApi.Data.PluginResponse
+  langs:
+  - csharp
+  - vb
+  name: UserExplanation
+  nameWithType: PluginResponse.UserExplanation
+  fullName: SuperOffice.WebApi.Data.PluginResponse.UserExplanation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA localized explanation to the answer.\n"
+  syntax:
+    content: public virtual string UserExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UserExplanation As String
+  overload: SuperOffice.WebApi.Data.PluginResponse.UserExplanation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PluginResponse.TechExplanation
+  commentId: P:SuperOffice.WebApi.Data.PluginResponse.TechExplanation
+  id: TechExplanation
+  parent: SuperOffice.WebApi.Data.PluginResponse
+  langs:
+  - csharp
+  - vb
+  name: TechExplanation
+  nameWithType: PluginResponse.TechExplanation
+  fullName: SuperOffice.WebApi.Data.PluginResponse.TechExplanation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAlways in English\n"
+  syntax:
+    content: public virtual string TechExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TechExplanation As String
+  overload: SuperOffice.WebApi.Data.PluginResponse.TechExplanation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PluginResponse.ErrorCode
+  commentId: P:SuperOffice.WebApi.Data.PluginResponse.ErrorCode
+  id: ErrorCode
+  parent: SuperOffice.WebApi.Data.PluginResponse
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: PluginResponse.ErrorCode
+  fullName: SuperOffice.WebApi.Data.PluginResponse.ErrorCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn error code, if available.\n"
+  syntax:
+    content: public virtual string ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorCode As String
+  overload: SuperOffice.WebApi.Data.PluginResponse.ErrorCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PluginResponse.Changes
+  commentId: P:SuperOffice.WebApi.Data.PluginResponse.Changes
+  id: Changes
+  parent: SuperOffice.WebApi.Data.PluginResponse
+  langs:
+  - csharp
+  - vb
+  name: Changes
+  nameWithType: PluginResponse.Changes
+  fullName: SuperOffice.WebApi.Data.PluginResponse.Changes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTablename/recordid of data changed by this method, that the client may need to reload\n"
+  syntax:
+    content: public virtual ChangedData Changes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ChangedData
+    content.vb: Public Overridable Property Changes As ChangedData
+  overload: SuperOffice.WebApi.Data.PluginResponse.Changes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PluginResponse.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginResponse.#ctor
+  isExternal: true
+  name: PluginResponse
+  nameWithType: PluginResponse.PluginResponse
+  fullName: SuperOffice.WebApi.Data.PluginResponse.PluginResponse
+- uid: SuperOffice.WebApi.Data.PluginResponse.IsOk*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginResponse.IsOk
+  isExternal: true
+  name: IsOk
+  nameWithType: PluginResponse.IsOk
+  fullName: SuperOffice.WebApi.Data.PluginResponse.IsOk
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.PluginResponse.UserExplanation*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginResponse.UserExplanation
+  isExternal: true
+  name: UserExplanation
+  nameWithType: PluginResponse.UserExplanation
+  fullName: SuperOffice.WebApi.Data.PluginResponse.UserExplanation
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PluginResponse.TechExplanation*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginResponse.TechExplanation
+  isExternal: true
+  name: TechExplanation
+  nameWithType: PluginResponse.TechExplanation
+  fullName: SuperOffice.WebApi.Data.PluginResponse.TechExplanation
+- uid: SuperOffice.WebApi.Data.PluginResponse.ErrorCode*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginResponse.ErrorCode
+  isExternal: true
+  name: ErrorCode
+  nameWithType: PluginResponse.ErrorCode
+  fullName: SuperOffice.WebApi.Data.PluginResponse.ErrorCode
+- uid: SuperOffice.WebApi.Data.PluginResponse.Changes*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginResponse.Changes
+  isExternal: true
+  name: Changes
+  nameWithType: PluginResponse.Changes
+  fullName: SuperOffice.WebApi.Data.PluginResponse.Changes
+- uid: SuperOffice.WebApi.Data.ChangedData
+  commentId: T:SuperOffice.WebApi.Data.ChangedData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ChangedData
+  nameWithType: ChangedData
+  fullName: SuperOffice.WebApi.Data.ChangedData

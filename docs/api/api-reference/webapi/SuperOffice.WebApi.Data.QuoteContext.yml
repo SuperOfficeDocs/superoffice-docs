@@ -1,0 +1,403 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteContext
+  commentId: T:SuperOffice.WebApi.Data.QuoteContext
+  id: QuoteContext
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteContext.#ctor
+  - SuperOffice.WebApi.Data.QuoteContext.CRMAssociate
+  - SuperOffice.WebApi.Data.QuoteContext.CRMQuoteAlternative
+  - SuperOffice.WebApi.Data.QuoteContext.CRMQuoteLine
+  - SuperOffice.WebApi.Data.QuoteContext.CRMQuoteVersion
+  - SuperOffice.WebApi.Data.QuoteContext.CRMSale
+  - SuperOffice.WebApi.Data.QuoteContext.UserLanguageCode
+  langs:
+  - csharp
+  - vb
+  name: QuoteContext
+  nameWithType: QuoteContext
+  fullName: SuperOffice.WebApi.Data.QuoteContext
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuoteContext.\nThe context a quote is created in.    \n"
+  syntax:
+    content: 'public class QuoteContext : Carrier'
+    content.vb: >-
+      Public Class QuoteContext
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteContext.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuoteContext.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuoteContext
+  langs:
+  - csharp
+  - vb
+  name: QuoteContext()
+  nameWithType: QuoteContext.QuoteContext()
+  fullName: SuperOffice.WebApi.Data.QuoteContext.QuoteContext()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuoteContext()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuoteContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteContext.CRMAssociate
+  commentId: P:SuperOffice.WebApi.Data.QuoteContext.CRMAssociate
+  id: CRMAssociate
+  parent: SuperOffice.WebApi.Data.QuoteContext
+  langs:
+  - csharp
+  - vb
+  name: CRMAssociate
+  nameWithType: QuoteContext.CRMAssociate
+  fullName: SuperOffice.WebApi.Data.QuoteContext.CRMAssociate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate (salesman) that is logged into the CRM system.\n"
+  syntax:
+    content: public virtual Associate CRMAssociate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property CRMAssociate As Associate
+  overload: SuperOffice.WebApi.Data.QuoteContext.CRMAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteContext.CRMSale
+  commentId: P:SuperOffice.WebApi.Data.QuoteContext.CRMSale
+  id: CRMSale
+  parent: SuperOffice.WebApi.Data.QuoteContext
+  langs:
+  - csharp
+  - vb
+  name: CRMSale
+  nameWithType: QuoteContext.CRMSale
+  fullName: SuperOffice.WebApi.Data.QuoteContext.CRMSale
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe sale the quote is registered in the CRM system.\n"
+  syntax:
+    content: public virtual Sale CRMSale { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Sale
+    content.vb: Public Overridable Property CRMSale As Sale
+  overload: SuperOffice.WebApi.Data.QuoteContext.CRMSale*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteVersion
+  commentId: P:SuperOffice.WebApi.Data.QuoteContext.CRMQuoteVersion
+  id: CRMQuoteVersion
+  parent: SuperOffice.WebApi.Data.QuoteContext
+  langs:
+  - csharp
+  - vb
+  name: CRMQuoteVersion
+  nameWithType: QuoteContext.CRMQuoteVersion
+  fullName: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteVersion
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe relevant or current revision of the quote in the CRM system, if applicable.\n"
+  syntax:
+    content: public virtual QuoteVersion CRMQuoteVersion { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersion
+    content.vb: Public Overridable Property CRMQuoteVersion As QuoteVersion
+  overload: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteAlternative
+  commentId: P:SuperOffice.WebApi.Data.QuoteContext.CRMQuoteAlternative
+  id: CRMQuoteAlternative
+  parent: SuperOffice.WebApi.Data.QuoteContext
+  langs:
+  - csharp
+  - vb
+  name: CRMQuoteAlternative
+  nameWithType: QuoteContext.CRMQuoteAlternative
+  fullName: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteAlternative
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe relevant or current alternative of the quote in the CRM system, if applicable.\n"
+  syntax:
+    content: public virtual QuoteAlternative CRMQuoteAlternative { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteAlternative
+    content.vb: Public Overridable Property CRMQuoteAlternative As QuoteAlternative
+  overload: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteAlternative*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteLine
+  commentId: P:SuperOffice.WebApi.Data.QuoteContext.CRMQuoteLine
+  id: CRMQuoteLine
+  parent: SuperOffice.WebApi.Data.QuoteContext
+  langs:
+  - csharp
+  - vb
+  name: CRMQuoteLine
+  nameWithType: QuoteContext.CRMQuoteLine
+  fullName: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteLine
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe relevant or current quote line of the quote in the CRM system, if applicable.\n"
+  syntax:
+    content: public virtual QuoteLine CRMQuoteLine { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteLine
+    content.vb: Public Overridable Property CRMQuoteLine As QuoteLine
+  overload: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteLine*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteContext.UserLanguageCode
+  commentId: P:SuperOffice.WebApi.Data.QuoteContext.UserLanguageCode
+  id: UserLanguageCode
+  parent: SuperOffice.WebApi.Data.QuoteContext
+  langs:
+  - csharp
+  - vb
+  name: UserLanguageCode
+  nameWithType: QuoteContext.UserLanguageCode
+  fullName: SuperOffice.WebApi.Data.QuoteContext.UserLanguageCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe iso language code of the language the user is using in the crm system. Use this language when replying, if possible.\n"
+  syntax:
+    content: public virtual string UserLanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UserLanguageCode As String
+  overload: SuperOffice.WebApi.Data.QuoteContext.UserLanguageCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuoteContext.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteContext.#ctor
+  isExternal: true
+  name: QuoteContext
+  nameWithType: QuoteContext.QuoteContext
+  fullName: SuperOffice.WebApi.Data.QuoteContext.QuoteContext
+- uid: SuperOffice.WebApi.Data.QuoteContext.CRMAssociate*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteContext.CRMAssociate
+  isExternal: true
+  name: CRMAssociate
+  nameWithType: QuoteContext.CRMAssociate
+  fullName: SuperOffice.WebApi.Data.QuoteContext.CRMAssociate
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.QuoteContext.CRMSale*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteContext.CRMSale
+  isExternal: true
+  name: CRMSale
+  nameWithType: QuoteContext.CRMSale
+  fullName: SuperOffice.WebApi.Data.QuoteContext.CRMSale
+- uid: SuperOffice.WebApi.Data.Sale
+  commentId: T:SuperOffice.WebApi.Data.Sale
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Sale
+  nameWithType: Sale
+  fullName: SuperOffice.WebApi.Data.Sale
+- uid: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteVersion*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteContext.CRMQuoteVersion
+  isExternal: true
+  name: CRMQuoteVersion
+  nameWithType: QuoteContext.CRMQuoteVersion
+  fullName: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteVersion
+- uid: SuperOffice.WebApi.Data.QuoteVersion
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersion
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: QuoteVersion
+  nameWithType: QuoteVersion
+  fullName: SuperOffice.WebApi.Data.QuoteVersion
+- uid: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteAlternative*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteContext.CRMQuoteAlternative
+  isExternal: true
+  name: CRMQuoteAlternative
+  nameWithType: QuoteContext.CRMQuoteAlternative
+  fullName: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteAlternative
+- uid: SuperOffice.WebApi.Data.QuoteAlternative
+  commentId: T:SuperOffice.WebApi.Data.QuoteAlternative
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: QuoteAlternative
+  nameWithType: QuoteAlternative
+  fullName: SuperOffice.WebApi.Data.QuoteAlternative
+- uid: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteLine*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteContext.CRMQuoteLine
+  isExternal: true
+  name: CRMQuoteLine
+  nameWithType: QuoteContext.CRMQuoteLine
+  fullName: SuperOffice.WebApi.Data.QuoteContext.CRMQuoteLine
+- uid: SuperOffice.WebApi.Data.QuoteLine
+  commentId: T:SuperOffice.WebApi.Data.QuoteLine
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: QuoteLine
+  nameWithType: QuoteLine
+  fullName: SuperOffice.WebApi.Data.QuoteLine
+- uid: SuperOffice.WebApi.Data.QuoteContext.UserLanguageCode*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteContext.UserLanguageCode
+  isExternal: true
+  name: UserLanguageCode
+  nameWithType: QuoteContext.UserLanguageCode
+  fullName: SuperOffice.WebApi.Data.QuoteContext.UserLanguageCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

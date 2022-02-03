@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_Html2TextRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_Html2TextRequest
+  id: Ticket_Html2TextRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_Html2TextRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_Html2TextRequest.Content
+  langs:
+  - csharp
+  - vb
+  name: Ticket_Html2TextRequest
+  nameWithType: Ticket_Html2TextRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_Html2TextRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_Html2TextRequest : Object'
+    content.vb: >-
+      Public Class Ticket_Html2TextRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_Html2TextRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_Html2TextRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_Html2TextRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_Html2TextRequest()
+  nameWithType: Ticket_Html2TextRequest.Ticket_Html2TextRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_Html2TextRequest.Ticket_Html2TextRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_Html2TextRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_Html2TextRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_Html2TextRequest.Content
+  commentId: P:SuperOffice.WebApi.Data.Ticket_Html2TextRequest.Content
+  id: Content
+  parent: SuperOffice.WebApi.Data.Ticket_Html2TextRequest
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: Ticket_Html2TextRequest.Content
+  fullName: SuperOffice.WebApi.Data.Ticket_Html2TextRequest.Content
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Content As String
+  overload: SuperOffice.WebApi.Data.Ticket_Html2TextRequest.Content*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_Html2TextRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_Html2TextRequest.#ctor
+  isExternal: true
+  name: Ticket_Html2TextRequest
+  nameWithType: Ticket_Html2TextRequest.Ticket_Html2TextRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_Html2TextRequest.Ticket_Html2TextRequest
+- uid: SuperOffice.WebApi.Data.Ticket_Html2TextRequest.Content*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_Html2TextRequest.Content
+  isExternal: true
+  name: Content
+  nameWithType: Ticket_Html2TextRequest.Content
+  fullName: SuperOffice.WebApi.Data.Ticket_Html2TextRequest.Content
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

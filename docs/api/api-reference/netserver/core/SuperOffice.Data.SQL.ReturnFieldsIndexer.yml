@@ -1,0 +1,850 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer
+  commentId: T:SuperOffice.Data.SQL.ReturnFieldsIndexer
+  id: ReturnFieldsIndexer
+  parent: SuperOffice.Data.SQL
+  children:
+  - SuperOffice.Data.SQL.ReturnFieldsIndexer.#ctor(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument},System.Int32)
+  - SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex(System.Int32)
+  - SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex(System.Int32)
+  - SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ReturnFieldsIndexer
+  nameWithType: ReturnFieldsIndexer
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nIndexer for a collection of arguments (like <xref href=\"SuperOffice.Data.SQL.ReturnFieldsCollection\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public sealed class ReturnFieldsIndexer
+    content.vb: Public NotInheritable Class ReturnFieldsIndexer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.SQL.ReturnFieldsIndexer.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.ReturnFieldsIndexer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.#ctor(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument},System.Int32)
+  commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.#ctor(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument},System.Int32)
+  id: '#ctor(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument},System.Int32)'
+  parent: SuperOffice.Data.SQL.ReturnFieldsIndexer
+  langs:
+  - csharp
+  - vb
+  name: ReturnFieldsIndexer(IEnumerable<Argument>, Int32)
+  nameWithType: ReturnFieldsIndexer.ReturnFieldsIndexer(IEnumerable<Argument>, Int32)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.ReturnFieldsIndexer(System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Argument>, System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nDefault constructor for the indexer, indexing a collection of arguments.\n"
+  syntax:
+    content: public ReturnFieldsIndexer(IEnumerable<Argument> returnFields, int lengthHint)
+    parameters:
+    - id: returnFields
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument}
+      description: Collection of arguments to index.
+    - id: lengthHint
+      type: System.Int32
+      description: Hint of the length for preallocation of indexes.  &apos;0&apos; should be used when the length is unknown.
+    content.vb: Public Sub New(returnFields As IEnumerable(Of Argument), lengthHint As Integer)
+  overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.#ctor*
+  nameWithType.vb: ReturnFieldsIndexer.ReturnFieldsIndexer(IEnumerable(Of Argument), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsIndexer.ReturnFieldsIndexer(System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Argument), System.Int32)
+  name.vb: ReturnFieldsIndexer(IEnumerable(Of Argument), Int32)
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.Argument)
+  id: GetIndexOfField(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.ReturnFieldsIndexer
+  langs:
+  - csharp
+  - vb
+  name: GetIndexOfField(Argument)
+  nameWithType: ReturnFieldsIndexer.GetIndexOfField(Argument)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nObtain the index of the field.\n"
+  syntax:
+    content: public int GetIndexOfField(Argument argument)
+    parameters:
+    - id: argument
+      type: SuperOffice.Data.SQL.Argument
+      description: Argument to find index for.
+    return:
+      type: System.Int32
+      description: Index of the field.  -1 is returned if the index can not be found.
+    content.vb: Public Function GetIndexOfField(argument As Argument) As Integer
+  overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.FieldInfo)
+  id: GetIndexOfField(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.SQL.ReturnFieldsIndexer
+  langs:
+  - csharp
+  - vb
+  name: GetIndexOfField(FieldInfo)
+  nameWithType: ReturnFieldsIndexer.GetIndexOfField(FieldInfo)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nObtain the index of the field.\n"
+  syntax:
+    content: public int GetIndexOfField(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: Field to find index for.
+    return:
+      type: System.Int32
+      description: Index of the field.  -1 is returned if the index can not be found.
+    content.vb: Public Function GetIndexOfField(field As FieldInfo) As Integer
+  overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(System.Int32)
+  commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(System.Int32)
+  id: GetIndexOfField(System.Int32)
+  parent: SuperOffice.Data.SQL.ReturnFieldsIndexer
+  langs:
+  - csharp
+  - vb
+  name: GetIndexOfField(Int32)
+  nameWithType: ReturnFieldsIndexer.GetIndexOfField(Int32)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nObtain the index of the field.\n"
+  syntax:
+    content: public int GetIndexOfField(int fieldNumber)
+    parameters:
+    - id: fieldNumber
+      type: System.Int32
+      description: Field number to obtain index for.
+    return:
+      type: System.Int32
+      description: Index of the field.  -1 is returned if the index can not be found.
+    content.vb: Public Function GetIndexOfField(fieldNumber As Integer) As Integer
+  overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex(System.Int32)
+  commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex(System.Int32)
+  id: GetFieldInfoFromIndex(System.Int32)
+  parent: SuperOffice.Data.SQL.ReturnFieldsIndexer
+  langs:
+  - csharp
+  - vb
+  name: GetFieldInfoFromIndex(Int32)
+  nameWithType: ReturnFieldsIndexer.GetFieldInfoFromIndex(Int32)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nGet FieldInfo from a provided index.\n"
+  syntax:
+    content: public FieldInfo GetFieldInfoFromIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: Index to provide field info for.
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: Field info is return if one exists for the index, otherwise null.
+    content.vb: Public Function GetFieldInfoFromIndex(index As Integer) As FieldInfo
+  overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex(System.Int32)
+  commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex(System.Int32)
+  id: GetArgumentFromIndex(System.Int32)
+  parent: SuperOffice.Data.SQL.ReturnFieldsIndexer
+  langs:
+  - csharp
+  - vb
+  name: GetArgumentFromIndex(Int32)
+  nameWithType: ReturnFieldsIndexer.GetArgumentFromIndex(Int32)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nGet argument from the given index.\n"
+  syntax:
+    content: public Argument GetArgumentFromIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: Index to get argument from
+    return:
+      type: SuperOffice.Data.SQL.Argument
+      description: Argument at the given index.
+    content.vb: Public Function GetArgumentFromIndex(index As Integer) As Argument
+  overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ReturnFieldsIndexer, To>()
+  nameWithType: EnumUtil.MapEnums<ReturnFieldsIndexer, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.ReturnFieldsIndexer, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ReturnFieldsIndexer, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsIndexer, To)()
+  name.vb: MapEnums(Of ReturnFieldsIndexer, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ReturnFieldsIndexer, To>
+    nameWithType: EnumUtil.MapEnums<ReturnFieldsIndexer, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.ReturnFieldsIndexer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ReturnFieldsIndexer, To)
+    nameWithType: EnumUtil.MapEnums(Of ReturnFieldsIndexer, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsIndexer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ReturnFieldsIndexer, To>()
+  nameWithType: Converters.MapEnums<ReturnFieldsIndexer, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.ReturnFieldsIndexer, To>()
+  nameWithType.vb: Converters.MapEnums(Of ReturnFieldsIndexer, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsIndexer, To)()
+  name.vb: MapEnums(Of ReturnFieldsIndexer, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ReturnFieldsIndexer, To>
+    nameWithType: Converters.MapEnums<ReturnFieldsIndexer, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.ReturnFieldsIndexer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ReturnFieldsIndexer, To)
+    nameWithType: Converters.MapEnums(Of ReturnFieldsIndexer, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsIndexer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.#ctor*
+  commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsIndexer.#ctor
+  isExternal: true
+  name: ReturnFieldsIndexer
+  nameWithType: ReturnFieldsIndexer.ReturnFieldsIndexer
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.ReturnFieldsIndexer
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Argument>
+  nameWithType: IEnumerable<Argument>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Argument>
+  nameWithType.vb: IEnumerable(Of Argument)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Argument)
+  name.vb: IEnumerable(Of Argument)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField*
+  commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField
+  isExternal: true
+  name: GetIndexOfField
+  nameWithType: ReturnFieldsIndexer.GetIndexOfField
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField
+- uid: SuperOffice.Data.SQL.Argument
+  commentId: T:SuperOffice.Data.SQL.Argument
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Argument
+  nameWithType: Argument
+  fullName: SuperOffice.Data.SQL.Argument
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex*
+  commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex
+  isExternal: true
+  name: GetFieldInfoFromIndex
+  nameWithType: ReturnFieldsIndexer.GetFieldInfoFromIndex
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex
+- uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex*
+  commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex
+  isExternal: true
+  name: GetArgumentFromIndex
+  nameWithType: ReturnFieldsIndexer.GetArgumentFromIndex
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex

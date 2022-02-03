@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest
+  id: Quote_SaveQuoteLineConfigurationsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.QuoteLineConfigurations
+  langs:
+  - csharp
+  - vb
+  name: Quote_SaveQuoteLineConfigurationsRequest
+  nameWithType: Quote_SaveQuoteLineConfigurationsRequest
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_SaveQuoteLineConfigurationsRequest : Object'
+    content.vb: >-
+      Public Class Quote_SaveQuoteLineConfigurationsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_SaveQuoteLineConfigurationsRequest()
+  nameWithType: Quote_SaveQuoteLineConfigurationsRequest.Quote_SaveQuoteLineConfigurationsRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.Quote_SaveQuoteLineConfigurationsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_SaveQuoteLineConfigurationsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.QuoteLineConfigurations
+  commentId: P:SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.QuoteLineConfigurations
+  id: QuoteLineConfigurations
+  parent: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineConfigurations
+  nameWithType: Quote_SaveQuoteLineConfigurationsRequest.QuoteLineConfigurations
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.QuoteLineConfigurations
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public QuoteLineConfiguration[] QuoteLineConfigurations { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteLineConfiguration[]
+    content.vb: Public Property QuoteLineConfigurations As QuoteLineConfiguration()
+  overload: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.QuoteLineConfigurations*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.#ctor
+  isExternal: true
+  name: Quote_SaveQuoteLineConfigurationsRequest
+  nameWithType: Quote_SaveQuoteLineConfigurationsRequest.Quote_SaveQuoteLineConfigurationsRequest
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.Quote_SaveQuoteLineConfigurationsRequest
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.QuoteLineConfigurations*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.QuoteLineConfigurations
+  isExternal: true
+  name: QuoteLineConfigurations
+  nameWithType: Quote_SaveQuoteLineConfigurationsRequest.QuoteLineConfigurations
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLineConfigurationsRequest.QuoteLineConfigurations
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration[]
+  isExternal: true
+  name: QuoteLineConfiguration[]
+  nameWithType: QuoteLineConfiguration[]
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration[]
+  nameWithType.vb: QuoteLineConfiguration()
+  fullName.vb: SuperOffice.WebApi.Data.QuoteLineConfiguration()
+  name.vb: QuoteLineConfiguration()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.QuoteLineConfiguration
+    name: QuoteLineConfiguration
+    nameWithType: QuoteLineConfiguration
+    fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.QuoteLineConfiguration
+    name: QuoteLineConfiguration
+    nameWithType: QuoteLineConfiguration
+    fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

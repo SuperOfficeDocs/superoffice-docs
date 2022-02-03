@@ -1,0 +1,1116 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  commentId: T:SuperOffice.CRM.Rows.FormSubmissionRecordData
+  id: FormSubmissionRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.#ctor
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.ContactId
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.EmailAddress
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.FormId
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.FormSubmissionId
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.PersonId
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.ProcessingLog
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.Response
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.ResponseShipmentAddrId
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.Status
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.WhenSubmitted
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionRecordData
+  nameWithType: FormSubmissionRecordData
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the form_submission table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.FormSubmissionRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.FormSubmissionTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class FormSubmissionRecordData
+    content.vb: Public Class FormSubmissionRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FormSubmissionRecordData)
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.FormSubmissionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.FormSubmissionId
+  commentId: F:SuperOffice.CRM.Rows.FormSubmissionRecordData.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: FormSubmissionRecordData.FormSubmissionId
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.FormSubmissionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int FormSubmissionId
+    return:
+      type: System.Int32
+    content.vb: Public FormSubmissionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.FormId
+  commentId: F:SuperOffice.CRM.Rows.FormSubmissionRecordData.FormId
+  id: FormId
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  langs:
+  - csharp
+  - vb
+  name: FormId
+  nameWithType: FormSubmissionRecordData.FormId
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.FormId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the parent form. \n"
+  syntax:
+    content: public int FormId
+    return:
+      type: System.Int32
+    content.vb: Public FormId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.WhenSubmitted
+  commentId: F:SuperOffice.CRM.Rows.FormSubmissionRecordData.WhenSubmitted
+  id: WhenSubmitted
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  langs:
+  - csharp
+  - vb
+  name: WhenSubmitted
+  nameWithType: FormSubmissionRecordData.WhenSubmitted
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.WhenSubmitted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe time of the submit. \n"
+  syntax:
+    content: public DateTime WhenSubmitted
+    return:
+      type: System.DateTime
+    content.vb: Public WhenSubmitted As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.ContactId
+  commentId: F:SuperOffice.CRM.Rows.FormSubmissionRecordData.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: FormSubmissionRecordData.ContactId
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe optional id of the contact of the person who submitted. \n"
+  syntax:
+    content: public int ContactId
+    return:
+      type: System.Int32
+    content.vb: Public ContactId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.PersonId
+  commentId: F:SuperOffice.CRM.Rows.FormSubmissionRecordData.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: FormSubmissionRecordData.PersonId
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.PersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe optional id of the person who submitted. \n"
+  syntax:
+    content: public int PersonId
+    return:
+      type: System.Int32
+    content.vb: Public PersonId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.EmailAddress
+  commentId: F:SuperOffice.CRM.Rows.FormSubmissionRecordData.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: FormSubmissionRecordData.EmailAddress
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.EmailAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe email address of the person who submitted \n"
+  syntax:
+    content: public string EmailAddress
+    return:
+      type: System.String
+    content.vb: Public EmailAddress As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.ResponseShipmentAddrId
+  commentId: F:SuperOffice.CRM.Rows.FormSubmissionRecordData.ResponseShipmentAddrId
+  id: ResponseShipmentAddrId
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ResponseShipmentAddrId
+  nameWithType: FormSubmissionRecordData.ResponseShipmentAddrId
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.ResponseShipmentAddrId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the s_shipment_addr that is the response mail \n"
+  syntax:
+    content: public int ResponseShipmentAddrId
+    return:
+      type: System.Int32
+    content.vb: Public ResponseShipmentAddrId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.Response
+  commentId: F:SuperOffice.CRM.Rows.FormSubmissionRecordData.Response
+  id: Response
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Response
+  nameWithType: FormSubmissionRecordData.Response
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.Response
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe JSON-formatted response from this form \n"
+  syntax:
+    content: public string Response
+    return:
+      type: System.String
+    content.vb: Public Response As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.Status
+  commentId: F:SuperOffice.CRM.Rows.FormSubmissionRecordData.Status
+  id: Status
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: FormSubmissionRecordData.Status
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhat is the status of this submission \n"
+  syntax:
+    content: public FormSubmissionStatus Status
+    return:
+      type: SuperOffice.Data.FormSubmissionStatus
+    content.vb: Public Status As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.ProcessingLog
+  commentId: F:SuperOffice.CRM.Rows.FormSubmissionRecordData.ProcessingLog
+  id: ProcessingLog
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProcessingLog
+  nameWithType: FormSubmissionRecordData.ProcessingLog
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.ProcessingLog
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA log of what happened during processing \n"
+  syntax:
+    content: public string ProcessingLog
+    return:
+      type: System.String
+    content.vb: Public ProcessingLog As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.FormSubmissionRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordData
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionRecordData()
+  nameWithType: FormSubmissionRecordData.FormSubmissionRecordData()
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.FormSubmissionRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public FormSubmissionRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.FormSubmissionRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FormSubmissionRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<FormSubmissionRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.FormSubmissionRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FormSubmissionRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.FormSubmissionRecordData, To)()
+  name.vb: MapEnums(Of FormSubmissionRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FormSubmissionRecordData, To>
+    nameWithType: EnumUtil.MapEnums<FormSubmissionRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.FormSubmissionRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FormSubmissionRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of FormSubmissionRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.FormSubmissionRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FormSubmissionRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<FormSubmissionRecordData>(FormSubmissionRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<FormSubmissionRecordData>(FormSubmissionRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.FormSubmissionRecordData>(SuperOffice.CRM.Rows.FormSubmissionRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormSubmissionRecordData)(FormSubmissionRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.FormSubmissionRecordData)(SuperOffice.CRM.Rows.FormSubmissionRecordData)
+  name.vb: AssignByReflection(Of FormSubmissionRecordData)(FormSubmissionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<FormSubmissionRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<FormSubmissionRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.FormSubmissionRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.FormSubmissionRecordData
+    name: FormSubmissionRecordData
+    nameWithType: FormSubmissionRecordData
+    fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of FormSubmissionRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of FormSubmissionRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.FormSubmissionRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.FormSubmissionRecordData
+    name: FormSubmissionRecordData
+    nameWithType: FormSubmissionRecordData
+    fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<FormSubmissionRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<FormSubmissionRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.FormSubmissionRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormSubmissionRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.FormSubmissionRecordData)()
+  name.vb: GraphCopy(Of FormSubmissionRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<FormSubmissionRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<FormSubmissionRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.FormSubmissionRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of FormSubmissionRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of FormSubmissionRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.FormSubmissionRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormSubmissionRecordData)
+  parent: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormSubmissionRecordData)
+  name: ToInsert()
+  nameWithType: FormSubmissionRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: FormSubmissionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: FormSubmissionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FormSubmissionRecordData, To>()
+  nameWithType: Converters.MapEnums<FormSubmissionRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.FormSubmissionRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of FormSubmissionRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.FormSubmissionRecordData, To)()
+  name.vb: MapEnums(Of FormSubmissionRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FormSubmissionRecordData, To>
+    nameWithType: Converters.MapEnums<FormSubmissionRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.FormSubmissionRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FormSubmissionRecordData, To)
+    nameWithType: Converters.MapEnums(Of FormSubmissionRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.FormSubmissionRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormSubmissionRecordData)
+  commentId: M:SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormSubmissionRecordData)
+  isExternal: true
+  name: ToInsert(FormSubmissionRecordData)
+  nameWithType: FormSubmissionRecordDataExtensions.ToInsert(FormSubmissionRecordData)
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormSubmissionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormSubmissionRecordData)
+    name: ToInsert
+    nameWithType: FormSubmissionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.FormSubmissionRecordData
+    name: FormSubmissionRecordData
+    nameWithType: FormSubmissionRecordData
+    fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.FormSubmissionRecordData)
+    name: ToInsert
+    nameWithType: FormSubmissionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.FormSubmissionRecordData
+    name: FormSubmissionRecordData
+    nameWithType: FormSubmissionRecordData
+    fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: FormSubmissionRecordDataExtensions
+  nameWithType: FormSubmissionRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.FormSubmissionStatus
+  commentId: T:SuperOffice.Data.FormSubmissionStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: FormSubmissionStatus
+  nameWithType: FormSubmissionStatus
+  fullName: SuperOffice.Data.FormSubmissionStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Rows.FormSubmissionRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.FormSubmissionRecordData.#ctor
+  isExternal: true
+  name: FormSubmissionRecordData
+  nameWithType: FormSubmissionRecordData.FormSubmissionRecordData
+  fullName: SuperOffice.CRM.Rows.FormSubmissionRecordData.FormSubmissionRecordData

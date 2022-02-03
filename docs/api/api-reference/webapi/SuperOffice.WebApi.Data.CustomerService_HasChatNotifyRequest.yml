@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest
+  id: CustomerService_HasChatNotifyRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_HasChatNotifyRequest
+  nameWithType: CustomerService_HasChatNotifyRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_HasChatNotifyRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_HasChatNotifyRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_HasChatNotifyRequest()
+  nameWithType: CustomerService_HasChatNotifyRequest.CustomerService_HasChatNotifyRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest.CustomerService_HasChatNotifyRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_HasChatNotifyRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest.#ctor
+  isExternal: true
+  name: CustomerService_HasChatNotifyRequest
+  nameWithType: CustomerService_HasChatNotifyRequest.CustomerService_HasChatNotifyRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_HasChatNotifyRequest.CustomerService_HasChatNotifyRequest

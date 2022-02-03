@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest
+  id: Person_CreateDefaultByContactIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.ContactId
+  langs:
+  - csharp
+  - vb
+  name: Person_CreateDefaultByContactIdRequest
+  nameWithType: Person_CreateDefaultByContactIdRequest
+  fullName: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_CreateDefaultByContactIdRequest : Object'
+    content.vb: >-
+      Public Class Person_CreateDefaultByContactIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_CreateDefaultByContactIdRequest()
+  nameWithType: Person_CreateDefaultByContactIdRequest.Person_CreateDefaultByContactIdRequest()
+  fullName: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.Person_CreateDefaultByContactIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_CreateDefaultByContactIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: Person_CreateDefaultByContactIdRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.#ctor
+  isExternal: true
+  name: Person_CreateDefaultByContactIdRequest
+  nameWithType: Person_CreateDefaultByContactIdRequest.Person_CreateDefaultByContactIdRequest
+  fullName: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.Person_CreateDefaultByContactIdRequest
+- uid: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: Person_CreateDefaultByContactIdRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Person_CreateDefaultByContactIdRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

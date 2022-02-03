@@ -1,0 +1,488 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomCommand
+  commentId: T:SuperOffice.WebApi.Data.CustomCommand
+  id: CustomCommand
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomCommand.#ctor
+  - SuperOffice.WebApi.Data.CustomCommand.ActionData
+  - SuperOffice.WebApi.Data.CustomCommand.Actions
+  - SuperOffice.WebApi.Data.CustomCommand.Actions_String
+  - SuperOffice.WebApi.Data.CustomCommand.Description
+  - SuperOffice.WebApi.Data.CustomCommand.DisplayName
+  - SuperOffice.WebApi.Data.CustomCommand.Name
+  - SuperOffice.WebApi.Data.CustomCommand.ToolTip
+  langs:
+  - csharp
+  - vb
+  name: CustomCommand
+  nameWithType: CustomCommand
+  fullName: SuperOffice.WebApi.Data.CustomCommand
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CustomCommand.\nGeneric carrier object for entity commands.    \n"
+  syntax:
+    content: 'public class CustomCommand : Carrier'
+    content.vb: >-
+      Public Class CustomCommand
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomCommand.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomCommand.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: CustomCommand()
+  nameWithType: CustomCommand.CustomCommand()
+  fullName: SuperOffice.WebApi.Data.CustomCommand.CustomCommand()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CustomCommand()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomCommand.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomCommand.Name
+  commentId: P:SuperOffice.WebApi.Data.CustomCommand.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CustomCommand.Name
+  fullName: SuperOffice.WebApi.Data.CustomCommand.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUnique name of the command\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.CustomCommand.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomCommand.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.CustomCommand.DisplayName
+  id: DisplayName
+  parent: SuperOffice.WebApi.Data.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: CustomCommand.DisplayName
+  fullName: SuperOffice.WebApi.Data.CustomCommand.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name to show in GUI\n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.WebApi.Data.CustomCommand.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomCommand.Description
+  commentId: P:SuperOffice.WebApi.Data.CustomCommand.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: CustomCommand.Description
+  fullName: SuperOffice.WebApi.Data.CustomCommand.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescription of the command.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.CustomCommand.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomCommand.ToolTip
+  commentId: P:SuperOffice.WebApi.Data.CustomCommand.ToolTip
+  id: ToolTip
+  parent: SuperOffice.WebApi.Data.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: ToolTip
+  nameWithType: CustomCommand.ToolTip
+  fullName: SuperOffice.WebApi.Data.CustomCommand.ToolTip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip to be used in the GUI\n"
+  syntax:
+    content: public virtual string ToolTip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ToolTip As String
+  overload: SuperOffice.WebApi.Data.CustomCommand.ToolTip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomCommand.Actions_String
+  commentId: P:SuperOffice.WebApi.Data.CustomCommand.Actions_String
+  id: Actions_String
+  parent: SuperOffice.WebApi.Data.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: Actions_String
+  nameWithType: CustomCommand.Actions_String
+  fullName: SuperOffice.WebApi.Data.CustomCommand.Actions_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe actions to call when invoked\nRaw string enum value.\n"
+  syntax:
+    content: public string Actions_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Actions_String As String
+  overload: SuperOffice.WebApi.Data.CustomCommand.Actions_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.CustomCommand.Actions
+    commentId: P:SuperOffice.WebApi.Data.CustomCommand.Actions
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomCommand.Actions
+  commentId: P:SuperOffice.WebApi.Data.CustomCommand.Actions
+  id: Actions
+  parent: SuperOffice.WebApi.Data.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: Actions
+  nameWithType: CustomCommand.Actions
+  fullName: SuperOffice.WebApi.Data.CustomCommand.Actions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe actions to call when invoked\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<CommandAction> Actions { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.CommandAction}
+    content.vb: Public Property Actions As Nullable(Of CommandAction)
+  overload: SuperOffice.WebApi.Data.CustomCommand.Actions*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.CustomCommand.Actions_String
+    commentId: P:SuperOffice.WebApi.Data.CustomCommand.Actions_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomCommand.ActionData
+  commentId: P:SuperOffice.WebApi.Data.CustomCommand.ActionData
+  id: ActionData
+  parent: SuperOffice.WebApi.Data.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: ActionData
+  nameWithType: CustomCommand.ActionData
+  fullName: SuperOffice.WebApi.Data.CustomCommand.ActionData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe data to be used when the command is invoked\n"
+  syntax:
+    content: public virtual string ActionData { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ActionData As String
+  overload: SuperOffice.WebApi.Data.CustomCommand.ActionData*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomCommand.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomCommand.#ctor
+  isExternal: true
+  name: CustomCommand
+  nameWithType: CustomCommand.CustomCommand
+  fullName: SuperOffice.WebApi.Data.CustomCommand.CustomCommand
+- uid: SuperOffice.WebApi.Data.CustomCommand.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomCommand.Name
+  isExternal: true
+  name: Name
+  nameWithType: CustomCommand.Name
+  fullName: SuperOffice.WebApi.Data.CustomCommand.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CustomCommand.DisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomCommand.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: CustomCommand.DisplayName
+  fullName: SuperOffice.WebApi.Data.CustomCommand.DisplayName
+- uid: SuperOffice.WebApi.Data.CustomCommand.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomCommand.Description
+  isExternal: true
+  name: Description
+  nameWithType: CustomCommand.Description
+  fullName: SuperOffice.WebApi.Data.CustomCommand.Description
+- uid: SuperOffice.WebApi.Data.CustomCommand.ToolTip*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomCommand.ToolTip
+  isExternal: true
+  name: ToolTip
+  nameWithType: CustomCommand.ToolTip
+  fullName: SuperOffice.WebApi.Data.CustomCommand.ToolTip
+- uid: SuperOffice.WebApi.Data.CustomCommand.Actions_String*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomCommand.Actions_String
+  isExternal: true
+  name: Actions_String
+  nameWithType: CustomCommand.Actions_String
+  fullName: SuperOffice.WebApi.Data.CustomCommand.Actions_String
+- uid: SuperOffice.WebApi.Data.CustomCommand.Actions
+  commentId: P:SuperOffice.WebApi.Data.CustomCommand.Actions
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.CustomCommand.Actions*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomCommand.Actions
+  isExternal: true
+  name: Actions
+  nameWithType: CustomCommand.Actions
+  fullName: SuperOffice.WebApi.Data.CustomCommand.Actions
+- uid: SuperOffice.WebApi.Data.CustomCommand.Actions_String
+  commentId: P:SuperOffice.WebApi.Data.CustomCommand.Actions_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.CommandAction}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.CommandAction}'
+  definition: System.Nullable`1
+  name: Nullable<CommandAction>
+  nameWithType: Nullable<CommandAction>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.CommandAction>
+  nameWithType.vb: Nullable(Of CommandAction)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.CommandAction)
+  name.vb: Nullable(Of CommandAction)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.CommandAction
+    name: CommandAction
+    nameWithType: CommandAction
+    fullName: SuperOffice.WebApi.Data.CommandAction
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.CommandAction
+    name: CommandAction
+    nameWithType: CommandAction
+    fullName: SuperOffice.WebApi.Data.CommandAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.CustomCommand.ActionData*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomCommand.ActionData
+  isExternal: true
+  name: ActionData
+  nameWithType: CustomCommand.ActionData
+  fullName: SuperOffice.WebApi.Data.CustomCommand.ActionData

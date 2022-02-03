@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TimeZoneRule
+  commentId: T:SuperOffice.WebApi.Data.TimeZoneRule
+  id: TimeZoneRule
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TimeZoneRule.#ctor
+  - SuperOffice.WebApi.Data.TimeZoneRule.EndDay
+  - SuperOffice.WebApi.Data.TimeZoneRule.EndMonth
+  - SuperOffice.WebApi.Data.TimeZoneRule.EndRulePattern
+  - SuperOffice.WebApi.Data.TimeZoneRule.StartDay
+  - SuperOffice.WebApi.Data.TimeZoneRule.StartMonth
+  - SuperOffice.WebApi.Data.TimeZoneRule.StartRulePattern
+  - SuperOffice.WebApi.Data.TimeZoneRule.TZOffset
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneRule
+  nameWithType: TimeZoneRule
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TimeZoneRule.\nInformation about a rule for a TimeZone    \n"
+  syntax:
+    content: 'public class TimeZoneRule : Object'
+    content.vb: >-
+      Public Class TimeZoneRule
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.TimeZoneAgent
+    commentId: T:SuperOffice.WebApi.Agents.TimeZoneAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TimeZoneRule.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneRule()
+  nameWithType: TimeZoneRule.TimeZoneRule()
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.TimeZoneRule()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TimeZoneRule()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TimeZoneRule.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.TZOffset
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneRule.TZOffset
+  id: TZOffset
+  parent: SuperOffice.WebApi.Data.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: TZOffset
+  nameWithType: TimeZoneRule.TZOffset
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.TZOffset
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of minutes bias relative to UTC time\n"
+  syntax:
+    content: public virtual int TZOffset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TZOffset As Integer
+  overload: SuperOffice.WebApi.Data.TimeZoneRule.TZOffset*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.StartRulePattern
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneRule.StartRulePattern
+  id: StartRulePattern
+  parent: SuperOffice.WebApi.Data.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: StartRulePattern
+  nameWithType: TimeZoneRule.StartRulePattern
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.StartRulePattern
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDST start rule, such as 0200 1ST-SUN-APR; limited to rules that we have parse code for; use dayOfMonth etc for custom rules\n"
+  syntax:
+    content: public virtual string StartRulePattern { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StartRulePattern As String
+  overload: SuperOffice.WebApi.Data.TimeZoneRule.StartRulePattern*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.EndRulePattern
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneRule.EndRulePattern
+  id: EndRulePattern
+  parent: SuperOffice.WebApi.Data.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: EndRulePattern
+  nameWithType: TimeZoneRule.EndRulePattern
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.EndRulePattern
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDST end rule, such as 2300 LST-SAT-OCT; limited to rules that we have parse code for; use dayOfMonth etc for custom rules\n"
+  syntax:
+    content: public virtual string EndRulePattern { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EndRulePattern As String
+  overload: SuperOffice.WebApi.Data.TimeZoneRule.EndRulePattern*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.StartDay
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneRule.StartDay
+  id: StartDay
+  parent: SuperOffice.WebApi.Data.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: StartDay
+  nameWithType: TimeZoneRule.StartDay
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.StartDay
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCustom DST start day, if 0 then parse startRule\n"
+  syntax:
+    content: public virtual int StartDay { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StartDay As Integer
+  overload: SuperOffice.WebApi.Data.TimeZoneRule.StartDay*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.StartMonth
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneRule.StartMonth
+  id: StartMonth
+  parent: SuperOffice.WebApi.Data.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: StartMonth
+  nameWithType: TimeZoneRule.StartMonth
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.StartMonth
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCustom DST start month, if 0 then parse startRule\n"
+  syntax:
+    content: public virtual int StartMonth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StartMonth As Integer
+  overload: SuperOffice.WebApi.Data.TimeZoneRule.StartMonth*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.EndDay
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneRule.EndDay
+  id: EndDay
+  parent: SuperOffice.WebApi.Data.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: EndDay
+  nameWithType: TimeZoneRule.EndDay
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.EndDay
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCustom DST end day, if 0 then parse startRule\n"
+  syntax:
+    content: public virtual int EndDay { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EndDay As Integer
+  overload: SuperOffice.WebApi.Data.TimeZoneRule.EndDay*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.EndMonth
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneRule.EndMonth
+  id: EndMonth
+  parent: SuperOffice.WebApi.Data.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: EndMonth
+  nameWithType: TimeZoneRule.EndMonth
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.EndMonth
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCustom DST end month, if 0 then parse startRule\n"
+  syntax:
+    content: public virtual int EndMonth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EndMonth As Integer
+  overload: SuperOffice.WebApi.Data.TimeZoneRule.EndMonth*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.TimeZoneAgent
+  commentId: T:SuperOffice.WebApi.Agents.TimeZoneAgent
+  isExternal: true
+  name: TimeZoneAgent
+  nameWithType: TimeZoneAgent
+  fullName: SuperOffice.WebApi.Agents.TimeZoneAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneRule.#ctor
+  isExternal: true
+  name: TimeZoneRule
+  nameWithType: TimeZoneRule.TimeZoneRule
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.TimeZoneRule
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.TZOffset*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneRule.TZOffset
+  isExternal: true
+  name: TZOffset
+  nameWithType: TimeZoneRule.TZOffset
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.TZOffset
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.StartRulePattern*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneRule.StartRulePattern
+  isExternal: true
+  name: StartRulePattern
+  nameWithType: TimeZoneRule.StartRulePattern
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.StartRulePattern
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.EndRulePattern*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneRule.EndRulePattern
+  isExternal: true
+  name: EndRulePattern
+  nameWithType: TimeZoneRule.EndRulePattern
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.EndRulePattern
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.StartDay*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneRule.StartDay
+  isExternal: true
+  name: StartDay
+  nameWithType: TimeZoneRule.StartDay
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.StartDay
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.StartMonth*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneRule.StartMonth
+  isExternal: true
+  name: StartMonth
+  nameWithType: TimeZoneRule.StartMonth
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.StartMonth
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.EndDay*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneRule.EndDay
+  isExternal: true
+  name: EndDay
+  nameWithType: TimeZoneRule.EndDay
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.EndDay
+- uid: SuperOffice.WebApi.Data.TimeZoneRule.EndMonth*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneRule.EndMonth
+  isExternal: true
+  name: EndMonth
+  nameWithType: TimeZoneRule.EndMonth
+  fullName: SuperOffice.WebApi.Data.TimeZoneRule.EndMonth

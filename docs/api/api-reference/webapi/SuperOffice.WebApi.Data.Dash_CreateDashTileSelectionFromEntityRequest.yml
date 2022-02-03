@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest
+  id: Dash_CreateDashTileSelectionFromEntityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.#ctor
+  - SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.EntityName
+  langs:
+  - csharp
+  - vb
+  name: Dash_CreateDashTileSelectionFromEntityRequest
+  nameWithType: Dash_CreateDashTileSelectionFromEntityRequest
+  fullName: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dash_CreateDashTileSelectionFromEntityRequest : Object'
+    content.vb: >-
+      Public Class Dash_CreateDashTileSelectionFromEntityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: Dash_CreateDashTileSelectionFromEntityRequest()
+  nameWithType: Dash_CreateDashTileSelectionFromEntityRequest.Dash_CreateDashTileSelectionFromEntityRequest()
+  fullName: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.Dash_CreateDashTileSelectionFromEntityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dash_CreateDashTileSelectionFromEntityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.EntityName
+  commentId: P:SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.EntityName
+  id: EntityName
+  parent: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: Dash_CreateDashTileSelectionFromEntityRequest.EntityName
+  fullName: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.EntityName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EntityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EntityName As String
+  overload: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.EntityName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.#ctor
+  isExternal: true
+  name: Dash_CreateDashTileSelectionFromEntityRequest
+  nameWithType: Dash_CreateDashTileSelectionFromEntityRequest.Dash_CreateDashTileSelectionFromEntityRequest
+  fullName: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.Dash_CreateDashTileSelectionFromEntityRequest
+- uid: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.EntityName*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.EntityName
+  isExternal: true
+  name: EntityName
+  nameWithType: Dash_CreateDashTileSelectionFromEntityRequest.EntityName
+  fullName: SuperOffice.WebApi.Data.Dash_CreateDashTileSelectionFromEntityRequest.EntityName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

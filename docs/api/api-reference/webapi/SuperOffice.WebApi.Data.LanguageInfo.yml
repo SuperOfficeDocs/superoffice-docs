@@ -1,0 +1,424 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.LanguageInfo
+  commentId: T:SuperOffice.WebApi.Data.LanguageInfo
+  id: LanguageInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.LanguageInfo.#ctor
+  - SuperOffice.WebApi.Data.LanguageInfo.EnglishName
+  - SuperOffice.WebApi.Data.LanguageInfo.IsBuiltIn
+  - SuperOffice.WebApi.Data.LanguageInfo.LanguageInfoId
+  - SuperOffice.WebApi.Data.LanguageInfo.LCID
+  - SuperOffice.WebApi.Data.LanguageInfo.NativeName
+  - SuperOffice.WebApi.Data.LanguageInfo.ThreeLetterISOLanguageName
+  - SuperOffice.WebApi.Data.LanguageInfo.TwoLetterISOLanguageName
+  langs:
+  - csharp
+  - vb
+  name: LanguageInfo
+  nameWithType: LanguageInfo
+  fullName: SuperOffice.WebApi.Data.LanguageInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for LanguageInfo.\n\n"
+  example:
+  - "\nGet LanguageInfo 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar languageInfo = agent.GetLanguageInfo( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class LanguageInfo : Carrier'
+    content.vb: >-
+      Public Class LanguageInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.LanguageInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.LanguageInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.LanguageInfo
+  langs:
+  - csharp
+  - vb
+  name: LanguageInfo()
+  nameWithType: LanguageInfo.LanguageInfo()
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.LanguageInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public LanguageInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.LanguageInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.LanguageInfo.LanguageInfoId
+  commentId: P:SuperOffice.WebApi.Data.LanguageInfo.LanguageInfoId
+  id: LanguageInfoId
+  parent: SuperOffice.WebApi.Data.LanguageInfo
+  langs:
+  - csharp
+  - vb
+  name: LanguageInfoId
+  nameWithType: LanguageInfo.LanguageInfoId
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.LanguageInfoId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int LanguageInfoId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LanguageInfoId As Integer
+  overload: SuperOffice.WebApi.Data.LanguageInfo.LanguageInfoId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LanguageInfo.LCID
+  commentId: P:SuperOffice.WebApi.Data.LanguageInfo.LCID
+  id: LCID
+  parent: SuperOffice.WebApi.Data.LanguageInfo
+  langs:
+  - csharp
+  - vb
+  name: LCID
+  nameWithType: LanguageInfo.LCID
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.LCID
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLanguage/culture id as a numeric .NET code\n"
+  syntax:
+    content: public virtual int LCID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LCID As Integer
+  overload: SuperOffice.WebApi.Data.LanguageInfo.LCID*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LanguageInfo.EnglishName
+  commentId: P:SuperOffice.WebApi.Data.LanguageInfo.EnglishName
+  id: EnglishName
+  parent: SuperOffice.WebApi.Data.LanguageInfo
+  langs:
+  - csharp
+  - vb
+  name: EnglishName
+  nameWithType: LanguageInfo.EnglishName
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.EnglishName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnglish name of this language (Norwegian)\n"
+  syntax:
+    content: public virtual string EnglishName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EnglishName As String
+  overload: SuperOffice.WebApi.Data.LanguageInfo.EnglishName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LanguageInfo.NativeName
+  commentId: P:SuperOffice.WebApi.Data.LanguageInfo.NativeName
+  id: NativeName
+  parent: SuperOffice.WebApi.Data.LanguageInfo
+  langs:
+  - csharp
+  - vb
+  name: NativeName
+  nameWithType: LanguageInfo.NativeName
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.NativeName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe native name of this language (Norsk Bokmål)\n"
+  syntax:
+    content: public virtual string NativeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property NativeName As String
+  overload: SuperOffice.WebApi.Data.LanguageInfo.NativeName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LanguageInfo.ThreeLetterISOLanguageName
+  commentId: P:SuperOffice.WebApi.Data.LanguageInfo.ThreeLetterISOLanguageName
+  id: ThreeLetterISOLanguageName
+  parent: SuperOffice.WebApi.Data.LanguageInfo
+  langs:
+  - csharp
+  - vb
+  name: ThreeLetterISOLanguageName
+  nameWithType: LanguageInfo.ThreeLetterISOLanguageName
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.ThreeLetterISOLanguageName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nISO 3-letter abbreviation\n"
+  syntax:
+    content: public virtual string ThreeLetterISOLanguageName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ThreeLetterISOLanguageName As String
+  overload: SuperOffice.WebApi.Data.LanguageInfo.ThreeLetterISOLanguageName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LanguageInfo.TwoLetterISOLanguageName
+  commentId: P:SuperOffice.WebApi.Data.LanguageInfo.TwoLetterISOLanguageName
+  id: TwoLetterISOLanguageName
+  parent: SuperOffice.WebApi.Data.LanguageInfo
+  langs:
+  - csharp
+  - vb
+  name: TwoLetterISOLanguageName
+  nameWithType: LanguageInfo.TwoLetterISOLanguageName
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.TwoLetterISOLanguageName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nISO 2-letter abbreviation\n"
+  syntax:
+    content: public virtual string TwoLetterISOLanguageName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TwoLetterISOLanguageName As String
+  overload: SuperOffice.WebApi.Data.LanguageInfo.TwoLetterISOLanguageName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LanguageInfo.IsBuiltIn
+  commentId: P:SuperOffice.WebApi.Data.LanguageInfo.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.WebApi.Data.LanguageInfo
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: LanguageInfo.IsBuiltIn
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.IsBuiltIn
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHas this row been inserted by SuperOffice priming data\n"
+  syntax:
+    content: public virtual bool IsBuiltIn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsBuiltIn As Boolean
+  overload: SuperOffice.WebApi.Data.LanguageInfo.IsBuiltIn*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.LanguageInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.LanguageInfo.#ctor
+  isExternal: true
+  name: LanguageInfo
+  nameWithType: LanguageInfo.LanguageInfo
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.LanguageInfo
+- uid: SuperOffice.WebApi.Data.LanguageInfo.LanguageInfoId*
+  commentId: Overload:SuperOffice.WebApi.Data.LanguageInfo.LanguageInfoId
+  isExternal: true
+  name: LanguageInfoId
+  nameWithType: LanguageInfo.LanguageInfoId
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.LanguageInfoId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.LanguageInfo.LCID*
+  commentId: Overload:SuperOffice.WebApi.Data.LanguageInfo.LCID
+  isExternal: true
+  name: LCID
+  nameWithType: LanguageInfo.LCID
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.LCID
+- uid: SuperOffice.WebApi.Data.LanguageInfo.EnglishName*
+  commentId: Overload:SuperOffice.WebApi.Data.LanguageInfo.EnglishName
+  isExternal: true
+  name: EnglishName
+  nameWithType: LanguageInfo.EnglishName
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.EnglishName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.LanguageInfo.NativeName*
+  commentId: Overload:SuperOffice.WebApi.Data.LanguageInfo.NativeName
+  isExternal: true
+  name: NativeName
+  nameWithType: LanguageInfo.NativeName
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.NativeName
+- uid: SuperOffice.WebApi.Data.LanguageInfo.ThreeLetterISOLanguageName*
+  commentId: Overload:SuperOffice.WebApi.Data.LanguageInfo.ThreeLetterISOLanguageName
+  isExternal: true
+  name: ThreeLetterISOLanguageName
+  nameWithType: LanguageInfo.ThreeLetterISOLanguageName
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.ThreeLetterISOLanguageName
+- uid: SuperOffice.WebApi.Data.LanguageInfo.TwoLetterISOLanguageName*
+  commentId: Overload:SuperOffice.WebApi.Data.LanguageInfo.TwoLetterISOLanguageName
+  isExternal: true
+  name: TwoLetterISOLanguageName
+  nameWithType: LanguageInfo.TwoLetterISOLanguageName
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.TwoLetterISOLanguageName
+- uid: SuperOffice.WebApi.Data.LanguageInfo.IsBuiltIn*
+  commentId: Overload:SuperOffice.WebApi.Data.LanguageInfo.IsBuiltIn
+  isExternal: true
+  name: IsBuiltIn
+  nameWithType: LanguageInfo.IsBuiltIn
+  fullName: SuperOffice.WebApi.Data.LanguageInfo.IsBuiltIn
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

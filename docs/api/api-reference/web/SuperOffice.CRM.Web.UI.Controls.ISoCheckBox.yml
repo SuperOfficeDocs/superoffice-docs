@@ -1,0 +1,539 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ISoCheckBox
+  id: ISoCheckBox
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.DataBind
+  - SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.FieldRight
+  - SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.ID
+  - SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.OnClientClick
+  - SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.Value
+  langs:
+  - csharp
+  - vb
+  name: ISoCheckBox
+  nameWithType: ISoCheckBox
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox
+  type: Interface
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public interface ISoCheckBox : IControl'
+    content.vb: >-
+      Public Interface ISoCheckBox
+          Inherits IControl
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.IControl.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.DCF.Web.UI.IControl.BeforeDataBind
+  - SuperOffice.DCF.Web.UI.IControl.UpdateDataSource
+  - SuperOffice.DCF.Web.UI.IControl.MenuObject
+  - SuperOffice.DCF.Web.UI.IControl.EditMode
+  - SuperOffice.DCF.Web.UI.IControl.ReadOnly
+  - SuperOffice.DCF.Web.UI.IControl.DataSource
+  - SuperOffice.DCF.Web.UI.IControl.TableRight
+  - SuperOffice.DCF.Web.UI.IControl.FieldLength
+  - SuperOffice.DCF.Web.UI.IControl.Caption
+  - SuperOffice.DCF.Web.UI.IControl.CaptionBinding
+  - SuperOffice.DCF.Web.UI.IControl.Tooltip
+  - SuperOffice.DCF.Web.UI.IControl.TooltipBinding
+  - SuperOffice.DCF.Web.UI.IControl.DataSourceName
+  - SuperOffice.DCF.Web.UI.IControl.TableRightName
+  - SuperOffice.DCF.Web.UI.IControl.TableRightNameBinding
+  - SuperOffice.DCF.Web.UI.IControl.DataRight
+  - SuperOffice.DCF.Web.UI.IControl.ContextStyle
+  - SuperOffice.DCF.Web.UI.IControl.DisplayAccessKey
+  - SuperOffice.DCF.Web.UI.IControl.IsValid
+  - SuperOffice.DCF.Web.UI.IControl.Validations
+  - SuperOffice.DCF.Web.UI.IControl.ForcedMode
+  - SuperOffice.DCF.Web.UI.IControl.Disabled
+  - SuperOffice.DCF.Web.UI.IControl.ForcedDisabled
+  - SuperOffice.DCF.Web.UI.IControl.Align
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.DataBind
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.DataBind
+  id: DataBind
+  parent: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox
+  langs:
+  - csharp
+  - vb
+  name: DataBind()
+  nameWithType: ISoCheckBox.DataBind()
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.DataBind()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: void DataBind()
+    content.vb: Sub DataBind
+  overload: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.DataBind*
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.ID
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.ID
+  id: ID
+  parent: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: ISoCheckBox.ID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.ID
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string ID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ID As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.ID*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.Value
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.Value
+  id: Value
+  parent: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ISoCheckBox.Value
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.Value
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: int Value { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Value As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.Value*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.FieldRight
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.FieldRight
+  id: FieldRight
+  parent: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox
+  langs:
+  - csharp
+  - vb
+  name: FieldRight
+  nameWithType: ISoCheckBox.FieldRight
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.FieldRight
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: FieldRight FieldRight { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+    content.vb: Property FieldRight As FieldRight
+  overload: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.FieldRight*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.OnClientClick
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.OnClientClick
+  id: OnClientClick
+  parent: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox
+  langs:
+  - csharp
+  - vb
+  name: OnClientClick
+  nameWithType: ISoCheckBox.OnClientClick
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.OnClientClick
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string OnClientClick { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property OnClientClick As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.OnClientClick*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.DCF.Web.UI.IControl.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.IControl.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: IControl.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.UI.IControl.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.IControl.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: IControl.Initialize
+    fullName: SuperOffice.DCF.Web.UI.IControl.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.IControl.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: IControl.Initialize
+    fullName: SuperOffice.DCF.Web.UI.IControl.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.IControl.BeforeDataBind
+  commentId: M:SuperOffice.DCF.Web.UI.IControl.BeforeDataBind
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: BeforeDataBind()
+  nameWithType: IControl.BeforeDataBind()
+  fullName: SuperOffice.DCF.Web.UI.IControl.BeforeDataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.IControl.BeforeDataBind
+    name: BeforeDataBind
+    nameWithType: IControl.BeforeDataBind
+    fullName: SuperOffice.DCF.Web.UI.IControl.BeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.IControl.BeforeDataBind
+    name: BeforeDataBind
+    nameWithType: IControl.BeforeDataBind
+    fullName: SuperOffice.DCF.Web.UI.IControl.BeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.IControl.UpdateDataSource
+  commentId: M:SuperOffice.DCF.Web.UI.IControl.UpdateDataSource
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: UpdateDataSource()
+  nameWithType: IControl.UpdateDataSource()
+  fullName: SuperOffice.DCF.Web.UI.IControl.UpdateDataSource()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.IControl.UpdateDataSource
+    name: UpdateDataSource
+    nameWithType: IControl.UpdateDataSource
+    fullName: SuperOffice.DCF.Web.UI.IControl.UpdateDataSource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.IControl.UpdateDataSource
+    name: UpdateDataSource
+    nameWithType: IControl.UpdateDataSource
+    fullName: SuperOffice.DCF.Web.UI.IControl.UpdateDataSource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.IControl.MenuObject
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.MenuObject
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: MenuObject
+  nameWithType: IControl.MenuObject
+  fullName: SuperOffice.DCF.Web.UI.IControl.MenuObject
+- uid: SuperOffice.DCF.Web.UI.IControl.EditMode
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.EditMode
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: EditMode
+  nameWithType: IControl.EditMode
+  fullName: SuperOffice.DCF.Web.UI.IControl.EditMode
+- uid: SuperOffice.DCF.Web.UI.IControl.ReadOnly
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.ReadOnly
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: ReadOnly
+  nameWithType: IControl.ReadOnly
+  fullName: SuperOffice.DCF.Web.UI.IControl.ReadOnly
+- uid: SuperOffice.DCF.Web.UI.IControl.DataSource
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.DataSource
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: DataSource
+  nameWithType: IControl.DataSource
+  fullName: SuperOffice.DCF.Web.UI.IControl.DataSource
+- uid: SuperOffice.DCF.Web.UI.IControl.TableRight
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.TableRight
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: TableRight
+  nameWithType: IControl.TableRight
+  fullName: SuperOffice.DCF.Web.UI.IControl.TableRight
+- uid: SuperOffice.DCF.Web.UI.IControl.FieldLength
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.FieldLength
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: FieldLength
+  nameWithType: IControl.FieldLength
+  fullName: SuperOffice.DCF.Web.UI.IControl.FieldLength
+- uid: SuperOffice.DCF.Web.UI.IControl.Caption
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.Caption
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: Caption
+  nameWithType: IControl.Caption
+  fullName: SuperOffice.DCF.Web.UI.IControl.Caption
+- uid: SuperOffice.DCF.Web.UI.IControl.CaptionBinding
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.CaptionBinding
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: CaptionBinding
+  nameWithType: IControl.CaptionBinding
+  fullName: SuperOffice.DCF.Web.UI.IControl.CaptionBinding
+- uid: SuperOffice.DCF.Web.UI.IControl.Tooltip
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.Tooltip
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: Tooltip
+  nameWithType: IControl.Tooltip
+  fullName: SuperOffice.DCF.Web.UI.IControl.Tooltip
+- uid: SuperOffice.DCF.Web.UI.IControl.TooltipBinding
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.TooltipBinding
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: TooltipBinding
+  nameWithType: IControl.TooltipBinding
+  fullName: SuperOffice.DCF.Web.UI.IControl.TooltipBinding
+- uid: SuperOffice.DCF.Web.UI.IControl.DataSourceName
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.DataSourceName
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: DataSourceName
+  nameWithType: IControl.DataSourceName
+  fullName: SuperOffice.DCF.Web.UI.IControl.DataSourceName
+- uid: SuperOffice.DCF.Web.UI.IControl.TableRightName
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.TableRightName
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: TableRightName
+  nameWithType: IControl.TableRightName
+  fullName: SuperOffice.DCF.Web.UI.IControl.TableRightName
+- uid: SuperOffice.DCF.Web.UI.IControl.TableRightNameBinding
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.TableRightNameBinding
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: TableRightNameBinding
+  nameWithType: IControl.TableRightNameBinding
+  fullName: SuperOffice.DCF.Web.UI.IControl.TableRightNameBinding
+- uid: SuperOffice.DCF.Web.UI.IControl.DataRight
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.DataRight
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: DataRight
+  nameWithType: IControl.DataRight
+  fullName: SuperOffice.DCF.Web.UI.IControl.DataRight
+- uid: SuperOffice.DCF.Web.UI.IControl.ContextStyle
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.ContextStyle
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: ContextStyle
+  nameWithType: IControl.ContextStyle
+  fullName: SuperOffice.DCF.Web.UI.IControl.ContextStyle
+- uid: SuperOffice.DCF.Web.UI.IControl.DisplayAccessKey
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.DisplayAccessKey
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: DisplayAccessKey
+  nameWithType: IControl.DisplayAccessKey
+  fullName: SuperOffice.DCF.Web.UI.IControl.DisplayAccessKey
+- uid: SuperOffice.DCF.Web.UI.IControl.IsValid
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.IsValid
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: IsValid
+  nameWithType: IControl.IsValid
+  fullName: SuperOffice.DCF.Web.UI.IControl.IsValid
+- uid: SuperOffice.DCF.Web.UI.IControl.Validations
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.Validations
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: Validations
+  nameWithType: IControl.Validations
+  fullName: SuperOffice.DCF.Web.UI.IControl.Validations
+- uid: SuperOffice.DCF.Web.UI.IControl.ForcedMode
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.ForcedMode
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: ForcedMode
+  nameWithType: IControl.ForcedMode
+  fullName: SuperOffice.DCF.Web.UI.IControl.ForcedMode
+- uid: SuperOffice.DCF.Web.UI.IControl.Disabled
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.Disabled
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: Disabled
+  nameWithType: IControl.Disabled
+  fullName: SuperOffice.DCF.Web.UI.IControl.Disabled
+- uid: SuperOffice.DCF.Web.UI.IControl.ForcedDisabled
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.ForcedDisabled
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: ForcedDisabled
+  nameWithType: IControl.ForcedDisabled
+  fullName: SuperOffice.DCF.Web.UI.IControl.ForcedDisabled
+- uid: SuperOffice.DCF.Web.UI.IControl.Align
+  commentId: P:SuperOffice.DCF.Web.UI.IControl.Align
+  parent: SuperOffice.DCF.Web.UI.IControl
+  isExternal: true
+  name: Align
+  nameWithType: IControl.Align
+  fullName: SuperOffice.DCF.Web.UI.IControl.Align
+- uid: SuperOffice.DCF.Web.UI.IControl
+  commentId: T:SuperOffice.DCF.Web.UI.IControl
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IControl
+  nameWithType: IControl
+  fullName: SuperOffice.DCF.Web.UI.IControl
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.DataBind*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.DataBind
+  isExternal: true
+  name: DataBind
+  nameWithType: ISoCheckBox.DataBind
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.DataBind
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.ID*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.ID
+  isExternal: true
+  name: ID
+  nameWithType: ISoCheckBox.ID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.ID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.Value*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.Value
+  isExternal: true
+  name: Value
+  nameWithType: ISoCheckBox.Value
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.Value
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.FieldRight*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.FieldRight
+  isExternal: true
+  name: FieldRight
+  nameWithType: ISoCheckBox.FieldRight
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.FieldRight
+- uid: SuperOffice.CRM.Security.FieldRight
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.OnClientClick*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.OnClientClick
+  isExternal: true
+  name: OnClientClick
+  nameWithType: ISoCheckBox.OnClientClick
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox.OnClientClick

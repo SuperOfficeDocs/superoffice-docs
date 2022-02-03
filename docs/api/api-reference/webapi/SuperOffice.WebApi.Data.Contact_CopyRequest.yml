@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_CopyRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_CopyRequest
+  id: Contact_CopyRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_CopyRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_CopyRequest.CopyPersons
+  - SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactDepartment
+  - SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactName
+  - SuperOffice.WebApi.Data.Contact_CopyRequest.SourceContactId
+  langs:
+  - csharp
+  - vb
+  name: Contact_CopyRequest
+  nameWithType: Contact_CopyRequest
+  fullName: SuperOffice.WebApi.Data.Contact_CopyRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_CopyRequest : Object'
+    content.vb: >-
+      Public Class Contact_CopyRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_CopyRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_CopyRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_CopyRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_CopyRequest()
+  nameWithType: Contact_CopyRequest.Contact_CopyRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_CopyRequest.Contact_CopyRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_CopyRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_CopyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_CopyRequest.SourceContactId
+  commentId: P:SuperOffice.WebApi.Data.Contact_CopyRequest.SourceContactId
+  id: SourceContactId
+  parent: SuperOffice.WebApi.Data.Contact_CopyRequest
+  langs:
+  - csharp
+  - vb
+  name: SourceContactId
+  nameWithType: Contact_CopyRequest.SourceContactId
+  fullName: SuperOffice.WebApi.Data.Contact_CopyRequest.SourceContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SourceContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SourceContactId As Integer
+  overload: SuperOffice.WebApi.Data.Contact_CopyRequest.SourceContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactName
+  commentId: P:SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactName
+  id: DestinationContactName
+  parent: SuperOffice.WebApi.Data.Contact_CopyRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationContactName
+  nameWithType: Contact_CopyRequest.DestinationContactName
+  fullName: SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string DestinationContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DestinationContactName As String
+  overload: SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactDepartment
+  commentId: P:SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactDepartment
+  id: DestinationContactDepartment
+  parent: SuperOffice.WebApi.Data.Contact_CopyRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationContactDepartment
+  nameWithType: Contact_CopyRequest.DestinationContactDepartment
+  fullName: SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactDepartment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string DestinationContactDepartment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DestinationContactDepartment As String
+  overload: SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactDepartment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_CopyRequest.CopyPersons
+  commentId: P:SuperOffice.WebApi.Data.Contact_CopyRequest.CopyPersons
+  id: CopyPersons
+  parent: SuperOffice.WebApi.Data.Contact_CopyRequest
+  langs:
+  - csharp
+  - vb
+  name: CopyPersons
+  nameWithType: Contact_CopyRequest.CopyPersons
+  fullName: SuperOffice.WebApi.Data.Contact_CopyRequest.CopyPersons
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool CopyPersons { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CopyPersons As Boolean
+  overload: SuperOffice.WebApi.Data.Contact_CopyRequest.CopyPersons*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_CopyRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_CopyRequest.#ctor
+  isExternal: true
+  name: Contact_CopyRequest
+  nameWithType: Contact_CopyRequest.Contact_CopyRequest
+  fullName: SuperOffice.WebApi.Data.Contact_CopyRequest.Contact_CopyRequest
+- uid: SuperOffice.WebApi.Data.Contact_CopyRequest.SourceContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_CopyRequest.SourceContactId
+  isExternal: true
+  name: SourceContactId
+  nameWithType: Contact_CopyRequest.SourceContactId
+  fullName: SuperOffice.WebApi.Data.Contact_CopyRequest.SourceContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactName
+  isExternal: true
+  name: DestinationContactName
+  nameWithType: Contact_CopyRequest.DestinationContactName
+  fullName: SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactDepartment*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactDepartment
+  isExternal: true
+  name: DestinationContactDepartment
+  nameWithType: Contact_CopyRequest.DestinationContactDepartment
+  fullName: SuperOffice.WebApi.Data.Contact_CopyRequest.DestinationContactDepartment
+- uid: SuperOffice.WebApi.Data.Contact_CopyRequest.CopyPersons*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_CopyRequest.CopyPersons
+  isExternal: true
+  name: CopyPersons
+  nameWithType: Contact_CopyRequest.CopyPersons
+  fullName: SuperOffice.WebApi.Data.Contact_CopyRequest.CopyPersons
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

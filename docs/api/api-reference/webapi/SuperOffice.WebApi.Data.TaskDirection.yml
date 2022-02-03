@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TaskDirection
+  commentId: T:SuperOffice.WebApi.Data.TaskDirection
+  id: TaskDirection
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TaskDirection.Incoming
+  - SuperOffice.WebApi.Data.TaskDirection.Outgoing
+  - SuperOffice.WebApi.Data.TaskDirection.SaintAll
+  - SuperOffice.WebApi.Data.TaskDirection.Unknown
+  - SuperOffice.WebApi.Data.TaskDirection.value__
+  langs:
+  - csharp
+  - vb
+  name: TaskDirection
+  nameWithType: TaskDirection
+  fullName: SuperOffice.WebApi.Data.TaskDirection
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for field &apos;direction&apos; in table &apos;task&apos;. Controls icons used in GUI\nThis Enum is used by:  Task.direction\n"
+  syntax:
+    content: 'public sealed class TaskDirection : Enum'
+    content.vb: >-
+      Public NotInheritable Class TaskDirection
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TaskDirection.value__
+  commentId: F:SuperOffice.WebApi.Data.TaskDirection.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TaskDirection
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TaskDirection.value__
+  fullName: SuperOffice.WebApi.Data.TaskDirection.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TaskDirection.Unknown
+  commentId: F:SuperOffice.WebApi.Data.TaskDirection.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.TaskDirection
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TaskDirection.Unknown
+  fullName: SuperOffice.WebApi.Data.TaskDirection.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax:
+    content: public const TaskDirection Unknown
+    return:
+      type: SuperOffice.WebApi.Data.TaskDirection
+    content.vb: Public Const Unknown As TaskDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskDirection.Incoming
+  commentId: F:SuperOffice.WebApi.Data.TaskDirection.Incoming
+  id: Incoming
+  parent: SuperOffice.WebApi.Data.TaskDirection
+  langs:
+  - csharp
+  - vb
+  name: Incoming
+  nameWithType: TaskDirection.Incoming
+  fullName: SuperOffice.WebApi.Data.TaskDirection.Incoming
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The task is sent in to SuperOffice CRM 5\n"
+  syntax:
+    content: public const TaskDirection Incoming
+    return:
+      type: SuperOffice.WebApi.Data.TaskDirection
+    content.vb: Public Const Incoming As TaskDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskDirection.Outgoing
+  commentId: F:SuperOffice.WebApi.Data.TaskDirection.Outgoing
+  id: Outgoing
+  parent: SuperOffice.WebApi.Data.TaskDirection
+  langs:
+  - csharp
+  - vb
+  name: Outgoing
+  nameWithType: TaskDirection.Outgoing
+  fullName: SuperOffice.WebApi.Data.TaskDirection.Outgoing
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The task is sent out from SuperOffice CRM 5\n"
+  syntax:
+    content: public const TaskDirection Outgoing
+    return:
+      type: SuperOffice.WebApi.Data.TaskDirection
+    content.vb: Public Const Outgoing As TaskDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskDirection.SaintAll
+  commentId: F:SuperOffice.WebApi.Data.TaskDirection.SaintAll
+  id: SaintAll
+  parent: SuperOffice.WebApi.Data.TaskDirection
+  langs:
+  - csharp
+  - vb
+  name: SaintAll
+  nameWithType: TaskDirection.SaintAll
+  fullName: SuperOffice.WebApi.Data.TaskDirection.SaintAll
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: All&apos; choice for Saint. This is NOT an acceptable value for a task definition, but is used by the Saint system for indexing all directions\n"
+  syntax:
+    content: public const TaskDirection SaintAll
+    return:
+      type: SuperOffice.WebApi.Data.TaskDirection
+    content.vb: Public Const SaintAll As TaskDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TaskDirection
+  commentId: T:SuperOffice.WebApi.Data.TaskDirection
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TaskDirection
+  nameWithType: TaskDirection
+  fullName: SuperOffice.WebApi.Data.TaskDirection

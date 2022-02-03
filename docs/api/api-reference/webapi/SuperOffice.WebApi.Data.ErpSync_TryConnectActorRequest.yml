@@ -1,0 +1,361 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest
+  id: ErpSync_TryConnectActorRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmActorType
+  - SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmRecordId
+  - SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpActorType
+  - SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpConnectionId
+  - SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpKey
+  - SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.FieldValues
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_TryConnectActorRequest
+  nameWithType: ErpSync_TryConnectActorRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_TryConnectActorRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_TryConnectActorRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_TryConnectActorRequest()
+  nameWithType: ErpSync_TryConnectActorRequest.ErpSync_TryConnectActorRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpSync_TryConnectActorRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_TryConnectActorRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_TryConnectActorRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmRecordId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmRecordId
+  id: CrmRecordId
+  parent: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest
+  langs:
+  - csharp
+  - vb
+  name: CrmRecordId
+  nameWithType: ErpSync_TryConnectActorRequest.CrmRecordId
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmRecordId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CrmRecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CrmRecordId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmRecordId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmActorType
+  id: CrmActorType
+  parent: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest
+  langs:
+  - csharp
+  - vb
+  name: CrmActorType
+  nameWithType: ErpSync_TryConnectActorRequest.CrmActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmActorType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CrmActorType CrmActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CrmActorType
+    content.vb: Public Property CrmActorType As CrmActorType
+  overload: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpKey
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpKey
+  id: ErpKey
+  parent: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpKey
+  nameWithType: ErpSync_TryConnectActorRequest.ErpKey
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ErpKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErpKey As String
+  overload: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpActorType
+  id: ErpActorType
+  parent: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpActorType
+  nameWithType: ErpSync_TryConnectActorRequest.ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpActorType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpActorType ErpActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Property ErpActorType As ErpActorType
+  overload: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.FieldValues
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.FieldValues
+  id: FieldValues
+  parent: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest
+  langs:
+  - csharp
+  - vb
+  name: FieldValues
+  nameWithType: ErpSync_TryConnectActorRequest.FieldValues
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.FieldValues
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSyncFieldValue[] FieldValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ErpSyncFieldValue[]
+    content.vb: Public Property FieldValues As ErpSyncFieldValue()
+  overload: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.FieldValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.#ctor
+  isExternal: true
+  name: ErpSync_TryConnectActorRequest
+  nameWithType: ErpSync_TryConnectActorRequest.ErpSync_TryConnectActorRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpSync_TryConnectActorRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_TryConnectActorRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmRecordId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmRecordId
+  isExternal: true
+  name: CrmRecordId
+  nameWithType: ErpSync_TryConnectActorRequest.CrmRecordId
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmRecordId
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmActorType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmActorType
+  isExternal: true
+  name: CrmActorType
+  nameWithType: ErpSync_TryConnectActorRequest.CrmActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.CrmActorType
+- uid: SuperOffice.WebApi.Data.CrmActorType
+  commentId: T:SuperOffice.WebApi.Data.CrmActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: SuperOffice.WebApi.Data.CrmActorType
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpKey*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpKey
+  isExternal: true
+  name: ErpKey
+  nameWithType: ErpSync_TryConnectActorRequest.ErpKey
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpActorType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpSync_TryConnectActorRequest.ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.ErpActorType
+- uid: SuperOffice.WebApi.Data.ErpActorType
+  commentId: T:SuperOffice.WebApi.Data.ErpActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpActorType
+- uid: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.FieldValues*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.FieldValues
+  isExternal: true
+  name: FieldValues
+  nameWithType: ErpSync_TryConnectActorRequest.FieldValues
+  fullName: SuperOffice.WebApi.Data.ErpSync_TryConnectActorRequest.FieldValues
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue[]
+  isExternal: true
+  name: ErpSyncFieldValue[]
+  nameWithType: ErpSyncFieldValue[]
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue[]
+  nameWithType.vb: ErpSyncFieldValue()
+  fullName.vb: SuperOffice.WebApi.Data.ErpSyncFieldValue()
+  name.vb: ErpSyncFieldValue()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    name: ErpSyncFieldValue
+    nameWithType: ErpSyncFieldValue
+    fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    name: ErpSyncFieldValue
+    nameWithType: ErpSyncFieldValue
+    fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

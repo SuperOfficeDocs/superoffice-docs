@@ -1,0 +1,464 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.VisibleForSentryHelper
+  commentId: T:SuperOffice.CRM.Security.VisibleForSentryHelper
+  id: VisibleForSentryHelper
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction(SuperOffice.CRM.Data.VisibleForTableInfo)
+  - SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+  langs:
+  - csharp
+  - vb
+  name: VisibleForSentryHelper
+  nameWithType: VisibleForSentryHelper
+  fullName: SuperOffice.CRM.Security.VisibleForSentryHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nHelper class for sentry functionality, to modify SELECT queries so that they include the\ncorrect join and restriction\n"
+  syntax:
+    content: public static class VisibleForSentryHelper
+    content.vb: Public Module VisibleForSentryHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction(SuperOffice.CRM.Data.VisibleForTableInfo)
+  commentId: M:SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction(SuperOffice.CRM.Data.VisibleForTableInfo)
+  id: GetVisibleForRestriction(SuperOffice.CRM.Data.VisibleForTableInfo)
+  parent: SuperOffice.CRM.Security.VisibleForSentryHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVisibleForRestriction(VisibleForTableInfo)
+  nameWithType: VisibleForSentryHelper.GetVisibleForRestriction(VisibleForTableInfo)
+  fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction(SuperOffice.CRM.Data.VisibleForTableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the VisibleFor restriction clause, checking for access via forAll, forGroupId and forAssociateId\n"
+  remarks: "\nThe group id check includes both the primary and all secondary user groups the current\nassociate is a member of\n"
+  syntax:
+    content: public static Restriction GetVisibleForRestriction(VisibleForTableInfo v)
+    parameters:
+    - id: v
+      type: SuperOffice.CRM.Data.VisibleForTableInfo
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Shared Function GetVisibleForRestriction(v As VisibleForTableInfo) As Restriction
+  overload: SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+  id: JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.VisibleForSentryHelper
+  langs:
+  - csharp
+  - vb
+  name: JoinVisibleFor(Select, TableInfo)
+  nameWithType: VisibleForSentryHelper.JoinVisibleFor(Select, TableInfo)
+  fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nModify the given query by adding the join to VisibleFor, with the proper restrictions\n"
+  remarks: "\nIf a join to VisibleFor is not required for the given table, nothing happens. If a join already\nexists in the query, and is an outer join, then it is upgraded to an inner join. If restrictions\nshould be set up-front for filtering for this main table, that is done.\n<p></p>\nImportant note - if the main table is itself an outer-joined table, then any joins created here\nwill also be left-outer (and existing ones will not be changed to inner), as that would break\nthe original left outer join and make it behave like an inner. Sorry, that is how SQL works.\n"
+  syntax:
+    content: public static void JoinVisibleFor(Select sql, TableInfo mainTable)
+    parameters:
+    - id: sql
+      type: SuperOffice.Data.SQL.Select
+      description: Query to modify
+    - id: mainTable
+      type: SuperOffice.Data.SQL.TableInfo
+      description: Main table of query
+    content.vb: Public Shared Sub JoinVisibleFor(sql As  Select, mainTable As TableInfo)
+  overload: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction*
+  commentId: Overload:SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction
+  isExternal: true
+  name: GetVisibleForRestriction
+  nameWithType: VisibleForSentryHelper.GetVisibleForRestriction
+  fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction
+- uid: SuperOffice.CRM.Data.VisibleForTableInfo
+  commentId: T:SuperOffice.CRM.Data.VisibleForTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: VisibleForTableInfo
+  nameWithType: VisibleForTableInfo
+  fullName: SuperOffice.CRM.Data.VisibleForTableInfo
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor*
+  commentId: Overload:SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor
+  isExternal: true
+  name: JoinVisibleFor
+  nameWithType: VisibleForSentryHelper.JoinVisibleFor
+  fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo

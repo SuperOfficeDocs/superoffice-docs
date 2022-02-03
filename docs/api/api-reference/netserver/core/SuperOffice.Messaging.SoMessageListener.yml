@@ -1,0 +1,888 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging.SoMessageListener
+  commentId: T:SuperOffice.Messaging.SoMessageListener
+  id: SoMessageListener
+  parent: SuperOffice.Messaging
+  children:
+  - SuperOffice.Messaging.SoMessageListener.#ctor(System.Net.IPEndPoint,System.Boolean,SuperOffice.Messaging.SoMessageRecieved)
+  - SuperOffice.Messaging.SoMessageListener.BindToSocket(System.Net.IPEndPoint@,System.Boolean)
+  - SuperOffice.Messaging.SoMessageListener.Dispose
+  - SuperOffice.Messaging.SoMessageListener.EndPoint
+  - SuperOffice.Messaging.SoMessageListener.Start
+  - SuperOffice.Messaging.SoMessageListener.State
+  - SuperOffice.Messaging.SoMessageListener.Stop
+  - SuperOffice.Messaging.SoMessageListener.StopAllListeners
+  langs:
+  - csharp
+  - vb
+  name: SoMessageListener
+  nameWithType: SoMessageListener
+  fullName: SuperOffice.Messaging.SoMessageListener
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nMessage listener used for listening to SuperOffice messages.\n"
+  syntax:
+    content: 'public class SoMessageListener : IDisposable'
+    content.vb: >-
+      Public Class SoMessageListener
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Messaging.SoMessageListener.EnumUtil.MapEnums``2
+  - SuperOffice.Messaging.SoMessageListener.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Messaging.SoMessageListener.#ctor(System.Net.IPEndPoint,System.Boolean,SuperOffice.Messaging.SoMessageRecieved)
+  commentId: M:SuperOffice.Messaging.SoMessageListener.#ctor(System.Net.IPEndPoint,System.Boolean,SuperOffice.Messaging.SoMessageRecieved)
+  id: '#ctor(System.Net.IPEndPoint,System.Boolean,SuperOffice.Messaging.SoMessageRecieved)'
+  parent: SuperOffice.Messaging.SoMessageListener
+  langs:
+  - csharp
+  - vb
+  name: SoMessageListener(IPEndPoint, Boolean, SoMessageRecieved)
+  nameWithType: SoMessageListener.SoMessageListener(IPEndPoint, Boolean, SoMessageRecieved)
+  fullName: SuperOffice.Messaging.SoMessageListener.SoMessageListener(System.Net.IPEndPoint, System.Boolean, SuperOffice.Messaging.SoMessageRecieved)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nInitialize a new message listener.\n"
+  syntax:
+    content: public SoMessageListener(IPEndPoint endPoint, bool scanForPort, SoMessageRecieved onSoMessageRecieved)
+    parameters:
+    - id: endPoint
+      type: System.Net.IPEndPoint
+      description: End point to listen for messages on.
+    - id: scanForPort
+      type: System.Boolean
+      description: True if the message listener should scan for an available port to listen on.
+    - id: onSoMessageRecieved
+      type: SuperOffice.Messaging.SoMessageRecieved
+      description: Call-back called when messages are recieved.
+    content.vb: Public Sub New(endPoint As IPEndPoint, scanForPort As Boolean, onSoMessageRecieved As SoMessageRecieved)
+  overload: SuperOffice.Messaging.SoMessageListener.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.SoMessageListener.Start
+  commentId: M:SuperOffice.Messaging.SoMessageListener.Start
+  id: Start
+  parent: SuperOffice.Messaging.SoMessageListener
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: SoMessageListener.Start()
+  fullName: SuperOffice.Messaging.SoMessageListener.Start()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nStart the message listener.\n"
+  syntax:
+    content: protected virtual void Start()
+    content.vb: Protected Overridable Sub Start
+  overload: SuperOffice.Messaging.SoMessageListener.Start*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Messaging.SoMessageListener.StopAllListeners
+  commentId: M:SuperOffice.Messaging.SoMessageListener.StopAllListeners
+  id: StopAllListeners
+  parent: SuperOffice.Messaging.SoMessageListener
+  langs:
+  - csharp
+  - vb
+  name: StopAllListeners()
+  nameWithType: SoMessageListener.StopAllListeners()
+  fullName: SuperOffice.Messaging.SoMessageListener.StopAllListeners()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nStop all message listeners within the process.\n"
+  syntax:
+    content: public static void StopAllListeners()
+    content.vb: Public Shared Sub StopAllListeners
+  overload: SuperOffice.Messaging.SoMessageListener.StopAllListeners*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Messaging.SoMessageListener.Stop
+  commentId: M:SuperOffice.Messaging.SoMessageListener.Stop
+  id: Stop
+  parent: SuperOffice.Messaging.SoMessageListener
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: SoMessageListener.Stop()
+  fullName: SuperOffice.Messaging.SoMessageListener.Stop()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nStop the message listener.\n"
+  syntax:
+    content: protected virtual void Stop()
+    content.vb: Protected Overridable Sub Stop
+  overload: SuperOffice.Messaging.SoMessageListener.Stop*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Messaging.SoMessageListener.BindToSocket(System.Net.IPEndPoint@,System.Boolean)
+  commentId: M:SuperOffice.Messaging.SoMessageListener.BindToSocket(System.Net.IPEndPoint@,System.Boolean)
+  id: BindToSocket(System.Net.IPEndPoint@,System.Boolean)
+  parent: SuperOffice.Messaging.SoMessageListener
+  langs:
+  - csharp
+  - vb
+  name: BindToSocket(ref IPEndPoint, Boolean)
+  nameWithType: SoMessageListener.BindToSocket(ref IPEndPoint, Boolean)
+  fullName: SuperOffice.Messaging.SoMessageListener.BindToSocket(ref System.Net.IPEndPoint, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nBind to socket using IPv4 UDP Data Gram.\n"
+  syntax:
+    content: public static Socket BindToSocket(ref IPEndPoint endPoint, bool scanForPort)
+    parameters:
+    - id: endPoint
+      type: System.Net.IPEndPoint
+      description: End point associated with the socket
+    - id: scanForPort
+      type: System.Boolean
+      description: True to scan for availaple ports in higher ranges
+    return:
+      type: System.Net.Sockets.Socket
+      description: Socket bound to the provided port
+    content.vb: Public Shared Function BindToSocket(ByRef endPoint As IPEndPoint, scanForPort As Boolean) As Socket
+  overload: SuperOffice.Messaging.SoMessageListener.BindToSocket*
+  nameWithType.vb: SoMessageListener.BindToSocket(ByRef IPEndPoint, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Messaging.SoMessageListener.BindToSocket(ByRef System.Net.IPEndPoint, System.Boolean)
+  name.vb: BindToSocket(ByRef IPEndPoint, Boolean)
+- uid: SuperOffice.Messaging.SoMessageListener.Dispose
+  commentId: M:SuperOffice.Messaging.SoMessageListener.Dispose
+  id: Dispose
+  parent: SuperOffice.Messaging.SoMessageListener
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SoMessageListener.Dispose()
+  fullName: SuperOffice.Messaging.SoMessageListener.Dispose()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nDispose the message listener.\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Messaging.SoMessageListener.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.SoMessageListener.State
+  commentId: P:SuperOffice.Messaging.SoMessageListener.State
+  id: State
+  parent: SuperOffice.Messaging.SoMessageListener
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: SoMessageListener.State
+  fullName: SuperOffice.Messaging.SoMessageListener.State
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nState of the message listener.\n"
+  syntax:
+    content: public SoMessageListener.ListeningState State { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Messaging.SoMessageListener.ListeningState
+    content.vb: Public Property State As SoMessageListener.ListeningState
+  overload: SuperOffice.Messaging.SoMessageListener.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.SoMessageListener.EndPoint
+  commentId: P:SuperOffice.Messaging.SoMessageListener.EndPoint
+  id: EndPoint
+  parent: SuperOffice.Messaging.SoMessageListener
+  langs:
+  - csharp
+  - vb
+  name: EndPoint
+  nameWithType: SoMessageListener.EndPoint
+  fullName: SuperOffice.Messaging.SoMessageListener.EndPoint
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nEnd point the message listener is listening on.\n"
+  syntax:
+    content: public IPEndPoint EndPoint { get; }
+    parameters: []
+    return:
+      type: System.Net.IPEndPoint
+    content.vb: Public ReadOnly Property EndPoint As IPEndPoint
+  overload: SuperOffice.Messaging.SoMessageListener.EndPoint*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Messaging
+  commentId: N:SuperOffice.Messaging
+  isExternal: true
+  name: SuperOffice.Messaging
+  nameWithType: SuperOffice.Messaging
+  fullName: SuperOffice.Messaging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.SoMessageListener.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoMessageListener, To>()
+  nameWithType: EnumUtil.MapEnums<SoMessageListener, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Messaging.SoMessageListener, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoMessageListener, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Messaging.SoMessageListener, To)()
+  name.vb: MapEnums(Of SoMessageListener, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoMessageListener, To>
+    nameWithType: EnumUtil.MapEnums<SoMessageListener, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Messaging.SoMessageListener, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoMessageListener, To)
+    nameWithType: EnumUtil.MapEnums(Of SoMessageListener, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Messaging.SoMessageListener, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.SoMessageListener.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoMessageListener, To>()
+  nameWithType: Converters.MapEnums<SoMessageListener, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.SoMessageListener, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoMessageListener, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.SoMessageListener, To)()
+  name.vb: MapEnums(Of SoMessageListener, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoMessageListener, To>
+    nameWithType: Converters.MapEnums<SoMessageListener, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.SoMessageListener, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoMessageListener, To)
+    nameWithType: Converters.MapEnums(Of SoMessageListener, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.SoMessageListener, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Messaging.SoMessageListener.#ctor*
+  commentId: Overload:SuperOffice.Messaging.SoMessageListener.#ctor
+  isExternal: true
+  name: SoMessageListener
+  nameWithType: SoMessageListener.SoMessageListener
+  fullName: SuperOffice.Messaging.SoMessageListener.SoMessageListener
+- uid: System.Net.IPEndPoint
+  isExternal: true
+  name: IPEndPoint
+  nameWithType: IPEndPoint
+  fullName: System.Net.IPEndPoint
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Messaging.SoMessageRecieved
+  commentId: T:SuperOffice.Messaging.SoMessageRecieved
+  parent: SuperOffice.Messaging
+  isExternal: true
+  name: SoMessageRecieved
+  nameWithType: SoMessageRecieved
+  fullName: SuperOffice.Messaging.SoMessageRecieved
+- uid: SuperOffice.Messaging.SoMessageListener.Start*
+  commentId: Overload:SuperOffice.Messaging.SoMessageListener.Start
+  isExternal: true
+  name: Start
+  nameWithType: SoMessageListener.Start
+  fullName: SuperOffice.Messaging.SoMessageListener.Start
+- uid: SuperOffice.Messaging.SoMessageListener.StopAllListeners*
+  commentId: Overload:SuperOffice.Messaging.SoMessageListener.StopAllListeners
+  isExternal: true
+  name: StopAllListeners
+  nameWithType: SoMessageListener.StopAllListeners
+  fullName: SuperOffice.Messaging.SoMessageListener.StopAllListeners
+- uid: SuperOffice.Messaging.SoMessageListener.Stop*
+  commentId: Overload:SuperOffice.Messaging.SoMessageListener.Stop
+  isExternal: true
+  name: Stop
+  nameWithType: SoMessageListener.Stop
+  fullName: SuperOffice.Messaging.SoMessageListener.Stop
+- uid: SuperOffice.Messaging.SoMessageListener.BindToSocket*
+  commentId: Overload:SuperOffice.Messaging.SoMessageListener.BindToSocket
+  isExternal: true
+  name: BindToSocket
+  nameWithType: SoMessageListener.BindToSocket
+  fullName: SuperOffice.Messaging.SoMessageListener.BindToSocket
+- uid: System.Net.Sockets.Socket
+  commentId: '!:System.Net.Sockets.Socket'
+  isExternal: true
+  name: Socket
+  nameWithType: Socket
+  fullName: System.Net.Sockets.Socket
+- uid: SuperOffice.Messaging.SoMessageListener.Dispose*
+  commentId: Overload:SuperOffice.Messaging.SoMessageListener.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: SoMessageListener.Dispose
+  fullName: SuperOffice.Messaging.SoMessageListener.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.SoMessageListener.State*
+  commentId: Overload:SuperOffice.Messaging.SoMessageListener.State
+  isExternal: true
+  name: State
+  nameWithType: SoMessageListener.State
+  fullName: SuperOffice.Messaging.SoMessageListener.State
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState
+  commentId: T:SuperOffice.Messaging.SoMessageListener.ListeningState
+  parent: SuperOffice.Messaging
+  isExternal: true
+  name: SoMessageListener.ListeningState
+  nameWithType: SoMessageListener.ListeningState
+  fullName: SuperOffice.Messaging.SoMessageListener.ListeningState
+- uid: SuperOffice.Messaging.SoMessageListener.EndPoint*
+  commentId: Overload:SuperOffice.Messaging.SoMessageListener.EndPoint
+  isExternal: true
+  name: EndPoint
+  nameWithType: SoMessageListener.EndPoint
+  fullName: SuperOffice.Messaging.SoMessageListener.EndPoint

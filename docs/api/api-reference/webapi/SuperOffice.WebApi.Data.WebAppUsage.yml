@@ -1,0 +1,427 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WebAppUsage
+  commentId: T:SuperOffice.WebApi.Data.WebAppUsage
+  id: WebAppUsage
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WebAppUsage.#ctor
+  - SuperOffice.WebApi.Data.WebAppUsage.AggregateBin
+  - SuperOffice.WebApi.Data.WebAppUsage.AggregateCount
+  - SuperOffice.WebApi.Data.WebAppUsage.AssocId
+  - SuperOffice.WebApi.Data.WebAppUsage.Timestamp
+  - SuperOffice.WebApi.Data.WebAppUsage.Version
+  - SuperOffice.WebApi.Data.WebAppUsage.ViewState
+  - SuperOffice.WebApi.Data.WebAppUsage.WebAppUsageId
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsage
+  nameWithType: WebAppUsage
+  fullName: SuperOffice.WebApi.Data.WebAppUsage
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WebAppUsage.\n\n"
+  syntax:
+    content: 'public class WebAppUsage : Carrier'
+    content.vb: >-
+      Public Class WebAppUsage
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DiagnosticsAgent
+    commentId: T:SuperOffice.WebApi.Agents.DiagnosticsAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WebAppUsage.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WebAppUsage.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsage()
+  nameWithType: WebAppUsage.WebAppUsage()
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.WebAppUsage()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WebAppUsage()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WebAppUsage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WebAppUsage.WebAppUsageId
+  commentId: P:SuperOffice.WebApi.Data.WebAppUsage.WebAppUsageId
+  id: WebAppUsageId
+  parent: SuperOffice.WebApi.Data.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsageId
+  nameWithType: WebAppUsage.WebAppUsageId
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.WebAppUsageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary Key\n"
+  syntax:
+    content: public virtual int WebAppUsageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WebAppUsageId As Integer
+  overload: SuperOffice.WebApi.Data.WebAppUsage.WebAppUsageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebAppUsage.AssocId
+  commentId: P:SuperOffice.WebApi.Data.WebAppUsage.AssocId
+  id: AssocId
+  parent: SuperOffice.WebApi.Data.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: AssocId
+  nameWithType: WebAppUsage.AssocId
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.AssocId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAssociate Id\n"
+  syntax:
+    content: public virtual int AssocId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssocId As Integer
+  overload: SuperOffice.WebApi.Data.WebAppUsage.AssocId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebAppUsage.Timestamp
+  commentId: P:SuperOffice.WebApi.Data.WebAppUsage.Timestamp
+  id: Timestamp
+  parent: SuperOffice.WebApi.Data.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: WebAppUsage.Timestamp
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.Timestamp
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhich day the usage was logged\n"
+  syntax:
+    content: public virtual DateTime Timestamp { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Timestamp As DateTime
+  overload: SuperOffice.WebApi.Data.WebAppUsage.Timestamp*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebAppUsage.ViewState
+  commentId: P:SuperOffice.WebApi.Data.WebAppUsage.ViewState
+  id: ViewState
+  parent: SuperOffice.WebApi.Data.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: ViewState
+  nameWithType: WebAppUsage.ViewState
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.ViewState
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe SoProtocol(ViewState)\n"
+  syntax:
+    content: public virtual string ViewState { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ViewState As String
+  overload: SuperOffice.WebApi.Data.WebAppUsage.ViewState*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebAppUsage.AggregateCount
+  commentId: P:SuperOffice.WebApi.Data.WebAppUsage.AggregateCount
+  id: AggregateCount
+  parent: SuperOffice.WebApi.Data.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: AggregateCount
+  nameWithType: WebAppUsage.AggregateCount
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.AggregateCount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of times the specific soprotocol is accessed\n"
+  syntax:
+    content: public virtual uint AggregateCount { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property AggregateCount As UInteger
+  overload: SuperOffice.WebApi.Data.WebAppUsage.AggregateCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebAppUsage.AggregateBin
+  commentId: P:SuperOffice.WebApi.Data.WebAppUsage.AggregateBin
+  id: AggregateBin
+  parent: SuperOffice.WebApi.Data.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: AggregateBin
+  nameWithType: WebAppUsage.AggregateBin
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.AggregateBin
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n??\n"
+  syntax:
+    content: public virtual uint AggregateBin { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property AggregateBin As UInteger
+  overload: SuperOffice.WebApi.Data.WebAppUsage.AggregateBin*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebAppUsage.Version
+  commentId: P:SuperOffice.WebApi.Data.WebAppUsage.Version
+  id: Version
+  parent: SuperOffice.WebApi.Data.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: WebAppUsage.Version
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.Version
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n??\n"
+  syntax:
+    content: public virtual uint Version { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property Version As UInteger
+  overload: SuperOffice.WebApi.Data.WebAppUsage.Version*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  commentId: T:SuperOffice.WebApi.Agents.DiagnosticsAgent
+  isExternal: true
+  name: DiagnosticsAgent
+  nameWithType: DiagnosticsAgent
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WebAppUsage.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WebAppUsage.#ctor
+  isExternal: true
+  name: WebAppUsage
+  nameWithType: WebAppUsage.WebAppUsage
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.WebAppUsage
+- uid: SuperOffice.WebApi.Data.WebAppUsage.WebAppUsageId*
+  commentId: Overload:SuperOffice.WebApi.Data.WebAppUsage.WebAppUsageId
+  isExternal: true
+  name: WebAppUsageId
+  nameWithType: WebAppUsage.WebAppUsageId
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.WebAppUsageId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WebAppUsage.AssocId*
+  commentId: Overload:SuperOffice.WebApi.Data.WebAppUsage.AssocId
+  isExternal: true
+  name: AssocId
+  nameWithType: WebAppUsage.AssocId
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.AssocId
+- uid: SuperOffice.WebApi.Data.WebAppUsage.Timestamp*
+  commentId: Overload:SuperOffice.WebApi.Data.WebAppUsage.Timestamp
+  isExternal: true
+  name: Timestamp
+  nameWithType: WebAppUsage.Timestamp
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.Timestamp
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.WebAppUsage.ViewState*
+  commentId: Overload:SuperOffice.WebApi.Data.WebAppUsage.ViewState
+  isExternal: true
+  name: ViewState
+  nameWithType: WebAppUsage.ViewState
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.ViewState
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.WebAppUsage.AggregateCount*
+  commentId: Overload:SuperOffice.WebApi.Data.WebAppUsage.AggregateCount
+  isExternal: true
+  name: AggregateCount
+  nameWithType: WebAppUsage.AggregateCount
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.AggregateCount
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: SuperOffice.WebApi.Data.WebAppUsage.AggregateBin*
+  commentId: Overload:SuperOffice.WebApi.Data.WebAppUsage.AggregateBin
+  isExternal: true
+  name: AggregateBin
+  nameWithType: WebAppUsage.AggregateBin
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.AggregateBin
+- uid: SuperOffice.WebApi.Data.WebAppUsage.Version*
+  commentId: Overload:SuperOffice.WebApi.Data.WebAppUsage.Version
+  isExternal: true
+  name: Version
+  nameWithType: WebAppUsage.Version
+  fullName: SuperOffice.WebApi.Data.WebAppUsage.Version

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest
+  commentId: T:SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest
+  id: User_DecryptAndSaveExternalTokensRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.#ctor
+  - SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.TokenManagementInfo
+  langs:
+  - csharp
+  - vb
+  name: User_DecryptAndSaveExternalTokensRequest
+  nameWithType: User_DecryptAndSaveExternalTokensRequest
+  fullName: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_DecryptAndSaveExternalTokensRequest : Object'
+    content.vb: >-
+      Public Class User_DecryptAndSaveExternalTokensRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest
+  langs:
+  - csharp
+  - vb
+  name: User_DecryptAndSaveExternalTokensRequest()
+  nameWithType: User_DecryptAndSaveExternalTokensRequest.User_DecryptAndSaveExternalTokensRequest()
+  fullName: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.User_DecryptAndSaveExternalTokensRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_DecryptAndSaveExternalTokensRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.TokenManagementInfo
+  commentId: P:SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.TokenManagementInfo
+  id: TokenManagementInfo
+  parent: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest
+  langs:
+  - csharp
+  - vb
+  name: TokenManagementInfo
+  nameWithType: User_DecryptAndSaveExternalTokensRequest.TokenManagementInfo
+  fullName: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.TokenManagementInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TokenManagementInfo TokenManagementInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TokenManagementInfo
+    content.vb: Public Property TokenManagementInfo As TokenManagementInfo
+  overload: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.TokenManagementInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.#ctor
+  isExternal: true
+  name: User_DecryptAndSaveExternalTokensRequest
+  nameWithType: User_DecryptAndSaveExternalTokensRequest.User_DecryptAndSaveExternalTokensRequest
+  fullName: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.User_DecryptAndSaveExternalTokensRequest
+- uid: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.TokenManagementInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.TokenManagementInfo
+  isExternal: true
+  name: TokenManagementInfo
+  nameWithType: User_DecryptAndSaveExternalTokensRequest.TokenManagementInfo
+  fullName: SuperOffice.WebApi.Data.User_DecryptAndSaveExternalTokensRequest.TokenManagementInfo
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo
+  commentId: T:SuperOffice.WebApi.Data.TokenManagementInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TokenManagementInfo
+  nameWithType: TokenManagementInfo
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo

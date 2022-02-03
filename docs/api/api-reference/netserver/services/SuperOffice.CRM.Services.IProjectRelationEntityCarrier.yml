@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+  id: IProjectRelationEntityCarrier
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+  langs:
+  - csharp
+  - vb
+  name: IProjectRelationEntityCarrier
+  nameWithType: IProjectRelationEntityCarrier
+  fullName: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public interface IProjectRelationEntityCarrier
+    content.vb: Public Interface IProjectRelationEntityCarrier
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+  commentId: P:SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+  id: Project
+  parent: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: IProjectRelationEntityCarrier.Project
+  fullName: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAn activity may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.\n"
+  syntax:
+    content: Project Project { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Project
+    content.vb: Property Project As Project
+  overload: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+  isExternal: true
+  name: Project
+  nameWithType: IProjectRelationEntityCarrier.Project
+  fullName: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+- uid: SuperOffice.CRM.Services.Project
+  commentId: T:SuperOffice.CRM.Services.Project
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.CRM.Services.Project

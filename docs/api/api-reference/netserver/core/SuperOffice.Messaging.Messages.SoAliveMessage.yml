@@ -1,0 +1,1099 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage
+  commentId: T:SuperOffice.Messaging.Messages.SoAliveMessage
+  id: SoAliveMessage
+  parent: SuperOffice.Messaging.Messages
+  children:
+  - SuperOffice.Messaging.Messages.SoAliveMessage.#ctor
+  - SuperOffice.Messaging.Messages.SoAliveMessage.#ctor(System.Int32,System.Guid)
+  - SuperOffice.Messaging.Messages.SoAliveMessage.PrepareDatabaseMessage(SuperOffice.CRM.Rows.MessageRow)
+  - SuperOffice.Messaging.Messages.SoAliveMessage.ProcessId
+  - SuperOffice.Messaging.Messages.SoAliveMessage.SourcePort
+  langs:
+  - csharp
+  - vb
+  name: SoAliveMessage
+  nameWithType: SoAliveMessage
+  fullName: SuperOffice.Messaging.Messages.SoAliveMessage
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nBody of alive messages sent to request <xref href=\"SuperOffice.Messaging.Messages.SoAcknowledgeMessage\" data-throw-if-not-resolved=\"false\"></xref> \nwith details of the other clients participating on the message bus.\n"
+  syntax:
+    content: 'public class SoAliveMessage : SoMessageHeader'
+    content.vb: >-
+      Public Class SoAliveMessage
+          Inherits SoMessageHeader
+  inheritance:
+  - System.Object
+  - SuperOffice.Messaging.Messages.SoMessagePreHeader
+  - SuperOffice.Messaging.Messages.SoMessageHeader
+  inheritedMembers:
+  - SuperOffice.Messaging.Messages.SoMessageHeader.HeaderSize
+  - SuperOffice.Messaging.Messages.SoMessageHeader.BodySize
+  - SuperOffice.Messaging.Messages.SoMessageHeader.MessageType
+  - SuperOffice.Messaging.Messages.SoMessageHeader.MessageId
+  - SuperOffice.Messaging.Messages.SoMessageHeader.SourceId
+  - SuperOffice.Messaging.Messages.SoMessageHeader.TargetId
+  - SuperOffice.Messaging.Messages.SoMessageHeader.IsValidate
+  - SuperOffice.Messaging.Messages.SoMessageHeader.IsForMe(System.Guid)
+  - SuperOffice.Messaging.Messages.SoMessageHeader.Description
+  - SuperOffice.Messaging.Messages.SoMessagePreHeader.Identifier
+  - SuperOffice.Messaging.Messages.SoMessagePreHeader.Version
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Messaging.Messages.SoAliveMessage.EnumUtil.MapEnums``2
+  - SuperOffice.Messaging.Messages.SoAliveMessage.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Messaging.Messages.SoAliveMessage)
+  - SuperOffice.Messaging.Messages.SoAliveMessage.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Messaging.Messages.SoAliveMessage.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage.SourcePort
+  commentId: F:SuperOffice.Messaging.Messages.SoAliveMessage.SourcePort
+  id: SourcePort
+  parent: SuperOffice.Messaging.Messages.SoAliveMessage
+  langs:
+  - csharp
+  - vb
+  name: SourcePort
+  nameWithType: SoAliveMessage.SourcePort
+  fullName: SuperOffice.Messaging.Messages.SoAliveMessage.SourcePort
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nPort the process listens to.\n"
+  syntax:
+    content: public int SourcePort
+    return:
+      type: System.Int32
+    content.vb: Public SourcePort As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage.ProcessId
+  commentId: F:SuperOffice.Messaging.Messages.SoAliveMessage.ProcessId
+  id: ProcessId
+  parent: SuperOffice.Messaging.Messages.SoAliveMessage
+  langs:
+  - csharp
+  - vb
+  name: ProcessId
+  nameWithType: SoAliveMessage.ProcessId
+  fullName: SuperOffice.Messaging.Messages.SoAliveMessage.ProcessId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nProcess identifier.  Only the 32 LSB are used for 32 bits processors.\n"
+  syntax:
+    content: public ulong ProcessId
+    return:
+      type: System.UInt64
+    content.vb: Public ProcessId As ULong
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage.#ctor
+  commentId: M:SuperOffice.Messaging.Messages.SoAliveMessage.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Messaging.Messages.SoAliveMessage
+  langs:
+  - csharp
+  - vb
+  name: SoAliveMessage()
+  nameWithType: SoAliveMessage.SoAliveMessage()
+  fullName: SuperOffice.Messaging.Messages.SoAliveMessage.SoAliveMessage()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nConstructor called by the serializer.\n"
+  syntax:
+    content: public SoAliveMessage()
+    content.vb: Public Sub New
+  overload: SuperOffice.Messaging.Messages.SoAliveMessage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage.#ctor(System.Int32,System.Guid)
+  commentId: M:SuperOffice.Messaging.Messages.SoAliveMessage.#ctor(System.Int32,System.Guid)
+  id: '#ctor(System.Int32,System.Guid)'
+  parent: SuperOffice.Messaging.Messages.SoAliveMessage
+  langs:
+  - csharp
+  - vb
+  name: SoAliveMessage(Int32, Guid)
+  nameWithType: SoAliveMessage.SoAliveMessage(Int32, Guid)
+  fullName: SuperOffice.Messaging.Messages.SoAliveMessage.SoAliveMessage(System.Int32, System.Guid)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nConstructor used for initializing a new alive message.\n"
+  syntax:
+    content: public SoAliveMessage(int sourcePort, Guid sourceId)
+    parameters:
+    - id: sourcePort
+      type: System.Int32
+      description: Port the client listens to.
+    - id: sourceId
+      type: System.Guid
+      description: Source ID (Guid) of the current client.
+    content.vb: Public Sub New(sourcePort As Integer, sourceId As Guid)
+  overload: SuperOffice.Messaging.Messages.SoAliveMessage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage.PrepareDatabaseMessage(SuperOffice.CRM.Rows.MessageRow)
+  commentId: M:SuperOffice.Messaging.Messages.SoAliveMessage.PrepareDatabaseMessage(SuperOffice.CRM.Rows.MessageRow)
+  id: PrepareDatabaseMessage(SuperOffice.CRM.Rows.MessageRow)
+  parent: SuperOffice.Messaging.Messages.SoAliveMessage
+  langs:
+  - csharp
+  - vb
+  name: PrepareDatabaseMessage(MessageRow)
+  nameWithType: SoAliveMessage.PrepareDatabaseMessage(MessageRow)
+  fullName: SuperOffice.Messaging.Messages.SoAliveMessage.PrepareDatabaseMessage(SuperOffice.CRM.Rows.MessageRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  syntax:
+    content: public override bool PrepareDatabaseMessage(MessageRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.MessageRow
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function PrepareDatabaseMessage(row As MessageRow) As Boolean
+  overridden: SuperOffice.Messaging.Messages.SoMessageHeader.PrepareDatabaseMessage(SuperOffice.CRM.Rows.MessageRow)
+  overload: SuperOffice.Messaging.Messages.SoAliveMessage.PrepareDatabaseMessage*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: SuperOffice.Messaging.Messages
+  commentId: N:SuperOffice.Messaging.Messages
+  isExternal: true
+  name: SuperOffice.Messaging.Messages
+  nameWithType: SuperOffice.Messaging.Messages
+  fullName: SuperOffice.Messaging.Messages
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Messaging.Messages.SoMessagePreHeader
+  commentId: T:SuperOffice.Messaging.Messages.SoMessagePreHeader
+  parent: SuperOffice.Messaging.Messages
+  isExternal: true
+  name: SoMessagePreHeader
+  nameWithType: SoMessagePreHeader
+  fullName: SuperOffice.Messaging.Messages.SoMessagePreHeader
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader
+  commentId: T:SuperOffice.Messaging.Messages.SoMessageHeader
+  parent: SuperOffice.Messaging.Messages
+  isExternal: true
+  name: SoMessageHeader
+  nameWithType: SoMessageHeader
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader.HeaderSize
+  commentId: F:SuperOffice.Messaging.Messages.SoMessageHeader.HeaderSize
+  parent: SuperOffice.Messaging.Messages.SoMessageHeader
+  isExternal: true
+  name: HeaderSize
+  nameWithType: SoMessageHeader.HeaderSize
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader.HeaderSize
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader.BodySize
+  commentId: F:SuperOffice.Messaging.Messages.SoMessageHeader.BodySize
+  parent: SuperOffice.Messaging.Messages.SoMessageHeader
+  isExternal: true
+  name: BodySize
+  nameWithType: SoMessageHeader.BodySize
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader.BodySize
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader.MessageType
+  commentId: F:SuperOffice.Messaging.Messages.SoMessageHeader.MessageType
+  parent: SuperOffice.Messaging.Messages.SoMessageHeader
+  isExternal: true
+  name: MessageType
+  nameWithType: SoMessageHeader.MessageType
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader.MessageType
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader.MessageId
+  commentId: F:SuperOffice.Messaging.Messages.SoMessageHeader.MessageId
+  parent: SuperOffice.Messaging.Messages.SoMessageHeader
+  isExternal: true
+  name: MessageId
+  nameWithType: SoMessageHeader.MessageId
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader.MessageId
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader.SourceId
+  commentId: F:SuperOffice.Messaging.Messages.SoMessageHeader.SourceId
+  parent: SuperOffice.Messaging.Messages.SoMessageHeader
+  isExternal: true
+  name: SourceId
+  nameWithType: SoMessageHeader.SourceId
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader.SourceId
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader.TargetId
+  commentId: F:SuperOffice.Messaging.Messages.SoMessageHeader.TargetId
+  parent: SuperOffice.Messaging.Messages.SoMessageHeader
+  isExternal: true
+  name: TargetId
+  nameWithType: SoMessageHeader.TargetId
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader.TargetId
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader.IsValidate
+  commentId: M:SuperOffice.Messaging.Messages.SoMessageHeader.IsValidate
+  parent: SuperOffice.Messaging.Messages.SoMessageHeader
+  isExternal: true
+  name: IsValidate()
+  nameWithType: SoMessageHeader.IsValidate()
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader.IsValidate()
+  spec.csharp:
+  - uid: SuperOffice.Messaging.Messages.SoMessageHeader.IsValidate
+    name: IsValidate
+    nameWithType: SoMessageHeader.IsValidate
+    fullName: SuperOffice.Messaging.Messages.SoMessageHeader.IsValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Messaging.Messages.SoMessageHeader.IsValidate
+    name: IsValidate
+    nameWithType: SoMessageHeader.IsValidate
+    fullName: SuperOffice.Messaging.Messages.SoMessageHeader.IsValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader.IsForMe(System.Guid)
+  commentId: M:SuperOffice.Messaging.Messages.SoMessageHeader.IsForMe(System.Guid)
+  parent: SuperOffice.Messaging.Messages.SoMessageHeader
+  isExternal: true
+  name: IsForMe(Guid)
+  nameWithType: SoMessageHeader.IsForMe(Guid)
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader.IsForMe(System.Guid)
+  spec.csharp:
+  - uid: SuperOffice.Messaging.Messages.SoMessageHeader.IsForMe(System.Guid)
+    name: IsForMe
+    nameWithType: SoMessageHeader.IsForMe
+    fullName: SuperOffice.Messaging.Messages.SoMessageHeader.IsForMe
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Messaging.Messages.SoMessageHeader.IsForMe(System.Guid)
+    name: IsForMe
+    nameWithType: SoMessageHeader.IsForMe
+    fullName: SuperOffice.Messaging.Messages.SoMessageHeader.IsForMe
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader.Description
+  commentId: P:SuperOffice.Messaging.Messages.SoMessageHeader.Description
+  parent: SuperOffice.Messaging.Messages.SoMessageHeader
+  isExternal: true
+  name: Description
+  nameWithType: SoMessageHeader.Description
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader.Description
+- uid: SuperOffice.Messaging.Messages.SoMessagePreHeader.Identifier
+  commentId: F:SuperOffice.Messaging.Messages.SoMessagePreHeader.Identifier
+  parent: SuperOffice.Messaging.Messages.SoMessagePreHeader
+  isExternal: true
+  name: Identifier
+  nameWithType: SoMessagePreHeader.Identifier
+  fullName: SuperOffice.Messaging.Messages.SoMessagePreHeader.Identifier
+- uid: SuperOffice.Messaging.Messages.SoMessagePreHeader.Version
+  commentId: F:SuperOffice.Messaging.Messages.SoMessagePreHeader.Version
+  parent: SuperOffice.Messaging.Messages.SoMessagePreHeader
+  isExternal: true
+  name: Version
+  nameWithType: SoMessagePreHeader.Version
+  fullName: SuperOffice.Messaging.Messages.SoMessagePreHeader.Version
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoAliveMessage, To>()
+  nameWithType: EnumUtil.MapEnums<SoAliveMessage, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Messaging.Messages.SoAliveMessage, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoAliveMessage, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Messaging.Messages.SoAliveMessage, To)()
+  name.vb: MapEnums(Of SoAliveMessage, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoAliveMessage, To>
+    nameWithType: EnumUtil.MapEnums<SoAliveMessage, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Messaging.Messages.SoAliveMessage, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoAliveMessage, To)
+    nameWithType: EnumUtil.MapEnums(Of SoAliveMessage, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Messaging.Messages.SoAliveMessage, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Messaging.Messages.SoAliveMessage)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoAliveMessage>(SoAliveMessage)
+  nameWithType: ObjectExtensions.AssignByReflection<SoAliveMessage>(SoAliveMessage)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Messaging.Messages.SoAliveMessage>(SuperOffice.Messaging.Messages.SoAliveMessage)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoAliveMessage)(SoAliveMessage)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Messaging.Messages.SoAliveMessage)(SuperOffice.Messaging.Messages.SoAliveMessage)
+  name.vb: AssignByReflection(Of SoAliveMessage)(SoAliveMessage)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoAliveMessage>
+    nameWithType: ObjectExtensions.AssignByReflection<SoAliveMessage>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Messaging.Messages.SoAliveMessage>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Messaging.Messages.SoAliveMessage
+    name: SoAliveMessage
+    nameWithType: SoAliveMessage
+    fullName: SuperOffice.Messaging.Messages.SoAliveMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoAliveMessage)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoAliveMessage)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Messaging.Messages.SoAliveMessage)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Messaging.Messages.SoAliveMessage
+    name: SoAliveMessage
+    nameWithType: SoAliveMessage
+    fullName: SuperOffice.Messaging.Messages.SoAliveMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoAliveMessage>()
+  nameWithType: ObjectExtensions.GraphCopy<SoAliveMessage>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Messaging.Messages.SoAliveMessage>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoAliveMessage)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Messaging.Messages.SoAliveMessage)()
+  name.vb: GraphCopy(Of SoAliveMessage)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoAliveMessage>
+    nameWithType: ObjectExtensions.GraphCopy<SoAliveMessage>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Messaging.Messages.SoAliveMessage>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoAliveMessage)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoAliveMessage)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Messaging.Messages.SoAliveMessage)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoAliveMessage, To>()
+  nameWithType: Converters.MapEnums<SoAliveMessage, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.Messages.SoAliveMessage, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoAliveMessage, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.Messages.SoAliveMessage, To)()
+  name.vb: MapEnums(Of SoAliveMessage, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoAliveMessage, To>
+    nameWithType: Converters.MapEnums<SoAliveMessage, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.Messages.SoAliveMessage, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoAliveMessage, To)
+    nameWithType: Converters.MapEnums(Of SoAliveMessage, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.Messages.SoAliveMessage, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage.#ctor*
+  commentId: Overload:SuperOffice.Messaging.Messages.SoAliveMessage.#ctor
+  isExternal: true
+  name: SoAliveMessage
+  nameWithType: SoAliveMessage.SoAliveMessage
+  fullName: SuperOffice.Messaging.Messages.SoAliveMessage.SoAliveMessage
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader.PrepareDatabaseMessage(SuperOffice.CRM.Rows.MessageRow)
+  commentId: M:SuperOffice.Messaging.Messages.SoMessageHeader.PrepareDatabaseMessage(SuperOffice.CRM.Rows.MessageRow)
+  parent: SuperOffice.Messaging.Messages.SoMessageHeader
+  isExternal: true
+  name: PrepareDatabaseMessage(MessageRow)
+  nameWithType: SoMessageHeader.PrepareDatabaseMessage(MessageRow)
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader.PrepareDatabaseMessage(SuperOffice.CRM.Rows.MessageRow)
+  spec.csharp:
+  - uid: SuperOffice.Messaging.Messages.SoMessageHeader.PrepareDatabaseMessage(SuperOffice.CRM.Rows.MessageRow)
+    name: PrepareDatabaseMessage
+    nameWithType: SoMessageHeader.PrepareDatabaseMessage
+    fullName: SuperOffice.Messaging.Messages.SoMessageHeader.PrepareDatabaseMessage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.MessageRow
+    name: MessageRow
+    nameWithType: MessageRow
+    fullName: SuperOffice.CRM.Rows.MessageRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Messaging.Messages.SoMessageHeader.PrepareDatabaseMessage(SuperOffice.CRM.Rows.MessageRow)
+    name: PrepareDatabaseMessage
+    nameWithType: SoMessageHeader.PrepareDatabaseMessage
+    fullName: SuperOffice.Messaging.Messages.SoMessageHeader.PrepareDatabaseMessage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.MessageRow
+    name: MessageRow
+    nameWithType: MessageRow
+    fullName: SuperOffice.CRM.Rows.MessageRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoAliveMessage.PrepareDatabaseMessage*
+  commentId: Overload:SuperOffice.Messaging.Messages.SoAliveMessage.PrepareDatabaseMessage
+  isExternal: true
+  name: PrepareDatabaseMessage
+  nameWithType: SoAliveMessage.PrepareDatabaseMessage
+  fullName: SuperOffice.Messaging.Messages.SoAliveMessage.PrepareDatabaseMessage
+- uid: SuperOffice.CRM.Rows.MessageRow
+  commentId: T:SuperOffice.CRM.Rows.MessageRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: MessageRow
+  nameWithType: MessageRow
+  fullName: SuperOffice.CRM.Rows.MessageRow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows

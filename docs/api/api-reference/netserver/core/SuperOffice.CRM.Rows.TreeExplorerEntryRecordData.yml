@@ -1,0 +1,1243 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  commentId: T:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  id: TreeExplorerEntryRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.#ctor
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.ExpandOrder
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Href
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Icon
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.InternalId
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.InternalParent
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Leaf
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Name
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Onclick
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.ParentId
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SessionKey
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SortOrder
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Target
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Tooltip
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.TreeExplorerEntryId
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.TreeKey
+  langs:
+  - csharp
+  - vb
+  name: TreeExplorerEntryRecordData
+  nameWithType: TreeExplorerEntryRecordData
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the tree_explorer_entry table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.TreeExplorerEntryRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.TreeExplorerEntryTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class TreeExplorerEntryRecordData
+    content.vb: Public Class TreeExplorerEntryRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.TreeExplorerEntryId
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.TreeExplorerEntryId
+  id: TreeExplorerEntryId
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: TreeExplorerEntryId
+  nameWithType: TreeExplorerEntryRecordData.TreeExplorerEntryId
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.TreeExplorerEntryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int TreeExplorerEntryId
+    return:
+      type: System.Int32
+    content.vb: Public TreeExplorerEntryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.ParentId
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.ParentId
+  id: ParentId
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: TreeExplorerEntryRecordData.ParentId
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.ParentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe parent id of the entry \n"
+  syntax:
+    content: public int ParentId
+    return:
+      type: System.Int32
+    content.vb: Public ParentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TreeExplorerEntryRecordData.Name
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name of the entry \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Icon
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Icon
+  id: Icon
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: TreeExplorerEntryRecordData.Icon
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Icon
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe icon of the entry \n"
+  syntax:
+    content: public string Icon
+    return:
+      type: System.String
+    content.vb: Public Icon As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Onclick
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Onclick
+  id: Onclick
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Onclick
+  nameWithType: TreeExplorerEntryRecordData.Onclick
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Onclick
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe onclick action of the entry \n"
+  syntax:
+    content: public string Onclick
+    return:
+      type: System.String
+    content.vb: Public Onclick As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Href
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Href
+  id: Href
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Href
+  nameWithType: TreeExplorerEntryRecordData.Href
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Href
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe href of the entry \n"
+  syntax:
+    content: public string Href
+    return:
+      type: System.String
+    content.vb: Public Href As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Tooltip
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: TreeExplorerEntryRecordData.Tooltip
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe tooltip of the entry \n"
+  syntax:
+    content: public string Tooltip
+    return:
+      type: System.String
+    content.vb: Public Tooltip As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Target
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Target
+  id: Target
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: TreeExplorerEntryRecordData.Target
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Target
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe target of the href of the entry \n"
+  syntax:
+    content: public string Target
+    return:
+      type: System.String
+    content.vb: Public Target As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SortOrder
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SortOrder
+  id: SortOrder
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: TreeExplorerEntryRecordData.SortOrder
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SortOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe order of the entry \n"
+  syntax:
+    content: public int SortOrder
+    return:
+      type: System.Int32
+    content.vb: Public SortOrder As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Leaf
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Leaf
+  id: Leaf
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Leaf
+  nameWithType: TreeExplorerEntryRecordData.Leaf
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.Leaf
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTrue if the entry is a leaf node \n"
+  syntax:
+    content: public short Leaf
+    return:
+      type: System.Int16
+    content.vb: Public Leaf As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SessionKey
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SessionKey
+  id: SessionKey
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: SessionKey
+  nameWithType: TreeExplorerEntryRecordData.SessionKey
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SessionKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe session this entry belongs to \n"
+  syntax:
+    content: public string SessionKey
+    return:
+      type: System.String
+    content.vb: Public SessionKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.ExpandOrder
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.ExpandOrder
+  id: ExpandOrder
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExpandOrder
+  nameWithType: TreeExplorerEntryRecordData.ExpandOrder
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.ExpandOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf > 0 then expanded and insertorder for the tree \n"
+  syntax:
+    content: public int ExpandOrder
+    return:
+      type: System.Int32
+    content.vb: Public ExpandOrder As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.TreeKey
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.TreeKey
+  id: TreeKey
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: TreeKey
+  nameWithType: TreeExplorerEntryRecordData.TreeKey
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.TreeKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe key used for reloading \n"
+  syntax:
+    content: public string TreeKey
+    return:
+      type: System.String
+    content.vb: Public TreeKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.InternalId
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.InternalId
+  id: InternalId
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: InternalId
+  nameWithType: TreeExplorerEntryRecordData.InternalId
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.InternalId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe internal id for the tree \n"
+  syntax:
+    content: public string InternalId
+    return:
+      type: System.String
+    content.vb: Public InternalId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.InternalParent
+  commentId: F:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.InternalParent
+  id: InternalParent
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: InternalParent
+  nameWithType: TreeExplorerEntryRecordData.InternalParent
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.InternalParent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe internal parent id for the tree \n"
+  syntax:
+    content: public string InternalParent
+    return:
+      type: System.String
+    content.vb: Public InternalParent As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: TreeExplorerEntryRecordData()
+  nameWithType: TreeExplorerEntryRecordData.TreeExplorerEntryRecordData()
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.TreeExplorerEntryRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public TreeExplorerEntryRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TreeExplorerEntryRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<TreeExplorerEntryRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TreeExplorerEntryRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TreeExplorerEntryRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TreeExplorerEntryRecordData, To)()
+  name.vb: MapEnums(Of TreeExplorerEntryRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TreeExplorerEntryRecordData, To>
+    nameWithType: EnumUtil.MapEnums<TreeExplorerEntryRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TreeExplorerEntryRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TreeExplorerEntryRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of TreeExplorerEntryRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TreeExplorerEntryRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TreeExplorerEntryRecordData>(TreeExplorerEntryRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<TreeExplorerEntryRecordData>(TreeExplorerEntryRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TreeExplorerEntryRecordData>(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TreeExplorerEntryRecordData)(TreeExplorerEntryRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+  name.vb: AssignByReflection(Of TreeExplorerEntryRecordData)(TreeExplorerEntryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TreeExplorerEntryRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<TreeExplorerEntryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TreeExplorerEntryRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+    name: TreeExplorerEntryRecordData
+    nameWithType: TreeExplorerEntryRecordData
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TreeExplorerEntryRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TreeExplorerEntryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+    name: TreeExplorerEntryRecordData
+    nameWithType: TreeExplorerEntryRecordData
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TreeExplorerEntryRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<TreeExplorerEntryRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TreeExplorerEntryRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TreeExplorerEntryRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)()
+  name.vb: GraphCopy(Of TreeExplorerEntryRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TreeExplorerEntryRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<TreeExplorerEntryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TreeExplorerEntryRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TreeExplorerEntryRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of TreeExplorerEntryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+  parent: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+  name: ToInsert()
+  nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TreeExplorerEntryRecordData, To>()
+  nameWithType: Converters.MapEnums<TreeExplorerEntryRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TreeExplorerEntryRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of TreeExplorerEntryRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TreeExplorerEntryRecordData, To)()
+  name.vb: MapEnums(Of TreeExplorerEntryRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TreeExplorerEntryRecordData, To>
+    nameWithType: Converters.MapEnums<TreeExplorerEntryRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TreeExplorerEntryRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TreeExplorerEntryRecordData, To)
+    nameWithType: Converters.MapEnums(Of TreeExplorerEntryRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TreeExplorerEntryRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+  commentId: M:SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+  isExternal: true
+  name: ToInsert(TreeExplorerEntryRecordData)
+  nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert(TreeExplorerEntryRecordData)
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+    name: ToInsert
+    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+    name: TreeExplorerEntryRecordData
+    nameWithType: TreeExplorerEntryRecordData
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TreeExplorerEntryRecordData)
+    name: ToInsert
+    nameWithType: TreeExplorerEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+    name: TreeExplorerEntryRecordData
+    nameWithType: TreeExplorerEntryRecordData
+    fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TreeExplorerEntryRecordDataExtensions
+  nameWithType: TreeExplorerEntryRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.#ctor
+  isExternal: true
+  name: TreeExplorerEntryRecordData
+  nameWithType: TreeExplorerEntryRecordData.TreeExplorerEntryRecordData
+  fullName: SuperOffice.CRM.Rows.TreeExplorerEntryRecordData.TreeExplorerEntryRecordData

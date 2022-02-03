@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects
+  commentId: T:SuperOffice.CRM.Entities.GetRelatedObjects
+  id: GetRelatedObjects
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.GetRelatedObjects.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.AsyncCallback,System.Object)
+  - SuperOffice.CRM.Entities.GetRelatedObjects.EndInvoke(System.IAsyncResult)
+  - SuperOffice.CRM.Entities.GetRelatedObjects.Invoke(System.Collections.Generic.List{SuperOffice.Data.INestedPersist})
+  langs:
+  - csharp
+  - vb
+  name: GetRelatedObjects
+  nameWithType: GetRelatedObjects
+  fullName: SuperOffice.CRM.Entities.GetRelatedObjects
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nDelegate used when there is a need to obtain a list of related objects to be used in a save operation.\n"
+  syntax:
+    content: public delegate void GetRelatedObjects(List<INestedPersist> relatedObjects);
+    parameters:
+    - id: relatedObjects
+      type: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
+      description: List of related objects
+    content.vb: Public Delegate Sub GetRelatedObjects(relatedObjects As List(Of INestedPersist))
+  extensionMethods:
+  - SuperOffice.CRM.Entities.GetRelatedObjects.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.GetRelatedObjects.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.CRM.Entities.GetRelatedObjects.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.CRM.Entities.GetRelatedObjects
+  langs:
+  - csharp
+  - vb
+  name: GetRelatedObjects(Object, IntPtr)
+  nameWithType: GetRelatedObjects.GetRelatedObjects(Object, IntPtr)
+  fullName: SuperOffice.CRM.Entities.GetRelatedObjects.GetRelatedObjects(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public GetRelatedObjects(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.CRM.Entities.GetRelatedObjects.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects.Invoke(System.Collections.Generic.List{SuperOffice.Data.INestedPersist})
+  commentId: M:SuperOffice.CRM.Entities.GetRelatedObjects.Invoke(System.Collections.Generic.List{SuperOffice.Data.INestedPersist})
+  id: Invoke(System.Collections.Generic.List{SuperOffice.Data.INestedPersist})
+  parent: SuperOffice.CRM.Entities.GetRelatedObjects
+  langs:
+  - csharp
+  - vb
+  name: Invoke(List<INestedPersist>)
+  nameWithType: GetRelatedObjects.Invoke(List<INestedPersist>)
+  fullName: SuperOffice.CRM.Entities.GetRelatedObjects.Invoke(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual void Invoke(List<INestedPersist> relatedObjects)
+    parameters:
+    - id: relatedObjects
+      type: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
+    content.vb: Public Overridable Sub Invoke(relatedObjects As List(Of INestedPersist))
+  overload: SuperOffice.CRM.Entities.GetRelatedObjects.Invoke*
+  nameWithType.vb: GetRelatedObjects.Invoke(List(Of INestedPersist))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Entities.GetRelatedObjects.Invoke(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist))
+  name.vb: Invoke(List(Of INestedPersist))
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.AsyncCallback,System.Object)
+  parent: SuperOffice.CRM.Entities.GetRelatedObjects
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(List<INestedPersist>, AsyncCallback, Object)
+  nameWithType: GetRelatedObjects.BeginInvoke(List<INestedPersist>, AsyncCallback, Object)
+  fullName: SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(List<INestedPersist> relatedObjects, AsyncCallback callback, object object)
+    parameters:
+    - id: relatedObjects
+      type: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(relatedObjects As List(Of INestedPersist), callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke*
+  nameWithType.vb: GetRelatedObjects.BeginInvoke(List(Of INestedPersist), AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.AsyncCallback, System.Object)
+  name.vb: BeginInvoke(List(Of INestedPersist), AsyncCallback, Object)
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.CRM.Entities.GetRelatedObjects.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.CRM.Entities.GetRelatedObjects
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: GetRelatedObjects.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.CRM.Entities.GetRelatedObjects.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.CRM.Entities.GetRelatedObjects.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<GetRelatedObjects, To>()
+  nameWithType: EnumUtil.MapEnums<GetRelatedObjects, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.GetRelatedObjects, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of GetRelatedObjects, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.GetRelatedObjects, To)()
+  name.vb: MapEnums(Of GetRelatedObjects, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<GetRelatedObjects, To>
+    nameWithType: EnumUtil.MapEnums<GetRelatedObjects, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.GetRelatedObjects, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of GetRelatedObjects, To)
+    nameWithType: EnumUtil.MapEnums(Of GetRelatedObjects, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.GetRelatedObjects, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<GetRelatedObjects, To>()
+  nameWithType: Converters.MapEnums<GetRelatedObjects, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.GetRelatedObjects, To>()
+  nameWithType.vb: Converters.MapEnums(Of GetRelatedObjects, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.GetRelatedObjects, To)()
+  name.vb: MapEnums(Of GetRelatedObjects, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<GetRelatedObjects, To>
+    nameWithType: Converters.MapEnums<GetRelatedObjects, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.GetRelatedObjects, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of GetRelatedObjects, To)
+    nameWithType: Converters.MapEnums(Of GetRelatedObjects, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.GetRelatedObjects, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
+  commentId: T:System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<INestedPersist>
+  nameWithType: List<INestedPersist>
+  fullName: System.Collections.Generic.List<SuperOffice.Data.INestedPersist>
+  nameWithType.vb: List(Of INestedPersist)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist)
+  name.vb: List(Of INestedPersist)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.GetRelatedObjects.#ctor
+  isExternal: true
+  name: GetRelatedObjects
+  nameWithType: GetRelatedObjects.GetRelatedObjects
+  fullName: SuperOffice.CRM.Entities.GetRelatedObjects.GetRelatedObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects.Invoke*
+  commentId: Overload:SuperOffice.CRM.Entities.GetRelatedObjects.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: GetRelatedObjects.Invoke
+  fullName: SuperOffice.CRM.Entities.GetRelatedObjects.Invoke
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke*
+  commentId: Overload:SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: GetRelatedObjects.BeginInvoke
+  fullName: SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects.EndInvoke*
+  commentId: Overload:SuperOffice.CRM.Entities.GetRelatedObjects.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: GetRelatedObjects.EndInvoke
+  fullName: SuperOffice.CRM.Entities.GetRelatedObjects.EndInvoke

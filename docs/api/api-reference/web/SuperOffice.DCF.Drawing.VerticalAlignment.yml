@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Drawing.VerticalAlignment
+  commentId: T:SuperOffice.DCF.Drawing.VerticalAlignment
+  id: VerticalAlignment
+  parent: SuperOffice.DCF.Drawing
+  children:
+  - SuperOffice.DCF.Drawing.VerticalAlignment.None
+  - SuperOffice.DCF.Drawing.VerticalAlignment.Top
+  langs:
+  - csharp
+  - vb
+  name: VerticalAlignment
+  nameWithType: VerticalAlignment
+  fullName: SuperOffice.DCF.Drawing.VerticalAlignment
+  type: Enum
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  syntax:
+    content: public enum VerticalAlignment
+    content.vb: Public Enum VerticalAlignment
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Drawing.VerticalAlignment.Top
+  commentId: F:SuperOffice.DCF.Drawing.VerticalAlignment.Top
+  id: Top
+  parent: SuperOffice.DCF.Drawing.VerticalAlignment
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: VerticalAlignment.Top
+  fullName: SuperOffice.DCF.Drawing.VerticalAlignment.Top
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  syntax:
+    content: Top = 0
+    return:
+      type: SuperOffice.DCF.Drawing.VerticalAlignment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Drawing.VerticalAlignment.None
+  commentId: F:SuperOffice.DCF.Drawing.VerticalAlignment.None
+  id: None
+  parent: SuperOffice.DCF.Drawing.VerticalAlignment
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: VerticalAlignment.None
+  fullName: SuperOffice.DCF.Drawing.VerticalAlignment.None
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  syntax:
+    content: None = 1
+    return:
+      type: SuperOffice.DCF.Drawing.VerticalAlignment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Drawing
+  commentId: N:SuperOffice.DCF.Drawing
+  isExternal: true
+  name: SuperOffice.DCF.Drawing
+  nameWithType: SuperOffice.DCF.Drawing
+  fullName: SuperOffice.DCF.Drawing
+- uid: SuperOffice.DCF.Drawing.VerticalAlignment
+  commentId: T:SuperOffice.DCF.Drawing.VerticalAlignment
+  parent: SuperOffice.DCF.Drawing
+  isExternal: true
+  name: VerticalAlignment
+  nameWithType: VerticalAlignment
+  fullName: SuperOffice.DCF.Drawing.VerticalAlignment

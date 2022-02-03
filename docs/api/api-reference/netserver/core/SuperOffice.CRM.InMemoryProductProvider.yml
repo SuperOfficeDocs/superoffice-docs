@@ -1,0 +1,1660 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.InMemoryProductProvider
+  commentId: T:SuperOffice.CRM.InMemoryProductProvider
+  id: InMemoryProductProvider
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.InMemoryProductProvider.#ctor
+  - SuperOffice.CRM.InMemoryProductProvider.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
+  - SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists(System.String)
+  - SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists(System.String)
+  - SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists(System.String)
+  - SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages(System.String)
+  - SuperOffice.CRM.InMemoryProductProvider.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  - SuperOffice.CRM.InMemoryProductProvider.GetProductImage(System.String,System.Int32)
+  - SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
+  - SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.ProductInfo)
+  - SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  - SuperOffice.CRM.InMemoryProductProvider.Images
+  - SuperOffice.CRM.InMemoryProductProvider.PriceLists
+  - SuperOffice.CRM.InMemoryProductProvider.Products
+  - SuperOffice.CRM.InMemoryProductProvider.ValidateData
+  langs:
+  - csharp
+  - vb
+  name: InMemoryProductProvider
+  nameWithType: InMemoryProductProvider
+  fullName: SuperOffice.CRM.InMemoryProductProvider
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nClass where you load up the products and pricelists in memory and use from memory.\n"
+  syntax:
+    content: public class InMemoryProductProvider
+    content.vb: Public Class InMemoryProductProvider
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.InMemoryProductProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.InMemoryProductProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.InMemoryProductProvider)
+  - SuperOffice.CRM.InMemoryProductProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.InMemoryProductProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.InMemoryProductProvider.ValidateData
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.ValidateData
+  id: ValidateData
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: ValidateData()
+  nameWithType: InMemoryProductProvider.ValidateData()
+  fullName: SuperOffice.CRM.InMemoryProductProvider.ValidateData()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nChecks the loaded pricelists and products for duplicate keys\n"
+  syntax:
+    content: public PluginResponseInfo ValidateData()
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+    content.vb: Public Function ValidateData As PluginResponseInfo
+  overload: SuperOffice.CRM.InMemoryProductProvider.ValidateData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists(System.String)
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists(System.String)
+  id: GetNumberOfActivePriceLists(System.String)
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: GetNumberOfActivePriceLists(String)
+  nameWithType: InMemoryProductProvider.GetNumberOfActivePriceLists(String)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n<see cref=\"!:IProductProvider.GetNumberOfActivePriceLists\"></see>\n"
+  syntax:
+    content: public int GetNumberOfActivePriceLists(string isoCurrencyCode)
+    parameters:
+    - id: isoCurrencyCode
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function GetNumberOfActivePriceLists(isoCurrencyCode As String) As Integer
+  overload: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists(System.String)
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists(System.String)
+  id: GetActivePriceLists(System.String)
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: GetActivePriceLists(String)
+  nameWithType: InMemoryProductProvider.GetActivePriceLists(String)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n<see cref=\"!:IProductProvider.GetActivePriceLists\"></see>\n"
+  syntax:
+    content: public PriceListInfo[] GetActivePriceLists(string isoCurrencyCode)
+    parameters:
+    - id: isoCurrencyCode
+      type: System.String
+    return:
+      type: SuperOffice.CRM.PriceListInfo[]
+    content.vb: Public Function GetActivePriceLists(isoCurrencyCode As String) As PriceListInfo()
+  overload: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists(System.String)
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists(System.String)
+  id: GetAllPriceLists(System.String)
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: GetAllPriceLists(String)
+  nameWithType: InMemoryProductProvider.GetAllPriceLists(String)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n<see cref=\"!:IProductProvider.GetAllPriceLists\"></see>\n"
+  syntax:
+    content: public PriceListInfo[] GetAllPriceLists(string isoCurrencyCode)
+    parameters:
+    - id: isoCurrencyCode
+      type: System.String
+    return:
+      type: SuperOffice.CRM.PriceListInfo[]
+    content.vb: Public Function GetAllPriceLists(isoCurrencyCode As String) As PriceListInfo()
+  overload: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
+  id: FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: FindProduct(QuoteAlternativeContextInfo, String, String, String)
+  nameWithType: InMemoryProductProvider.FindProduct(QuoteAlternativeContextInfo, String, String, String)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n<see cref=\"!:IProductProvider.FindProduct\"></see>\n"
+  syntax:
+    content: public ProductInfo[] FindProduct(QuoteAlternativeContextInfo context, string currencyCode, string userinput, string priceListKey)
+    parameters:
+    - id: context
+      type: SuperOffice.CRM.QuoteAlternativeContextInfo
+    - id: currencyCode
+      type: System.String
+    - id: userinput
+      type: System.String
+    - id: priceListKey
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ProductInfo[]
+    content.vb: Public Function FindProduct(context As QuoteAlternativeContextInfo, currencyCode As String, userinput As String, priceListKey As String) As ProductInfo()
+  overload: SuperOffice.CRM.InMemoryProductProvider.FindProduct*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  id: GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: GetProduct(QuoteAlternativeContextInfo, String)
+  nameWithType: InMemoryProductProvider.GetProduct(QuoteAlternativeContextInfo, String)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n<see cref=\"!:IProductProvider.GetProduct\"></see>\n"
+  syntax:
+    content: public ProductInfo GetProduct(QuoteAlternativeContextInfo context, string erpProductKey)
+    parameters:
+    - id: context
+      type: SuperOffice.CRM.QuoteAlternativeContextInfo
+    - id: erpProductKey
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ProductInfo
+    content.vb: Public Function GetProduct(context As QuoteAlternativeContextInfo, erpProductKey As String) As ProductInfo
+  overload: SuperOffice.CRM.InMemoryProductProvider.GetProduct*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
+  id: GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: GetProducts(QuoteAlternativeContextInfo, String[])
+  nameWithType: InMemoryProductProvider.GetProducts(QuoteAlternativeContextInfo, String[])
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n<see cref=\"!:IProductProvider.GetProducts\"></see>\n"
+  syntax:
+    content: public ProductInfo[] GetProducts(QuoteAlternativeContextInfo context, string[] erpProductKeys)
+    parameters:
+    - id: context
+      type: SuperOffice.CRM.QuoteAlternativeContextInfo
+    - id: erpProductKeys
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.ProductInfo[]
+    content.vb: Public Function GetProducts(context As QuoteAlternativeContextInfo, erpProductKeys As String()) As ProductInfo()
+  overload: SuperOffice.CRM.InMemoryProductProvider.GetProducts*
+  nameWithType.vb: InMemoryProductProvider.GetProducts(QuoteAlternativeContextInfo, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.InMemoryProductProvider.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String())
+  name.vb: GetProducts(QuoteAlternativeContextInfo, String())
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  id: GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteLinesFromProduct(QuoteAlternativeContextInfo, String)
+  nameWithType: InMemoryProductProvider.GetQuoteLinesFromProduct(QuoteAlternativeContextInfo, String)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n<see cref=\"!:IProductProvider.GetQuoteLinesFromProduct\"></see>\n"
+  syntax:
+    content: public QuoteLineInfo[] GetQuoteLinesFromProduct(QuoteAlternativeContextInfo context, string erpProductKey)
+    parameters:
+    - id: context
+      type: SuperOffice.CRM.QuoteAlternativeContextInfo
+    - id: erpProductKey
+      type: System.String
+    return:
+      type: SuperOffice.CRM.QuoteLineInfo[]
+    content.vb: Public Function GetQuoteLinesFromProduct(context As QuoteAlternativeContextInfo, erpProductKey As String) As QuoteLineInfo()
+  overload: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages(System.String)
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages(System.String)
+  id: GetNumberOfProductImages(System.String)
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: GetNumberOfProductImages(String)
+  nameWithType: InMemoryProductProvider.GetNumberOfProductImages(String)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n<see cref=\"!:IProductProvider.GetNumberOfProductImages\"></see>\n"
+  syntax:
+    content: public int GetNumberOfProductImages(string erpProductKey)
+    parameters:
+    - id: erpProductKey
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function GetNumberOfProductImages(erpProductKey As String) As Integer
+  overload: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetProductImage(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetProductImage(System.String,System.Int32)
+  id: GetProductImage(System.String,System.Int32)
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: GetProductImage(String, Int32)
+  nameWithType: InMemoryProductProvider.GetProductImage(String, Int32)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProductImage(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n<see cref=\"!:IProductProvider.GetProductImage\"></see>\n"
+  syntax:
+    content: public string GetProductImage(string erpProductKey, int rank)
+    parameters:
+    - id: erpProductKey
+      type: System.String
+    - id: rank
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetProductImage(erpProductKey As String, rank As Integer) As String
+  overload: SuperOffice.CRM.InMemoryProductProvider.GetProductImage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.ProductInfo)
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.ProductInfo)
+  id: GetQuoteLinesfromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.ProductInfo)
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteLinesfromProduct(QuoteAlternativeContextInfo, ProductInfo)
+  nameWithType: InMemoryProductProvider.GetQuoteLinesfromProduct(QuoteAlternativeContextInfo, ProductInfo)
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, SuperOffice.CRM.ProductInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static QuoteLineInfo[] GetQuoteLinesfromProduct(QuoteAlternativeContextInfo context, ProductInfo p)
+    parameters:
+    - id: context
+      type: SuperOffice.CRM.QuoteAlternativeContextInfo
+    - id: p
+      type: SuperOffice.CRM.ProductInfo
+    return:
+      type: SuperOffice.CRM.QuoteLineInfo[]
+    content.vb: Public Shared Function GetQuoteLinesfromProduct(context As QuoteAlternativeContextInfo, p As ProductInfo) As QuoteLineInfo()
+  overload: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.InMemoryProductProvider.#ctor
+  commentId: M:SuperOffice.CRM.InMemoryProductProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: InMemoryProductProvider()
+  nameWithType: InMemoryProductProvider.InMemoryProductProvider()
+  fullName: SuperOffice.CRM.InMemoryProductProvider.InMemoryProductProvider()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public InMemoryProductProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.InMemoryProductProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.Products
+  commentId: P:SuperOffice.CRM.InMemoryProductProvider.Products
+  id: Products
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: Products
+  nameWithType: InMemoryProductProvider.Products
+  fullName: SuperOffice.CRM.InMemoryProductProvider.Products
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe products\n"
+  syntax:
+    content: public List<ProductInfo> Products { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ProductInfo}
+    content.vb: Public Property Products As List(Of ProductInfo)
+  overload: SuperOffice.CRM.InMemoryProductProvider.Products*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.PriceLists
+  commentId: P:SuperOffice.CRM.InMemoryProductProvider.PriceLists
+  id: PriceLists
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: PriceLists
+  nameWithType: InMemoryProductProvider.PriceLists
+  fullName: SuperOffice.CRM.InMemoryProductProvider.PriceLists
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe pricelists\n"
+  syntax:
+    content: public List<PriceListInfo> PriceLists { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.PriceListInfo}
+    content.vb: Public Property PriceLists As List(Of PriceListInfo)
+  overload: SuperOffice.CRM.InMemoryProductProvider.PriceLists*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.InMemoryProductProvider.Images
+  commentId: P:SuperOffice.CRM.InMemoryProductProvider.Images
+  id: Images
+  parent: SuperOffice.CRM.InMemoryProductProvider
+  langs:
+  - csharp
+  - vb
+  name: Images
+  nameWithType: InMemoryProductProvider.Images
+  fullName: SuperOffice.CRM.InMemoryProductProvider.Images
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe images\n"
+  syntax:
+    content: public Dictionary<string, string[]> Images { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String[]}
+    content.vb: Public Property Images As Dictionary(Of String, String())
+  overload: SuperOffice.CRM.InMemoryProductProvider.Images*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.InMemoryProductProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<InMemoryProductProvider, To>()
+  nameWithType: EnumUtil.MapEnums<InMemoryProductProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.InMemoryProductProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of InMemoryProductProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.InMemoryProductProvider, To)()
+  name.vb: MapEnums(Of InMemoryProductProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<InMemoryProductProvider, To>
+    nameWithType: EnumUtil.MapEnums<InMemoryProductProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.InMemoryProductProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of InMemoryProductProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of InMemoryProductProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.InMemoryProductProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.InMemoryProductProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.InMemoryProductProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<InMemoryProductProvider>(InMemoryProductProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<InMemoryProductProvider>(InMemoryProductProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.InMemoryProductProvider>(SuperOffice.CRM.InMemoryProductProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of InMemoryProductProvider)(InMemoryProductProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.InMemoryProductProvider)(SuperOffice.CRM.InMemoryProductProvider)
+  name.vb: AssignByReflection(Of InMemoryProductProvider)(InMemoryProductProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<InMemoryProductProvider>
+    nameWithType: ObjectExtensions.AssignByReflection<InMemoryProductProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.InMemoryProductProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    nameWithType: InMemoryProductProvider
+    fullName: SuperOffice.CRM.InMemoryProductProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of InMemoryProductProvider)
+    nameWithType: ObjectExtensions.AssignByReflection(Of InMemoryProductProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.InMemoryProductProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.InMemoryProductProvider
+    name: InMemoryProductProvider
+    nameWithType: InMemoryProductProvider
+    fullName: SuperOffice.CRM.InMemoryProductProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.InMemoryProductProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<InMemoryProductProvider>()
+  nameWithType: ObjectExtensions.GraphCopy<InMemoryProductProvider>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.InMemoryProductProvider>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of InMemoryProductProvider)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.InMemoryProductProvider)()
+  name.vb: GraphCopy(Of InMemoryProductProvider)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<InMemoryProductProvider>
+    nameWithType: ObjectExtensions.GraphCopy<InMemoryProductProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.InMemoryProductProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of InMemoryProductProvider)
+    nameWithType: ObjectExtensions.GraphCopy(Of InMemoryProductProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.InMemoryProductProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.InMemoryProductProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<InMemoryProductProvider, To>()
+  nameWithType: Converters.MapEnums<InMemoryProductProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.InMemoryProductProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of InMemoryProductProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.InMemoryProductProvider, To)()
+  name.vb: MapEnums(Of InMemoryProductProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<InMemoryProductProvider, To>
+    nameWithType: Converters.MapEnums<InMemoryProductProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.InMemoryProductProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of InMemoryProductProvider, To)
+    nameWithType: Converters.MapEnums(Of InMemoryProductProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.InMemoryProductProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.InMemoryProductProvider.ValidateData*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.ValidateData
+  isExternal: true
+  name: ValidateData
+  nameWithType: InMemoryProductProvider.ValidateData
+  fullName: SuperOffice.CRM.InMemoryProductProvider.ValidateData
+- uid: SuperOffice.CRM.PluginResponseInfo
+  commentId: T:SuperOffice.CRM.PluginResponseInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: PluginResponseInfo
+  nameWithType: PluginResponseInfo
+  fullName: SuperOffice.CRM.PluginResponseInfo
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists
+  isExternal: true
+  name: GetNumberOfActivePriceLists
+  nameWithType: InMemoryProductProvider.GetNumberOfActivePriceLists
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfActivePriceLists
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists
+  isExternal: true
+  name: GetActivePriceLists
+  nameWithType: InMemoryProductProvider.GetActivePriceLists
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetActivePriceLists
+- uid: SuperOffice.CRM.PriceListInfo[]
+  isExternal: true
+  name: PriceListInfo[]
+  nameWithType: PriceListInfo[]
+  fullName: SuperOffice.CRM.PriceListInfo[]
+  nameWithType.vb: PriceListInfo()
+  fullName.vb: SuperOffice.CRM.PriceListInfo()
+  name.vb: PriceListInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.PriceListInfo
+    name: PriceListInfo
+    nameWithType: PriceListInfo
+    fullName: SuperOffice.CRM.PriceListInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.PriceListInfo
+    name: PriceListInfo
+    nameWithType: PriceListInfo
+    fullName: SuperOffice.CRM.PriceListInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists
+  isExternal: true
+  name: GetAllPriceLists
+  nameWithType: InMemoryProductProvider.GetAllPriceLists
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetAllPriceLists
+- uid: SuperOffice.CRM.InMemoryProductProvider.FindProduct*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.FindProduct
+  isExternal: true
+  name: FindProduct
+  nameWithType: InMemoryProductProvider.FindProduct
+  fullName: SuperOffice.CRM.InMemoryProductProvider.FindProduct
+- uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+  commentId: T:SuperOffice.CRM.QuoteAlternativeContextInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteAlternativeContextInfo
+  nameWithType: QuoteAlternativeContextInfo
+  fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+- uid: SuperOffice.CRM.ProductInfo[]
+  isExternal: true
+  name: ProductInfo[]
+  nameWithType: ProductInfo[]
+  fullName: SuperOffice.CRM.ProductInfo[]
+  nameWithType.vb: ProductInfo()
+  fullName.vb: SuperOffice.CRM.ProductInfo()
+  name.vb: ProductInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ProductInfo
+    name: ProductInfo
+    nameWithType: ProductInfo
+    fullName: SuperOffice.CRM.ProductInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ProductInfo
+    name: ProductInfo
+    nameWithType: ProductInfo
+    fullName: SuperOffice.CRM.ProductInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetProduct*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetProduct
+  isExternal: true
+  name: GetProduct
+  nameWithType: InMemoryProductProvider.GetProduct
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProduct
+- uid: SuperOffice.CRM.ProductInfo
+  commentId: T:SuperOffice.CRM.ProductInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProductInfo
+  nameWithType: ProductInfo
+  fullName: SuperOffice.CRM.ProductInfo
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetProducts*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetProducts
+  isExternal: true
+  name: GetProducts
+  nameWithType: InMemoryProductProvider.GetProducts
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProducts
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct
+  isExternal: true
+  name: GetQuoteLinesFromProduct
+  nameWithType: InMemoryProductProvider.GetQuoteLinesFromProduct
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesFromProduct
+- uid: SuperOffice.CRM.QuoteLineInfo[]
+  isExternal: true
+  name: QuoteLineInfo[]
+  nameWithType: QuoteLineInfo[]
+  fullName: SuperOffice.CRM.QuoteLineInfo[]
+  nameWithType.vb: QuoteLineInfo()
+  fullName.vb: SuperOffice.CRM.QuoteLineInfo()
+  name.vb: QuoteLineInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.QuoteLineInfo
+    name: QuoteLineInfo
+    nameWithType: QuoteLineInfo
+    fullName: SuperOffice.CRM.QuoteLineInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.QuoteLineInfo
+    name: QuoteLineInfo
+    nameWithType: QuoteLineInfo
+    fullName: SuperOffice.CRM.QuoteLineInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages
+  isExternal: true
+  name: GetNumberOfProductImages
+  nameWithType: InMemoryProductProvider.GetNumberOfProductImages
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetNumberOfProductImages
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetProductImage*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetProductImage
+  isExternal: true
+  name: GetProductImage
+  nameWithType: InMemoryProductProvider.GetProductImage
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetProductImage
+- uid: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct
+  isExternal: true
+  name: GetQuoteLinesfromProduct
+  nameWithType: InMemoryProductProvider.GetQuoteLinesfromProduct
+  fullName: SuperOffice.CRM.InMemoryProductProvider.GetQuoteLinesfromProduct
+- uid: SuperOffice.CRM.InMemoryProductProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.#ctor
+  isExternal: true
+  name: InMemoryProductProvider
+  nameWithType: InMemoryProductProvider.InMemoryProductProvider
+  fullName: SuperOffice.CRM.InMemoryProductProvider.InMemoryProductProvider
+- uid: SuperOffice.CRM.InMemoryProductProvider.Products*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.Products
+  isExternal: true
+  name: Products
+  nameWithType: InMemoryProductProvider.Products
+  fullName: SuperOffice.CRM.InMemoryProductProvider.Products
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ProductInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ProductInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ProductInfo>
+  nameWithType: List<ProductInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ProductInfo>
+  nameWithType.vb: List(Of ProductInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ProductInfo)
+  name.vb: List(Of ProductInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ProductInfo
+    name: ProductInfo
+    nameWithType: ProductInfo
+    fullName: SuperOffice.CRM.ProductInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ProductInfo
+    name: ProductInfo
+    nameWithType: ProductInfo
+    fullName: SuperOffice.CRM.ProductInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.InMemoryProductProvider.PriceLists*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.PriceLists
+  isExternal: true
+  name: PriceLists
+  nameWithType: InMemoryProductProvider.PriceLists
+  fullName: SuperOffice.CRM.InMemoryProductProvider.PriceLists
+- uid: System.Collections.Generic.List{SuperOffice.CRM.PriceListInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.PriceListInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<PriceListInfo>
+  nameWithType: List<PriceListInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.PriceListInfo>
+  nameWithType.vb: List(Of PriceListInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.PriceListInfo)
+  name.vb: List(Of PriceListInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.PriceListInfo
+    name: PriceListInfo
+    nameWithType: PriceListInfo
+    fullName: SuperOffice.CRM.PriceListInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.PriceListInfo
+    name: PriceListInfo
+    nameWithType: PriceListInfo
+    fullName: SuperOffice.CRM.PriceListInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.InMemoryProductProvider.Images*
+  commentId: Overload:SuperOffice.CRM.InMemoryProductProvider.Images
+  isExternal: true
+  name: Images
+  nameWithType: InMemoryProductProvider.Images
+  fullName: SuperOffice.CRM.InMemoryProductProvider.Images
+- uid: System.Collections.Generic.Dictionary{System.String,System.String[]}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String[]>
+  nameWithType: Dictionary<String, String[]>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String[]>
+  nameWithType.vb: Dictionary(Of String, String())
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String())
+  name.vb: Dictionary(Of String, String())
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )

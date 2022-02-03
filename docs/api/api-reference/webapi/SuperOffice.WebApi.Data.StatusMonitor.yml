@@ -1,0 +1,747 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.StatusMonitor
+  commentId: T:SuperOffice.WebApi.Data.StatusMonitor
+  id: StatusMonitor
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.StatusMonitor.#ctor
+  - SuperOffice.WebApi.Data.StatusMonitor.DefaultTask
+  - SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText
+  - SuperOffice.WebApi.Data.StatusMonitor.Deleted
+  - SuperOffice.WebApi.Data.StatusMonitor.Description
+  - SuperOffice.WebApi.Data.StatusMonitor.GenerationStart
+  - SuperOffice.WebApi.Data.StatusMonitor.IsVisual
+  - SuperOffice.WebApi.Data.StatusMonitor.LastGenerated
+  - SuperOffice.WebApi.Data.StatusMonitor.Name
+  - SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate
+  - SuperOffice.WebApi.Data.StatusMonitor.NumMatches
+  - SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate
+  - SuperOffice.WebApi.Data.StatusMonitor.OwnerTable
+  - SuperOffice.WebApi.Data.StatusMonitor.PictureId
+  - SuperOffice.WebApi.Data.StatusMonitor.Rank
+  - SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitor
+  nameWithType: StatusMonitor
+  fullName: SuperOffice.WebApi.Data.StatusMonitor
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for StatusMonitor.\nDefinition of all properties for a status monitor    \n"
+  syntax:
+    content: 'public class StatusMonitor : Carrier'
+    content.vb: >-
+      Public Class StatusMonitor
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.SaintAgent
+    commentId: T:SuperOffice.WebApi.Agents.SaintAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.StatusMonitor.#ctor
+  commentId: M:SuperOffice.WebApi.Data.StatusMonitor.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitor()
+  nameWithType: StatusMonitor.StatusMonitor()
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitor()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public StatusMonitor()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.StatusMonitor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.StatusMonitor.OwnerTable
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.OwnerTable
+  id: OwnerTable
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: OwnerTable
+  nameWithType: StatusMonitor.OwnerTable
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.OwnerTable
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of table that owns the status monitor\n"
+  syntax:
+    content: public virtual int OwnerTable { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OwnerTable As Integer
+  overload: SuperOffice.WebApi.Data.StatusMonitor.OwnerTable*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.Rank
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: StatusMonitor.Rank
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPriority rank, in case more than one status is signalled. Lowest wins\n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.WebApi.Data.StatusMonitor.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.DefaultTask
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.DefaultTask
+  id: DefaultTask
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: DefaultTask
+  nameWithType: StatusMonitor.DefaultTask
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.DefaultTask
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n&quot;Default task type for this status; the default task text is in the text table (since it can be long), and may contain template variables&quot;\n"
+  syntax:
+    content: public virtual int DefaultTask { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DefaultTask As Integer
+  overload: SuperOffice.WebApi.Data.StatusMonitor.DefaultTask*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText
+  id: DefaultTaskText
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: DefaultTaskText
+  nameWithType: StatusMonitor.DefaultTaskText
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault task text for this status\n"
+  syntax:
+    content: public virtual string DefaultTaskText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DefaultTaskText As String
+  overload: SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.IsVisual
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.IsVisual
+  id: IsVisual
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: IsVisual
+  nameWithType: StatusMonitor.IsVisual
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.IsVisual
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the status be visualized (active) in the client\n"
+  syntax:
+    content: public virtual bool IsVisual { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsVisual As Boolean
+  overload: SuperOffice.WebApi.Data.StatusMonitor.IsVisual*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.LastGenerated
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.LastGenerated
+  id: LastGenerated
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: LastGenerated
+  nameWithType: StatusMonitor.LastGenerated
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.LastGenerated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen was this status last generated (i.e., statusValue rows created)\n"
+  syntax:
+    content: public virtual DateTime LastGenerated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastGenerated As DateTime
+  overload: SuperOffice.WebApi.Data.StatusMonitor.LastGenerated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.Description
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: StatusMonitor.Description
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescription of the status monitor\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.StatusMonitor.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.Name
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: StatusMonitor.Name
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of status monitor\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.StatusMonitor.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId
+  id: StatusMonitorId
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorId
+  nameWithType: StatusMonitor.StatusMonitorId
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int StatusMonitorId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StatusMonitorId As Integer
+  overload: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.PictureId
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.PictureId
+  id: PictureId
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: PictureId
+  nameWithType: StatusMonitor.PictureId
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.PictureId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of BinaryObject row that contains image for status monitor\n"
+  syntax:
+    content: public virtual int PictureId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PictureId As Integer
+  overload: SuperOffice.WebApi.Data.StatusMonitor.PictureId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate
+  id: NeedsUpdate
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: NeedsUpdate
+  nameWithType: StatusMonitor.NeedsUpdate
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the definition dirty, ie., ALL values are invalid until a recalculation; this flag is set when the status DEFINITION is changed, as opposed to the flag on StatusValue\n"
+  syntax:
+    content: public virtual bool NeedsUpdate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property NeedsUpdate As Boolean
+  overload: SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.Deleted
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: StatusMonitor.Deleted
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDeleted flag, 1 if this record is deleted (never from the database)\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.StatusMonitor.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.NumMatches
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.NumMatches
+  id: NumMatches
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: NumMatches
+  nameWithType: StatusMonitor.NumMatches
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.NumMatches
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1\n"
+  syntax:
+    content: public virtual int NumMatches { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumMatches As Integer
+  overload: SuperOffice.WebApi.Data.StatusMonitor.NumMatches*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate
+  id: NumNeedUpdate
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: NumNeedUpdate
+  nameWithType: StatusMonitor.NumNeedUpdate
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of targets that had this status, but have their needsUpdate bit set due to some change\n"
+  syntax:
+    content: public virtual int NumNeedUpdate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumNeedUpdate As Integer
+  overload: SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitor.GenerationStart
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitor.GenerationStart
+  id: GenerationStart
+  parent: SuperOffice.WebApi.Data.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: GenerationStart
+  nameWithType: StatusMonitor.GenerationStart
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.GenerationStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen was the last regeneration started\n"
+  syntax:
+    content: public virtual DateTime GenerationStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property GenerationStart As DateTime
+  overload: SuperOffice.WebApi.Data.StatusMonitor.GenerationStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.SaintAgent
+  commentId: T:SuperOffice.WebApi.Agents.SaintAgent
+  isExternal: true
+  name: SaintAgent
+  nameWithType: SaintAgent
+  fullName: SuperOffice.WebApi.Agents.SaintAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.StatusMonitor.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.#ctor
+  isExternal: true
+  name: StatusMonitor
+  nameWithType: StatusMonitor.StatusMonitor
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitor
+- uid: SuperOffice.WebApi.Data.StatusMonitor.OwnerTable*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.OwnerTable
+  isExternal: true
+  name: OwnerTable
+  nameWithType: StatusMonitor.OwnerTable
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.OwnerTable
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.StatusMonitor.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: StatusMonitor.Rank
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.Rank
+- uid: SuperOffice.WebApi.Data.StatusMonitor.DefaultTask*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.DefaultTask
+  isExternal: true
+  name: DefaultTask
+  nameWithType: StatusMonitor.DefaultTask
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.DefaultTask
+- uid: SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText
+  isExternal: true
+  name: DefaultTaskText
+  nameWithType: StatusMonitor.DefaultTaskText
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.StatusMonitor.IsVisual*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.IsVisual
+  isExternal: true
+  name: IsVisual
+  nameWithType: StatusMonitor.IsVisual
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.IsVisual
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.StatusMonitor.LastGenerated*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.LastGenerated
+  isExternal: true
+  name: LastGenerated
+  nameWithType: StatusMonitor.LastGenerated
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.LastGenerated
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.StatusMonitor.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.Description
+  isExternal: true
+  name: Description
+  nameWithType: StatusMonitor.Description
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.Description
+- uid: SuperOffice.WebApi.Data.StatusMonitor.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.Name
+  isExternal: true
+  name: Name
+  nameWithType: StatusMonitor.Name
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.Name
+- uid: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId
+  isExternal: true
+  name: StatusMonitorId
+  nameWithType: StatusMonitor.StatusMonitorId
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId
+- uid: SuperOffice.WebApi.Data.StatusMonitor.PictureId*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.PictureId
+  isExternal: true
+  name: PictureId
+  nameWithType: StatusMonitor.PictureId
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.PictureId
+- uid: SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate
+  isExternal: true
+  name: NeedsUpdate
+  nameWithType: StatusMonitor.NeedsUpdate
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate
+- uid: SuperOffice.WebApi.Data.StatusMonitor.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: StatusMonitor.Deleted
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.Deleted
+- uid: SuperOffice.WebApi.Data.StatusMonitor.NumMatches*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.NumMatches
+  isExternal: true
+  name: NumMatches
+  nameWithType: StatusMonitor.NumMatches
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.NumMatches
+- uid: SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate
+  isExternal: true
+  name: NumNeedUpdate
+  nameWithType: StatusMonitor.NumNeedUpdate
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate
+- uid: SuperOffice.WebApi.Data.StatusMonitor.GenerationStart*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.GenerationStart
+  isExternal: true
+  name: GenerationStart
+  nameWithType: StatusMonitor.GenerationStart
+  fullName: SuperOffice.WebApi.Data.StatusMonitor.GenerationStart

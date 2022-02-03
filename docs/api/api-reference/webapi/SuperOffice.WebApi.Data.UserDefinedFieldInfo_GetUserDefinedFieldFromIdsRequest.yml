@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+  id: UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.#ctor
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.Ids
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest : Object'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest()
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.Ids
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.Ids
+  id: Ids
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Ids
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.Ids
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.Ids
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] Ids { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property Ids As Integer()
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.Ids*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.Ids*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.Ids
+  isExternal: true
+  name: Ids
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.Ids
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromIdsRequest.Ids
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

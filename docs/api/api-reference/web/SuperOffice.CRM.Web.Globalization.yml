@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Globalization
+  commentId: N:SuperOffice.CRM.Web.Globalization
+  id: SuperOffice.CRM.Web.Globalization
+  children:
+  - SuperOffice.CRM.Web.Globalization.CurrentAsResourceProvider
+  - SuperOffice.CRM.Web.Globalization.TemplateTagAsResourceProvider
+  - SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Web.Globalization
+  nameWithType: SuperOffice.CRM.Web.Globalization
+  fullName: SuperOffice.CRM.Web.Globalization
+  type: Namespace
+  assemblies:
+  - SuperOffice.CRMWeb
+references:
+- uid: SuperOffice.CRM.Web.Globalization.CurrentAsResourceProvider
+  commentId: T:SuperOffice.CRM.Web.Globalization.CurrentAsResourceProvider
+  isExternal: true
+  name: CurrentAsResourceProvider
+  nameWithType: CurrentAsResourceProvider
+  fullName: SuperOffice.CRM.Web.Globalization.CurrentAsResourceProvider
+- uid: SuperOffice.CRM.Web.Globalization.TemplateTagAsResourceProvider
+  commentId: T:SuperOffice.CRM.Web.Globalization.TemplateTagAsResourceProvider
+  isExternal: true
+  name: TemplateTagAsResourceProvider
+  nameWithType: TemplateTagAsResourceProvider
+  fullName: SuperOffice.CRM.Web.Globalization.TemplateTagAsResourceProvider
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  commentId: T:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  isExternal: true
+  name: UserPreferenceAsResourceProvider
+  nameWithType: UserPreferenceAsResourceProvider
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider

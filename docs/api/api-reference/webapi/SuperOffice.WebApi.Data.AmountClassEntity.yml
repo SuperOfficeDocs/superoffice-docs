@@ -1,0 +1,478 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AmountClassEntity
+  commentId: T:SuperOffice.WebApi.Data.AmountClassEntity
+  id: AmountClassEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AmountClassEntity.#ctor
+  - SuperOffice.WebApi.Data.AmountClassEntity.AmountClassId
+  - SuperOffice.WebApi.Data.AmountClassEntity.AmountFrom
+  - SuperOffice.WebApi.Data.AmountClassEntity.AmountTo
+  - SuperOffice.WebApi.Data.AmountClassEntity.CurrencyId
+  - SuperOffice.WebApi.Data.AmountClassEntity.Deleted
+  - SuperOffice.WebApi.Data.AmountClassEntity.Name
+  - SuperOffice.WebApi.Data.AmountClassEntity.Rank
+  - SuperOffice.WebApi.Data.AmountClassEntity.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: AmountClassEntity
+  nameWithType: AmountClassEntity
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for AmountClassEntity.\n\n"
+  example:
+  - "\nGet AmountClassEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar amountClassEntity = agent.GetAmountClassEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class AmountClassEntity : Carrier'
+    content.vb: >-
+      Public Class AmountClassEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AmountClassEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AmountClassEntity
+  langs:
+  - csharp
+  - vb
+  name: AmountClassEntity()
+  nameWithType: AmountClassEntity.AmountClassEntity()
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.AmountClassEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public AmountClassEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AmountClassEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.AmountClassId
+  commentId: P:SuperOffice.WebApi.Data.AmountClassEntity.AmountClassId
+  id: AmountClassId
+  parent: SuperOffice.WebApi.Data.AmountClassEntity
+  langs:
+  - csharp
+  - vb
+  name: AmountClassId
+  nameWithType: AmountClassEntity.AmountClassId
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.AmountClassId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int AmountClassId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AmountClassId As Integer
+  overload: SuperOffice.WebApi.Data.AmountClassEntity.AmountClassId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.AmountClassEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.AmountClassEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: AmountClassEntity.Name
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list item\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.AmountClassEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.AmountClassEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.AmountClassEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: AmountClassEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.AmountClassEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.Rank
+  commentId: P:SuperOffice.WebApi.Data.AmountClassEntity.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.AmountClassEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: AmountClassEntity.Rank
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank order\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.AmountClassEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.AmountFrom
+  commentId: P:SuperOffice.WebApi.Data.AmountClassEntity.AmountFrom
+  id: AmountFrom
+  parent: SuperOffice.WebApi.Data.AmountClassEntity
+  langs:
+  - csharp
+  - vb
+  name: AmountFrom
+  nameWithType: AmountClassEntity.AmountFrom
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.AmountFrom
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLower limit of this amount class\n"
+  syntax:
+    content: public virtual double AmountFrom { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property AmountFrom As Double
+  overload: SuperOffice.WebApi.Data.AmountClassEntity.AmountFrom*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.AmountTo
+  commentId: P:SuperOffice.WebApi.Data.AmountClassEntity.AmountTo
+  id: AmountTo
+  parent: SuperOffice.WebApi.Data.AmountClassEntity
+  langs:
+  - csharp
+  - vb
+  name: AmountTo
+  nameWithType: AmountClassEntity.AmountTo
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.AmountTo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUpper limit of this amount class\n"
+  syntax:
+    content: public virtual double AmountTo { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property AmountTo As Double
+  overload: SuperOffice.WebApi.Data.AmountClassEntity.AmountTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.Deleted
+  commentId: P:SuperOffice.WebApi.Data.AmountClassEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.AmountClassEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: AmountClassEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.AmountClassEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.CurrencyId
+  commentId: P:SuperOffice.WebApi.Data.AmountClassEntity.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.WebApi.Data.AmountClassEntity
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: AmountClassEntity.CurrencyId
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.CurrencyId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications.\n"
+  syntax:
+    content: public virtual int CurrencyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CurrencyId As Integer
+  overload: SuperOffice.WebApi.Data.AmountClassEntity.CurrencyId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AmountClassEntity.#ctor
+  isExternal: true
+  name: AmountClassEntity
+  nameWithType: AmountClassEntity.AmountClassEntity
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.AmountClassEntity
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.AmountClassId*
+  commentId: Overload:SuperOffice.WebApi.Data.AmountClassEntity.AmountClassId
+  isExternal: true
+  name: AmountClassId
+  nameWithType: AmountClassEntity.AmountClassId
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.AmountClassId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.AmountClassEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: AmountClassEntity.Name
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.AmountClassEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: AmountClassEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.Tooltip
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.AmountClassEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: AmountClassEntity.Rank
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.AmountFrom*
+  commentId: Overload:SuperOffice.WebApi.Data.AmountClassEntity.AmountFrom
+  isExternal: true
+  name: AmountFrom
+  nameWithType: AmountClassEntity.AmountFrom
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.AmountFrom
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.AmountTo*
+  commentId: Overload:SuperOffice.WebApi.Data.AmountClassEntity.AmountTo
+  isExternal: true
+  name: AmountTo
+  nameWithType: AmountClassEntity.AmountTo
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.AmountTo
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.AmountClassEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: AmountClassEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.AmountClassEntity.CurrencyId*
+  commentId: Overload:SuperOffice.WebApi.Data.AmountClassEntity.CurrencyId
+  isExternal: true
+  name: CurrencyId
+  nameWithType: AmountClassEntity.CurrencyId
+  fullName: SuperOffice.WebApi.Data.AmountClassEntity.CurrencyId

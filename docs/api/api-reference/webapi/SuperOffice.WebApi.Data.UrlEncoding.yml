@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UrlEncoding
+  commentId: T:SuperOffice.WebApi.Data.UrlEncoding
+  id: UrlEncoding
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UrlEncoding.ANSI
+  - SuperOffice.WebApi.Data.UrlEncoding.None
+  - SuperOffice.WebApi.Data.UrlEncoding.Unicode
+  - SuperOffice.WebApi.Data.UrlEncoding.Unknown
+  - SuperOffice.WebApi.Data.UrlEncoding.value__
+  langs:
+  - csharp
+  - vb
+  name: UrlEncoding
+  nameWithType: UrlEncoding
+  fullName: SuperOffice.WebApi.Data.UrlEncoding
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUrl encoding\n"
+  syntax:
+    content: 'public sealed class UrlEncoding : Enum'
+    content.vb: >-
+      Public NotInheritable Class UrlEncoding
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.UrlEncoding.value__
+  commentId: F:SuperOffice.WebApi.Data.UrlEncoding.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.UrlEncoding
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: UrlEncoding.value__
+  fullName: SuperOffice.WebApi.Data.UrlEncoding.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UrlEncoding.Unknown
+  commentId: F:SuperOffice.WebApi.Data.UrlEncoding.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.UrlEncoding
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: UrlEncoding.Unknown
+  fullName: SuperOffice.WebApi.Data.UrlEncoding.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown\n"
+  syntax:
+    content: public const UrlEncoding Unknown
+    return:
+      type: SuperOffice.WebApi.Data.UrlEncoding
+    content.vb: Public Const Unknown As UrlEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UrlEncoding.None
+  commentId: F:SuperOffice.WebApi.Data.UrlEncoding.None
+  id: None
+  parent: SuperOffice.WebApi.Data.UrlEncoding
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: UrlEncoding.None
+  fullName: SuperOffice.WebApi.Data.UrlEncoding.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: No encoding\n"
+  syntax:
+    content: public const UrlEncoding None
+    return:
+      type: SuperOffice.WebApi.Data.UrlEncoding
+    content.vb: Public Const None As UrlEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UrlEncoding.ANSI
+  commentId: F:SuperOffice.WebApi.Data.UrlEncoding.ANSI
+  id: ANSI
+  parent: SuperOffice.WebApi.Data.UrlEncoding
+  langs:
+  - csharp
+  - vb
+  name: ANSI
+  nameWithType: UrlEncoding.ANSI
+  fullName: SuperOffice.WebApi.Data.UrlEncoding.ANSI
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: ANSI\n"
+  syntax:
+    content: public const UrlEncoding ANSI
+    return:
+      type: SuperOffice.WebApi.Data.UrlEncoding
+    content.vb: Public Const ANSI As UrlEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UrlEncoding.Unicode
+  commentId: F:SuperOffice.WebApi.Data.UrlEncoding.Unicode
+  id: Unicode
+  parent: SuperOffice.WebApi.Data.UrlEncoding
+  langs:
+  - csharp
+  - vb
+  name: Unicode
+  nameWithType: UrlEncoding.Unicode
+  fullName: SuperOffice.WebApi.Data.UrlEncoding.Unicode
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Unicode\n"
+  syntax:
+    content: public const UrlEncoding Unicode
+    return:
+      type: SuperOffice.WebApi.Data.UrlEncoding
+    content.vb: Public Const Unicode As UrlEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.UrlEncoding
+  commentId: T:SuperOffice.WebApi.Data.UrlEncoding
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UrlEncoding
+  nameWithType: UrlEncoding
+  fullName: SuperOffice.WebApi.Data.UrlEncoding

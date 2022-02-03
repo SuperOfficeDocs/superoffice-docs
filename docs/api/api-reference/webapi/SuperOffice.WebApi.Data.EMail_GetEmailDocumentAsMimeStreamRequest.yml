@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest
+  id: EMail_GetEmailDocumentAsMimeStreamRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.DocumentId
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEmailDocumentAsMimeStreamRequest
+  nameWithType: EMail_GetEmailDocumentAsMimeStreamRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetEmailDocumentAsMimeStreamRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetEmailDocumentAsMimeStreamRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEmailDocumentAsMimeStreamRequest()
+  nameWithType: EMail_GetEmailDocumentAsMimeStreamRequest.EMail_GetEmailDocumentAsMimeStreamRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.EMail_GetEmailDocumentAsMimeStreamRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetEmailDocumentAsMimeStreamRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: EMail_GetEmailDocumentAsMimeStreamRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.#ctor
+  isExternal: true
+  name: EMail_GetEmailDocumentAsMimeStreamRequest
+  nameWithType: EMail_GetEmailDocumentAsMimeStreamRequest.EMail_GetEmailDocumentAsMimeStreamRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.EMail_GetEmailDocumentAsMimeStreamRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: EMail_GetEmailDocumentAsMimeStreamRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailDocumentAsMimeStreamRequest.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

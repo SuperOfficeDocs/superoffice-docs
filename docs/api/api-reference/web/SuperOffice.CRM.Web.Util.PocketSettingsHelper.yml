@@ -1,0 +1,518 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.PocketSettingsHelper
+  commentId: T:SuperOffice.CRM.Web.Util.PocketSettingsHelper
+  id: PocketSettingsHelper
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.PocketSettingsHelper.#ctor
+  - SuperOffice.CRM.Web.Util.PocketSettingsHelper.#ctor(SuperOffice.CRM.Web.Util.IPocketSettingsProvider)
+  - SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetClickableUrl
+  - SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetVisibleUrl
+  - SuperOffice.CRM.Web.Util.PocketSettingsHelper.SendConfigurationEmail(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PocketSettingsHelper
+  nameWithType: PocketSettingsHelper
+  fullName: SuperOffice.CRM.Web.Util.PocketSettingsHelper
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public class PocketSettingsHelper
+    content.vb: Public Class PocketSettingsHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Util.PocketSettingsHelper.#ctor
+  commentId: M:SuperOffice.CRM.Web.Util.PocketSettingsHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Util.PocketSettingsHelper
+  langs:
+  - csharp
+  - vb
+  name: PocketSettingsHelper()
+  nameWithType: PocketSettingsHelper.PocketSettingsHelper()
+  fullName: SuperOffice.CRM.Web.Util.PocketSettingsHelper.PocketSettingsHelper()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public PocketSettingsHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Util.PocketSettingsHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.PocketSettingsHelper.#ctor(SuperOffice.CRM.Web.Util.IPocketSettingsProvider)
+  commentId: M:SuperOffice.CRM.Web.Util.PocketSettingsHelper.#ctor(SuperOffice.CRM.Web.Util.IPocketSettingsProvider)
+  id: '#ctor(SuperOffice.CRM.Web.Util.IPocketSettingsProvider)'
+  parent: SuperOffice.CRM.Web.Util.PocketSettingsHelper
+  langs:
+  - csharp
+  - vb
+  name: PocketSettingsHelper(IPocketSettingsProvider)
+  nameWithType: PocketSettingsHelper.PocketSettingsHelper(IPocketSettingsProvider)
+  fullName: SuperOffice.CRM.Web.Util.PocketSettingsHelper.PocketSettingsHelper(SuperOffice.CRM.Web.Util.IPocketSettingsProvider)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public PocketSettingsHelper(IPocketSettingsProvider settingsProvider)
+    parameters:
+    - id: settingsProvider
+      type: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+    content.vb: Public Sub New(settingsProvider As IPocketSettingsProvider)
+  overload: SuperOffice.CRM.Web.Util.PocketSettingsHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetVisibleUrl
+  commentId: M:SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetVisibleUrl
+  id: GetVisibleUrl
+  parent: SuperOffice.CRM.Web.Util.PocketSettingsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVisibleUrl()
+  nameWithType: PocketSettingsHelper.GetVisibleUrl()
+  fullName: SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetVisibleUrl()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string GetVisibleUrl()
+    return:
+      type: System.String
+    content.vb: Public Function GetVisibleUrl As String
+  overload: SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetVisibleUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetClickableUrl
+  commentId: M:SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetClickableUrl
+  id: GetClickableUrl
+  parent: SuperOffice.CRM.Web.Util.PocketSettingsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetClickableUrl()
+  nameWithType: PocketSettingsHelper.GetClickableUrl()
+  fullName: SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetClickableUrl()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string GetClickableUrl()
+    return:
+      type: System.String
+    content.vb: Public Function GetClickableUrl As String
+  overload: SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetClickableUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.PocketSettingsHelper.SendConfigurationEmail(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.PocketSettingsHelper.SendConfigurationEmail(System.String)
+  id: SendConfigurationEmail(System.String)
+  parent: SuperOffice.CRM.Web.Util.PocketSettingsHelper
+  langs:
+  - csharp
+  - vb
+  name: SendConfigurationEmail(String)
+  nameWithType: PocketSettingsHelper.SendConfigurationEmail(String)
+  fullName: SuperOffice.CRM.Web.Util.PocketSettingsHelper.SendConfigurationEmail(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string SendConfigurationEmail(string emailAddress)
+    parameters:
+    - id: emailAddress
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function SendConfigurationEmail(emailAddress As String) As String
+  overload: SuperOffice.CRM.Web.Util.PocketSettingsHelper.SendConfigurationEmail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.PocketSettingsHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Util.PocketSettingsHelper.#ctor
+  isExternal: true
+  name: PocketSettingsHelper
+  nameWithType: PocketSettingsHelper.PocketSettingsHelper
+  fullName: SuperOffice.CRM.Web.Util.PocketSettingsHelper.PocketSettingsHelper
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  commentId: T:SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: IPocketSettingsProvider
+  nameWithType: IPocketSettingsProvider
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+- uid: SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetVisibleUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetVisibleUrl
+  isExternal: true
+  name: GetVisibleUrl
+  nameWithType: PocketSettingsHelper.GetVisibleUrl
+  fullName: SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetVisibleUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetClickableUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetClickableUrl
+  isExternal: true
+  name: GetClickableUrl
+  nameWithType: PocketSettingsHelper.GetClickableUrl
+  fullName: SuperOffice.CRM.Web.Util.PocketSettingsHelper.GetClickableUrl
+- uid: SuperOffice.CRM.Web.Util.PocketSettingsHelper.SendConfigurationEmail*
+  commentId: Overload:SuperOffice.CRM.Web.Util.PocketSettingsHelper.SendConfigurationEmail
+  isExternal: true
+  name: SendConfigurationEmail
+  nameWithType: PocketSettingsHelper.SendConfigurationEmail
+  fullName: SuperOffice.CRM.Web.Util.PocketSettingsHelper.SendConfigurationEmail

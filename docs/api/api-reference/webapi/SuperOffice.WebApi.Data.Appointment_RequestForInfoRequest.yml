@@ -1,0 +1,395 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  id: Appointment_RequestForInfoRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.AssociateIdForNewContact
+  - SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Channel
+  - SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.ContactName
+  - SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.EmailAddress
+  - SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonFirstname
+  - SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonLastname
+  - SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PhoneNumber
+  - SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Regarding
+  langs:
+  - csharp
+  - vb
+  name: Appointment_RequestForInfoRequest
+  nameWithType: Appointment_RequestForInfoRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_RequestForInfoRequest : Object'
+    content.vb: >-
+      Public Class Appointment_RequestForInfoRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_RequestForInfoRequest()
+  nameWithType: Appointment_RequestForInfoRequest.Appointment_RequestForInfoRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Appointment_RequestForInfoRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_RequestForInfoRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.AssociateIdForNewContact
+  commentId: P:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.AssociateIdForNewContact
+  id: AssociateIdForNewContact
+  parent: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateIdForNewContact
+  nameWithType: Appointment_RequestForInfoRequest.AssociateIdForNewContact
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.AssociateIdForNewContact
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateIdForNewContact { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateIdForNewContact As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.AssociateIdForNewContact*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Channel
+  commentId: P:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Channel
+  id: Channel
+  parent: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: Appointment_RequestForInfoRequest.Channel
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Channel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Channel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Channel As String
+  overload: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Regarding
+  commentId: P:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Regarding
+  id: Regarding
+  parent: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: Regarding
+  nameWithType: Appointment_RequestForInfoRequest.Regarding
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Regarding
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Regarding { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Regarding As String
+  overload: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Regarding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.ContactName
+  commentId: P:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.ContactName
+  id: ContactName
+  parent: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: Appointment_RequestForInfoRequest.ContactName
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.ContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContactName As String
+  overload: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.ContactName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonFirstname
+  commentId: P:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonFirstname
+  id: PersonFirstname
+  parent: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonFirstname
+  nameWithType: Appointment_RequestForInfoRequest.PersonFirstname
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonFirstname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PersonFirstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PersonFirstname As String
+  overload: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonFirstname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonLastname
+  commentId: P:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonLastname
+  id: PersonLastname
+  parent: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonLastname
+  nameWithType: Appointment_RequestForInfoRequest.PersonLastname
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonLastname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PersonLastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PersonLastname As String
+  overload: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonLastname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: Appointment_RequestForInfoRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PhoneNumber
+  commentId: P:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PhoneNumber
+  id: PhoneNumber
+  parent: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: Appointment_RequestForInfoRequest.PhoneNumber
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PhoneNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.#ctor
+  isExternal: true
+  name: Appointment_RequestForInfoRequest
+  nameWithType: Appointment_RequestForInfoRequest.Appointment_RequestForInfoRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Appointment_RequestForInfoRequest
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.AssociateIdForNewContact*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.AssociateIdForNewContact
+  isExternal: true
+  name: AssociateIdForNewContact
+  nameWithType: Appointment_RequestForInfoRequest.AssociateIdForNewContact
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.AssociateIdForNewContact
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Channel*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Channel
+  isExternal: true
+  name: Channel
+  nameWithType: Appointment_RequestForInfoRequest.Channel
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Channel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Regarding*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Regarding
+  isExternal: true
+  name: Regarding
+  nameWithType: Appointment_RequestForInfoRequest.Regarding
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.Regarding
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.ContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: Appointment_RequestForInfoRequest.ContactName
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.ContactName
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonFirstname*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonFirstname
+  isExternal: true
+  name: PersonFirstname
+  nameWithType: Appointment_RequestForInfoRequest.PersonFirstname
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonFirstname
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonLastname*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonLastname
+  isExternal: true
+  name: PersonLastname
+  nameWithType: Appointment_RequestForInfoRequest.PersonLastname
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PersonLastname
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: Appointment_RequestForInfoRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.EmailAddress
+- uid: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PhoneNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PhoneNumber
+  isExternal: true
+  name: PhoneNumber
+  nameWithType: Appointment_RequestForInfoRequest.PhoneNumber
+  fullName: SuperOffice.WebApi.Data.Appointment_RequestForInfoRequest.PhoneNumber

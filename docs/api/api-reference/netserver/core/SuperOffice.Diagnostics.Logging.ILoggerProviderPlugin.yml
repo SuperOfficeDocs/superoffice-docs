@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
+  commentId: T:SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
+  id: ILoggerProviderPlugin
+  parent: SuperOffice.Diagnostics.Logging
+  children:
+  - SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.CreateLoggerProvider
+  langs:
+  - csharp
+  - vb
+  name: ILoggerProviderPlugin
+  nameWithType: ILoggerProviderPlugin
+  fullName: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics.Logging
+  summary: "\nCustom logger factory. Configurate and creatify ILogger instances.\nRemember to mark the class with <xref href=\"SuperOffice.Diagnostics.Logging.ILoggerProviderPluginAttribute\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public interface ILoggerProviderPlugin : IPlugin'
+    content.vb: >-
+      Public Interface ILoggerProviderPlugin
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.CreateLoggerProvider
+  commentId: M:SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.CreateLoggerProvider
+  id: CreateLoggerProvider
+  parent: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
+  langs:
+  - csharp
+  - vb
+  name: CreateLoggerProvider()
+  nameWithType: ILoggerProviderPlugin.CreateLoggerProvider()
+  fullName: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.CreateLoggerProvider()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics.Logging
+  summary: "\nCreate a logger factory for us. Configure it based on a config file or ConfigFile settings.\n"
+  syntax:
+    content: ILoggerProvider CreateLoggerProvider()
+    return:
+      type: Microsoft.Extensions.Logging.ILoggerProvider
+    content.vb: Function CreateLoggerProvider As ILoggerProvider
+  overload: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.CreateLoggerProvider*
+references:
+- uid: SuperOffice.Diagnostics.Logging
+  commentId: N:SuperOffice.Diagnostics.Logging
+  isExternal: true
+  name: SuperOffice.Diagnostics.Logging
+  nameWithType: SuperOffice.Diagnostics.Logging
+  fullName: SuperOffice.Diagnostics.Logging
+- uid: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ILoggerProviderPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<ILoggerProviderPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ILoggerProviderPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin, To)()
+  name.vb: MapEnums(Of ILoggerProviderPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ILoggerProviderPlugin, To>
+    nameWithType: EnumUtil.MapEnums<ILoggerProviderPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ILoggerProviderPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of ILoggerProviderPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ILoggerProviderPlugin, To>()
+  nameWithType: Converters.MapEnums<ILoggerProviderPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of ILoggerProviderPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin, To)()
+  name.vb: MapEnums(Of ILoggerProviderPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ILoggerProviderPlugin, To>
+    nameWithType: Converters.MapEnums<ILoggerProviderPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ILoggerProviderPlugin, To)
+    nameWithType: Converters.MapEnums(Of ILoggerProviderPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.CreateLoggerProvider*
+  commentId: Overload:SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.CreateLoggerProvider
+  isExternal: true
+  name: CreateLoggerProvider
+  nameWithType: ILoggerProviderPlugin.CreateLoggerProvider
+  fullName: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.CreateLoggerProvider
+- uid: Microsoft.Extensions.Logging.ILoggerProvider
+  commentId: '!:Microsoft.Extensions.Logging.ILoggerProvider'
+  isExternal: true
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Microsoft.Extensions.Logging.ILoggerProvider

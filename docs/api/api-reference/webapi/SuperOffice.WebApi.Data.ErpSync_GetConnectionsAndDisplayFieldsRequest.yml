@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest
+  id: ErpSync_GetConnectionsAndDisplayFieldsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.CrmActorType
+  - SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.EntityId
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetConnectionsAndDisplayFieldsRequest
+  nameWithType: ErpSync_GetConnectionsAndDisplayFieldsRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_GetConnectionsAndDisplayFieldsRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_GetConnectionsAndDisplayFieldsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetConnectionsAndDisplayFieldsRequest()
+  nameWithType: ErpSync_GetConnectionsAndDisplayFieldsRequest.ErpSync_GetConnectionsAndDisplayFieldsRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.ErpSync_GetConnectionsAndDisplayFieldsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_GetConnectionsAndDisplayFieldsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.CrmActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.CrmActorType
+  id: CrmActorType
+  parent: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: CrmActorType
+  nameWithType: ErpSync_GetConnectionsAndDisplayFieldsRequest.CrmActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.CrmActorType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CrmActorType CrmActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CrmActorType
+    content.vb: Public Property CrmActorType As CrmActorType
+  overload: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.CrmActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.EntityId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.EntityId
+  id: EntityId
+  parent: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: EntityId
+  nameWithType: ErpSync_GetConnectionsAndDisplayFieldsRequest.EntityId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.EntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int EntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EntityId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.EntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.#ctor
+  isExternal: true
+  name: ErpSync_GetConnectionsAndDisplayFieldsRequest
+  nameWithType: ErpSync_GetConnectionsAndDisplayFieldsRequest.ErpSync_GetConnectionsAndDisplayFieldsRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.ErpSync_GetConnectionsAndDisplayFieldsRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.CrmActorType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.CrmActorType
+  isExternal: true
+  name: CrmActorType
+  nameWithType: ErpSync_GetConnectionsAndDisplayFieldsRequest.CrmActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.CrmActorType
+- uid: SuperOffice.WebApi.Data.CrmActorType
+  commentId: T:SuperOffice.WebApi.Data.CrmActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: SuperOffice.WebApi.Data.CrmActorType
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.EntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.EntityId
+  isExternal: true
+  name: EntityId
+  nameWithType: ErpSync_GetConnectionsAndDisplayFieldsRequest.EntityId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionsAndDisplayFieldsRequest.EntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

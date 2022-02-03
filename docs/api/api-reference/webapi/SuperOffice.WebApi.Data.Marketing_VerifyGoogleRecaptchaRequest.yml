@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest
+  commentId: T:SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest
+  id: Marketing_VerifyGoogleRecaptchaRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.#ctor
+  - SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.OptionalSecretKey
+  - SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.Token
+  langs:
+  - csharp
+  - vb
+  name: Marketing_VerifyGoogleRecaptchaRequest
+  nameWithType: Marketing_VerifyGoogleRecaptchaRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Marketing_VerifyGoogleRecaptchaRequest : Object'
+    content.vb: >-
+      Public Class Marketing_VerifyGoogleRecaptchaRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest
+  langs:
+  - csharp
+  - vb
+  name: Marketing_VerifyGoogleRecaptchaRequest()
+  nameWithType: Marketing_VerifyGoogleRecaptchaRequest.Marketing_VerifyGoogleRecaptchaRequest()
+  fullName: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.Marketing_VerifyGoogleRecaptchaRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Marketing_VerifyGoogleRecaptchaRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.Token
+  commentId: P:SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.Token
+  id: Token
+  parent: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest
+  langs:
+  - csharp
+  - vb
+  name: Token
+  nameWithType: Marketing_VerifyGoogleRecaptchaRequest.Token
+  fullName: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.Token
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Token { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Token As String
+  overload: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.Token*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.OptionalSecretKey
+  commentId: P:SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.OptionalSecretKey
+  id: OptionalSecretKey
+  parent: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest
+  langs:
+  - csharp
+  - vb
+  name: OptionalSecretKey
+  nameWithType: Marketing_VerifyGoogleRecaptchaRequest.OptionalSecretKey
+  fullName: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.OptionalSecretKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string OptionalSecretKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OptionalSecretKey As String
+  overload: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.OptionalSecretKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.#ctor
+  isExternal: true
+  name: Marketing_VerifyGoogleRecaptchaRequest
+  nameWithType: Marketing_VerifyGoogleRecaptchaRequest.Marketing_VerifyGoogleRecaptchaRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.Marketing_VerifyGoogleRecaptchaRequest
+- uid: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.Token*
+  commentId: Overload:SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.Token
+  isExternal: true
+  name: Token
+  nameWithType: Marketing_VerifyGoogleRecaptchaRequest.Token
+  fullName: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.Token
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.OptionalSecretKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.OptionalSecretKey
+  isExternal: true
+  name: OptionalSecretKey
+  nameWithType: Marketing_VerifyGoogleRecaptchaRequest.OptionalSecretKey
+  fullName: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest.OptionalSecretKey

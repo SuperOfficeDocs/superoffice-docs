@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest
+  id: ErpSync_SaveConnectionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.Connection
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_SaveConnectionRequest
+  nameWithType: ErpSync_SaveConnectionRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_SaveConnectionRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_SaveConnectionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_SaveConnectionRequest()
+  nameWithType: ErpSync_SaveConnectionRequest.ErpSync_SaveConnectionRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.ErpSync_SaveConnectionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_SaveConnectionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.Connection
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.Connection
+  id: Connection
+  parent: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest
+  langs:
+  - csharp
+  - vb
+  name: Connection
+  nameWithType: ErpSync_SaveConnectionRequest.Connection
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.Connection
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpConnection Connection { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ErpConnection
+    content.vb: Public Property Connection As ErpConnection
+  overload: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.Connection*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.#ctor
+  isExternal: true
+  name: ErpSync_SaveConnectionRequest
+  nameWithType: ErpSync_SaveConnectionRequest.ErpSync_SaveConnectionRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.ErpSync_SaveConnectionRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.Connection*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.Connection
+  isExternal: true
+  name: Connection
+  nameWithType: ErpSync_SaveConnectionRequest.Connection
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveConnectionRequest.Connection
+- uid: SuperOffice.WebApi.Data.ErpConnection
+  commentId: T:SuperOffice.WebApi.Data.ErpConnection
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpConnection
+  nameWithType: ErpConnection
+  fullName: SuperOffice.WebApi.Data.ErpConnection

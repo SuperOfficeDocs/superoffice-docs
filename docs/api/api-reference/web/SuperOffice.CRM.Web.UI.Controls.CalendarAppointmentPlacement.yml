@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+  id: CalendarAppointmentPlacement
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement.Normal
+  - SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement.Stacked
+  langs:
+  - csharp
+  - vb
+  name: CalendarAppointmentPlacement
+  nameWithType: CalendarAppointmentPlacement
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum CalendarAppointmentPlacement
+    content.vb: Public Enum CalendarAppointmentPlacement
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement.Normal
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement.Normal
+  id: Normal
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: CalendarAppointmentPlacement.Normal
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement.Normal
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Normal = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement.Stacked
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement.Stacked
+  id: Stacked
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+  langs:
+  - csharp
+  - vb
+  name: Stacked
+  nameWithType: CalendarAppointmentPlacement.Stacked
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement.Stacked
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Stacked = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarAppointmentPlacement
+  nameWithType: CalendarAppointmentPlacement
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement

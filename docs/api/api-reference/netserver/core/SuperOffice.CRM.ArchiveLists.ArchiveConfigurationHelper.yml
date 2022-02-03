@@ -1,0 +1,1037 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
+  id: ArchiveConfigurationHelper
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns(System.String,System.String,System.String,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns(System.String,System.String,System.String@,System.String,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenEntities(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetOrderBy(System.String,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SaveColumnWidths(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenColumns(System.String,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.String,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenEntities(System.String,System.String,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ArchiveConfigurationHelper
+  nameWithType: ArchiveConfigurationHelper
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis class provides functionality for fetching and saving the current configuration of a particular archive gui control\nand its parent data provider. It is the standard, but not mandatory, source and sink of such configuration data. It is also the \nsink for the result of the archive configuration dialog (both the display and orderby tabs).\n"
+  syntax:
+    content: public static class ArchiveConfigurationHelper
+    content.vb: Public Module ArchiveConfigurationHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenColumns(System.String,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenColumns(System.String,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.String,System.Int32)
+  id: SetChosenColumns(System.String,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.String,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
+  langs:
+  - csharp
+  - vb
+  name: SetChosenColumns(String, List<ISelectableListItem>, String, Int32)
+  nameWithType: ArchiveConfigurationHelper.SetChosenColumns(String, List<ISelectableListItem>, String, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenColumns(System.String, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISelectableListItem>, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nBased on a list of properly formatted <xref href=\"SuperOffice.CRM.Lists.ISelectableListItem\" data-throw-if-not-resolved=\"false\"></xref> items and a gui control name, save the current\nconfiguration of that archive in the database on behalf of the current user.\n"
+  syntax:
+    content: public static void SetChosenColumns(string guiControlName, List<ISelectableListItem> columns, string context = "", int selectionId = 0)
+    parameters:
+    - id: guiControlName
+      type: System.String
+      description: Name of the archive gui control
+    - id: columns
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem}
+      description: >-
+        List of items. The <xref href="SuperOffice.CRM.Lists.ISelectableListItem.Selected" data-throw-if-not-resolved="false"></xref> property of each item
+
+        determines whether the corresponding column (found in <see cref="!:ISelectableListItem.Type"></see>) is selected
+
+        for display. The <see cref="!:ISelectableListItem.ExtraInfo"></see> property determines whether the column is part
+
+        of the orderby criteria. A value of &apos;n:A&apos; or &apos;n:D&apos; where n is a 1-based integer defines the corresponding
+
+        column as the n&apos;th orderby criterion, Ascending or Descending order.
+    - id: context
+      type: System.String
+    - id: selectionId
+      type: System.Int32
+    content.vb: Public Shared Sub SetChosenColumns(guiControlName As String, columns As List(Of ISelectableListItem), context As String = "", selectionId As Integer = 0)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenColumns*
+  nameWithType.vb: ArchiveConfigurationHelper.SetChosenColumns(String, List(Of ISelectableListItem), String, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenColumns(System.String, System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISelectableListItem), System.String, System.Int32)
+  name.vb: SetChosenColumns(String, List(Of ISelectableListItem), String, Int32)
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SaveColumnWidths(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SaveColumnWidths(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.Int32)
+  id: SaveColumnWidths(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
+  langs:
+  - csharp
+  - vb
+  name: SaveColumnWidths(String, Dictionary<String, String>, String, Int32)
+  nameWithType: ArchiveConfigurationHelper.SaveColumnWidths(String, Dictionary<String, String>, String, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SaveColumnWidths(System.String, System.Collections.Generic.Dictionary<System.String, System.String>, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSave the current column widths for the indicated columns\n"
+  syntax:
+    content: public static void SaveColumnWidths(string guiControlName, Dictionary<string, string> columnNameWidths, string context = "", int selectionId = 0)
+    parameters:
+    - id: guiControlName
+      type: System.String
+      description: Gui name of the archive control
+    - id: columnNameWidths
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: >-
+        Dictionary of widths. The key is the column programmatic name, as defined in
+
+        <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Name" data-throw-if-not-resolved="false"></xref>, the width is either &apos;n%&apos; or &apos;nc&apos;, indicating a percentage or number
+
+        of characters.
+    - id: context
+      type: System.String
+    - id: selectionId
+      type: System.Int32
+    content.vb: Public Shared Sub SaveColumnWidths(guiControlName As String, columnNameWidths As Dictionary(Of String, String), context As String = "", selectionId As Integer = 0)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SaveColumnWidths*
+  nameWithType.vb: ArchiveConfigurationHelper.SaveColumnWidths(String, Dictionary(Of String, String), String, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SaveColumnWidths(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String), System.String, System.Int32)
+  name.vb: SaveColumnWidths(String, Dictionary(Of String, String), String, Int32)
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns(System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns(System.String,System.String,System.String,System.Int32)
+  id: GetChosenColumns(System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetChosenColumns(String, String, String, Int32)
+  nameWithType: ArchiveConfigurationHelper.GetChosenColumns(String, String, String, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns(System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the current configuration for a given archive\n"
+  syntax:
+    content: public static List<ArchiveColumnInfo> GetChosenColumns(string guiControlName, string archiveName, string context = "", int selectionId = 0)
+    parameters:
+    - id: guiControlName
+      type: System.String
+      description: Gui name of the archive control
+    - id: archiveName
+      type: System.String
+      description: Archive data provider name, will be passed to the <xref href="SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory" data-throw-if-not-resolved="false"></xref>.
+    - id: context
+      type: System.String
+    - id: selectionId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+      description: >-
+        List of column information. The list is sorted according to the order in which columns have been
+
+        configured by the user, and all percentage widths are rescaled so they add up to exactly 100 (or 0 if there are
+
+        no percentage-width columns).
+    content.vb: Public Shared Function GetChosenColumns(guiControlName As String, archiveName As String, context As String = "", selectionId As Integer = 0) As List(Of ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns(System.String,System.String,System.String@,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns(System.String,System.String,System.String@,System.String,System.Int32)
+  id: GetChosenColumns(System.String,System.String,System.String@,System.String,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetChosenColumns(String, String, out String, String, Int32)
+  nameWithType: ArchiveConfigurationHelper.GetChosenColumns(String, String, out String, String, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns(System.String, System.String, out System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static List<ArchiveColumnInfo> GetChosenColumns(string guiControlName, string archiveName, out string ownerKeys, string context = "", int selectionId = 0)
+    parameters:
+    - id: guiControlName
+      type: System.String
+    - id: archiveName
+      type: System.String
+    - id: ownerKeys
+      type: System.String
+    - id: context
+      type: System.String
+    - id: selectionId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+    content.vb: Public Shared Function GetChosenColumns(guiControlName As String, archiveName As String, ByRef ownerKeys As String, context As String = "", selectionId As Integer = 0) As List(Of ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns*
+  nameWithType.vb: ArchiveConfigurationHelper.GetChosenColumns(String, String, ByRef String, String, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns(System.String, System.String, ByRef System.String, System.String, System.Int32)
+  name.vb: GetChosenColumns(String, String, ByRef String, String, Int32)
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetOrderBy(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetOrderBy(System.String,System.Int32)
+  id: GetOrderBy(System.String,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetOrderBy(String, Int32)
+  nameWithType: ArchiveConfigurationHelper.GetOrderBy(String, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetOrderBy(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nRetrieve the current orderby configuration for a given archive\n"
+  syntax:
+    content: public static List<ArchiveOrderByInfo> GetOrderBy(string guiControlName, int selectionId = 0)
+    parameters:
+    - id: guiControlName
+      type: System.String
+      description: The gui name of the archive control
+    - id: selectionId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo}
+      description: List of orderby information, sorted according to the rank of the orderby criteria
+    content.vb: Public Shared Function GetOrderBy(guiControlName As String, selectionId As Integer = 0) As List(Of ArchiveOrderByInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetOrderBy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenEntities(System.String,System.String,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenEntities(System.String,System.String,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.String,System.Int32)
+  id: SetChosenEntities(System.String,System.String,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem},System.String,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
+  langs:
+  - csharp
+  - vb
+  name: SetChosenEntities(String, String, List<ISelectableListItem>, String, Int32)
+  nameWithType: ArchiveConfigurationHelper.SetChosenEntities(String, String, List<ISelectableListItem>, String, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenEntities(System.String, System.String, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISelectableListItem>, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nStore a list of chosen (or not) entities in the database. \n"
+  remarks: "\nAll entities get rows, regardless of choice,\nso we can differentiate between intentionally disabled and those that simply have not been seen before, \nthereby enabling a default of &apos;show&apos; for optional entities.		/// "
+  syntax:
+    content: public static void SetChosenEntities(string providerName, string guiControlName, List<ISelectableListItem> entities, string context = "", int selectionId = 0)
+    parameters:
+    - id: providerName
+      type: System.String
+    - id: guiControlName
+      type: System.String
+      description: GUI name of control
+    - id: entities
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem}
+      description: List of entities
+    - id: context
+      type: System.String
+    - id: selectionId
+      type: System.Int32
+    content.vb: Public Shared Sub SetChosenEntities(providerName As String, guiControlName As String, entities As List(Of ISelectableListItem), context As String = "", selectionId As Integer = 0)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenEntities*
+  nameWithType.vb: ArchiveConfigurationHelper.SetChosenEntities(String, String, List(Of ISelectableListItem), String, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenEntities(System.String, System.String, System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISelectableListItem), System.String, System.Int32)
+  name.vb: SetChosenEntities(String, String, List(Of ISelectableListItem), String, Int32)
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenEntities(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenEntities(System.String,System.String)
+  id: GetChosenEntities(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetChosenEntities(String, String)
+  nameWithType: ArchiveConfigurationHelper.GetChosenEntities(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenEntities(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nRetrieve a list of entities, marking each as chosen or not\n"
+  syntax:
+    content: public static List<ArchiveRowTypeInfo> GetChosenEntities(string guiControlName, string archiveName)
+    parameters:
+    - id: guiControlName
+      type: System.String
+      description: GUI name of control
+    - id: archiveName
+      type: System.String
+      description: Archive provider
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+      description: List of chosen entities, including mandatory ones
+    content.vb: Public Shared Function GetChosenEntities(guiControlName As String, archiveName As String) As List(Of ArchiveRowTypeInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenEntities*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenColumns
+  isExternal: true
+  name: SetChosenColumns
+  nameWithType: ArchiveConfigurationHelper.SetChosenColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenColumns
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ISelectableListItem>
+  nameWithType: List<ISelectableListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISelectableListItem>
+  nameWithType.vb: List(Of ISelectableListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISelectableListItem)
+  name.vb: List(Of ISelectableListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISelectableListItem
+    name: ISelectableListItem
+    nameWithType: ISelectableListItem
+    fullName: SuperOffice.CRM.Lists.ISelectableListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISelectableListItem
+    name: ISelectableListItem
+    nameWithType: ISelectableListItem
+    fullName: SuperOffice.CRM.Lists.ISelectableListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SaveColumnWidths*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SaveColumnWidths
+  isExternal: true
+  name: SaveColumnWidths
+  nameWithType: ArchiveConfigurationHelper.SaveColumnWidths
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SaveColumnWidths
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns
+  isExternal: true
+  name: GetChosenColumns
+  nameWithType: ArchiveConfigurationHelper.GetChosenColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenColumns
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveColumnInfo>
+  nameWithType: List<ArchiveColumnInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
+  nameWithType.vb: List(Of ArchiveColumnInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: List(Of ArchiveColumnInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetOrderBy*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetOrderBy
+  isExternal: true
+  name: GetOrderBy
+  nameWithType: ArchiveConfigurationHelper.GetOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetOrderBy
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveOrderByInfo>
+  nameWithType: List<ArchiveOrderByInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo>
+  nameWithType.vb: List(Of ArchiveOrderByInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo)
+  name.vb: List(Of ArchiveOrderByInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenEntities
+  isExternal: true
+  name: SetChosenEntities
+  nameWithType: ArchiveConfigurationHelper.SetChosenEntities
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.SetChosenEntities
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenEntities
+  isExternal: true
+  name: GetChosenEntities
+  nameWithType: ArchiveConfigurationHelper.GetChosenEntities
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper.GetChosenEntities
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveRowTypeInfo>
+  nameWithType: List<ArchiveRowTypeInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
+  nameWithType.vb: List(Of ArchiveRowTypeInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  name.vb: List(Of ArchiveRowTypeInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

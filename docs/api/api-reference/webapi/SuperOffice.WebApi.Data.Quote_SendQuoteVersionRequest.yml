@@ -1,0 +1,289 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest
+  id: Quote_SendQuoteVersionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.Culture
+  - SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.ExpiryDate
+  - SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupDate
+  - SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupText
+  - SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.QuoteVersionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_SendQuoteVersionRequest
+  nameWithType: Quote_SendQuoteVersionRequest
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_SendQuoteVersionRequest : Object'
+    content.vb: >-
+      Public Class Quote_SendQuoteVersionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_SendQuoteVersionRequest()
+  nameWithType: Quote_SendQuoteVersionRequest.Quote_SendQuoteVersionRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.Quote_SendQuoteVersionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_SendQuoteVersionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Quote_SendQuoteVersionRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.ExpiryDate
+  commentId: P:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.ExpiryDate
+  id: ExpiryDate
+  parent: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: ExpiryDate
+  nameWithType: Quote_SendQuoteVersionRequest.ExpiryDate
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.ExpiryDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime ExpiryDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ExpiryDate As DateTime
+  overload: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.ExpiryDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupDate
+  commentId: P:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupDate
+  id: FollowupDate
+  parent: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: FollowupDate
+  nameWithType: Quote_SendQuoteVersionRequest.FollowupDate
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime FollowupDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property FollowupDate As DateTime
+  overload: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupText
+  commentId: P:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupText
+  id: FollowupText
+  parent: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: FollowupText
+  nameWithType: Quote_SendQuoteVersionRequest.FollowupText
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string FollowupText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FollowupText As String
+  overload: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.Culture
+  commentId: P:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.Culture
+  id: Culture
+  parent: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: Quote_SendQuoteVersionRequest.Culture
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.Culture
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.#ctor
+  isExternal: true
+  name: Quote_SendQuoteVersionRequest
+  nameWithType: Quote_SendQuoteVersionRequest.Quote_SendQuoteVersionRequest
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.Quote_SendQuoteVersionRequest
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Quote_SendQuoteVersionRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.ExpiryDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.ExpiryDate
+  isExternal: true
+  name: ExpiryDate
+  nameWithType: Quote_SendQuoteVersionRequest.ExpiryDate
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.ExpiryDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupDate
+  isExternal: true
+  name: FollowupDate
+  nameWithType: Quote_SendQuoteVersionRequest.FollowupDate
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupDate
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupText*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupText
+  isExternal: true
+  name: FollowupText
+  nameWithType: Quote_SendQuoteVersionRequest.FollowupText
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.FollowupText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.Culture*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: Quote_SendQuoteVersionRequest.Culture
+  fullName: SuperOffice.WebApi.Data.Quote_SendQuoteVersionRequest.Culture

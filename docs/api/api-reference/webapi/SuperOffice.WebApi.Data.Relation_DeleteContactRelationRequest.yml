@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest
+  commentId: T:SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest
+  id: Relation_DeleteContactRelationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.#ctor
+  - SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.ContactRelationEntityId
+  langs:
+  - csharp
+  - vb
+  name: Relation_DeleteContactRelationRequest
+  nameWithType: Relation_DeleteContactRelationRequest
+  fullName: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Relation_DeleteContactRelationRequest : Object'
+    content.vb: >-
+      Public Class Relation_DeleteContactRelationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest
+  langs:
+  - csharp
+  - vb
+  name: Relation_DeleteContactRelationRequest()
+  nameWithType: Relation_DeleteContactRelationRequest.Relation_DeleteContactRelationRequest()
+  fullName: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.Relation_DeleteContactRelationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Relation_DeleteContactRelationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.ContactRelationEntityId
+  commentId: P:SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.ContactRelationEntityId
+  id: ContactRelationEntityId
+  parent: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactRelationEntityId
+  nameWithType: Relation_DeleteContactRelationRequest.ContactRelationEntityId
+  fullName: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.ContactRelationEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactRelationEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactRelationEntityId As Integer
+  overload: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.ContactRelationEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.#ctor
+  isExternal: true
+  name: Relation_DeleteContactRelationRequest
+  nameWithType: Relation_DeleteContactRelationRequest.Relation_DeleteContactRelationRequest
+  fullName: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.Relation_DeleteContactRelationRequest
+- uid: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.ContactRelationEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.ContactRelationEntityId
+  isExternal: true
+  name: ContactRelationEntityId
+  nameWithType: Relation_DeleteContactRelationRequest.ContactRelationEntityId
+  fullName: SuperOffice.WebApi.Data.Relation_DeleteContactRelationRequest.ContactRelationEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

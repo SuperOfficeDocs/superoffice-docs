@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest
+  commentId: T:SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest
+  id: Batch_GetBatchTaskInfosByNameAndStateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.#ctor
+  - SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.Name
+  - SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.State
+  langs:
+  - csharp
+  - vb
+  name: Batch_GetBatchTaskInfosByNameAndStateRequest
+  nameWithType: Batch_GetBatchTaskInfosByNameAndStateRequest
+  fullName: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Batch_GetBatchTaskInfosByNameAndStateRequest : Object'
+    content.vb: >-
+      Public Class Batch_GetBatchTaskInfosByNameAndStateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest
+  langs:
+  - csharp
+  - vb
+  name: Batch_GetBatchTaskInfosByNameAndStateRequest()
+  nameWithType: Batch_GetBatchTaskInfosByNameAndStateRequest.Batch_GetBatchTaskInfosByNameAndStateRequest()
+  fullName: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.Batch_GetBatchTaskInfosByNameAndStateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Batch_GetBatchTaskInfosByNameAndStateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Batch_GetBatchTaskInfosByNameAndStateRequest.Name
+  fullName: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.State
+  commentId: P:SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.State
+  id: State
+  parent: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: Batch_GetBatchTaskInfosByNameAndStateRequest.State
+  fullName: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.State
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BatchTaskState State { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskState
+    content.vb: Public Property State As BatchTaskState
+  overload: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.#ctor
+  isExternal: true
+  name: Batch_GetBatchTaskInfosByNameAndStateRequest
+  nameWithType: Batch_GetBatchTaskInfosByNameAndStateRequest.Batch_GetBatchTaskInfosByNameAndStateRequest
+  fullName: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.Batch_GetBatchTaskInfosByNameAndStateRequest
+- uid: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: Batch_GetBatchTaskInfosByNameAndStateRequest.Name
+  fullName: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.State*
+  commentId: Overload:SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.State
+  isExternal: true
+  name: State
+  nameWithType: Batch_GetBatchTaskInfosByNameAndStateRequest.State
+  fullName: SuperOffice.WebApi.Data.Batch_GetBatchTaskInfosByNameAndStateRequest.State
+- uid: SuperOffice.WebApi.Data.BatchTaskState
+  commentId: T:SuperOffice.WebApi.Data.BatchTaskState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: BatchTaskState
+  nameWithType: BatchTaskState
+  fullName: SuperOffice.WebApi.Data.BatchTaskState

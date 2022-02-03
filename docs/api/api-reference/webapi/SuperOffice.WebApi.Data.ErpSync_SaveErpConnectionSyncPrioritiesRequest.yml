@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest
+  id: ErpSync_SaveErpConnectionSyncPrioritiesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpConnectionIds
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_SaveErpConnectionSyncPrioritiesRequest
+  nameWithType: ErpSync_SaveErpConnectionSyncPrioritiesRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_SaveErpConnectionSyncPrioritiesRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_SaveErpConnectionSyncPrioritiesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_SaveErpConnectionSyncPrioritiesRequest()
+  nameWithType: ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpSync_SaveErpConnectionSyncPrioritiesRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpSync_SaveErpConnectionSyncPrioritiesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_SaveErpConnectionSyncPrioritiesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpConnectionIds
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpConnectionIds
+  id: ErpConnectionIds
+  parent: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionIds
+  nameWithType: ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpConnectionIds
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpConnectionIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] ErpConnectionIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property ErpConnectionIds As Integer()
+  overload: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpConnectionIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.#ctor
+  isExternal: true
+  name: ErpSync_SaveErpConnectionSyncPrioritiesRequest
+  nameWithType: ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpSync_SaveErpConnectionSyncPrioritiesRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpSync_SaveErpConnectionSyncPrioritiesRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpConnectionIds*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpConnectionIds
+  isExternal: true
+  name: ErpConnectionIds
+  nameWithType: ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpConnectionIds
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveErpConnectionSyncPrioritiesRequest.ErpConnectionIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

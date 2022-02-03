@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  id: EMailController.EmailAuthenticationMethod
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod.OAuth
+  - SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod.Password
+  langs:
+  - csharp
+  - vb
+  name: EMailController.EmailAuthenticationMethod
+  nameWithType: EMailController.EmailAuthenticationMethod
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public enum EmailAuthenticationMethod
+    content.vb: Public Enum EmailAuthenticationMethod
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod.OAuth
+  commentId: F:SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod.OAuth
+  id: OAuth
+  parent: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  langs:
+  - csharp
+  - vb
+  name: OAuth
+  nameWithType: EMailController.EmailAuthenticationMethod.OAuth
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod.OAuth
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: OAuth = 0
+    return:
+      type: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod.Password
+  commentId: F:SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod.Password
+  id: Password
+  parent: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: EMailController.EmailAuthenticationMethod.Password
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod.Password
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: Password = 1
+    return:
+      type: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.EmailAuthenticationMethod
+  nameWithType: EMailController.EmailAuthenticationMethod
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod

@@ -1,0 +1,463 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1
+  commentId: T:SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1
+  id: TypedProviderHelper`1
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.AdjustDesiredColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.GetStandardColumnNames
+  langs:
+  - csharp
+  - vb
+  name: TypedProviderHelper<RowType>
+  nameWithType: TypedProviderHelper<RowType>
+  fullName: SuperOffice.CRM.ArchiveLists.TypedProviderHelper<RowType>
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nParameterized helper class for typed archive providers. It uses reflection via the RowType parameter\nto determine standard columns (based on const string ColumnXXX declarations in the typed row class),\nand provider DesiredColumns adjustment to always include the standard columns.\n"
+  syntax:
+    content: >-
+      public static class TypedProviderHelper<RowType>
+          where RowType : ArchiveRow
+    typeParameters:
+    - id: RowType
+      description: Archive row type
+    content.vb: Public Module TypedProviderHelper(Of RowType As ArchiveRow)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  nameWithType.vb: TypedProviderHelper(Of RowType)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedProviderHelper(Of RowType)
+  name.vb: TypedProviderHelper(Of RowType)
+- uid: SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.AdjustDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.AdjustDesiredColumns(System.String[])
+  id: AdjustDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1
+  langs:
+  - csharp
+  - vb
+  name: AdjustDesiredColumns(String[])
+  nameWithType: TypedProviderHelper<RowType>.AdjustDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.TypedProviderHelper<RowType>.AdjustDesiredColumns(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nReturn the incoming desired columns + standard columns as defined by the typed return row. Duplicates are removed from the result\n"
+  syntax:
+    content: public static string[] AdjustDesiredColumns(string[] externalDesiredColumns)
+    parameters:
+    - id: externalDesiredColumns
+      type: System.String[]
+      description: Desired columns
+    return:
+      type: System.String[]
+      description: Duplicate-free union of desired and standard columns
+    content.vb: Public Shared Function AdjustDesiredColumns(externalDesiredColumns As String()) As String()
+  overload: SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.AdjustDesiredColumns*
+  nameWithType.vb: TypedProviderHelper(Of RowType).AdjustDesiredColumns(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedProviderHelper(Of RowType).AdjustDesiredColumns(System.String())
+  name.vb: AdjustDesiredColumns(String())
+- uid: SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.GetStandardColumnNames
+  commentId: M:SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.GetStandardColumnNames
+  id: GetStandardColumnNames
+  parent: SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1
+  langs:
+  - csharp
+  - vb
+  name: GetStandardColumnNames()
+  nameWithType: TypedProviderHelper<RowType>.GetStandardColumnNames()
+  fullName: SuperOffice.CRM.ArchiveLists.TypedProviderHelper<RowType>.GetStandardColumnNames()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the standard column names of the RowType, using reflection on the ColumnXXX string constants that name the columns\n"
+  syntax:
+    content: public static string[] GetStandardColumnNames()
+    return:
+      type: System.String[]
+      description: List of standard column names
+    content.vb: Public Shared Function GetStandardColumnNames As String()
+  overload: SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.GetStandardColumnNames*
+  nameWithType.vb: TypedProviderHelper(Of RowType).GetStandardColumnNames()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedProviderHelper(Of RowType).GetStandardColumnNames()
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.AdjustDesiredColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.AdjustDesiredColumns
+  isExternal: true
+  name: AdjustDesiredColumns
+  nameWithType: TypedProviderHelper<RowType>.AdjustDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.TypedProviderHelper<RowType>.AdjustDesiredColumns
+  nameWithType.vb: TypedProviderHelper(Of RowType).AdjustDesiredColumns
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedProviderHelper(Of RowType).AdjustDesiredColumns
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.GetStandardColumnNames*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1.GetStandardColumnNames
+  isExternal: true
+  name: GetStandardColumnNames
+  nameWithType: TypedProviderHelper<RowType>.GetStandardColumnNames
+  fullName: SuperOffice.CRM.ArchiveLists.TypedProviderHelper<RowType>.GetStandardColumnNames
+  nameWithType.vb: TypedProviderHelper(Of RowType).GetStandardColumnNames
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedProviderHelper(Of RowType).GetStandardColumnNames

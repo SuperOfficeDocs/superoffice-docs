@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocumentPreview
+  commentId: T:SuperOffice.WebApi.Data.DocumentPreview
+  id: DocumentPreview
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocumentPreview.#ctor
+  - SuperOffice.WebApi.Data.DocumentPreview.Name
+  - SuperOffice.WebApi.Data.DocumentPreview.Size
+  - SuperOffice.WebApi.Data.DocumentPreview.Stream
+  - SuperOffice.WebApi.Data.DocumentPreview.Type
+  langs:
+  - csharp
+  - vb
+  name: DocumentPreview
+  nameWithType: DocumentPreview
+  fullName: SuperOffice.WebApi.Data.DocumentPreview
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DocumentPreview.\nDocument data intended for preview purposes    \n"
+  syntax:
+    content: 'public class DocumentPreview : Carrier'
+    content.vb: >-
+      Public Class DocumentPreview
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DocumentPreview.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DocumentPreview.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: DocumentPreview()
+  nameWithType: DocumentPreview.DocumentPreview()
+  fullName: SuperOffice.WebApi.Data.DocumentPreview.DocumentPreview()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DocumentPreview()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DocumentPreview.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentPreview.Name
+  commentId: P:SuperOffice.WebApi.Data.DocumentPreview.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DocumentPreview.Name
+  fullName: SuperOffice.WebApi.Data.DocumentPreview.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe documents name\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.DocumentPreview.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentPreview.Type
+  commentId: P:SuperOffice.WebApi.Data.DocumentPreview.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DocumentPreview.Type
+  fullName: SuperOffice.WebApi.Data.DocumentPreview.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe mimetype of the stream\n"
+  syntax:
+    content: public virtual string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Type As String
+  overload: SuperOffice.WebApi.Data.DocumentPreview.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentPreview.Size
+  commentId: P:SuperOffice.WebApi.Data.DocumentPreview.Size
+  id: Size
+  parent: SuperOffice.WebApi.Data.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: DocumentPreview.Size
+  fullName: SuperOffice.WebApi.Data.DocumentPreview.Size
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSize of the stream\n"
+  syntax:
+    content: public virtual int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Size As Integer
+  overload: SuperOffice.WebApi.Data.DocumentPreview.Size*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentPreview.Stream
+  commentId: P:SuperOffice.WebApi.Data.DocumentPreview.Stream
+  id: Stream
+  parent: SuperOffice.WebApi.Data.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: Stream
+  nameWithType: DocumentPreview.Stream
+  fullName: SuperOffice.WebApi.Data.DocumentPreview.Stream
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDocument data\n"
+  syntax:
+    content: public virtual byte[] Stream { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Overridable Property Stream As Byte()
+  overload: SuperOffice.WebApi.Data.DocumentPreview.Stream*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DocumentAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  isExternal: true
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DocumentPreview.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentPreview.#ctor
+  isExternal: true
+  name: DocumentPreview
+  nameWithType: DocumentPreview.DocumentPreview
+  fullName: SuperOffice.WebApi.Data.DocumentPreview.DocumentPreview
+- uid: SuperOffice.WebApi.Data.DocumentPreview.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentPreview.Name
+  isExternal: true
+  name: Name
+  nameWithType: DocumentPreview.Name
+  fullName: SuperOffice.WebApi.Data.DocumentPreview.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.DocumentPreview.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentPreview.Type
+  isExternal: true
+  name: Type
+  nameWithType: DocumentPreview.Type
+  fullName: SuperOffice.WebApi.Data.DocumentPreview.Type
+- uid: SuperOffice.WebApi.Data.DocumentPreview.Size*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentPreview.Size
+  isExternal: true
+  name: Size
+  nameWithType: DocumentPreview.Size
+  fullName: SuperOffice.WebApi.Data.DocumentPreview.Size
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DocumentPreview.Stream*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentPreview.Stream
+  isExternal: true
+  name: Stream
+  nameWithType: DocumentPreview.Stream
+  fullName: SuperOffice.WebApi.Data.DocumentPreview.Stream
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

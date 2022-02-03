@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Events.IEventEngine
+  commentId: T:SuperOffice.Events.IEventEngine
+  id: IEventEngine
+  parent: SuperOffice.Events
+  children:
+  - SuperOffice.Events.IEventEngine.Init
+  - SuperOffice.Events.IEventEngine.SendEvent(System.String,System.Boolean,System.Object@,SuperOffice.Events.SendEventArguments@)
+  langs:
+  - csharp
+  - vb
+  name: IEventEngine
+  nameWithType: IEventEngine
+  fullName: SuperOffice.Events.IEventEngine
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Events
+  summary: "\nInterface for Event engine\n"
+  syntax:
+    content: 'public interface IEventEngine : IPlugin'
+    content.vb: >-
+      Public Interface IEventEngine
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.Events.IEventEngine.EnumUtil.MapEnums``2
+  - SuperOffice.Events.IEventEngine.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Events.IEventEngine.Init
+  commentId: M:SuperOffice.Events.IEventEngine.Init
+  id: Init
+  parent: SuperOffice.Events.IEventEngine
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: IEventEngine.Init()
+  fullName: SuperOffice.Events.IEventEngine.Init()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Events
+  summary: "\nInitalization of engine\n"
+  syntax:
+    content: void Init()
+    content.vb: Sub Init
+  overload: SuperOffice.Events.IEventEngine.Init*
+- uid: SuperOffice.Events.IEventEngine.SendEvent(System.String,System.Boolean,System.Object@,SuperOffice.Events.SendEventArguments@)
+  commentId: M:SuperOffice.Events.IEventEngine.SendEvent(System.String,System.Boolean,System.Object@,SuperOffice.Events.SendEventArguments@)
+  id: SendEvent(System.String,System.Boolean,System.Object@,SuperOffice.Events.SendEventArguments@)
+  parent: SuperOffice.Events.IEventEngine
+  langs:
+  - csharp
+  - vb
+  name: SendEvent(String, Boolean, ref Object, ref SendEventArguments)
+  nameWithType: IEventEngine.SendEvent(String, Boolean, ref Object, ref SendEventArguments)
+  fullName: SuperOffice.Events.IEventEngine.SendEvent(System.String, System.Boolean, ref System.Object, ref SuperOffice.Events.SendEventArguments)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Events
+  summary: "\nExecute the event.\n"
+  syntax:
+    content: void SendEvent(string methodName, bool async, ref object state, ref SendEventArguments arguments)
+    parameters:
+    - id: methodName
+      type: System.String
+    - id: async
+      type: System.Boolean
+    - id: state
+      type: System.Object
+    - id: arguments
+      type: SuperOffice.Events.SendEventArguments
+    content.vb: Sub SendEvent(methodName As String, async As Boolean, ByRef state As Object, ByRef arguments As SendEventArguments)
+  overload: SuperOffice.Events.IEventEngine.SendEvent*
+  nameWithType.vb: IEventEngine.SendEvent(String, Boolean, ByRef Object, ByRef SendEventArguments)
+  fullName.vb: SuperOffice.Events.IEventEngine.SendEvent(System.String, System.Boolean, ByRef System.Object, ByRef SuperOffice.Events.SendEventArguments)
+  name.vb: SendEvent(String, Boolean, ByRef Object, ByRef SendEventArguments)
+references:
+- uid: SuperOffice.Events
+  commentId: N:SuperOffice.Events
+  isExternal: true
+  name: SuperOffice.Events
+  nameWithType: SuperOffice.Events
+  fullName: SuperOffice.Events
+- uid: SuperOffice.Events.IEventEngine.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IEventEngine, To>()
+  nameWithType: EnumUtil.MapEnums<IEventEngine, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Events.IEventEngine, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IEventEngine, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Events.IEventEngine, To)()
+  name.vb: MapEnums(Of IEventEngine, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IEventEngine, To>
+    nameWithType: EnumUtil.MapEnums<IEventEngine, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Events.IEventEngine, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IEventEngine, To)
+    nameWithType: EnumUtil.MapEnums(Of IEventEngine, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Events.IEventEngine, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Events.IEventEngine.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IEventEngine, To>()
+  nameWithType: Converters.MapEnums<IEventEngine, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Events.IEventEngine, To>()
+  nameWithType.vb: Converters.MapEnums(Of IEventEngine, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Events.IEventEngine, To)()
+  name.vb: MapEnums(Of IEventEngine, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IEventEngine, To>
+    nameWithType: Converters.MapEnums<IEventEngine, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Events.IEventEngine, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IEventEngine, To)
+    nameWithType: Converters.MapEnums(Of IEventEngine, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Events.IEventEngine, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Events.IEventEngine.Init*
+  commentId: Overload:SuperOffice.Events.IEventEngine.Init
+  isExternal: true
+  name: Init
+  nameWithType: IEventEngine.Init
+  fullName: SuperOffice.Events.IEventEngine.Init
+- uid: SuperOffice.Events.IEventEngine.SendEvent*
+  commentId: Overload:SuperOffice.Events.IEventEngine.SendEvent
+  isExternal: true
+  name: SendEvent
+  nameWithType: IEventEngine.SendEvent
+  fullName: SuperOffice.Events.IEventEngine.SendEvent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Events.SendEventArguments
+  commentId: T:SuperOffice.Events.SendEventArguments
+  parent: SuperOffice.Events
+  isExternal: true
+  name: SendEventArguments
+  nameWithType: SendEventArguments
+  fullName: SuperOffice.Events.SendEventArguments
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

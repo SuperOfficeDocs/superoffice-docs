@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ActivityStatus
+  commentId: T:SuperOffice.WebApi.Data.ActivityStatus
+  id: ActivityStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ActivityStatus.Completed
+  - SuperOffice.WebApi.Data.ActivityStatus.NotStarted
+  - SuperOffice.WebApi.Data.ActivityStatus.Started
+  - SuperOffice.WebApi.Data.ActivityStatus.Unknown
+  - SuperOffice.WebApi.Data.ActivityStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: ActivityStatus
+  nameWithType: ActivityStatus
+  fullName: SuperOffice.WebApi.Data.ActivityStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCompleted status enum common to appointments, documents and sales\n"
+  syntax:
+    content: 'public sealed class ActivityStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class ActivityStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ActivityStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.ActivityStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ActivityStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ActivityStatus.value__
+  fullName: SuperOffice.WebApi.Data.ActivityStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ActivityStatus.Unknown
+  commentId: F:SuperOffice.WebApi.Data.ActivityStatus.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.ActivityStatus
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ActivityStatus.Unknown
+  fullName: SuperOffice.WebApi.Data.ActivityStatus.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: 0: Unknown - used when initializing\n"
+  syntax:
+    content: public const ActivityStatus Unknown
+    return:
+      type: SuperOffice.WebApi.Data.ActivityStatus
+    content.vb: Public Const Unknown As ActivityStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ActivityStatus.NotStarted
+  commentId: F:SuperOffice.WebApi.Data.ActivityStatus.NotStarted
+  id: NotStarted
+  parent: SuperOffice.WebApi.Data.ActivityStatus
+  langs:
+  - csharp
+  - vb
+  name: NotStarted
+  nameWithType: ActivityStatus.NotStarted
+  fullName: SuperOffice.WebApi.Data.ActivityStatus.NotStarted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: 1: Appointment has not been started\n"
+  syntax:
+    content: public const ActivityStatus NotStarted
+    return:
+      type: SuperOffice.WebApi.Data.ActivityStatus
+    content.vb: Public Const NotStarted As ActivityStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ActivityStatus.Started
+  commentId: F:SuperOffice.WebApi.Data.ActivityStatus.Started
+  id: Started
+  parent: SuperOffice.WebApi.Data.ActivityStatus
+  langs:
+  - csharp
+  - vb
+  name: Started
+  nameWithType: ActivityStatus.Started
+  fullName: SuperOffice.WebApi.Data.ActivityStatus.Started
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: 2: Appointment has been started, but not completed\n"
+  syntax:
+    content: public const ActivityStatus Started
+    return:
+      type: SuperOffice.WebApi.Data.ActivityStatus
+    content.vb: Public Const Started As ActivityStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ActivityStatus.Completed
+  commentId: F:SuperOffice.WebApi.Data.ActivityStatus.Completed
+  id: Completed
+  parent: SuperOffice.WebApi.Data.ActivityStatus
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: ActivityStatus.Completed
+  fullName: SuperOffice.WebApi.Data.ActivityStatus.Completed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: 3: Appointment is completed\n"
+  syntax:
+    content: public const ActivityStatus Completed
+    return:
+      type: SuperOffice.WebApi.Data.ActivityStatus
+    content.vb: Public Const Completed As ActivityStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ActivityStatus
+  commentId: T:SuperOffice.WebApi.Data.ActivityStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ActivityStatus
+  nameWithType: ActivityStatus
+  fullName: SuperOffice.WebApi.Data.ActivityStatus

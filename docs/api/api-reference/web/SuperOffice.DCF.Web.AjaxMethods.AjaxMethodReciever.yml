@@ -1,0 +1,606 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+  commentId: T:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+  id: AjaxMethodReciever
+  parent: SuperOffice.DCF.Web.AjaxMethods
+  children:
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.#ctor
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObject(System.String)
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObjectWithConstructorParams(System.String,System.Object[])
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.Execute(System.String,System.String,System.Object[])
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.ExecuteData(System.String,System.String,System.Object[],System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: AjaxMethodReciever
+  nameWithType: AjaxMethodReciever
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("AjaxMethodReciever")]
+
+      public class AjaxMethodReciever : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("AjaxMethodReciever")>
+
+      Public Class AjaxMethodReciever
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: AjaxMethodReciever
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.ExecuteData(System.String,System.String,System.Object[],System.Object[])
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.ExecuteData(System.String,System.String,System.Object[],System.Object[])
+  id: ExecuteData(System.String,System.String,System.Object[],System.Object[])
+  parent: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+  langs:
+  - csharp
+  - vb
+  name: ExecuteData(String, String, Object[], Object[])
+  nameWithType: AjaxMethodReciever.ExecuteData(String, String, Object[], Object[])
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.ExecuteData(System.String, System.String, System.Object[], System.Object[])
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public object[] ExecuteData(string dataHandlerAssemblyName, string method, object[] parameters, object[] dataCarriers)
+    parameters:
+    - id: dataHandlerAssemblyName
+      type: System.String
+    - id: method
+      type: System.String
+    - id: parameters
+      type: System.Object[]
+    - id: dataCarriers
+      type: System.Object[]
+    return:
+      type: System.Object[]
+    content.vb: Public Function ExecuteData(dataHandlerAssemblyName As String, method As String, parameters As Object(), dataCarriers As Object()) As Object()
+  overload: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.ExecuteData*
+  nameWithType.vb: AjaxMethodReciever.ExecuteData(String, String, Object(), Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.ExecuteData(System.String, System.String, System.Object(), System.Object())
+  name.vb: ExecuteData(String, String, Object(), Object())
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.Execute(System.String,System.String,System.Object[])
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.Execute(System.String,System.String,System.Object[])
+  id: Execute(System.String,System.String,System.Object[])
+  parent: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+  langs:
+  - csharp
+  - vb
+  name: Execute(String, String, Object[])
+  nameWithType: AjaxMethodReciever.Execute(String, String, Object[])
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.Execute(System.String, System.String, System.Object[])
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public object Execute(string method, string superstatecopy, object[] parameters)
+    parameters:
+    - id: method
+      type: System.String
+    - id: superstatecopy
+      type: System.String
+    - id: parameters
+      type: System.Object[]
+    return:
+      type: System.Object
+    content.vb: Public Function Execute(method As String, superstatecopy As String, parameters As Object()) As Object
+  overload: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.Execute*
+  nameWithType.vb: AjaxMethodReciever.Execute(String, String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.Execute(System.String, System.String, System.Object())
+  name.vb: Execute(String, String, Object())
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObject(System.String)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObject(System.String)
+  id: CreateObject(System.String)
+  parent: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+  langs:
+  - csharp
+  - vb
+  name: CreateObject(String)
+  nameWithType: AjaxMethodReciever.CreateObject(String)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObject(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public object CreateObject(string mappingName)
+    parameters:
+    - id: mappingName
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Function CreateObject(mappingName As String) As Object
+  overload: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObjectWithConstructorParams(System.String,System.Object[])
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObjectWithConstructorParams(System.String,System.Object[])
+  id: CreateObjectWithConstructorParams(System.String,System.Object[])
+  parent: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+  langs:
+  - csharp
+  - vb
+  name: CreateObjectWithConstructorParams(String, Object[])
+  nameWithType: AjaxMethodReciever.CreateObjectWithConstructorParams(String, Object[])
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObjectWithConstructorParams(System.String, System.Object[])
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public object CreateObjectWithConstructorParams(string mappingName, params object[] constructorArguments)
+    parameters:
+    - id: mappingName
+      type: System.String
+    - id: constructorArguments
+      type: System.Object[]
+    return:
+      type: System.Object
+    content.vb: Public Function CreateObjectWithConstructorParams(mappingName As String, ParamArray constructorArguments As Object()) As Object
+  overload: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObjectWithConstructorParams*
+  nameWithType.vb: AjaxMethodReciever.CreateObjectWithConstructorParams(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObjectWithConstructorParams(System.String, System.Object())
+  name.vb: CreateObjectWithConstructorParams(String, Object())
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.#ctor
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+  langs:
+  - csharp
+  - vb
+  name: AjaxMethodReciever()
+  nameWithType: AjaxMethodReciever.AjaxMethodReciever()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.AjaxMethodReciever()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public AjaxMethodReciever()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.AjaxMethods
+  commentId: N:SuperOffice.DCF.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.DCF.Web.AjaxMethods
+  nameWithType: SuperOffice.DCF.Web.AjaxMethods
+  fullName: SuperOffice.DCF.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.ExecuteData*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.ExecuteData
+  isExternal: true
+  name: ExecuteData
+  nameWithType: AjaxMethodReciever.ExecuteData
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.ExecuteData
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.Execute*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.Execute
+  isExternal: true
+  name: Execute
+  nameWithType: AjaxMethodReciever.Execute
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.Execute
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObject*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObject
+  isExternal: true
+  name: CreateObject
+  nameWithType: AjaxMethodReciever.CreateObject
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObject
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObjectWithConstructorParams*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObjectWithConstructorParams
+  isExternal: true
+  name: CreateObjectWithConstructorParams
+  nameWithType: AjaxMethodReciever.CreateObjectWithConstructorParams
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.CreateObjectWithConstructorParams
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.#ctor
+  isExternal: true
+  name: AjaxMethodReciever
+  nameWithType: AjaxMethodReciever.AjaxMethodReciever
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever.AjaxMethodReciever

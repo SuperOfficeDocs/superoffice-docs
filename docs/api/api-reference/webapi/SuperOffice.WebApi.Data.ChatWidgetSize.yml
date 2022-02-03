@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatWidgetSize
+  commentId: T:SuperOffice.WebApi.Data.ChatWidgetSize
+  id: ChatWidgetSize
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatWidgetSize.Large
+  - SuperOffice.WebApi.Data.ChatWidgetSize.Normal
+  - SuperOffice.WebApi.Data.ChatWidgetSize.value__
+  langs:
+  - csharp
+  - vb
+  name: ChatWidgetSize
+  nameWithType: ChatWidgetSize
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSize
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nChat widget size: normal or large\n"
+  syntax:
+    content: 'public sealed class ChatWidgetSize : Enum'
+    content.vb: >-
+      Public NotInheritable Class ChatWidgetSize
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatWidgetSize.value__
+  commentId: F:SuperOffice.WebApi.Data.ChatWidgetSize.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ChatWidgetSize
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ChatWidgetSize.value__
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSize.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatWidgetSize.Normal
+  commentId: F:SuperOffice.WebApi.Data.ChatWidgetSize.Normal
+  id: Normal
+  parent: SuperOffice.WebApi.Data.ChatWidgetSize
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: ChatWidgetSize.Normal
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSize.Normal
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Normal chat widget size.\n"
+  syntax:
+    content: public const ChatWidgetSize Normal
+    return:
+      type: SuperOffice.WebApi.Data.ChatWidgetSize
+    content.vb: Public Const Normal As ChatWidgetSize
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatWidgetSize.Large
+  commentId: F:SuperOffice.WebApi.Data.ChatWidgetSize.Large
+  id: Large
+  parent: SuperOffice.WebApi.Data.ChatWidgetSize
+  langs:
+  - csharp
+  - vb
+  name: Large
+  nameWithType: ChatWidgetSize.Large
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSize.Large
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Large size chat widget.\n"
+  syntax:
+    content: public const ChatWidgetSize Large
+    return:
+      type: SuperOffice.WebApi.Data.ChatWidgetSize
+    content.vb: Public Const Large As ChatWidgetSize
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ChatWidgetSize
+  commentId: T:SuperOffice.WebApi.Data.ChatWidgetSize
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ChatWidgetSize
+  nameWithType: ChatWidgetSize
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSize

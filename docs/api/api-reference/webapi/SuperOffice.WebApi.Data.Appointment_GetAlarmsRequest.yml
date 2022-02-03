@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest
+  id: Appointment_GetAlarmsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.DefaultAlarmLeadTimeInMinutes
+  - SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeAllAppointments
+  - SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeInvitations
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAlarmsRequest
+  nameWithType: Appointment_GetAlarmsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetAlarmsRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetAlarmsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAlarmsRequest()
+  nameWithType: Appointment_GetAlarmsRequest.Appointment_GetAlarmsRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.Appointment_GetAlarmsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetAlarmsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeInvitations
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeInvitations
+  id: IncludeInvitations
+  parent: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeInvitations
+  nameWithType: Appointment_GetAlarmsRequest.IncludeInvitations
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeInvitations
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeInvitations { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeInvitations As Boolean
+  overload: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeInvitations*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeAllAppointments
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeAllAppointments
+  id: IncludeAllAppointments
+  parent: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeAllAppointments
+  nameWithType: Appointment_GetAlarmsRequest.IncludeAllAppointments
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeAllAppointments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeAllAppointments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeAllAppointments As Boolean
+  overload: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeAllAppointments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.DefaultAlarmLeadTimeInMinutes
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.DefaultAlarmLeadTimeInMinutes
+  id: DefaultAlarmLeadTimeInMinutes
+  parent: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest
+  langs:
+  - csharp
+  - vb
+  name: DefaultAlarmLeadTimeInMinutes
+  nameWithType: Appointment_GetAlarmsRequest.DefaultAlarmLeadTimeInMinutes
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.DefaultAlarmLeadTimeInMinutes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DefaultAlarmLeadTimeInMinutes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DefaultAlarmLeadTimeInMinutes As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.DefaultAlarmLeadTimeInMinutes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.#ctor
+  isExternal: true
+  name: Appointment_GetAlarmsRequest
+  nameWithType: Appointment_GetAlarmsRequest.Appointment_GetAlarmsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.Appointment_GetAlarmsRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeInvitations*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeInvitations
+  isExternal: true
+  name: IncludeInvitations
+  nameWithType: Appointment_GetAlarmsRequest.IncludeInvitations
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeInvitations
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeAllAppointments*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeAllAppointments
+  isExternal: true
+  name: IncludeAllAppointments
+  nameWithType: Appointment_GetAlarmsRequest.IncludeAllAppointments
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.IncludeAllAppointments
+- uid: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.DefaultAlarmLeadTimeInMinutes*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.DefaultAlarmLeadTimeInMinutes
+  isExternal: true
+  name: DefaultAlarmLeadTimeInMinutes
+  nameWithType: Appointment_GetAlarmsRequest.DefaultAlarmLeadTimeInMinutes
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest.DefaultAlarmLeadTimeInMinutes
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController
+  commentId: T:SuperOffice.CRM.Web.Controllers.LogoutController
+  id: LogoutController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.LogoutController.#ctor
+  - SuperOffice.CRM.Web.Controllers.LogoutController.GetLogoutContext(System.Boolean)
+  - SuperOffice.CRM.Web.Controllers.LogoutController.GetSplashContext
+  langs:
+  - csharp
+  - vb
+  name: LogoutController
+  nameWithType: LogoutController
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class LogoutController : ApiController'
+    content.vb: >-
+      Public Class LogoutController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController.GetLogoutContext(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Controllers.LogoutController.GetLogoutContext(System.Boolean)
+  id: GetLogoutContext(System.Boolean)
+  parent: SuperOffice.CRM.Web.Controllers.LogoutController
+  langs:
+  - csharp
+  - vb
+  name: GetLogoutContext(Boolean)
+  nameWithType: LogoutController.GetLogoutContext(Boolean)
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController.GetLogoutContext(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public LogoutController.LogoutContext GetLogoutContext(bool saveSuperState)
+    parameters:
+    - id: saveSuperState
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutContext
+    content.vb: Public Function GetLogoutContext(saveSuperState As Boolean) As LogoutController.LogoutContext
+  overload: SuperOffice.CRM.Web.Controllers.LogoutController.GetLogoutContext*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController.GetSplashContext
+  commentId: M:SuperOffice.CRM.Web.Controllers.LogoutController.GetSplashContext
+  id: GetSplashContext
+  parent: SuperOffice.CRM.Web.Controllers.LogoutController
+  langs:
+  - csharp
+  - vb
+  name: GetSplashContext()
+  nameWithType: LogoutController.GetSplashContext()
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController.GetSplashContext()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public LogoutController.LogoutSplashContext GetSplashContext()
+    return:
+      type: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutSplashContext
+    content.vb: Public Function GetSplashContext As LogoutController.LogoutSplashContext
+  overload: SuperOffice.CRM.Web.Controllers.LogoutController.GetSplashContext*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.LogoutController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.LogoutController
+  langs:
+  - csharp
+  - vb
+  name: LogoutController()
+  nameWithType: LogoutController.LogoutController()
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public LogoutController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.LogoutController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController.GetLogoutContext*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.LogoutController.GetLogoutContext
+  isExternal: true
+  name: GetLogoutContext
+  nameWithType: LogoutController.GetLogoutContext
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController.GetLogoutContext
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutContext
+  commentId: T:SuperOffice.CRM.Web.Controllers.LogoutController.LogoutContext
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: LogoutController.LogoutContext
+  nameWithType: LogoutController.LogoutContext
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutContext
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController.GetSplashContext*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.LogoutController.GetSplashContext
+  isExternal: true
+  name: GetSplashContext
+  nameWithType: LogoutController.GetSplashContext
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController.GetSplashContext
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutSplashContext
+  commentId: T:SuperOffice.CRM.Web.Controllers.LogoutController.LogoutSplashContext
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: LogoutController.LogoutSplashContext
+  nameWithType: LogoutController.LogoutSplashContext
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutSplashContext
+- uid: SuperOffice.CRM.Web.Controllers.LogoutController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.LogoutController.#ctor
+  isExternal: true
+  name: LogoutController
+  nameWithType: LogoutController.LogoutController
+  fullName: SuperOffice.CRM.Web.Controllers.LogoutController.LogoutController

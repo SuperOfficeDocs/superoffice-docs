@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersionWorkflowState
+  id: QuoteVersionWorkflowState
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteVersionWorkflowState.#ctor
+  - SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons
+  - SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage
+  - SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status
+  - SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionWorkflowState
+  nameWithType: QuoteVersionWorkflowState
+  fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuoteVersionWorkflowState.\nInformation about possible button actions for the quote version dialog.    \n"
+  syntax:
+    content: 'public class QuoteVersionWorkflowState : Carrier'
+    content.vb: >-
+      Public Class QuoteVersionWorkflowState
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuoteVersionWorkflowState
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionWorkflowState()
+  nameWithType: QuoteVersionWorkflowState.QuoteVersionWorkflowState()
+  fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.QuoteVersionWorkflowState()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuoteVersionWorkflowState()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons
+  id: ActionButtons
+  parent: SuperOffice.WebApi.Data.QuoteVersionWorkflowState
+  langs:
+  - csharp
+  - vb
+  name: ActionButtons
+  nameWithType: QuoteVersionWorkflowState.ActionButtons
+  fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of visible buttons with defined actions in the quote verson dialog.\n"
+  syntax:
+    content: public virtual QuoteVersionButtonState[] ActionButtons { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionButtonState[]
+    content.vb: Public Overridable Property ActionButtons As QuoteVersionButtonState()
+  overload: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage
+  id: StateImage
+  parent: SuperOffice.WebApi.Data.QuoteVersionWorkflowState
+  langs:
+  - csharp
+  - vb
+  name: StateImage
+  nameWithType: QuoteVersionWorkflowState.StateImage
+  fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInformation about the state image for the current quote version.\n"
+  syntax:
+    content: public virtual QuoteVersionButtonState StateImage { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionButtonState
+    content.vb: Public Overridable Property StateImage As QuoteVersionButtonState
+  overload: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton
+  id: UpdatePricesButton
+  parent: SuperOffice.WebApi.Data.QuoteVersionWorkflowState
+  langs:
+  - csharp
+  - vb
+  name: UpdatePricesButton
+  nameWithType: QuoteVersionWorkflowState.UpdatePricesButton
+  fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInformation about the action for the update prices button.\n"
+  syntax:
+    content: public virtual QuoteVersionButtonState UpdatePricesButton { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionButtonState
+    content.vb: Public Overridable Property UpdatePricesButton As QuoteVersionButtonState
+  overload: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.QuoteVersionWorkflowState
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: QuoteVersionWorkflowState.Status
+  fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus information for the Quote Version.\n"
+  syntax:
+    content: public virtual QuoteVersionStatusInformation Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+    content.vb: Public Overridable Property Status As QuoteVersionStatusInformation
+  overload: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.#ctor
+  isExternal: true
+  name: QuoteVersionWorkflowState
+  nameWithType: QuoteVersionWorkflowState.QuoteVersionWorkflowState
+  fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.QuoteVersionWorkflowState
+- uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons
+  isExternal: true
+  name: ActionButtons
+  nameWithType: QuoteVersionWorkflowState.ActionButtons
+  fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.ActionButtons
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState[]
+  isExternal: true
+  name: QuoteVersionButtonState[]
+  nameWithType: QuoteVersionButtonState[]
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState[]
+  nameWithType.vb: QuoteVersionButtonState()
+  fullName.vb: SuperOffice.WebApi.Data.QuoteVersionButtonState()
+  name.vb: QuoteVersionButtonState()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.QuoteVersionButtonState
+    name: QuoteVersionButtonState
+    nameWithType: QuoteVersionButtonState
+    fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.QuoteVersionButtonState
+    name: QuoteVersionButtonState
+    nameWithType: QuoteVersionButtonState
+    fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage
+  isExternal: true
+  name: StateImage
+  nameWithType: QuoteVersionWorkflowState.StateImage
+  fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.StateImage
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersionButtonState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: QuoteVersionButtonState
+  nameWithType: QuoteVersionButtonState
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState
+- uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton
+  isExternal: true
+  name: UpdatePricesButton
+  nameWithType: QuoteVersionWorkflowState.UpdatePricesButton
+  fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.UpdatePricesButton
+- uid: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status
+  isExternal: true
+  name: Status
+  nameWithType: QuoteVersionWorkflowState.Status
+  fullName: SuperOffice.WebApi.Data.QuoteVersionWorkflowState.Status
+- uid: SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersionStatusInformation
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: QuoteVersionStatusInformation
+  nameWithType: QuoteVersionStatusInformation
+  fullName: SuperOffice.WebApi.Data.QuoteVersionStatusInformation

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  id: DragDropMode
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Create
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Move
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.None
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Resize
+  langs:
+  - csharp
+  - vb
+  name: DragDropMode
+  nameWithType: DragDropMode
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public enum DragDropMode
+    content.vb: Public Enum DragDropMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.None
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.None
+  id: None
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DragDropMode.None
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.None
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Move
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Move
+  id: Move
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  langs:
+  - csharp
+  - vb
+  name: Move
+  nameWithType: DragDropMode.Move
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Move
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: Move = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Resize
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Resize
+  id: Resize
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  langs:
+  - csharp
+  - vb
+  name: Resize
+  nameWithType: DragDropMode.Resize
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Resize
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: Resize = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Create
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Create
+  id: Create
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  langs:
+  - csharp
+  - vb
+  name: Create
+  nameWithType: DragDropMode.Create
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode.Create
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: Create = 3
+    return:
+      type: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.CRM.Web.UI.ScriptObjects
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: DragDropMode
+  nameWithType: DragDropMode
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode

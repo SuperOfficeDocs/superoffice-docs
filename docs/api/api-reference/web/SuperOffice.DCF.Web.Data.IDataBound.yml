@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Data.IDataBound
+  commentId: T:SuperOffice.DCF.Web.Data.IDataBound
+  id: IDataBound
+  parent: SuperOffice.DCF.Web.Data
+  children:
+  - SuperOffice.DCF.Web.Data.IDataBound.DataBind
+  - SuperOffice.DCF.Web.Data.IDataBound.DataSource
+  - SuperOffice.DCF.Web.Data.IDataBound.ProcessPostback
+  langs:
+  - csharp
+  - vb
+  name: IDataBound
+  nameWithType: IDataBound
+  fullName: SuperOffice.DCF.Web.Data.IDataBound
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Data
+  syntax:
+    content: public interface IDataBound
+    content.vb: Public Interface IDataBound
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.DCF.Web.Data.IDataBound.ProcessPostback
+  commentId: M:SuperOffice.DCF.Web.Data.IDataBound.ProcessPostback
+  id: ProcessPostback
+  parent: SuperOffice.DCF.Web.Data.IDataBound
+  langs:
+  - csharp
+  - vb
+  name: ProcessPostback()
+  nameWithType: IDataBound.ProcessPostback()
+  fullName: SuperOffice.DCF.Web.Data.IDataBound.ProcessPostback()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Data
+  syntax:
+    content: void ProcessPostback()
+    content.vb: Sub ProcessPostback
+  overload: SuperOffice.DCF.Web.Data.IDataBound.ProcessPostback*
+- uid: SuperOffice.DCF.Web.Data.IDataBound.DataBind
+  commentId: M:SuperOffice.DCF.Web.Data.IDataBound.DataBind
+  id: DataBind
+  parent: SuperOffice.DCF.Web.Data.IDataBound
+  langs:
+  - csharp
+  - vb
+  name: DataBind()
+  nameWithType: IDataBound.DataBind()
+  fullName: SuperOffice.DCF.Web.Data.IDataBound.DataBind()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Data
+  syntax:
+    content: void DataBind()
+    content.vb: Sub DataBind
+  overload: SuperOffice.DCF.Web.Data.IDataBound.DataBind*
+- uid: SuperOffice.DCF.Web.Data.IDataBound.DataSource
+  commentId: P:SuperOffice.DCF.Web.Data.IDataBound.DataSource
+  id: DataSource
+  parent: SuperOffice.DCF.Web.Data.IDataBound
+  langs:
+  - csharp
+  - vb
+  name: DataSource
+  nameWithType: IDataBound.DataSource
+  fullName: SuperOffice.DCF.Web.Data.IDataBound.DataSource
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Data
+  syntax:
+    content: object DataSource { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Property DataSource As Object
+  overload: SuperOffice.DCF.Web.Data.IDataBound.DataSource*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.DCF.Web.Data
+  commentId: N:SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: SuperOffice.DCF.Web.Data
+  nameWithType: SuperOffice.DCF.Web.Data
+  fullName: SuperOffice.DCF.Web.Data
+- uid: SuperOffice.DCF.Web.Data.IDataBound.ProcessPostback*
+  commentId: Overload:SuperOffice.DCF.Web.Data.IDataBound.ProcessPostback
+  isExternal: true
+  name: ProcessPostback
+  nameWithType: IDataBound.ProcessPostback
+  fullName: SuperOffice.DCF.Web.Data.IDataBound.ProcessPostback
+- uid: SuperOffice.DCF.Web.Data.IDataBound.DataBind*
+  commentId: Overload:SuperOffice.DCF.Web.Data.IDataBound.DataBind
+  isExternal: true
+  name: DataBind
+  nameWithType: IDataBound.DataBind
+  fullName: SuperOffice.DCF.Web.Data.IDataBound.DataBind
+- uid: SuperOffice.DCF.Web.Data.IDataBound.DataSource*
+  commentId: Overload:SuperOffice.DCF.Web.Data.IDataBound.DataSource
+  isExternal: true
+  name: DataSource
+  nameWithType: IDataBound.DataSource
+  fullName: SuperOffice.DCF.Web.Data.IDataBound.DataSource
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,1094 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  id: ArchiveControlHelper
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetColumnArray(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetEntities(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType,System.String,System.String,System.Int32)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType,System.String,System.String,System.Int32,SuperOffice.CRM.Security.TableRight)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetOrderBys(System.String)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetRestrictions(System.Xml.XmlNodeList)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32,SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListResult)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32,System.Int32,SuperOffice.CRM.Services.ArchiveListResult,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32,System.Int32,SuperOffice.CRM.Services.ArchiveListResult,System.String,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnData(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListItem,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Web.UI.Controls.SpriteResolver)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnDataDateTime(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListItem,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.parseSOUnit(System.String)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.UpdateCurrentValues(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  langs:
+  - csharp
+  - vb
+  name: ArchiveControlHelper
+  nameWithType: ArchiveControlHelper
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static class ArchiveControlHelper
+    content.vb: Public Module ArchiveControlHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32,System.Int32,SuperOffice.CRM.Services.ArchiveListResult,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32,System.Int32,SuperOffice.CRM.Services.ArchiveListResult,System.String,System.String)
+  id: PagingInfo(System.Int32,System.Int32,SuperOffice.CRM.Services.ArchiveListResult,System.String,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: PagingInfo(Int32, Int32, ArchiveListResult, String, String)
+  nameWithType: ArchiveControlHelper.PagingInfo(Int32, Int32, ArchiveListResult, String, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32, System.Int32, SuperOffice.CRM.Services.ArchiveListResult, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static string PagingInfo(int page, int pageSize, ArchiveListResult alr, string inputRowIds, string extraReturn)
+    parameters:
+    - id: page
+      type: System.Int32
+    - id: pageSize
+      type: System.Int32
+    - id: alr
+      type: SuperOffice.CRM.Services.ArchiveListResult
+    - id: inputRowIds
+      type: System.String
+    - id: extraReturn
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function PagingInfo(page As Integer, pageSize As Integer, alr As ArchiveListResult, inputRowIds As String, extraReturn As String) As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32,System.Int32,SuperOffice.CRM.Services.ArchiveListResult,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32,System.Int32,SuperOffice.CRM.Services.ArchiveListResult,System.String)
+  id: PagingInfo(System.Int32,System.Int32,SuperOffice.CRM.Services.ArchiveListResult,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: PagingInfo(Int32, Int32, ArchiveListResult, String)
+  nameWithType: ArchiveControlHelper.PagingInfo(Int32, Int32, ArchiveListResult, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32, System.Int32, SuperOffice.CRM.Services.ArchiveListResult, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static string PagingInfo(int page, int pageSize, ArchiveListResult alr, string extraReturn)
+    parameters:
+    - id: page
+      type: System.Int32
+    - id: pageSize
+      type: System.Int32
+    - id: alr
+      type: SuperOffice.CRM.Services.ArchiveListResult
+    - id: extraReturn
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function PagingInfo(page As Integer, pageSize As Integer, alr As ArchiveListResult, extraReturn As String) As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32,SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListResult)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32,SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListResult)
+  id: PagingInfo(System.Int32,SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListResult)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: PagingInfo(Int32, ArchiveControlContext, ArchiveListResult)
+  nameWithType: ArchiveControlHelper.PagingInfo(Int32, ArchiveControlContext, ArchiveListResult)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo(System.Int32, SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext, SuperOffice.CRM.Services.ArchiveListResult)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static string PagingInfo(int page, ArchiveControlContext acc, ArchiveListResult alr)
+    parameters:
+    - id: page
+      type: System.Int32
+    - id: acc
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    - id: alr
+      type: SuperOffice.CRM.Services.ArchiveListResult
+    return:
+      type: System.String
+    content.vb: Public Shared Function PagingInfo(page As Integer, acc As ArchiveControlContext, alr As ArchiveListResult) As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.UpdateCurrentValues(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.UpdateCurrentValues(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  id: UpdateCurrentValues(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateCurrentValues(ArchiveControlContext)
+  nameWithType: ArchiveControlHelper.UpdateCurrentValues(ArchiveControlContext)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.UpdateCurrentValues(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static void UpdateCurrentValues(ArchiveControlContext acc)
+    parameters:
+    - id: acc
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    content.vb: Public Shared Sub UpdateCurrentValues(acc As ArchiveControlContext)
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.UpdateCurrentValues*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetEntities(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetEntities(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  id: GetEntities(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetEntities(SelectableMDOListItem[])
+  nameWithType: ArchiveControlHelper.GetEntities(SelectableMDOListItem[])
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetEntities(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static string[] GetEntities(SelectableMDOListItem[] entities)
+    parameters:
+    - id: entities
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetEntities(entities As SelectableMDOListItem()) As String()
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetEntities*
+  nameWithType.vb: ArchiveControlHelper.GetEntities(SelectableMDOListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetEntities(SuperOffice.CRM.Services.SelectableMDOListItem())
+  name.vb: GetEntities(SelectableMDOListItem())
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetRestrictions(System.Xml.XmlNodeList)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetRestrictions(System.Xml.XmlNodeList)
+  id: GetRestrictions(System.Xml.XmlNodeList)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetRestrictions(XmlNodeList)
+  nameWithType: ArchiveControlHelper.GetRestrictions(XmlNodeList)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetRestrictions(System.Xml.XmlNodeList)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static ArchiveRestrictionInfo[] GetRestrictions(XmlNodeList restrictionNodes)
+    parameters:
+    - id: restrictionNodes
+      type: System.Xml.XmlNodeList
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    content.vb: Public Shared Function GetRestrictions(restrictionNodes As XmlNodeList) As ArchiveRestrictionInfo()
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetRestrictions*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetOrderBys(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetOrderBys(System.String)
+  id: GetOrderBys(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetOrderBys(String)
+  nameWithType: ArchiveControlHelper.GetOrderBys(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetOrderBys(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static ArchiveOrderByInfo[] GetOrderBys(string orderBy)
+    parameters:
+    - id: orderBy
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+    content.vb: Public Shared Function GetOrderBys(orderBy As String) As ArchiveOrderByInfo()
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetOrderBys*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType)
+  id: GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLink(ArchiveControlContext, String, LinkInfoSubType)
+  nameWithType: ArchiveControlHelper.GetLink(ArchiveControlContext, String, LinkInfoSubType)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext, System.String, SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static string GetLink(ArchiveControlContext archiveControlContext, string linkHint, LinkInfoSubType linkInfoSubType)
+    parameters:
+    - id: archiveControlContext
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    - id: linkHint
+      type: System.String
+    - id: linkInfoSubType
+      type: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetLink(archiveControlContext As ArchiveControlContext, linkHint As String, linkInfoSubType As LinkInfoSubType) As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType,System.String,System.String,System.Int32)
+  id: GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLink(ArchiveControlContext, String, LinkInfoSubType, String, String, Int32)
+  nameWithType: ArchiveControlHelper.GetLink(ArchiveControlContext, String, LinkInfoSubType, String, String, Int32)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext, System.String, SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static string GetLink(ArchiveControlContext archiveControlContext, string linkHint, LinkInfoSubType linkInfoSubType, string linkHintPrefix, string rowLinkHint, int rowPrimaryKey)
+    parameters:
+    - id: archiveControlContext
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    - id: linkHint
+      type: System.String
+    - id: linkInfoSubType
+      type: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+    - id: linkHintPrefix
+      type: System.String
+    - id: rowLinkHint
+      type: System.String
+    - id: rowPrimaryKey
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetLink(archiveControlContext As ArchiveControlContext, linkHint As String, linkInfoSubType As LinkInfoSubType, linkHintPrefix As String, rowLinkHint As String, rowPrimaryKey As Integer) As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType,System.String,System.String,System.Int32,SuperOffice.CRM.Security.TableRight)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType,System.String,System.String,System.Int32,SuperOffice.CRM.Security.TableRight)
+  id: GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType,System.String,System.String,System.Int32,SuperOffice.CRM.Security.TableRight)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLink(ArchiveControlContext, String, LinkInfoSubType, String, String, Int32, TableRight)
+  nameWithType: ArchiveControlHelper.GetLink(ArchiveControlContext, String, LinkInfoSubType, String, String, Int32, TableRight)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext, System.String, SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType, System.String, System.String, System.Int32, SuperOffice.CRM.Security.TableRight)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static string GetLink(ArchiveControlContext archiveControlContext, string linkHint, LinkInfoSubType linkInfoSubType, string linkHintPrefix, string rowLinkHint, int rowPrimaryKey, TableRight tableRight)
+    parameters:
+    - id: archiveControlContext
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    - id: linkHint
+      type: System.String
+    - id: linkInfoSubType
+      type: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+    - id: linkHintPrefix
+      type: System.String
+    - id: rowLinkHint
+      type: System.String
+    - id: rowPrimaryKey
+      type: System.Int32
+    - id: tableRight
+      type: SuperOffice.CRM.Security.TableRight
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetLink(archiveControlContext As ArchiveControlContext, linkHint As String, linkInfoSubType As LinkInfoSubType, linkHintPrefix As String, rowLinkHint As String, rowPrimaryKey As Integer, tableRight As TableRight) As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.parseSOUnit(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.parseSOUnit(System.String)
+  id: parseSOUnit(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: parseSOUnit(String)
+  nameWithType: ArchiveControlHelper.parseSOUnit(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.parseSOUnit(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static Unit parseSOUnit(string unitString)
+    parameters:
+    - id: unitString
+      type: System.String
+    return:
+      type: System.Web.UI.WebControls.Unit
+    content.vb: Public Shared Function parseSOUnit(unitString As String) As Unit
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.parseSOUnit*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetColumnArray(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetColumnArray(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  id: GetColumnArray(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetColumnArray(ArchiveControlContext)
+  nameWithType: ArchiveControlHelper.GetColumnArray(ArchiveControlContext)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetColumnArray(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static string[] GetColumnArray(ArchiveControlContext archiveControlContext)
+    parameters:
+    - id: archiveControlContext
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetColumnArray(archiveControlContext As ArchiveControlContext) As String()
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetColumnArray*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnData(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListItem,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Web.UI.Controls.SpriteResolver)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnData(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListItem,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Web.UI.Controls.SpriteResolver)
+  id: ParseArchiveColumnData(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListItem,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Web.UI.Controls.SpriteResolver)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: ParseArchiveColumnData(ArchiveControlContext, ArchiveListItem, ArchiveColumnInfo, SpriteResolver)
+  nameWithType: ArchiveControlHelper.ParseArchiveColumnData(ArchiveControlContext, ArchiveListItem, ArchiveColumnInfo, SpriteResolver)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnData(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext, SuperOffice.CRM.Services.ArchiveListItem, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.Web.UI.Controls.SpriteResolver)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static void ParseArchiveColumnData(ArchiveControlContext archiveControlContext, ArchiveListItem ali, ArchiveColumnInfo aci, SpriteResolver spriteResolver)
+    parameters:
+    - id: archiveControlContext
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    - id: ali
+      type: SuperOffice.CRM.Services.ArchiveListItem
+    - id: aci
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    - id: spriteResolver
+      type: SuperOffice.Web.UI.Controls.SpriteResolver
+    content.vb: Public Shared Sub ParseArchiveColumnData(archiveControlContext As ArchiveControlContext, ali As ArchiveListItem, aci As ArchiveColumnInfo, spriteResolver As SpriteResolver)
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnDataDateTime(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListItem,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnDataDateTime(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListItem,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  id: ParseArchiveColumnDataDateTime(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.Services.ArchiveListItem,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+  langs:
+  - csharp
+  - vb
+  name: ParseArchiveColumnDataDateTime(ArchiveControlContext, ArchiveListItem, ArchiveColumnInfo)
+  nameWithType: ArchiveControlHelper.ParseArchiveColumnDataDateTime(ArchiveControlContext, ArchiveListItem, ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnDataDateTime(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext, SuperOffice.CRM.Services.ArchiveListItem, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static void ParseArchiveColumnDataDateTime(ArchiveControlContext archiveControlContext, ArchiveListItem ali, ArchiveColumnInfo aci)
+    parameters:
+    - id: archiveControlContext
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    - id: ali
+      type: SuperOffice.CRM.Services.ArchiveListItem
+    - id: aci
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Shared Sub ParseArchiveColumnDataDateTime(archiveControlContext As ArchiveControlContext, ali As ArchiveListItem, aci As ArchiveColumnInfo)
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnDataDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo
+  isExternal: true
+  name: PagingInfo
+  nameWithType: ArchiveControlHelper.PagingInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.PagingInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ArchiveListResult
+  isExternal: true
+  name: ArchiveListResult
+  nameWithType: ArchiveListResult
+  fullName: SuperOffice.CRM.Services.ArchiveListResult
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: ArchiveControlContext
+  nameWithType: ArchiveControlContext
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.UpdateCurrentValues*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.UpdateCurrentValues
+  isExternal: true
+  name: UpdateCurrentValues
+  nameWithType: ArchiveControlHelper.UpdateCurrentValues
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.UpdateCurrentValues
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetEntities*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetEntities
+  isExternal: true
+  name: GetEntities
+  nameWithType: ArchiveControlHelper.GetEntities
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetEntities
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetRestrictions*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetRestrictions
+  isExternal: true
+  name: GetRestrictions
+  nameWithType: ArchiveControlHelper.GetRestrictions
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetRestrictions
+- uid: System.Xml.XmlNodeList
+  commentId: '!:System.Xml.XmlNodeList'
+  isExternal: true
+  name: XmlNodeList
+  nameWithType: XmlNodeList
+  fullName: System.Xml.XmlNodeList
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetOrderBys*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetOrderBys
+  isExternal: true
+  name: GetOrderBys
+  nameWithType: ArchiveControlHelper.GetOrderBys
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetOrderBys
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink
+  isExternal: true
+  name: GetLink
+  nameWithType: ArchiveControlHelper.GetLink
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetLink
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: LinkInfoSubType
+  nameWithType: LinkInfoSubType
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: SuperOffice.CRM.Security.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.parseSOUnit*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.parseSOUnit
+  isExternal: true
+  name: parseSOUnit
+  nameWithType: ArchiveControlHelper.parseSOUnit
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.parseSOUnit
+- uid: System.Web.UI.WebControls.Unit
+  isExternal: true
+  name: Unit
+  nameWithType: Unit
+  fullName: System.Web.UI.WebControls.Unit
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetColumnArray*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetColumnArray
+  isExternal: true
+  name: GetColumnArray
+  nameWithType: ArchiveControlHelper.GetColumnArray
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.GetColumnArray
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnData*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnData
+  isExternal: true
+  name: ParseArchiveColumnData
+  nameWithType: ArchiveControlHelper.ParseArchiveColumnData
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnData
+- uid: SuperOffice.CRM.Services.ArchiveListItem
+  isExternal: true
+  name: ArchiveListItem
+  nameWithType: ArchiveListItem
+  fullName: SuperOffice.CRM.Services.ArchiveListItem
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver
+  commentId: T:SuperOffice.Web.UI.Controls.SpriteResolver
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SpriteResolver
+  nameWithType: SpriteResolver
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnDataDateTime*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnDataDateTime
+  isExternal: true
+  name: ParseArchiveColumnDataDateTime
+  nameWithType: ArchiveControlHelper.ParseArchiveColumnDataDateTime
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper.ParseArchiveColumnDataDateTime

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Configuration_data_handling
+  commentId: N:SuperOffice.CRM.ArchiveLists.Configuration_data_handling
+  id: SuperOffice.CRM.ArchiveLists.Configuration_data_handling
+  children:
+  - SuperOffice.CRM.ArchiveLists.Configuration_data_handling.ArchiveRowProvider
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.ArchiveLists.Configuration_data_handling
+  nameWithType: SuperOffice.CRM.ArchiveLists.Configuration_data_handling
+  fullName: SuperOffice.CRM.ArchiveLists.Configuration_data_handling
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.ArchiveLists.Configuration_data_handling.ArchiveRowProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.Configuration_data_handling.ArchiveRowProvider
+  isExternal: true
+  name: ArchiveRowProvider
+  nameWithType: ArchiveRowProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Configuration_data_handling.ArchiveRowProvider

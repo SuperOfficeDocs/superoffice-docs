@@ -1,0 +1,358 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.ISoSecurityTokenValidator
+  commentId: T:SuperOffice.Security.ISoSecurityTokenValidator
+  id: ISoSecurityTokenValidator
+  parent: SuperOffice.Security
+  children:
+  - SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},System.String@)
+  langs:
+  - csharp
+  - vb
+  name: ISoSecurityTokenValidator
+  nameWithType: ISoSecurityTokenValidator
+  fullName: SuperOffice.Security.ISoSecurityTokenValidator
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security
+  summary: "\nInterface for plugin capable validating the authentication process\n"
+  syntax:
+    content: 'public interface ISoSecurityTokenValidator : IPlugin'
+    content.vb: >-
+      Public Interface ISoSecurityTokenValidator
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.Security.ISoSecurityTokenValidator.EnumUtil.MapEnums``2
+  - SuperOffice.Security.ISoSecurityTokenValidator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},System.String@)
+  commentId: M:SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},System.String@)
+  id: TryValidateTokens(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},System.String@)
+  parent: SuperOffice.Security.ISoSecurityTokenValidator
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokens(IList<SecurityToken>, out String)
+  nameWithType: ISoSecurityTokenValidator.TryValidateTokens(IList<SecurityToken>, out String)
+  fullName: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>, out System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security
+  summary: "\nValidate the tokens before they are resolved.  The Authentication \nprocess fails if one of the validators return Rejected.\n"
+  syntax:
+    content: TokenValidationResult TryValidateTokens(IList<SecurityToken> tokens, out string reason)
+    parameters:
+    - id: tokens
+      type: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+      description: Tokens to validate
+    - id: reason
+      type: System.String
+      description: "The reason for the result.  This value should \nalways be set to something meaningfull if Rejected is returned."
+    return:
+      type: SuperOffice.Security.TokenValidationResult
+      description: Result of validation.
+    content.vb: Function TryValidateTokens(tokens As IList(Of SecurityToken), ByRef reason As String) As TokenValidationResult
+  overload: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens*
+  nameWithType.vb: ISoSecurityTokenValidator.TryValidateTokens(IList(Of SecurityToken), ByRef String)
+  fullName.vb: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken), ByRef System.String)
+  name.vb: TryValidateTokens(IList(Of SecurityToken), ByRef String)
+references:
+- uid: SuperOffice.Security
+  commentId: N:SuperOffice.Security
+  isExternal: true
+  name: SuperOffice.Security
+  nameWithType: SuperOffice.Security
+  fullName: SuperOffice.Security
+- uid: SuperOffice.Security.ISoSecurityTokenValidator.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISoSecurityTokenValidator, To>()
+  nameWithType: EnumUtil.MapEnums<ISoSecurityTokenValidator, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.ISoSecurityTokenValidator, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoSecurityTokenValidator, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.ISoSecurityTokenValidator, To)()
+  name.vb: MapEnums(Of ISoSecurityTokenValidator, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoSecurityTokenValidator, To>
+    nameWithType: EnumUtil.MapEnums<ISoSecurityTokenValidator, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.ISoSecurityTokenValidator, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoSecurityTokenValidator, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoSecurityTokenValidator, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.ISoSecurityTokenValidator, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.ISoSecurityTokenValidator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISoSecurityTokenValidator, To>()
+  nameWithType: Converters.MapEnums<ISoSecurityTokenValidator, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.ISoSecurityTokenValidator, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoSecurityTokenValidator, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.ISoSecurityTokenValidator, To)()
+  name.vb: MapEnums(Of ISoSecurityTokenValidator, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoSecurityTokenValidator, To>
+    nameWithType: Converters.MapEnums<ISoSecurityTokenValidator, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.ISoSecurityTokenValidator, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoSecurityTokenValidator, To)
+    nameWithType: Converters.MapEnums(Of ISoSecurityTokenValidator, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.ISoSecurityTokenValidator, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens*
+  commentId: Overload:SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens
+  isExternal: true
+  name: TryValidateTokens
+  nameWithType: ISoSecurityTokenValidator.TryValidateTokens
+  fullName: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens
+- uid: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+  commentId: T:System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SecurityToken>
+  nameWithType: IList<SecurityToken>
+  fullName: System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>
+  nameWithType.vb: IList(Of SecurityToken)
+  fullName.vb: System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken)
+  name.vb: IList(Of SecurityToken)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.TokenValidationResult
+  commentId: T:SuperOffice.Security.TokenValidationResult
+  parent: SuperOffice.Security
+  isExternal: true
+  name: TokenValidationResult
+  nameWithType: TokenValidationResult
+  fullName: SuperOffice.Security.TokenValidationResult
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

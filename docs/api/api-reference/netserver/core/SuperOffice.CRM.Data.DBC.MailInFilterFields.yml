@@ -1,0 +1,1067 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  commentId: T:SuperOffice.CRM.Data.DBC.MailInFilterFields
+  id: DBC.MailInFilterFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.Address
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.Autofaq
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.AutofaqKbCategory
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.CategoryId
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.Checkwait
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.Domain
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.ImportmailPid
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.KeepHeaders
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.LanguageId
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.LastError
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.LastSuccess
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.LastTry
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.MailgunDsn
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.MailInFilterId
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.NextCheck
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.Noautoreply
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.NumSeqFailures
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.PopPassword
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.PopServer
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.PopUser
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.Priority
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.ReplyTemplateId
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.ServerType
+  - SuperOffice.CRM.Data.DBC.MailInFilterFields.Status
+  langs:
+  - csharp
+  - vb
+  name: DBC.MailInFilterFields
+  nameWithType: DBC.MailInFilterFields
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for MailInFilter, This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP).\n"
+  syntax:
+    content: public static class MailInFilterFields
+    content.vb: Public Module MailInFilterFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.MailInFilterId
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.MailInFilterId
+  id: MailInFilterId
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: MailInFilterId
+  nameWithType: DBC.MailInFilterFields.MailInFilterId
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.MailInFilterId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.MailInFilterId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string MailInFilterId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const MailInFilterId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.ServerType
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.ServerType
+  id: ServerType
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: ServerType
+  nameWithType: DBC.MailInFilterFields.ServerType
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.ServerType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.ServerType: Enum indicating the protocol to use (POP/IMAP).\n"
+  syntax:
+    content: public const string ServerType = "server_type"
+    return:
+      type: System.String
+    content.vb: Public Const ServerType As String = "server_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.PopServer
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.PopServer
+  id: PopServer
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: PopServer
+  nameWithType: DBC.MailInFilterFields.PopServer
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.PopServer
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.PopServer: The hostname/IP address of the server.\n"
+  syntax:
+    content: public const string PopServer = "pop_server"
+    return:
+      type: System.String
+    content.vb: Public Const PopServer As String = "pop_server"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.PopUser
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.PopUser
+  id: PopUser
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: PopUser
+  nameWithType: DBC.MailInFilterFields.PopUser
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.PopUser
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.PopUser: The username used to login.\n"
+  syntax:
+    content: public const string PopUser = "pop_user"
+    return:
+      type: System.String
+    content.vb: Public Const PopUser As String = "pop_user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.PopPassword
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.PopPassword
+  id: PopPassword
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: PopPassword
+  nameWithType: DBC.MailInFilterFields.PopPassword
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.PopPassword
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.PopPassword: The password used to login.\n"
+  syntax:
+    content: public const string PopPassword = "pop_password"
+    return:
+      type: System.String
+    content.vb: Public Const PopPassword As String = "pop_password"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.Domain
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.Domain
+  id: Domain
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: DBC.MailInFilterFields.Domain
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.Domain
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.Domain: The domain used to login.\n"
+  syntax:
+    content: public const string Domain = "domain"
+    return:
+      type: System.String
+    content.vb: Public Const Domain As String = "domain"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.Address
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.Address
+  id: Address
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: DBC.MailInFilterFields.Address
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.Address
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.Address: The address associated with this mailbox (used as FROM: address when sending emails).\n"
+  syntax:
+    content: public const string Address = "address"
+    return:
+      type: System.String
+    content.vb: Public Const Address As String = "address"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.CategoryId
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.CategoryId
+  id: CategoryId
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: CategoryId
+  nameWithType: DBC.MailInFilterFields.CategoryId
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.CategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.CategoryId: The id of the category this mailbox assigns tickets to (unless overridden by a sortfilter).\n"
+  syntax:
+    content: public const string CategoryId = "category_id"
+    return:
+      type: System.String
+    content.vb: Public Const CategoryId As String = "category_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.Priority
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: DBC.MailInFilterFields.Priority
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.Priority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.Priority: The id of the priority tickets are assigned when imported from this mailbox.\n"
+  syntax:
+    content: public const string Priority = "priority"
+    return:
+      type: System.String
+    content.vb: Public Const Priority As String = "priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.ReplyTemplateId
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.ReplyTemplateId
+  id: ReplyTemplateId
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateId
+  nameWithType: DBC.MailInFilterFields.ReplyTemplateId
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.ReplyTemplateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.ReplyTemplateId: ID of the reply template used on this mail box.\n"
+  syntax:
+    content: public const string ReplyTemplateId = "reply_template_id"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTemplateId As String = "reply_template_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.Checkwait
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.Checkwait
+  id: Checkwait
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Checkwait
+  nameWithType: DBC.MailInFilterFields.Checkwait
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.Checkwait
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.Checkwait: How often (in minutes) to check this mailbox.\n"
+  syntax:
+    content: public const string Checkwait = "checkwait"
+    return:
+      type: System.String
+    content.vb: Public Const Checkwait As String = "checkwait"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.NextCheck
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.NextCheck
+  id: NextCheck
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: NextCheck
+  nameWithType: DBC.MailInFilterFields.NextCheck
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.NextCheck
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.NextCheck: When this mailbox should be checked the next time.\n"
+  syntax:
+    content: public const string NextCheck = "next_check"
+    return:
+      type: System.String
+    content.vb: Public Const NextCheck As String = "next_check"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.Noautoreply
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.Noautoreply
+  id: Noautoreply
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Noautoreply
+  nameWithType: DBC.MailInFilterFields.Noautoreply
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.Noautoreply
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.Noautoreply: If set, then this mailbox should not send an autoreply.\n"
+  syntax:
+    content: public const string Noautoreply = "noautoreply"
+    return:
+      type: System.String
+    content.vb: Public Const Noautoreply As String = "noautoreply"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.LastSuccess
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.LastSuccess
+  id: LastSuccess
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: LastSuccess
+  nameWithType: DBC.MailInFilterFields.LastSuccess
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.LastSuccess
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.LastSuccess: Datetime indicating the last time email was sucessfully imported from this mailbox. Used to display warnings when this value is getting too old.\n"
+  syntax:
+    content: public const string LastSuccess = "last_success"
+    return:
+      type: System.String
+    content.vb: Public Const LastSuccess As String = "last_success"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.LastTry
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.LastTry
+  id: LastTry
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: LastTry
+  nameWithType: DBC.MailInFilterFields.LastTry
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.LastTry
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.LastTry: Datetime indicating the last time this mailbox tried (but possibly failed) to fetch email.\n"
+  syntax:
+    content: public const string LastTry = "last_try"
+    return:
+      type: System.String
+    content.vb: Public Const LastTry As String = "last_try"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.ImportmailPid
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.ImportmailPid
+  id: ImportmailPid
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: ImportmailPid
+  nameWithType: DBC.MailInFilterFields.ImportmailPid
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.ImportmailPid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.ImportmailPid: The process id of the importMail instance processing this mailbox\n"
+  syntax:
+    content: public const string ImportmailPid = "importmail_pid"
+    return:
+      type: System.String
+    content.vb: Public Const ImportmailPid As String = "importmail_pid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.MailInFilterFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.Status: Status indicated whether this mailbox is deleted or not.\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.LastError
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.LastError
+  id: LastError
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: LastError
+  nameWithType: DBC.MailInFilterFields.LastError
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.LastError
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.LastError: The last error message recieved from the underlying email system (such as POP3 protocol errors, etc).\n"
+  syntax:
+    content: public const string LastError = "last_error"
+    return:
+      type: System.String
+    content.vb: Public Const LastError As String = "last_error"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.NumSeqFailures
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.NumSeqFailures
+  id: NumSeqFailures
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: NumSeqFailures
+  nameWithType: DBC.MailInFilterFields.NumSeqFailures
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.NumSeqFailures
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.NumSeqFailures: The number of sequential failures for this mailbox.\n"
+  syntax:
+    content: public const string NumSeqFailures = "num_seq_failures"
+    return:
+      type: System.String
+    content.vb: Public Const NumSeqFailures As String = "num_seq_failures"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.KeepHeaders
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.KeepHeaders
+  id: KeepHeaders
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: KeepHeaders
+  nameWithType: DBC.MailInFilterFields.KeepHeaders
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.KeepHeaders
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.KeepHeaders: A commaseparated list of headers to store for emails imported. E.g. &apos;to,from,recieved-by,subject&apos;. \n"
+  syntax:
+    content: public const string KeepHeaders = "keep_headers"
+    return:
+      type: System.String
+    content.vb: Public Const KeepHeaders As String = "keep_headers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.LanguageId
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.LanguageId
+  id: LanguageId
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: LanguageId
+  nameWithType: DBC.MailInFilterFields.LanguageId
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.LanguageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.LanguageId: The id of the customer language entry this entry is connected to.\n"
+  syntax:
+    content: public const string LanguageId = "language_id"
+    return:
+      type: System.String
+    content.vb: Public Const LanguageId As String = "language_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.Autofaq
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.Autofaq
+  id: Autofaq
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Autofaq
+  nameWithType: DBC.MailInFilterFields.Autofaq
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.Autofaq
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.Autofaq: Whether to suggest FAQ entries for this email account or not\n"
+  syntax:
+    content: public const string Autofaq = "autofaq"
+    return:
+      type: System.String
+    content.vb: Public Const Autofaq As String = "autofaq"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.AutofaqKbCategory
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.AutofaqKbCategory
+  id: AutofaqKbCategory
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: AutofaqKbCategory
+  nameWithType: DBC.MailInFilterFields.AutofaqKbCategory
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.AutofaqKbCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.AutofaqKbCategory: The root folder for the auto faq search.\n"
+  syntax:
+    content: public const string AutofaqKbCategory = "autofaq_kb_category"
+    return:
+      type: System.String
+    content.vb: Public Const AutofaqKbCategory As String = "autofaq_kb_category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailInFilterFields.MailgunDsn
+  commentId: F:SuperOffice.CRM.Data.DBC.MailInFilterFields.MailgunDsn
+  id: MailgunDsn
+  parent: SuperOffice.CRM.Data.DBC.MailInFilterFields
+  langs:
+  - csharp
+  - vb
+  name: MailgunDsn
+  nameWithType: DBC.MailInFilterFields.MailgunDsn
+  fullName: SuperOffice.CRM.Data.DBC.MailInFilterFields.MailgunDsn
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailInFilter.MailgunDsn: If this is set to 1, the route created in Mailgun will be set up to deliver emails of type auto-replies, system messsages etc\n"
+  syntax:
+    content: public const string MailgunDsn = "mailgun_dsn"
+    return:
+      type: System.String
+    content.vb: Public Const MailgunDsn As String = "mailgun_dsn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

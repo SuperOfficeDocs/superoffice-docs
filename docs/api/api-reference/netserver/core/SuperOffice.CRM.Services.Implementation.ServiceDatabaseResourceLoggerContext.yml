@@ -1,0 +1,1111 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  id: ServiceDatabaseResourceLoggerContext
+  parent: SuperOffice.CRM.Services.Implementation
+  children:
+  - SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Dispose
+  - SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.End
+  - SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Increment
+  - SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.IsRunning
+  - SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Lap(System.Func{System.String})
+  - SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Split(System.Func{System.String})
+  - SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.ThreadId
+  langs:
+  - csharp
+  - vb
+  name: ServiceDatabaseResourceLoggerContext
+  nameWithType: ServiceDatabaseResourceLoggerContext
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nActual resource logger context that is passed to SoTimer instances, and is called to record events.\n"
+  remarks: "\nSince it&apos;s only created for timers of type <xref href=\"SuperOffice.Diagnostics.SoTimerType.Database\" data-throw-if-not-resolved=\"false\"></xref>, we know that\nthe <xref href=\"SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Increment\" data-throw-if-not-resolved=\"false\"></xref> method will only be called by the database functions. Thus, each instance\nof this class represents one database access, and each call to Increment represents one row read.\nThis is <strong>rather indirect</strong> but on the other hand nicely flexible and extensible.\n"
+  syntax:
+    content: 'public class ServiceDatabaseResourceLoggerContext : ISoTimeRecorderContext, IDisposable'
+    content.vb: >-
+      Public Class ServiceDatabaseResourceLoggerContext
+          Implements ISoTimeRecorderContext, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Diagnostics.ISoTimeRecorderContext
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Split(System.Func{System.String})
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Split(System.Func{System.String})
+  id: Split(System.Func{System.String})
+  parent: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  langs:
+  - csharp
+  - vb
+  name: Split(Func<String>)
+  nameWithType: ServiceDatabaseResourceLoggerContext.Split(Func<String>)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Split(System.Func<System.String>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public void Split(Func<string> description)
+    parameters:
+    - id: description
+      type: System.Func{System.String}
+    content.vb: Public Sub Split(description As Func(Of String))
+  overload: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Split*
+  implements:
+  - SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func{System.String})
+  nameWithType.vb: ServiceDatabaseResourceLoggerContext.Split(Func(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Split(System.Func(Of System.String))
+  name.vb: Split(Func(Of String))
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Lap(System.Func{System.String})
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Lap(System.Func{System.String})
+  id: Lap(System.Func{System.String})
+  parent: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  langs:
+  - csharp
+  - vb
+  name: Lap(Func<String>)
+  nameWithType: ServiceDatabaseResourceLoggerContext.Lap(Func<String>)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Lap(System.Func<System.String>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public void Lap(Func<string> description)
+    parameters:
+    - id: description
+      type: System.Func{System.String}
+    content.vb: Public Sub Lap(description As Func(Of String))
+  overload: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Lap*
+  implements:
+  - SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func{System.String})
+  nameWithType.vb: ServiceDatabaseResourceLoggerContext.Lap(Func(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Lap(System.Func(Of System.String))
+  name.vb: Lap(Func(Of String))
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.End
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.End
+  id: End
+  parent: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  langs:
+  - csharp
+  - vb
+  name: End()
+  nameWithType: ServiceDatabaseResourceLoggerContext.End()
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.End()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public void End()
+    content.vb: Public Sub
+  overload: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.End*
+  implements:
+  - SuperOffice.Diagnostics.ISoTimeRecorderContext.End
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Increment
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Increment
+  id: Increment
+  parent: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  langs:
+  - csharp
+  - vb
+  name: Increment()
+  nameWithType: ServiceDatabaseResourceLoggerContext.Increment()
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Increment()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public void Increment()
+    content.vb: Public Sub Increment
+  overload: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Increment*
+  implements:
+  - SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Dispose
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Dispose
+  id: Dispose
+  parent: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ServiceDatabaseResourceLoggerContext.Dispose()
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Dispose()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.IsRunning
+  commentId: P:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.IsRunning
+  id: IsRunning
+  parent: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  langs:
+  - csharp
+  - vb
+  name: IsRunning
+  nameWithType: ServiceDatabaseResourceLoggerContext.IsRunning
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.IsRunning
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public bool IsRunning { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsRunning As Boolean
+  overload: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.IsRunning*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.ThreadId
+  commentId: P:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.ThreadId
+  id: ThreadId
+  parent: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  langs:
+  - csharp
+  - vb
+  name: ThreadId
+  nameWithType: ServiceDatabaseResourceLoggerContext.ThreadId
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.ThreadId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public int ThreadId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ThreadId As Integer
+  overload: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.ThreadId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Services.Implementation
+  commentId: N:SuperOffice.CRM.Services.Implementation
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation
+  nameWithType: SuperOffice.CRM.Services.Implementation
+  fullName: SuperOffice.CRM.Services.Implementation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Diagnostics.ISoTimeRecorderContext
+  commentId: T:SuperOffice.Diagnostics.ISoTimeRecorderContext
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: ISoTimeRecorderContext
+  nameWithType: ISoTimeRecorderContext
+  fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ServiceDatabaseResourceLoggerContext, To>()
+  nameWithType: EnumUtil.MapEnums<ServiceDatabaseResourceLoggerContext, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ServiceDatabaseResourceLoggerContext, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext, To)()
+  name.vb: MapEnums(Of ServiceDatabaseResourceLoggerContext, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ServiceDatabaseResourceLoggerContext, To>
+    nameWithType: EnumUtil.MapEnums<ServiceDatabaseResourceLoggerContext, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ServiceDatabaseResourceLoggerContext, To)
+    nameWithType: EnumUtil.MapEnums(Of ServiceDatabaseResourceLoggerContext, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ServiceDatabaseResourceLoggerContext, To>()
+  nameWithType: Converters.MapEnums<ServiceDatabaseResourceLoggerContext, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext, To>()
+  nameWithType.vb: Converters.MapEnums(Of ServiceDatabaseResourceLoggerContext, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext, To)()
+  name.vb: MapEnums(Of ServiceDatabaseResourceLoggerContext, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ServiceDatabaseResourceLoggerContext, To>
+    nameWithType: Converters.MapEnums<ServiceDatabaseResourceLoggerContext, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ServiceDatabaseResourceLoggerContext, To)
+    nameWithType: Converters.MapEnums(Of ServiceDatabaseResourceLoggerContext, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Split*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Split
+  isExternal: true
+  name: Split
+  nameWithType: ServiceDatabaseResourceLoggerContext.Split
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Split
+- uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func{System.String})
+  commentId: M:SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func{System.String})
+  parent: SuperOffice.Diagnostics.ISoTimeRecorderContext
+  isExternal: true
+  name: Split(Func<String>)
+  nameWithType: ISoTimeRecorderContext.Split(Func<String>)
+  fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func<System.String>)
+  nameWithType.vb: ISoTimeRecorderContext.Split(Func(Of String))
+  fullName.vb: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func(Of System.String))
+  name.vb: Split(Func(Of String))
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func{System.String})
+    name: Split
+    nameWithType: ISoTimeRecorderContext.Split
+    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func{System.String})
+    name: Split
+    nameWithType: ISoTimeRecorderContext.Split
+    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func{System.String}
+  commentId: T:System.Func{System.String}
+  parent: System
+  definition: System.Func`1
+  name: Func<String>
+  nameWithType: Func<String>
+  fullName: System.Func<System.String>
+  nameWithType.vb: Func(Of String)
+  fullName.vb: System.Func(Of System.String)
+  name.vb: Func(Of String)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Lap*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Lap
+  isExternal: true
+  name: Lap
+  nameWithType: ServiceDatabaseResourceLoggerContext.Lap
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Lap
+- uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func{System.String})
+  commentId: M:SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func{System.String})
+  parent: SuperOffice.Diagnostics.ISoTimeRecorderContext
+  isExternal: true
+  name: Lap(Func<String>)
+  nameWithType: ISoTimeRecorderContext.Lap(Func<String>)
+  fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func<System.String>)
+  nameWithType.vb: ISoTimeRecorderContext.Lap(Func(Of String))
+  fullName.vb: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func(Of System.String))
+  name.vb: Lap(Func(Of String))
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func{System.String})
+    name: Lap
+    nameWithType: ISoTimeRecorderContext.Lap
+    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func{System.String})
+    name: Lap
+    nameWithType: ISoTimeRecorderContext.Lap
+    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.End*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.End
+  isExternal: true
+  name: End
+  nameWithType: ServiceDatabaseResourceLoggerContext.End
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.End
+- uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.End
+  commentId: M:SuperOffice.Diagnostics.ISoTimeRecorderContext.End
+  parent: SuperOffice.Diagnostics.ISoTimeRecorderContext
+  isExternal: true
+  name: End()
+  nameWithType: ISoTimeRecorderContext.End()
+  fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.End()
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.End
+    name: End
+    nameWithType: ISoTimeRecorderContext.End
+    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.End
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.End
+    name: End
+    nameWithType: ISoTimeRecorderContext.End
+    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.End
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Increment*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Increment
+  isExternal: true
+  name: Increment
+  nameWithType: ServiceDatabaseResourceLoggerContext.Increment
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Increment
+- uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
+  commentId: M:SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
+  parent: SuperOffice.Diagnostics.ISoTimeRecorderContext
+  isExternal: true
+  name: Increment()
+  nameWithType: ISoTimeRecorderContext.Increment()
+  fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment()
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
+    name: Increment
+    nameWithType: ISoTimeRecorderContext.Increment
+    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
+    name: Increment
+    nameWithType: ISoTimeRecorderContext.Increment
+    fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Dispose*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: ServiceDatabaseResourceLoggerContext.Dispose
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.IsRunning*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.IsRunning
+  isExternal: true
+  name: IsRunning
+  nameWithType: ServiceDatabaseResourceLoggerContext.IsRunning
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.IsRunning
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.ThreadId*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.ThreadId
+  isExternal: true
+  name: ThreadId
+  nameWithType: ServiceDatabaseResourceLoggerContext.ThreadId
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.ThreadId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

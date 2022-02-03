@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest
+  commentId: T:SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest
+  id: BLOB_ChangeContactImageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.#ctor
+  - SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.BlobId
+  - SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.ContactId
+  langs:
+  - csharp
+  - vb
+  name: BLOB_ChangeContactImageRequest
+  nameWithType: BLOB_ChangeContactImageRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BLOB_ChangeContactImageRequest : Object'
+    content.vb: >-
+      Public Class BLOB_ChangeContactImageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest
+  langs:
+  - csharp
+  - vb
+  name: BLOB_ChangeContactImageRequest()
+  nameWithType: BLOB_ChangeContactImageRequest.BLOB_ChangeContactImageRequest()
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.BLOB_ChangeContactImageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BLOB_ChangeContactImageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: BLOB_ChangeContactImageRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.BlobId
+  commentId: P:SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.BlobId
+  id: BlobId
+  parent: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest
+  langs:
+  - csharp
+  - vb
+  name: BlobId
+  nameWithType: BLOB_ChangeContactImageRequest.BlobId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.BlobId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int BlobId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BlobId As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.BlobId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.#ctor
+  isExternal: true
+  name: BLOB_ChangeContactImageRequest
+  nameWithType: BLOB_ChangeContactImageRequest.BLOB_ChangeContactImageRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.BLOB_ChangeContactImageRequest
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: BLOB_ChangeContactImageRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.BlobId*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.BlobId
+  isExternal: true
+  name: BlobId
+  nameWithType: BLOB_ChangeContactImageRequest.BlobId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest.BlobId

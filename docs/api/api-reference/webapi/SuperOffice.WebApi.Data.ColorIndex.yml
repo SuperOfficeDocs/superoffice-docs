@@ -1,0 +1,849 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ColorIndex
+  commentId: T:SuperOffice.WebApi.Data.ColorIndex
+  id: ColorIndex
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ColorIndex.BlueAlt1
+  - SuperOffice.WebApi.Data.ColorIndex.BlueAlt2
+  - SuperOffice.WebApi.Data.ColorIndex.BlueAlt3
+  - SuperOffice.WebApi.Data.ColorIndex.DarkBlue
+  - SuperOffice.WebApi.Data.ColorIndex.DarkGray
+  - SuperOffice.WebApi.Data.ColorIndex.DarkGreen
+  - SuperOffice.WebApi.Data.ColorIndex.DarkRed
+  - SuperOffice.WebApi.Data.ColorIndex.DarkYellow
+  - SuperOffice.WebApi.Data.ColorIndex.GrayAlt1
+  - SuperOffice.WebApi.Data.ColorIndex.GrayAlt2
+  - SuperOffice.WebApi.Data.ColorIndex.GrayAlt3
+  - SuperOffice.WebApi.Data.ColorIndex.GreenAlt1
+  - SuperOffice.WebApi.Data.ColorIndex.GreenAlt2
+  - SuperOffice.WebApi.Data.ColorIndex.GreenAlt3
+  - SuperOffice.WebApi.Data.ColorIndex.LightBlue
+  - SuperOffice.WebApi.Data.ColorIndex.LightGray
+  - SuperOffice.WebApi.Data.ColorIndex.LightGreen
+  - SuperOffice.WebApi.Data.ColorIndex.LightRed
+  - SuperOffice.WebApi.Data.ColorIndex.LightYellow
+  - SuperOffice.WebApi.Data.ColorIndex.RedAlt1
+  - SuperOffice.WebApi.Data.ColorIndex.RedAlt2
+  - SuperOffice.WebApi.Data.ColorIndex.RedAlt3
+  - SuperOffice.WebApi.Data.ColorIndex.value__
+  - SuperOffice.WebApi.Data.ColorIndex.YellowAlt1
+  - SuperOffice.WebApi.Data.ColorIndex.YellowAlt2
+  - SuperOffice.WebApi.Data.ColorIndex.YellowAlt3
+  langs:
+  - csharp
+  - vb
+  name: ColorIndex
+  nameWithType: ColorIndex
+  fullName: SuperOffice.WebApi.Data.ColorIndex
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nColor index of tasks\n"
+  syntax:
+    content: 'public sealed class ColorIndex : Enum'
+    content.vb: >-
+      Public NotInheritable Class ColorIndex
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ColorIndex.value__
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ColorIndex.value__
+  fullName: SuperOffice.WebApi.Data.ColorIndex.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ColorIndex.LightBlue
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.LightBlue
+  id: LightBlue
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: LightBlue
+  nameWithType: ColorIndex.LightBlue
+  fullName: SuperOffice.WebApi.Data.ColorIndex.LightBlue
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Light blue\n"
+  syntax:
+    content: public const ColorIndex LightBlue
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const LightBlue As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.DarkBlue
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.DarkBlue
+  id: DarkBlue
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: DarkBlue
+  nameWithType: ColorIndex.DarkBlue
+  fullName: SuperOffice.WebApi.Data.ColorIndex.DarkBlue
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Dark blue\n"
+  syntax:
+    content: public const ColorIndex DarkBlue
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const DarkBlue As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.LightGray
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.LightGray
+  id: LightGray
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: LightGray
+  nameWithType: ColorIndex.LightGray
+  fullName: SuperOffice.WebApi.Data.ColorIndex.LightGray
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Light gray\n"
+  syntax:
+    content: public const ColorIndex LightGray
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const LightGray As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.DarkGray
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.DarkGray
+  id: DarkGray
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: DarkGray
+  nameWithType: ColorIndex.DarkGray
+  fullName: SuperOffice.WebApi.Data.ColorIndex.DarkGray
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Dark gray\n"
+  syntax:
+    content: public const ColorIndex DarkGray
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const DarkGray As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.LightGreen
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.LightGreen
+  id: LightGreen
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: LightGreen
+  nameWithType: ColorIndex.LightGreen
+  fullName: SuperOffice.WebApi.Data.ColorIndex.LightGreen
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Light green\n"
+  syntax:
+    content: public const ColorIndex LightGreen
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const LightGreen As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.DarkGreen
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.DarkGreen
+  id: DarkGreen
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: DarkGreen
+  nameWithType: ColorIndex.DarkGreen
+  fullName: SuperOffice.WebApi.Data.ColorIndex.DarkGreen
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Dark Green\n"
+  syntax:
+    content: public const ColorIndex DarkGreen
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const DarkGreen As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.LightYellow
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.LightYellow
+  id: LightYellow
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: LightYellow
+  nameWithType: ColorIndex.LightYellow
+  fullName: SuperOffice.WebApi.Data.ColorIndex.LightYellow
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Light Yellow\n"
+  syntax:
+    content: public const ColorIndex LightYellow
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const LightYellow As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.DarkYellow
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.DarkYellow
+  id: DarkYellow
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: DarkYellow
+  nameWithType: ColorIndex.DarkYellow
+  fullName: SuperOffice.WebApi.Data.ColorIndex.DarkYellow
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Dark Yellow\n"
+  syntax:
+    content: public const ColorIndex DarkYellow
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const DarkYellow As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.LightRed
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.LightRed
+  id: LightRed
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: LightRed
+  nameWithType: ColorIndex.LightRed
+  fullName: SuperOffice.WebApi.Data.ColorIndex.LightRed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Light Red\n"
+  syntax:
+    content: public const ColorIndex LightRed
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const LightRed As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.DarkRed
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.DarkRed
+  id: DarkRed
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: DarkRed
+  nameWithType: ColorIndex.DarkRed
+  fullName: SuperOffice.WebApi.Data.ColorIndex.DarkRed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Dark Red\n"
+  syntax:
+    content: public const ColorIndex DarkRed
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const DarkRed As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.BlueAlt1
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.BlueAlt1
+  id: BlueAlt1
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: BlueAlt1
+  nameWithType: ColorIndex.BlueAlt1
+  fullName: SuperOffice.WebApi.Data.ColorIndex.BlueAlt1
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n10: Blue alternative 1\n"
+  syntax:
+    content: public const ColorIndex BlueAlt1
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const BlueAlt1 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.BlueAlt2
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.BlueAlt2
+  id: BlueAlt2
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: BlueAlt2
+  nameWithType: ColorIndex.BlueAlt2
+  fullName: SuperOffice.WebApi.Data.ColorIndex.BlueAlt2
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: Blue alternative 2\n"
+  syntax:
+    content: public const ColorIndex BlueAlt2
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const BlueAlt2 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.BlueAlt3
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.BlueAlt3
+  id: BlueAlt3
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: BlueAlt3
+  nameWithType: ColorIndex.BlueAlt3
+  fullName: SuperOffice.WebApi.Data.ColorIndex.BlueAlt3
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n12: Blue alternative 3\n"
+  syntax:
+    content: public const ColorIndex BlueAlt3
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const BlueAlt3 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.GrayAlt1
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.GrayAlt1
+  id: GrayAlt1
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GrayAlt1
+  nameWithType: ColorIndex.GrayAlt1
+  fullName: SuperOffice.WebApi.Data.ColorIndex.GrayAlt1
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n13: Gray alternative 1\n"
+  syntax:
+    content: public const ColorIndex GrayAlt1
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const GrayAlt1 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.GrayAlt2
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.GrayAlt2
+  id: GrayAlt2
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GrayAlt2
+  nameWithType: ColorIndex.GrayAlt2
+  fullName: SuperOffice.WebApi.Data.ColorIndex.GrayAlt2
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n14: Gray alternative 2\n"
+  syntax:
+    content: public const ColorIndex GrayAlt2
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const GrayAlt2 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.GrayAlt3
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.GrayAlt3
+  id: GrayAlt3
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GrayAlt3
+  nameWithType: ColorIndex.GrayAlt3
+  fullName: SuperOffice.WebApi.Data.ColorIndex.GrayAlt3
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n15: Gray alternative 3\n"
+  syntax:
+    content: public const ColorIndex GrayAlt3
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const GrayAlt3 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.GreenAlt1
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.GreenAlt1
+  id: GreenAlt1
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GreenAlt1
+  nameWithType: ColorIndex.GreenAlt1
+  fullName: SuperOffice.WebApi.Data.ColorIndex.GreenAlt1
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: Green alternative 1\n"
+  syntax:
+    content: public const ColorIndex GreenAlt1
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const GreenAlt1 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.GreenAlt2
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.GreenAlt2
+  id: GreenAlt2
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GreenAlt2
+  nameWithType: ColorIndex.GreenAlt2
+  fullName: SuperOffice.WebApi.Data.ColorIndex.GreenAlt2
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n17: Green alternative 2\n"
+  syntax:
+    content: public const ColorIndex GreenAlt2
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const GreenAlt2 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.GreenAlt3
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.GreenAlt3
+  id: GreenAlt3
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GreenAlt3
+  nameWithType: ColorIndex.GreenAlt3
+  fullName: SuperOffice.WebApi.Data.ColorIndex.GreenAlt3
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n18: Green alternative 3\n"
+  syntax:
+    content: public const ColorIndex GreenAlt3
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const GreenAlt3 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.YellowAlt1
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.YellowAlt1
+  id: YellowAlt1
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: YellowAlt1
+  nameWithType: ColorIndex.YellowAlt1
+  fullName: SuperOffice.WebApi.Data.ColorIndex.YellowAlt1
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n19: Yellow alternative 1\n"
+  syntax:
+    content: public const ColorIndex YellowAlt1
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const YellowAlt1 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.YellowAlt2
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.YellowAlt2
+  id: YellowAlt2
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: YellowAlt2
+  nameWithType: ColorIndex.YellowAlt2
+  fullName: SuperOffice.WebApi.Data.ColorIndex.YellowAlt2
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n20: Yellow alternative 2\n"
+  syntax:
+    content: public const ColorIndex YellowAlt2
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const YellowAlt2 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.YellowAlt3
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.YellowAlt3
+  id: YellowAlt3
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: YellowAlt3
+  nameWithType: ColorIndex.YellowAlt3
+  fullName: SuperOffice.WebApi.Data.ColorIndex.YellowAlt3
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n21: Yellow alternative 3\n"
+  syntax:
+    content: public const ColorIndex YellowAlt3
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const YellowAlt3 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.RedAlt1
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.RedAlt1
+  id: RedAlt1
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: RedAlt1
+  nameWithType: ColorIndex.RedAlt1
+  fullName: SuperOffice.WebApi.Data.ColorIndex.RedAlt1
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n22: Red alternative 1\n"
+  syntax:
+    content: public const ColorIndex RedAlt1
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const RedAlt1 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.RedAlt2
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.RedAlt2
+  id: RedAlt2
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: RedAlt2
+  nameWithType: ColorIndex.RedAlt2
+  fullName: SuperOffice.WebApi.Data.ColorIndex.RedAlt2
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n23: Red alternative 2\n"
+  syntax:
+    content: public const ColorIndex RedAlt2
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const RedAlt2 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ColorIndex.RedAlt3
+  commentId: F:SuperOffice.WebApi.Data.ColorIndex.RedAlt3
+  id: RedAlt3
+  parent: SuperOffice.WebApi.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: RedAlt3
+  nameWithType: ColorIndex.RedAlt3
+  fullName: SuperOffice.WebApi.Data.ColorIndex.RedAlt3
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n24: Red alternative 3\n"
+  syntax:
+    content: public const ColorIndex RedAlt3
+    return:
+      type: SuperOffice.WebApi.Data.ColorIndex
+    content.vb: Public Const RedAlt3 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ColorIndex
+  commentId: T:SuperOffice.WebApi.Data.ColorIndex
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ColorIndex
+  nameWithType: ColorIndex
+  fullName: SuperOffice.WebApi.Data.ColorIndex

@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest
+  id: Quote_CopySuperOfficePriceListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ConvertCurrency
+  - SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewCurrencyId
+  - SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewName
+  - SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.OriginalPriceListId
+  - SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidFrom
+  - SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidTo
+  langs:
+  - csharp
+  - vb
+  name: Quote_CopySuperOfficePriceListRequest
+  nameWithType: Quote_CopySuperOfficePriceListRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_CopySuperOfficePriceListRequest : Object'
+    content.vb: >-
+      Public Class Quote_CopySuperOfficePriceListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_CopySuperOfficePriceListRequest()
+  nameWithType: Quote_CopySuperOfficePriceListRequest.Quote_CopySuperOfficePriceListRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.Quote_CopySuperOfficePriceListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_CopySuperOfficePriceListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.OriginalPriceListId
+  commentId: P:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.OriginalPriceListId
+  id: OriginalPriceListId
+  parent: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest
+  langs:
+  - csharp
+  - vb
+  name: OriginalPriceListId
+  nameWithType: Quote_CopySuperOfficePriceListRequest.OriginalPriceListId
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.OriginalPriceListId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int OriginalPriceListId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OriginalPriceListId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.OriginalPriceListId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewName
+  commentId: P:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewName
+  id: NewName
+  parent: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest
+  langs:
+  - csharp
+  - vb
+  name: NewName
+  nameWithType: Quote_CopySuperOfficePriceListRequest.NewName
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string NewName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NewName As String
+  overload: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidFrom
+  commentId: P:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidFrom
+  id: ValidFrom
+  parent: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest
+  langs:
+  - csharp
+  - vb
+  name: ValidFrom
+  nameWithType: Quote_CopySuperOfficePriceListRequest.ValidFrom
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidFrom
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime ValidFrom { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ValidFrom As DateTime
+  overload: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidFrom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidTo
+  commentId: P:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidTo
+  id: ValidTo
+  parent: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest
+  langs:
+  - csharp
+  - vb
+  name: ValidTo
+  nameWithType: Quote_CopySuperOfficePriceListRequest.ValidTo
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidTo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime ValidTo { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ValidTo As DateTime
+  overload: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidTo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewCurrencyId
+  commentId: P:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewCurrencyId
+  id: NewCurrencyId
+  parent: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest
+  langs:
+  - csharp
+  - vb
+  name: NewCurrencyId
+  nameWithType: Quote_CopySuperOfficePriceListRequest.NewCurrencyId
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewCurrencyId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int NewCurrencyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NewCurrencyId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewCurrencyId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ConvertCurrency
+  commentId: P:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ConvertCurrency
+  id: ConvertCurrency
+  parent: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest
+  langs:
+  - csharp
+  - vb
+  name: ConvertCurrency
+  nameWithType: Quote_CopySuperOfficePriceListRequest.ConvertCurrency
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ConvertCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool ConvertCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ConvertCurrency As Boolean
+  overload: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ConvertCurrency*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.#ctor
+  isExternal: true
+  name: Quote_CopySuperOfficePriceListRequest
+  nameWithType: Quote_CopySuperOfficePriceListRequest.Quote_CopySuperOfficePriceListRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.Quote_CopySuperOfficePriceListRequest
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.OriginalPriceListId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.OriginalPriceListId
+  isExternal: true
+  name: OriginalPriceListId
+  nameWithType: Quote_CopySuperOfficePriceListRequest.OriginalPriceListId
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.OriginalPriceListId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewName*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewName
+  isExternal: true
+  name: NewName
+  nameWithType: Quote_CopySuperOfficePriceListRequest.NewName
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidFrom*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidFrom
+  isExternal: true
+  name: ValidFrom
+  nameWithType: Quote_CopySuperOfficePriceListRequest.ValidFrom
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidFrom
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidTo*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidTo
+  isExternal: true
+  name: ValidTo
+  nameWithType: Quote_CopySuperOfficePriceListRequest.ValidTo
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ValidTo
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewCurrencyId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewCurrencyId
+  isExternal: true
+  name: NewCurrencyId
+  nameWithType: Quote_CopySuperOfficePriceListRequest.NewCurrencyId
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.NewCurrencyId
+- uid: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ConvertCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ConvertCurrency
+  isExternal: true
+  name: ConvertCurrency
+  nameWithType: Quote_CopySuperOfficePriceListRequest.ConvertCurrency
+  fullName: SuperOffice.WebApi.Data.Quote_CopySuperOfficePriceListRequest.ConvertCurrency
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

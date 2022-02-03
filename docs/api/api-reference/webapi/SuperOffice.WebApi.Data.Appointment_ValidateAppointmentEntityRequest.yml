@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest
+  id: Appointment_ValidateAppointmentEntityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Appointment_ValidateAppointmentEntityRequest
+  nameWithType: Appointment_ValidateAppointmentEntityRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_ValidateAppointmentEntityRequest : Object'
+    content.vb: >-
+      Public Class Appointment_ValidateAppointmentEntityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_ValidateAppointmentEntityRequest()
+  nameWithType: Appointment_ValidateAppointmentEntityRequest.Appointment_ValidateAppointmentEntityRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.Appointment_ValidateAppointmentEntityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_ValidateAppointmentEntityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.AppointmentEntity
+  commentId: P:SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.AppointmentEntity
+  id: AppointmentEntity
+  parent: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentEntity
+  nameWithType: Appointment_ValidateAppointmentEntityRequest.AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.AppointmentEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AppointmentEntity AppointmentEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentEntity
+    content.vb: Public Property AppointmentEntity As AppointmentEntity
+  overload: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.AppointmentEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.#ctor
+  isExternal: true
+  name: Appointment_ValidateAppointmentEntityRequest
+  nameWithType: Appointment_ValidateAppointmentEntityRequest.Appointment_ValidateAppointmentEntityRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.Appointment_ValidateAppointmentEntityRequest
+- uid: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.AppointmentEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.AppointmentEntity
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: Appointment_ValidateAppointmentEntityRequest.AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest.AppointmentEntity
+- uid: SuperOffice.WebApi.Data.AppointmentEntity
+  commentId: T:SuperOffice.WebApi.Data.AppointmentEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity

@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.DataRight
+  commentId: T:SuperOffice.Data.DataRight
+  id: DataRight
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.DataRight.Create
+  - SuperOffice.Data.DataRight.Delete
+  - SuperOffice.Data.DataRight.None
+  - SuperOffice.Data.DataRight.Read
+  - SuperOffice.Data.DataRight.Update
+  langs:
+  - csharp
+  - vb
+  name: DataRight
+  nameWithType: DataRight
+  fullName: SuperOffice.Data.DataRight
+  type: Enum
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe DataRights use by the GUI\n"
+  syntax:
+    content: public enum DataRight
+    content.vb: Public Enum DataRight
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.DataRight.None
+  commentId: F:SuperOffice.Data.DataRight.None
+  id: None
+  parent: SuperOffice.Data.DataRight
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DataRight.None
+  fullName: SuperOffice.Data.DataRight.None
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Data.DataRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DataRight.Read
+  commentId: F:SuperOffice.Data.DataRight.Read
+  id: Read
+  parent: SuperOffice.Data.DataRight
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: DataRight.Read
+  fullName: SuperOffice.Data.DataRight.Read
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Read = 1
+    return:
+      type: SuperOffice.Data.DataRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DataRight.Create
+  commentId: F:SuperOffice.Data.DataRight.Create
+  id: Create
+  parent: SuperOffice.Data.DataRight
+  langs:
+  - csharp
+  - vb
+  name: Create
+  nameWithType: DataRight.Create
+  fullName: SuperOffice.Data.DataRight.Create
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Create = 2
+    return:
+      type: SuperOffice.Data.DataRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DataRight.Update
+  commentId: F:SuperOffice.Data.DataRight.Update
+  id: Update
+  parent: SuperOffice.Data.DataRight
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: DataRight.Update
+  fullName: SuperOffice.Data.DataRight.Update
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Update = 3
+    return:
+      type: SuperOffice.Data.DataRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DataRight.Delete
+  commentId: F:SuperOffice.Data.DataRight.Delete
+  id: Delete
+  parent: SuperOffice.Data.DataRight
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: DataRight.Delete
+  fullName: SuperOffice.Data.DataRight.Delete
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Delete = 4
+    return:
+      type: SuperOffice.Data.DataRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.DataRight
+  commentId: T:SuperOffice.Data.DataRight
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DataRight
+  nameWithType: DataRight
+  fullName: SuperOffice.Data.DataRight

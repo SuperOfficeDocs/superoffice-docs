@@ -1,0 +1,583 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.StructuredAddress
+  commentId: T:SuperOffice.WebApi.Data.StructuredAddress
+  id: StructuredAddress
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.StructuredAddress.#ctor
+  - SuperOffice.WebApi.Data.StructuredAddress.Address1
+  - SuperOffice.WebApi.Data.StructuredAddress.Address2
+  - SuperOffice.WebApi.Data.StructuredAddress.Address3
+  - SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx
+  - SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String
+  - SuperOffice.WebApi.Data.StructuredAddress.City
+  - SuperOffice.WebApi.Data.StructuredAddress.County
+  - SuperOffice.WebApi.Data.StructuredAddress.Formatted
+  - SuperOffice.WebApi.Data.StructuredAddress.State
+  - SuperOffice.WebApi.Data.StructuredAddress.Zipcode
+  langs:
+  - csharp
+  - vb
+  name: StructuredAddress
+  nameWithType: StructuredAddress
+  fullName: SuperOffice.WebApi.Data.StructuredAddress
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for StructuredAddress.\nAddress with structured fields (Address1, City, Zip) - does not vary its layout by country, unliked the formatted address.    \n"
+  syntax:
+    content: 'public class StructuredAddress : Object'
+    content.vb: >-
+      Public Class StructuredAddress
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.StructuredAddress.#ctor
+  commentId: M:SuperOffice.WebApi.Data.StructuredAddress.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: StructuredAddress()
+  nameWithType: StructuredAddress.StructuredAddress()
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.StructuredAddress()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public StructuredAddress()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.StructuredAddress.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String
+  id: AtypeIdx_String
+  parent: SuperOffice.WebApi.Data.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: AtypeIdx_String
+  nameWithType: StructuredAddress.AtypeIdx_String
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBit mask, combines address type (EAddressType) and owner type (EOwnerType)\nRaw string enum value.\n"
+  syntax:
+    content: public string AtypeIdx_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AtypeIdx_String As String
+  overload: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx
+    commentId: P:SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx
+  id: AtypeIdx
+  parent: SuperOffice.WebApi.Data.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: AtypeIdx
+  nameWithType: StructuredAddress.AtypeIdx
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBit mask, combines address type (EAddressType) and owner type (EOwnerType)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<AddressType> AtypeIdx { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.AddressType}
+    content.vb: Public Property AtypeIdx As Nullable(Of AddressType)
+  overload: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String
+    commentId: P:SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.StructuredAddress.Address1
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.Address1
+  id: Address1
+  parent: SuperOffice.WebApi.Data.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: Address1
+  nameWithType: StructuredAddress.Address1
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.Address1
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAddress line 1\n"
+  syntax:
+    content: public virtual string Address1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Address1 As String
+  overload: SuperOffice.WebApi.Data.StructuredAddress.Address1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StructuredAddress.Address2
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.Address2
+  id: Address2
+  parent: SuperOffice.WebApi.Data.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: Address2
+  nameWithType: StructuredAddress.Address2
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.Address2
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAddress line 2\n"
+  syntax:
+    content: public virtual string Address2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Address2 As String
+  overload: SuperOffice.WebApi.Data.StructuredAddress.Address2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StructuredAddress.Address3
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.Address3
+  id: Address3
+  parent: SuperOffice.WebApi.Data.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: Address3
+  nameWithType: StructuredAddress.Address3
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.Address3
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAddress line 3\n"
+  syntax:
+    content: public virtual string Address3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Address3 As String
+  overload: SuperOffice.WebApi.Data.StructuredAddress.Address3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StructuredAddress.City
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.City
+  id: City
+  parent: SuperOffice.WebApi.Data.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: StructuredAddress.City
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.City
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCity corresponding to zip code\n"
+  syntax:
+    content: public virtual string City { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property City As String
+  overload: SuperOffice.WebApi.Data.StructuredAddress.City*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StructuredAddress.County
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.County
+  id: County
+  parent: SuperOffice.WebApi.Data.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: County
+  nameWithType: StructuredAddress.County
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.County
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCounty (not country)\n"
+  syntax:
+    content: public virtual string County { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property County As String
+  overload: SuperOffice.WebApi.Data.StructuredAddress.County*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StructuredAddress.State
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.State
+  id: State
+  parent: SuperOffice.WebApi.Data.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: StructuredAddress.State
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.State
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nState\n"
+  syntax:
+    content: public virtual string State { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property State As String
+  overload: SuperOffice.WebApi.Data.StructuredAddress.State*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StructuredAddress.Zipcode
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.Zipcode
+  id: Zipcode
+  parent: SuperOffice.WebApi.Data.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: Zipcode
+  nameWithType: StructuredAddress.Zipcode
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.Zipcode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nZip code, alphanumeric\n"
+  syntax:
+    content: public virtual string Zipcode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Zipcode As String
+  overload: SuperOffice.WebApi.Data.StructuredAddress.Zipcode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StructuredAddress.Formatted
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.Formatted
+  id: Formatted
+  parent: SuperOffice.WebApi.Data.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: Formatted
+  nameWithType: StructuredAddress.Formatted
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.Formatted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRead-only formatted address multi-line string. e.g.: &lt;c>&quot;Brugata 123,\\n1234 OSLO\\n&quot;&lt;/c> or &lt;c>&quot;Bridgelane 123,\\nWest Tooting,\\nThe Shire ES2 W31\\n&quot;&lt;/c>.\n"
+  syntax:
+    content: public virtual string Formatted { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Formatted As String
+  overload: SuperOffice.WebApi.Data.StructuredAddress.Formatted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.StructuredAddress.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.StructuredAddress.#ctor
+  isExternal: true
+  name: StructuredAddress
+  nameWithType: StructuredAddress.StructuredAddress
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.StructuredAddress
+- uid: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String*
+  commentId: Overload:SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String
+  isExternal: true
+  name: AtypeIdx_String
+  nameWithType: StructuredAddress.AtypeIdx_String
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String
+- uid: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx*
+  commentId: Overload:SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx
+  isExternal: true
+  name: AtypeIdx
+  nameWithType: StructuredAddress.AtypeIdx
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx
+- uid: SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String
+  commentId: P:SuperOffice.WebApi.Data.StructuredAddress.AtypeIdx_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.AddressType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.AddressType}'
+  definition: System.Nullable`1
+  name: Nullable<AddressType>
+  nameWithType: Nullable<AddressType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.AddressType>
+  nameWithType.vb: Nullable(Of AddressType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.AddressType)
+  name.vb: Nullable(Of AddressType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AddressType
+    name: AddressType
+    nameWithType: AddressType
+    fullName: SuperOffice.WebApi.Data.AddressType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AddressType
+    name: AddressType
+    nameWithType: AddressType
+    fullName: SuperOffice.WebApi.Data.AddressType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.StructuredAddress.Address1*
+  commentId: Overload:SuperOffice.WebApi.Data.StructuredAddress.Address1
+  isExternal: true
+  name: Address1
+  nameWithType: StructuredAddress.Address1
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.Address1
+- uid: SuperOffice.WebApi.Data.StructuredAddress.Address2*
+  commentId: Overload:SuperOffice.WebApi.Data.StructuredAddress.Address2
+  isExternal: true
+  name: Address2
+  nameWithType: StructuredAddress.Address2
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.Address2
+- uid: SuperOffice.WebApi.Data.StructuredAddress.Address3*
+  commentId: Overload:SuperOffice.WebApi.Data.StructuredAddress.Address3
+  isExternal: true
+  name: Address3
+  nameWithType: StructuredAddress.Address3
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.Address3
+- uid: SuperOffice.WebApi.Data.StructuredAddress.City*
+  commentId: Overload:SuperOffice.WebApi.Data.StructuredAddress.City
+  isExternal: true
+  name: City
+  nameWithType: StructuredAddress.City
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.City
+- uid: SuperOffice.WebApi.Data.StructuredAddress.County*
+  commentId: Overload:SuperOffice.WebApi.Data.StructuredAddress.County
+  isExternal: true
+  name: County
+  nameWithType: StructuredAddress.County
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.County
+- uid: SuperOffice.WebApi.Data.StructuredAddress.State*
+  commentId: Overload:SuperOffice.WebApi.Data.StructuredAddress.State
+  isExternal: true
+  name: State
+  nameWithType: StructuredAddress.State
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.State
+- uid: SuperOffice.WebApi.Data.StructuredAddress.Zipcode*
+  commentId: Overload:SuperOffice.WebApi.Data.StructuredAddress.Zipcode
+  isExternal: true
+  name: Zipcode
+  nameWithType: StructuredAddress.Zipcode
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.Zipcode
+- uid: SuperOffice.WebApi.Data.StructuredAddress.Formatted*
+  commentId: Overload:SuperOffice.WebApi.Data.StructuredAddress.Formatted
+  isExternal: true
+  name: Formatted
+  nameWithType: StructuredAddress.Formatted
+  fullName: SuperOffice.WebApi.Data.StructuredAddress.Formatted

@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent
+  commentId: T:SuperOffice.WebApi.Data.ChatTopicAgent
+  id: ChatTopicAgent
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatTopicAgent.#ctor
+  - SuperOffice.WebApi.Data.ChatTopicAgent.CanListen
+  - SuperOffice.WebApi.Data.ChatTopicAgent.CanManage
+  - SuperOffice.WebApi.Data.ChatTopicAgent.CanNotify
+  - SuperOffice.WebApi.Data.ChatTopicAgent.CanRespond
+  - SuperOffice.WebApi.Data.ChatTopicAgent.TopicId
+  - SuperOffice.WebApi.Data.ChatTopicAgent.User
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicAgent
+  nameWithType: ChatTopicAgent
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ChatTopicAgent.\nUser agents within a chat topic. Which users are assigned and what roles they have within the chat topic.    \n"
+  syntax:
+    content: 'public class ChatTopicAgent : Object'
+    content.vb: >-
+      Public Class ChatTopicAgent
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ChatAgent
+    commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ChatTopicAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicAgent()
+  nameWithType: ChatTopicAgent.ChatTopicAgent()
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.ChatTopicAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ChatTopicAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ChatTopicAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.TopicId
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicAgent.TopicId
+  id: TopicId
+  parent: SuperOffice.WebApi.Data.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: TopicId
+  nameWithType: ChatTopicAgent.TopicId
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.TopicId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe reference to the associated chat topic.\n"
+  syntax:
+    content: public virtual int TopicId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TopicId As Integer
+  overload: SuperOffice.WebApi.Data.ChatTopicAgent.TopicId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.User
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicAgent.User
+  id: User
+  parent: SuperOffice.WebApi.Data.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: ChatTopicAgent.User
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.User
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate that is the user agent.\n"
+  syntax:
+    content: public virtual Associate User { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property User As Associate
+  overload: SuperOffice.WebApi.Data.ChatTopicAgent.User*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.CanListen
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicAgent.CanListen
+  id: CanListen
+  parent: SuperOffice.WebApi.Data.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: CanListen
+  nameWithType: ChatTopicAgent.CanListen
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.CanListen
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue of a user can listen in on this topic\n"
+  syntax:
+    content: public virtual bool CanListen { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CanListen As Boolean
+  overload: SuperOffice.WebApi.Data.ChatTopicAgent.CanListen*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.CanRespond
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicAgent.CanRespond
+  id: CanRespond
+  parent: SuperOffice.WebApi.Data.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: CanRespond
+  nameWithType: ChatTopicAgent.CanRespond
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.CanRespond
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the user can respond to chats in this topic\n"
+  syntax:
+    content: public virtual bool CanRespond { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CanRespond As Boolean
+  overload: SuperOffice.WebApi.Data.ChatTopicAgent.CanRespond*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.CanManage
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicAgent.CanManage
+  id: CanManage
+  parent: SuperOffice.WebApi.Data.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: CanManage
+  nameWithType: ChatTopicAgent.CanManage
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.CanManage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the user is a manager for this topic\n"
+  syntax:
+    content: public virtual bool CanManage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CanManage As Boolean
+  overload: SuperOffice.WebApi.Data.ChatTopicAgent.CanManage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.CanNotify
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicAgent.CanNotify
+  id: CanNotify
+  parent: SuperOffice.WebApi.Data.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: CanNotify
+  nameWithType: ChatTopicAgent.CanNotify
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.CanNotify
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the user should receive notifications for this topic\n"
+  syntax:
+    content: public virtual bool CanNotify { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CanNotify As Boolean
+  overload: SuperOffice.WebApi.Data.ChatTopicAgent.CanNotify*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.ChatAgent
+  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.WebApi.Agents.ChatAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicAgent.#ctor
+  isExternal: true
+  name: ChatTopicAgent
+  nameWithType: ChatTopicAgent.ChatTopicAgent
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.ChatTopicAgent
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.TopicId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicAgent.TopicId
+  isExternal: true
+  name: TopicId
+  nameWithType: ChatTopicAgent.TopicId
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.TopicId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.User*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicAgent.User
+  isExternal: true
+  name: User
+  nameWithType: ChatTopicAgent.User
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.User
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.CanListen*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicAgent.CanListen
+  isExternal: true
+  name: CanListen
+  nameWithType: ChatTopicAgent.CanListen
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.CanListen
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.CanRespond*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicAgent.CanRespond
+  isExternal: true
+  name: CanRespond
+  nameWithType: ChatTopicAgent.CanRespond
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.CanRespond
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.CanManage*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicAgent.CanManage
+  isExternal: true
+  name: CanManage
+  nameWithType: ChatTopicAgent.CanManage
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.CanManage
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent.CanNotify*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicAgent.CanNotify
+  isExternal: true
+  name: CanNotify
+  nameWithType: ChatTopicAgent.CanNotify
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent.CanNotify

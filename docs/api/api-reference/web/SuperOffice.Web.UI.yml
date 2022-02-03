@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI
+  commentId: N:SuperOffice.Web.UI
+  id: SuperOffice.Web.UI
+  children:
+  - SuperOffice.Web.UI.EventHandler
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.UI
+  nameWithType: SuperOffice.Web.UI
+  fullName: SuperOffice.Web.UI
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.UI.EventHandler
+  commentId: T:SuperOffice.Web.UI.EventHandler
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: SuperOffice.Web.UI.EventHandler

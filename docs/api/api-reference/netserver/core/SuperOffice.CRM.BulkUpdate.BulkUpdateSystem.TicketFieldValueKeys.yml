@@ -1,0 +1,839 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  id: BulkUpdateSystem.TicketFieldValueKeys
+  parent: SuperOffice.CRM.BulkUpdate
+  children:
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ActivateDate
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Author
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Category
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Deadline
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.InternalStatus
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.MdoTag
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Origin
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OriginalCategory
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OriginalPriority
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OwnedBy
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Priority
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ReadByOwner
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ReadStatus
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.SecurityLevel
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Tags
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Title
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.UserStatus
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateSystem.TicketFieldValueKeys
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static class TicketFieldValueKeys
+    content.vb: Public Module TicketFieldValueKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Title
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Title
+  id: Title
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.Title
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Title
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Title = "title"
+    return:
+      type: System.String
+    content.vb: Public Const Title As String = "title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Author
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Author
+  id: Author
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.Author
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Author
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Author = "author"
+    return:
+      type: System.String
+    content.vb: Public Const Author As String = "author"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OwnedBy
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OwnedBy
+  id: OwnedBy
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: OwnedBy
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.OwnedBy
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OwnedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string OwnedBy = "ownerBy"
+    return:
+      type: System.String
+    content.vb: Public Const OwnedBy As String = "ownerBy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Category
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Category
+  id: Category
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.Category
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Category
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Category = "category"
+    return:
+      type: System.String
+    content.vb: Public Const Category As String = "category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OriginalCategory
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OriginalCategory
+  id: OriginalCategory
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: OriginalCategory
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.OriginalCategory
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OriginalCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string OriginalCategory = "originalCategory"
+    return:
+      type: System.String
+    content.vb: Public Const OriginalCategory As String = "originalCategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.InternalStatus
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.InternalStatus
+  id: InternalStatus
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: InternalStatus
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.InternalStatus
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.InternalStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string InternalStatus = "internalStatus"
+    return:
+      type: System.String
+    content.vb: Public Const InternalStatus As String = "internalStatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.UserStatus
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.UserStatus
+  id: UserStatus
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: UserStatus
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.UserStatus
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.UserStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string UserStatus = "userStatus"
+    return:
+      type: System.String
+    content.vb: Public Const UserStatus As String = "userStatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ReadStatus
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ReadStatus
+  id: ReadStatus
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: ReadStatus
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.ReadStatus
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ReadStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string ReadStatus = "readStatus"
+    return:
+      type: System.String
+    content.vb: Public Const ReadStatus As String = "readStatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.SecurityLevel
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.SecurityLevel
+  id: SecurityLevel
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: SecurityLevel
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.SecurityLevel
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.SecurityLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string SecurityLevel = "securityLevel"
+    return:
+      type: System.String
+    content.vb: Public Const SecurityLevel As String = "securityLevel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Priority
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Priority
+  id: Priority
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.Priority
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Priority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Priority = "priority"
+    return:
+      type: System.String
+    content.vb: Public Const Priority As String = "priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OriginalPriority
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OriginalPriority
+  id: OriginalPriority
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: OriginalPriority
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.OriginalPriority
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.OriginalPriority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string OriginalPriority = "originalPriority"
+    return:
+      type: System.String
+    content.vb: Public Const OriginalPriority As String = "originalPriority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Origin
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Origin
+  id: Origin
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Origin
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.Origin
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Origin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Origin = "origin"
+    return:
+      type: System.String
+    content.vb: Public Const Origin As String = "origin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ReadByOwner
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ReadByOwner
+  id: ReadByOwner
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: ReadByOwner
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.ReadByOwner
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ReadByOwner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string ReadByOwner = "readByOwer"
+    return:
+      type: System.String
+    content.vb: Public Const ReadByOwner As String = "readByOwer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ActivateDate
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ActivateDate
+  id: ActivateDate
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: ActivateDate
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.ActivateDate
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.ActivateDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string ActivateDate = "activateDate"
+    return:
+      type: System.String
+    content.vb: Public Const ActivateDate As String = "activateDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Deadline
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Deadline
+  id: Deadline
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Deadline
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.Deadline
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Deadline
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Deadline = "deadline"
+    return:
+      type: System.String
+    content.vb: Public Const Deadline As String = "deadline"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Tags
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Tags
+  id: Tags
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.Tags
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.Tags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Tags = "tags"
+    return:
+      type: System.String
+    content.vb: Public Const Tags As String = "tags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.MdoTag
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.MdoTag
+  id: MdoTag
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: MdoTag
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys.MdoTag
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.MdoTag
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string MdoTag = "mdoTag"
+    return:
+      type: System.String
+    content.vb: Public Const MdoTag As String = "mdoTag"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.BulkUpdate
+  commentId: N:SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  name: SuperOffice.CRM.BulkUpdate
+  nameWithType: SuperOffice.CRM.BulkUpdate
+  fullName: SuperOffice.CRM.BulkUpdate
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

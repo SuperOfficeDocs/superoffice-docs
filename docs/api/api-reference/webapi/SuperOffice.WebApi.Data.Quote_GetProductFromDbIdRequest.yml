@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest
+  id: Quote_GetProductFromDbIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.ProductId
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetProductFromDbIdRequest
+  nameWithType: Quote_GetProductFromDbIdRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GetProductFromDbIdRequest : Object'
+    content.vb: >-
+      Public Class Quote_GetProductFromDbIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetProductFromDbIdRequest()
+  nameWithType: Quote_GetProductFromDbIdRequest.Quote_GetProductFromDbIdRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.Quote_GetProductFromDbIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GetProductFromDbIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.ProductId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.ProductId
+  id: ProductId
+  parent: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: Quote_GetProductFromDbIdRequest.ProductId
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.ProductId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProductId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.ProductId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.#ctor
+  isExternal: true
+  name: Quote_GetProductFromDbIdRequest
+  nameWithType: Quote_GetProductFromDbIdRequest.Quote_GetProductFromDbIdRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.Quote_GetProductFromDbIdRequest
+- uid: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.ProductId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.ProductId
+  isExternal: true
+  name: ProductId
+  nameWithType: Quote_GetProductFromDbIdRequest.ProductId
+  fullName: SuperOffice.WebApi.Data.Quote_GetProductFromDbIdRequest.ProductId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

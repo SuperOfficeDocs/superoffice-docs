@@ -1,0 +1,762 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  id: ErpSyncDefaultValue
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.#ctor
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.DefaultValue
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldId
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldKey
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.FirstSyncDefaultValue
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.HasFirstSyncDefaultValue
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.ListName
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.Mandatory
+  - SuperOffice.WebApi.Data.ErpSyncDefaultValue.PromptUser
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncDefaultValue
+  nameWithType: ErpSyncDefaultValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ErpSyncDefaultValue.\nContains default value information for one ERP field    \n"
+  syntax:
+    content: 'public class ErpSyncDefaultValue : Carrier'
+    content.vb: >-
+      Public Class ErpSyncDefaultValue
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
+    commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSyncDefaultValue.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncDefaultValue()
+  nameWithType: ErpSyncDefaultValue.ErpSyncDefaultValue()
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpSyncDefaultValue()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ErpSyncDefaultValue()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldId
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldId
+  id: ErpFieldId
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldId
+  nameWithType: ErpSyncDefaultValue.ErpFieldId
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ErpFieldId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErpFieldId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.DefaultValue
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.DefaultValue
+  id: DefaultValue
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: ErpSyncDefaultValue.DefaultValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.DefaultValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault value, stored using CultureDataFormatter format if it is not a string\n"
+  syntax:
+    content: public virtual string DefaultValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DefaultValue As String
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.DefaultValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.HasFirstSyncDefaultValue
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.HasFirstSyncDefaultValue
+  id: HasFirstSyncDefaultValue
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: HasFirstSyncDefaultValue
+  nameWithType: ErpSyncDefaultValue.HasFirstSyncDefaultValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.HasFirstSyncDefaultValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould a default value be set on first sync\n"
+  syntax:
+    content: public virtual bool HasFirstSyncDefaultValue { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HasFirstSyncDefaultValue As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.HasFirstSyncDefaultValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FirstSyncDefaultValue
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.FirstSyncDefaultValue
+  id: FirstSyncDefaultValue
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: FirstSyncDefaultValue
+  nameWithType: ErpSyncDefaultValue.FirstSyncDefaultValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FirstSyncDefaultValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe default value to be set, can be blank\n"
+  syntax:
+    content: public virtual string FirstSyncDefaultValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FirstSyncDefaultValue As String
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FirstSyncDefaultValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.PromptUser
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.PromptUser
+  id: PromptUser
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: PromptUser
+  nameWithType: ErpSyncDefaultValue.PromptUser
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.PromptUser
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the field be shown in the first-sync GUI; independent of whether a default value should be set\n"
+  syntax:
+    content: public virtual bool PromptUser { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property PromptUser As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.PromptUser*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Mandatory
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.Mandatory
+  id: Mandatory
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: Mandatory
+  nameWithType: ErpSyncDefaultValue.Mandatory
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Mandatory
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the user be forced to set a value (the Erp Connector may declare fields mandatory as well)\n"
+  syntax:
+    content: public virtual bool Mandatory { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Mandatory As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Mandatory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldKey
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldKey
+  id: ErpFieldKey
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldKey
+  nameWithType: ErpSyncDefaultValue.ErpFieldKey
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe ERP field key\n"
+  syntax:
+    content: public virtual string ErpFieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErpFieldKey As String
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String
+  id: FieldType_String
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: FieldType_String
+  nameWithType: ErpSyncDefaultValue.FieldType_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nField type\nRaw string enum value.\n"
+  syntax:
+    content: public string FieldType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FieldType_String As String
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType
+  id: FieldType
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: ErpSyncDefaultValue.FieldType
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nField type\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<FieldMetadataType> FieldType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.FieldMetadataType}
+    content.vb: Public Property FieldType As Nullable(Of FieldMetadataType)
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ListName
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.ListName
+  id: ListName
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: ListName
+  nameWithType: ErpSyncDefaultValue.ListName
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ListName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe ERP list name, if the field has a list of values supplied by the ERP Connector\n"
+  syntax:
+    content: public virtual string ListName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ListName As String
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ListName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String
+  id: Access_String
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: Access_String
+  nameWithType: ErpSyncDefaultValue.Access_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAccess restrictions for the field\nRaw string enum value.\n"
+  syntax:
+    content: public string Access_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Access_String As String
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access
+  id: Access
+  parent: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: Access
+  nameWithType: ErpSyncDefaultValue.Access
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAccess restrictions for the field\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<FieldAccess> Access { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.FieldAccess}
+    content.vb: Public Property Access As Nullable(Of FieldAccess)
+  overload: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.#ctor
+  isExternal: true
+  name: ErpSyncDefaultValue
+  nameWithType: ErpSyncDefaultValue.ErpSyncDefaultValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpSyncDefaultValue
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldId
+  isExternal: true
+  name: ErpFieldId
+  nameWithType: ErpSyncDefaultValue.ErpFieldId
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.DefaultValue*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.DefaultValue
+  isExternal: true
+  name: DefaultValue
+  nameWithType: ErpSyncDefaultValue.DefaultValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.DefaultValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.HasFirstSyncDefaultValue*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.HasFirstSyncDefaultValue
+  isExternal: true
+  name: HasFirstSyncDefaultValue
+  nameWithType: ErpSyncDefaultValue.HasFirstSyncDefaultValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.HasFirstSyncDefaultValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FirstSyncDefaultValue*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.FirstSyncDefaultValue
+  isExternal: true
+  name: FirstSyncDefaultValue
+  nameWithType: ErpSyncDefaultValue.FirstSyncDefaultValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FirstSyncDefaultValue
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.PromptUser*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.PromptUser
+  isExternal: true
+  name: PromptUser
+  nameWithType: ErpSyncDefaultValue.PromptUser
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.PromptUser
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Mandatory*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.Mandatory
+  isExternal: true
+  name: Mandatory
+  nameWithType: ErpSyncDefaultValue.Mandatory
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Mandatory
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldKey*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldKey
+  isExternal: true
+  name: ErpFieldKey
+  nameWithType: ErpSyncDefaultValue.ErpFieldKey
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ErpFieldKey
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String
+  isExternal: true
+  name: FieldType_String
+  nameWithType: ErpSyncDefaultValue.FieldType_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: ErpSyncDefaultValue.FieldType
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.FieldType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.FieldMetadataType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.FieldMetadataType}'
+  definition: System.Nullable`1
+  name: Nullable<FieldMetadataType>
+  nameWithType: Nullable<FieldMetadataType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.FieldMetadataType>
+  nameWithType.vb: Nullable(Of FieldMetadataType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.FieldMetadataType)
+  name.vb: Nullable(Of FieldMetadataType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FieldMetadataType
+    name: FieldMetadataType
+    nameWithType: FieldMetadataType
+    fullName: SuperOffice.WebApi.Data.FieldMetadataType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FieldMetadataType
+    name: FieldMetadataType
+    nameWithType: FieldMetadataType
+    fullName: SuperOffice.WebApi.Data.FieldMetadataType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ListName*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.ListName
+  isExternal: true
+  name: ListName
+  nameWithType: ErpSyncDefaultValue.ListName
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.ListName
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String
+  isExternal: true
+  name: Access_String
+  nameWithType: ErpSyncDefaultValue.Access_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access
+  isExternal: true
+  name: Access
+  nameWithType: ErpSyncDefaultValue.Access
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncDefaultValue.Access_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.FieldAccess}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.FieldAccess}'
+  definition: System.Nullable`1
+  name: Nullable<FieldAccess>
+  nameWithType: Nullable<FieldAccess>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.FieldAccess>
+  nameWithType.vb: Nullable(Of FieldAccess)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.FieldAccess)
+  name.vb: Nullable(Of FieldAccess)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FieldAccess
+    name: FieldAccess
+    nameWithType: FieldAccess
+    fullName: SuperOffice.WebApi.Data.FieldAccess
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FieldAccess
+    name: FieldAccess
+    nameWithType: FieldAccess
+    fullName: SuperOffice.WebApi.Data.FieldAccess
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

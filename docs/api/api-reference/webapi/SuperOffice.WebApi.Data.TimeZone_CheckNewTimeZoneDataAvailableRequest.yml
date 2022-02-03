@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest
+  commentId: T:SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest
+  id: TimeZone_CheckNewTimeZoneDataAvailableRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: TimeZone_CheckNewTimeZoneDataAvailableRequest
+  nameWithType: TimeZone_CheckNewTimeZoneDataAvailableRequest
+  fullName: SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class TimeZone_CheckNewTimeZoneDataAvailableRequest : Object'
+    content.vb: >-
+      Public Class TimeZone_CheckNewTimeZoneDataAvailableRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest
+  langs:
+  - csharp
+  - vb
+  name: TimeZone_CheckNewTimeZoneDataAvailableRequest()
+  nameWithType: TimeZone_CheckNewTimeZoneDataAvailableRequest.TimeZone_CheckNewTimeZoneDataAvailableRequest()
+  fullName: SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest.TimeZone_CheckNewTimeZoneDataAvailableRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TimeZone_CheckNewTimeZoneDataAvailableRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest.#ctor
+  isExternal: true
+  name: TimeZone_CheckNewTimeZoneDataAvailableRequest
+  nameWithType: TimeZone_CheckNewTimeZoneDataAvailableRequest.TimeZone_CheckNewTimeZoneDataAvailableRequest
+  fullName: SuperOffice.WebApi.Data.TimeZone_CheckNewTimeZoneDataAvailableRequest.TimeZone_CheckNewTimeZoneDataAvailableRequest

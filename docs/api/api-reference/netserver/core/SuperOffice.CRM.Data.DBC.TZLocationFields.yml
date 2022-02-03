@@ -1,0 +1,827 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TZLocationFields
+  id: DBC.TZLocationFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.Cities
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.CountryId
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.Deleted
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.Description
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.GroupName
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.IsActive
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.IsBuiltIn
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.LocationCode
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.RegionName
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.Registered
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.ShortName
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.TZLocationId
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.Updated
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TZLocationFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.TZLocationFields
+  nameWithType: DBC.TZLocationFields
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TZLocation, Time zone location\n"
+  syntax:
+    content: public static class TZLocationFields
+    content.vb: Public Module TZLocationFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.TZLocationId
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.TZLocationId
+  id: TZLocationId
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: TZLocationId
+  nameWithType: DBC.TZLocationFields.TZLocationId
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.TZLocationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.TZLocationId: Primary key\n"
+  syntax:
+    content: public const string TZLocationId = "TZLocation_id"
+    return:
+      type: System.String
+    content.vb: Public Const TZLocationId As String = "TZLocation_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.CountryId
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: DBC.TZLocationFields.CountryId
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.CountryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.CountryId: Country that this timezone location is defined for\n"
+  syntax:
+    content: public const string CountryId = "countryId"
+    return:
+      type: System.String
+    content.vb: Public Const CountryId As String = "countryId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.LocationCode
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.LocationCode
+  id: LocationCode
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: LocationCode
+  nameWithType: DBC.TZLocationFields.LocationCode
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.LocationCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.LocationCode: Code, such as CA-NT, identifying the timezone location in the imported data. Unique, NOT equal to the culture codes of Windows\n"
+  syntax:
+    content: public const string LocationCode = "locationCode"
+    return:
+      type: System.String
+    content.vb: Public Const LocationCode As String = "locationCode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.GroupName
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.GroupName
+  id: GroupName
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: GroupName
+  nameWithType: DBC.TZLocationFields.GroupName
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.GroupName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.GroupName: Group (heading) name for timezone locations that do not have a country (such as the EU zones)\n"
+  syntax:
+    content: public const string GroupName = "groupName"
+    return:
+      type: System.String
+    content.vb: Public Const GroupName As String = "groupName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.RegionName
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.RegionName
+  id: RegionName
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: RegionName
+  nameWithType: DBC.TZLocationFields.RegionName
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.RegionName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.RegionName: Name of region, such as Northwest Territories. Future localization via localeText resource type 31\n"
+  syntax:
+    content: public const string RegionName = "regionName"
+    return:
+      type: System.String
+    content.vb: Public Const RegionName As String = "regionName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.Cities
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.Cities
+  id: Cities
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: Cities
+  nameWithType: DBC.TZLocationFields.Cities
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.Cities
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.Cities: Cities, comma-separated list. Future localization via localeText resource type 32\n"
+  syntax:
+    content: public const string Cities = "cities"
+    return:
+      type: System.String
+    content.vb: Public Const Cities As String = "cities"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.ShortName
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.ShortName
+  id: ShortName
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: ShortName
+  nameWithType: DBC.TZLocationFields.ShortName
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.ShortName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.ShortName: Short name, such as CET (Central European Time); future localization via localeText resource type 33\n"
+  syntax:
+    content: public const string ShortName = "shortName"
+    return:
+      type: System.String
+    content.vb: Public Const ShortName As String = "shortName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.TZLocationFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.Description: Dcescription, only visible in Admin contexts\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.IsBuiltIn
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: DBC.TZLocationFields.IsBuiltIn
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.IsBuiltIn
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.IsBuiltIn: Is this row part of SuperOffice priming data\n"
+  syntax:
+    content: public const string IsBuiltIn = "isBuiltIn"
+    return:
+      type: System.String
+    content.vb: Public Const IsBuiltIn As String = "isBuiltIn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.IsActive
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.IsActive
+  id: IsActive
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: DBC.TZLocationFields.IsActive
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.IsActive
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.IsActive: Is this field visible in the standard drop-down list in the GUI? If no, it can still be used and searched for, but won&apos;t be visible directly in the dropdown list.\n"
+  syntax:
+    content: public const string IsActive = "isActive"
+    return:
+      type: System.String
+    content.vb: Public Const IsActive As String = "isActive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.TZLocationFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.Deleted: Is this row &apos;deleted&apos; (invisible in lists)\n"
+  syntax:
+    content: public const string Deleted = "isDeleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "isDeleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TZLocationFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TZLocationFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TZLocationFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TZLocationFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TZLocationFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TZLocationFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TZLocationFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TZLocationFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TZLocationFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTZLocation.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

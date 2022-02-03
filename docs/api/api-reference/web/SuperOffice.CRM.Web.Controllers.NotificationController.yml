@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.NotificationController
+  commentId: T:SuperOffice.CRM.Web.Controllers.NotificationController
+  id: NotificationController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.NotificationController.#ctor
+  - SuperOffice.CRM.Web.Controllers.NotificationController.GetState
+  langs:
+  - csharp
+  - vb
+  name: NotificationController
+  nameWithType: NotificationController
+  fullName: SuperOffice.CRM.Web.Controllers.NotificationController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class NotificationController : ApiController, IRequiresSessionState'
+    content.vb: >-
+      Public Class NotificationController
+          Inherits ApiController
+          Implements IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.SessionState.IRequiresSessionState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.NotificationController.GetState
+  commentId: M:SuperOffice.CRM.Web.Controllers.NotificationController.GetState
+  id: GetState
+  parent: SuperOffice.CRM.Web.Controllers.NotificationController
+  langs:
+  - csharp
+  - vb
+  name: GetState()
+  nameWithType: NotificationController.GetState()
+  fullName: SuperOffice.CRM.Web.Controllers.NotificationController.GetState()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public int GetState()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetState As Integer
+  overload: SuperOffice.CRM.Web.Controllers.NotificationController.GetState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.NotificationController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.NotificationController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.NotificationController
+  langs:
+  - csharp
+  - vb
+  name: NotificationController()
+  nameWithType: NotificationController.NotificationController()
+  fullName: SuperOffice.CRM.Web.Controllers.NotificationController.NotificationController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public NotificationController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.NotificationController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.NotificationController.GetState*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.NotificationController.GetState
+  isExternal: true
+  name: GetState
+  nameWithType: NotificationController.GetState
+  fullName: SuperOffice.CRM.Web.Controllers.NotificationController.GetState
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Controllers.NotificationController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.NotificationController.#ctor
+  isExternal: true
+  name: NotificationController
+  nameWithType: NotificationController.NotificationController
+  fullName: SuperOffice.CRM.Web.Controllers.NotificationController.NotificationController

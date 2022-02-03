@@ -1,0 +1,412 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Globalization.IUnfilteredResourceProvider
+  commentId: T:SuperOffice.Globalization.IUnfilteredResourceProvider
+  id: IUnfilteredResourceProvider
+  parent: SuperOffice.Globalization
+  children:
+  - SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(System.String,System.String)
+  - SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IUnfilteredResourceProvider
+  nameWithType: IUnfilteredResourceProvider
+  fullName: SuperOffice.Globalization.IUnfilteredResourceProvider
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nInterface for raw resource string providers classes\nResource providers that need to return a dictionary of all resource strings should implement this.\n"
+  syntax:
+    content: 'public interface IUnfilteredResourceProvider : IPlugin'
+    content.vb: >-
+      Public Interface IUnfilteredResourceProvider
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.Globalization.IUnfilteredResourceProvider.EnumUtil.MapEnums``2
+  - SuperOffice.Globalization.IUnfilteredResourceProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(System.String)
+  commentId: M:SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(System.String)
+  id: GetUnfilteredResourcesForCulture(System.String)
+  parent: SuperOffice.Globalization.IUnfilteredResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: GetUnfilteredResourcesForCulture(String)
+  nameWithType: IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(String)
+  fullName: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns all unfiltered resource strings for the specified culture as a dictionary\n"
+  syntax:
+    content: Dictionary<string, string> GetUnfilteredResourcesForCulture(string cultureName)
+    parameters:
+    - id: cultureName
+      type: System.String
+      description: The name of the culture in the form en-US, nb-NO
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Dictionary of all resource labels and unfiltered strings
+    content.vb: Function GetUnfilteredResourcesForCulture(cultureName As String) As Dictionary(Of String, String)
+  overload: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture*
+- uid: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(System.String,System.String)
+  id: GetUnfilteredResourceForCulture(System.String,System.String)
+  parent: SuperOffice.Globalization.IUnfilteredResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: GetUnfilteredResourceForCulture(String, String)
+  nameWithType: IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(String, String)
+  fullName: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns the unfiltered string from this provider in the specified culture\n"
+  syntax:
+    content: string GetUnfilteredResourceForCulture(string name, string cultureName)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the resource/resource symbol
+    - id: cultureName
+      type: System.String
+      description: The name of the culture in the form en-US, nb-NO
+    return:
+      type: System.String
+      description: The unfiltered resource string, or null if not found
+    content.vb: Function GetUnfilteredResourceForCulture(name As String, cultureName As String) As String
+  overload: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture*
+references:
+- uid: SuperOffice.Globalization
+  commentId: N:SuperOffice.Globalization
+  isExternal: true
+  name: SuperOffice.Globalization
+  nameWithType: SuperOffice.Globalization
+  fullName: SuperOffice.Globalization
+- uid: SuperOffice.Globalization.IUnfilteredResourceProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IUnfilteredResourceProvider, To>()
+  nameWithType: EnumUtil.MapEnums<IUnfilteredResourceProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Globalization.IUnfilteredResourceProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IUnfilteredResourceProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Globalization.IUnfilteredResourceProvider, To)()
+  name.vb: MapEnums(Of IUnfilteredResourceProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IUnfilteredResourceProvider, To>
+    nameWithType: EnumUtil.MapEnums<IUnfilteredResourceProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Globalization.IUnfilteredResourceProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IUnfilteredResourceProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of IUnfilteredResourceProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Globalization.IUnfilteredResourceProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.IUnfilteredResourceProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IUnfilteredResourceProvider, To>()
+  nameWithType: Converters.MapEnums<IUnfilteredResourceProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.IUnfilteredResourceProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of IUnfilteredResourceProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.IUnfilteredResourceProvider, To)()
+  name.vb: MapEnums(Of IUnfilteredResourceProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IUnfilteredResourceProvider, To>
+    nameWithType: Converters.MapEnums<IUnfilteredResourceProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.IUnfilteredResourceProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IUnfilteredResourceProvider, To)
+    nameWithType: Converters.MapEnums(Of IUnfilteredResourceProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.IUnfilteredResourceProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture*
+  commentId: Overload:SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture
+  isExternal: true
+  name: GetUnfilteredResourcesForCulture
+  nameWithType: IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture
+  fullName: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture*
+  commentId: Overload:SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture
+  isExternal: true
+  name: GetUnfilteredResourceForCulture
+  nameWithType: IUnfilteredResourceProvider.GetUnfilteredResourceForCulture
+  fullName: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture

@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+  id: SoImageBorderType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.Never
+  - SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.OnImageArea
+  - SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.OnSrNoImage
+  langs:
+  - csharp
+  - vb
+  name: SoImageBorderType
+  nameWithType: SoImageBorderType
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum SoImageBorderType
+    content.vb: Public Enum SoImageBorderType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.Never
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.Never
+  id: Never
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+  langs:
+  - csharp
+  - vb
+  name: Never
+  nameWithType: SoImageBorderType.Never
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.Never
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Never = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.OnImageArea
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.OnImageArea
+  id: OnImageArea
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+  langs:
+  - csharp
+  - vb
+  name: OnImageArea
+  nameWithType: SoImageBorderType.OnImageArea
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.OnImageArea
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: OnImageArea = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.OnSrNoImage
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.OnSrNoImage
+  id: OnSrNoImage
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+  langs:
+  - csharp
+  - vb
+  name: OnSrNoImage
+  nameWithType: SoImageBorderType.OnSrNoImage
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType.OnSrNoImage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: OnSrNoImage = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoImageBorderType
+  nameWithType: SoImageBorderType
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType

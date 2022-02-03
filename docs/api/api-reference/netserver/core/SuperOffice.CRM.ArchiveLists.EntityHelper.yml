@@ -1,0 +1,1282 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper
+  commentId: T:SuperOffice.CRM.ArchiveLists.EntityHelper
+  id: EntityHelper
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.#ctor
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.AddAvailableEntities(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.Count
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.DesiredEntities
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.GetAvailableEntities
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.GetEntity(System.String)
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.IsAnyEntityDesired
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.IsAtLeastOneEntityDesired(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.IsEntityDesired(System.String)
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.SetDefaultEntities(System.String[])
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.SetDesiredEntities(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: EntityHelper
+  nameWithType: EntityHelper
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis helper class provider functionality for handling entities, for providers that have them. It keeps\ntrack of available and desired entities and answers questions about them.\n"
+  syntax:
+    content: public class EntityHelper
+    content.vb: Public Class EntityHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.EntityHelper)
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.EntityHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.EntityHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.EntityHelper
+  langs:
+  - csharp
+  - vb
+  name: EntityHelper()
+  nameWithType: EntityHelper.EntityHelper()
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.EntityHelper()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstruct the instance\n"
+  syntax:
+    content: public EntityHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.EntityHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.AddAvailableEntities(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.EntityHelper.AddAvailableEntities(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
+  id: AddAvailableEntities(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.EntityHelper
+  langs:
+  - csharp
+  - vb
+  name: AddAvailableEntities(ArchiveRowTypeInfo[])
+  nameWithType: EntityHelper.AddAvailableEntities(ArchiveRowTypeInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.AddAvailableEntities(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAdd one or more entities to the list of available entities\n"
+  syntax:
+    content: public void AddAvailableEntities(params ArchiveRowTypeInfo[] entities)
+    parameters:
+    - id: entities
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[]
+      description: Entities to be added
+    content.vb: Public Sub AddAvailableEntities(ParamArray entities As ArchiveRowTypeInfo())
+  overload: SuperOffice.CRM.ArchiveLists.EntityHelper.AddAvailableEntities*
+  nameWithType.vb: EntityHelper.AddAvailableEntities(ArchiveRowTypeInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.EntityHelper.AddAvailableEntities(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo())
+  name.vb: AddAvailableEntities(ArchiveRowTypeInfo())
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.GetAvailableEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.EntityHelper.GetAvailableEntities
+  id: GetAvailableEntities
+  parent: SuperOffice.CRM.ArchiveLists.EntityHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableEntities()
+  nameWithType: EntityHelper.GetAvailableEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.GetAvailableEntities()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the list of currently available entities\n"
+  syntax:
+    content: public List<ArchiveRowTypeInfo> GetAvailableEntities()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+      description: List of currently available entities
+    content.vb: Public Function GetAvailableEntities As List(Of ArchiveRowTypeInfo)
+  overload: SuperOffice.CRM.ArchiveLists.EntityHelper.GetAvailableEntities*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.EntityHelper.SetDesiredEntities(System.String[])
+  id: SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.EntityHelper
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredEntities(String[])
+  nameWithType: EntityHelper.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDesiredEntities(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSet desired entities, restricted to those that match the list of available entities.\nEarlier &apos;desired&apos; flags will be overwritten!\nNon-matching entities will be quietly and safely ignored, by design.\n"
+  syntax:
+    content: public void SetDesiredEntities(params string[] entities)
+    parameters:
+    - id: entities
+      type: System.String[]
+      description: One or more entity names to match
+    content.vb: Public Sub SetDesiredEntities(ParamArray entities As String())
+  overload: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDesiredEntities*
+  nameWithType.vb: EntityHelper.SetDesiredEntities(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDefaultEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.EntityHelper.SetDefaultEntities(System.String[])
+  id: SetDefaultEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.EntityHelper
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultEntities(String[])
+  nameWithType: EntityHelper.SetDefaultEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDefaultEntities(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSet default entities, restricted to those that match the list of available entities.\nEarlier &apos;default&apos; flags will be overwritten!\nNon-matching entities will be quietly and safely ignored, by design.\n"
+  syntax:
+    content: public void SetDefaultEntities(params string[] entities)
+    parameters:
+    - id: entities
+      type: System.String[]
+      description: One or more entity names to match
+    content.vb: Public Sub SetDefaultEntities(ParamArray entities As String())
+  overload: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDefaultEntities*
+  nameWithType.vb: EntityHelper.SetDefaultEntities(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDefaultEntities(System.String())
+  name.vb: SetDefaultEntities(String())
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.IsEntityDesired(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.EntityHelper.IsEntityDesired(System.String)
+  id: IsEntityDesired(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.EntityHelper
+  langs:
+  - csharp
+  - vb
+  name: IsEntityDesired(String)
+  nameWithType: EntityHelper.IsEntityDesired(String)
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.IsEntityDesired(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDetermine whether a given entity name is on the desired entity list, or mandatory (not optional)\n"
+  syntax:
+    content: public bool IsEntityDesired(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+      description: Name to check
+    return:
+      type: System.Boolean
+      description: True if the name matches one on the desired list
+    content.vb: Public Function IsEntityDesired(entityName As String) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.EntityHelper.IsEntityDesired*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.IsAtLeastOneEntityDesired(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
+  commentId: M:SuperOffice.CRM.ArchiveLists.EntityHelper.IsAtLeastOneEntityDesired(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
+  id: IsAtLeastOneEntityDesired(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
+  parent: SuperOffice.CRM.ArchiveLists.EntityHelper
+  langs:
+  - csharp
+  - vb
+  name: IsAtLeastOneEntityDesired(List<ArchiveRowTypeInfo>)
+  nameWithType: EntityHelper.IsAtLeastOneEntityDesired(List<ArchiveRowTypeInfo>)
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.IsAtLeastOneEntityDesired(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDetermine if at least one of the given entities is on the desired entity list\n"
+  syntax:
+    content: public bool IsAtLeastOneEntityDesired(List<ArchiveRowTypeInfo> entities)
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+      description: List of entities to test
+    return:
+      type: System.Boolean
+      description: true if at least one of the entity names matches a name on the desired entity list
+    content.vb: Public Function IsAtLeastOneEntityDesired(entities As List(Of ArchiveRowTypeInfo)) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.EntityHelper.IsAtLeastOneEntityDesired*
+  nameWithType.vb: EntityHelper.IsAtLeastOneEntityDesired(List(Of ArchiveRowTypeInfo))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.EntityHelper.IsAtLeastOneEntityDesired(System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo))
+  name.vb: IsAtLeastOneEntityDesired(List(Of ArchiveRowTypeInfo))
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.IsAnyEntityDesired
+  commentId: M:SuperOffice.CRM.ArchiveLists.EntityHelper.IsAnyEntityDesired
+  id: IsAnyEntityDesired
+  parent: SuperOffice.CRM.ArchiveLists.EntityHelper
+  langs:
+  - csharp
+  - vb
+  name: IsAnyEntityDesired()
+  nameWithType: EntityHelper.IsAnyEntityDesired()
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.IsAnyEntityDesired()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDetermine if any entity at all is on the &apos;desired&apos; or &apos;default&apos; list\n"
+  syntax:
+    content: public bool IsAnyEntityDesired()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsAnyEntityDesired As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.EntityHelper.IsAnyEntityDesired*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.GetEntity(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.EntityHelper.GetEntity(System.String)
+  id: GetEntity(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.EntityHelper
+  langs:
+  - csharp
+  - vb
+  name: GetEntity(String)
+  nameWithType: EntityHelper.GetEntity(String)
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.GetEntity(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet an entity by name; return null if there is no match\n"
+  syntax:
+    content: public ArchiveRowTypeInfo GetEntity(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Entity name
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+      description: Matching entity info, or null
+    content.vb: Public Function GetEntity(name As String) As ArchiveRowTypeInfo
+  overload: SuperOffice.CRM.ArchiveLists.EntityHelper.GetEntity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.Count
+  commentId: P:SuperOffice.CRM.ArchiveLists.EntityHelper.Count
+  id: Count
+  parent: SuperOffice.CRM.ArchiveLists.EntityHelper
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: EntityHelper.Count
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the number of currently registered entities\n"
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: SuperOffice.CRM.ArchiveLists.EntityHelper.Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.DesiredEntities
+  commentId: P:SuperOffice.CRM.ArchiveLists.EntityHelper.DesiredEntities
+  id: DesiredEntities
+  parent: SuperOffice.CRM.ArchiveLists.EntityHelper
+  langs:
+  - csharp
+  - vb
+  name: DesiredEntities
+  nameWithType: EntityHelper.DesiredEntities
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.DesiredEntities
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet an array of the names of the currently desired (+mandatory) entities\n"
+  syntax:
+    content: public string[] DesiredEntities { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property DesiredEntities As String()
+  overload: SuperOffice.CRM.ArchiveLists.EntityHelper.DesiredEntities*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EntityHelper, To>()
+  nameWithType: EnumUtil.MapEnums<EntityHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.EntityHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EntityHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.EntityHelper, To)()
+  name.vb: MapEnums(Of EntityHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EntityHelper, To>
+    nameWithType: EnumUtil.MapEnums<EntityHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.EntityHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EntityHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of EntityHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.EntityHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.EntityHelper)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<EntityHelper>(EntityHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<EntityHelper>(EntityHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.EntityHelper>(SuperOffice.CRM.ArchiveLists.EntityHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EntityHelper)(EntityHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.EntityHelper)(SuperOffice.CRM.ArchiveLists.EntityHelper)
+  name.vb: AssignByReflection(Of EntityHelper)(EntityHelper)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<EntityHelper>
+    nameWithType: ObjectExtensions.AssignByReflection<EntityHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.EntityHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.EntityHelper
+    name: EntityHelper
+    nameWithType: EntityHelper
+    fullName: SuperOffice.CRM.ArchiveLists.EntityHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of EntityHelper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of EntityHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.EntityHelper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.EntityHelper
+    name: EntityHelper
+    nameWithType: EntityHelper
+    fullName: SuperOffice.CRM.ArchiveLists.EntityHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<EntityHelper>()
+  nameWithType: ObjectExtensions.GraphCopy<EntityHelper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.EntityHelper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EntityHelper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.EntityHelper)()
+  name.vb: GraphCopy(Of EntityHelper)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<EntityHelper>
+    nameWithType: ObjectExtensions.GraphCopy<EntityHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.EntityHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of EntityHelper)
+    nameWithType: ObjectExtensions.GraphCopy(Of EntityHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.EntityHelper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EntityHelper, To>()
+  nameWithType: Converters.MapEnums<EntityHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.EntityHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of EntityHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.EntityHelper, To)()
+  name.vb: MapEnums(Of EntityHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EntityHelper, To>
+    nameWithType: Converters.MapEnums<EntityHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.EntityHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EntityHelper, To)
+    nameWithType: Converters.MapEnums(Of EntityHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.EntityHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EntityHelper.#ctor
+  isExternal: true
+  name: EntityHelper
+  nameWithType: EntityHelper.EntityHelper
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.EntityHelper
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.AddAvailableEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EntityHelper.AddAvailableEntities
+  isExternal: true
+  name: AddAvailableEntities
+  nameWithType: EntityHelper.AddAvailableEntities
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.AddAvailableEntities
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[]
+  isExternal: true
+  name: ArchiveRowTypeInfo[]
+  nameWithType: ArchiveRowTypeInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[]
+  nameWithType.vb: ArchiveRowTypeInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo()
+  name.vb: ArchiveRowTypeInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.GetAvailableEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EntityHelper.GetAvailableEntities
+  isExternal: true
+  name: GetAvailableEntities
+  nameWithType: EntityHelper.GetAvailableEntities
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.GetAvailableEntities
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveRowTypeInfo>
+  nameWithType: List<ArchiveRowTypeInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
+  nameWithType.vb: List(Of ArchiveRowTypeInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  name.vb: List(Of ArchiveRowTypeInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDesiredEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EntityHelper.SetDesiredEntities
+  isExternal: true
+  name: SetDesiredEntities
+  nameWithType: EntityHelper.SetDesiredEntities
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDesiredEntities
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDefaultEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EntityHelper.SetDefaultEntities
+  isExternal: true
+  name: SetDefaultEntities
+  nameWithType: EntityHelper.SetDefaultEntities
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.SetDefaultEntities
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.IsEntityDesired*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EntityHelper.IsEntityDesired
+  isExternal: true
+  name: IsEntityDesired
+  nameWithType: EntityHelper.IsEntityDesired
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.IsEntityDesired
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.IsAtLeastOneEntityDesired*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EntityHelper.IsAtLeastOneEntityDesired
+  isExternal: true
+  name: IsAtLeastOneEntityDesired
+  nameWithType: EntityHelper.IsAtLeastOneEntityDesired
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.IsAtLeastOneEntityDesired
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.IsAnyEntityDesired*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EntityHelper.IsAnyEntityDesired
+  isExternal: true
+  name: IsAnyEntityDesired
+  nameWithType: EntityHelper.IsAnyEntityDesired
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.IsAnyEntityDesired
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.GetEntity*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EntityHelper.GetEntity
+  isExternal: true
+  name: GetEntity
+  nameWithType: EntityHelper.GetEntity
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.GetEntity
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRowTypeInfo
+  nameWithType: ArchiveRowTypeInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.Count*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EntityHelper.Count
+  isExternal: true
+  name: Count
+  nameWithType: EntityHelper.Count
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.EntityHelper.DesiredEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EntityHelper.DesiredEntities
+  isExternal: true
+  name: DesiredEntities
+  nameWithType: EntityHelper.DesiredEntities
+  fullName: SuperOffice.CRM.ArchiveLists.EntityHelper.DesiredEntities

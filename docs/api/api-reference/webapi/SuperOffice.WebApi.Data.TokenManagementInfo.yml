@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo
+  commentId: T:SuperOffice.WebApi.Data.TokenManagementInfo
+  id: TokenManagementInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TokenManagementInfo.#ctor
+  - SuperOffice.WebApi.Data.TokenManagementInfo.AccessToken
+  - SuperOffice.WebApi.Data.TokenManagementInfo.Provider
+  - SuperOffice.WebApi.Data.TokenManagementInfo.RefreshToken
+  langs:
+  - csharp
+  - vb
+  name: TokenManagementInfo
+  nameWithType: TokenManagementInfo
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TokenManagementInfo.\nToken information    \n"
+  syntax:
+    content: 'public class TokenManagementInfo : Carrier'
+    content.vb: >-
+      Public Class TokenManagementInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TokenManagementInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TokenManagementInfo
+  langs:
+  - csharp
+  - vb
+  name: TokenManagementInfo()
+  nameWithType: TokenManagementInfo.TokenManagementInfo()
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo.TokenManagementInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TokenManagementInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TokenManagementInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo.Provider
+  commentId: P:SuperOffice.WebApi.Data.TokenManagementInfo.Provider
+  id: Provider
+  parent: SuperOffice.WebApi.Data.TokenManagementInfo
+  langs:
+  - csharp
+  - vb
+  name: Provider
+  nameWithType: TokenManagementInfo.Provider
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo.Provider
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe provider these tokens belong to\n"
+  syntax:
+    content: public virtual string Provider { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Provider As String
+  overload: SuperOffice.WebApi.Data.TokenManagementInfo.Provider*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo.AccessToken
+  commentId: P:SuperOffice.WebApi.Data.TokenManagementInfo.AccessToken
+  id: AccessToken
+  parent: SuperOffice.WebApi.Data.TokenManagementInfo
+  langs:
+  - csharp
+  - vb
+  name: AccessToken
+  nameWithType: TokenManagementInfo.AccessToken
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo.AccessToken
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAccess token\n"
+  syntax:
+    content: public virtual string AccessToken { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AccessToken As String
+  overload: SuperOffice.WebApi.Data.TokenManagementInfo.AccessToken*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo.RefreshToken
+  commentId: P:SuperOffice.WebApi.Data.TokenManagementInfo.RefreshToken
+  id: RefreshToken
+  parent: SuperOffice.WebApi.Data.TokenManagementInfo
+  langs:
+  - csharp
+  - vb
+  name: RefreshToken
+  nameWithType: TokenManagementInfo.RefreshToken
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo.RefreshToken
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRefresh token\n"
+  syntax:
+    content: public virtual string RefreshToken { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RefreshToken As String
+  overload: SuperOffice.WebApi.Data.TokenManagementInfo.RefreshToken*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.UserAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.WebApi.Agents.UserAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TokenManagementInfo.#ctor
+  isExternal: true
+  name: TokenManagementInfo
+  nameWithType: TokenManagementInfo.TokenManagementInfo
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo.TokenManagementInfo
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo.Provider*
+  commentId: Overload:SuperOffice.WebApi.Data.TokenManagementInfo.Provider
+  isExternal: true
+  name: Provider
+  nameWithType: TokenManagementInfo.Provider
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo.Provider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo.AccessToken*
+  commentId: Overload:SuperOffice.WebApi.Data.TokenManagementInfo.AccessToken
+  isExternal: true
+  name: AccessToken
+  nameWithType: TokenManagementInfo.AccessToken
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo.AccessToken
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo.RefreshToken*
+  commentId: Overload:SuperOffice.WebApi.Data.TokenManagementInfo.RefreshToken
+  isExternal: true
+  name: RefreshToken
+  nameWithType: TokenManagementInfo.RefreshToken
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo.RefreshToken

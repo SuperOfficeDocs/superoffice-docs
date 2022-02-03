@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.WebApi.Handlers
+  commentId: N:SuperOffice.Web.WebApi.Handlers
+  id: SuperOffice.Web.WebApi.Handlers
+  children:
+  - SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.WebApi.Handlers
+  nameWithType: SuperOffice.Web.WebApi.Handlers
+  fullName: SuperOffice.Web.WebApi.Handlers
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler
+  commentId: T:SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler
+  isExternal: true
+  name: SoSuperStateCopyHandler
+  nameWithType: SoSuperStateCopyHandler
+  fullName: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler

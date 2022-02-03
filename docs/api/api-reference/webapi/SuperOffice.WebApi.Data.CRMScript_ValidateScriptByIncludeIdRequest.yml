@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest
+  commentId: T:SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest
+  id: CRMScript_ValidateScriptByIncludeIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.#ctor
+  - SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.CRMScriptIncludeId
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_ValidateScriptByIncludeIdRequest
+  nameWithType: CRMScript_ValidateScriptByIncludeIdRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CRMScript_ValidateScriptByIncludeIdRequest : Object'
+    content.vb: >-
+      Public Class CRMScript_ValidateScriptByIncludeIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_ValidateScriptByIncludeIdRequest()
+  nameWithType: CRMScript_ValidateScriptByIncludeIdRequest.CRMScript_ValidateScriptByIncludeIdRequest()
+  fullName: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.CRMScript_ValidateScriptByIncludeIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CRMScript_ValidateScriptByIncludeIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.CRMScriptIncludeId
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.CRMScriptIncludeId
+  id: CRMScriptIncludeId
+  parent: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptIncludeId
+  nameWithType: CRMScript_ValidateScriptByIncludeIdRequest.CRMScriptIncludeId
+  fullName: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.CRMScriptIncludeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string CRMScriptIncludeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CRMScriptIncludeId As String
+  overload: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.CRMScriptIncludeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.#ctor
+  isExternal: true
+  name: CRMScript_ValidateScriptByIncludeIdRequest
+  nameWithType: CRMScript_ValidateScriptByIncludeIdRequest.CRMScript_ValidateScriptByIncludeIdRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.CRMScript_ValidateScriptByIncludeIdRequest
+- uid: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.CRMScriptIncludeId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.CRMScriptIncludeId
+  isExternal: true
+  name: CRMScriptIncludeId
+  nameWithType: CRMScript_ValidateScriptByIncludeIdRequest.CRMScriptIncludeId
+  fullName: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest.CRMScriptIncludeId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

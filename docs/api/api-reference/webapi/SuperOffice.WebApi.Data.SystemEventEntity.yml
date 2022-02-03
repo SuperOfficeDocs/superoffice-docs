@@ -1,0 +1,702 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SystemEventEntity
+  commentId: T:SuperOffice.WebApi.Data.SystemEventEntity
+  id: SystemEventEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SystemEventEntity.#ctor
+  - SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy
+  - SuperOffice.WebApi.Data.SystemEventEntity.Eta
+  - SuperOffice.WebApi.Data.SystemEventEntity.Eventkey
+  - SuperOffice.WebApi.Data.SystemEventEntity.Eventmess
+  - SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo
+  - SuperOffice.WebApi.Data.SystemEventEntity.Owner
+  - SuperOffice.WebApi.Data.SystemEventEntity.Registered
+  - SuperOffice.WebApi.Data.SystemEventEntity.Scope
+  - SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+  - SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId
+  - SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: SystemEventEntity
+  nameWithType: SystemEventEntity
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SystemEventEntity.\nEntity for system events    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All SystemEventEntity: <pre><code>&quot;SystemEvents&quot;</code></pre>
+  example:
+  - "\nGet SystemEventEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ConfigurationAgent(configuration);\nvar systemEventEntity = agent.GetSystemEventEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class SystemEventEntity : Carrier'
+    content.vb: >-
+      Public Class SystemEventEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ConfigurationAgent
+    commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  - linkId: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+    commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SystemEventEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: SystemEventEntity()
+  nameWithType: SystemEventEntity.SystemEventEntity()
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SystemEventEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId
+  id: SystemEventId
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: SystemEventId
+  nameWithType: SystemEventEntity.SystemEventId
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int SystemEventId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SystemEventId As Integer
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+  id: Scope_String
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: Scope_String
+  nameWithType: SystemEventEntity.Scope_String
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1 = system-wide, 2= database, 3 = group, 4 = user\nRaw string enum value.\n"
+  syntax:
+    content: public string Scope_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Scope_String As String
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SystemEventEntity.Scope
+    commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope
+  id: Scope
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: Scope
+  nameWithType: SystemEventEntity.Scope
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Scope
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1 = system-wide, 2= database, 3 = group, 4 = user\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<SystemEventScope> Scope { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.SystemEventScope}
+    content.vb: Public Property Scope As Nullable(Of SystemEventScope)
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.Scope*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+    commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Eta
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Eta
+  id: Eta
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: Eta
+  nameWithType: SystemEventEntity.Eta
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eta
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEstimated Time of Arrival, i.e., when will this event finish?\n"
+  syntax:
+    content: public virtual DateTime Eta { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Eta As DateTime
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.Eta*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Eventkey
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Eventkey
+  id: Eventkey
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: Eventkey
+  nameWithType: SystemEventEntity.Eventkey
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eventkey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEvent key, predefined in code\n"
+  syntax:
+    content: public virtual string Eventkey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Eventkey As String
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.Eventkey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Eventmess
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Eventmess
+  id: Eventmess
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: Eventmess
+  nameWithType: SystemEventEntity.Eventmess
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eventmess
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMessage to be shown, entered by administrator\n"
+  syntax:
+    content: public virtual string Eventmess { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Eventmess As String
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.Eventmess*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: SystemEventEntity.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExtra information (area id for prototype rebuild, etc)\n"
+  syntax:
+    content: public virtual int ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ExtraInfo As Integer
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Owner
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Owner
+  id: Owner
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: SystemEventEntity.Owner
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Owner
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0, 0, group_id, assoc id (see over)\n"
+  syntax:
+    content: public virtual int Owner { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Owner As Integer
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.Owner*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: SystemEventEntity.UpdatedCount
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of updates made to this record\n"
+  syntax:
+    content: public virtual short UpdatedCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property UpdatedCount As Short
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Registered
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: SystemEventEntity.Registered
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Registered
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As DateTime
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy
+  id: ActivatedBy
+  parent: SuperOffice.WebApi.Data.SystemEventEntity
+  langs:
+  - csharp
+  - vb
+  name: ActivatedBy
+  nameWithType: SystemEventEntity.ActivatedBy
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate that first created the SystemEvent.\n"
+  syntax:
+    content: public virtual Associate ActivatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property ActivatedBy As Associate
+  overload: SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent
+  commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
+  isExternal: true
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.#ctor
+  isExternal: true
+  name: SystemEventEntity
+  nameWithType: SystemEventEntity.SystemEventEntity
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventEntity
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId
+  isExternal: true
+  name: SystemEventId
+  nameWithType: SystemEventEntity.SystemEventId
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+  isExternal: true
+  name: Scope_String
+  nameWithType: SystemEventEntity.Scope_String
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Scope
+  isExternal: true
+  name: Scope
+  nameWithType: SystemEventEntity.Scope
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Scope
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.SystemEventScope}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.SystemEventScope}'
+  definition: System.Nullable`1
+  name: Nullable<SystemEventScope>
+  nameWithType: Nullable<SystemEventScope>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.SystemEventScope>
+  nameWithType.vb: Nullable(Of SystemEventScope)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.SystemEventScope)
+  name.vb: Nullable(Of SystemEventScope)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.SystemEventScope
+    name: SystemEventScope
+    nameWithType: SystemEventScope
+    fullName: SuperOffice.WebApi.Data.SystemEventScope
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.SystemEventScope
+    name: SystemEventScope
+    nameWithType: SystemEventScope
+    fullName: SuperOffice.WebApi.Data.SystemEventScope
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Eta*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Eta
+  isExternal: true
+  name: Eta
+  nameWithType: SystemEventEntity.Eta
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eta
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Eventkey*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Eventkey
+  isExternal: true
+  name: Eventkey
+  nameWithType: SystemEventEntity.Eventkey
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eventkey
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Eventmess*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Eventmess
+  isExternal: true
+  name: Eventmess
+  nameWithType: SystemEventEntity.Eventmess
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eventmess
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: SystemEventEntity.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Owner*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Owner
+  isExternal: true
+  name: Owner
+  nameWithType: SystemEventEntity.Owner
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Owner
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: SystemEventEntity.UpdatedCount
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: SystemEventEntity.Registered
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Registered
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy
+  isExternal: true
+  name: ActivatedBy
+  nameWithType: SystemEventEntity.ActivatedBy
+  fullName: SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate

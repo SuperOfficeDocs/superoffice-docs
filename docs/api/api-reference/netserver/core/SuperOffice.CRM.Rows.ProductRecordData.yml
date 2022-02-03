@@ -1,0 +1,1873 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ProductRecordData
+  commentId: T:SuperOffice.CRM.Rows.ProductRecordData
+  id: ProductRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ProductRecordData.#ctor
+  - SuperOffice.CRM.Rows.ProductRecordData.Code
+  - SuperOffice.CRM.Rows.ProductRecordData.DefaultSubscriptionQuantity
+  - SuperOffice.CRM.Rows.ProductRecordData.Description
+  - SuperOffice.CRM.Rows.ProductRecordData.ERPProductKey
+  - SuperOffice.CRM.Rows.ProductRecordData.ExtraField1
+  - SuperOffice.CRM.Rows.ProductRecordData.ExtraField2
+  - SuperOffice.CRM.Rows.ProductRecordData.ExtraField3
+  - SuperOffice.CRM.Rows.ProductRecordData.ExtraField4
+  - SuperOffice.CRM.Rows.ProductRecordData.ExtraField5
+  - SuperOffice.CRM.Rows.ProductRecordData.ExtraInfo
+  - SuperOffice.CRM.Rows.ProductRecordData.InAssortment
+  - SuperOffice.CRM.Rows.ProductRecordData.IsSubscription
+  - SuperOffice.CRM.Rows.ProductRecordData.ItemNumber
+  - SuperOffice.CRM.Rows.ProductRecordData.Name
+  - SuperOffice.CRM.Rows.ProductRecordData.PriceListId
+  - SuperOffice.CRM.Rows.ProductRecordData.PriceUnit
+  - SuperOffice.CRM.Rows.ProductRecordData.ProductCategoryKey
+  - SuperOffice.CRM.Rows.ProductRecordData.ProductFamilyKey
+  - SuperOffice.CRM.Rows.ProductRecordData.ProductId
+  - SuperOffice.CRM.Rows.ProductRecordData.ProductTypeKey
+  - SuperOffice.CRM.Rows.ProductRecordData.QuantityUnit
+  - SuperOffice.CRM.Rows.ProductRecordData.Registered
+  - SuperOffice.CRM.Rows.ProductRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.ProductRecordData.Rights
+  - SuperOffice.CRM.Rows.ProductRecordData.Rule
+  - SuperOffice.CRM.Rows.ProductRecordData.SubscriptionUnit
+  - SuperOffice.CRM.Rows.ProductRecordData.Supplier
+  - SuperOffice.CRM.Rows.ProductRecordData.SupplierCode
+  - SuperOffice.CRM.Rows.ProductRecordData.UnitCost
+  - SuperOffice.CRM.Rows.ProductRecordData.UnitListPrice
+  - SuperOffice.CRM.Rows.ProductRecordData.UnitMinimumPrice
+  - SuperOffice.CRM.Rows.ProductRecordData.Updated
+  - SuperOffice.CRM.Rows.ProductRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.ProductRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.ProductRecordData.Url
+  - SuperOffice.CRM.Rows.ProductRecordData.VAT
+  - SuperOffice.CRM.Rows.ProductRecordData.VATInfo
+  langs:
+  - csharp
+  - vb
+  name: ProductRecordData
+  nameWithType: ProductRecordData
+  fullName: SuperOffice.CRM.Rows.ProductRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the Product table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ProductRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ProductTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class ProductRecordData
+    content.vb: Public Class ProductRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.ProductRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ProductRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ProductRecordData)
+  - SuperOffice.CRM.Rows.ProductRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ProductRecordData.SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ProductRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ProductId
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ProductId
+  id: ProductId
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: ProductRecordData.ProductId
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ProductId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int ProductId
+    return:
+      type: System.Int32
+    content.vb: Public ProductId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ERPProductKey
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ERPProductKey
+  id: ERPProductKey
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ERPProductKey
+  nameWithType: ProductRecordData.ERPProductKey
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ERPProductKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nReference/foreign key to the product in the given pricelist in the product supplier system, if it exists there. \n"
+  syntax:
+    content: public string ERPProductKey
+    return:
+      type: System.String
+    content.vb: Public ERPProductKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.PriceListId
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.PriceListId
+  id: PriceListId
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: PriceListId
+  nameWithType: ProductRecordData.PriceListId
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.PriceListId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nForeign key to the price list that this product is a part of. \n"
+  syntax:
+    content: public int PriceListId
+    return:
+      type: System.Int32
+    content.vb: Public PriceListId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ProductRecordData.Name
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name to use in the user interface. \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.Description
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.Description
+  id: Description
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ProductRecordData.Description
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too. \n"
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.Code
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.Code
+  id: Code
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: ProductRecordData.Code
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.Code
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe product code / article number in the product supplier system. \n"
+  syntax:
+    content: public string Code
+    return:
+      type: System.String
+    content.vb: Public Code As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.QuantityUnit
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.QuantityUnit
+  id: QuantityUnit
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: QuantityUnit
+  nameWithType: ProductRecordData.QuantityUnit
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.QuantityUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different \n"
+  syntax:
+    content: public string QuantityUnit
+    return:
+      type: System.String
+    content.vb: Public QuantityUnit As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.PriceUnit
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.PriceUnit
+  id: PriceUnit
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: PriceUnit
+  nameWithType: ProductRecordData.PriceUnit
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.PriceUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products \n"
+  syntax:
+    content: public string PriceUnit
+    return:
+      type: System.String
+    content.vb: Public PriceUnit As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.IsSubscription
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.IsSubscription
+  id: IsSubscription
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: IsSubscription
+  nameWithType: ProductRecordData.IsSubscription
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.IsSubscription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs this a subscription product, sold in repeating intervals/amounts? \n"
+  syntax:
+    content: public short IsSubscription
+    return:
+      type: System.Int16
+    content.vb: Public IsSubscription As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.SubscriptionUnit
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.SubscriptionUnit
+  id: SubscriptionUnit
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionUnit
+  nameWithType: ProductRecordData.SubscriptionUnit
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.SubscriptionUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit. \n"
+  syntax:
+    content: public string SubscriptionUnit
+    return:
+      type: System.String
+    content.vb: Public SubscriptionUnit As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.DefaultSubscriptionQuantity
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.DefaultSubscriptionQuantity
+  id: DefaultSubscriptionQuantity
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: DefaultSubscriptionQuantity
+  nameWithType: ProductRecordData.DefaultSubscriptionQuantity
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.DefaultSubscriptionQuantity
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe default number of SubscriptionUnits to suggest when creating quote lines from this product \n"
+  syntax:
+    content: public double DefaultSubscriptionQuantity
+    return:
+      type: System.Double
+    content.vb: Public DefaultSubscriptionQuantity As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ItemNumber
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ItemNumber
+  id: ItemNumber
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ItemNumber
+  nameWithType: ProductRecordData.ItemNumber
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ItemNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLine item number, NOR: «Postnummer». Specific numbers from some hierarchy, for instance “1.4.3.2P”. Typically used to sort the items in the quote by some standard way. \n"
+  syntax:
+    content: public string ItemNumber
+    return:
+      type: System.String
+    content.vb: Public ItemNumber As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.Url
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.Url
+  id: Url
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: ProductRecordData.Url
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.Url
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nURL to product information web page. \n"
+  syntax:
+    content: public string Url
+    return:
+      type: System.String
+    content.vb: Public Url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ProductCategoryKey
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ProductCategoryKey
+  id: ProductCategoryKey
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProductCategoryKey
+  nameWithType: ProductRecordData.ProductCategoryKey
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ProductCategoryKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. \n"
+  syntax:
+    content: public string ProductCategoryKey
+    return:
+      type: System.String
+    content.vb: Public ProductCategoryKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ProductFamilyKey
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ProductFamilyKey
+  id: ProductFamilyKey
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProductFamilyKey
+  nameWithType: ProductRecordData.ProductFamilyKey
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ProductFamilyKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text with the actual product family. \n"
+  syntax:
+    content: public string ProductFamilyKey
+    return:
+      type: System.String
+    content.vb: Public ProductFamilyKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ProductTypeKey
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ProductTypeKey
+  id: ProductTypeKey
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProductTypeKey
+  nameWithType: ProductRecordData.ProductTypeKey
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ProductTypeKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. \n"
+  syntax:
+    content: public string ProductTypeKey
+    return:
+      type: System.String
+    content.vb: Public ProductTypeKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.VATInfo
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.VATInfo
+  id: VATInfo
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: VATInfo
+  nameWithType: ProductRecordData.VATInfo
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.VATInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. \n"
+  syntax:
+    content: public string VATInfo
+    return:
+      type: System.String
+    content.vb: Public VATInfo As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.VAT
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.VAT
+  id: VAT
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: VAT
+  nameWithType: ProductRecordData.VAT
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.VAT
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. \n"
+  syntax:
+    content: public double VAT
+    return:
+      type: System.Double
+    content.vb: Public VAT As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.UnitCost
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.UnitCost
+  id: UnitCost
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: UnitCost
+  nameWithType: ProductRecordData.UnitCost
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.UnitCost
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe cost price. Might not be given, use Decimal.MinValue to signal this. \n"
+  syntax:
+    content: public double UnitCost
+    return:
+      type: System.Double
+    content.vb: Public UnitCost As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.UnitMinimumPrice
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.UnitMinimumPrice
+  id: UnitMinimumPrice
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: UnitMinimumPrice
+  nameWithType: ProductRecordData.UnitMinimumPrice
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.UnitMinimumPrice
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. \n"
+  syntax:
+    content: public double UnitMinimumPrice
+    return:
+      type: System.Double
+    content.vb: Public UnitMinimumPrice As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.UnitListPrice
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.UnitListPrice
+  id: UnitListPrice
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: UnitListPrice
+  nameWithType: ProductRecordData.UnitListPrice
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.UnitListPrice
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n(Basic Price, normal price, standard price.) This is the basic price from which the discount is computed from. The ListPrice will stay the same even when a larger amount is ordered. \n"
+  syntax:
+    content: public double UnitListPrice
+    return:
+      type: System.Double
+    content.vb: Public UnitListPrice As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ExtraInfo
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: ProductRecordData.ExtraInfo
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ExtraInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtra data (fields with labels). Shall be shown in the quoteline dialog. Additional info that the ERP system would like to store and show in the user interface. Information placed here is shown in the GUI if the “provide-extra-data” capability is true. Different products can have different fields. It will not be possible to directly put info here into the quote document. \n"
+  syntax:
+    content: public string ExtraInfo
+    return:
+      type: System.String
+    content.vb: Public ExtraInfo As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.InAssortment
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.InAssortment
+  id: InAssortment
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: InAssortment
+  nameWithType: ProductRecordData.InAssortment
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.InAssortment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTrue for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results. \n"
+  syntax:
+    content: public short InAssortment
+    return:
+      type: System.Int16
+    content.vb: Public InAssortment As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.Supplier
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.Supplier
+  id: Supplier
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: Supplier
+  nameWithType: ProductRecordData.Supplier
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.Supplier
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIn SuperOffice, an id from the contact table, when saved as an ERP cache, the name of the supplier \n"
+  syntax:
+    content: public string Supplier
+    return:
+      type: System.String
+    content.vb: Public Supplier As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.SupplierCode
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.SupplierCode
+  id: SupplierCode
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: SupplierCode
+  nameWithType: ProductRecordData.SupplierCode
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.SupplierCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSuppliers part code/number or other key-like field \n"
+  syntax:
+    content: public string SupplierCode
+    return:
+      type: System.String
+    content.vb: Public SupplierCode As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.Rights
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.Rights
+  id: Rights
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: Rights
+  nameWithType: ProductRecordData.Rights
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.Rights
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on. Will be used by SuperOffice to control the user interface when showing the record. \n"
+  syntax:
+    content: public string Rights
+    return:
+      type: System.String
+    content.vb: Public Rights As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.Rule
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.Rule
+  id: Rule
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: Rule
+  nameWithType: ProductRecordData.Rule
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.Rule
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive. Will NOT be used by SuperOffice. \n"
+  syntax:
+    content: public string Rule
+    return:
+      type: System.String
+    content.vb: Public Rule As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ExtraField1
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ExtraField1
+  id: ExtraField1
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtraField1
+  nameWithType: ProductRecordData.ExtraField1
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ExtraField1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public string ExtraField1
+    return:
+      type: System.String
+    content.vb: Public ExtraField1 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ExtraField2
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ExtraField2
+  id: ExtraField2
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtraField2
+  nameWithType: ProductRecordData.ExtraField2
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ExtraField2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public string ExtraField2
+    return:
+      type: System.String
+    content.vb: Public ExtraField2 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ExtraField3
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ExtraField3
+  id: ExtraField3
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtraField3
+  nameWithType: ProductRecordData.ExtraField3
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ExtraField3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public string ExtraField3
+    return:
+      type: System.String
+    content.vb: Public ExtraField3 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ExtraField4
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ExtraField4
+  id: ExtraField4
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtraField4
+  nameWithType: ProductRecordData.ExtraField4
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ExtraField4
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public string ExtraField4
+    return:
+      type: System.String
+    content.vb: Public ExtraField4 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.ExtraField5
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.ExtraField5
+  id: ExtraField5
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtraField5
+  nameWithType: ProductRecordData.ExtraField5
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ExtraField5
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public string ExtraField5
+    return:
+      type: System.String
+    content.vb: Public ExtraField5 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ProductRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: ProductRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ProductRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: ProductRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.ProductRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: ProductRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ProductRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.ProductRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.ProductRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProductRecordData()
+  nameWithType: ProductRecordData.ProductRecordData()
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ProductRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public ProductRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.ProductRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProductRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ProductRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ProductRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ProductRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProductRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ProductRecordData, To)()
+  name.vb: MapEnums(Of ProductRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProductRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ProductRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ProductRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProductRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ProductRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ProductRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProductRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ProductRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ProductRecordData>(ProductRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ProductRecordData>(ProductRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ProductRecordData>(SuperOffice.CRM.Rows.ProductRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ProductRecordData)(ProductRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ProductRecordData)(SuperOffice.CRM.Rows.ProductRecordData)
+  name.vb: AssignByReflection(Of ProductRecordData)(ProductRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ProductRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ProductRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ProductRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ProductRecordData
+    name: ProductRecordData
+    nameWithType: ProductRecordData
+    fullName: SuperOffice.CRM.Rows.ProductRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ProductRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ProductRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ProductRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ProductRecordData
+    name: ProductRecordData
+    nameWithType: ProductRecordData
+    fullName: SuperOffice.CRM.Rows.ProductRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProductRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ProductRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ProductRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ProductRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ProductRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ProductRecordData)()
+  name.vb: GraphCopy(Of ProductRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ProductRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ProductRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ProductRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ProductRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ProductRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ProductRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProductRecordData.SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductRecordData)
+  parent: SuperOffice.CRM.Rows.ProductRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductRecordData)
+  name: ToInsert()
+  nameWithType: ProductRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ProductRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ProductRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProductRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ProductRecordData, To>()
+  nameWithType: Converters.MapEnums<ProductRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ProductRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProductRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ProductRecordData, To)()
+  name.vb: MapEnums(Of ProductRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProductRecordData, To>
+    nameWithType: Converters.MapEnums<ProductRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ProductRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProductRecordData, To)
+    nameWithType: Converters.MapEnums(Of ProductRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ProductRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductRecordData)
+  isExternal: true
+  name: ToInsert(ProductRecordData)
+  nameWithType: ProductRecordDataExtensions.ToInsert(ProductRecordData)
+  fullName: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductRecordData)
+    name: ToInsert
+    nameWithType: ProductRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ProductRecordData
+    name: ProductRecordData
+    nameWithType: ProductRecordData
+    fullName: SuperOffice.CRM.Rows.ProductRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ProductRecordData)
+    name: ToInsert
+    nameWithType: ProductRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ProductRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ProductRecordData
+    name: ProductRecordData
+    nameWithType: ProductRecordData
+    fullName: SuperOffice.CRM.Rows.ProductRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProductRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ProductRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ProductRecordDataExtensions
+  nameWithType: ProductRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ProductRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.ProductRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.ProductRecordData.#ctor
+  isExternal: true
+  name: ProductRecordData
+  nameWithType: ProductRecordData.ProductRecordData
+  fullName: SuperOffice.CRM.Rows.ProductRecordData.ProductRecordData

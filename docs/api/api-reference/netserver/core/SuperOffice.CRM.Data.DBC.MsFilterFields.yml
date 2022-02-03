@@ -1,0 +1,977 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields
+  commentId: T:SuperOffice.CRM.Data.DBC.MsFilterFields
+  id: DBC.MsFilterFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.Action
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.ActionWhen
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.AutofaqReplyCategory
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.BodyTemplate
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.Description
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.Ejscript
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.Flags
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.ForwardTo
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.MsFilterId
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.NewCategory
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.NewOwner
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.NewPriority
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.NewSlevel
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.ParseMode
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.Priority
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyTemplate
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyTo
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyToSms
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.SearchLocation
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.SearchString
+  - SuperOffice.CRM.Data.DBC.MsFilterFields.SearchString2
+  langs:
+  - csharp
+  - vb
+  name: DBC.MsFilterFields
+  nameWithType: DBC.MsFilterFields
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for MsFilter, This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails.\n"
+  syntax:
+    content: public static class MsFilterFields
+    content.vb: Public Module MsFilterFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.MsFilterId
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.MsFilterId
+  id: MsFilterId
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: MsFilterId
+  nameWithType: DBC.MsFilterFields.MsFilterId
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.MsFilterId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.MsFilterId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string MsFilterId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const MsFilterId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.Priority
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: DBC.MsFilterFields.Priority
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.Priority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.Priority: A number indicating the priority for this filter (0..10).\n"
+  syntax:
+    content: public const string Priority = "priority"
+    return:
+      type: System.String
+    content.vb: Public Const Priority As String = "priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.MsFilterFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.Description: A description for this filter.\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.SearchString
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.SearchString
+  id: SearchString
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: SearchString
+  nameWithType: DBC.MsFilterFields.SearchString
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.SearchString
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.SearchString: The string to search for.\n"
+  syntax:
+    content: public const string SearchString = "search_string"
+    return:
+      type: System.String
+    content.vb: Public Const SearchString As String = "search_string"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.SearchString2
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.SearchString2
+  id: SearchString2
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: SearchString2
+  nameWithType: DBC.MsFilterFields.SearchString2
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.SearchString2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.SearchString2: A second string to search for. Only used if not empty.\n"
+  syntax:
+    content: public const string SearchString2 = "search_string2"
+    return:
+      type: System.String
+    content.vb: Public Const SearchString2 As String = "search_string2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.SearchLocation
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.SearchLocation
+  id: SearchLocation
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: SearchLocation
+  nameWithType: DBC.MsFilterFields.SearchLocation
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.SearchLocation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.SearchLocation: Enum indicating where to search.\n"
+  syntax:
+    content: public const string SearchLocation = "search_location"
+    return:
+      type: System.String
+    content.vb: Public Const SearchLocation As String = "search_location"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.Action
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.Action
+  id: Action
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: DBC.MsFilterFields.Action
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.Action
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.Action: A bitmask representing the actions that should be performed if this filter is executed.\n"
+  syntax:
+    content: public const string Action = "action"
+    return:
+      type: System.String
+    content.vb: Public Const Action As String = "action"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.ActionWhen
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.ActionWhen
+  id: ActionWhen
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: ActionWhen
+  nameWithType: DBC.MsFilterFields.ActionWhen
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.ActionWhen
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.ActionWhen: Enum indicating what should trigger this filter.\n"
+  syntax:
+    content: public const string ActionWhen = "action_when"
+    return:
+      type: System.String
+    content.vb: Public Const ActionWhen As String = "action_when"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.NewPriority
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.NewPriority
+  id: NewPriority
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: NewPriority
+  nameWithType: DBC.MsFilterFields.NewPriority
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.NewPriority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.NewPriority: The id of the priority to set for the ticket if specified by action.\n"
+  syntax:
+    content: public const string NewPriority = "new_priority"
+    return:
+      type: System.String
+    content.vb: Public Const NewPriority As String = "new_priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.NewCategory
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.NewCategory
+  id: NewCategory
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: NewCategory
+  nameWithType: DBC.MsFilterFields.NewCategory
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.NewCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.NewCategory: The id of the category to set for the ticket if specified by action.\n"
+  syntax:
+    content: public const string NewCategory = "new_category"
+    return:
+      type: System.String
+    content.vb: Public Const NewCategory As String = "new_category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.NewOwner
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.NewOwner
+  id: NewOwner
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: NewOwner
+  nameWithType: DBC.MsFilterFields.NewOwner
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.NewOwner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.NewOwner: The id of the owner to set for the ticket if specified by action.\n"
+  syntax:
+    content: public const string NewOwner = "new_owner"
+    return:
+      type: System.String
+    content.vb: Public Const NewOwner As String = "new_owner"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.NewSlevel
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.NewSlevel
+  id: NewSlevel
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: NewSlevel
+  nameWithType: DBC.MsFilterFields.NewSlevel
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.NewSlevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.NewSlevel: The security level to set for the ticket if specified by action.\n"
+  syntax:
+    content: public const string NewSlevel = "new_slevel"
+    return:
+      type: System.String
+    content.vb: Public Const NewSlevel As String = "new_slevel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyTemplate
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyTemplate
+  id: ReplyTemplate
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplate
+  nameWithType: DBC.MsFilterFields.ReplyTemplate
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyTemplate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.ReplyTemplate: The id of the template to use as the reply template if specified by action.\n"
+  syntax:
+    content: public const string ReplyTemplate = "reply_template"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTemplate As String = "reply_template"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyTo
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyTo
+  id: ReplyTo
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTo
+  nameWithType: DBC.MsFilterFields.ReplyTo
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.ReplyTo: The email address to reply to.\n"
+  syntax:
+    content: public const string ReplyTo = "reply_to"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTo As String = "reply_to"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyToSms
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyToSms
+  id: ReplyToSms
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyToSms
+  nameWithType: DBC.MsFilterFields.ReplyToSms
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.ReplyToSms
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.ReplyToSms: The SMS number to reply to.\n"
+  syntax:
+    content: public const string ReplyToSms = "reply_to_sms"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyToSms As String = "reply_to_sms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.BodyTemplate
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.BodyTemplate
+  id: BodyTemplate
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: BodyTemplate
+  nameWithType: DBC.MsFilterFields.BodyTemplate
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.BodyTemplate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.BodyTemplate: The template to use for the body of the message.\n"
+  syntax:
+    content: public const string BodyTemplate = "body_template"
+    return:
+      type: System.String
+    content.vb: Public Const BodyTemplate As String = "body_template"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.ForwardTo
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.ForwardTo
+  id: ForwardTo
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: ForwardTo
+  nameWithType: DBC.MsFilterFields.ForwardTo
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.ForwardTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.ForwardTo: An email address to forward the ticket to.\n"
+  syntax:
+    content: public const string ForwardTo = "forward_to"
+    return:
+      type: System.String
+    content.vb: Public Const ForwardTo As String = "forward_to"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.AutofaqReplyCategory
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.AutofaqReplyCategory
+  id: AutofaqReplyCategory
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: AutofaqReplyCategory
+  nameWithType: DBC.MsFilterFields.AutofaqReplyCategory
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.AutofaqReplyCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.AutofaqReplyCategory: The root folder for the auto faq search.\n"
+  syntax:
+    content: public const string AutofaqReplyCategory = "autofaq_reply_category"
+    return:
+      type: System.String
+    content.vb: Public Const AutofaqReplyCategory As String = "autofaq_reply_category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.Flags
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: DBC.MsFilterFields.Flags
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.Flags: Flags\n"
+  syntax:
+    content: public const string Flags = "flags"
+    return:
+      type: System.String
+    content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.ParseMode
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.ParseMode
+  id: ParseMode
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: ParseMode
+  nameWithType: DBC.MsFilterFields.ParseMode
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.ParseMode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.ParseMode: If automatic parsing this column indicate mode\n"
+  syntax:
+    content: public const string ParseMode = "parse_mode"
+    return:
+      type: System.String
+    content.vb: Public Const ParseMode As String = "parse_mode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsFilterFields.Ejscript
+  commentId: F:SuperOffice.CRM.Data.DBC.MsFilterFields.Ejscript
+  id: Ejscript
+  parent: SuperOffice.CRM.Data.DBC.MsFilterFields
+  langs:
+  - csharp
+  - vb
+  name: Ejscript
+  nameWithType: DBC.MsFilterFields.Ejscript
+  fullName: SuperOffice.CRM.Data.DBC.MsFilterFields.Ejscript
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsFilter.Ejscript: The reference to the ejscript to execute for this filter.\n"
+  syntax:
+    content: public const string Ejscript = "ejscript"
+    return:
+      type: System.String
+    content.vb: Public Const Ejscript As String = "ejscript"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,1334 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.ConsentInfo
+  commentId: T:SuperOffice.CRM.Entities.ConsentInfo
+  id: ConsentInfo
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.ConsentInfo.#ctor
+  - SuperOffice.CRM.Entities.ConsentInfo.Comment
+  - SuperOffice.CRM.Entities.ConsentInfo.ConsentPersonId
+  - SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeId
+  - SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeKey
+  - SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeName
+  - SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceId
+  - SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceKey
+  - SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceName
+  - SuperOffice.CRM.Entities.ConsentInfo.LegalBaseId
+  - SuperOffice.CRM.Entities.ConsentInfo.LegalBaseKey
+  - SuperOffice.CRM.Entities.ConsentInfo.LegalBaseName
+  - SuperOffice.CRM.Entities.ConsentInfo.Registered
+  - SuperOffice.CRM.Entities.ConsentInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Entities.ConsentInfo.Updated
+  - SuperOffice.CRM.Entities.ConsentInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Entities.ConsentInfo.ValidFrom
+  langs:
+  - csharp
+  - vb
+  name: ConsentInfo
+  nameWithType: ConsentInfo
+  fullName: SuperOffice.CRM.Entities.ConsentInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public class ConsentInfo
+    content.vb: Public Class ConsentInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.ConsentInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.ConsentInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.ConsentInfo)
+  - SuperOffice.CRM.Entities.ConsentInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Entities.ConsentInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Entities.ConsentInfo.#ctor
+  commentId: M:SuperOffice.CRM.Entities.ConsentInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: ConsentInfo()
+  nameWithType: ConsentInfo.ConsentInfo()
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentInfo()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public ConsentInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Entities.ConsentInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentPersonId
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.ConsentPersonId
+  id: ConsentPersonId
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: ConsentPersonId
+  nameWithType: ConsentInfo.ConsentPersonId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentPersonId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public int ConsentPersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ConsentPersonId As Integer
+  overload: SuperOffice.CRM.Entities.ConsentInfo.ConsentPersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ValidFrom
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.ValidFrom
+  id: ValidFrom
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: ValidFrom
+  nameWithType: ConsentInfo.ValidFrom
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ValidFrom
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public DateTime ValidFrom { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ValidFrom As Date
+  overload: SuperOffice.CRM.Entities.ConsentInfo.ValidFrom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.Registered
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ConsentInfo.Registered
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Registered As Date
+  overload: SuperOffice.CRM.Entities.ConsentInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: ConsentInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RegisteredAssociateId As Integer
+  overload: SuperOffice.CRM.Entities.ConsentInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.Updated
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ConsentInfo.Updated
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Updated As Date
+  overload: SuperOffice.CRM.Entities.ConsentInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: ConsentInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public int UpdatedAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UpdatedAssociateId As Integer
+  overload: SuperOffice.CRM.Entities.ConsentInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseId
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.LegalBaseId
+  id: LegalBaseId
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: LegalBaseId
+  nameWithType: ConsentInfo.LegalBaseId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public int LegalBaseId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LegalBaseId As Integer
+  overload: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseKey
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.LegalBaseKey
+  id: LegalBaseKey
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: LegalBaseKey
+  nameWithType: ConsentInfo.LegalBaseKey
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public string LegalBaseKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LegalBaseKey As String
+  overload: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseName
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.LegalBaseName
+  id: LegalBaseName
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: LegalBaseName
+  nameWithType: ConsentInfo.LegalBaseName
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public string LegalBaseName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LegalBaseName As String
+  overload: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeId
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeId
+  id: ConsentPurposeId
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: ConsentPurposeId
+  nameWithType: ConsentInfo.ConsentPurposeId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public int ConsentPurposeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ConsentPurposeId As Integer
+  overload: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeKey
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeKey
+  id: ConsentPurposeKey
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: ConsentPurposeKey
+  nameWithType: ConsentInfo.ConsentPurposeKey
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public string ConsentPurposeKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConsentPurposeKey As String
+  overload: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeName
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeName
+  id: ConsentPurposeName
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: ConsentPurposeName
+  nameWithType: ConsentInfo.ConsentPurposeName
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public string ConsentPurposeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConsentPurposeName As String
+  overload: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceId
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceId
+  id: ConsentSourceId
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: ConsentSourceId
+  nameWithType: ConsentInfo.ConsentSourceId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public int ConsentSourceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ConsentSourceId As Integer
+  overload: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceKey
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceKey
+  id: ConsentSourceKey
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: ConsentSourceKey
+  nameWithType: ConsentInfo.ConsentSourceKey
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public string ConsentSourceKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConsentSourceKey As String
+  overload: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceName
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceName
+  id: ConsentSourceName
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: ConsentSourceName
+  nameWithType: ConsentInfo.ConsentSourceName
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public string ConsentSourceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConsentSourceName As String
+  overload: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ConsentInfo.Comment
+  commentId: P:SuperOffice.CRM.Entities.ConsentInfo.Comment
+  id: Comment
+  parent: SuperOffice.CRM.Entities.ConsentInfo
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: ConsentInfo.Comment
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.Comment
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Comment As String
+  overload: SuperOffice.CRM.Entities.ConsentInfo.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ConsentInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConsentInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ConsentInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ConsentInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConsentInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ConsentInfo, To)()
+  name.vb: MapEnums(Of ConsentInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConsentInfo, To>
+    nameWithType: EnumUtil.MapEnums<ConsentInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ConsentInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConsentInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ConsentInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ConsentInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ConsentInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.ConsentInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ConsentInfo>(ConsentInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<ConsentInfo>(ConsentInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.ConsentInfo>(SuperOffice.CRM.Entities.ConsentInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ConsentInfo)(ConsentInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.ConsentInfo)(SuperOffice.CRM.Entities.ConsentInfo)
+  name.vb: AssignByReflection(Of ConsentInfo)(ConsentInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ConsentInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<ConsentInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.ConsentInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.ConsentInfo
+    name: ConsentInfo
+    nameWithType: ConsentInfo
+    fullName: SuperOffice.CRM.Entities.ConsentInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ConsentInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ConsentInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.ConsentInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.ConsentInfo
+    name: ConsentInfo
+    nameWithType: ConsentInfo
+    fullName: SuperOffice.CRM.Entities.ConsentInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ConsentInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ConsentInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<ConsentInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.ConsentInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ConsentInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.ConsentInfo)()
+  name.vb: GraphCopy(Of ConsentInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ConsentInfo>
+    nameWithType: ObjectExtensions.GraphCopy<ConsentInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.ConsentInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ConsentInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of ConsentInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.ConsentInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ConsentInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConsentInfo, To>()
+  nameWithType: Converters.MapEnums<ConsentInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ConsentInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConsentInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ConsentInfo, To)()
+  name.vb: MapEnums(Of ConsentInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConsentInfo, To>
+    nameWithType: Converters.MapEnums<ConsentInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ConsentInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConsentInfo, To)
+    nameWithType: Converters.MapEnums(Of ConsentInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ConsentInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.ConsentInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.#ctor
+  isExternal: true
+  name: ConsentInfo
+  nameWithType: ConsentInfo.ConsentInfo
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentInfo
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentPersonId*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.ConsentPersonId
+  isExternal: true
+  name: ConsentPersonId
+  nameWithType: ConsentInfo.ConsentPersonId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentPersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ValidFrom*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.ValidFrom
+  isExternal: true
+  name: ValidFrom
+  nameWithType: ConsentInfo.ValidFrom
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ValidFrom
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Entities.ConsentInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: ConsentInfo.Registered
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.Registered
+- uid: SuperOffice.CRM.Entities.ConsentInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: ConsentInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Entities.ConsentInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: ConsentInfo.Updated
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.Updated
+- uid: SuperOffice.CRM.Entities.ConsentInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: ConsentInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseId*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.LegalBaseId
+  isExternal: true
+  name: LegalBaseId
+  nameWithType: ConsentInfo.LegalBaseId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseId
+- uid: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseKey*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.LegalBaseKey
+  isExternal: true
+  name: LegalBaseKey
+  nameWithType: ConsentInfo.LegalBaseKey
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseName*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.LegalBaseName
+  isExternal: true
+  name: LegalBaseName
+  nameWithType: ConsentInfo.LegalBaseName
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.LegalBaseName
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeId*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeId
+  isExternal: true
+  name: ConsentPurposeId
+  nameWithType: ConsentInfo.ConsentPurposeId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeId
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeKey*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeKey
+  isExternal: true
+  name: ConsentPurposeKey
+  nameWithType: ConsentInfo.ConsentPurposeKey
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeKey
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeName*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeName
+  isExternal: true
+  name: ConsentPurposeName
+  nameWithType: ConsentInfo.ConsentPurposeName
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentPurposeName
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceId*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceId
+  isExternal: true
+  name: ConsentSourceId
+  nameWithType: ConsentInfo.ConsentSourceId
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceId
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceKey*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceKey
+  isExternal: true
+  name: ConsentSourceKey
+  nameWithType: ConsentInfo.ConsentSourceKey
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceKey
+- uid: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceName*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceName
+  isExternal: true
+  name: ConsentSourceName
+  nameWithType: ConsentInfo.ConsentSourceName
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.ConsentSourceName
+- uid: SuperOffice.CRM.Entities.ConsentInfo.Comment*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentInfo.Comment
+  isExternal: true
+  name: Comment
+  nameWithType: ConsentInfo.Comment
+  fullName: SuperOffice.CRM.Entities.ConsentInfo.Comment

@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest
+  commentId: T:SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest
+  id: License_ChangeSerialNumberRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.#ctor
+  - SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewCompanyName
+  - SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewSerialNumber
+  langs:
+  - csharp
+  - vb
+  name: License_ChangeSerialNumberRequest
+  nameWithType: License_ChangeSerialNumberRequest
+  fullName: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class License_ChangeSerialNumberRequest : Object'
+    content.vb: >-
+      Public Class License_ChangeSerialNumberRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest
+  langs:
+  - csharp
+  - vb
+  name: License_ChangeSerialNumberRequest()
+  nameWithType: License_ChangeSerialNumberRequest.License_ChangeSerialNumberRequest()
+  fullName: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.License_ChangeSerialNumberRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public License_ChangeSerialNumberRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewCompanyName
+  commentId: P:SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewCompanyName
+  id: NewCompanyName
+  parent: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest
+  langs:
+  - csharp
+  - vb
+  name: NewCompanyName
+  nameWithType: License_ChangeSerialNumberRequest.NewCompanyName
+  fullName: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewCompanyName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string NewCompanyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NewCompanyName As String
+  overload: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewCompanyName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewSerialNumber
+  commentId: P:SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewSerialNumber
+  id: NewSerialNumber
+  parent: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest
+  langs:
+  - csharp
+  - vb
+  name: NewSerialNumber
+  nameWithType: License_ChangeSerialNumberRequest.NewSerialNumber
+  fullName: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewSerialNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string NewSerialNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NewSerialNumber As String
+  overload: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewSerialNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.#ctor
+  isExternal: true
+  name: License_ChangeSerialNumberRequest
+  nameWithType: License_ChangeSerialNumberRequest.License_ChangeSerialNumberRequest
+  fullName: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.License_ChangeSerialNumberRequest
+- uid: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewCompanyName*
+  commentId: Overload:SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewCompanyName
+  isExternal: true
+  name: NewCompanyName
+  nameWithType: License_ChangeSerialNumberRequest.NewCompanyName
+  fullName: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewCompanyName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewSerialNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewSerialNumber
+  isExternal: true
+  name: NewSerialNumber
+  nameWithType: License_ChangeSerialNumberRequest.NewSerialNumber
+  fullName: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest.NewSerialNumber

@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_GetPluginListRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_GetPluginListRequest
+  id: Document_GetPluginListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_GetPluginListRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Document_GetPluginListRequest
+  nameWithType: Document_GetPluginListRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetPluginListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_GetPluginListRequest : Object'
+    content.vb: >-
+      Public Class Document_GetPluginListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_GetPluginListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_GetPluginListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_GetPluginListRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_GetPluginListRequest()
+  nameWithType: Document_GetPluginListRequest.Document_GetPluginListRequest()
+  fullName: SuperOffice.WebApi.Data.Document_GetPluginListRequest.Document_GetPluginListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_GetPluginListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_GetPluginListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_GetPluginListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPluginListRequest.#ctor
+  isExternal: true
+  name: Document_GetPluginListRequest
+  nameWithType: Document_GetPluginListRequest.Document_GetPluginListRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetPluginListRequest.Document_GetPluginListRequest

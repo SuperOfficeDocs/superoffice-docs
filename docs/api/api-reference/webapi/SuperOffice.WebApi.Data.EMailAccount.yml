@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMailAccount
+  commentId: T:SuperOffice.WebApi.Data.EMailAccount
+  id: EMailAccount
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMailAccount.#ctor
+  - SuperOffice.WebApi.Data.EMailAccount.AccountStatus
+  - SuperOffice.WebApi.Data.EMailAccount.AssociateId
+  - SuperOffice.WebApi.Data.EMailAccount.EMailAccountId
+  - SuperOffice.WebApi.Data.EMailAccount.EMailAddress
+  - SuperOffice.WebApi.Data.EMailAccount.ErrorCount
+  - SuperOffice.WebApi.Data.EMailAccount.ErrorReason
+  - SuperOffice.WebApi.Data.EMailAccount.IncomingCredentials
+  - SuperOffice.WebApi.Data.EMailAccount.OutgoingCredentials
+  langs:
+  - csharp
+  - vb
+  name: EMailAccount
+  nameWithType: EMailAccount
+  fullName: SuperOffice.WebApi.Data.EMailAccount
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for EMailAccount.\nProperties for an email account    \n"
+  example:
+  - "\nGet EMailAccount 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new EMailAgent(configuration);\nvar eMailAccount = agent.GetEMailAccount( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class EMailAccount : Carrier'
+    content.vb: >-
+      Public Class EMailAccount
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.EMailAgent
+    commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMailAccount.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMailAccount.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: EMailAccount()
+  nameWithType: EMailAccount.EMailAccount()
+  fullName: SuperOffice.WebApi.Data.EMailAccount.EMailAccount()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public EMailAccount()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMailAccount.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailAccount.EMailAccountId
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.EMailAccountId
+  id: EMailAccountId
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: EMailAccountId
+  nameWithType: EMailAccount.EMailAccountId
+  fullName: SuperOffice.WebApi.Data.EMailAccount.EMailAccountId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe account primary key\n"
+  syntax:
+    content: public virtual int EMailAccountId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EMailAccountId As Integer
+  overload: SuperOffice.WebApi.Data.EMailAccount.EMailAccountId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAccount.EMailAddress
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.EMailAddress
+  id: EMailAddress
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: EMailAddress
+  nameWithType: EMailAccount.EMailAddress
+  fullName: SuperOffice.WebApi.Data.EMailAccount.EMailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe account (from) address\n"
+  syntax:
+    content: public virtual string EMailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EMailAddress As String
+  overload: SuperOffice.WebApi.Data.EMailAccount.EMailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAccount.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: EMailAccount.AssociateId
+  fullName: SuperOffice.WebApi.Data.EMailAccount.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the associate who owns this account\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.EMailAccount.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAccount.IncomingCredentials
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.IncomingCredentials
+  id: IncomingCredentials
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: IncomingCredentials
+  nameWithType: EMailAccount.IncomingCredentials
+  fullName: SuperOffice.WebApi.Data.EMailAccount.IncomingCredentials
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAccount credentials for imap\n"
+  syntax:
+    content: public virtual ServiceAuth IncomingCredentials { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ServiceAuth
+    content.vb: Public Overridable Property IncomingCredentials As ServiceAuth
+  overload: SuperOffice.WebApi.Data.EMailAccount.IncomingCredentials*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAccount.OutgoingCredentials
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.OutgoingCredentials
+  id: OutgoingCredentials
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: OutgoingCredentials
+  nameWithType: EMailAccount.OutgoingCredentials
+  fullName: SuperOffice.WebApi.Data.EMailAccount.OutgoingCredentials
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAccount credentials for smtp\n"
+  syntax:
+    content: public virtual ServiceAuth OutgoingCredentials { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ServiceAuth
+    content.vb: Public Overridable Property OutgoingCredentials As ServiceAuth
+  overload: SuperOffice.WebApi.Data.EMailAccount.OutgoingCredentials*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAccount.AccountStatus
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.AccountStatus
+  id: AccountStatus
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: AccountStatus
+  nameWithType: EMailAccount.AccountStatus
+  fullName: SuperOffice.WebApi.Data.EMailAccount.AccountStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe account status (Disabled or...) Readonly field\n"
+  syntax:
+    content: public virtual short AccountStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property AccountStatus As Short
+  overload: SuperOffice.WebApi.Data.EMailAccount.AccountStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAccount.ErrorCount
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.ErrorCount
+  id: ErrorCount
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: ErrorCount
+  nameWithType: EMailAccount.ErrorCount
+  fullName: SuperOffice.WebApi.Data.EMailAccount.ErrorCount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCount of concurring errors of fetching email. Readonly field\n"
+  syntax:
+    content: public virtual int ErrorCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErrorCount As Integer
+  overload: SuperOffice.WebApi.Data.EMailAccount.ErrorCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAccount.ErrorReason
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.ErrorReason
+  id: ErrorReason
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: ErrorReason
+  nameWithType: EMailAccount.ErrorReason
+  fullName: SuperOffice.WebApi.Data.EMailAccount.ErrorReason
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReason/Error message. Readonly field\n"
+  syntax:
+    content: public virtual string ErrorReason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorReason As String
+  overload: SuperOffice.WebApi.Data.EMailAccount.ErrorReason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.EMailAgent
+  commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.WebApi.Agents.EMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMailAccount.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.#ctor
+  isExternal: true
+  name: EMailAccount
+  nameWithType: EMailAccount.EMailAccount
+  fullName: SuperOffice.WebApi.Data.EMailAccount.EMailAccount
+- uid: SuperOffice.WebApi.Data.EMailAccount.EMailAccountId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.EMailAccountId
+  isExternal: true
+  name: EMailAccountId
+  nameWithType: EMailAccount.EMailAccountId
+  fullName: SuperOffice.WebApi.Data.EMailAccount.EMailAccountId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMailAccount.EMailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.EMailAddress
+  isExternal: true
+  name: EMailAddress
+  nameWithType: EMailAccount.EMailAddress
+  fullName: SuperOffice.WebApi.Data.EMailAccount.EMailAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMailAccount.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: EMailAccount.AssociateId
+  fullName: SuperOffice.WebApi.Data.EMailAccount.AssociateId
+- uid: SuperOffice.WebApi.Data.EMailAccount.IncomingCredentials*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.IncomingCredentials
+  isExternal: true
+  name: IncomingCredentials
+  nameWithType: EMailAccount.IncomingCredentials
+  fullName: SuperOffice.WebApi.Data.EMailAccount.IncomingCredentials
+- uid: SuperOffice.WebApi.Data.ServiceAuth
+  commentId: T:SuperOffice.WebApi.Data.ServiceAuth
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ServiceAuth
+  nameWithType: ServiceAuth
+  fullName: SuperOffice.WebApi.Data.ServiceAuth
+- uid: SuperOffice.WebApi.Data.EMailAccount.OutgoingCredentials*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.OutgoingCredentials
+  isExternal: true
+  name: OutgoingCredentials
+  nameWithType: EMailAccount.OutgoingCredentials
+  fullName: SuperOffice.WebApi.Data.EMailAccount.OutgoingCredentials
+- uid: SuperOffice.WebApi.Data.EMailAccount.AccountStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.AccountStatus
+  isExternal: true
+  name: AccountStatus
+  nameWithType: EMailAccount.AccountStatus
+  fullName: SuperOffice.WebApi.Data.EMailAccount.AccountStatus
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.EMailAccount.ErrorCount*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.ErrorCount
+  isExternal: true
+  name: ErrorCount
+  nameWithType: EMailAccount.ErrorCount
+  fullName: SuperOffice.WebApi.Data.EMailAccount.ErrorCount
+- uid: SuperOffice.WebApi.Data.EMailAccount.ErrorReason*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.ErrorReason
+  isExternal: true
+  name: ErrorReason
+  nameWithType: EMailAccount.ErrorReason
+  fullName: SuperOffice.WebApi.Data.EMailAccount.ErrorReason

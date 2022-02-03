@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging.Messages.SoMessageType
+  commentId: T:SuperOffice.Messaging.Messages.SoMessageType
+  id: SoMessageType
+  parent: SuperOffice.Messaging.Messages
+  children:
+  - SuperOffice.Messaging.Messages.SoMessageType.Acknowledge
+  - SuperOffice.Messaging.Messages.SoMessageType.Alive
+  - SuperOffice.Messaging.Messages.SoMessageType.Partner
+  - SuperOffice.Messaging.Messages.SoMessageType.Test
+  - SuperOffice.Messaging.Messages.SoMessageType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: SoMessageType
+  nameWithType: SoMessageType
+  fullName: SuperOffice.Messaging.Messages.SoMessageType
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nType of message.\n"
+  syntax:
+    content: 'public enum SoMessageType : uint'
+    content.vb: Public Enum SoMessageType As UInteger
+  extensionMethods:
+  - SuperOffice.Messaging.Messages.SoMessageType.EnumUtil.MapEnums``2
+  - SuperOffice.Messaging.Messages.SoMessageType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Messaging.Messages.SoMessageType)
+  - SuperOffice.Messaging.Messages.SoMessageType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Messaging.Messages.SoMessageType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Messaging.Messages.SoMessageType.Unknown
+  commentId: F:SuperOffice.Messaging.Messages.SoMessageType.Unknown
+  id: Unknown
+  parent: SuperOffice.Messaging.Messages.SoMessageType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: SoMessageType.Unknown
+  fullName: SuperOffice.Messaging.Messages.SoMessageType.Unknown
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nUnknown and unused message type.\n"
+  syntax:
+    content: Unknown = 0U
+    return:
+      type: SuperOffice.Messaging.Messages.SoMessageType
+    content.vb: Unknown = 0UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Messaging.Messages.SoMessageType.Test
+  commentId: F:SuperOffice.Messaging.Messages.SoMessageType.Test
+  id: Test
+  parent: SuperOffice.Messaging.Messages.SoMessageType
+  langs:
+  - csharp
+  - vb
+  name: Test
+  nameWithType: SoMessageType.Test
+  fullName: SuperOffice.Messaging.Messages.SoMessageType.Test
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nTest message containing a 1024 character ANSI string \nfollowing <see cref=\"!:SoBroadcastHeader\"></see>.\n"
+  syntax:
+    content: Test = 1U
+    return:
+      type: SuperOffice.Messaging.Messages.SoMessageType
+    content.vb: Test = 1UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Messaging.Messages.SoMessageType.Alive
+  commentId: F:SuperOffice.Messaging.Messages.SoMessageType.Alive
+  id: Alive
+  parent: SuperOffice.Messaging.Messages.SoMessageType
+  langs:
+  - csharp
+  - vb
+  name: Alive
+  nameWithType: SoMessageType.Alive
+  fullName: SuperOffice.Messaging.Messages.SoMessageType.Alive
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nAlive messages sent from the NetServer processes to the \nother members on the message bus.\n"
+  syntax:
+    content: Alive = 2U
+    return:
+      type: SuperOffice.Messaging.Messages.SoMessageType
+    content.vb: Alive = 2UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Messaging.Messages.SoMessageType.Acknowledge
+  commentId: F:SuperOffice.Messaging.Messages.SoMessageType.Acknowledge
+  id: Acknowledge
+  parent: SuperOffice.Messaging.Messages.SoMessageType
+  langs:
+  - csharp
+  - vb
+  name: Acknowledge
+  nameWithType: SoMessageType.Acknowledge
+  fullName: SuperOffice.Messaging.Messages.SoMessageType.Acknowledge
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nAcknowledge message sent from the other clients to the \nNetServer process indicating that the Alive message was \nreceived.\n"
+  syntax:
+    content: Acknowledge = 3U
+    return:
+      type: SuperOffice.Messaging.Messages.SoMessageType
+    content.vb: Acknowledge = 3UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Messaging.Messages.SoMessageType.Partner
+  commentId: F:SuperOffice.Messaging.Messages.SoMessageType.Partner
+  id: Partner
+  parent: SuperOffice.Messaging.Messages.SoMessageType
+  langs:
+  - csharp
+  - vb
+  name: Partner
+  nameWithType: SoMessageType.Partner
+  fullName: SuperOffice.Messaging.Messages.SoMessageType.Partner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nMessages with higher number than 0x10000000 are reserved \nfor partners.\n"
+  syntax:
+    content: Partner = 268435456U
+    return:
+      type: SuperOffice.Messaging.Messages.SoMessageType
+    content.vb: Partner = 268435456UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Messaging.Messages
+  commentId: N:SuperOffice.Messaging.Messages
+  isExternal: true
+  name: SuperOffice.Messaging.Messages
+  nameWithType: SuperOffice.Messaging.Messages
+  fullName: SuperOffice.Messaging.Messages
+- uid: SuperOffice.Messaging.Messages.SoMessageType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoMessageType, To>()
+  nameWithType: EnumUtil.MapEnums<SoMessageType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Messaging.Messages.SoMessageType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoMessageType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Messaging.Messages.SoMessageType, To)()
+  name.vb: MapEnums(Of SoMessageType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoMessageType, To>
+    nameWithType: EnumUtil.MapEnums<SoMessageType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Messaging.Messages.SoMessageType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoMessageType, To)
+    nameWithType: EnumUtil.MapEnums(Of SoMessageType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Messaging.Messages.SoMessageType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoMessageType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Messaging.Messages.SoMessageType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoMessageType>(SoMessageType)
+  nameWithType: ObjectExtensions.AssignByReflection<SoMessageType>(SoMessageType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Messaging.Messages.SoMessageType>(SuperOffice.Messaging.Messages.SoMessageType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoMessageType)(SoMessageType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Messaging.Messages.SoMessageType)(SuperOffice.Messaging.Messages.SoMessageType)
+  name.vb: AssignByReflection(Of SoMessageType)(SoMessageType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoMessageType>
+    nameWithType: ObjectExtensions.AssignByReflection<SoMessageType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Messaging.Messages.SoMessageType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Messaging.Messages.SoMessageType
+    name: SoMessageType
+    nameWithType: SoMessageType
+    fullName: SuperOffice.Messaging.Messages.SoMessageType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoMessageType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoMessageType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Messaging.Messages.SoMessageType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Messaging.Messages.SoMessageType
+    name: SoMessageType
+    nameWithType: SoMessageType
+    fullName: SuperOffice.Messaging.Messages.SoMessageType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoMessageType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoMessageType>()
+  nameWithType: ObjectExtensions.GraphCopy<SoMessageType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Messaging.Messages.SoMessageType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoMessageType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Messaging.Messages.SoMessageType)()
+  name.vb: GraphCopy(Of SoMessageType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoMessageType>
+    nameWithType: ObjectExtensions.GraphCopy<SoMessageType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Messaging.Messages.SoMessageType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoMessageType)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoMessageType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Messaging.Messages.SoMessageType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoMessageType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoMessageType, To>()
+  nameWithType: Converters.MapEnums<SoMessageType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.Messages.SoMessageType, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoMessageType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.Messages.SoMessageType, To)()
+  name.vb: MapEnums(Of SoMessageType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoMessageType, To>
+    nameWithType: Converters.MapEnums<SoMessageType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.Messages.SoMessageType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoMessageType, To)
+    nameWithType: Converters.MapEnums(Of SoMessageType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.Messages.SoMessageType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Messaging.Messages.SoMessageType
+  commentId: T:SuperOffice.Messaging.Messages.SoMessageType
+  parent: SuperOffice.Messaging.Messages
+  isExternal: true
+  name: SoMessageType
+  nameWithType: SoMessageType
+  fullName: SuperOffice.Messaging.Messages.SoMessageType

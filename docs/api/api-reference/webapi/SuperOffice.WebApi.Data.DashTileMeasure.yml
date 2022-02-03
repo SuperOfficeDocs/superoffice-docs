@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DashTileMeasure
+  commentId: T:SuperOffice.WebApi.Data.DashTileMeasure
+  id: DashTileMeasure
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DashTileMeasure.Average
+  - SuperOffice.WebApi.Data.DashTileMeasure.Count
+  - SuperOffice.WebApi.Data.DashTileMeasure.CountAll
+  - SuperOffice.WebApi.Data.DashTileMeasure.Max
+  - SuperOffice.WebApi.Data.DashTileMeasure.Min
+  - SuperOffice.WebApi.Data.DashTileMeasure.None
+  - SuperOffice.WebApi.Data.DashTileMeasure.Sum
+  - SuperOffice.WebApi.Data.DashTileMeasure.value__
+  langs:
+  - csharp
+  - vb
+  name: DashTileMeasure
+  nameWithType: DashTileMeasure
+  fullName: SuperOffice.WebApi.Data.DashTileMeasure
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDashboard tile measure\nThis Enum is used by:  dashboard_tile_definition.measure\n"
+  syntax:
+    content: 'public sealed class DashTileMeasure : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashTileMeasure
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DashTileMeasure.value__
+  commentId: F:SuperOffice.WebApi.Data.DashTileMeasure.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DashTileMeasure
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashTileMeasure.value__
+  fullName: SuperOffice.WebApi.Data.DashTileMeasure.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashTileMeasure.None
+  commentId: F:SuperOffice.WebApi.Data.DashTileMeasure.None
+  id: None
+  parent: SuperOffice.WebApi.Data.DashTileMeasure
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DashTileMeasure.None
+  fullName: SuperOffice.WebApi.Data.DashTileMeasure.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const DashTileMeasure None
+    return:
+      type: SuperOffice.WebApi.Data.DashTileMeasure
+    content.vb: Public Const None As DashTileMeasure
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileMeasure.CountAll
+  commentId: F:SuperOffice.WebApi.Data.DashTileMeasure.CountAll
+  id: CountAll
+  parent: SuperOffice.WebApi.Data.DashTileMeasure
+  langs:
+  - csharp
+  - vb
+  name: CountAll
+  nameWithType: DashTileMeasure.CountAll
+  fullName: SuperOffice.WebApi.Data.DashTileMeasure.CountAll
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: CountAll\n"
+  syntax:
+    content: public const DashTileMeasure CountAll
+    return:
+      type: SuperOffice.WebApi.Data.DashTileMeasure
+    content.vb: Public Const CountAll As DashTileMeasure
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileMeasure.Sum
+  commentId: F:SuperOffice.WebApi.Data.DashTileMeasure.Sum
+  id: Sum
+  parent: SuperOffice.WebApi.Data.DashTileMeasure
+  langs:
+  - csharp
+  - vb
+  name: Sum
+  nameWithType: DashTileMeasure.Sum
+  fullName: SuperOffice.WebApi.Data.DashTileMeasure.Sum
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Sum\n"
+  syntax:
+    content: public const DashTileMeasure Sum
+    return:
+      type: SuperOffice.WebApi.Data.DashTileMeasure
+    content.vb: Public Const Sum As DashTileMeasure
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileMeasure.Average
+  commentId: F:SuperOffice.WebApi.Data.DashTileMeasure.Average
+  id: Average
+  parent: SuperOffice.WebApi.Data.DashTileMeasure
+  langs:
+  - csharp
+  - vb
+  name: Average
+  nameWithType: DashTileMeasure.Average
+  fullName: SuperOffice.WebApi.Data.DashTileMeasure.Average
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Average\n"
+  syntax:
+    content: public const DashTileMeasure Average
+    return:
+      type: SuperOffice.WebApi.Data.DashTileMeasure
+    content.vb: Public Const Average As DashTileMeasure
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileMeasure.Max
+  commentId: F:SuperOffice.WebApi.Data.DashTileMeasure.Max
+  id: Max
+  parent: SuperOffice.WebApi.Data.DashTileMeasure
+  langs:
+  - csharp
+  - vb
+  name: Max
+  nameWithType: DashTileMeasure.Max
+  fullName: SuperOffice.WebApi.Data.DashTileMeasure.Max
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Max\n"
+  syntax:
+    content: public const DashTileMeasure Max
+    return:
+      type: SuperOffice.WebApi.Data.DashTileMeasure
+    content.vb: Public Const Max As DashTileMeasure
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileMeasure.Min
+  commentId: F:SuperOffice.WebApi.Data.DashTileMeasure.Min
+  id: Min
+  parent: SuperOffice.WebApi.Data.DashTileMeasure
+  langs:
+  - csharp
+  - vb
+  name: Min
+  nameWithType: DashTileMeasure.Min
+  fullName: SuperOffice.WebApi.Data.DashTileMeasure.Min
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Min\n"
+  syntax:
+    content: public const DashTileMeasure Min
+    return:
+      type: SuperOffice.WebApi.Data.DashTileMeasure
+    content.vb: Public Const Min As DashTileMeasure
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileMeasure.Count
+  commentId: F:SuperOffice.WebApi.Data.DashTileMeasure.Count
+  id: Count
+  parent: SuperOffice.WebApi.Data.DashTileMeasure
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: DashTileMeasure.Count
+  fullName: SuperOffice.WebApi.Data.DashTileMeasure.Count
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Count\n"
+  syntax:
+    content: public const DashTileMeasure Count
+    return:
+      type: SuperOffice.WebApi.Data.DashTileMeasure
+    content.vb: Public Const Count As DashTileMeasure
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DashTileMeasure
+  commentId: T:SuperOffice.WebApi.Data.DashTileMeasure
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DashTileMeasure
+  nameWithType: DashTileMeasure
+  fullName: SuperOffice.WebApi.Data.DashTileMeasure

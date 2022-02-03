@@ -1,0 +1,326 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest
+  id: Document_GetPersonDocumentsByTemplateTypeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.Count
+  - SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.DocumentTemplateId
+  - SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.EndTime
+  - SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.IncludeProjectDocuments
+  - SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.PersonId
+  - SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.StartTime
+  langs:
+  - csharp
+  - vb
+  name: Document_GetPersonDocumentsByTemplateTypeRequest
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_GetPersonDocumentsByTemplateTypeRequest : Object'
+    content.vb: >-
+      Public Class Document_GetPersonDocumentsByTemplateTypeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_GetPersonDocumentsByTemplateTypeRequest()
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.Document_GetPersonDocumentsByTemplateTypeRequest()
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.Document_GetPersonDocumentsByTemplateTypeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_GetPersonDocumentsByTemplateTypeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.IncludeProjectDocuments
+  commentId: P:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.IncludeProjectDocuments
+  id: IncludeProjectDocuments
+  parent: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeProjectDocuments
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.IncludeProjectDocuments
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.IncludeProjectDocuments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeProjectDocuments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeProjectDocuments As Boolean
+  overload: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.IncludeProjectDocuments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.StartTime
+  commentId: P:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.StartTime
+  id: StartTime
+  parent: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.StartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime StartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartTime As DateTime
+  overload: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.StartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.EndTime
+  commentId: P:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.EndTime
+  id: EndTime
+  parent: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: EndTime
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.EndTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime EndTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndTime As DateTime
+  overload: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.EndTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.Count
+  commentId: P:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.Count
+  id: Count
+  parent: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.Count
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.Count
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.DocumentTemplateId
+  commentId: P:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.DocumentTemplateId
+  id: DocumentTemplateId
+  parent: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateId
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.DocumentTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.DocumentTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.#ctor
+  isExternal: true
+  name: Document_GetPersonDocumentsByTemplateTypeRequest
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.Document_GetPersonDocumentsByTemplateTypeRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.Document_GetPersonDocumentsByTemplateTypeRequest
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.IncludeProjectDocuments*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.IncludeProjectDocuments
+  isExternal: true
+  name: IncludeProjectDocuments
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.IncludeProjectDocuments
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.IncludeProjectDocuments
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.StartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.StartTime
+  isExternal: true
+  name: StartTime
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.StartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.EndTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.EndTime
+  isExternal: true
+  name: EndTime
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.EndTime
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.Count*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.Count
+  isExternal: true
+  name: Count
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.Count
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.Count
+- uid: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.DocumentTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.DocumentTemplateId
+  isExternal: true
+  name: DocumentTemplateId
+  nameWithType: Document_GetPersonDocumentsByTemplateTypeRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.Document_GetPersonDocumentsByTemplateTypeRequest.DocumentTemplateId

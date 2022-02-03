@@ -1,0 +1,683 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PocketStartupData
+  commentId: T:SuperOffice.WebApi.Data.PocketStartupData
+  id: PocketStartupData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PocketStartupData.#ctor
+  - SuperOffice.WebApi.Data.PocketStartupData.BaseLocaleTimeZoneData
+  - SuperOffice.WebApi.Data.PocketStartupData.CustomData
+  - SuperOffice.WebApi.Data.PocketStartupData.IsPushNotificationEnabled
+  - SuperOffice.WebApi.Data.PocketStartupData.NotificationsCount
+  - SuperOffice.WebApi.Data.PocketStartupData.OverdueSalesCount
+  - SuperOffice.WebApi.Data.PocketStartupData.PhoneLocaleTimeZoneData
+  - SuperOffice.WebApi.Data.PocketStartupData.PocketPreferences
+  - SuperOffice.WebApi.Data.PocketStartupData.SystemWebPanels
+  - SuperOffice.WebApi.Data.PocketStartupData.TableRights
+  - SuperOffice.WebApi.Data.PocketStartupData.TableRights_String
+  langs:
+  - csharp
+  - vb
+  name: PocketStartupData
+  nameWithType: PocketStartupData
+  fullName: SuperOffice.WebApi.Data.PocketStartupData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PocketStartupData.\nThe Pocket Service. The service implements pocket specific stuff, like consolidated post-login stuff.    \n"
+  syntax:
+    content: 'public class PocketStartupData : Carrier'
+    content.vb: >-
+      Public Class PocketStartupData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PocketAgent
+    commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PocketStartupData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PocketStartupData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PocketStartupData
+  langs:
+  - csharp
+  - vb
+  name: PocketStartupData()
+  nameWithType: PocketStartupData.PocketStartupData()
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.PocketStartupData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PocketStartupData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PocketStartupData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PocketStartupData.TableRights_String
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.TableRights_String
+  id: TableRights_String
+  parent: SuperOffice.WebApi.Data.PocketStartupData
+  langs:
+  - csharp
+  - vb
+  name: TableRights_String
+  nameWithType: PocketStartupData.TableRights_String
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.TableRights_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nList of tablerights for logged in user, in the same order as the Tables array parameter\nRaw string enum values.\n"
+  syntax:
+    content: public string[] TableRights_String { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property TableRights_String As String()
+  overload: SuperOffice.WebApi.Data.PocketStartupData.TableRights_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PocketStartupData.TableRights
+    commentId: P:SuperOffice.WebApi.Data.PocketStartupData.TableRights
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PocketStartupData.TableRights
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.TableRights
+  id: TableRights
+  parent: SuperOffice.WebApi.Data.PocketStartupData
+  langs:
+  - csharp
+  - vb
+  name: TableRights
+  nameWithType: PocketStartupData.TableRights
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.TableRights
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nList of tablerights for logged in user, in the same order as the Tables array parameter\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ETableRight>[] TableRights { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ETableRight}[]
+    content.vb: Public Property TableRights As Nullable(Of ETableRight)()
+  overload: SuperOffice.WebApi.Data.PocketStartupData.TableRights*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PocketStartupData.TableRights_String
+    commentId: P:SuperOffice.WebApi.Data.PocketStartupData.TableRights_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PocketStartupData.PhoneLocaleTimeZoneData
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.PhoneLocaleTimeZoneData
+  id: PhoneLocaleTimeZoneData
+  parent: SuperOffice.WebApi.Data.PocketStartupData
+  langs:
+  - csharp
+  - vb
+  name: PhoneLocaleTimeZoneData
+  nameWithType: PocketStartupData.PhoneLocaleTimeZoneData
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.PhoneLocaleTimeZoneData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual TimeZoneData PhoneLocaleTimeZoneData { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TimeZoneData
+    content.vb: Public Overridable Property PhoneLocaleTimeZoneData As TimeZoneData
+  overload: SuperOffice.WebApi.Data.PocketStartupData.PhoneLocaleTimeZoneData*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketStartupData.BaseLocaleTimeZoneData
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.BaseLocaleTimeZoneData
+  id: BaseLocaleTimeZoneData
+  parent: SuperOffice.WebApi.Data.PocketStartupData
+  langs:
+  - csharp
+  - vb
+  name: BaseLocaleTimeZoneData
+  nameWithType: PocketStartupData.BaseLocaleTimeZoneData
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.BaseLocaleTimeZoneData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual TimeZoneData BaseLocaleTimeZoneData { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TimeZoneData
+    content.vb: Public Overridable Property BaseLocaleTimeZoneData As TimeZoneData
+  overload: SuperOffice.WebApi.Data.PocketStartupData.BaseLocaleTimeZoneData*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketStartupData.OverdueSalesCount
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.OverdueSalesCount
+  id: OverdueSalesCount
+  parent: SuperOffice.WebApi.Data.PocketStartupData
+  langs:
+  - csharp
+  - vb
+  name: OverdueSalesCount
+  nameWithType: PocketStartupData.OverdueSalesCount
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.OverdueSalesCount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of overdued sales for current user\n"
+  syntax:
+    content: public virtual int OverdueSalesCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OverdueSalesCount As Integer
+  overload: SuperOffice.WebApi.Data.PocketStartupData.OverdueSalesCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketStartupData.NotificationsCount
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.NotificationsCount
+  id: NotificationsCount
+  parent: SuperOffice.WebApi.Data.PocketStartupData
+  langs:
+  - csharp
+  - vb
+  name: NotificationsCount
+  nameWithType: PocketStartupData.NotificationsCount
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.NotificationsCount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of new invitations\n"
+  syntax:
+    content: public virtual int NotificationsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NotificationsCount As Integer
+  overload: SuperOffice.WebApi.Data.PocketStartupData.NotificationsCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketStartupData.SystemWebPanels
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.SystemWebPanels
+  id: SystemWebPanels
+  parent: SuperOffice.WebApi.Data.PocketStartupData
+  langs:
+  - csharp
+  - vb
+  name: SystemWebPanels
+  nameWithType: PocketStartupData.SystemWebPanels
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.SystemWebPanels
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWeb panels defined in Admin client, set to be shown in Pocket client\n"
+  syntax:
+    content: public virtual WebPanelEntity[] SystemWebPanels { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.WebPanelEntity[]
+    content.vb: Public Overridable Property SystemWebPanels As WebPanelEntity()
+  overload: SuperOffice.WebApi.Data.PocketStartupData.SystemWebPanels*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketStartupData.PocketPreferences
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.PocketPreferences
+  id: PocketPreferences
+  parent: SuperOffice.WebApi.Data.PocketStartupData
+  langs:
+  - csharp
+  - vb
+  name: PocketPreferences
+  nameWithType: PocketStartupData.PocketPreferences
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.PocketPreferences
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAll Pocket specific preferences, including WebPanels defined by the user in Pocket\n"
+  syntax:
+    content: public virtual Preference[] PocketPreferences { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Preference[]
+    content.vb: Public Overridable Property PocketPreferences As Preference()
+  overload: SuperOffice.WebApi.Data.PocketStartupData.PocketPreferences*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketStartupData.IsPushNotificationEnabled
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.IsPushNotificationEnabled
+  id: IsPushNotificationEnabled
+  parent: SuperOffice.WebApi.Data.PocketStartupData
+  langs:
+  - csharp
+  - vb
+  name: IsPushNotificationEnabled
+  nameWithType: PocketStartupData.IsPushNotificationEnabled
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.IsPushNotificationEnabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs push notification configured and enabled in Netserver\n"
+  syntax:
+    content: public virtual bool IsPushNotificationEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsPushNotificationEnabled As Boolean
+  overload: SuperOffice.WebApi.Data.PocketStartupData.IsPushNotificationEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketStartupData.CustomData
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.CustomData
+  id: CustomData
+  parent: SuperOffice.WebApi.Data.PocketStartupData
+  langs:
+  - csharp
+  - vb
+  name: CustomData
+  nameWithType: PocketStartupData.CustomData
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.CustomData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCustom data for Pocket, in JSON format\n"
+  syntax:
+    content: public virtual string CustomData { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CustomData As String
+  overload: SuperOffice.WebApi.Data.PocketStartupData.CustomData*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.PocketAgent
+  commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  isExternal: true
+  name: PocketAgent
+  nameWithType: PocketAgent
+  fullName: SuperOffice.WebApi.Agents.PocketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PocketStartupData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketStartupData.#ctor
+  isExternal: true
+  name: PocketStartupData
+  nameWithType: PocketStartupData.PocketStartupData
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.PocketStartupData
+- uid: SuperOffice.WebApi.Data.PocketStartupData.TableRights_String*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketStartupData.TableRights_String
+  isExternal: true
+  name: TableRights_String
+  nameWithType: PocketStartupData.TableRights_String
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.TableRights_String
+- uid: SuperOffice.WebApi.Data.PocketStartupData.TableRights
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.TableRights
+  isExternal: true
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PocketStartupData.TableRights*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketStartupData.TableRights
+  isExternal: true
+  name: TableRights
+  nameWithType: PocketStartupData.TableRights
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.TableRights
+- uid: SuperOffice.WebApi.Data.PocketStartupData.TableRights_String
+  commentId: P:SuperOffice.WebApi.Data.PocketStartupData.TableRights_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ETableRight}[]
+  isExternal: true
+  name: Nullable<ETableRight>[]
+  nameWithType: Nullable<ETableRight>[]
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ETableRight>[]
+  nameWithType.vb: Nullable(Of ETableRight)()
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ETableRight)()
+  name.vb: Nullable(Of ETableRight)()
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ETableRight
+    name: ETableRight
+    nameWithType: ETableRight
+    fullName: SuperOffice.WebApi.Data.ETableRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ETableRight
+    name: ETableRight
+    nameWithType: ETableRight
+    fullName: SuperOffice.WebApi.Data.ETableRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PocketStartupData.PhoneLocaleTimeZoneData*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketStartupData.PhoneLocaleTimeZoneData
+  isExternal: true
+  name: PhoneLocaleTimeZoneData
+  nameWithType: PocketStartupData.PhoneLocaleTimeZoneData
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.PhoneLocaleTimeZoneData
+- uid: SuperOffice.WebApi.Data.TimeZoneData
+  commentId: T:SuperOffice.WebApi.Data.TimeZoneData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TimeZoneData
+  nameWithType: TimeZoneData
+  fullName: SuperOffice.WebApi.Data.TimeZoneData
+- uid: SuperOffice.WebApi.Data.PocketStartupData.BaseLocaleTimeZoneData*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketStartupData.BaseLocaleTimeZoneData
+  isExternal: true
+  name: BaseLocaleTimeZoneData
+  nameWithType: PocketStartupData.BaseLocaleTimeZoneData
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.BaseLocaleTimeZoneData
+- uid: SuperOffice.WebApi.Data.PocketStartupData.OverdueSalesCount*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketStartupData.OverdueSalesCount
+  isExternal: true
+  name: OverdueSalesCount
+  nameWithType: PocketStartupData.OverdueSalesCount
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.OverdueSalesCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.PocketStartupData.NotificationsCount*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketStartupData.NotificationsCount
+  isExternal: true
+  name: NotificationsCount
+  nameWithType: PocketStartupData.NotificationsCount
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.NotificationsCount
+- uid: SuperOffice.WebApi.Data.PocketStartupData.SystemWebPanels*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketStartupData.SystemWebPanels
+  isExternal: true
+  name: SystemWebPanels
+  nameWithType: PocketStartupData.SystemWebPanels
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.SystemWebPanels
+- uid: SuperOffice.WebApi.Data.WebPanelEntity[]
+  isExternal: true
+  name: WebPanelEntity[]
+  nameWithType: WebPanelEntity[]
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity[]
+  nameWithType.vb: WebPanelEntity()
+  fullName.vb: SuperOffice.WebApi.Data.WebPanelEntity()
+  name.vb: WebPanelEntity()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.WebPanelEntity
+    name: WebPanelEntity
+    nameWithType: WebPanelEntity
+    fullName: SuperOffice.WebApi.Data.WebPanelEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.WebPanelEntity
+    name: WebPanelEntity
+    nameWithType: WebPanelEntity
+    fullName: SuperOffice.WebApi.Data.WebPanelEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PocketStartupData.PocketPreferences*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketStartupData.PocketPreferences
+  isExternal: true
+  name: PocketPreferences
+  nameWithType: PocketStartupData.PocketPreferences
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.PocketPreferences
+- uid: SuperOffice.WebApi.Data.Preference[]
+  isExternal: true
+  name: Preference[]
+  nameWithType: Preference[]
+  fullName: SuperOffice.WebApi.Data.Preference[]
+  nameWithType.vb: Preference()
+  fullName.vb: SuperOffice.WebApi.Data.Preference()
+  name.vb: Preference()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PocketStartupData.IsPushNotificationEnabled*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketStartupData.IsPushNotificationEnabled
+  isExternal: true
+  name: IsPushNotificationEnabled
+  nameWithType: PocketStartupData.IsPushNotificationEnabled
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.IsPushNotificationEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.PocketStartupData.CustomData*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketStartupData.CustomData
+  isExternal: true
+  name: CustomData
+  nameWithType: PocketStartupData.CustomData
+  fullName: SuperOffice.WebApi.Data.PocketStartupData.CustomData
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,1097 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ExtAppFields
+  id: DBC.ExtAppFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.AppType
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.AvailableInState
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.ConfigInfo
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Deleted
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.ExecuteOnEvent
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.ExtAppId
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Filename
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Icon
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Name
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Navigation
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Parameters
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Path
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Rank
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Registered
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.ShowState
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Tooltip
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Updated
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Url1
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Url2
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.WaitToFinish
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.WindowName
+  - SuperOffice.CRM.Data.DBC.ExtAppFields.Workdir
+  langs:
+  - csharp
+  - vb
+  name: DBC.ExtAppFields
+  nameWithType: DBC.ExtAppFields
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ExtApp, ExtApp list table. Applications startable from SuperOffice\n"
+  syntax:
+    content: public static class ExtAppFields
+    content.vb: Public Module ExtAppFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.ExtAppId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.ExtAppId
+  id: ExtAppId
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: ExtAppId
+  nameWithType: DBC.ExtAppFields.ExtAppId
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.ExtAppId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.ExtAppId: Primary key\n"
+  syntax:
+    content: public const string ExtAppId = "ExtApp_id"
+    return:
+      type: System.String
+    content.vb: Public Const ExtAppId As String = "ExtApp_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ExtAppFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Name: The list item\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.ExtAppFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Rank: Rank order\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Tooltip
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DBC.ExtAppFields.Tooltip
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Tooltip: Tooltip or other description\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.ExtAppFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Path
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Path
+  id: Path
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: DBC.ExtAppFields.Path
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Path
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Path: Path where the programfile is located; if empty, PATH is used\n"
+  syntax:
+    content: public const string Path = "path"
+    return:
+      type: System.String
+    content.vb: Public Const Path As String = "path"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Filename
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Filename
+  id: Filename
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: DBC.ExtAppFields.Filename
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Filename
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Filename: Filename of the programfile\n"
+  syntax:
+    content: public const string Filename = "filename"
+    return:
+      type: System.String
+    content.vb: Public Const Filename As String = "filename"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Parameters
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Parameters
+  id: Parameters
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: DBC.ExtAppFields.Parameters
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Parameters
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Parameters: &lt;template variable> &lt;other template variable>\n"
+  syntax:
+    content: public const string Parameters = "parameters"
+    return:
+      type: System.String
+    content.vb: Public Const Parameters As String = "parameters"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Workdir
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Workdir
+  id: Workdir
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Workdir
+  nameWithType: DBC.ExtAppFields.Workdir
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Workdir
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Workdir: Directory set to current when loading the application, if different from application&apos;s own\n"
+  syntax:
+    content: public const string Workdir = "workdir"
+    return:
+      type: System.String
+    content.vb: Public Const Workdir As String = "workdir"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Icon
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Icon
+  id: Icon
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: DBC.ExtAppFields.Icon
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Icon
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Icon: 0 indicates default Icon (from app exe file), otherwise reference to a predefined icon resource in SO\n"
+  syntax:
+    content: public const string Icon = "icon"
+    return:
+      type: System.String
+    content.vb: Public Const Icon As String = "icon"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.AvailableInState
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.AvailableInState
+  id: AvailableInState
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: AvailableInState
+  nameWithType: DBC.ExtAppFields.AvailableInState
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.AvailableInState
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.AvailableInState: When should this application be available from SO: 0=always, 1=on central db, 2=on travel db,4 on satellite. The value 5 (1+4) indicates that this application is available when logged in to a central or satellite db\n"
+  syntax:
+    content: public const string AvailableInState = "availableInState"
+    return:
+      type: System.String
+    content.vb: Public Const AvailableInState As String = "availableInState"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.ExecuteOnEvent
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.ExecuteOnEvent
+  id: ExecuteOnEvent
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: ExecuteOnEvent
+  nameWithType: DBC.ExtAppFields.ExecuteOnEvent
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.ExecuteOnEvent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.ExecuteOnEvent: Events that cause automatic execution of this app\n"
+  syntax:
+    content: public const string ExecuteOnEvent = "executeOnEvent"
+    return:
+      type: System.String
+    content.vb: Public Const ExecuteOnEvent As String = "executeOnEvent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Navigation
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Navigation
+  id: Navigation
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Navigation
+  nameWithType: DBC.ExtAppFields.Navigation
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Navigation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Navigation: 0=from menu, 1 = from Navigator(integration), 2 = From navigator\n"
+  syntax:
+    content: public const string Navigation = "navigation"
+    return:
+      type: System.String
+    content.vb: Public Const Navigation As String = "navigation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.ShowState
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.ShowState
+  id: ShowState
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: ShowState
+  nameWithType: DBC.ExtAppFields.ShowState
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.ShowState
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.ShowState: Maximized / minimized / restored\n"
+  syntax:
+    content: public const string ShowState = "showState"
+    return:
+      type: System.String
+    content.vb: Public Const ShowState As String = "showState"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.ExtAppFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.ExtAppFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.ExtAppFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.ExtAppFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.ExtAppFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.AppType
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.AppType
+  id: AppType
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: AppType
+  nameWithType: DBC.ExtAppFields.AppType
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.AppType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.AppType: Application type: 1 = exe, 2 = integrated html, 3 = integrated url, 4 = browser url, 5 = external url\n"
+  syntax:
+    content: public const string AppType = "appType"
+    return:
+      type: System.String
+    content.vb: Public Const AppType As String = "appType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.WaitToFinish
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.WaitToFinish
+  id: WaitToFinish
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: WaitToFinish
+  nameWithType: DBC.ExtAppFields.WaitToFinish
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.WaitToFinish
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.WaitToFinish: If 1, we wait synchronously for the pplication to finish before we go on\n"
+  syntax:
+    content: public const string WaitToFinish = "waitToFinish"
+    return:
+      type: System.String
+    content.vb: Public Const WaitToFinish As String = "waitToFinish"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.WindowName
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.WindowName
+  id: WindowName
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: WindowName
+  nameWithType: DBC.ExtAppFields.WindowName
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.WindowName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.WindowName: The window which the URL address is to open in (webpanel only)\n"
+  syntax:
+    content: public const string WindowName = "windowName"
+    return:
+      type: System.String
+    content.vb: Public Const WindowName As String = "windowName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Url1
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Url1
+  id: Url1
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Url1
+  nameWithType: DBC.ExtAppFields.Url1
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Url1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Url1: URL, supports long strings up to 1k\n"
+  syntax:
+    content: public const string Url1 = "url1"
+    return:
+      type: System.String
+    content.vb: Public Const Url1 As String = "url1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.Url2
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.Url2
+  id: Url2
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: Url2
+  nameWithType: DBC.ExtAppFields.Url2
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.Url2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.Url2: Obsolete - do not use this field\n"
+  syntax:
+    content: public const string Url2 = "url2"
+    return:
+      type: System.String
+    content.vb: Public Const Url2 As String = "url2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtAppFields.ConfigInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtAppFields.ConfigInfo
+  id: ConfigInfo
+  parent: SuperOffice.CRM.Data.DBC.ExtAppFields
+  langs:
+  - csharp
+  - vb
+  name: ConfigInfo
+  nameWithType: DBC.ExtAppFields.ConfigInfo
+  fullName: SuperOffice.CRM.Data.DBC.ExtAppFields.ConfigInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtApp.ConfigInfo: Extra configuration information\n"
+  syntax:
+    content: public const string ConfigInfo = "configInfo"
+    return:
+      type: System.String
+    content.vb: Public Const ConfigInfo As String = "configInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FormsRecaptchaMode
+  commentId: T:SuperOffice.WebApi.Data.FormsRecaptchaMode
+  id: FormsRecaptchaMode
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FormsRecaptchaMode.GlobalKeysExist
+  - SuperOffice.WebApi.Data.FormsRecaptchaMode.KeysNeeded
+  - SuperOffice.WebApi.Data.FormsRecaptchaMode.NotAvailable
+  - SuperOffice.WebApi.Data.FormsRecaptchaMode.value__
+  langs:
+  - csharp
+  - vb
+  name: FormsRecaptchaMode
+  nameWithType: FormsRecaptchaMode
+  fullName: SuperOffice.WebApi.Data.FormsRecaptchaMode
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nForms recaptcha mode\n"
+  syntax:
+    content: 'public sealed class FormsRecaptchaMode : Enum'
+    content.vb: >-
+      Public NotInheritable Class FormsRecaptchaMode
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.FormsRecaptchaMode.value__
+  commentId: F:SuperOffice.WebApi.Data.FormsRecaptchaMode.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.FormsRecaptchaMode
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FormsRecaptchaMode.value__
+  fullName: SuperOffice.WebApi.Data.FormsRecaptchaMode.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FormsRecaptchaMode.NotAvailable
+  commentId: F:SuperOffice.WebApi.Data.FormsRecaptchaMode.NotAvailable
+  id: NotAvailable
+  parent: SuperOffice.WebApi.Data.FormsRecaptchaMode
+  langs:
+  - csharp
+  - vb
+  name: NotAvailable
+  nameWithType: FormsRecaptchaMode.NotAvailable
+  fullName: SuperOffice.WebApi.Data.FormsRecaptchaMode.NotAvailable
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Recpatcha is turned off\n"
+  syntax:
+    content: public const FormsRecaptchaMode NotAvailable
+    return:
+      type: SuperOffice.WebApi.Data.FormsRecaptchaMode
+    content.vb: Public Const NotAvailable As FormsRecaptchaMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.FormsRecaptchaMode.GlobalKeysExist
+  commentId: F:SuperOffice.WebApi.Data.FormsRecaptchaMode.GlobalKeysExist
+  id: GlobalKeysExist
+  parent: SuperOffice.WebApi.Data.FormsRecaptchaMode
+  langs:
+  - csharp
+  - vb
+  name: GlobalKeysExist
+  nameWithType: FormsRecaptchaMode.GlobalKeysExist
+  fullName: SuperOffice.WebApi.Data.FormsRecaptchaMode.GlobalKeysExist
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Global recaptcha keys are configured\n"
+  syntax:
+    content: public const FormsRecaptchaMode GlobalKeysExist
+    return:
+      type: SuperOffice.WebApi.Data.FormsRecaptchaMode
+    content.vb: Public Const GlobalKeysExist As FormsRecaptchaMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.FormsRecaptchaMode.KeysNeeded
+  commentId: F:SuperOffice.WebApi.Data.FormsRecaptchaMode.KeysNeeded
+  id: KeysNeeded
+  parent: SuperOffice.WebApi.Data.FormsRecaptchaMode
+  langs:
+  - csharp
+  - vb
+  name: KeysNeeded
+  nameWithType: FormsRecaptchaMode.KeysNeeded
+  fullName: SuperOffice.WebApi.Data.FormsRecaptchaMode.KeysNeeded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Recaptcha keys need to be supplied\n"
+  syntax:
+    content: public const FormsRecaptchaMode KeysNeeded
+    return:
+      type: SuperOffice.WebApi.Data.FormsRecaptchaMode
+    content.vb: Public Const KeysNeeded As FormsRecaptchaMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.FormsRecaptchaMode
+  commentId: T:SuperOffice.WebApi.Data.FormsRecaptchaMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FormsRecaptchaMode
+  nameWithType: FormsRecaptchaMode
+  fullName: SuperOffice.WebApi.Data.FormsRecaptchaMode

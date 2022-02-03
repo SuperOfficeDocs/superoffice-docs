@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest
+  commentId: T:SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest
+  id: FreeText_SetMultiWordOperatorRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.#ctor
+  - SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.FreeTextOperator
+  langs:
+  - csharp
+  - vb
+  name: FreeText_SetMultiWordOperatorRequest
+  nameWithType: FreeText_SetMultiWordOperatorRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class FreeText_SetMultiWordOperatorRequest : Object'
+    content.vb: >-
+      Public Class FreeText_SetMultiWordOperatorRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest
+  langs:
+  - csharp
+  - vb
+  name: FreeText_SetMultiWordOperatorRequest()
+  nameWithType: FreeText_SetMultiWordOperatorRequest.FreeText_SetMultiWordOperatorRequest()
+  fullName: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.FreeText_SetMultiWordOperatorRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public FreeText_SetMultiWordOperatorRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.FreeTextOperator
+  commentId: P:SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.FreeTextOperator
+  id: FreeTextOperator
+  parent: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest
+  langs:
+  - csharp
+  - vb
+  name: FreeTextOperator
+  nameWithType: FreeText_SetMultiWordOperatorRequest.FreeTextOperator
+  fullName: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.FreeTextOperator
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public FreeTextOperator FreeTextOperator { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.FreeTextOperator
+    content.vb: Public Property FreeTextOperator As FreeTextOperator
+  overload: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.FreeTextOperator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.#ctor
+  isExternal: true
+  name: FreeText_SetMultiWordOperatorRequest
+  nameWithType: FreeText_SetMultiWordOperatorRequest.FreeText_SetMultiWordOperatorRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.FreeText_SetMultiWordOperatorRequest
+- uid: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.FreeTextOperator*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.FreeTextOperator
+  isExternal: true
+  name: FreeTextOperator
+  nameWithType: FreeText_SetMultiWordOperatorRequest.FreeTextOperator
+  fullName: SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest.FreeTextOperator
+- uid: SuperOffice.WebApi.Data.FreeTextOperator
+  commentId: T:SuperOffice.WebApi.Data.FreeTextOperator
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FreeTextOperator
+  nameWithType: FreeTextOperator
+  fullName: SuperOffice.WebApi.Data.FreeTextOperator

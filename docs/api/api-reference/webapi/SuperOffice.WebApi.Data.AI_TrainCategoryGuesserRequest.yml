@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest
+  id: AI_TrainCategoryGuesserRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxItems
+  - SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxTextLength
+  - SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.SelectionId
+  langs:
+  - csharp
+  - vb
+  name: AI_TrainCategoryGuesserRequest
+  nameWithType: AI_TrainCategoryGuesserRequest
+  fullName: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_TrainCategoryGuesserRequest : Object'
+    content.vb: >-
+      Public Class AI_TrainCategoryGuesserRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_TrainCategoryGuesserRequest()
+  nameWithType: AI_TrainCategoryGuesserRequest.AI_TrainCategoryGuesserRequest()
+  fullName: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.AI_TrainCategoryGuesserRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_TrainCategoryGuesserRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: AI_TrainCategoryGuesserRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxItems
+  commentId: P:SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxItems
+  id: MaxItems
+  parent: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest
+  langs:
+  - csharp
+  - vb
+  name: MaxItems
+  nameWithType: AI_TrainCategoryGuesserRequest.MaxItems
+  fullName: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxItems
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int MaxItems { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxItems As Integer
+  overload: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxItems*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxTextLength
+  commentId: P:SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxTextLength
+  id: MaxTextLength
+  parent: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest
+  langs:
+  - csharp
+  - vb
+  name: MaxTextLength
+  nameWithType: AI_TrainCategoryGuesserRequest.MaxTextLength
+  fullName: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxTextLength
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int MaxTextLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxTextLength As Integer
+  overload: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxTextLength*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.#ctor
+  isExternal: true
+  name: AI_TrainCategoryGuesserRequest
+  nameWithType: AI_TrainCategoryGuesserRequest.AI_TrainCategoryGuesserRequest
+  fullName: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.AI_TrainCategoryGuesserRequest
+- uid: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: AI_TrainCategoryGuesserRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxItems*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxItems
+  isExternal: true
+  name: MaxItems
+  nameWithType: AI_TrainCategoryGuesserRequest.MaxItems
+  fullName: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxItems
+- uid: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxTextLength*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxTextLength
+  isExternal: true
+  name: MaxTextLength
+  nameWithType: AI_TrainCategoryGuesserRequest.MaxTextLength
+  fullName: SuperOffice.WebApi.Data.AI_TrainCategoryGuesserRequest.MaxTextLength

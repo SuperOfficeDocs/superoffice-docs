@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ISubCriteria
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ISubCriteria
+  id: ISubCriteria
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ISubCriteria.SubRestrictions
+  langs:
+  - csharp
+  - vb
+  name: ISubCriteria
+  nameWithType: ISubCriteria
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISubCriteria
+  type: Interface
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public interface ISubCriteria
+    content.vb: Public Interface ISubCriteria
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Web.UI.Controls.ISubCriteria.SubRestrictions
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ISubCriteria.SubRestrictions
+  id: SubRestrictions
+  parent: SuperOffice.CRM.Web.UI.Controls.ISubCriteria
+  langs:
+  - csharp
+  - vb
+  name: SubRestrictions
+  nameWithType: ISubCriteria.SubRestrictions
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISubCriteria.SubRestrictions
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: ArchiveRestrictionInfo[] SubRestrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    content.vb: Property SubRestrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.CRM.Web.UI.Controls.ISubCriteria.SubRestrictions*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.ISubCriteria.SubRestrictions*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ISubCriteria.SubRestrictions
+  isExternal: true
+  name: SubRestrictions
+  nameWithType: ISubCriteria.SubRestrictions
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISubCriteria.SubRestrictions
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

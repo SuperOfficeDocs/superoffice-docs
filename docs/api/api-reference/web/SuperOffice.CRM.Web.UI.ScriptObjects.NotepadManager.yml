@@ -1,0 +1,821 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+  id: NotepadManager
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.#ctor
+  - SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.Appointment,System.DateTime)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.ContactEntity)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.ProjectEntity)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.SaleEntity)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.SelectionEntity)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.OnNotepadEditorPaperClipMouseDown
+  langs:
+  - csharp
+  - vb
+  name: NotepadManager
+  nameWithType: NotepadManager
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: 'public class NotepadManager : ScriptObjectBase'
+    content.vb: >-
+      Public Class NotepadManager
+          Inherits ScriptObjectBase
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.ContactEntity)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.ContactEntity)
+  id: GetNoteContext(System.String,SuperOffice.CRM.Services.ContactEntity)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+  langs:
+  - csharp
+  - vb
+  name: GetNoteContext(String, ContactEntity)
+  nameWithType: NotepadManager.GetNoteContext(String, ContactEntity)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String, SuperOffice.CRM.Services.ContactEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string GetNoteContext(string paperclipClientId, ContactEntity entity)
+    parameters:
+    - id: paperclipClientId
+      type: System.String
+    - id: entity
+      type: SuperOffice.CRM.Services.ContactEntity
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetNoteContext(paperclipClientId As String, entity As ContactEntity) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.ProjectEntity)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.ProjectEntity)
+  id: GetNoteContext(System.String,SuperOffice.CRM.Services.ProjectEntity)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+  langs:
+  - csharp
+  - vb
+  name: GetNoteContext(String, ProjectEntity)
+  nameWithType: NotepadManager.GetNoteContext(String, ProjectEntity)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String, SuperOffice.CRM.Services.ProjectEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string GetNoteContext(string paperclipClientId, ProjectEntity entity)
+    parameters:
+    - id: paperclipClientId
+      type: System.String
+    - id: entity
+      type: SuperOffice.CRM.Services.ProjectEntity
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetNoteContext(paperclipClientId As String, entity As ProjectEntity) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.SaleEntity)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.SaleEntity)
+  id: GetNoteContext(System.String,SuperOffice.CRM.Services.SaleEntity)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+  langs:
+  - csharp
+  - vb
+  name: GetNoteContext(String, SaleEntity)
+  nameWithType: NotepadManager.GetNoteContext(String, SaleEntity)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String, SuperOffice.CRM.Services.SaleEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string GetNoteContext(string paperclipClientId, SaleEntity entity)
+    parameters:
+    - id: paperclipClientId
+      type: System.String
+    - id: entity
+      type: SuperOffice.CRM.Services.SaleEntity
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetNoteContext(paperclipClientId As String, entity As SaleEntity) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.SelectionEntity)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.SelectionEntity)
+  id: GetNoteContext(System.String,SuperOffice.CRM.Services.SelectionEntity)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+  langs:
+  - csharp
+  - vb
+  name: GetNoteContext(String, SelectionEntity)
+  nameWithType: NotepadManager.GetNoteContext(String, SelectionEntity)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String, SuperOffice.CRM.Services.SelectionEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string GetNoteContext(string paperclipClientId, SelectionEntity entity)
+    parameters:
+    - id: paperclipClientId
+      type: System.String
+    - id: entity
+      type: SuperOffice.CRM.Services.SelectionEntity
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetNoteContext(paperclipClientId As String, entity As SelectionEntity) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.Appointment,System.DateTime)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String,SuperOffice.CRM.Services.Appointment,System.DateTime)
+  id: GetNoteContext(System.String,SuperOffice.CRM.Services.Appointment,System.DateTime)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+  langs:
+  - csharp
+  - vb
+  name: GetNoteContext(String, Appointment, DateTime)
+  nameWithType: NotepadManager.GetNoteContext(String, Appointment, DateTime)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext(System.String, SuperOffice.CRM.Services.Appointment, System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string GetNoteContext(string paperclipClientId, Appointment entity, DateTime date)
+    parameters:
+    - id: paperclipClientId
+      type: System.String
+    - id: entity
+      type: SuperOffice.CRM.Services.Appointment
+    - id: date
+      type: System.DateTime
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetNoteContext(paperclipClientId As String, entity As Appointment, date As Date) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.OnNotepadEditorPaperClipMouseDown
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.OnNotepadEditorPaperClipMouseDown
+  id: OnNotepadEditorPaperClipMouseDown
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+  langs:
+  - csharp
+  - vb
+  name: OnNotepadEditorPaperClipMouseDown()
+  nameWithType: NotepadManager.OnNotepadEditorPaperClipMouseDown()
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.OnNotepadEditorPaperClipMouseDown()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnNotepadEditorPaperClipMouseDown()
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnNotepadEditorPaperClipMouseDown As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.OnNotepadEditorPaperClipMouseDown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+  langs:
+  - csharp
+  - vb
+  name: NotepadManager()
+  nameWithType: NotepadManager.NotepadManager()
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.NotepadManager()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public NotepadManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.CRM.Web.UI.ScriptObjects
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: ScriptObjectBase
+  nameWithType: ScriptObjectBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: SoIdSelector(String)
+  nameWithType: ScriptObjectBase.SoIdSelector(String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+    name: SoIdSelector
+    nameWithType: ScriptObjectBase.SoIdSelector
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+    name: SoIdSelector
+    nameWithType: ScriptObjectBase.SoIdSelector
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: CreateClickFunctionForSoId(String, String)
+  nameWithType: ScriptObjectBase.CreateClickFunctionForSoId(String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+    name: CreateClickFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateClickFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+    name: CreateClickFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateClickFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: CreateHoverFunctionForSoId(String, String, String)
+  nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId(String, String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+    name: CreateHoverFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+    name: CreateHoverFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.DCF.Web.UI.ScriptObjects
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext
+  isExternal: true
+  name: GetNoteContext
+  nameWithType: NotepadManager.GetNoteContext
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.GetNoteContext
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ContactEntity
+  isExternal: true
+  name: ContactEntity
+  nameWithType: ContactEntity
+  fullName: SuperOffice.CRM.Services.ContactEntity
+- uid: SuperOffice.CRM.Services.ProjectEntity
+  commentId: '!:SuperOffice.CRM.Services.ProjectEntity'
+  isExternal: true
+  name: ProjectEntity
+  nameWithType: ProjectEntity
+  fullName: SuperOffice.CRM.Services.ProjectEntity
+- uid: SuperOffice.CRM.Services.SaleEntity
+  commentId: '!:SuperOffice.CRM.Services.SaleEntity'
+  isExternal: true
+  name: SaleEntity
+  nameWithType: SaleEntity
+  fullName: SuperOffice.CRM.Services.SaleEntity
+- uid: SuperOffice.CRM.Services.SelectionEntity
+  commentId: '!:SuperOffice.CRM.Services.SelectionEntity'
+  isExternal: true
+  name: SelectionEntity
+  nameWithType: SelectionEntity
+  fullName: SuperOffice.CRM.Services.SelectionEntity
+- uid: SuperOffice.CRM.Services.Appointment
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment
+  fullName: SuperOffice.CRM.Services.Appointment
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.OnNotepadEditorPaperClipMouseDown*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.OnNotepadEditorPaperClipMouseDown
+  isExternal: true
+  name: OnNotepadEditorPaperClipMouseDown
+  nameWithType: NotepadManager.OnNotepadEditorPaperClipMouseDown
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.OnNotepadEditorPaperClipMouseDown
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.#ctor
+  isExternal: true
+  name: NotepadManager
+  nameWithType: NotepadManager.NotepadManager
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager.NotepadManager

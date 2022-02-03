@@ -1,0 +1,1067 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ExternalEventFields
+  id: DBC.ExternalEventFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.EventDate
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.EventEnabled
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.ExternalEventId
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentRecord
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentTable
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.Registered
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOff
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffAssocId
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffConfTextId
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskEnable
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskId
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTextId
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTriggersAssign
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOn
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnAssocId
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnConfTextId
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskEnable
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskId
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTextId
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTriggersAssign
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.Updated
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.ExternalEventFields
+  nameWithType: DBC.ExternalEventFields
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ExternalEvent, The definition of projects as events in Audience (or other Collaborative apps)\n"
+  syntax:
+    content: public static class ExternalEventFields
+    content.vb: Public Module ExternalEventFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.ExternalEventId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.ExternalEventId
+  id: ExternalEventId
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: ExternalEventId
+  nameWithType: DBC.ExternalEventFields.ExternalEventId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.ExternalEventId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.ExternalEventId: Primary key\n"
+  syntax:
+    content: public const string ExternalEventId = "ExternalEvent_id"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalEventId As String = "ExternalEvent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.EventEnabled
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.EventEnabled
+  id: EventEnabled
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: EventEnabled
+  nameWithType: DBC.ExternalEventFields.EventEnabled
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.EventEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.EventEnabled: Is the event enabled\n"
+  syntax:
+    content: public const string EventEnabled = "eventEnabled"
+    return:
+      type: System.String
+    content.vb: Public Const EventEnabled As String = "eventEnabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.EventDate
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.EventDate
+  id: EventDate
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: EventDate
+  nameWithType: DBC.ExternalEventFields.EventDate
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.EventDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.EventDate: Dateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility\n"
+  syntax:
+    content: public const string EventDate = "eventDate"
+    return:
+      type: System.String
+    content.vb: Public Const EventDate As String = "eventDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentTable
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentTable
+  id: ParentTable
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: ParentTable
+  nameWithType: DBC.ExternalEventFields.ParentTable
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.ParentTable: The thing, that has now become an Event\n"
+  syntax:
+    content: public const string ParentTable = "parentTable"
+    return:
+      type: System.String
+    content.vb: Public Const ParentTable As String = "parentTable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentRecord
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentRecord
+  id: ParentRecord
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: ParentRecord
+  nameWithType: DBC.ExternalEventFields.ParentRecord
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentRecord
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.ParentRecord: The thing, that has now become an Event\n"
+  syntax:
+    content: public const string ParentRecord = "parentRecord"
+    return:
+      type: System.String
+    content.vb: Public Const ParentRecord As String = "parentRecord"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOn
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOn
+  id: SignOn
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOn
+  nameWithType: DBC.ExternalEventFields.SignOn
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOn
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOn: Is Sign On functionality enabled\n"
+  syntax:
+    content: public const string SignOn = "signOn"
+    return:
+      type: System.String
+    content.vb: Public Const SignOn As String = "signOn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskEnable
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskEnable
+  id: SignOnTaskEnable
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOnTaskEnable
+  nameWithType: DBC.ExternalEventFields.SignOnTaskEnable
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskEnable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOnTaskEnable: If not 0, a task should be created when the external user Signs On to an event\n"
+  syntax:
+    content: public const string SignOnTaskEnable = "signOnTaskEnable"
+    return:
+      type: System.String
+    content.vb: Public Const SignOnTaskEnable As String = "signOnTaskEnable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskId
+  id: SignOnTaskId
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOnTaskId
+  nameWithType: DBC.ExternalEventFields.SignOnTaskId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOnTaskId: If not 0, sign on should cause an Activity of this type to be registered\n"
+  syntax:
+    content: public const string SignOnTaskId = "signOnTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const SignOnTaskId As String = "signOnTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnAssocId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnAssocId
+  id: SignOnAssocId
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOnAssocId
+  nameWithType: DBC.ExternalEventFields.SignOnAssocId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnAssocId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOnAssocId: If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Associate whose diary should get the activity\n"
+  syntax:
+    content: public const string SignOnAssocId = "signOnAssocId"
+    return:
+      type: System.String
+    content.vb: Public Const SignOnAssocId As String = "signOnAssocId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTextId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTextId
+  id: SignOnTextId
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOnTextId
+  nameWithType: DBC.ExternalEventFields.SignOnTextId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOnTextId: If not 0, the given text should be entered into the appointment\n"
+  syntax:
+    content: public const string SignOnTextId = "signOnTextId"
+    return:
+      type: System.String
+    content.vb: Public Const SignOnTextId As String = "signOnTextId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnConfTextId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnConfTextId
+  id: SignOnConfTextId
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOnConfTextId
+  nameWithType: DBC.ExternalEventFields.SignOnConfTextId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnConfTextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOnConfTextId: If not 0, the given text should be shown as a confirmation text before accpting Sign On\n"
+  syntax:
+    content: public const string SignOnConfTextId = "signOnConfTextId"
+    return:
+      type: System.String
+    content.vb: Public Const SignOnConfTextId As String = "signOnConfTextId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTriggersAssign
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTriggersAssign
+  id: SignOnTriggersAssign
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOnTriggersAssign
+  nameWithType: DBC.ExternalEventFields.SignOnTriggersAssign
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTriggersAssign
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOnTriggersAssign: If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog\n"
+  syntax:
+    content: public const string SignOnTriggersAssign = "signOnTriggersAssign"
+    return:
+      type: System.String
+    content.vb: Public Const SignOnTriggersAssign As String = "signOnTriggersAssign"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOff
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOff
+  id: SignOff
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOff
+  nameWithType: DBC.ExternalEventFields.SignOff
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOff
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOff: Is Sign Off functionality enabled\n"
+  syntax:
+    content: public const string SignOff = "signOff"
+    return:
+      type: System.String
+    content.vb: Public Const SignOff As String = "signOff"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskEnable
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskEnable
+  id: SignOffTaskEnable
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOffTaskEnable
+  nameWithType: DBC.ExternalEventFields.SignOffTaskEnable
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskEnable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOffTaskEnable: If not 0, a task should be created when the external user Signs Off an event\n"
+  syntax:
+    content: public const string SignOffTaskEnable = "signOffTaskEnable"
+    return:
+      type: System.String
+    content.vb: Public Const SignOffTaskEnable As String = "signOffTaskEnable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskId
+  id: SignOffTaskId
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOffTaskId
+  nameWithType: DBC.ExternalEventFields.SignOffTaskId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOffTaskId: If not 0, sign off should cause an Activity of this type to be registered\n"
+  syntax:
+    content: public const string SignOffTaskId = "signOffTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const SignOffTaskId As String = "signOffTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffAssocId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffAssocId
+  id: SignOffAssocId
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOffAssocId
+  nameWithType: DBC.ExternalEventFields.SignOffAssocId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffAssocId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOffAssocId: If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Associate whose diary should get the activity\n"
+  syntax:
+    content: public const string SignOffAssocId = "signOffAssocId"
+    return:
+      type: System.String
+    content.vb: Public Const SignOffAssocId As String = "signOffAssocId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTextId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTextId
+  id: SignOffTextId
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOffTextId
+  nameWithType: DBC.ExternalEventFields.SignOffTextId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOffTextId: If not 0, the given text should be shown as a confirmation text before accpting Sign Off\n"
+  syntax:
+    content: public const string SignOffTextId = "signOffTextId"
+    return:
+      type: System.String
+    content.vb: Public Const SignOffTextId As String = "signOffTextId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffConfTextId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffConfTextId
+  id: SignOffConfTextId
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOffConfTextId
+  nameWithType: DBC.ExternalEventFields.SignOffConfTextId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffConfTextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOffConfTextId: If not 0, the given text should be shown as a confirmation text before accpting Sign Off\n"
+  syntax:
+    content: public const string SignOffConfTextId = "signOffConfTextId"
+    return:
+      type: System.String
+    content.vb: Public Const SignOffConfTextId As String = "signOffConfTextId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTriggersAssign
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTriggersAssign
+  id: SignOffTriggersAssign
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: SignOffTriggersAssign
+  nameWithType: DBC.ExternalEventFields.SignOffTriggersAssign
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTriggersAssign
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.SignOffTriggersAssign: If 1, the SignOff task should be created as an Assigned task, triggering the invitation dialog\n"
+  syntax:
+    content: public const string SignOffTriggersAssign = "signOffTriggersAssign"
+    return:
+      type: System.String
+    content.vb: Public Const SignOffTriggersAssign As String = "signOffTriggersAssign"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.ExternalEventFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.ExternalEventFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.ExternalEventFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.ExternalEventFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.ExternalEventFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.ExternalEventFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalEvent.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest
+  id: Selection_GetRecipientStatisticsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.SelectionId
+  langs:
+  - csharp
+  - vb
+  name: Selection_GetRecipientStatisticsRequest
+  nameWithType: Selection_GetRecipientStatisticsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_GetRecipientStatisticsRequest : Object'
+    content.vb: >-
+      Public Class Selection_GetRecipientStatisticsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_GetRecipientStatisticsRequest()
+  nameWithType: Selection_GetRecipientStatisticsRequest.Selection_GetRecipientStatisticsRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.Selection_GetRecipientStatisticsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_GetRecipientStatisticsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_GetRecipientStatisticsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.#ctor
+  isExternal: true
+  name: Selection_GetRecipientStatisticsRequest
+  nameWithType: Selection_GetRecipientStatisticsRequest.Selection_GetRecipientStatisticsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.Selection_GetRecipientStatisticsRequest
+- uid: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_GetRecipientStatisticsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

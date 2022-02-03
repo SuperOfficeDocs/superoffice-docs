@@ -1,0 +1,344 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DashTheme
+  commentId: T:SuperOffice.WebApi.Data.DashTheme
+  id: DashTheme
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DashTheme.#ctor
+  - SuperOffice.WebApi.Data.DashTheme.Client
+  - SuperOffice.WebApi.Data.DashTheme.Config
+  - SuperOffice.WebApi.Data.DashTheme.DashboardThemeId
+  - SuperOffice.WebApi.Data.DashTheme.Name
+  - SuperOffice.WebApi.Data.DashTheme.Rank
+  langs:
+  - csharp
+  - vb
+  name: DashTheme
+  nameWithType: DashTheme
+  fullName: SuperOffice.WebApi.Data.DashTheme
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DashTheme.\nDashboard theme configuration    \n"
+  example:
+  - "\nGet DashTheme 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new DashAgent(configuration);\nvar dashTheme = agent.GetDashTheme( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class DashTheme : Carrier'
+    content.vb: >-
+      Public Class DashTheme
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DashAgent
+    commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DashTheme.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DashTheme.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: DashTheme()
+  nameWithType: DashTheme.DashTheme()
+  fullName: SuperOffice.WebApi.Data.DashTheme.DashTheme()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DashTheme()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DashTheme.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashTheme.DashboardThemeId
+  commentId: P:SuperOffice.WebApi.Data.DashTheme.DashboardThemeId
+  id: DashboardThemeId
+  parent: SuperOffice.WebApi.Data.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: DashboardThemeId
+  nameWithType: DashTheme.DashboardThemeId
+  fullName: SuperOffice.WebApi.Data.DashTheme.DashboardThemeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int DashboardThemeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DashboardThemeId As Integer
+  overload: SuperOffice.WebApi.Data.DashTheme.DashboardThemeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashTheme.Name
+  commentId: P:SuperOffice.WebApi.Data.DashTheme.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DashTheme.Name
+  fullName: SuperOffice.WebApi.Data.DashTheme.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of this theme\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.DashTheme.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashTheme.Config
+  commentId: P:SuperOffice.WebApi.Data.DashTheme.Config
+  id: Config
+  parent: SuperOffice.WebApi.Data.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: DashTheme.Config
+  fullName: SuperOffice.WebApi.Data.DashTheme.Config
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe JSON clob-formatted config\n"
+  syntax:
+    content: public virtual string Config { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Config As String
+  overload: SuperOffice.WebApi.Data.DashTheme.Config*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashTheme.Rank
+  commentId: P:SuperOffice.WebApi.Data.DashTheme.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DashTheme.Rank
+  fullName: SuperOffice.WebApi.Data.DashTheme.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank order\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.DashTheme.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashTheme.Client
+  commentId: P:SuperOffice.WebApi.Data.DashTheme.Client
+  id: Client
+  parent: SuperOffice.WebApi.Data.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: DashTheme.Client
+  fullName: SuperOffice.WebApi.Data.DashTheme.Client
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of client(s) this theme is available to\n"
+  syntax:
+    content: public virtual string Client { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Client As String
+  overload: SuperOffice.WebApi.Data.DashTheme.Client*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DashAgent
+  commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  isExternal: true
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.WebApi.Agents.DashAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DashTheme.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTheme.#ctor
+  isExternal: true
+  name: DashTheme
+  nameWithType: DashTheme.DashTheme
+  fullName: SuperOffice.WebApi.Data.DashTheme.DashTheme
+- uid: SuperOffice.WebApi.Data.DashTheme.DashboardThemeId*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTheme.DashboardThemeId
+  isExternal: true
+  name: DashboardThemeId
+  nameWithType: DashTheme.DashboardThemeId
+  fullName: SuperOffice.WebApi.Data.DashTheme.DashboardThemeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DashTheme.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTheme.Name
+  isExternal: true
+  name: Name
+  nameWithType: DashTheme.Name
+  fullName: SuperOffice.WebApi.Data.DashTheme.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.DashTheme.Config*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTheme.Config
+  isExternal: true
+  name: Config
+  nameWithType: DashTheme.Config
+  fullName: SuperOffice.WebApi.Data.DashTheme.Config
+- uid: SuperOffice.WebApi.Data.DashTheme.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTheme.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: DashTheme.Rank
+  fullName: SuperOffice.WebApi.Data.DashTheme.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DashTheme.Client*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTheme.Client
+  isExternal: true
+  name: Client
+  nameWithType: DashTheme.Client
+  fullName: SuperOffice.WebApi.Data.DashTheme.Client

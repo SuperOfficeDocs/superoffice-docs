@@ -1,0 +1,723 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MailMergeTask
+  commentId: T:SuperOffice.WebApi.Data.MailMergeTask
+  id: MailMergeTask
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MailMergeTask.#ctor
+  - SuperOffice.WebApi.Data.MailMergeTask.Completed
+  - SuperOffice.WebApi.Data.MailMergeTask.Completed_String
+  - SuperOffice.WebApi.Data.MailMergeTask.Description
+  - SuperOffice.WebApi.Data.MailMergeTask.Duration
+  - SuperOffice.WebApi.Data.MailMergeTask.OwnerAssociateId
+  - SuperOffice.WebApi.Data.MailMergeTask.PriorityId
+  - SuperOffice.WebApi.Data.MailMergeTask.ProjectId
+  - SuperOffice.WebApi.Data.MailMergeTask.SaleId
+  - SuperOffice.WebApi.Data.MailMergeTask.SingleEntryOnEachCompany
+  - SuperOffice.WebApi.Data.MailMergeTask.StartDate
+  - SuperOffice.WebApi.Data.MailMergeTask.TypeId
+  - SuperOffice.WebApi.Data.MailMergeTask.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: MailMergeTask
+  nameWithType: MailMergeTask
+  fullName: SuperOffice.WebApi.Data.MailMergeTask
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for MailMergeTask.\nProperties describing a task to create on recipients of a mail merge    \n"
+  syntax:
+    content: 'public class MailMergeTask : Carrier'
+    content.vb: >-
+      Public Class MailMergeTask
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.SelectionAgent
+    commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MailMergeTask.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MailMergeTask.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: MailMergeTask()
+  nameWithType: MailMergeTask.MailMergeTask()
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.MailMergeTask()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public MailMergeTask()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MailMergeTask.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MailMergeTask.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: MailMergeTask.ProjectId
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProject identity to set on task\n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeTask.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeTask.TypeId
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.TypeId
+  id: TypeId
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: TypeId
+  nameWithType: MailMergeTask.TypeId
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.TypeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType identity to set on task\n"
+  syntax:
+    content: public virtual int TypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TypeId As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeTask.TypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeTask.StartDate
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.StartDate
+  id: StartDate
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: MailMergeTask.StartDate
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.StartDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen the task should start\n"
+  syntax:
+    content: public virtual DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property StartDate As DateTime
+  overload: SuperOffice.WebApi.Data.MailMergeTask.StartDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeTask.Duration
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.Duration
+  id: Duration
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: MailMergeTask.Duration
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.Duration
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDuration of task\n"
+  syntax:
+    content: public virtual int Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Duration As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeTask.Duration*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeTask.Description
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MailMergeTask.Description
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nText describing task\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.MailMergeTask.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeTask.PriorityId
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.PriorityId
+  id: PriorityId
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: PriorityId
+  nameWithType: MailMergeTask.PriorityId
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.PriorityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPriority of task\n"
+  syntax:
+    content: public virtual int PriorityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PriorityId As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeTask.PriorityId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeTask.VisibleFor
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: MailMergeTask.VisibleFor
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.VisibleFor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWho the task should be visible for\n"
+  syntax:
+    content: public virtual VisibleFor VisibleFor { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.VisibleFor
+    content.vb: Public Overridable Property VisibleFor As VisibleFor
+  overload: SuperOffice.WebApi.Data.MailMergeTask.VisibleFor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeTask.Completed_String
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.Completed_String
+  id: Completed_String
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: Completed_String
+  nameWithType: MailMergeTask.Completed_String
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.Completed_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCompleted status for task\nRaw string enum value.\n"
+  syntax:
+    content: public string Completed_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Completed_String As String
+  overload: SuperOffice.WebApi.Data.MailMergeTask.Completed_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.MailMergeTask.Completed
+    commentId: P:SuperOffice.WebApi.Data.MailMergeTask.Completed
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MailMergeTask.Completed
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.Completed
+  id: Completed
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: MailMergeTask.Completed
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.Completed
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCompleted status for task\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ActivityStatus> Completed { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}
+    content.vb: Public Property Completed As Nullable(Of ActivityStatus)
+  overload: SuperOffice.WebApi.Data.MailMergeTask.Completed*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.MailMergeTask.Completed_String
+    commentId: P:SuperOffice.WebApi.Data.MailMergeTask.Completed_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MailMergeTask.OwnerAssociateId
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.OwnerAssociateId
+  id: OwnerAssociateId
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: OwnerAssociateId
+  nameWithType: MailMergeTask.OwnerAssociateId
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.OwnerAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAssociate identity of who should be set as owner of the task.  If value is 0, the recipient owner(our contact) will be used.\n"
+  syntax:
+    content: public virtual int OwnerAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OwnerAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeTask.OwnerAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeTask.SingleEntryOnEachCompany
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.SingleEntryOnEachCompany
+  id: SingleEntryOnEachCompany
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: SingleEntryOnEachCompany
+  nameWithType: MailMergeTask.SingleEntryOnEachCompany
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.SingleEntryOnEachCompany
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould we only create one task on each company? If false, separate tasks will be created for all persons from the same company.\n"
+  syntax:
+    content: public virtual bool SingleEntryOnEachCompany { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SingleEntryOnEachCompany As Boolean
+  overload: SuperOffice.WebApi.Data.MailMergeTask.SingleEntryOnEachCompany*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeTask.SaleId
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: MailMergeTask.SaleId
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale identity to set on task\n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeTask.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.SelectionAgent
+  commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
+  isExternal: true
+  name: SelectionAgent
+  nameWithType: SelectionAgent
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MailMergeTask.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.#ctor
+  isExternal: true
+  name: MailMergeTask
+  nameWithType: MailMergeTask.MailMergeTask
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.MailMergeTask
+- uid: SuperOffice.WebApi.Data.MailMergeTask.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: MailMergeTask.ProjectId
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.ProjectId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.MailMergeTask.TypeId*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.TypeId
+  isExternal: true
+  name: TypeId
+  nameWithType: MailMergeTask.TypeId
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.TypeId
+- uid: SuperOffice.WebApi.Data.MailMergeTask.StartDate*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.StartDate
+  isExternal: true
+  name: StartDate
+  nameWithType: MailMergeTask.StartDate
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.StartDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.MailMergeTask.Duration*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.Duration
+  isExternal: true
+  name: Duration
+  nameWithType: MailMergeTask.Duration
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.Duration
+- uid: SuperOffice.WebApi.Data.MailMergeTask.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.Description
+  isExternal: true
+  name: Description
+  nameWithType: MailMergeTask.Description
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.MailMergeTask.PriorityId*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.PriorityId
+  isExternal: true
+  name: PriorityId
+  nameWithType: MailMergeTask.PriorityId
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.PriorityId
+- uid: SuperOffice.WebApi.Data.MailMergeTask.VisibleFor*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.VisibleFor
+  isExternal: true
+  name: VisibleFor
+  nameWithType: MailMergeTask.VisibleFor
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.VisibleFor
+- uid: SuperOffice.WebApi.Data.VisibleFor
+  commentId: T:SuperOffice.WebApi.Data.VisibleFor
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: VisibleFor
+  nameWithType: VisibleFor
+  fullName: SuperOffice.WebApi.Data.VisibleFor
+- uid: SuperOffice.WebApi.Data.MailMergeTask.Completed_String*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.Completed_String
+  isExternal: true
+  name: Completed_String
+  nameWithType: MailMergeTask.Completed_String
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.Completed_String
+- uid: SuperOffice.WebApi.Data.MailMergeTask.Completed
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.Completed
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.MailMergeTask.Completed*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.Completed
+  isExternal: true
+  name: Completed
+  nameWithType: MailMergeTask.Completed
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.Completed
+- uid: SuperOffice.WebApi.Data.MailMergeTask.Completed_String
+  commentId: P:SuperOffice.WebApi.Data.MailMergeTask.Completed_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}'
+  definition: System.Nullable`1
+  name: Nullable<ActivityStatus>
+  nameWithType: Nullable<ActivityStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ActivityStatus>
+  nameWithType.vb: Nullable(Of ActivityStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ActivityStatus)
+  name.vb: Nullable(Of ActivityStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ActivityStatus
+    name: ActivityStatus
+    nameWithType: ActivityStatus
+    fullName: SuperOffice.WebApi.Data.ActivityStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ActivityStatus
+    name: ActivityStatus
+    nameWithType: ActivityStatus
+    fullName: SuperOffice.WebApi.Data.ActivityStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.MailMergeTask.OwnerAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.OwnerAssociateId
+  isExternal: true
+  name: OwnerAssociateId
+  nameWithType: MailMergeTask.OwnerAssociateId
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.OwnerAssociateId
+- uid: SuperOffice.WebApi.Data.MailMergeTask.SingleEntryOnEachCompany*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.SingleEntryOnEachCompany
+  isExternal: true
+  name: SingleEntryOnEachCompany
+  nameWithType: MailMergeTask.SingleEntryOnEachCompany
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.SingleEntryOnEachCompany
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.MailMergeTask.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeTask.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: MailMergeTask.SaleId
+  fullName: SuperOffice.WebApi.Data.MailMergeTask.SaleId

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web
+  commentId: N:SuperOffice.Web
+  id: SuperOffice.Web
+  children:
+  - SuperOffice.Web.SoDatabaseContextState
+  - SuperOffice.Web.SoResourceHandler
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web
+  nameWithType: SuperOffice.Web
+  fullName: SuperOffice.Web
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.SoResourceHandler
+  commentId: T:SuperOffice.Web.SoResourceHandler
+  isExternal: true
+  name: SoResourceHandler
+  nameWithType: SoResourceHandler
+  fullName: SuperOffice.Web.SoResourceHandler
+- uid: SuperOffice.Web.SoDatabaseContextState
+  commentId: T:SuperOffice.Web.SoDatabaseContextState
+  isExternal: true
+  name: SoDatabaseContextState
+  nameWithType: SoDatabaseContextState
+  fullName: SuperOffice.Web.SoDatabaseContextState

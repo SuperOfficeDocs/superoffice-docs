@@ -1,0 +1,1334 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  commentId: T:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  id: SuperListColumnSizeRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.#ctor
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.AssocId
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ColumnSize
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ConfigurationName
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ExtraInfo
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.GroupId
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ListColumn
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ListOwner
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OrderByDirection
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OrderByRank
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OwnerRecord
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OwnerTable
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Rank
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Registered
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperListColumnSizeId
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Updated
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: SuperListColumnSizeRecordData
+  nameWithType: SuperListColumnSizeRecordData
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the SuperListColumnSize table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.SuperListColumnSizeRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.SuperListColumnSizeTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class SuperListColumnSizeRecordData
+    content.vb: Public Class SuperListColumnSizeRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperListColumnSizeId
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperListColumnSizeId
+  id: SuperListColumnSizeId
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: SuperListColumnSizeId
+  nameWithType: SuperListColumnSizeRecordData.SuperListColumnSizeId
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperListColumnSizeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int SuperListColumnSizeId
+    return:
+      type: System.Int32
+    content.vb: Public SuperListColumnSizeId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.AssocId
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.AssocId
+  id: AssocId
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: AssocId
+  nameWithType: SuperListColumnSizeRecordData.AssocId
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.AssocId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOwning associate \n"
+  syntax:
+    content: public int AssocId
+    return:
+      type: System.Int32
+    content.vb: Public AssocId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ListOwner
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ListOwner
+  id: ListOwner
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: ListOwner
+  nameWithType: SuperListColumnSizeRecordData.ListOwner
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ListOwner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe dialog, panel or whatever that owns this record \n"
+  syntax:
+    content: public string ListOwner
+    return:
+      type: System.String
+    content.vb: Public ListOwner As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ListColumn
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ListColumn
+  id: ListColumn
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: ListColumn
+  nameWithType: SuperListColumnSizeRecordData.ListColumn
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ListColumn
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name of the column \n"
+  syntax:
+    content: public string ListColumn
+    return:
+      type: System.String
+    content.vb: Public ListColumn As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ColumnSize
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ColumnSize
+  id: ColumnSize
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: ColumnSize
+  nameWithType: SuperListColumnSizeRecordData.ColumnSize
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ColumnSize
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe size, either as a percentage, characters, or other code as needed \n"
+  syntax:
+    content: public string ColumnSize
+    return:
+      type: System.String
+    content.vb: Public ColumnSize As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ExtraInfo
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: SuperListColumnSizeRecordData.ExtraInfo
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ExtraInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtra information - show state, or whatever is required \n"
+  syntax:
+    content: public string ExtraInfo
+    return:
+      type: System.String
+    content.vb: Public ExtraInfo As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: SuperListColumnSizeRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: SuperListColumnSizeRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: SuperListColumnSizeRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: SuperListColumnSizeRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: SuperListColumnSizeRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Rank
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SuperListColumnSizeRecordData.Rank
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nColumn rank, from left to right in display \n"
+  syntax:
+    content: public short Rank
+    return:
+      type: System.Int16
+    content.vb: Public Rank As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OrderByRank
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OrderByRank
+  id: OrderByRank
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: OrderByRank
+  nameWithType: SuperListColumnSizeRecordData.OrderByRank
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OrderByRank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOrder by rank, 0 if this column is not part of orderby \n"
+  syntax:
+    content: public short OrderByRank
+    return:
+      type: System.Int16
+    content.vb: Public OrderByRank As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OrderByDirection
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OrderByDirection
+  id: OrderByDirection
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: OrderByDirection
+  nameWithType: SuperListColumnSizeRecordData.OrderByDirection
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OrderByDirection
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDirection, 1 = ascending, 2 = descending; 0 = not an orderby column \n"
+  syntax:
+    content: public short OrderByDirection
+    return:
+      type: System.Int16
+    content.vb: Public OrderByDirection As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OwnerTable
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OwnerTable
+  id: OwnerTable
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: OwnerTable
+  nameWithType: SuperListColumnSizeRecordData.OwnerTable
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OwnerTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional owner table, if layout is bound to an owner (Selection, ...) \n"
+  syntax:
+    content: public short OwnerTable
+    return:
+      type: System.Int16
+    content.vb: Public OwnerTable As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OwnerRecord
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OwnerRecord
+  id: OwnerRecord
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: OwnerRecord
+  nameWithType: SuperListColumnSizeRecordData.OwnerRecord
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.OwnerRecord
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional owner record id, if layout is bound to an owner \n"
+  syntax:
+    content: public int OwnerRecord
+    return:
+      type: System.Int32
+    content.vb: Public OwnerRecord As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.GroupId
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: SuperListColumnSizeRecordData.GroupId
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.GroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional group id, if layout is bound to a group \n"
+  syntax:
+    content: public int GroupId
+    return:
+      type: System.Int32
+    content.vb: Public GroupId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ConfigurationName
+  commentId: F:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ConfigurationName
+  id: ConfigurationName
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationName
+  nameWithType: SuperListColumnSizeRecordData.ConfigurationName
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.ConfigurationName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nName to show in dropdowns/menus so this configuration can be selected \n"
+  syntax:
+    content: public string ConfigurationName
+    return:
+      type: System.String
+    content.vb: Public ConfigurationName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+  langs:
+  - csharp
+  - vb
+  name: SuperListColumnSizeRecordData()
+  nameWithType: SuperListColumnSizeRecordData.SuperListColumnSizeRecordData()
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperListColumnSizeRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public SuperListColumnSizeRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SuperListColumnSizeRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<SuperListColumnSizeRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SuperListColumnSizeRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SuperListColumnSizeRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SuperListColumnSizeRecordData, To)()
+  name.vb: MapEnums(Of SuperListColumnSizeRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SuperListColumnSizeRecordData, To>
+    nameWithType: EnumUtil.MapEnums<SuperListColumnSizeRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SuperListColumnSizeRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SuperListColumnSizeRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of SuperListColumnSizeRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SuperListColumnSizeRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SuperListColumnSizeRecordData>(SuperListColumnSizeRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<SuperListColumnSizeRecordData>(SuperListColumnSizeRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SuperListColumnSizeRecordData>(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SuperListColumnSizeRecordData)(SuperListColumnSizeRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+  name.vb: AssignByReflection(Of SuperListColumnSizeRecordData)(SuperListColumnSizeRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SuperListColumnSizeRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<SuperListColumnSizeRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SuperListColumnSizeRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+    name: SuperListColumnSizeRecordData
+    nameWithType: SuperListColumnSizeRecordData
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SuperListColumnSizeRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SuperListColumnSizeRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+    name: SuperListColumnSizeRecordData
+    nameWithType: SuperListColumnSizeRecordData
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SuperListColumnSizeRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<SuperListColumnSizeRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SuperListColumnSizeRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SuperListColumnSizeRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)()
+  name.vb: GraphCopy(Of SuperListColumnSizeRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SuperListColumnSizeRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<SuperListColumnSizeRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SuperListColumnSizeRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SuperListColumnSizeRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of SuperListColumnSizeRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+  parent: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+  name: ToInsert()
+  nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SuperListColumnSizeRecordData, To>()
+  nameWithType: Converters.MapEnums<SuperListColumnSizeRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SuperListColumnSizeRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of SuperListColumnSizeRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SuperListColumnSizeRecordData, To)()
+  name.vb: MapEnums(Of SuperListColumnSizeRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SuperListColumnSizeRecordData, To>
+    nameWithType: Converters.MapEnums<SuperListColumnSizeRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SuperListColumnSizeRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SuperListColumnSizeRecordData, To)
+    nameWithType: Converters.MapEnums(Of SuperListColumnSizeRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SuperListColumnSizeRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+  commentId: M:SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+  isExternal: true
+  name: ToInsert(SuperListColumnSizeRecordData)
+  nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert(SuperListColumnSizeRecordData)
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+    name: ToInsert
+    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+    name: SuperListColumnSizeRecordData
+    nameWithType: SuperListColumnSizeRecordData
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SuperListColumnSizeRecordData)
+    name: ToInsert
+    nameWithType: SuperListColumnSizeRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+    name: SuperListColumnSizeRecordData
+    nameWithType: SuperListColumnSizeRecordData
+    fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperListColumnSizeRecordDataExtensions
+  nameWithType: SuperListColumnSizeRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.#ctor
+  isExternal: true
+  name: SuperListColumnSizeRecordData
+  nameWithType: SuperListColumnSizeRecordData.SuperListColumnSizeRecordData
+  fullName: SuperOffice.CRM.Rows.SuperListColumnSizeRecordData.SuperListColumnSizeRecordData

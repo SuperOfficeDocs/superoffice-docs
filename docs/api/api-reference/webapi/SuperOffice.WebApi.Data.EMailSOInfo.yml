@@ -1,0 +1,469 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMailSOInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailSOInfo
+  id: EMailSOInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMailSOInfo.#ctor
+  - SuperOffice.WebApi.Data.EMailSOInfo.AppointmentId
+  - SuperOffice.WebApi.Data.EMailSOInfo.Archived
+  - SuperOffice.WebApi.Data.EMailSOInfo.ArchivedAt
+  - SuperOffice.WebApi.Data.EMailSOInfo.ArchivedBy
+  - SuperOffice.WebApi.Data.EMailSOInfo.ArchivedDisplayName
+  - SuperOffice.WebApi.Data.EMailSOInfo.DocumentId
+  - SuperOffice.WebApi.Data.EMailSOInfo.ProjectId
+  - SuperOffice.WebApi.Data.EMailSOInfo.SaleId
+  langs:
+  - csharp
+  - vb
+  name: EMailSOInfo
+  nameWithType: EMailSOInfo
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for EMailSOInfo.\nGlue between SuperOffice data and an e-mail.    \n"
+  example:
+  - "\nGet EMailSOInfo 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new EMailAgent(configuration);\nvar eMailSOInfo = agent.GetEMailSOInfo( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class EMailSOInfo : Carrier'
+    content.vb: >-
+      Public Class EMailSOInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.EMailAgent
+    commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMailSOInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: EMailSOInfo()
+  nameWithType: EMailSOInfo.EMailSOInfo()
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.EMailSOInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public EMailSOInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMailSOInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.EMailSOInfo.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: EMailSOInfo.DocumentId
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.EMailSOInfo.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.EMailSOInfo.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: EMailSOInfo.AppointmentId
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.EMailSOInfo.AppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.EMailSOInfo.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: EMailSOInfo.ProjectId
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.EMailSOInfo.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.SaleId
+  commentId: P:SuperOffice.WebApi.Data.EMailSOInfo.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: EMailSOInfo.SaleId
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.EMailSOInfo.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.Archived
+  commentId: P:SuperOffice.WebApi.Data.EMailSOInfo.Archived
+  id: Archived
+  parent: SuperOffice.WebApi.Data.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: Archived
+  nameWithType: EMailSOInfo.Archived
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.Archived
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this e-mail archived in SuperOffice\n"
+  syntax:
+    content: public virtual bool Archived { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Archived As Boolean
+  overload: SuperOffice.WebApi.Data.EMailSOInfo.Archived*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedAt
+  commentId: P:SuperOffice.WebApi.Data.EMailSOInfo.ArchivedAt
+  id: ArchivedAt
+  parent: SuperOffice.WebApi.Data.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchivedAt
+  nameWithType: EMailSOInfo.ArchivedAt
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedAt
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe datetime when this email was archived\n"
+  syntax:
+    content: public virtual DateTime ArchivedAt { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ArchivedAt As DateTime
+  overload: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedAt*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedBy
+  commentId: P:SuperOffice.WebApi.Data.EMailSOInfo.ArchivedBy
+  id: ArchivedBy
+  parent: SuperOffice.WebApi.Data.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchivedBy
+  nameWithType: EMailSOInfo.ArchivedBy
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate who archived this email\n"
+  syntax:
+    content: public virtual int ArchivedBy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ArchivedBy As Integer
+  overload: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedDisplayName
+  commentId: P:SuperOffice.WebApi.Data.EMailSOInfo.ArchivedDisplayName
+  id: ArchivedDisplayName
+  parent: SuperOffice.WebApi.Data.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchivedDisplayName
+  nameWithType: EMailSOInfo.ArchivedDisplayName
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedDisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe full name of the associate who archived this email\n"
+  syntax:
+    content: public virtual string ArchivedDisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ArchivedDisplayName As String
+  overload: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedDisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.EMailAgent
+  commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.WebApi.Agents.EMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailSOInfo.#ctor
+  isExternal: true
+  name: EMailSOInfo
+  nameWithType: EMailSOInfo.EMailSOInfo
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.EMailSOInfo
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailSOInfo.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: EMailSOInfo.DocumentId
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailSOInfo.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: EMailSOInfo.AppointmentId
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.AppointmentId
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailSOInfo.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: EMailSOInfo.ProjectId
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.ProjectId
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailSOInfo.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: EMailSOInfo.SaleId
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.SaleId
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.Archived*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailSOInfo.Archived
+  isExternal: true
+  name: Archived
+  nameWithType: EMailSOInfo.Archived
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.Archived
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedAt*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailSOInfo.ArchivedAt
+  isExternal: true
+  name: ArchivedAt
+  nameWithType: EMailSOInfo.ArchivedAt
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedAt
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailSOInfo.ArchivedBy
+  isExternal: true
+  name: ArchivedBy
+  nameWithType: EMailSOInfo.ArchivedBy
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedBy
+- uid: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedDisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailSOInfo.ArchivedDisplayName
+  isExternal: true
+  name: ArchivedDisplayName
+  nameWithType: EMailSOInfo.ArchivedDisplayName
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo.ArchivedDisplayName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

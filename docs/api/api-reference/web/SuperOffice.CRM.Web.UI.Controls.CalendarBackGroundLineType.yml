@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  id: CalendarBackGroundLineType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.LargeInterval
+  - SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.None
+  - SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.NormalInterval
+  - SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.NormalIntervalFull
+  langs:
+  - csharp
+  - vb
+  name: CalendarBackGroundLineType
+  nameWithType: CalendarBackGroundLineType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum CalendarBackGroundLineType
+    content.vb: Public Enum CalendarBackGroundLineType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.NormalInterval
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.NormalInterval
+  id: NormalInterval
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  langs:
+  - csharp
+  - vb
+  name: NormalInterval
+  nameWithType: CalendarBackGroundLineType.NormalInterval
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.NormalInterval
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: NormalInterval = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.NormalIntervalFull
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.NormalIntervalFull
+  id: NormalIntervalFull
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  langs:
+  - csharp
+  - vb
+  name: NormalIntervalFull
+  nameWithType: CalendarBackGroundLineType.NormalIntervalFull
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.NormalIntervalFull
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: NormalIntervalFull = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.LargeInterval
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.LargeInterval
+  id: LargeInterval
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  langs:
+  - csharp
+  - vb
+  name: LargeInterval
+  nameWithType: CalendarBackGroundLineType.LargeInterval
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.LargeInterval
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: LargeInterval = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.None
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.None
+  id: None
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CalendarBackGroundLineType.None
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType.None
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: None = 3
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarBackGroundLineType
+  nameWithType: CalendarBackGroundLineType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType

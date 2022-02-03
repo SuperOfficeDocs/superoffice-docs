@@ -1,0 +1,937 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ModuleLicense
+  commentId: T:SuperOffice.WebApi.Data.ModuleLicense
+  id: ModuleLicense
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ModuleLicense.#ctor
+  - SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType
+  - SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String
+  - SuperOffice.WebApi.Data.ModuleLicense.ExtraFlags
+  - SuperOffice.WebApi.Data.ModuleLicense.ExtraInfo
+  - SuperOffice.WebApi.Data.ModuleLicense.IsHidden
+  - SuperOffice.WebApi.Data.ModuleLicense.LicenseType
+  - SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String
+  - SuperOffice.WebApi.Data.ModuleLicense.ModuleDescription
+  - SuperOffice.WebApi.Data.ModuleLicense.ModuleName
+  - SuperOffice.WebApi.Data.ModuleLicense.ModuleTooltip
+  - SuperOffice.WebApi.Data.ModuleLicense.ModuleVersion
+  - SuperOffice.WebApi.Data.ModuleLicense.NumberOfLicenses
+  - SuperOffice.WebApi.Data.ModuleLicense.OwnerName
+  - SuperOffice.WebApi.Data.ModuleLicense.PrerequisiteModuleName
+  - SuperOffice.WebApi.Data.ModuleLicense.Signature
+  - SuperOffice.WebApi.Data.ModuleLicense.SortOrder
+  - SuperOffice.WebApi.Data.ModuleLicense.Unrestricted
+  langs:
+  - csharp
+  - vb
+  name: ModuleLicense
+  nameWithType: ModuleLicense
+  fullName: SuperOffice.WebApi.Data.ModuleLicense
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ModuleLicense.\nRepresents a single module license info.    \n"
+  syntax:
+    content: 'public class ModuleLicense : Object'
+    content.vb: >-
+      Public Class ModuleLicense
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.LicenseAgent
+    commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ModuleLicense.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ModuleLicense.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ModuleLicense()
+  nameWithType: ModuleLicense.ModuleLicense()
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ModuleLicense()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ModuleLicense()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ModuleLicense.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ModuleLicense.OwnerName
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.OwnerName
+  id: OwnerName
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: OwnerName
+  nameWithType: ModuleLicense.OwnerName
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.OwnerName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.\n"
+  syntax:
+    content: public virtual string OwnerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnerName As String
+  overload: SuperOffice.WebApi.Data.ModuleLicense.OwnerName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ModuleName
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.ModuleName
+  id: ModuleName
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ModuleName
+  nameWithType: ModuleLicense.ModuleName
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ModuleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the module, not visible in GUI but used in the code. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.\n"
+  syntax:
+    content: public virtual string ModuleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ModuleName As String
+  overload: SuperOffice.WebApi.Data.ModuleLicense.ModuleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ModuleDescription
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.ModuleDescription
+  id: ModuleDescription
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ModuleDescription
+  nameWithType: ModuleLicense.ModuleDescription
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ModuleDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHuman-readable description of module, shown in GUI, default language. Additional languages can be added to LocaleText, resource type 25\n"
+  syntax:
+    content: public virtual string ModuleDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ModuleDescription As String
+  overload: SuperOffice.WebApi.Data.ModuleLicense.ModuleDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ModuleTooltip
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.ModuleTooltip
+  id: ModuleTooltip
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ModuleTooltip
+  nameWithType: ModuleLicense.ModuleTooltip
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ModuleTooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip text, anything you want; shown when the cursor hovers over the line in the GUI. Default language. Additional languages can be added to LocaleText, resource type 27\n"
+  syntax:
+    content: public virtual string ModuleTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ModuleTooltip As String
+  overload: SuperOffice.WebApi.Data.ModuleLicense.ModuleTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ModuleVersion
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.ModuleVersion
+  id: ModuleVersion
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ModuleVersion
+  nameWithType: ModuleLicense.ModuleVersion
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ModuleVersion
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nVersion string for this module\n"
+  syntax:
+    content: public virtual string ModuleVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ModuleVersion As String
+  overload: SuperOffice.WebApi.Data.ModuleLicense.ModuleVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String
+  id: LicenseType_String
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseType_String
+  nameWithType: ModuleLicense.LicenseType_String
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEntire system, per database, or per associate\nRaw string enum value.\n"
+  syntax:
+    content: public string LicenseType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LicenseType_String As String
+  overload: SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ModuleLicense.LicenseType
+    commentId: P:SuperOffice.WebApi.Data.ModuleLicense.LicenseType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ModuleLicense.LicenseType
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.LicenseType
+  id: LicenseType
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseType
+  nameWithType: ModuleLicense.LicenseType
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.LicenseType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEntire system, per database, or per associate\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<LicenseType> LicenseType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.LicenseType}
+    content.vb: Public Property LicenseType As Nullable(Of LicenseType)
+  overload: SuperOffice.WebApi.Data.ModuleLicense.LicenseType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String
+    commentId: P:SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ModuleLicense.Unrestricted
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.Unrestricted
+  id: Unrestricted
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: Unrestricted
+  nameWithType: ModuleLicense.Unrestricted
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.Unrestricted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true, then there is no licenseNumber limit on how many of these modules may be assigned\n"
+  syntax:
+    content: public virtual bool Unrestricted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Unrestricted As Boolean
+  overload: SuperOffice.WebApi.Data.ModuleLicense.Unrestricted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String
+  id: AllowedUserType_String
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: AllowedUserType_String
+  nameWithType: ModuleLicense.AllowedUserType_String
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAllowed associate type for user licenses: internal(0), external(4). \nRaw string enum value.\n"
+  syntax:
+    content: public string AllowedUserType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AllowedUserType_String As String
+  overload: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType
+    commentId: P:SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType
+  id: AllowedUserType
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: AllowedUserType
+  nameWithType: ModuleLicense.AllowedUserType
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAllowed associate type for user licenses: internal(0), external(4). \nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<UserType> AllowedUserType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.UserType}
+    content.vb: Public Property AllowedUserType As Nullable(Of UserType)
+  overload: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String
+    commentId: P:SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ModuleLicense.NumberOfLicenses
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.NumberOfLicenses
+  id: NumberOfLicenses
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: NumberOfLicenses
+  nameWithType: ModuleLicense.NumberOfLicenses
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.NumberOfLicenses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of licenses purchased.\n"
+  syntax:
+    content: public virtual int NumberOfLicenses { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumberOfLicenses As Integer
+  overload: SuperOffice.WebApi.Data.ModuleLicense.NumberOfLicenses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ExtraFlags
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.ExtraFlags
+  id: ExtraFlags
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ExtraFlags
+  nameWithType: ModuleLicense.ExtraFlags
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ExtraFlags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUnspecified extra flags of license, part of checksum. Value=1 means this a &apos;user plan&apos;; such licenses cause the admin gui to switch to radiobutton view\n"
+  syntax:
+    content: public virtual int ExtraFlags { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ExtraFlags As Integer
+  overload: SuperOffice.WebApi.Data.ModuleLicense.ExtraFlags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: ModuleLicense.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFree field, can be used by the module owner (example: host domain, for eJournal). NOTE: For rows with extraFlags=1 this field contains the list of modules that this plan comprises\n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.WebApi.Data.ModuleLicense.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.SortOrder
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.SortOrder
+  id: SortOrder
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: ModuleLicense.SortOrder
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.SortOrder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOrdering value - generated by SuperLicense and transferred here. Must be followed for signatures to be correct\n"
+  syntax:
+    content: public virtual int SortOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SortOrder As Integer
+  overload: SuperOffice.WebApi.Data.ModuleLicense.SortOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.IsHidden
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.IsHidden
+  id: IsHidden
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: IsHidden
+  nameWithType: ModuleLicense.IsHidden
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.IsHidden
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true, then this module should not appear in GUI and is not assignable by users\n"
+  syntax:
+    content: public virtual bool IsHidden { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsHidden As Boolean
+  overload: SuperOffice.WebApi.Data.ModuleLicense.IsHidden*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.PrerequisiteModuleName
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.PrerequisiteModuleName
+  id: PrerequisiteModuleName
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: PrerequisiteModuleName
+  nameWithType: ModuleLicense.PrerequisiteModuleName
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.PrerequisiteModuleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf set, specifies a module license needed before this license can be granted\n"
+  syntax:
+    content: public virtual string PrerequisiteModuleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PrerequisiteModuleName As String
+  overload: SuperOffice.WebApi.Data.ModuleLicense.PrerequisiteModuleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicense.Signature
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.Signature
+  id: Signature
+  parent: SuperOffice.WebApi.Data.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: Signature
+  nameWithType: ModuleLicense.Signature
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.Signature
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSignature that verifies that this row is correctly transferred from SuperLicense\n"
+  syntax:
+    content: public virtual string Signature { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Signature As String
+  overload: SuperOffice.WebApi.Data.ModuleLicense.Signature*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.LicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  isExternal: true
+  name: LicenseAgent
+  nameWithType: LicenseAgent
+  fullName: SuperOffice.WebApi.Agents.LicenseAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ModuleLicense.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.#ctor
+  isExternal: true
+  name: ModuleLicense
+  nameWithType: ModuleLicense.ModuleLicense
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ModuleLicense
+- uid: SuperOffice.WebApi.Data.ModuleLicense.OwnerName*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.OwnerName
+  isExternal: true
+  name: OwnerName
+  nameWithType: ModuleLicense.OwnerName
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.OwnerName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ModuleName*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.ModuleName
+  isExternal: true
+  name: ModuleName
+  nameWithType: ModuleLicense.ModuleName
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ModuleName
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ModuleDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.ModuleDescription
+  isExternal: true
+  name: ModuleDescription
+  nameWithType: ModuleLicense.ModuleDescription
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ModuleDescription
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ModuleTooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.ModuleTooltip
+  isExternal: true
+  name: ModuleTooltip
+  nameWithType: ModuleLicense.ModuleTooltip
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ModuleTooltip
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ModuleVersion*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.ModuleVersion
+  isExternal: true
+  name: ModuleVersion
+  nameWithType: ModuleLicense.ModuleVersion
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ModuleVersion
+- uid: SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String
+  isExternal: true
+  name: LicenseType_String
+  nameWithType: ModuleLicense.LicenseType_String
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String
+- uid: SuperOffice.WebApi.Data.ModuleLicense.LicenseType
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.LicenseType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ModuleLicense.LicenseType*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.LicenseType
+  isExternal: true
+  name: LicenseType
+  nameWithType: ModuleLicense.LicenseType
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.LicenseType
+- uid: SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.LicenseType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.LicenseType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.LicenseType}'
+  definition: System.Nullable`1
+  name: Nullable<LicenseType>
+  nameWithType: Nullable<LicenseType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.LicenseType>
+  nameWithType.vb: Nullable(Of LicenseType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.LicenseType)
+  name.vb: Nullable(Of LicenseType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.LicenseType
+    name: LicenseType
+    nameWithType: LicenseType
+    fullName: SuperOffice.WebApi.Data.LicenseType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.LicenseType
+    name: LicenseType
+    nameWithType: LicenseType
+    fullName: SuperOffice.WebApi.Data.LicenseType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ModuleLicense.Unrestricted*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.Unrestricted
+  isExternal: true
+  name: Unrestricted
+  nameWithType: ModuleLicense.Unrestricted
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.Unrestricted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String
+  isExternal: true
+  name: AllowedUserType_String
+  nameWithType: ModuleLicense.AllowedUserType_String
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String
+- uid: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType
+  isExternal: true
+  name: AllowedUserType
+  nameWithType: ModuleLicense.AllowedUserType
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType
+- uid: SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicense.AllowedUserType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.UserType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.UserType}'
+  definition: System.Nullable`1
+  name: Nullable<UserType>
+  nameWithType: Nullable<UserType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.UserType>
+  nameWithType.vb: Nullable(Of UserType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.UserType)
+  name.vb: Nullable(Of UserType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.UserType
+    name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.WebApi.Data.UserType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.UserType
+    name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.WebApi.Data.UserType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ModuleLicense.NumberOfLicenses*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.NumberOfLicenses
+  isExternal: true
+  name: NumberOfLicenses
+  nameWithType: ModuleLicense.NumberOfLicenses
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.NumberOfLicenses
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ExtraFlags*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.ExtraFlags
+  isExternal: true
+  name: ExtraFlags
+  nameWithType: ModuleLicense.ExtraFlags
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ExtraFlags
+- uid: SuperOffice.WebApi.Data.ModuleLicense.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: ModuleLicense.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.ExtraInfo
+- uid: SuperOffice.WebApi.Data.ModuleLicense.SortOrder*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.SortOrder
+  isExternal: true
+  name: SortOrder
+  nameWithType: ModuleLicense.SortOrder
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.SortOrder
+- uid: SuperOffice.WebApi.Data.ModuleLicense.IsHidden*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.IsHidden
+  isExternal: true
+  name: IsHidden
+  nameWithType: ModuleLicense.IsHidden
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.IsHidden
+- uid: SuperOffice.WebApi.Data.ModuleLicense.PrerequisiteModuleName*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.PrerequisiteModuleName
+  isExternal: true
+  name: PrerequisiteModuleName
+  nameWithType: ModuleLicense.PrerequisiteModuleName
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.PrerequisiteModuleName
+- uid: SuperOffice.WebApi.Data.ModuleLicense.Signature*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicense.Signature
+  isExternal: true
+  name: Signature
+  nameWithType: ModuleLicense.Signature
+  fullName: SuperOffice.WebApi.Data.ModuleLicense.Signature

@@ -1,0 +1,2590 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  id: DashboardTileDefinitionTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyMode
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DashboardTileDefinitionId
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultHeight
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultWidth
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Definition
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Description
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityName
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityType
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LayoutConfig
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTile_DashboardTileDefinitionId
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_Selection_DashboardTileDefinitionId
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Measure
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureByField
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureField
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Name
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Registered
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId_InnerJoin_Selection
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId_InnerJoin_Selection
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SortBy
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.TileType
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Updated
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinitionTableInfo
+  nameWithType: DashboardTileDefinitionTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;dashboard_tile_definition&apos;: Describes the contents of a tile\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetDashboardTileDefinitionInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("dashboard_tile_definition")]
+
+      public class DashboardTileDefinitionTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("dashboard_tile_definition")>
+
+      Public Class DashboardTileDefinitionTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: dashboard_tile_definition
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: DashboardTileDefinitionTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table DashboardTileDefinition in the database dictionary: dashboard_tile_definition\n"
+  syntax:
+    content: public const string DictionaryTableName = "dashboard_tile_definition"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "dashboard_tile_definition"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: DashboardTileDefinitionTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table DashboardTileDefinition in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: DashboardTileDefinitionTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: DashboardTileDefinitionTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DashboardTileDefinitionId
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DashboardTileDefinitionId
+  id: DashboardTileDefinitionId
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinitionId
+  nameWithType: DashboardTileDefinitionTableInfo.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DashboardTileDefinitionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;dashboard_tile_definition_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo DashboardTileDefinitionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property DashboardTileDefinitionId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DashboardTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Name
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DashboardTileDefinitionTableInfo.Name
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;name&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type String[4001], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe name of the tile\n"
+  syntax:
+    content: public StringFieldInfo Name { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Name As StringFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Description
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DashboardTileDefinitionTableInfo.Description
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Description
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;description&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type String[4001], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDetailed description\n"
+  syntax:
+    content: public StringFieldInfo Description { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Description As StringFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultWidth
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultWidth
+  id: DefaultWidth
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultWidth
+  nameWithType: DashboardTileDefinitionTableInfo.DefaultWidth
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultWidth
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;default_width&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault width when added to a dashboard\n"
+  syntax:
+    content: public Int32FieldInfo DefaultWidth { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property DefaultWidth As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultWidth*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultHeight
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultHeight
+  id: DefaultHeight
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultHeight
+  nameWithType: DashboardTileDefinitionTableInfo.DefaultHeight
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultHeight
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;default_height&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault height when added to a dashboard\n"
+  syntax:
+    content: public Int32FieldInfo DefaultHeight { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property DefaultHeight As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultHeight*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.TileType
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.TileType
+  id: TileType
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TileType
+  nameWithType: DashboardTileDefinitionTableInfo.TileType
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.TileType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;tile_type&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.DashTileType\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDashboard tile type\n"
+  syntax:
+    content: public DashTileTypeFieldInfo TileType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DashTileTypeFieldInfo
+    content.vb: Public ReadOnly Property TileType As DashTileTypeFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.TileType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityType
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityType
+  id: EntityType
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: DashboardTileDefinitionTableInfo.EntityType
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;entity_type&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.DashTileEntityType\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDashboard entity type\n"
+  syntax:
+    content: public DashTileEntityTypeFieldInfo EntityType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
+    content.vb: Public ReadOnly Property EntityType As DashTileEntityTypeFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DashboardTileDefinitionTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DashboardTileDefinitionTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DashboardTileDefinitionTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DashboardTileDefinitionTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DashboardTileDefinitionTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updatedCount&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: DashboardTileDefinitionTableInfo.SelectionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;selection_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSelection holding the criterias for the tile definition\n"
+  syntax:
+    content: public Int32FieldInfo SelectionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SelectionId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: DashboardTileDefinitionTableInfo.CurrencyId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;currency_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCurrency of sale\n"
+  syntax:
+    content: public Int32FieldInfo CurrencyId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property CurrencyId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyMode
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyMode
+  id: CurrencyMode
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CurrencyMode
+  nameWithType: DashboardTileDefinitionTableInfo.CurrencyMode
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyMode
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;currency_mode&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.DashTileCurrencyMode\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDashboard currency mode\n"
+  syntax:
+    content: public DashTileCurrencyModeFieldInfo CurrencyMode { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
+    content.vb: Public ReadOnly Property CurrencyMode As DashTileCurrencyModeFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyMode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SortBy
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SortBy
+  id: SortBy
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SortBy
+  nameWithType: DashboardTileDefinitionTableInfo.SortBy
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SortBy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;sort_by&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSort by field\n"
+  syntax:
+    content: public StringFieldInfo SortBy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property SortBy As StringFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SortBy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Measure
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Measure
+  id: Measure
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Measure
+  nameWithType: DashboardTileDefinitionTableInfo.Measure
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Measure
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;measure&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.DashTileMeasure\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDashboard measure type (Count, Sum, Avg, etc.)\n"
+  syntax:
+    content: public DashTileMeasureFieldInfo Measure { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DashTileMeasureFieldInfo
+    content.vb: Public ReadOnly Property Measure As DashTileMeasureFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Measure*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureField
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureField
+  id: MeasureField
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MeasureField
+  nameWithType: DashboardTileDefinitionTableInfo.MeasureField
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureField
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;measure_field&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField to be measured\n"
+  syntax:
+    content: public StringFieldInfo MeasureField { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property MeasureField As StringFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureField*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId
+  id: SecondarySelectionId
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SecondarySelectionId
+  nameWithType: DashboardTileDefinitionTableInfo.SecondarySelectionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;secondary_selection_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSelection holding the replaced or changed criterias (period comparisons etc)\n"
+  syntax:
+    content: public Int32FieldInfo SecondarySelectionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SecondarySelectionId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LayoutConfig
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LayoutConfig
+  id: LayoutConfig
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LayoutConfig
+  nameWithType: DashboardTileDefinitionTableInfo.LayoutConfig
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LayoutConfig
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;layout_config&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe JSON formatted layout config\n"
+  syntax:
+    content: public StringFieldInfo LayoutConfig { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property LayoutConfig As StringFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LayoutConfig*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityName
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityName
+  id: EntityName
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: DashboardTileDefinitionTableInfo.EntityName
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;entity_name&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe entity measured by this tile, defines what provider to use\n"
+  syntax:
+    content: public StringFieldInfo EntityName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property EntityName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureByField
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureByField
+  id: MeasureByField
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MeasureByField
+  nameWithType: DashboardTileDefinitionTableInfo.MeasureByField
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureByField
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;measure_by_field&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField to group by\n"
+  syntax:
+    content: public StringFieldInfo MeasureByField { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property MeasureByField As StringFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureByField*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: DashboardTileDefinitionTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId_InnerJoin_Selection
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId_InnerJoin_Selection
+  id: SelectionId_InnerJoin_Selection
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SelectionId_InnerJoin_Selection
+  nameWithType: DashboardTileDefinitionTableInfo.SelectionId_InnerJoin_Selection
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId_InnerJoin_Selection
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key SelectionId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.SelectionTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<SelectionTableInfo> SelectionId_InnerJoin_Selection { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SelectionTableInfo}
+    content.vb: Public ReadOnly Property SelectionId_InnerJoin_Selection As TargetedInnerJoin(Of SelectionTableInfo)
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId_InnerJoin_Selection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
+  id: CurrencyId_InnerJoin_Currency
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId_InnerJoin_Currency
+  nameWithType: DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key CurrencyId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.CurrencyTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<CurrencyTableInfo> CurrencyId_InnerJoin_Currency { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CurrencyTableInfo}
+    content.vb: Public ReadOnly Property CurrencyId_InnerJoin_Currency As TargetedInnerJoin(Of CurrencyTableInfo)
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId_InnerJoin_Selection
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId_InnerJoin_Selection
+  id: SecondarySelectionId_InnerJoin_Selection
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SecondarySelectionId_InnerJoin_Selection
+  nameWithType: DashboardTileDefinitionTableInfo.SecondarySelectionId_InnerJoin_Selection
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId_InnerJoin_Selection
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key SecondarySelectionId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.SelectionTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<SelectionTableInfo> SecondarySelectionId_InnerJoin_Selection { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SelectionTableInfo}
+    content.vb: Public ReadOnly Property SecondarySelectionId_InnerJoin_Selection As TargetedInnerJoin(Of SelectionTableInfo)
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId_InnerJoin_Selection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_Selection_DashboardTileDefinitionId
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_Selection_DashboardTileDefinitionId
+  id: LeftOuterJoin_Selection_DashboardTileDefinitionId
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Selection_DashboardTileDefinitionId
+  nameWithType: DashboardTileDefinitionTableInfo.LeftOuterJoin_Selection_DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_Selection_DashboardTileDefinitionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key DashboardTileDefinitionId on this table, to Selection.<xref href=\"SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<SelectionTableInfo> LeftOuterJoin_Selection_DashboardTileDefinitionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SelectionTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Selection_DashboardTileDefinitionId As TargetedLeftOuterJoin(Of SelectionTableInfo)
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_Selection_DashboardTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTile_DashboardTileDefinitionId
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTile_DashboardTileDefinitionId
+  id: LeftOuterJoin_DashboardTile_DashboardTileDefinitionId
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_DashboardTile_DashboardTileDefinitionId
+  nameWithType: DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTile_DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTile_DashboardTileDefinitionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key DashboardTileDefinitionId on this table, to DashboardTile.<xref href=\"SuperOffice.CRM.Data.DashboardTileTableInfo.DashboardTileDefinitionId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<DashboardTileTableInfo> LeftOuterJoin_DashboardTile_DashboardTileDefinitionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_DashboardTile_DashboardTileDefinitionId As TargetedLeftOuterJoin(Of DashboardTileTableInfo)
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTile_DashboardTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId
+  id: LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId
+  nameWithType: DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key DashboardTileDefinitionId on this table, to DashboardTileField.<xref href=\"SuperOffice.CRM.Data.DashboardTileFieldTableInfo.DashboardTileDefinitionId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<DashboardTileFieldTableInfo> LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileFieldTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId As TargetedLeftOuterJoin(Of DashboardTileFieldTableInfo)
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DashboardTileDefinitionTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<DashboardTileDefinitionTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DashboardTileDefinitionTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo, To)()
+  name.vb: MapEnums(Of DashboardTileDefinitionTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DashboardTileDefinitionTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<DashboardTileDefinitionTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DashboardTileDefinitionTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of DashboardTileDefinitionTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DashboardTileDefinitionTableInfo, To>()
+  nameWithType: Converters.MapEnums<DashboardTileDefinitionTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of DashboardTileDefinitionTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo, To)()
+  name.vb: MapEnums(Of DashboardTileDefinitionTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DashboardTileDefinitionTableInfo, To>
+    nameWithType: Converters.MapEnums<DashboardTileDefinitionTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DashboardTileDefinitionTableInfo, To)
+    nameWithType: Converters.MapEnums(Of DashboardTileDefinitionTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: DashboardTileDefinitionTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: DashboardTileDefinitionTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: DashboardTileDefinitionTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Definition
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DashboardTileDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DashboardTileDefinitionId
+  isExternal: true
+  name: DashboardTileDefinitionId
+  nameWithType: DashboardTileDefinitionTableInfo.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DashboardTileDefinitionId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Name*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: DashboardTileDefinitionTableInfo.Name
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Name
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Description*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: DashboardTileDefinitionTableInfo.Description
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Description
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultWidth*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultWidth
+  isExternal: true
+  name: DefaultWidth
+  nameWithType: DashboardTileDefinitionTableInfo.DefaultWidth
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultWidth
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultHeight*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultHeight
+  isExternal: true
+  name: DefaultHeight
+  nameWithType: DashboardTileDefinitionTableInfo.DefaultHeight
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultHeight
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.TileType*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.TileType
+  isExternal: true
+  name: TileType
+  nameWithType: DashboardTileDefinitionTableInfo.TileType
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.TileType
+- uid: SuperOffice.Data.SQL.DashTileTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DashTileTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DashTileTypeFieldInfo
+  nameWithType: DashTileTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.DashTileTypeFieldInfo
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityType*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityType
+  isExternal: true
+  name: EntityType
+  nameWithType: DashboardTileDefinitionTableInfo.EntityType
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityType
+- uid: SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DashTileEntityTypeFieldInfo
+  nameWithType: DashTileEntityTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: DashboardTileDefinitionTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Registered
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: DashboardTileDefinitionTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: DashboardTileDefinitionTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Updated
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: DashboardTileDefinitionTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: DashboardTileDefinitionTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedCount
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: DashboardTileDefinitionTableInfo.SelectionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
+  isExternal: true
+  name: CurrencyId
+  nameWithType: DashboardTileDefinitionTableInfo.CurrencyId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyMode*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyMode
+  isExternal: true
+  name: CurrencyMode
+  nameWithType: DashboardTileDefinitionTableInfo.CurrencyMode
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyMode
+- uid: SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DashTileCurrencyModeFieldInfo
+  nameWithType: DashTileCurrencyModeFieldInfo
+  fullName: SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SortBy*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SortBy
+  isExternal: true
+  name: SortBy
+  nameWithType: DashboardTileDefinitionTableInfo.SortBy
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SortBy
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Measure*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Measure
+  isExternal: true
+  name: Measure
+  nameWithType: DashboardTileDefinitionTableInfo.Measure
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Measure
+- uid: SuperOffice.Data.SQL.DashTileMeasureFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DashTileMeasureFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DashTileMeasureFieldInfo
+  nameWithType: DashTileMeasureFieldInfo
+  fullName: SuperOffice.Data.SQL.DashTileMeasureFieldInfo
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureField*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureField
+  isExternal: true
+  name: MeasureField
+  nameWithType: DashboardTileDefinitionTableInfo.MeasureField
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureField
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId
+  isExternal: true
+  name: SecondarySelectionId
+  nameWithType: DashboardTileDefinitionTableInfo.SecondarySelectionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LayoutConfig*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LayoutConfig
+  isExternal: true
+  name: LayoutConfig
+  nameWithType: DashboardTileDefinitionTableInfo.LayoutConfig
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LayoutConfig
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityName*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityName
+  isExternal: true
+  name: EntityName
+  nameWithType: DashboardTileDefinitionTableInfo.EntityName
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EntityName
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureByField*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureByField
+  isExternal: true
+  name: MeasureByField
+  nameWithType: DashboardTileDefinitionTableInfo.MeasureByField
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureByField
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: DashboardTileDefinitionTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId_InnerJoin_Selection*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId_InnerJoin_Selection
+  isExternal: true
+  name: SelectionId_InnerJoin_Selection
+  nameWithType: DashboardTileDefinitionTableInfo.SelectionId_InnerJoin_Selection
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId_InnerJoin_Selection
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SelectionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SelectionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<SelectionTableInfo>
+  nameWithType: TargetedInnerJoin<SelectionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.SelectionTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of SelectionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.SelectionTableInfo)
+  name.vb: TargetedInnerJoin(Of SelectionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.SelectionTableInfo
+    name: SelectionTableInfo
+    nameWithType: SelectionTableInfo
+    fullName: SuperOffice.CRM.Data.SelectionTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.SelectionTableInfo
+    name: SelectionTableInfo
+    nameWithType: SelectionTableInfo
+    fullName: SuperOffice.CRM.Data.SelectionTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
+  isExternal: true
+  name: CurrencyId_InnerJoin_Currency
+  nameWithType: DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CurrencyTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CurrencyTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<CurrencyTableInfo>
+  nameWithType: TargetedInnerJoin<CurrencyTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.CurrencyTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of CurrencyTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.CurrencyTableInfo)
+  name.vb: TargetedInnerJoin(Of CurrencyTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.CurrencyTableInfo
+    name: CurrencyTableInfo
+    nameWithType: CurrencyTableInfo
+    fullName: SuperOffice.CRM.Data.CurrencyTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.CurrencyTableInfo
+    name: CurrencyTableInfo
+    nameWithType: CurrencyTableInfo
+    fullName: SuperOffice.CRM.Data.CurrencyTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId_InnerJoin_Selection*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId_InnerJoin_Selection
+  isExternal: true
+  name: SecondarySelectionId_InnerJoin_Selection
+  nameWithType: DashboardTileDefinitionTableInfo.SecondarySelectionId_InnerJoin_Selection
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId_InnerJoin_Selection
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_Selection_DashboardTileDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_Selection_DashboardTileDefinitionId
+  isExternal: true
+  name: LeftOuterJoin_Selection_DashboardTileDefinitionId
+  nameWithType: DashboardTileDefinitionTableInfo.LeftOuterJoin_Selection_DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_Selection_DashboardTileDefinitionId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SelectionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SelectionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<SelectionTableInfo>
+  nameWithType: TargetedLeftOuterJoin<SelectionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SelectionTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of SelectionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.SelectionTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of SelectionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.SelectionTableInfo
+    name: SelectionTableInfo
+    nameWithType: SelectionTableInfo
+    fullName: SuperOffice.CRM.Data.SelectionTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.SelectionTableInfo
+    name: SelectionTableInfo
+    nameWithType: SelectionTableInfo
+    fullName: SuperOffice.CRM.Data.SelectionTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTile_DashboardTileDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTile_DashboardTileDefinitionId
+  isExternal: true
+  name: LeftOuterJoin_DashboardTile_DashboardTileDefinitionId
+  nameWithType: DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTile_DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTile_DashboardTileDefinitionId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<DashboardTileTableInfo>
+  nameWithType: TargetedLeftOuterJoin<DashboardTileTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.DashboardTileTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of DashboardTileTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.DashboardTileTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of DashboardTileTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+    name: DashboardTileTableInfo
+    nameWithType: DashboardTileTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTileTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+    name: DashboardTileTableInfo
+    nameWithType: DashboardTileTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTileTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId
+  isExternal: true
+  name: LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId
+  nameWithType: DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.LeftOuterJoin_DashboardTileField_DashboardTileDefinitionId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileFieldTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileFieldTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<DashboardTileFieldTableInfo>
+  nameWithType: TargetedLeftOuterJoin<DashboardTileFieldTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.DashboardTileFieldTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of DashboardTileFieldTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.DashboardTileFieldTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of DashboardTileFieldTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+    name: DashboardTileFieldTableInfo
+    nameWithType: DashboardTileFieldTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+    name: DashboardTileFieldTableInfo
+    nameWithType: DashboardTileFieldTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

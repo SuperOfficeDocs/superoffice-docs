@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FieldRight
+  commentId: T:SuperOffice.WebApi.Data.FieldRight
+  id: FieldRight
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FieldRight.#ctor
+  - SuperOffice.WebApi.Data.FieldRight.Mask
+  - SuperOffice.WebApi.Data.FieldRight.Mask_String
+  - SuperOffice.WebApi.Data.FieldRight.Reason
+  langs:
+  - csharp
+  - vb
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.WebApi.Data.FieldRight
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for FieldRight.\nWraps a field right together with an explanatory reason.    \n"
+  syntax:
+    content: 'public class FieldRight : Object'
+    content.vb: >-
+      Public Class FieldRight
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FieldRight.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FieldRight.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: FieldRight()
+  nameWithType: FieldRight.FieldRight()
+  fullName: SuperOffice.WebApi.Data.FieldRight.FieldRight()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public FieldRight()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FieldRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FieldRight.Mask_String
+  commentId: P:SuperOffice.WebApi.Data.FieldRight.Mask_String
+  id: Mask_String
+  parent: SuperOffice.WebApi.Data.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: Mask_String
+  nameWithType: FieldRight.Mask_String
+  fullName: SuperOffice.WebApi.Data.FieldRight.Mask_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns the bitflag of permissions.\nRaw string enum value.\n"
+  syntax:
+    content: public string Mask_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Mask_String As String
+  overload: SuperOffice.WebApi.Data.FieldRight.Mask_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FieldRight.Mask
+    commentId: P:SuperOffice.WebApi.Data.FieldRight.Mask
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FieldRight.Mask
+  commentId: P:SuperOffice.WebApi.Data.FieldRight.Mask
+  id: Mask
+  parent: SuperOffice.WebApi.Data.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: Mask
+  nameWithType: FieldRight.Mask
+  fullName: SuperOffice.WebApi.Data.FieldRight.Mask
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns the bitflag of permissions.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<EFieldRight> Mask { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.EFieldRight}
+    content.vb: Public Property Mask As Nullable(Of EFieldRight)
+  overload: SuperOffice.WebApi.Data.FieldRight.Mask*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FieldRight.Mask_String
+    commentId: P:SuperOffice.WebApi.Data.FieldRight.Mask_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FieldRight.Reason
+  commentId: P:SuperOffice.WebApi.Data.FieldRight.Reason
+  id: Reason
+  parent: SuperOffice.WebApi.Data.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: FieldRight.Reason
+  fullName: SuperOffice.WebApi.Data.FieldRight.Reason
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains a string that explains why the right is not available. The reason is blank if HasAll is true.\n"
+  syntax:
+    content: public virtual string Reason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Reason As String
+  overload: SuperOffice.WebApi.Data.FieldRight.Reason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FieldRight.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldRight.#ctor
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight.FieldRight
+  fullName: SuperOffice.WebApi.Data.FieldRight.FieldRight
+- uid: SuperOffice.WebApi.Data.FieldRight.Mask_String*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldRight.Mask_String
+  isExternal: true
+  name: Mask_String
+  nameWithType: FieldRight.Mask_String
+  fullName: SuperOffice.WebApi.Data.FieldRight.Mask_String
+- uid: SuperOffice.WebApi.Data.FieldRight.Mask
+  commentId: P:SuperOffice.WebApi.Data.FieldRight.Mask
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.FieldRight.Mask*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldRight.Mask
+  isExternal: true
+  name: Mask
+  nameWithType: FieldRight.Mask
+  fullName: SuperOffice.WebApi.Data.FieldRight.Mask
+- uid: SuperOffice.WebApi.Data.FieldRight.Mask_String
+  commentId: P:SuperOffice.WebApi.Data.FieldRight.Mask_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.EFieldRight}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.EFieldRight}'
+  definition: System.Nullable`1
+  name: Nullable<EFieldRight>
+  nameWithType: Nullable<EFieldRight>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.EFieldRight>
+  nameWithType.vb: Nullable(Of EFieldRight)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.EFieldRight)
+  name.vb: Nullable(Of EFieldRight)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EFieldRight
+    name: EFieldRight
+    nameWithType: EFieldRight
+    fullName: SuperOffice.WebApi.Data.EFieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EFieldRight
+    name: EFieldRight
+    nameWithType: EFieldRight
+    fullName: SuperOffice.WebApi.Data.EFieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.FieldRight.Reason*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldRight.Reason
+  isExternal: true
+  name: Reason
+  nameWithType: FieldRight.Reason
+  fullName: SuperOffice.WebApi.Data.FieldRight.Reason

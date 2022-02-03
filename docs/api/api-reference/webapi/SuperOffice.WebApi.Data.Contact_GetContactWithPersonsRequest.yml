@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest
+  id: Contact_GetContactWithPersonsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.ContactId
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetContactWithPersonsRequest
+  nameWithType: Contact_GetContactWithPersonsRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_GetContactWithPersonsRequest : Object'
+    content.vb: >-
+      Public Class Contact_GetContactWithPersonsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetContactWithPersonsRequest()
+  nameWithType: Contact_GetContactWithPersonsRequest.Contact_GetContactWithPersonsRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.Contact_GetContactWithPersonsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_GetContactWithPersonsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: Contact_GetContactWithPersonsRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.#ctor
+  isExternal: true
+  name: Contact_GetContactWithPersonsRequest
+  nameWithType: Contact_GetContactWithPersonsRequest.Contact_GetContactWithPersonsRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.Contact_GetContactWithPersonsRequest
+- uid: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: Contact_GetContactWithPersonsRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Contact_GetContactWithPersonsRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

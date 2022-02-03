@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  id: CalendarLayoutEnum
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Custom
+  - SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Day
+  - SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.MiniDay
+  - SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.MiniWeek
+  - SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Month
+  - SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.View
+  - SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Week
+  langs:
+  - csharp
+  - vb
+  name: CalendarLayoutEnum
+  nameWithType: CalendarLayoutEnum
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum CalendarLayoutEnum
+    content.vb: Public Enum CalendarLayoutEnum
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Day
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Day
+  id: Day
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: CalendarLayoutEnum.Day
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Day
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Day = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Week
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Week
+  id: Week
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  langs:
+  - csharp
+  - vb
+  name: Week
+  nameWithType: CalendarLayoutEnum.Week
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Week
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Week = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Month
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Month
+  id: Month
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: CalendarLayoutEnum.Month
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Month
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Month = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.View
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.View
+  id: View
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  langs:
+  - csharp
+  - vb
+  name: View
+  nameWithType: CalendarLayoutEnum.View
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.View
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: View = 3
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.MiniDay
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.MiniDay
+  id: MiniDay
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  langs:
+  - csharp
+  - vb
+  name: MiniDay
+  nameWithType: CalendarLayoutEnum.MiniDay
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.MiniDay
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: MiniDay = 4
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.MiniWeek
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.MiniWeek
+  id: MiniWeek
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  langs:
+  - csharp
+  - vb
+  name: MiniWeek
+  nameWithType: CalendarLayoutEnum.MiniWeek
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.MiniWeek
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: MiniWeek = 5
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Custom
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Custom
+  id: Custom
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: CalendarLayoutEnum.Custom
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum.Custom
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Custom = 6
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarLayoutEnum
+  nameWithType: CalendarLayoutEnum
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum

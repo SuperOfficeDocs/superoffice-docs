@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  commentId: T:SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  id: CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.#ctor
+  - SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.Crmscript
+  - SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  nameWithType: CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CRMScript_SaveCRMScriptByUniqueIdentifierRequest : Object'
+    content.vb: >-
+      Public Class CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_SaveCRMScriptByUniqueIdentifierRequest()
+  nameWithType: CRMScript_SaveCRMScriptByUniqueIdentifierRequest.CRMScript_SaveCRMScriptByUniqueIdentifierRequest()
+  fullName: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.CRMScript_SaveCRMScriptByUniqueIdentifierRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CRMScript_SaveCRMScriptByUniqueIdentifierRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  id: UniqueIdentifier
+  parent: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  langs:
+  - csharp
+  - vb
+  name: UniqueIdentifier
+  nameWithType: CRMScript_SaveCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  fullName: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UniqueIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UniqueIdentifier As String
+  overload: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.UniqueIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.Crmscript
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.Crmscript
+  id: Crmscript
+  parent: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  langs:
+  - csharp
+  - vb
+  name: Crmscript
+  nameWithType: CRMScript_SaveCRMScriptByUniqueIdentifierRequest.Crmscript
+  fullName: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.Crmscript
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Script Crmscript { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Script
+    content.vb: Public Property Crmscript As Script
+  overload: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.Crmscript*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.#ctor
+  isExternal: true
+  name: CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  nameWithType: CRMScript_SaveCRMScriptByUniqueIdentifierRequest.CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+- uid: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.UniqueIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  isExternal: true
+  name: UniqueIdentifier
+  nameWithType: CRMScript_SaveCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  fullName: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.Crmscript*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.Crmscript
+  isExternal: true
+  name: Crmscript
+  nameWithType: CRMScript_SaveCRMScriptByUniqueIdentifierRequest.Crmscript
+  fullName: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest.Crmscript
+- uid: SuperOffice.WebApi.Data.Script
+  commentId: T:SuperOffice.WebApi.Data.Script
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Script
+  nameWithType: Script
+  fullName: SuperOffice.WebApi.Data.Script

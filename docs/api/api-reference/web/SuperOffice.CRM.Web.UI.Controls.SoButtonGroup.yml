@@ -1,0 +1,1468 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  id: SoButtonGroup
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._addVerticalSpacer
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._cssClass
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._customCssClass
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._table
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._useBackground
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl(System.Web.UI.Control)
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl(System.Web.UI.Control,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddVerticalSpacer
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonBarSetup
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonInitialize
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonSetup
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CenterElements
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ControlLayout
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CustomCssClass
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElements
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElementsWidth
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.OnLoad(System.EventArgs)
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.RightElements
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.UseBackground
+  langs:
+  - csharp
+  - vb
+  name: SoButtonGroup
+  nameWithType: SoButtonGroup
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class SoButtonGroup : ControlGroupBase, IControlGroup, ILayout, IHasSchema'
+    content.vb: >-
+      Public Class SoButtonGroup
+          Inherits ControlGroupBase
+          Implements IControlGroup, ILayout, IHasSchema
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  derivedClasses:
+  - SuperOffice.CRM.Web.UI.Controls.OkCancelButtonBar
+  - SuperOffice.CRM.Web.UI.Controls.SoRadioButtonGroup
+  implements:
+  - SuperOffice.DCF.Web.UI.IControlGroup
+  - SuperOffice.DCF.Web.UI.ILayout
+  - SuperOffice.Configuration.IHasSchema
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase._controlGroupControl
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddToContainer(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.CssClass
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlCollection
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlGroupControl
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Caption
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Tooltip
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.LayoutPosition
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Position
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Top
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.BackgroundColor
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Left
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Right
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Bottom
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Width
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Height
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ZIndex
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Overflow
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Visibility
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Column
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Row
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.RowSpan
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ColSpan
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.EditMode
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSourceName
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSource
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ConfigurationSchema
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.VisibilityBinding
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._useBackground
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._useBackground
+  id: _useBackground
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: _useBackground
+  nameWithType: SoButtonGroup._useBackground
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._useBackground
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected bool _useBackground
+    return:
+      type: System.Boolean
+    content.vb: Protected _useBackground As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._customCssClass
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._customCssClass
+  id: _customCssClass
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: _customCssClass
+  nameWithType: SoButtonGroup._customCssClass
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._customCssClass
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _customCssClass
+    return:
+      type: System.String
+    content.vb: Protected _customCssClass As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._addVerticalSpacer
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._addVerticalSpacer
+  id: _addVerticalSpacer
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: _addVerticalSpacer
+  nameWithType: SoButtonGroup._addVerticalSpacer
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._addVerticalSpacer
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected bool _addVerticalSpacer
+    return:
+      type: System.Boolean
+    content.vb: Protected _addVerticalSpacer As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._cssClass
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._cssClass
+  id: _cssClass
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: _cssClass
+  nameWithType: SoButtonGroup._cssClass
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._cssClass
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _cssClass
+    return:
+      type: System.String
+    content.vb: Protected _cssClass As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._table
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._table
+  id: _table
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: _table
+  nameWithType: SoButtonGroup._table
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup._table
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected Table _table
+    return:
+      type: System.Web.UI.WebControls.Table
+    content.vb: Protected _table As Table
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: SoButtonGroup.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Public Overrides Sub Initialize(config As XmlNode, id As String)
+  overridden: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Initialize(System.Xml.XmlNode,System.String)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl(System.Web.UI.Control)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl(System.Web.UI.Control)
+  id: AddControl(System.Web.UI.Control)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: AddControl(Control)
+  nameWithType: SoButtonGroup.AddControl(Control)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void AddControl(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    content.vb: Protected Overrides Sub AddControl(control As Control)
+  overridden: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddControl(System.Web.UI.Control)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl(System.Web.UI.Control,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl(System.Web.UI.Control,System.String)
+  id: AddControl(System.Web.UI.Control,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: AddControl(Control, String)
+  nameWithType: SoButtonGroup.AddControl(Control, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl(System.Web.UI.Control, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public virtual void AddControl(Control control, string alignment)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    - id: alignment
+      type: System.String
+    content.vb: Public Overridable Sub AddControl(control As Control, alignment As String)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: SoButtonGroup.OnLoad(EventArgs)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overridden: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.OnLoad(System.EventArgs)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonInitialize
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonInitialize
+  id: ButtonInitialize
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: ButtonInitialize()
+  nameWithType: SoButtonGroup.ButtonInitialize()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonInitialize()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void ButtonInitialize()
+    content.vb: Protected Overridable Sub ButtonInitialize
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonInitialize*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonSetup
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonSetup
+  id: ButtonSetup
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: ButtonSetup()
+  nameWithType: SoButtonGroup.ButtonSetup()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonSetup()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void ButtonSetup()
+    content.vb: Protected Overridable Sub ButtonSetup
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonSetup*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonBarSetup
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonBarSetup
+  id: ButtonBarSetup
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: ButtonBarSetup()
+  nameWithType: SoButtonGroup.ButtonBarSetup()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonBarSetup()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void ButtonBarSetup()
+    content.vb: Protected Overridable Sub ButtonBarSetup
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonBarSetup*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: SoButtonGroup()
+  nameWithType: SoButtonGroup.SoButtonGroup()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.SoButtonGroup()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SoButtonGroup()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddVerticalSpacer
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddVerticalSpacer
+  id: AddVerticalSpacer
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: AddVerticalSpacer
+  nameWithType: SoButtonGroup.AddVerticalSpacer
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddVerticalSpacer
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool AddVerticalSpacer { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AddVerticalSpacer As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddVerticalSpacer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.UseBackground
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.UseBackground
+  id: UseBackground
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: UseBackground
+  nameWithType: SoButtonGroup.UseBackground
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.UseBackground
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool UseBackground { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseBackground As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.UseBackground*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElementsWidth
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElementsWidth
+  id: LeftElementsWidth
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: LeftElementsWidth
+  nameWithType: SoButtonGroup.LeftElementsWidth
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElementsWidth
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string LeftElementsWidth { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LeftElementsWidth As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElementsWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ControlLayout
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ControlLayout
+  id: ControlLayout
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: ControlLayout
+  nameWithType: SoButtonGroup.ControlLayout
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ControlLayout
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public virtual SoButtonBarLayout ControlLayout { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+    content.vb: Public Overridable Property ControlLayout As SoButtonBarLayout
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ControlLayout*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.RightElements
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.RightElements
+  id: RightElements
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: RightElements
+  nameWithType: SoButtonGroup.RightElements
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.RightElements
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public virtual List<Control> RightElements { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Web.UI.Control}
+    content.vb: Public Overridable ReadOnly Property RightElements As List(Of Control)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.RightElements*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElements
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElements
+  id: LeftElements
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: LeftElements
+  nameWithType: SoButtonGroup.LeftElements
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElements
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public virtual List<Control> LeftElements { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Web.UI.Control}
+    content.vb: Public Overridable ReadOnly Property LeftElements As List(Of Control)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElements*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CenterElements
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CenterElements
+  id: CenterElements
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: CenterElements
+  nameWithType: SoButtonGroup.CenterElements
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CenterElements
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public virtual List<Control> CenterElements { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Web.UI.Control}
+    content.vb: Public Overridable ReadOnly Property CenterElements As List(Of Control)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CenterElements*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CustomCssClass
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CustomCssClass
+  id: CustomCssClass
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: CustomCssClass
+  nameWithType: SoButtonGroup.CustomCssClass
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CustomCssClass
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public virtual string CustomCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CustomCssClass As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CustomCssClass*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: ControlGroupBase
+  nameWithType: ControlGroupBase
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+- uid: SuperOffice.DCF.Web.UI.IControlGroup
+  commentId: T:SuperOffice.DCF.Web.UI.IControlGroup
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IControlGroup
+  nameWithType: IControlGroup
+  fullName: SuperOffice.DCF.Web.UI.IControlGroup
+- uid: SuperOffice.DCF.Web.UI.ILayout
+  commentId: T:SuperOffice.DCF.Web.UI.ILayout
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ILayout
+  nameWithType: ILayout
+  fullName: SuperOffice.DCF.Web.UI.ILayout
+- uid: SuperOffice.Configuration.IHasSchema
+  commentId: T:SuperOffice.Configuration.IHasSchema
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: IHasSchema
+  nameWithType: IHasSchema
+  fullName: SuperOffice.Configuration.IHasSchema
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase._controlGroupControl
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase._controlGroupControl
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: _controlGroupControl
+  nameWithType: ControlGroupBase._controlGroupControl
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase._controlGroupControl
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddToContainer(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddToContainer(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: AddToContainer(Control)
+  nameWithType: ControlGroupBase.AddToContainer(Control)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddToContainer(System.Web.UI.Control)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddToContainer(System.Web.UI.Control)
+    name: AddToContainer
+    nameWithType: ControlGroupBase.AddToContainer
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddToContainer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddToContainer(System.Web.UI.Control)
+    name: AddToContainer
+    nameWithType: ControlGroupBase.AddToContainer
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddToContainer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Render(HtmlTextWriter)
+  nameWithType: ControlGroupBase.Render(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: ControlGroupBase.Render
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: ControlGroupBase.Render
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: DataBind()
+  nameWithType: ControlGroupBase.DataBind()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+    name: DataBind
+    nameWithType: ControlGroupBase.DataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+    name: DataBind
+    nameWithType: ControlGroupBase.DataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: UpdateDataSource()
+  nameWithType: ControlGroupBase.UpdateDataSource()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+    name: UpdateDataSource
+    nameWithType: ControlGroupBase.UpdateDataSource
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+    name: UpdateDataSource
+    nameWithType: ControlGroupBase.UpdateDataSource
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.CssClass
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.CssClass
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: CssClass
+  nameWithType: ControlGroupBase.CssClass
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.CssClass
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlCollection
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlCollection
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: ControlCollection
+  nameWithType: ControlGroupBase.ControlCollection
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlCollection
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlGroupControl
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlGroupControl
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: ControlGroupControl
+  nameWithType: ControlGroupBase.ControlGroupControl
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlGroupControl
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Caption
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Caption
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Caption
+  nameWithType: ControlGroupBase.Caption
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Caption
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Tooltip
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Tooltip
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Tooltip
+  nameWithType: ControlGroupBase.Tooltip
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Tooltip
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.LayoutPosition
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.LayoutPosition
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: LayoutPosition
+  nameWithType: ControlGroupBase.LayoutPosition
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.LayoutPosition
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Position
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Position
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Position
+  nameWithType: ControlGroupBase.Position
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Position
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Top
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Top
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Top
+  nameWithType: ControlGroupBase.Top
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Top
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.BackgroundColor
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.BackgroundColor
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: BackgroundColor
+  nameWithType: ControlGroupBase.BackgroundColor
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.BackgroundColor
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Left
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Left
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Left
+  nameWithType: ControlGroupBase.Left
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Left
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Right
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Right
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Right
+  nameWithType: ControlGroupBase.Right
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Right
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Bottom
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Bottom
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Bottom
+  nameWithType: ControlGroupBase.Bottom
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Bottom
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Width
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Width
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Width
+  nameWithType: ControlGroupBase.Width
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Width
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Height
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Height
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Height
+  nameWithType: ControlGroupBase.Height
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Height
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ZIndex
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ZIndex
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: ZIndex
+  nameWithType: ControlGroupBase.ZIndex
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ZIndex
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Overflow
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Overflow
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Overflow
+  nameWithType: ControlGroupBase.Overflow
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Overflow
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Visibility
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Visibility
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Visibility
+  nameWithType: ControlGroupBase.Visibility
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Visibility
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Column
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Column
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Column
+  nameWithType: ControlGroupBase.Column
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Column
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Row
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Row
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Row
+  nameWithType: ControlGroupBase.Row
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Row
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.RowSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.RowSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: RowSpan
+  nameWithType: ControlGroupBase.RowSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.RowSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ColSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ColSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: ColSpan
+  nameWithType: ControlGroupBase.ColSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ColSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.EditMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.EditMode
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: EditMode
+  nameWithType: ControlGroupBase.EditMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.EditMode
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSourceName
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSourceName
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: DataSourceName
+  nameWithType: ControlGroupBase.DataSourceName
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSourceName
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSource
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSource
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: DataSource
+  nameWithType: ControlGroupBase.DataSource
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSource
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ConfigurationSchema
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ConfigurationSchema
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: ConfigurationSchema
+  nameWithType: ControlGroupBase.ConfigurationSchema
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ConfigurationSchema
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.VisibilityBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.VisibilityBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: VisibilityBinding
+  nameWithType: ControlGroupBase.VisibilityBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.VisibilityBinding
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Web.UI.WebControls.Table
+  isExternal: true
+  name: Table
+  nameWithType: Table
+  fullName: System.Web.UI.WebControls.Table
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: ControlGroupBase.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: ControlGroupBase.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: ControlGroupBase.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: SoButtonGroup.Initialize
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddControl(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddControl(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: AddControl(Control)
+  nameWithType: ControlGroupBase.AddControl(Control)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddControl(System.Web.UI.Control)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddControl(System.Web.UI.Control)
+    name: AddControl
+    nameWithType: ControlGroupBase.AddControl
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddControl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddControl(System.Web.UI.Control)
+    name: AddControl
+    nameWithType: ControlGroupBase.AddControl
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.AddControl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl
+  isExternal: true
+  name: AddControl
+  nameWithType: SoButtonGroup.AddControl
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddControl
+- uid: System.Web.UI.Control
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.OnLoad(System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: OnLoad(EventArgs)
+  nameWithType: ControlGroupBase.OnLoad(EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.OnLoad(System.EventArgs)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.OnLoad(System.EventArgs)
+    name: OnLoad
+    nameWithType: ControlGroupBase.OnLoad
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.OnLoad(System.EventArgs)
+    name: OnLoad
+    nameWithType: ControlGroupBase.OnLoad
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: SoButtonGroup.OnLoad
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonInitialize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonInitialize
+  isExternal: true
+  name: ButtonInitialize
+  nameWithType: SoButtonGroup.ButtonInitialize
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonInitialize
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonSetup*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonSetup
+  isExternal: true
+  name: ButtonSetup
+  nameWithType: SoButtonGroup.ButtonSetup
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonSetup
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonBarSetup*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonBarSetup
+  isExternal: true
+  name: ButtonBarSetup
+  nameWithType: SoButtonGroup.ButtonBarSetup
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ButtonBarSetup
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.#ctor
+  isExternal: true
+  name: SoButtonGroup
+  nameWithType: SoButtonGroup.SoButtonGroup
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.SoButtonGroup
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddVerticalSpacer*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddVerticalSpacer
+  isExternal: true
+  name: AddVerticalSpacer
+  nameWithType: SoButtonGroup.AddVerticalSpacer
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.AddVerticalSpacer
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.UseBackground*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.UseBackground
+  isExternal: true
+  name: UseBackground
+  nameWithType: SoButtonGroup.UseBackground
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.UseBackground
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElementsWidth*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElementsWidth
+  isExternal: true
+  name: LeftElementsWidth
+  nameWithType: SoButtonGroup.LeftElementsWidth
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElementsWidth
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ControlLayout*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ControlLayout
+  isExternal: true
+  name: ControlLayout
+  nameWithType: SoButtonGroup.ControlLayout
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.ControlLayout
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoButtonBarLayout
+  nameWithType: SoButtonBarLayout
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.RightElements*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.RightElements
+  isExternal: true
+  name: RightElements
+  nameWithType: SoButtonGroup.RightElements
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.RightElements
+- uid: System.Collections.Generic.List{System.Web.UI.Control}
+  commentId: T:System.Collections.Generic.List{System.Web.UI.Control}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Control>
+  nameWithType: List<Control>
+  fullName: System.Collections.Generic.List<System.Web.UI.Control>
+  nameWithType.vb: List(Of Control)
+  fullName.vb: System.Collections.Generic.List(Of System.Web.UI.Control)
+  name.vb: List(Of Control)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElements*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElements
+  isExternal: true
+  name: LeftElements
+  nameWithType: SoButtonGroup.LeftElements
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.LeftElements
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CenterElements*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CenterElements
+  isExternal: true
+  name: CenterElements
+  nameWithType: SoButtonGroup.CenterElements
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CenterElements
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CustomCssClass*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CustomCssClass
+  isExternal: true
+  name: CustomCssClass
+  nameWithType: SoButtonGroup.CustomCssClass
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup.CustomCssClass

@@ -1,0 +1,1171 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WebPanelEntity
+  commentId: T:SuperOffice.WebApi.Data.WebPanelEntity
+  id: WebPanelEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WebPanelEntity.#ctor
+  - SuperOffice.WebApi.Data.WebPanelEntity.Deleted
+  - SuperOffice.WebApi.Data.WebPanelEntity.Icon
+  - SuperOffice.WebApi.Data.WebPanelEntity.Name
+  - SuperOffice.WebApi.Data.WebPanelEntity.OnCentral
+  - SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingPocket
+  - SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingWeb
+  - SuperOffice.WebApi.Data.WebPanelEntity.OnSatellite
+  - SuperOffice.WebApi.Data.WebPanelEntity.OnTravel
+  - SuperOffice.WebApi.Data.WebPanelEntity.ProgId
+  - SuperOffice.WebApi.Data.WebPanelEntity.Rank
+  - SuperOffice.WebApi.Data.WebPanelEntity.ShowInAddressBar
+  - SuperOffice.WebApi.Data.WebPanelEntity.ShowInMenuBar
+  - SuperOffice.WebApi.Data.WebPanelEntity.ShowInStatusBar
+  - SuperOffice.WebApi.Data.WebPanelEntity.ShowInToolBar
+  - SuperOffice.WebApi.Data.WebPanelEntity.Tooltip
+  - SuperOffice.WebApi.Data.WebPanelEntity.Url
+  - SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding
+  - SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String
+  - SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn
+  - SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String
+  - SuperOffice.WebApi.Data.WebPanelEntity.WebPanelId
+  - SuperOffice.WebApi.Data.WebPanelEntity.WindowName
+  langs:
+  - csharp
+  - vb
+  name: WebPanelEntity
+  nameWithType: WebPanelEntity
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WebPanelEntity.\nThe web panel entity contains information on a web panel    \n"
+  example:
+  - "\nGet WebPanelEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar webPanelEntity = agent.GetWebPanelEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class WebPanelEntity : Carrier'
+    content.vb: >-
+      Public Class WebPanelEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WebPanelEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: WebPanelEntity()
+  nameWithType: WebPanelEntity.WebPanelEntity()
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.WebPanelEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WebPanelEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.WebPanelId
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.WebPanelId
+  id: WebPanelId
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: WebPanelId
+  nameWithType: WebPanelEntity.WebPanelId
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.WebPanelId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe identity of the web panel\n"
+  syntax:
+    content: public virtual int WebPanelId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WebPanelId As Integer
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.WebPanelId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: WebPanelEntity.Name
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the web panel\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: WebPanelEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tooltip of the web panel\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Deleted
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: WebPanelEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the web panel is marked as deleted\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Rank
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: WebPanelEntity.Rank
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe rank of the web panel\n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String
+  id: UrlEncoding_String
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: UrlEncoding_String
+  nameWithType: WebPanelEntity.UrlEncoding_String
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe encoding of the URL\nRaw string enum value.\n"
+  syntax:
+    content: public string UrlEncoding_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UrlEncoding_String As String
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding
+    commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding
+  id: UrlEncoding
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: UrlEncoding
+  nameWithType: WebPanelEntity.UrlEncoding
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe encoding of the URL\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<UrlEncoding> UrlEncoding { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.UrlEncoding}
+    content.vb: Public Property UrlEncoding As Nullable(Of UrlEncoding)
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String
+    commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String
+  id: VisibleIn_String
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: VisibleIn_String
+  nameWithType: WebPanelEntity.VisibleIn_String
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe webpanel is visible in\nRaw string enum value.\n"
+  syntax:
+    content: public string VisibleIn_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VisibleIn_String As String
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn
+    commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn
+  id: VisibleIn
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: VisibleIn
+  nameWithType: WebPanelEntity.VisibleIn
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe webpanel is visible in\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<Navigation> VisibleIn { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.Navigation}
+    content.vb: Public Property VisibleIn As Nullable(Of Navigation)
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String
+    commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.OnCentral
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.OnCentral
+  id: OnCentral
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: OnCentral
+  nameWithType: WebPanelEntity.OnCentral
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.OnCentral
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the webpanel visible when user is on central database\n"
+  syntax:
+    content: public virtual bool OnCentral { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OnCentral As Boolean
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.OnCentral*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.OnSatellite
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.OnSatellite
+  id: OnSatellite
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: OnSatellite
+  nameWithType: WebPanelEntity.OnSatellite
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.OnSatellite
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the webpanel visible when user is on a satellite\n"
+  syntax:
+    content: public virtual bool OnSatellite { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OnSatellite As Boolean
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.OnSatellite*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.OnTravel
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.OnTravel
+  id: OnTravel
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: OnTravel
+  nameWithType: WebPanelEntity.OnTravel
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.OnTravel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the webpanel visible when user is on travel\n"
+  syntax:
+    content: public virtual bool OnTravel { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OnTravel As Boolean
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.OnTravel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingWeb
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingWeb
+  id: OnSalesMarketingWeb
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: OnSalesMarketingWeb
+  nameWithType: WebPanelEntity.OnSalesMarketingWeb
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingWeb
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the webpanel visible when user is on web client\n"
+  syntax:
+    content: public virtual bool OnSalesMarketingWeb { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OnSalesMarketingWeb As Boolean
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingWeb*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingPocket
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingPocket
+  id: OnSalesMarketingPocket
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: OnSalesMarketingPocket
+  nameWithType: WebPanelEntity.OnSalesMarketingPocket
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingPocket
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the webpanel visible when user is on pocket client\n"
+  syntax:
+    content: public virtual bool OnSalesMarketingPocket { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OnSalesMarketingPocket As Boolean
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingPocket*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.ShowInMenuBar
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.ShowInMenuBar
+  id: ShowInMenuBar
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowInMenuBar
+  nameWithType: WebPanelEntity.ShowInMenuBar
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.ShowInMenuBar
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDoes the webpanel have a menu bar\n"
+  syntax:
+    content: public virtual bool ShowInMenuBar { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowInMenuBar As Boolean
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.ShowInMenuBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.ShowInToolBar
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.ShowInToolBar
+  id: ShowInToolBar
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowInToolBar
+  nameWithType: WebPanelEntity.ShowInToolBar
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.ShowInToolBar
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDoes the webpanel have a toolbar\n"
+  syntax:
+    content: public virtual bool ShowInToolBar { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowInToolBar As Boolean
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.ShowInToolBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.ShowInAddressBar
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.ShowInAddressBar
+  id: ShowInAddressBar
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowInAddressBar
+  nameWithType: WebPanelEntity.ShowInAddressBar
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.ShowInAddressBar
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDoes the webpanel have an address bar\n"
+  syntax:
+    content: public virtual bool ShowInAddressBar { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowInAddressBar As Boolean
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.ShowInAddressBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.ShowInStatusBar
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.ShowInStatusBar
+  id: ShowInStatusBar
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowInStatusBar
+  nameWithType: WebPanelEntity.ShowInStatusBar
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.ShowInStatusBar
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDoes the webpanel have a status bar\n"
+  syntax:
+    content: public virtual bool ShowInStatusBar { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowInStatusBar As Boolean
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.ShowInStatusBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.WindowName
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.WindowName
+  id: WindowName
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: WindowName
+  nameWithType: WebPanelEntity.WindowName
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.WindowName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe window which the URL address is to open in (webpanel only)\n"
+  syntax:
+    content: public virtual string WindowName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property WindowName As String
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.WindowName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Url
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.Url
+  id: Url
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: WebPanelEntity.Url
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Url
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe url\n"
+  syntax:
+    content: public virtual string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Url As String
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.Url*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.ProgId
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.ProgId
+  id: ProgId
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: ProgId
+  nameWithType: WebPanelEntity.ProgId
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.ProgId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nString key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID&apos;s\n"
+  syntax:
+    content: public virtual string ProgId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProgId As String
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.ProgId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Icon
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.Icon
+  id: Icon
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: WebPanelEntity.Icon
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Icon
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe icon of the webpanel\n"
+  syntax:
+    content: public virtual short Icon { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Icon As Short
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.Icon*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.#ctor
+  isExternal: true
+  name: WebPanelEntity
+  nameWithType: WebPanelEntity.WebPanelEntity
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.WebPanelEntity
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.WebPanelId*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.WebPanelId
+  isExternal: true
+  name: WebPanelId
+  nameWithType: WebPanelEntity.WebPanelId
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.WebPanelId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: WebPanelEntity.Name
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: WebPanelEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Tooltip
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: WebPanelEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: WebPanelEntity.Rank
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Rank
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String
+  isExternal: true
+  name: UrlEncoding_String
+  nameWithType: WebPanelEntity.UrlEncoding_String
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding
+  isExternal: true
+  name: UrlEncoding
+  nameWithType: WebPanelEntity.UrlEncoding
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.UrlEncoding_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.UrlEncoding}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.UrlEncoding}'
+  definition: System.Nullable`1
+  name: Nullable<UrlEncoding>
+  nameWithType: Nullable<UrlEncoding>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.UrlEncoding>
+  nameWithType.vb: Nullable(Of UrlEncoding)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.UrlEncoding)
+  name.vb: Nullable(Of UrlEncoding)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.UrlEncoding
+    name: UrlEncoding
+    nameWithType: UrlEncoding
+    fullName: SuperOffice.WebApi.Data.UrlEncoding
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.UrlEncoding
+    name: UrlEncoding
+    nameWithType: UrlEncoding
+    fullName: SuperOffice.WebApi.Data.UrlEncoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String
+  isExternal: true
+  name: VisibleIn_String
+  nameWithType: WebPanelEntity.VisibleIn_String
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn
+  isExternal: true
+  name: VisibleIn
+  nameWithType: WebPanelEntity.VisibleIn
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.VisibleIn_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.Navigation}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.Navigation}'
+  definition: System.Nullable`1
+  name: Nullable<Navigation>
+  nameWithType: Nullable<Navigation>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.Navigation>
+  nameWithType.vb: Nullable(Of Navigation)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.Navigation)
+  name.vb: Nullable(Of Navigation)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Navigation
+    name: Navigation
+    nameWithType: Navigation
+    fullName: SuperOffice.WebApi.Data.Navigation
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Navigation
+    name: Navigation
+    nameWithType: Navigation
+    fullName: SuperOffice.WebApi.Data.Navigation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.OnCentral*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.OnCentral
+  isExternal: true
+  name: OnCentral
+  nameWithType: WebPanelEntity.OnCentral
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.OnCentral
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.OnSatellite*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.OnSatellite
+  isExternal: true
+  name: OnSatellite
+  nameWithType: WebPanelEntity.OnSatellite
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.OnSatellite
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.OnTravel*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.OnTravel
+  isExternal: true
+  name: OnTravel
+  nameWithType: WebPanelEntity.OnTravel
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.OnTravel
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingWeb*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingWeb
+  isExternal: true
+  name: OnSalesMarketingWeb
+  nameWithType: WebPanelEntity.OnSalesMarketingWeb
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingWeb
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingPocket*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingPocket
+  isExternal: true
+  name: OnSalesMarketingPocket
+  nameWithType: WebPanelEntity.OnSalesMarketingPocket
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.OnSalesMarketingPocket
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.ShowInMenuBar*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.ShowInMenuBar
+  isExternal: true
+  name: ShowInMenuBar
+  nameWithType: WebPanelEntity.ShowInMenuBar
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.ShowInMenuBar
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.ShowInToolBar*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.ShowInToolBar
+  isExternal: true
+  name: ShowInToolBar
+  nameWithType: WebPanelEntity.ShowInToolBar
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.ShowInToolBar
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.ShowInAddressBar*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.ShowInAddressBar
+  isExternal: true
+  name: ShowInAddressBar
+  nameWithType: WebPanelEntity.ShowInAddressBar
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.ShowInAddressBar
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.ShowInStatusBar*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.ShowInStatusBar
+  isExternal: true
+  name: ShowInStatusBar
+  nameWithType: WebPanelEntity.ShowInStatusBar
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.ShowInStatusBar
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.WindowName*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.WindowName
+  isExternal: true
+  name: WindowName
+  nameWithType: WebPanelEntity.WindowName
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.WindowName
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Url*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.Url
+  isExternal: true
+  name: Url
+  nameWithType: WebPanelEntity.Url
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Url
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.ProgId*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.ProgId
+  isExternal: true
+  name: ProgId
+  nameWithType: WebPanelEntity.ProgId
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.ProgId
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.Icon*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.Icon
+  isExternal: true
+  name: Icon
+  nameWithType: WebPanelEntity.Icon
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.Icon
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16

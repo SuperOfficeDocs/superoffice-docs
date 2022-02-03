@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  id: Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.AppointmentId
+  langs:
+  - csharp
+  - vb
+  name: Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  nameWithType: Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  fullName: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_OfferAutoNextStageOnApppointmentCompletedRequest : Object'
+    content.vb: >-
+      Public Class Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_OfferAutoNextStageOnApppointmentCompletedRequest()
+  nameWithType: Sale_OfferAutoNextStageOnApppointmentCompletedRequest.Sale_OfferAutoNextStageOnApppointmentCompletedRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.Sale_OfferAutoNextStageOnApppointmentCompletedRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_OfferAutoNextStageOnApppointmentCompletedRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Sale_OfferAutoNextStageOnApppointmentCompletedRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.#ctor
+  isExternal: true
+  name: Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  nameWithType: Sale_OfferAutoNextStageOnApppointmentCompletedRequest.Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  fullName: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+- uid: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Sale_OfferAutoNextStageOnApppointmentCompletedRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

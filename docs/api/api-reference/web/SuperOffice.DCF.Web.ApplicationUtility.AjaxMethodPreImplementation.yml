@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+  commentId: T:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+  id: ApplicationUtility.AjaxMethodPreImplementation
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke(SuperOffice.DCF.Web.SoAjaxMethodType@,System.AsyncCallback,System.Object)
+  - SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.EndInvoke(SuperOffice.DCF.Web.SoAjaxMethodType@,System.IAsyncResult)
+  - SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.Invoke(SuperOffice.DCF.Web.SoAjaxMethodType@)
+  langs:
+  - csharp
+  - vb
+  name: ApplicationUtility.AjaxMethodPreImplementation
+  nameWithType: ApplicationUtility.AjaxMethodPreImplementation
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+  type: Delegate
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public delegate void AjaxMethodPreImplementation(ref SoAjaxMethodType implementationType);
+    parameters:
+    - id: implementationType
+      type: SuperOffice.DCF.Web.SoAjaxMethodType
+    content.vb: Public Delegate Sub AjaxMethodPreImplementation(ByRef implementationType As SoAjaxMethodType)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+  langs:
+  - csharp
+  - vb
+  name: AjaxMethodPreImplementation(Object, IntPtr)
+  nameWithType: ApplicationUtility.AjaxMethodPreImplementation.AjaxMethodPreImplementation(Object, IntPtr)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.AjaxMethodPreImplementation(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public AjaxMethodPreImplementation(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.Invoke(SuperOffice.DCF.Web.SoAjaxMethodType@)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.Invoke(SuperOffice.DCF.Web.SoAjaxMethodType@)
+  id: Invoke(SuperOffice.DCF.Web.SoAjaxMethodType@)
+  parent: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+  langs:
+  - csharp
+  - vb
+  name: Invoke(ref SoAjaxMethodType)
+  nameWithType: ApplicationUtility.AjaxMethodPreImplementation.Invoke(ref SoAjaxMethodType)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.Invoke(ref SuperOffice.DCF.Web.SoAjaxMethodType)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual void Invoke(ref SoAjaxMethodType implementationType)
+    parameters:
+    - id: implementationType
+      type: SuperOffice.DCF.Web.SoAjaxMethodType
+    content.vb: Public Overridable Sub Invoke(ByRef implementationType As SoAjaxMethodType)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.Invoke*
+  nameWithType.vb: ApplicationUtility.AjaxMethodPreImplementation.Invoke(ByRef SoAjaxMethodType)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.Invoke(ByRef SuperOffice.DCF.Web.SoAjaxMethodType)
+  name.vb: Invoke(ByRef SoAjaxMethodType)
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke(SuperOffice.DCF.Web.SoAjaxMethodType@,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke(SuperOffice.DCF.Web.SoAjaxMethodType@,System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.DCF.Web.SoAjaxMethodType@,System.AsyncCallback,System.Object)
+  parent: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(ref SoAjaxMethodType, AsyncCallback, Object)
+  nameWithType: ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke(ref SoAjaxMethodType, AsyncCallback, Object)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke(ref SuperOffice.DCF.Web.SoAjaxMethodType, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(ref SoAjaxMethodType implementationType, AsyncCallback callback, object object)
+    parameters:
+    - id: implementationType
+      type: SuperOffice.DCF.Web.SoAjaxMethodType
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(ByRef implementationType As SoAjaxMethodType, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke*
+  nameWithType.vb: ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke(ByRef SoAjaxMethodType, AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke(ByRef SuperOffice.DCF.Web.SoAjaxMethodType, System.AsyncCallback, System.Object)
+  name.vb: BeginInvoke(ByRef SoAjaxMethodType, AsyncCallback, Object)
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.EndInvoke(SuperOffice.DCF.Web.SoAjaxMethodType@,System.IAsyncResult)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.EndInvoke(SuperOffice.DCF.Web.SoAjaxMethodType@,System.IAsyncResult)
+  id: EndInvoke(SuperOffice.DCF.Web.SoAjaxMethodType@,System.IAsyncResult)
+  parent: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(ref SoAjaxMethodType, IAsyncResult)
+  nameWithType: ApplicationUtility.AjaxMethodPreImplementation.EndInvoke(ref SoAjaxMethodType, IAsyncResult)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.EndInvoke(ref SuperOffice.DCF.Web.SoAjaxMethodType, System.IAsyncResult)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual void EndInvoke(ref SoAjaxMethodType implementationType, IAsyncResult result)
+    parameters:
+    - id: implementationType
+      type: SuperOffice.DCF.Web.SoAjaxMethodType
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(ByRef implementationType As SoAjaxMethodType, result As IAsyncResult)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.EndInvoke*
+  nameWithType.vb: ApplicationUtility.AjaxMethodPreImplementation.EndInvoke(ByRef SoAjaxMethodType, IAsyncResult)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.EndInvoke(ByRef SuperOffice.DCF.Web.SoAjaxMethodType, System.IAsyncResult)
+  name.vb: EndInvoke(ByRef SoAjaxMethodType, IAsyncResult)
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.DCF.Web.SoAjaxMethodType
+  commentId: T:SuperOffice.DCF.Web.SoAjaxMethodType
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: SoAjaxMethodType
+  nameWithType: SoAjaxMethodType
+  fullName: SuperOffice.DCF.Web.SoAjaxMethodType
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.#ctor
+  isExternal: true
+  name: AjaxMethodPreImplementation
+  nameWithType: ApplicationUtility.AjaxMethodPreImplementation.AjaxMethodPreImplementation
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.AjaxMethodPreImplementation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.Invoke*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: ApplicationUtility.AjaxMethodPreImplementation.Invoke
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.Invoke
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.EndInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: ApplicationUtility.AjaxMethodPreImplementation.EndInvoke
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation.EndInvoke

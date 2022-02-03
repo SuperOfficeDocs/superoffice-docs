@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest
+  id: Ticket_SanitizeMailContentsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.Contents
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SanitizeMailContentsRequest
+  nameWithType: Ticket_SanitizeMailContentsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_SanitizeMailContentsRequest : Object'
+    content.vb: >-
+      Public Class Ticket_SanitizeMailContentsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SanitizeMailContentsRequest()
+  nameWithType: Ticket_SanitizeMailContentsRequest.Ticket_SanitizeMailContentsRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.Ticket_SanitizeMailContentsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_SanitizeMailContentsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.Contents
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.Contents
+  id: Contents
+  parent: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest
+  langs:
+  - csharp
+  - vb
+  name: Contents
+  nameWithType: Ticket_SanitizeMailContentsRequest.Contents
+  fullName: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.Contents
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] Contents { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Contents As String()
+  overload: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.Contents*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.#ctor
+  isExternal: true
+  name: Ticket_SanitizeMailContentsRequest
+  nameWithType: Ticket_SanitizeMailContentsRequest.Ticket_SanitizeMailContentsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.Ticket_SanitizeMailContentsRequest
+- uid: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.Contents*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.Contents
+  isExternal: true
+  name: Contents
+  nameWithType: Ticket_SanitizeMailContentsRequest.Contents
+  fullName: SuperOffice.WebApi.Data.Ticket_SanitizeMailContentsRequest.Contents
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

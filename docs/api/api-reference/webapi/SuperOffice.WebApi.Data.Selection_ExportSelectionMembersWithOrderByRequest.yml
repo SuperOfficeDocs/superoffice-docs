@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest
+  id: Selection_ExportSelectionMembersWithOrderByRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.OrderBy
+  - SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.SelectionId
+  - SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.TemplateName
+  - SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.UseContacts
+  langs:
+  - csharp
+  - vb
+  name: Selection_ExportSelectionMembersWithOrderByRequest
+  nameWithType: Selection_ExportSelectionMembersWithOrderByRequest
+  fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_ExportSelectionMembersWithOrderByRequest : Object'
+    content.vb: >-
+      Public Class Selection_ExportSelectionMembersWithOrderByRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_ExportSelectionMembersWithOrderByRequest()
+  nameWithType: Selection_ExportSelectionMembersWithOrderByRequest.Selection_ExportSelectionMembersWithOrderByRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.Selection_ExportSelectionMembersWithOrderByRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_ExportSelectionMembersWithOrderByRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_ExportSelectionMembersWithOrderByRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.TemplateName
+  commentId: P:SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.TemplateName
+  id: TemplateName
+  parent: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: TemplateName
+  nameWithType: Selection_ExportSelectionMembersWithOrderByRequest.TemplateName
+  fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.TemplateName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TemplateName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TemplateName As String
+  overload: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.TemplateName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.UseContacts
+  commentId: P:SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.UseContacts
+  id: UseContacts
+  parent: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: UseContacts
+  nameWithType: Selection_ExportSelectionMembersWithOrderByRequest.UseContacts
+  fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.UseContacts
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool UseContacts { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseContacts As Boolean
+  overload: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.UseContacts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.OrderBy
+  commentId: P:SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.OrderBy
+  id: OrderBy
+  parent: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: OrderBy
+  nameWithType: Selection_ExportSelectionMembersWithOrderByRequest.OrderBy
+  fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.OrderBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string OrderBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderBy As String
+  overload: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.OrderBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.#ctor
+  isExternal: true
+  name: Selection_ExportSelectionMembersWithOrderByRequest
+  nameWithType: Selection_ExportSelectionMembersWithOrderByRequest.Selection_ExportSelectionMembersWithOrderByRequest
+  fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.Selection_ExportSelectionMembersWithOrderByRequest
+- uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_ExportSelectionMembersWithOrderByRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.TemplateName*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.TemplateName
+  isExternal: true
+  name: TemplateName
+  nameWithType: Selection_ExportSelectionMembersWithOrderByRequest.TemplateName
+  fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.TemplateName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.UseContacts*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.UseContacts
+  isExternal: true
+  name: UseContacts
+  nameWithType: Selection_ExportSelectionMembersWithOrderByRequest.UseContacts
+  fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.UseContacts
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.OrderBy*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.OrderBy
+  isExternal: true
+  name: OrderBy
+  nameWithType: Selection_ExportSelectionMembersWithOrderByRequest.OrderBy
+  fullName: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest.OrderBy

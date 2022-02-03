@@ -1,0 +1,1256 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FormEntity
+  commentId: T:SuperOffice.WebApi.Data.FormEntity
+  id: FormEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FormEntity.#ctor
+  - SuperOffice.WebApi.Data.FormEntity.Active
+  - SuperOffice.WebApi.Data.FormEntity.Config
+  - SuperOffice.WebApi.Data.FormEntity.Description
+  - SuperOffice.WebApi.Data.FormEntity.Expires
+  - SuperOffice.WebApi.Data.FormEntity.FolderId
+  - SuperOffice.WebApi.Data.FormEntity.FolderName
+  - SuperOffice.WebApi.Data.FormEntity.FormId
+  - SuperOffice.WebApi.Data.FormEntity.FormKey
+  - SuperOffice.WebApi.Data.FormEntity.GroupId
+  - SuperOffice.WebApi.Data.FormEntity.MaxSubmits
+  - SuperOffice.WebApi.Data.FormEntity.Name
+  - SuperOffice.WebApi.Data.FormEntity.NewTicket
+  - SuperOffice.WebApi.Data.FormEntity.RecaptchaMode
+  - SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String
+  - SuperOffice.WebApi.Data.FormEntity.Recipe
+  - SuperOffice.WebApi.Data.FormEntity.Registered
+  - SuperOffice.WebApi.Data.FormEntity.RegisteredAssociateId
+  - SuperOffice.WebApi.Data.FormEntity.ResponseShipmentId
+  - SuperOffice.WebApi.Data.FormEntity.ScriptId
+  - SuperOffice.WebApi.Data.FormEntity.Type
+  - SuperOffice.WebApi.Data.FormEntity.Type_String
+  - SuperOffice.WebApi.Data.FormEntity.Updated
+  - SuperOffice.WebApi.Data.FormEntity.UpdatedAssociateId
+  - SuperOffice.WebApi.Data.FormEntity.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: FormEntity
+  nameWithType: FormEntity
+  fullName: SuperOffice.WebApi.Data.FormEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for FormEntity.\nDefinition and configuration of a Form    \n"
+  example:
+  - "\nGet FormEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new MarketingAgent(configuration);\nvar formEntity = agent.GetFormEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class FormEntity : Carrier'
+    content.vb: >-
+      Public Class FormEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.MarketingAgent
+    commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FormEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FormEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: FormEntity()
+  nameWithType: FormEntity.FormEntity()
+  fullName: SuperOffice.WebApi.Data.FormEntity.FormEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public FormEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FormEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FormEntity.FormId
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.FormId
+  id: FormId
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: FormId
+  nameWithType: FormEntity.FormId
+  fullName: SuperOffice.WebApi.Data.FormEntity.FormId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int FormId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FormId As Integer
+  overload: SuperOffice.WebApi.Data.FormEntity.FormId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.FormKey
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.FormKey
+  id: FormKey
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: FormKey
+  nameWithType: FormEntity.FormKey
+  fullName: SuperOffice.WebApi.Data.FormEntity.FormKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA short string used as unique id to access this form\n"
+  syntax:
+    content: public virtual string FormKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FormKey As String
+  overload: SuperOffice.WebApi.Data.FormEntity.FormKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FormEntity.Name
+  fullName: SuperOffice.WebApi.Data.FormEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of this form\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.FormEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.Description
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: FormEntity.Description
+  fullName: SuperOffice.WebApi.Data.FormEntity.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDetailed description\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.FormEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.Config
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Config
+  id: Config
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: FormEntity.Config
+  fullName: SuperOffice.WebApi.Data.FormEntity.Config
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe JSON-formatted config of this form\n"
+  syntax:
+    content: public virtual string Config { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Config As String
+  overload: SuperOffice.WebApi.Data.FormEntity.Config*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.FolderId
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.FolderId
+  id: FolderId
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: FormEntity.FolderId
+  fullName: SuperOffice.WebApi.Data.FormEntity.FolderId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe folder which this form belongs to. -1 indicates that the shipment is on the root\n"
+  syntax:
+    content: public virtual int FolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FolderId As Integer
+  overload: SuperOffice.WebApi.Data.FormEntity.FolderId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.ScriptId
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.ScriptId
+  id: ScriptId
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: ScriptId
+  nameWithType: FormEntity.ScriptId
+  fullName: SuperOffice.WebApi.Data.FormEntity.ScriptId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe CRMScript Macro which will be run when the form is submitted.\n"
+  syntax:
+    content: public virtual int ScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ScriptId As Integer
+  overload: SuperOffice.WebApi.Data.FormEntity.ScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.ResponseShipmentId
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.ResponseShipmentId
+  id: ResponseShipmentId
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: ResponseShipmentId
+  nameWithType: FormEntity.ResponseShipmentId
+  fullName: SuperOffice.WebApi.Data.FormEntity.ResponseShipmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the s_shipment that is used to send the response mails\n"
+  syntax:
+    content: public virtual int ResponseShipmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ResponseShipmentId As Integer
+  overload: SuperOffice.WebApi.Data.FormEntity.ResponseShipmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.Active
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Active
+  id: Active
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: FormEntity.Active
+  fullName: SuperOffice.WebApi.Data.FormEntity.Active
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates if this form is active or not\n"
+  syntax:
+    content: public virtual bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Active As Boolean
+  overload: SuperOffice.WebApi.Data.FormEntity.Active*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.Expires
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Expires
+  id: Expires
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: Expires
+  nameWithType: FormEntity.Expires
+  fullName: SuperOffice.WebApi.Data.FormEntity.Expires
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAfter this datetime, the form will become inactive\n"
+  syntax:
+    content: public virtual DateTime Expires { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Expires As DateTime
+  overload: SuperOffice.WebApi.Data.FormEntity.Expires*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.MaxSubmits
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.MaxSubmits
+  id: MaxSubmits
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: MaxSubmits
+  nameWithType: FormEntity.MaxSubmits
+  fullName: SuperOffice.WebApi.Data.FormEntity.MaxSubmits
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAfter this number of submits, the form will become inactive\n"
+  syntax:
+    content: public virtual int MaxSubmits { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MaxSubmits As Integer
+  overload: SuperOffice.WebApi.Data.FormEntity.MaxSubmits*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.Type_String
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: FormEntity.Type_String
+  fullName: SuperOffice.WebApi.Data.FormEntity.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat kind of form is this? Indicates if this is a normal form or a template\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.FormEntity.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FormEntity.Type
+    commentId: P:SuperOffice.WebApi.Data.FormEntity.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FormEntity.Type
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: FormEntity.Type
+  fullName: SuperOffice.WebApi.Data.FormEntity.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat kind of form is this? Indicates if this is a normal form or a template\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<FormType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.FormType}
+    content.vb: Public Property Type As Nullable(Of FormType)
+  overload: SuperOffice.WebApi.Data.FormEntity.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FormEntity.Type_String
+    commentId: P:SuperOffice.WebApi.Data.FormEntity.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FormEntity.Recipe
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Recipe
+  id: Recipe
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: Recipe
+  nameWithType: FormEntity.Recipe
+  fullName: SuperOffice.WebApi.Data.FormEntity.Recipe
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe JSON-formatted recipe of this form\n"
+  syntax:
+    content: public virtual string Recipe { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Recipe As String
+  overload: SuperOffice.WebApi.Data.FormEntity.Recipe*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.GroupId
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.GroupId
+  id: GroupId
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: FormEntity.GroupId
+  fullName: SuperOffice.WebApi.Data.FormEntity.GroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe group which this form belongs to.\n"
+  syntax:
+    content: public virtual int GroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property GroupId As Integer
+  overload: SuperOffice.WebApi.Data.FormEntity.GroupId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.NewTicket
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.NewTicket
+  id: NewTicket
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: NewTicket
+  nameWithType: FormEntity.NewTicket
+  fullName: SuperOffice.WebApi.Data.FormEntity.NewTicket
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates if this form creates a ticket or not\n"
+  syntax:
+    content: public virtual bool NewTicket { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property NewTicket As Boolean
+  overload: SuperOffice.WebApi.Data.FormEntity.NewTicket*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String
+  id: RecaptchaMode_String
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: RecaptchaMode_String
+  nameWithType: FormEntity.RecaptchaMode_String
+  fullName: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat is the state of the recaptcha configuration? This is a read-only member\nRaw string enum value.\n"
+  syntax:
+    content: public string RecaptchaMode_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RecaptchaMode_String As String
+  overload: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode
+    commentId: P:SuperOffice.WebApi.Data.FormEntity.RecaptchaMode
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.RecaptchaMode
+  id: RecaptchaMode
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: RecaptchaMode
+  nameWithType: FormEntity.RecaptchaMode
+  fullName: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat is the state of the recaptcha configuration? This is a read-only member\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<FormsRecaptchaMode> RecaptchaMode { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.FormsRecaptchaMode}
+    content.vb: Public Property RecaptchaMode As Nullable(Of FormsRecaptchaMode)
+  overload: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String
+    commentId: P:SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FormEntity.Registered
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: FormEntity.Registered
+  fullName: SuperOffice.WebApi.Data.FormEntity.Registered
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As DateTime
+  overload: SuperOffice.WebApi.Data.FormEntity.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.RegisteredAssociateId
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: FormEntity.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.FormEntity.RegisteredAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered by whom\n"
+  syntax:
+    content: public virtual int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RegisteredAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.FormEntity.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.Updated
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: FormEntity.Updated
+  fullName: SuperOffice.WebApi.Data.FormEntity.Updated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As DateTime
+  overload: SuperOffice.WebApi.Data.FormEntity.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.UpdatedAssociateId
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: FormEntity.UpdatedAssociateId
+  fullName: SuperOffice.WebApi.Data.FormEntity.UpdatedAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated by whom\n"
+  syntax:
+    content: public virtual int UpdatedAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UpdatedAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.FormEntity.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.UpdatedCount
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: FormEntity.UpdatedCount
+  fullName: SuperOffice.WebApi.Data.FormEntity.UpdatedCount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of updates made to this record\n"
+  syntax:
+    content: public virtual short UpdatedCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property UpdatedCount As Short
+  overload: SuperOffice.WebApi.Data.FormEntity.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FormEntity.FolderName
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.FolderName
+  id: FolderName
+  parent: SuperOffice.WebApi.Data.FormEntity
+  langs:
+  - csharp
+  - vb
+  name: FolderName
+  nameWithType: FormEntity.FolderName
+  fullName: SuperOffice.WebApi.Data.FormEntity.FolderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the folder for this form\n"
+  syntax:
+    content: public virtual string FolderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FolderName As String
+  overload: SuperOffice.WebApi.Data.FormEntity.FolderName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.MarketingAgent
+  commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
+  isExternal: true
+  name: MarketingAgent
+  nameWithType: MarketingAgent
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FormEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.#ctor
+  isExternal: true
+  name: FormEntity
+  nameWithType: FormEntity.FormEntity
+  fullName: SuperOffice.WebApi.Data.FormEntity.FormEntity
+- uid: SuperOffice.WebApi.Data.FormEntity.FormId*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.FormId
+  isExternal: true
+  name: FormId
+  nameWithType: FormEntity.FormId
+  fullName: SuperOffice.WebApi.Data.FormEntity.FormId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.FormEntity.FormKey*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.FormKey
+  isExternal: true
+  name: FormKey
+  nameWithType: FormEntity.FormKey
+  fullName: SuperOffice.WebApi.Data.FormEntity.FormKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.FormEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: FormEntity.Name
+  fullName: SuperOffice.WebApi.Data.FormEntity.Name
+- uid: SuperOffice.WebApi.Data.FormEntity.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.Description
+  isExternal: true
+  name: Description
+  nameWithType: FormEntity.Description
+  fullName: SuperOffice.WebApi.Data.FormEntity.Description
+- uid: SuperOffice.WebApi.Data.FormEntity.Config*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.Config
+  isExternal: true
+  name: Config
+  nameWithType: FormEntity.Config
+  fullName: SuperOffice.WebApi.Data.FormEntity.Config
+- uid: SuperOffice.WebApi.Data.FormEntity.FolderId*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.FolderId
+  isExternal: true
+  name: FolderId
+  nameWithType: FormEntity.FolderId
+  fullName: SuperOffice.WebApi.Data.FormEntity.FolderId
+- uid: SuperOffice.WebApi.Data.FormEntity.ScriptId*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.ScriptId
+  isExternal: true
+  name: ScriptId
+  nameWithType: FormEntity.ScriptId
+  fullName: SuperOffice.WebApi.Data.FormEntity.ScriptId
+- uid: SuperOffice.WebApi.Data.FormEntity.ResponseShipmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.ResponseShipmentId
+  isExternal: true
+  name: ResponseShipmentId
+  nameWithType: FormEntity.ResponseShipmentId
+  fullName: SuperOffice.WebApi.Data.FormEntity.ResponseShipmentId
+- uid: SuperOffice.WebApi.Data.FormEntity.Active*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.Active
+  isExternal: true
+  name: Active
+  nameWithType: FormEntity.Active
+  fullName: SuperOffice.WebApi.Data.FormEntity.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.FormEntity.Expires*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.Expires
+  isExternal: true
+  name: Expires
+  nameWithType: FormEntity.Expires
+  fullName: SuperOffice.WebApi.Data.FormEntity.Expires
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.FormEntity.MaxSubmits*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.MaxSubmits
+  isExternal: true
+  name: MaxSubmits
+  nameWithType: FormEntity.MaxSubmits
+  fullName: SuperOffice.WebApi.Data.FormEntity.MaxSubmits
+- uid: SuperOffice.WebApi.Data.FormEntity.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: FormEntity.Type_String
+  fullName: SuperOffice.WebApi.Data.FormEntity.Type_String
+- uid: SuperOffice.WebApi.Data.FormEntity.Type
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Type
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.FormEntity.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.Type
+  isExternal: true
+  name: Type
+  nameWithType: FormEntity.Type
+  fullName: SuperOffice.WebApi.Data.FormEntity.Type
+- uid: SuperOffice.WebApi.Data.FormEntity.Type_String
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.FormType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.FormType}'
+  definition: System.Nullable`1
+  name: Nullable<FormType>
+  nameWithType: Nullable<FormType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.FormType>
+  nameWithType.vb: Nullable(Of FormType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.FormType)
+  name.vb: Nullable(Of FormType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FormType
+    name: FormType
+    nameWithType: FormType
+    fullName: SuperOffice.WebApi.Data.FormType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FormType
+    name: FormType
+    nameWithType: FormType
+    fullName: SuperOffice.WebApi.Data.FormType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.FormEntity.Recipe*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.Recipe
+  isExternal: true
+  name: Recipe
+  nameWithType: FormEntity.Recipe
+  fullName: SuperOffice.WebApi.Data.FormEntity.Recipe
+- uid: SuperOffice.WebApi.Data.FormEntity.GroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.GroupId
+  isExternal: true
+  name: GroupId
+  nameWithType: FormEntity.GroupId
+  fullName: SuperOffice.WebApi.Data.FormEntity.GroupId
+- uid: SuperOffice.WebApi.Data.FormEntity.NewTicket*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.NewTicket
+  isExternal: true
+  name: NewTicket
+  nameWithType: FormEntity.NewTicket
+  fullName: SuperOffice.WebApi.Data.FormEntity.NewTicket
+- uid: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String
+  isExternal: true
+  name: RecaptchaMode_String
+  nameWithType: FormEntity.RecaptchaMode_String
+  fullName: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String
+- uid: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.RecaptchaMode
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.RecaptchaMode
+  isExternal: true
+  name: RecaptchaMode
+  nameWithType: FormEntity.RecaptchaMode
+  fullName: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode
+- uid: SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String
+  commentId: P:SuperOffice.WebApi.Data.FormEntity.RecaptchaMode_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.FormsRecaptchaMode}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.FormsRecaptchaMode}'
+  definition: System.Nullable`1
+  name: Nullable<FormsRecaptchaMode>
+  nameWithType: Nullable<FormsRecaptchaMode>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.FormsRecaptchaMode>
+  nameWithType.vb: Nullable(Of FormsRecaptchaMode)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.FormsRecaptchaMode)
+  name.vb: Nullable(Of FormsRecaptchaMode)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FormsRecaptchaMode
+    name: FormsRecaptchaMode
+    nameWithType: FormsRecaptchaMode
+    fullName: SuperOffice.WebApi.Data.FormsRecaptchaMode
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FormsRecaptchaMode
+    name: FormsRecaptchaMode
+    nameWithType: FormsRecaptchaMode
+    fullName: SuperOffice.WebApi.Data.FormsRecaptchaMode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.FormEntity.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: FormEntity.Registered
+  fullName: SuperOffice.WebApi.Data.FormEntity.Registered
+- uid: SuperOffice.WebApi.Data.FormEntity.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: FormEntity.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.FormEntity.RegisteredAssociateId
+- uid: SuperOffice.WebApi.Data.FormEntity.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: FormEntity.Updated
+  fullName: SuperOffice.WebApi.Data.FormEntity.Updated
+- uid: SuperOffice.WebApi.Data.FormEntity.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: FormEntity.UpdatedAssociateId
+  fullName: SuperOffice.WebApi.Data.FormEntity.UpdatedAssociateId
+- uid: SuperOffice.WebApi.Data.FormEntity.UpdatedCount*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: FormEntity.UpdatedCount
+  fullName: SuperOffice.WebApi.Data.FormEntity.UpdatedCount
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.FormEntity.FolderName*
+  commentId: Overload:SuperOffice.WebApi.Data.FormEntity.FolderName
+  isExternal: true
+  name: FolderName
+  nameWithType: FormEntity.FolderName
+  fullName: SuperOffice.WebApi.Data.FormEntity.FolderName

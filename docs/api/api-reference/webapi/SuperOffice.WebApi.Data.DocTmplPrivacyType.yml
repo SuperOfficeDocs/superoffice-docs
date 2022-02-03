@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocTmplPrivacyType
+  commentId: T:SuperOffice.WebApi.Data.DocTmplPrivacyType
+  id: DocTmplPrivacyType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocTmplPrivacyType.None
+  - SuperOffice.WebApi.Data.DocTmplPrivacyType.PersonRegistered
+  - SuperOffice.WebApi.Data.DocTmplPrivacyType.value__
+  langs:
+  - csharp
+  - vb
+  name: DocTmplPrivacyType
+  nameWithType: DocTmplPrivacyType
+  fullName: SuperOffice.WebApi.Data.DocTmplPrivacyType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this document template some kind of quote document, and if so what\nThis Enum is used by:  DocTmpl.privacyDocType\n"
+  syntax:
+    content: 'public sealed class DocTmplPrivacyType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DocTmplPrivacyType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DocTmplPrivacyType.value__
+  commentId: F:SuperOffice.WebApi.Data.DocTmplPrivacyType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DocTmplPrivacyType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DocTmplPrivacyType.value__
+  fullName: SuperOffice.WebApi.Data.DocTmplPrivacyType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocTmplPrivacyType.None
+  commentId: F:SuperOffice.WebApi.Data.DocTmplPrivacyType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.DocTmplPrivacyType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DocTmplPrivacyType.None
+  fullName: SuperOffice.WebApi.Data.DocTmplPrivacyType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: This document template is in no way related to GDPR\n"
+  syntax:
+    content: public const DocTmplPrivacyType None
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplPrivacyType
+    content.vb: Public Const None As DocTmplPrivacyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplPrivacyType.PersonRegistered
+  commentId: F:SuperOffice.WebApi.Data.DocTmplPrivacyType.PersonRegistered
+  id: PersonRegistered
+  parent: SuperOffice.WebApi.Data.DocTmplPrivacyType
+  langs:
+  - csharp
+  - vb
+  name: PersonRegistered
+  nameWithType: DocTmplPrivacyType.PersonRegistered
+  fullName: SuperOffice.WebApi.Data.DocTmplPrivacyType.PersonRegistered
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: This is a template for the &apos;you have been added to our system&apos; kind of email; must be an .html email template\n"
+  syntax:
+    content: public const DocTmplPrivacyType PersonRegistered
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplPrivacyType
+    content.vb: Public Const PersonRegistered As DocTmplPrivacyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DocTmplPrivacyType
+  commentId: T:SuperOffice.WebApi.Data.DocTmplPrivacyType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DocTmplPrivacyType
+  nameWithType: DocTmplPrivacyType
+  fullName: SuperOffice.WebApi.Data.DocTmplPrivacyType

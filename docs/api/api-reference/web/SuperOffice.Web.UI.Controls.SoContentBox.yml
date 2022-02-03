@@ -1,0 +1,626 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoContentBox
+  commentId: T:SuperOffice.Web.UI.Controls.SoContentBox
+  id: SoContentBox
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoContentBox.#ctor
+  - SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.FooterRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.Heading
+  - SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth
+  - SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: SoContentBox
+  nameWithType: SoContentBox
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoContentBox : SoControl, INamingContainer'
+    content.vb: >-
+      Public Class SoContentBox
+          Inherits SoControl
+          Implements INamingContainer
+  inheritance:
+  - System.Object
+  - SuperOffice.Web.UI.Controls.SoControl
+  derivedClasses:
+  - SuperOffice.Web.UI.Controls.SoTabbedBox
+  implements:
+  - System.Web.UI.INamingContainer
+  inheritedMembers:
+  - SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  - SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: SoContentBox()
+  nameWithType: SoContentBox.SoContentBox()
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.SoContentBox()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoContentBox()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoContentBox.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender(System.Web.UI.HtmlTextWriter)
+  id: PreContentBoxRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: PreContentBoxRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PreContentBoxRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void PreContentBoxRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overridable Sub PreContentBoxRender(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender(System.Web.UI.HtmlTextWriter)
+  id: PreHeadingRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: PreHeadingRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PreHeadingRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void PreHeadingRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overridable Sub PreHeadingRender(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  id: HeadingRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: HeadingRender(HtmlTextWriter)
+  nameWithType: SoContentBox.HeadingRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void HeadingRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overridable Sub HeadingRender(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender(System.Web.UI.HtmlTextWriter)
+  id: PostHeadingRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: PostHeadingRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PostHeadingRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void PostHeadingRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overridable Sub PostHeadingRender(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  id: ContentboxRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: ContentboxRender(HtmlTextWriter)
+  nameWithType: SoContentBox.ContentboxRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void ContentboxRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overridable Sub ContentboxRender(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender(System.Web.UI.HtmlTextWriter)
+  id: PreFooterRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: PreFooterRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PreFooterRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void PreFooterRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overridable Sub PreFooterRender(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.FooterRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.FooterRender(System.Web.UI.HtmlTextWriter)
+  id: FooterRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: FooterRender(HtmlTextWriter)
+  nameWithType: SoContentBox.FooterRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.FooterRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void FooterRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overridable Sub FooterRender(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.FooterRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender(System.Web.UI.HtmlTextWriter)
+  id: PostFooterRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: PostFooterRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PostFooterRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void PostFooterRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overridable Sub PostFooterRender(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  id: PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: PostContentBoxRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PostContentBoxRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void PostContentBoxRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overridable Sub PostContentBoxRender(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.Heading
+  commentId: P:SuperOffice.Web.UI.Controls.SoContentBox.Heading
+  id: Heading
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: Heading
+  nameWithType: SoContentBox.Heading
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.Heading
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string Heading { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Heading As String
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.Heading*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth
+  commentId: P:SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth
+  id: HeadingWidth
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: HeadingWidth
+  nameWithType: SoContentBox.HeadingWidth
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual int HeadingWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HeadingWidth As Integer
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.Tooltip
+  commentId: P:SuperOffice.Web.UI.Controls.SoContentBox.Tooltip
+  id: Tooltip
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SoContentBox.Tooltip
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.Web.UI.Controls.SoContentBox.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.UI.Controls.SoControl
+  commentId: T:SuperOffice.Web.UI.Controls.SoControl
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoControl
+  nameWithType: SoControl
+  fullName: SuperOffice.Web.UI.Controls.SoControl
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ApplicationPath
+  nameWithType: SoControl.ApplicationPath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+- uid: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ImagePath
+  nameWithType: SoControl.ImagePath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.#ctor
+  isExternal: true
+  name: SoContentBox
+  nameWithType: SoContentBox.SoContentBox
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.SoContentBox
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoContentBox.Render
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender
+  isExternal: true
+  name: PreContentBoxRender
+  nameWithType: SoContentBox.PreContentBoxRender
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender
+  isExternal: true
+  name: PreHeadingRender
+  nameWithType: SoContentBox.PreHeadingRender
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender
+  isExternal: true
+  name: HeadingRender
+  nameWithType: SoContentBox.HeadingRender
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender
+  isExternal: true
+  name: PostHeadingRender
+  nameWithType: SoContentBox.PostHeadingRender
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender
+  isExternal: true
+  name: ContentboxRender
+  nameWithType: SoContentBox.ContentboxRender
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender
+  isExternal: true
+  name: PreFooterRender
+  nameWithType: SoContentBox.PreFooterRender
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.FooterRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.FooterRender
+  isExternal: true
+  name: FooterRender
+  nameWithType: SoContentBox.FooterRender
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.FooterRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender
+  isExternal: true
+  name: PostFooterRender
+  nameWithType: SoContentBox.PostFooterRender
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender
+  isExternal: true
+  name: PostContentBoxRender
+  nameWithType: SoContentBox.PostContentBoxRender
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.Heading*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.Heading
+  isExternal: true
+  name: Heading
+  nameWithType: SoContentBox.Heading
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.Heading
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth
+  isExternal: true
+  name: HeadingWidth
+  nameWithType: SoContentBox.HeadingWidth
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.Tooltip*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoContentBox.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SoContentBox.Tooltip
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.Tooltip

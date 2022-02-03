@@ -1,0 +1,859 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.WcfClientBase`1
+  commentId: T:SuperOffice.ErpSync.WcfClientBase`1
+  id: WcfClientBase`1
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.WcfClientBase`1.#ctor
+  - SuperOffice.ErpSync.WcfClientBase`1.CreateChannel
+  - SuperOffice.ErpSync.WcfClientBase`1.CreateChannel(System.String)
+  - SuperOffice.ErpSync.WcfClientBase`1.DefaultUrl
+  - SuperOffice.ErpSync.WcfClientBase`1.Execute(SuperOffice.ErpSync.WcfClientBase{`0}.OnExecute)
+  - SuperOffice.ErpSync.WcfClientBase`1.Execute(SuperOffice.ErpSync.WcfClientBase{`0}.OnExecute,System.String)
+  - SuperOffice.ErpSync.WcfClientBase`1.InitBinding(System.ServiceModel.BasicHttpBinding)
+  langs:
+  - csharp
+  - vb
+  name: WcfClientBase<TService>
+  nameWithType: WcfClientBase<TService>
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nClass handling the WCF settings for connecting to an Erp connector\n"
+  syntax:
+    content: >-
+      [Obsolete("Use SuperOffice.WcfClientBase from SuperOffice.Contracts.dll or SuperOffice.ErpSync.IntegrationServerWcfClientBase from SuperOffice.Services.Implementation instead", true)]
+
+      public abstract class WcfClientBase<TService>
+    typeParameters:
+    - id: TService
+    content.vb: >-
+      <Obsolete("Use SuperOffice.WcfClientBase from SuperOffice.Contracts.dll or SuperOffice.ErpSync.IntegrationServerWcfClientBase from SuperOffice.Services.Implementation instead", True)>
+
+      Public MustInherit Class WcfClientBase(Of TService)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.ErpSync.WcfClientBase`1.EnumUtil.MapEnums``2
+  - SuperOffice.ErpSync.WcfClientBase`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use SuperOffice.WcfClientBase from SuperOffice.Contracts.dll or SuperOffice.ErpSync.IntegrationServerWcfClientBase from SuperOffice.Services.Implementation instead
+    - type: System.Boolean
+      value: true
+  nameWithType.vb: WcfClientBase(Of TService)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService)
+  name.vb: WcfClientBase(Of TService)
+- uid: SuperOffice.ErpSync.WcfClientBase`1.CreateChannel
+  commentId: M:SuperOffice.ErpSync.WcfClientBase`1.CreateChannel
+  id: CreateChannel
+  parent: SuperOffice.ErpSync.WcfClientBase`1
+  langs:
+  - csharp
+  - vb
+  name: CreateChannel()
+  nameWithType: WcfClientBase<TService>.CreateChannel()
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.CreateChannel()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nCreate WCF channel\n"
+  syntax:
+    content: protected TService CreateChannel()
+    return:
+      type: '{TService}'
+    content.vb: Protected Function CreateChannel As TService
+  overload: SuperOffice.ErpSync.WcfClientBase`1.CreateChannel*
+  nameWithType.vb: WcfClientBase(Of TService).CreateChannel()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).CreateChannel()
+- uid: SuperOffice.ErpSync.WcfClientBase`1.CreateChannel(System.String)
+  commentId: M:SuperOffice.ErpSync.WcfClientBase`1.CreateChannel(System.String)
+  id: CreateChannel(System.String)
+  parent: SuperOffice.ErpSync.WcfClientBase`1
+  langs:
+  - csharp
+  - vb
+  name: CreateChannel(String)
+  nameWithType: WcfClientBase<TService>.CreateChannel(String)
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.CreateChannel(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nCreate WCF channel\n"
+  syntax:
+    content: protected TService CreateChannel(string url)
+    parameters:
+    - id: url
+      type: System.String
+      description: Http or Https URL
+    return:
+      type: '{TService}'
+    content.vb: Protected Function CreateChannel(url As String) As TService
+  overload: SuperOffice.ErpSync.WcfClientBase`1.CreateChannel*
+  nameWithType.vb: WcfClientBase(Of TService).CreateChannel(String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).CreateChannel(System.String)
+- uid: SuperOffice.ErpSync.WcfClientBase`1.InitBinding(System.ServiceModel.BasicHttpBinding)
+  commentId: M:SuperOffice.ErpSync.WcfClientBase`1.InitBinding(System.ServiceModel.BasicHttpBinding)
+  id: InitBinding(System.ServiceModel.BasicHttpBinding)
+  parent: SuperOffice.ErpSync.WcfClientBase`1
+  langs:
+  - csharp
+  - vb
+  name: InitBinding(BasicHttpBinding)
+  nameWithType: WcfClientBase<TService>.InitBinding(BasicHttpBinding)
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.InitBinding(System.ServiceModel.BasicHttpBinding)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nEnable sending and receiving large messages\n"
+  syntax:
+    content: protected virtual void InitBinding(BasicHttpBinding binding)
+    parameters:
+    - id: binding
+      type: System.ServiceModel.BasicHttpBinding
+    content.vb: Protected Overridable Sub InitBinding(binding As BasicHttpBinding)
+  overload: SuperOffice.ErpSync.WcfClientBase`1.InitBinding*
+  nameWithType.vb: WcfClientBase(Of TService).InitBinding(BasicHttpBinding)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).InitBinding(System.ServiceModel.BasicHttpBinding)
+- uid: SuperOffice.ErpSync.WcfClientBase`1.Execute(SuperOffice.ErpSync.WcfClientBase{`0}.OnExecute)
+  commentId: M:SuperOffice.ErpSync.WcfClientBase`1.Execute(SuperOffice.ErpSync.WcfClientBase{`0}.OnExecute)
+  id: Execute(SuperOffice.ErpSync.WcfClientBase{`0}.OnExecute)
+  parent: SuperOffice.ErpSync.WcfClientBase`1
+  langs:
+  - csharp
+  - vb
+  name: Execute(WcfClientBase<TService>.OnExecute)
+  nameWithType: WcfClientBase<TService>.Execute(WcfClientBase<TService>.OnExecute)
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.Execute(SuperOffice.ErpSync.WcfClientBase<TService>.OnExecute)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nExecute delegate on default URL service\n"
+  syntax:
+    content: protected void Execute(WcfClientBase<TService>.OnExecute method)
+    parameters:
+    - id: method
+      type: SuperOffice.ErpSync.WcfClientBase`1.OnExecute
+      description: Service method to call
+    content.vb: Protected Sub Execute(method As WcfClientBase(Of TService).OnExecute)
+  overload: SuperOffice.ErpSync.WcfClientBase`1.Execute*
+  nameWithType.vb: WcfClientBase(Of TService).Execute(WcfClientBase(Of TService).OnExecute)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).Execute(SuperOffice.ErpSync.WcfClientBase(Of TService).OnExecute)
+  name.vb: Execute(WcfClientBase(Of TService).OnExecute)
+- uid: SuperOffice.ErpSync.WcfClientBase`1.Execute(SuperOffice.ErpSync.WcfClientBase{`0}.OnExecute,System.String)
+  commentId: M:SuperOffice.ErpSync.WcfClientBase`1.Execute(SuperOffice.ErpSync.WcfClientBase{`0}.OnExecute,System.String)
+  id: Execute(SuperOffice.ErpSync.WcfClientBase{`0}.OnExecute,System.String)
+  parent: SuperOffice.ErpSync.WcfClientBase`1
+  langs:
+  - csharp
+  - vb
+  name: Execute(WcfClientBase<TService>.OnExecute, String)
+  nameWithType: WcfClientBase<TService>.Execute(WcfClientBase<TService>.OnExecute, String)
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.Execute(SuperOffice.ErpSync.WcfClientBase<TService>.OnExecute, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nCalls service method on given service URL\n"
+  syntax:
+    content: protected void Execute(WcfClientBase<TService>.OnExecute method, string url)
+    parameters:
+    - id: method
+      type: SuperOffice.ErpSync.WcfClientBase`1.OnExecute
+      description: Service method to call
+    - id: url
+      type: System.String
+      description: Address of service
+    content.vb: Protected Sub Execute(method As WcfClientBase(Of TService).OnExecute, url As String)
+  overload: SuperOffice.ErpSync.WcfClientBase`1.Execute*
+  nameWithType.vb: WcfClientBase(Of TService).Execute(WcfClientBase(Of TService).OnExecute, String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).Execute(SuperOffice.ErpSync.WcfClientBase(Of TService).OnExecute, System.String)
+  name.vb: Execute(WcfClientBase(Of TService).OnExecute, String)
+- uid: SuperOffice.ErpSync.WcfClientBase`1.#ctor
+  commentId: M:SuperOffice.ErpSync.WcfClientBase`1.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.WcfClientBase`1
+  langs:
+  - csharp
+  - vb
+  name: WcfClientBase()
+  nameWithType: WcfClientBase<TService>.WcfClientBase()
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.WcfClientBase()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: protected WcfClientBase()
+    content.vb: Protected Sub New
+  overload: SuperOffice.ErpSync.WcfClientBase`1.#ctor*
+  nameWithType.vb: WcfClientBase(Of TService).WcfClientBase()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).WcfClientBase()
+- uid: SuperOffice.ErpSync.WcfClientBase`1.DefaultUrl
+  commentId: P:SuperOffice.ErpSync.WcfClientBase`1.DefaultUrl
+  id: DefaultUrl
+  parent: SuperOffice.ErpSync.WcfClientBase`1
+  langs:
+  - csharp
+  - vb
+  name: DefaultUrl
+  nameWithType: WcfClientBase<TService>.DefaultUrl
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.DefaultUrl
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nContains the URL of the Erp Sync connector\n"
+  syntax:
+    content: public string DefaultUrl { get; protected set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DefaultUrl As String
+  overload: SuperOffice.ErpSync.WcfClientBase`1.DefaultUrl*
+  nameWithType.vb: WcfClientBase(Of TService).DefaultUrl
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).DefaultUrl
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.WcfClientBase`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WcfClientBase<TService>, To>()
+  nameWithType: EnumUtil.MapEnums<WcfClientBase<TService>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.WcfClientBase<TService>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WcfClientBase(Of TService), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.WcfClientBase(Of TService), To)()
+  name.vb: MapEnums(Of WcfClientBase(Of TService), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WcfClientBase<TService>, To>
+    nameWithType: EnumUtil.MapEnums<WcfClientBase<TService>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.WcfClientBase<TService>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WcfClientBase(Of TService), To)
+    nameWithType: EnumUtil.MapEnums(Of WcfClientBase(Of TService), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.WcfClientBase(Of TService), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.WcfClientBase`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WcfClientBase<TService>, To>()
+  nameWithType: Converters.MapEnums<WcfClientBase<TService>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.WcfClientBase<TService>, To>()
+  nameWithType.vb: Converters.MapEnums(Of WcfClientBase(Of TService), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.WcfClientBase(Of TService), To)()
+  name.vb: MapEnums(Of WcfClientBase(Of TService), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WcfClientBase<TService>, To>
+    nameWithType: Converters.MapEnums<WcfClientBase<TService>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.WcfClientBase<TService>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WcfClientBase(Of TService), To)
+    nameWithType: Converters.MapEnums(Of WcfClientBase(Of TService), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.WcfClientBase(Of TService), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.ErpSync.WcfClientBase`1.CreateChannel*
+  commentId: Overload:SuperOffice.ErpSync.WcfClientBase`1.CreateChannel
+  isExternal: true
+  name: CreateChannel
+  nameWithType: WcfClientBase<TService>.CreateChannel
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.CreateChannel
+  nameWithType.vb: WcfClientBase(Of TService).CreateChannel
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).CreateChannel
+- uid: '{TService}'
+  commentId: '!:TService'
+  definition: TService
+  name: TService
+  nameWithType: TService
+  fullName: TService
+- uid: TService
+  name: TService
+  nameWithType: TService
+  fullName: TService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.ErpSync.WcfClientBase`1.InitBinding*
+  commentId: Overload:SuperOffice.ErpSync.WcfClientBase`1.InitBinding
+  isExternal: true
+  name: InitBinding
+  nameWithType: WcfClientBase<TService>.InitBinding
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.InitBinding
+  nameWithType.vb: WcfClientBase(Of TService).InitBinding
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).InitBinding
+- uid: System.ServiceModel.BasicHttpBinding
+  isExternal: true
+  name: BasicHttpBinding
+  nameWithType: BasicHttpBinding
+  fullName: System.ServiceModel.BasicHttpBinding
+- uid: SuperOffice.ErpSync.WcfClientBase`1.Execute*
+  commentId: Overload:SuperOffice.ErpSync.WcfClientBase`1.Execute
+  isExternal: true
+  name: Execute
+  nameWithType: WcfClientBase<TService>.Execute
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.Execute
+  nameWithType.vb: WcfClientBase(Of TService).Execute
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).Execute
+- uid: SuperOffice.ErpSync.WcfClientBase`1.OnExecute
+  commentId: T:SuperOffice.ErpSync.WcfClientBase`1.OnExecute
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: WcfClientBase.OnExecute<>
+  nameWithType: WcfClientBase.OnExecute<>
+  fullName: SuperOffice.ErpSync.WcfClientBase.OnExecute<>
+  nameWithType.vb: WcfClientBase.OnExecute(Of )
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase.OnExecute(Of )
+  name.vb: WcfClientBase.OnExecute(Of )
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.WcfClientBase`1.OnExecute
+    name: WcfClientBase.OnExecute
+    nameWithType: WcfClientBase.OnExecute
+    fullName: SuperOffice.ErpSync.WcfClientBase.OnExecute
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.ErpSync.WcfClientBase`1.OnExecute
+    name: WcfClientBase.OnExecute
+    nameWithType: WcfClientBase.OnExecute
+    fullName: SuperOffice.ErpSync.WcfClientBase.OnExecute
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.WcfClientBase`1.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.WcfClientBase`1.#ctor
+  isExternal: true
+  name: WcfClientBase
+  nameWithType: WcfClientBase<TService>.WcfClientBase
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.WcfClientBase
+  nameWithType.vb: WcfClientBase(Of TService).WcfClientBase
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).WcfClientBase
+- uid: SuperOffice.ErpSync.WcfClientBase`1.DefaultUrl*
+  commentId: Overload:SuperOffice.ErpSync.WcfClientBase`1.DefaultUrl
+  isExternal: true
+  name: DefaultUrl
+  nameWithType: WcfClientBase<TService>.DefaultUrl
+  fullName: SuperOffice.ErpSync.WcfClientBase<TService>.DefaultUrl
+  nameWithType.vb: WcfClientBase(Of TService).DefaultUrl
+  fullName.vb: SuperOffice.ErpSync.WcfClientBase(Of TService).DefaultUrl

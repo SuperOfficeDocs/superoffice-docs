@@ -1,0 +1,710 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.MDOListItem
+  id: MDOListItem
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.MDOListItem.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.MDOListItem.ChildItems
+  - SuperOffice.CRM.Web.UI.Controls.MDOListItem.Icon
+  - SuperOffice.CRM.Web.UI.Controls.MDOListItem.Id
+  - SuperOffice.CRM.Web.UI.Controls.MDOListItem.Name
+  - SuperOffice.CRM.Web.UI.Controls.MDOListItem.ToolTip
+  - SuperOffice.CRM.Web.UI.Controls.MDOListItem.Type
+  langs:
+  - csharp
+  - vb
+  name: MDOListItem
+  nameWithType: MDOListItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public class MDOListItem
+    content.vb: Public Class MDOListItem
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOListItem.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)
+  id: '#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)'
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: MDOListItem(String, String, String, String, String, Int32, String)
+  nameWithType: MDOListItem.MDOListItem(String, String, String, String, String, Int32, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.MDOListItem(System.String, System.String, System.String, System.String, System.String, System.Int32, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public MDOListItem(string id, string name, string type, string tooltip, string value, int color, string icon)
+    parameters:
+    - id: id
+      type: System.String
+    - id: name
+      type: System.String
+    - id: type
+      type: System.String
+    - id: tooltip
+      type: System.String
+    - id: value
+      type: System.String
+    - id: color
+      type: System.Int32
+    - id: icon
+      type: System.String
+    content.vb: Public Sub New(id As String, name As String, type As String, tooltip As String, value As String, color As Integer, icon As String)
+  overload: SuperOffice.CRM.Web.UI.Controls.MDOListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.ChildItems
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOListItem.ChildItems
+  id: ChildItems
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ChildItems
+  nameWithType: MDOListItem.ChildItems
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.ChildItems
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public List<MDOListItem> ChildItems { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Web.UI.Controls.MDOListItem}
+    content.vb: Public ReadOnly Property ChildItems As List(Of MDOListItem)
+  overload: SuperOffice.CRM.Web.UI.Controls.MDOListItem.ChildItems*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Name
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOListItem.Name
+  id: Name
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MDOListItem.Name
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Name
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Type
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOListItem.Type
+  id: Type
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MDOListItem.Type
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Type
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Type { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Type As String
+  overload: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Id
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOListItem.Id
+  id: Id
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: MDOListItem.Id
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Id
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Id As String
+  overload: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.ToolTip
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOListItem.ToolTip
+  id: ToolTip
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ToolTip
+  nameWithType: MDOListItem.ToolTip
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.ToolTip
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string ToolTip { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ToolTip As String
+  overload: SuperOffice.CRM.Web.UI.Controls.MDOListItem.ToolTip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Icon
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOListItem.Icon
+  id: Icon
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: MDOListItem.Icon
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Icon
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Icon { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Icon As String
+  overload: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Icon*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.MDOListItem.#ctor
+  isExternal: true
+  name: MDOListItem
+  nameWithType: MDOListItem.MDOListItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.MDOListItem
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.ChildItems*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.MDOListItem.ChildItems
+  isExternal: true
+  name: ChildItems
+  nameWithType: MDOListItem.ChildItems
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.ChildItems
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Web.UI.Controls.MDOListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Web.UI.Controls.MDOListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MDOListItem>
+  nameWithType: List<MDOListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Web.UI.Controls.MDOListItem>
+  nameWithType.vb: List(Of MDOListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Web.UI.Controls.MDOListItem)
+  name.vb: List(Of MDOListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Name*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.MDOListItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: MDOListItem.Name
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Name
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Type*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.MDOListItem.Type
+  isExternal: true
+  name: Type
+  nameWithType: MDOListItem.Type
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Type
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Id*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.MDOListItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: MDOListItem.Id
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Id
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.ToolTip*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.MDOListItem.ToolTip
+  isExternal: true
+  name: ToolTip
+  nameWithType: MDOListItem.ToolTip
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.ToolTip
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Icon*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.MDOListItem.Icon
+  isExternal: true
+  name: Icon
+  nameWithType: MDOListItem.Icon
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOListItem.Icon

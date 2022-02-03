@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest
+  id: Appointment_GetPublishedProjectAppointmentsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.ProjectId
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetPublishedProjectAppointmentsRequest
+  nameWithType: Appointment_GetPublishedProjectAppointmentsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetPublishedProjectAppointmentsRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetPublishedProjectAppointmentsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetPublishedProjectAppointmentsRequest()
+  nameWithType: Appointment_GetPublishedProjectAppointmentsRequest.Appointment_GetPublishedProjectAppointmentsRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.Appointment_GetPublishedProjectAppointmentsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetPublishedProjectAppointmentsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Appointment_GetPublishedProjectAppointmentsRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.#ctor
+  isExternal: true
+  name: Appointment_GetPublishedProjectAppointmentsRequest
+  nameWithType: Appointment_GetPublishedProjectAppointmentsRequest.Appointment_GetPublishedProjectAppointmentsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.Appointment_GetPublishedProjectAppointmentsRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Appointment_GetPublishedProjectAppointmentsRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetPublishedProjectAppointmentsRequest.ProjectId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

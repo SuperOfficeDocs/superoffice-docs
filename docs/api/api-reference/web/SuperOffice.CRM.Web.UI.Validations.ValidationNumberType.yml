@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  commentId: T:SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  id: ValidationNumberType
+  parent: SuperOffice.CRM.Web.UI.Validations
+  children:
+  - SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Float
+  - SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Integer
+  - SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Money
+  - SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Percent
+  langs:
+  - csharp
+  - vb
+  name: ValidationNumberType
+  nameWithType: ValidationNumberType
+  fullName: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: public enum ValidationNumberType
+    content.vb: Public Enum ValidationNumberType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Integer
+  commentId: F:SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Integer
+  id: Integer
+  parent: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  langs:
+  - csharp
+  - vb
+  name: Integer
+  nameWithType: ValidationNumberType.Integer
+  fullName: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Integer
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: Integer = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Float
+  commentId: F:SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Float
+  id: Float
+  parent: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: ValidationNumberType.Float
+  fullName: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Float
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: Float = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Money
+  commentId: F:SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Money
+  id: Money
+  parent: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  langs:
+  - csharp
+  - vb
+  name: Money
+  nameWithType: ValidationNumberType.Money
+  fullName: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Money
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: Money = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Percent
+  commentId: F:SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Percent
+  id: Percent
+  parent: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  langs:
+  - csharp
+  - vb
+  name: Percent
+  nameWithType: ValidationNumberType.Percent
+  fullName: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType.Percent
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: Percent = 3
+    return:
+      type: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Validations
+  commentId: N:SuperOffice.CRM.Web.UI.Validations
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Validations
+  nameWithType: SuperOffice.CRM.Web.UI.Validations
+  fullName: SuperOffice.CRM.Web.UI.Validations
+- uid: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  commentId: T:SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+  parent: SuperOffice.CRM.Web.UI.Validations
+  isExternal: true
+  name: ValidationNumberType
+  nameWithType: ValidationNumberType
+  fullName: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType

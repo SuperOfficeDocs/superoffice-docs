@@ -1,0 +1,35 @@
+<Data>
+  <Database>
+    <add key="DatabaseMajor" value="MSSQL" />
+    <add key="DatabaseMinor" value="14" />
+    <add key="Server" value="" />
+    <add key="Database" value="" />
+    <add key="CommandTimeOut" value="300" />
+    <add key="TablePrefix" value="crm7" />
+    <add key="ConnectionString" value="Server=[@Server];Database=[@Database];User ID=[@User];Password=[@Password]" />
+
+    <!-- Sybase -->
+    <add key="DynamicLoadedConnectionType" value="iAnywhere.Data.AsaClient.AsaConnection" />
+    <add key="DynamicLoadedDataBaseDriver" value="C:\Program Files\Sybase\SQL Anywhere 9\win32\iAnywhere.Data.AsaClient.dll" />
+    <add key="DynamicLoadedDataBaseDriverPolicy" value="C:\Program Files\Sybase\SQL Anywhere 9\win32\policy.9.0.iAnywhere.Data.AsaClient.dll" />
+
+    <!-- **** LEGACY **** IBM DB2 -->
+    <add key="DynamicLoadedConnectionType" value="IBM.Data.DB2.DB2Connection" />
+    <add key="DynamicLoadedDataBaseDriver" value="C:\Program Files\IBM\SQLLIB\BIN\netf11\IBM.Data.DB2.dll" />
+    <add key="DynamicLoadedDataBaseDriverPolicy" value="C:\Program Files\IBM\SQLLIB\BIN\netf11\policy.8.1.IBM.Data.DB2.dll" />
+  </Database>
+  <Explicit>
+    <add key="PartnerAllowed" value="True" />
+    <add key="EmployeeAllowed" value="True" />
+    <add key="SystemAllowed" value="True" />
+    <add key="AnonymousAllowed" value="True" /> <!--  Added v8.5 -->
+    <add key="DBUser" value="" />
+    <add key="DBPassword" value="" />
+    <add key="CommonDBConnection" value="True" />
+  </Explicit>
+  <!-- <ImplicitAnonymous /> removed in v 8.5 -->
+  <Session>
+    <add key="Mode" value="Thread" />
+    <add key="ReauthenticateOnDeserialization" value="false" />
+  </Session>
+</Data>

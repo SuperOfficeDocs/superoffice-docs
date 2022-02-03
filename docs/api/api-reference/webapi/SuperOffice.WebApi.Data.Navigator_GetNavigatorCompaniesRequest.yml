@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest
+  commentId: T:SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest
+  id: Navigator_GetNavigatorCompaniesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.#ctor
+  - SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.Name
+  langs:
+  - csharp
+  - vb
+  name: Navigator_GetNavigatorCompaniesRequest
+  nameWithType: Navigator_GetNavigatorCompaniesRequest
+  fullName: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Navigator_GetNavigatorCompaniesRequest : Object'
+    content.vb: >-
+      Public Class Navigator_GetNavigatorCompaniesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest
+  langs:
+  - csharp
+  - vb
+  name: Navigator_GetNavigatorCompaniesRequest()
+  nameWithType: Navigator_GetNavigatorCompaniesRequest.Navigator_GetNavigatorCompaniesRequest()
+  fullName: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.Navigator_GetNavigatorCompaniesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Navigator_GetNavigatorCompaniesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Navigator_GetNavigatorCompaniesRequest.Name
+  fullName: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.#ctor
+  isExternal: true
+  name: Navigator_GetNavigatorCompaniesRequest
+  nameWithType: Navigator_GetNavigatorCompaniesRequest.Navigator_GetNavigatorCompaniesRequest
+  fullName: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.Navigator_GetNavigatorCompaniesRequest
+- uid: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: Navigator_GetNavigatorCompaniesRequest.Name
+  fullName: SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

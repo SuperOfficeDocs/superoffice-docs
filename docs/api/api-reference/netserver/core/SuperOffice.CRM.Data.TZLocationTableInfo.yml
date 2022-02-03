@@ -1,0 +1,2870 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo
+  commentId: T:SuperOffice.CRM.Data.TZLocationTableInfo
+  id: TZLocationTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.TZLocationTableInfo.Cities
+  - SuperOffice.CRM.Data.TZLocationTableInfo.CountryId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.CountryId_InnerJoin_Country
+  - SuperOffice.CRM.Data.TZLocationTableInfo.Definition
+  - SuperOffice.CRM.Data.TZLocationTableInfo.Deleted
+  - SuperOffice.CRM.Data.TZLocationTableInfo.Description
+  - SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.TZLocationTableInfo.GroupName
+  - SuperOffice.CRM.Data.TZLocationTableInfo.IsActive
+  - SuperOffice.CRM.Data.TZLocationTableInfo.IsBuiltIn
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Appointment_PreferredTZLocation
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Associate_TzLocationId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_BaseTZLocation_TZLocationId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_ChatTopic_TzLocationId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Contact_TzLocationId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Country_TzLocationId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_DiaryView_TzLocationId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Person_TzLocationId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Project_TzLocationId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZDstRule_TZLocationId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZStdRule_TZLocationId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.LocationCode
+  - SuperOffice.CRM.Data.TZLocationTableInfo.RegionName
+  - SuperOffice.CRM.Data.TZLocationTableInfo.Registered
+  - SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.TZLocationTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.TZLocationTableInfo.ShortName
+  - SuperOffice.CRM.Data.TZLocationTableInfo.TZLocationId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.Updated
+  - SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: TZLocationTableInfo
+  nameWithType: TZLocationTableInfo
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;TZLocation&apos;: Time zone location\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetTZLocationInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("TZLocation")]
+
+      public class TZLocationTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("TZLocation")>
+
+      Public Class TZLocationTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.TZLocationTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.TZLocationTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TZLocation
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: TZLocationTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table TZLocation in the database dictionary: TZLocation\n"
+  syntax:
+    content: public const string DictionaryTableName = "TZLocation"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "TZLocation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: TZLocationTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table TZLocation in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: TZLocationTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: TZLocationTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.TZLocationId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.TZLocationId
+  id: TZLocationId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TZLocationId
+  nameWithType: TZLocationTableInfo.TZLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.TZLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;TZLocation_id&apos; in table &apos;TZLocation&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo TZLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property TZLocationId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.TZLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.CountryId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: TZLocationTableInfo.CountryId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;countryId&apos; in table &apos;TZLocation&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCountry that this timezone location is defined for\n"
+  syntax:
+    content: public Int32FieldInfo CountryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property CountryId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LocationCode
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LocationCode
+  id: LocationCode
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LocationCode
+  nameWithType: TZLocationTableInfo.LocationCode
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LocationCode
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;locationCode&apos; in table &apos;TZLocation&apos;: Dictionary type String[30], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCode, such as CA-NT, identifying the timezone location in the imported data. Unique, NOT equal to the culture codes of Windows\n"
+  syntax:
+    content: public StringFieldInfo LocationCode { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property LocationCode As StringFieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LocationCode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.GroupName
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.GroupName
+  id: GroupName
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: GroupName
+  nameWithType: TZLocationTableInfo.GroupName
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.GroupName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;groupName&apos; in table &apos;TZLocation&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nGroup (heading) name for timezone locations that do not have a country (such as the EU zones)\n"
+  syntax:
+    content: public StringFieldInfo GroupName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property GroupName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.GroupName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.RegionName
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.RegionName
+  id: RegionName
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegionName
+  nameWithType: TZLocationTableInfo.RegionName
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.RegionName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;regionName&apos; in table &apos;TZLocation&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nName of region, such as Northwest Territories. Future localization via localeText resource type 31\n"
+  syntax:
+    content: public StringFieldInfo RegionName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property RegionName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.RegionName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Cities
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.Cities
+  id: Cities
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Cities
+  nameWithType: TZLocationTableInfo.Cities
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Cities
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;cities&apos; in table &apos;TZLocation&apos;: Dictionary type String[2048], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCities, comma-separated list. Future localization via localeText resource type 32\n"
+  syntax:
+    content: public StringFieldInfo Cities { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Cities As StringFieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.Cities*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.ShortName
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.ShortName
+  id: ShortName
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ShortName
+  nameWithType: TZLocationTableInfo.ShortName
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.ShortName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;shortName&apos; in table &apos;TZLocation&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nShort name, such as CET (Central European Time); future localization via localeText resource type 33\n"
+  syntax:
+    content: public StringFieldInfo ShortName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ShortName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.ShortName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Description
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: TZLocationTableInfo.Description
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Description
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;description&apos; in table &apos;TZLocation&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDcescription, only visible in Admin contexts\n"
+  syntax:
+    content: public StringFieldInfo Description { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Description As StringFieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.IsBuiltIn
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: TZLocationTableInfo.IsBuiltIn
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.IsBuiltIn
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;isBuiltIn&apos; in table &apos;TZLocation&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIs this row part of SuperOffice priming data\n"
+  syntax:
+    content: public UInt16FieldInfo IsBuiltIn { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property IsBuiltIn As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.IsBuiltIn*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.IsActive
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.IsActive
+  id: IsActive
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: TZLocationTableInfo.IsActive
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.IsActive
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;isActive&apos; in table &apos;TZLocation&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIs this field visible in the standard drop-down list in the GUI? If no, it can still be used and searched for, but won&apos;t be visible directly in the dropdown list.\n"
+  syntax:
+    content: public UInt16FieldInfo IsActive { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property IsActive As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.IsActive*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Deleted
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: TZLocationTableInfo.Deleted
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Deleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;isDeleted&apos; in table &apos;TZLocation&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIs this row &apos;deleted&apos; (invisible in lists)\n"
+  syntax:
+    content: public UInt16FieldInfo Deleted { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Deleted As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.Deleted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: TZLocationTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered&apos; in table &apos;TZLocation&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: TZLocationTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;TZLocation&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: TZLocationTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated&apos; in table &apos;TZLocation&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: TZLocationTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;TZLocation&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: TZLocationTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updatedCount&apos; in table &apos;TZLocation&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.CountryId_InnerJoin_Country
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.CountryId_InnerJoin_Country
+  id: CountryId_InnerJoin_Country
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CountryId_InnerJoin_Country
+  nameWithType: TZLocationTableInfo.CountryId_InnerJoin_Country
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.CountryId_InnerJoin_Country
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key CountryId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.CountryTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<CountryTableInfo> CountryId_InnerJoin_Country { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CountryTableInfo}
+    content.vb: Public ReadOnly Property CountryId_InnerJoin_Country As TargetedInnerJoin(Of CountryTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.CountryId_InnerJoin_Country*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: TZLocationTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: TZLocationTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Associate_TzLocationId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Associate_TzLocationId
+  id: LeftOuterJoin_Associate_TzLocationId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Associate_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Associate_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Associate_TzLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TZLocationId on this table, to Associate.<xref href=\"SuperOffice.CRM.Data.AssociateTableInfo.TzLocationId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<AssociateTableInfo> LeftOuterJoin_Associate_TzLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Associate_TzLocationId As TargetedLeftOuterJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Associate_TzLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Contact_TzLocationId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Contact_TzLocationId
+  id: LeftOuterJoin_Contact_TzLocationId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Contact_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Contact_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Contact_TzLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TZLocationId on this table, to Contact.<xref href=\"SuperOffice.CRM.Data.ContactTableInfo.TzLocationId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ContactTableInfo> LeftOuterJoin_Contact_TzLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ContactTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Contact_TzLocationId As TargetedLeftOuterJoin(Of ContactTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Contact_TzLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Person_TzLocationId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Person_TzLocationId
+  id: LeftOuterJoin_Person_TzLocationId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Person_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Person_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Person_TzLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TZLocationId on this table, to Person.<xref href=\"SuperOffice.CRM.Data.PersonTableInfo.TzLocationId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<PersonTableInfo> LeftOuterJoin_Person_TzLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Person_TzLocationId As TargetedLeftOuterJoin(Of PersonTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Person_TzLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Appointment_PreferredTZLocation
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Appointment_PreferredTZLocation
+  id: LeftOuterJoin_Appointment_PreferredTZLocation
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Appointment_PreferredTZLocation
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Appointment_PreferredTZLocation
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Appointment_PreferredTZLocation
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TZLocationId on this table, to Appointment.<xref href=\"SuperOffice.CRM.Data.AppointmentTableInfo.PreferredTZLocation\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<AppointmentTableInfo> LeftOuterJoin_Appointment_PreferredTZLocation { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Appointment_PreferredTZLocation As TargetedLeftOuterJoin(Of AppointmentTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Appointment_PreferredTZLocation*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Project_TzLocationId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Project_TzLocationId
+  id: LeftOuterJoin_Project_TzLocationId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Project_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Project_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Project_TzLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TZLocationId on this table, to Project.<xref href=\"SuperOffice.CRM.Data.ProjectTableInfo.TzLocationId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ProjectTableInfo> LeftOuterJoin_Project_TzLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Project_TzLocationId As TargetedLeftOuterJoin(Of ProjectTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Project_TzLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Country_TzLocationId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Country_TzLocationId
+  id: LeftOuterJoin_Country_TzLocationId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Country_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Country_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Country_TzLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TZLocationId on this table, to Country.<xref href=\"SuperOffice.CRM.Data.CountryTableInfo.TzLocationId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<CountryTableInfo> LeftOuterJoin_Country_TzLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CountryTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Country_TzLocationId As TargetedLeftOuterJoin(Of CountryTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Country_TzLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_DiaryView_TzLocationId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_DiaryView_TzLocationId
+  id: LeftOuterJoin_DiaryView_TzLocationId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_DiaryView_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_DiaryView_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_DiaryView_TzLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TZLocationId on this table, to DiaryView.<xref href=\"SuperOffice.CRM.Data.DiaryViewTableInfo.TzLocationId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<DiaryViewTableInfo> LeftOuterJoin_DiaryView_TzLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DiaryViewTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_DiaryView_TzLocationId As TargetedLeftOuterJoin(Of DiaryViewTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_DiaryView_TzLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZStdRule_TZLocationId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZStdRule_TZLocationId
+  id: LeftOuterJoin_TZStdRule_TZLocationId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TZStdRule_TZLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_TZStdRule_TZLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZStdRule_TZLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TZLocationId on this table, to TZStdRule.<xref href=\"SuperOffice.CRM.Data.TZStdRuleTableInfo.TZLocationId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TZStdRuleTableInfo> LeftOuterJoin_TZStdRule_TZLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TZStdRuleTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TZStdRule_TZLocationId As TargetedLeftOuterJoin(Of TZStdRuleTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZStdRule_TZLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZDstRule_TZLocationId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZDstRule_TZLocationId
+  id: LeftOuterJoin_TZDstRule_TZLocationId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TZDstRule_TZLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_TZDstRule_TZLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZDstRule_TZLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TZLocationId on this table, to TZDstRule.<xref href=\"SuperOffice.CRM.Data.TZDstRuleTableInfo.TZLocationId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TZDstRuleTableInfo> LeftOuterJoin_TZDstRule_TZLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TZDstRuleTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TZDstRule_TZLocationId As TargetedLeftOuterJoin(Of TZDstRuleTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZDstRule_TZLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_BaseTZLocation_TZLocationId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_BaseTZLocation_TZLocationId
+  id: LeftOuterJoin_BaseTZLocation_TZLocationId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_BaseTZLocation_TZLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_BaseTZLocation_TZLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_BaseTZLocation_TZLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TZLocationId on this table, to BaseTZLocation.<xref href=\"SuperOffice.CRM.Data.BaseTZLocationTableInfo.TZLocationId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<BaseTZLocationTableInfo> LeftOuterJoin_BaseTZLocation_TZLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BaseTZLocationTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_BaseTZLocation_TZLocationId As TargetedLeftOuterJoin(Of BaseTZLocationTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_BaseTZLocation_TZLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_ChatTopic_TzLocationId
+  commentId: P:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_ChatTopic_TzLocationId
+  id: LeftOuterJoin_ChatTopic_TzLocationId
+  parent: SuperOffice.CRM.Data.TZLocationTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ChatTopic_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_ChatTopic_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_ChatTopic_TzLocationId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TZLocationId on this table, to ChatTopic.<xref href=\"SuperOffice.CRM.Data.ChatTopicTableInfo.TzLocationId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ChatTopicTableInfo> LeftOuterJoin_ChatTopic_TzLocationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ChatTopic_TzLocationId As TargetedLeftOuterJoin(Of ChatTopicTableInfo)
+  overload: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_ChatTopic_TzLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TZLocationTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<TZLocationTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TZLocationTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TZLocationTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TZLocationTableInfo, To)()
+  name.vb: MapEnums(Of TZLocationTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TZLocationTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<TZLocationTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TZLocationTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TZLocationTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of TZLocationTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TZLocationTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TZLocationTableInfo, To>()
+  nameWithType: Converters.MapEnums<TZLocationTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TZLocationTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of TZLocationTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TZLocationTableInfo, To)()
+  name.vb: MapEnums(Of TZLocationTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TZLocationTableInfo, To>
+    nameWithType: Converters.MapEnums<TZLocationTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TZLocationTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TZLocationTableInfo, To)
+    nameWithType: Converters.MapEnums(Of TZLocationTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TZLocationTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: TZLocationTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: TZLocationTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: TZLocationTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Definition
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.TZLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.TZLocationId
+  isExternal: true
+  name: TZLocationId
+  nameWithType: TZLocationTableInfo.TZLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.TZLocationId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.CountryId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: TZLocationTableInfo.CountryId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.CountryId
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LocationCode*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LocationCode
+  isExternal: true
+  name: LocationCode
+  nameWithType: TZLocationTableInfo.LocationCode
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LocationCode
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.GroupName*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.GroupName
+  isExternal: true
+  name: GroupName
+  nameWithType: TZLocationTableInfo.GroupName
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.GroupName
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.RegionName*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.RegionName
+  isExternal: true
+  name: RegionName
+  nameWithType: TZLocationTableInfo.RegionName
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.RegionName
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Cities*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.Cities
+  isExternal: true
+  name: Cities
+  nameWithType: TZLocationTableInfo.Cities
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Cities
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.ShortName*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.ShortName
+  isExternal: true
+  name: ShortName
+  nameWithType: TZLocationTableInfo.ShortName
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.ShortName
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Description*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: TZLocationTableInfo.Description
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Description
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.IsBuiltIn*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.IsBuiltIn
+  isExternal: true
+  name: IsBuiltIn
+  nameWithType: TZLocationTableInfo.IsBuiltIn
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.IsBuiltIn
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.IsActive*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: TZLocationTableInfo.IsActive
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.IsActive
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Deleted*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: TZLocationTableInfo.Deleted
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Deleted
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: TZLocationTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Registered
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: TZLocationTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: TZLocationTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.Updated
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: TZLocationTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: TZLocationTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.CountryId_InnerJoin_Country*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.CountryId_InnerJoin_Country
+  isExternal: true
+  name: CountryId_InnerJoin_Country
+  nameWithType: TZLocationTableInfo.CountryId_InnerJoin_Country
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.CountryId_InnerJoin_Country
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CountryTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CountryTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<CountryTableInfo>
+  nameWithType: TargetedInnerJoin<CountryTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.CountryTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of CountryTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.CountryTableInfo)
+  name.vb: TargetedInnerJoin(Of CountryTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.CountryTableInfo
+    name: CountryTableInfo
+    nameWithType: CountryTableInfo
+    fullName: SuperOffice.CRM.Data.CountryTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.CountryTableInfo
+    name: CountryTableInfo
+    nameWithType: CountryTableInfo
+    fullName: SuperOffice.CRM.Data.CountryTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: TZLocationTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: TZLocationTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Associate_TzLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Associate_TzLocationId
+  isExternal: true
+  name: LeftOuterJoin_Associate_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Associate_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Associate_TzLocationId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<AssociateTableInfo>
+  nameWithType: TargetedLeftOuterJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Contact_TzLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Contact_TzLocationId
+  isExternal: true
+  name: LeftOuterJoin_Contact_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Contact_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Contact_TzLocationId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ContactTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ContactTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ContactTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ContactTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ContactTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ContactTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Person_TzLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Person_TzLocationId
+  isExternal: true
+  name: LeftOuterJoin_Person_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Person_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Person_TzLocationId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<PersonTableInfo>
+  nameWithType: TargetedLeftOuterJoin<PersonTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.PersonTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of PersonTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.PersonTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of PersonTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Appointment_PreferredTZLocation*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Appointment_PreferredTZLocation
+  isExternal: true
+  name: LeftOuterJoin_Appointment_PreferredTZLocation
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Appointment_PreferredTZLocation
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Appointment_PreferredTZLocation
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<AppointmentTableInfo>
+  nameWithType: TargetedLeftOuterJoin<AppointmentTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.AppointmentTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of AppointmentTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.AppointmentTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of AppointmentTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AppointmentTableInfo
+    name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AppointmentTableInfo
+    name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Project_TzLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Project_TzLocationId
+  isExternal: true
+  name: LeftOuterJoin_Project_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Project_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Project_TzLocationId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ProjectTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ProjectTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ProjectTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ProjectTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ProjectTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ProjectTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    nameWithType: ProjectTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    nameWithType: ProjectTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Country_TzLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Country_TzLocationId
+  isExternal: true
+  name: LeftOuterJoin_Country_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_Country_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_Country_TzLocationId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CountryTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.CountryTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<CountryTableInfo>
+  nameWithType: TargetedLeftOuterJoin<CountryTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.CountryTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of CountryTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.CountryTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of CountryTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.CountryTableInfo
+    name: CountryTableInfo
+    nameWithType: CountryTableInfo
+    fullName: SuperOffice.CRM.Data.CountryTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.CountryTableInfo
+    name: CountryTableInfo
+    nameWithType: CountryTableInfo
+    fullName: SuperOffice.CRM.Data.CountryTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_DiaryView_TzLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_DiaryView_TzLocationId
+  isExternal: true
+  name: LeftOuterJoin_DiaryView_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_DiaryView_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_DiaryView_TzLocationId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DiaryViewTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DiaryViewTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<DiaryViewTableInfo>
+  nameWithType: TargetedLeftOuterJoin<DiaryViewTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.DiaryViewTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of DiaryViewTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.DiaryViewTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of DiaryViewTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.DiaryViewTableInfo
+    name: DiaryViewTableInfo
+    nameWithType: DiaryViewTableInfo
+    fullName: SuperOffice.CRM.Data.DiaryViewTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.DiaryViewTableInfo
+    name: DiaryViewTableInfo
+    nameWithType: DiaryViewTableInfo
+    fullName: SuperOffice.CRM.Data.DiaryViewTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZStdRule_TZLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZStdRule_TZLocationId
+  isExternal: true
+  name: LeftOuterJoin_TZStdRule_TZLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_TZStdRule_TZLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZStdRule_TZLocationId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TZStdRuleTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TZStdRuleTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TZStdRuleTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TZStdRuleTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TZStdRuleTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TZStdRuleTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TZStdRuleTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TZStdRuleTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TZStdRuleTableInfo
+    name: TZStdRuleTableInfo
+    nameWithType: TZStdRuleTableInfo
+    fullName: SuperOffice.CRM.Data.TZStdRuleTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TZStdRuleTableInfo
+    name: TZStdRuleTableInfo
+    nameWithType: TZStdRuleTableInfo
+    fullName: SuperOffice.CRM.Data.TZStdRuleTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZDstRule_TZLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZDstRule_TZLocationId
+  isExternal: true
+  name: LeftOuterJoin_TZDstRule_TZLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_TZDstRule_TZLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_TZDstRule_TZLocationId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TZDstRuleTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TZDstRuleTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TZDstRuleTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TZDstRuleTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TZDstRuleTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TZDstRuleTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TZDstRuleTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TZDstRuleTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TZDstRuleTableInfo
+    name: TZDstRuleTableInfo
+    nameWithType: TZDstRuleTableInfo
+    fullName: SuperOffice.CRM.Data.TZDstRuleTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TZDstRuleTableInfo
+    name: TZDstRuleTableInfo
+    nameWithType: TZDstRuleTableInfo
+    fullName: SuperOffice.CRM.Data.TZDstRuleTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_BaseTZLocation_TZLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_BaseTZLocation_TZLocationId
+  isExternal: true
+  name: LeftOuterJoin_BaseTZLocation_TZLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_BaseTZLocation_TZLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_BaseTZLocation_TZLocationId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BaseTZLocationTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BaseTZLocationTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<BaseTZLocationTableInfo>
+  nameWithType: TargetedLeftOuterJoin<BaseTZLocationTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.BaseTZLocationTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of BaseTZLocationTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.BaseTZLocationTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of BaseTZLocationTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.BaseTZLocationTableInfo
+    name: BaseTZLocationTableInfo
+    nameWithType: BaseTZLocationTableInfo
+    fullName: SuperOffice.CRM.Data.BaseTZLocationTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.BaseTZLocationTableInfo
+    name: BaseTZLocationTableInfo
+    nameWithType: BaseTZLocationTableInfo
+    fullName: SuperOffice.CRM.Data.BaseTZLocationTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_ChatTopic_TzLocationId*
+  commentId: Overload:SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_ChatTopic_TzLocationId
+  isExternal: true
+  name: LeftOuterJoin_ChatTopic_TzLocationId
+  nameWithType: TZLocationTableInfo.LeftOuterJoin_ChatTopic_TzLocationId
+  fullName: SuperOffice.CRM.Data.TZLocationTableInfo.LeftOuterJoin_ChatTopic_TzLocationId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ChatTopicTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ChatTopicTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ChatTopicTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ChatTopicTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ChatTopicTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ChatTopicTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ChatTopicTableInfo
+    name: ChatTopicTableInfo
+    nameWithType: ChatTopicTableInfo
+    fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ChatTopicTableInfo
+    name: ChatTopicTableInfo
+    nameWithType: ChatTopicTableInfo
+    fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

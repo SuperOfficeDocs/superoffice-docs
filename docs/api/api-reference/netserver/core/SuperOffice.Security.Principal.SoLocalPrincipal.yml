@@ -1,0 +1,2711 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal
+  commentId: T:SuperOffice.Security.Principal.SoLocalPrincipal
+  id: SoLocalPrincipal
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.SoLocalPrincipal.Authenticate
+  - SuperOffice.Security.Principal.SoLocalPrincipal.BeginIgnoreSentry
+  - SuperOffice.Security.Principal.SoLocalPrincipal.GetAccessToken(System.String,System.Boolean)
+  - SuperOffice.Security.Principal.SoLocalPrincipal.GetCurrent(SuperOffice.Data.Dictionary.SoTable)
+  - SuperOffice.Security.Principal.SoLocalPrincipal.GetHistory(SuperOffice.Data.Dictionary.SoTable)
+  - SuperOffice.Security.Principal.SoLocalPrincipal.GetSafeCredentials
+  - SuperOffice.Security.Principal.SoLocalPrincipal.HasGrantedModuleLicense(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.GrantedModuleLicense},System.String)
+  - SuperOffice.Security.Principal.SoLocalPrincipal.Identity
+  - SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentry
+  - SuperOffice.Security.Principal.SoLocalPrincipal.ParseRole(SuperOffice.CRM.Services.SoPrincipalCarrier,SuperOffice.Data.SoDataReader)
+  - SuperOffice.Security.Principal.SoLocalPrincipal.ReAuthorize
+  - SuperOffice.Security.Principal.SoLocalPrincipal.SetCurrent(SuperOffice.Data.Dictionary.SoTable,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: SoLocalPrincipal
+  nameWithType: SoLocalPrincipal
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  summary: "\nLocal implementation of <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  remarks: "\nThis class carries out the database authentication.\n"
+  example:
+  - "\nUse the <xref href=\"SuperOffice.SoSession\" data-throw-if-not-resolved=\"false\"></xref> object to authenticate users.\n<pre><code>SoSession session = SoSession.Authenticate(&quot;user&quot;,&quot;password&quot;);\n// do some stuff.\nsession.Close();</code></pre>\n"
+  syntax:
+    content: 'public sealed class SoLocalPrincipal : SoPrincipal, IPrincipal'
+    content.vb: >-
+      Public NotInheritable Class SoLocalPrincipal
+          Inherits SoPrincipal
+          Implements IPrincipal
+  inheritance:
+  - System.Object
+  - System.MarshalByRefObject
+  - SuperOffice.Security.Principal.SoPrincipal
+  implements:
+  - System.Security.Principal.IPrincipal
+  inheritedMembers:
+  - SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword(System.String)
+  - SuperOffice.Security.Principal.SoPrincipal.IsInRole(System.String)
+  - SuperOffice.Security.Principal.SoPrincipal.GetPrincipalCarrier
+  - SuperOffice.Security.Principal.SoPrincipal.SetPrincipalCarrier(SuperOffice.CRM.Services.SoPrincipalCarrier)
+  - SuperOffice.Security.Principal.SoPrincipal.IsInSameCompany(System.Int32)
+  - SuperOffice.Security.Principal.SoPrincipal.IsInCompany(System.Int32)
+  - SuperOffice.Security.Principal.SoPrincipal.IsInProject(System.Int32)
+  - SuperOffice.Security.Principal.SoPrincipal.IsInSameGroup(System.Int32)
+  - SuperOffice.Security.Principal.SoPrincipal.GetFunctionRights
+  - SuperOffice.Security.Principal.SoPrincipal.HasFunctionRight(System.String)
+  - SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String,System.String)
+  - SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String)
+  - SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String,System.String)
+  - SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicensesAsString
+  - SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicenses
+  - SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String)
+  - SuperOffice.Security.Principal.SoPrincipal.ToString
+  - SuperOffice.Security.Principal.SoPrincipal.SetCachedItem(System.String,System.Object,System.Double)
+  - SuperOffice.Security.Principal.SoPrincipal.GetCachedItem(System.String)
+  - SuperOffice.Security.Principal.SoPrincipal.RemoveCachedItem(System.String)
+  - SuperOffice.Security.Principal.SoPrincipal.ClearCache
+  - SuperOffice.Security.Principal.SoPrincipal.CacheKeyExist(System.String)
+  - SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem(System.String,System.Object@)
+  - SuperOffice.Security.Principal.SoPrincipal.Tokens
+  - SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity
+  - SuperOffice.Security.Principal.SoPrincipal.TimeZone
+  - SuperOffice.Security.Principal.SoPrincipal.UserName
+  - SuperOffice.Security.Principal.SoPrincipal.UserType
+  - SuperOffice.Security.Principal.SoPrincipal.Associate
+  - SuperOffice.Security.Principal.SoPrincipal.AssociateId
+  - SuperOffice.Security.Principal.SoPrincipal.CRM5Secret
+  - SuperOffice.Security.Principal.SoPrincipal.IsPerson
+  - SuperOffice.Security.Principal.SoPrincipal.PersonId
+  - SuperOffice.Security.Principal.SoPrincipal.CountryId
+  - SuperOffice.Security.Principal.SoPrincipal.HomeCountryId
+  - SuperOffice.Security.Principal.SoPrincipal.ContactId
+  - SuperOffice.Security.Principal.SoPrincipal.GroupId
+  - SuperOffice.Security.Principal.SoPrincipal.BusinessId
+  - SuperOffice.Security.Principal.SoPrincipal.CategoryId
+  - SuperOffice.Security.Principal.SoPrincipal.ContactOwner
+  - SuperOffice.Security.Principal.SoPrincipal.DatabaseContextIdentifier
+  - SuperOffice.Security.Principal.SoPrincipal.State
+  - SuperOffice.Security.Principal.SoPrincipal.CanCreateExternalPerson
+  - SuperOffice.Security.Principal.SoPrincipal.RoleId
+  - SuperOffice.Security.Principal.SoPrincipal.RoleName
+  - SuperOffice.Security.Principal.SoPrincipal.RoleDescription
+  - SuperOffice.Security.Principal.SoPrincipal.RoleType
+  - SuperOffice.Security.Principal.SoPrincipal.License
+  - SuperOffice.Security.Principal.SoPrincipal.FullName
+  - SuperOffice.Security.Principal.SoPrincipal.EMailAddress
+  - SuperOffice.Security.Principal.SoPrincipal.IsSaintEnabled
+  - SuperOffice.Security.Principal.SoPrincipal.EjUserId
+  - SuperOffice.Security.Principal.SoPrincipal.EjAccessLevel
+  - SuperOffice.Security.Principal.SoPrincipal.EjUserStatus
+  - SuperOffice.Security.Principal.SoPrincipal.SecondaryGroups
+  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  - System.MarshalByRefObject.GetLifetimeService
+  - System.MarshalByRefObject.InitializeLifetimeService
+  - System.MarshalByRefObject.CreateObjRef(System.Type)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Security.Principal.SoLocalPrincipal.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.SoLocalPrincipal.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.Authenticate
+  commentId: M:SuperOffice.Security.Principal.SoLocalPrincipal.Authenticate
+  id: Authenticate
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: Authenticate()
+  nameWithType: SoLocalPrincipal.Authenticate()
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.Authenticate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  summary: "\nAuthenticate AND authorize the user in the database\n"
+  syntax:
+    content: public override void Authenticate()
+    content.vb: Public Overrides Sub Authenticate
+  overridden: SuperOffice.Security.Principal.SoPrincipal.Authenticate
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.Authenticate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.ReAuthorize
+  commentId: M:SuperOffice.Security.Principal.SoLocalPrincipal.ReAuthorize
+  id: ReAuthorize
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: ReAuthorize()
+  nameWithType: SoLocalPrincipal.ReAuthorize()
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.ReAuthorize()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  summary: "\nRe-run the authorization, without changing the authentication of the current local principal. \nYou must be in state Authorized to run this method.\n"
+  remarks: "\nThis method is intended for situations where you have switched databases or changed things that influence\nauthorization, but don&apos;t want to (or cannot) do a full reauthentication. All authorization-related data\nwill be re-read, but the basic user identity will be carried over.\n"
+  syntax:
+    content: public void ReAuthorize()
+    content.vb: Public Sub ReAuthorize
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.ReAuthorize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.ParseRole(SuperOffice.CRM.Services.SoPrincipalCarrier,SuperOffice.Data.SoDataReader)
+  commentId: M:SuperOffice.Security.Principal.SoLocalPrincipal.ParseRole(SuperOffice.CRM.Services.SoPrincipalCarrier,SuperOffice.Data.SoDataReader)
+  id: ParseRole(SuperOffice.CRM.Services.SoPrincipalCarrier,SuperOffice.Data.SoDataReader)
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: ParseRole(SoPrincipalCarrier, SoDataReader)
+  nameWithType: SoLocalPrincipal.ParseRole(SoPrincipalCarrier, SoDataReader)
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.ParseRole(SuperOffice.CRM.Services.SoPrincipalCarrier, SuperOffice.Data.SoDataReader)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public void ParseRole(SoPrincipalCarrier carrier, SoDataReader reader)
+    parameters:
+    - id: carrier
+      type: SuperOffice.CRM.Services.SoPrincipalCarrier
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    content.vb: Public Sub ParseRole(carrier As SoPrincipalCarrier, reader As SoDataReader)
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.ParseRole*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.GetSafeCredentials
+  commentId: M:SuperOffice.Security.Principal.SoLocalPrincipal.GetSafeCredentials
+  id: GetSafeCredentials
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: GetSafeCredentials()
+  nameWithType: SoLocalPrincipal.GetSafeCredentials()
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.GetSafeCredentials()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  summary: "\nObtain a set of credentials that are safe to use accross mix-mode authentication scenarios.\n"
+  syntax:
+    content: public override SoCredentials GetSafeCredentials()
+    return:
+      type: SuperOffice.Security.Principal.SoCredentials
+      description: Credentials that are safe to use accross mix-mode authentication scenarios
+    content.vb: Public Overrides Function GetSafeCredentials As SoCredentials
+  overridden: SuperOffice.Security.Principal.SoPrincipal.GetSafeCredentials
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.GetSafeCredentials*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.GetAccessToken(System.String,System.Boolean)
+  commentId: M:SuperOffice.Security.Principal.SoLocalPrincipal.GetAccessToken(System.String,System.Boolean)
+  id: GetAccessToken(System.String,System.Boolean)
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: GetAccessToken(String, Boolean)
+  nameWithType: SoLocalPrincipal.GetAccessToken(String, Boolean)
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.GetAccessToken(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override string GetAccessToken(string applicationToken, bool includeCsSession)
+    parameters:
+    - id: applicationToken
+      type: System.String
+    - id: includeCsSession
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Overrides Function GetAccessToken(applicationToken As String, includeCsSession As Boolean) As String
+  overridden: SuperOffice.Security.Principal.SoPrincipal.GetAccessToken(System.String,System.Boolean)
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.GetAccessToken*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.GetCurrent(SuperOffice.Data.Dictionary.SoTable)
+  commentId: M:SuperOffice.Security.Principal.SoLocalPrincipal.GetCurrent(SuperOffice.Data.Dictionary.SoTable)
+  id: GetCurrent(SuperOffice.Data.Dictionary.SoTable)
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent(SoTable)
+  nameWithType: SoLocalPrincipal.GetCurrent(SoTable)
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.GetCurrent(SuperOffice.Data.Dictionary.SoTable)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  summary: "\nGet the current item, the item on top of the items in the history.\n"
+  syntax:
+    content: public int GetCurrent(SoTable table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Reference to the table to get the current item for.
+    return:
+      type: System.Int32
+      description: Primary key of the record that is the current record of this table.
+    content.vb: Public Function GetCurrent(table As SoTable) As Integer
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.GetCurrent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.SetCurrent(SuperOffice.Data.Dictionary.SoTable,System.Int32)
+  commentId: M:SuperOffice.Security.Principal.SoLocalPrincipal.SetCurrent(SuperOffice.Data.Dictionary.SoTable,System.Int32)
+  id: SetCurrent(SuperOffice.Data.Dictionary.SoTable,System.Int32)
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: SetCurrent(SoTable, Int32)
+  nameWithType: SoLocalPrincipal.SetCurrent(SoTable, Int32)
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.SetCurrent(SuperOffice.Data.Dictionary.SoTable, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  summary: "\nSet the current item, the item on top of the items in the history.\n"
+  remarks: "Other items in the history are shifted down.  Items exceeding the \nmaximum numer of items in the history are removed."
+  syntax:
+    content: public void SetCurrent(SoTable table, int record)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Reference to the table to set the current item for.
+    - id: record
+      type: System.Int32
+      description: Primary key of the record that is to be the current record of this table.
+    content.vb: Public Sub SetCurrent(table As SoTable, record As Integer)
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.SetCurrent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.GetHistory(SuperOffice.Data.Dictionary.SoTable)
+  commentId: M:SuperOffice.Security.Principal.SoLocalPrincipal.GetHistory(SuperOffice.Data.Dictionary.SoTable)
+  id: GetHistory(SuperOffice.Data.Dictionary.SoTable)
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: GetHistory(SoTable)
+  nameWithType: SoLocalPrincipal.GetHistory(SoTable)
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.GetHistory(SuperOffice.Data.Dictionary.SoTable)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  summary: "\nGet history for the table\n"
+  syntax:
+    content: public int[] GetHistory(SoTable table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Reference to the table to get the history for.
+    return:
+      type: System.Int32[]
+      description: List of primary keys of records from the table.
+    content.vb: Public Function GetHistory(table As SoTable) As Integer()
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.GetHistory*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.HasGrantedModuleLicense(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.GrantedModuleLicense},System.String)
+  commentId: M:SuperOffice.Security.Principal.SoLocalPrincipal.HasGrantedModuleLicense(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.GrantedModuleLicense},System.String)
+  id: HasGrantedModuleLicense(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.GrantedModuleLicense},System.String)
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: HasGrantedModuleLicense(IEnumerable<GrantedModuleLicense>, String)
+  nameWithType: SoLocalPrincipal.HasGrantedModuleLicense(IEnumerable<GrantedModuleLicense>, String)
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.HasGrantedModuleLicense(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Services.GrantedModuleLicense>, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public static bool HasGrantedModuleLicense(IEnumerable<GrantedModuleLicense> licenses, string licenseName)
+    parameters:
+    - id: licenses
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.GrantedModuleLicense}
+    - id: licenseName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasGrantedModuleLicense(licenses As IEnumerable(Of GrantedModuleLicense), licenseName As String) As Boolean
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.HasGrantedModuleLicense*
+  nameWithType.vb: SoLocalPrincipal.HasGrantedModuleLicense(IEnumerable(Of GrantedModuleLicense), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Security.Principal.SoLocalPrincipal.HasGrantedModuleLicense(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Services.GrantedModuleLicense), System.String)
+  name.vb: HasGrantedModuleLicense(IEnumerable(Of GrantedModuleLicense), String)
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.BeginIgnoreSentry
+  commentId: M:SuperOffice.Security.Principal.SoLocalPrincipal.BeginIgnoreSentry
+  id: BeginIgnoreSentry
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: BeginIgnoreSentry()
+  nameWithType: SoLocalPrincipal.BeginIgnoreSentry()
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.BeginIgnoreSentry()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  summary: "\nThis method can only be used by SuperOffice signed code!\nStart ignoring sentry.\n"
+  example:
+  - "\nThis code should be used as part of a using section:\n<pre><code>SuperOffice.Security.Permissions.SoStrongName.Permission.Assert();\nusing (localPrincipal.BeginIgnoreSentry())\n{\n    // ToDo: Your stuff that by-passes Sentry\n}</code></pre>\n"
+  syntax:
+    content: >-
+      [Obsolete("This method manipulates the IgnoreSentry flag across ALL THREADS; this is VERY seldom the behaviour you want. Please consider using ThreadManager.BeginIgnoreSentry() instead, which applies to the current thread and inherits the status to all child threads", false)]
+
+      public SoLocalPrincipal.IgnoreSentryModifier BeginIgnoreSentry()
+    return:
+      type: SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentryModifier
+      description: Disposable object ignoring sentry while it is in context.  Always put this value inside using(...)
+    content.vb: >-
+      <Obsolete("This method manipulates the IgnoreSentry flag across ALL THREADS; this is VERY seldom the behaviour you want. Please consider using ThreadManager.BeginIgnoreSentry() instead, which applies to the current thread and inherits the status to all child threads", False)>
+
+      Public Function BeginIgnoreSentry As SoLocalPrincipal.IgnoreSentryModifier
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.BeginIgnoreSentry*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method manipulates the IgnoreSentry flag across ALL THREADS; this is VERY seldom the behaviour you want. Please consider using ThreadManager.BeginIgnoreSentry() instead, which applies to the current thread and inherits the status to all child threads
+    - type: System.Boolean
+      value: false
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.Identity
+  commentId: P:SuperOffice.Security.Principal.SoLocalPrincipal.Identity
+  id: Identity
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: SoLocalPrincipal.Identity
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.Identity
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override ISoIdentity Identity { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Security.Principal.ISoIdentity
+    content.vb: Public Overrides ReadOnly Property Identity As ISoIdentity
+  overridden: SuperOffice.Security.Principal.SoPrincipal.Identity
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.Identity*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentry
+  commentId: P:SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentry
+  id: IgnoreSentry
+  parent: SuperOffice.Security.Principal.SoLocalPrincipal
+  langs:
+  - csharp
+  - vb
+  name: IgnoreSentry
+  nameWithType: SoLocalPrincipal.IgnoreSentry
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentry
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  summary: "\nShould sentry be ignored?\n"
+  syntax:
+    content: public bool IgnoreSentry { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IgnoreSentry As Boolean
+  overload: SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentry*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.MarshalByRefObject
+  commentId: T:System.MarshalByRefObject
+  parent: System
+  isExternal: true
+  name: MarshalByRefObject
+  nameWithType: MarshalByRefObject
+  fullName: System.MarshalByRefObject
+- uid: SuperOffice.Security.Principal.SoPrincipal
+  commentId: T:SuperOffice.Security.Principal.SoPrincipal
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoPrincipal
+  nameWithType: SoPrincipal
+  fullName: SuperOffice.Security.Principal.SoPrincipal
+- uid: System.Security.Principal.IPrincipal
+  commentId: T:System.Security.Principal.IPrincipal
+  parent: System.Security.Principal
+  isExternal: true
+  name: IPrincipal
+  nameWithType: IPrincipal
+  fullName: System.Security.Principal.IPrincipal
+- uid: SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword(System.String)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword(System.String)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: SetAssociatePassword(String)
+  nameWithType: SoPrincipal.SetAssociatePassword(String)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword(System.String)
+    name: SetAssociatePassword
+    nameWithType: SoPrincipal.SetAssociatePassword
+    fullName: SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword(System.String)
+    name: SetAssociatePassword
+    nameWithType: SoPrincipal.SetAssociatePassword
+    fullName: SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.IsInRole(System.String)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.IsInRole(System.String)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: IsInRole(String)
+  nameWithType: SoPrincipal.IsInRole(String)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.IsInRole(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.IsInRole(System.String)
+    name: IsInRole
+    nameWithType: SoPrincipal.IsInRole
+    fullName: SuperOffice.Security.Principal.SoPrincipal.IsInRole
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.IsInRole(System.String)
+    name: IsInRole
+    nameWithType: SoPrincipal.IsInRole
+    fullName: SuperOffice.Security.Principal.SoPrincipal.IsInRole
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.GetPrincipalCarrier
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.GetPrincipalCarrier
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: GetPrincipalCarrier()
+  nameWithType: SoPrincipal.GetPrincipalCarrier()
+  fullName: SuperOffice.Security.Principal.SoPrincipal.GetPrincipalCarrier()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetPrincipalCarrier
+    name: GetPrincipalCarrier
+    nameWithType: SoPrincipal.GetPrincipalCarrier
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetPrincipalCarrier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetPrincipalCarrier
+    name: GetPrincipalCarrier
+    nameWithType: SoPrincipal.GetPrincipalCarrier
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetPrincipalCarrier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.SetPrincipalCarrier(SuperOffice.CRM.Services.SoPrincipalCarrier)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.SetPrincipalCarrier(SuperOffice.CRM.Services.SoPrincipalCarrier)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: SetPrincipalCarrier(SoPrincipalCarrier)
+  nameWithType: SoPrincipal.SetPrincipalCarrier(SoPrincipalCarrier)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.SetPrincipalCarrier(SuperOffice.CRM.Services.SoPrincipalCarrier)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.SetPrincipalCarrier(SuperOffice.CRM.Services.SoPrincipalCarrier)
+    name: SetPrincipalCarrier
+    nameWithType: SoPrincipal.SetPrincipalCarrier
+    fullName: SuperOffice.Security.Principal.SoPrincipal.SetPrincipalCarrier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SoPrincipalCarrier
+    name: SoPrincipalCarrier
+    nameWithType: SoPrincipalCarrier
+    fullName: SuperOffice.CRM.Services.SoPrincipalCarrier
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.SetPrincipalCarrier(SuperOffice.CRM.Services.SoPrincipalCarrier)
+    name: SetPrincipalCarrier
+    nameWithType: SoPrincipal.SetPrincipalCarrier
+    fullName: SuperOffice.Security.Principal.SoPrincipal.SetPrincipalCarrier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SoPrincipalCarrier
+    name: SoPrincipalCarrier
+    nameWithType: SoPrincipalCarrier
+    fullName: SuperOffice.CRM.Services.SoPrincipalCarrier
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.IsInSameCompany(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.IsInSameCompany(System.Int32)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: IsInSameCompany(Int32)
+  nameWithType: SoPrincipal.IsInSameCompany(Int32)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.IsInSameCompany(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.IsInSameCompany(System.Int32)
+    name: IsInSameCompany
+    nameWithType: SoPrincipal.IsInSameCompany
+    fullName: SuperOffice.Security.Principal.SoPrincipal.IsInSameCompany
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.IsInSameCompany(System.Int32)
+    name: IsInSameCompany
+    nameWithType: SoPrincipal.IsInSameCompany
+    fullName: SuperOffice.Security.Principal.SoPrincipal.IsInSameCompany
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.IsInCompany(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.IsInCompany(System.Int32)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: IsInCompany(Int32)
+  nameWithType: SoPrincipal.IsInCompany(Int32)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.IsInCompany(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.IsInCompany(System.Int32)
+    name: IsInCompany
+    nameWithType: SoPrincipal.IsInCompany
+    fullName: SuperOffice.Security.Principal.SoPrincipal.IsInCompany
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.IsInCompany(System.Int32)
+    name: IsInCompany
+    nameWithType: SoPrincipal.IsInCompany
+    fullName: SuperOffice.Security.Principal.SoPrincipal.IsInCompany
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.IsInProject(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.IsInProject(System.Int32)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: IsInProject(Int32)
+  nameWithType: SoPrincipal.IsInProject(Int32)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.IsInProject(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.IsInProject(System.Int32)
+    name: IsInProject
+    nameWithType: SoPrincipal.IsInProject
+    fullName: SuperOffice.Security.Principal.SoPrincipal.IsInProject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.IsInProject(System.Int32)
+    name: IsInProject
+    nameWithType: SoPrincipal.IsInProject
+    fullName: SuperOffice.Security.Principal.SoPrincipal.IsInProject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.IsInSameGroup(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.IsInSameGroup(System.Int32)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: IsInSameGroup(Int32)
+  nameWithType: SoPrincipal.IsInSameGroup(Int32)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.IsInSameGroup(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.IsInSameGroup(System.Int32)
+    name: IsInSameGroup
+    nameWithType: SoPrincipal.IsInSameGroup
+    fullName: SuperOffice.Security.Principal.SoPrincipal.IsInSameGroup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.IsInSameGroup(System.Int32)
+    name: IsInSameGroup
+    nameWithType: SoPrincipal.IsInSameGroup
+    fullName: SuperOffice.Security.Principal.SoPrincipal.IsInSameGroup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.GetFunctionRights
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.GetFunctionRights
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: GetFunctionRights()
+  nameWithType: SoPrincipal.GetFunctionRights()
+  fullName: SuperOffice.Security.Principal.SoPrincipal.GetFunctionRights()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetFunctionRights
+    name: GetFunctionRights
+    nameWithType: SoPrincipal.GetFunctionRights
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetFunctionRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetFunctionRights
+    name: GetFunctionRights
+    nameWithType: SoPrincipal.GetFunctionRights
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetFunctionRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.HasFunctionRight(System.String)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.HasFunctionRight(System.String)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: HasFunctionRight(String)
+  nameWithType: SoPrincipal.HasFunctionRight(String)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.HasFunctionRight(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.HasFunctionRight(System.String)
+    name: HasFunctionRight
+    nameWithType: SoPrincipal.HasFunctionRight
+    fullName: SuperOffice.Security.Principal.SoPrincipal.HasFunctionRight
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.HasFunctionRight(System.String)
+    name: HasFunctionRight
+    nameWithType: SoPrincipal.HasFunctionRight
+    fullName: SuperOffice.Security.Principal.SoPrincipal.HasFunctionRight
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String,System.String)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String,System.String)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: HasLicense(String, String)
+  nameWithType: SoPrincipal.HasLicense(String, String)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String,System.String)
+    name: HasLicense
+    nameWithType: SoPrincipal.HasLicense
+    fullName: SuperOffice.Security.Principal.SoPrincipal.HasLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String,System.String)
+    name: HasLicense
+    nameWithType: SoPrincipal.HasLicense
+    fullName: SuperOffice.Security.Principal.SoPrincipal.HasLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: HasLicense(String)
+  nameWithType: SoPrincipal.HasLicense(String)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String)
+    name: HasLicense
+    nameWithType: SoPrincipal.HasLicense
+    fullName: SuperOffice.Security.Principal.SoPrincipal.HasLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String)
+    name: HasLicense
+    nameWithType: SoPrincipal.HasLicense
+    fullName: SuperOffice.Security.Principal.SoPrincipal.HasLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String,System.String)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String,System.String)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: GetLicense(String, String)
+  nameWithType: SoPrincipal.GetLicense(String, String)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String,System.String)
+    name: GetLicense
+    nameWithType: SoPrincipal.GetLicense
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String,System.String)
+    name: GetLicense
+    nameWithType: SoPrincipal.GetLicense
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicensesAsString
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicensesAsString
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: GetGrantedLicensesAsString()
+  nameWithType: SoPrincipal.GetGrantedLicensesAsString()
+  fullName: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicensesAsString()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicensesAsString
+    name: GetGrantedLicensesAsString
+    nameWithType: SoPrincipal.GetGrantedLicensesAsString
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicensesAsString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicensesAsString
+    name: GetGrantedLicensesAsString
+    nameWithType: SoPrincipal.GetGrantedLicensesAsString
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicensesAsString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicenses
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicenses
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: GetGrantedLicenses()
+  nameWithType: SoPrincipal.GetGrantedLicenses()
+  fullName: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicenses()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicenses
+    name: GetGrantedLicenses
+    nameWithType: SoPrincipal.GetGrantedLicenses
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicenses
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicenses
+    name: GetGrantedLicenses
+    nameWithType: SoPrincipal.GetGrantedLicenses
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicenses
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: GetLicense(String)
+  nameWithType: SoPrincipal.GetLicense(String)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String)
+    name: GetLicense
+    nameWithType: SoPrincipal.GetLicense
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String)
+    name: GetLicense
+    nameWithType: SoPrincipal.GetLicense
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.ToString
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.ToString
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: ToString()
+  nameWithType: SoPrincipal.ToString()
+  fullName: SuperOffice.Security.Principal.SoPrincipal.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.ToString
+    name: ToString
+    nameWithType: SoPrincipal.ToString
+    fullName: SuperOffice.Security.Principal.SoPrincipal.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.ToString
+    name: ToString
+    nameWithType: SoPrincipal.ToString
+    fullName: SuperOffice.Security.Principal.SoPrincipal.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.SetCachedItem(System.String,System.Object,System.Double)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.SetCachedItem(System.String,System.Object,System.Double)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: SetCachedItem(String, Object, Double)
+  nameWithType: SoPrincipal.SetCachedItem(String, Object, Double)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.SetCachedItem(System.String, System.Object, System.Double)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.SetCachedItem(System.String,System.Object,System.Double)
+    name: SetCachedItem
+    nameWithType: SoPrincipal.SetCachedItem
+    fullName: SuperOffice.Security.Principal.SoPrincipal.SetCachedItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.SetCachedItem(System.String,System.Object,System.Double)
+    name: SetCachedItem
+    nameWithType: SoPrincipal.SetCachedItem
+    fullName: SuperOffice.Security.Principal.SoPrincipal.SetCachedItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.GetCachedItem(System.String)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.GetCachedItem(System.String)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: GetCachedItem(String)
+  nameWithType: SoPrincipal.GetCachedItem(String)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.GetCachedItem(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetCachedItem(System.String)
+    name: GetCachedItem
+    nameWithType: SoPrincipal.GetCachedItem
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetCachedItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetCachedItem(System.String)
+    name: GetCachedItem
+    nameWithType: SoPrincipal.GetCachedItem
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetCachedItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.RemoveCachedItem(System.String)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.RemoveCachedItem(System.String)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: RemoveCachedItem(String)
+  nameWithType: SoPrincipal.RemoveCachedItem(String)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.RemoveCachedItem(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.RemoveCachedItem(System.String)
+    name: RemoveCachedItem
+    nameWithType: SoPrincipal.RemoveCachedItem
+    fullName: SuperOffice.Security.Principal.SoPrincipal.RemoveCachedItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.RemoveCachedItem(System.String)
+    name: RemoveCachedItem
+    nameWithType: SoPrincipal.RemoveCachedItem
+    fullName: SuperOffice.Security.Principal.SoPrincipal.RemoveCachedItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.ClearCache
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.ClearCache
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: ClearCache()
+  nameWithType: SoPrincipal.ClearCache()
+  fullName: SuperOffice.Security.Principal.SoPrincipal.ClearCache()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.ClearCache
+    name: ClearCache
+    nameWithType: SoPrincipal.ClearCache
+    fullName: SuperOffice.Security.Principal.SoPrincipal.ClearCache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.ClearCache
+    name: ClearCache
+    nameWithType: SoPrincipal.ClearCache
+    fullName: SuperOffice.Security.Principal.SoPrincipal.ClearCache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.CacheKeyExist(System.String)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.CacheKeyExist(System.String)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: CacheKeyExist(String)
+  nameWithType: SoPrincipal.CacheKeyExist(String)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.CacheKeyExist(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.CacheKeyExist(System.String)
+    name: CacheKeyExist
+    nameWithType: SoPrincipal.CacheKeyExist
+    fullName: SuperOffice.Security.Principal.SoPrincipal.CacheKeyExist
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.CacheKeyExist(System.String)
+    name: CacheKeyExist
+    nameWithType: SoPrincipal.CacheKeyExist
+    fullName: SuperOffice.Security.Principal.SoPrincipal.CacheKeyExist
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem(System.String,System.Object@)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem(System.String,System.Object@)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: TryGetCachedItem(String, Object)
+  nameWithType: SoPrincipal.TryGetCachedItem(String, Object)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem(System.String, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem(System.String,System.Object@)
+    name: TryGetCachedItem
+    nameWithType: SoPrincipal.TryGetCachedItem
+    fullName: SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem(System.String,System.Object@)
+    name: TryGetCachedItem
+    nameWithType: SoPrincipal.TryGetCachedItem
+    fullName: SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.Tokens
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.Tokens
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: Tokens
+  nameWithType: SoPrincipal.Tokens
+  fullName: SuperOffice.Security.Principal.SoPrincipal.Tokens
+- uid: SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: IPrincipal.Identity
+  nameWithType: SoPrincipal.IPrincipal.Identity
+  fullName: SuperOffice.Security.Principal.SoPrincipal.System.Security.Principal.IPrincipal.Identity
+  nameWithType.vb: SoPrincipal.System.Security.Principal.IPrincipal.Identity
+  name.vb: System.Security.Principal.IPrincipal.Identity
+- uid: SuperOffice.Security.Principal.SoPrincipal.TimeZone
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.TimeZone
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: TimeZone
+  nameWithType: SoPrincipal.TimeZone
+  fullName: SuperOffice.Security.Principal.SoPrincipal.TimeZone
+- uid: SuperOffice.Security.Principal.SoPrincipal.UserName
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.UserName
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: UserName
+  nameWithType: SoPrincipal.UserName
+  fullName: SuperOffice.Security.Principal.SoPrincipal.UserName
+- uid: SuperOffice.Security.Principal.SoPrincipal.UserType
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.UserType
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: UserType
+  nameWithType: SoPrincipal.UserType
+  fullName: SuperOffice.Security.Principal.SoPrincipal.UserType
+- uid: SuperOffice.Security.Principal.SoPrincipal.Associate
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.Associate
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: Associate
+  nameWithType: SoPrincipal.Associate
+  fullName: SuperOffice.Security.Principal.SoPrincipal.Associate
+- uid: SuperOffice.Security.Principal.SoPrincipal.AssociateId
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.AssociateId
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: AssociateId
+  nameWithType: SoPrincipal.AssociateId
+  fullName: SuperOffice.Security.Principal.SoPrincipal.AssociateId
+- uid: SuperOffice.Security.Principal.SoPrincipal.CRM5Secret
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.CRM5Secret
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: CRM5Secret
+  nameWithType: SoPrincipal.CRM5Secret
+  fullName: SuperOffice.Security.Principal.SoPrincipal.CRM5Secret
+- uid: SuperOffice.Security.Principal.SoPrincipal.IsPerson
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.IsPerson
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: IsPerson
+  nameWithType: SoPrincipal.IsPerson
+  fullName: SuperOffice.Security.Principal.SoPrincipal.IsPerson
+- uid: SuperOffice.Security.Principal.SoPrincipal.PersonId
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.PersonId
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: PersonId
+  nameWithType: SoPrincipal.PersonId
+  fullName: SuperOffice.Security.Principal.SoPrincipal.PersonId
+- uid: SuperOffice.Security.Principal.SoPrincipal.CountryId
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.CountryId
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: CountryId
+  nameWithType: SoPrincipal.CountryId
+  fullName: SuperOffice.Security.Principal.SoPrincipal.CountryId
+- uid: SuperOffice.Security.Principal.SoPrincipal.HomeCountryId
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.HomeCountryId
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: HomeCountryId
+  nameWithType: SoPrincipal.HomeCountryId
+  fullName: SuperOffice.Security.Principal.SoPrincipal.HomeCountryId
+- uid: SuperOffice.Security.Principal.SoPrincipal.ContactId
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.ContactId
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: ContactId
+  nameWithType: SoPrincipal.ContactId
+  fullName: SuperOffice.Security.Principal.SoPrincipal.ContactId
+- uid: SuperOffice.Security.Principal.SoPrincipal.GroupId
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.GroupId
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: GroupId
+  nameWithType: SoPrincipal.GroupId
+  fullName: SuperOffice.Security.Principal.SoPrincipal.GroupId
+- uid: SuperOffice.Security.Principal.SoPrincipal.BusinessId
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.BusinessId
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: BusinessId
+  nameWithType: SoPrincipal.BusinessId
+  fullName: SuperOffice.Security.Principal.SoPrincipal.BusinessId
+- uid: SuperOffice.Security.Principal.SoPrincipal.CategoryId
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.CategoryId
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: CategoryId
+  nameWithType: SoPrincipal.CategoryId
+  fullName: SuperOffice.Security.Principal.SoPrincipal.CategoryId
+- uid: SuperOffice.Security.Principal.SoPrincipal.ContactOwner
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.ContactOwner
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: ContactOwner
+  nameWithType: SoPrincipal.ContactOwner
+  fullName: SuperOffice.Security.Principal.SoPrincipal.ContactOwner
+- uid: SuperOffice.Security.Principal.SoPrincipal.DatabaseContextIdentifier
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.DatabaseContextIdentifier
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: DatabaseContextIdentifier
+  nameWithType: SoPrincipal.DatabaseContextIdentifier
+  fullName: SuperOffice.Security.Principal.SoPrincipal.DatabaseContextIdentifier
+- uid: SuperOffice.Security.Principal.SoPrincipal.State
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.State
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: State
+  nameWithType: SoPrincipal.State
+  fullName: SuperOffice.Security.Principal.SoPrincipal.State
+- uid: SuperOffice.Security.Principal.SoPrincipal.CanCreateExternalPerson
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.CanCreateExternalPerson
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: CanCreateExternalPerson
+  nameWithType: SoPrincipal.CanCreateExternalPerson
+  fullName: SuperOffice.Security.Principal.SoPrincipal.CanCreateExternalPerson
+- uid: SuperOffice.Security.Principal.SoPrincipal.RoleId
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.RoleId
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: RoleId
+  nameWithType: SoPrincipal.RoleId
+  fullName: SuperOffice.Security.Principal.SoPrincipal.RoleId
+- uid: SuperOffice.Security.Principal.SoPrincipal.RoleName
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.RoleName
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: RoleName
+  nameWithType: SoPrincipal.RoleName
+  fullName: SuperOffice.Security.Principal.SoPrincipal.RoleName
+- uid: SuperOffice.Security.Principal.SoPrincipal.RoleDescription
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.RoleDescription
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: RoleDescription
+  nameWithType: SoPrincipal.RoleDescription
+  fullName: SuperOffice.Security.Principal.SoPrincipal.RoleDescription
+- uid: SuperOffice.Security.Principal.SoPrincipal.RoleType
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.RoleType
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: RoleType
+  nameWithType: SoPrincipal.RoleType
+  fullName: SuperOffice.Security.Principal.SoPrincipal.RoleType
+- uid: SuperOffice.Security.Principal.SoPrincipal.License
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.License
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: License
+  nameWithType: SoPrincipal.License
+  fullName: SuperOffice.Security.Principal.SoPrincipal.License
+- uid: SuperOffice.Security.Principal.SoPrincipal.FullName
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.FullName
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: FullName
+  nameWithType: SoPrincipal.FullName
+  fullName: SuperOffice.Security.Principal.SoPrincipal.FullName
+- uid: SuperOffice.Security.Principal.SoPrincipal.EMailAddress
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.EMailAddress
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: EMailAddress
+  nameWithType: SoPrincipal.EMailAddress
+  fullName: SuperOffice.Security.Principal.SoPrincipal.EMailAddress
+- uid: SuperOffice.Security.Principal.SoPrincipal.IsSaintEnabled
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.IsSaintEnabled
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: IsSaintEnabled
+  nameWithType: SoPrincipal.IsSaintEnabled
+  fullName: SuperOffice.Security.Principal.SoPrincipal.IsSaintEnabled
+- uid: SuperOffice.Security.Principal.SoPrincipal.EjUserId
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.EjUserId
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: EjUserId
+  nameWithType: SoPrincipal.EjUserId
+  fullName: SuperOffice.Security.Principal.SoPrincipal.EjUserId
+- uid: SuperOffice.Security.Principal.SoPrincipal.EjAccessLevel
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.EjAccessLevel
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: EjAccessLevel
+  nameWithType: SoPrincipal.EjAccessLevel
+  fullName: SuperOffice.Security.Principal.SoPrincipal.EjAccessLevel
+- uid: SuperOffice.Security.Principal.SoPrincipal.EjUserStatus
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.EjUserStatus
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: EjUserStatus
+  nameWithType: SoPrincipal.EjUserStatus
+  fullName: SuperOffice.Security.Principal.SoPrincipal.EjUserStatus
+- uid: SuperOffice.Security.Principal.SoPrincipal.SecondaryGroups
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.SecondaryGroups
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: SecondaryGroups
+  nameWithType: SoPrincipal.SecondaryGroups
+  fullName: SuperOffice.Security.Principal.SoPrincipal.SecondaryGroups
+- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: MemberwiseClone(Boolean)
+  nameWithType: MarshalByRefObject.MemberwiseClone(Boolean)
+  fullName: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.GetLifetimeService
+  commentId: M:System.MarshalByRefObject.GetLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: GetLifetimeService()
+  nameWithType: MarshalByRefObject.GetLifetimeService()
+  fullName: System.MarshalByRefObject.GetLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.InitializeLifetimeService
+  commentId: M:System.MarshalByRefObject.InitializeLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: InitializeLifetimeService()
+  nameWithType: MarshalByRefObject.InitializeLifetimeService()
+  fullName: System.MarshalByRefObject.InitializeLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: MarshalByRefObject.InitializeLifetimeService
+    fullName: System.MarshalByRefObject.InitializeLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: MarshalByRefObject.InitializeLifetimeService
+    fullName: System.MarshalByRefObject.InitializeLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+  commentId: M:System.MarshalByRefObject.CreateObjRef(System.Type)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: CreateObjRef(Type)
+  nameWithType: MarshalByRefObject.CreateObjRef(Type)
+  fullName: System.MarshalByRefObject.CreateObjRef(System.Type)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+    name: CreateObjRef
+    nameWithType: MarshalByRefObject.CreateObjRef
+    fullName: System.MarshalByRefObject.CreateObjRef
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+    name: CreateObjRef
+    nameWithType: MarshalByRefObject.CreateObjRef
+    fullName: System.MarshalByRefObject.CreateObjRef
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoLocalPrincipal, To>()
+  nameWithType: EnumUtil.MapEnums<SoLocalPrincipal, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.SoLocalPrincipal, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoLocalPrincipal, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoLocalPrincipal, To)()
+  name.vb: MapEnums(Of SoLocalPrincipal, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoLocalPrincipal, To>
+    nameWithType: EnumUtil.MapEnums<SoLocalPrincipal, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.SoLocalPrincipal, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoLocalPrincipal, To)
+    nameWithType: EnumUtil.MapEnums(Of SoLocalPrincipal, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoLocalPrincipal, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoLocalPrincipal, To>()
+  nameWithType: Converters.MapEnums<SoLocalPrincipal, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.SoLocalPrincipal, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoLocalPrincipal, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.SoLocalPrincipal, To)()
+  name.vb: MapEnums(Of SoLocalPrincipal, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoLocalPrincipal, To>
+    nameWithType: Converters.MapEnums<SoLocalPrincipal, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.SoLocalPrincipal, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoLocalPrincipal, To)
+    nameWithType: Converters.MapEnums(Of SoLocalPrincipal, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.SoLocalPrincipal, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Security.Principal
+  commentId: N:System.Security.Principal
+  isExternal: true
+  name: System.Security.Principal
+  nameWithType: System.Security.Principal
+  fullName: System.Security.Principal
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.SoPrincipal.Authenticate
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.Authenticate
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: Authenticate()
+  nameWithType: SoPrincipal.Authenticate()
+  fullName: SuperOffice.Security.Principal.SoPrincipal.Authenticate()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.Authenticate
+    name: Authenticate
+    nameWithType: SoPrincipal.Authenticate
+    fullName: SuperOffice.Security.Principal.SoPrincipal.Authenticate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.Authenticate
+    name: Authenticate
+    nameWithType: SoPrincipal.Authenticate
+    fullName: SuperOffice.Security.Principal.SoPrincipal.Authenticate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.Authenticate*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.Authenticate
+  isExternal: true
+  name: Authenticate
+  nameWithType: SoLocalPrincipal.Authenticate
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.Authenticate
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.ReAuthorize*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.ReAuthorize
+  isExternal: true
+  name: ReAuthorize
+  nameWithType: SoLocalPrincipal.ReAuthorize
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.ReAuthorize
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.ParseRole*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.ParseRole
+  isExternal: true
+  name: ParseRole
+  nameWithType: SoLocalPrincipal.ParseRole
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.ParseRole
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier
+  commentId: T:SuperOffice.CRM.Services.SoPrincipalCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SoPrincipalCarrier
+  nameWithType: SoPrincipalCarrier
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Security.Principal.SoPrincipal.GetSafeCredentials
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.GetSafeCredentials
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: GetSafeCredentials()
+  nameWithType: SoPrincipal.GetSafeCredentials()
+  fullName: SuperOffice.Security.Principal.SoPrincipal.GetSafeCredentials()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetSafeCredentials
+    name: GetSafeCredentials
+    nameWithType: SoPrincipal.GetSafeCredentials
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetSafeCredentials
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetSafeCredentials
+    name: GetSafeCredentials
+    nameWithType: SoPrincipal.GetSafeCredentials
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetSafeCredentials
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.GetSafeCredentials*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.GetSafeCredentials
+  isExternal: true
+  name: GetSafeCredentials
+  nameWithType: SoLocalPrincipal.GetSafeCredentials
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.GetSafeCredentials
+- uid: SuperOffice.Security.Principal.SoCredentials
+  commentId: T:SuperOffice.Security.Principal.SoCredentials
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoCredentials
+  nameWithType: SoCredentials
+  fullName: SuperOffice.Security.Principal.SoCredentials
+- uid: SuperOffice.Security.Principal.SoPrincipal.GetAccessToken(System.String,System.Boolean)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.GetAccessToken(System.String,System.Boolean)
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: GetAccessToken(String, Boolean)
+  nameWithType: SoPrincipal.GetAccessToken(String, Boolean)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.GetAccessToken(System.String, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetAccessToken(System.String,System.Boolean)
+    name: GetAccessToken
+    nameWithType: SoPrincipal.GetAccessToken
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetAccessToken
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipal.GetAccessToken(System.String,System.Boolean)
+    name: GetAccessToken
+    nameWithType: SoPrincipal.GetAccessToken
+    fullName: SuperOffice.Security.Principal.SoPrincipal.GetAccessToken
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.GetAccessToken*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.GetAccessToken
+  isExternal: true
+  name: GetAccessToken
+  nameWithType: SoLocalPrincipal.GetAccessToken
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.GetAccessToken
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.GetCurrent*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: SoLocalPrincipal.GetCurrent
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.GetCurrent
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.SetCurrent*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.SetCurrent
+  isExternal: true
+  name: SetCurrent
+  nameWithType: SoLocalPrincipal.SetCurrent
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.SetCurrent
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.GetHistory*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.GetHistory
+  isExternal: true
+  name: GetHistory
+  nameWithType: SoLocalPrincipal.GetHistory
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.GetHistory
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.HasGrantedModuleLicense*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.HasGrantedModuleLicense
+  isExternal: true
+  name: HasGrantedModuleLicense
+  nameWithType: SoLocalPrincipal.HasGrantedModuleLicense
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.HasGrantedModuleLicense
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.GrantedModuleLicense}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.GrantedModuleLicense}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<GrantedModuleLicense>
+  nameWithType: IEnumerable<GrantedModuleLicense>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Services.GrantedModuleLicense>
+  nameWithType.vb: IEnumerable(Of GrantedModuleLicense)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Services.GrantedModuleLicense)
+  name.vb: IEnumerable(Of GrantedModuleLicense)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.GrantedModuleLicense
+    name: GrantedModuleLicense
+    nameWithType: GrantedModuleLicense
+    fullName: SuperOffice.CRM.Services.GrantedModuleLicense
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.GrantedModuleLicense
+    name: GrantedModuleLicense
+    nameWithType: GrantedModuleLicense
+    fullName: SuperOffice.CRM.Services.GrantedModuleLicense
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.BeginIgnoreSentry*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.BeginIgnoreSentry
+  isExternal: true
+  name: BeginIgnoreSentry
+  nameWithType: SoLocalPrincipal.BeginIgnoreSentry
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.BeginIgnoreSentry
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentryModifier
+  commentId: T:SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentryModifier
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoLocalPrincipal.IgnoreSentryModifier
+  nameWithType: SoLocalPrincipal.IgnoreSentryModifier
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentryModifier
+- uid: SuperOffice.Security.Principal.SoPrincipal.Identity
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.Identity
+  parent: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: Identity
+  nameWithType: SoPrincipal.Identity
+  fullName: SuperOffice.Security.Principal.SoPrincipal.Identity
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.Identity*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.Identity
+  isExternal: true
+  name: Identity
+  nameWithType: SoLocalPrincipal.Identity
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.Identity
+- uid: SuperOffice.Security.Principal.ISoIdentity
+  commentId: T:SuperOffice.Security.Principal.ISoIdentity
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: ISoIdentity
+  nameWithType: ISoIdentity
+  fullName: SuperOffice.Security.Principal.ISoIdentity
+- uid: SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentry*
+  commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentry
+  isExternal: true
+  name: IgnoreSentry
+  nameWithType: SoLocalPrincipal.IgnoreSentry
+  fullName: SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentry

@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request
+  commentId: T:SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request
+  id: Archive_GetArchiveConfigurationV2Request
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.#ctor
+  - SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.Context
+  - SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.GuiName
+  - SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.OwnerKeys
+  - SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetArchiveConfigurationV2Request
+  nameWithType: Archive_GetArchiveConfigurationV2Request
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Archive_GetArchiveConfigurationV2Request : Object'
+    content.vb: >-
+      Public Class Archive_GetArchiveConfigurationV2Request
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetArchiveConfigurationV2Request()
+  nameWithType: Archive_GetArchiveConfigurationV2Request.Archive_GetArchiveConfigurationV2Request()
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.Archive_GetArchiveConfigurationV2Request()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Archive_GetArchiveConfigurationV2Request()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.GuiName
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.GuiName
+  id: GuiName
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request
+  langs:
+  - csharp
+  - vb
+  name: GuiName
+  nameWithType: Archive_GetArchiveConfigurationV2Request.GuiName
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.GuiName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string GuiName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GuiName As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.GuiName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Archive_GetArchiveConfigurationV2Request.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.Context
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: Archive_GetArchiveConfigurationV2Request.Context
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.OwnerKeys
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.OwnerKeys
+  id: OwnerKeys
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request
+  langs:
+  - csharp
+  - vb
+  name: OwnerKeys
+  nameWithType: Archive_GetArchiveConfigurationV2Request.OwnerKeys
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.OwnerKeys
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string OwnerKeys { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OwnerKeys As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.OwnerKeys*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.#ctor
+  isExternal: true
+  name: Archive_GetArchiveConfigurationV2Request
+  nameWithType: Archive_GetArchiveConfigurationV2Request.Archive_GetArchiveConfigurationV2Request
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.Archive_GetArchiveConfigurationV2Request
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.GuiName*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.GuiName
+  isExternal: true
+  name: GuiName
+  nameWithType: Archive_GetArchiveConfigurationV2Request.GuiName
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.GuiName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Archive_GetArchiveConfigurationV2Request.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.ProviderName
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.Context
+  isExternal: true
+  name: Context
+  nameWithType: Archive_GetArchiveConfigurationV2Request.Context
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.Context
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.OwnerKeys*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.OwnerKeys
+  isExternal: true
+  name: OwnerKeys
+  nameWithType: Archive_GetArchiveConfigurationV2Request.OwnerKeys
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveConfigurationV2Request.OwnerKeys

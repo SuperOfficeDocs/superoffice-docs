@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetAllInDomainRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetAllInDomainRequest
+  id: List_GetAllInDomainRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetAllInDomainRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Children
+  - SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Domain
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllInDomainRequest
+  nameWithType: List_GetAllInDomainRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllInDomainRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetAllInDomainRequest : Object'
+    content.vb: >-
+      Public Class List_GetAllInDomainRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetAllInDomainRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetAllInDomainRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllInDomainRequest()
+  nameWithType: List_GetAllInDomainRequest.List_GetAllInDomainRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.List_GetAllInDomainRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetAllInDomainRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Domain
+  commentId: P:SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Domain
+  id: Domain
+  parent: SuperOffice.WebApi.Data.List_GetAllInDomainRequest
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: List_GetAllInDomainRequest.Domain
+  fullName: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Domain
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Domain Domain { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Property Domain As Domain
+  overload: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Children
+  commentId: P:SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Children
+  id: Children
+  parent: SuperOffice.WebApi.Data.List_GetAllInDomainRequest
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: List_GetAllInDomainRequest.Children
+  fullName: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Children
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Children { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Children As Boolean
+  overload: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Children*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllInDomainRequest.#ctor
+  isExternal: true
+  name: List_GetAllInDomainRequest
+  nameWithType: List_GetAllInDomainRequest.List_GetAllInDomainRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.List_GetAllInDomainRequest
+- uid: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Domain*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: List_GetAllInDomainRequest.Domain
+  fullName: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Domain
+- uid: SuperOffice.WebApi.Data.Domain
+  commentId: T:SuperOffice.WebApi.Data.Domain
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Domain
+  nameWithType: Domain
+  fullName: SuperOffice.WebApi.Data.Domain
+- uid: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Children*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Children
+  isExternal: true
+  name: Children
+  nameWithType: List_GetAllInDomainRequest.Children
+  fullName: SuperOffice.WebApi.Data.List_GetAllInDomainRequest.Children
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

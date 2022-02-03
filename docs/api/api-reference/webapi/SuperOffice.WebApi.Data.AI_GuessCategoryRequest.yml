@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_GuessCategoryRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GuessCategoryRequest
+  id: AI_GuessCategoryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_GuessCategoryRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_GuessCategoryRequest.TicketId
+  langs:
+  - csharp
+  - vb
+  name: AI_GuessCategoryRequest
+  nameWithType: AI_GuessCategoryRequest
+  fullName: SuperOffice.WebApi.Data.AI_GuessCategoryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_GuessCategoryRequest : Object'
+    content.vb: >-
+      Public Class AI_GuessCategoryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_GuessCategoryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_GuessCategoryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_GuessCategoryRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_GuessCategoryRequest()
+  nameWithType: AI_GuessCategoryRequest.AI_GuessCategoryRequest()
+  fullName: SuperOffice.WebApi.Data.AI_GuessCategoryRequest.AI_GuessCategoryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_GuessCategoryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_GuessCategoryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GuessCategoryRequest.TicketId
+  commentId: P:SuperOffice.WebApi.Data.AI_GuessCategoryRequest.TicketId
+  id: TicketId
+  parent: SuperOffice.WebApi.Data.AI_GuessCategoryRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: AI_GuessCategoryRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.AI_GuessCategoryRequest.TicketId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketId As Integer
+  overload: SuperOffice.WebApi.Data.AI_GuessCategoryRequest.TicketId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_GuessCategoryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GuessCategoryRequest.#ctor
+  isExternal: true
+  name: AI_GuessCategoryRequest
+  nameWithType: AI_GuessCategoryRequest.AI_GuessCategoryRequest
+  fullName: SuperOffice.WebApi.Data.AI_GuessCategoryRequest.AI_GuessCategoryRequest
+- uid: SuperOffice.WebApi.Data.AI_GuessCategoryRequest.TicketId*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GuessCategoryRequest.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: AI_GuessCategoryRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.AI_GuessCategoryRequest.TicketId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

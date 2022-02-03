@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  commentId: T:SuperOffice.WebApi.Data.TemporaryKeyDomain
+  id: TemporaryKeyDomain
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TemporaryKeyDomain.ChangePasswordCustomerCenter
+  - SuperOffice.WebApi.Data.TemporaryKeyDomain.FormSubmitterRecipient
+  - SuperOffice.WebApi.Data.TemporaryKeyDomain.LoginCustomerCenter
+  - SuperOffice.WebApi.Data.TemporaryKeyDomain.MailingRecipient
+  - SuperOffice.WebApi.Data.TemporaryKeyDomain.PublicFaq
+  - SuperOffice.WebApi.Data.TemporaryKeyDomain.Unknown
+  - SuperOffice.WebApi.Data.TemporaryKeyDomain.value__
+  - SuperOffice.WebApi.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
+  langs:
+  - csharp
+  - vb
+  name: TemporaryKeyDomain
+  nameWithType: TemporaryKeyDomain
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDomains for temporary keys.\nThis Enum is used by:  TemporaryKey.domain\n"
+  syntax:
+    content: 'public sealed class TemporaryKeyDomain : Enum'
+    content.vb: >-
+      Public NotInheritable Class TemporaryKeyDomain
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.value__
+  commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TemporaryKeyDomain.value__
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.Unknown
+  commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TemporaryKeyDomain.Unknown
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown\n"
+  syntax:
+    content: public const TemporaryKeyDomain Unknown
+    return:
+      type: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    content.vb: Public Const Unknown As TemporaryKeyDomain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.MailingRecipient
+  commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.MailingRecipient
+  id: MailingRecipient
+  parent: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  langs:
+  - csharp
+  - vb
+  name: MailingRecipient
+  nameWithType: TemporaryKeyDomain.MailingRecipient
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.MailingRecipient
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Mailing recipient.\n"
+  syntax:
+    content: public const TemporaryKeyDomain MailingRecipient
+    return:
+      type: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    content.vb: Public Const MailingRecipient As TemporaryKeyDomain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.FormSubmitterRecipient
+  commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.FormSubmitterRecipient
+  id: FormSubmitterRecipient
+  parent: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  langs:
+  - csharp
+  - vb
+  name: FormSubmitterRecipient
+  nameWithType: TemporaryKeyDomain.FormSubmitterRecipient
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.FormSubmitterRecipient
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Form submission recipient\n"
+  syntax:
+    content: public const TemporaryKeyDomain FormSubmitterRecipient
+    return:
+      type: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    content.vb: Public Const FormSubmitterRecipient As TemporaryKeyDomain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
+  commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
+  id: ViewTicketInCustomerCenter
+  parent: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  langs:
+  - csharp
+  - vb
+  name: ViewTicketInCustomerCenter
+  nameWithType: TemporaryKeyDomain.ViewTicketInCustomerCenter
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: View request in customer center\n"
+  syntax:
+    content: public const TemporaryKeyDomain ViewTicketInCustomerCenter
+    return:
+      type: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    content.vb: Public Const ViewTicketInCustomerCenter As TemporaryKeyDomain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.LoginCustomerCenter
+  commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.LoginCustomerCenter
+  id: LoginCustomerCenter
+  parent: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  langs:
+  - csharp
+  - vb
+  name: LoginCustomerCenter
+  nameWithType: TemporaryKeyDomain.LoginCustomerCenter
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.LoginCustomerCenter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Customer center login key\n"
+  syntax:
+    content: public const TemporaryKeyDomain LoginCustomerCenter
+    return:
+      type: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    content.vb: Public Const LoginCustomerCenter As TemporaryKeyDomain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.PublicFaq
+  commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.PublicFaq
+  id: PublicFaq
+  parent: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  langs:
+  - csharp
+  - vb
+  name: PublicFaq
+  nameWithType: TemporaryKeyDomain.PublicFaq
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.PublicFaq
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Customer center public faq key\n"
+  syntax:
+    content: public const TemporaryKeyDomain PublicFaq
+    return:
+      type: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    content.vb: Public Const PublicFaq As TemporaryKeyDomain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain.ChangePasswordCustomerCenter
+  commentId: F:SuperOffice.WebApi.Data.TemporaryKeyDomain.ChangePasswordCustomerCenter
+  id: ChangePasswordCustomerCenter
+  parent: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  langs:
+  - csharp
+  - vb
+  name: ChangePasswordCustomerCenter
+  nameWithType: TemporaryKeyDomain.ChangePasswordCustomerCenter
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain.ChangePasswordCustomerCenter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Customer center change password key\n"
+  syntax:
+    content: public const TemporaryKeyDomain ChangePasswordCustomerCenter
+    return:
+      type: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    content.vb: Public Const ChangePasswordCustomerCenter As TemporaryKeyDomain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  commentId: T:SuperOffice.WebApi.Data.TemporaryKeyDomain
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TemporaryKeyDomain
+  nameWithType: TemporaryKeyDomain
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain

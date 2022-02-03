@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_FindAddressRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_FindAddressRequest
+  id: EMail_FindAddressRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_FindAddressRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_FindAddressRequest.Address
+  langs:
+  - csharp
+  - vb
+  name: EMail_FindAddressRequest
+  nameWithType: EMail_FindAddressRequest
+  fullName: SuperOffice.WebApi.Data.EMail_FindAddressRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_FindAddressRequest : Object'
+    content.vb: >-
+      Public Class EMail_FindAddressRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_FindAddressRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_FindAddressRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_FindAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_FindAddressRequest()
+  nameWithType: EMail_FindAddressRequest.EMail_FindAddressRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_FindAddressRequest.EMail_FindAddressRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_FindAddressRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_FindAddressRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_FindAddressRequest.Address
+  commentId: P:SuperOffice.WebApi.Data.EMail_FindAddressRequest.Address
+  id: Address
+  parent: SuperOffice.WebApi.Data.EMail_FindAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: EMail_FindAddressRequest.Address
+  fullName: SuperOffice.WebApi.Data.EMail_FindAddressRequest.Address
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Address As String
+  overload: SuperOffice.WebApi.Data.EMail_FindAddressRequest.Address*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_FindAddressRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_FindAddressRequest.#ctor
+  isExternal: true
+  name: EMail_FindAddressRequest
+  nameWithType: EMail_FindAddressRequest.EMail_FindAddressRequest
+  fullName: SuperOffice.WebApi.Data.EMail_FindAddressRequest.EMail_FindAddressRequest
+- uid: SuperOffice.WebApi.Data.EMail_FindAddressRequest.Address*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_FindAddressRequest.Address
+  isExternal: true
+  name: Address
+  nameWithType: EMail_FindAddressRequest.Address
+  fullName: SuperOffice.WebApi.Data.EMail_FindAddressRequest.Address
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

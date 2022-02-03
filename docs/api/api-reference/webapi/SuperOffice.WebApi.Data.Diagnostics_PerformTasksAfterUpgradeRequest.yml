@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
+  id: Diagnostics_PerformTasksAfterUpgradeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_PerformTasksAfterUpgradeRequest
+  nameWithType: Diagnostics_PerformTasksAfterUpgradeRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Diagnostics_PerformTasksAfterUpgradeRequest : Object'
+    content.vb: >-
+      Public Class Diagnostics_PerformTasksAfterUpgradeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_PerformTasksAfterUpgradeRequest()
+  nameWithType: Diagnostics_PerformTasksAfterUpgradeRequest.Diagnostics_PerformTasksAfterUpgradeRequest()
+  fullName: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest.Diagnostics_PerformTasksAfterUpgradeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Diagnostics_PerformTasksAfterUpgradeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest.#ctor
+  isExternal: true
+  name: Diagnostics_PerformTasksAfterUpgradeRequest
+  nameWithType: Diagnostics_PerformTasksAfterUpgradeRequest.Diagnostics_PerformTasksAfterUpgradeRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest.Diagnostics_PerformTasksAfterUpgradeRequest

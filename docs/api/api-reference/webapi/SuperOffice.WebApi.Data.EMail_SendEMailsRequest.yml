@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_SendEMailsRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_SendEMailsRequest
+  id: EMail_SendEMailsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_SendEMailsRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_SendEMailsRequest.Emails
+  - SuperOffice.WebApi.Data.EMail_SendEMailsRequest.OutgoingConnectionInfo
+  - SuperOffice.WebApi.Data.EMail_SendEMailsRequest.SentItemsConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: EMail_SendEMailsRequest
+  nameWithType: EMail_SendEMailsRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SendEMailsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_SendEMailsRequest : Object'
+    content.vb: >-
+      Public Class EMail_SendEMailsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_SendEMailsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_SendEMailsRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_SendEMailsRequest()
+  nameWithType: EMail_SendEMailsRequest.EMail_SendEMailsRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.EMail_SendEMailsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_SendEMailsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.OutgoingConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.EMail_SendEMailsRequest.OutgoingConnectionInfo
+  id: OutgoingConnectionInfo
+  parent: SuperOffice.WebApi.Data.EMail_SendEMailsRequest
+  langs:
+  - csharp
+  - vb
+  name: OutgoingConnectionInfo
+  nameWithType: EMail_SendEMailsRequest.OutgoingConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.OutgoingConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo OutgoingConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property OutgoingConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.OutgoingConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.Emails
+  commentId: P:SuperOffice.WebApi.Data.EMail_SendEMailsRequest.Emails
+  id: Emails
+  parent: SuperOffice.WebApi.Data.EMail_SendEMailsRequest
+  langs:
+  - csharp
+  - vb
+  name: Emails
+  nameWithType: EMail_SendEMailsRequest.Emails
+  fullName: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.Emails
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailEntity[] Emails { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailEntity[]
+    content.vb: Public Property Emails As EMailEntity()
+  overload: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.Emails*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.SentItemsConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.EMail_SendEMailsRequest.SentItemsConnectionInfo
+  id: SentItemsConnectionInfo
+  parent: SuperOffice.WebApi.Data.EMail_SendEMailsRequest
+  langs:
+  - csharp
+  - vb
+  name: SentItemsConnectionInfo
+  nameWithType: EMail_SendEMailsRequest.SentItemsConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.SentItemsConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo SentItemsConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property SentItemsConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.SentItemsConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SendEMailsRequest.#ctor
+  isExternal: true
+  name: EMail_SendEMailsRequest
+  nameWithType: EMail_SendEMailsRequest.EMail_SendEMailsRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.EMail_SendEMailsRequest
+- uid: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.OutgoingConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SendEMailsRequest.OutgoingConnectionInfo
+  isExternal: true
+  name: OutgoingConnectionInfo
+  nameWithType: EMail_SendEMailsRequest.OutgoingConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.OutgoingConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.Emails*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SendEMailsRequest.Emails
+  isExternal: true
+  name: Emails
+  nameWithType: EMail_SendEMailsRequest.Emails
+  fullName: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.Emails
+- uid: SuperOffice.WebApi.Data.EMailEntity[]
+  isExternal: true
+  name: EMailEntity[]
+  nameWithType: EMailEntity[]
+  fullName: SuperOffice.WebApi.Data.EMailEntity[]
+  nameWithType.vb: EMailEntity()
+  fullName.vb: SuperOffice.WebApi.Data.EMailEntity()
+  name.vb: EMailEntity()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.EMailEntity
+    name: EMailEntity
+    nameWithType: EMailEntity
+    fullName: SuperOffice.WebApi.Data.EMailEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.EMailEntity
+    name: EMailEntity
+    nameWithType: EMailEntity
+    fullName: SuperOffice.WebApi.Data.EMailEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.SentItemsConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SendEMailsRequest.SentItemsConnectionInfo
+  isExternal: true
+  name: SentItemsConnectionInfo
+  nameWithType: EMail_SendEMailsRequest.SentItemsConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_SendEMailsRequest.SentItemsConnectionInfo

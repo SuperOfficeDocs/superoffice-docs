@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest
+  commentId: T:SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest
+  id: Pocket_SendPushNotificationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.#ctor
+  - SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.AssociateIds
+  - SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.Message
+  langs:
+  - csharp
+  - vb
+  name: Pocket_SendPushNotificationRequest
+  nameWithType: Pocket_SendPushNotificationRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Pocket_SendPushNotificationRequest : Object'
+    content.vb: >-
+      Public Class Pocket_SendPushNotificationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest
+  langs:
+  - csharp
+  - vb
+  name: Pocket_SendPushNotificationRequest()
+  nameWithType: Pocket_SendPushNotificationRequest.Pocket_SendPushNotificationRequest()
+  fullName: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.Pocket_SendPushNotificationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Pocket_SendPushNotificationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.AssociateIds
+  commentId: P:SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.AssociateIds
+  id: AssociateIds
+  parent: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateIds
+  nameWithType: Pocket_SendPushNotificationRequest.AssociateIds
+  fullName: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.AssociateIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] AssociateIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property AssociateIds As Integer()
+  overload: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.AssociateIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.Message
+  commentId: P:SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: Pocket_SendPushNotificationRequest.Message
+  fullName: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.Message
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PocketNotificationMessage Message { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PocketNotificationMessage
+    content.vb: Public Property Message As PocketNotificationMessage
+  overload: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.#ctor
+  isExternal: true
+  name: Pocket_SendPushNotificationRequest
+  nameWithType: Pocket_SendPushNotificationRequest.Pocket_SendPushNotificationRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.Pocket_SendPushNotificationRequest
+- uid: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.AssociateIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.AssociateIds
+  isExternal: true
+  name: AssociateIds
+  nameWithType: Pocket_SendPushNotificationRequest.AssociateIds
+  fullName: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.AssociateIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.Message*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.Message
+  isExternal: true
+  name: Message
+  nameWithType: Pocket_SendPushNotificationRequest.Message
+  fullName: SuperOffice.WebApi.Data.Pocket_SendPushNotificationRequest.Message
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage
+  commentId: T:SuperOffice.WebApi.Data.PocketNotificationMessage
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PocketNotificationMessage
+  nameWithType: PocketNotificationMessage
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage

@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UdefJustification
+  commentId: T:SuperOffice.WebApi.Data.UdefJustification
+  id: UdefJustification
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UdefJustification.Center
+  - SuperOffice.WebApi.Data.UdefJustification.Default
+  - SuperOffice.WebApi.Data.UdefJustification.Left
+  - SuperOffice.WebApi.Data.UdefJustification.Right
+  - SuperOffice.WebApi.Data.UdefJustification.value__
+  langs:
+  - csharp
+  - vb
+  name: UdefJustification
+  nameWithType: UdefJustification
+  fullName: SuperOffice.WebApi.Data.UdefJustification
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nJustification - 0 = default, left, right, center\nThis Enum is used by:  UDefField.justification\n"
+  syntax:
+    content: 'public sealed class UdefJustification : Enum'
+    content.vb: >-
+      Public NotInheritable Class UdefJustification
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.UdefJustification.value__
+  commentId: F:SuperOffice.WebApi.Data.UdefJustification.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.UdefJustification
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: UdefJustification.value__
+  fullName: SuperOffice.WebApi.Data.UdefJustification.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UdefJustification.Default
+  commentId: F:SuperOffice.WebApi.Data.UdefJustification.Default
+  id: Default
+  parent: SuperOffice.WebApi.Data.UdefJustification
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: UdefJustification.Default
+  fullName: SuperOffice.WebApi.Data.UdefJustification.Default
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: \n"
+  syntax:
+    content: public const UdefJustification Default
+    return:
+      type: SuperOffice.WebApi.Data.UdefJustification
+    content.vb: Public Const Default As UdefJustification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UdefJustification.Left
+  commentId: F:SuperOffice.WebApi.Data.UdefJustification.Left
+  id: Left
+  parent: SuperOffice.WebApi.Data.UdefJustification
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: UdefJustification.Left
+  fullName: SuperOffice.WebApi.Data.UdefJustification.Left
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: \n"
+  syntax:
+    content: public const UdefJustification Left
+    return:
+      type: SuperOffice.WebApi.Data.UdefJustification
+    content.vb: Public Const Left As UdefJustification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UdefJustification.Center
+  commentId: F:SuperOffice.WebApi.Data.UdefJustification.Center
+  id: Center
+  parent: SuperOffice.WebApi.Data.UdefJustification
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: UdefJustification.Center
+  fullName: SuperOffice.WebApi.Data.UdefJustification.Center
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: \n"
+  syntax:
+    content: public const UdefJustification Center
+    return:
+      type: SuperOffice.WebApi.Data.UdefJustification
+    content.vb: Public Const Center As UdefJustification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UdefJustification.Right
+  commentId: F:SuperOffice.WebApi.Data.UdefJustification.Right
+  id: Right
+  parent: SuperOffice.WebApi.Data.UdefJustification
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: UdefJustification.Right
+  fullName: SuperOffice.WebApi.Data.UdefJustification.Right
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: \n"
+  syntax:
+    content: public const UdefJustification Right
+    return:
+      type: SuperOffice.WebApi.Data.UdefJustification
+    content.vb: Public Const Right As UdefJustification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.UdefJustification
+  commentId: T:SuperOffice.WebApi.Data.UdefJustification
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UdefJustification
+  nameWithType: UdefJustification
+  fullName: SuperOffice.WebApi.Data.UdefJustification

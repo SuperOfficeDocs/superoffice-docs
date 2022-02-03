@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest
+  id: EMail_TestAuthenticateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: EMail_TestAuthenticateRequest
+  nameWithType: EMail_TestAuthenticateRequest
+  fullName: SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_TestAuthenticateRequest : Object'
+    content.vb: >-
+      Public Class EMail_TestAuthenticateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_TestAuthenticateRequest()
+  nameWithType: EMail_TestAuthenticateRequest.EMail_TestAuthenticateRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest.EMail_TestAuthenticateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_TestAuthenticateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest.#ctor
+  isExternal: true
+  name: EMail_TestAuthenticateRequest
+  nameWithType: EMail_TestAuthenticateRequest.EMail_TestAuthenticateRequest
+  fullName: SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest.EMail_TestAuthenticateRequest

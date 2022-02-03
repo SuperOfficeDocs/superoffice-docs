@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest
+  id: List_GetDocumentTemplateUsedInSalesStageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.DocumentTemplateId
+  langs:
+  - csharp
+  - vb
+  name: List_GetDocumentTemplateUsedInSalesStageRequest
+  nameWithType: List_GetDocumentTemplateUsedInSalesStageRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetDocumentTemplateUsedInSalesStageRequest : Object'
+    content.vb: >-
+      Public Class List_GetDocumentTemplateUsedInSalesStageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetDocumentTemplateUsedInSalesStageRequest()
+  nameWithType: List_GetDocumentTemplateUsedInSalesStageRequest.List_GetDocumentTemplateUsedInSalesStageRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.List_GetDocumentTemplateUsedInSalesStageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetDocumentTemplateUsedInSalesStageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.DocumentTemplateId
+  commentId: P:SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.DocumentTemplateId
+  id: DocumentTemplateId
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateId
+  nameWithType: List_GetDocumentTemplateUsedInSalesStageRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.DocumentTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.DocumentTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.#ctor
+  isExternal: true
+  name: List_GetDocumentTemplateUsedInSalesStageRequest
+  nameWithType: List_GetDocumentTemplateUsedInSalesStageRequest.List_GetDocumentTemplateUsedInSalesStageRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.List_GetDocumentTemplateUsedInSalesStageRequest
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.DocumentTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.DocumentTemplateId
+  isExternal: true
+  name: DocumentTemplateId
+  nameWithType: List_GetDocumentTemplateUsedInSalesStageRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUsedInSalesStageRequest.DocumentTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

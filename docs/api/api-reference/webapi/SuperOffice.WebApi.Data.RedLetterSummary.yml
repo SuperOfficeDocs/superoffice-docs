@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RedLetterSummary
+  commentId: T:SuperOffice.WebApi.Data.RedLetterSummary
+  id: RedLetterSummary
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RedLetterSummary.#ctor
+  - SuperOffice.WebApi.Data.RedLetterSummary.IsOtherCountryHoliday
+  - SuperOffice.WebApi.Data.RedLetterSummary.IsOwnCountryHoliday
+  langs:
+  - csharp
+  - vb
+  name: RedLetterSummary
+  nameWithType: RedLetterSummary
+  fullName: SuperOffice.WebApi.Data.RedLetterSummary
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for RedLetterSummary.\nSummary of redletter day information - holiday in own country, and in other countries known to the system.    \n"
+  syntax:
+    content: 'public class RedLetterSummary : Carrier'
+    content.vb: >-
+      Public Class RedLetterSummary
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.RedLetterSummary.#ctor
+  commentId: M:SuperOffice.WebApi.Data.RedLetterSummary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.RedLetterSummary
+  langs:
+  - csharp
+  - vb
+  name: RedLetterSummary()
+  nameWithType: RedLetterSummary.RedLetterSummary()
+  fullName: SuperOffice.WebApi.Data.RedLetterSummary.RedLetterSummary()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public RedLetterSummary()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.RedLetterSummary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RedLetterSummary.IsOwnCountryHoliday
+  commentId: P:SuperOffice.WebApi.Data.RedLetterSummary.IsOwnCountryHoliday
+  id: IsOwnCountryHoliday
+  parent: SuperOffice.WebApi.Data.RedLetterSummary
+  langs:
+  - csharp
+  - vb
+  name: IsOwnCountryHoliday
+  nameWithType: RedLetterSummary.IsOwnCountryHoliday
+  fullName: SuperOffice.WebApi.Data.RedLetterSummary.IsOwnCountryHoliday
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true, this day is a holiday in the country of the given associate.\n"
+  syntax:
+    content: public virtual bool IsOwnCountryHoliday { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsOwnCountryHoliday As Boolean
+  overload: SuperOffice.WebApi.Data.RedLetterSummary.IsOwnCountryHoliday*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RedLetterSummary.IsOtherCountryHoliday
+  commentId: P:SuperOffice.WebApi.Data.RedLetterSummary.IsOtherCountryHoliday
+  id: IsOtherCountryHoliday
+  parent: SuperOffice.WebApi.Data.RedLetterSummary
+  langs:
+  - csharp
+  - vb
+  name: IsOtherCountryHoliday
+  nameWithType: RedLetterSummary.IsOtherCountryHoliday
+  fullName: SuperOffice.WebApi.Data.RedLetterSummary.IsOtherCountryHoliday
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true, this day is a holiday in at least one of the countries that has defined associates in the system, but not in the country of the associate whose diary is being scanned.\n"
+  syntax:
+    content: public virtual bool IsOtherCountryHoliday { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsOtherCountryHoliday As Boolean
+  overload: SuperOffice.WebApi.Data.RedLetterSummary.IsOtherCountryHoliday*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.RedLetterSummary.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.RedLetterSummary.#ctor
+  isExternal: true
+  name: RedLetterSummary
+  nameWithType: RedLetterSummary.RedLetterSummary
+  fullName: SuperOffice.WebApi.Data.RedLetterSummary.RedLetterSummary
+- uid: SuperOffice.WebApi.Data.RedLetterSummary.IsOwnCountryHoliday*
+  commentId: Overload:SuperOffice.WebApi.Data.RedLetterSummary.IsOwnCountryHoliday
+  isExternal: true
+  name: IsOwnCountryHoliday
+  nameWithType: RedLetterSummary.IsOwnCountryHoliday
+  fullName: SuperOffice.WebApi.Data.RedLetterSummary.IsOwnCountryHoliday
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.RedLetterSummary.IsOtherCountryHoliday*
+  commentId: Overload:SuperOffice.WebApi.Data.RedLetterSummary.IsOtherCountryHoliday
+  isExternal: true
+  name: IsOtherCountryHoliday
+  nameWithType: RedLetterSummary.IsOtherCountryHoliday
+  fullName: SuperOffice.WebApi.Data.RedLetterSummary.IsOtherCountryHoliday

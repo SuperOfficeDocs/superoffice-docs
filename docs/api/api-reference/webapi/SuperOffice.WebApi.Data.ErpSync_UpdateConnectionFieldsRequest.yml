@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest
+  id: ErpSync_UpdateConnectionFieldsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.ErpConnectionId
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_UpdateConnectionFieldsRequest
+  nameWithType: ErpSync_UpdateConnectionFieldsRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_UpdateConnectionFieldsRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_UpdateConnectionFieldsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_UpdateConnectionFieldsRequest()
+  nameWithType: ErpSync_UpdateConnectionFieldsRequest.ErpSync_UpdateConnectionFieldsRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.ErpSync_UpdateConnectionFieldsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_UpdateConnectionFieldsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_UpdateConnectionFieldsRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.#ctor
+  isExternal: true
+  name: ErpSync_UpdateConnectionFieldsRequest
+  nameWithType: ErpSync_UpdateConnectionFieldsRequest.ErpSync_UpdateConnectionFieldsRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.ErpSync_UpdateConnectionFieldsRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_UpdateConnectionFieldsRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_UpdateConnectionFieldsRequest.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

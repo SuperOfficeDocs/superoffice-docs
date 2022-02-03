@@ -1,0 +1,3783 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.SuperStateManager
+  commentId: T:SuperOffice.DCF.Web.SuperStateManager
+  id: SuperStateManager
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.SuperStateManager.#ctor
+  - SuperOffice.DCF.Web.SuperStateManager._customPreferenceActions
+  - SuperOffice.DCF.Web.SuperStateManager.CalculateFirstDayOfWeek(System.DateTime)
+  - SuperOffice.DCF.Web.SuperStateManager.CalculateWindowSize(SuperOffice.Cache.SuperState,System.String,System.Boolean)
+  - SuperOffice.DCF.Web.SuperStateManager.ClearCurrent(System.String,System.Int32)
+  - SuperOffice.DCF.Web.SuperStateManager.ClearSuperState
+  - SuperOffice.DCF.Web.SuperStateManager.ClearUserPreferenceCache(System.String,System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.FormatCurrentDate(System.DateTime)
+  - SuperOffice.DCF.Web.SuperStateManager.GetChangedUserPreferences
+  - SuperOffice.DCF.Web.SuperStateManager.GetCurrent(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetCurrent(System.String,System.Boolean,System.Boolean)
+  - SuperOffice.DCF.Web.SuperStateManager.GetCurrentChangesAsKeyValue
+  - SuperOffice.DCF.Web.SuperStateManager.GetCurrentId(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetCurrentProvider(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetCurrentSoProtocol(SuperOffice.Cache.Page,System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetHistoryCurrentChanges(SuperOffice.Cache.SuperState)
+  - SuperOffice.DCF.Web.SuperStateManager.GetHistoryItems(System.String[],System.Int32[])
+  - SuperOffice.DCF.Web.SuperStateManager.GetHistoryListLenghtPreference
+  - SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrent(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrentId(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetNextCurrent(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetPage(SuperOffice.Cache.SuperState,System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetPageFileName(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetPreviousCurrent(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetSuperModeSoProtocol(SuperOffice.Cache.Page,System.Boolean)
+  - SuperOffice.DCF.Web.SuperStateManager.GetSuperState
+  - SuperOffice.DCF.Web.SuperStateManager.GetSuperState(System.Boolean)
+  - SuperOffice.DCF.Web.SuperStateManager.GetSuperStateParamValue(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetTabOrder(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetUserPreference(System.String,System.String,System.Boolean)
+  - SuperOffice.DCF.Web.SuperStateManager.GetUserPreference(System.String,System.String,System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceBool(System.String,System.String,System.Boolean)
+  - SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt(System.String,System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt(System.String,System.String,System.Int32)
+  - SuperOffice.DCF.Web.SuperStateManager.GetUserPreferences
+  - SuperOffice.DCF.Web.SuperStateManager.HasFunctionRight(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.HasLicense(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.HasSuperModeChanged
+  - SuperOffice.DCF.Web.SuperStateManager.IsCurrentDayWeekMonth(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.IsCurrentZeroLegal(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.IsEmptyHistoryItem(SuperOffice.Cache.HistoryItem)
+  - SuperOffice.DCF.Web.SuperStateManager.IsSuperStateLoaded
+  - SuperOffice.DCF.Web.SuperStateManager.LoadSuperState
+  - SuperOffice.DCF.Web.SuperStateManager.LogCurrentSoProtocol(SuperOffice.Cache.SuperState)
+  - SuperOffice.DCF.Web.SuperStateManager.LogCustomSoProtocol(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.LogSoProtocol(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.ParseCurrentDate(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.SaveChangedUserPreferences
+  - SuperOffice.DCF.Web.SuperStateManager.SaveHistories(SuperOffice.CRM.Services.History[])
+  - SuperOffice.DCF.Web.SuperStateManager.SaveSuperMode(SuperOffice.Cache.SuperState,System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.SaveSuperState(SuperOffice.Cache.SuperState)
+  - SuperOffice.DCF.Web.SuperStateManager.SaveTabOrders
+  - SuperOffice.DCF.Web.SuperStateManager.SaveWebAppUsage(SuperOffice.Cache.SuperState)
+  - SuperOffice.DCF.Web.SuperStateManager.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+  - SuperOffice.DCF.Web.SuperStateManager.SetCurrentFromLinkHint(System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.SetCurrentHasChanged(System.Boolean)
+  - SuperOffice.DCF.Web.SuperStateManager.SetHistoryListLenghtPreference(System.Int32)
+  - SuperOffice.DCF.Web.SuperStateManager.SetSentryInformation(SuperOffice.Cache.HistoryItem,SuperOffice.CRM.Services.History)
+  - SuperOffice.DCF.Web.SuperStateManager.SetSuperModeHasChanged(System.Boolean)
+  - SuperOffice.DCF.Web.SuperStateManager.SetSuperStateParamValue(System.String,System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.SetTabOrder(System.String,System.String[])
+  - SuperOffice.DCF.Web.SuperStateManager.SetUserPreference(System.String,System.String,System.String)
+  - SuperOffice.DCF.Web.SuperStateManager.SetUserPreference(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateCopyInSessionState(SuperOffice.Cache.SuperState)
+  - SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateInSessionState(SuperOffice.Cache.SuperState)
+  - SuperOffice.DCF.Web.SuperStateManager.SubClient
+  - SuperOffice.DCF.Web.SuperStateManager.SuperStateKey
+  - SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent(System.String,System.Int32,System.String,SuperOffice.Cache.SuperStateHelper)
+  - SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent(System.String,System.String,System.Int32,System.String,SuperOffice.Cache.SuperStateHelper)
+  - SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(SuperOffice.Cache.SuperState,System.Xml.XmlDocument,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{System.String})
+  - SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{System.String})
+  - SuperOffice.DCF.Web.SuperStateManager.UpdateUserFunctionRights
+  langs:
+  - csharp
+  - vb
+  name: SuperStateManager
+  nameWithType: SuperStateManager
+  fullName: SuperOffice.DCF.Web.SuperStateManager
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public class SuperStateManager
+    content.vb: Public Class SuperStateManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.SuperStateManager._customPreferenceActions
+  commentId: F:SuperOffice.DCF.Web.SuperStateManager._customPreferenceActions
+  id: _customPreferenceActions
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: _customPreferenceActions
+  nameWithType: SuperStateManager._customPreferenceActions
+  fullName: SuperOffice.DCF.Web.SuperStateManager._customPreferenceActions
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: protected static Dictionary<string, Func<string, string>> _customPreferenceActions
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Func{System.String,System.String}}
+    content.vb: Protected Shared _customPreferenceActions As Dictionary(Of String, Func(Of String, String))
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.IsEmptyHistoryItem(SuperOffice.Cache.HistoryItem)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.IsEmptyHistoryItem(SuperOffice.Cache.HistoryItem)
+  id: IsEmptyHistoryItem(SuperOffice.Cache.HistoryItem)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: IsEmptyHistoryItem(HistoryItem)
+  nameWithType: SuperStateManager.IsEmptyHistoryItem(HistoryItem)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.IsEmptyHistoryItem(SuperOffice.Cache.HistoryItem)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsEmptyHistoryItem(HistoryItem item)
+    parameters:
+    - id: item
+      type: SuperOffice.Cache.HistoryItem
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsEmptyHistoryItem(item As HistoryItem) As Boolean
+  overload: SuperOffice.DCF.Web.SuperStateManager.IsEmptyHistoryItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.IsSuperStateLoaded
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.IsSuperStateLoaded
+  id: IsSuperStateLoaded
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: IsSuperStateLoaded()
+  nameWithType: SuperStateManager.IsSuperStateLoaded()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.IsSuperStateLoaded()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsSuperStateLoaded()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSuperStateLoaded As Boolean
+  overload: SuperOffice.DCF.Web.SuperStateManager.IsSuperStateLoaded*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetSuperState
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetSuperState
+  id: GetSuperState
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetSuperState()
+  nameWithType: SuperStateManager.GetSuperState()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetSuperState()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static SuperState GetSuperState()
+    return:
+      type: SuperOffice.Cache.SuperState
+    content.vb: Public Shared Function GetSuperState As SuperState
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetSuperState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetSuperState(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetSuperState(System.Boolean)
+  id: GetSuperState(System.Boolean)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetSuperState(Boolean)
+  nameWithType: SuperStateManager.GetSuperState(Boolean)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetSuperState(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static SuperState GetSuperState(bool useOrginal)
+    parameters:
+    - id: useOrginal
+      type: System.Boolean
+    return:
+      type: SuperOffice.Cache.SuperState
+    content.vb: Public Shared Function GetSuperState(useOrginal As Boolean) As SuperState
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetSuperState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.ClearSuperState
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.ClearSuperState
+  id: ClearSuperState
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: ClearSuperState()
+  nameWithType: SuperStateManager.ClearSuperState()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.ClearSuperState()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void ClearSuperState()
+    content.vb: Public Shared Sub ClearSuperState
+  overload: SuperOffice.DCF.Web.SuperStateManager.ClearSuperState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.FormatCurrentDate(System.DateTime)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.FormatCurrentDate(System.DateTime)
+  id: FormatCurrentDate(System.DateTime)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: FormatCurrentDate(DateTime)
+  nameWithType: SuperStateManager.FormatCurrentDate(DateTime)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.FormatCurrentDate(System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatCurrentDate(DateTime day)
+    parameters:
+    - id: day
+      type: System.DateTime
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatCurrentDate(day As Date) As String
+  overload: SuperOffice.DCF.Web.SuperStateManager.FormatCurrentDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.IsCurrentDayWeekMonth(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.IsCurrentDayWeekMonth(System.String)
+  id: IsCurrentDayWeekMonth(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: IsCurrentDayWeekMonth(String)
+  nameWithType: SuperStateManager.IsCurrentDayWeekMonth(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.IsCurrentDayWeekMonth(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsCurrentDayWeekMonth(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsCurrentDayWeekMonth(name As String) As Boolean
+  overload: SuperOffice.DCF.Web.SuperStateManager.IsCurrentDayWeekMonth*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.LoadSuperState
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.LoadSuperState
+  id: LoadSuperState
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: LoadSuperState()
+  nameWithType: SuperStateManager.LoadSuperState()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.LoadSuperState()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static SuperState LoadSuperState()
+    return:
+      type: SuperOffice.Cache.SuperState
+    content.vb: Public Shared Function LoadSuperState As SuperState
+  overload: SuperOffice.DCF.Web.SuperStateManager.LoadSuperState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetSuperStateParamValue(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SetSuperStateParamValue(System.String,System.String)
+  id: SetSuperStateParamValue(System.String,System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SetSuperStateParamValue(String, String)
+  nameWithType: SuperStateManager.SetSuperStateParamValue(String, String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetSuperStateParamValue(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetSuperStateParamValue(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Shared Sub SetSuperStateParamValue(key As String, value As String)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SetSuperStateParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetSuperStateParamValue(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetSuperStateParamValue(System.String)
+  id: GetSuperStateParamValue(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetSuperStateParamValue(String)
+  nameWithType: SuperStateManager.GetSuperStateParamValue(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetSuperStateParamValue(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetSuperStateParamValue(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetSuperStateParamValue(key As String) As String
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetSuperStateParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetPageFileName(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetPageFileName(System.String)
+  id: GetPageFileName(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetPageFileName(String)
+  nameWithType: SuperStateManager.GetPageFileName(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetPageFileName(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetPageFileName(string pageName)
+    parameters:
+    - id: pageName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetPageFileName(pageName As String) As String
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetPageFileName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetPage(SuperOffice.Cache.SuperState,System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetPage(SuperOffice.Cache.SuperState,System.String)
+  id: GetPage(SuperOffice.Cache.SuperState,System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetPage(SuperState, String)
+  nameWithType: SuperStateManager.GetPage(SuperState, String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetPage(SuperOffice.Cache.SuperState, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static PageState GetPage(SuperState superState, string pageId)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    - id: pageId
+      type: System.String
+    return:
+      type: SuperOffice.Cache.PageState
+    content.vb: Public Shared Function GetPage(superState As SuperState, pageId As String) As PageState
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetPage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  id: UpdateCurrentView(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateCurrentView(String, Dictionary<String, String>)
+  nameWithType: SuperStateManager.UpdateCurrentView(String, Dictionary<String, String>)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(System.String, System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void UpdateCurrentView(string viewSoProtocol, Dictionary<string, string> viewParams)
+    parameters:
+    - id: viewSoProtocol
+      type: System.String
+    - id: viewParams
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Shared Sub UpdateCurrentView(viewSoProtocol As String, viewParams As Dictionary(Of String, String))
+  overload: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView*
+  nameWithType.vb: SuperStateManager.UpdateCurrentView(String, Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: UpdateCurrentView(String, Dictionary(Of String, String))
+- uid: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{System.String})
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{System.String})
+  id: UpdateCurrentView(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{System.String})
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateCurrentView(String, Dictionary<String, String>, List<String>)
+  nameWithType: SuperStateManager.UpdateCurrentView(String, Dictionary<String, String>, List<String>)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(System.String, System.Collections.Generic.Dictionary<System.String, System.String>, System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void UpdateCurrentView(string viewSoProtocol, Dictionary<string, string> viewParams, List<string> unresolvedModes)
+    parameters:
+    - id: viewSoProtocol
+      type: System.String
+    - id: viewParams
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    - id: unresolvedModes
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Shared Sub UpdateCurrentView(viewSoProtocol As String, viewParams As Dictionary(Of String, String), unresolvedModes As List(Of String))
+  overload: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView*
+  nameWithType.vb: SuperStateManager.UpdateCurrentView(String, Dictionary(Of String, String), List(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String), System.Collections.Generic.List(Of System.String))
+  name.vb: UpdateCurrentView(String, Dictionary(Of String, String), List(Of String))
+- uid: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(SuperOffice.Cache.SuperState,System.Xml.XmlDocument,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{System.String})
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(SuperOffice.Cache.SuperState,System.Xml.XmlDocument,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{System.String})
+  id: UpdateCurrentView(SuperOffice.Cache.SuperState,System.Xml.XmlDocument,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{System.String})
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateCurrentView(SuperState, XmlDocument, String, Dictionary<String, String>, List<String>)
+  nameWithType: SuperStateManager.UpdateCurrentView(SuperState, XmlDocument, String, Dictionary<String, String>, List<String>)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(SuperOffice.Cache.SuperState, System.Xml.XmlDocument, System.String, System.Collections.Generic.Dictionary<System.String, System.String>, System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void UpdateCurrentView(SuperState superState, XmlDocument pageDoc, string viewSoProtocol, Dictionary<string, string> viewParams, List<string> unresolvedModes)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    - id: pageDoc
+      type: System.Xml.XmlDocument
+    - id: viewSoProtocol
+      type: System.String
+    - id: viewParams
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    - id: unresolvedModes
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Shared Sub UpdateCurrentView(superState As SuperState, pageDoc As XmlDocument, viewSoProtocol As String, viewParams As Dictionary(Of String, String), unresolvedModes As List(Of String))
+  overload: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView*
+  nameWithType.vb: SuperStateManager.UpdateCurrentView(SuperState, XmlDocument, String, Dictionary(Of String, String), List(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView(SuperOffice.Cache.SuperState, System.Xml.XmlDocument, System.String, System.Collections.Generic.Dictionary(Of System.String, System.String), System.Collections.Generic.List(Of System.String))
+  name.vb: UpdateCurrentView(SuperState, XmlDocument, String, Dictionary(Of String, String), List(Of String))
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveSuperMode(SuperOffice.Cache.SuperState,System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SaveSuperMode(SuperOffice.Cache.SuperState,System.String)
+  id: SaveSuperMode(SuperOffice.Cache.SuperState,System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SaveSuperMode(SuperState, String)
+  nameWithType: SuperStateManager.SaveSuperMode(SuperState, String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveSuperMode(SuperOffice.Cache.SuperState, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SaveSuperMode(SuperState superState, string newPageId)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    - id: newPageId
+      type: System.String
+    content.vb: Public Shared Sub SaveSuperMode(superState As SuperState, newPageId As String)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SaveSuperMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetTabOrder(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetTabOrder(System.String)
+  id: GetTabOrder(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetTabOrder(String)
+  nameWithType: SuperStateManager.GetTabOrder(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetTabOrder(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string[] GetTabOrder(string tabName)
+    parameters:
+    - id: tabName
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetTabOrder(tabName As String) As String()
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetTabOrder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetTabOrder(System.String,System.String[])
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SetTabOrder(System.String,System.String[])
+  id: SetTabOrder(System.String,System.String[])
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SetTabOrder(String, String[])
+  nameWithType: SuperStateManager.SetTabOrder(String, String[])
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetTabOrder(System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetTabOrder(string tabName, string[] tabOrder)
+    parameters:
+    - id: tabName
+      type: System.String
+    - id: tabOrder
+      type: System.String[]
+    content.vb: Public Shared Sub SetTabOrder(tabName As String, tabOrder As String())
+  overload: SuperOffice.DCF.Web.SuperStateManager.SetTabOrder*
+  nameWithType.vb: SuperStateManager.SetTabOrder(String, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SuperStateManager.SetTabOrder(System.String, System.String())
+  name.vb: SetTabOrder(String, String())
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveTabOrders
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SaveTabOrders
+  id: SaveTabOrders
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SaveTabOrders()
+  nameWithType: SuperStateManager.SaveTabOrders()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveTabOrders()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SaveTabOrders()
+    content.vb: Public Shared Sub SaveTabOrders
+  overload: SuperOffice.DCF.Web.SuperStateManager.SaveTabOrders*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveChangedUserPreferences
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SaveChangedUserPreferences
+  id: SaveChangedUserPreferences
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SaveChangedUserPreferences()
+  nameWithType: SuperStateManager.SaveChangedUserPreferences()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveChangedUserPreferences()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SaveChangedUserPreferences()
+    content.vb: Public Shared Sub SaveChangedUserPreferences
+  overload: SuperOffice.DCF.Web.SuperStateManager.SaveChangedUserPreferences*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveSuperState(SuperOffice.Cache.SuperState)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SaveSuperState(SuperOffice.Cache.SuperState)
+  id: SaveSuperState(SuperOffice.Cache.SuperState)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SaveSuperState(SuperState)
+  nameWithType: SuperStateManager.SaveSuperState(SuperState)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveSuperState(SuperOffice.Cache.SuperState)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SaveSuperState(SuperState superState)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    content.vb: Public Shared Sub SaveSuperState(superState As SuperState)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SaveSuperState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.LogCurrentSoProtocol(SuperOffice.Cache.SuperState)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.LogCurrentSoProtocol(SuperOffice.Cache.SuperState)
+  id: LogCurrentSoProtocol(SuperOffice.Cache.SuperState)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: LogCurrentSoProtocol(SuperState)
+  nameWithType: SuperStateManager.LogCurrentSoProtocol(SuperState)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.LogCurrentSoProtocol(SuperOffice.Cache.SuperState)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void LogCurrentSoProtocol(SuperState superState)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    content.vb: Public Shared Sub LogCurrentSoProtocol(superState As SuperState)
+  overload: SuperOffice.DCF.Web.SuperStateManager.LogCurrentSoProtocol*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.LogCustomSoProtocol(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.LogCustomSoProtocol(System.String)
+  id: LogCustomSoProtocol(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: LogCustomSoProtocol(String)
+  nameWithType: SuperStateManager.LogCustomSoProtocol(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.LogCustomSoProtocol(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void LogCustomSoProtocol(string soProtocol)
+    parameters:
+    - id: soProtocol
+      type: System.String
+    content.vb: Public Shared Sub LogCustomSoProtocol(soProtocol As String)
+  overload: SuperOffice.DCF.Web.SuperStateManager.LogCustomSoProtocol*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.LogSoProtocol(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.LogSoProtocol(System.String)
+  id: LogSoProtocol(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: LogSoProtocol(String)
+  nameWithType: SuperStateManager.LogSoProtocol(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.LogSoProtocol(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void LogSoProtocol(string soProtocol)
+    parameters:
+    - id: soProtocol
+      type: System.String
+    content.vb: Public Shared Sub LogSoProtocol(soProtocol As String)
+  overload: SuperOffice.DCF.Web.SuperStateManager.LogSoProtocol*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetSuperModeSoProtocol(SuperOffice.Cache.Page,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetSuperModeSoProtocol(SuperOffice.Cache.Page,System.Boolean)
+  id: GetSuperModeSoProtocol(SuperOffice.Cache.Page,System.Boolean)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetSuperModeSoProtocol(Page, Boolean)
+  nameWithType: SuperStateManager.GetSuperModeSoProtocol(Page, Boolean)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetSuperModeSoProtocol(SuperOffice.Cache.Page, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetSuperModeSoProtocol(Page page, bool includeParams)
+    parameters:
+    - id: page
+      type: SuperOffice.Cache.Page
+    - id: includeParams
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetSuperModeSoProtocol(page As Page, includeParams As Boolean) As String
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetSuperModeSoProtocol*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SuperStateKey
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SuperStateKey
+  id: SuperStateKey
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SuperStateKey()
+  nameWithType: SuperStateManager.SuperStateKey()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SuperStateKey()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string SuperStateKey()
+    return:
+      type: System.String
+    content.vb: Public Shared Function SuperStateKey As String
+  overload: SuperOffice.DCF.Web.SuperStateManager.SuperStateKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateInSessionState(SuperOffice.Cache.SuperState)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateInSessionState(SuperOffice.Cache.SuperState)
+  id: StoreSuperStateInSessionState(SuperOffice.Cache.SuperState)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: StoreSuperStateInSessionState(SuperState)
+  nameWithType: SuperStateManager.StoreSuperStateInSessionState(SuperState)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateInSessionState(SuperOffice.Cache.SuperState)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void StoreSuperStateInSessionState(SuperState superState)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    content.vb: Public Shared Sub StoreSuperStateInSessionState(superState As SuperState)
+  overload: SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateInSessionState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateCopyInSessionState(SuperOffice.Cache.SuperState)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateCopyInSessionState(SuperOffice.Cache.SuperState)
+  id: StoreSuperStateCopyInSessionState(SuperOffice.Cache.SuperState)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: StoreSuperStateCopyInSessionState(SuperState)
+  nameWithType: SuperStateManager.StoreSuperStateCopyInSessionState(SuperState)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateCopyInSessionState(SuperOffice.Cache.SuperState)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void StoreSuperStateCopyInSessionState(SuperState superState)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    content.vb: Public Shared Sub StoreSuperStateCopyInSessionState(superState As SuperState)
+  overload: SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateCopyInSessionState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetSuperModeHasChanged(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SetSuperModeHasChanged(System.Boolean)
+  id: SetSuperModeHasChanged(System.Boolean)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SetSuperModeHasChanged(Boolean)
+  nameWithType: SuperStateManager.SetSuperModeHasChanged(Boolean)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetSuperModeHasChanged(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetSuperModeHasChanged(bool hasChanged)
+    parameters:
+    - id: hasChanged
+      type: System.Boolean
+    content.vb: Public Shared Sub SetSuperModeHasChanged(hasChanged As Boolean)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SetSuperModeHasChanged*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.HasSuperModeChanged
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.HasSuperModeChanged
+  id: HasSuperModeChanged
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: HasSuperModeChanged()
+  nameWithType: SuperStateManager.HasSuperModeChanged()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.HasSuperModeChanged()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool HasSuperModeChanged()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasSuperModeChanged As Boolean
+  overload: SuperOffice.DCF.Web.SuperStateManager.HasSuperModeChanged*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetCurrentSoProtocol(SuperOffice.Cache.Page,System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetCurrentSoProtocol(SuperOffice.Cache.Page,System.String)
+  id: GetCurrentSoProtocol(SuperOffice.Cache.Page,System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentSoProtocol(Page, String)
+  nameWithType: SuperStateManager.GetCurrentSoProtocol(Page, String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetCurrentSoProtocol(SuperOffice.Cache.Page, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetCurrentSoProtocol(Page page, string currentType)
+    parameters:
+    - id: page
+      type: SuperOffice.Cache.Page
+    - id: currentType
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCurrentSoProtocol(page As Page, currentType As String) As String
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetCurrentSoProtocol*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetCurrentHasChanged(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SetCurrentHasChanged(System.Boolean)
+  id: SetCurrentHasChanged(System.Boolean)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentHasChanged(Boolean)
+  nameWithType: SuperStateManager.SetCurrentHasChanged(Boolean)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetCurrentHasChanged(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetCurrentHasChanged(bool hasChanged)
+    parameters:
+    - id: hasChanged
+      type: System.Boolean
+    content.vb: Public Shared Sub SetCurrentHasChanged(hasChanged As Boolean)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SetCurrentHasChanged*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetSentryInformation(SuperOffice.Cache.HistoryItem,SuperOffice.CRM.Services.History)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SetSentryInformation(SuperOffice.Cache.HistoryItem,SuperOffice.CRM.Services.History)
+  id: SetSentryInformation(SuperOffice.Cache.HistoryItem,SuperOffice.CRM.Services.History)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SetSentryInformation(HistoryItem, History)
+  nameWithType: SuperStateManager.SetSentryInformation(HistoryItem, History)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetSentryInformation(SuperOffice.Cache.HistoryItem, SuperOffice.CRM.Services.History)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetSentryInformation(HistoryItem histItem, History rawCarrier)
+    parameters:
+    - id: histItem
+      type: SuperOffice.Cache.HistoryItem
+    - id: rawCarrier
+      type: SuperOffice.CRM.Services.History
+    content.vb: Public Shared Sub SetSentryInformation(histItem As HistoryItem, rawCarrier As History)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SetSentryInformation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetCurrentChangesAsKeyValue
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetCurrentChangesAsKeyValue
+  id: GetCurrentChangesAsKeyValue
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentChangesAsKeyValue()
+  nameWithType: SuperStateManager.GetCurrentChangesAsKeyValue()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetCurrentChangesAsKeyValue()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static Dictionary<string, HistoryItem> GetCurrentChangesAsKeyValue()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.Cache.HistoryItem}
+    content.vb: Public Shared Function GetCurrentChangesAsKeyValue As Dictionary(Of String, HistoryItem)
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetCurrentChangesAsKeyValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetHistoryItems(System.String[],System.Int32[])
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetHistoryItems(System.String[],System.Int32[])
+  id: GetHistoryItems(System.String[],System.Int32[])
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryItems(String[], Int32[])
+  nameWithType: SuperStateManager.GetHistoryItems(String[], Int32[])
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetHistoryItems(System.String[], System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static HistoryItem[] GetHistoryItems(string[] entityNames, int[] entityIds)
+    parameters:
+    - id: entityNames
+      type: System.String[]
+    - id: entityIds
+      type: System.Int32[]
+    return:
+      type: SuperOffice.Cache.HistoryItem[]
+    content.vb: Public Shared Function GetHistoryItems(entityNames As String(), entityIds As Integer()) As HistoryItem()
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetHistoryItems*
+  nameWithType.vb: SuperStateManager.GetHistoryItems(String(), Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SuperStateManager.GetHistoryItems(System.String(), System.Int32())
+  name.vb: GetHistoryItems(String(), Int32())
+- uid: SuperOffice.DCF.Web.SuperStateManager.ClearCurrent(System.String,System.Int32)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.ClearCurrent(System.String,System.Int32)
+  id: ClearCurrent(System.String,System.Int32)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: ClearCurrent(String, Int32)
+  nameWithType: SuperStateManager.ClearCurrent(String, Int32)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.ClearCurrent(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void ClearCurrent(string entityname, int id)
+    parameters:
+    - id: entityname
+      type: System.String
+    - id: id
+      type: System.Int32
+    content.vb: Public Shared Sub ClearCurrent(entityname As String, id As Integer)
+  overload: SuperOffice.DCF.Web.SuperStateManager.ClearCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetCurrent(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetCurrent(System.String)
+  id: GetCurrent(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent(String)
+  nameWithType: SuperStateManager.GetCurrent(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetCurrent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static HistoryItem GetCurrent(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Shared Function GetCurrent(entityName As String) As HistoryItem
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetCurrent(System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetCurrent(System.String,System.Boolean,System.Boolean)
+  id: GetCurrent(System.String,System.Boolean,System.Boolean)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent(String, Boolean, Boolean)
+  nameWithType: SuperStateManager.GetCurrent(String, Boolean, Boolean)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetCurrent(System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static HistoryItem GetCurrent(string entityName, bool returnIfEmpty, bool setSpecifiedCurrentOnly = false)
+    parameters:
+    - id: entityName
+      type: System.String
+    - id: returnIfEmpty
+      type: System.Boolean
+    - id: setSpecifiedCurrentOnly
+      type: System.Boolean
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Shared Function GetCurrent(entityName As String, returnIfEmpty As Boolean, setSpecifiedCurrentOnly As Boolean = False) As HistoryItem
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetCurrentId(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetCurrentId(System.String)
+  id: GetCurrentId(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentId(String)
+  nameWithType: SuperStateManager.GetCurrentId(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetCurrentId(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static int GetCurrentId(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetCurrentId(entityName As String) As Integer
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetCurrentId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent(System.String,System.Int32,System.String,SuperOffice.Cache.SuperStateHelper)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent(System.String,System.Int32,System.String,SuperOffice.Cache.SuperStateHelper)
+  id: TrySetCurrent(System.String,System.Int32,System.String,SuperOffice.Cache.SuperStateHelper)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: TrySetCurrent(String, Int32, String, SuperStateHelper)
+  nameWithType: SuperStateManager.TrySetCurrent(String, Int32, String, SuperStateHelper)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent(System.String, System.Int32, System.String, SuperOffice.Cache.SuperStateHelper)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool TrySetCurrent(string name, int newId, string newName, SuperStateHelper helper)
+    parameters:
+    - id: name
+      type: System.String
+    - id: newId
+      type: System.Int32
+    - id: newName
+      type: System.String
+    - id: helper
+      type: SuperOffice.Cache.SuperStateHelper
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TrySetCurrent(name As String, newId As Integer, newName As String, helper As SuperStateHelper) As Boolean
+  overload: SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent(System.String,System.String,System.Int32,System.String,SuperOffice.Cache.SuperStateHelper)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent(System.String,System.String,System.Int32,System.String,SuperOffice.Cache.SuperStateHelper)
+  id: TrySetCurrent(System.String,System.String,System.Int32,System.String,SuperOffice.Cache.SuperStateHelper)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: TrySetCurrent(String, String, Int32, String, SuperStateHelper)
+  nameWithType: SuperStateManager.TrySetCurrent(String, String, Int32, String, SuperStateHelper)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent(System.String, System.String, System.Int32, System.String, SuperOffice.Cache.SuperStateHelper)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool TrySetCurrent(string name, string type, int newId, string newName, SuperStateHelper helper)
+    parameters:
+    - id: name
+      type: System.String
+    - id: type
+      type: System.String
+    - id: newId
+      type: System.Int32
+    - id: newName
+      type: System.String
+    - id: helper
+      type: SuperOffice.Cache.SuperStateHelper
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TrySetCurrent(name As String, type As String, newId As Integer, newName As String, helper As SuperStateHelper) As Boolean
+  overload: SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+  id: SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SetCurrent(String, HistoryItem, Boolean)
+  nameWithType: SuperStateManager.SetCurrent(String, HistoryItem, Boolean)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetCurrent(System.String, SuperOffice.Cache.HistoryItem, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetCurrent(string entityName, HistoryItem current, bool setSpecifiedCurrentOnly = false)
+    parameters:
+    - id: entityName
+      type: System.String
+    - id: current
+      type: SuperOffice.Cache.HistoryItem
+    - id: setSpecifiedCurrentOnly
+      type: System.Boolean
+    content.vb: Public Shared Sub SetCurrent(entityName As String, current As HistoryItem, setSpecifiedCurrentOnly As Boolean = False)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetCurrentFromLinkHint(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SetCurrentFromLinkHint(System.String)
+  id: SetCurrentFromLinkHint(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentFromLinkHint(String)
+  nameWithType: SuperStateManager.SetCurrentFromLinkHint(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetCurrentFromLinkHint(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetCurrentFromLinkHint(string linkHint)
+    parameters:
+    - id: linkHint
+      type: System.String
+    content.vb: Public Shared Sub SetCurrentFromLinkHint(linkHint As String)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SetCurrentFromLinkHint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrent(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrent(System.String)
+  id: GetLastValidCurrent(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetLastValidCurrent(String)
+  nameWithType: SuperStateManager.GetLastValidCurrent(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static HistoryItem GetLastValidCurrent(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Shared Function GetLastValidCurrent(entityName As String) As HistoryItem
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrentId(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrentId(System.String)
+  id: GetLastValidCurrentId(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetLastValidCurrentId(String)
+  nameWithType: SuperStateManager.GetLastValidCurrentId(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrentId(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static int GetLastValidCurrentId(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetLastValidCurrentId(entityName As String) As Integer
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrentId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.IsCurrentZeroLegal(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.IsCurrentZeroLegal(System.String)
+  id: IsCurrentZeroLegal(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: IsCurrentZeroLegal(String)
+  nameWithType: SuperStateManager.IsCurrentZeroLegal(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.IsCurrentZeroLegal(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsCurrentZeroLegal(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsCurrentZeroLegal(entityName As String) As Boolean
+  overload: SuperOffice.DCF.Web.SuperStateManager.IsCurrentZeroLegal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetCurrentProvider(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetCurrentProvider(System.String)
+  id: GetCurrentProvider(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentProvider(String)
+  nameWithType: SuperStateManager.GetCurrentProvider(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetCurrentProvider(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static IViewStateProvider GetCurrentProvider(string currentName)
+    parameters:
+    - id: currentName
+      type: System.String
+    return:
+      type: SuperOffice.Cache.IViewStateProvider
+    content.vb: Public Shared Function GetCurrentProvider(currentName As String) As IViewStateProvider
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetCurrentProvider*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.CalculateFirstDayOfWeek(System.DateTime)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.CalculateFirstDayOfWeek(System.DateTime)
+  id: CalculateFirstDayOfWeek(System.DateTime)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: CalculateFirstDayOfWeek(DateTime)
+  nameWithType: SuperStateManager.CalculateFirstDayOfWeek(DateTime)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.CalculateFirstDayOfWeek(System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static DateTime CalculateFirstDayOfWeek(DateTime day)
+    parameters:
+    - id: day
+      type: System.DateTime
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function CalculateFirstDayOfWeek(day As Date) As Date
+  overload: SuperOffice.DCF.Web.SuperStateManager.CalculateFirstDayOfWeek*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.ParseCurrentDate(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.ParseCurrentDate(System.String)
+  id: ParseCurrentDate(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: ParseCurrentDate(String)
+  nameWithType: SuperStateManager.ParseCurrentDate(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.ParseCurrentDate(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static DateTime ParseCurrentDate(string date)
+    parameters:
+    - id: date
+      type: System.String
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function ParseCurrentDate(date As String) As Date
+  overload: SuperOffice.DCF.Web.SuperStateManager.ParseCurrentDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetNextCurrent(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetNextCurrent(System.String)
+  id: GetNextCurrent(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetNextCurrent(String)
+  nameWithType: SuperStateManager.GetNextCurrent(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetNextCurrent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static HistoryItem GetNextCurrent(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Shared Function GetNextCurrent(entityName As String) As HistoryItem
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetNextCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetPreviousCurrent(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetPreviousCurrent(System.String)
+  id: GetPreviousCurrent(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetPreviousCurrent(String)
+  nameWithType: SuperStateManager.GetPreviousCurrent(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetPreviousCurrent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static HistoryItem GetPreviousCurrent(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Shared Function GetPreviousCurrent(entityName As String) As HistoryItem
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetPreviousCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetHistoryCurrentChanges(SuperOffice.Cache.SuperState)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetHistoryCurrentChanges(SuperOffice.Cache.SuperState)
+  id: GetHistoryCurrentChanges(SuperOffice.Cache.SuperState)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryCurrentChanges(SuperState)
+  nameWithType: SuperStateManager.GetHistoryCurrentChanges(SuperState)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetHistoryCurrentChanges(SuperOffice.Cache.SuperState)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static History[] GetHistoryCurrentChanges(SuperState superState)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    return:
+      type: SuperOffice.CRM.Services.History[]
+    content.vb: Public Shared Function GetHistoryCurrentChanges(superState As SuperState) As History()
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetHistoryCurrentChanges*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveHistories(SuperOffice.CRM.Services.History[])
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SaveHistories(SuperOffice.CRM.Services.History[])
+  id: SaveHistories(SuperOffice.CRM.Services.History[])
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SaveHistories(History[])
+  nameWithType: SuperStateManager.SaveHistories(History[])
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveHistories(SuperOffice.CRM.Services.History[])
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SaveHistories(History[] histories)
+    parameters:
+    - id: histories
+      type: SuperOffice.CRM.Services.History[]
+    content.vb: Public Shared Sub SaveHistories(histories As History())
+  overload: SuperOffice.DCF.Web.SuperStateManager.SaveHistories*
+  nameWithType.vb: SuperStateManager.SaveHistories(History())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SuperStateManager.SaveHistories(SuperOffice.CRM.Services.History())
+  name.vb: SaveHistories(History())
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveWebAppUsage(SuperOffice.Cache.SuperState)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SaveWebAppUsage(SuperOffice.Cache.SuperState)
+  id: SaveWebAppUsage(SuperOffice.Cache.SuperState)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SaveWebAppUsage(SuperState)
+  nameWithType: SuperStateManager.SaveWebAppUsage(SuperState)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveWebAppUsage(SuperOffice.Cache.SuperState)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SaveWebAppUsage(SuperState superState)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    content.vb: Public Shared Sub SaveWebAppUsage(superState As SuperState)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SaveWebAppUsage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetHistoryListLenghtPreference
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetHistoryListLenghtPreference
+  id: GetHistoryListLenghtPreference
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryListLenghtPreference()
+  nameWithType: SuperStateManager.GetHistoryListLenghtPreference()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetHistoryListLenghtPreference()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static int GetHistoryListLenghtPreference()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetHistoryListLenghtPreference As Integer
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetHistoryListLenghtPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetHistoryListLenghtPreference(System.Int32)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SetHistoryListLenghtPreference(System.Int32)
+  id: SetHistoryListLenghtPreference(System.Int32)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SetHistoryListLenghtPreference(Int32)
+  nameWithType: SuperStateManager.SetHistoryListLenghtPreference(Int32)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetHistoryListLenghtPreference(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetHistoryListLenghtPreference(int lenght)
+    parameters:
+    - id: lenght
+      type: System.Int32
+    content.vb: Public Shared Sub SetHistoryListLenghtPreference(lenght As Integer)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SetHistoryListLenghtPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetUserPreference(System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetUserPreference(System.String,System.String,System.String)
+  id: GetUserPreference(System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetUserPreference(String, String, String)
+  nameWithType: SuperStateManager.GetUserPreference(String, String, String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetUserPreference(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetUserPreference(string prefSection, string prefKey, string defaultValue)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    - id: defaultValue
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetUserPreference(prefSection As String, prefKey As String, defaultValue As String) As String
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetUserPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetUserPreference(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetUserPreference(System.String,System.String,System.Boolean)
+  id: GetUserPreference(System.String,System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetUserPreference(String, String, Boolean)
+  nameWithType: SuperStateManager.GetUserPreference(String, String, Boolean)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetUserPreference(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetUserPreference(string prefSection, string prefKey, bool bypassCache = false)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    - id: bypassCache
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetUserPreference(prefSection As String, prefKey As String, bypassCache As Boolean = False) As String
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetUserPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt(System.String,System.String)
+  id: GetUserPreferenceInt(System.String,System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetUserPreferenceInt(String, String)
+  nameWithType: SuperStateManager.GetUserPreferenceInt(String, String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static int GetUserPreferenceInt(string prefSection, string prefKey)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetUserPreferenceInt(prefSection As String, prefKey As String) As Integer
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt(System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt(System.String,System.String,System.Int32)
+  id: GetUserPreferenceInt(System.String,System.String,System.Int32)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetUserPreferenceInt(String, String, Int32)
+  nameWithType: SuperStateManager.GetUserPreferenceInt(String, String, Int32)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static int GetUserPreferenceInt(string prefSection, string prefKey, int defaultValue)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    - id: defaultValue
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetUserPreferenceInt(prefSection As String, prefKey As String, defaultValue As Integer) As Integer
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceBool(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceBool(System.String,System.String,System.Boolean)
+  id: GetUserPreferenceBool(System.String,System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetUserPreferenceBool(String, String, Boolean)
+  nameWithType: SuperStateManager.GetUserPreferenceBool(String, String, Boolean)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceBool(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool GetUserPreferenceBool(string prefSection, string prefKey, bool defaultValue)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    - id: defaultValue
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetUserPreferenceBool(prefSection As String, prefKey As String, defaultValue As Boolean) As Boolean
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceBool*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetChangedUserPreferences
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetChangedUserPreferences
+  id: GetChangedUserPreferences
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetChangedUserPreferences()
+  nameWithType: SuperStateManager.GetChangedUserPreferences()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetChangedUserPreferences()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static Dictionary<string, Dictionary<string, string>> GetChangedUserPreferences()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.String}}
+    content.vb: Public Shared Function GetChangedUserPreferences As Dictionary(Of String, Dictionary(Of String, String))
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetChangedUserPreferences*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferences
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.GetUserPreferences
+  id: GetUserPreferences
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: GetUserPreferences()
+  nameWithType: SuperStateManager.GetUserPreferences()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferences()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static Dictionary<string, Dictionary<string, string>> GetUserPreferences()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.String}}
+    content.vb: Public Shared Function GetUserPreferences As Dictionary(Of String, Dictionary(Of String, String))
+  overload: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferences*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.ClearUserPreferenceCache(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.ClearUserPreferenceCache(System.String,System.String)
+  id: ClearUserPreferenceCache(System.String,System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: ClearUserPreferenceCache(String, String)
+  nameWithType: SuperStateManager.ClearUserPreferenceCache(String, String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.ClearUserPreferenceCache(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void ClearUserPreferenceCache(string section, string key)
+    parameters:
+    - id: section
+      type: System.String
+    - id: key
+      type: System.String
+    content.vb: Public Shared Sub ClearUserPreferenceCache(section As String, key As String)
+  overload: SuperOffice.DCF.Web.SuperStateManager.ClearUserPreferenceCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetUserPreference(System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SetUserPreference(System.String,System.String,System.String)
+  id: SetUserPreference(System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SetUserPreference(String, String, String)
+  nameWithType: SuperStateManager.SetUserPreference(String, String, String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetUserPreference(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetUserPreference(string prefSection, string prefKey, string value)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Shared Sub SetUserPreference(prefSection As String, prefKey As String, value As String)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SetUserPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetUserPreference(System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.SetUserPreference(System.String,System.String,System.String,System.Boolean)
+  id: SetUserPreference(System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SetUserPreference(String, String, String, Boolean)
+  nameWithType: SuperStateManager.SetUserPreference(String, String, String, Boolean)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetUserPreference(System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetUserPreference(string prefSection, string prefKey, string value, bool commitPreference)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    - id: value
+      type: System.String
+    - id: commitPreference
+      type: System.Boolean
+    content.vb: Public Shared Sub SetUserPreference(prefSection As String, prefKey As String, value As String, commitPreference As Boolean)
+  overload: SuperOffice.DCF.Web.SuperStateManager.SetUserPreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.CalculateWindowSize(SuperOffice.Cache.SuperState,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.CalculateWindowSize(SuperOffice.Cache.SuperState,System.String,System.Boolean)
+  id: CalculateWindowSize(SuperOffice.Cache.SuperState,System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: CalculateWindowSize(SuperState, String, Boolean)
+  nameWithType: SuperStateManager.CalculateWindowSize(SuperState, String, Boolean)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.CalculateWindowSize(SuperOffice.Cache.SuperState, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static Size CalculateWindowSize(SuperState superState, string pageId, bool isDialog)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    - id: pageId
+      type: System.String
+    - id: isDialog
+      type: System.Boolean
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Shared Function CalculateWindowSize(superState As SuperState, pageId As String, isDialog As Boolean) As Size
+  overload: SuperOffice.DCF.Web.SuperStateManager.CalculateWindowSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.HasFunctionRight(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.HasFunctionRight(System.String)
+  id: HasFunctionRight(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: HasFunctionRight(String)
+  nameWithType: SuperStateManager.HasFunctionRight(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.HasFunctionRight(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool HasFunctionRight(string functionRightName)
+    parameters:
+    - id: functionRightName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasFunctionRight(functionRightName As String) As Boolean
+  overload: SuperOffice.DCF.Web.SuperStateManager.HasFunctionRight*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.HasLicense(System.String)
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.HasLicense(System.String)
+  id: HasLicense(System.String)
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: HasLicense(String)
+  nameWithType: SuperStateManager.HasLicense(String)
+  fullName: SuperOffice.DCF.Web.SuperStateManager.HasLicense(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool HasLicense(string license)
+    parameters:
+    - id: license
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasLicense(license As String) As Boolean
+  overload: SuperOffice.DCF.Web.SuperStateManager.HasLicense*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.UpdateUserFunctionRights
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.UpdateUserFunctionRights
+  id: UpdateUserFunctionRights
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateUserFunctionRights()
+  nameWithType: SuperStateManager.UpdateUserFunctionRights()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.UpdateUserFunctionRights()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void UpdateUserFunctionRights()
+    content.vb: Public Shared Sub UpdateUserFunctionRights
+  overload: SuperOffice.DCF.Web.SuperStateManager.UpdateUserFunctionRights*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SuperStateManager.#ctor
+  commentId: M:SuperOffice.DCF.Web.SuperStateManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SuperStateManager()
+  nameWithType: SuperStateManager.SuperStateManager()
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SuperStateManager()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public SuperStateManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.SuperStateManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.SuperStateManager.SubClient
+  commentId: P:SuperOffice.DCF.Web.SuperStateManager.SubClient
+  id: SubClient
+  parent: SuperOffice.DCF.Web.SuperStateManager
+  langs:
+  - csharp
+  - vb
+  name: SubClient
+  nameWithType: SuperStateManager.SubClient
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SubClient
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string SubClient { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SubClient As String
+  overload: SuperOffice.DCF.Web.SuperStateManager.SubClient*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{System.String,System.Func{System.String,System.String}}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Func{System.String,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Func<String, String>>
+  nameWithType: Dictionary<String, Func<String, String>>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Func<System.String, System.String>>
+  nameWithType.vb: Dictionary(Of String, Func(Of String, String))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Func(Of System.String, System.String))
+  name.vb: Dictionary(Of String, Func(Of String, String))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.SuperStateManager.IsEmptyHistoryItem*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.IsEmptyHistoryItem
+  isExternal: true
+  name: IsEmptyHistoryItem
+  nameWithType: SuperStateManager.IsEmptyHistoryItem
+  fullName: SuperOffice.DCF.Web.SuperStateManager.IsEmptyHistoryItem
+- uid: SuperOffice.Cache.HistoryItem
+  commentId: T:SuperOffice.Cache.HistoryItem
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: SuperOffice.Cache.HistoryItem
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache
+- uid: SuperOffice.DCF.Web.SuperStateManager.IsSuperStateLoaded*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.IsSuperStateLoaded
+  isExternal: true
+  name: IsSuperStateLoaded
+  nameWithType: SuperStateManager.IsSuperStateLoaded
+  fullName: SuperOffice.DCF.Web.SuperStateManager.IsSuperStateLoaded
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetSuperState*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetSuperState
+  isExternal: true
+  name: GetSuperState
+  nameWithType: SuperStateManager.GetSuperState
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetSuperState
+- uid: SuperOffice.Cache.SuperState
+  commentId: T:SuperOffice.Cache.SuperState
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: SuperState
+  nameWithType: SuperState
+  fullName: SuperOffice.Cache.SuperState
+- uid: SuperOffice.DCF.Web.SuperStateManager.ClearSuperState*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.ClearSuperState
+  isExternal: true
+  name: ClearSuperState
+  nameWithType: SuperStateManager.ClearSuperState
+  fullName: SuperOffice.DCF.Web.SuperStateManager.ClearSuperState
+- uid: SuperOffice.DCF.Web.SuperStateManager.FormatCurrentDate*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.FormatCurrentDate
+  isExternal: true
+  name: FormatCurrentDate
+  nameWithType: SuperStateManager.FormatCurrentDate
+  fullName: SuperOffice.DCF.Web.SuperStateManager.FormatCurrentDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.SuperStateManager.IsCurrentDayWeekMonth*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.IsCurrentDayWeekMonth
+  isExternal: true
+  name: IsCurrentDayWeekMonth
+  nameWithType: SuperStateManager.IsCurrentDayWeekMonth
+  fullName: SuperOffice.DCF.Web.SuperStateManager.IsCurrentDayWeekMonth
+- uid: SuperOffice.DCF.Web.SuperStateManager.LoadSuperState*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.LoadSuperState
+  isExternal: true
+  name: LoadSuperState
+  nameWithType: SuperStateManager.LoadSuperState
+  fullName: SuperOffice.DCF.Web.SuperStateManager.LoadSuperState
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetSuperStateParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SetSuperStateParamValue
+  isExternal: true
+  name: SetSuperStateParamValue
+  nameWithType: SuperStateManager.SetSuperStateParamValue
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetSuperStateParamValue
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetSuperStateParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetSuperStateParamValue
+  isExternal: true
+  name: GetSuperStateParamValue
+  nameWithType: SuperStateManager.GetSuperStateParamValue
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetSuperStateParamValue
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetPageFileName*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetPageFileName
+  isExternal: true
+  name: GetPageFileName
+  nameWithType: SuperStateManager.GetPageFileName
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetPageFileName
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetPage*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetPage
+  isExternal: true
+  name: GetPage
+  nameWithType: SuperStateManager.GetPage
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetPage
+- uid: SuperOffice.Cache.PageState
+  commentId: T:SuperOffice.Cache.PageState
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: PageState
+  nameWithType: PageState
+  fullName: SuperOffice.Cache.PageState
+- uid: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView
+  isExternal: true
+  name: UpdateCurrentView
+  nameWithType: SuperStateManager.UpdateCurrentView
+  fullName: SuperOffice.DCF.Web.SuperStateManager.UpdateCurrentView
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.XmlDocument
+  isExternal: true
+  name: XmlDocument
+  nameWithType: XmlDocument
+  fullName: System.Xml.XmlDocument
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveSuperMode*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SaveSuperMode
+  isExternal: true
+  name: SaveSuperMode
+  nameWithType: SuperStateManager.SaveSuperMode
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveSuperMode
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetTabOrder*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetTabOrder
+  isExternal: true
+  name: GetTabOrder
+  nameWithType: SuperStateManager.GetTabOrder
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetTabOrder
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetTabOrder*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SetTabOrder
+  isExternal: true
+  name: SetTabOrder
+  nameWithType: SuperStateManager.SetTabOrder
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetTabOrder
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveTabOrders*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SaveTabOrders
+  isExternal: true
+  name: SaveTabOrders
+  nameWithType: SuperStateManager.SaveTabOrders
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveTabOrders
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveChangedUserPreferences*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SaveChangedUserPreferences
+  isExternal: true
+  name: SaveChangedUserPreferences
+  nameWithType: SuperStateManager.SaveChangedUserPreferences
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveChangedUserPreferences
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveSuperState*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SaveSuperState
+  isExternal: true
+  name: SaveSuperState
+  nameWithType: SuperStateManager.SaveSuperState
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveSuperState
+- uid: SuperOffice.DCF.Web.SuperStateManager.LogCurrentSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.LogCurrentSoProtocol
+  isExternal: true
+  name: LogCurrentSoProtocol
+  nameWithType: SuperStateManager.LogCurrentSoProtocol
+  fullName: SuperOffice.DCF.Web.SuperStateManager.LogCurrentSoProtocol
+- uid: SuperOffice.DCF.Web.SuperStateManager.LogCustomSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.LogCustomSoProtocol
+  isExternal: true
+  name: LogCustomSoProtocol
+  nameWithType: SuperStateManager.LogCustomSoProtocol
+  fullName: SuperOffice.DCF.Web.SuperStateManager.LogCustomSoProtocol
+- uid: SuperOffice.DCF.Web.SuperStateManager.LogSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.LogSoProtocol
+  isExternal: true
+  name: LogSoProtocol
+  nameWithType: SuperStateManager.LogSoProtocol
+  fullName: SuperOffice.DCF.Web.SuperStateManager.LogSoProtocol
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetSuperModeSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetSuperModeSoProtocol
+  isExternal: true
+  name: GetSuperModeSoProtocol
+  nameWithType: SuperStateManager.GetSuperModeSoProtocol
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetSuperModeSoProtocol
+- uid: SuperOffice.Cache.Page
+  commentId: T:SuperOffice.Cache.Page
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: Page
+  nameWithType: Page
+  fullName: SuperOffice.Cache.Page
+- uid: SuperOffice.DCF.Web.SuperStateManager.SuperStateKey*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SuperStateKey
+  isExternal: true
+  name: SuperStateKey
+  nameWithType: SuperStateManager.SuperStateKey
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SuperStateKey
+- uid: SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateInSessionState*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateInSessionState
+  isExternal: true
+  name: StoreSuperStateInSessionState
+  nameWithType: SuperStateManager.StoreSuperStateInSessionState
+  fullName: SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateInSessionState
+- uid: SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateCopyInSessionState*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateCopyInSessionState
+  isExternal: true
+  name: StoreSuperStateCopyInSessionState
+  nameWithType: SuperStateManager.StoreSuperStateCopyInSessionState
+  fullName: SuperOffice.DCF.Web.SuperStateManager.StoreSuperStateCopyInSessionState
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetSuperModeHasChanged*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SetSuperModeHasChanged
+  isExternal: true
+  name: SetSuperModeHasChanged
+  nameWithType: SuperStateManager.SetSuperModeHasChanged
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetSuperModeHasChanged
+- uid: SuperOffice.DCF.Web.SuperStateManager.HasSuperModeChanged*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.HasSuperModeChanged
+  isExternal: true
+  name: HasSuperModeChanged
+  nameWithType: SuperStateManager.HasSuperModeChanged
+  fullName: SuperOffice.DCF.Web.SuperStateManager.HasSuperModeChanged
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetCurrentSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetCurrentSoProtocol
+  isExternal: true
+  name: GetCurrentSoProtocol
+  nameWithType: SuperStateManager.GetCurrentSoProtocol
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetCurrentSoProtocol
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetCurrentHasChanged*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SetCurrentHasChanged
+  isExternal: true
+  name: SetCurrentHasChanged
+  nameWithType: SuperStateManager.SetCurrentHasChanged
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetCurrentHasChanged
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetSentryInformation*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SetSentryInformation
+  isExternal: true
+  name: SetSentryInformation
+  nameWithType: SuperStateManager.SetSentryInformation
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetSentryInformation
+- uid: SuperOffice.CRM.Services.History
+  commentId: '!:SuperOffice.CRM.Services.History'
+  isExternal: true
+  name: History
+  nameWithType: History
+  fullName: SuperOffice.CRM.Services.History
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetCurrentChangesAsKeyValue*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetCurrentChangesAsKeyValue
+  isExternal: true
+  name: GetCurrentChangesAsKeyValue
+  nameWithType: SuperStateManager.GetCurrentChangesAsKeyValue
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetCurrentChangesAsKeyValue
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.Cache.HistoryItem}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.Cache.HistoryItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, HistoryItem>
+  nameWithType: Dictionary<String, HistoryItem>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.Cache.HistoryItem>
+  nameWithType.vb: Dictionary(Of String, HistoryItem)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.Cache.HistoryItem)
+  name.vb: Dictionary(Of String, HistoryItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetHistoryItems*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetHistoryItems
+  isExternal: true
+  name: GetHistoryItems
+  nameWithType: SuperStateManager.GetHistoryItems
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetHistoryItems
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Cache.HistoryItem[]
+  isExternal: true
+  name: HistoryItem[]
+  nameWithType: HistoryItem[]
+  fullName: SuperOffice.Cache.HistoryItem[]
+  nameWithType.vb: HistoryItem()
+  fullName.vb: SuperOffice.Cache.HistoryItem()
+  name.vb: HistoryItem()
+  spec.csharp:
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.DCF.Web.SuperStateManager.ClearCurrent*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.ClearCurrent
+  isExternal: true
+  name: ClearCurrent
+  nameWithType: SuperStateManager.ClearCurrent
+  fullName: SuperOffice.DCF.Web.SuperStateManager.ClearCurrent
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetCurrent*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: SuperStateManager.GetCurrent
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetCurrent
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetCurrentId*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetCurrentId
+  isExternal: true
+  name: GetCurrentId
+  nameWithType: SuperStateManager.GetCurrentId
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetCurrentId
+- uid: SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent
+  isExternal: true
+  name: TrySetCurrent
+  nameWithType: SuperStateManager.TrySetCurrent
+  fullName: SuperOffice.DCF.Web.SuperStateManager.TrySetCurrent
+- uid: SuperOffice.Cache.SuperStateHelper
+  commentId: T:SuperOffice.Cache.SuperStateHelper
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: SuperStateHelper
+  nameWithType: SuperStateHelper
+  fullName: SuperOffice.Cache.SuperStateHelper
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetCurrent*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SetCurrent
+  isExternal: true
+  name: SetCurrent
+  nameWithType: SuperStateManager.SetCurrent
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetCurrent
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetCurrentFromLinkHint*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SetCurrentFromLinkHint
+  isExternal: true
+  name: SetCurrentFromLinkHint
+  nameWithType: SuperStateManager.SetCurrentFromLinkHint
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetCurrentFromLinkHint
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrent*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrent
+  isExternal: true
+  name: GetLastValidCurrent
+  nameWithType: SuperStateManager.GetLastValidCurrent
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrent
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrentId*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrentId
+  isExternal: true
+  name: GetLastValidCurrentId
+  nameWithType: SuperStateManager.GetLastValidCurrentId
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetLastValidCurrentId
+- uid: SuperOffice.DCF.Web.SuperStateManager.IsCurrentZeroLegal*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.IsCurrentZeroLegal
+  isExternal: true
+  name: IsCurrentZeroLegal
+  nameWithType: SuperStateManager.IsCurrentZeroLegal
+  fullName: SuperOffice.DCF.Web.SuperStateManager.IsCurrentZeroLegal
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetCurrentProvider*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetCurrentProvider
+  isExternal: true
+  name: GetCurrentProvider
+  nameWithType: SuperStateManager.GetCurrentProvider
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetCurrentProvider
+- uid: SuperOffice.Cache.IViewStateProvider
+  commentId: T:SuperOffice.Cache.IViewStateProvider
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: IViewStateProvider
+  nameWithType: IViewStateProvider
+  fullName: SuperOffice.Cache.IViewStateProvider
+- uid: SuperOffice.DCF.Web.SuperStateManager.CalculateFirstDayOfWeek*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.CalculateFirstDayOfWeek
+  isExternal: true
+  name: CalculateFirstDayOfWeek
+  nameWithType: SuperStateManager.CalculateFirstDayOfWeek
+  fullName: SuperOffice.DCF.Web.SuperStateManager.CalculateFirstDayOfWeek
+- uid: SuperOffice.DCF.Web.SuperStateManager.ParseCurrentDate*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.ParseCurrentDate
+  isExternal: true
+  name: ParseCurrentDate
+  nameWithType: SuperStateManager.ParseCurrentDate
+  fullName: SuperOffice.DCF.Web.SuperStateManager.ParseCurrentDate
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetNextCurrent*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetNextCurrent
+  isExternal: true
+  name: GetNextCurrent
+  nameWithType: SuperStateManager.GetNextCurrent
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetNextCurrent
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetPreviousCurrent*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetPreviousCurrent
+  isExternal: true
+  name: GetPreviousCurrent
+  nameWithType: SuperStateManager.GetPreviousCurrent
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetPreviousCurrent
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetHistoryCurrentChanges*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetHistoryCurrentChanges
+  isExternal: true
+  name: GetHistoryCurrentChanges
+  nameWithType: SuperStateManager.GetHistoryCurrentChanges
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetHistoryCurrentChanges
+- uid: SuperOffice.CRM.Services.History[]
+  isExternal: true
+  name: History[]
+  nameWithType: History[]
+  fullName: SuperOffice.CRM.Services.History[]
+  nameWithType.vb: History()
+  fullName.vb: SuperOffice.CRM.Services.History()
+  name.vb: History()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveHistories*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SaveHistories
+  isExternal: true
+  name: SaveHistories
+  nameWithType: SuperStateManager.SaveHistories
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveHistories
+- uid: SuperOffice.DCF.Web.SuperStateManager.SaveWebAppUsage*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SaveWebAppUsage
+  isExternal: true
+  name: SaveWebAppUsage
+  nameWithType: SuperStateManager.SaveWebAppUsage
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SaveWebAppUsage
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetHistoryListLenghtPreference*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetHistoryListLenghtPreference
+  isExternal: true
+  name: GetHistoryListLenghtPreference
+  nameWithType: SuperStateManager.GetHistoryListLenghtPreference
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetHistoryListLenghtPreference
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetHistoryListLenghtPreference*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SetHistoryListLenghtPreference
+  isExternal: true
+  name: SetHistoryListLenghtPreference
+  nameWithType: SuperStateManager.SetHistoryListLenghtPreference
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetHistoryListLenghtPreference
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetUserPreference*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetUserPreference
+  isExternal: true
+  name: GetUserPreference
+  nameWithType: SuperStateManager.GetUserPreference
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetUserPreference
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt
+  isExternal: true
+  name: GetUserPreferenceInt
+  nameWithType: SuperStateManager.GetUserPreferenceInt
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceInt
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceBool*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceBool
+  isExternal: true
+  name: GetUserPreferenceBool
+  nameWithType: SuperStateManager.GetUserPreferenceBool
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferenceBool
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetChangedUserPreferences*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetChangedUserPreferences
+  isExternal: true
+  name: GetChangedUserPreferences
+  nameWithType: SuperStateManager.GetChangedUserPreferences
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetChangedUserPreferences
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.String}}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Dictionary<String, String>>
+  nameWithType: Dictionary<String, Dictionary<String, String>>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.Dictionary<System.String, System.String>>
+  nameWithType.vb: Dictionary(Of String, Dictionary(Of String, String))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: Dictionary(Of String, Dictionary(Of String, String))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferences*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.GetUserPreferences
+  isExternal: true
+  name: GetUserPreferences
+  nameWithType: SuperStateManager.GetUserPreferences
+  fullName: SuperOffice.DCF.Web.SuperStateManager.GetUserPreferences
+- uid: SuperOffice.DCF.Web.SuperStateManager.ClearUserPreferenceCache*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.ClearUserPreferenceCache
+  isExternal: true
+  name: ClearUserPreferenceCache
+  nameWithType: SuperStateManager.ClearUserPreferenceCache
+  fullName: SuperOffice.DCF.Web.SuperStateManager.ClearUserPreferenceCache
+- uid: SuperOffice.DCF.Web.SuperStateManager.SetUserPreference*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SetUserPreference
+  isExternal: true
+  name: SetUserPreference
+  nameWithType: SuperStateManager.SetUserPreference
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SetUserPreference
+- uid: SuperOffice.DCF.Web.SuperStateManager.CalculateWindowSize*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.CalculateWindowSize
+  isExternal: true
+  name: CalculateWindowSize
+  nameWithType: SuperStateManager.CalculateWindowSize
+  fullName: SuperOffice.DCF.Web.SuperStateManager.CalculateWindowSize
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: SuperOffice.DCF.Web.SuperStateManager.HasFunctionRight*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.HasFunctionRight
+  isExternal: true
+  name: HasFunctionRight
+  nameWithType: SuperStateManager.HasFunctionRight
+  fullName: SuperOffice.DCF.Web.SuperStateManager.HasFunctionRight
+- uid: SuperOffice.DCF.Web.SuperStateManager.HasLicense*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.HasLicense
+  isExternal: true
+  name: HasLicense
+  nameWithType: SuperStateManager.HasLicense
+  fullName: SuperOffice.DCF.Web.SuperStateManager.HasLicense
+- uid: SuperOffice.DCF.Web.SuperStateManager.UpdateUserFunctionRights*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.UpdateUserFunctionRights
+  isExternal: true
+  name: UpdateUserFunctionRights
+  nameWithType: SuperStateManager.UpdateUserFunctionRights
+  fullName: SuperOffice.DCF.Web.SuperStateManager.UpdateUserFunctionRights
+- uid: SuperOffice.DCF.Web.SuperStateManager.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.#ctor
+  isExternal: true
+  name: SuperStateManager
+  nameWithType: SuperStateManager.SuperStateManager
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SuperStateManager
+- uid: SuperOffice.DCF.Web.SuperStateManager.SubClient*
+  commentId: Overload:SuperOffice.DCF.Web.SuperStateManager.SubClient
+  isExternal: true
+  name: SubClient
+  nameWithType: SuperStateManager.SubClient
+  fullName: SuperOffice.DCF.Web.SuperStateManager.SubClient

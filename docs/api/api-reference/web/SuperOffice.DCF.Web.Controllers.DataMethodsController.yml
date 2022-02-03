@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Controllers.DataMethodsController
+  commentId: T:SuperOffice.DCF.Web.Controllers.DataMethodsController
+  id: DataMethodsController
+  parent: SuperOffice.DCF.Web.Controllers
+  children:
+  - SuperOffice.DCF.Web.Controllers.DataMethodsController.#ctor
+  - SuperOffice.DCF.Web.Controllers.DataMethodsController.GetMethods
+  - SuperOffice.DCF.Web.Controllers.DataMethodsController.method(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: DataMethodsController
+  nameWithType: DataMethodsController
+  fullName: SuperOffice.DCF.Web.Controllers.DataMethodsController
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: >-
+      [EnableJsonTypeAnnotations]
+
+      public class DataMethodsController : ApiController
+    content.vb: >-
+      <EnableJsonTypeAnnotations>
+
+      Public Class DataMethodsController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  attributes:
+  - type: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
+    ctor: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.Controllers.DataMethodsController.method(System.Object)
+  commentId: M:SuperOffice.DCF.Web.Controllers.DataMethodsController.method(System.Object)
+  id: method(System.Object)
+  parent: SuperOffice.DCF.Web.Controllers.DataMethodsController
+  langs:
+  - csharp
+  - vb
+  name: method(Object)
+  nameWithType: DataMethodsController.method(Object)
+  fullName: SuperOffice.DCF.Web.Controllers.DataMethodsController.method(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: public object method(object data)
+    parameters:
+    - id: data
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: Public Function method(data As Object) As Object
+  overload: SuperOffice.DCF.Web.Controllers.DataMethodsController.method*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Controllers.DataMethodsController.GetMethods
+  commentId: M:SuperOffice.DCF.Web.Controllers.DataMethodsController.GetMethods
+  id: GetMethods
+  parent: SuperOffice.DCF.Web.Controllers.DataMethodsController
+  langs:
+  - csharp
+  - vb
+  name: GetMethods()
+  nameWithType: DataMethodsController.GetMethods()
+  fullName: SuperOffice.DCF.Web.Controllers.DataMethodsController.GetMethods()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: public IEnumerable<object> GetMethods()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Object}
+    content.vb: Public Function GetMethods As IEnumerable(Of Object)
+  overload: SuperOffice.DCF.Web.Controllers.DataMethodsController.GetMethods*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Controllers.DataMethodsController.#ctor
+  commentId: M:SuperOffice.DCF.Web.Controllers.DataMethodsController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.Controllers.DataMethodsController
+  langs:
+  - csharp
+  - vb
+  name: DataMethodsController()
+  nameWithType: DataMethodsController.DataMethodsController()
+  fullName: SuperOffice.DCF.Web.Controllers.DataMethodsController.DataMethodsController()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: public DataMethodsController()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.Controllers.DataMethodsController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.Controllers
+  commentId: N:SuperOffice.DCF.Web.Controllers
+  isExternal: true
+  name: SuperOffice.DCF.Web.Controllers
+  nameWithType: SuperOffice.DCF.Web.Controllers
+  fullName: SuperOffice.DCF.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Controllers.DataMethodsController.method*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.DataMethodsController.method
+  isExternal: true
+  name: method
+  nameWithType: DataMethodsController.method
+  fullName: SuperOffice.DCF.Web.Controllers.DataMethodsController.method
+- uid: SuperOffice.DCF.Web.Controllers.DataMethodsController.GetMethods*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.DataMethodsController.GetMethods
+  isExternal: true
+  name: GetMethods
+  nameWithType: DataMethodsController.GetMethods
+  fullName: SuperOffice.DCF.Web.Controllers.DataMethodsController.GetMethods
+- uid: System.Collections.Generic.IEnumerable{System.Object}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Object>
+  nameWithType: IEnumerable<Object>
+  fullName: System.Collections.Generic.IEnumerable<System.Object>
+  nameWithType.vb: IEnumerable(Of Object)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Object)
+  name.vb: IEnumerable(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.Controllers.DataMethodsController.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.DataMethodsController.#ctor
+  isExternal: true
+  name: DataMethodsController
+  nameWithType: DataMethodsController.DataMethodsController
+  fullName: SuperOffice.DCF.Web.Controllers.DataMethodsController.DataMethodsController

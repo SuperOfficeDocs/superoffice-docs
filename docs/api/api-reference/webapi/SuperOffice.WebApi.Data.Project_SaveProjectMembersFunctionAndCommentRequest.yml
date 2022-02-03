@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest
+  id: Project_SaveProjectMembersFunctionAndCommentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.#ctor
+  - SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.Comment
+  - SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.ProjectMemberIds
+  - SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.RoleId
+  langs:
+  - csharp
+  - vb
+  name: Project_SaveProjectMembersFunctionAndCommentRequest
+  nameWithType: Project_SaveProjectMembersFunctionAndCommentRequest
+  fullName: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_SaveProjectMembersFunctionAndCommentRequest : Object'
+    content.vb: >-
+      Public Class Project_SaveProjectMembersFunctionAndCommentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_SaveProjectMembersFunctionAndCommentRequest()
+  nameWithType: Project_SaveProjectMembersFunctionAndCommentRequest.Project_SaveProjectMembersFunctionAndCommentRequest()
+  fullName: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.Project_SaveProjectMembersFunctionAndCommentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_SaveProjectMembersFunctionAndCommentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.ProjectMemberIds
+  commentId: P:SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.ProjectMemberIds
+  id: ProjectMemberIds
+  parent: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectMemberIds
+  nameWithType: Project_SaveProjectMembersFunctionAndCommentRequest.ProjectMemberIds
+  fullName: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.ProjectMemberIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] ProjectMemberIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property ProjectMemberIds As Integer()
+  overload: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.ProjectMemberIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.RoleId
+  commentId: P:SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.RoleId
+  id: RoleId
+  parent: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: Project_SaveProjectMembersFunctionAndCommentRequest.RoleId
+  fullName: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.RoleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int RoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RoleId As Integer
+  overload: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.RoleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.Comment
+  commentId: P:SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.Comment
+  id: Comment
+  parent: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: Project_SaveProjectMembersFunctionAndCommentRequest.Comment
+  fullName: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.Comment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Comment As String
+  overload: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.#ctor
+  isExternal: true
+  name: Project_SaveProjectMembersFunctionAndCommentRequest
+  nameWithType: Project_SaveProjectMembersFunctionAndCommentRequest.Project_SaveProjectMembersFunctionAndCommentRequest
+  fullName: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.Project_SaveProjectMembersFunctionAndCommentRequest
+- uid: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.ProjectMemberIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.ProjectMemberIds
+  isExternal: true
+  name: ProjectMemberIds
+  nameWithType: Project_SaveProjectMembersFunctionAndCommentRequest.ProjectMemberIds
+  fullName: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.ProjectMemberIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.RoleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.RoleId
+  isExternal: true
+  name: RoleId
+  nameWithType: Project_SaveProjectMembersFunctionAndCommentRequest.RoleId
+  fullName: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.RoleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.Comment*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.Comment
+  isExternal: true
+  name: Comment
+  nameWithType: Project_SaveProjectMembersFunctionAndCommentRequest.Comment
+  fullName: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest.Comment
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

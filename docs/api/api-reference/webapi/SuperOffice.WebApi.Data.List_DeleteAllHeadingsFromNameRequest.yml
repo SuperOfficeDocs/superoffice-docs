@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest
+  commentId: T:SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest
+  id: List_DeleteAllHeadingsFromNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.#ctor
+  - SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.Name
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteAllHeadingsFromNameRequest
+  nameWithType: List_DeleteAllHeadingsFromNameRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_DeleteAllHeadingsFromNameRequest : Object'
+    content.vb: >-
+      Public Class List_DeleteAllHeadingsFromNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteAllHeadingsFromNameRequest()
+  nameWithType: List_DeleteAllHeadingsFromNameRequest.List_DeleteAllHeadingsFromNameRequest()
+  fullName: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.List_DeleteAllHeadingsFromNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_DeleteAllHeadingsFromNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: List_DeleteAllHeadingsFromNameRequest.Name
+  fullName: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.#ctor
+  isExternal: true
+  name: List_DeleteAllHeadingsFromNameRequest
+  nameWithType: List_DeleteAllHeadingsFromNameRequest.List_DeleteAllHeadingsFromNameRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.List_DeleteAllHeadingsFromNameRequest
+- uid: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: List_DeleteAllHeadingsFromNameRequest.Name
+  fullName: SuperOffice.WebApi.Data.List_DeleteAllHeadingsFromNameRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

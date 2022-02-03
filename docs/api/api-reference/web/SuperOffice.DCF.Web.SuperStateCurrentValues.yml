@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.SuperStateCurrentValues
+  commentId: T:SuperOffice.DCF.Web.SuperStateCurrentValues
+  id: SuperStateCurrentValues
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.SuperStateCurrentValues.EmptyHistoryItem
+  - SuperOffice.DCF.Web.SuperStateCurrentValues.LastValidHistoryItem
+  langs:
+  - csharp
+  - vb
+  name: SuperStateCurrentValues
+  nameWithType: SuperStateCurrentValues
+  fullName: SuperOffice.DCF.Web.SuperStateCurrentValues
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public enum SuperStateCurrentValues
+    content.vb: Public Enum SuperStateCurrentValues
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.SuperStateCurrentValues.LastValidHistoryItem
+  commentId: F:SuperOffice.DCF.Web.SuperStateCurrentValues.LastValidHistoryItem
+  id: LastValidHistoryItem
+  parent: SuperOffice.DCF.Web.SuperStateCurrentValues
+  langs:
+  - csharp
+  - vb
+  name: LastValidHistoryItem
+  nameWithType: SuperStateCurrentValues.LastValidHistoryItem
+  fullName: SuperOffice.DCF.Web.SuperStateCurrentValues.LastValidHistoryItem
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: LastValidHistoryItem = -2147483648
+    return:
+      type: SuperOffice.DCF.Web.SuperStateCurrentValues
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.SuperStateCurrentValues.EmptyHistoryItem
+  commentId: F:SuperOffice.DCF.Web.SuperStateCurrentValues.EmptyHistoryItem
+  id: EmptyHistoryItem
+  parent: SuperOffice.DCF.Web.SuperStateCurrentValues
+  langs:
+  - csharp
+  - vb
+  name: EmptyHistoryItem
+  nameWithType: SuperStateCurrentValues.EmptyHistoryItem
+  fullName: SuperOffice.DCF.Web.SuperStateCurrentValues.EmptyHistoryItem
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: EmptyHistoryItem = 0
+    return:
+      type: SuperOffice.DCF.Web.SuperStateCurrentValues
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.DCF.Web.SuperStateCurrentValues
+  commentId: T:SuperOffice.DCF.Web.SuperStateCurrentValues
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperStateCurrentValues
+  nameWithType: SuperStateCurrentValues
+  fullName: SuperOffice.DCF.Web.SuperStateCurrentValues

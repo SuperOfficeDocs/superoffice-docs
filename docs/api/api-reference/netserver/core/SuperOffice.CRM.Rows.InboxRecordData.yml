@@ -1,0 +1,1131 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.InboxRecordData
+  commentId: T:SuperOffice.CRM.Rows.InboxRecordData
+  id: InboxRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.InboxRecordData.#ctor
+  - SuperOffice.CRM.Rows.InboxRecordData.Created
+  - SuperOffice.CRM.Rows.InboxRecordData.Format
+  - SuperOffice.CRM.Rows.InboxRecordData.Imported
+  - SuperOffice.CRM.Rows.InboxRecordData.InboxId
+  - SuperOffice.CRM.Rows.InboxRecordData.LockingId
+  - SuperOffice.CRM.Rows.InboxRecordData.MailInFilter
+  - SuperOffice.CRM.Rows.InboxRecordData.MailSize
+  - SuperOffice.CRM.Rows.InboxRecordData.NextRetry
+  - SuperOffice.CRM.Rows.InboxRecordData.Plugin
+  - SuperOffice.CRM.Rows.InboxRecordData.Status
+  - SuperOffice.CRM.Rows.InboxRecordData.Uidl
+  langs:
+  - csharp
+  - vb
+  name: InboxRecordData
+  nameWithType: InboxRecordData
+  fullName: SuperOffice.CRM.Rows.InboxRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the inbox table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.InboxRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.InboxTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class InboxRecordData
+    content.vb: Public Class InboxRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.InboxRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.InboxRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.InboxRecordData)
+  - SuperOffice.CRM.Rows.InboxRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.InboxRecordData.SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.InboxRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.InboxRecordData.InboxId
+  commentId: F:SuperOffice.CRM.Rows.InboxRecordData.InboxId
+  id: InboxId
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: InboxId
+  nameWithType: InboxRecordData.InboxId
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.InboxId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int InboxId
+    return:
+      type: System.Int32
+    content.vb: Public InboxId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.InboxRecordData.MailInFilter
+  commentId: F:SuperOffice.CRM.Rows.InboxRecordData.MailInFilter
+  id: MailInFilter
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: MailInFilter
+  nameWithType: InboxRecordData.MailInFilter
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.MailInFilter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA reference to the id of the mail box \n"
+  syntax:
+    content: public int MailInFilter
+    return:
+      type: System.Int32
+    content.vb: Public MailInFilter As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.InboxRecordData.LockingId
+  commentId: F:SuperOffice.CRM.Rows.InboxRecordData.LockingId
+  id: LockingId
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: LockingId
+  nameWithType: InboxRecordData.LockingId
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.LockingId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA reference to the id of lock \n"
+  syntax:
+    content: public int LockingId
+    return:
+      type: System.Int32
+    content.vb: Public LockingId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.InboxRecordData.Uidl
+  commentId: F:SuperOffice.CRM.Rows.InboxRecordData.Uidl
+  id: Uidl
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: Uidl
+  nameWithType: InboxRecordData.Uidl
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.Uidl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe uidl of the message. stored before the retrieval starts to prevent double import For locking purposes \n"
+  syntax:
+    content: public string Uidl
+    return:
+      type: System.String
+    content.vb: Public Uidl As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.InboxRecordData.Created
+  commentId: F:SuperOffice.CRM.Rows.InboxRecordData.Created
+  id: Created
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: InboxRecordData.Created
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.Created
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the mail was created \n"
+  syntax:
+    content: public DateTime Created
+    return:
+      type: System.DateTime
+    content.vb: Public Created As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.InboxRecordData.Imported
+  commentId: F:SuperOffice.CRM.Rows.InboxRecordData.Imported
+  id: Imported
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: Imported
+  nameWithType: InboxRecordData.Imported
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.Imported
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the mail was imported \n"
+  syntax:
+    content: public DateTime Imported
+    return:
+      type: System.DateTime
+    content.vb: Public Imported As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.InboxRecordData.Status
+  commentId: F:SuperOffice.CRM.Rows.InboxRecordData.Status
+  id: Status
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: InboxRecordData.Status
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nStatus enum \n"
+  syntax:
+    content: public int Status
+    return:
+      type: System.Int32
+    content.vb: Public Status As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.InboxRecordData.MailSize
+  commentId: F:SuperOffice.CRM.Rows.InboxRecordData.MailSize
+  id: MailSize
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: MailSize
+  nameWithType: InboxRecordData.MailSize
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.MailSize
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe size of the mail in bytes \n"
+  syntax:
+    content: public int MailSize
+    return:
+      type: System.Int32
+    content.vb: Public MailSize As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.InboxRecordData.NextRetry
+  commentId: F:SuperOffice.CRM.Rows.InboxRecordData.NextRetry
+  id: NextRetry
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: NextRetry
+  nameWithType: InboxRecordData.NextRetry
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.NextRetry
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen is the next time we should try again? \n"
+  syntax:
+    content: public DateTime NextRetry
+    return:
+      type: System.DateTime
+    content.vb: Public NextRetry As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.InboxRecordData.Plugin
+  commentId: F:SuperOffice.CRM.Rows.InboxRecordData.Plugin
+  id: Plugin
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: Plugin
+  nameWithType: InboxRecordData.Plugin
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.Plugin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nName of plugin that created this inbox entry \n"
+  syntax:
+    content: public string Plugin
+    return:
+      type: System.String
+    content.vb: Public Plugin As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.InboxRecordData.Format
+  commentId: F:SuperOffice.CRM.Rows.InboxRecordData.Format
+  id: Format
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: InboxRecordData.Format
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.Format
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFormat of the inbox entry \n"
+  syntax:
+    content: public string Format
+    return:
+      type: System.String
+    content.vb: Public Format As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.InboxRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.InboxRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.InboxRecordData
+  langs:
+  - csharp
+  - vb
+  name: InboxRecordData()
+  nameWithType: InboxRecordData.InboxRecordData()
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.InboxRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public InboxRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.InboxRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.InboxRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<InboxRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<InboxRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.InboxRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of InboxRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.InboxRecordData, To)()
+  name.vb: MapEnums(Of InboxRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<InboxRecordData, To>
+    nameWithType: EnumUtil.MapEnums<InboxRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.InboxRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of InboxRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of InboxRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.InboxRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.InboxRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.InboxRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<InboxRecordData>(InboxRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<InboxRecordData>(InboxRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.InboxRecordData>(SuperOffice.CRM.Rows.InboxRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of InboxRecordData)(InboxRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.InboxRecordData)(SuperOffice.CRM.Rows.InboxRecordData)
+  name.vb: AssignByReflection(Of InboxRecordData)(InboxRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<InboxRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<InboxRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.InboxRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.InboxRecordData
+    name: InboxRecordData
+    nameWithType: InboxRecordData
+    fullName: SuperOffice.CRM.Rows.InboxRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of InboxRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of InboxRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.InboxRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.InboxRecordData
+    name: InboxRecordData
+    nameWithType: InboxRecordData
+    fullName: SuperOffice.CRM.Rows.InboxRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.InboxRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<InboxRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<InboxRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.InboxRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of InboxRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.InboxRecordData)()
+  name.vb: GraphCopy(Of InboxRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<InboxRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<InboxRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.InboxRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of InboxRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of InboxRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.InboxRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.InboxRecordData.SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InboxRecordData)
+  parent: SuperOffice.CRM.Rows.InboxRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InboxRecordData)
+  name: ToInsert()
+  nameWithType: InboxRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: InboxRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: InboxRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.InboxRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<InboxRecordData, To>()
+  nameWithType: Converters.MapEnums<InboxRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.InboxRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of InboxRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.InboxRecordData, To)()
+  name.vb: MapEnums(Of InboxRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<InboxRecordData, To>
+    nameWithType: Converters.MapEnums<InboxRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.InboxRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of InboxRecordData, To)
+    nameWithType: Converters.MapEnums(Of InboxRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.InboxRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InboxRecordData)
+  commentId: M:SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InboxRecordData)
+  isExternal: true
+  name: ToInsert(InboxRecordData)
+  nameWithType: InboxRecordDataExtensions.ToInsert(InboxRecordData)
+  fullName: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InboxRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InboxRecordData)
+    name: ToInsert
+    nameWithType: InboxRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.InboxRecordData
+    name: InboxRecordData
+    nameWithType: InboxRecordData
+    fullName: SuperOffice.CRM.Rows.InboxRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.InboxRecordData)
+    name: ToInsert
+    nameWithType: InboxRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.InboxRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.InboxRecordData
+    name: InboxRecordData
+    nameWithType: InboxRecordData
+    fullName: SuperOffice.CRM.Rows.InboxRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.InboxRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.InboxRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: InboxRecordDataExtensions
+  nameWithType: InboxRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.InboxRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.InboxRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.InboxRecordData.#ctor
+  isExternal: true
+  name: InboxRecordData
+  nameWithType: InboxRecordData.InboxRecordData
+  fullName: SuperOffice.CRM.Rows.InboxRecordData.InboxRecordData

@@ -1,0 +1,984 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.IContactInfo2
+  commentId: T:SuperOffice.CRM.IContactInfo2
+  id: IContactInfo2
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.IContactInfo2.SupportPersonId
+  - SuperOffice.CRM.IContactInfo2.SupportPersonName
+  langs:
+  - csharp
+  - vb
+  name: IContactInfo2
+  nameWithType: IContactInfo2
+  fullName: SuperOffice.CRM.IContactInfo2
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: 'public interface IContactInfo2 : IContactInfo'
+    content.vb: >-
+      Public Interface IContactInfo2
+          Inherits IContactInfo
+  inheritedMembers:
+  - SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
+  - SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
+  - SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
+  - SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
+  - SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
+  - SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
+  - SuperOffice.CRM.IContactInfo.GetInternationalAddress(System.Int32)
+  - SuperOffice.CRM.IContactInfo.ContactId
+  - SuperOffice.CRM.IContactInfo.Name
+  - SuperOffice.CRM.IContactInfo.Department
+  - SuperOffice.CRM.IContactInfo.OrganisationNumber
+  - SuperOffice.CRM.IContactInfo.Phone
+  - SuperOffice.CRM.IContactInfo.PhoneId
+  - SuperOffice.CRM.IContactInfo.Fax
+  - SuperOffice.CRM.IContactInfo.FaxId
+  - SuperOffice.CRM.IContactInfo.FaxStripped
+  - SuperOffice.CRM.IContactInfo.EMail
+  - SuperOffice.CRM.IContactInfo.EMailId
+  - SuperOffice.CRM.IContactInfo.Web
+  - SuperOffice.CRM.IContactInfo.WebId
+  - SuperOffice.CRM.IContactInfo.AddressLine1
+  - SuperOffice.CRM.IContactInfo.PostalAddressLine1
+  - SuperOffice.CRM.IContactInfo.PostalAddressLine2
+  - SuperOffice.CRM.IContactInfo.PostalAddressLine3
+  - SuperOffice.CRM.IContactInfo.PostalAddressCity
+  - SuperOffice.CRM.IContactInfo.PostalAddressCityFull
+  - SuperOffice.CRM.IContactInfo.PostalAddressZip
+  - SuperOffice.CRM.IContactInfo.PostalAddressPrefix
+  - SuperOffice.CRM.IContactInfo.PostalAddressState
+  - SuperOffice.CRM.IContactInfo.PostalAddressZipCity
+  - SuperOffice.CRM.IContactInfo.PostalAddressCounty
+  - SuperOffice.CRM.IContactInfo.StreetAddressLine1
+  - SuperOffice.CRM.IContactInfo.StreetAddressLine2
+  - SuperOffice.CRM.IContactInfo.StreetAddressLine3
+  - SuperOffice.CRM.IContactInfo.StreetAddressCityFull
+  - SuperOffice.CRM.IContactInfo.StreetAddressCity
+  - SuperOffice.CRM.IContactInfo.StreetAddressZip
+  - SuperOffice.CRM.IContactInfo.StreetAddressZipGerman
+  - SuperOffice.CRM.IContactInfo.PostalAddressLine1And3
+  - SuperOffice.CRM.IContactInfo.StreetAddressState
+  - SuperOffice.CRM.IContactInfo.LineFeedAustraliaUK
+  - SuperOffice.CRM.IContactInfo.LineFeedGermany
+  - SuperOffice.CRM.IContactInfo.Category
+  - SuperOffice.CRM.IContactInfo.Business
+  - SuperOffice.CRM.IContactInfo.CountryCode
+  - SuperOffice.CRM.IContactInfo.Country
+  - SuperOffice.CRM.IContactInfo.Country2
+  - SuperOffice.CRM.IContactInfo.CountryId
+  - SuperOffice.CRM.IContactInfo.CountryEnglish
+  - SuperOffice.CRM.IContactInfo.County
+  - SuperOffice.CRM.IContactInfo.PostCode
+  - SuperOffice.CRM.IContactInfo.CountyZipUK
+  - SuperOffice.CRM.IContactInfo.OurContact
+  - SuperOffice.CRM.IContactInfo.Code
+  - SuperOffice.CRM.IContactInfo.Number
+  extensionMethods:
+  - SuperOffice.CRM.IContactInfo2.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.IContactInfo2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.IContactInfo2.SupportPersonId
+  commentId: P:SuperOffice.CRM.IContactInfo2.SupportPersonId
+  id: SupportPersonId
+  parent: SuperOffice.CRM.IContactInfo2
+  langs:
+  - csharp
+  - vb
+  name: SupportPersonId
+  nameWithType: IContactInfo2.SupportPersonId
+  fullName: SuperOffice.CRM.IContactInfo2.SupportPersonId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nContact&apos;s support person ID\n"
+  syntax:
+    content: int SupportPersonId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SupportPersonId As Integer
+  overload: SuperOffice.CRM.IContactInfo2.SupportPersonId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IContactInfo2.SupportPersonName
+  commentId: P:SuperOffice.CRM.IContactInfo2.SupportPersonName
+  id: SupportPersonName
+  parent: SuperOffice.CRM.IContactInfo2
+  langs:
+  - csharp
+  - vb
+  name: SupportPersonName
+  nameWithType: IContactInfo2.SupportPersonName
+  fullName: SuperOffice.CRM.IContactInfo2.SupportPersonName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nContact&apos;s support person - Full name\n"
+  syntax:
+    content: string SupportPersonName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property SupportPersonName As String
+  overload: SuperOffice.CRM.IContactInfo2.SupportPersonName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
+  commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: IContactInfo.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
+    name: GetUserDefinedDecimal
+    nameWithType: IContactInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
+    name: GetUserDefinedDecimal
+    nameWithType: IContactInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
+  commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: GetUserDefinedInt(Int32)
+  nameWithType: IContactInfo.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
+    name: GetUserDefinedInt
+    nameWithType: IContactInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
+    name: GetUserDefinedInt
+    nameWithType: IContactInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
+  commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: GetUserDefinedString(Int32)
+  nameWithType: IContactInfo.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
+    name: GetUserDefinedString
+    nameWithType: IContactInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
+    name: GetUserDefinedString
+    nameWithType: IContactInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
+  commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: GetUserDefinedDecimal(String)
+  nameWithType: IContactInfo.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
+    name: GetUserDefinedDecimal
+    nameWithType: IContactInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
+    name: GetUserDefinedDecimal
+    nameWithType: IContactInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
+  commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: GetUserDefinedInt(String)
+  nameWithType: IContactInfo.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
+    name: GetUserDefinedInt
+    nameWithType: IContactInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
+    name: GetUserDefinedInt
+    nameWithType: IContactInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
+  commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: GetUserDefinedString(String)
+  nameWithType: IContactInfo.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
+    name: GetUserDefinedString
+    nameWithType: IContactInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
+    name: GetUserDefinedString
+    nameWithType: IContactInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IContactInfo.GetInternationalAddress(System.Int32)
+  commentId: M:SuperOffice.CRM.IContactInfo.GetInternationalAddress(System.Int32)
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: GetInternationalAddress(Int32)
+  nameWithType: IContactInfo.GetInternationalAddress(Int32)
+  fullName: SuperOffice.CRM.IContactInfo.GetInternationalAddress(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IContactInfo.GetInternationalAddress(System.Int32)
+    name: GetInternationalAddress
+    nameWithType: IContactInfo.GetInternationalAddress
+    fullName: SuperOffice.CRM.IContactInfo.GetInternationalAddress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IContactInfo.GetInternationalAddress(System.Int32)
+    name: GetInternationalAddress
+    nameWithType: IContactInfo.GetInternationalAddress
+    fullName: SuperOffice.CRM.IContactInfo.GetInternationalAddress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IContactInfo.ContactId
+  commentId: P:SuperOffice.CRM.IContactInfo.ContactId
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: ContactId
+  nameWithType: IContactInfo.ContactId
+  fullName: SuperOffice.CRM.IContactInfo.ContactId
+- uid: SuperOffice.CRM.IContactInfo.Name
+  commentId: P:SuperOffice.CRM.IContactInfo.Name
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: Name
+  nameWithType: IContactInfo.Name
+  fullName: SuperOffice.CRM.IContactInfo.Name
+- uid: SuperOffice.CRM.IContactInfo.Department
+  commentId: P:SuperOffice.CRM.IContactInfo.Department
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: Department
+  nameWithType: IContactInfo.Department
+  fullName: SuperOffice.CRM.IContactInfo.Department
+- uid: SuperOffice.CRM.IContactInfo.OrganisationNumber
+  commentId: P:SuperOffice.CRM.IContactInfo.OrganisationNumber
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: OrganisationNumber
+  nameWithType: IContactInfo.OrganisationNumber
+  fullName: SuperOffice.CRM.IContactInfo.OrganisationNumber
+- uid: SuperOffice.CRM.IContactInfo.Phone
+  commentId: P:SuperOffice.CRM.IContactInfo.Phone
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: Phone
+  nameWithType: IContactInfo.Phone
+  fullName: SuperOffice.CRM.IContactInfo.Phone
+- uid: SuperOffice.CRM.IContactInfo.PhoneId
+  commentId: P:SuperOffice.CRM.IContactInfo.PhoneId
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PhoneId
+  nameWithType: IContactInfo.PhoneId
+  fullName: SuperOffice.CRM.IContactInfo.PhoneId
+- uid: SuperOffice.CRM.IContactInfo.Fax
+  commentId: P:SuperOffice.CRM.IContactInfo.Fax
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: Fax
+  nameWithType: IContactInfo.Fax
+  fullName: SuperOffice.CRM.IContactInfo.Fax
+- uid: SuperOffice.CRM.IContactInfo.FaxId
+  commentId: P:SuperOffice.CRM.IContactInfo.FaxId
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: FaxId
+  nameWithType: IContactInfo.FaxId
+  fullName: SuperOffice.CRM.IContactInfo.FaxId
+- uid: SuperOffice.CRM.IContactInfo.FaxStripped
+  commentId: P:SuperOffice.CRM.IContactInfo.FaxStripped
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: FaxStripped
+  nameWithType: IContactInfo.FaxStripped
+  fullName: SuperOffice.CRM.IContactInfo.FaxStripped
+- uid: SuperOffice.CRM.IContactInfo.EMail
+  commentId: P:SuperOffice.CRM.IContactInfo.EMail
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: EMail
+  nameWithType: IContactInfo.EMail
+  fullName: SuperOffice.CRM.IContactInfo.EMail
+- uid: SuperOffice.CRM.IContactInfo.EMailId
+  commentId: P:SuperOffice.CRM.IContactInfo.EMailId
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: EMailId
+  nameWithType: IContactInfo.EMailId
+  fullName: SuperOffice.CRM.IContactInfo.EMailId
+- uid: SuperOffice.CRM.IContactInfo.Web
+  commentId: P:SuperOffice.CRM.IContactInfo.Web
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: Web
+  nameWithType: IContactInfo.Web
+  fullName: SuperOffice.CRM.IContactInfo.Web
+- uid: SuperOffice.CRM.IContactInfo.WebId
+  commentId: P:SuperOffice.CRM.IContactInfo.WebId
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: WebId
+  nameWithType: IContactInfo.WebId
+  fullName: SuperOffice.CRM.IContactInfo.WebId
+- uid: SuperOffice.CRM.IContactInfo.AddressLine1
+  commentId: P:SuperOffice.CRM.IContactInfo.AddressLine1
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: AddressLine1
+  nameWithType: IContactInfo.AddressLine1
+  fullName: SuperOffice.CRM.IContactInfo.AddressLine1
+- uid: SuperOffice.CRM.IContactInfo.PostalAddressLine1
+  commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressLine1
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostalAddressLine1
+  nameWithType: IContactInfo.PostalAddressLine1
+  fullName: SuperOffice.CRM.IContactInfo.PostalAddressLine1
+- uid: SuperOffice.CRM.IContactInfo.PostalAddressLine2
+  commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressLine2
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostalAddressLine2
+  nameWithType: IContactInfo.PostalAddressLine2
+  fullName: SuperOffice.CRM.IContactInfo.PostalAddressLine2
+- uid: SuperOffice.CRM.IContactInfo.PostalAddressLine3
+  commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressLine3
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostalAddressLine3
+  nameWithType: IContactInfo.PostalAddressLine3
+  fullName: SuperOffice.CRM.IContactInfo.PostalAddressLine3
+- uid: SuperOffice.CRM.IContactInfo.PostalAddressCity
+  commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressCity
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostalAddressCity
+  nameWithType: IContactInfo.PostalAddressCity
+  fullName: SuperOffice.CRM.IContactInfo.PostalAddressCity
+- uid: SuperOffice.CRM.IContactInfo.PostalAddressCityFull
+  commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressCityFull
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostalAddressCityFull
+  nameWithType: IContactInfo.PostalAddressCityFull
+  fullName: SuperOffice.CRM.IContactInfo.PostalAddressCityFull
+- uid: SuperOffice.CRM.IContactInfo.PostalAddressZip
+  commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressZip
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostalAddressZip
+  nameWithType: IContactInfo.PostalAddressZip
+  fullName: SuperOffice.CRM.IContactInfo.PostalAddressZip
+- uid: SuperOffice.CRM.IContactInfo.PostalAddressPrefix
+  commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressPrefix
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostalAddressPrefix
+  nameWithType: IContactInfo.PostalAddressPrefix
+  fullName: SuperOffice.CRM.IContactInfo.PostalAddressPrefix
+- uid: SuperOffice.CRM.IContactInfo.PostalAddressState
+  commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressState
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostalAddressState
+  nameWithType: IContactInfo.PostalAddressState
+  fullName: SuperOffice.CRM.IContactInfo.PostalAddressState
+- uid: SuperOffice.CRM.IContactInfo.PostalAddressZipCity
+  commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressZipCity
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostalAddressZipCity
+  nameWithType: IContactInfo.PostalAddressZipCity
+  fullName: SuperOffice.CRM.IContactInfo.PostalAddressZipCity
+- uid: SuperOffice.CRM.IContactInfo.PostalAddressCounty
+  commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressCounty
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostalAddressCounty
+  nameWithType: IContactInfo.PostalAddressCounty
+  fullName: SuperOffice.CRM.IContactInfo.PostalAddressCounty
+- uid: SuperOffice.CRM.IContactInfo.StreetAddressLine1
+  commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressLine1
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: StreetAddressLine1
+  nameWithType: IContactInfo.StreetAddressLine1
+  fullName: SuperOffice.CRM.IContactInfo.StreetAddressLine1
+- uid: SuperOffice.CRM.IContactInfo.StreetAddressLine2
+  commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressLine2
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: StreetAddressLine2
+  nameWithType: IContactInfo.StreetAddressLine2
+  fullName: SuperOffice.CRM.IContactInfo.StreetAddressLine2
+- uid: SuperOffice.CRM.IContactInfo.StreetAddressLine3
+  commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressLine3
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: StreetAddressLine3
+  nameWithType: IContactInfo.StreetAddressLine3
+  fullName: SuperOffice.CRM.IContactInfo.StreetAddressLine3
+- uid: SuperOffice.CRM.IContactInfo.StreetAddressCityFull
+  commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressCityFull
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: StreetAddressCityFull
+  nameWithType: IContactInfo.StreetAddressCityFull
+  fullName: SuperOffice.CRM.IContactInfo.StreetAddressCityFull
+- uid: SuperOffice.CRM.IContactInfo.StreetAddressCity
+  commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressCity
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: StreetAddressCity
+  nameWithType: IContactInfo.StreetAddressCity
+  fullName: SuperOffice.CRM.IContactInfo.StreetAddressCity
+- uid: SuperOffice.CRM.IContactInfo.StreetAddressZip
+  commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressZip
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: StreetAddressZip
+  nameWithType: IContactInfo.StreetAddressZip
+  fullName: SuperOffice.CRM.IContactInfo.StreetAddressZip
+- uid: SuperOffice.CRM.IContactInfo.StreetAddressZipGerman
+  commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressZipGerman
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: StreetAddressZipGerman
+  nameWithType: IContactInfo.StreetAddressZipGerman
+  fullName: SuperOffice.CRM.IContactInfo.StreetAddressZipGerman
+- uid: SuperOffice.CRM.IContactInfo.PostalAddressLine1And3
+  commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressLine1And3
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostalAddressLine1And3
+  nameWithType: IContactInfo.PostalAddressLine1And3
+  fullName: SuperOffice.CRM.IContactInfo.PostalAddressLine1And3
+- uid: SuperOffice.CRM.IContactInfo.StreetAddressState
+  commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressState
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: StreetAddressState
+  nameWithType: IContactInfo.StreetAddressState
+  fullName: SuperOffice.CRM.IContactInfo.StreetAddressState
+- uid: SuperOffice.CRM.IContactInfo.LineFeedAustraliaUK
+  commentId: P:SuperOffice.CRM.IContactInfo.LineFeedAustraliaUK
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: LineFeedAustraliaUK
+  nameWithType: IContactInfo.LineFeedAustraliaUK
+  fullName: SuperOffice.CRM.IContactInfo.LineFeedAustraliaUK
+- uid: SuperOffice.CRM.IContactInfo.LineFeedGermany
+  commentId: P:SuperOffice.CRM.IContactInfo.LineFeedGermany
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: LineFeedGermany
+  nameWithType: IContactInfo.LineFeedGermany
+  fullName: SuperOffice.CRM.IContactInfo.LineFeedGermany
+- uid: SuperOffice.CRM.IContactInfo.Category
+  commentId: P:SuperOffice.CRM.IContactInfo.Category
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: Category
+  nameWithType: IContactInfo.Category
+  fullName: SuperOffice.CRM.IContactInfo.Category
+- uid: SuperOffice.CRM.IContactInfo.Business
+  commentId: P:SuperOffice.CRM.IContactInfo.Business
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: Business
+  nameWithType: IContactInfo.Business
+  fullName: SuperOffice.CRM.IContactInfo.Business
+- uid: SuperOffice.CRM.IContactInfo.CountryCode
+  commentId: P:SuperOffice.CRM.IContactInfo.CountryCode
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: CountryCode
+  nameWithType: IContactInfo.CountryCode
+  fullName: SuperOffice.CRM.IContactInfo.CountryCode
+- uid: SuperOffice.CRM.IContactInfo.Country
+  commentId: P:SuperOffice.CRM.IContactInfo.Country
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: Country
+  nameWithType: IContactInfo.Country
+  fullName: SuperOffice.CRM.IContactInfo.Country
+- uid: SuperOffice.CRM.IContactInfo.Country2
+  commentId: P:SuperOffice.CRM.IContactInfo.Country2
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: Country2
+  nameWithType: IContactInfo.Country2
+  fullName: SuperOffice.CRM.IContactInfo.Country2
+- uid: SuperOffice.CRM.IContactInfo.CountryId
+  commentId: P:SuperOffice.CRM.IContactInfo.CountryId
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: CountryId
+  nameWithType: IContactInfo.CountryId
+  fullName: SuperOffice.CRM.IContactInfo.CountryId
+- uid: SuperOffice.CRM.IContactInfo.CountryEnglish
+  commentId: P:SuperOffice.CRM.IContactInfo.CountryEnglish
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: CountryEnglish
+  nameWithType: IContactInfo.CountryEnglish
+  fullName: SuperOffice.CRM.IContactInfo.CountryEnglish
+- uid: SuperOffice.CRM.IContactInfo.County
+  commentId: P:SuperOffice.CRM.IContactInfo.County
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: County
+  nameWithType: IContactInfo.County
+  fullName: SuperOffice.CRM.IContactInfo.County
+- uid: SuperOffice.CRM.IContactInfo.PostCode
+  commentId: P:SuperOffice.CRM.IContactInfo.PostCode
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: PostCode
+  nameWithType: IContactInfo.PostCode
+  fullName: SuperOffice.CRM.IContactInfo.PostCode
+- uid: SuperOffice.CRM.IContactInfo.CountyZipUK
+  commentId: P:SuperOffice.CRM.IContactInfo.CountyZipUK
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: CountyZipUK
+  nameWithType: IContactInfo.CountyZipUK
+  fullName: SuperOffice.CRM.IContactInfo.CountyZipUK
+- uid: SuperOffice.CRM.IContactInfo.OurContact
+  commentId: P:SuperOffice.CRM.IContactInfo.OurContact
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: OurContact
+  nameWithType: IContactInfo.OurContact
+  fullName: SuperOffice.CRM.IContactInfo.OurContact
+- uid: SuperOffice.CRM.IContactInfo.Code
+  commentId: P:SuperOffice.CRM.IContactInfo.Code
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: Code
+  nameWithType: IContactInfo.Code
+  fullName: SuperOffice.CRM.IContactInfo.Code
+- uid: SuperOffice.CRM.IContactInfo.Number
+  commentId: P:SuperOffice.CRM.IContactInfo.Number
+  parent: SuperOffice.CRM.IContactInfo
+  isExternal: true
+  name: Number
+  nameWithType: IContactInfo.Number
+  fullName: SuperOffice.CRM.IContactInfo.Number
+- uid: SuperOffice.CRM.IContactInfo2.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IContactInfo2, To>()
+  nameWithType: EnumUtil.MapEnums<IContactInfo2, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IContactInfo2, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IContactInfo2, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IContactInfo2, To)()
+  name.vb: MapEnums(Of IContactInfo2, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IContactInfo2, To>
+    nameWithType: EnumUtil.MapEnums<IContactInfo2, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.IContactInfo2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IContactInfo2, To)
+    nameWithType: EnumUtil.MapEnums(Of IContactInfo2, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.IContactInfo2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IContactInfo2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IContactInfo2, To>()
+  nameWithType: Converters.MapEnums<IContactInfo2, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IContactInfo2, To>()
+  nameWithType.vb: Converters.MapEnums(Of IContactInfo2, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IContactInfo2, To)()
+  name.vb: MapEnums(Of IContactInfo2, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IContactInfo2, To>
+    nameWithType: Converters.MapEnums<IContactInfo2, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IContactInfo2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IContactInfo2, To)
+    nameWithType: Converters.MapEnums(Of IContactInfo2, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IContactInfo2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IContactInfo
+  commentId: T:SuperOffice.CRM.IContactInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IContactInfo
+  nameWithType: IContactInfo
+  fullName: SuperOffice.CRM.IContactInfo
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.IContactInfo2.SupportPersonId*
+  commentId: Overload:SuperOffice.CRM.IContactInfo2.SupportPersonId
+  isExternal: true
+  name: SupportPersonId
+  nameWithType: IContactInfo2.SupportPersonId
+  fullName: SuperOffice.CRM.IContactInfo2.SupportPersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.IContactInfo2.SupportPersonName*
+  commentId: Overload:SuperOffice.CRM.IContactInfo2.SupportPersonName
+  isExternal: true
+  name: SupportPersonName
+  nameWithType: IContactInfo2.SupportPersonName
+  fullName: SuperOffice.CRM.IContactInfo2.SupportPersonName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,464 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersionButtonState
+  id: QuoteVersionButtonState
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteVersionButtonState.#ctor
+  - SuperOffice.WebApi.Data.QuoteVersionButtonState.Action
+  - SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String
+  - SuperOffice.WebApi.Data.QuoteVersionButtonState.DisplayText
+  - SuperOffice.WebApi.Data.QuoteVersionButtonState.Enabled
+  - SuperOffice.WebApi.Data.QuoteVersionButtonState.ImageHint
+  - SuperOffice.WebApi.Data.QuoteVersionButtonState.TooltipText
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionButtonState
+  nameWithType: QuoteVersionButtonState
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuoteVersionButtonState.\nInformation about possible button actions for the quote version dialog.    \n"
+  syntax:
+    content: 'public class QuoteVersionButtonState : Carrier'
+    content.vb: >-
+      Public Class QuoteVersionButtonState
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuoteVersionButtonState.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuoteVersionButtonState
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionButtonState()
+  nameWithType: QuoteVersionButtonState.QuoteVersionButtonState()
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.QuoteVersionButtonState()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuoteVersionButtonState()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuoteVersionButtonState.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String
+  id: Action_String
+  parent: SuperOffice.WebApi.Data.QuoteVersionButtonState
+  langs:
+  - csharp
+  - vb
+  name: Action_String
+  nameWithType: QuoteVersionButtonState.Action_String
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction for the button\nRaw string enum value.\n"
+  syntax:
+    content: public string Action_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Action_String As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action
+    commentId: P:SuperOffice.WebApi.Data.QuoteVersionButtonState.Action
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionButtonState.Action
+  id: Action
+  parent: SuperOffice.WebApi.Data.QuoteVersionButtonState
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: QuoteVersionButtonState.Action
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction for the button\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<QuoteVersionButtonAction> Action { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.QuoteVersionButtonAction}
+    content.vb: Public Property Action As Nullable(Of QuoteVersionButtonAction)
+  overload: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String
+    commentId: P:SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.ImageHint
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionButtonState.ImageHint
+  id: ImageHint
+  parent: SuperOffice.WebApi.Data.QuoteVersionButtonState
+  langs:
+  - csharp
+  - vb
+  name: ImageHint
+  nameWithType: QuoteVersionButtonState.ImageHint
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.ImageHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nImage to be shown\n"
+  syntax:
+    content: public virtual string ImageHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ImageHint As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionButtonState.ImageHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.DisplayText
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionButtonState.DisplayText
+  id: DisplayText
+  parent: SuperOffice.WebApi.Data.QuoteVersionButtonState
+  langs:
+  - csharp
+  - vb
+  name: DisplayText
+  nameWithType: QuoteVersionButtonState.DisplayText
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.DisplayText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nText to be displayed on the button\n"
+  syntax:
+    content: public virtual string DisplayText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayText As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionButtonState.DisplayText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.TooltipText
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionButtonState.TooltipText
+  id: TooltipText
+  parent: SuperOffice.WebApi.Data.QuoteVersionButtonState
+  langs:
+  - csharp
+  - vb
+  name: TooltipText
+  nameWithType: QuoteVersionButtonState.TooltipText
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.TooltipText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tooltip for the button\n"
+  syntax:
+    content: public virtual string TooltipText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TooltipText As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionButtonState.TooltipText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.Enabled
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionButtonState.Enabled
+  id: Enabled
+  parent: SuperOffice.WebApi.Data.QuoteVersionButtonState
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: QuoteVersionButtonState.Enabled
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.Enabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicate if the button should be enabled or disabled\n"
+  syntax:
+    content: public virtual bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Enabled As Boolean
+  overload: SuperOffice.WebApi.Data.QuoteVersionButtonState.Enabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionButtonState.#ctor
+  isExternal: true
+  name: QuoteVersionButtonState
+  nameWithType: QuoteVersionButtonState.QuoteVersionButtonState
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.QuoteVersionButtonState
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String
+  isExternal: true
+  name: Action_String
+  nameWithType: QuoteVersionButtonState.Action_String
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionButtonState.Action
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionButtonState.Action
+  isExternal: true
+  name: Action
+  nameWithType: QuoteVersionButtonState.Action
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionButtonState.Action_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.QuoteVersionButtonAction}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.QuoteVersionButtonAction}'
+  definition: System.Nullable`1
+  name: Nullable<QuoteVersionButtonAction>
+  nameWithType: Nullable<QuoteVersionButtonAction>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.QuoteVersionButtonAction>
+  nameWithType.vb: Nullable(Of QuoteVersionButtonAction)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.QuoteVersionButtonAction)
+  name.vb: Nullable(Of QuoteVersionButtonAction)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction
+    name: QuoteVersionButtonAction
+    nameWithType: QuoteVersionButtonAction
+    fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction
+    name: QuoteVersionButtonAction
+    nameWithType: QuoteVersionButtonAction
+    fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.ImageHint*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionButtonState.ImageHint
+  isExternal: true
+  name: ImageHint
+  nameWithType: QuoteVersionButtonState.ImageHint
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.ImageHint
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.DisplayText*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionButtonState.DisplayText
+  isExternal: true
+  name: DisplayText
+  nameWithType: QuoteVersionButtonState.DisplayText
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.DisplayText
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.TooltipText*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionButtonState.TooltipText
+  isExternal: true
+  name: TooltipText
+  nameWithType: QuoteVersionButtonState.TooltipText
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.TooltipText
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonState.Enabled*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionButtonState.Enabled
+  isExternal: true
+  name: Enabled
+  nameWithType: QuoteVersionButtonState.Enabled
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonState.Enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

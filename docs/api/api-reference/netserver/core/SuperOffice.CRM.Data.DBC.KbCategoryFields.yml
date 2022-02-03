@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  commentId: T:SuperOffice.CRM.Data.DBC.KbCategoryFields
+  id: DBC.KbCategoryFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.AccessCheck
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.AccessLevel
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.CreatedBy
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiAgentId
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiKey
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiLastModified
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiLastSyncronized
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.Description
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.Fullname
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.InheritedAccessLevel
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.KbCategoryId
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.Name
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.ParentId
+  - SuperOffice.CRM.Data.DBC.KbCategoryFields.SortOrder
+  langs:
+  - csharp
+  - vb
+  name: DBC.KbCategoryFields
+  nameWithType: DBC.KbCategoryFields
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for KbCategory, Knowledge base folder hierarchy\n"
+  syntax:
+    content: public static class KbCategoryFields
+    content.vb: Public Module KbCategoryFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.KbCategoryId
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.KbCategoryId
+  id: KbCategoryId
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: KbCategoryId
+  nameWithType: DBC.KbCategoryFields.KbCategoryId
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.KbCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.KbCategoryId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string KbCategoryId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const KbCategoryId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.ParentId
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.ParentId
+  id: ParentId
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: DBC.KbCategoryFields.ParentId
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.ParentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.ParentId: This entry contains a reference to the parent category. NULL or -1 if this is a toplevel category.\n"
+  syntax:
+    content: public const string ParentId = "parent_id"
+    return:
+      type: System.String
+    content.vb: Public Const ParentId As String = "parent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.KbCategoryFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.Name: The name of this category.\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.Fullname
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.Fullname
+  id: Fullname
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: Fullname
+  nameWithType: DBC.KbCategoryFields.Fullname
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.Fullname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.Fullname: The full name of this category, i.e. Foo/bar/test.\n"
+  syntax:
+    content: public const string Fullname = "fullname"
+    return:
+      type: System.String
+    content.vb: Public Const Fullname As String = "fullname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.KbCategoryFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.Description: The description of this category.\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.SortOrder
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.SortOrder
+  id: SortOrder
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: DBC.KbCategoryFields.SortOrder
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.SortOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.SortOrder: A strictly ascending number used for sorting categories when they are listed.\n"
+  syntax:
+    content: public const string SortOrder = "sort_order"
+    return:
+      type: System.String
+    content.vb: Public Const SortOrder As String = "sort_order"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.AccessLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.AccessLevel
+  id: AccessLevel
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: AccessLevel
+  nameWithType: DBC.KbCategoryFields.AccessLevel
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.AccessLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.AccessLevel: The access level for this category (enum).\n"
+  syntax:
+    content: public const string AccessLevel = "access_level"
+    return:
+      type: System.String
+    content.vb: Public Const AccessLevel As String = "access_level"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.InheritedAccessLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.InheritedAccessLevel
+  id: InheritedAccessLevel
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: InheritedAccessLevel
+  nameWithType: DBC.KbCategoryFields.InheritedAccessLevel
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.InheritedAccessLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.InheritedAccessLevel: The lowest access level for this category or any parent\n"
+  syntax:
+    content: public const string InheritedAccessLevel = "inherited_access_level"
+    return:
+      type: System.String
+    content.vb: Public Const InheritedAccessLevel As String = "inherited_access_level"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.CreatedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: DBC.KbCategoryFields.CreatedBy
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.CreatedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.CreatedBy: The id of the user who created this category.\n"
+  syntax:
+    content: public const string CreatedBy = "created_by"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedBy As String = "created_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.AccessCheck
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.AccessCheck
+  id: AccessCheck
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: AccessCheck
+  nameWithType: DBC.KbCategoryFields.AccessCheck
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.AccessCheck
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.AccessCheck: Contains a Parser-script used for evaluating customer access to this category.\n"
+  syntax:
+    content: public const string AccessCheck = "access_check"
+    return:
+      type: System.String
+    content.vb: Public Const AccessCheck As String = "access_check"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiAgentId
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: DBC.KbCategoryFields.DbiAgentId
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiAgentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.DbiAgentId: Integration agent (eJournal)\n"
+  syntax:
+    content: public const string DbiAgentId = "dbi_agent_id"
+    return:
+      type: System.String
+    content.vb: Public Const DbiAgentId As String = "dbi_agent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiKey
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiKey
+  id: DbiKey
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: DbiKey
+  nameWithType: DBC.KbCategoryFields.DbiKey
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.DbiKey: The primary key for the integrated entry in the external datasource.\n"
+  syntax:
+    content: public const string DbiKey = "dbi_key"
+    return:
+      type: System.String
+    content.vb: Public Const DbiKey As String = "dbi_key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiLastSyncronized
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiLastSyncronized
+  id: DbiLastSyncronized
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: DbiLastSyncronized
+  nameWithType: DBC.KbCategoryFields.DbiLastSyncronized
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiLastSyncronized
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.DbiLastSyncronized: Last external syncronization.\n"
+  syntax:
+    content: public const string DbiLastSyncronized = "dbi_last_syncronized"
+    return:
+      type: System.String
+    content.vb: Public Const DbiLastSyncronized As String = "dbi_last_syncronized"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiLastModified
+  commentId: F:SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiLastModified
+  id: DbiLastModified
+  parent: SuperOffice.CRM.Data.DBC.KbCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: DbiLastModified
+  nameWithType: DBC.KbCategoryFields.DbiLastModified
+  fullName: SuperOffice.CRM.Data.DBC.KbCategoryFields.DbiLastModified
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbCategory.DbiLastModified: When the entry was last modified.\n"
+  syntax:
+    content: public const string DbiLastModified = "dbi_last_modified"
+    return:
+      type: System.String
+    content.vb: Public Const DbiLastModified As String = "dbi_last_modified"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

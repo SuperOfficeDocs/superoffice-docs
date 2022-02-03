@@ -1,0 +1,606 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.AjaxMethods.General
+  commentId: T:SuperOffice.DCF.Web.AjaxMethods.General
+  id: General
+  parent: SuperOffice.DCF.Web.AjaxMethods
+  children:
+  - SuperOffice.DCF.Web.AjaxMethods.General.#ctor
+  - SuperOffice.DCF.Web.AjaxMethods.General.CheckLicense
+  - SuperOffice.DCF.Web.AjaxMethods.General.IsValidDate(System.String)
+  - SuperOffice.DCF.Web.AjaxMethods.General.KeepAlive
+  - SuperOffice.DCF.Web.AjaxMethods.General.LogJs(System.String)
+  - SuperOffice.DCF.Web.AjaxMethods.General.Test(System.Int32,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: General
+  nameWithType: General
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("General")]
+
+      public class General : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("General")>
+
+      Public Class General
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: General
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.KeepAlive
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.General.KeepAlive
+  id: KeepAlive
+  parent: SuperOffice.DCF.Web.AjaxMethods.General
+  langs:
+  - csharp
+  - vb
+  name: KeepAlive()
+  nameWithType: General.KeepAlive()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.KeepAlive()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string KeepAlive()
+    return:
+      type: System.String
+    content.vb: Public Function KeepAlive As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.General.KeepAlive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.CheckLicense
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.General.CheckLicense
+  id: CheckLicense
+  parent: SuperOffice.DCF.Web.AjaxMethods.General
+  langs:
+  - csharp
+  - vb
+  name: CheckLicense()
+  nameWithType: General.CheckLicense()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.CheckLicense()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string CheckLicense()
+    return:
+      type: System.String
+    content.vb: Public Function CheckLicense As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.General.CheckLicense*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.LogJs(System.String)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.General.LogJs(System.String)
+  id: LogJs(System.String)
+  parent: SuperOffice.DCF.Web.AjaxMethods.General
+  langs:
+  - csharp
+  - vb
+  name: LogJs(String)
+  nameWithType: General.LogJs(String)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.LogJs(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string LogJs(string logString)
+    parameters:
+    - id: logString
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function LogJs(logString As String) As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.General.LogJs*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.Test(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.General.Test(System.Int32,System.Boolean)
+  id: Test(System.Int32,System.Boolean)
+  parent: SuperOffice.DCF.Web.AjaxMethods.General
+  langs:
+  - csharp
+  - vb
+  name: Test(Int32, Boolean)
+  nameWithType: General.Test(Int32, Boolean)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.Test(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public string Test(int secondsDelay, bool throwException)
+    parameters:
+    - id: secondsDelay
+      type: System.Int32
+    - id: throwException
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function Test(secondsDelay As Integer, throwException As Boolean) As String
+  overload: SuperOffice.DCF.Web.AjaxMethods.General.Test*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.IsValidDate(System.String)
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.General.IsValidDate(System.String)
+  id: IsValidDate(System.String)
+  parent: SuperOffice.DCF.Web.AjaxMethods.General
+  langs:
+  - csharp
+  - vb
+  name: IsValidDate(String)
+  nameWithType: General.IsValidDate(String)
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.IsValidDate(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public bool IsValidDate(string dateTime)
+    parameters:
+    - id: dateTime
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsValidDate(dateTime As String) As Boolean
+  overload: SuperOffice.DCF.Web.AjaxMethods.General.IsValidDate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.#ctor
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.General.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.AjaxMethods.General
+  langs:
+  - csharp
+  - vb
+  name: General()
+  nameWithType: General.General()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.General()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public General()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.AjaxMethods.General.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.AjaxMethods
+  commentId: N:SuperOffice.DCF.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.DCF.Web.AjaxMethods
+  nameWithType: SuperOffice.DCF.Web.AjaxMethods
+  fullName: SuperOffice.DCF.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.KeepAlive*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.General.KeepAlive
+  isExternal: true
+  name: KeepAlive
+  nameWithType: General.KeepAlive
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.KeepAlive
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.CheckLicense*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.General.CheckLicense
+  isExternal: true
+  name: CheckLicense
+  nameWithType: General.CheckLicense
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.CheckLicense
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.LogJs*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.General.LogJs
+  isExternal: true
+  name: LogJs
+  nameWithType: General.LogJs
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.LogJs
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.Test*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.General.Test
+  isExternal: true
+  name: Test
+  nameWithType: General.Test
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.Test
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.IsValidDate*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.General.IsValidDate
+  isExternal: true
+  name: IsValidDate
+  nameWithType: General.IsValidDate
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.IsValidDate
+- uid: SuperOffice.DCF.Web.AjaxMethods.General.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.General.#ctor
+  isExternal: true
+  name: General
+  nameWithType: General.General
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General.General

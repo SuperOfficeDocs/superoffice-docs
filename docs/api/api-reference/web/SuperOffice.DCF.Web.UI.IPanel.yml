@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.IPanel
+  commentId: T:SuperOffice.DCF.Web.UI.IPanel
+  id: IPanel
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.IPanel.CardCollection
+  - SuperOffice.DCF.Web.UI.IPanel.Id
+  - SuperOffice.DCF.Web.UI.IPanel.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.DCF.Web.UI.IPanel.SoProtocol
+  langs:
+  - csharp
+  - vb
+  name: IPanel
+  nameWithType: IPanel
+  fullName: SuperOffice.DCF.Web.UI.IPanel
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public interface IPanel
+    content.vb: Public Interface IPanel
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.DCF.Web.UI.IPanel.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.IPanel.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.UI.IPanel
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: IPanel.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.UI.IPanel.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Sub Initialize(config As XmlNode, id As String)
+  overload: SuperOffice.DCF.Web.UI.IPanel.Initialize*
+- uid: SuperOffice.DCF.Web.UI.IPanel.CardCollection
+  commentId: P:SuperOffice.DCF.Web.UI.IPanel.CardCollection
+  id: CardCollection
+  parent: SuperOffice.DCF.Web.UI.IPanel
+  langs:
+  - csharp
+  - vb
+  name: CardCollection
+  nameWithType: IPanel.CardCollection
+  fullName: SuperOffice.DCF.Web.UI.IPanel.CardCollection
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Collection<ICard> CardCollection { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.Collection{SuperOffice.DCF.Web.UI.ICard}
+    content.vb: ReadOnly Property CardCollection As Collection(Of ICard)
+  overload: SuperOffice.DCF.Web.UI.IPanel.CardCollection*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.IPanel.Id
+  commentId: P:SuperOffice.DCF.Web.UI.IPanel.Id
+  id: Id
+  parent: SuperOffice.DCF.Web.UI.IPanel
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IPanel.Id
+  fullName: SuperOffice.DCF.Web.UI.IPanel.Id
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Id As String
+  overload: SuperOffice.DCF.Web.UI.IPanel.Id*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.IPanel.SoProtocol
+  commentId: P:SuperOffice.DCF.Web.UI.IPanel.SoProtocol
+  id: SoProtocol
+  parent: SuperOffice.DCF.Web.UI.IPanel
+  langs:
+  - csharp
+  - vb
+  name: SoProtocol
+  nameWithType: IPanel.SoProtocol
+  fullName: SuperOffice.DCF.Web.UI.IPanel.SoProtocol
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: string SoProtocol { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property SoProtocol As String
+  overload: SuperOffice.DCF.Web.UI.IPanel.SoProtocol*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.IPanel.Initialize*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IPanel.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: IPanel.Initialize
+  fullName: SuperOffice.DCF.Web.UI.IPanel.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.IPanel.CardCollection*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IPanel.CardCollection
+  isExternal: true
+  name: CardCollection
+  nameWithType: IPanel.CardCollection
+  fullName: SuperOffice.DCF.Web.UI.IPanel.CardCollection
+- uid: System.Collections.ObjectModel.Collection{SuperOffice.DCF.Web.UI.ICard}
+  commentId: T:System.Collections.ObjectModel.Collection{SuperOffice.DCF.Web.UI.ICard}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.Collection`1
+  name: Collection<ICard>
+  nameWithType: Collection<ICard>
+  fullName: System.Collections.ObjectModel.Collection<SuperOffice.DCF.Web.UI.ICard>
+  nameWithType.vb: Collection(Of ICard)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of SuperOffice.DCF.Web.UI.ICard)
+  name.vb: Collection(Of ICard)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    nameWithType: Collection
+    fullName: System.Collections.ObjectModel.Collection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.DCF.Web.UI.ICard
+    name: ICard
+    nameWithType: ICard
+    fullName: SuperOffice.DCF.Web.UI.ICard
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    nameWithType: Collection
+    fullName: System.Collections.ObjectModel.Collection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.DCF.Web.UI.ICard
+    name: ICard
+    nameWithType: ICard
+    fullName: SuperOffice.DCF.Web.UI.ICard
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.Collection`1
+  commentId: T:System.Collections.ObjectModel.Collection`1
+  isExternal: true
+  name: Collection<T>
+  nameWithType: Collection<T>
+  fullName: System.Collections.ObjectModel.Collection<T>
+  nameWithType.vb: Collection(Of T)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T)
+  name.vb: Collection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    nameWithType: Collection
+    fullName: System.Collections.ObjectModel.Collection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    nameWithType: Collection
+    fullName: System.Collections.ObjectModel.Collection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+- uid: SuperOffice.DCF.Web.UI.IPanel.Id*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IPanel.Id
+  isExternal: true
+  name: Id
+  nameWithType: IPanel.Id
+  fullName: SuperOffice.DCF.Web.UI.IPanel.Id
+- uid: SuperOffice.DCF.Web.UI.IPanel.SoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IPanel.SoProtocol
+  isExternal: true
+  name: SoProtocol
+  nameWithType: IPanel.SoProtocol
+  fullName: SuperOffice.DCF.Web.UI.IPanel.SoProtocol

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest
+  id: Appointment_WillSendEmailRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Appointment_WillSendEmailRequest
+  nameWithType: Appointment_WillSendEmailRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_WillSendEmailRequest : Object'
+    content.vb: >-
+      Public Class Appointment_WillSendEmailRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_WillSendEmailRequest()
+  nameWithType: Appointment_WillSendEmailRequest.Appointment_WillSendEmailRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.Appointment_WillSendEmailRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_WillSendEmailRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.Appointment
+  commentId: P:SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.Appointment
+  id: Appointment
+  parent: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: Appointment_WillSendEmailRequest.Appointment
+  fullName: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.Appointment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AppointmentEntity Appointment { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentEntity
+    content.vb: Public Property Appointment As AppointmentEntity
+  overload: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.Appointment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.#ctor
+  isExternal: true
+  name: Appointment_WillSendEmailRequest
+  nameWithType: Appointment_WillSendEmailRequest.Appointment_WillSendEmailRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.Appointment_WillSendEmailRequest
+- uid: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.Appointment*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.Appointment
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment_WillSendEmailRequest.Appointment
+  fullName: SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest.Appointment
+- uid: SuperOffice.WebApi.Data.AppointmentEntity
+  commentId: T:SuperOffice.WebApi.Data.AppointmentEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity

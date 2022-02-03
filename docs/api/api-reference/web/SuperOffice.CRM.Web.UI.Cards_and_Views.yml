@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views
+  commentId: N:SuperOffice.CRM.Web.UI.Cards_and_Views
+  id: SuperOffice.CRM.Web.UI.Cards_and_Views
+  children:
+  - SuperOffice.CRM.Web.UI.Cards_and_Views.DialogSimpleCard
+  - SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController
+  - SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Web.UI.Cards_and_Views
+  nameWithType: SuperOffice.CRM.Web.UI.Cards_and_Views
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views
+  type: Namespace
+  assemblies:
+  - SuperOffice.CRMWeb
+references:
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.DialogSimpleCard
+  commentId: T:SuperOffice.CRM.Web.UI.Cards_and_Views.DialogSimpleCard
+  isExternal: true
+  name: DialogSimpleCard
+  nameWithType: DialogSimpleCard
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.DialogSimpleCard
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController
+  commentId: T:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController
+  isExternal: true
+  name: TabbedViewController
+  nameWithType: TabbedViewController
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+  commentId: T:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+  parent: SuperOffice.CRM.Web.UI.Cards_and_Views
+  isExternal: true
+  name: TabbedViewController.TabItemClickedRequest
+  nameWithType: TabbedViewController.TabItemClickedRequest
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views
+  commentId: N:SuperOffice.CRM.Web.UI.Cards_and_Views
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Cards_and_Views
+  nameWithType: SuperOffice.CRM.Web.UI.Cards_and_Views
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views

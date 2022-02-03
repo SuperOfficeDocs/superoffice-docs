@@ -1,0 +1,399 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ReportCategory
+  commentId: T:SuperOffice.WebApi.Data.ReportCategory
+  id: ReportCategory
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ReportCategory.All
+  - SuperOffice.WebApi.Data.ReportCategory.Appointment
+  - SuperOffice.WebApi.Data.ReportCategory.Contact
+  - SuperOffice.WebApi.Data.ReportCategory.Diary
+  - SuperOffice.WebApi.Data.ReportCategory.Favorites
+  - SuperOffice.WebApi.Data.ReportCategory.None
+  - SuperOffice.WebApi.Data.ReportCategory.Person
+  - SuperOffice.WebApi.Data.ReportCategory.Project
+  - SuperOffice.WebApi.Data.ReportCategory.Sale
+  - SuperOffice.WebApi.Data.ReportCategory.Selection
+  - SuperOffice.WebApi.Data.ReportCategory.value__
+  langs:
+  - csharp
+  - vb
+  name: ReportCategory
+  nameWithType: ReportCategory
+  fullName: SuperOffice.WebApi.Data.ReportCategory
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe avaliable category\n"
+  syntax:
+    content: 'public sealed class ReportCategory : Enum'
+    content.vb: >-
+      Public NotInheritable Class ReportCategory
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ReportCategory.value__
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ReportCategory.value__
+  fullName: SuperOffice.WebApi.Data.ReportCategory.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReportCategory.None
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.None
+  id: None
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ReportCategory.None
+  fullName: SuperOffice.WebApi.Data.ReportCategory.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: New/empty report\n"
+  syntax:
+    content: public const ReportCategory None
+    return:
+      type: SuperOffice.WebApi.Data.ReportCategory
+    content.vb: Public Const None As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportCategory.All
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.All
+  id: All
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: ReportCategory.All
+  fullName: SuperOffice.WebApi.Data.ReportCategory.All
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: All reports\n"
+  syntax:
+    content: public const ReportCategory All
+    return:
+      type: SuperOffice.WebApi.Data.ReportCategory
+    content.vb: Public Const All As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportCategory.Contact
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: ReportCategory.Contact
+  fullName: SuperOffice.WebApi.Data.ReportCategory.Contact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: 2: Company reports\n"
+  syntax:
+    content: public const ReportCategory Contact
+    return:
+      type: SuperOffice.WebApi.Data.ReportCategory
+    content.vb: Public Const Contact As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportCategory.Project
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: ReportCategory.Project
+  fullName: SuperOffice.WebApi.Data.ReportCategory.Project
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: 3: Project reports\n"
+  syntax:
+    content: public const ReportCategory Project
+    return:
+      type: SuperOffice.WebApi.Data.ReportCategory
+    content.vb: Public Const Project As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportCategory.Sale
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.Sale
+  id: Sale
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: ReportCategory.Sale
+  fullName: SuperOffice.WebApi.Data.ReportCategory.Sale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: 4: Sale reports\n"
+  syntax:
+    content: public const ReportCategory Sale
+    return:
+      type: SuperOffice.WebApi.Data.ReportCategory
+    content.vb: Public Const Sale As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportCategory.Appointment
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.Appointment
+  id: Appointment
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: ReportCategory.Appointment
+  fullName: SuperOffice.WebApi.Data.ReportCategory.Appointment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: 5: Appointment reports\n"
+  syntax:
+    content: public const ReportCategory Appointment
+    return:
+      type: SuperOffice.WebApi.Data.ReportCategory
+    content.vb: Public Const Appointment As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportCategory.Selection
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.Selection
+  id: Selection
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: ReportCategory.Selection
+  fullName: SuperOffice.WebApi.Data.ReportCategory.Selection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: 6: Selection reports\n"
+  syntax:
+    content: public const ReportCategory Selection
+    return:
+      type: SuperOffice.WebApi.Data.ReportCategory
+    content.vb: Public Const Selection As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportCategory.Person
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: ReportCategory.Person
+  fullName: SuperOffice.WebApi.Data.ReportCategory.Person
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: 7: Person reports\n"
+  syntax:
+    content: public const ReportCategory Person
+    return:
+      type: SuperOffice.WebApi.Data.ReportCategory
+    content.vb: Public Const Person As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportCategory.Diary
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.Diary
+  id: Diary
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: Diary
+  nameWithType: ReportCategory.Diary
+  fullName: SuperOffice.WebApi.Data.ReportCategory.Diary
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: 8: Diary reports\n"
+  syntax:
+    content: public const ReportCategory Diary
+    return:
+      type: SuperOffice.WebApi.Data.ReportCategory
+    content.vb: Public Const Diary As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportCategory.Favorites
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.Favorites
+  id: Favorites
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: Favorites
+  nameWithType: ReportCategory.Favorites
+  fullName: SuperOffice.WebApi.Data.ReportCategory.Favorites
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Favorite reports for an associate\n"
+  syntax:
+    content: public const ReportCategory Favorites
+    return:
+      type: SuperOffice.WebApi.Data.ReportCategory
+    content.vb: Public Const Favorites As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ReportCategory
+  commentId: T:SuperOffice.WebApi.Data.ReportCategory
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ReportCategory
+  nameWithType: ReportCategory
+  fullName: SuperOffice.WebApi.Data.ReportCategory

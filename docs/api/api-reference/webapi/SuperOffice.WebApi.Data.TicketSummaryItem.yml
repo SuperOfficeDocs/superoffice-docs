@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem
+  commentId: T:SuperOffice.WebApi.Data.TicketSummaryItem
+  id: TicketSummaryItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketSummaryItem.#ctor
+  - SuperOffice.WebApi.Data.TicketSummaryItem.Registered
+  - SuperOffice.WebApi.Data.TicketSummaryItem.TicketId
+  - SuperOffice.WebApi.Data.TicketSummaryItem.TicketStatus
+  - SuperOffice.WebApi.Data.TicketSummaryItem.Title
+  langs:
+  - csharp
+  - vb
+  name: TicketSummaryItem
+  nameWithType: TicketSummaryItem
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TicketSummaryItem.\nThe ticket summary with heading, created date.    \n"
+  syntax:
+    content: 'public class TicketSummaryItem : Object'
+    content.vb: >-
+      Public Class TicketSummaryItem
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.TicketAgent
+    commentId: T:SuperOffice.WebApi.Agents.TicketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TicketSummaryItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TicketSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: TicketSummaryItem()
+  nameWithType: TicketSummaryItem.TicketSummaryItem()
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.TicketSummaryItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TicketSummaryItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TicketSummaryItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.TicketId
+  commentId: P:SuperOffice.WebApi.Data.TicketSummaryItem.TicketId
+  id: TicketId
+  parent: SuperOffice.WebApi.Data.TicketSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: TicketSummaryItem.TicketId
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.TicketId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketId As Integer
+  overload: SuperOffice.WebApi.Data.TicketSummaryItem.TicketId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.TicketStatus
+  commentId: P:SuperOffice.WebApi.Data.TicketSummaryItem.TicketStatus
+  id: TicketStatus
+  parent: SuperOffice.WebApi.Data.TicketSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: TicketStatus
+  nameWithType: TicketSummaryItem.TicketStatus
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.TicketStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUser defined ticket status\n"
+  syntax:
+    content: public virtual int TicketStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketStatus As Integer
+  overload: SuperOffice.WebApi.Data.TicketSummaryItem.TicketStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.Title
+  commentId: P:SuperOffice.WebApi.Data.TicketSummaryItem.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.TicketSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TicketSummaryItem.Title
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.Title
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe title of the ticket.\n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.TicketSummaryItem.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.Registered
+  commentId: P:SuperOffice.WebApi.Data.TicketSummaryItem.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.TicketSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: TicketSummaryItem.Registered
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.Registered
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen the ticket was created.\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As DateTime
+  overload: SuperOffice.WebApi.Data.TicketSummaryItem.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.TicketAgent
+  commentId: T:SuperOffice.WebApi.Agents.TicketAgent
+  isExternal: true
+  name: TicketAgent
+  nameWithType: TicketAgent
+  fullName: SuperOffice.WebApi.Agents.TicketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketSummaryItem.#ctor
+  isExternal: true
+  name: TicketSummaryItem
+  nameWithType: TicketSummaryItem.TicketSummaryItem
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.TicketSummaryItem
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.TicketId*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketSummaryItem.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: TicketSummaryItem.TicketId
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.TicketId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.TicketStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketSummaryItem.TicketStatus
+  isExternal: true
+  name: TicketStatus
+  nameWithType: TicketSummaryItem.TicketStatus
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.TicketStatus
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketSummaryItem.Title
+  isExternal: true
+  name: Title
+  nameWithType: TicketSummaryItem.Title
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketSummaryItem.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: TicketSummaryItem.Registered
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.Registered
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

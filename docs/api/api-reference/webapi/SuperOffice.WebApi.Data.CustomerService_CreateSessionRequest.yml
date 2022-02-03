@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest
+  id: CustomerService_CreateSessionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.RemoteIp
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_CreateSessionRequest
+  nameWithType: CustomerService_CreateSessionRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_CreateSessionRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_CreateSessionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_CreateSessionRequest()
+  nameWithType: CustomerService_CreateSessionRequest.CustomerService_CreateSessionRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.CustomerService_CreateSessionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_CreateSessionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.RemoteIp
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.RemoteIp
+  id: RemoteIp
+  parent: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest
+  langs:
+  - csharp
+  - vb
+  name: RemoteIp
+  nameWithType: CustomerService_CreateSessionRequest.RemoteIp
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.RemoteIp
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string RemoteIp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RemoteIp As String
+  overload: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.RemoteIp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.#ctor
+  isExternal: true
+  name: CustomerService_CreateSessionRequest
+  nameWithType: CustomerService_CreateSessionRequest.CustomerService_CreateSessionRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.CustomerService_CreateSessionRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.RemoteIp*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.RemoteIp
+  isExternal: true
+  name: RemoteIp
+  nameWithType: CustomerService_CreateSessionRequest.RemoteIp
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateSessionRequest.RemoteIp
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

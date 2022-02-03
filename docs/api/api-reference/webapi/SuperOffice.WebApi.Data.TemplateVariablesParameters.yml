@@ -1,0 +1,903 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  commentId: T:SuperOffice.WebApi.Data.TemplateVariablesParameters
+  id: TemplateVariablesParameters
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.#ctor
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.AppointmentId
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.ContactId
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.CultureName
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.CustomTags
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentId
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.PersonId
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.ProductKey
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.ProjectId
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteAlternativeId
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteLineId
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.SaleId
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.SelectionId
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.SourceInput
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariablesParameters
+  nameWithType: TemplateVariablesParameters
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TemplateVariablesParameters.\nParameters specifying source and properties for template variable substitution.    \n"
+  syntax:
+    content: 'public class TemplateVariablesParameters : Carrier'
+    content.vb: >-
+      Public Class TemplateVariablesParameters
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TemplateVariablesParameters.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariablesParameters()
+  nameWithType: TemplateVariablesParameters.TemplateVariablesParameters()
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.TemplateVariablesParameters()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TemplateVariablesParameters()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.SourceInput
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.SourceInput
+  id: SourceInput
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: SourceInput
+  nameWithType: TemplateVariablesParameters.SourceInput
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.SourceInput
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSource string to parse for template variables. Such variables must have delimiters corresponding to the standard for the given generator encoding.Non-text source data (such as the binary content of a .doc file) should be passed in as Base64.\n"
+  syntax:
+    content: public virtual string SourceInput { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SourceInput As String
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.SourceInput*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String
+  id: Encoding_String
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: Encoding_String
+  nameWithType: TemplateVariablesParameters.Encoding_String
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEncoding of source string. Non-text formats such as MsWord or Excel should be Base64 encoded in the source string.\nRaw string enum value.\n"
+  syntax:
+    content: public string Encoding_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Encoding_String As String
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding
+    commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding
+  id: Encoding
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: TemplateVariablesParameters.Encoding
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEncoding of source string. Non-text formats such as MsWord or Excel should be Base64 encoded in the source string.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<GeneratorEncoding> Encoding { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.GeneratorEncoding}
+    content.vb: Public Property Encoding As Nullable(Of GeneratorEncoding)
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String
+    commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.CultureName
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.CultureName
+  id: CultureName
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: CultureName
+  nameWithType: TemplateVariablesParameters.CultureName
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.CultureName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of culture to be used for culture-sensitive data, such as dates or multi-language texts. Use a blank string to accept current culture that is set on the server.\n"
+  syntax:
+    content: public virtual string CultureName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CultureName As String
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.CultureName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.ContactId
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: TemplateVariablesParameters.ContactId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentifier for a contact\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.PersonId
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: TemplateVariablesParameters.PersonId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentifier for a person\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: TemplateVariablesParameters.ProjectId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentifier for a project\n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: TemplateVariablesParameters.SelectionId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentifier for a selection\n"
+  syntax:
+    content: public virtual int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.SelectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: TemplateVariablesParameters.AppointmentId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentifier for an appointment\n"
+  syntax:
+    content: public virtual int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.AppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: TemplateVariablesParameters.DocumentId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentifier for a document\n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.SaleId
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: TemplateVariablesParameters.SaleId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentifier for a sale\n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteLineId
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteLineId
+  id: QuoteLineId
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineId
+  nameWithType: TemplateVariablesParameters.QuoteLineId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteLineId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nQuote line id\n"
+  syntax:
+    content: public virtual int QuoteLineId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteLineId As Integer
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteLineId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteAlternativeId
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: TemplateVariablesParameters.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nQuote alternative id\n"
+  syntax:
+    content: public virtual int QuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteAlternativeId As Integer
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.ProductKey
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.ProductKey
+  id: ProductKey
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: ProductKey
+  nameWithType: TemplateVariablesParameters.ProductKey
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.ProductKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProduct key\n"
+  syntax:
+    content: public virtual string ProductKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductKey As String
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.ProductKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.CustomTags
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.CustomTags
+  id: CustomTags
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: CustomTags
+  nameWithType: TemplateVariablesParameters.CustomTags
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.CustomTags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray with custom tags and values. Array may be of unlimited height, but need to be exactly 2 in width.\n"
+  syntax:
+    content: public virtual string[][] CustomTags { get; set; }
+    parameters: []
+    return:
+      type: System.String[][]
+    content.vb: Public Overridable Property CustomTags As String()()
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.CustomTags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity
+  id: DocumentEntity
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: DocumentEntity
+  nameWithType: TemplateVariablesParameters.DocumentEntity
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCustom document entity to use for data retrieval. Useful for unsaved data.  DocumentEntity.DocumentId need to match the DocumentId specified in separate property.\n"
+  syntax:
+    content: public virtual DocumentEntity DocumentEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DocumentEntity
+    content.vb: Public Overridable Property DocumentEntity As DocumentEntity
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DocumentAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  isExternal: true
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.#ctor
+  isExternal: true
+  name: TemplateVariablesParameters
+  nameWithType: TemplateVariablesParameters.TemplateVariablesParameters
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.TemplateVariablesParameters
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.SourceInput*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.SourceInput
+  isExternal: true
+  name: SourceInput
+  nameWithType: TemplateVariablesParameters.SourceInput
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.SourceInput
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String
+  isExternal: true
+  name: Encoding_String
+  nameWithType: TemplateVariablesParameters.Encoding_String
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding
+  isExternal: true
+  name: Encoding
+  nameWithType: TemplateVariablesParameters.Encoding
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.Encoding_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.GeneratorEncoding}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.GeneratorEncoding}'
+  definition: System.Nullable`1
+  name: Nullable<GeneratorEncoding>
+  nameWithType: Nullable<GeneratorEncoding>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.GeneratorEncoding>
+  nameWithType.vb: Nullable(Of GeneratorEncoding)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.GeneratorEncoding)
+  name.vb: Nullable(Of GeneratorEncoding)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.WebApi.Data.GeneratorEncoding
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.WebApi.Data.GeneratorEncoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.CultureName*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.CultureName
+  isExternal: true
+  name: CultureName
+  nameWithType: TemplateVariablesParameters.CultureName
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.CultureName
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: TemplateVariablesParameters.ContactId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: TemplateVariablesParameters.PersonId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.PersonId
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: TemplateVariablesParameters.ProjectId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.ProjectId
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: TemplateVariablesParameters.SelectionId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.SelectionId
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: TemplateVariablesParameters.AppointmentId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.AppointmentId
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: TemplateVariablesParameters.DocumentId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentId
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: TemplateVariablesParameters.SaleId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.SaleId
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteLineId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteLineId
+  isExternal: true
+  name: QuoteLineId
+  nameWithType: TemplateVariablesParameters.QuoteLineId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteLineId
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteAlternativeId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteAlternativeId
+  isExternal: true
+  name: QuoteAlternativeId
+  nameWithType: TemplateVariablesParameters.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.QuoteAlternativeId
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.ProductKey*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.ProductKey
+  isExternal: true
+  name: ProductKey
+  nameWithType: TemplateVariablesParameters.ProductKey
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.ProductKey
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.CustomTags*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.CustomTags
+  isExternal: true
+  name: CustomTags
+  nameWithType: TemplateVariablesParameters.CustomTags
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.CustomTags
+- uid: System.String[][]
+  isExternal: true
+  name: String[][]
+  nameWithType: String[][]
+  fullName: System.String[][]
+  nameWithType.vb: String()()
+  fullName.vb: System.String()()
+  name.vb: String()()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity
+  isExternal: true
+  name: DocumentEntity
+  nameWithType: TemplateVariablesParameters.DocumentEntity
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity
+- uid: SuperOffice.WebApi.Data.DocumentEntity
+  commentId: T:SuperOffice.WebApi.Data.DocumentEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DocumentEntity
+  nameWithType: DocumentEntity
+  fullName: SuperOffice.WebApi.Data.DocumentEntity

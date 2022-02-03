@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest
+  commentId: T:SuperOffice.WebApi.Data.User_ChangeUserTypeRequest
+  id: User_ChangeUserTypeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.#ctor
+  - SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.User
+  - SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.UserType
+  langs:
+  - csharp
+  - vb
+  name: User_ChangeUserTypeRequest
+  nameWithType: User_ChangeUserTypeRequest
+  fullName: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_ChangeUserTypeRequest : Object'
+    content.vb: >-
+      Public Class User_ChangeUserTypeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: User_ChangeUserTypeRequest()
+  nameWithType: User_ChangeUserTypeRequest.User_ChangeUserTypeRequest()
+  fullName: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.User_ChangeUserTypeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_ChangeUserTypeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.User
+  commentId: P:SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.User
+  id: User
+  parent: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: User_ChangeUserTypeRequest.User
+  fullName: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.User
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User User { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.User
+    content.vb: Public Property User As User
+  overload: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.User*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.UserType
+  commentId: P:SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.UserType
+  id: UserType
+  parent: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: User_ChangeUserTypeRequest.UserType
+  fullName: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.UserType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserType UserType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UserType
+    content.vb: Public Property UserType As UserType
+  overload: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.UserType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.#ctor
+  isExternal: true
+  name: User_ChangeUserTypeRequest
+  nameWithType: User_ChangeUserTypeRequest.User_ChangeUserTypeRequest
+  fullName: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.User_ChangeUserTypeRequest
+- uid: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.User*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.User
+  isExternal: true
+  name: User
+  nameWithType: User_ChangeUserTypeRequest.User
+  fullName: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.User
+- uid: SuperOffice.WebApi.Data.User
+  commentId: T:SuperOffice.WebApi.Data.User
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: User
+  nameWithType: User
+  fullName: SuperOffice.WebApi.Data.User
+- uid: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.UserType*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: User_ChangeUserTypeRequest.UserType
+  fullName: SuperOffice.WebApi.Data.User_ChangeUserTypeRequest.UserType
+- uid: SuperOffice.WebApi.Data.UserType
+  commentId: T:SuperOffice.WebApi.Data.UserType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.WebApi.Data.UserType

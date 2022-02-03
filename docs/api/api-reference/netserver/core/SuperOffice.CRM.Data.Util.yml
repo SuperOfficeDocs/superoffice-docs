@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.Util
+  commentId: N:SuperOffice.CRM.Data.Util
+  id: SuperOffice.CRM.Data.Util
+  children:
+  - SuperOffice.CRM.Data.Util.ExtraFieldHelper
+  - SuperOffice.CRM.Data.Util.UdefValueHelper
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Data.Util
+  nameWithType: SuperOffice.CRM.Data.Util
+  fullName: SuperOffice.CRM.Data.Util
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.Data.Util.ExtraFieldHelper
+  commentId: T:SuperOffice.CRM.Data.Util.ExtraFieldHelper
+  isExternal: true
+  name: ExtraFieldHelper
+  nameWithType: ExtraFieldHelper
+  fullName: SuperOffice.CRM.Data.Util.ExtraFieldHelper
+- uid: SuperOffice.CRM.Data.Util.UdefValueHelper
+  commentId: T:SuperOffice.CRM.Data.Util.UdefValueHelper
+  parent: SuperOffice.CRM.Data.Util
+  isExternal: true
+  name: UdefValueHelper
+  nameWithType: UdefValueHelper
+  fullName: SuperOffice.CRM.Data.Util.UdefValueHelper
+- uid: SuperOffice.CRM.Data.Util
+  commentId: N:SuperOffice.CRM.Data.Util
+  isExternal: true
+  name: SuperOffice.CRM.Data.Util
+  nameWithType: SuperOffice.CRM.Data.Util
+  fullName: SuperOffice.CRM.Data.Util

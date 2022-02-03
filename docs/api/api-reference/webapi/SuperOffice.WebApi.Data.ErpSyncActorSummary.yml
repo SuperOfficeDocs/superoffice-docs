@@ -1,0 +1,424 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncActorSummary
+  id: ErpSyncActorSummary
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSyncActorSummary.#ctor
+  - SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType
+  - SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String
+  - SuperOffice.WebApi.Data.ErpSyncActorSummary.Defaults
+  - SuperOffice.WebApi.Data.ErpSyncActorSummary.HasMappings
+  - SuperOffice.WebApi.Data.ErpSyncActorSummary.Mappings
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncActorSummary
+  nameWithType: ErpSyncActorSummary
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ErpSyncActorSummary.\nSummary of the current setup of the ERP Integration, for one ERP actor    \n"
+  syntax:
+    content: 'public class ErpSyncActorSummary : Carrier'
+    content.vb: >-
+      Public Class ErpSyncActorSummary
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
+    commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSyncActorSummary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncActorSummary()
+  nameWithType: ErpSyncActorSummary.ErpSyncActorSummary()
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.ErpSyncActorSummary()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ErpSyncActorSummary()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSyncActorSummary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String
+  id: ActorType_String
+  parent: SuperOffice.WebApi.Data.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: ActorType_String
+  nameWithType: ErpSyncActorSummary.ActorType_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActor type\nRaw string enum value.\n"
+  syntax:
+    content: public string ActorType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ActorType_String As String
+  overload: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType
+  id: ActorType
+  parent: SuperOffice.WebApi.Data.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: ActorType
+  nameWithType: ErpSyncActorSummary.ActorType
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActor type\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ErpActorType> ActorType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ErpActorType}
+    content.vb: Public Property ActorType As Nullable(Of ErpActorType)
+  overload: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.HasMappings
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorSummary.HasMappings
+  id: HasMappings
+  parent: SuperOffice.WebApi.Data.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: HasMappings
+  nameWithType: ErpSyncActorSummary.HasMappings
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.HasMappings
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDoes this actor type have field mappings\n"
+  syntax:
+    content: public virtual bool HasMappings { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HasMappings As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncActorSummary.HasMappings*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.Defaults
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorSummary.Defaults
+  id: Defaults
+  parent: SuperOffice.WebApi.Data.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: Defaults
+  nameWithType: ErpSyncActorSummary.Defaults
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.Defaults
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA summary of fields that have defaults/rules for link creation\n"
+  syntax:
+    content: public virtual string Defaults { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Defaults As String
+  overload: SuperOffice.WebApi.Data.ErpSyncActorSummary.Defaults*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.Mappings
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorSummary.Mappings
+  id: Mappings
+  parent: SuperOffice.WebApi.Data.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: Mappings
+  nameWithType: ErpSyncActorSummary.Mappings
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.Mappings
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA summary of fields that have mappings to or from the ERP system\n"
+  syntax:
+    content: public virtual string Mappings { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Mappings As String
+  overload: SuperOffice.WebApi.Data.ErpSyncActorSummary.Mappings*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorSummary.#ctor
+  isExternal: true
+  name: ErpSyncActorSummary
+  nameWithType: ErpSyncActorSummary.ErpSyncActorSummary
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.ErpSyncActorSummary
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String
+  isExternal: true
+  name: ActorType_String
+  nameWithType: ErpSyncActorSummary.ActorType_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType
+  isExternal: true
+  name: ActorType
+  nameWithType: ErpSyncActorSummary.ActorType
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorSummary.ActorType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ErpActorType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ErpActorType}'
+  definition: System.Nullable`1
+  name: Nullable<ErpActorType>
+  nameWithType: Nullable<ErpActorType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ErpActorType>
+  nameWithType.vb: Nullable(Of ErpActorType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ErpActorType)
+  name.vb: Nullable(Of ErpActorType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.WebApi.Data.ErpActorType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.WebApi.Data.ErpActorType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.HasMappings*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorSummary.HasMappings
+  isExternal: true
+  name: HasMappings
+  nameWithType: ErpSyncActorSummary.HasMappings
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.HasMappings
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.Defaults*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorSummary.Defaults
+  isExternal: true
+  name: Defaults
+  nameWithType: ErpSyncActorSummary.Defaults
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.Defaults
+- uid: SuperOffice.WebApi.Data.ErpSyncActorSummary.Mappings*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorSummary.Mappings
+  isExternal: true
+  name: Mappings
+  nameWithType: ErpSyncActorSummary.Mappings
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorSummary.Mappings

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest
+  commentId: T:SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest
+  id: FreeText_RegenerateIndexRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.#ctor
+  - SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.RunAsBatch
+  langs:
+  - csharp
+  - vb
+  name: FreeText_RegenerateIndexRequest
+  nameWithType: FreeText_RegenerateIndexRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class FreeText_RegenerateIndexRequest : Object'
+    content.vb: >-
+      Public Class FreeText_RegenerateIndexRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest
+  langs:
+  - csharp
+  - vb
+  name: FreeText_RegenerateIndexRequest()
+  nameWithType: FreeText_RegenerateIndexRequest.FreeText_RegenerateIndexRequest()
+  fullName: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.FreeText_RegenerateIndexRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public FreeText_RegenerateIndexRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.RunAsBatch
+  commentId: P:SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.RunAsBatch
+  id: RunAsBatch
+  parent: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest
+  langs:
+  - csharp
+  - vb
+  name: RunAsBatch
+  nameWithType: FreeText_RegenerateIndexRequest.RunAsBatch
+  fullName: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.RunAsBatch
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool RunAsBatch { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RunAsBatch As Boolean
+  overload: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.RunAsBatch*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.#ctor
+  isExternal: true
+  name: FreeText_RegenerateIndexRequest
+  nameWithType: FreeText_RegenerateIndexRequest.FreeText_RegenerateIndexRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.FreeText_RegenerateIndexRequest
+- uid: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.RunAsBatch*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.RunAsBatch
+  isExternal: true
+  name: RunAsBatch
+  nameWithType: FreeText_RegenerateIndexRequest.RunAsBatch
+  fullName: SuperOffice.WebApi.Data.FreeText_RegenerateIndexRequest.RunAsBatch
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

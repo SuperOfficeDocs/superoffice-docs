@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DashboardTileType
+  commentId: T:SuperOffice.WebApi.Data.DashboardTileType
+  id: DashboardTileType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DashboardTileType.Bignum
+  - SuperOffice.WebApi.Data.DashboardTileType.Chart
+  - SuperOffice.WebApi.Data.DashboardTileType.List
+  - SuperOffice.WebApi.Data.DashboardTileType.None
+  - SuperOffice.WebApi.Data.DashboardTileType.value__
+  - SuperOffice.WebApi.Data.DashboardTileType.Web
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileType
+  nameWithType: DashboardTileType
+  fullName: SuperOffice.WebApi.Data.DashboardTileType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDashboard tile type\n"
+  syntax:
+    content: 'public sealed class DashboardTileType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashboardTileType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DashboardTileType.value__
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DashboardTileType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashboardTileType.value__
+  fullName: SuperOffice.WebApi.Data.DashboardTileType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashboardTileType.None
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.DashboardTileType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DashboardTileType.None
+  fullName: SuperOffice.WebApi.Data.DashboardTileType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown layout\n"
+  syntax:
+    content: public const DashboardTileType None
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileType
+    content.vb: Public Const None As DashboardTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileType.Chart
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileType.Chart
+  id: Chart
+  parent: SuperOffice.WebApi.Data.DashboardTileType
+  langs:
+  - csharp
+  - vb
+  name: Chart
+  nameWithType: DashboardTileType.Chart
+  fullName: SuperOffice.WebApi.Data.DashboardTileType.Chart
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Chart tile\n"
+  syntax:
+    content: public const DashboardTileType Chart
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileType
+    content.vb: Public Const Chart As DashboardTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileType.Web
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileType.Web
+  id: Web
+  parent: SuperOffice.WebApi.Data.DashboardTileType
+  langs:
+  - csharp
+  - vb
+  name: Web
+  nameWithType: DashboardTileType.Web
+  fullName: SuperOffice.WebApi.Data.DashboardTileType.Web
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Web tile\n"
+  syntax:
+    content: public const DashboardTileType Web
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileType
+    content.vb: Public Const Web As DashboardTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileType.List
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileType.List
+  id: List
+  parent: SuperOffice.WebApi.Data.DashboardTileType
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: DashboardTileType.List
+  fullName: SuperOffice.WebApi.Data.DashboardTileType.List
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: List tile\n"
+  syntax:
+    content: public const DashboardTileType List
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileType
+    content.vb: Public Const List As DashboardTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileType.Bignum
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileType.Bignum
+  id: Bignum
+  parent: SuperOffice.WebApi.Data.DashboardTileType
+  langs:
+  - csharp
+  - vb
+  name: Bignum
+  nameWithType: DashboardTileType.Bignum
+  fullName: SuperOffice.WebApi.Data.DashboardTileType.Bignum
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Number tile\n"
+  syntax:
+    content: public const DashboardTileType Bignum
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileType
+    content.vb: Public Const Bignum As DashboardTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DashboardTileType
+  commentId: T:SuperOffice.WebApi.Data.DashboardTileType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DashboardTileType
+  nameWithType: DashboardTileType
+  fullName: SuperOffice.WebApi.Data.DashboardTileType

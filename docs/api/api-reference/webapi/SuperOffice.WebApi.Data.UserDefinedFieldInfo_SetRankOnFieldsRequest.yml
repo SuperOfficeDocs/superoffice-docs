@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest
+  id: UserDefinedFieldInfo_SetRankOnFieldsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.#ctor
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.OwnerType
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.RankedFieldsIds
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_SetRankOnFieldsRequest
+  nameWithType: UserDefinedFieldInfo_SetRankOnFieldsRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class UserDefinedFieldInfo_SetRankOnFieldsRequest : Object'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo_SetRankOnFieldsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_SetRankOnFieldsRequest()
+  nameWithType: UserDefinedFieldInfo_SetRankOnFieldsRequest.UserDefinedFieldInfo_SetRankOnFieldsRequest()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.UserDefinedFieldInfo_SetRankOnFieldsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo_SetRankOnFieldsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.OwnerType
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.OwnerType
+  id: OwnerType
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: OwnerType
+  nameWithType: UserDefinedFieldInfo_SetRankOnFieldsRequest.OwnerType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.OwnerType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UDefType OwnerType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Property OwnerType As UDefType
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.OwnerType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.RankedFieldsIds
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.RankedFieldsIds
+  id: RankedFieldsIds
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: RankedFieldsIds
+  nameWithType: UserDefinedFieldInfo_SetRankOnFieldsRequest.RankedFieldsIds
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.RankedFieldsIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] RankedFieldsIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property RankedFieldsIds As Integer()
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.RankedFieldsIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo_SetRankOnFieldsRequest
+  nameWithType: UserDefinedFieldInfo_SetRankOnFieldsRequest.UserDefinedFieldInfo_SetRankOnFieldsRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.UserDefinedFieldInfo_SetRankOnFieldsRequest
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.OwnerType*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.OwnerType
+  isExternal: true
+  name: OwnerType
+  nameWithType: UserDefinedFieldInfo_SetRankOnFieldsRequest.OwnerType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.OwnerType
+- uid: SuperOffice.WebApi.Data.UDefType
+  commentId: T:SuperOffice.WebApi.Data.UDefType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.WebApi.Data.UDefType
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.RankedFieldsIds*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.RankedFieldsIds
+  isExternal: true
+  name: RankedFieldsIds
+  nameWithType: UserDefinedFieldInfo_SetRankOnFieldsRequest.RankedFieldsIds
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetRankOnFieldsRequest.RankedFieldsIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

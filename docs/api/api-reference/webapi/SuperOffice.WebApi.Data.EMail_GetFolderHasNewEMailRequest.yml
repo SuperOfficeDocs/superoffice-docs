@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest
+  id: EMail_GetFolderHasNewEMailRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.ConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetFolderHasNewEMailRequest
+  nameWithType: EMail_GetFolderHasNewEMailRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetFolderHasNewEMailRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetFolderHasNewEMailRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetFolderHasNewEMailRequest()
+  nameWithType: EMail_GetFolderHasNewEMailRequest.EMail_GetFolderHasNewEMailRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.EMail_GetFolderHasNewEMailRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetFolderHasNewEMailRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.ConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.ConnectionInfo
+  id: ConnectionInfo
+  parent: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionInfo
+  nameWithType: EMail_GetFolderHasNewEMailRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.ConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo ConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property ConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.ConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.#ctor
+  isExternal: true
+  name: EMail_GetFolderHasNewEMailRequest
+  nameWithType: EMail_GetFolderHasNewEMailRequest.EMail_GetFolderHasNewEMailRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.EMail_GetFolderHasNewEMailRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.ConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.ConnectionInfo
+  isExternal: true
+  name: ConnectionInfo
+  nameWithType: EMail_GetFolderHasNewEMailRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderHasNewEMailRequest.ConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo

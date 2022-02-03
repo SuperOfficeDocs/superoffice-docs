@@ -1,0 +1,723 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Sale
+  id: Sale
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Sale.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Sale.CalculateOurCurrencyAmount(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Sale.DeleteSale(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Sale.DisplayConfirmationDialog(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Sale.GetCurrentSaleType
+  - SuperOffice.CRM.Web.AjaxMethods.Sale.GetNextSaleStageId
+  - SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToNextStage(SuperOffice.CRM.Web.AjaxMethods.NextSaleStageInfo)
+  - SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToStage
+  - SuperOffice.CRM.Web.AjaxMethods.Sale.SuggestMoveToNextStage(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: Sale
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Sale")]
+
+      public class Sale : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Sale")>
+
+      Public Class Sale
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Sale
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.CalculateOurCurrencyAmount(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Sale.CalculateOurCurrencyAmount(System.String,System.String,System.String)
+  id: CalculateOurCurrencyAmount(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Sale
+  langs:
+  - csharp
+  - vb
+  name: CalculateOurCurrencyAmount(String, String, String)
+  nameWithType: Sale.CalculateOurCurrencyAmount(String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.CalculateOurCurrencyAmount(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string CalculateOurCurrencyAmount(string amount, string currency, string ourCurrency)
+    parameters:
+    - id: amount
+      type: System.String
+    - id: currency
+      type: System.String
+    - id: ourCurrency
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function CalculateOurCurrencyAmount(amount As String, currency As String, ourCurrency As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Sale.CalculateOurCurrencyAmount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.DeleteSale(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Sale.DeleteSale(System.Int32)
+  id: DeleteSale(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Sale
+  langs:
+  - csharp
+  - vb
+  name: DeleteSale(Int32)
+  nameWithType: Sale.DeleteSale(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.DeleteSale(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeleteSale(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+    content.vb: Public Sub DeleteSale(saleId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Sale.DeleteSale*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.GetCurrentSaleType
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Sale.GetCurrentSaleType
+  id: GetCurrentSaleType
+  parent: SuperOffice.CRM.Web.AjaxMethods.Sale
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentSaleType()
+  nameWithType: Sale.GetCurrentSaleType()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.GetCurrentSaleType()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public SaleType GetCurrentSaleType()
+    return:
+      type: SuperOffice.CRM.Services.SaleType
+    content.vb: Public Function GetCurrentSaleType As SaleType
+  overload: SuperOffice.CRM.Web.AjaxMethods.Sale.GetCurrentSaleType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.DisplayConfirmationDialog(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Sale.DisplayConfirmationDialog(System.String)
+  id: DisplayConfirmationDialog(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Sale
+  langs:
+  - csharp
+  - vb
+  name: DisplayConfirmationDialog(String)
+  nameWithType: Sale.DisplayConfirmationDialog(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.DisplayConfirmationDialog(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public bool DisplayConfirmationDialog(string savingSaleType)
+    parameters:
+    - id: savingSaleType
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function DisplayConfirmationDialog(savingSaleType As String) As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.Sale.DisplayConfirmationDialog*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.SuggestMoveToNextStage(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Sale.SuggestMoveToNextStage(System.Int32)
+  id: SuggestMoveToNextStage(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Sale
+  langs:
+  - csharp
+  - vb
+  name: SuggestMoveToNextStage(Int32)
+  nameWithType: Sale.SuggestMoveToNextStage(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.SuggestMoveToNextStage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public NextSaleStageInfo SuggestMoveToNextStage(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.NextSaleStageInfo
+    content.vb: Public Function SuggestMoveToNextStage(appointmentId As Integer) As NextSaleStageInfo
+  overload: SuperOffice.CRM.Web.AjaxMethods.Sale.SuggestMoveToNextStage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.GetNextSaleStageId
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Sale.GetNextSaleStageId
+  id: GetNextSaleStageId
+  parent: SuperOffice.CRM.Web.AjaxMethods.Sale
+  langs:
+  - csharp
+  - vb
+  name: GetNextSaleStageId()
+  nameWithType: Sale.GetNextSaleStageId()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.GetNextSaleStageId()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int GetNextSaleStageId()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetNextSaleStageId As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Sale.GetNextSaleStageId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToNextStage(SuperOffice.CRM.Web.AjaxMethods.NextSaleStageInfo)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToNextStage(SuperOffice.CRM.Web.AjaxMethods.NextSaleStageInfo)
+  id: MoveToNextStage(SuperOffice.CRM.Web.AjaxMethods.NextSaleStageInfo)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Sale
+  langs:
+  - csharp
+  - vb
+  name: MoveToNextStage(NextSaleStageInfo)
+  nameWithType: Sale.MoveToNextStage(NextSaleStageInfo)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToNextStage(SuperOffice.CRM.Web.AjaxMethods.NextSaleStageInfo)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void MoveToNextStage(NextSaleStageInfo nextStageInfo)
+    parameters:
+    - id: nextStageInfo
+      type: SuperOffice.CRM.Web.AjaxMethods.NextSaleStageInfo
+    content.vb: Public Sub MoveToNextStage(nextStageInfo As NextSaleStageInfo)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToNextStage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToStage
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToStage
+  id: MoveToStage
+  parent: SuperOffice.CRM.Web.AjaxMethods.Sale
+  langs:
+  - csharp
+  - vb
+  name: MoveToStage()
+  nameWithType: Sale.MoveToStage()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToStage()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void MoveToStage()
+    content.vb: Public Sub MoveToStage
+  overload: SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToStage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Sale.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Sale
+  langs:
+  - csharp
+  - vb
+  name: Sale()
+  nameWithType: Sale.Sale()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.Sale()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Sale()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Sale.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.CalculateOurCurrencyAmount*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Sale.CalculateOurCurrencyAmount
+  isExternal: true
+  name: CalculateOurCurrencyAmount
+  nameWithType: Sale.CalculateOurCurrencyAmount
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.CalculateOurCurrencyAmount
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.DeleteSale*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Sale.DeleteSale
+  isExternal: true
+  name: DeleteSale
+  nameWithType: Sale.DeleteSale
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.DeleteSale
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.GetCurrentSaleType*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Sale.GetCurrentSaleType
+  isExternal: true
+  name: GetCurrentSaleType
+  nameWithType: Sale.GetCurrentSaleType
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.GetCurrentSaleType
+- uid: SuperOffice.CRM.Services.SaleType
+  commentId: '!:SuperOffice.CRM.Services.SaleType'
+  isExternal: true
+  name: SaleType
+  nameWithType: SaleType
+  fullName: SuperOffice.CRM.Services.SaleType
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.DisplayConfirmationDialog*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Sale.DisplayConfirmationDialog
+  isExternal: true
+  name: DisplayConfirmationDialog
+  nameWithType: Sale.DisplayConfirmationDialog
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.DisplayConfirmationDialog
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.SuggestMoveToNextStage*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Sale.SuggestMoveToNextStage
+  isExternal: true
+  name: SuggestMoveToNextStage
+  nameWithType: Sale.SuggestMoveToNextStage
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.SuggestMoveToNextStage
+- uid: SuperOffice.CRM.Web.AjaxMethods.NextSaleStageInfo
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.NextSaleStageInfo
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: NextSaleStageInfo
+  nameWithType: NextSaleStageInfo
+  fullName: SuperOffice.CRM.Web.AjaxMethods.NextSaleStageInfo
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.GetNextSaleStageId*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Sale.GetNextSaleStageId
+  isExternal: true
+  name: GetNextSaleStageId
+  nameWithType: Sale.GetNextSaleStageId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.GetNextSaleStageId
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToNextStage*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToNextStage
+  isExternal: true
+  name: MoveToNextStage
+  nameWithType: Sale.MoveToNextStage
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToNextStage
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToStage*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToStage
+  isExternal: true
+  name: MoveToStage
+  nameWithType: Sale.MoveToStage
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.MoveToStage
+- uid: SuperOffice.CRM.Web.AjaxMethods.Sale.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Sale.#ctor
+  isExternal: true
+  name: Sale
+  nameWithType: Sale.Sale
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Sale.Sale

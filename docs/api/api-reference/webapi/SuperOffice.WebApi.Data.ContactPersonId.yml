@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ContactPersonId
+  commentId: T:SuperOffice.WebApi.Data.ContactPersonId
+  id: ContactPersonId
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ContactPersonId.#ctor
+  - SuperOffice.WebApi.Data.ContactPersonId.ContactId
+  - SuperOffice.WebApi.Data.ContactPersonId.PersonId
+  langs:
+  - csharp
+  - vb
+  name: ContactPersonId
+  nameWithType: ContactPersonId
+  fullName: SuperOffice.WebApi.Data.ContactPersonId
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ContactPersonId.\nClass representing an ContactPersonId carrier used for storing either a person id or a contact id. If PersonId contains an id, ContactId will be 0, and the other way around.    \n"
+  syntax:
+    content: 'public class ContactPersonId : Carrier'
+    content.vb: >-
+      Public Class ContactPersonId
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ContactPersonId.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ContactPersonId.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ContactPersonId
+  langs:
+  - csharp
+  - vb
+  name: ContactPersonId()
+  nameWithType: ContactPersonId.ContactPersonId()
+  fullName: SuperOffice.WebApi.Data.ContactPersonId.ContactPersonId()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ContactPersonId()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ContactPersonId.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ContactPersonId.PersonId
+  commentId: P:SuperOffice.WebApi.Data.ContactPersonId.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.ContactPersonId
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: ContactPersonId.PersonId
+  fullName: SuperOffice.WebApi.Data.ContactPersonId.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA person id.\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.ContactPersonId.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactPersonId.ContactId
+  commentId: P:SuperOffice.WebApi.Data.ContactPersonId.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.ContactPersonId
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: ContactPersonId.ContactId
+  fullName: SuperOffice.WebApi.Data.ContactPersonId.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA contact id.\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.ContactPersonId.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ContactPersonId.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactPersonId.#ctor
+  isExternal: true
+  name: ContactPersonId
+  nameWithType: ContactPersonId.ContactPersonId
+  fullName: SuperOffice.WebApi.Data.ContactPersonId.ContactPersonId
+- uid: SuperOffice.WebApi.Data.ContactPersonId.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactPersonId.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: ContactPersonId.PersonId
+  fullName: SuperOffice.WebApi.Data.ContactPersonId.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ContactPersonId.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactPersonId.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: ContactPersonId.ContactId
+  fullName: SuperOffice.WebApi.Data.ContactPersonId.ContactId

@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  commentId: T:SuperOffice.CRM.Entities.AppointmentDeleteAction
+  id: AppointmentDeleteAction
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.AppointmentDeleteAction.Appointment
+  - SuperOffice.CRM.Entities.AppointmentDeleteAction.Assignment
+  - SuperOffice.CRM.Entities.AppointmentDeleteAction.ChildBooking
+  - SuperOffice.CRM.Entities.AppointmentDeleteAction.MainBooking
+  langs:
+  - csharp
+  - vb
+  name: AppointmentDeleteAction
+  nameWithType: AppointmentDeleteAction
+  fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nDelete action for a Booking, Assignment or Appointment to be deleted.\n"
+  syntax:
+    content: public enum AppointmentDeleteAction
+    content.vb: Public Enum AppointmentDeleteAction
+  extensionMethods:
+  - SuperOffice.CRM.Entities.AppointmentDeleteAction.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.AppointmentDeleteAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.AppointmentDeleteAction)
+  - SuperOffice.CRM.Entities.AppointmentDeleteAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Entities.AppointmentDeleteAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction.MainBooking
+  commentId: F:SuperOffice.CRM.Entities.AppointmentDeleteAction.MainBooking
+  id: MainBooking
+  parent: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  langs:
+  - csharp
+  - vb
+  name: MainBooking
+  nameWithType: AppointmentDeleteAction.MainBooking
+  fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction.MainBooking
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe appointment record is the Main booking\n"
+  syntax:
+    content: MainBooking = 0
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction.ChildBooking
+  commentId: F:SuperOffice.CRM.Entities.AppointmentDeleteAction.ChildBooking
+  id: ChildBooking
+  parent: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  langs:
+  - csharp
+  - vb
+  name: ChildBooking
+  nameWithType: AppointmentDeleteAction.ChildBooking
+  fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction.ChildBooking
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe appointment record is a Child booking.\n"
+  syntax:
+    content: ChildBooking = 1
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction.Assignment
+  commentId: F:SuperOffice.CRM.Entities.AppointmentDeleteAction.Assignment
+  id: Assignment
+  parent: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  langs:
+  - csharp
+  - vb
+  name: Assignment
+  nameWithType: AppointmentDeleteAction.Assignment
+  fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction.Assignment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe appointment record is an Assignment\n"
+  syntax:
+    content: Assignment = 2
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction.Appointment
+  commentId: F:SuperOffice.CRM.Entities.AppointmentDeleteAction.Appointment
+  id: Appointment
+  parent: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: AppointmentDeleteAction.Appointment
+  fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction.Appointment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe appointment record is a regular appointment\n"
+  syntax:
+    content: Appointment = 3
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AppointmentDeleteAction, To>()
+  nameWithType: EnumUtil.MapEnums<AppointmentDeleteAction, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.AppointmentDeleteAction, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentDeleteAction, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.AppointmentDeleteAction, To)()
+  name.vb: MapEnums(Of AppointmentDeleteAction, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AppointmentDeleteAction, To>
+    nameWithType: EnumUtil.MapEnums<AppointmentDeleteAction, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.AppointmentDeleteAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AppointmentDeleteAction, To)
+    nameWithType: EnumUtil.MapEnums(Of AppointmentDeleteAction, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.AppointmentDeleteAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.AppointmentDeleteAction)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<AppointmentDeleteAction>(AppointmentDeleteAction)
+  nameWithType: ObjectExtensions.AssignByReflection<AppointmentDeleteAction>(AppointmentDeleteAction)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.AppointmentDeleteAction>(SuperOffice.CRM.Entities.AppointmentDeleteAction)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppointmentDeleteAction)(AppointmentDeleteAction)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.AppointmentDeleteAction)(SuperOffice.CRM.Entities.AppointmentDeleteAction)
+  name.vb: AssignByReflection(Of AppointmentDeleteAction)(AppointmentDeleteAction)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AppointmentDeleteAction>
+    nameWithType: ObjectExtensions.AssignByReflection<AppointmentDeleteAction>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.AppointmentDeleteAction>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.AppointmentDeleteAction
+    name: AppointmentDeleteAction
+    nameWithType: AppointmentDeleteAction
+    fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AppointmentDeleteAction)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AppointmentDeleteAction)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.AppointmentDeleteAction)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.AppointmentDeleteAction
+    name: AppointmentDeleteAction
+    nameWithType: AppointmentDeleteAction
+    fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<AppointmentDeleteAction>()
+  nameWithType: ObjectExtensions.GraphCopy<AppointmentDeleteAction>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.AppointmentDeleteAction>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppointmentDeleteAction)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.AppointmentDeleteAction)()
+  name.vb: GraphCopy(Of AppointmentDeleteAction)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AppointmentDeleteAction>
+    nameWithType: ObjectExtensions.GraphCopy<AppointmentDeleteAction>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.AppointmentDeleteAction>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AppointmentDeleteAction)
+    nameWithType: ObjectExtensions.GraphCopy(Of AppointmentDeleteAction)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.AppointmentDeleteAction)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AppointmentDeleteAction, To>()
+  nameWithType: Converters.MapEnums<AppointmentDeleteAction, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.AppointmentDeleteAction, To>()
+  nameWithType.vb: Converters.MapEnums(Of AppointmentDeleteAction, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.AppointmentDeleteAction, To)()
+  name.vb: MapEnums(Of AppointmentDeleteAction, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AppointmentDeleteAction, To>
+    nameWithType: Converters.MapEnums<AppointmentDeleteAction, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.AppointmentDeleteAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AppointmentDeleteAction, To)
+    nameWithType: Converters.MapEnums(Of AppointmentDeleteAction, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.AppointmentDeleteAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  commentId: T:SuperOffice.CRM.Entities.AppointmentDeleteAction
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentDeleteAction
+  nameWithType: AppointmentDeleteAction
+  fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction

@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest
+  commentId: T:SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest
+  id: License_GetModuleLicenseFromDBRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.#ctor
+  - SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.ModuleName
+  - SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.OwnerName
+  langs:
+  - csharp
+  - vb
+  name: License_GetModuleLicenseFromDBRequest
+  nameWithType: License_GetModuleLicenseFromDBRequest
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class License_GetModuleLicenseFromDBRequest : Object'
+    content.vb: >-
+      Public Class License_GetModuleLicenseFromDBRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest
+  langs:
+  - csharp
+  - vb
+  name: License_GetModuleLicenseFromDBRequest()
+  nameWithType: License_GetModuleLicenseFromDBRequest.License_GetModuleLicenseFromDBRequest()
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.License_GetModuleLicenseFromDBRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public License_GetModuleLicenseFromDBRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.OwnerName
+  commentId: P:SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.OwnerName
+  id: OwnerName
+  parent: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest
+  langs:
+  - csharp
+  - vb
+  name: OwnerName
+  nameWithType: License_GetModuleLicenseFromDBRequest.OwnerName
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.OwnerName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string OwnerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OwnerName As String
+  overload: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.OwnerName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.ModuleName
+  commentId: P:SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.ModuleName
+  id: ModuleName
+  parent: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest
+  langs:
+  - csharp
+  - vb
+  name: ModuleName
+  nameWithType: License_GetModuleLicenseFromDBRequest.ModuleName
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.ModuleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ModuleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ModuleName As String
+  overload: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.ModuleName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.#ctor
+  isExternal: true
+  name: License_GetModuleLicenseFromDBRequest
+  nameWithType: License_GetModuleLicenseFromDBRequest.License_GetModuleLicenseFromDBRequest
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.License_GetModuleLicenseFromDBRequest
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.OwnerName*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.OwnerName
+  isExternal: true
+  name: OwnerName
+  nameWithType: License_GetModuleLicenseFromDBRequest.OwnerName
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.OwnerName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.ModuleName*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.ModuleName
+  isExternal: true
+  name: ModuleName
+  nameWithType: License_GetModuleLicenseFromDBRequest.ModuleName
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseFromDBRequest.ModuleName

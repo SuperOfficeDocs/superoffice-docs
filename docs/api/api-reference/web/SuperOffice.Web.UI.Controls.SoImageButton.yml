@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoImageButton
+  commentId: T:SuperOffice.Web.UI.Controls.SoImageButton
+  id: SoImageButton
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoImageButton.#ctor
+  langs:
+  - csharp
+  - vb
+  name: SoImageButton
+  nameWithType: SoImageButton
+  fullName: SuperOffice.Web.UI.Controls.SoImageButton
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoImageButton : ImageButton, INamingContainer'
+    content.vb: >-
+      Public Class SoImageButton
+          Inherits ImageButton
+          Implements INamingContainer
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.UI.INamingContainer
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoImageButton.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoImageButton.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoImageButton
+  langs:
+  - csharp
+  - vb
+  name: SoImageButton()
+  nameWithType: SoImageButton.SoImageButton()
+  fullName: SuperOffice.Web.UI.Controls.SoImageButton.SoImageButton()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoImageButton()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoImageButton.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoImageButton.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoImageButton.#ctor
+  isExternal: true
+  name: SoImageButton
+  nameWithType: SoImageButton.SoImageButton
+  fullName: SuperOffice.Web.UI.Controls.SoImageButton.SoImageButton

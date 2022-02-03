@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  id: DBC.BinaryObjectLinkFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.BinaryObjectId
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.BinaryObjectLinkId
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.LinkComment
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.LinkType
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.OwnerRecord
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.OwnerTable
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Rank
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Registered
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Updated
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.BinaryObjectLinkFields
+  nameWithType: DBC.BinaryObjectLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for BinaryObjectLink, Link table, connects a BinaryObject with one or more owners\n"
+  syntax:
+    content: public static class BinaryObjectLinkFields
+    content.vb: Public Module BinaryObjectLinkFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.BinaryObjectLinkId
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.BinaryObjectLinkId
+  id: BinaryObjectLinkId
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: BinaryObjectLinkId
+  nameWithType: DBC.BinaryObjectLinkFields.BinaryObjectLinkId
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.BinaryObjectLinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.BinaryObjectLinkId: Primary key\n"
+  syntax:
+    content: public const string BinaryObjectLinkId = "BinaryObjectLink_id"
+    return:
+      type: System.String
+    content.vb: Public Const BinaryObjectLinkId As String = "BinaryObjectLink_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.BinaryObjectId
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.BinaryObjectId
+  id: BinaryObjectId
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: BinaryObjectId
+  nameWithType: DBC.BinaryObjectLinkFields.BinaryObjectId
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.BinaryObjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.BinaryObjectId: The binary object we link to\n"
+  syntax:
+    content: public const string BinaryObjectId = "binaryObjectId"
+    return:
+      type: System.String
+    content.vb: Public Const BinaryObjectId As String = "binaryObjectId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.OwnerTable
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.OwnerTable
+  id: OwnerTable
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerTable
+  nameWithType: DBC.BinaryObjectLinkFields.OwnerTable
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.OwnerTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.OwnerTable: The owner table\n"
+  syntax:
+    content: public const string OwnerTable = "ownerTable"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerTable As String = "ownerTable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.OwnerRecord
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.OwnerRecord
+  id: OwnerRecord
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerRecord
+  nameWithType: DBC.BinaryObjectLinkFields.OwnerRecord
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.OwnerRecord
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.OwnerRecord: The owner record\n"
+  syntax:
+    content: public const string OwnerRecord = "ownerRecord"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerRecord As String = "ownerRecord"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.LinkComment
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.LinkComment
+  id: LinkComment
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: LinkComment
+  nameWithType: DBC.BinaryObjectLinkFields.LinkComment
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.LinkComment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.LinkComment: Link comment, optional\n"
+  syntax:
+    content: public const string LinkComment = "linkComment"
+    return:
+      type: System.String
+    content.vb: Public Const LinkComment As String = "linkComment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.LinkType
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.LinkType
+  id: LinkType
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: LinkType
+  nameWithType: DBC.BinaryObjectLinkFields.LinkType
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.LinkType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.LinkType: The link type\n"
+  syntax:
+    content: public const string LinkType = "linkType"
+    return:
+      type: System.String
+    content.vb: Public Const LinkType As String = "linkType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.BinaryObjectLinkFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.Rank: Link rank, in case there are more of one type to one owner\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.BinaryObjectLinkFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.BinaryObjectLinkFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.BinaryObjectLinkFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.BinaryObjectLinkFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.BinaryObjectLinkFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObjectLink.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

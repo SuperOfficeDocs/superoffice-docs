@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest
+  id: ErpSync_ToggleErpConnectionActiveRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.ErpConnectionId
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_ToggleErpConnectionActiveRequest
+  nameWithType: ErpSync_ToggleErpConnectionActiveRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_ToggleErpConnectionActiveRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_ToggleErpConnectionActiveRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_ToggleErpConnectionActiveRequest()
+  nameWithType: ErpSync_ToggleErpConnectionActiveRequest.ErpSync_ToggleErpConnectionActiveRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.ErpSync_ToggleErpConnectionActiveRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_ToggleErpConnectionActiveRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_ToggleErpConnectionActiveRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.#ctor
+  isExternal: true
+  name: ErpSync_ToggleErpConnectionActiveRequest
+  nameWithType: ErpSync_ToggleErpConnectionActiveRequest.ErpSync_ToggleErpConnectionActiveRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.ErpSync_ToggleErpConnectionActiveRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_ToggleErpConnectionActiveRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_ToggleErpConnectionActiveRequest.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

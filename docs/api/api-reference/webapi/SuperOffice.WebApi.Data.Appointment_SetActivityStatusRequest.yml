@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest
+  id: Appointment_SetActivityStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityIdentifier
+  - SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityStatus
+  langs:
+  - csharp
+  - vb
+  name: Appointment_SetActivityStatusRequest
+  nameWithType: Appointment_SetActivityStatusRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_SetActivityStatusRequest : Object'
+    content.vb: >-
+      Public Class Appointment_SetActivityStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_SetActivityStatusRequest()
+  nameWithType: Appointment_SetActivityStatusRequest.Appointment_SetActivityStatusRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.Appointment_SetActivityStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_SetActivityStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityIdentifier
+  commentId: P:SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityIdentifier
+  id: ActivityIdentifier
+  parent: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: ActivityIdentifier
+  nameWithType: Appointment_SetActivityStatusRequest.ActivityIdentifier
+  fullName: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] ActivityIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ActivityIdentifier As String()
+  overload: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityStatus
+  commentId: P:SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityStatus
+  id: ActivityStatus
+  parent: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: ActivityStatus
+  nameWithType: Appointment_SetActivityStatusRequest.ActivityStatus
+  fullName: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ActivityStatus ActivityStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ActivityStatus
+    content.vb: Public Property ActivityStatus As ActivityStatus
+  overload: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityStatus*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.#ctor
+  isExternal: true
+  name: Appointment_SetActivityStatusRequest
+  nameWithType: Appointment_SetActivityStatusRequest.Appointment_SetActivityStatusRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.Appointment_SetActivityStatusRequest
+- uid: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityIdentifier
+  isExternal: true
+  name: ActivityIdentifier
+  nameWithType: Appointment_SetActivityStatusRequest.ActivityIdentifier
+  fullName: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityIdentifier
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityStatus
+  isExternal: true
+  name: ActivityStatus
+  nameWithType: Appointment_SetActivityStatusRequest.ActivityStatus
+  fullName: SuperOffice.WebApi.Data.Appointment_SetActivityStatusRequest.ActivityStatus
+- uid: SuperOffice.WebApi.Data.ActivityStatus
+  commentId: T:SuperOffice.WebApi.Data.ActivityStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ActivityStatus
+  nameWithType: ActivityStatus
+  fullName: SuperOffice.WebApi.Data.ActivityStatus

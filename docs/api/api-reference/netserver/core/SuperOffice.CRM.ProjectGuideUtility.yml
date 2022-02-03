@@ -1,0 +1,571 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ProjectGuideUtility
+  commentId: T:SuperOffice.CRM.ProjectGuideUtility
+  id: ProjectGuideUtility
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  - SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(System.Int32)
+  - SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(System.Int32)
+  - SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(System.Int32,System.Boolean)
+  - SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ProjectGuideUtility
+  nameWithType: ProjectGuideUtility
+  fullName: SuperOffice.CRM.ProjectGuideUtility
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static class ProjectGuideUtility
+    content.vb: Public Module ProjectGuideUtility
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(System.Int32)
+  commentId: M:SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(System.Int32)
+  id: CalculateNextMilestoneDate(System.Int32)
+  parent: SuperOffice.CRM.ProjectGuideUtility
+  langs:
+  - csharp
+  - vb
+  name: CalculateNextMilestoneDate(Int32)
+  nameWithType: ProjectGuideUtility.CalculateNextMilestoneDate(Int32)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static NextDateInfo CalculateNextMilestoneDate(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.NextDateInfo
+    content.vb: Public Shared Function CalculateNextMilestoneDate(projectId As Integer) As NextDateInfo
+  overload: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(System.Int32)
+  commentId: M:SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(System.Int32)
+  id: GetNextMilestoneDate(System.Int32)
+  parent: SuperOffice.CRM.ProjectGuideUtility
+  langs:
+  - csharp
+  - vb
+  name: GetNextMilestoneDate(Int32)
+  nameWithType: ProjectGuideUtility.GetNextMilestoneDate(Int32)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static NextDateInfo GetNextMilestoneDate(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.NextDateInfo
+    content.vb: Public Shared Function GetNextMilestoneDate(projectId As Integer) As NextDateInfo
+  overload: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  commentId: M:SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  id: BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  parent: SuperOffice.CRM.ProjectGuideUtility
+  langs:
+  - csharp
+  - vb
+  name: BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
+  nameWithType: ProjectGuideUtility.BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static void BatchUpdateNextMilestone(ProgressEstimateCallback estimateCB, ProgressStepCallback stepCB)
+    parameters:
+    - id: estimateCB
+      type: SuperOffice.CRM.ProgressEstimateCallback
+    - id: stepCB
+      type: SuperOffice.CRM.ProgressStepCallback
+    content.vb: Public Shared Sub BatchUpdateNextMilestone(estimateCB As ProgressEstimateCallback, stepCB As ProgressStepCallback)
+  overload: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  commentId: M:SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  id: OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  parent: SuperOffice.CRM.ProjectGuideUtility
+  langs:
+  - csharp
+  - vb
+  name: OfferAutoNextStageOnApppointmentCompleted(Int32)
+  nameWithType: ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(Int32)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static bool OfferAutoNextStageOnApppointmentCompleted(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function OfferAutoNextStageOnApppointmentCompleted(appointmentId As Integer) As Boolean
+  overload: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(System.Int32,System.Boolean)
+  id: GetNextProjectStatus(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.ProjectGuideUtility
+  langs:
+  - csharp
+  - vb
+  name: GetNextProjectStatus(Int32, Boolean)
+  nameWithType: ProjectGuideUtility.GetNextProjectStatus(Int32, Boolean)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static int GetNextProjectStatus(int projectId, bool includeCurrentStatus)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    - id: includeCurrentStatus
+      type: System.Boolean
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetNextProjectStatus(projectId As Integer, includeCurrentStatus As Boolean) As Integer
+  overload: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate*
+  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate
+  isExternal: true
+  name: CalculateNextMilestoneDate
+  nameWithType: ProjectGuideUtility.CalculateNextMilestoneDate
+  fullName: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.NextDateInfo
+  commentId: T:SuperOffice.CRM.NextDateInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: NextDateInfo
+  nameWithType: NextDateInfo
+  fullName: SuperOffice.CRM.NextDateInfo
+- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate*
+  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate
+  isExternal: true
+  name: GetNextMilestoneDate
+  nameWithType: ProjectGuideUtility.GetNextMilestoneDate
+  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate
+- uid: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone*
+  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone
+  isExternal: true
+  name: BatchUpdateNextMilestone
+  nameWithType: ProjectGuideUtility.BatchUpdateNextMilestone
+  fullName: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone
+- uid: SuperOffice.CRM.ProgressEstimateCallback
+  commentId: T:SuperOffice.CRM.ProgressEstimateCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressEstimateCallback
+  nameWithType: ProgressEstimateCallback
+  fullName: SuperOffice.CRM.ProgressEstimateCallback
+- uid: SuperOffice.CRM.ProgressStepCallback
+  commentId: T:SuperOffice.CRM.ProgressStepCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressStepCallback
+  nameWithType: ProgressStepCallback
+  fullName: SuperOffice.CRM.ProgressStepCallback
+- uid: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted*
+  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted
+  isExternal: true
+  name: OfferAutoNextStageOnApppointmentCompleted
+  nameWithType: ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted
+  fullName: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus*
+  commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus
+  isExternal: true
+  name: GetNextProjectStatus
+  nameWithType: ProjectGuideUtility.GetNextProjectStatus
+  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus

@@ -1,0 +1,1074 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  commentId: T:SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  id: SoSystemInfoCarrier
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.#ctor
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.AccumulatedNextCheckDate
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.AssemblyVersion
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.BranchName
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildLabel
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyId
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyName
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseMinor
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseName
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseType
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseVersion
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.DaysUntilNetServerExpiry
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.Description
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.FileVersion
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsOnTravel
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsSatellite
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsUnicode
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.License
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningEnglish
+  - SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningResource
+  langs:
+  - csharp
+  - vb
+  name: SoSystemInfoCarrier
+  nameWithType: SoSystemInfoCarrier
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SoSystemInfoCarrier.\nRepresentation of a serialized exception that can be communicatyed over web services    \n"
+  syntax:
+    content: 'public class SoSystemInfoCarrier : Carrier'
+    content.vb: >-
+      Public Class SoSystemInfoCarrier
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SoSystemInfoCarrier.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: SoSystemInfoCarrier()
+  nameWithType: SoSystemInfoCarrier.SoSystemInfoCarrier()
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.SoSystemInfoCarrier()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SoSystemInfoCarrier()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.License
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.License
+  id: License
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: License
+  nameWithType: SoSystemInfoCarrier.License
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.License
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLicense issued by SuperOffice\n"
+  syntax:
+    content: public virtual LicenseInfo License { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.LicenseInfo
+    content.vb: Public Overridable Property License As LicenseInfo
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.License*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningEnglish
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningEnglish
+  id: WarningEnglish
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: WarningEnglish
+  nameWithType: SoSystemInfoCarrier.WarningEnglish
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningEnglish
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWarning information to be displayed to the user in plain English\n"
+  syntax:
+    content: public virtual string WarningEnglish { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property WarningEnglish As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningEnglish*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningResource
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningResource
+  id: WarningResource
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: WarningResource
+  nameWithType: SoSystemInfoCarrier.WarningResource
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningResource
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWarning information to be displayed to the user in resource format.\n"
+  syntax:
+    content: public virtual string WarningResource { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property WarningResource As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningResource*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BranchName
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BranchName
+  id: BranchName
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: BranchName
+  nameWithType: SoSystemInfoCarrier.BranchName
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BranchName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the branch the NetServer is built from.\n"
+  syntax:
+    content: public virtual string BranchName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BranchName As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BranchName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildLabel
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildLabel
+  id: BuildLabel
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: BuildLabel
+  nameWithType: SoSystemInfoCarrier.BuildLabel
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildLabel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBuild label for NetServer.\n"
+  syntax:
+    content: public virtual string BuildLabel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BuildLabel As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildLabel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.AssemblyVersion
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.AssemblyVersion
+  id: AssemblyVersion
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: AssemblyVersion
+  nameWithType: SoSystemInfoCarrier.AssemblyVersion
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.AssemblyVersion
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAssemblyVersion of NetServer\n"
+  syntax:
+    content: public virtual string AssemblyVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AssemblyVersion As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.AssemblyVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.AccumulatedNextCheckDate
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.AccumulatedNextCheckDate
+  id: AccumulatedNextCheckDate
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: AccumulatedNextCheckDate
+  nameWithType: SoSystemInfoCarrier.AccumulatedNextCheckDate
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.AccumulatedNextCheckDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe next date a new check of the license is to be performed, incremented daily if the check did not result in a new license.\n"
+  syntax:
+    content: public virtual DateTime AccumulatedNextCheckDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property AccumulatedNextCheckDate As DateTime
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.AccumulatedNextCheckDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.FileVersion
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.FileVersion
+  id: FileVersion
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: FileVersion
+  nameWithType: SoSystemInfoCarrier.FileVersion
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.FileVersion
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFileVersion of NetServer.\n"
+  syntax:
+    content: public virtual string FileVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FileVersion As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.FileVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.Description
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: SoSystemInfoCarrier.Description
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescription of the NetServer version.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DaysUntilNetServerExpiry
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.DaysUntilNetServerExpiry
+  id: DaysUntilNetServerExpiry
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: DaysUntilNetServerExpiry
+  nameWithType: SoSystemInfoCarrier.DaysUntilNetServerExpiry
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DaysUntilNetServerExpiry
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDays until this version of NetServer expires\n"
+  syntax:
+    content: public virtual int DaysUntilNetServerExpiry { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DaysUntilNetServerExpiry As Integer
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DaysUntilNetServerExpiry*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String
+  id: BuildType_String
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: BuildType_String
+  nameWithType: SoSystemInfoCarrier.BuildType_String
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of build.\nRaw string enum value.\n"
+  syntax:
+    content: public string BuildType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BuildType_String As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType
+    commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType
+  id: BuildType
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: BuildType
+  nameWithType: SoSystemInfoCarrier.BuildType
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of build.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<NetServerBuildType> BuildType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.NetServerBuildType}
+    content.vb: Public Property BuildType As Nullable(Of NetServerBuildType)
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String
+    commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseVersion
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseVersion
+  id: DatabaseVersion
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: DatabaseVersion
+  nameWithType: SoSystemInfoCarrier.DatabaseVersion
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseVersion
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDatabase version number\n"
+  syntax:
+    content: public virtual int DatabaseVersion { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DatabaseVersion As Integer
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsUnicode
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsUnicode
+  id: IsUnicode
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: IsUnicode
+  nameWithType: SoSystemInfoCarrier.IsUnicode
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsUnicode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the database strings formatted as Unicode (i.e. NVARCHAR)\n"
+  syntax:
+    content: public virtual bool IsUnicode { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsUnicode As Boolean
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsUnicode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyName
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyName
+  id: CompanyName
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: CompanyName
+  nameWithType: SoSystemInfoCarrier.CompanyName
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLicense Info: Company name associated with license.\n"
+  syntax:
+    content: public virtual string CompanyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CompanyName As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyId
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyId
+  id: CompanyId
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: CompanyId
+  nameWithType: SoSystemInfoCarrier.CompanyId
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLicense Info: Company name associated with license.\n"
+  syntax:
+    content: public virtual int CompanyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CompanyId As Integer
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseType
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseType
+  id: DatabaseType
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: DatabaseType
+  nameWithType: SoSystemInfoCarrier.DatabaseType
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMajor name of database provider\n"
+  syntax:
+    content: public virtual string DatabaseType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DatabaseType As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseMinor
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseMinor
+  id: DatabaseMinor
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: DatabaseMinor
+  nameWithType: SoSystemInfoCarrier.DatabaseMinor
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseMinor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMinor name of database provider\n"
+  syntax:
+    content: public virtual string DatabaseMinor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DatabaseMinor As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseMinor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseName
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseName
+  id: DatabaseName
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: DatabaseName
+  nameWithType: SoSystemInfoCarrier.DatabaseName
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of database\n"
+  syntax:
+    content: public virtual string DatabaseName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DatabaseName As String
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsOnTravel
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsOnTravel
+  id: IsOnTravel
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: IsOnTravel
+  nameWithType: SoSystemInfoCarrier.IsOnTravel
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsOnTravel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the current database on travel.\n"
+  syntax:
+    content: public virtual bool IsOnTravel { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsOnTravel As Boolean
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsOnTravel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsSatellite
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsSatellite
+  id: IsSatellite
+  parent: SuperOffice.WebApi.Data.SoSystemInfoCarrier
+  langs:
+  - csharp
+  - vb
+  name: IsSatellite
+  nameWithType: SoSystemInfoCarrier.IsSatellite
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsSatellite
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the current database a Satellite\n"
+  syntax:
+    content: public virtual bool IsSatellite { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsSatellite As Boolean
+  overload: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsSatellite*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.#ctor
+  isExternal: true
+  name: SoSystemInfoCarrier
+  nameWithType: SoSystemInfoCarrier.SoSystemInfoCarrier
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.SoSystemInfoCarrier
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.License*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.License
+  isExternal: true
+  name: License
+  nameWithType: SoSystemInfoCarrier.License
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.License
+- uid: SuperOffice.WebApi.Data.LicenseInfo
+  commentId: T:SuperOffice.WebApi.Data.LicenseInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: LicenseInfo
+  nameWithType: LicenseInfo
+  fullName: SuperOffice.WebApi.Data.LicenseInfo
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningEnglish*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningEnglish
+  isExternal: true
+  name: WarningEnglish
+  nameWithType: SoSystemInfoCarrier.WarningEnglish
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningEnglish
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningResource*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningResource
+  isExternal: true
+  name: WarningResource
+  nameWithType: SoSystemInfoCarrier.WarningResource
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.WarningResource
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BranchName*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BranchName
+  isExternal: true
+  name: BranchName
+  nameWithType: SoSystemInfoCarrier.BranchName
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BranchName
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildLabel*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildLabel
+  isExternal: true
+  name: BuildLabel
+  nameWithType: SoSystemInfoCarrier.BuildLabel
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildLabel
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.AssemblyVersion*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.AssemblyVersion
+  isExternal: true
+  name: AssemblyVersion
+  nameWithType: SoSystemInfoCarrier.AssemblyVersion
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.AssemblyVersion
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.AccumulatedNextCheckDate*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.AccumulatedNextCheckDate
+  isExternal: true
+  name: AccumulatedNextCheckDate
+  nameWithType: SoSystemInfoCarrier.AccumulatedNextCheckDate
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.AccumulatedNextCheckDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.FileVersion*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.FileVersion
+  isExternal: true
+  name: FileVersion
+  nameWithType: SoSystemInfoCarrier.FileVersion
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.FileVersion
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.Description
+  isExternal: true
+  name: Description
+  nameWithType: SoSystemInfoCarrier.Description
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.Description
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DaysUntilNetServerExpiry*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.DaysUntilNetServerExpiry
+  isExternal: true
+  name: DaysUntilNetServerExpiry
+  nameWithType: SoSystemInfoCarrier.DaysUntilNetServerExpiry
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DaysUntilNetServerExpiry
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String
+  isExternal: true
+  name: BuildType_String
+  nameWithType: SoSystemInfoCarrier.BuildType_String
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType
+  isExternal: true
+  name: BuildType
+  nameWithType: SoSystemInfoCarrier.BuildType
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String
+  commentId: P:SuperOffice.WebApi.Data.SoSystemInfoCarrier.BuildType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.NetServerBuildType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.NetServerBuildType}'
+  definition: System.Nullable`1
+  name: Nullable<NetServerBuildType>
+  nameWithType: Nullable<NetServerBuildType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.NetServerBuildType>
+  nameWithType.vb: Nullable(Of NetServerBuildType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.NetServerBuildType)
+  name.vb: Nullable(Of NetServerBuildType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.NetServerBuildType
+    name: NetServerBuildType
+    nameWithType: NetServerBuildType
+    fullName: SuperOffice.WebApi.Data.NetServerBuildType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.NetServerBuildType
+    name: NetServerBuildType
+    nameWithType: NetServerBuildType
+    fullName: SuperOffice.WebApi.Data.NetServerBuildType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseVersion*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseVersion
+  isExternal: true
+  name: DatabaseVersion
+  nameWithType: SoSystemInfoCarrier.DatabaseVersion
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseVersion
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsUnicode*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsUnicode
+  isExternal: true
+  name: IsUnicode
+  nameWithType: SoSystemInfoCarrier.IsUnicode
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsUnicode
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyName*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyName
+  isExternal: true
+  name: CompanyName
+  nameWithType: SoSystemInfoCarrier.CompanyName
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyName
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyId*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyId
+  isExternal: true
+  name: CompanyId
+  nameWithType: SoSystemInfoCarrier.CompanyId
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.CompanyId
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseType*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseType
+  isExternal: true
+  name: DatabaseType
+  nameWithType: SoSystemInfoCarrier.DatabaseType
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseType
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseMinor*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseMinor
+  isExternal: true
+  name: DatabaseMinor
+  nameWithType: SoSystemInfoCarrier.DatabaseMinor
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseMinor
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseName*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseName
+  isExternal: true
+  name: DatabaseName
+  nameWithType: SoSystemInfoCarrier.DatabaseName
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.DatabaseName
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsOnTravel*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsOnTravel
+  isExternal: true
+  name: IsOnTravel
+  nameWithType: SoSystemInfoCarrier.IsOnTravel
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsOnTravel
+- uid: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsSatellite*
+  commentId: Overload:SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsSatellite
+  isExternal: true
+  name: IsSatellite
+  nameWithType: SoSystemInfoCarrier.IsSatellite
+  fullName: SuperOffice.WebApi.Data.SoSystemInfoCarrier.IsSatellite

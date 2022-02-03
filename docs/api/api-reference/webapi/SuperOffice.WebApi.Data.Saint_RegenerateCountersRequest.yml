@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest
+  commentId: T:SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest
+  id: Saint_RegenerateCountersRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.#ctor
+  - SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.RunAsBatch
+  langs:
+  - csharp
+  - vb
+  name: Saint_RegenerateCountersRequest
+  nameWithType: Saint_RegenerateCountersRequest
+  fullName: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Saint_RegenerateCountersRequest : Object'
+    content.vb: >-
+      Public Class Saint_RegenerateCountersRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest
+  langs:
+  - csharp
+  - vb
+  name: Saint_RegenerateCountersRequest()
+  nameWithType: Saint_RegenerateCountersRequest.Saint_RegenerateCountersRequest()
+  fullName: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.Saint_RegenerateCountersRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Saint_RegenerateCountersRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.RunAsBatch
+  commentId: P:SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.RunAsBatch
+  id: RunAsBatch
+  parent: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest
+  langs:
+  - csharp
+  - vb
+  name: RunAsBatch
+  nameWithType: Saint_RegenerateCountersRequest.RunAsBatch
+  fullName: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.RunAsBatch
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool RunAsBatch { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RunAsBatch As Boolean
+  overload: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.RunAsBatch*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.#ctor
+  isExternal: true
+  name: Saint_RegenerateCountersRequest
+  nameWithType: Saint_RegenerateCountersRequest.Saint_RegenerateCountersRequest
+  fullName: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.Saint_RegenerateCountersRequest
+- uid: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.RunAsBatch*
+  commentId: Overload:SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.RunAsBatch
+  isExternal: true
+  name: RunAsBatch
+  nameWithType: Saint_RegenerateCountersRequest.RunAsBatch
+  fullName: SuperOffice.WebApi.Data.Saint_RegenerateCountersRequest.RunAsBatch
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

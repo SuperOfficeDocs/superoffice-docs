@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+  id: Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.SaleTypeQuoteAttachmentId
+  langs:
+  - csharp
+  - vb
+  name: Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+  nameWithType: Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+  fullName: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest : Object'
+    content.vb: >-
+      Public Class Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest()
+  nameWithType: Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.SaleTypeQuoteAttachmentId
+  commentId: P:SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.SaleTypeQuoteAttachmentId
+  id: SaleTypeQuoteAttachmentId
+  parent: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeQuoteAttachmentId
+  nameWithType: Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.SaleTypeQuoteAttachmentId
+  fullName: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.SaleTypeQuoteAttachmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleTypeQuoteAttachmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleTypeQuoteAttachmentId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.SaleTypeQuoteAttachmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.#ctor
+  isExternal: true
+  name: Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+  nameWithType: Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+  fullName: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
+- uid: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.SaleTypeQuoteAttachmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.SaleTypeQuoteAttachmentId
+  isExternal: true
+  name: SaleTypeQuoteAttachmentId
+  nameWithType: Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.SaleTypeQuoteAttachmentId
+  fullName: SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest.SaleTypeQuoteAttachmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

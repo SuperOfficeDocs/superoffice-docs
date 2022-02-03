@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Business
+  commentId: T:SuperOffice.WebApi.Data.Business
+  id: Business
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Business.#ctor
+  - SuperOffice.WebApi.Data.Business.Id
+  - SuperOffice.WebApi.Data.Business.Tooltip
+  - SuperOffice.WebApi.Data.Business.Value
+  langs:
+  - csharp
+  - vb
+  name: Business
+  nameWithType: Business
+  fullName: SuperOffice.WebApi.Data.Business
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Business.\n\n"
+  example:
+  - "\nGet Business 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar business = agent.GetBusiness( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Business : Carrier'
+    content.vb: >-
+      Public Class Business
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Business.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Business.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Business
+  langs:
+  - csharp
+  - vb
+  name: Business()
+  nameWithType: Business.Business()
+  fullName: SuperOffice.WebApi.Data.Business.Business()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Business()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Business.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Business.Id
+  commentId: P:SuperOffice.WebApi.Data.Business.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.Business
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Business.Id
+  fullName: SuperOffice.WebApi.Data.Business.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Id\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.Business.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Business.Value
+  commentId: P:SuperOffice.WebApi.Data.Business.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.Business
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Business.Value
+  fullName: SuperOffice.WebApi.Data.Business.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Value\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.Business.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Business.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.Business.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.Business
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: Business.Tooltip
+  fullName: SuperOffice.WebApi.Data.Business.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Tooltip\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.Business.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Business.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Business.#ctor
+  isExternal: true
+  name: Business
+  nameWithType: Business.Business
+  fullName: SuperOffice.WebApi.Data.Business.Business
+- uid: SuperOffice.WebApi.Data.Business.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.Business.Id
+  isExternal: true
+  name: Id
+  nameWithType: Business.Id
+  fullName: SuperOffice.WebApi.Data.Business.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Business.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.Business.Value
+  isExternal: true
+  name: Value
+  nameWithType: Business.Value
+  fullName: SuperOffice.WebApi.Data.Business.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Business.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.Business.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: Business.Tooltip
+  fullName: SuperOffice.WebApi.Data.Business.Tooltip

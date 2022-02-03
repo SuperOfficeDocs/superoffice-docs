@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.NetServerBuildType
+  commentId: T:SuperOffice.WebApi.Data.NetServerBuildType
+  id: NetServerBuildType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.NetServerBuildType.Alpha
+  - SuperOffice.WebApi.Data.NetServerBuildType.Beta
+  - SuperOffice.WebApi.Data.NetServerBuildType.Feature
+  - SuperOffice.WebApi.Data.NetServerBuildType.Release
+  - SuperOffice.WebApi.Data.NetServerBuildType.ReleaseCandidate
+  - SuperOffice.WebApi.Data.NetServerBuildType.Stable
+  - SuperOffice.WebApi.Data.NetServerBuildType.value__
+  langs:
+  - csharp
+  - vb
+  name: NetServerBuildType
+  nameWithType: NetServerBuildType
+  fullName: SuperOffice.WebApi.Data.NetServerBuildType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: 'public sealed class NetServerBuildType : Enum'
+    content.vb: >-
+      Public NotInheritable Class NetServerBuildType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.NetServerBuildType.value__
+  commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.NetServerBuildType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: NetServerBuildType.value__
+  fullName: SuperOffice.WebApi.Data.NetServerBuildType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.NetServerBuildType.Feature
+  commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.Feature
+  id: Feature
+  parent: SuperOffice.WebApi.Data.NetServerBuildType
+  langs:
+  - csharp
+  - vb
+  name: Feature
+  nameWithType: NetServerBuildType.Feature
+  fullName: SuperOffice.WebApi.Data.NetServerBuildType.Feature
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: SuperOffice Research and Product Development confidential version that never shall run on machines not owned by SuperOffice Research and Product Development.\n"
+  syntax:
+    content: public const NetServerBuildType Feature
+    return:
+      type: SuperOffice.WebApi.Data.NetServerBuildType
+    content.vb: Public Const Feature As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NetServerBuildType.Stable
+  commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.Stable
+  id: Stable
+  parent: SuperOffice.WebApi.Data.NetServerBuildType
+  langs:
+  - csharp
+  - vb
+  name: Stable
+  nameWithType: NetServerBuildType.Stable
+  fullName: SuperOffice.WebApi.Data.NetServerBuildType.Stable
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: SuperOffice Research and Product Development confidential version that never shall run on machines not owned by SuperOffice Research and Product Development.\n"
+  syntax:
+    content: public const NetServerBuildType Stable
+    return:
+      type: SuperOffice.WebApi.Data.NetServerBuildType
+    content.vb: Public Const Stable As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NetServerBuildType.Alpha
+  commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.Alpha
+  id: Alpha
+  parent: SuperOffice.WebApi.Data.NetServerBuildType
+  langs:
+  - csharp
+  - vb
+  name: Alpha
+  nameWithType: NetServerBuildType.Alpha
+  fullName: SuperOffice.WebApi.Data.NetServerBuildType.Alpha
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: SuperOffice Confidential version that shall only be used by SuperOffice or partners with a signed and valid agreement with SuperOffice.\n"
+  syntax:
+    content: public const NetServerBuildType Alpha
+    return:
+      type: SuperOffice.WebApi.Data.NetServerBuildType
+    content.vb: Public Const Alpha As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NetServerBuildType.Beta
+  commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.Beta
+  id: Beta
+  parent: SuperOffice.WebApi.Data.NetServerBuildType
+  langs:
+  - csharp
+  - vb
+  name: Beta
+  nameWithType: NetServerBuildType.Beta
+  fullName: SuperOffice.WebApi.Data.NetServerBuildType.Beta
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Beta version intended for SuperOffice with beta partners\n"
+  syntax:
+    content: public const NetServerBuildType Beta
+    return:
+      type: SuperOffice.WebApi.Data.NetServerBuildType
+    content.vb: Public Const Beta As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NetServerBuildType.ReleaseCandidate
+  commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.ReleaseCandidate
+  id: ReleaseCandidate
+  parent: SuperOffice.WebApi.Data.NetServerBuildType
+  langs:
+  - csharp
+  - vb
+  name: ReleaseCandidate
+  nameWithType: NetServerBuildType.ReleaseCandidate
+  fullName: SuperOffice.WebApi.Data.NetServerBuildType.ReleaseCandidate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Release candidate intended for customers participating in a ramp-up or beta program.\n"
+  syntax:
+    content: public const NetServerBuildType ReleaseCandidate
+    return:
+      type: SuperOffice.WebApi.Data.NetServerBuildType
+    content.vb: Public Const ReleaseCandidate As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NetServerBuildType.Release
+  commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.Release
+  id: Release
+  parent: SuperOffice.WebApi.Data.NetServerBuildType
+  langs:
+  - csharp
+  - vb
+  name: Release
+  nameWithType: NetServerBuildType.Release
+  fullName: SuperOffice.WebApi.Data.NetServerBuildType.Release
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Release intended for customers.\n"
+  syntax:
+    content: public const NetServerBuildType Release
+    return:
+      type: SuperOffice.WebApi.Data.NetServerBuildType
+    content.vb: Public Const Release As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.NetServerBuildType
+  commentId: T:SuperOffice.WebApi.Data.NetServerBuildType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: NetServerBuildType
+  nameWithType: NetServerBuildType
+  fullName: SuperOffice.WebApi.Data.NetServerBuildType

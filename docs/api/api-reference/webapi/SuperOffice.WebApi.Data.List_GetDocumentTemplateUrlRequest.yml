@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest
+  id: List_GetDocumentTemplateUrlRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.DocumentTemplateId
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.LanguageCode
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.WritableUrl
+  langs:
+  - csharp
+  - vb
+  name: List_GetDocumentTemplateUrlRequest
+  nameWithType: List_GetDocumentTemplateUrlRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetDocumentTemplateUrlRequest : Object'
+    content.vb: >-
+      Public Class List_GetDocumentTemplateUrlRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetDocumentTemplateUrlRequest()
+  nameWithType: List_GetDocumentTemplateUrlRequest.List_GetDocumentTemplateUrlRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.List_GetDocumentTemplateUrlRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetDocumentTemplateUrlRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.DocumentTemplateId
+  commentId: P:SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.DocumentTemplateId
+  id: DocumentTemplateId
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateId
+  nameWithType: List_GetDocumentTemplateUrlRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.DocumentTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.DocumentTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.WritableUrl
+  commentId: P:SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.WritableUrl
+  id: WritableUrl
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: WritableUrl
+  nameWithType: List_GetDocumentTemplateUrlRequest.WritableUrl
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.WritableUrl
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool WritableUrl { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WritableUrl As Boolean
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.WritableUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.LanguageCode
+  commentId: P:SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.LanguageCode
+  id: LanguageCode
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: LanguageCode
+  nameWithType: List_GetDocumentTemplateUrlRequest.LanguageCode
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.LanguageCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LanguageCode As String
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.LanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.#ctor
+  isExternal: true
+  name: List_GetDocumentTemplateUrlRequest
+  nameWithType: List_GetDocumentTemplateUrlRequest.List_GetDocumentTemplateUrlRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.List_GetDocumentTemplateUrlRequest
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.DocumentTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.DocumentTemplateId
+  isExternal: true
+  name: DocumentTemplateId
+  nameWithType: List_GetDocumentTemplateUrlRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.DocumentTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.WritableUrl*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.WritableUrl
+  isExternal: true
+  name: WritableUrl
+  nameWithType: List_GetDocumentTemplateUrlRequest.WritableUrl
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.WritableUrl
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.LanguageCode*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.LanguageCode
+  isExternal: true
+  name: LanguageCode
+  nameWithType: List_GetDocumentTemplateUrlRequest.LanguageCode
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateUrlRequest.LanguageCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

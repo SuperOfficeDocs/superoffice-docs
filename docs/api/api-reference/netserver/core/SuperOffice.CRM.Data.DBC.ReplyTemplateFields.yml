@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ReplyTemplateFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ReplyTemplateFields
+  id: DBC.ReplyTemplateFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ReplyTemplateFields.AccessLevel
+  - SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Description
+  - SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Flags
+  - SuperOffice.CRM.Data.DBC.ReplyTemplateFields.FolderId
+  - SuperOffice.CRM.Data.DBC.ReplyTemplateFields.LastChanged
+  - SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Name
+  - SuperOffice.CRM.Data.DBC.ReplyTemplateFields.OwnedBy
+  - SuperOffice.CRM.Data.DBC.ReplyTemplateFields.ReplyTemplateId
+  langs:
+  - csharp
+  - vb
+  name: DBC.ReplyTemplateFields
+  nameWithType: DBC.ReplyTemplateFields
+  fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ReplyTemplate, Templates for automatic and manual replies to emails/sms organized hierachically\n"
+  syntax:
+    content: public static class ReplyTemplateFields
+    content.vb: Public Module ReplyTemplateFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.ReplyTemplateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateFields.ReplyTemplateId
+  id: ReplyTemplateId
+  parent: SuperOffice.CRM.Data.DBC.ReplyTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateId
+  nameWithType: DBC.ReplyTemplateFields.ReplyTemplateId
+  fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.ReplyTemplateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nReplyTemplate.ReplyTemplateId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string ReplyTemplateId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTemplateId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ReplyTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ReplyTemplateFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nReplyTemplate.Name: The name for this reply template.\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.ReplyTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.ReplyTemplateFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nReplyTemplate.Description: The description for this reply template.\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.FolderId
+  commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateFields.FolderId
+  id: FolderId
+  parent: SuperOffice.CRM.Data.DBC.ReplyTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: DBC.ReplyTemplateFields.FolderId
+  fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.FolderId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nReplyTemplate.FolderId: The id of the folder in which this reply template is located. NULL or -1 if this is a toplevel reply template.\n"
+  syntax:
+    content: public const string FolderId = "folder_id"
+    return:
+      type: System.String
+    content.vb: Public Const FolderId As String = "folder_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.OwnedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateFields.OwnedBy
+  id: OwnedBy
+  parent: SuperOffice.CRM.Data.DBC.ReplyTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: OwnedBy
+  nameWithType: DBC.ReplyTemplateFields.OwnedBy
+  fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.OwnedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nReplyTemplate.OwnedBy: The id of the user who owns this reply template.\n"
+  syntax:
+    content: public const string OwnedBy = "owned_by"
+    return:
+      type: System.String
+    content.vb: Public Const OwnedBy As String = "owned_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.LastChanged
+  commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateFields.LastChanged
+  id: LastChanged
+  parent: SuperOffice.CRM.Data.DBC.ReplyTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: LastChanged
+  nameWithType: DBC.ReplyTemplateFields.LastChanged
+  fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.LastChanged
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nReplyTemplate.LastChanged: When the reply template was last changed.\n"
+  syntax:
+    content: public const string LastChanged = "last_changed"
+    return:
+      type: System.String
+    content.vb: Public Const LastChanged As String = "last_changed"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.AccessLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateFields.AccessLevel
+  id: AccessLevel
+  parent: SuperOffice.CRM.Data.DBC.ReplyTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: AccessLevel
+  nameWithType: DBC.ReplyTemplateFields.AccessLevel
+  fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.AccessLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nReplyTemplate.AccessLevel: The access level (enum) for this reply template.\n"
+  syntax:
+    content: public const string AccessLevel = "access_level"
+    return:
+      type: System.String
+    content.vb: Public Const AccessLevel As String = "access_level"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Flags
+  commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.DBC.ReplyTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: DBC.ReplyTemplateFields.Flags
+  fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateFields.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nReplyTemplate.Flags: A bitmap for flags.not used for anything [snarum 29 aug 2001]\n"
+  syntax:
+    content: public const string Flags = "flags"
+    return:
+      type: System.String
+    content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

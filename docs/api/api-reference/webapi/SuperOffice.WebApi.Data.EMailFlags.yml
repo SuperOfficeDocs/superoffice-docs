@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMailFlags
+  commentId: T:SuperOffice.WebApi.Data.EMailFlags
+  id: EMailFlags
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMailFlags.Answered
+  - SuperOffice.WebApi.Data.EMailFlags.Deleted
+  - SuperOffice.WebApi.Data.EMailFlags.Draft
+  - SuperOffice.WebApi.Data.EMailFlags.Flagged
+  - SuperOffice.WebApi.Data.EMailFlags.None
+  - SuperOffice.WebApi.Data.EMailFlags.Recent
+  - SuperOffice.WebApi.Data.EMailFlags.Seen
+  - SuperOffice.WebApi.Data.EMailFlags.value__
+  langs:
+  - csharp
+  - vb
+  name: EMailFlags
+  nameWithType: EMailFlags
+  fullName: SuperOffice.WebApi.Data.EMailFlags
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\nThis Enum is used by:  email_item.flags\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class EMailFlags : Enum'
+    content.vb: >-
+      Public NotInheritable Class EMailFlags
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.EMailFlags.value__
+  commentId: F:SuperOffice.WebApi.Data.EMailFlags.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EMailFlags.value__
+  fullName: SuperOffice.WebApi.Data.EMailFlags.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailFlags.None
+  commentId: F:SuperOffice.WebApi.Data.EMailFlags.None
+  id: None
+  parent: SuperOffice.WebApi.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: EMailFlags.None
+  fullName: SuperOffice.WebApi.Data.EMailFlags.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: 0: No flags set\n"
+  syntax:
+    content: public const EMailFlags None
+    return:
+      type: SuperOffice.WebApi.Data.EMailFlags
+    content.vb: Public Const None As EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailFlags.Seen
+  commentId: F:SuperOffice.WebApi.Data.EMailFlags.Seen
+  id: Seen
+  parent: SuperOffice.WebApi.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Seen
+  nameWithType: EMailFlags.Seen
+  fullName: SuperOffice.WebApi.Data.EMailFlags.Seen
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: 1: Mail has been read\n"
+  syntax:
+    content: public const EMailFlags Seen
+    return:
+      type: SuperOffice.WebApi.Data.EMailFlags
+    content.vb: Public Const Seen As EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailFlags.Deleted
+  commentId: F:SuperOffice.WebApi.Data.EMailFlags.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: EMailFlags.Deleted
+  fullName: SuperOffice.WebApi.Data.EMailFlags.Deleted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: 2: Mail has been deleted\n"
+  syntax:
+    content: public const EMailFlags Deleted
+    return:
+      type: SuperOffice.WebApi.Data.EMailFlags
+    content.vb: Public Const Deleted As EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailFlags.Recent
+  commentId: F:SuperOffice.WebApi.Data.EMailFlags.Recent
+  id: Recent
+  parent: SuperOffice.WebApi.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Recent
+  nameWithType: EMailFlags.Recent
+  fullName: SuperOffice.WebApi.Data.EMailFlags.Recent
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: 4: Mail is recent\n"
+  syntax:
+    content: public const EMailFlags Recent
+    return:
+      type: SuperOffice.WebApi.Data.EMailFlags
+    content.vb: Public Const Recent As EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailFlags.Flagged
+  commentId: F:SuperOffice.WebApi.Data.EMailFlags.Flagged
+  id: Flagged
+  parent: SuperOffice.WebApi.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Flagged
+  nameWithType: EMailFlags.Flagged
+  fullName: SuperOffice.WebApi.Data.EMailFlags.Flagged
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: 8: Mail is flagged in the GUI\n"
+  syntax:
+    content: public const EMailFlags Flagged
+    return:
+      type: SuperOffice.WebApi.Data.EMailFlags
+    content.vb: Public Const Flagged As EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailFlags.Draft
+  commentId: F:SuperOffice.WebApi.Data.EMailFlags.Draft
+  id: Draft
+  parent: SuperOffice.WebApi.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Draft
+  nameWithType: EMailFlags.Draft
+  fullName: SuperOffice.WebApi.Data.EMailFlags.Draft
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: 16: Mail is an unsent draft\n"
+  syntax:
+    content: public const EMailFlags Draft
+    return:
+      type: SuperOffice.WebApi.Data.EMailFlags
+    content.vb: Public Const Draft As EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailFlags.Answered
+  commentId: F:SuperOffice.WebApi.Data.EMailFlags.Answered
+  id: Answered
+  parent: SuperOffice.WebApi.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Answered
+  nameWithType: EMailFlags.Answered
+  fullName: SuperOffice.WebApi.Data.EMailFlags.Answered
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n32: 32: Mail has been replied to at least once\n"
+  syntax:
+    content: public const EMailFlags Answered
+    return:
+      type: SuperOffice.WebApi.Data.EMailFlags
+    content.vb: Public Const Answered As EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.EMailFlags
+  commentId: T:SuperOffice.WebApi.Data.EMailFlags
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailFlags
+  nameWithType: EMailFlags
+  fullName: SuperOffice.WebApi.Data.EMailFlags

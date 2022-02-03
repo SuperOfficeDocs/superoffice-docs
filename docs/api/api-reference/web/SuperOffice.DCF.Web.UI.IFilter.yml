@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.IFilter
+  commentId: T:SuperOffice.DCF.Web.UI.IFilter
+  id: IFilter
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.IFilter.Phase
+  - SuperOffice.DCF.Web.UI.IFilter.Process(System.Xml.XmlDocument)
+  langs:
+  - csharp
+  - vb
+  name: IFilter
+  nameWithType: IFilter
+  fullName: SuperOffice.DCF.Web.UI.IFilter
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public interface IFilter
+    content.vb: Public Interface IFilter
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.DCF.Web.UI.IFilter.Process(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.DCF.Web.UI.IFilter.Process(System.Xml.XmlDocument)
+  id: Process(System.Xml.XmlDocument)
+  parent: SuperOffice.DCF.Web.UI.IFilter
+  langs:
+  - csharp
+  - vb
+  name: Process(XmlDocument)
+  nameWithType: IFilter.Process(XmlDocument)
+  fullName: SuperOffice.DCF.Web.UI.IFilter.Process(System.Xml.XmlDocument)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: void Process(XmlDocument xml)
+    parameters:
+    - id: xml
+      type: System.Xml.XmlDocument
+    content.vb: Sub Process(xml As XmlDocument)
+  overload: SuperOffice.DCF.Web.UI.IFilter.Process*
+- uid: SuperOffice.DCF.Web.UI.IFilter.Phase
+  commentId: P:SuperOffice.DCF.Web.UI.IFilter.Phase
+  id: Phase
+  parent: SuperOffice.DCF.Web.UI.IFilter
+  langs:
+  - csharp
+  - vb
+  name: Phase
+  nameWithType: IFilter.Phase
+  fullName: SuperOffice.DCF.Web.UI.IFilter.Phase
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: FilterPhase Phase { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.UI.FilterPhase
+    content.vb: Property Phase As FilterPhase
+  overload: SuperOffice.DCF.Web.UI.IFilter.Phase*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.IFilter.Process*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IFilter.Process
+  isExternal: true
+  name: Process
+  nameWithType: IFilter.Process
+  fullName: SuperOffice.DCF.Web.UI.IFilter.Process
+- uid: System.Xml.XmlDocument
+  isExternal: true
+  name: XmlDocument
+  nameWithType: XmlDocument
+  fullName: System.Xml.XmlDocument
+- uid: SuperOffice.DCF.Web.UI.IFilter.Phase*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IFilter.Phase
+  isExternal: true
+  name: Phase
+  nameWithType: IFilter.Phase
+  fullName: SuperOffice.DCF.Web.UI.IFilter.Phase
+- uid: SuperOffice.DCF.Web.UI.FilterPhase
+  commentId: T:SuperOffice.DCF.Web.UI.FilterPhase
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: FilterPhase
+  nameWithType: FilterPhase
+  fullName: SuperOffice.DCF.Web.UI.FilterPhase

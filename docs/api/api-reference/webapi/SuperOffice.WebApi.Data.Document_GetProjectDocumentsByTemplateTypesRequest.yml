@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest
+  id: Document_GetProjectDocumentsByTemplateTypesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.Count
+  - SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.DocumentTemplateIds
+  - SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.EndTime
+  - SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.ProjectId
+  - SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.StartTime
+  langs:
+  - csharp
+  - vb
+  name: Document_GetProjectDocumentsByTemplateTypesRequest
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_GetProjectDocumentsByTemplateTypesRequest : Object'
+    content.vb: >-
+      Public Class Document_GetProjectDocumentsByTemplateTypesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_GetProjectDocumentsByTemplateTypesRequest()
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.Document_GetProjectDocumentsByTemplateTypesRequest()
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.Document_GetProjectDocumentsByTemplateTypesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_GetProjectDocumentsByTemplateTypesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.StartTime
+  commentId: P:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.StartTime
+  id: StartTime
+  parent: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.StartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime StartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartTime As DateTime
+  overload: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.StartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.EndTime
+  commentId: P:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.EndTime
+  id: EndTime
+  parent: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest
+  langs:
+  - csharp
+  - vb
+  name: EndTime
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.EndTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime EndTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndTime As DateTime
+  overload: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.EndTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.Count
+  commentId: P:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.Count
+  id: Count
+  parent: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.Count
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.Count
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.DocumentTemplateIds
+  commentId: P:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.DocumentTemplateIds
+  id: DocumentTemplateIds
+  parent: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateIds
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.DocumentTemplateIds
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.DocumentTemplateIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] DocumentTemplateIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property DocumentTemplateIds As Integer()
+  overload: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.DocumentTemplateIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.#ctor
+  isExternal: true
+  name: Document_GetProjectDocumentsByTemplateTypesRequest
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.Document_GetProjectDocumentsByTemplateTypesRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.Document_GetProjectDocumentsByTemplateTypesRequest
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.ProjectId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.StartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.StartTime
+  isExternal: true
+  name: StartTime
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.StartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.EndTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.EndTime
+  isExternal: true
+  name: EndTime
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.EndTime
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.Count*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.Count
+  isExternal: true
+  name: Count
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.Count
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.Count
+- uid: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.DocumentTemplateIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.DocumentTemplateIds
+  isExternal: true
+  name: DocumentTemplateIds
+  nameWithType: Document_GetProjectDocumentsByTemplateTypesRequest.DocumentTemplateIds
+  fullName: SuperOffice.WebApi.Data.Document_GetProjectDocumentsByTemplateTypesRequest.DocumentTemplateIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

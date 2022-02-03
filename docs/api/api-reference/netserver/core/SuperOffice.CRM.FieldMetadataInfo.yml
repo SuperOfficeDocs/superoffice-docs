@@ -1,0 +1,1626 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.FieldMetadataInfo
+  commentId: T:SuperOffice.CRM.FieldMetadataInfo
+  id: FieldMetadataInfo
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.FieldMetadataInfo.#ctor
+  - SuperOffice.CRM.FieldMetadataInfo.Access
+  - SuperOffice.CRM.FieldMetadataInfo.DefaultValue
+  - SuperOffice.CRM.FieldMetadataInfo.DisplayDescription
+  - SuperOffice.CRM.FieldMetadataInfo.DisplayName
+  - SuperOffice.CRM.FieldMetadataInfo.FieldKey
+  - SuperOffice.CRM.FieldMetadataInfo.FieldType
+  - SuperOffice.CRM.FieldMetadataInfo.ListName
+  - SuperOffice.CRM.FieldMetadataInfo.MaxLength
+  - SuperOffice.CRM.FieldMetadataInfo.Rank
+  - SuperOffice.CRM.FieldMetadataInfo.ToString
+  langs:
+  - csharp
+  - vb
+  name: FieldMetadataInfo
+  nameWithType: FieldMetadataInfo
+  fullName: SuperOffice.CRM.FieldMetadataInfo
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThis carrier describes a custom field to be added to the config dialog at runtime. \nIt is used to populate the Admin configuration dialog for a connection.\nNote that this is just a description of the field - it is not the field itself.\nThe GUI will use this info to build the user interface controls. The call to the \nERP Connector’s GetConfigurationFields method returns a list of fields and field types. \nThe Admin client builds a dialog with these fields.\n"
+  syntax:
+    content: public class FieldMetadataInfo
+    content.vb: Public Class FieldMetadataInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.FieldMetadataInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.FieldMetadataInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.FieldMetadataInfo)
+  - SuperOffice.CRM.FieldMetadataInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.FieldMetadataInfo.SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType
+  - SuperOffice.CRM.FieldMetadataInfo.SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(System.String)
+  - SuperOffice.CRM.FieldMetadataInfo.SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType
+  - SuperOffice.CRM.FieldMetadataInfo.SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth
+  - SuperOffice.CRM.FieldMetadataInfo.SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(System.String)
+  - SuperOffice.CRM.FieldMetadataInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.FieldMetadataInfo.SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.FieldMetadataInfo.ToString
+  commentId: M:SuperOffice.CRM.FieldMetadataInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.FieldMetadataInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FieldMetadataInfo.ToString()
+  fullName: SuperOffice.CRM.FieldMetadataInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nOverride: Useful ToString for debugging\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.FieldMetadataInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.FieldMetadataInfo.#ctor
+  commentId: M:SuperOffice.CRM.FieldMetadataInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.FieldMetadataInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldMetadataInfo()
+  nameWithType: FieldMetadataInfo.FieldMetadataInfo()
+  fullName: SuperOffice.CRM.FieldMetadataInfo.FieldMetadataInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public FieldMetadataInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.FieldMetadataInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.FieldMetadataInfo.FieldKey
+  commentId: P:SuperOffice.CRM.FieldMetadataInfo.FieldKey
+  id: FieldKey
+  parent: SuperOffice.CRM.FieldMetadataInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldKey
+  nameWithType: FieldMetadataInfo.FieldKey
+  fullName: SuperOffice.CRM.FieldMetadataInfo.FieldKey
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nInternal name of the field. Used as the key in the ConnectionConfigFieldInfo values when TestConnection is called.\n"
+  syntax:
+    content: public string FieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FieldKey As String
+  overload: SuperOffice.CRM.FieldMetadataInfo.FieldKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.FieldMetadataInfo.DisplayName
+  commentId: P:SuperOffice.CRM.FieldMetadataInfo.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.FieldMetadataInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: FieldMetadataInfo.DisplayName
+  fullName: SuperOffice.CRM.FieldMetadataInfo.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nLocalized field name – shown in the GUI as the label for the control.\n"
+  syntax:
+    content: public string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayName As String
+  overload: SuperOffice.CRM.FieldMetadataInfo.DisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.FieldMetadataInfo.DisplayDescription
+  commentId: P:SuperOffice.CRM.FieldMetadataInfo.DisplayDescription
+  id: DisplayDescription
+  parent: SuperOffice.CRM.FieldMetadataInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayDescription
+  nameWithType: FieldMetadataInfo.DisplayDescription
+  fullName: SuperOffice.CRM.FieldMetadataInfo.DisplayDescription
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip for the field name.\n"
+  syntax:
+    content: public string DisplayDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayDescription As String
+  overload: SuperOffice.CRM.FieldMetadataInfo.DisplayDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.FieldMetadataInfo.FieldType
+  commentId: P:SuperOffice.CRM.FieldMetadataInfo.FieldType
+  id: FieldType
+  parent: SuperOffice.CRM.FieldMetadataInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: FieldMetadataInfo.FieldType
+  fullName: SuperOffice.CRM.FieldMetadataInfo.FieldType
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nKind of field widget to use: textbox, number field, password field, dropdown list or checkbox?\n"
+  syntax:
+    content: public FieldMetadataTypeInfo FieldType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.FieldMetadataTypeInfo
+    content.vb: Public Property FieldType As FieldMetadataTypeInfo
+  overload: SuperOffice.CRM.FieldMetadataInfo.FieldType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.FieldMetadataInfo.ListName
+  commentId: P:SuperOffice.CRM.FieldMetadataInfo.ListName
+  id: ListName
+  parent: SuperOffice.CRM.FieldMetadataInfo
+  langs:
+  - csharp
+  - vb
+  name: ListName
+  nameWithType: FieldMetadataInfo.ListName
+  fullName: SuperOffice.CRM.FieldMetadataInfo.ListName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nUsed for getting the list items from the list provider. The source of the items must ultimately be exposed via\n<xref href=\"SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SuperOffice.CRM.IErpConnector.GetList(System.Guid%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref>, through various naming conventions and adapters. The actual Quote and ERP Connectors\nsolve this in slightly different ways.\n"
+  syntax:
+    content: public string ListName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ListName As String
+  overload: SuperOffice.CRM.FieldMetadataInfo.ListName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.FieldMetadataInfo.DefaultValue
+  commentId: P:SuperOffice.CRM.FieldMetadataInfo.DefaultValue
+  id: DefaultValue
+  parent: SuperOffice.CRM.FieldMetadataInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: FieldMetadataInfo.DefaultValue
+  fullName: SuperOffice.CRM.FieldMetadataInfo.DefaultValue
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nA default value for the field. The value in the widget when the configure dialog is opened in Add Connection mode.\nThis will vary a bit depending on the type, of course.\nObviously, if the field is a label, text or password, then the text is used.\nIf the field is an int or double, we shall try to convert the string into a number. \n(If the conversion fails, we shall use zero or 0.00 as the default value.)\nIf the field is a list, we shall try to find a list item where the fields default value matches the listsitem’s ERPQuoteListItemKey.\n"
+  syntax:
+    content: public string DefaultValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DefaultValue As String
+  overload: SuperOffice.CRM.FieldMetadataInfo.DefaultValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.FieldMetadataInfo.Rank
+  commentId: P:SuperOffice.CRM.FieldMetadataInfo.Rank
+  id: Rank
+  parent: SuperOffice.CRM.FieldMetadataInfo
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: FieldMetadataInfo.Rank
+  fullName: SuperOffice.CRM.FieldMetadataInfo.Rank
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nA way to set the order of the fields. Lowest value will be displayed first/over the fields with other values.\n"
+  syntax:
+    content: public int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Rank As Integer
+  overload: SuperOffice.CRM.FieldMetadataInfo.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.FieldMetadataInfo.MaxLength
+  commentId: P:SuperOffice.CRM.FieldMetadataInfo.MaxLength
+  id: MaxLength
+  parent: SuperOffice.CRM.FieldMetadataInfo
+  langs:
+  - csharp
+  - vb
+  name: MaxLength
+  nameWithType: FieldMetadataInfo.MaxLength
+  fullName: SuperOffice.CRM.FieldMetadataInfo.MaxLength
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nMaximum length for strings, if set. \n0 means no restriction (though sooner or later <strong>something</strong> will no doubt overflow if you pile on the gigabytes)\n"
+  syntax:
+    content: public int MaxLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxLength As Integer
+  overload: SuperOffice.CRM.FieldMetadataInfo.MaxLength*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.FieldMetadataInfo.Access
+  commentId: P:SuperOffice.CRM.FieldMetadataInfo.Access
+  id: Access
+  parent: SuperOffice.CRM.FieldMetadataInfo
+  langs:
+  - csharp
+  - vb
+  name: Access
+  nameWithType: FieldMetadataInfo.Access
+  fullName: SuperOffice.CRM.FieldMetadataInfo.Access
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nAccess restrictions on the field\n"
+  syntax:
+    content: public FieldAccessInfo Access { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.FieldAccessInfo
+    content.vb: Public Property Access As FieldAccessInfo
+  overload: SuperOffice.CRM.FieldMetadataInfo.Access*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FieldMetadataInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FieldMetadataInfo, To>()
+  nameWithType: EnumUtil.MapEnums<FieldMetadataInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.FieldMetadataInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FieldMetadataInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.FieldMetadataInfo, To)()
+  name.vb: MapEnums(Of FieldMetadataInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FieldMetadataInfo, To>
+    nameWithType: EnumUtil.MapEnums<FieldMetadataInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.FieldMetadataInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FieldMetadataInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of FieldMetadataInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.FieldMetadataInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FieldMetadataInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<FieldMetadataInfo>(FieldMetadataInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<FieldMetadataInfo>(FieldMetadataInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.FieldMetadataInfo>(SuperOffice.CRM.FieldMetadataInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FieldMetadataInfo)(FieldMetadataInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.FieldMetadataInfo)(SuperOffice.CRM.FieldMetadataInfo)
+  name.vb: AssignByReflection(Of FieldMetadataInfo)(FieldMetadataInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<FieldMetadataInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<FieldMetadataInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.FieldMetadataInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of FieldMetadataInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of FieldMetadataInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.FieldMetadataInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FieldMetadataInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<FieldMetadataInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<FieldMetadataInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.FieldMetadataInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FieldMetadataInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.FieldMetadataInfo)()
+  name.vb: GraphCopy(Of FieldMetadataInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<FieldMetadataInfo>
+    nameWithType: ObjectExtensions.GraphCopy<FieldMetadataInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.FieldMetadataInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of FieldMetadataInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of FieldMetadataInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.FieldMetadataInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FieldMetadataInfo.SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  definition: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+  name: GetRestrictionType()
+  nameWithType: ConnectorExtensions.GetRestrictionType()
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType
+    name: GetRestrictionType
+    nameWithType: ConnectorExtensions.GetRestrictionType
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType
+    name: GetRestrictionType
+    nameWithType: ConnectorExtensions.GetRestrictionType
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FieldMetadataInfo.SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  definition: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  name: GetRestrictionListName(String)
+  nameWithType: ConnectorExtensions.GetRestrictionListName(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(System.String)
+    name: GetRestrictionListName
+    nameWithType: ConnectorExtensions.GetRestrictionListName
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(System.String)
+    name: GetRestrictionListName
+    nameWithType: ConnectorExtensions.GetRestrictionListName
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FieldMetadataInfo.SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  definition: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+  name: GetDisplayType()
+  nameWithType: ConnectorExtensions.GetDisplayType()
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType
+    name: GetDisplayType
+    nameWithType: ConnectorExtensions.GetDisplayType
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType
+    name: GetDisplayType
+    nameWithType: ConnectorExtensions.GetDisplayType
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FieldMetadataInfo.SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  definition: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+  name: GetDefaultWidth()
+  nameWithType: ConnectorExtensions.GetDefaultWidth()
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth
+    name: GetDefaultWidth
+    nameWithType: ConnectorExtensions.GetDefaultWidth
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth
+    name: GetDefaultWidth
+    nameWithType: ConnectorExtensions.GetDefaultWidth
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FieldMetadataInfo.SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  definition: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  name: ToColumnInfo(String)
+  nameWithType: ConnectorExtensions.ToColumnInfo(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(System.String)
+    name: ToColumnInfo
+    nameWithType: ConnectorExtensions.ToColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(System.String)
+    name: ToColumnInfo
+    nameWithType: ConnectorExtensions.ToColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FieldMetadataInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FieldMetadataInfo, To>()
+  nameWithType: Converters.MapEnums<FieldMetadataInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.FieldMetadataInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of FieldMetadataInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.FieldMetadataInfo, To)()
+  name.vb: MapEnums(Of FieldMetadataInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FieldMetadataInfo, To>
+    nameWithType: Converters.MapEnums<FieldMetadataInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.FieldMetadataInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FieldMetadataInfo, To)
+    nameWithType: Converters.MapEnums(Of FieldMetadataInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.FieldMetadataInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FieldMetadataInfo.SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+  name: FromPlugin()
+  nameWithType: Converters.FromPlugin()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin
+    name: FromPlugin
+    nameWithType: Converters.FromPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin
+    name: FromPlugin
+    nameWithType: Converters.FromPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+  isExternal: true
+  name: GetRestrictionType(FieldMetadataInfo)
+  nameWithType: ConnectorExtensions.GetRestrictionType(FieldMetadataInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+    name: GetRestrictionType
+    nameWithType: ConnectorExtensions.GetRestrictionType
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType(SuperOffice.CRM.FieldMetadataInfo)
+    name: GetRestrictionType
+    nameWithType: ConnectorExtensions.GetRestrictionType
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  commentId: T:SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ConnectorExtensions
+  nameWithType: ConnectorExtensions
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  isExternal: true
+  name: GetRestrictionListName(FieldMetadataInfo, String)
+  nameWithType: ConnectorExtensions.GetRestrictionListName(FieldMetadataInfo, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo,System.String)
+    name: GetRestrictionListName
+    nameWithType: ConnectorExtensions.GetRestrictionListName
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName(SuperOffice.CRM.FieldMetadataInfo,System.String)
+    name: GetRestrictionListName
+    nameWithType: ConnectorExtensions.GetRestrictionListName
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetRestrictionListName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+  isExternal: true
+  name: GetDisplayType(FieldMetadataInfo)
+  nameWithType: ConnectorExtensions.GetDisplayType(FieldMetadataInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+    name: GetDisplayType
+    nameWithType: ConnectorExtensions.GetDisplayType
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType(SuperOffice.CRM.FieldMetadataInfo)
+    name: GetDisplayType
+    nameWithType: ConnectorExtensions.GetDisplayType
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDisplayType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+  isExternal: true
+  name: GetDefaultWidth(FieldMetadataInfo)
+  nameWithType: ConnectorExtensions.GetDefaultWidth(FieldMetadataInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+    name: GetDefaultWidth
+    nameWithType: ConnectorExtensions.GetDefaultWidth
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth(SuperOffice.CRM.FieldMetadataInfo)
+    name: GetDefaultWidth
+    nameWithType: ConnectorExtensions.GetDefaultWidth
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.GetDefaultWidth
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo,System.String)
+  isExternal: true
+  name: ToColumnInfo(FieldMetadataInfo, String)
+  nameWithType: ConnectorExtensions.ToColumnInfo(FieldMetadataInfo, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo,System.String)
+    name: ToColumnInfo
+    nameWithType: ConnectorExtensions.ToColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo(SuperOffice.CRM.FieldMetadataInfo,System.String)
+    name: ToColumnInfo
+    nameWithType: ConnectorExtensions.ToColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ConnectorExtensions.ToColumnInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+  isExternal: true
+  name: FromPlugin(FieldMetadataInfo)
+  nameWithType: Converters.FromPlugin(FieldMetadataInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+    name: FromPlugin
+    nameWithType: Converters.FromPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+    name: FromPlugin
+    nameWithType: Converters.FromPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FieldMetadataInfo
+    name: FieldMetadataInfo
+    nameWithType: FieldMetadataInfo
+    fullName: SuperOffice.CRM.FieldMetadataInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FieldMetadataInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.FieldMetadataInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FieldMetadataInfo.ToString
+  fullName: SuperOffice.CRM.FieldMetadataInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.FieldMetadataInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.FieldMetadataInfo.#ctor
+  isExternal: true
+  name: FieldMetadataInfo
+  nameWithType: FieldMetadataInfo.FieldMetadataInfo
+  fullName: SuperOffice.CRM.FieldMetadataInfo.FieldMetadataInfo
+- uid: SuperOffice.CRM.FieldMetadataInfo.FieldKey*
+  commentId: Overload:SuperOffice.CRM.FieldMetadataInfo.FieldKey
+  isExternal: true
+  name: FieldKey
+  nameWithType: FieldMetadataInfo.FieldKey
+  fullName: SuperOffice.CRM.FieldMetadataInfo.FieldKey
+- uid: SuperOffice.CRM.FieldMetadataInfo.DisplayName*
+  commentId: Overload:SuperOffice.CRM.FieldMetadataInfo.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: FieldMetadataInfo.DisplayName
+  fullName: SuperOffice.CRM.FieldMetadataInfo.DisplayName
+- uid: SuperOffice.CRM.FieldMetadataInfo.DisplayDescription*
+  commentId: Overload:SuperOffice.CRM.FieldMetadataInfo.DisplayDescription
+  isExternal: true
+  name: DisplayDescription
+  nameWithType: FieldMetadataInfo.DisplayDescription
+  fullName: SuperOffice.CRM.FieldMetadataInfo.DisplayDescription
+- uid: SuperOffice.CRM.FieldMetadataInfo.FieldType*
+  commentId: Overload:SuperOffice.CRM.FieldMetadataInfo.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: FieldMetadataInfo.FieldType
+  fullName: SuperOffice.CRM.FieldMetadataInfo.FieldType
+- uid: SuperOffice.CRM.FieldMetadataTypeInfo
+  commentId: T:SuperOffice.CRM.FieldMetadataTypeInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: FieldMetadataTypeInfo
+  nameWithType: FieldMetadataTypeInfo
+  fullName: SuperOffice.CRM.FieldMetadataTypeInfo
+- uid: SuperOffice.CRM.FieldMetadataInfo.ListName*
+  commentId: Overload:SuperOffice.CRM.FieldMetadataInfo.ListName
+  isExternal: true
+  name: ListName
+  nameWithType: FieldMetadataInfo.ListName
+  fullName: SuperOffice.CRM.FieldMetadataInfo.ListName
+- uid: SuperOffice.CRM.FieldMetadataInfo.DefaultValue*
+  commentId: Overload:SuperOffice.CRM.FieldMetadataInfo.DefaultValue
+  isExternal: true
+  name: DefaultValue
+  nameWithType: FieldMetadataInfo.DefaultValue
+  fullName: SuperOffice.CRM.FieldMetadataInfo.DefaultValue
+- uid: SuperOffice.CRM.FieldMetadataInfo.Rank*
+  commentId: Overload:SuperOffice.CRM.FieldMetadataInfo.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: FieldMetadataInfo.Rank
+  fullName: SuperOffice.CRM.FieldMetadataInfo.Rank
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.FieldMetadataInfo.MaxLength*
+  commentId: Overload:SuperOffice.CRM.FieldMetadataInfo.MaxLength
+  isExternal: true
+  name: MaxLength
+  nameWithType: FieldMetadataInfo.MaxLength
+  fullName: SuperOffice.CRM.FieldMetadataInfo.MaxLength
+- uid: SuperOffice.CRM.FieldMetadataInfo.Access*
+  commentId: Overload:SuperOffice.CRM.FieldMetadataInfo.Access
+  isExternal: true
+  name: Access
+  nameWithType: FieldMetadataInfo.Access
+  fullName: SuperOffice.CRM.FieldMetadataInfo.Access
+- uid: SuperOffice.CRM.FieldAccessInfo
+  commentId: T:SuperOffice.CRM.FieldAccessInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: FieldAccessInfo
+  nameWithType: FieldAccessInfo
+  fullName: SuperOffice.CRM.FieldAccessInfo

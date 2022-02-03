@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AssignmentStatus
+  commentId: T:SuperOffice.WebApi.Data.AssignmentStatus
+  id: AssignmentStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AssignmentStatus.Assigning
+  - SuperOffice.WebApi.Data.AssignmentStatus.Declined
+  - SuperOffice.WebApi.Data.AssignmentStatus.None
+  - SuperOffice.WebApi.Data.AssignmentStatus.Seen
+  - SuperOffice.WebApi.Data.AssignmentStatus.Unknown
+  - SuperOffice.WebApi.Data.AssignmentStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: AssignmentStatus
+  nameWithType: AssignmentStatus
+  fullName: SuperOffice.WebApi.Data.AssignmentStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus if this appointment is in the process of being assigned to someone else\n"
+  syntax:
+    content: 'public sealed class AssignmentStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class AssignmentStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.AssignmentStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.AssignmentStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.AssignmentStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AssignmentStatus.value__
+  fullName: SuperOffice.WebApi.Data.AssignmentStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AssignmentStatus.Unknown
+  commentId: F:SuperOffice.WebApi.Data.AssignmentStatus.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.AssignmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: AssignmentStatus.Unknown
+  fullName: SuperOffice.WebApi.Data.AssignmentStatus.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax:
+    content: public const AssignmentStatus Unknown
+    return:
+      type: SuperOffice.WebApi.Data.AssignmentStatus
+    content.vb: Public Const Unknown As AssignmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AssignmentStatus.None
+  commentId: F:SuperOffice.WebApi.Data.AssignmentStatus.None
+  id: None
+  parent: SuperOffice.WebApi.Data.AssignmentStatus
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AssignmentStatus.None
+  fullName: SuperOffice.WebApi.Data.AssignmentStatus.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: 1: All appointments not in the process of being assigned to someone else\n"
+  syntax:
+    content: public const AssignmentStatus None
+    return:
+      type: SuperOffice.WebApi.Data.AssignmentStatus
+    content.vb: Public Const None As AssignmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AssignmentStatus.Assigning
+  commentId: F:SuperOffice.WebApi.Data.AssignmentStatus.Assigning
+  id: Assigning
+  parent: SuperOffice.WebApi.Data.AssignmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Assigning
+  nameWithType: AssignmentStatus.Assigning
+  fullName: SuperOffice.WebApi.Data.AssignmentStatus.Assigning
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: 11: Appointment in the process of being assigned to someone else\n"
+  syntax:
+    content: public const AssignmentStatus Assigning
+    return:
+      type: SuperOffice.WebApi.Data.AssignmentStatus
+    content.vb: Public Const Assigning As AssignmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AssignmentStatus.Seen
+  commentId: F:SuperOffice.WebApi.Data.AssignmentStatus.Seen
+  id: Seen
+  parent: SuperOffice.WebApi.Data.AssignmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Seen
+  nameWithType: AssignmentStatus.Seen
+  fullName: SuperOffice.WebApi.Data.AssignmentStatus.Seen
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n12: 12: Appointment where the party requested to take ownership of the appointment or task has observed the request, but not yet accepted or declined the request.\n"
+  syntax:
+    content: public const AssignmentStatus Seen
+    return:
+      type: SuperOffice.WebApi.Data.AssignmentStatus
+    content.vb: Public Const Seen As AssignmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AssignmentStatus.Declined
+  commentId: F:SuperOffice.WebApi.Data.AssignmentStatus.Declined
+  id: Declined
+  parent: SuperOffice.WebApi.Data.AssignmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Declined
+  nameWithType: AssignmentStatus.Declined
+  fullName: SuperOffice.WebApi.Data.AssignmentStatus.Declined
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n13: 13: Appointment where the person requested to take ownership has declined.\n"
+  syntax:
+    content: public const AssignmentStatus Declined
+    return:
+      type: SuperOffice.WebApi.Data.AssignmentStatus
+    content.vb: Public Const Declined As AssignmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AssignmentStatus
+  commentId: T:SuperOffice.WebApi.Data.AssignmentStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AssignmentStatus
+  nameWithType: AssignmentStatus
+  fullName: SuperOffice.WebApi.Data.AssignmentStatus

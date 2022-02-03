@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest
+  commentId: T:SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest
+  id: Chat_GetChatMessagesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.#ctor
+  - SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.After
+  - SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.ChatSessionId
+  langs:
+  - csharp
+  - vb
+  name: Chat_GetChatMessagesRequest
+  nameWithType: Chat_GetChatMessagesRequest
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Chat_GetChatMessagesRequest : Object'
+    content.vb: >-
+      Public Class Chat_GetChatMessagesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest
+  langs:
+  - csharp
+  - vb
+  name: Chat_GetChatMessagesRequest()
+  nameWithType: Chat_GetChatMessagesRequest.Chat_GetChatMessagesRequest()
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.Chat_GetChatMessagesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Chat_GetChatMessagesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.ChatSessionId
+  commentId: P:SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.ChatSessionId
+  id: ChatSessionId
+  parent: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionId
+  nameWithType: Chat_GetChatMessagesRequest.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.ChatSessionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ChatSessionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatSessionId As Integer
+  overload: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.ChatSessionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.After
+  commentId: P:SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.After
+  id: After
+  parent: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest
+  langs:
+  - csharp
+  - vb
+  name: After
+  nameWithType: Chat_GetChatMessagesRequest.After
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.After
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int After { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property After As Integer
+  overload: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.After*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.#ctor
+  isExternal: true
+  name: Chat_GetChatMessagesRequest
+  nameWithType: Chat_GetChatMessagesRequest.Chat_GetChatMessagesRequest
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.Chat_GetChatMessagesRequest
+- uid: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.ChatSessionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.ChatSessionId
+  isExternal: true
+  name: ChatSessionId
+  nameWithType: Chat_GetChatMessagesRequest.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.ChatSessionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.After*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.After
+  isExternal: true
+  name: After
+  nameWithType: Chat_GetChatMessagesRequest.After
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatMessagesRequest.After

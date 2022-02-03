@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
+  commentId: T:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
+  id: Dialect.FulltextEncodedSearch
+  parent: SuperOffice.Data.Dialect
+  children:
+  - SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke(SuperOffice.Data.SQL.Argument,System.String[],SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType,System.AsyncCallback,System.Object)
+  - SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.Invoke(SuperOffice.Data.SQL.Argument,System.String[],SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+  langs:
+  - csharp
+  - vb
+  name: Dialect.FulltextEncodedSearch
+  nameWithType: Dialect.FulltextEncodedSearch
+  fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected delegate string FulltextEncodedSearch(Argument left, string[] terms, Dialect.EncodedArraySearchType searchType);
+    parameters:
+    - id: left
+      type: SuperOffice.Data.SQL.Argument
+    - id: terms
+      type: System.String[]
+    - id: searchType
+      type: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+    return:
+      type: System.String
+    content.vb: Protected Delegate Function FulltextEncodedSearch(left As Argument, terms As String(), searchType As Dialect.EncodedArraySearchType) As String
+  extensionMethods:
+  - SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - protected
+  - delegate
+  modifiers.vb:
+  - Protected
+  - Delegate
+- uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
+  langs:
+  - csharp
+  - vb
+  name: FulltextEncodedSearch(Object, IntPtr)
+  nameWithType: Dialect.FulltextEncodedSearch.FulltextEncodedSearch(Object, IntPtr)
+  fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.FulltextEncodedSearch(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public FulltextEncodedSearch(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.Invoke(SuperOffice.Data.SQL.Argument,System.String[],SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.Invoke(SuperOffice.Data.SQL.Argument,System.String[],SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+  id: Invoke(SuperOffice.Data.SQL.Argument,System.String[],SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+  parent: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
+  langs:
+  - csharp
+  - vb
+  name: Invoke(Argument, String[], Dialect.EncodedArraySearchType)
+  nameWithType: Dialect.FulltextEncodedSearch.Invoke(Argument, String[], Dialect.EncodedArraySearchType)
+  fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.Invoke(SuperOffice.Data.SQL.Argument, System.String[], SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public virtual string Invoke(Argument left, string[] terms, Dialect.EncodedArraySearchType searchType)
+    parameters:
+    - id: left
+      type: SuperOffice.Data.SQL.Argument
+    - id: terms
+      type: System.String[]
+    - id: searchType
+      type: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+    return:
+      type: System.String
+    content.vb: Public Overridable Function Invoke(left As Argument, terms As String(), searchType As Dialect.EncodedArraySearchType) As String
+  overload: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.Invoke*
+  nameWithType.vb: Dialect.FulltextEncodedSearch.Invoke(Argument, String(), Dialect.EncodedArraySearchType)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.Invoke(SuperOffice.Data.SQL.Argument, System.String(), SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+  name.vb: Invoke(Argument, String(), Dialect.EncodedArraySearchType)
+- uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke(SuperOffice.Data.SQL.Argument,System.String[],SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke(SuperOffice.Data.SQL.Argument,System.String[],SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType,System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.Data.SQL.Argument,System.String[],SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(Argument, String[], Dialect.EncodedArraySearchType, AsyncCallback, Object)
+  nameWithType: Dialect.FulltextEncodedSearch.BeginInvoke(Argument, String[], Dialect.EncodedArraySearchType, AsyncCallback, Object)
+  fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke(SuperOffice.Data.SQL.Argument, System.String[], SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(Argument left, string[] terms, Dialect.EncodedArraySearchType searchType, AsyncCallback callback, object object)
+    parameters:
+    - id: left
+      type: SuperOffice.Data.SQL.Argument
+    - id: terms
+      type: System.String[]
+    - id: searchType
+      type: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(left As Argument, terms As String(), searchType As Dialect.EncodedArraySearchType, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke*
+  nameWithType.vb: Dialect.FulltextEncodedSearch.BeginInvoke(Argument, String(), Dialect.EncodedArraySearchType, AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke(SuperOffice.Data.SQL.Argument, System.String(), SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType, System.AsyncCallback, System.Object)
+  name.vb: BeginInvoke(Argument, String(), Dialect.EncodedArraySearchType, AsyncCallback, Object)
+- uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: Dialect.FulltextEncodedSearch.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public virtual string EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: System.String
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As String
+  overload: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Data.Dialect
+  commentId: N:SuperOffice.Data.Dialect
+  isExternal: true
+  name: SuperOffice.Data.Dialect
+  nameWithType: SuperOffice.Data.Dialect
+  fullName: SuperOffice.Data.Dialect
+- uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<Dialect.FulltextEncodedSearch, To>()
+  nameWithType: EnumUtil.MapEnums<Dialect.FulltextEncodedSearch, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Dialect.FulltextEncodedSearch, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch, To)()
+  name.vb: MapEnums(Of Dialect.FulltextEncodedSearch, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Dialect.FulltextEncodedSearch, To>
+    nameWithType: EnumUtil.MapEnums<Dialect.FulltextEncodedSearch, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Dialect.FulltextEncodedSearch, To)
+    nameWithType: EnumUtil.MapEnums(Of Dialect.FulltextEncodedSearch, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Dialect.FulltextEncodedSearch, To>()
+  nameWithType: Converters.MapEnums<Dialect.FulltextEncodedSearch, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch, To>()
+  nameWithType.vb: Converters.MapEnums(Of Dialect.FulltextEncodedSearch, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch, To)()
+  name.vb: MapEnums(Of Dialect.FulltextEncodedSearch, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Dialect.FulltextEncodedSearch, To>
+    nameWithType: Converters.MapEnums<Dialect.FulltextEncodedSearch, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Dialect.FulltextEncodedSearch, To)
+    nameWithType: Converters.MapEnums(Of Dialect.FulltextEncodedSearch, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument
+  commentId: T:SuperOffice.Data.SQL.Argument
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Argument
+  nameWithType: Argument
+  fullName: SuperOffice.Data.SQL.Argument
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  commentId: T:SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: Dialect.EncodedArraySearchType
+  nameWithType: Dialect.EncodedArraySearchType
+  fullName: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.#ctor*
+  commentId: Overload:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.#ctor
+  isExternal: true
+  name: FulltextEncodedSearch
+  nameWithType: Dialect.FulltextEncodedSearch.FulltextEncodedSearch
+  fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.FulltextEncodedSearch
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.Invoke*
+  commentId: Overload:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: Dialect.FulltextEncodedSearch.Invoke
+  fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.Invoke
+- uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke*
+  commentId: Overload:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: Dialect.FulltextEncodedSearch.BeginInvoke
+  fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EndInvoke*
+  commentId: Overload:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: Dialect.FulltextEncodedSearch.EndInvoke
+  fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EndInvoke

@@ -1,0 +1,557 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.CRMQuoteConnectorLists
+  commentId: T:SuperOffice.CRM.CRMQuoteConnectorLists
+  id: CRMQuoteConnectorLists
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.CRMQuoteConnectorLists.DeliveryTerms
+  - SuperOffice.CRM.CRMQuoteConnectorLists.DeliveryType
+  - SuperOffice.CRM.CRMQuoteConnectorLists.PaymentTerms
+  - SuperOffice.CRM.CRMQuoteConnectorLists.PaymentType
+  - SuperOffice.CRM.CRMQuoteConnectorLists.ProductCategory
+  - SuperOffice.CRM.CRMQuoteConnectorLists.ProductFamily
+  - SuperOffice.CRM.CRMQuoteConnectorLists.ProductType
+  langs:
+  - csharp
+  - vb
+  name: CRMQuoteConnectorLists
+  nameWithType: CRMQuoteConnectorLists
+  fullName: SuperOffice.CRM.CRMQuoteConnectorLists
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nNames of the various lists that the Quote plugins can provide. There is a corresponding Capability for each of these lists.\n<xref href=\"SuperOffice.CRM.CRMQuoteConnectorCapabilities\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static class CRMQuoteConnectorLists
+    content.vb: Public Module CRMQuoteConnectorLists
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.CRMQuoteConnectorLists.ProductCategory
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorLists.ProductCategory
+  id: ProductCategory
+  parent: SuperOffice.CRM.CRMQuoteConnectorLists
+  langs:
+  - csharp
+  - vb
+  name: ProductCategory
+  nameWithType: CRMQuoteConnectorLists.ProductCategory
+  fullName: SuperOffice.CRM.CRMQuoteConnectorLists.ProductCategory
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe Product Category list\n"
+  syntax:
+    content: public const string ProductCategory = "productcategory"
+    return:
+      type: System.String
+    content.vb: Public Const ProductCategory As String = "productcategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorLists.ProductFamily
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorLists.ProductFamily
+  id: ProductFamily
+  parent: SuperOffice.CRM.CRMQuoteConnectorLists
+  langs:
+  - csharp
+  - vb
+  name: ProductFamily
+  nameWithType: CRMQuoteConnectorLists.ProductFamily
+  fullName: SuperOffice.CRM.CRMQuoteConnectorLists.ProductFamily
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe Product Family list\n"
+  syntax:
+    content: public const string ProductFamily = "productfamily"
+    return:
+      type: System.String
+    content.vb: Public Const ProductFamily As String = "productfamily"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorLists.ProductType
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorLists.ProductType
+  id: ProductType
+  parent: SuperOffice.CRM.CRMQuoteConnectorLists
+  langs:
+  - csharp
+  - vb
+  name: ProductType
+  nameWithType: CRMQuoteConnectorLists.ProductType
+  fullName: SuperOffice.CRM.CRMQuoteConnectorLists.ProductType
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe Product Type list\n"
+  syntax:
+    content: public const string ProductType = "producttype"
+    return:
+      type: System.String
+    content.vb: Public Const ProductType As String = "producttype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorLists.PaymentTerms
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorLists.PaymentTerms
+  id: PaymentTerms
+  parent: SuperOffice.CRM.CRMQuoteConnectorLists
+  langs:
+  - csharp
+  - vb
+  name: PaymentTerms
+  nameWithType: CRMQuoteConnectorLists.PaymentTerms
+  fullName: SuperOffice.CRM.CRMQuoteConnectorLists.PaymentTerms
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe Payment Terms list\n"
+  syntax:
+    content: public const string PaymentTerms = "paymentterms"
+    return:
+      type: System.String
+    content.vb: Public Const PaymentTerms As String = "paymentterms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorLists.PaymentType
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorLists.PaymentType
+  id: PaymentType
+  parent: SuperOffice.CRM.CRMQuoteConnectorLists
+  langs:
+  - csharp
+  - vb
+  name: PaymentType
+  nameWithType: CRMQuoteConnectorLists.PaymentType
+  fullName: SuperOffice.CRM.CRMQuoteConnectorLists.PaymentType
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe Payment Type list\n"
+  syntax:
+    content: public const string PaymentType = "paymenttype"
+    return:
+      type: System.String
+    content.vb: Public Const PaymentType As String = "paymenttype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorLists.DeliveryTerms
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorLists.DeliveryTerms
+  id: DeliveryTerms
+  parent: SuperOffice.CRM.CRMQuoteConnectorLists
+  langs:
+  - csharp
+  - vb
+  name: DeliveryTerms
+  nameWithType: CRMQuoteConnectorLists.DeliveryTerms
+  fullName: SuperOffice.CRM.CRMQuoteConnectorLists.DeliveryTerms
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe Delivery Terms list\n"
+  syntax:
+    content: public const string DeliveryTerms = "deliveryterms"
+    return:
+      type: System.String
+    content.vb: Public Const DeliveryTerms As String = "deliveryterms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorLists.DeliveryType
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorLists.DeliveryType
+  id: DeliveryType
+  parent: SuperOffice.CRM.CRMQuoteConnectorLists
+  langs:
+  - csharp
+  - vb
+  name: DeliveryType
+  nameWithType: CRMQuoteConnectorLists.DeliveryType
+  fullName: SuperOffice.CRM.CRMQuoteConnectorLists.DeliveryType
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nThe Delivery Type list\n"
+  syntax:
+    content: public const string DeliveryType = "deliverytype"
+    return:
+      type: System.String
+    content.vb: Public Const DeliveryType As String = "deliverytype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

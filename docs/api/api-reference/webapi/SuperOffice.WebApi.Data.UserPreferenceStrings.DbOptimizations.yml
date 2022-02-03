@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations
+  id: UserPreferenceStrings.DbOptimizations
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.ActivateAVFJoin
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.ActivateSearchText
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.DbOptimizations
+  nameWithType: UserPreferenceStrings.DbOptimizations
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBoss mod preferences for database-dependent special optimizations\n"
+  syntax:
+    content: 'public static class DbOptimizations : Object'
+    content.vb: >-
+      Public Module DbOptimizations
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.DbOptimizations.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection name\n"
+  syntax:
+    content: public const string Section = "DbOptimizations"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "DbOptimizations"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.ActivateSearchText
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.ActivateSearchText
+  id: ActivateSearchText
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations
+  langs:
+  - csharp
+  - vb
+  name: ActivateSearchText
+  nameWithType: UserPreferenceStrings.DbOptimizations.ActivateSearchText
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.ActivateSearchText
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActivate query rewriting to use the searchText field of the text table (not in dictionary)\n"
+  syntax:
+    content: public const string ActivateSearchText = "activateSearchText"
+    return:
+      type: System.String
+    content.vb: Public Const ActivateSearchText As String = "activateSearchText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.ActivateAVFJoin
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.ActivateAVFJoin
+  id: ActivateAVFJoin
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations
+  langs:
+  - csharp
+  - vb
+  name: ActivateAVFJoin
+  nameWithType: UserPreferenceStrings.DbOptimizations.ActivateAVFJoin
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations.ActivateAVFJoin
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActivate query rewriting to use the appointment_id field of the visiblefor table (not in dictionary)\n"
+  syntax:
+    content: public const string ActivateAVFJoin = "activateAVFJoin"
+    return:
+      type: System.String
+    content.vb: Public Const ActivateAVFJoin As String = "activateAVFJoin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

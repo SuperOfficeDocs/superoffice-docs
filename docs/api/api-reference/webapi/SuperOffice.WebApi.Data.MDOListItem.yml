@@ -1,0 +1,648 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MDOListItem
+  commentId: T:SuperOffice.WebApi.Data.MDOListItem
+  id: MDOListItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MDOListItem.#ctor
+  - SuperOffice.WebApi.Data.MDOListItem.ChildItems
+  - SuperOffice.WebApi.Data.MDOListItem.ColorBlock
+  - SuperOffice.WebApi.Data.MDOListItem.Deleted
+  - SuperOffice.WebApi.Data.MDOListItem.ExtraInfo
+  - SuperOffice.WebApi.Data.MDOListItem.FullName
+  - SuperOffice.WebApi.Data.MDOListItem.IconHint
+  - SuperOffice.WebApi.Data.MDOListItem.Id
+  - SuperOffice.WebApi.Data.MDOListItem.Name
+  - SuperOffice.WebApi.Data.MDOListItem.Rank
+  - SuperOffice.WebApi.Data.MDOListItem.StyleHint
+  - SuperOffice.WebApi.Data.MDOListItem.ToolTip
+  - SuperOffice.WebApi.Data.MDOListItem.Type
+  langs:
+  - csharp
+  - vb
+  name: MDOListItem
+  nameWithType: MDOListItem
+  fullName: SuperOffice.WebApi.Data.MDOListItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for MDOListItem.\n\n"
+  syntax:
+    content: 'public class MDOListItem : Carrier'
+    content.vb: >-
+      Public Class MDOListItem
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.MDOAgent
+    commentId: T:SuperOffice.WebApi.Agents.MDOAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MDOListItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MDOListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: MDOListItem()
+  nameWithType: MDOListItem.MDOListItem()
+  fullName: SuperOffice.WebApi.Data.MDOListItem.MDOListItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public MDOListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MDOListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDOListItem.Id
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: MDOListItem.Id
+  fullName: SuperOffice.WebApi.Data.MDOListItem.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Id of the ListItem\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.MDOListItem.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MDOListItem.Name
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MDOListItem.Name
+  fullName: SuperOffice.WebApi.Data.MDOListItem.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the ListItem\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.MDOListItem.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MDOListItem.ToolTip
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.ToolTip
+  id: ToolTip
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ToolTip
+  nameWithType: MDOListItem.ToolTip
+  fullName: SuperOffice.WebApi.Data.MDOListItem.ToolTip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tooltip of the ListItem\n"
+  syntax:
+    content: public virtual string ToolTip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ToolTip As String
+  overload: SuperOffice.WebApi.Data.MDOListItem.ToolTip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MDOListItem.Deleted
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: MDOListItem.Deleted
+  fullName: SuperOffice.WebApi.Data.MDOListItem.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe deleted status of the ListItem\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.MDOListItem.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MDOListItem.Rank
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: MDOListItem.Rank
+  fullName: SuperOffice.WebApi.Data.MDOListItem.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe rank of the ListItem\n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.WebApi.Data.MDOListItem.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MDOListItem.Type
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MDOListItem.Type
+  fullName: SuperOffice.WebApi.Data.MDOListItem.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of the ListItem. Custom field.\n"
+  syntax:
+    content: public virtual string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Type As String
+  overload: SuperOffice.WebApi.Data.MDOListItem.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MDOListItem.ChildItems
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.ChildItems
+  id: ChildItems
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ChildItems
+  nameWithType: MDOListItem.ChildItems
+  fullName: SuperOffice.WebApi.Data.MDOListItem.ChildItems
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe child items of the MDOListItem\n"
+  syntax:
+    content: public virtual MDOListItem[] ChildItems { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.MDOListItem[]
+    content.vb: Public Overridable Property ChildItems As MDOListItem()
+  overload: SuperOffice.WebApi.Data.MDOListItem.ChildItems*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MDOListItem.IconHint
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.IconHint
+  id: IconHint
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: IconHint
+  nameWithType: MDOListItem.IconHint
+  fullName: SuperOffice.WebApi.Data.MDOListItem.IconHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Icon hint of the ListItem. Custom field.\n"
+  syntax:
+    content: public virtual string IconHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IconHint As String
+  overload: SuperOffice.WebApi.Data.MDOListItem.IconHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MDOListItem.ColorBlock
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.ColorBlock
+  id: ColorBlock
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ColorBlock
+  nameWithType: MDOListItem.ColorBlock
+  fullName: SuperOffice.WebApi.Data.MDOListItem.ColorBlock
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe color indicator of the ListItem color block\n"
+  syntax:
+    content: public virtual int ColorBlock { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ColorBlock As Integer
+  overload: SuperOffice.WebApi.Data.MDOListItem.ColorBlock*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MDOListItem.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: MDOListItem.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.MDOListItem.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExtra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field.\n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.WebApi.Data.MDOListItem.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MDOListItem.StyleHint
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.StyleHint
+  id: StyleHint
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: StyleHint
+  nameWithType: MDOListItem.StyleHint
+  fullName: SuperOffice.WebApi.Data.MDOListItem.StyleHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStyle hint indicating, information such as background color etc. Custom field.\n"
+  syntax:
+    content: public virtual string StyleHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StyleHint As String
+  overload: SuperOffice.WebApi.Data.MDOListItem.StyleHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MDOListItem.FullName
+  commentId: P:SuperOffice.WebApi.Data.MDOListItem.FullName
+  id: FullName
+  parent: SuperOffice.WebApi.Data.MDOListItem
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: MDOListItem.FullName
+  fullName: SuperOffice.WebApi.Data.MDOListItem.FullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the ListItem in its context\n"
+  syntax:
+    content: public virtual string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FullName As String
+  overload: SuperOffice.WebApi.Data.MDOListItem.FullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.MDOAgent
+  commentId: T:SuperOffice.WebApi.Agents.MDOAgent
+  isExternal: true
+  name: MDOAgent
+  nameWithType: MDOAgent
+  fullName: SuperOffice.WebApi.Agents.MDOAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MDOListItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.#ctor
+  isExternal: true
+  name: MDOListItem
+  nameWithType: MDOListItem.MDOListItem
+  fullName: SuperOffice.WebApi.Data.MDOListItem.MDOListItem
+- uid: SuperOffice.WebApi.Data.MDOListItem.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: MDOListItem.Id
+  fullName: SuperOffice.WebApi.Data.MDOListItem.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.MDOListItem.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: MDOListItem.Name
+  fullName: SuperOffice.WebApi.Data.MDOListItem.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.MDOListItem.ToolTip*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.ToolTip
+  isExternal: true
+  name: ToolTip
+  nameWithType: MDOListItem.ToolTip
+  fullName: SuperOffice.WebApi.Data.MDOListItem.ToolTip
+- uid: SuperOffice.WebApi.Data.MDOListItem.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: MDOListItem.Deleted
+  fullName: SuperOffice.WebApi.Data.MDOListItem.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.MDOListItem.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: MDOListItem.Rank
+  fullName: SuperOffice.WebApi.Data.MDOListItem.Rank
+- uid: SuperOffice.WebApi.Data.MDOListItem.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.Type
+  isExternal: true
+  name: Type
+  nameWithType: MDOListItem.Type
+  fullName: SuperOffice.WebApi.Data.MDOListItem.Type
+- uid: SuperOffice.WebApi.Data.MDOListItem.ChildItems*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.ChildItems
+  isExternal: true
+  name: ChildItems
+  nameWithType: MDOListItem.ChildItems
+  fullName: SuperOffice.WebApi.Data.MDOListItem.ChildItems
+- uid: SuperOffice.WebApi.Data.MDOListItem[]
+  isExternal: true
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.WebApi.Data.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.WebApi.Data.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.MDOListItem.IconHint*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.IconHint
+  isExternal: true
+  name: IconHint
+  nameWithType: MDOListItem.IconHint
+  fullName: SuperOffice.WebApi.Data.MDOListItem.IconHint
+- uid: SuperOffice.WebApi.Data.MDOListItem.ColorBlock*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.ColorBlock
+  isExternal: true
+  name: ColorBlock
+  nameWithType: MDOListItem.ColorBlock
+  fullName: SuperOffice.WebApi.Data.MDOListItem.ColorBlock
+- uid: SuperOffice.WebApi.Data.MDOListItem.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: MDOListItem.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.MDOListItem.ExtraInfo
+- uid: SuperOffice.WebApi.Data.MDOListItem.StyleHint*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.StyleHint
+  isExternal: true
+  name: StyleHint
+  nameWithType: MDOListItem.StyleHint
+  fullName: SuperOffice.WebApi.Data.MDOListItem.StyleHint
+- uid: SuperOffice.WebApi.Data.MDOListItem.FullName*
+  commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: MDOListItem.FullName
+  fullName: SuperOffice.WebApi.Data.MDOListItem.FullName

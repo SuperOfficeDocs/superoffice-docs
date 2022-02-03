@@ -1,0 +1,391 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SaleStageEntity
+  commentId: T:SuperOffice.WebApi.Data.SaleStageEntity
+  id: SaleStageEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SaleStageEntity.#ctor
+  - SuperOffice.WebApi.Data.SaleStageEntity.Deleted
+  - SuperOffice.WebApi.Data.SaleStageEntity.Probability
+  - SuperOffice.WebApi.Data.SaleStageEntity.Rank
+  - SuperOffice.WebApi.Data.SaleStageEntity.SaleStageId
+  - SuperOffice.WebApi.Data.SaleStageEntity.Tooltip
+  - SuperOffice.WebApi.Data.SaleStageEntity.Value
+  langs:
+  - csharp
+  - vb
+  name: SaleStageEntity
+  nameWithType: SaleStageEntity
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SaleStageEntity.\nThis entity represents a sale stage with a default percentage rating.    \n"
+  example:
+  - "\nGet SaleStageEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar saleStageEntity = agent.GetSaleStageEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class SaleStageEntity : Carrier'
+    content.vb: >-
+      Public Class SaleStageEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SaleStageEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SaleStageEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleStageEntity()
+  nameWithType: SaleStageEntity.SaleStageEntity()
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.SaleStageEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SaleStageEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SaleStageEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.SaleStageId
+  commentId: P:SuperOffice.WebApi.Data.SaleStageEntity.SaleStageId
+  id: SaleStageId
+  parent: SuperOffice.WebApi.Data.SaleStageEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleStageId
+  nameWithType: SaleStageEntity.SaleStageId
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.SaleStageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int SaleStageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleStageId As Integer
+  overload: SuperOffice.WebApi.Data.SaleStageEntity.SaleStageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.Value
+  commentId: P:SuperOffice.WebApi.Data.SaleStageEntity.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.SaleStageEntity
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SaleStageEntity.Value
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe sale stage\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.SaleStageEntity.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.SaleStageEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.SaleStageEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SaleStageEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.SaleStageEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.Probability
+  commentId: P:SuperOffice.WebApi.Data.SaleStageEntity.Probability
+  id: Probability
+  parent: SuperOffice.WebApi.Data.SaleStageEntity
+  langs:
+  - csharp
+  - vb
+  name: Probability
+  nameWithType: SaleStageEntity.Probability
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.Probability
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe numeric probability of the sale\n"
+  syntax:
+    content: public virtual short Probability { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Probability As Short
+  overload: SuperOffice.WebApi.Data.SaleStageEntity.Probability*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.Deleted
+  commentId: P:SuperOffice.WebApi.Data.SaleStageEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.SaleStageEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: SaleStageEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true, the Sale stage is deleted\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.SaleStageEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.Rank
+  commentId: P:SuperOffice.WebApi.Data.SaleStageEntity.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.SaleStageEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SaleStageEntity.Rank
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank order\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.SaleStageEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStageEntity.#ctor
+  isExternal: true
+  name: SaleStageEntity
+  nameWithType: SaleStageEntity.SaleStageEntity
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.SaleStageEntity
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.SaleStageId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStageEntity.SaleStageId
+  isExternal: true
+  name: SaleStageId
+  nameWithType: SaleStageEntity.SaleStageId
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.SaleStageId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStageEntity.Value
+  isExternal: true
+  name: Value
+  nameWithType: SaleStageEntity.Value
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStageEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SaleStageEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.Tooltip
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.Probability*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStageEntity.Probability
+  isExternal: true
+  name: Probability
+  nameWithType: SaleStageEntity.Probability
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.Probability
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStageEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: SaleStageEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.SaleStageEntity.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStageEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SaleStageEntity.Rank
+  fullName: SuperOffice.WebApi.Data.SaleStageEntity.Rank

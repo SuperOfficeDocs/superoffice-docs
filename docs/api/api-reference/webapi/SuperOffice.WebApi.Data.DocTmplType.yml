@@ -1,0 +1,399 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocTmplType
+  commentId: T:SuperOffice.WebApi.Data.DocTmplType
+  id: DocTmplType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocTmplType.Appointment
+  - SuperOffice.WebApi.Data.DocTmplType.Document
+  - SuperOffice.WebApi.Data.DocTmplType.Email
+  - SuperOffice.WebApi.Data.DocTmplType.Fax
+  - SuperOffice.WebApi.Data.DocTmplType.MergeDraft
+  - SuperOffice.WebApi.Data.DocTmplType.MergeFinal
+  - SuperOffice.WebApi.Data.DocTmplType.Phone
+  - SuperOffice.WebApi.Data.DocTmplType.SavedReport
+  - SuperOffice.WebApi.Data.DocTmplType.Todo
+  - SuperOffice.WebApi.Data.DocTmplType.Unknown
+  - SuperOffice.WebApi.Data.DocTmplType.value__
+  langs:
+  - csharp
+  - vb
+  name: DocTmplType
+  nameWithType: DocTmplType
+  fullName: SuperOffice.WebApi.Data.DocTmplType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for field &apos;record_type&apos; in table &apos;doctmpl&apos;.\nThis Enum is used by:  DocTmpl.record_type\n"
+  syntax:
+    content: 'public sealed class DocTmplType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DocTmplType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DocTmplType.value__
+  commentId: F:SuperOffice.WebApi.Data.DocTmplType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DocTmplType.value__
+  fullName: SuperOffice.WebApi.Data.DocTmplType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocTmplType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.DocTmplType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: DocTmplType.Unknown
+  fullName: SuperOffice.WebApi.Data.DocTmplType.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: The document type is unknown/undecided\n"
+  syntax:
+    content: public const DocTmplType Unknown
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplType
+    content.vb: Public Const Unknown As DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplType.Appointment
+  commentId: F:SuperOffice.WebApi.Data.DocTmplType.Appointment
+  id: Appointment
+  parent: SuperOffice.WebApi.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: DocTmplType.Appointment
+  fullName: SuperOffice.WebApi.Data.DocTmplType.Appointment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: (not used for document templates)\n"
+  syntax:
+    content: public const DocTmplType Appointment
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplType
+    content.vb: Public Const Appointment As DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplType.Document
+  commentId: F:SuperOffice.WebApi.Data.DocTmplType.Document
+  id: Document
+  parent: SuperOffice.WebApi.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: DocTmplType.Document
+  fullName: SuperOffice.WebApi.Data.DocTmplType.Document
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Generic text document (for instance, a letter)\n"
+  syntax:
+    content: public const DocTmplType Document
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplType
+    content.vb: Public Const Document As DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplType.Email
+  commentId: F:SuperOffice.WebApi.Data.DocTmplType.Email
+  id: Email
+  parent: SuperOffice.WebApi.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: DocTmplType.Email
+  fullName: SuperOffice.WebApi.Data.DocTmplType.Email
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Email message\n"
+  syntax:
+    content: public const DocTmplType Email
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplType
+    content.vb: Public Const Email As DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplType.Fax
+  commentId: F:SuperOffice.WebApi.Data.DocTmplType.Fax
+  id: Fax
+  parent: SuperOffice.WebApi.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Fax
+  nameWithType: DocTmplType.Fax
+  fullName: SuperOffice.WebApi.Data.DocTmplType.Fax
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Facsimile\n"
+  syntax:
+    content: public const DocTmplType Fax
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplType
+    content.vb: Public Const Fax As DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplType.Phone
+  commentId: F:SuperOffice.WebApi.Data.DocTmplType.Phone
+  id: Phone
+  parent: SuperOffice.WebApi.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: DocTmplType.Phone
+  fullName: SuperOffice.WebApi.Data.DocTmplType.Phone
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: (not used for document templates)\n"
+  syntax:
+    content: public const DocTmplType Phone
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplType
+    content.vb: Public Const Phone As DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplType.Todo
+  commentId: F:SuperOffice.WebApi.Data.DocTmplType.Todo
+  id: Todo
+  parent: SuperOffice.WebApi.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Todo
+  nameWithType: DocTmplType.Todo
+  fullName: SuperOffice.WebApi.Data.DocTmplType.Todo
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: (not used for document templates)\n"
+  syntax:
+    content: public const DocTmplType Todo
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplType
+    content.vb: Public Const Todo As DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplType.MergeDraft
+  commentId: F:SuperOffice.WebApi.Data.DocTmplType.MergeDraft
+  id: MergeDraft
+  parent: SuperOffice.WebApi.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: MergeDraft
+  nameWithType: DocTmplType.MergeDraft
+  fullName: SuperOffice.WebApi.Data.DocTmplType.MergeDraft
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Template for mailmerge operations\n"
+  syntax:
+    content: public const DocTmplType MergeDraft
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplType
+    content.vb: Public Const MergeDraft As DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplType.MergeFinal
+  commentId: F:SuperOffice.WebApi.Data.DocTmplType.MergeFinal
+  id: MergeFinal
+  parent: SuperOffice.WebApi.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: MergeFinal
+  nameWithType: DocTmplType.MergeFinal
+  fullName: SuperOffice.WebApi.Data.DocTmplType.MergeFinal
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Result of a mailmerge operation\n"
+  syntax:
+    content: public const DocTmplType MergeFinal
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplType
+    content.vb: Public Const MergeFinal As DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplType.SavedReport
+  commentId: F:SuperOffice.WebApi.Data.DocTmplType.SavedReport
+  id: SavedReport
+  parent: SuperOffice.WebApi.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: SavedReport
+  nameWithType: DocTmplType.SavedReport
+  fullName: SuperOffice.WebApi.Data.DocTmplType.SavedReport
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Saved result of running a report (output from Reporter)\n"
+  syntax:
+    content: public const DocTmplType SavedReport
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplType
+    content.vb: Public Const SavedReport As DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DocTmplType
+  commentId: T:SuperOffice.WebApi.Data.DocTmplType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DocTmplType
+  nameWithType: DocTmplType
+  fullName: SuperOffice.WebApi.Data.DocTmplType

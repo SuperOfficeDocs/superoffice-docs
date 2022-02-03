@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest
+  id: Selection_CreateContactSelectionFromSelectionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.CopyMembers
+  - SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.Name
+  - SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.SelectionId
+  - SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.TargetSelectionType
+  langs:
+  - csharp
+  - vb
+  name: Selection_CreateContactSelectionFromSelectionRequest
+  nameWithType: Selection_CreateContactSelectionFromSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_CreateContactSelectionFromSelectionRequest : Object'
+    content.vb: >-
+      Public Class Selection_CreateContactSelectionFromSelectionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_CreateContactSelectionFromSelectionRequest()
+  nameWithType: Selection_CreateContactSelectionFromSelectionRequest.Selection_CreateContactSelectionFromSelectionRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.Selection_CreateContactSelectionFromSelectionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_CreateContactSelectionFromSelectionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_CreateContactSelectionFromSelectionRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Selection_CreateContactSelectionFromSelectionRequest.Name
+  fullName: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.TargetSelectionType
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.TargetSelectionType
+  id: TargetSelectionType
+  parent: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetSelectionType
+  nameWithType: Selection_CreateContactSelectionFromSelectionRequest.TargetSelectionType
+  fullName: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.TargetSelectionType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public SelectionType TargetSelectionType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectionType
+    content.vb: Public Property TargetSelectionType As SelectionType
+  overload: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.TargetSelectionType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.CopyMembers
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.CopyMembers
+  id: CopyMembers
+  parent: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: CopyMembers
+  nameWithType: Selection_CreateContactSelectionFromSelectionRequest.CopyMembers
+  fullName: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.CopyMembers
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool CopyMembers { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CopyMembers As Boolean
+  overload: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.CopyMembers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.#ctor
+  isExternal: true
+  name: Selection_CreateContactSelectionFromSelectionRequest
+  nameWithType: Selection_CreateContactSelectionFromSelectionRequest.Selection_CreateContactSelectionFromSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.Selection_CreateContactSelectionFromSelectionRequest
+- uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_CreateContactSelectionFromSelectionRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: Selection_CreateContactSelectionFromSelectionRequest.Name
+  fullName: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.TargetSelectionType*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.TargetSelectionType
+  isExternal: true
+  name: TargetSelectionType
+  nameWithType: Selection_CreateContactSelectionFromSelectionRequest.TargetSelectionType
+  fullName: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.TargetSelectionType
+- uid: SuperOffice.WebApi.Data.SelectionType
+  commentId: T:SuperOffice.WebApi.Data.SelectionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SelectionType
+  nameWithType: SelectionType
+  fullName: SuperOffice.WebApi.Data.SelectionType
+- uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.CopyMembers*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.CopyMembers
+  isExternal: true
+  name: CopyMembers
+  nameWithType: Selection_CreateContactSelectionFromSelectionRequest.CopyMembers
+  fullName: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest.CopyMembers
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

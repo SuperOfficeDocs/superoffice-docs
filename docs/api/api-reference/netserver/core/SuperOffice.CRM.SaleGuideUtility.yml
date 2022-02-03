@@ -1,0 +1,625 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.SaleGuideUtility
+  commentId: T:SuperOffice.CRM.SaleGuideUtility
+  id: SaleGuideUtility
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.SaleGuideUtility.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  - SuperOffice.CRM.SaleGuideUtility.CalculateNextDueDate(System.Int32)
+  - SuperOffice.CRM.SaleGuideUtility.GetNextDueAppointmentDate(System.Int32)
+  - SuperOffice.CRM.SaleGuideUtility.GetNextSaleStage(System.Int32,System.Boolean)
+  - SuperOffice.CRM.SaleGuideUtility.LastActivityOfStageDone(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.SaleGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: SaleGuideUtility
+  nameWithType: SaleGuideUtility
+  fullName: SuperOffice.CRM.SaleGuideUtility
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static class SaleGuideUtility
+    content.vb: Public Module SaleGuideUtility
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.SaleGuideUtility.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  commentId: M:SuperOffice.CRM.SaleGuideUtility.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  id: BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  parent: SuperOffice.CRM.SaleGuideUtility
+  langs:
+  - csharp
+  - vb
+  name: BatchUpdateNextDueDate(ProgressEstimateCallback, ProgressStepCallback)
+  nameWithType: SaleGuideUtility.BatchUpdateNextDueDate(ProgressEstimateCallback, ProgressStepCallback)
+  fullName: SuperOffice.CRM.SaleGuideUtility.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nUpdates the next due date for all sales.\n"
+  syntax:
+    content: public static void BatchUpdateNextDueDate(ProgressEstimateCallback estimateCB, ProgressStepCallback stepCB)
+    parameters:
+    - id: estimateCB
+      type: SuperOffice.CRM.ProgressEstimateCallback
+    - id: stepCB
+      type: SuperOffice.CRM.ProgressStepCallback
+    content.vb: Public Shared Sub BatchUpdateNextDueDate(estimateCB As ProgressEstimateCallback, stepCB As ProgressStepCallback)
+  overload: SuperOffice.CRM.SaleGuideUtility.BatchUpdateNextDueDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.SaleGuideUtility.CalculateNextDueDate(System.Int32)
+  commentId: M:SuperOffice.CRM.SaleGuideUtility.CalculateNextDueDate(System.Int32)
+  id: CalculateNextDueDate(System.Int32)
+  parent: SuperOffice.CRM.SaleGuideUtility
+  langs:
+  - csharp
+  - vb
+  name: CalculateNextDueDate(Int32)
+  nameWithType: SaleGuideUtility.CalculateNextDueDate(Int32)
+  fullName: SuperOffice.CRM.SaleGuideUtility.CalculateNextDueDate(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nCalculates the next due date for a given sale. This method takes into account the status of the sale. \n"
+  remarks: "\nIf a sale is stalled, the next due date will be the re-open date. If the sale is done, the next due date will be \nthe sale date. The same is the case when no valid appointments can be found for a given sale.\n"
+  syntax:
+    content: public static NextDateInfo CalculateNextDueDate(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: Identifies the sale for which you want to calculate the next due date
+    return:
+      type: SuperOffice.CRM.NextDateInfo
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> representing the next due date for the supplied sale identifier
+    content.vb: Public Shared Function CalculateNextDueDate(saleId As Integer) As NextDateInfo
+  overload: SuperOffice.CRM.SaleGuideUtility.CalculateNextDueDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.SaleGuideUtility.GetNextDueAppointmentDate(System.Int32)
+  commentId: M:SuperOffice.CRM.SaleGuideUtility.GetNextDueAppointmentDate(System.Int32)
+  id: GetNextDueAppointmentDate(System.Int32)
+  parent: SuperOffice.CRM.SaleGuideUtility
+  langs:
+  - csharp
+  - vb
+  name: GetNextDueAppointmentDate(Int32)
+  nameWithType: SaleGuideUtility.GetNextDueAppointmentDate(Int32)
+  fullName: SuperOffice.CRM.SaleGuideUtility.GetNextDueAppointmentDate(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGets the active date from the first appointment associated with the specified sale.\nThis method does not take into account the status of the sale. \n"
+  remarks: "\nWe loop through all the appointments for a sale and find the first one that has not been completed and is not a child appointment.\n"
+  syntax:
+    content: public static NextDateInfo GetNextDueAppointmentDate(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: Identifies the sale for which you want to calculate the next due date
+    return:
+      type: SuperOffice.CRM.NextDateInfo
+      description: "The <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> representing the next due date for the supplied sale identifier. \nReturns DateTime.MinValue if no appointment is found"
+    content.vb: Public Shared Function GetNextDueAppointmentDate(saleId As Integer) As NextDateInfo
+  overload: SuperOffice.CRM.SaleGuideUtility.GetNextDueAppointmentDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.SaleGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  commentId: M:SuperOffice.CRM.SaleGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  id: OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  parent: SuperOffice.CRM.SaleGuideUtility
+  langs:
+  - csharp
+  - vb
+  name: OfferAutoNextStageOnApppointmentCompleted(Int32)
+  nameWithType: SaleGuideUtility.OfferAutoNextStageOnApppointmentCompleted(Int32)
+  fullName: SuperOffice.CRM.SaleGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nDetermine if we should offer the user auto-advance to next stage, based on a just-completed appointment\n"
+  syntax:
+    content: public static bool OfferAutoNextStageOnApppointmentCompleted(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function OfferAutoNextStageOnApppointmentCompleted(appointmentId As Integer) As Boolean
+  overload: SuperOffice.CRM.SaleGuideUtility.OfferAutoNextStageOnApppointmentCompleted*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.SaleGuideUtility.LastActivityOfStageDone(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.SaleGuideUtility.LastActivityOfStageDone(System.Int32,System.Int32,System.Int32)
+  id: LastActivityOfStageDone(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.SaleGuideUtility
+  langs:
+  - csharp
+  - vb
+  name: LastActivityOfStageDone(Int32, Int32, Int32)
+  nameWithType: SaleGuideUtility.LastActivityOfStageDone(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.SaleGuideUtility.LastActivityOfStageDone(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nDetermine if (all instances of) the last activity of the given stage/sale are Complete, AND\nthat the given suggestedappointment is in fact the last one of the stage\n"
+  syntax:
+    content: public static bool LastActivityOfStageDone(int saleId, int stageId, int suggestedAppointmentId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+    - id: stageId
+      type: System.Int32
+    - id: suggestedAppointmentId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function LastActivityOfStageDone(saleId As Integer, stageId As Integer, suggestedAppointmentId As Integer) As Boolean
+  overload: SuperOffice.CRM.SaleGuideUtility.LastActivityOfStageDone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.SaleGuideUtility.GetNextSaleStage(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.SaleGuideUtility.GetNextSaleStage(System.Int32,System.Boolean)
+  id: GetNextSaleStage(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.SaleGuideUtility
+  langs:
+  - csharp
+  - vb
+  name: GetNextSaleStage(Int32, Boolean)
+  nameWithType: SaleGuideUtility.GetNextSaleStage(Int32, Boolean)
+  fullName: SuperOffice.CRM.SaleGuideUtility.GetNextSaleStage(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static int GetNextSaleStage(int saleId, bool includeCurrentStage)
+    parameters:
+    - id: saleId
+      type: System.Int32
+    - id: includeCurrentStage
+      type: System.Boolean
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetNextSaleStage(saleId As Integer, includeCurrentStage As Boolean) As Integer
+  overload: SuperOffice.CRM.SaleGuideUtility.GetNextSaleStage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.SaleGuideUtility.BatchUpdateNextDueDate*
+  commentId: Overload:SuperOffice.CRM.SaleGuideUtility.BatchUpdateNextDueDate
+  isExternal: true
+  name: BatchUpdateNextDueDate
+  nameWithType: SaleGuideUtility.BatchUpdateNextDueDate
+  fullName: SuperOffice.CRM.SaleGuideUtility.BatchUpdateNextDueDate
+- uid: SuperOffice.CRM.ProgressEstimateCallback
+  commentId: T:SuperOffice.CRM.ProgressEstimateCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressEstimateCallback
+  nameWithType: ProgressEstimateCallback
+  fullName: SuperOffice.CRM.ProgressEstimateCallback
+- uid: SuperOffice.CRM.ProgressStepCallback
+  commentId: T:SuperOffice.CRM.ProgressStepCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressStepCallback
+  nameWithType: ProgressStepCallback
+  fullName: SuperOffice.CRM.ProgressStepCallback
+- uid: SuperOffice.CRM.SaleGuideUtility.CalculateNextDueDate*
+  commentId: Overload:SuperOffice.CRM.SaleGuideUtility.CalculateNextDueDate
+  isExternal: true
+  name: CalculateNextDueDate
+  nameWithType: SaleGuideUtility.CalculateNextDueDate
+  fullName: SuperOffice.CRM.SaleGuideUtility.CalculateNextDueDate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.NextDateInfo
+  commentId: T:SuperOffice.CRM.NextDateInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: NextDateInfo
+  nameWithType: NextDateInfo
+  fullName: SuperOffice.CRM.NextDateInfo
+- uid: SuperOffice.CRM.SaleGuideUtility.GetNextDueAppointmentDate*
+  commentId: Overload:SuperOffice.CRM.SaleGuideUtility.GetNextDueAppointmentDate
+  isExternal: true
+  name: GetNextDueAppointmentDate
+  nameWithType: SaleGuideUtility.GetNextDueAppointmentDate
+  fullName: SuperOffice.CRM.SaleGuideUtility.GetNextDueAppointmentDate
+- uid: SuperOffice.CRM.SaleGuideUtility.OfferAutoNextStageOnApppointmentCompleted*
+  commentId: Overload:SuperOffice.CRM.SaleGuideUtility.OfferAutoNextStageOnApppointmentCompleted
+  isExternal: true
+  name: OfferAutoNextStageOnApppointmentCompleted
+  nameWithType: SaleGuideUtility.OfferAutoNextStageOnApppointmentCompleted
+  fullName: SuperOffice.CRM.SaleGuideUtility.OfferAutoNextStageOnApppointmentCompleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.SaleGuideUtility.LastActivityOfStageDone*
+  commentId: Overload:SuperOffice.CRM.SaleGuideUtility.LastActivityOfStageDone
+  isExternal: true
+  name: LastActivityOfStageDone
+  nameWithType: SaleGuideUtility.LastActivityOfStageDone
+  fullName: SuperOffice.CRM.SaleGuideUtility.LastActivityOfStageDone
+- uid: SuperOffice.CRM.SaleGuideUtility.GetNextSaleStage*
+  commentId: Overload:SuperOffice.CRM.SaleGuideUtility.GetNextSaleStage
+  isExternal: true
+  name: GetNextSaleStage
+  nameWithType: SaleGuideUtility.GetNextSaleStage
+  fullName: SuperOffice.CRM.SaleGuideUtility.GetNextSaleStage

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.CacheObjects
+  commentId: N:SuperOffice.CRM.Web.Data.CacheObjects
+  id: SuperOffice.CRM.Web.Data.CacheObjects
+  children:
+  - SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Web.Data.CacheObjects
+  nameWithType: SuperOffice.CRM.Web.Data.CacheObjects
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects
+  type: Namespace
+  assemblies:
+  - SuperOffice.CRMWeb
+references:
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+  commentId: T:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+  isExternal: true
+  name: MailMergeTaskCacheObject
+  nameWithType: MailMergeTaskCacheObject
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject

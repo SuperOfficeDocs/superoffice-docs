@@ -1,0 +1,1129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Mail.MailSession`1
+  commentId: T:SuperOffice.CRM.Mail.MailSession`1
+  id: MailSession`1
+  parent: SuperOffice.CRM.Mail
+  children:
+  - SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String)
+  - SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String)
+  - SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Mail.MailSession`1.Dispose
+  - SuperOffice.CRM.Mail.MailSession`1.Logout
+  - SuperOffice.CRM.Mail.MailSession`1.MailInterface
+  - SuperOffice.CRM.Mail.MailSession`1.Password
+  - SuperOffice.CRM.Mail.MailSession`1.Server
+  - SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
+  - SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Mail.MailSession`1.ServerLogout
+  - SuperOffice.CRM.Mail.MailSession`1.UserName
+  - SuperOffice.CRM.Mail.MailSession`1.UseSSL
+  langs:
+  - csharp
+  - vb
+  name: MailSession<TMailInterface>
+  nameWithType: MailSession<TMailInterface>
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nBase class for sessions to mail servers\n"
+  syntax:
+    content: 'public abstract class MailSession<TMailInterface> : IDisposable where TMailInterface : class, IPlugin'
+    typeParameters:
+    - id: TMailInterface
+    content.vb: >-
+      Public MustInherit Class MailSession(Of TMailInterface As {Class, IPlugin})
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Mail.MessageStoreSession
+  - SuperOffice.CRM.Mail.OutgoingMailSession
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Mail.MailSession`1.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Mail.MailSession`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: MailSession(Of TMailInterface)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface)
+  name.vb: MailSession(Of TMailInterface)
+- uid: SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: MailSession(String)
+  nameWithType: MailSession<TMailInterface>.MailSession(String)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.MailSession(System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nDefault construction used when no authentication is required.\n"
+  syntax:
+    content: protected MailSession(string server)
+    parameters:
+    - id: server
+      type: System.String
+      description: Name of mail server with optional port.
+    content.vb: Protected Sub New(server As String)
+  overload: SuperOffice.CRM.Mail.MailSession`1.#ctor*
+  nameWithType.vb: MailSession(Of TMailInterface).MailSession(String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).MailSession(System.String)
+- uid: SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String,System.Boolean)
+  id: '#ctor(System.String,System.String,System.String,System.Boolean)'
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: MailSession(String, String, String, Boolean)
+  nameWithType: MailSession<TMailInterface>.MailSession(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.MailSession(System.String, System.String, System.String, System.Boolean)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nDefault constructor used when authentication is required.\n"
+  syntax:
+    content: protected MailSession(string server, string userName, string password, bool useSSL)
+    parameters:
+    - id: server
+      type: System.String
+      description: Name of mail server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    - id: useSSL
+      type: System.Boolean
+      description: Use SSL
+    content.vb: Protected Sub New(server As String, userName As String, password As String, useSSL As Boolean)
+  overload: SuperOffice.CRM.Mail.MailSession`1.#ctor*
+  nameWithType.vb: MailSession(Of TMailInterface).MailSession(String, String, String, Boolean)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).MailSession(System.String, System.String, System.String, System.Boolean)
+- uid: SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: MailSession(String, String, String)
+  nameWithType: MailSession<TMailInterface>.MailSession(String, String, String)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.MailSession(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nDefault constructor used when authentication is required.\n"
+  syntax:
+    content: protected MailSession(string server, string userName, string password)
+    parameters:
+    - id: server
+      type: System.String
+      description: Name of mail server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    content.vb: Protected Sub New(server As String, userName As String, password As String)
+  overload: SuperOffice.CRM.Mail.MailSession`1.#ctor*
+  nameWithType.vb: MailSession(Of TMailInterface).MailSession(String, String, String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).MailSession(System.String, System.String, System.String)
+- uid: SuperOffice.CRM.Mail.MailSession`1.Logout
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.Logout
+  id: Logout
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: Logout()
+  nameWithType: MailSession<TMailInterface>.Logout()
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Logout()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nLog out from the mail server.\n"
+  syntax:
+    content: public void Logout()
+    content.vb: Public Sub Logout
+  overload: SuperOffice.CRM.Mail.MailSession`1.Logout*
+  nameWithType.vb: MailSession(Of TMailInterface).Logout()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Logout()
+- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
+  id: ServerLogin(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: ServerLogin(String, String, String)
+  nameWithType: MailSession<TMailInterface>.ServerLogin(String, String, String)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nImplemented in sub classes to log on to the mail server.\n"
+  syntax:
+    content: protected abstract TMailInterface ServerLogin(string server, string userName, string password)
+    parameters:
+    - id: server
+      type: System.String
+      description: Name of mail server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    return:
+      type: '{TMailInterface}'
+      description: Instance of interface to the mail plugin.
+    content.vb: Protected MustOverride Function ServerLogin(server As String, userName As String, password As String) As TMailInterface
+  overload: SuperOffice.CRM.Mail.MailSession`1.ServerLogin*
+  nameWithType.vb: MailSession(Of TMailInterface).ServerLogin(String, String, String)
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin(System.String, System.String, System.String)
+- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  id: ServerLogin(System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: ServerLogin(String, String, String, Boolean)
+  nameWithType: MailSession<TMailInterface>.ServerLogin(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin(System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nImplemented in sub classes to log on to the mail server.\n"
+  syntax:
+    content: protected abstract TMailInterface ServerLogin(string server, string userName, string password, bool useSSL)
+    parameters:
+    - id: server
+      type: System.String
+      description: Name of mail server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    - id: useSSL
+      type: System.Boolean
+      description: Use SSL
+    return:
+      type: '{TMailInterface}'
+      description: Instance of interface to the mail plugin.
+    content.vb: Protected MustOverride Function ServerLogin(server As String, userName As String, password As String, useSSL As Boolean) As TMailInterface
+  overload: SuperOffice.CRM.Mail.MailSession`1.ServerLogin*
+  nameWithType.vb: MailSession(Of TMailInterface).ServerLogin(String, String, String, Boolean)
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin(System.String, System.String, System.String, System.Boolean)
+- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLogout
+  id: ServerLogout
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: ServerLogout()
+  nameWithType: MailSession<TMailInterface>.ServerLogout()
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogout()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nImplemented in sub classes to log out from the mail server.\n"
+  syntax:
+    content: protected abstract void ServerLogout()
+    content.vb: Protected MustOverride Sub ServerLogout
+  overload: SuperOffice.CRM.Mail.MailSession`1.ServerLogout*
+  nameWithType.vb: MailSession(Of TMailInterface).ServerLogout()
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogout()
+- uid: SuperOffice.CRM.Mail.MailSession`1.Dispose
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.Dispose
+  id: Dispose
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: MailSession<TMailInterface>.Dispose()
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Dispose()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nLog out from the mail server.\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.CRM.Mail.MailSession`1.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  nameWithType.vb: MailSession(Of TMailInterface).Dispose()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Dispose()
+- uid: SuperOffice.CRM.Mail.MailSession`1.Server
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.Server
+  id: Server
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: Server
+  nameWithType: MailSession<TMailInterface>.Server
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Server
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGet name of server with optional port Server[:Port]\n"
+  syntax:
+    content: public string Server { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Server As String
+  overload: SuperOffice.CRM.Mail.MailSession`1.Server*
+  nameWithType.vb: MailSession(Of TMailInterface).Server
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Server
+- uid: SuperOffice.CRM.Mail.MailSession`1.UserName
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.UserName
+  id: UserName
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: MailSession<TMailInterface>.UserName
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.UserName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGet user name used to authenticate to the mail server\n"
+  syntax:
+    content: public string UserName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property UserName As String
+  overload: SuperOffice.CRM.Mail.MailSession`1.UserName*
+  nameWithType.vb: MailSession(Of TMailInterface).UserName
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).UserName
+- uid: SuperOffice.CRM.Mail.MailSession`1.UseSSL
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.UseSSL
+  id: UseSSL
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: UseSSL
+  nameWithType: MailSession<TMailInterface>.UseSSL
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.UseSSL
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nShould we use SSL\n"
+  syntax:
+    content: public bool UseSSL { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property UseSSL As Boolean
+  overload: SuperOffice.CRM.Mail.MailSession`1.UseSSL*
+  nameWithType.vb: MailSession(Of TMailInterface).UseSSL
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).UseSSL
+- uid: SuperOffice.CRM.Mail.MailSession`1.Password
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.Password
+  id: Password
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: MailSession<TMailInterface>.Password
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Password
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGet password used to authenticate to the mail server\n"
+  syntax:
+    content: protected string Password { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected Property Password As String
+  overload: SuperOffice.CRM.Mail.MailSession`1.Password*
+  nameWithType.vb: MailSession(Of TMailInterface).Password
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Password
+- uid: SuperOffice.CRM.Mail.MailSession`1.MailInterface
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.MailInterface
+  id: MailInterface
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: MailInterface
+  nameWithType: MailSession<TMailInterface>.MailInterface
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.MailInterface
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGet reference to the mail interface.  This is null when there are no connections to the mail server.\n"
+  syntax:
+    content: protected TMailInterface MailInterface { get; }
+    parameters: []
+    return:
+      type: '{TMailInterface}'
+    content.vb: Protected ReadOnly Property MailInterface As TMailInterface
+  overload: SuperOffice.CRM.Mail.MailSession`1.MailInterface*
+  nameWithType.vb: MailSession(Of TMailInterface).MailInterface
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).MailInterface
+references:
+- uid: SuperOffice.CRM.Mail
+  commentId: N:SuperOffice.CRM.Mail
+  isExternal: true
+  name: SuperOffice.CRM.Mail
+  nameWithType: SuperOffice.CRM.Mail
+  fullName: SuperOffice.CRM.Mail
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MailSession`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<MailSession<TMailInterface>, To>()
+  nameWithType: EnumUtil.MapEnums<MailSession<TMailInterface>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.MailSession<TMailInterface>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MailSession(Of TMailInterface), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.MailSession(Of TMailInterface), To)()
+  name.vb: MapEnums(Of MailSession(Of TMailInterface), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MailSession<TMailInterface>, To>
+    nameWithType: EnumUtil.MapEnums<MailSession<TMailInterface>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.MailSession<TMailInterface>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MailSession(Of TMailInterface), To)
+    nameWithType: EnumUtil.MapEnums(Of MailSession(Of TMailInterface), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.MailSession(Of TMailInterface), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MailSession`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MailSession<TMailInterface>, To>()
+  nameWithType: Converters.MapEnums<MailSession<TMailInterface>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.MailSession<TMailInterface>, To>()
+  nameWithType.vb: Converters.MapEnums(Of MailSession(Of TMailInterface), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.MailSession(Of TMailInterface), To)()
+  name.vb: MapEnums(Of MailSession(Of TMailInterface), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MailSession<TMailInterface>, To>
+    nameWithType: Converters.MapEnums<MailSession<TMailInterface>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.MailSession<TMailInterface>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MailSession(Of TMailInterface), To)
+    nameWithType: Converters.MapEnums(Of MailSession(Of TMailInterface), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.MailSession(Of TMailInterface), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Mail.MailSession`1.#ctor*
+  commentId: Overload:SuperOffice.CRM.Mail.MailSession`1.#ctor
+  isExternal: true
+  name: MailSession
+  nameWithType: MailSession<TMailInterface>.MailSession
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.MailSession
+  nameWithType.vb: MailSession(Of TMailInterface).MailSession
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).MailSession
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Mail.MailSession`1.Logout*
+  commentId: Overload:SuperOffice.CRM.Mail.MailSession`1.Logout
+  isExternal: true
+  name: Logout
+  nameWithType: MailSession<TMailInterface>.Logout
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Logout
+  nameWithType.vb: MailSession(Of TMailInterface).Logout
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Logout
+- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin*
+  commentId: Overload:SuperOffice.CRM.Mail.MailSession`1.ServerLogin
+  isExternal: true
+  name: ServerLogin
+  nameWithType: MailSession<TMailInterface>.ServerLogin
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin
+  nameWithType.vb: MailSession(Of TMailInterface).ServerLogin
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin
+- uid: '{TMailInterface}'
+  commentId: '!:TMailInterface'
+  definition: TMailInterface
+  name: TMailInterface
+  nameWithType: TMailInterface
+  fullName: TMailInterface
+- uid: TMailInterface
+  name: TMailInterface
+  nameWithType: TMailInterface
+  fullName: TMailInterface
+- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout*
+  commentId: Overload:SuperOffice.CRM.Mail.MailSession`1.ServerLogout
+  isExternal: true
+  name: ServerLogout
+  nameWithType: MailSession<TMailInterface>.ServerLogout
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogout
+  nameWithType.vb: MailSession(Of TMailInterface).ServerLogout
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogout
+- uid: SuperOffice.CRM.Mail.MailSession`1.Dispose*
+  commentId: Overload:SuperOffice.CRM.Mail.MailSession`1.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: MailSession<TMailInterface>.Dispose
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Dispose
+  nameWithType.vb: MailSession(Of TMailInterface).Dispose
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MailSession`1.Server*
+  commentId: Overload:SuperOffice.CRM.Mail.MailSession`1.Server
+  isExternal: true
+  name: Server
+  nameWithType: MailSession<TMailInterface>.Server
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Server
+  nameWithType.vb: MailSession(Of TMailInterface).Server
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Server
+- uid: SuperOffice.CRM.Mail.MailSession`1.UserName*
+  commentId: Overload:SuperOffice.CRM.Mail.MailSession`1.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: MailSession<TMailInterface>.UserName
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.UserName
+  nameWithType.vb: MailSession(Of TMailInterface).UserName
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).UserName
+- uid: SuperOffice.CRM.Mail.MailSession`1.UseSSL*
+  commentId: Overload:SuperOffice.CRM.Mail.MailSession`1.UseSSL
+  isExternal: true
+  name: UseSSL
+  nameWithType: MailSession<TMailInterface>.UseSSL
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.UseSSL
+  nameWithType.vb: MailSession(Of TMailInterface).UseSSL
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).UseSSL
+- uid: SuperOffice.CRM.Mail.MailSession`1.Password*
+  commentId: Overload:SuperOffice.CRM.Mail.MailSession`1.Password
+  isExternal: true
+  name: Password
+  nameWithType: MailSession<TMailInterface>.Password
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Password
+  nameWithType.vb: MailSession(Of TMailInterface).Password
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Password
+- uid: SuperOffice.CRM.Mail.MailSession`1.MailInterface*
+  commentId: Overload:SuperOffice.CRM.Mail.MailSession`1.MailInterface
+  isExternal: true
+  name: MailInterface
+  nameWithType: MailSession<TMailInterface>.MailInterface
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.MailInterface
+  nameWithType.vb: MailSession(Of TMailInterface).MailInterface
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).MailInterface

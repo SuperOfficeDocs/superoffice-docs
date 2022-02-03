@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest
+  id: EMail_GetParticipantInfoFromEmailAddressRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.AppointmentId
+  - SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.EmailAddress
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetParticipantInfoFromEmailAddressRequest
+  nameWithType: EMail_GetParticipantInfoFromEmailAddressRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetParticipantInfoFromEmailAddressRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetParticipantInfoFromEmailAddressRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetParticipantInfoFromEmailAddressRequest()
+  nameWithType: EMail_GetParticipantInfoFromEmailAddressRequest.EMail_GetParticipantInfoFromEmailAddressRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.EMail_GetParticipantInfoFromEmailAddressRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetParticipantInfoFromEmailAddressRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: EMail_GetParticipantInfoFromEmailAddressRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: EMail_GetParticipantInfoFromEmailAddressRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.#ctor
+  isExternal: true
+  name: EMail_GetParticipantInfoFromEmailAddressRequest
+  nameWithType: EMail_GetParticipantInfoFromEmailAddressRequest.EMail_GetParticipantInfoFromEmailAddressRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.EMail_GetParticipantInfoFromEmailAddressRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: EMail_GetParticipantInfoFromEmailAddressRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.EmailAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: EMail_GetParticipantInfoFromEmailAddressRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.EMail_GetParticipantInfoFromEmailAddressRequest.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,1553 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ListsHelper
+  commentId: T:SuperOffice.CRM.ListsHelper
+  id: ListsHelper
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.ListsHelper.FindCreateListItem(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement}}@,System.String)
+  - SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch(System.Int32)
+  - SuperOffice.CRM.ListsHelper.GetLinkTableName(System.String)
+  - SuperOffice.CRM.ListsHelper.GetMdoTableName(System.Int32,System.Int32)
+  - SuperOffice.CRM.ListsHelper.GetNextRank(System.Int32)
+  - SuperOffice.CRM.ListsHelper.GetNextRank(System.String)
+  - SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select)
+  - SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select,System.Int32@)
+  - SuperOffice.CRM.ListsHelper.GetQueryFromTableName(System.String,SuperOffice.Data.SQL.Select)
+  - SuperOffice.CRM.ListsHelper.GetTableName(System.Int32,System.Boolean)
+  - SuperOffice.CRM.ListsHelper.GetUDListDefinition(System.Int32)
+  - SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName(System.String)
+  - SuperOffice.CRM.ListsHelper.LoadAllListItems(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.ListsHelper.RefreshListRank(System.Int32)
+  - SuperOffice.CRM.ListsHelper.RefreshListRank(System.String)
+  - SuperOffice.CRM.ListsHelper.SetHeadingRestrictions(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
+  - SuperOffice.CRM.ListsHelper.SetListItemsForHeading(System.Int32,System.String,System.Int32[],System.Boolean)
+  - SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
+  - SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
+  - SuperOffice.CRM.ListsHelper.UpdateListItemRank(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32)
+  - SuperOffice.CRM.ListsHelper.UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow})
+  langs:
+  - csharp
+  - vb
+  name: ListsHelper
+  nameWithType: ListsHelper
+  fullName: SuperOffice.CRM.ListsHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nUtility class for lists helper methods.\n"
+  syntax:
+    content: public static class ListsHelper
+    content.vb: Public Module ListsHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ListsHelper.FindCreateListItem(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement}}@,System.String)
+  commentId: M:SuperOffice.CRM.ListsHelper.FindCreateListItem(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement}}@,System.String)
+  id: FindCreateListItem(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement}}@,System.String)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: FindCreateListItem(String, String, Boolean, Boolean, ref Dictionary<String, Dictionary<String, MDOListTableCache.MDOCacheElement>>, String)
+  nameWithType: ListsHelper.FindCreateListItem(String, String, Boolean, Boolean, ref Dictionary<String, Dictionary<String, MDOListTableCache.MDOCacheElement>>, String)
+  fullName: SuperOffice.CRM.ListsHelper.FindCreateListItem(System.String, System.String, System.Boolean, System.Boolean, ref System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement>>, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static int FindCreateListItem(string tableName, string value, bool add, bool fakeAdd, ref Dictionary<string, Dictionary<string, MDOListTableCache.MDOCacheElement>> cache, string culture)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: value
+      type: System.String
+    - id: add
+      type: System.Boolean
+    - id: fakeAdd
+      type: System.Boolean
+    - id: cache
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement}}
+    - id: culture
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function FindCreateListItem(tableName As String, value As String, add As Boolean, fakeAdd As Boolean, ByRef cache As Dictionary(Of String, Dictionary(Of String, MDOListTableCache.MDOCacheElement)), culture As String) As Integer
+  overload: SuperOffice.CRM.ListsHelper.FindCreateListItem*
+  nameWithType.vb: ListsHelper.FindCreateListItem(String, String, Boolean, Boolean, ByRef Dictionary(Of String, Dictionary(Of String, MDOListTableCache.MDOCacheElement)), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ListsHelper.FindCreateListItem(System.String, System.String, System.Boolean, System.Boolean, ByRef System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement)), System.String)
+  name.vb: FindCreateListItem(String, String, Boolean, Boolean, ByRef Dictionary(Of String, Dictionary(Of String, MDOListTableCache.MDOCacheElement)), String)
+- uid: SuperOffice.CRM.ListsHelper.GetMdoTableName(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetMdoTableName(System.Int32,System.Int32)
+  id: GetMdoTableName(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetMdoTableName(Int32, Int32)
+  nameWithType: ListsHelper.GetMdoTableName(Int32, Int32)
+  fullName: SuperOffice.CRM.ListsHelper.GetMdoTableName(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nReturns MDO List name: &quot;category&quot;, &quot;associate&quot;, &quot;udlist123&quot;\n"
+  syntax:
+    content: public static string GetMdoTableName(int listTableId, int udefListDefId)
+    parameters:
+    - id: listTableId
+      type: System.Int32
+      description: table number
+    - id: udefListDefId
+      type: System.Int32
+      description: udef list definition id
+    return:
+      type: System.String
+      description: MDO List name (&quot;category&quot;, &quot;associate&quot;, &quot;webpanel&quot;, &quot;chat&quot;, &quot;udlist123&quot;), or NULL if no list found
+    content.vb: Public Shared Function GetMdoTableName(listTableId As Integer, udefListDefId As Integer) As String
+  overload: SuperOffice.CRM.ListsHelper.GetMdoTableName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.GetTableName(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetTableName(System.Int32,System.Boolean)
+  id: GetTableName(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTableName(Int32, Boolean)
+  nameWithType: ListsHelper.GetTableName(Int32, Boolean)
+  fullName: SuperOffice.CRM.ListsHelper.GetTableName(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static string GetTableName(int listTableId, bool getRealTable = false)
+    parameters:
+    - id: listTableId
+      type: System.Int32
+    - id: getRealTable
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetTableName(listTableId As Integer, getRealTable As Boolean = False) As String
+  overload: SuperOffice.CRM.ListsHelper.GetTableName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select)
+  id: GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetQueryFromListDefinition(Int32, Select)
+  nameWithType: ListsHelper.GetQueryFromListDefinition(Int32, Select)
+  fullName: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32, SuperOffice.Data.SQL.Select)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static TableInfo GetQueryFromListDefinition(int udListDefinitionId, Select select)
+    parameters:
+    - id: udListDefinitionId
+      type: System.Int32
+    - id: select
+      type: SuperOffice.Data.SQL.Select
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public Shared Function GetQueryFromListDefinition(udListDefinitionId As Integer, select As  Select) As TableInfo
+  overload: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select,System.Int32@)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select,System.Int32@)
+  id: GetQueryFromListDefinition(System.Int32,SuperOffice.Data.SQL.Select,System.Int32@)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetQueryFromListDefinition(Int32, Select, out Int32)
+  nameWithType: ListsHelper.GetQueryFromListDefinition(Int32, Select, out Int32)
+  fullName: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32, SuperOffice.Data.SQL.Select, out System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static TableInfo GetQueryFromListDefinition(int udListDefinitionId, Select select, out int retListTableId)
+    parameters:
+    - id: udListDefinitionId
+      type: System.Int32
+    - id: select
+      type: SuperOffice.Data.SQL.Select
+    - id: retListTableId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public Shared Function GetQueryFromListDefinition(udListDefinitionId As Integer, select As  Select, ByRef retListTableId As Integer) As TableInfo
+  overload: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition*
+  nameWithType.vb: ListsHelper.GetQueryFromListDefinition(Int32, Select, ByRef Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition(System.Int32, SuperOffice.Data.SQL.Select, ByRef System.Int32)
+  name.vb: GetQueryFromListDefinition(Int32, Select, ByRef Int32)
+- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinition(System.Int32)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetUDListDefinition(System.Int32)
+  id: GetUDListDefinition(System.Int32)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUDListDefinition(Int32)
+  nameWithType: ListsHelper.GetUDListDefinition(Int32)
+  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinition(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGets the UDListDefintion by primary key or by list table id.\n"
+  syntax:
+    content: public static UDListDefinitionRow GetUDListDefinition(int udListDefinitionId)
+    parameters:
+    - id: udListDefinitionId
+      type: System.Int32
+      description: Positive ints are the primary key. Negative ints are list table id.
+    return:
+      type: SuperOffice.CRM.Rows.UDListDefinitionRow
+      description: UDListDefinition that matches id from the database, if any. Returns NEW item if not found.
+    content.vb: Public Shared Function GetUDListDefinition(udListDefinitionId As Integer) As UDListDefinitionRow
+  overload: SuperOffice.CRM.ListsHelper.GetUDListDefinition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName(System.String)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName(System.String)
+  id: GetUDListDefinitionFromName(System.String)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUDListDefinitionFromName(String)
+  nameWithType: ListsHelper.GetUDListDefinitionFromName(String)
+  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGets the UDListDefintion by name. First looks for exact match, then tries exact match for \nlanguage specific name. (i.e. tries to handle multi-language strings properly).\nFinally looks for partial match if nothing else matches. Returns if there is exactly 1 match.\n"
+  syntax:
+    content: public static UDListDefinitionRow GetUDListDefinitionFromName(string udListName)
+    parameters:
+    - id: udListName
+      type: System.String
+      description: Name of list
+    return:
+      type: SuperOffice.CRM.Rows.UDListDefinitionRow
+      description: UDListDefinition row for match, or NULL if not found. SoAmbiguousException if more than 1 match
+    content.vb: Public Shared Function GetUDListDefinitionFromName(udListName As String) As UDListDefinitionRow
+  overload: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch(System.Int32)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch(System.Int32)
+  id: GetHeadingCustomSearch(System.Int32)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetHeadingCustomSearch(Int32)
+  nameWithType: ListsHelper.GetHeadingCustomSearch(Int32)
+  fullName: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static HeadingRows.CustomSearch GetHeadingCustomSearch(int udListDefinitionId)
+    parameters:
+    - id: udListDefinitionId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.HeadingRows.CustomSearch
+    content.vb: Public Shared Function GetHeadingCustomSearch(udListDefinitionId As Integer) As HeadingRows.CustomSearch
+  overload: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.SetHeadingRestrictions(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
+  commentId: M:SuperOffice.CRM.ListsHelper.SetHeadingRestrictions(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
+  id: SetHeadingRestrictions(System.Int32,SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.HeadingTableInfo)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: SetHeadingRestrictions(Int32, Select, HeadingTableInfo)
+  nameWithType: ListsHelper.SetHeadingRestrictions(Int32, Select, HeadingTableInfo)
+  fullName: SuperOffice.CRM.ListsHelper.SetHeadingRestrictions(System.Int32, SuperOffice.Data.SQL.Select, SuperOffice.CRM.Data.HeadingTableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static void SetHeadingRestrictions(int udListDefinitionId, Select select, HeadingTableInfo headingTableInfo)
+    parameters:
+    - id: udListDefinitionId
+      type: System.Int32
+    - id: select
+      type: SuperOffice.Data.SQL.Select
+    - id: headingTableInfo
+      type: SuperOffice.CRM.Data.HeadingTableInfo
+    content.vb: Public Shared Sub SetHeadingRestrictions(udListDefinitionId As Integer, select As  Select, headingTableInfo As HeadingTableInfo)
+  overload: SuperOffice.CRM.ListsHelper.SetHeadingRestrictions*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.GetQueryFromTableName(System.String,SuperOffice.Data.SQL.Select)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetQueryFromTableName(System.String,SuperOffice.Data.SQL.Select)
+  id: GetQueryFromTableName(System.String,SuperOffice.Data.SQL.Select)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetQueryFromTableName(String, Select)
+  nameWithType: ListsHelper.GetQueryFromTableName(String, Select)
+  fullName: SuperOffice.CRM.ListsHelper.GetQueryFromTableName(System.String, SuperOffice.Data.SQL.Select)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static TableInfo GetQueryFromTableName(string tableName, Select select)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: select
+      type: SuperOffice.Data.SQL.Select
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public Shared Function GetQueryFromTableName(tableName As String, select As  Select) As TableInfo
+  overload: SuperOffice.CRM.ListsHelper.GetQueryFromTableName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.RefreshListRank(System.String)
+  commentId: M:SuperOffice.CRM.ListsHelper.RefreshListRank(System.String)
+  id: RefreshListRank(System.String)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: RefreshListRank(String)
+  nameWithType: ListsHelper.RefreshListRank(String)
+  fullName: SuperOffice.CRM.ListsHelper.RefreshListRank(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nMake unique ranks for all items in a table \n"
+  syntax:
+    content: public static void RefreshListRank(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name
+    content.vb: Public Shared Sub RefreshListRank(tableName As String)
+  overload: SuperOffice.CRM.ListsHelper.RefreshListRank*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.RefreshListRank(System.Int32)
+  commentId: M:SuperOffice.CRM.ListsHelper.RefreshListRank(System.Int32)
+  id: RefreshListRank(System.Int32)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: RefreshListRank(Int32)
+  nameWithType: ListsHelper.RefreshListRank(Int32)
+  fullName: SuperOffice.CRM.ListsHelper.RefreshListRank(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nMake unique ranks for all items in a list \n"
+  syntax:
+    content: public static void RefreshListRank(int udListDefinitionId)
+    parameters:
+    - id: udListDefinitionId
+      type: System.Int32
+      description: Id to the UDListDefinition list
+    content.vb: Public Shared Sub RefreshListRank(udListDefinitionId As Integer)
+  overload: SuperOffice.CRM.ListsHelper.RefreshListRank*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.GetNextRank(System.Int32)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetNextRank(System.Int32)
+  id: GetNextRank(System.Int32)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetNextRank(Int32)
+  nameWithType: ListsHelper.GetNextRank(Int32)
+  fullName: SuperOffice.CRM.ListsHelper.GetNextRank(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nFind the next rank (max + 1) in a list \n"
+  syntax:
+    content: public static int GetNextRank(int udListDefinitionId)
+    parameters:
+    - id: udListDefinitionId
+      type: System.Int32
+      description: Id to the UDListDefinition list
+    return:
+      type: System.Int32
+      description: void
+    content.vb: Public Shared Function GetNextRank(udListDefinitionId As Integer) As Integer
+  overload: SuperOffice.CRM.ListsHelper.GetNextRank*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.GetNextRank(System.String)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetNextRank(System.String)
+  id: GetNextRank(System.String)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetNextRank(String)
+  nameWithType: ListsHelper.GetNextRank(String)
+  fullName: SuperOffice.CRM.ListsHelper.GetNextRank(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nFind the next rank (max + 1) in a list \n"
+  syntax:
+    content: public static int GetNextRank(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name
+    return:
+      type: System.Int32
+      description: void
+    content.vb: Public Shared Function GetNextRank(tableName As String) As Integer
+  overload: SuperOffice.CRM.ListsHelper.GetNextRank*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow})
+  commentId: M:SuperOffice.CRM.ListsHelper.UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow})
+  id: UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo,System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow})
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateRankOnListItems(TableInfo, List<ListsHelper.ItemRow>)
+  nameWithType: ListsHelper.UpdateRankOnListItems(TableInfo, List<ListsHelper.ItemRow>)
+  fullName: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo, System.Collections.Generic.List<SuperOffice.CRM.ListsHelper.ItemRow>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static void UpdateRankOnListItems(TableInfo tableInfo, List<ListsHelper.ItemRow> items)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+    - id: items
+      type: System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow}
+    content.vb: Public Shared Sub UpdateRankOnListItems(tableInfo As TableInfo, items As List(Of ListsHelper.ItemRow))
+  overload: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems*
+  nameWithType.vb: ListsHelper.UpdateRankOnListItems(TableInfo, List(Of ListsHelper.ItemRow))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems(SuperOffice.Data.SQL.TableInfo, System.Collections.Generic.List(Of SuperOffice.CRM.ListsHelper.ItemRow))
+  name.vb: UpdateRankOnListItems(TableInfo, List(Of ListsHelper.ItemRow))
+- uid: SuperOffice.CRM.ListsHelper.LoadAllListItems(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.ListsHelper.LoadAllListItems(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+  id: LoadAllListItems(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: LoadAllListItems(Select, TableInfo)
+  nameWithType: ListsHelper.LoadAllListItems(Select, TableInfo)
+  fullName: SuperOffice.CRM.ListsHelper.LoadAllListItems(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static List<ListsHelper.ItemRow> LoadAllListItems(Select query, TableInfo tableInfo)
+    parameters:
+    - id: query
+      type: SuperOffice.Data.SQL.Select
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow}
+    content.vb: Public Shared Function LoadAllListItems(query As  Select, tableInfo As TableInfo) As List(Of ListsHelper.ItemRow)
+  overload: SuperOffice.CRM.ListsHelper.LoadAllListItems*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.UpdateListItemRank(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ListsHelper.UpdateListItemRank(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32)
+  id: UpdateListItemRank(SuperOffice.Data.SQL.TableInfo,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateListItemRank(TableInfo, Int32, Int32)
+  nameWithType: ListsHelper.UpdateListItemRank(TableInfo, Int32, Int32)
+  fullName: SuperOffice.CRM.ListsHelper.UpdateListItemRank(SuperOffice.Data.SQL.TableInfo, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static void UpdateListItemRank(TableInfo tableInfo, int primaryKey, int newRank)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+    - id: primaryKey
+      type: System.Int32
+    - id: newRank
+      type: System.Int32
+    content.vb: Public Shared Sub UpdateListItemRank(tableInfo As TableInfo, primaryKey As Integer, newRank As Integer)
+  overload: SuperOffice.CRM.ListsHelper.UpdateListItemRank*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.GetLinkTableName(System.String)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetLinkTableName(System.String)
+  id: GetLinkTableName(System.String)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLinkTableName(String)
+  nameWithType: ListsHelper.GetLinkTableName(String)
+  fullName: SuperOffice.CRM.ListsHelper.GetLinkTableName(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static string GetLinkTableName(string listTableName)
+    parameters:
+    - id: listTableName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetLinkTableName(listTableName As String) As String
+  overload: SuperOffice.CRM.ListsHelper.GetLinkTableName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
+  commentId: M:SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
+  id: SetVisibleForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVisibleForUserGroup(Int32, String, Int32[], Boolean)
+  nameWithType: ListsHelper.SetVisibleForUserGroup(Int32, String, Int32[], Boolean)
+  fullName: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup(System.Int32, System.String, System.Int32[], System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static void SetVisibleForUserGroup(int listItemId, string tablename, int[] userGroupId, bool enable)
+    parameters:
+    - id: listItemId
+      type: System.Int32
+    - id: tablename
+      type: System.String
+    - id: userGroupId
+      type: System.Int32[]
+    - id: enable
+      type: System.Boolean
+    content.vb: Public Shared Sub SetVisibleForUserGroup(listItemId As Integer, tablename As String, userGroupId As Integer(), enable As Boolean)
+  overload: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup*
+  nameWithType.vb: ListsHelper.SetVisibleForUserGroup(Int32, String, Int32(), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup(System.Int32, System.String, System.Int32(), System.Boolean)
+  name.vb: SetVisibleForUserGroup(Int32, String, Int32(), Boolean)
+- uid: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
+  commentId: M:SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
+  id: SetListItemsForUserGroup(System.Int32,System.String,System.Int32[],System.Boolean)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: SetListItemsForUserGroup(Int32, String, Int32[], Boolean)
+  nameWithType: ListsHelper.SetListItemsForUserGroup(Int32, String, Int32[], Boolean)
+  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup(System.Int32, System.String, System.Int32[], System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static void SetListItemsForUserGroup(int groupId, string tablename, int[] listItemIds, bool enable)
+    parameters:
+    - id: groupId
+      type: System.Int32
+    - id: tablename
+      type: System.String
+    - id: listItemIds
+      type: System.Int32[]
+    - id: enable
+      type: System.Boolean
+    content.vb: Public Shared Sub SetListItemsForUserGroup(groupId As Integer, tablename As String, listItemIds As Integer(), enable As Boolean)
+  overload: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup*
+  nameWithType.vb: ListsHelper.SetListItemsForUserGroup(Int32, String, Int32(), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup(System.Int32, System.String, System.Int32(), System.Boolean)
+  name.vb: SetListItemsForUserGroup(Int32, String, Int32(), Boolean)
+- uid: SuperOffice.CRM.ListsHelper.SetListItemsForHeading(System.Int32,System.String,System.Int32[],System.Boolean)
+  commentId: M:SuperOffice.CRM.ListsHelper.SetListItemsForHeading(System.Int32,System.String,System.Int32[],System.Boolean)
+  id: SetListItemsForHeading(System.Int32,System.String,System.Int32[],System.Boolean)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: SetListItemsForHeading(Int32, String, Int32[], Boolean)
+  nameWithType: ListsHelper.SetListItemsForHeading(Int32, String, Int32[], Boolean)
+  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForHeading(System.Int32, System.String, System.Int32[], System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static void SetListItemsForHeading(int headingId, string tablename, int[] listItemIds, bool enable)
+    parameters:
+    - id: headingId
+      type: System.Int32
+    - id: tablename
+      type: System.String
+    - id: listItemIds
+      type: System.Int32[]
+    - id: enable
+      type: System.Boolean
+    content.vb: Public Shared Sub SetListItemsForHeading(headingId As Integer, tablename As String, listItemIds As Integer(), enable As Boolean)
+  overload: SuperOffice.CRM.ListsHelper.SetListItemsForHeading*
+  nameWithType.vb: ListsHelper.SetListItemsForHeading(Int32, String, Int32(), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ListsHelper.SetListItemsForHeading(System.Int32, System.String, System.Int32(), System.Boolean)
+  name.vb: SetListItemsForHeading(Int32, String, Int32(), Boolean)
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ListsHelper.FindCreateListItem*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.FindCreateListItem
+  isExternal: true
+  name: FindCreateListItem
+  nameWithType: ListsHelper.FindCreateListItem
+  fullName: SuperOffice.CRM.ListsHelper.FindCreateListItem
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement}}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Dictionary<String, MDOListTableCache.MDOCacheElement>>
+  nameWithType: Dictionary<String, Dictionary<String, MDOListTableCache.MDOCacheElement>>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement>>
+  nameWithType.vb: Dictionary(Of String, Dictionary(Of String, MDOListTableCache.MDOCacheElement))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement))
+  name.vb: Dictionary(Of String, Dictionary(Of String, MDOListTableCache.MDOCacheElement))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement
+    name: MDOListTableCache.MDOCacheElement
+    nameWithType: MDOListTableCache.MDOCacheElement
+    fullName: SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement
+    name: MDOListTableCache.MDOCacheElement
+    nameWithType: MDOListTableCache.MDOCacheElement
+    fullName: SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.ListsHelper.GetMdoTableName*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetMdoTableName
+  isExternal: true
+  name: GetMdoTableName
+  nameWithType: ListsHelper.GetMdoTableName
+  fullName: SuperOffice.CRM.ListsHelper.GetMdoTableName
+- uid: SuperOffice.CRM.ListsHelper.GetTableName*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetTableName
+  isExternal: true
+  name: GetTableName
+  nameWithType: ListsHelper.GetTableName
+  fullName: SuperOffice.CRM.ListsHelper.GetTableName
+- uid: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition
+  isExternal: true
+  name: GetQueryFromListDefinition
+  nameWithType: ListsHelper.GetQueryFromListDefinition
+  fullName: SuperOffice.CRM.ListsHelper.GetQueryFromListDefinition
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinition*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetUDListDefinition
+  isExternal: true
+  name: GetUDListDefinition
+  nameWithType: ListsHelper.GetUDListDefinition
+  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinition
+- uid: SuperOffice.CRM.Rows.UDListDefinitionRow
+  commentId: T:SuperOffice.CRM.Rows.UDListDefinitionRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: UDListDefinitionRow
+  nameWithType: UDListDefinitionRow
+  fullName: SuperOffice.CRM.Rows.UDListDefinitionRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName
+  isExternal: true
+  name: GetUDListDefinitionFromName
+  nameWithType: ListsHelper.GetUDListDefinitionFromName
+  fullName: SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromName
+- uid: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch
+  isExternal: true
+  name: GetHeadingCustomSearch
+  nameWithType: ListsHelper.GetHeadingCustomSearch
+  fullName: SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch
+- uid: SuperOffice.CRM.Rows.HeadingRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.HeadingRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: HeadingRows.CustomSearch
+  nameWithType: HeadingRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.HeadingRows.CustomSearch
+- uid: SuperOffice.CRM.ListsHelper.SetHeadingRestrictions*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.SetHeadingRestrictions
+  isExternal: true
+  name: SetHeadingRestrictions
+  nameWithType: ListsHelper.SetHeadingRestrictions
+  fullName: SuperOffice.CRM.ListsHelper.SetHeadingRestrictions
+- uid: SuperOffice.CRM.Data.HeadingTableInfo
+  commentId: T:SuperOffice.CRM.Data.HeadingTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: HeadingTableInfo
+  nameWithType: HeadingTableInfo
+  fullName: SuperOffice.CRM.Data.HeadingTableInfo
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: SuperOffice.CRM.ListsHelper.GetQueryFromTableName*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetQueryFromTableName
+  isExternal: true
+  name: GetQueryFromTableName
+  nameWithType: ListsHelper.GetQueryFromTableName
+  fullName: SuperOffice.CRM.ListsHelper.GetQueryFromTableName
+- uid: SuperOffice.CRM.ListsHelper.RefreshListRank*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.RefreshListRank
+  isExternal: true
+  name: RefreshListRank
+  nameWithType: ListsHelper.RefreshListRank
+  fullName: SuperOffice.CRM.ListsHelper.RefreshListRank
+- uid: SuperOffice.CRM.ListsHelper.GetNextRank*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetNextRank
+  isExternal: true
+  name: GetNextRank
+  nameWithType: ListsHelper.GetNextRank
+  fullName: SuperOffice.CRM.ListsHelper.GetNextRank
+- uid: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.UpdateRankOnListItems
+  isExternal: true
+  name: UpdateRankOnListItems
+  nameWithType: ListsHelper.UpdateRankOnListItems
+  fullName: SuperOffice.CRM.ListsHelper.UpdateRankOnListItems
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ListsHelper.ItemRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ListsHelper.ItemRow>
+  nameWithType: List<ListsHelper.ItemRow>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ListsHelper.ItemRow>
+  nameWithType.vb: List(Of ListsHelper.ItemRow)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ListsHelper.ItemRow)
+  name.vb: List(Of ListsHelper.ItemRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ListsHelper.ItemRow
+    name: ListsHelper.ItemRow
+    nameWithType: ListsHelper.ItemRow
+    fullName: SuperOffice.CRM.ListsHelper.ItemRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ListsHelper.ItemRow
+    name: ListsHelper.ItemRow
+    nameWithType: ListsHelper.ItemRow
+    fullName: SuperOffice.CRM.ListsHelper.ItemRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ListsHelper.LoadAllListItems*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.LoadAllListItems
+  isExternal: true
+  name: LoadAllListItems
+  nameWithType: ListsHelper.LoadAllListItems
+  fullName: SuperOffice.CRM.ListsHelper.LoadAllListItems
+- uid: SuperOffice.CRM.ListsHelper.UpdateListItemRank*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.UpdateListItemRank
+  isExternal: true
+  name: UpdateListItemRank
+  nameWithType: ListsHelper.UpdateListItemRank
+  fullName: SuperOffice.CRM.ListsHelper.UpdateListItemRank
+- uid: SuperOffice.CRM.ListsHelper.GetLinkTableName*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetLinkTableName
+  isExternal: true
+  name: GetLinkTableName
+  nameWithType: ListsHelper.GetLinkTableName
+  fullName: SuperOffice.CRM.ListsHelper.GetLinkTableName
+- uid: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup
+  isExternal: true
+  name: SetVisibleForUserGroup
+  nameWithType: ListsHelper.SetVisibleForUserGroup
+  fullName: SuperOffice.CRM.ListsHelper.SetVisibleForUserGroup
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup
+  isExternal: true
+  name: SetListItemsForUserGroup
+  nameWithType: ListsHelper.SetListItemsForUserGroup
+  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForUserGroup
+- uid: SuperOffice.CRM.ListsHelper.SetListItemsForHeading*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.SetListItemsForHeading
+  isExternal: true
+  name: SetListItemsForHeading
+  nameWithType: ListsHelper.SetListItemsForHeading
+  fullName: SuperOffice.CRM.ListsHelper.SetListItemsForHeading

@@ -1,0 +1,714 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
+  id: EisPluginLoader
+  parent: SuperOffice.ErpSync.ConnectorWS
+  children:
+  - SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector(System.String)
+  - SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector(System.Uri,System.String[])
+  - SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.Instance
+  - SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.ParseAdditionalAssembly(System.String)
+  langs:
+  - csharp
+  - vb
+  name: EisPluginLoader
+  nameWithType: EisPluginLoader
+  fullName: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nClass used to load the registered Erp Sync connectors\n"
+  syntax:
+    content: public class EisPluginLoader
+    content.vb: Public Class EisPluginLoader
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.EnumUtil.MapEnums``2
+  - SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector(System.Uri,System.String[])
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector(System.Uri,System.String[])
+  id: GetConnector(System.Uri,System.String[])
+  parent: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
+  langs:
+  - csharp
+  - vb
+  name: GetConnector(Uri, String[])
+  nameWithType: EisPluginLoader.GetConnector(Uri, String[])
+  fullName: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector(System.Uri, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nGet the connector\n"
+  syntax:
+    content: public IErpConnector GetConnector(Uri serviceUri, string[] assemblyFiles)
+    parameters:
+    - id: serviceUri
+      type: System.Uri
+      description: Query string may contain CONNECTORNAME to specify one particular connector plugin
+    - id: assemblyFiles
+      type: System.String[]
+      description: Assemblies to scan for plugins
+    return:
+      type: SuperOffice.CRM.IErpConnector
+    content.vb: Public Function GetConnector(serviceUri As Uri, assemblyFiles As String()) As IErpConnector
+  overload: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector*
+  nameWithType.vb: EisPluginLoader.GetConnector(Uri, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector(System.Uri, System.String())
+  name.vb: GetConnector(Uri, String())
+- uid: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector(System.String)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector(System.String)
+  id: GetConnector(System.String)
+  parent: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
+  langs:
+  - csharp
+  - vb
+  name: GetConnector(String)
+  nameWithType: EisPluginLoader.GetConnector(String)
+  fullName: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nGet the connector given a name\n"
+  syntax:
+    content: public IErpConnector GetConnector(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Optional plugin name. If blank, then the first plugin will be returned
+    return:
+      type: SuperOffice.CRM.IErpConnector
+    content.vb: Public Function GetConnector(name As String) As IErpConnector
+  overload: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.ParseAdditionalAssembly(System.String)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.ParseAdditionalAssembly(System.String)
+  id: ParseAdditionalAssembly(System.String)
+  parent: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
+  langs:
+  - csharp
+  - vb
+  name: ParseAdditionalAssembly(String)
+  nameWithType: EisPluginLoader.ParseAdditionalAssembly(String)
+  fullName: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.ParseAdditionalAssembly(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nLoad and parse a named assembly file\n"
+  syntax:
+    content: public void ParseAdditionalAssembly(string assemblyFile)
+    parameters:
+    - id: assemblyFile
+      type: System.String
+      description: Name of the assembly
+    content.vb: Public Sub ParseAdditionalAssembly(assemblyFile As String)
+  overload: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.ParseAdditionalAssembly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.Instance
+  commentId: P:SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.Instance
+  id: Instance
+  parent: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: EisPluginLoader.Instance
+  fullName: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.Instance
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nThe instance\n"
+  syntax:
+    content: public static EisPluginLoader Instance { get; }
+    parameters: []
+    return:
+      type: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
+    content.vb: Public Shared ReadOnly Property Instance As EisPluginLoader
+  overload: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EisPluginLoader, To>()
+  nameWithType: EnumUtil.MapEnums<EisPluginLoader, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ConnectorWS.EisPluginLoader, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EisPluginLoader, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.EisPluginLoader, To)()
+  name.vb: MapEnums(Of EisPluginLoader, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EisPluginLoader, To>
+    nameWithType: EnumUtil.MapEnums<EisPluginLoader, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ConnectorWS.EisPluginLoader, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EisPluginLoader, To)
+    nameWithType: EnumUtil.MapEnums(Of EisPluginLoader, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.EisPluginLoader, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EisPluginLoader, To>()
+  nameWithType: Converters.MapEnums<EisPluginLoader, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ConnectorWS.EisPluginLoader, To>()
+  nameWithType.vb: Converters.MapEnums(Of EisPluginLoader, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.EisPluginLoader, To)()
+  name.vb: MapEnums(Of EisPluginLoader, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EisPluginLoader, To>
+    nameWithType: Converters.MapEnums<EisPluginLoader, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ConnectorWS.EisPluginLoader, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EisPluginLoader, To)
+    nameWithType: Converters.MapEnums(Of EisPluginLoader, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.EisPluginLoader, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector
+  isExternal: true
+  name: GetConnector
+  nameWithType: EisPluginLoader.GetConnector
+  fullName: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.GetConnector
+- uid: System.Uri
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.IErpConnector
+  commentId: T:SuperOffice.CRM.IErpConnector
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IErpConnector
+  nameWithType: IErpConnector
+  fullName: SuperOffice.CRM.IErpConnector
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.ParseAdditionalAssembly*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.ParseAdditionalAssembly
+  isExternal: true
+  name: ParseAdditionalAssembly
+  nameWithType: EisPluginLoader.ParseAdditionalAssembly
+  fullName: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.ParseAdditionalAssembly
+- uid: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.Instance*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.Instance
+  isExternal: true
+  name: Instance
+  nameWithType: EisPluginLoader.Instance
+  fullName: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader.Instance
+- uid: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.EisPluginLoader
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: EisPluginLoader
+  nameWithType: EisPluginLoader
+  fullName: SuperOffice.ErpSync.ConnectorWS.EisPluginLoader

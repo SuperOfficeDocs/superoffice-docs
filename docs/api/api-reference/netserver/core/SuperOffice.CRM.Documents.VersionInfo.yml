@@ -1,0 +1,1112 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.VersionInfo
+  commentId: T:SuperOffice.CRM.Documents.VersionInfo
+  id: VersionInfo
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.VersionInfo.#ctor
+  - SuperOffice.CRM.Documents.VersionInfo.CheckedInByAssociateId
+  - SuperOffice.CRM.Documents.VersionInfo.CheckedInByName
+  - SuperOffice.CRM.Documents.VersionInfo.CheckedInDate
+  - SuperOffice.CRM.Documents.VersionInfo.Description
+  - SuperOffice.CRM.Documents.VersionInfo.DisplayText
+  - SuperOffice.CRM.Documents.VersionInfo.DocumentId
+  - SuperOffice.CRM.Documents.VersionInfo.ExternalReference
+  - SuperOffice.CRM.Documents.VersionInfo.ExtraFields
+  - SuperOffice.CRM.Documents.VersionInfo.VersionId
+  langs:
+  - csharp
+  - vb
+  name: VersionInfo
+  nameWithType: VersionInfo
+  fullName: SuperOffice.CRM.Documents.VersionInfo
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nAn instance of this class represents information about one version of one document\n"
+  remarks: "\nDocument plugins that support versioning are responsible for managing versions and provinding these objects.\nStorage/generation of these properties is the responsibility of the plugin.\n<p></p>\nInstances of this class can be retrieved using <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.LoadVersionInfo(SuperOffice.CRM.IDocumentInfo%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref>\nand <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> methods.\n"
+  syntax:
+    content: public class VersionInfo
+    content.vb: Public Class VersionInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Documents.VersionInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Documents.VersionInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.VersionInfo)
+  - SuperOffice.CRM.Documents.VersionInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Documents.VersionInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Documents.VersionInfo.#ctor
+  commentId: M:SuperOffice.CRM.Documents.VersionInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Documents.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: VersionInfo()
+  nameWithType: VersionInfo.VersionInfo()
+  fullName: SuperOffice.CRM.Documents.VersionInfo.VersionInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public VersionInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Documents.VersionInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.VersionInfo.ExternalReference
+  commentId: P:SuperOffice.CRM.Documents.VersionInfo.ExternalReference
+  id: ExternalReference
+  parent: SuperOffice.CRM.Documents.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ExternalReference
+  nameWithType: VersionInfo.ExternalReference
+  fullName: SuperOffice.CRM.Documents.VersionInfo.ExternalReference
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nThe document plugin&apos;s key that uniquely identifies a document; stored in the externalReference field of the document table\n"
+  syntax:
+    content: public string ExternalReference { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExternalReference As String
+  overload: SuperOffice.CRM.Documents.VersionInfo.ExternalReference*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.VersionInfo.DocumentId
+  commentId: P:SuperOffice.CRM.Documents.VersionInfo.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.Documents.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: VersionInfo.DocumentId
+  fullName: SuperOffice.CRM.Documents.VersionInfo.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nThe document Id that uniquely identifies the document within the SuperOffice database\n"
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.CRM.Documents.VersionInfo.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.VersionInfo.VersionId
+  commentId: P:SuperOffice.CRM.Documents.VersionInfo.VersionId
+  id: VersionId
+  parent: SuperOffice.CRM.Documents.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: VersionId
+  nameWithType: VersionInfo.VersionId
+  fullName: SuperOffice.CRM.Documents.VersionInfo.VersionId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nThe document plugin&apos;s version id that uniquely identifies one version of a document. If versioning is not\nsupported, this will be blank. When versioning is supported, blank values imply the <strong>latest checked-in</strong> version.\n"
+  syntax:
+    content: public string VersionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VersionId As String
+  overload: SuperOffice.CRM.Documents.VersionInfo.VersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.VersionInfo.CheckedInDate
+  commentId: P:SuperOffice.CRM.Documents.VersionInfo.CheckedInDate
+  id: CheckedInDate
+  parent: SuperOffice.CRM.Documents.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: CheckedInDate
+  nameWithType: VersionInfo.CheckedInDate
+  fullName: SuperOffice.CRM.Documents.VersionInfo.CheckedInDate
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nThe date that this version was checked in and became official\n"
+  syntax:
+    content: public DateTime CheckedInDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CheckedInDate As Date
+  overload: SuperOffice.CRM.Documents.VersionInfo.CheckedInDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.VersionInfo.CheckedInByName
+  commentId: P:SuperOffice.CRM.Documents.VersionInfo.CheckedInByName
+  id: CheckedInByName
+  parent: SuperOffice.CRM.Documents.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: CheckedInByName
+  nameWithType: VersionInfo.CheckedInByName
+  fullName: SuperOffice.CRM.Documents.VersionInfo.CheckedInByName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nName (nicely formatted) of the user/person who performed the checkin\n"
+  syntax:
+    content: public string CheckedInByName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CheckedInByName As String
+  overload: SuperOffice.CRM.Documents.VersionInfo.CheckedInByName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.VersionInfo.CheckedInByAssociateId
+  commentId: P:SuperOffice.CRM.Documents.VersionInfo.CheckedInByAssociateId
+  id: CheckedInByAssociateId
+  parent: SuperOffice.CRM.Documents.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: CheckedInByAssociateId
+  nameWithType: VersionInfo.CheckedInByAssociateId
+  fullName: SuperOffice.CRM.Documents.VersionInfo.CheckedInByAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nAssociate id of the user who performed the checkin\n"
+  syntax:
+    content: public int CheckedInByAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CheckedInByAssociateId As Integer
+  overload: SuperOffice.CRM.Documents.VersionInfo.CheckedInByAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.VersionInfo.Description
+  commentId: P:SuperOffice.CRM.Documents.VersionInfo.Description
+  id: Description
+  parent: SuperOffice.CRM.Documents.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: VersionInfo.Description
+  fullName: SuperOffice.CRM.Documents.VersionInfo.Description
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nArbitrary description string\n"
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: SuperOffice.CRM.Documents.VersionInfo.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.VersionInfo.DisplayText
+  commentId: P:SuperOffice.CRM.Documents.VersionInfo.DisplayText
+  id: DisplayText
+  parent: SuperOffice.CRM.Documents.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayText
+  nameWithType: VersionInfo.DisplayText
+  fullName: SuperOffice.CRM.Documents.VersionInfo.DisplayText
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nA short description, suitable for display in a popup menu or dropdown list of versions.\n<p></p>\nIt is suggested that this string contain user initials, checkin date and the first few words of the description,\nbut it is up to the document plugin to provide whatever it thinks fits the purpose. In menus, the full Description\nproperty may be used as a tooltip by the client GUI - though there is no guarantee of that, since there are potentially\nmany clients.\n"
+  syntax:
+    content: public string DisplayText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayText As String
+  overload: SuperOffice.CRM.Documents.VersionInfo.DisplayText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.VersionInfo.ExtraFields
+  commentId: P:SuperOffice.CRM.Documents.VersionInfo.ExtraFields
+  id: ExtraFields
+  parent: SuperOffice.CRM.Documents.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: ExtraFields
+  nameWithType: VersionInfo.ExtraFields
+  fullName: SuperOffice.CRM.Documents.VersionInfo.ExtraFields
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nPrivate metadata, owned by the document plugin. This set of metadata is related directly to the version that \nthis VersioNinfo structure describes; metadata related to the document as a whole is retrieved using the \n<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> method.\n<p></p>\nThe string should be formatted like a query string, i.e., name1=value1&amp;name2=value2... - this format,\ninstead of a string/string dictionary avoids serialization problems, even though it is somewhat less\nefficient\n"
+  syntax:
+    content: public string[] ExtraFields { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ExtraFields As String()
+  overload: SuperOffice.CRM.Documents.VersionInfo.ExtraFields*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.VersionInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<VersionInfo, To>()
+  nameWithType: EnumUtil.MapEnums<VersionInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.VersionInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of VersionInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.VersionInfo, To)()
+  name.vb: MapEnums(Of VersionInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<VersionInfo, To>
+    nameWithType: EnumUtil.MapEnums<VersionInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.VersionInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of VersionInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of VersionInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.VersionInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.VersionInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.VersionInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<VersionInfo>(VersionInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<VersionInfo>(VersionInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Documents.VersionInfo>(SuperOffice.CRM.Documents.VersionInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of VersionInfo)(VersionInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Documents.VersionInfo)(SuperOffice.CRM.Documents.VersionInfo)
+  name.vb: AssignByReflection(Of VersionInfo)(VersionInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<VersionInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<VersionInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Documents.VersionInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Documents.VersionInfo
+    name: VersionInfo
+    nameWithType: VersionInfo
+    fullName: SuperOffice.CRM.Documents.VersionInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of VersionInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of VersionInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Documents.VersionInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Documents.VersionInfo
+    name: VersionInfo
+    nameWithType: VersionInfo
+    fullName: SuperOffice.CRM.Documents.VersionInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.VersionInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<VersionInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<VersionInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Documents.VersionInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of VersionInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Documents.VersionInfo)()
+  name.vb: GraphCopy(Of VersionInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<VersionInfo>
+    nameWithType: ObjectExtensions.GraphCopy<VersionInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Documents.VersionInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of VersionInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of VersionInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Documents.VersionInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.VersionInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<VersionInfo, To>()
+  nameWithType: Converters.MapEnums<VersionInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.VersionInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of VersionInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.VersionInfo, To)()
+  name.vb: MapEnums(Of VersionInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<VersionInfo, To>
+    nameWithType: Converters.MapEnums<VersionInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.VersionInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of VersionInfo, To)
+    nameWithType: Converters.MapEnums(Of VersionInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.VersionInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Documents.VersionInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Documents.VersionInfo.#ctor
+  isExternal: true
+  name: VersionInfo
+  nameWithType: VersionInfo.VersionInfo
+  fullName: SuperOffice.CRM.Documents.VersionInfo.VersionInfo
+- uid: SuperOffice.CRM.Documents.VersionInfo.ExternalReference*
+  commentId: Overload:SuperOffice.CRM.Documents.VersionInfo.ExternalReference
+  isExternal: true
+  name: ExternalReference
+  nameWithType: VersionInfo.ExternalReference
+  fullName: SuperOffice.CRM.Documents.VersionInfo.ExternalReference
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Documents.VersionInfo.DocumentId*
+  commentId: Overload:SuperOffice.CRM.Documents.VersionInfo.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: VersionInfo.DocumentId
+  fullName: SuperOffice.CRM.Documents.VersionInfo.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Documents.VersionInfo.VersionId*
+  commentId: Overload:SuperOffice.CRM.Documents.VersionInfo.VersionId
+  isExternal: true
+  name: VersionId
+  nameWithType: VersionInfo.VersionId
+  fullName: SuperOffice.CRM.Documents.VersionInfo.VersionId
+- uid: SuperOffice.CRM.Documents.VersionInfo.CheckedInDate*
+  commentId: Overload:SuperOffice.CRM.Documents.VersionInfo.CheckedInDate
+  isExternal: true
+  name: CheckedInDate
+  nameWithType: VersionInfo.CheckedInDate
+  fullName: SuperOffice.CRM.Documents.VersionInfo.CheckedInDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Documents.VersionInfo.CheckedInByName*
+  commentId: Overload:SuperOffice.CRM.Documents.VersionInfo.CheckedInByName
+  isExternal: true
+  name: CheckedInByName
+  nameWithType: VersionInfo.CheckedInByName
+  fullName: SuperOffice.CRM.Documents.VersionInfo.CheckedInByName
+- uid: SuperOffice.CRM.Documents.VersionInfo.CheckedInByAssociateId*
+  commentId: Overload:SuperOffice.CRM.Documents.VersionInfo.CheckedInByAssociateId
+  isExternal: true
+  name: CheckedInByAssociateId
+  nameWithType: VersionInfo.CheckedInByAssociateId
+  fullName: SuperOffice.CRM.Documents.VersionInfo.CheckedInByAssociateId
+- uid: SuperOffice.CRM.Documents.VersionInfo.Description*
+  commentId: Overload:SuperOffice.CRM.Documents.VersionInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: VersionInfo.Description
+  fullName: SuperOffice.CRM.Documents.VersionInfo.Description
+- uid: SuperOffice.CRM.Documents.VersionInfo.DisplayText*
+  commentId: Overload:SuperOffice.CRM.Documents.VersionInfo.DisplayText
+  isExternal: true
+  name: DisplayText
+  nameWithType: VersionInfo.DisplayText
+  fullName: SuperOffice.CRM.Documents.VersionInfo.DisplayText
+- uid: SuperOffice.CRM.Documents.VersionInfo.ExtraFields*
+  commentId: Overload:SuperOffice.CRM.Documents.VersionInfo.ExtraFields
+  isExternal: true
+  name: ExtraFields
+  nameWithType: VersionInfo.ExtraFields
+  fullName: SuperOffice.CRM.Documents.VersionInfo.ExtraFields
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

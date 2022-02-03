@@ -1,0 +1,495 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  id: AppointmentMatrix.SendMails
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
+  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EndInvoke(System.IAsyncResult)
+  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
+  langs:
+  - csharp
+  - vb
+  name: AppointmentMatrix.SendMails
+  nameWithType: AppointmentMatrix.SendMails
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public delegate void SendMails(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, params MailItem[] mail);
+    parameters:
+    - id: smtpServer
+      type: System.String
+    - id: smtpUser
+      type: System.String
+    - id: smtpPassword
+      type: System.String
+    - id: smtpSSL
+      type: System.Boolean
+    - id: imapServer
+      type: System.String
+    - id: imapUser
+      type: System.String
+    - id: imapPassword
+      type: System.String
+    - id: imapSSL
+      type: System.Boolean
+    - id: sentFolder
+      type: System.String
+    - id: mail
+      type: SuperOffice.CRM.Mail.MailItem[]
+    content.vb: Public Delegate Sub SendMails(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, ParamArray mail As MailItem())
+  extensionMethods:
+  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  langs:
+  - csharp
+  - vb
+  name: SendMails(Object, IntPtr)
+  nameWithType: AppointmentMatrix.SendMails.SendMails(Object, IntPtr)
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.SendMails(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public SendMails(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
+  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
+  id: Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  langs:
+  - csharp
+  - vb
+  name: Invoke(String, String, String, Boolean, String, String, String, Boolean, String, MailItem[])
+  nameWithType: AppointmentMatrix.SendMails.Invoke(String, String, String, Boolean, String, String, String, Boolean, String, MailItem[])
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(System.String, System.String, System.String, System.Boolean, System.String, System.String, System.String, System.Boolean, System.String, SuperOffice.CRM.Mail.MailItem[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual void Invoke(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, params MailItem[] mail)
+    parameters:
+    - id: smtpServer
+      type: System.String
+    - id: smtpUser
+      type: System.String
+    - id: smtpPassword
+      type: System.String
+    - id: smtpSSL
+      type: System.Boolean
+    - id: imapServer
+      type: System.String
+    - id: imapUser
+      type: System.String
+    - id: imapPassword
+      type: System.String
+    - id: imapSSL
+      type: System.Boolean
+    - id: sentFolder
+      type: System.String
+    - id: mail
+      type: SuperOffice.CRM.Mail.MailItem[]
+    content.vb: Public Overridable Sub Invoke(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, ParamArray mail As MailItem())
+  overload: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke*
+  nameWithType.vb: AppointmentMatrix.SendMails.Invoke(String, String, String, Boolean, String, String, String, Boolean, String, MailItem())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(System.String, System.String, System.String, System.Boolean, System.String, System.String, System.String, System.Boolean, System.String, SuperOffice.CRM.Mail.MailItem())
+  name.vb: Invoke(String, String, String, Boolean, String, String, String, Boolean, String, MailItem())
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(String, String, String, Boolean, String, String, String, Boolean, String, MailItem[], AsyncCallback, Object)
+  nameWithType: AppointmentMatrix.SendMails.BeginInvoke(String, String, String, Boolean, String, String, String, Boolean, String, MailItem[], AsyncCallback, Object)
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(System.String, System.String, System.String, System.Boolean, System.String, System.String, System.String, System.Boolean, System.String, SuperOffice.CRM.Mail.MailItem[], System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, MailItem[] mail, AsyncCallback callback, object object)
+    parameters:
+    - id: smtpServer
+      type: System.String
+    - id: smtpUser
+      type: System.String
+    - id: smtpPassword
+      type: System.String
+    - id: smtpSSL
+      type: System.Boolean
+    - id: imapServer
+      type: System.String
+    - id: imapUser
+      type: System.String
+    - id: imapPassword
+      type: System.String
+    - id: imapSSL
+      type: System.Boolean
+    - id: sentFolder
+      type: System.String
+    - id: mail
+      type: SuperOffice.CRM.Mail.MailItem[]
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, mail As MailItem(), callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke*
+  nameWithType.vb: AppointmentMatrix.SendMails.BeginInvoke(String, String, String, Boolean, String, String, String, Boolean, String, MailItem(), AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(System.String, System.String, System.String, System.Boolean, System.String, System.String, System.String, System.Boolean, System.String, SuperOffice.CRM.Mail.MailItem(), System.AsyncCallback, System.Object)
+  name.vb: BeginInvoke(String, String, String, Boolean, String, String, String, Boolean, String, MailItem(), AsyncCallback, Object)
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: AppointmentMatrix.SendMails.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AppointmentMatrix.SendMails, To>()
+  nameWithType: EnumUtil.MapEnums<AppointmentMatrix.SendMails, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.AppointmentMatrix.SendMails, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentMatrix.SendMails, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.AppointmentMatrix.SendMails, To)()
+  name.vb: MapEnums(Of AppointmentMatrix.SendMails, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AppointmentMatrix.SendMails, To>
+    nameWithType: EnumUtil.MapEnums<AppointmentMatrix.SendMails, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.AppointmentMatrix.SendMails, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AppointmentMatrix.SendMails, To)
+    nameWithType: EnumUtil.MapEnums(Of AppointmentMatrix.SendMails, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.AppointmentMatrix.SendMails, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AppointmentMatrix.SendMails, To>()
+  nameWithType: Converters.MapEnums<AppointmentMatrix.SendMails, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.AppointmentMatrix.SendMails, To>()
+  nameWithType.vb: Converters.MapEnums(Of AppointmentMatrix.SendMails, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.AppointmentMatrix.SendMails, To)()
+  name.vb: MapEnums(Of AppointmentMatrix.SendMails, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AppointmentMatrix.SendMails, To>
+    nameWithType: Converters.MapEnums<AppointmentMatrix.SendMails, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.AppointmentMatrix.SendMails, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AppointmentMatrix.SendMails, To)
+    nameWithType: Converters.MapEnums(Of AppointmentMatrix.SendMails, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.AppointmentMatrix.SendMails, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Mail.MailItem[]
+  isExternal: true
+  name: MailItem[]
+  nameWithType: MailItem[]
+  fullName: SuperOffice.CRM.Mail.MailItem[]
+  nameWithType.vb: MailItem()
+  fullName.vb: SuperOffice.CRM.Mail.MailItem()
+  name.vb: MailItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailItem
+    name: MailItem
+    nameWithType: MailItem
+    fullName: SuperOffice.CRM.Mail.MailItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailItem
+    name: MailItem
+    nameWithType: MailItem
+    fullName: SuperOffice.CRM.Mail.MailItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.#ctor
+  isExternal: true
+  name: SendMails
+  nameWithType: AppointmentMatrix.SendMails.SendMails
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.SendMails
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: AppointmentMatrix.SendMails.Invoke
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: AppointmentMatrix.SendMails.BeginInvoke
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EndInvoke*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: AppointmentMatrix.SendMails.EndInvoke
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EndInvoke

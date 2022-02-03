@@ -1,0 +1,512 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  id: UserPreferenceStrings.ToolTips
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBApp
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBEmail
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBNote
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBPhone
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBSale
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBTask
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBWrite
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLContact
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLDiary
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLEmail
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLProject
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLReporter
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLSelection
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipsReadFactor
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.ToolTips
+  nameWithType: UserPreferenceStrings.ToolTips
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltips in the application\n"
+  syntax:
+    content: 'public static class ToolTips : Object'
+    content.vb: >-
+      Public Module ToolTips
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.ToolTips.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "ToolTips"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "ToolTips"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBApp
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBApp
+  id: TooltipOnBApp
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBApp
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBApp
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBApp
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on Appointment button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBApp = "TooltipOnBApp"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBApp As String = "TooltipOnBApp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBEmail
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBEmail
+  id: TooltipOnBEmail
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBEmail
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBEmail
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on E-mail button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBEmail = "TooltipOnBEmail"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBEmail As String = "TooltipOnBEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBNote
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBNote
+  id: TooltipOnBNote
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBNote
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBNote
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBNote
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on Note button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBNote = "TooltipOnBNote"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBNote As String = "TooltipOnBNote"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBPhone
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBPhone
+  id: TooltipOnBPhone
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBPhone
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBPhone
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBPhone
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on Phone call button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBPhone = "TooltipOnBPhone"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBPhone As String = "TooltipOnBPhone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBSale
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBSale
+  id: TooltipOnBSale
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBSale
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBSale
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBSale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on Sale button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBSale = "TooltipOnBSale"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBSale As String = "TooltipOnBSale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBTask
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBTask
+  id: TooltipOnBTask
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBTask
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBTask
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBTask
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on Task button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBTask = "TooltipOnBTask"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBTask As String = "TooltipOnBTask"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBWrite
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBWrite
+  id: TooltipOnBWrite
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBWrite
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBWrite
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnBWrite
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on Write button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBWrite = "TooltipOnBWrite"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBWrite As String = "TooltipOnBWrite"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLContact
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLContact
+  id: TooltipOnLContact
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLContact
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLContact
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on Company button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLContact = "TooltipOnLContact"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLContact As String = "TooltipOnLContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLDiary
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLDiary
+  id: TooltipOnLDiary
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLDiary
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLDiary
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLDiary
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on Diary button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLDiary = "TooltipOnLDiary"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLDiary As String = "TooltipOnLDiary"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLEmail
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLEmail
+  id: TooltipOnLEmail
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLEmail
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLEmail
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on E-mail button in the Navigator\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLEmail = "TooltipOnLEmail"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLEmail As String = "TooltipOnLEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLProject
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLProject
+  id: TooltipOnLProject
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLProject
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLProject
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLProject
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on Project button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLProject = "TooltipOnLProject"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLProject As String = "TooltipOnLProject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLReporter
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLReporter
+  id: TooltipOnLReporter
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLReporter
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLReporter
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLReporter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on Reports button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLReporter = "TooltipOnLReporter"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLReporter As String = "TooltipOnLReporter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLSelection
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLSelection
+  id: TooltipOnLSelection
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLSelection
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLSelection
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipOnLSelection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip on Selection button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLSelection = "TooltipOnLSelection"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLSelection As String = "TooltipOnLSelection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipsReadFactor
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipsReadFactor
+  id: TooltipsReadFactor
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipsReadFactor
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipsReadFactor
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ToolTips.TooltipsReadFactor
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault read time for tooltip is multiplied by this factor\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipsReadFactor = "TooltipsReadFactor"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipsReadFactor As String = "TooltipsReadFactor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

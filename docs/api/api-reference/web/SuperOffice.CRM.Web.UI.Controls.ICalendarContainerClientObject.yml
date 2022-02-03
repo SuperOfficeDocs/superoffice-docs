@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+  id: ICalendarContainerClientObject
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientID
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript
+  langs:
+  - csharp
+  - vb
+  name: ICalendarContainerClientObject
+  nameWithType: ICalendarContainerClientObject
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+  type: Interface
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public interface ICalendarContainerClientObject
+    content.vb: Public Interface ICalendarContainerClientObject
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientID
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientID
+  id: ClientID
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+  langs:
+  - csharp
+  - vb
+  name: ClientID
+  nameWithType: ICalendarContainerClientObject.ClientID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientID
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string ClientID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ClientID As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientID*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript
+  id: ClientScript
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+  langs:
+  - csharp
+  - vb
+  name: ClientScript
+  nameWithType: ICalendarContainerClientObject.ClientScript
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string ClientScript { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ClientScript As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects
+  id: CalendarClientObjects
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+  langs:
+  - csharp
+  - vb
+  name: CalendarClientObjects
+  nameWithType: ICalendarContainerClientObject.CalendarClientObjects
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Calendar.ClientObject[] CalendarClientObjects { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject[]
+    content.vb: ReadOnly Property CalendarClientObjects As Calendar.ClientObject()
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientID*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientID
+  isExternal: true
+  name: ClientID
+  nameWithType: ICalendarContainerClientObject.ClientID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript
+  isExternal: true
+  name: ClientScript
+  nameWithType: ICalendarContainerClientObject.ClientScript
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects
+  isExternal: true
+  name: CalendarClientObjects
+  nameWithType: ICalendarContainerClientObject.CalendarClientObjects
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects
+- uid: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject[]
+  isExternal: true
+  name: Calendar.ClientObject[]
+  nameWithType: Calendar.ClientObject[]
+  fullName: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject[]
+  nameWithType.vb: Calendar.ClientObject()
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject()
+  name.vb: Calendar.ClientObject()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject
+    name: Calendar.ClientObject
+    nameWithType: Calendar.ClientObject
+    fullName: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject
+    name: Calendar.ClientObject
+    nameWithType: Calendar.ClientObject
+    fullName: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

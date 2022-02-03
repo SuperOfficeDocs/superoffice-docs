@@ -1,0 +1,1949 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  id: LicenseSatlLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Comment
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Definition
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.EncryptedCheck
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.IdxModuleLicenseId(System.Int32)
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseNumber
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseSatlLinkId
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId_InnerJoin_ModuleLicense
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Registered
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId_InnerJoin_Satellite
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Updated
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedCount
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidFrom
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidTo
+  langs:
+  - csharp
+  - vb
+  name: LicenseSatlLinkTableInfo
+  nameWithType: LicenseSatlLinkTableInfo
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;LicenseSatlLink&apos;: Link between License and Satellite, for per-database licenses\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetLicenseSatlLinkInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("LicenseSatlLink")]
+
+      public class LicenseSatlLinkTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("LicenseSatlLink")>
+
+      Public Class LicenseSatlLinkTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LicenseSatlLink
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: LicenseSatlLinkTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table LicenseSatlLink in the database dictionary: LicenseSatlLink\n"
+  syntax:
+    content: public const string DictionaryTableName = "LicenseSatlLink"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "LicenseSatlLink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.IdxModuleLicenseId(System.Int32)
+  commentId: M:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.IdxModuleLicenseId(System.Int32)
+  id: IdxModuleLicenseId(System.Int32)
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxModuleLicenseId(Int32)
+  nameWithType: LicenseSatlLinkTableInfo.IdxModuleLicenseId(Int32)
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.IdxModuleLicenseId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index ModuleLicenseId, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>ModuleLicenseId</td><td>The license being linked</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxModuleLicenseId(int moduleLicenseId)
+    parameters:
+    - id: moduleLicenseId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxModuleLicenseId(moduleLicenseId As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.IdxModuleLicenseId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: LicenseSatlLinkTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table LicenseSatlLink in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: LicenseSatlLinkTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: LicenseSatlLinkTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseSatlLinkId
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseSatlLinkId
+  id: LicenseSatlLinkId
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LicenseSatlLinkId
+  nameWithType: LicenseSatlLinkTableInfo.LicenseSatlLinkId
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseSatlLinkId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;LicenseSatlLink_id&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo LicenseSatlLinkId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property LicenseSatlLinkId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseSatlLinkId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId
+  id: ModuleLicenseId
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ModuleLicenseId
+  nameWithType: LicenseSatlLinkTableInfo.ModuleLicenseId
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;moduleLicenseId&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe license being linked\n"
+  syntax:
+    content: public Int32FieldInfo ModuleLicenseId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ModuleLicenseId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId
+  id: SatelliteId
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SatelliteId
+  nameWithType: LicenseSatlLinkTableInfo.SatelliteId
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;satelliteId&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe Satellite who occupies one instance of this license\n"
+  syntax:
+    content: public Int32FieldInfo SatelliteId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SatelliteId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidFrom
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidFrom
+  id: ValidFrom
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ValidFrom
+  nameWithType: LicenseSatlLinkTableInfo.ValidFrom
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidFrom
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;validFrom&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nReserved field: Valid from date\n"
+  syntax:
+    content: public DateTimeFieldInfo ValidFrom { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property ValidFrom As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidFrom*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidTo
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidTo
+  id: ValidTo
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ValidTo
+  nameWithType: LicenseSatlLinkTableInfo.ValidTo
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidTo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;validTo&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nReserved field: Valid to date\n"
+  syntax:
+    content: public DateTimeFieldInfo ValidTo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property ValidTo As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidTo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseNumber
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseNumber
+  id: LicenseNumber
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LicenseNumber
+  nameWithType: LicenseSatlLinkTableInfo.LicenseNumber
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;licenseNumber&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of license items occupied by this satellite\n"
+  syntax:
+    content: public FieldInfo LicenseNumber { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property LicenseNumber As FieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Comment
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Comment
+  id: Comment
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: LicenseSatlLinkTableInfo.Comment
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Comment
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;comment&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional comment field\n"
+  syntax:
+    content: public StringFieldInfo Comment { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Comment As StringFieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.EncryptedCheck
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.EncryptedCheck
+  id: EncryptedCheck
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EncryptedCheck
+  nameWithType: LicenseSatlLinkTableInfo.EncryptedCheck
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.EncryptedCheck
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;encryptedCheck&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nEncrypted checksum; tampering will block system usage\n"
+  syntax:
+    content: public StringFieldInfo EncryptedCheck { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property EncryptedCheck As StringFieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.EncryptedCheck*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: LicenseSatlLinkTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: LicenseSatlLinkTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: LicenseSatlLinkTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: LicenseSatlLinkTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: LicenseSatlLinkTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updatedCount&apos; in table &apos;LicenseSatlLink&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId_InnerJoin_ModuleLicense
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId_InnerJoin_ModuleLicense
+  id: ModuleLicenseId_InnerJoin_ModuleLicense
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ModuleLicenseId_InnerJoin_ModuleLicense
+  nameWithType: LicenseSatlLinkTableInfo.ModuleLicenseId_InnerJoin_ModuleLicense
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId_InnerJoin_ModuleLicense
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key ModuleLicenseId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ModuleLicenseTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<ModuleLicenseTableInfo> ModuleLicenseId_InnerJoin_ModuleLicense { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ModuleLicenseTableInfo}
+    content.vb: Public ReadOnly Property ModuleLicenseId_InnerJoin_ModuleLicense As TargetedInnerJoin(Of ModuleLicenseTableInfo)
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId_InnerJoin_ModuleLicense*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId_InnerJoin_Satellite
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId_InnerJoin_Satellite
+  id: SatelliteId_InnerJoin_Satellite
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SatelliteId_InnerJoin_Satellite
+  nameWithType: LicenseSatlLinkTableInfo.SatelliteId_InnerJoin_Satellite
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId_InnerJoin_Satellite
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key SatelliteId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.SatelliteTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<SatelliteTableInfo> SatelliteId_InnerJoin_Satellite { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SatelliteTableInfo}
+    content.vb: Public ReadOnly Property SatelliteId_InnerJoin_Satellite As TargetedInnerJoin(Of SatelliteTableInfo)
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId_InnerJoin_Satellite*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: LicenseSatlLinkTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: LicenseSatlLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<LicenseSatlLinkTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<LicenseSatlLinkTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.LicenseSatlLinkTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of LicenseSatlLinkTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.LicenseSatlLinkTableInfo, To)()
+  name.vb: MapEnums(Of LicenseSatlLinkTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<LicenseSatlLinkTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<LicenseSatlLinkTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.LicenseSatlLinkTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of LicenseSatlLinkTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of LicenseSatlLinkTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.LicenseSatlLinkTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<LicenseSatlLinkTableInfo, To>()
+  nameWithType: Converters.MapEnums<LicenseSatlLinkTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.LicenseSatlLinkTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of LicenseSatlLinkTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.LicenseSatlLinkTableInfo, To)()
+  name.vb: MapEnums(Of LicenseSatlLinkTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<LicenseSatlLinkTableInfo, To>
+    nameWithType: Converters.MapEnums<LicenseSatlLinkTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.LicenseSatlLinkTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of LicenseSatlLinkTableInfo, To)
+    nameWithType: Converters.MapEnums(Of LicenseSatlLinkTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.LicenseSatlLinkTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.IdxModuleLicenseId*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.IdxModuleLicenseId
+  isExternal: true
+  name: IdxModuleLicenseId
+  nameWithType: LicenseSatlLinkTableInfo.IdxModuleLicenseId
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.IdxModuleLicenseId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: LicenseSatlLinkTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.DictionaryTableNumber
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: LicenseSatlLinkTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: LicenseSatlLinkTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Definition
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseSatlLinkId*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseSatlLinkId
+  isExternal: true
+  name: LicenseSatlLinkId
+  nameWithType: LicenseSatlLinkTableInfo.LicenseSatlLinkId
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseSatlLinkId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId
+  isExternal: true
+  name: ModuleLicenseId
+  nameWithType: LicenseSatlLinkTableInfo.ModuleLicenseId
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId
+  isExternal: true
+  name: SatelliteId
+  nameWithType: LicenseSatlLinkTableInfo.SatelliteId
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidFrom*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidFrom
+  isExternal: true
+  name: ValidFrom
+  nameWithType: LicenseSatlLinkTableInfo.ValidFrom
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidFrom
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidTo*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidTo
+  isExternal: true
+  name: ValidTo
+  nameWithType: LicenseSatlLinkTableInfo.ValidTo
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ValidTo
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseNumber*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseNumber
+  isExternal: true
+  name: LicenseNumber
+  nameWithType: LicenseSatlLinkTableInfo.LicenseNumber
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.LicenseNumber
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Comment*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Comment
+  isExternal: true
+  name: Comment
+  nameWithType: LicenseSatlLinkTableInfo.Comment
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Comment
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.EncryptedCheck*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.EncryptedCheck
+  isExternal: true
+  name: EncryptedCheck
+  nameWithType: LicenseSatlLinkTableInfo.EncryptedCheck
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.EncryptedCheck
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: LicenseSatlLinkTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Registered
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: LicenseSatlLinkTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: LicenseSatlLinkTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.Updated
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: LicenseSatlLinkTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: LicenseSatlLinkTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedCount
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId_InnerJoin_ModuleLicense*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId_InnerJoin_ModuleLicense
+  isExternal: true
+  name: ModuleLicenseId_InnerJoin_ModuleLicense
+  nameWithType: LicenseSatlLinkTableInfo.ModuleLicenseId_InnerJoin_ModuleLicense
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.ModuleLicenseId_InnerJoin_ModuleLicense
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ModuleLicenseTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ModuleLicenseTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<ModuleLicenseTableInfo>
+  nameWithType: TargetedInnerJoin<ModuleLicenseTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ModuleLicenseTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ModuleLicenseTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ModuleLicenseTableInfo)
+  name.vb: TargetedInnerJoin(Of ModuleLicenseTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ModuleLicenseTableInfo
+    name: ModuleLicenseTableInfo
+    nameWithType: ModuleLicenseTableInfo
+    fullName: SuperOffice.CRM.Data.ModuleLicenseTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ModuleLicenseTableInfo
+    name: ModuleLicenseTableInfo
+    nameWithType: ModuleLicenseTableInfo
+    fullName: SuperOffice.CRM.Data.ModuleLicenseTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId_InnerJoin_Satellite*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId_InnerJoin_Satellite
+  isExternal: true
+  name: SatelliteId_InnerJoin_Satellite
+  nameWithType: LicenseSatlLinkTableInfo.SatelliteId_InnerJoin_Satellite
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.SatelliteId_InnerJoin_Satellite
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SatelliteTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SatelliteTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<SatelliteTableInfo>
+  nameWithType: TargetedInnerJoin<SatelliteTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.SatelliteTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of SatelliteTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.SatelliteTableInfo)
+  name.vb: TargetedInnerJoin(Of SatelliteTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.SatelliteTableInfo
+    name: SatelliteTableInfo
+    nameWithType: SatelliteTableInfo
+    fullName: SuperOffice.CRM.Data.SatelliteTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.SatelliteTableInfo
+    name: SatelliteTableInfo
+    nameWithType: SatelliteTableInfo
+    fullName: SuperOffice.CRM.Data.SatelliteTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: LicenseSatlLinkTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: LicenseSatlLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.LicenseSatlLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate

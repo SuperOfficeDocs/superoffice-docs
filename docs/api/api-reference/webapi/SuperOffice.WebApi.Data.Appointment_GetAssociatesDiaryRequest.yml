@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest
+  id: Appointment_GetAssociatesDiaryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.AssociateIds
+  - SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.EndTime
+  - SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.StartTime
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAssociatesDiaryRequest
+  nameWithType: Appointment_GetAssociatesDiaryRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetAssociatesDiaryRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetAssociatesDiaryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAssociatesDiaryRequest()
+  nameWithType: Appointment_GetAssociatesDiaryRequest.Appointment_GetAssociatesDiaryRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.Appointment_GetAssociatesDiaryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetAssociatesDiaryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.AssociateIds
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.AssociateIds
+  id: AssociateIds
+  parent: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateIds
+  nameWithType: Appointment_GetAssociatesDiaryRequest.AssociateIds
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.AssociateIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] AssociateIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property AssociateIds As Integer()
+  overload: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.AssociateIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.StartTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.StartTime
+  id: StartTime
+  parent: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: Appointment_GetAssociatesDiaryRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.StartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime StartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.StartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.EndTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.EndTime
+  id: EndTime
+  parent: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest
+  langs:
+  - csharp
+  - vb
+  name: EndTime
+  nameWithType: Appointment_GetAssociatesDiaryRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.EndTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime EndTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.EndTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.#ctor
+  isExternal: true
+  name: Appointment_GetAssociatesDiaryRequest
+  nameWithType: Appointment_GetAssociatesDiaryRequest.Appointment_GetAssociatesDiaryRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.Appointment_GetAssociatesDiaryRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.AssociateIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.AssociateIds
+  isExternal: true
+  name: AssociateIds
+  nameWithType: Appointment_GetAssociatesDiaryRequest.AssociateIds
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.AssociateIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.StartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.StartTime
+  isExternal: true
+  name: StartTime
+  nameWithType: Appointment_GetAssociatesDiaryRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.StartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.EndTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.EndTime
+  isExternal: true
+  name: EndTime
+  nameWithType: Appointment_GetAssociatesDiaryRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest.EndTime

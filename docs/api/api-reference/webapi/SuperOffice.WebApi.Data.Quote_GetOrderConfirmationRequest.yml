@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest
+  id: Quote_GetOrderConfirmationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.ConfirmationTemplateId
+  - SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.QuoteVersionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetOrderConfirmationRequest
+  nameWithType: Quote_GetOrderConfirmationRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GetOrderConfirmationRequest : Object'
+    content.vb: >-
+      Public Class Quote_GetOrderConfirmationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetOrderConfirmationRequest()
+  nameWithType: Quote_GetOrderConfirmationRequest.Quote_GetOrderConfirmationRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.Quote_GetOrderConfirmationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GetOrderConfirmationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Quote_GetOrderConfirmationRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.ConfirmationTemplateId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.ConfirmationTemplateId
+  id: ConfirmationTemplateId
+  parent: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: ConfirmationTemplateId
+  nameWithType: Quote_GetOrderConfirmationRequest.ConfirmationTemplateId
+  fullName: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.ConfirmationTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ConfirmationTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ConfirmationTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.ConfirmationTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.#ctor
+  isExternal: true
+  name: Quote_GetOrderConfirmationRequest
+  nameWithType: Quote_GetOrderConfirmationRequest.Quote_GetOrderConfirmationRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.Quote_GetOrderConfirmationRequest
+- uid: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Quote_GetOrderConfirmationRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.ConfirmationTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.ConfirmationTemplateId
+  isExternal: true
+  name: ConfirmationTemplateId
+  nameWithType: Quote_GetOrderConfirmationRequest.ConfirmationTemplateId
+  fullName: SuperOffice.WebApi.Data.Quote_GetOrderConfirmationRequest.ConfirmationTemplateId

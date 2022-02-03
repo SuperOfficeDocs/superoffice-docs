@@ -1,0 +1,807 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  id: ContextBase
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.#ctor
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientId
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientScript
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._containerId
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._contextType
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._htmlElement
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._offsetTop
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+  langs:
+  - csharp
+  - vb
+  name: ContextBase
+  nameWithType: ContextBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public class ContextBase
+    content.vb: Public Class ContextBase
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  - SuperOffice.CRM.Web.UI.ScriptObjects.WizardDialogContext
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._contextType
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._contextType
+  id: _contextType
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: _contextType
+  nameWithType: ContextBase._contextType
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._contextType
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: protected string _contextType
+    return:
+      type: System.String
+    content.vb: Protected _contextType As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientId
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientId
+  id: _clientId
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: _clientId
+  nameWithType: ContextBase._clientId
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientId
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: protected string _clientId
+    return:
+      type: System.String
+    content.vb: Protected _clientId As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._htmlElement
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._htmlElement
+  id: _htmlElement
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: _htmlElement
+  nameWithType: ContextBase._htmlElement
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._htmlElement
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: protected string _htmlElement
+    return:
+      type: System.String
+    content.vb: Protected _htmlElement As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._containerId
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._containerId
+  id: _containerId
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: _containerId
+  nameWithType: ContextBase._containerId
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._containerId
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: protected string _containerId
+    return:
+      type: System.String
+    content.vb: Protected _containerId As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientScript
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientScript
+  id: _clientScript
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: _clientScript
+  nameWithType: ContextBase._clientScript
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientScript
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: protected string _clientScript
+    return:
+      type: System.String
+    content.vb: Protected _clientScript As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._offsetTop
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._offsetTop
+  id: _offsetTop
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: _offsetTop
+  nameWithType: ContextBase._offsetTop
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._offsetTop
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: protected int _offsetTop
+    return:
+      type: System.Int32
+    content.vb: Protected _offsetTop As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+  id: ToString
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ContextBase.ToString()
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: ContextBase()
+  nameWithType: ContextBase.ContextBase()
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextBase()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public ContextBase()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop
+  id: OffsetTop
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: OffsetTop
+  nameWithType: ContextBase.OffsetTop
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public int OffsetTop { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property OffsetTop As Integer
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript
+  id: ClientScript
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: ClientScript
+  nameWithType: ContextBase.ClientScript
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string ClientScript { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClientScript As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId
+  id: ContainerId
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: ContainerId
+  nameWithType: ContextBase.ContainerId
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string ContainerId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContainerId As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement
+  id: HtmlElement
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: HtmlElement
+  nameWithType: ContextBase.HtmlElement
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string HtmlElement { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HtmlElement As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType
+  id: ContextType
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: ContextType
+  nameWithType: ContextBase.ContextType
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string ContextType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContextType As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID
+  id: ClientID
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  langs:
+  - csharp
+  - vb
+  name: ClientID
+  nameWithType: ContextBase.ClientID
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string ClientID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClientID As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.DCF.Web.UI.ScriptObjects
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ContextBase.ToString
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.#ctor
+  isExternal: true
+  name: ContextBase
+  nameWithType: ContextBase.ContextBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextBase
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop
+  isExternal: true
+  name: OffsetTop
+  nameWithType: ContextBase.OffsetTop
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript
+  isExternal: true
+  name: ClientScript
+  nameWithType: ContextBase.ClientScript
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId
+  isExternal: true
+  name: ContainerId
+  nameWithType: ContextBase.ContainerId
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement
+  isExternal: true
+  name: HtmlElement
+  nameWithType: ContextBase.HtmlElement
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType
+  isExternal: true
+  name: ContextType
+  nameWithType: ContextBase.ContextType
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID
+  isExternal: true
+  name: ClientID
+  nameWithType: ContextBase.ClientID
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID

@@ -1,0 +1,958 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  id: BulkUpdateSystem.JobResultStorageItem
+  parent: SuperOffice.CRM.BulkUpdate
+  children:
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.#ctor(System.String,System.Int32,System.String,System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[],System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.RowResultItem})
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.AssociateId
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.AssociateName
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.CompletedReason
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.DbRecordId
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.FieldValueStorageItems
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.RegisteredDate
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.RowResultStorageItems
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.TableName
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateSystem.JobResultStorageItem
+  nameWithType: BulkUpdateSystem.JobResultStorageItem
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public class JobResultStorageItem
+    content.vb: Public Class JobResultStorageItem
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.DbRecordId
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.DbRecordId
+  id: DbRecordId
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  langs:
+  - csharp
+  - vb
+  name: DbRecordId
+  nameWithType: BulkUpdateSystem.JobResultStorageItem.DbRecordId
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.DbRecordId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public int DbRecordId
+    return:
+      type: System.Int32
+    content.vb: Public DbRecordId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.RegisteredDate
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.RegisteredDate
+  id: RegisteredDate
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  langs:
+  - csharp
+  - vb
+  name: RegisteredDate
+  nameWithType: BulkUpdateSystem.JobResultStorageItem.RegisteredDate
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.RegisteredDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public DateTime RegisteredDate
+    return:
+      type: System.DateTime
+    content.vb: Public RegisteredDate As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.TableName
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.TableName
+  id: TableName
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: BulkUpdateSystem.JobResultStorageItem.TableName
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.TableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public string TableName
+    return:
+      type: System.String
+    content.vb: Public TableName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.AssociateId
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: BulkUpdateSystem.JobResultStorageItem.AssociateId
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public int AssociateId
+    return:
+      type: System.Int32
+    content.vb: Public AssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.AssociateName
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.AssociateName
+  id: AssociateName
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  langs:
+  - csharp
+  - vb
+  name: AssociateName
+  nameWithType: BulkUpdateSystem.JobResultStorageItem.AssociateName
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.AssociateName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public string AssociateName
+    return:
+      type: System.String
+    content.vb: Public AssociateName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.CompletedReason
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.CompletedReason
+  id: CompletedReason
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  langs:
+  - csharp
+  - vb
+  name: CompletedReason
+  nameWithType: BulkUpdateSystem.JobResultStorageItem.CompletedReason
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.CompletedReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public string CompletedReason
+    return:
+      type: System.String
+    content.vb: Public CompletedReason As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.FieldValueStorageItems
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.FieldValueStorageItems
+  id: FieldValueStorageItems
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  langs:
+  - csharp
+  - vb
+  name: FieldValueStorageItems
+  nameWithType: BulkUpdateSystem.JobResultStorageItem.FieldValueStorageItems
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.FieldValueStorageItems
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public BulkUpdateSystem.FieldValueStorageItem[] FieldValueStorageItems
+    return:
+      type: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem[]
+    content.vb: Public FieldValueStorageItems As BulkUpdateSystem.FieldValueStorageItem()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.RowResultStorageItems
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.RowResultStorageItems
+  id: RowResultStorageItems
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  langs:
+  - csharp
+  - vb
+  name: RowResultStorageItems
+  nameWithType: BulkUpdateSystem.JobResultStorageItem.RowResultStorageItems
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.RowResultStorageItems
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public BulkUpdateSystem.RowResultStorageItem[] RowResultStorageItems
+    return:
+      type: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem[]
+    content.vb: Public RowResultStorageItems As BulkUpdateSystem.RowResultStorageItem()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.#ctor(System.String,System.Int32,System.String,System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[],System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.RowResultItem})
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.#ctor(System.String,System.Int32,System.String,System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[],System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.RowResultItem})
+  id: '#ctor(System.String,System.Int32,System.String,System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[],System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.RowResultItem})'
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
+  langs:
+  - csharp
+  - vb
+  name: JobResultStorageItem(String, Int32, String, String, FieldValueInfo[], List<RowResultItem>)
+  nameWithType: BulkUpdateSystem.JobResultStorageItem.JobResultStorageItem(String, Int32, String, String, FieldValueInfo[], List<RowResultItem>)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.JobResultStorageItem(System.String, System.Int32, System.String, System.String, SuperOffice.CRM.BulkUpdate.FieldValueInfo[], System.Collections.Generic.List<SuperOffice.CRM.BulkUpdate.RowResultItem>)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public JobResultStorageItem(string i_TableName, int i_AssociateId, string i_AssociateName, string i_CompletedReason, FieldValueInfo[] i_FieldValueInfos, List<RowResultItem> i_ResultItems)
+    parameters:
+    - id: i_TableName
+      type: System.String
+    - id: i_AssociateId
+      type: System.Int32
+    - id: i_AssociateName
+      type: System.String
+    - id: i_CompletedReason
+      type: System.String
+    - id: i_FieldValueInfos
+      type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
+    - id: i_ResultItems
+      type: System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.RowResultItem}
+    content.vb: Public Sub New(i_TableName As String, i_AssociateId As Integer, i_AssociateName As String, i_CompletedReason As String, i_FieldValueInfos As FieldValueInfo(), i_ResultItems As List(Of RowResultItem))
+  overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.#ctor*
+  nameWithType.vb: BulkUpdateSystem.JobResultStorageItem.JobResultStorageItem(String, Int32, String, String, FieldValueInfo(), List(Of RowResultItem))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.JobResultStorageItem(System.String, System.Int32, System.String, System.String, SuperOffice.CRM.BulkUpdate.FieldValueInfo(), System.Collections.Generic.List(Of SuperOffice.CRM.BulkUpdate.RowResultItem))
+  name.vb: JobResultStorageItem(String, Int32, String, String, FieldValueInfo(), List(Of RowResultItem))
+references:
+- uid: SuperOffice.CRM.BulkUpdate
+  commentId: N:SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  name: SuperOffice.CRM.BulkUpdate
+  nameWithType: SuperOffice.CRM.BulkUpdate
+  fullName: SuperOffice.CRM.BulkUpdate
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BulkUpdateSystem.JobResultStorageItem, To>()
+  nameWithType: EnumUtil.MapEnums<BulkUpdateSystem.JobResultStorageItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BulkUpdateSystem.JobResultStorageItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem, To)()
+  name.vb: MapEnums(Of BulkUpdateSystem.JobResultStorageItem, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BulkUpdateSystem.JobResultStorageItem, To>
+    nameWithType: EnumUtil.MapEnums<BulkUpdateSystem.JobResultStorageItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BulkUpdateSystem.JobResultStorageItem, To)
+    nameWithType: EnumUtil.MapEnums(Of BulkUpdateSystem.JobResultStorageItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BulkUpdateSystem.JobResultStorageItem, To>()
+  nameWithType: Converters.MapEnums<BulkUpdateSystem.JobResultStorageItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of BulkUpdateSystem.JobResultStorageItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem, To)()
+  name.vb: MapEnums(Of BulkUpdateSystem.JobResultStorageItem, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BulkUpdateSystem.JobResultStorageItem, To>
+    nameWithType: Converters.MapEnums<BulkUpdateSystem.JobResultStorageItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BulkUpdateSystem.JobResultStorageItem, To)
+    nameWithType: Converters.MapEnums(Of BulkUpdateSystem.JobResultStorageItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem[]
+  isExternal: true
+  name: BulkUpdateSystem.FieldValueStorageItem[]
+  nameWithType: BulkUpdateSystem.FieldValueStorageItem[]
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem[]
+  nameWithType.vb: BulkUpdateSystem.FieldValueStorageItem()
+  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem()
+  name.vb: BulkUpdateSystem.FieldValueStorageItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem
+    name: BulkUpdateSystem.FieldValueStorageItem
+    nameWithType: BulkUpdateSystem.FieldValueStorageItem
+    fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem
+    name: BulkUpdateSystem.FieldValueStorageItem
+    nameWithType: BulkUpdateSystem.FieldValueStorageItem
+    fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem[]
+  isExternal: true
+  name: BulkUpdateSystem.RowResultStorageItem[]
+  nameWithType: BulkUpdateSystem.RowResultStorageItem[]
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem[]
+  nameWithType.vb: BulkUpdateSystem.RowResultStorageItem()
+  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem()
+  name.vb: BulkUpdateSystem.RowResultStorageItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem
+    name: BulkUpdateSystem.RowResultStorageItem
+    nameWithType: BulkUpdateSystem.RowResultStorageItem
+    fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem
+    name: BulkUpdateSystem.RowResultStorageItem
+    nameWithType: BulkUpdateSystem.RowResultStorageItem
+    fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.#ctor*
+  commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.#ctor
+  isExternal: true
+  name: JobResultStorageItem
+  nameWithType: BulkUpdateSystem.JobResultStorageItem.JobResultStorageItem
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.JobResultStorageItem
+- uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
+  isExternal: true
+  name: FieldValueInfo[]
+  nameWithType: FieldValueInfo[]
+  fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
+  nameWithType.vb: FieldValueInfo()
+  fullName.vb: SuperOffice.CRM.BulkUpdate.FieldValueInfo()
+  name.vb: FieldValueInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.RowResultItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.RowResultItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<RowResultItem>
+  nameWithType: List<RowResultItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.BulkUpdate.RowResultItem>
+  nameWithType.vb: List(Of RowResultItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.BulkUpdate.RowResultItem)
+  name.vb: List(Of RowResultItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.BulkUpdate.RowResultItem
+    name: RowResultItem
+    nameWithType: RowResultItem
+    fullName: SuperOffice.CRM.BulkUpdate.RowResultItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.BulkUpdate.RowResultItem
+    name: RowResultItem
+    nameWithType: RowResultItem
+    fullName: SuperOffice.CRM.BulkUpdate.RowResultItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

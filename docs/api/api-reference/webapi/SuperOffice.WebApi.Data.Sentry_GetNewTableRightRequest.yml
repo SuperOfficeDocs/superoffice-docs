@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest
+  commentId: T:SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest
+  id: Sentry_GetNewTableRightRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.#ctor
+  - SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: Sentry_GetNewTableRightRequest
+  nameWithType: Sentry_GetNewTableRightRequest
+  fullName: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sentry_GetNewTableRightRequest : Object'
+    content.vb: >-
+      Public Class Sentry_GetNewTableRightRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest
+  langs:
+  - csharp
+  - vb
+  name: Sentry_GetNewTableRightRequest()
+  nameWithType: Sentry_GetNewTableRightRequest.Sentry_GetNewTableRightRequest()
+  fullName: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.Sentry_GetNewTableRightRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sentry_GetNewTableRightRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: Sentry_GetNewTableRightRequest.TableName
+  fullName: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.#ctor
+  isExternal: true
+  name: Sentry_GetNewTableRightRequest
+  nameWithType: Sentry_GetNewTableRightRequest.Sentry_GetNewTableRightRequest
+  fullName: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.Sentry_GetNewTableRightRequest
+- uid: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: Sentry_GetNewTableRightRequest.TableName
+  fullName: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

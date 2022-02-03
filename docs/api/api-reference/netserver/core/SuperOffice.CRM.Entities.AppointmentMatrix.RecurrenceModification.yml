@@ -1,0 +1,626 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  id: AppointmentMatrix.RecurrenceModification
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteIncludingLast
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteLeavingOnlyOneLeft
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteOnlyFirst
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.None
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.RecurrenceChangedInSeries
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.RecurrenceChangedOnSecond
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.StopRecurringInSeries
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.StopRecurringOnFirst
+  langs:
+  - csharp
+  - vb
+  name: AppointmentMatrix.RecurrenceModification
+  nameWithType: AppointmentMatrix.RecurrenceModification
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public enum RecurrenceModification
+    content.vb: Public Enum RecurrenceModification
+  extensionMethods:
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification)
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.None
+  commentId: F:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.None
+  id: None
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AppointmentMatrix.RecurrenceModification.None
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.None
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThere are no modifications to the recurrence rules (except for possible dates)\n"
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.RecurrenceChangedOnSecond
+  commentId: F:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.RecurrenceChangedOnSecond
+  id: RecurrenceChangedOnSecond
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceChangedOnSecond
+  nameWithType: AppointmentMatrix.RecurrenceModification.RecurrenceChangedOnSecond
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.RecurrenceChangedOnSecond
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThere is a modification on the recurrence pattern on the second appointment in the series.  \nThis means that the first appointment in the series is no longer recurring.\n"
+  syntax:
+    content: RecurrenceChangedOnSecond = 1
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.RecurrenceChangedInSeries
+  commentId: F:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.RecurrenceChangedInSeries
+  id: RecurrenceChangedInSeries
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceChangedInSeries
+  nameWithType: AppointmentMatrix.RecurrenceModification.RecurrenceChangedInSeries
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.RecurrenceChangedInSeries
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThere is a modification on the recurrence pattern in the series with more than one appointments\nEarlier in the series.  This means a new recurrence rule id and a new recurrence pattern.\n"
+  syntax:
+    content: RecurrenceChangedInSeries = 2
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteLeavingOnlyOneLeft
+  commentId: F:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteLeavingOnlyOneLeft
+  id: DeleteLeavingOnlyOneLeft
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  langs:
+  - csharp
+  - vb
+  name: DeleteLeavingOnlyOneLeft
+  nameWithType: AppointmentMatrix.RecurrenceModification.DeleteLeavingOnlyOneLeft
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteLeavingOnlyOneLeft
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nAfter the delete, there will only be one appointment left in the series.  \nThis should no longer be a recurring appointment.\n"
+  syntax:
+    content: DeleteLeavingOnlyOneLeft = 3
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteOnlyFirst
+  commentId: F:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteOnlyFirst
+  id: DeleteOnlyFirst
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  langs:
+  - csharp
+  - vb
+  name: DeleteOnlyFirst
+  nameWithType: AppointmentMatrix.RecurrenceModification.DeleteOnlyFirst
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteOnlyFirst
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe first appointment in the series is deleted and not the rest.  Start date needs to be modified.\n"
+  syntax:
+    content: DeleteOnlyFirst = 4
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteIncludingLast
+  commentId: F:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteIncludingLast
+  id: DeleteIncludingLast
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  langs:
+  - csharp
+  - vb
+  name: DeleteIncludingLast
+  nameWithType: AppointmentMatrix.RecurrenceModification.DeleteIncludingLast
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.DeleteIncludingLast
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe last appointment in the series is included in a delete and the end date of the \nrecurrence pattern needs to be modified.\n"
+  syntax:
+    content: DeleteIncludingLast = 5
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.StopRecurringOnFirst
+  commentId: F:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.StopRecurringOnFirst
+  id: StopRecurringOnFirst
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  langs:
+  - csharp
+  - vb
+  name: StopRecurringOnFirst
+  nameWithType: AppointmentMatrix.RecurrenceModification.StopRecurringOnFirst
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.StopRecurringOnFirst
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nStop recurrence is carried out on the first appointment in the series and the \ncurrent appointment is no longer recurring.\n"
+  syntax:
+    content: StopRecurringOnFirst = 6
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.StopRecurringInSeries
+  commentId: F:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.StopRecurringInSeries
+  id: StopRecurringInSeries
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  langs:
+  - csharp
+  - vb
+  name: StopRecurringInSeries
+  nameWithType: AppointmentMatrix.RecurrenceModification.StopRecurringInSeries
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.StopRecurringInSeries
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nStop recurring is carried out in the series with more than one appointment  previously\nin the series.  The recurrence end date for these appointments needs to be modified.\n"
+  syntax:
+    content: StopRecurringInSeries = 7
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AppointmentMatrix.RecurrenceModification, To>()
+  nameWithType: EnumUtil.MapEnums<AppointmentMatrix.RecurrenceModification, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentMatrix.RecurrenceModification, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification, To)()
+  name.vb: MapEnums(Of AppointmentMatrix.RecurrenceModification, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AppointmentMatrix.RecurrenceModification, To>
+    nameWithType: EnumUtil.MapEnums<AppointmentMatrix.RecurrenceModification, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AppointmentMatrix.RecurrenceModification, To)
+    nameWithType: EnumUtil.MapEnums(Of AppointmentMatrix.RecurrenceModification, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<AppointmentMatrix.RecurrenceModification>(AppointmentMatrix.RecurrenceModification)
+  nameWithType: ObjectExtensions.AssignByReflection<AppointmentMatrix.RecurrenceModification>(AppointmentMatrix.RecurrenceModification)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification>(SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppointmentMatrix.RecurrenceModification)(AppointmentMatrix.RecurrenceModification)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification)(SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification)
+  name.vb: AssignByReflection(Of AppointmentMatrix.RecurrenceModification)(AppointmentMatrix.RecurrenceModification)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AppointmentMatrix.RecurrenceModification>
+    nameWithType: ObjectExtensions.AssignByReflection<AppointmentMatrix.RecurrenceModification>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+    name: AppointmentMatrix.RecurrenceModification
+    nameWithType: AppointmentMatrix.RecurrenceModification
+    fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AppointmentMatrix.RecurrenceModification)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AppointmentMatrix.RecurrenceModification)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+    name: AppointmentMatrix.RecurrenceModification
+    nameWithType: AppointmentMatrix.RecurrenceModification
+    fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<AppointmentMatrix.RecurrenceModification>()
+  nameWithType: ObjectExtensions.GraphCopy<AppointmentMatrix.RecurrenceModification>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppointmentMatrix.RecurrenceModification)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification)()
+  name.vb: GraphCopy(Of AppointmentMatrix.RecurrenceModification)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AppointmentMatrix.RecurrenceModification>
+    nameWithType: ObjectExtensions.GraphCopy<AppointmentMatrix.RecurrenceModification>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AppointmentMatrix.RecurrenceModification)
+    nameWithType: ObjectExtensions.GraphCopy(Of AppointmentMatrix.RecurrenceModification)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AppointmentMatrix.RecurrenceModification, To>()
+  nameWithType: Converters.MapEnums<AppointmentMatrix.RecurrenceModification, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification, To>()
+  nameWithType.vb: Converters.MapEnums(Of AppointmentMatrix.RecurrenceModification, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification, To)()
+  name.vb: MapEnums(Of AppointmentMatrix.RecurrenceModification, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AppointmentMatrix.RecurrenceModification, To>
+    nameWithType: Converters.MapEnums<AppointmentMatrix.RecurrenceModification, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AppointmentMatrix.RecurrenceModification, To)
+    nameWithType: Converters.MapEnums(Of AppointmentMatrix.RecurrenceModification, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentMatrix.RecurrenceModification
+  nameWithType: AppointmentMatrix.RecurrenceModification
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification

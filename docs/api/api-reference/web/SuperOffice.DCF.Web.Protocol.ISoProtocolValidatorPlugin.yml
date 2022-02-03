@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Protocol.ISoProtocolValidatorPlugin
+  commentId: T:SuperOffice.DCF.Web.Protocol.ISoProtocolValidatorPlugin
+  id: ISoProtocolValidatorPlugin
+  parent: SuperOffice.DCF.Web.Protocol
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ISoProtocolValidatorPlugin
+  nameWithType: ISoProtocolValidatorPlugin
+  fullName: SuperOffice.DCF.Web.Protocol.ISoProtocolValidatorPlugin
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: 'public interface ISoProtocolValidatorPlugin : IPlugin'
+    content.vb: >-
+      Public Interface ISoProtocolValidatorPlugin
+          Inherits IPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: SuperOffice.DCF.Web.Protocol
+  commentId: N:SuperOffice.DCF.Web.Protocol
+  isExternal: true
+  name: SuperOffice.DCF.Web.Protocol
+  nameWithType: SuperOffice.DCF.Web.Protocol
+  fullName: SuperOffice.DCF.Web.Protocol

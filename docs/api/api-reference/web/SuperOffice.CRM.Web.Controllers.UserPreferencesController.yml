@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.UserPreferencesController
+  commentId: T:SuperOffice.CRM.Web.Controllers.UserPreferencesController
+  id: UserPreferencesController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.UserPreferencesController.#ctor
+  - SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrder(SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrderRequest)
+  langs:
+  - csharp
+  - vb
+  name: UserPreferencesController
+  nameWithType: UserPreferencesController
+  fullName: SuperOffice.CRM.Web.Controllers.UserPreferencesController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class UserPreferencesController : ApiController, IRequiresSessionState'
+    content.vb: >-
+      Public Class UserPreferencesController
+          Inherits ApiController
+          Implements IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.SessionState.IRequiresSessionState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrder(SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrderRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrder(SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrderRequest)
+  id: SetTabOrder(SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrderRequest)
+  parent: SuperOffice.CRM.Web.Controllers.UserPreferencesController
+  langs:
+  - csharp
+  - vb
+  name: SetTabOrder(UserPreferencesController.SetTabOrderRequest)
+  nameWithType: UserPreferencesController.SetTabOrder(UserPreferencesController.SetTabOrderRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrder(SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrderRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void SetTabOrder(UserPreferencesController.SetTabOrderRequest setTabOrderRequest)
+    parameters:
+    - id: setTabOrderRequest
+      type: SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrderRequest
+    content.vb: Public Sub SetTabOrder(setTabOrderRequest As UserPreferencesController.SetTabOrderRequest)
+  overload: SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.UserPreferencesController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.UserPreferencesController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.UserPreferencesController
+  langs:
+  - csharp
+  - vb
+  name: UserPreferencesController()
+  nameWithType: UserPreferencesController.UserPreferencesController()
+  fullName: SuperOffice.CRM.Web.Controllers.UserPreferencesController.UserPreferencesController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public UserPreferencesController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.UserPreferencesController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrder*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrder
+  isExternal: true
+  name: SetTabOrder
+  nameWithType: UserPreferencesController.SetTabOrder
+  fullName: SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrder
+- uid: SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrderRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrderRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: UserPreferencesController.SetTabOrderRequest
+  nameWithType: UserPreferencesController.SetTabOrderRequest
+  fullName: SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrderRequest
+- uid: SuperOffice.CRM.Web.Controllers.UserPreferencesController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.UserPreferencesController.#ctor
+  isExternal: true
+  name: UserPreferencesController
+  nameWithType: UserPreferencesController.UserPreferencesController
+  fullName: SuperOffice.CRM.Web.Controllers.UserPreferencesController.UserPreferencesController

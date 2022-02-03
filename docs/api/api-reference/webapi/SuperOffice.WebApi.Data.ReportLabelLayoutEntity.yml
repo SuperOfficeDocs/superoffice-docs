@@ -1,0 +1,760 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  commentId: T:SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  id: ReportLabelLayoutEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.#ctor
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.BottomMargin
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountColumns
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountRows
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Description
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.LeftMargin
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Name
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperHeight
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperWidth
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.ReportLabelLayoutId
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.RightMargin
+  - SuperOffice.WebApi.Data.ReportLabelLayoutEntity.TopMargin
+  langs:
+  - csharp
+  - vb
+  name: ReportLabelLayoutEntity
+  nameWithType: ReportLabelLayoutEntity
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ReportLabelLayoutEntity.\n\n"
+  example:
+  - "\nGet ReportLabelLayoutEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ReportAgent(configuration);\nvar reportLabelLayoutEntity = agent.GetReportLabelLayoutEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ReportLabelLayoutEntity : Carrier'
+    content.vb: >-
+      Public Class ReportLabelLayoutEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ReportAgent
+    commentId: T:SuperOffice.WebApi.Agents.ReportAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportLabelLayoutEntity()
+  nameWithType: ReportLabelLayoutEntity.ReportLabelLayoutEntity()
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.ReportLabelLayoutEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ReportLabelLayoutEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.ReportLabelLayoutId
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.ReportLabelLayoutId
+  id: ReportLabelLayoutId
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportLabelLayoutId
+  nameWithType: ReportLabelLayoutEntity.ReportLabelLayoutId
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.ReportLabelLayoutId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ReportLabelLayoutId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReportLabelLayoutId As Integer
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.ReportLabelLayoutId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ReportLabelLayoutEntity.Name
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the label layout\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Description
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ReportLabelLayoutEntity.Description
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescription\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String
+  id: Orientation_String
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: Orientation_String
+  nameWithType: ReportLabelLayoutEntity.Orientation_String
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPaper orientation: 1=portrait, 2=landscape\nRaw string enum value.\n"
+  syntax:
+    content: public string Orientation_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Orientation_String As String
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation
+    commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation
+  id: Orientation
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: Orientation
+  nameWithType: ReportLabelLayoutEntity.Orientation
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPaper orientation: 1=portrait, 2=landscape\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ReportPaperOrientation> Orientation { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ReportPaperOrientation}
+    content.vb: Public Property Orientation As Nullable(Of ReportPaperOrientation)
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String
+    commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperWidth
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperWidth
+  id: PaperWidth
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: PaperWidth
+  nameWithType: ReportLabelLayoutEntity.PaperWidth
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperWidth
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPaper width in twips\n"
+  syntax:
+    content: public virtual uint PaperWidth { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property PaperWidth As UInteger
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperWidth*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperHeight
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperHeight
+  id: PaperHeight
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: PaperHeight
+  nameWithType: ReportLabelLayoutEntity.PaperHeight
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperHeight
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPaper height in twips\n"
+  syntax:
+    content: public virtual uint PaperHeight { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property PaperHeight As UInteger
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperHeight*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.LeftMargin
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.LeftMargin
+  id: LeftMargin
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: LeftMargin
+  nameWithType: ReportLabelLayoutEntity.LeftMargin
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.LeftMargin
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLeft margin in twips\n"
+  syntax:
+    content: public virtual uint LeftMargin { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property LeftMargin As UInteger
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.LeftMargin*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.RightMargin
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.RightMargin
+  id: RightMargin
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: RightMargin
+  nameWithType: ReportLabelLayoutEntity.RightMargin
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.RightMargin
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRight margin in twips\n"
+  syntax:
+    content: public virtual uint RightMargin { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property RightMargin As UInteger
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.RightMargin*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.TopMargin
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.TopMargin
+  id: TopMargin
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: TopMargin
+  nameWithType: ReportLabelLayoutEntity.TopMargin
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.TopMargin
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTop margin in twips\n"
+  syntax:
+    content: public virtual uint TopMargin { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property TopMargin As UInteger
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.TopMargin*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.BottomMargin
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.BottomMargin
+  id: BottomMargin
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: BottomMargin
+  nameWithType: ReportLabelLayoutEntity.BottomMargin
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.BottomMargin
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBottom margin in twips\n"
+  syntax:
+    content: public virtual uint BottomMargin { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property BottomMargin As UInteger
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.BottomMargin*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountColumns
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountColumns
+  id: CountColumns
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: CountColumns
+  nameWithType: ReportLabelLayoutEntity.CountColumns
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountColumns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber og columns\n"
+  syntax:
+    content: public virtual short CountColumns { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property CountColumns As Short
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountColumns*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountRows
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountRows
+  id: CountRows
+  parent: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: CountRows
+  nameWithType: ReportLabelLayoutEntity.CountRows
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountRows
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of rows\n"
+  syntax:
+    content: public virtual short CountRows { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property CountRows As Short
+  overload: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountRows*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ReportAgent
+  commentId: T:SuperOffice.WebApi.Agents.ReportAgent
+  isExternal: true
+  name: ReportAgent
+  nameWithType: ReportAgent
+  fullName: SuperOffice.WebApi.Agents.ReportAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.#ctor
+  isExternal: true
+  name: ReportLabelLayoutEntity
+  nameWithType: ReportLabelLayoutEntity.ReportLabelLayoutEntity
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.ReportLabelLayoutEntity
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.ReportLabelLayoutId*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.ReportLabelLayoutId
+  isExternal: true
+  name: ReportLabelLayoutId
+  nameWithType: ReportLabelLayoutEntity.ReportLabelLayoutId
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.ReportLabelLayoutId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: ReportLabelLayoutEntity.Name
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Description
+  isExternal: true
+  name: Description
+  nameWithType: ReportLabelLayoutEntity.Description
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Description
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String
+  isExternal: true
+  name: Orientation_String
+  nameWithType: ReportLabelLayoutEntity.Orientation_String
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation
+  isExternal: true
+  name: Orientation
+  nameWithType: ReportLabelLayoutEntity.Orientation
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String
+  commentId: P:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.Orientation_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ReportPaperOrientation}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ReportPaperOrientation}'
+  definition: System.Nullable`1
+  name: Nullable<ReportPaperOrientation>
+  nameWithType: Nullable<ReportPaperOrientation>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ReportPaperOrientation>
+  nameWithType.vb: Nullable(Of ReportPaperOrientation)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ReportPaperOrientation)
+  name.vb: Nullable(Of ReportPaperOrientation)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ReportPaperOrientation
+    name: ReportPaperOrientation
+    nameWithType: ReportPaperOrientation
+    fullName: SuperOffice.WebApi.Data.ReportPaperOrientation
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ReportPaperOrientation
+    name: ReportPaperOrientation
+    nameWithType: ReportPaperOrientation
+    fullName: SuperOffice.WebApi.Data.ReportPaperOrientation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperWidth*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperWidth
+  isExternal: true
+  name: PaperWidth
+  nameWithType: ReportLabelLayoutEntity.PaperWidth
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperWidth
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperHeight*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperHeight
+  isExternal: true
+  name: PaperHeight
+  nameWithType: ReportLabelLayoutEntity.PaperHeight
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.PaperHeight
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.LeftMargin*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.LeftMargin
+  isExternal: true
+  name: LeftMargin
+  nameWithType: ReportLabelLayoutEntity.LeftMargin
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.LeftMargin
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.RightMargin*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.RightMargin
+  isExternal: true
+  name: RightMargin
+  nameWithType: ReportLabelLayoutEntity.RightMargin
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.RightMargin
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.TopMargin*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.TopMargin
+  isExternal: true
+  name: TopMargin
+  nameWithType: ReportLabelLayoutEntity.TopMargin
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.TopMargin
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.BottomMargin*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.BottomMargin
+  isExternal: true
+  name: BottomMargin
+  nameWithType: ReportLabelLayoutEntity.BottomMargin
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.BottomMargin
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountColumns*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountColumns
+  isExternal: true
+  name: CountColumns
+  nameWithType: ReportLabelLayoutEntity.CountColumns
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountColumns
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountRows*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountRows
+  isExternal: true
+  name: CountRows
+  nameWithType: ReportLabelLayoutEntity.CountRows
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity.CountRows

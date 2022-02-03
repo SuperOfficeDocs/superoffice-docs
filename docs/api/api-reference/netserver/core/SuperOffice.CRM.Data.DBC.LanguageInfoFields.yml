@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  commentId: T:SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  id: DBC.LanguageInfoFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.Abbrev2
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.Abbrev3
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.DefaultLcid
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.EnglishName
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.IsBuiltIn
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.LanguageInfoId
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.NativeName
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.Registered
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.Updated
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.LanguageInfoFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.LanguageInfoFields
+  nameWithType: DBC.LanguageInfoFields
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for LanguageInfo, Information about languages, from ISO standards and related information\n"
+  syntax:
+    content: public static class LanguageInfoFields
+    content.vb: Public Module LanguageInfoFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.LanguageInfoId
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.LanguageInfoId
+  id: LanguageInfoId
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: LanguageInfoId
+  nameWithType: DBC.LanguageInfoFields.LanguageInfoId
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.LanguageInfoId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.LanguageInfoId: Primary key\n"
+  syntax:
+    content: public const string LanguageInfoId = "LanguageInfo_id"
+    return:
+      type: System.String
+    content.vb: Public Const LanguageInfoId As String = "LanguageInfo_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.DefaultLcid
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.DefaultLcid
+  id: DefaultLcid
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultLcid
+  nameWithType: DBC.LanguageInfoFields.DefaultLcid
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.DefaultLcid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.DefaultLcid: Language/culture id as a numeric .NET code\n"
+  syntax:
+    content: public const string DefaultLcid = "defaultLcid"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultLcid As String = "defaultLcid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.Abbrev3
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.Abbrev3
+  id: Abbrev3
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: Abbrev3
+  nameWithType: DBC.LanguageInfoFields.Abbrev3
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.Abbrev3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.Abbrev3: ISO 3-letter abbreviation\n"
+  syntax:
+    content: public const string Abbrev3 = "abbrev3"
+    return:
+      type: System.String
+    content.vb: Public Const Abbrev3 As String = "abbrev3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.Abbrev2
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.Abbrev2
+  id: Abbrev2
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: Abbrev2
+  nameWithType: DBC.LanguageInfoFields.Abbrev2
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.Abbrev2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.Abbrev2: ISO 2-letter abbreviation\n"
+  syntax:
+    content: public const string Abbrev2 = "abbrev2"
+    return:
+      type: System.String
+    content.vb: Public Const Abbrev2 As String = "abbrev2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.EnglishName
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.EnglishName
+  id: EnglishName
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: EnglishName
+  nameWithType: DBC.LanguageInfoFields.EnglishName
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.EnglishName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.EnglishName: English name of this language (Norwegian)\n"
+  syntax:
+    content: public const string EnglishName = "englishName"
+    return:
+      type: System.String
+    content.vb: Public Const EnglishName As String = "englishName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.NativeName
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.NativeName
+  id: NativeName
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: NativeName
+  nameWithType: DBC.LanguageInfoFields.NativeName
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.NativeName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.NativeName: The native name of this language (Norsk Bokmål)\n"
+  syntax:
+    content: public const string NativeName = "nativeName"
+    return:
+      type: System.String
+    content.vb: Public Const NativeName As String = "nativeName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.LanguageInfoFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.LanguageInfoFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.LanguageInfoFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.LanguageInfoFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.LanguageInfoFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields.IsBuiltIn
+  commentId: F:SuperOffice.CRM.Data.DBC.LanguageInfoFields.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: DBC.LanguageInfoFields.IsBuiltIn
+  fullName: SuperOffice.CRM.Data.DBC.LanguageInfoFields.IsBuiltIn
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLanguageInfo.IsBuiltIn: Has this row been inserted by SuperOffice priming data\n"
+  syntax:
+    content: public const string IsBuiltIn = "isBuiltIn"
+    return:
+      type: System.String
+    content.vb: Public Const IsBuiltIn As String = "isBuiltIn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

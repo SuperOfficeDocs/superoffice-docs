@@ -1,0 +1,974 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
+  id: ReturnFieldsCalculatorBase
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.#ctor
+  - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String[])
+  - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String[])
+  - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(System.String[])
+  - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
+  - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields
+  langs:
+  - csharp
+  - vb
+  name: ReturnFieldsCalculatorBase
+  nameWithType: ReturnFieldsCalculatorBase
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nBase class for return fields calculators. A return field calculator is a class that takes a provider name\nand an array of restrictions, and determines a &apos;sensible&apos; set of return fields (i.e., what you could give to\n<xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>) based on what\nthe provider offers and what you search for. The actual calculators are plugins; if you base them on this\nclass, a lot of the standard stuff is taken care of.\n"
+  remarks: "\nThe base class uses the Template Method pattern, and calls the <xref href=\"SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields\" data-throw-if-not-resolved=\"false\"></xref> method\non the derived class. That method should use <xref href=\"SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(System.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> to determine if the caller passed along\na certain restriction; <xref href=\"SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> to add return fields, and <xref href=\"SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> to\nspecify that a certain field should NOT be in the return fields.\n<p></p>\nThe base class will by itself add the active search fields to the end of the result fields list, unless they\nare blocked.\n"
+  syntax:
+    content: 'public abstract class ReturnFieldsCalculatorBase : IReturnFieldsCalculator, IPlugin'
+    content.vb: >-
+      Public MustInherit Class ReturnFieldsCalculatorBase
+          Implements IReturnFieldsCalculator, IPlugin
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.ArchiveLists.ContactSelectionReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.FindAppointmentReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.FindDocumentReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.FindProjectReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.FindSaleReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.FindSelectionReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FindContactReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextAppointmentReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextContactReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextDocumentReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextPersontReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextProjectReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSaleReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
+  commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
+  id: InnerCalculateReturnFields
+  parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
+  langs:
+  - csharp
+  - vb
+  name: InnerCalculateReturnFields()
+  nameWithType: ReturnFieldsCalculatorBase.InnerCalculateReturnFields()
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSubclass contract - you implement this method to add your return fields. \n"
+  syntax:
+    content: protected abstract void InnerCalculateReturnFields()
+    content.vb: Protected MustOverride Sub InnerCalculateReturnFields
+  overload: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(System.String[])
+  id: HasSearchFields(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
+  langs:
+  - csharp
+  - vb
+  name: HasSearchFields(String[])
+  nameWithType: ReturnFieldsCalculatorBase.HasSearchFields(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCheck if one or more of the given fields exist in the search fields. The result is true if at least\none exists. The field name comparison is case insensitive.\n"
+  syntax:
+    content: protected bool HasSearchFields(params string[] fields)
+    parameters:
+    - id: fields
+      type: System.String[]
+      description: One or more fields to check against the search fields
+    return:
+      type: System.Boolean
+      description: True if at least one field matches the search fields
+    content.vb: Protected Function HasSearchFields(ParamArray fields As String()) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields*
+  nameWithType.vb: ReturnFieldsCalculatorBase.HasSearchFields(String())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields(System.String())
+  name.vb: HasSearchFields(String())
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String[])
+  id: AddReturnFields(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
+  langs:
+  - csharp
+  - vb
+  name: AddReturnFields(String[])
+  nameWithType: ReturnFieldsCalculatorBase.AddReturnFields(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAdd a field name to the result field list, unless it is blocked. Duplicates are OK and will be quietly ignored\n"
+  syntax:
+    content: protected void AddReturnFields(params string[] fields)
+    parameters:
+    - id: fields
+      type: System.String[]
+      description: Fields to add to the result list
+    content.vb: Protected Sub AddReturnFields(ParamArray fields As String())
+  overload: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields*
+  nameWithType.vb: ReturnFieldsCalculatorBase.AddReturnFields(String())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String())
+  name.vb: AddReturnFields(String())
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String[])
+  id: AddBlockedFields(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
+  langs:
+  - csharp
+  - vb
+  name: AddBlockedFields(String[])
+  nameWithType: ReturnFieldsCalculatorBase.AddBlockedFields(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAdd a field to the block list, which is checked by <xref href=\"SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields(System.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>. Also removes any existing\nreturn fields that match the block fields (so blocking is also retroactive). \n"
+  remarks: "\nIf another plugin for the\nsame provider adds a field, that addition will NOT be blocked, regardless of whether it is before or after this one.\nDuplicates in calls to this method are OK and will be quietly ignored\n"
+  syntax:
+    content: protected void AddBlockedFields(params string[] fields)
+    parameters:
+    - id: fields
+      type: System.String[]
+    content.vb: Protected Sub AddBlockedFields(ParamArray fields As String())
+  overload: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields*
+  nameWithType.vb: ReturnFieldsCalculatorBase.AddBlockedFields(String())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields(System.String())
+  name.vb: AddBlockedFields(String())
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
+  langs:
+  - csharp
+  - vb
+  name: CalculateReturnFields(ArchiveRestrictionInfo[])
+  nameWithType: ReturnFieldsCalculatorBase.CalculateReturnFields(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCalculate return fields by calling the <xref href=\"SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields\" data-throw-if-not-resolved=\"false\"></xref> method, and adding all\nactive search fields that have not been blocked (in this order)\n"
+  syntax:
+    content: public string[] CalculateReturnFields(ArchiveRestrictionInfo[] searchFields)
+    parameters:
+    - id: searchFields
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Search fields
+    return:
+      type: System.String[]
+      description: Return fields, ready to be used in SetDesiredColumns
+    content.vb: Public Function CalculateReturnFields(searchFields As ArchiveRestrictionInfo()) As String()
+  overload: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields*
+  nameWithType.vb: ReturnFieldsCalculatorBase.CalculateReturnFields(ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: CalculateReturnFields(ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
+  langs:
+  - csharp
+  - vb
+  name: ReturnFieldsCalculatorBase()
+  nameWithType: ReturnFieldsCalculatorBase.ReturnFieldsCalculatorBase()
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.ReturnFieldsCalculatorBase()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ReturnFieldsCalculatorBase()
+    content.vb: Protected Sub New
+  overload: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields
+  commentId: P:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields
+  id: SearchFields
+  parent: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase
+  langs:
+  - csharp
+  - vb
+  name: SearchFields
+  nameWithType: ReturnFieldsCalculatorBase.SearchFields
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nUse this property to be able to iterate over search fields. Use the <see cref=\"!:HasSearchField\"></see> method\nto efficiently determine if a certain search field is present\n"
+  syntax:
+    content: protected Dictionary<int, ArchiveRestrictionInfo> SearchFields { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
+    content.vb: Protected ReadOnly Property SearchFields As Dictionary(Of Integer, ArchiveRestrictionInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ReturnFieldsCalculatorBase, To>()
+  nameWithType: EnumUtil.MapEnums<ReturnFieldsCalculatorBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ReturnFieldsCalculatorBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase, To)()
+  name.vb: MapEnums(Of ReturnFieldsCalculatorBase, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ReturnFieldsCalculatorBase, To>
+    nameWithType: EnumUtil.MapEnums<ReturnFieldsCalculatorBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ReturnFieldsCalculatorBase, To)
+    nameWithType: EnumUtil.MapEnums(Of ReturnFieldsCalculatorBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ReturnFieldsCalculatorBase, To>()
+  nameWithType: Converters.MapEnums<ReturnFieldsCalculatorBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of ReturnFieldsCalculatorBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase, To)()
+  name.vb: MapEnums(Of ReturnFieldsCalculatorBase, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ReturnFieldsCalculatorBase, To>
+    nameWithType: Converters.MapEnums<ReturnFieldsCalculatorBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ReturnFieldsCalculatorBase, To)
+    nameWithType: Converters.MapEnums(Of ReturnFieldsCalculatorBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
+  isExternal: true
+  name: InnerCalculateReturnFields
+  nameWithType: ReturnFieldsCalculatorBase.InnerCalculateReturnFields
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.InnerCalculateReturnFields
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields
+  isExternal: true
+  name: HasSearchFields
+  nameWithType: ReturnFieldsCalculatorBase.HasSearchFields
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.HasSearchFields
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields
+  isExternal: true
+  name: AddReturnFields
+  nameWithType: ReturnFieldsCalculatorBase.AddReturnFields
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddReturnFields
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields
+  isExternal: true
+  name: AddBlockedFields
+  nameWithType: ReturnFieldsCalculatorBase.AddBlockedFields
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.AddBlockedFields
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields
+  isExternal: true
+  name: CalculateReturnFields
+  nameWithType: ReturnFieldsCalculatorBase.CalculateReturnFields
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.CalculateReturnFields
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.#ctor
+  isExternal: true
+  name: ReturnFieldsCalculatorBase
+  nameWithType: ReturnFieldsCalculatorBase.ReturnFieldsCalculatorBase
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.ReturnFieldsCalculatorBase
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields
+  isExternal: true
+  name: SearchFields
+  nameWithType: ReturnFieldsCalculatorBase.SearchFields
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorBase.SearchFields
+- uid: System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
+  commentId: T:System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Int32, ArchiveRestrictionInfo>
+  nameWithType: Dictionary<Int32, ArchiveRestrictionInfo>
+  fullName: System.Collections.Generic.Dictionary<System.Int32, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>
+  nameWithType.vb: Dictionary(Of Int32, ArchiveRestrictionInfo)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Int32, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  name.vb: Dictionary(Of Int32, ArchiveRestrictionInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

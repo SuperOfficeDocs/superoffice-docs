@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  id: SoDialogBase.DialogTypeEnum
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Error
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.None
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Question
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Warning
+  langs:
+  - csharp
+  - vb
+  name: SoDialogBase.DialogTypeEnum
+  nameWithType: SoDialogBase.DialogTypeEnum
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public enum DialogTypeEnum
+    content.vb: Public Enum DialogTypeEnum
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.None
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.None
+  id: None
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: SoDialogBase.DialogTypeEnum.None
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.None
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Question
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Question
+  id: Question
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Question
+  nameWithType: SoDialogBase.DialogTypeEnum.Question
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Question
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: Question = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Warning
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Warning
+  id: Warning
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: SoDialogBase.DialogTypeEnum.Warning
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Warning
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: Warning = 2
+    return:
+      type: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Error
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Error
+  id: Error
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: SoDialogBase.DialogTypeEnum.Error
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum.Error
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: Error = 3
+    return:
+      type: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SoDialogBase.DialogTypeEnum
+  nameWithType: SoDialogBase.DialogTypeEnum
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum

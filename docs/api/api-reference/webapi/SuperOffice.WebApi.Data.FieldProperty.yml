@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FieldProperty
+  commentId: T:SuperOffice.WebApi.Data.FieldProperty
+  id: FieldProperty
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FieldProperty.#ctor
+  - SuperOffice.WebApi.Data.FieldProperty.FieldLength
+  - SuperOffice.WebApi.Data.FieldProperty.FieldRight
+  - SuperOffice.WebApi.Data.FieldProperty.FieldType
+  langs:
+  - csharp
+  - vb
+  name: FieldProperty
+  nameWithType: FieldProperty
+  fullName: SuperOffice.WebApi.Data.FieldProperty
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for FieldProperty.\nClass holding properties about a field in the carrier.    \n"
+  syntax:
+    content: 'public class FieldProperty : Object'
+    content.vb: >-
+      Public Class FieldProperty
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FieldProperty.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FieldProperty.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FieldProperty
+  langs:
+  - csharp
+  - vb
+  name: FieldProperty()
+  nameWithType: FieldProperty.FieldProperty()
+  fullName: SuperOffice.WebApi.Data.FieldProperty.FieldProperty()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public FieldProperty()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FieldProperty.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FieldProperty.FieldRight
+  commentId: P:SuperOffice.WebApi.Data.FieldProperty.FieldRight
+  id: FieldRight
+  parent: SuperOffice.WebApi.Data.FieldProperty
+  langs:
+  - csharp
+  - vb
+  name: FieldRight
+  nameWithType: FieldProperty.FieldRight
+  fullName: SuperOffice.WebApi.Data.FieldProperty.FieldRight
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe field right\n"
+  syntax:
+    content: public virtual FieldRight FieldRight { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.FieldRight
+    content.vb: Public Overridable Property FieldRight As FieldRight
+  overload: SuperOffice.WebApi.Data.FieldProperty.FieldRight*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldProperty.FieldType
+  commentId: P:SuperOffice.WebApi.Data.FieldProperty.FieldType
+  id: FieldType
+  parent: SuperOffice.WebApi.Data.FieldProperty
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: FieldProperty.FieldType
+  fullName: SuperOffice.WebApi.Data.FieldProperty.FieldType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of field\n"
+  syntax:
+    content: public virtual string FieldType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FieldType As String
+  overload: SuperOffice.WebApi.Data.FieldProperty.FieldType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldProperty.FieldLength
+  commentId: P:SuperOffice.WebApi.Data.FieldProperty.FieldLength
+  id: FieldLength
+  parent: SuperOffice.WebApi.Data.FieldProperty
+  langs:
+  - csharp
+  - vb
+  name: FieldLength
+  nameWithType: FieldProperty.FieldLength
+  fullName: SuperOffice.WebApi.Data.FieldProperty.FieldLength
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLength of the field\n"
+  syntax:
+    content: public virtual int FieldLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FieldLength As Integer
+  overload: SuperOffice.WebApi.Data.FieldProperty.FieldLength*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FieldProperty.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldProperty.#ctor
+  isExternal: true
+  name: FieldProperty
+  nameWithType: FieldProperty.FieldProperty
+  fullName: SuperOffice.WebApi.Data.FieldProperty.FieldProperty
+- uid: SuperOffice.WebApi.Data.FieldProperty.FieldRight*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldProperty.FieldRight
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldProperty.FieldRight
+  fullName: SuperOffice.WebApi.Data.FieldProperty.FieldRight
+- uid: SuperOffice.WebApi.Data.FieldRight
+  commentId: T:SuperOffice.WebApi.Data.FieldRight
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.WebApi.Data.FieldRight
+- uid: SuperOffice.WebApi.Data.FieldProperty.FieldType*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldProperty.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: FieldProperty.FieldType
+  fullName: SuperOffice.WebApi.Data.FieldProperty.FieldType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.FieldProperty.FieldLength*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldProperty.FieldLength
+  isExternal: true
+  name: FieldLength
+  nameWithType: FieldProperty.FieldLength
+  fullName: SuperOffice.WebApi.Data.FieldProperty.FieldLength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

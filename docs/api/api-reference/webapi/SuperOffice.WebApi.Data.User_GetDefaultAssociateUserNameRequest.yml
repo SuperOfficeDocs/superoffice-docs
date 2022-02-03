@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest
+  commentId: T:SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest
+  id: User_GetDefaultAssociateUserNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.#ctor
+  - SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.User
+  langs:
+  - csharp
+  - vb
+  name: User_GetDefaultAssociateUserNameRequest
+  nameWithType: User_GetDefaultAssociateUserNameRequest
+  fullName: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_GetDefaultAssociateUserNameRequest : Object'
+    content.vb: >-
+      Public Class User_GetDefaultAssociateUserNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest
+  langs:
+  - csharp
+  - vb
+  name: User_GetDefaultAssociateUserNameRequest()
+  nameWithType: User_GetDefaultAssociateUserNameRequest.User_GetDefaultAssociateUserNameRequest()
+  fullName: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.User_GetDefaultAssociateUserNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_GetDefaultAssociateUserNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.User
+  commentId: P:SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.User
+  id: User
+  parent: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: User_GetDefaultAssociateUserNameRequest.User
+  fullName: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.User
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User User { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.User
+    content.vb: Public Property User As User
+  overload: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.User*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.#ctor
+  isExternal: true
+  name: User_GetDefaultAssociateUserNameRequest
+  nameWithType: User_GetDefaultAssociateUserNameRequest.User_GetDefaultAssociateUserNameRequest
+  fullName: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.User_GetDefaultAssociateUserNameRequest
+- uid: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.User*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.User
+  isExternal: true
+  name: User
+  nameWithType: User_GetDefaultAssociateUserNameRequest.User
+  fullName: SuperOffice.WebApi.Data.User_GetDefaultAssociateUserNameRequest.User
+- uid: SuperOffice.WebApi.Data.User
+  commentId: T:SuperOffice.WebApi.Data.User
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: User
+  nameWithType: User
+  fullName: SuperOffice.WebApi.Data.User

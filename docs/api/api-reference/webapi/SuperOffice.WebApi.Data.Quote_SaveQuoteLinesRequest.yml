@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest
+  id: Quote_SaveQuoteLinesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.QuoteLines
+  langs:
+  - csharp
+  - vb
+  name: Quote_SaveQuoteLinesRequest
+  nameWithType: Quote_SaveQuoteLinesRequest
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_SaveQuoteLinesRequest : Object'
+    content.vb: >-
+      Public Class Quote_SaveQuoteLinesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_SaveQuoteLinesRequest()
+  nameWithType: Quote_SaveQuoteLinesRequest.Quote_SaveQuoteLinesRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.Quote_SaveQuoteLinesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_SaveQuoteLinesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.QuoteLines
+  commentId: P:SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.QuoteLines
+  id: QuoteLines
+  parent: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteLines
+  nameWithType: Quote_SaveQuoteLinesRequest.QuoteLines
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.QuoteLines
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public QuoteLine[] QuoteLines { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteLine[]
+    content.vb: Public Property QuoteLines As QuoteLine()
+  overload: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.QuoteLines*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.#ctor
+  isExternal: true
+  name: Quote_SaveQuoteLinesRequest
+  nameWithType: Quote_SaveQuoteLinesRequest.Quote_SaveQuoteLinesRequest
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.Quote_SaveQuoteLinesRequest
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.QuoteLines*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.QuoteLines
+  isExternal: true
+  name: QuoteLines
+  nameWithType: Quote_SaveQuoteLinesRequest.QuoteLines
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteLinesRequest.QuoteLines
+- uid: SuperOffice.WebApi.Data.QuoteLine[]
+  isExternal: true
+  name: QuoteLine[]
+  nameWithType: QuoteLine[]
+  fullName: SuperOffice.WebApi.Data.QuoteLine[]
+  nameWithType.vb: QuoteLine()
+  fullName.vb: SuperOffice.WebApi.Data.QuoteLine()
+  name.vb: QuoteLine()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.QuoteLine
+    name: QuoteLine
+    nameWithType: QuoteLine
+    fullName: SuperOffice.WebApi.Data.QuoteLine
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.QuoteLine
+    name: QuoteLine
+    nameWithType: QuoteLine
+    fullName: SuperOffice.WebApi.Data.QuoteLine
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

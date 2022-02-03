@@ -1,0 +1,857 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  id: DiaryUpdate
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentDateOrAssociate(System.Int32,System.String,System.Int32,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentToTask(System.Int32,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeTaskToAppointment(System.Int32,System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.CopyAppointment(System.Int32,System.String,System.String,System.Int32,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.DeleteAppointment(System.Int32,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetBookingEmailStatus(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetDisplaySendEmailDialogStatus
+  - SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateAppointment(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateMovedAppointment(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateResizedAppointment(System.Int32,System.Int32,System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: DiaryUpdate
+  nameWithType: DiaryUpdate
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("DiaryUpdate")]
+
+      public class DiaryUpdate : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("DiaryUpdate")>
+
+      Public Class DiaryUpdate
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DiaryUpdate
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.CopyAppointment(System.Int32,System.String,System.String,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.CopyAppointment(System.Int32,System.String,System.String,System.Int32,System.Boolean)
+  id: CopyAppointment(System.Int32,System.String,System.String,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  langs:
+  - csharp
+  - vb
+  name: CopyAppointment(Int32, String, String, Int32, Boolean)
+  nameWithType: DiaryUpdate.CopyAppointment(Int32, String, String, Int32, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.CopyAppointment(System.Int32, System.String, System.String, System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public AppointmentJsonObject CopyAppointment(int id, string date, string time, int associateId, bool sendEmail)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: date
+      type: System.String
+    - id: time
+      type: System.String
+    - id: associateId
+      type: System.Int32
+    - id: sendEmail
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+    content.vb: Public Function CopyAppointment(id As Integer, date As String, time As String, associateId As Integer, sendEmail As Boolean) As AppointmentJsonObject
+  overload: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.CopyAppointment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateMovedAppointment(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateMovedAppointment(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean)
+  id: UpdateMovedAppointment(System.Int32,System.String,System.String,System.Int32,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  langs:
+  - csharp
+  - vb
+  name: UpdateMovedAppointment(Int32, String, String, Int32, String, Boolean)
+  nameWithType: DiaryUpdate.UpdateMovedAppointment(Int32, String, String, Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateMovedAppointment(System.Int32, System.String, System.String, System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public AppointmentJsonObject UpdateMovedAppointment(int id, string date, string time, int associateId, string updateMode, bool sendEmail)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: date
+      type: System.String
+    - id: time
+      type: System.String
+    - id: associateId
+      type: System.Int32
+    - id: updateMode
+      type: System.String
+    - id: sendEmail
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+    content.vb: Public Function UpdateMovedAppointment(id As Integer, date As String, time As String, associateId As Integer, updateMode As String, sendEmail As Boolean) As AppointmentJsonObject
+  overload: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateMovedAppointment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentDateOrAssociate(System.Int32,System.String,System.Int32,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentDateOrAssociate(System.Int32,System.String,System.Int32,System.String,System.Boolean)
+  id: ChangeAppointmentDateOrAssociate(System.Int32,System.String,System.Int32,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  langs:
+  - csharp
+  - vb
+  name: ChangeAppointmentDateOrAssociate(Int32, String, Int32, String, Boolean)
+  nameWithType: DiaryUpdate.ChangeAppointmentDateOrAssociate(Int32, String, Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentDateOrAssociate(System.Int32, System.String, System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public AppointmentJsonObject ChangeAppointmentDateOrAssociate(int id, string date, int associateId, string updateMode, bool sendEmail)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: date
+      type: System.String
+    - id: associateId
+      type: System.Int32
+    - id: updateMode
+      type: System.String
+    - id: sendEmail
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+    content.vb: Public Function ChangeAppointmentDateOrAssociate(id As Integer, date As String, associateId As Integer, updateMode As String, sendEmail As Boolean) As AppointmentJsonObject
+  overload: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentDateOrAssociate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateResizedAppointment(System.Int32,System.Int32,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateResizedAppointment(System.Int32,System.Int32,System.String,System.Boolean)
+  id: UpdateResizedAppointment(System.Int32,System.Int32,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  langs:
+  - csharp
+  - vb
+  name: UpdateResizedAppointment(Int32, Int32, String, Boolean)
+  nameWithType: DiaryUpdate.UpdateResizedAppointment(Int32, Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateResizedAppointment(System.Int32, System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public AppointmentJsonObject UpdateResizedAppointment(int id, int newLength, string updateMode, bool sendEmail)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: newLength
+      type: System.Int32
+    - id: updateMode
+      type: System.String
+    - id: sendEmail
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+    content.vb: Public Function UpdateResizedAppointment(id As Integer, newLength As Integer, updateMode As String, sendEmail As Boolean) As AppointmentJsonObject
+  overload: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateResizedAppointment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateAppointment(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateAppointment(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)
+  id: UpdateAppointment(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  langs:
+  - csharp
+  - vb
+  name: UpdateAppointment(Int32, String, String, Int32, Int32, Int32)
+  nameWithType: DiaryUpdate.UpdateAppointment(Int32, String, String, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateAppointment(System.Int32, System.String, System.String, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string UpdateAppointment(int id, string startTime, string endTime, int status, int type, int associateId)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: startTime
+      type: System.String
+    - id: endTime
+      type: System.String
+    - id: status
+      type: System.Int32
+    - id: type
+      type: System.Int32
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function UpdateAppointment(id As Integer, startTime As String, endTime As String, status As Integer, type As Integer, associateId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateAppointment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.DeleteAppointment(System.Int32,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.DeleteAppointment(System.Int32,System.String,System.Boolean)
+  id: DeleteAppointment(System.Int32,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  langs:
+  - csharp
+  - vb
+  name: DeleteAppointment(Int32, String, Boolean)
+  nameWithType: DiaryUpdate.DeleteAppointment(Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.DeleteAppointment(System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public AppointmentJsonObject DeleteAppointment(int id, string mode, bool sendEmail)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: mode
+      type: System.String
+    - id: sendEmail
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+    content.vb: Public Function DeleteAppointment(id As Integer, mode As String, sendEmail As Boolean) As AppointmentJsonObject
+  overload: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.DeleteAppointment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentToTask(System.Int32,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentToTask(System.Int32,System.String,System.Boolean)
+  id: ChangeAppointmentToTask(System.Int32,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  langs:
+  - csharp
+  - vb
+  name: ChangeAppointmentToTask(Int32, String, Boolean)
+  nameWithType: DiaryUpdate.ChangeAppointmentToTask(Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentToTask(System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public AppointmentJsonObject ChangeAppointmentToTask(int id, string updateMode, bool sendEmail)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: updateMode
+      type: System.String
+    - id: sendEmail
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+    content.vb: Public Function ChangeAppointmentToTask(id As Integer, updateMode As String, sendEmail As Boolean) As AppointmentJsonObject
+  overload: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentToTask*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeTaskToAppointment(System.Int32,System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeTaskToAppointment(System.Int32,System.String,System.String,System.String,System.Boolean)
+  id: ChangeTaskToAppointment(System.Int32,System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  langs:
+  - csharp
+  - vb
+  name: ChangeTaskToAppointment(Int32, String, String, String, Boolean)
+  nameWithType: DiaryUpdate.ChangeTaskToAppointment(Int32, String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeTaskToAppointment(System.Int32, System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public AppointmentJsonObject ChangeTaskToAppointment(int id, string date, string time, string updateMode, bool sendEmail)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: date
+      type: System.String
+    - id: time
+      type: System.String
+    - id: updateMode
+      type: System.String
+    - id: sendEmail
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+    content.vb: Public Function ChangeTaskToAppointment(id As Integer, date As String, time As String, updateMode As String, sendEmail As Boolean) As AppointmentJsonObject
+  overload: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeTaskToAppointment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetBookingEmailStatus(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetBookingEmailStatus(System.Int32)
+  id: GetBookingEmailStatus(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  langs:
+  - csharp
+  - vb
+  name: GetBookingEmailStatus(Int32)
+  nameWithType: DiaryUpdate.GetBookingEmailStatus(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetBookingEmailStatus(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int GetBookingEmailStatus(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function GetBookingEmailStatus(appointmentId As Integer) As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetBookingEmailStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetDisplaySendEmailDialogStatus
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetDisplaySendEmailDialogStatus
+  id: GetDisplaySendEmailDialogStatus
+  parent: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  langs:
+  - csharp
+  - vb
+  name: GetDisplaySendEmailDialogStatus()
+  nameWithType: DiaryUpdate.GetDisplaySendEmailDialogStatus()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetDisplaySendEmailDialogStatus()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int GetDisplaySendEmailDialogStatus()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetDisplaySendEmailDialogStatus As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetDisplaySendEmailDialogStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+  langs:
+  - csharp
+  - vb
+  name: DiaryUpdate()
+  nameWithType: DiaryUpdate.DiaryUpdate()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.DiaryUpdate()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public DiaryUpdate()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.CopyAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.CopyAppointment
+  isExternal: true
+  name: CopyAppointment
+  nameWithType: DiaryUpdate.CopyAppointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.CopyAppointment
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: AppointmentJsonObject
+  nameWithType: AppointmentJsonObject
+  fullName: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateMovedAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateMovedAppointment
+  isExternal: true
+  name: UpdateMovedAppointment
+  nameWithType: DiaryUpdate.UpdateMovedAppointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateMovedAppointment
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentDateOrAssociate*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentDateOrAssociate
+  isExternal: true
+  name: ChangeAppointmentDateOrAssociate
+  nameWithType: DiaryUpdate.ChangeAppointmentDateOrAssociate
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentDateOrAssociate
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateResizedAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateResizedAppointment
+  isExternal: true
+  name: UpdateResizedAppointment
+  nameWithType: DiaryUpdate.UpdateResizedAppointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateResizedAppointment
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateAppointment
+  isExternal: true
+  name: UpdateAppointment
+  nameWithType: DiaryUpdate.UpdateAppointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.UpdateAppointment
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.DeleteAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.DeleteAppointment
+  isExternal: true
+  name: DeleteAppointment
+  nameWithType: DiaryUpdate.DeleteAppointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.DeleteAppointment
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentToTask*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentToTask
+  isExternal: true
+  name: ChangeAppointmentToTask
+  nameWithType: DiaryUpdate.ChangeAppointmentToTask
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeAppointmentToTask
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeTaskToAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeTaskToAppointment
+  isExternal: true
+  name: ChangeTaskToAppointment
+  nameWithType: DiaryUpdate.ChangeTaskToAppointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.ChangeTaskToAppointment
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetBookingEmailStatus*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetBookingEmailStatus
+  isExternal: true
+  name: GetBookingEmailStatus
+  nameWithType: DiaryUpdate.GetBookingEmailStatus
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetBookingEmailStatus
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetDisplaySendEmailDialogStatus*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetDisplaySendEmailDialogStatus
+  isExternal: true
+  name: GetDisplaySendEmailDialogStatus
+  nameWithType: DiaryUpdate.GetDisplaySendEmailDialogStatus
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.GetDisplaySendEmailDialogStatus
+- uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.#ctor
+  isExternal: true
+  name: DiaryUpdate
+  nameWithType: DiaryUpdate.DiaryUpdate
+  fullName: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate.DiaryUpdate

@@ -1,0 +1,1344 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  id: BulkUpdateSystem.BackgroundJob
+  parent: SuperOffice.CRM.BulkUpdate
+  children:
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.#ctor(System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[],System.Int32[])
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.CompletedReason
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Done
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.EntityIds
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.FieldValueInfos
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LastLogId
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LogFailedReason
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LogResultOfJob
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnJobTerminated(System.String)
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnProgressChanged(SuperOffice.CRM.BulkUpdate.RowResultItem)
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.RowResultItems
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.TableName
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Terminate
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsAsync
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsSync
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateSystem.BackgroundJob
+  nameWithType: BulkUpdateSystem.BackgroundJob
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: 'public class BackgroundJob : SoBackgroundWorker'
+    content.vb: >-
+      Public Class BackgroundJob
+          Inherits SoBackgroundWorker
+  inheritance:
+  - System.Object
+  - SuperOffice.Threading.SoBackgroundWorker
+  inheritedMembers:
+  - SuperOffice.Threading.SoBackgroundWorker.CancelAsync
+  - SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32)
+  - SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32,System.Object)
+  - SuperOffice.Threading.SoBackgroundWorker.RunWorker(System.Boolean)
+  - SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
+  - SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(System.Object)
+  - SuperOffice.Threading.SoBackgroundWorker.OnDoWork(System.ComponentModel.DoWorkEventArgs)
+  - SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged(System.ComponentModel.ProgressChangedEventArgs)
+  - SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventArgs)
+  - SuperOffice.Threading.SoBackgroundWorker.Dispose(System.Boolean)
+  - SuperOffice.Threading.SoBackgroundWorker.CancellationPending
+  - SuperOffice.Threading.SoBackgroundWorker.IsBusy
+  - SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress
+  - SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation
+  - SuperOffice.Threading.SoBackgroundWorker.DoWork
+  - SuperOffice.Threading.SoBackgroundWorker.ProgressChanged
+  - SuperOffice.Threading.SoBackgroundWorker.RunWorkerCompleted
+  extensionMethods:
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.TableName
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.TableName
+  id: TableName
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: BulkUpdateSystem.BackgroundJob.TableName
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.TableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public readonly string TableName
+    return:
+      type: System.String
+    content.vb: Public ReadOnly TableName As String
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.FieldValueInfos
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.FieldValueInfos
+  id: FieldValueInfos
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: FieldValueInfos
+  nameWithType: BulkUpdateSystem.BackgroundJob.FieldValueInfos
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.FieldValueInfos
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public readonly FieldValueInfo[] FieldValueInfos
+    return:
+      type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
+    content.vb: Public ReadOnly FieldValueInfos As FieldValueInfo()
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.EntityIds
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.EntityIds
+  id: EntityIds
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: EntityIds
+  nameWithType: BulkUpdateSystem.BackgroundJob.EntityIds
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.EntityIds
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public readonly int[] EntityIds
+    return:
+      type: System.Int32[]
+    content.vb: Public ReadOnly EntityIds As Integer()
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Done
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Done
+  id: Done
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: Done
+  nameWithType: BulkUpdateSystem.BackgroundJob.Done
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Done
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public bool Done
+    return:
+      type: System.Boolean
+    content.vb: Public Done As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.CompletedReason
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.CompletedReason
+  id: CompletedReason
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: CompletedReason
+  nameWithType: BulkUpdateSystem.BackgroundJob.CompletedReason
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.CompletedReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public string CompletedReason
+    return:
+      type: System.String
+    content.vb: Public CompletedReason As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LogResultOfJob
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LogResultOfJob
+  id: LogResultOfJob
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: LogResultOfJob
+  nameWithType: BulkUpdateSystem.BackgroundJob.LogResultOfJob
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LogResultOfJob
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public readonly bool LogResultOfJob
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly LogResultOfJob As Boolean
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LogFailedReason
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LogFailedReason
+  id: LogFailedReason
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: LogFailedReason
+  nameWithType: BulkUpdateSystem.BackgroundJob.LogFailedReason
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LogFailedReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public string LogFailedReason
+    return:
+      type: System.String
+    content.vb: Public LogFailedReason As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LastLogId
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LastLogId
+  id: LastLogId
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: LastLogId
+  nameWithType: BulkUpdateSystem.BackgroundJob.LastLogId
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.LastLogId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public int LastLogId
+    return:
+      type: System.Int32
+    content.vb: Public LastLogId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.RowResultItems
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.RowResultItems
+  id: RowResultItems
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: RowResultItems
+  nameWithType: BulkUpdateSystem.BackgroundJob.RowResultItems
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.RowResultItems
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: protected List<RowResultItem> RowResultItems
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.RowResultItem}
+    content.vb: Protected RowResultItems As List(Of RowResultItem)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Terminate
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Terminate
+  id: Terminate
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: Terminate()
+  nameWithType: BulkUpdateSystem.BackgroundJob.Terminate()
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Terminate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public void Terminate()
+    content.vb: Public Sub Terminate
+  overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Terminate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.#ctor(System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[],System.Int32[])
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.#ctor(System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[],System.Int32[])
+  id: '#ctor(System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[],System.Int32[])'
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: BackgroundJob(String, FieldValueInfo[], Int32[])
+  nameWithType: BulkUpdateSystem.BackgroundJob.BackgroundJob(String, FieldValueInfo[], Int32[])
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.BackgroundJob(System.String, SuperOffice.CRM.BulkUpdate.FieldValueInfo[], System.Int32[])
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public BackgroundJob(string i_TableName, FieldValueInfo[] i_FieldValueInfos, int[] i_EntityIds)
+    parameters:
+    - id: i_TableName
+      type: System.String
+    - id: i_FieldValueInfos
+      type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
+    - id: i_EntityIds
+      type: System.Int32[]
+    content.vb: Public Sub New(i_TableName As String, i_FieldValueInfos As FieldValueInfo(), i_EntityIds As Integer())
+  overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.#ctor*
+  nameWithType.vb: BulkUpdateSystem.BackgroundJob.BackgroundJob(String, FieldValueInfo(), Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.BackgroundJob(System.String, SuperOffice.CRM.BulkUpdate.FieldValueInfo(), System.Int32())
+  name.vb: BackgroundJob(String, FieldValueInfo(), Int32())
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnProgressChanged(SuperOffice.CRM.BulkUpdate.RowResultItem)
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnProgressChanged(SuperOffice.CRM.BulkUpdate.RowResultItem)
+  id: OnProgressChanged(SuperOffice.CRM.BulkUpdate.RowResultItem)
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: OnProgressChanged(RowResultItem)
+  nameWithType: BulkUpdateSystem.BackgroundJob.OnProgressChanged(RowResultItem)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnProgressChanged(SuperOffice.CRM.BulkUpdate.RowResultItem)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: protected virtual void OnProgressChanged(RowResultItem resultItem)
+    parameters:
+    - id: resultItem
+      type: SuperOffice.CRM.BulkUpdate.RowResultItem
+    content.vb: Protected Overridable Sub OnProgressChanged(resultItem As RowResultItem)
+  overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnProgressChanged*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnJobTerminated(System.String)
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnJobTerminated(System.String)
+  id: OnJobTerminated(System.String)
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: OnJobTerminated(String)
+  nameWithType: BulkUpdateSystem.BackgroundJob.OnJobTerminated(String)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnJobTerminated(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: protected virtual void OnJobTerminated(string reasonWhy)
+    parameters:
+    - id: reasonWhy
+      type: System.String
+    content.vb: Protected Overridable Sub OnJobTerminated(reasonWhy As String)
+  overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnJobTerminated*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsAsync
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsAsync
+  id: UpdateFieldsAsync
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldsAsync()
+  nameWithType: BulkUpdateSystem.BackgroundJob.UpdateFieldsAsync()
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsAsync()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public bool UpdateFieldsAsync()
+    return:
+      type: System.Boolean
+    content.vb: Public Function UpdateFieldsAsync As Boolean
+  overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsSync
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsSync
+  id: UpdateFieldsSync
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldsSync()
+  nameWithType: BulkUpdateSystem.BackgroundJob.UpdateFieldsSync()
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsSync()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public bool UpdateFieldsSync()
+    return:
+      type: System.Boolean
+    content.vb: Public Function UpdateFieldsSync As Boolean
+  overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsSync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.BulkUpdate
+  commentId: N:SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  name: SuperOffice.CRM.BulkUpdate
+  nameWithType: SuperOffice.CRM.BulkUpdate
+  fullName: SuperOffice.CRM.BulkUpdate
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Threading.SoBackgroundWorker
+  commentId: T:SuperOffice.Threading.SoBackgroundWorker
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: SoBackgroundWorker
+  nameWithType: SoBackgroundWorker
+  fullName: SuperOffice.Threading.SoBackgroundWorker
+- uid: SuperOffice.Threading.SoBackgroundWorker.CancelAsync
+  commentId: M:SuperOffice.Threading.SoBackgroundWorker.CancelAsync
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: CancelAsync()
+  nameWithType: SoBackgroundWorker.CancelAsync()
+  fullName: SuperOffice.Threading.SoBackgroundWorker.CancelAsync()
+  spec.csharp:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.CancelAsync
+    name: CancelAsync
+    nameWithType: SoBackgroundWorker.CancelAsync
+    fullName: SuperOffice.Threading.SoBackgroundWorker.CancelAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.CancelAsync
+    name: CancelAsync
+    nameWithType: SoBackgroundWorker.CancelAsync
+    fullName: SuperOffice.Threading.SoBackgroundWorker.CancelAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32)
+  commentId: M:SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32)
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: ReportProgress(Int32)
+  nameWithType: SoBackgroundWorker.ReportProgress(Int32)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32)
+    name: ReportProgress
+    nameWithType: SoBackgroundWorker.ReportProgress
+    fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32)
+    name: ReportProgress
+    nameWithType: SoBackgroundWorker.ReportProgress
+    fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32,System.Object)
+  commentId: M:SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32,System.Object)
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: ReportProgress(Int32, Object)
+  nameWithType: SoBackgroundWorker.ReportProgress(Int32, Object)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32,System.Object)
+    name: ReportProgress
+    nameWithType: SoBackgroundWorker.ReportProgress
+    fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32,System.Object)
+    name: ReportProgress
+    nameWithType: SoBackgroundWorker.ReportProgress
+    fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker.RunWorker(System.Boolean)
+  commentId: M:SuperOffice.Threading.SoBackgroundWorker.RunWorker(System.Boolean)
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: RunWorker(Boolean)
+  nameWithType: SoBackgroundWorker.RunWorker(Boolean)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorker(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorker(System.Boolean)
+    name: RunWorker
+    nameWithType: SoBackgroundWorker.RunWorker
+    fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorker
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorker(System.Boolean)
+    name: RunWorker
+    nameWithType: SoBackgroundWorker.RunWorker
+    fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorker
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
+  commentId: M:SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: RunWorkerAsync()
+  nameWithType: SoBackgroundWorker.RunWorkerAsync()
+  fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync()
+  spec.csharp:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
+    name: RunWorkerAsync
+    nameWithType: SoBackgroundWorker.RunWorkerAsync
+    fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
+    name: RunWorkerAsync
+    nameWithType: SoBackgroundWorker.RunWorkerAsync
+    fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(System.Object)
+  commentId: M:SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(System.Object)
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: RunWorkerAsync(Object)
+  nameWithType: SoBackgroundWorker.RunWorkerAsync(Object)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(System.Object)
+  spec.csharp:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(System.Object)
+    name: RunWorkerAsync
+    nameWithType: SoBackgroundWorker.RunWorkerAsync
+    fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(System.Object)
+    name: RunWorkerAsync
+    nameWithType: SoBackgroundWorker.RunWorkerAsync
+    fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker.OnDoWork(System.ComponentModel.DoWorkEventArgs)
+  commentId: M:SuperOffice.Threading.SoBackgroundWorker.OnDoWork(System.ComponentModel.DoWorkEventArgs)
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: OnDoWork(DoWorkEventArgs)
+  nameWithType: SoBackgroundWorker.OnDoWork(DoWorkEventArgs)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.OnDoWork(System.ComponentModel.DoWorkEventArgs)
+  spec.csharp:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.OnDoWork(System.ComponentModel.DoWorkEventArgs)
+    name: OnDoWork
+    nameWithType: SoBackgroundWorker.OnDoWork
+    fullName: SuperOffice.Threading.SoBackgroundWorker.OnDoWork
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ComponentModel.DoWorkEventArgs
+    name: DoWorkEventArgs
+    nameWithType: DoWorkEventArgs
+    fullName: System.ComponentModel.DoWorkEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.OnDoWork(System.ComponentModel.DoWorkEventArgs)
+    name: OnDoWork
+    nameWithType: SoBackgroundWorker.OnDoWork
+    fullName: SuperOffice.Threading.SoBackgroundWorker.OnDoWork
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ComponentModel.DoWorkEventArgs
+    name: DoWorkEventArgs
+    nameWithType: DoWorkEventArgs
+    fullName: System.ComponentModel.DoWorkEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged(System.ComponentModel.ProgressChangedEventArgs)
+  commentId: M:SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged(System.ComponentModel.ProgressChangedEventArgs)
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: OnProgressChanged(ProgressChangedEventArgs)
+  nameWithType: SoBackgroundWorker.OnProgressChanged(ProgressChangedEventArgs)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged(System.ComponentModel.ProgressChangedEventArgs)
+  spec.csharp:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged(System.ComponentModel.ProgressChangedEventArgs)
+    name: OnProgressChanged
+    nameWithType: SoBackgroundWorker.OnProgressChanged
+    fullName: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ComponentModel.ProgressChangedEventArgs
+    name: ProgressChangedEventArgs
+    nameWithType: ProgressChangedEventArgs
+    fullName: System.ComponentModel.ProgressChangedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged(System.ComponentModel.ProgressChangedEventArgs)
+    name: OnProgressChanged
+    nameWithType: SoBackgroundWorker.OnProgressChanged
+    fullName: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ComponentModel.ProgressChangedEventArgs
+    name: ProgressChangedEventArgs
+    nameWithType: ProgressChangedEventArgs
+    fullName: System.ComponentModel.ProgressChangedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventArgs)
+  commentId: M:SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventArgs)
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: OnRunWorkerCompleted(RunWorkerCompletedEventArgs)
+  nameWithType: SoBackgroundWorker.OnRunWorkerCompleted(RunWorkerCompletedEventArgs)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventArgs)
+  spec.csharp:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventArgs)
+    name: OnRunWorkerCompleted
+    nameWithType: SoBackgroundWorker.OnRunWorkerCompleted
+    fullName: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ComponentModel.RunWorkerCompletedEventArgs
+    name: RunWorkerCompletedEventArgs
+    nameWithType: RunWorkerCompletedEventArgs
+    fullName: System.ComponentModel.RunWorkerCompletedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventArgs)
+    name: OnRunWorkerCompleted
+    nameWithType: SoBackgroundWorker.OnRunWorkerCompleted
+    fullName: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ComponentModel.RunWorkerCompletedEventArgs
+    name: RunWorkerCompletedEventArgs
+    nameWithType: RunWorkerCompletedEventArgs
+    fullName: System.ComponentModel.RunWorkerCompletedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker.Dispose(System.Boolean)
+  commentId: M:SuperOffice.Threading.SoBackgroundWorker.Dispose(System.Boolean)
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: SoBackgroundWorker.Dispose(Boolean)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: SoBackgroundWorker.Dispose
+    fullName: SuperOffice.Threading.SoBackgroundWorker.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.SoBackgroundWorker.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: SoBackgroundWorker.Dispose
+    fullName: SuperOffice.Threading.SoBackgroundWorker.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker.CancellationPending
+  commentId: P:SuperOffice.Threading.SoBackgroundWorker.CancellationPending
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: CancellationPending
+  nameWithType: SoBackgroundWorker.CancellationPending
+  fullName: SuperOffice.Threading.SoBackgroundWorker.CancellationPending
+- uid: SuperOffice.Threading.SoBackgroundWorker.IsBusy
+  commentId: P:SuperOffice.Threading.SoBackgroundWorker.IsBusy
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: IsBusy
+  nameWithType: SoBackgroundWorker.IsBusy
+  fullName: SuperOffice.Threading.SoBackgroundWorker.IsBusy
+- uid: SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress
+  commentId: P:SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: WorkerReportsProgress
+  nameWithType: SoBackgroundWorker.WorkerReportsProgress
+  fullName: SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress
+- uid: SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation
+  commentId: P:SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: WorkerSupportsCancellation
+  nameWithType: SoBackgroundWorker.WorkerSupportsCancellation
+  fullName: SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation
+- uid: SuperOffice.Threading.SoBackgroundWorker.DoWork
+  commentId: E:SuperOffice.Threading.SoBackgroundWorker.DoWork
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: DoWork
+  nameWithType: SoBackgroundWorker.DoWork
+  fullName: SuperOffice.Threading.SoBackgroundWorker.DoWork
+- uid: SuperOffice.Threading.SoBackgroundWorker.ProgressChanged
+  commentId: E:SuperOffice.Threading.SoBackgroundWorker.ProgressChanged
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: ProgressChanged
+  nameWithType: SoBackgroundWorker.ProgressChanged
+  fullName: SuperOffice.Threading.SoBackgroundWorker.ProgressChanged
+- uid: SuperOffice.Threading.SoBackgroundWorker.RunWorkerCompleted
+  commentId: E:SuperOffice.Threading.SoBackgroundWorker.RunWorkerCompleted
+  parent: SuperOffice.Threading.SoBackgroundWorker
+  isExternal: true
+  name: RunWorkerCompleted
+  nameWithType: SoBackgroundWorker.RunWorkerCompleted
+  fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerCompleted
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BulkUpdateSystem.BackgroundJob, To>()
+  nameWithType: EnumUtil.MapEnums<BulkUpdateSystem.BackgroundJob, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BulkUpdateSystem.BackgroundJob, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob, To)()
+  name.vb: MapEnums(Of BulkUpdateSystem.BackgroundJob, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BulkUpdateSystem.BackgroundJob, To>
+    nameWithType: EnumUtil.MapEnums<BulkUpdateSystem.BackgroundJob, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BulkUpdateSystem.BackgroundJob, To)
+    nameWithType: EnumUtil.MapEnums(Of BulkUpdateSystem.BackgroundJob, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BulkUpdateSystem.BackgroundJob, To>()
+  nameWithType: Converters.MapEnums<BulkUpdateSystem.BackgroundJob, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob, To>()
+  nameWithType.vb: Converters.MapEnums(Of BulkUpdateSystem.BackgroundJob, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob, To)()
+  name.vb: MapEnums(Of BulkUpdateSystem.BackgroundJob, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BulkUpdateSystem.BackgroundJob, To>
+    nameWithType: Converters.MapEnums<BulkUpdateSystem.BackgroundJob, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BulkUpdateSystem.BackgroundJob, To)
+    nameWithType: Converters.MapEnums(Of BulkUpdateSystem.BackgroundJob, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
+  isExternal: true
+  name: FieldValueInfo[]
+  nameWithType: FieldValueInfo[]
+  fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
+  nameWithType.vb: FieldValueInfo()
+  fullName.vb: SuperOffice.CRM.BulkUpdate.FieldValueInfo()
+  name.vb: FieldValueInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.RowResultItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.RowResultItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<RowResultItem>
+  nameWithType: List<RowResultItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.BulkUpdate.RowResultItem>
+  nameWithType.vb: List(Of RowResultItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.BulkUpdate.RowResultItem)
+  name.vb: List(Of RowResultItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.BulkUpdate.RowResultItem
+    name: RowResultItem
+    nameWithType: RowResultItem
+    fullName: SuperOffice.CRM.BulkUpdate.RowResultItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.BulkUpdate.RowResultItem
+    name: RowResultItem
+    nameWithType: RowResultItem
+    fullName: SuperOffice.CRM.BulkUpdate.RowResultItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Terminate*
+  commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Terminate
+  isExternal: true
+  name: Terminate
+  nameWithType: BulkUpdateSystem.BackgroundJob.Terminate
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.Terminate
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.#ctor*
+  commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.#ctor
+  isExternal: true
+  name: BackgroundJob
+  nameWithType: BulkUpdateSystem.BackgroundJob.BackgroundJob
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.BackgroundJob
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnProgressChanged*
+  commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnProgressChanged
+  isExternal: true
+  name: OnProgressChanged
+  nameWithType: BulkUpdateSystem.BackgroundJob.OnProgressChanged
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnProgressChanged
+- uid: SuperOffice.CRM.BulkUpdate.RowResultItem
+  commentId: T:SuperOffice.CRM.BulkUpdate.RowResultItem
+  parent: SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  name: RowResultItem
+  nameWithType: RowResultItem
+  fullName: SuperOffice.CRM.BulkUpdate.RowResultItem
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnJobTerminated*
+  commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnJobTerminated
+  isExternal: true
+  name: OnJobTerminated
+  nameWithType: BulkUpdateSystem.BackgroundJob.OnJobTerminated
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.OnJobTerminated
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsAsync
+  isExternal: true
+  name: UpdateFieldsAsync
+  nameWithType: BulkUpdateSystem.BackgroundJob.UpdateFieldsAsync
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsAsync
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsSync*
+  commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsSync
+  isExternal: true
+  name: UpdateFieldsSync
+  nameWithType: BulkUpdateSystem.BackgroundJob.UpdateFieldsSync
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.UpdateFieldsSync

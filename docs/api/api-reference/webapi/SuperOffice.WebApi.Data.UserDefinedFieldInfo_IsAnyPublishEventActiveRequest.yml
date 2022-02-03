@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest
+  id: UserDefinedFieldInfo_IsAnyPublishEventActiveRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_IsAnyPublishEventActiveRequest
+  nameWithType: UserDefinedFieldInfo_IsAnyPublishEventActiveRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class UserDefinedFieldInfo_IsAnyPublishEventActiveRequest : Object'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo_IsAnyPublishEventActiveRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_IsAnyPublishEventActiveRequest()
+  nameWithType: UserDefinedFieldInfo_IsAnyPublishEventActiveRequest.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo_IsAnyPublishEventActiveRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo_IsAnyPublishEventActiveRequest
+  nameWithType: UserDefinedFieldInfo_IsAnyPublishEventActiveRequest.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest.UserDefinedFieldInfo_IsAnyPublishEventActiveRequest

@@ -1,0 +1,1799 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketPriorityEntity
+  id: TicketPriorityEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.#ctor
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.Deadline
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.Flags
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.FriStart
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.FriStop
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.MonStart
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.MonStop
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.Name
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.NonDates
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.SatStart
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.SatStop
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.SortOrder
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.Status
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.SunStart
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.SunStop
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStart
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStop
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TicketPriorityId
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TueStart
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.TueStop
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.WedStart
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.WedStop
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityEntity
+  nameWithType: TicketPriorityEntity
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TicketPriorityEntity.\nEntity for a ticket priority. This entity describes the meta data for a ticket priority, and provides special operations on it.    \n"
+  example:
+  - "\nGet TicketPriorityEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar ticketPriorityEntity = agent.GetTicketPriorityEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class TicketPriorityEntity : Carrier'
+    content.vb: >-
+      Public Class TicketPriorityEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TicketPriorityEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityEntity()
+  nameWithType: TicketPriorityEntity.TicketPriorityEntity()
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketPriorityEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TicketPriorityEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketPriorityId
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketPriorityId
+  id: TicketPriorityId
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityId
+  nameWithType: TicketPriorityEntity.TicketPriorityId
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketPriorityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int TicketPriorityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketPriorityId As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketPriorityId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TicketPriorityEntity.Name
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the priority.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String
+  id: Status_String
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: Status_String
+  nameWithType: TicketPriorityEntity.Status_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe status (normal/deleted) of the priority.\nRaw string enum value.\n"
+  syntax:
+    content: public string Status_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Status_String As String
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.Status
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Status
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: TicketPriorityEntity.Status
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe status (normal/deleted) of the priority.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TicketPriorityStatus> Status { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TicketPriorityStatus}
+    content.vb: Public Property Status As Nullable(Of TicketPriorityStatus)
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.Status*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String
+  id: Flags_String
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: Flags_String
+  nameWithType: TicketPriorityEntity.Flags_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA bitmask of flags.\nRaw string enum value.\n"
+  syntax:
+    content: public string Flags_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Flags_String As String
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Flags
+  id: Flags
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TicketPriorityEntity.Flags
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA bitmask of flags.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TicketPriorityFlags> Flags { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TicketPriorityFlags}
+    content.vb: Public Property Flags As Nullable(Of TicketPriorityFlags)
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.SortOrder
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.SortOrder
+  id: SortOrder
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: TicketPriorityEntity.SortOrder
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.SortOrder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates the sort order for this priority. 1 is first, 100 is last\n"
+  syntax:
+    content: public virtual int SortOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SortOrder As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.SortOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String
+  id: TicketRead_String
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketRead_String
+  nameWithType: TicketPriorityEntity.TicketRead_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when the request is read\nRaw string enum value.\n"
+  syntax:
+    content: public string TicketRead_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TicketRead_String As String
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead
+  id: TicketRead
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketRead
+  nameWithType: TicketPriorityEntity.TicketRead
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when the request is read\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TicketPriorityEscalateEvent> TicketRead { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TicketPriorityEscalateEvent}
+    content.vb: Public Property TicketRead As Nullable(Of TicketPriorityEscalateEvent)
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String
+  id: ChangedOwner_String
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: ChangedOwner_String
+  nameWithType: TicketPriorityEntity.ChangedOwner_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when the request changes owner (manually)\nRaw string enum value.\n"
+  syntax:
+    content: public string ChangedOwner_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ChangedOwner_String As String
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner
+  id: ChangedOwner
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: ChangedOwner
+  nameWithType: TicketPriorityEntity.ChangedOwner
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when the request changes owner (manually)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TicketPriorityEscalateEvent> ChangedOwner { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TicketPriorityEscalateEvent}
+    content.vb: Public Property ChangedOwner As Nullable(Of TicketPriorityEscalateEvent)
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String
+  id: TicketNewinfo_String
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketNewinfo_String
+  nameWithType: TicketPriorityEntity.TicketNewinfo_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when the request gets new info\nRaw string enum value.\n"
+  syntax:
+    content: public string TicketNewinfo_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TicketNewinfo_String As String
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo
+  id: TicketNewinfo
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketNewinfo
+  nameWithType: TicketPriorityEntity.TicketNewinfo
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when the request gets new info\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TicketPriorityEscalateEvent> TicketNewinfo { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TicketPriorityEscalateEvent}
+    content.vb: Public Property TicketNewinfo As Nullable(Of TicketPriorityEscalateEvent)
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String
+  id: TicketClosed_String
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketClosed_String
+  nameWithType: TicketPriorityEntity.TicketClosed_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when the request is closed\nRaw string enum value.\n"
+  syntax:
+    content: public string TicketClosed_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TicketClosed_String As String
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed
+  id: TicketClosed
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketClosed
+  nameWithType: TicketPriorityEntity.TicketClosed
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when the request is closed\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TicketPriorityEscalateEvent> TicketClosed { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TicketPriorityEscalateEvent}
+    content.vb: Public Property TicketClosed As Nullable(Of TicketPriorityEscalateEvent)
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String
+  id: TicketChangedPriority_String
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedPriority_String
+  nameWithType: TicketPriorityEntity.TicketChangedPriority_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when the request is changed into this priority\nRaw string enum value.\n"
+  syntax:
+    content: public string TicketChangedPriority_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TicketChangedPriority_String As String
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority
+  id: TicketChangedPriority
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedPriority
+  nameWithType: TicketPriorityEntity.TicketChangedPriority
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when the request is changed into this priority\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TicketPriorityEscalateEvent> TicketChangedPriority { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TicketPriorityEscalateEvent}
+    content.vb: Public Property TicketChangedPriority As Nullable(Of TicketPriorityEscalateEvent)
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String
+  id: TicketNew_String
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketNew_String
+  nameWithType: TicketPriorityEntity.TicketNew_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when a new request is registered\nRaw string enum value.\n"
+  syntax:
+    content: public string TicketNew_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TicketNew_String As String
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew
+  id: TicketNew
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketNew
+  nameWithType: TicketPriorityEntity.TicketNew
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis field indicates what to do with the escalation chain when a new request is registered\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TicketPriorityEscalateEvent> TicketNew { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TicketPriorityEscalateEvent}
+    content.vb: Public Property TicketNew As Nullable(Of TicketPriorityEscalateEvent)
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String
+    commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Deadline
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Deadline
+  id: Deadline
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: Deadline
+  nameWithType: TicketPriorityEntity.Deadline
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Deadline
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDeadline to add if escalated (minutes)\n"
+  syntax:
+    content: public virtual int Deadline { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Deadline As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.Deadline*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.MonStart
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.MonStart
+  id: MonStart
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: MonStart
+  nameWithType: TicketPriorityEntity.MonStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.MonStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour start for Mondays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime MonStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property MonStart As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.MonStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.MonStop
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.MonStop
+  id: MonStop
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: MonStop
+  nameWithType: TicketPriorityEntity.MonStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.MonStop
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour sstop for Mondays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime MonStop { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property MonStop As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.MonStop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TueStart
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TueStart
+  id: TueStart
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TueStart
+  nameWithType: TicketPriorityEntity.TueStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TueStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour start for Tuesdays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime TueStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property TueStart As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TueStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TueStop
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TueStop
+  id: TueStop
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: TueStop
+  nameWithType: TicketPriorityEntity.TueStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TueStop
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour stop for Tuesdays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime TueStop { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property TueStop As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.TueStop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.WedStart
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.WedStart
+  id: WedStart
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: WedStart
+  nameWithType: TicketPriorityEntity.WedStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.WedStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour start for Wednesdays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime WedStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property WedStart As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.WedStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.WedStop
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.WedStop
+  id: WedStop
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: WedStop
+  nameWithType: TicketPriorityEntity.WedStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.WedStop
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour stop for Wednesdays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime WedStop { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property WedStop As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.WedStop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStart
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStart
+  id: ThuStart
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: ThuStart
+  nameWithType: TicketPriorityEntity.ThuStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour start for Thursdays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime ThuStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ThuStart As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStop
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStop
+  id: ThuStop
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: ThuStop
+  nameWithType: TicketPriorityEntity.ThuStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStop
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour stop for Thursdays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime ThuStop { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ThuStop As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.FriStart
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.FriStart
+  id: FriStart
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: FriStart
+  nameWithType: TicketPriorityEntity.FriStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.FriStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour start for Fridays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime FriStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property FriStart As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.FriStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.FriStop
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.FriStop
+  id: FriStop
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: FriStop
+  nameWithType: TicketPriorityEntity.FriStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.FriStop
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour stop for Fridays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime FriStop { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property FriStop As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.FriStop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.SatStart
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.SatStart
+  id: SatStart
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: SatStart
+  nameWithType: TicketPriorityEntity.SatStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.SatStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour start for Saturdays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime SatStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property SatStart As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.SatStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.SatStop
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.SatStop
+  id: SatStop
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: SatStop
+  nameWithType: TicketPriorityEntity.SatStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.SatStop
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour stop for Saturdays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime SatStop { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property SatStop As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.SatStop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.SunStart
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.SunStart
+  id: SunStart
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: SunStart
+  nameWithType: TicketPriorityEntity.SunStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.SunStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour start for Sundays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime SunStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property SunStart As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.SunStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.SunStop
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.SunStop
+  id: SunStop
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: SunStop
+  nameWithType: TicketPriorityEntity.SunStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.SunStop
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe work hour stop for Sundays. Note that only the time part of the DateTime is used\n"
+  syntax:
+    content: public virtual DateTime SunStop { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property SunStop As DateTime
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.SunStop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.NonDates
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.NonDates
+  id: NonDates
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: NonDates
+  nameWithType: TicketPriorityEntity.NonDates
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.NonDates
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime\n"
+  syntax:
+    content: public virtual DateTime[] NonDates { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime[]
+    content.vb: Public Overridable Property NonDates As DateTime()
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.NonDates*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.#ctor
+  isExternal: true
+  name: TicketPriorityEntity
+  nameWithType: TicketPriorityEntity.TicketPriorityEntity
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketPriorityEntity
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketPriorityId*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketPriorityId
+  isExternal: true
+  name: TicketPriorityId
+  nameWithType: TicketPriorityEntity.TicketPriorityId
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketPriorityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: TicketPriorityEntity.Name
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String
+  isExternal: true
+  name: Status_String
+  nameWithType: TicketPriorityEntity.Status_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Status
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Status
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.Status
+  isExternal: true
+  name: Status
+  nameWithType: TicketPriorityEntity.Status
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Status
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Status_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.TicketPriorityStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketPriorityStatus}'
+  definition: System.Nullable`1
+  name: Nullable<TicketPriorityStatus>
+  nameWithType: Nullable<TicketPriorityStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketPriorityStatus>
+  nameWithType.vb: Nullable(Of TicketPriorityStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketPriorityStatus)
+  name.vb: Nullable(Of TicketPriorityStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TicketPriorityStatus
+    name: TicketPriorityStatus
+    nameWithType: TicketPriorityStatus
+    fullName: SuperOffice.WebApi.Data.TicketPriorityStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TicketPriorityStatus
+    name: TicketPriorityStatus
+    nameWithType: TicketPriorityStatus
+    fullName: SuperOffice.WebApi.Data.TicketPriorityStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String
+  isExternal: true
+  name: Flags_String
+  nameWithType: TicketPriorityEntity.Flags_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Flags
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: TicketPriorityEntity.Flags
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.TicketPriorityFlags}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketPriorityFlags}'
+  definition: System.Nullable`1
+  name: Nullable<TicketPriorityFlags>
+  nameWithType: Nullable<TicketPriorityFlags>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketPriorityFlags>
+  nameWithType.vb: Nullable(Of TicketPriorityFlags)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketPriorityFlags)
+  name.vb: Nullable(Of TicketPriorityFlags)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TicketPriorityFlags
+    name: TicketPriorityFlags
+    nameWithType: TicketPriorityFlags
+    fullName: SuperOffice.WebApi.Data.TicketPriorityFlags
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TicketPriorityFlags
+    name: TicketPriorityFlags
+    nameWithType: TicketPriorityFlags
+    fullName: SuperOffice.WebApi.Data.TicketPriorityFlags
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.SortOrder*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.SortOrder
+  isExternal: true
+  name: SortOrder
+  nameWithType: TicketPriorityEntity.SortOrder
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.SortOrder
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String
+  isExternal: true
+  name: TicketRead_String
+  nameWithType: TicketPriorityEntity.TicketRead_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead
+  isExternal: true
+  name: TicketRead
+  nameWithType: TicketPriorityEntity.TicketRead
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketRead_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.TicketPriorityEscalateEvent}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketPriorityEscalateEvent}'
+  definition: System.Nullable`1
+  name: Nullable<TicketPriorityEscalateEvent>
+  nameWithType: Nullable<TicketPriorityEscalateEvent>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketPriorityEscalateEvent>
+  nameWithType.vb: Nullable(Of TicketPriorityEscalateEvent)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketPriorityEscalateEvent)
+  name.vb: Nullable(Of TicketPriorityEscalateEvent)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TicketPriorityEscalateEvent
+    name: TicketPriorityEscalateEvent
+    nameWithType: TicketPriorityEscalateEvent
+    fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TicketPriorityEscalateEvent
+    name: TicketPriorityEscalateEvent
+    nameWithType: TicketPriorityEscalateEvent
+    fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String
+  isExternal: true
+  name: ChangedOwner_String
+  nameWithType: TicketPriorityEntity.ChangedOwner_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner
+  isExternal: true
+  name: ChangedOwner
+  nameWithType: TicketPriorityEntity.ChangedOwner
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String
+  isExternal: true
+  name: TicketNewinfo_String
+  nameWithType: TicketPriorityEntity.TicketNewinfo_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo
+  isExternal: true
+  name: TicketNewinfo
+  nameWithType: TicketPriorityEntity.TicketNewinfo
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNewinfo_String
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String
+  isExternal: true
+  name: TicketClosed_String
+  nameWithType: TicketPriorityEntity.TicketClosed_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed
+  isExternal: true
+  name: TicketClosed
+  nameWithType: TicketPriorityEntity.TicketClosed
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketClosed_String
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String
+  isExternal: true
+  name: TicketChangedPriority_String
+  nameWithType: TicketPriorityEntity.TicketChangedPriority_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority
+  isExternal: true
+  name: TicketChangedPriority
+  nameWithType: TicketPriorityEntity.TicketChangedPriority
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketChangedPriority_String
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String
+  isExternal: true
+  name: TicketNew_String
+  nameWithType: TicketPriorityEntity.TicketNew_String
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew
+  isExternal: true
+  name: TicketNew
+  nameWithType: TicketPriorityEntity.TicketNew
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.TicketNew_String
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.Deadline*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.Deadline
+  isExternal: true
+  name: Deadline
+  nameWithType: TicketPriorityEntity.Deadline
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.Deadline
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.MonStart*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.MonStart
+  isExternal: true
+  name: MonStart
+  nameWithType: TicketPriorityEntity.MonStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.MonStart
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.MonStop*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.MonStop
+  isExternal: true
+  name: MonStop
+  nameWithType: TicketPriorityEntity.MonStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.MonStop
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TueStart*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TueStart
+  isExternal: true
+  name: TueStart
+  nameWithType: TicketPriorityEntity.TueStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TueStart
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.TueStop*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.TueStop
+  isExternal: true
+  name: TueStop
+  nameWithType: TicketPriorityEntity.TueStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.TueStop
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.WedStart*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.WedStart
+  isExternal: true
+  name: WedStart
+  nameWithType: TicketPriorityEntity.WedStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.WedStart
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.WedStop*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.WedStop
+  isExternal: true
+  name: WedStop
+  nameWithType: TicketPriorityEntity.WedStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.WedStop
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStart*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStart
+  isExternal: true
+  name: ThuStart
+  nameWithType: TicketPriorityEntity.ThuStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStart
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStop*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStop
+  isExternal: true
+  name: ThuStop
+  nameWithType: TicketPriorityEntity.ThuStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.ThuStop
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.FriStart*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.FriStart
+  isExternal: true
+  name: FriStart
+  nameWithType: TicketPriorityEntity.FriStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.FriStart
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.FriStop*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.FriStop
+  isExternal: true
+  name: FriStop
+  nameWithType: TicketPriorityEntity.FriStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.FriStop
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.SatStart*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.SatStart
+  isExternal: true
+  name: SatStart
+  nameWithType: TicketPriorityEntity.SatStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.SatStart
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.SatStop*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.SatStop
+  isExternal: true
+  name: SatStop
+  nameWithType: TicketPriorityEntity.SatStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.SatStop
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.SunStart*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.SunStart
+  isExternal: true
+  name: SunStart
+  nameWithType: TicketPriorityEntity.SunStart
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.SunStart
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.SunStop*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.SunStop
+  isExternal: true
+  name: SunStop
+  nameWithType: TicketPriorityEntity.SunStop
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.SunStop
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.NonDates*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.NonDates
+  isExternal: true
+  name: NonDates
+  nameWithType: TicketPriorityEntity.NonDates
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.NonDates
+- uid: System.DateTime[]
+  isExternal: true
+  name: DateTime[]
+  nameWithType: DateTime[]
+  fullName: System.DateTime[]
+  nameWithType.vb: DateTime()
+  fullName.vb: System.DateTime()
+  name.vb: DateTime()
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

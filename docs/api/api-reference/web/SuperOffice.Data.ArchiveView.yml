@@ -1,0 +1,408 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ArchiveView
+  commentId: T:SuperOffice.Data.ArchiveView
+  id: ArchiveView
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ArchiveView.Browser
+  - SuperOffice.Data.ArchiveView.ContactActivities
+  - SuperOffice.Data.ArchiveView.Custom
+  - SuperOffice.Data.ArchiveView.DiaryCheckList
+  - SuperOffice.Data.ArchiveView.Email
+  - SuperOffice.Data.ArchiveView.None
+  - SuperOffice.Data.ArchiveView.Person
+  - SuperOffice.Data.ArchiveView.ProjectActivities
+  - SuperOffice.Data.ArchiveView.ProjectMember
+  - SuperOffice.Data.ArchiveView.Projects
+  - SuperOffice.Data.ArchiveView.Relations
+  - SuperOffice.Data.ArchiveView.ReporterDocuments
+  - SuperOffice.Data.ArchiveView.SelectionMember
+  langs:
+  - csharp
+  - vb
+  name: ArchiveView
+  nameWithType: ArchiveView
+  fullName: SuperOffice.Data.ArchiveView
+  type: Enum
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nArchive view enums representing the values stored in the UserPreference table\n"
+  syntax:
+    content: 'public enum ArchiveView : short'
+    content.vb: Public Enum ArchiveView As Short
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.ArchiveView.None
+  commentId: F:SuperOffice.Data.ArchiveView.None
+  id: None
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ArchiveView.None
+  fullName: SuperOffice.Data.ArchiveView.None
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.Person
+  commentId: F:SuperOffice.Data.ArchiveView.Person
+  id: Person
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: ArchiveView.Person
+  fullName: SuperOffice.Data.ArchiveView.Person
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Person = 1
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.Relations
+  commentId: F:SuperOffice.Data.ArchiveView.Relations
+  id: Relations
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: Relations
+  nameWithType: ArchiveView.Relations
+  fullName: SuperOffice.Data.ArchiveView.Relations
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Relations = 2
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.Projects
+  commentId: F:SuperOffice.Data.ArchiveView.Projects
+  id: Projects
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: Projects
+  nameWithType: ArchiveView.Projects
+  fullName: SuperOffice.Data.ArchiveView.Projects
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Projects = 3
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.ContactActivities
+  commentId: F:SuperOffice.Data.ArchiveView.ContactActivities
+  id: ContactActivities
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: ContactActivities
+  nameWithType: ArchiveView.ContactActivities
+  fullName: SuperOffice.Data.ArchiveView.ContactActivities
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ContactActivities = 4
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.ProjectMember
+  commentId: F:SuperOffice.Data.ArchiveView.ProjectMember
+  id: ProjectMember
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: ProjectMember
+  nameWithType: ArchiveView.ProjectMember
+  fullName: SuperOffice.Data.ArchiveView.ProjectMember
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ProjectMember = 5
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.ProjectActivities
+  commentId: F:SuperOffice.Data.ArchiveView.ProjectActivities
+  id: ProjectActivities
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: ProjectActivities
+  nameWithType: ArchiveView.ProjectActivities
+  fullName: SuperOffice.Data.ArchiveView.ProjectActivities
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ProjectActivities = 6
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.DiaryCheckList
+  commentId: F:SuperOffice.Data.ArchiveView.DiaryCheckList
+  id: DiaryCheckList
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: DiaryCheckList
+  nameWithType: ArchiveView.DiaryCheckList
+  fullName: SuperOffice.Data.ArchiveView.DiaryCheckList
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: DiaryCheckList = 7
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.SelectionMember
+  commentId: F:SuperOffice.Data.ArchiveView.SelectionMember
+  id: SelectionMember
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: SelectionMember
+  nameWithType: ArchiveView.SelectionMember
+  fullName: SuperOffice.Data.ArchiveView.SelectionMember
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: SelectionMember = 8
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.ReporterDocuments
+  commentId: F:SuperOffice.Data.ArchiveView.ReporterDocuments
+  id: ReporterDocuments
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: ReporterDocuments
+  nameWithType: ArchiveView.ReporterDocuments
+  fullName: SuperOffice.Data.ArchiveView.ReporterDocuments
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ReporterDocuments = 9
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.Email
+  commentId: F:SuperOffice.Data.ArchiveView.Email
+  id: Email
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: ArchiveView.Email
+  fullName: SuperOffice.Data.ArchiveView.Email
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Email = 10
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.Custom
+  commentId: F:SuperOffice.Data.ArchiveView.Custom
+  id: Custom
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: ArchiveView.Custom
+  fullName: SuperOffice.Data.ArchiveView.Custom
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Custom = 11
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveView.Browser
+  commentId: F:SuperOffice.Data.ArchiveView.Browser
+  id: Browser
+  parent: SuperOffice.Data.ArchiveView
+  langs:
+  - csharp
+  - vb
+  name: Browser
+  nameWithType: ArchiveView.Browser
+  fullName: SuperOffice.Data.ArchiveView.Browser
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Browser = 12
+    return:
+      type: SuperOffice.Data.ArchiveView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ArchiveView
+  commentId: T:SuperOffice.Data.ArchiveView
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ArchiveView
+  nameWithType: ArchiveView
+  fullName: SuperOffice.Data.ArchiveView

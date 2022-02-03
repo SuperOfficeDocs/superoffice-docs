@@ -1,0 +1,917 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
+  commentId: T:SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
+  id: SoLocalTimeConverterDataFetcher
+  parent: SuperOffice.CRM.TimeZone
+  children:
+  - SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.#ctor
+  - SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetBaseTimeZoneId
+  - SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetTimeZoneData
+  langs:
+  - csharp
+  - vb
+  name: SoLocalTimeConverterDataFetcher
+  nameWithType: SoLocalTimeConverterDataFetcher
+  fullName: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  summary: "\nThe Timezone data fetcher.\n"
+  syntax:
+    content: 'public class SoLocalTimeConverterDataFetcher : SoTimeConverterDataFetcher, ITimeConverterDataFetcher'
+    content.vb: >-
+      Public Class SoLocalTimeConverterDataFetcher
+          Inherits SoTimeConverterDataFetcher
+          Implements ITimeConverterDataFetcher
+  inheritance:
+  - System.Object
+  - SuperOffice.TimeZone.SoTimeConverterDataFetcher
+  implements:
+  - SuperOffice.TimeZone.ITimeConverterDataFetcher
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher)
+  - SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetTimeZoneData
+  commentId: M:SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetTimeZoneData
+  id: GetTimeZoneData
+  parent: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
+  langs:
+  - csharp
+  - vb
+  name: GetTimeZoneData()
+  nameWithType: SoLocalTimeConverterDataFetcher.GetTimeZoneData()
+  fullName: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetTimeZoneData()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public override TimeZoneData[] GetTimeZoneData()
+    return:
+      type: SuperOffice.CRM.TimeZoneData[]
+    content.vb: Public Overrides Function GetTimeZoneData As TimeZoneData()
+  overridden: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
+  overload: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetTimeZoneData*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetBaseTimeZoneId
+  commentId: M:SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetBaseTimeZoneId
+  id: GetBaseTimeZoneId
+  parent: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
+  langs:
+  - csharp
+  - vb
+  name: GetBaseTimeZoneId()
+  nameWithType: SoLocalTimeConverterDataFetcher.GetBaseTimeZoneId()
+  fullName: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetBaseTimeZoneId()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public override int GetBaseTimeZoneId()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetBaseTimeZoneId As Integer
+  overridden: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
+  overload: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetBaseTimeZoneId*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.#ctor
+  commentId: M:SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
+  langs:
+  - csharp
+  - vb
+  name: SoLocalTimeConverterDataFetcher()
+  nameWithType: SoLocalTimeConverterDataFetcher.SoLocalTimeConverterDataFetcher()
+  fullName: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.SoLocalTimeConverterDataFetcher()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  syntax:
+    content: public SoLocalTimeConverterDataFetcher()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.TimeZone
+  commentId: N:SuperOffice.CRM.TimeZone
+  isExternal: true
+  name: SuperOffice.CRM.TimeZone
+  nameWithType: SuperOffice.CRM.TimeZone
+  fullName: SuperOffice.CRM.TimeZone
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher
+  commentId: T:SuperOffice.TimeZone.SoTimeConverterDataFetcher
+  parent: SuperOffice.TimeZone
+  isExternal: true
+  name: SoTimeConverterDataFetcher
+  nameWithType: SoTimeConverterDataFetcher
+  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher
+- uid: SuperOffice.TimeZone.ITimeConverterDataFetcher
+  commentId: T:SuperOffice.TimeZone.ITimeConverterDataFetcher
+  parent: SuperOffice.TimeZone
+  isExternal: true
+  name: ITimeConverterDataFetcher
+  nameWithType: ITimeConverterDataFetcher
+  fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoLocalTimeConverterDataFetcher, To>()
+  nameWithType: EnumUtil.MapEnums<SoLocalTimeConverterDataFetcher, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoLocalTimeConverterDataFetcher, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher, To)()
+  name.vb: MapEnums(Of SoLocalTimeConverterDataFetcher, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoLocalTimeConverterDataFetcher, To>
+    nameWithType: EnumUtil.MapEnums<SoLocalTimeConverterDataFetcher, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoLocalTimeConverterDataFetcher, To)
+    nameWithType: EnumUtil.MapEnums(Of SoLocalTimeConverterDataFetcher, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoLocalTimeConverterDataFetcher>(SoLocalTimeConverterDataFetcher)
+  nameWithType: ObjectExtensions.AssignByReflection<SoLocalTimeConverterDataFetcher>(SoLocalTimeConverterDataFetcher)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher>(SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoLocalTimeConverterDataFetcher)(SoLocalTimeConverterDataFetcher)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher)(SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher)
+  name.vb: AssignByReflection(Of SoLocalTimeConverterDataFetcher)(SoLocalTimeConverterDataFetcher)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoLocalTimeConverterDataFetcher>
+    nameWithType: ObjectExtensions.AssignByReflection<SoLocalTimeConverterDataFetcher>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
+    name: SoLocalTimeConverterDataFetcher
+    nameWithType: SoLocalTimeConverterDataFetcher
+    fullName: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoLocalTimeConverterDataFetcher)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoLocalTimeConverterDataFetcher)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
+    name: SoLocalTimeConverterDataFetcher
+    nameWithType: SoLocalTimeConverterDataFetcher
+    fullName: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoLocalTimeConverterDataFetcher>()
+  nameWithType: ObjectExtensions.GraphCopy<SoLocalTimeConverterDataFetcher>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoLocalTimeConverterDataFetcher)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher)()
+  name.vb: GraphCopy(Of SoLocalTimeConverterDataFetcher)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoLocalTimeConverterDataFetcher>
+    nameWithType: ObjectExtensions.GraphCopy<SoLocalTimeConverterDataFetcher>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoLocalTimeConverterDataFetcher)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoLocalTimeConverterDataFetcher)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoLocalTimeConverterDataFetcher, To>()
+  nameWithType: Converters.MapEnums<SoLocalTimeConverterDataFetcher, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoLocalTimeConverterDataFetcher, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher, To)()
+  name.vb: MapEnums(Of SoLocalTimeConverterDataFetcher, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoLocalTimeConverterDataFetcher, To>
+    nameWithType: Converters.MapEnums<SoLocalTimeConverterDataFetcher, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoLocalTimeConverterDataFetcher, To)
+    nameWithType: Converters.MapEnums(Of SoLocalTimeConverterDataFetcher, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.TimeZone
+  commentId: N:SuperOffice.TimeZone
+  isExternal: true
+  name: SuperOffice.TimeZone
+  nameWithType: SuperOffice.TimeZone
+  fullName: SuperOffice.TimeZone
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
+  commentId: M:SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
+  parent: SuperOffice.TimeZone.SoTimeConverterDataFetcher
+  isExternal: true
+  name: GetTimeZoneData()
+  nameWithType: SoTimeConverterDataFetcher.GetTimeZoneData()
+  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData()
+  spec.csharp:
+  - uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
+    name: GetTimeZoneData
+    nameWithType: SoTimeConverterDataFetcher.GetTimeZoneData
+    fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
+    name: GetTimeZoneData
+    nameWithType: SoTimeConverterDataFetcher.GetTimeZoneData
+    fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetTimeZoneData*
+  commentId: Overload:SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetTimeZoneData
+  isExternal: true
+  name: GetTimeZoneData
+  nameWithType: SoLocalTimeConverterDataFetcher.GetTimeZoneData
+  fullName: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetTimeZoneData
+- uid: SuperOffice.CRM.TimeZoneData[]
+  isExternal: true
+  name: TimeZoneData[]
+  nameWithType: TimeZoneData[]
+  fullName: SuperOffice.CRM.TimeZoneData[]
+  nameWithType.vb: TimeZoneData()
+  fullName.vb: SuperOffice.CRM.TimeZoneData()
+  name.vb: TimeZoneData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.TimeZoneData
+    name: TimeZoneData
+    nameWithType: TimeZoneData
+    fullName: SuperOffice.CRM.TimeZoneData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.TimeZoneData
+    name: TimeZoneData
+    nameWithType: TimeZoneData
+    fullName: SuperOffice.CRM.TimeZoneData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
+  commentId: M:SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
+  parent: SuperOffice.TimeZone.SoTimeConverterDataFetcher
+  isExternal: true
+  name: GetBaseTimeZoneId()
+  nameWithType: SoTimeConverterDataFetcher.GetBaseTimeZoneId()
+  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId()
+  spec.csharp:
+  - uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
+    name: GetBaseTimeZoneId
+    nameWithType: SoTimeConverterDataFetcher.GetBaseTimeZoneId
+    fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
+    name: GetBaseTimeZoneId
+    nameWithType: SoTimeConverterDataFetcher.GetBaseTimeZoneId
+    fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetBaseTimeZoneId*
+  commentId: Overload:SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetBaseTimeZoneId
+  isExternal: true
+  name: GetBaseTimeZoneId
+  nameWithType: SoLocalTimeConverterDataFetcher.GetBaseTimeZoneId
+  fullName: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.GetBaseTimeZoneId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.#ctor*
+  commentId: Overload:SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.#ctor
+  isExternal: true
+  name: SoLocalTimeConverterDataFetcher
+  nameWithType: SoLocalTimeConverterDataFetcher.SoLocalTimeConverterDataFetcher
+  fullName: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.SoLocalTimeConverterDataFetcher

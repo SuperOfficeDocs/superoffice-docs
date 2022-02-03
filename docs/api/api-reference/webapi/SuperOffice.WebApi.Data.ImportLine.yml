@@ -1,0 +1,581 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ImportLine
+  commentId: T:SuperOffice.WebApi.Data.ImportLine
+  id: ImportLine
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ImportLine.#ctor
+  - SuperOffice.WebApi.Data.ImportLine.ExternalKey
+  - SuperOffice.WebApi.Data.ImportLine.Operation
+  - SuperOffice.WebApi.Data.ImportLine.Operation_String
+  - SuperOffice.WebApi.Data.ImportLine.Selected
+  - SuperOffice.WebApi.Data.ImportLine.Type
+  - SuperOffice.WebApi.Data.ImportLine.Type_String
+  - SuperOffice.WebApi.Data.ImportLine.Values
+  langs:
+  - csharp
+  - vb
+  name: ImportLine
+  nameWithType: ImportLine
+  fullName: SuperOffice.WebApi.Data.ImportLine
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ImportLine.\nUsed to import data into the system. Representing one entity that will be imported.    \n"
+  syntax:
+    content: 'public class ImportLine : Carrier'
+    content.vb: >-
+      Public Class ImportLine
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ImportAgent
+    commentId: T:SuperOffice.WebApi.Agents.ImportAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ImportLine.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ImportLine.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ImportLine
+  langs:
+  - csharp
+  - vb
+  name: ImportLine()
+  nameWithType: ImportLine.ImportLine()
+  fullName: SuperOffice.WebApi.Data.ImportLine.ImportLine()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ImportLine()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ImportLine.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ImportLine.Values
+  commentId: P:SuperOffice.WebApi.Data.ImportLine.Values
+  id: Values
+  parent: SuperOffice.WebApi.Data.ImportLine
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: ImportLine.Values
+  fullName: SuperOffice.WebApi.Data.ImportLine.Values
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn array of the values that will be imported on the entity\n"
+  syntax:
+    content: public virtual string[] Values { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Values As String()
+  overload: SuperOffice.WebApi.Data.ImportLine.Values*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ImportLine.Selected
+  commentId: P:SuperOffice.WebApi.Data.ImportLine.Selected
+  id: Selected
+  parent: SuperOffice.WebApi.Data.ImportLine
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: ImportLine.Selected
+  fullName: SuperOffice.WebApi.Data.ImportLine.Selected
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the entity shall be imported, false if the entity shall be ignored\n"
+  syntax:
+    content: public virtual bool Selected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Selected As Boolean
+  overload: SuperOffice.WebApi.Data.ImportLine.Selected*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ImportLine.Operation_String
+  commentId: P:SuperOffice.WebApi.Data.ImportLine.Operation_String
+  id: Operation_String
+  parent: SuperOffice.WebApi.Data.ImportLine
+  langs:
+  - csharp
+  - vb
+  name: Operation_String
+  nameWithType: ImportLine.Operation_String
+  fullName: SuperOffice.WebApi.Data.ImportLine.Operation_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhich operation will be used? This is a read-only property\nRaw string enum value.\n"
+  syntax:
+    content: public string Operation_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Operation_String As String
+  overload: SuperOffice.WebApi.Data.ImportLine.Operation_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ImportLine.Operation
+    commentId: P:SuperOffice.WebApi.Data.ImportLine.Operation
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ImportLine.Operation
+  commentId: P:SuperOffice.WebApi.Data.ImportLine.Operation
+  id: Operation
+  parent: SuperOffice.WebApi.Data.ImportLine
+  langs:
+  - csharp
+  - vb
+  name: Operation
+  nameWithType: ImportLine.Operation
+  fullName: SuperOffice.WebApi.Data.ImportLine.Operation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhich operation will be used? This is a read-only property\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ImportAction> Operation { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ImportAction}
+    content.vb: Public Property Operation As Nullable(Of ImportAction)
+  overload: SuperOffice.WebApi.Data.ImportLine.Operation*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ImportLine.Operation_String
+    commentId: P:SuperOffice.WebApi.Data.ImportLine.Operation_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ImportLine.Type_String
+  commentId: P:SuperOffice.WebApi.Data.ImportLine.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.ImportLine
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: ImportLine.Type_String
+  fullName: SuperOffice.WebApi.Data.ImportLine.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhich entity type will be created? This is a read-only property\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.ImportLine.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ImportLine.Type
+    commentId: P:SuperOffice.WebApi.Data.ImportLine.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ImportLine.Type
+  commentId: P:SuperOffice.WebApi.Data.ImportLine.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.ImportLine
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ImportLine.Type
+  fullName: SuperOffice.WebApi.Data.ImportLine.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhich entity type will be created? This is a read-only property\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ImportEntityType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ImportEntityType}
+    content.vb: Public Property Type As Nullable(Of ImportEntityType)
+  overload: SuperOffice.WebApi.Data.ImportLine.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ImportLine.Type_String
+    commentId: P:SuperOffice.WebApi.Data.ImportLine.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ImportLine.ExternalKey
+  commentId: P:SuperOffice.WebApi.Data.ImportLine.ExternalKey
+  id: ExternalKey
+  parent: SuperOffice.WebApi.Data.ImportLine
+  langs:
+  - csharp
+  - vb
+  name: ExternalKey
+  nameWithType: ImportLine.ExternalKey
+  fullName: SuperOffice.WebApi.Data.ImportLine.ExternalKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional external primary key for the row\n"
+  syntax:
+    content: public virtual string ExternalKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExternalKey As String
+  overload: SuperOffice.WebApi.Data.ImportLine.ExternalKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ImportAgent
+  commentId: T:SuperOffice.WebApi.Agents.ImportAgent
+  isExternal: true
+  name: ImportAgent
+  nameWithType: ImportAgent
+  fullName: SuperOffice.WebApi.Agents.ImportAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ImportLine.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportLine.#ctor
+  isExternal: true
+  name: ImportLine
+  nameWithType: ImportLine.ImportLine
+  fullName: SuperOffice.WebApi.Data.ImportLine.ImportLine
+- uid: SuperOffice.WebApi.Data.ImportLine.Values*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportLine.Values
+  isExternal: true
+  name: Values
+  nameWithType: ImportLine.Values
+  fullName: SuperOffice.WebApi.Data.ImportLine.Values
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ImportLine.Selected*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportLine.Selected
+  isExternal: true
+  name: Selected
+  nameWithType: ImportLine.Selected
+  fullName: SuperOffice.WebApi.Data.ImportLine.Selected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ImportLine.Operation_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportLine.Operation_String
+  isExternal: true
+  name: Operation_String
+  nameWithType: ImportLine.Operation_String
+  fullName: SuperOffice.WebApi.Data.ImportLine.Operation_String
+- uid: SuperOffice.WebApi.Data.ImportLine.Operation
+  commentId: P:SuperOffice.WebApi.Data.ImportLine.Operation
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ImportLine.Operation*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportLine.Operation
+  isExternal: true
+  name: Operation
+  nameWithType: ImportLine.Operation
+  fullName: SuperOffice.WebApi.Data.ImportLine.Operation
+- uid: SuperOffice.WebApi.Data.ImportLine.Operation_String
+  commentId: P:SuperOffice.WebApi.Data.ImportLine.Operation_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ImportAction}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ImportAction}'
+  definition: System.Nullable`1
+  name: Nullable<ImportAction>
+  nameWithType: Nullable<ImportAction>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ImportAction>
+  nameWithType.vb: Nullable(Of ImportAction)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ImportAction)
+  name.vb: Nullable(Of ImportAction)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ImportAction
+    name: ImportAction
+    nameWithType: ImportAction
+    fullName: SuperOffice.WebApi.Data.ImportAction
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ImportAction
+    name: ImportAction
+    nameWithType: ImportAction
+    fullName: SuperOffice.WebApi.Data.ImportAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ImportLine.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportLine.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: ImportLine.Type_String
+  fullName: SuperOffice.WebApi.Data.ImportLine.Type_String
+- uid: SuperOffice.WebApi.Data.ImportLine.Type
+  commentId: P:SuperOffice.WebApi.Data.ImportLine.Type
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ImportLine.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportLine.Type
+  isExternal: true
+  name: Type
+  nameWithType: ImportLine.Type
+  fullName: SuperOffice.WebApi.Data.ImportLine.Type
+- uid: SuperOffice.WebApi.Data.ImportLine.Type_String
+  commentId: P:SuperOffice.WebApi.Data.ImportLine.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ImportEntityType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ImportEntityType}'
+  definition: System.Nullable`1
+  name: Nullable<ImportEntityType>
+  nameWithType: Nullable<ImportEntityType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ImportEntityType>
+  nameWithType.vb: Nullable(Of ImportEntityType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ImportEntityType)
+  name.vb: Nullable(Of ImportEntityType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ImportEntityType
+    name: ImportEntityType
+    nameWithType: ImportEntityType
+    fullName: SuperOffice.WebApi.Data.ImportEntityType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ImportEntityType
+    name: ImportEntityType
+    nameWithType: ImportEntityType
+    fullName: SuperOffice.WebApi.Data.ImportEntityType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ImportLine.ExternalKey*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportLine.ExternalKey
+  isExternal: true
+  name: ExternalKey
+  nameWithType: ImportLine.ExternalKey
+  fullName: SuperOffice.WebApi.Data.ImportLine.ExternalKey

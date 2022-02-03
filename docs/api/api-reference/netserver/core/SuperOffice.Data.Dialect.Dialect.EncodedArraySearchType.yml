@@ -1,0 +1,450 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  commentId: T:SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  id: Dialect.EncodedArraySearchType
+  parent: SuperOffice.Data.Dialect
+  children:
+  - SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.And
+  - SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.Or
+  langs:
+  - csharp
+  - vb
+  name: Dialect.EncodedArraySearchType
+  nameWithType: Dialect.EncodedArraySearchType
+  fullName: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected enum EncodedArraySearchType
+    content.vb: Protected Enum EncodedArraySearchType
+  extensionMethods:
+  - SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+  - SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - protected
+  - enum
+  modifiers.vb:
+  - Protected
+  - Enum
+- uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.And
+  commentId: F:SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.And
+  id: And
+  parent: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  langs:
+  - csharp
+  - vb
+  name: And
+  nameWithType: Dialect.EncodedArraySearchType.And
+  fullName: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.And
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: And = 0
+    return:
+      type: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.Or
+  commentId: F:SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.Or
+  id: Or
+  parent: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  langs:
+  - csharp
+  - vb
+  name: Or
+  nameWithType: Dialect.EncodedArraySearchType.Or
+  fullName: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.Or
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: Or = 1
+    return:
+      type: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data.Dialect
+  commentId: N:SuperOffice.Data.Dialect
+  isExternal: true
+  name: SuperOffice.Data.Dialect
+  nameWithType: SuperOffice.Data.Dialect
+  fullName: SuperOffice.Data.Dialect
+- uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<Dialect.EncodedArraySearchType, To>()
+  nameWithType: EnumUtil.MapEnums<Dialect.EncodedArraySearchType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Dialect.EncodedArraySearchType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType, To)()
+  name.vb: MapEnums(Of Dialect.EncodedArraySearchType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Dialect.EncodedArraySearchType, To>
+    nameWithType: EnumUtil.MapEnums<Dialect.EncodedArraySearchType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Dialect.EncodedArraySearchType, To)
+    nameWithType: EnumUtil.MapEnums(Of Dialect.EncodedArraySearchType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<Dialect.EncodedArraySearchType>(Dialect.EncodedArraySearchType)
+  nameWithType: ObjectExtensions.AssignByReflection<Dialect.EncodedArraySearchType>(Dialect.EncodedArraySearchType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType>(SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Dialect.EncodedArraySearchType)(Dialect.EncodedArraySearchType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)(SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+  name.vb: AssignByReflection(Of Dialect.EncodedArraySearchType)(Dialect.EncodedArraySearchType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<Dialect.EncodedArraySearchType>
+    nameWithType: ObjectExtensions.AssignByReflection<Dialect.EncodedArraySearchType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+    name: Dialect.EncodedArraySearchType
+    nameWithType: Dialect.EncodedArraySearchType
+    fullName: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of Dialect.EncodedArraySearchType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of Dialect.EncodedArraySearchType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+    name: Dialect.EncodedArraySearchType
+    nameWithType: Dialect.EncodedArraySearchType
+    fullName: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<Dialect.EncodedArraySearchType>()
+  nameWithType: ObjectExtensions.GraphCopy<Dialect.EncodedArraySearchType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of Dialect.EncodedArraySearchType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)()
+  name.vb: GraphCopy(Of Dialect.EncodedArraySearchType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<Dialect.EncodedArraySearchType>
+    nameWithType: ObjectExtensions.GraphCopy<Dialect.EncodedArraySearchType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of Dialect.EncodedArraySearchType)
+    nameWithType: ObjectExtensions.GraphCopy(Of Dialect.EncodedArraySearchType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Dialect.EncodedArraySearchType, To>()
+  nameWithType: Converters.MapEnums<Dialect.EncodedArraySearchType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType, To>()
+  nameWithType.vb: Converters.MapEnums(Of Dialect.EncodedArraySearchType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType, To)()
+  name.vb: MapEnums(Of Dialect.EncodedArraySearchType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Dialect.EncodedArraySearchType, To>
+    nameWithType: Converters.MapEnums<Dialect.EncodedArraySearchType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Dialect.EncodedArraySearchType, To)
+    nameWithType: Converters.MapEnums(Of Dialect.EncodedArraySearchType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  commentId: T:SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: Dialect.EncodedArraySearchType
+  nameWithType: Dialect.EncodedArraySearchType
+  fullName: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType

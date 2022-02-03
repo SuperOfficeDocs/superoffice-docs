@@ -1,0 +1,2901 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo
+  commentId: T:SuperOffice.CRM.Data.CounterValueTableInfo
+  id: CounterValueTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId
+  - SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId_InnerJoin_AmountClass
+  - SuperOffice.CRM.Data.CounterValueTableInfo.ContactId
+  - SuperOffice.CRM.Data.CounterValueTableInfo.ContactId_InnerJoin_Contact
+  - SuperOffice.CRM.Data.CounterValueTableInfo.CounterValueId
+  - SuperOffice.CRM.Data.CounterValueTableInfo.Definition
+  - SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.CounterValueTableInfo.Direction
+  - SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Count
+  - SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Id
+  - SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Count
+  - SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Id
+  - SuperOffice.CRM.Data.CounterValueTableInfo.Extra3Count
+  - SuperOffice.CRM.Data.CounterValueTableInfo.Extra4Count
+  - SuperOffice.CRM.Data.CounterValueTableInfo.IdxContactId(System.Int32)
+  - SuperOffice.CRM.Data.CounterValueTableInfo.IdxProjectId(System.Int32)
+  - SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordType(System.Int16)
+  - SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordTypeDirection(System.Int16,System.Int16)
+  - SuperOffice.CRM.Data.CounterValueTableInfo.IdxSaleStatus(SuperOffice.Data.SaleStatus)
+  - SuperOffice.CRM.Data.CounterValueTableInfo.IntentId
+  - SuperOffice.CRM.Data.CounterValueTableInfo.IntentId_InnerJoin_Intent
+  - SuperOffice.CRM.Data.CounterValueTableInfo.LastCompleted
+  - SuperOffice.CRM.Data.CounterValueTableInfo.LastDoBy
+  - SuperOffice.CRM.Data.CounterValueTableInfo.LastRegistered
+  - SuperOffice.CRM.Data.CounterValueTableInfo.NotCompleted
+  - SuperOffice.CRM.Data.CounterValueTableInfo.NotCompletedInPeriod
+  - SuperOffice.CRM.Data.CounterValueTableInfo.PersonId
+  - SuperOffice.CRM.Data.CounterValueTableInfo.PersonId_InnerJoin_Person
+  - SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId
+  - SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId_InnerJoin_Project
+  - SuperOffice.CRM.Data.CounterValueTableInfo.RecordType
+  - SuperOffice.CRM.Data.CounterValueTableInfo.Registered
+  - SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.CounterValueTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.CounterValueTableInfo.SaleStatus
+  - SuperOffice.CRM.Data.CounterValueTableInfo.TotalReg
+  - SuperOffice.CRM.Data.CounterValueTableInfo.TotalRegInPeriod
+  - SuperOffice.CRM.Data.CounterValueTableInfo.Updated
+  - SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: CounterValueTableInfo
+  nameWithType: CounterValueTableInfo
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;CounterValue&apos;: Visible for rights\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetCounterValueInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("CounterValue")]
+
+      public class CounterValueTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("CounterValue")>
+
+      Public Class CounterValueTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.CounterValueTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.CounterValueTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CounterValue
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: CounterValueTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table CounterValue in the database dictionary: CounterValue\n"
+  syntax:
+    content: public const string DictionaryTableName = "CounterValue"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "CounterValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IdxContactId(System.Int32)
+  commentId: M:SuperOffice.CRM.Data.CounterValueTableInfo.IdxContactId(System.Int32)
+  id: IdxContactId(System.Int32)
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxContactId(Int32)
+  nameWithType: CounterValueTableInfo.IdxContactId(Int32)
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IdxContactId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index ContactId, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>ContactId</td><td>Link to contact, 0 if this counter is not for contacts</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxContactId(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxContactId(contactId As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.IdxContactId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IdxProjectId(System.Int32)
+  commentId: M:SuperOffice.CRM.Data.CounterValueTableInfo.IdxProjectId(System.Int32)
+  id: IdxProjectId(System.Int32)
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxProjectId(Int32)
+  nameWithType: CounterValueTableInfo.IdxProjectId(Int32)
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IdxProjectId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index ProjectId, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>ProjectId</td><td>Link to project, 0 if this counter is not for project</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxProjectId(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxProjectId(projectId As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.IdxProjectId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordType(System.Int16)
+  commentId: M:SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordType(System.Int16)
+  id: IdxRecordType(System.Int16)
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxRecordType(Int16)
+  nameWithType: CounterValueTableInfo.IdxRecordType(Int16)
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordType(System.Int16)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index RecordType, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>RecordType</td><td>Same as task.record_type: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxRecordType(short recordType)
+    parameters:
+    - id: recordType
+      type: System.Int16
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxRecordType(recordType As Short) As Restriction
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordTypeDirection(System.Int16,System.Int16)
+  commentId: M:SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordTypeDirection(System.Int16,System.Int16)
+  id: IdxRecordTypeDirection(System.Int16,System.Int16)
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxRecordTypeDirection(Int16, Int16)
+  nameWithType: CounterValueTableInfo.IdxRecordTypeDirection(Int16, Int16)
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordTypeDirection(System.Int16, System.Int16)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index RecordTypeDirection, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>RecordType</td><td>Same as task.record_type: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes</td></tr><tr><td>Direction</td><td>Same as task.direction: Direction: 0 = none, 1 = incoming, 2 = outgoing</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxRecordTypeDirection(short recordType, short direction)
+    parameters:
+    - id: recordType
+      type: System.Int16
+    - id: direction
+      type: System.Int16
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxRecordTypeDirection(recordType As Short, direction As Short) As Restriction
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordTypeDirection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IdxSaleStatus(SuperOffice.Data.SaleStatus)
+  commentId: M:SuperOffice.CRM.Data.CounterValueTableInfo.IdxSaleStatus(SuperOffice.Data.SaleStatus)
+  id: IdxSaleStatus(SuperOffice.Data.SaleStatus)
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxSaleStatus(SaleStatus)
+  nameWithType: CounterValueTableInfo.IdxSaleStatus(SaleStatus)
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IdxSaleStatus(SuperOffice.Data.SaleStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index SaleStatus, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>SaleStatus</td><td>Sale status: 0 = Unknown, 1 = open, 2 = closed, 3 = lost, 4 = all sales</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxSaleStatus(SaleStatus saleStatus)
+    parameters:
+    - id: saleStatus
+      type: SuperOffice.Data.SaleStatus
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxSaleStatus(saleStatus As SaleStatus) As Restriction
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.IdxSaleStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: CounterValueTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table CounterValue in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: CounterValueTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: CounterValueTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.CounterValueId
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.CounterValueId
+  id: CounterValueId
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CounterValueId
+  nameWithType: CounterValueTableInfo.CounterValueId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.CounterValueId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;CounterValue_id&apos; in table &apos;CounterValue&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo CounterValueId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property CounterValueId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.CounterValueId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.ContactId
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: CounterValueTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.ContactId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;contact_id&apos; in table &apos;CounterValue&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to contact, 0 if this counter is not for contacts\n"
+  syntax:
+    content: public Int32FieldInfo ContactId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ContactId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.PersonId
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: CounterValueTableInfo.PersonId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.PersonId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;person_id&apos; in table &apos;CounterValue&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to person, 0 if this counter is not for person (always 0 in 6.0)\n"
+  syntax:
+    content: public Int32FieldInfo PersonId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property PersonId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: CounterValueTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;project_id&apos; in table &apos;CounterValue&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to project, 0 if this counter is not for project\n"
+  syntax:
+    content: public Int32FieldInfo ProjectId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ProjectId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Id
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Id
+  id: Extra1Id
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Extra1Id
+  nameWithType: CounterValueTableInfo.Extra1Id
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Id
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;extra1_id&apos; in table &apos;CounterValue&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSpare ID for future links\n"
+  syntax:
+    content: public Int32FieldInfo Extra1Id { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Extra1Id As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Id
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Id
+  id: Extra2Id
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Extra2Id
+  nameWithType: CounterValueTableInfo.Extra2Id
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Id
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;extra2_id&apos; in table &apos;CounterValue&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSpare ID for future links\n"
+  syntax:
+    content: public Int32FieldInfo Extra2Id { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Extra2Id As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.RecordType
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.RecordType
+  id: RecordType
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RecordType
+  nameWithType: CounterValueTableInfo.RecordType
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.RecordType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;record_type&apos; in table &apos;CounterValue&apos;: Dictionary type Enum, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSame as task.record_type: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes\n"
+  syntax:
+    content: public FieldInfo RecordType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property RecordType As FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.RecordType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Direction
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.Direction
+  id: Direction
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: CounterValueTableInfo.Direction
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Direction
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;direction&apos; in table &apos;CounterValue&apos;: Dictionary type Enum, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSame as task.direction: Direction: 0 = none, 1 = incoming, 2 = outgoing\n"
+  syntax:
+    content: public FieldInfo Direction { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property Direction As FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.Direction*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IntentId
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.IntentId
+  id: IntentId
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IntentId
+  nameWithType: CounterValueTableInfo.IntentId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IntentId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;intent_id&apos; in table &apos;CounterValue&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to Intent list\n"
+  syntax:
+    content: public Int32FieldInfo IntentId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property IntentId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.IntentId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.SaleStatus
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.SaleStatus
+  id: SaleStatus
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SaleStatus
+  nameWithType: CounterValueTableInfo.SaleStatus
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.SaleStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;sale_status&apos; in table &apos;CounterValue&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.CRM.Data.CounterValueTableInfo.SaleStatus\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSale status: 0 = Unknown, 1 = open, 2 = closed, 3 = lost, 4 = all sales\n"
+  syntax:
+    content: public SaleStatusFieldInfo SaleStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.SaleStatusFieldInfo
+    content.vb: Public ReadOnly Property SaleStatus As SaleStatusFieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.SaleStatus*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId
+  id: AmountClassId
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AmountClassId
+  nameWithType: CounterValueTableInfo.AmountClassId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;amountClassId&apos; in table &apos;CounterValue&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSale amount class, for splitting sale counters by amounts\n"
+  syntax:
+    content: public Int32FieldInfo AmountClassId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property AmountClassId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.TotalReg
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.TotalReg
+  id: TotalReg
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TotalReg
+  nameWithType: CounterValueTableInfo.TotalReg
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.TotalReg
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;totalReg&apos; in table &apos;CounterValue&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTotal registered records of this type\n"
+  syntax:
+    content: public FieldInfo TotalReg { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property TotalReg As FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.TotalReg*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.TotalRegInPeriod
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.TotalRegInPeriod
+  id: TotalRegInPeriod
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TotalRegInPeriod
+  nameWithType: CounterValueTableInfo.TotalRegInPeriod
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.TotalRegInPeriod
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;totalRegInPeriod&apos; in table &apos;CounterValue&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTotal registered records of this type in the first period (there are up to three period definitions)\n"
+  syntax:
+    content: public FieldInfo TotalRegInPeriod { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property TotalRegInPeriod As FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.TotalRegInPeriod*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.NotCompleted
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.NotCompleted
+  id: NotCompleted
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: NotCompleted
+  nameWithType: CounterValueTableInfo.NotCompleted
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.NotCompleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;notCompleted&apos; in table &apos;CounterValue&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTotal records with status Not Completed\n"
+  syntax:
+    content: public FieldInfo NotCompleted { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property NotCompleted As FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.NotCompleted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.NotCompletedInPeriod
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.NotCompletedInPeriod
+  id: NotCompletedInPeriod
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: NotCompletedInPeriod
+  nameWithType: CounterValueTableInfo.NotCompletedInPeriod
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.NotCompletedInPeriod
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;notCompletedInPeriod&apos; in table &apos;CounterValue&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTotal records with status Not Completed in the first period (there are up to three period definitions)\n"
+  syntax:
+    content: public FieldInfo NotCompletedInPeriod { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property NotCompletedInPeriod As FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.NotCompletedInPeriod*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.LastRegistered
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.LastRegistered
+  id: LastRegistered
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastRegistered
+  nameWithType: CounterValueTableInfo.LastRegistered
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.LastRegistered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;lastRegistered&apos; in table &apos;CounterValue&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nActiveDate/SaleDate/CreatedAt of last activity/sale/ticket of this type\n"
+  syntax:
+    content: public DateTimeFieldInfo LastRegistered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property LastRegistered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.LastRegistered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.LastCompleted
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.LastCompleted
+  id: LastCompleted
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastCompleted
+  nameWithType: CounterValueTableInfo.LastCompleted
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.LastCompleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;lastCompleted&apos; in table &apos;CounterValue&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nActiveDate/SaleDate/CreatedAt of last COMPLETED activity/sale/ticket of this type\n"
+  syntax:
+    content: public DateTimeFieldInfo LastCompleted { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property LastCompleted As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.LastCompleted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.LastDoBy
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.LastDoBy
+  id: LastDoBy
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastDoBy
+  nameWithType: CounterValueTableInfo.LastDoBy
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.LastDoBy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;lastDoBy&apos; in table &apos;CounterValue&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nActiveDate/SaleDate/CreatedAt of last NOT COMPLETED activity/sale/ticket of this type\n"
+  syntax:
+    content: public DateTimeFieldInfo LastDoBy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property LastDoBy As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.LastDoBy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Count
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Count
+  id: Extra1Count
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Extra1Count
+  nameWithType: CounterValueTableInfo.Extra1Count
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;extra1_count&apos; in table &apos;CounterValue&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTotal registered records of this type in the second period (there are up to three period definitions)\n"
+  syntax:
+    content: public FieldInfo Extra1Count { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property Extra1Count As FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Count
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Count
+  id: Extra2Count
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Extra2Count
+  nameWithType: CounterValueTableInfo.Extra2Count
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;extra2_count&apos; in table &apos;CounterValue&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTotal records with status Not Completed in the second period (there are up to three period definitions)\n"
+  syntax:
+    content: public FieldInfo Extra2Count { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property Extra2Count As FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra3Count
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.Extra3Count
+  id: Extra3Count
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Extra3Count
+  nameWithType: CounterValueTableInfo.Extra3Count
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra3Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;extra3_count&apos; in table &apos;CounterValue&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTotal registered records of this type in the third period (there are up to three period definitions)\n"
+  syntax:
+    content: public FieldInfo Extra3Count { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property Extra3Count As FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.Extra3Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra4Count
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.Extra4Count
+  id: Extra4Count
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Extra4Count
+  nameWithType: CounterValueTableInfo.Extra4Count
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra4Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;extra4_count&apos; in table &apos;CounterValue&apos;: Dictionary type UInt, .NET type: <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTotal records with status Not Completed in the third period (there are up to three period definitions)\n"
+  syntax:
+    content: public FieldInfo Extra4Count { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property Extra4Count As FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.Extra4Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: CounterValueTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered&apos; in table &apos;CounterValue&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: CounterValueTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;CounterValue&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: CounterValueTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated&apos; in table &apos;CounterValue&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: CounterValueTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;CounterValue&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: CounterValueTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updatedCount&apos; in table &apos;CounterValue&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.ContactId_InnerJoin_Contact
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.ContactId_InnerJoin_Contact
+  id: ContactId_InnerJoin_Contact
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId_InnerJoin_Contact
+  nameWithType: CounterValueTableInfo.ContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.ContactId_InnerJoin_Contact
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key ContactId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ContactTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<ContactTableInfo> ContactId_InnerJoin_Contact { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+    content.vb: Public ReadOnly Property ContactId_InnerJoin_Contact As TargetedInnerJoin(Of ContactTableInfo)
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.ContactId_InnerJoin_Contact*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.PersonId_InnerJoin_Person
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.PersonId_InnerJoin_Person
+  id: PersonId_InnerJoin_Person
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId_InnerJoin_Person
+  nameWithType: CounterValueTableInfo.PersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.PersonId_InnerJoin_Person
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key PersonId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.PersonTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<PersonTableInfo> PersonId_InnerJoin_Person { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+    content.vb: Public ReadOnly Property PersonId_InnerJoin_Person As TargetedInnerJoin(Of PersonTableInfo)
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.PersonId_InnerJoin_Person*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId_InnerJoin_Project
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId_InnerJoin_Project
+  id: ProjectId_InnerJoin_Project
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectId_InnerJoin_Project
+  nameWithType: CounterValueTableInfo.ProjectId_InnerJoin_Project
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId_InnerJoin_Project
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key ProjectId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ProjectTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<ProjectTableInfo> ProjectId_InnerJoin_Project { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+    content.vb: Public ReadOnly Property ProjectId_InnerJoin_Project As TargetedInnerJoin(Of ProjectTableInfo)
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId_InnerJoin_Project*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IntentId_InnerJoin_Intent
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.IntentId_InnerJoin_Intent
+  id: IntentId_InnerJoin_Intent
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IntentId_InnerJoin_Intent
+  nameWithType: CounterValueTableInfo.IntentId_InnerJoin_Intent
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IntentId_InnerJoin_Intent
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key IntentId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.IntentTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<IntentTableInfo> IntentId_InnerJoin_Intent { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.IntentTableInfo}
+    content.vb: Public ReadOnly Property IntentId_InnerJoin_Intent As TargetedInnerJoin(Of IntentTableInfo)
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.IntentId_InnerJoin_Intent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId_InnerJoin_AmountClass
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId_InnerJoin_AmountClass
+  id: AmountClassId_InnerJoin_AmountClass
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AmountClassId_InnerJoin_AmountClass
+  nameWithType: CounterValueTableInfo.AmountClassId_InnerJoin_AmountClass
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId_InnerJoin_AmountClass
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key AmountClassId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AmountClassTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AmountClassTableInfo> AmountClassId_InnerJoin_AmountClass { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AmountClassTableInfo}
+    content.vb: Public ReadOnly Property AmountClassId_InnerJoin_AmountClass As TargetedInnerJoin(Of AmountClassTableInfo)
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId_InnerJoin_AmountClass*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: CounterValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.CounterValueTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: CounterValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CounterValueTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<CounterValueTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.CounterValueTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CounterValueTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.CounterValueTableInfo, To)()
+  name.vb: MapEnums(Of CounterValueTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CounterValueTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<CounterValueTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.CounterValueTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CounterValueTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of CounterValueTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.CounterValueTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CounterValueTableInfo, To>()
+  nameWithType: Converters.MapEnums<CounterValueTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.CounterValueTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of CounterValueTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.CounterValueTableInfo, To)()
+  name.vb: MapEnums(Of CounterValueTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CounterValueTableInfo, To>
+    nameWithType: Converters.MapEnums<CounterValueTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.CounterValueTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CounterValueTableInfo, To)
+    nameWithType: Converters.MapEnums(Of CounterValueTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.CounterValueTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IdxContactId*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.IdxContactId
+  isExternal: true
+  name: IdxContactId
+  nameWithType: CounterValueTableInfo.IdxContactId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IdxContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IdxProjectId*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.IdxProjectId
+  isExternal: true
+  name: IdxProjectId
+  nameWithType: CounterValueTableInfo.IdxProjectId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IdxProjectId
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordType*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordType
+  isExternal: true
+  name: IdxRecordType
+  nameWithType: CounterValueTableInfo.IdxRecordType
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordType
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordTypeDirection*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordTypeDirection
+  isExternal: true
+  name: IdxRecordTypeDirection
+  nameWithType: CounterValueTableInfo.IdxRecordTypeDirection
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IdxRecordTypeDirection
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IdxSaleStatus*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.IdxSaleStatus
+  isExternal: true
+  name: IdxSaleStatus
+  nameWithType: CounterValueTableInfo.IdxSaleStatus
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IdxSaleStatus
+- uid: SuperOffice.Data.SaleStatus
+  commentId: T:SuperOffice.Data.SaleStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: SuperOffice.Data.SaleStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: CounterValueTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.DictionaryTableNumber
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: CounterValueTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: CounterValueTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Definition
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.CounterValueId*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.CounterValueId
+  isExternal: true
+  name: CounterValueId
+  nameWithType: CounterValueTableInfo.CounterValueId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.CounterValueId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.ContactId*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: CounterValueTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.ContactId
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.PersonId*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: CounterValueTableInfo.PersonId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.PersonId
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: CounterValueTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Id*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Id
+  isExternal: true
+  name: Extra1Id
+  nameWithType: CounterValueTableInfo.Extra1Id
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Id
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Id*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Id
+  isExternal: true
+  name: Extra2Id
+  nameWithType: CounterValueTableInfo.Extra2Id
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Id
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.RecordType*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.RecordType
+  isExternal: true
+  name: RecordType
+  nameWithType: CounterValueTableInfo.RecordType
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.RecordType
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Direction*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.Direction
+  isExternal: true
+  name: Direction
+  nameWithType: CounterValueTableInfo.Direction
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Direction
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IntentId*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.IntentId
+  isExternal: true
+  name: IntentId
+  nameWithType: CounterValueTableInfo.IntentId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IntentId
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.SaleStatus*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.SaleStatus
+  isExternal: true
+  name: SaleStatus
+  nameWithType: CounterValueTableInfo.SaleStatus
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.SaleStatus
+- uid: SuperOffice.Data.SQL.SaleStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.SaleStatusFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: SaleStatusFieldInfo
+  nameWithType: SaleStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.SaleStatusFieldInfo
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId
+  isExternal: true
+  name: AmountClassId
+  nameWithType: CounterValueTableInfo.AmountClassId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.TotalReg*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.TotalReg
+  isExternal: true
+  name: TotalReg
+  nameWithType: CounterValueTableInfo.TotalReg
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.TotalReg
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.TotalRegInPeriod*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.TotalRegInPeriod
+  isExternal: true
+  name: TotalRegInPeriod
+  nameWithType: CounterValueTableInfo.TotalRegInPeriod
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.TotalRegInPeriod
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.NotCompleted*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.NotCompleted
+  isExternal: true
+  name: NotCompleted
+  nameWithType: CounterValueTableInfo.NotCompleted
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.NotCompleted
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.NotCompletedInPeriod*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.NotCompletedInPeriod
+  isExternal: true
+  name: NotCompletedInPeriod
+  nameWithType: CounterValueTableInfo.NotCompletedInPeriod
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.NotCompletedInPeriod
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.LastRegistered*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.LastRegistered
+  isExternal: true
+  name: LastRegistered
+  nameWithType: CounterValueTableInfo.LastRegistered
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.LastRegistered
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.LastCompleted*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.LastCompleted
+  isExternal: true
+  name: LastCompleted
+  nameWithType: CounterValueTableInfo.LastCompleted
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.LastCompleted
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.LastDoBy*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.LastDoBy
+  isExternal: true
+  name: LastDoBy
+  nameWithType: CounterValueTableInfo.LastDoBy
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.LastDoBy
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Count*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Count
+  isExternal: true
+  name: Extra1Count
+  nameWithType: CounterValueTableInfo.Extra1Count
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra1Count
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Count*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Count
+  isExternal: true
+  name: Extra2Count
+  nameWithType: CounterValueTableInfo.Extra2Count
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra2Count
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra3Count*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.Extra3Count
+  isExternal: true
+  name: Extra3Count
+  nameWithType: CounterValueTableInfo.Extra3Count
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra3Count
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Extra4Count*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.Extra4Count
+  isExternal: true
+  name: Extra4Count
+  nameWithType: CounterValueTableInfo.Extra4Count
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Extra4Count
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: CounterValueTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Registered
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: CounterValueTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: CounterValueTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.Updated
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: CounterValueTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: CounterValueTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedCount
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.ContactId_InnerJoin_Contact*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.ContactId_InnerJoin_Contact
+  isExternal: true
+  name: ContactId_InnerJoin_Contact
+  nameWithType: CounterValueTableInfo.ContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.ContactId_InnerJoin_Contact
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<ContactTableInfo>
+  nameWithType: TargetedInnerJoin<ContactTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ContactTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ContactTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ContactTableInfo)
+  name.vb: TargetedInnerJoin(Of ContactTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.PersonId_InnerJoin_Person*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.PersonId_InnerJoin_Person
+  isExternal: true
+  name: PersonId_InnerJoin_Person
+  nameWithType: CounterValueTableInfo.PersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.PersonId_InnerJoin_Person
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<PersonTableInfo>
+  nameWithType: TargetedInnerJoin<PersonTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.PersonTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of PersonTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.PersonTableInfo)
+  name.vb: TargetedInnerJoin(Of PersonTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId_InnerJoin_Project*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId_InnerJoin_Project
+  isExternal: true
+  name: ProjectId_InnerJoin_Project
+  nameWithType: CounterValueTableInfo.ProjectId_InnerJoin_Project
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.ProjectId_InnerJoin_Project
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<ProjectTableInfo>
+  nameWithType: TargetedInnerJoin<ProjectTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ProjectTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ProjectTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ProjectTableInfo)
+  name.vb: TargetedInnerJoin(Of ProjectTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    nameWithType: ProjectTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    nameWithType: ProjectTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.IntentId_InnerJoin_Intent*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.IntentId_InnerJoin_Intent
+  isExternal: true
+  name: IntentId_InnerJoin_Intent
+  nameWithType: CounterValueTableInfo.IntentId_InnerJoin_Intent
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.IntentId_InnerJoin_Intent
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.IntentTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.IntentTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<IntentTableInfo>
+  nameWithType: TargetedInnerJoin<IntentTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.IntentTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of IntentTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.IntentTableInfo)
+  name.vb: TargetedInnerJoin(Of IntentTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.IntentTableInfo
+    name: IntentTableInfo
+    nameWithType: IntentTableInfo
+    fullName: SuperOffice.CRM.Data.IntentTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.IntentTableInfo
+    name: IntentTableInfo
+    nameWithType: IntentTableInfo
+    fullName: SuperOffice.CRM.Data.IntentTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId_InnerJoin_AmountClass*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId_InnerJoin_AmountClass
+  isExternal: true
+  name: AmountClassId_InnerJoin_AmountClass
+  nameWithType: CounterValueTableInfo.AmountClassId_InnerJoin_AmountClass
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.AmountClassId_InnerJoin_AmountClass
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AmountClassTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AmountClassTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AmountClassTableInfo>
+  nameWithType: TargetedInnerJoin<AmountClassTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AmountClassTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AmountClassTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AmountClassTableInfo)
+  name.vb: TargetedInnerJoin(Of AmountClassTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AmountClassTableInfo
+    name: AmountClassTableInfo
+    nameWithType: AmountClassTableInfo
+    fullName: SuperOffice.CRM.Data.AmountClassTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AmountClassTableInfo
+    name: AmountClassTableInfo
+    nameWithType: AmountClassTableInfo
+    fullName: SuperOffice.CRM.Data.AmountClassTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: CounterValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: CounterValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo.UpdatedAssociateId_InnerJoin_Associate

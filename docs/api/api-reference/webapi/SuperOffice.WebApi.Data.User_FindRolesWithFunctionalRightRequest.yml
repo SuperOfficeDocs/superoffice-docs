@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest
+  commentId: T:SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest
+  id: User_FindRolesWithFunctionalRightRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.#ctor
+  - SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.FunctionalRightName
+  langs:
+  - csharp
+  - vb
+  name: User_FindRolesWithFunctionalRightRequest
+  nameWithType: User_FindRolesWithFunctionalRightRequest
+  fullName: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_FindRolesWithFunctionalRightRequest : Object'
+    content.vb: >-
+      Public Class User_FindRolesWithFunctionalRightRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest
+  langs:
+  - csharp
+  - vb
+  name: User_FindRolesWithFunctionalRightRequest()
+  nameWithType: User_FindRolesWithFunctionalRightRequest.User_FindRolesWithFunctionalRightRequest()
+  fullName: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.User_FindRolesWithFunctionalRightRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_FindRolesWithFunctionalRightRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.FunctionalRightName
+  commentId: P:SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.FunctionalRightName
+  id: FunctionalRightName
+  parent: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest
+  langs:
+  - csharp
+  - vb
+  name: FunctionalRightName
+  nameWithType: User_FindRolesWithFunctionalRightRequest.FunctionalRightName
+  fullName: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.FunctionalRightName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string FunctionalRightName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FunctionalRightName As String
+  overload: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.FunctionalRightName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.#ctor
+  isExternal: true
+  name: User_FindRolesWithFunctionalRightRequest
+  nameWithType: User_FindRolesWithFunctionalRightRequest.User_FindRolesWithFunctionalRightRequest
+  fullName: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.User_FindRolesWithFunctionalRightRequest
+- uid: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.FunctionalRightName*
+  commentId: Overload:SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.FunctionalRightName
+  isExternal: true
+  name: FunctionalRightName
+  nameWithType: User_FindRolesWithFunctionalRightRequest.FunctionalRightName
+  fullName: SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest.FunctionalRightName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

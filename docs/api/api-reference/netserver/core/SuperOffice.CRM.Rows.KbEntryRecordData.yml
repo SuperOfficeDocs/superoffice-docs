@@ -1,0 +1,1425 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData
+  commentId: T:SuperOffice.CRM.Rows.KbEntryRecordData
+  id: KbEntryRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.KbEntryRecordData.#ctor
+  - SuperOffice.CRM.Rows.KbEntryRecordData.AccessLevel
+  - SuperOffice.CRM.Rows.KbEntryRecordData.Answer
+  - SuperOffice.CRM.Rows.KbEntryRecordData.CategoryId
+  - SuperOffice.CRM.Rows.KbEntryRecordData.CreatedBy
+  - SuperOffice.CRM.Rows.KbEntryRecordData.DbiAgentId
+  - SuperOffice.CRM.Rows.KbEntryRecordData.DbiKey
+  - SuperOffice.CRM.Rows.KbEntryRecordData.DbiLastModified
+  - SuperOffice.CRM.Rows.KbEntryRecordData.DbiLastSyncronized
+  - SuperOffice.CRM.Rows.KbEntryRecordData.ExpireDate
+  - SuperOffice.CRM.Rows.KbEntryRecordData.Flags
+  - SuperOffice.CRM.Rows.KbEntryRecordData.KbEntryId
+  - SuperOffice.CRM.Rows.KbEntryRecordData.Keywords
+  - SuperOffice.CRM.Rows.KbEntryRecordData.LastChanged
+  - SuperOffice.CRM.Rows.KbEntryRecordData.Question
+  - SuperOffice.CRM.Rows.KbEntryRecordData.ReadCount
+  - SuperOffice.CRM.Rows.KbEntryRecordData.Score
+  - SuperOffice.CRM.Rows.KbEntryRecordData.ScoreWeight
+  - SuperOffice.CRM.Rows.KbEntryRecordData.SortOrder
+  - SuperOffice.CRM.Rows.KbEntryRecordData.Status
+  - SuperOffice.CRM.Rows.KbEntryRecordData.Title
+  - SuperOffice.CRM.Rows.KbEntryRecordData.WorkflowPhase
+  langs:
+  - csharp
+  - vb
+  name: KbEntryRecordData
+  nameWithType: KbEntryRecordData
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the kb_entry table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.KbEntryRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.KbEntryTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class KbEntryRecordData
+    content.vb: Public Class KbEntryRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.KbEntryRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.KbEntryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.KbEntryRecordData)
+  - SuperOffice.CRM.Rows.KbEntryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.KbEntryRecordData.SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.KbEntryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.KbEntryId
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.KbEntryId
+  id: KbEntryId
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: KbEntryId
+  nameWithType: KbEntryRecordData.KbEntryId
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.KbEntryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public int KbEntryId
+    return:
+      type: System.Int32
+    content.vb: Public KbEntryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.CategoryId
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.CategoryId
+  id: CategoryId
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: CategoryId
+  nameWithType: KbEntryRecordData.CategoryId
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.CategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the category in which this entry is located. \n"
+  syntax:
+    content: public int CategoryId
+    return:
+      type: System.Int32
+    content.vb: Public CategoryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.Title
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.Title
+  id: Title
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: KbEntryRecordData.Title
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.Title
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe title of this entry. \n"
+  syntax:
+    content: public string Title
+    return:
+      type: System.String
+    content.vb: Public Title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.Question
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.Question
+  id: Question
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Question
+  nameWithType: KbEntryRecordData.Question
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.Question
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe question for this entry. \n"
+  syntax:
+    content: public string Question
+    return:
+      type: System.String
+    content.vb: Public Question As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.Answer
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.Answer
+  id: Answer
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Answer
+  nameWithType: KbEntryRecordData.Answer
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.Answer
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe answer for this entry. \n"
+  syntax:
+    content: public string Answer
+    return:
+      type: System.String
+    content.vb: Public Answer As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.Keywords
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.Keywords
+  id: Keywords
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Keywords
+  nameWithType: KbEntryRecordData.Keywords
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.Keywords
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe keywords for this entry \n"
+  syntax:
+    content: public string Keywords
+    return:
+      type: System.String
+    content.vb: Public Keywords As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.AccessLevel
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.AccessLevel
+  id: AccessLevel
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: AccessLevel
+  nameWithType: KbEntryRecordData.AccessLevel
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.AccessLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe access level for this entry (enum). \n"
+  syntax:
+    content: public short AccessLevel
+    return:
+      type: System.Int16
+    content.vb: Public AccessLevel As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.CreatedBy
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: KbEntryRecordData.CreatedBy
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.CreatedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the user who owns this entry. \n"
+  syntax:
+    content: public int CreatedBy
+    return:
+      type: System.Int32
+    content.vb: Public CreatedBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.SortOrder
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.SortOrder
+  id: SortOrder
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: KbEntryRecordData.SortOrder
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.SortOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA scrictly ascending number indicating the sort-order when listing entries. \n"
+  syntax:
+    content: public int SortOrder
+    return:
+      type: System.Int32
+    content.vb: Public SortOrder As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.LastChanged
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.LastChanged
+  id: LastChanged
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastChanged
+  nameWithType: KbEntryRecordData.LastChanged
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.LastChanged
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the entry was last changed. \n"
+  syntax:
+    content: public DateTime LastChanged
+    return:
+      type: System.DateTime
+    content.vb: Public LastChanged As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.ReadCount
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.ReadCount
+  id: ReadCount
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReadCount
+  nameWithType: KbEntryRecordData.ReadCount
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.ReadCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of times someone has read this entry from the customer frontend. \n"
+  syntax:
+    content: public int ReadCount
+    return:
+      type: System.Int32
+    content.vb: Public ReadCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.Score
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.Score
+  id: Score
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: KbEntryRecordData.Score
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.Score
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe accumulated score (0..100) for this entry. \n"
+  syntax:
+    content: public int Score
+    return:
+      type: System.Int32
+    content.vb: Public Score As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.ScoreWeight
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.ScoreWeight
+  id: ScoreWeight
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: ScoreWeight
+  nameWithType: KbEntryRecordData.ScoreWeight
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.ScoreWeight
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of votes behind the accumulated score. \n"
+  syntax:
+    content: public int ScoreWeight
+    return:
+      type: System.Int32
+    content.vb: Public ScoreWeight As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.Flags
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: KbEntryRecordData.Flags
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA bitmap field. \n"
+  syntax:
+    content: public uint Flags
+    return:
+      type: System.UInt32
+    content.vb: Public Flags As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.Status
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.Status
+  id: Status
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: KbEntryRecordData.Status
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe status for this entry (enum). \n"
+  syntax:
+    content: public short Status
+    return:
+      type: System.Int16
+    content.vb: Public Status As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.ExpireDate
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.ExpireDate
+  id: ExpireDate
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExpireDate
+  nameWithType: KbEntryRecordData.ExpireDate
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.ExpireDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe date until which this entry is valid. \n"
+  syntax:
+    content: public DateTime ExpireDate
+    return:
+      type: System.DateTime
+    content.vb: Public ExpireDate As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.WorkflowPhase
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.WorkflowPhase
+  id: WorkflowPhase
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowPhase
+  nameWithType: KbEntryRecordData.WorkflowPhase
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.WorkflowPhase
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe workflow phase this entry is in \n"
+  syntax:
+    content: public int WorkflowPhase
+    return:
+      type: System.Int32
+    content.vb: Public WorkflowPhase As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.DbiAgentId
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: KbEntryRecordData.DbiAgentId
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.DbiAgentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIntegration agent (eJournal) \n"
+  syntax:
+    content: public int DbiAgentId
+    return:
+      type: System.Int32
+    content.vb: Public DbiAgentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.DbiKey
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.DbiKey
+  id: DbiKey
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiKey
+  nameWithType: KbEntryRecordData.DbiKey
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.DbiKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key for the integrated entry in the external datasource. \n"
+  syntax:
+    content: public string DbiKey
+    return:
+      type: System.String
+    content.vb: Public DbiKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.DbiLastSyncronized
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.DbiLastSyncronized
+  id: DbiLastSyncronized
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiLastSyncronized
+  nameWithType: KbEntryRecordData.DbiLastSyncronized
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.DbiLastSyncronized
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast external syncronization. \n"
+  syntax:
+    content: public DateTime DbiLastSyncronized
+    return:
+      type: System.DateTime
+    content.vb: Public DbiLastSyncronized As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.DbiLastModified
+  commentId: F:SuperOffice.CRM.Rows.KbEntryRecordData.DbiLastModified
+  id: DbiLastModified
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiLastModified
+  nameWithType: KbEntryRecordData.DbiLastModified
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.DbiLastModified
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the entry was last modified. \n"
+  syntax:
+    content: public DateTime DbiLastModified
+    return:
+      type: System.DateTime
+    content.vb: Public DbiLastModified As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.KbEntryRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.KbEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: KbEntryRecordData()
+  nameWithType: KbEntryRecordData.KbEntryRecordData()
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.KbEntryRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public KbEntryRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.KbEntryRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<KbEntryRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<KbEntryRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.KbEntryRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of KbEntryRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.KbEntryRecordData, To)()
+  name.vb: MapEnums(Of KbEntryRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<KbEntryRecordData, To>
+    nameWithType: EnumUtil.MapEnums<KbEntryRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.KbEntryRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of KbEntryRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of KbEntryRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.KbEntryRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.KbEntryRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<KbEntryRecordData>(KbEntryRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<KbEntryRecordData>(KbEntryRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.KbEntryRecordData>(SuperOffice.CRM.Rows.KbEntryRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of KbEntryRecordData)(KbEntryRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.KbEntryRecordData)(SuperOffice.CRM.Rows.KbEntryRecordData)
+  name.vb: AssignByReflection(Of KbEntryRecordData)(KbEntryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<KbEntryRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<KbEntryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.KbEntryRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.KbEntryRecordData
+    name: KbEntryRecordData
+    nameWithType: KbEntryRecordData
+    fullName: SuperOffice.CRM.Rows.KbEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of KbEntryRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of KbEntryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.KbEntryRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.KbEntryRecordData
+    name: KbEntryRecordData
+    nameWithType: KbEntryRecordData
+    fullName: SuperOffice.CRM.Rows.KbEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<KbEntryRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<KbEntryRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.KbEntryRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of KbEntryRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.KbEntryRecordData)()
+  name.vb: GraphCopy(Of KbEntryRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<KbEntryRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<KbEntryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.KbEntryRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of KbEntryRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of KbEntryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.KbEntryRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryRecordData)
+  parent: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryRecordData)
+  name: ToInsert()
+  nameWithType: KbEntryRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: KbEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: KbEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<KbEntryRecordData, To>()
+  nameWithType: Converters.MapEnums<KbEntryRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.KbEntryRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of KbEntryRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.KbEntryRecordData, To)()
+  name.vb: MapEnums(Of KbEntryRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<KbEntryRecordData, To>
+    nameWithType: Converters.MapEnums<KbEntryRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.KbEntryRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of KbEntryRecordData, To)
+    nameWithType: Converters.MapEnums(Of KbEntryRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.KbEntryRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryRecordData)
+  commentId: M:SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryRecordData)
+  isExternal: true
+  name: ToInsert(KbEntryRecordData)
+  nameWithType: KbEntryRecordDataExtensions.ToInsert(KbEntryRecordData)
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryRecordData)
+    name: ToInsert
+    nameWithType: KbEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.KbEntryRecordData
+    name: KbEntryRecordData
+    nameWithType: KbEntryRecordData
+    fullName: SuperOffice.CRM.Rows.KbEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbEntryRecordData)
+    name: ToInsert
+    nameWithType: KbEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.KbEntryRecordData
+    name: KbEntryRecordData
+    nameWithType: KbEntryRecordData
+    fullName: SuperOffice.CRM.Rows.KbEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.KbEntryRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: KbEntryRecordDataExtensions
+  nameWithType: KbEntryRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: SuperOffice.CRM.Rows.KbEntryRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.KbEntryRecordData.#ctor
+  isExternal: true
+  name: KbEntryRecordData
+  nameWithType: KbEntryRecordData.KbEntryRecordData
+  fullName: SuperOffice.CRM.Rows.KbEntryRecordData.KbEntryRecordData

@@ -1,0 +1,388 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  commentId: T:SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  id: ExtendedLicenseInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ExtendedLicenseInfo.#ctor
+  - SuperOffice.WebApi.Data.ExtendedLicenseInfo.AccumulatedNextCheckDate
+  - SuperOffice.WebApi.Data.ExtendedLicenseInfo.CanBeActivated
+  - SuperOffice.WebApi.Data.ExtendedLicenseInfo.Current
+  - SuperOffice.WebApi.Data.ExtendedLicenseInfo.ExtendedModuleLicenses
+  - SuperOffice.WebApi.Data.ExtendedLicenseInfo.New
+  - SuperOffice.WebApi.Data.ExtendedLicenseInfo.Reason
+  langs:
+  - csharp
+  - vb
+  name: ExtendedLicenseInfo
+  nameWithType: ExtendedLicenseInfo
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ExtendedLicenseInfo.\n\n"
+  syntax:
+    content: 'public class ExtendedLicenseInfo : Object'
+    content.vb: >-
+      Public Class ExtendedLicenseInfo
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.LicenseAgent
+    commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ExtendedLicenseInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: ExtendedLicenseInfo()
+  nameWithType: ExtendedLicenseInfo.ExtendedLicenseInfo()
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.ExtendedLicenseInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ExtendedLicenseInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ExtendedLicenseInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.Reason
+  commentId: P:SuperOffice.WebApi.Data.ExtendedLicenseInfo.Reason
+  id: Reason
+  parent: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: ExtendedLicenseInfo.Reason
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.Reason
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Reason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Reason As String
+  overload: SuperOffice.WebApi.Data.ExtendedLicenseInfo.Reason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.CanBeActivated
+  commentId: P:SuperOffice.WebApi.Data.ExtendedLicenseInfo.CanBeActivated
+  id: CanBeActivated
+  parent: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: CanBeActivated
+  nameWithType: ExtendedLicenseInfo.CanBeActivated
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.CanBeActivated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool CanBeActivated { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CanBeActivated As Boolean
+  overload: SuperOffice.WebApi.Data.ExtendedLicenseInfo.CanBeActivated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.New
+  commentId: P:SuperOffice.WebApi.Data.ExtendedLicenseInfo.New
+  id: New
+  parent: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: ExtendedLicenseInfo.New
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.New
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual LicenseInfo New { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.LicenseInfo
+    content.vb: Public Overridable Property New As LicenseInfo
+  overload: SuperOffice.WebApi.Data.ExtendedLicenseInfo.New*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.Current
+  commentId: P:SuperOffice.WebApi.Data.ExtendedLicenseInfo.Current
+  id: Current
+  parent: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: ExtendedLicenseInfo.Current
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.Current
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual LicenseInfo Current { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.LicenseInfo
+    content.vb: Public Overridable Property Current As LicenseInfo
+  overload: SuperOffice.WebApi.Data.ExtendedLicenseInfo.Current*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.ExtendedModuleLicenses
+  commentId: P:SuperOffice.WebApi.Data.ExtendedLicenseInfo.ExtendedModuleLicenses
+  id: ExtendedModuleLicenses
+  parent: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: ExtendedModuleLicenses
+  nameWithType: ExtendedLicenseInfo.ExtendedModuleLicenses
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.ExtendedModuleLicenses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual ExtendedModuleLicense[] ExtendedModuleLicenses { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ExtendedModuleLicense[]
+    content.vb: Public Overridable Property ExtendedModuleLicenses As ExtendedModuleLicense()
+  overload: SuperOffice.WebApi.Data.ExtendedLicenseInfo.ExtendedModuleLicenses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.AccumulatedNextCheckDate
+  commentId: P:SuperOffice.WebApi.Data.ExtendedLicenseInfo.AccumulatedNextCheckDate
+  id: AccumulatedNextCheckDate
+  parent: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: AccumulatedNextCheckDate
+  nameWithType: ExtendedLicenseInfo.AccumulatedNextCheckDate
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.AccumulatedNextCheckDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual DateTime AccumulatedNextCheckDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property AccumulatedNextCheckDate As DateTime
+  overload: SuperOffice.WebApi.Data.ExtendedLicenseInfo.AccumulatedNextCheckDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.LicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  isExternal: true
+  name: LicenseAgent
+  nameWithType: LicenseAgent
+  fullName: SuperOffice.WebApi.Agents.LicenseAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedLicenseInfo.#ctor
+  isExternal: true
+  name: ExtendedLicenseInfo
+  nameWithType: ExtendedLicenseInfo.ExtendedLicenseInfo
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.ExtendedLicenseInfo
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.Reason*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedLicenseInfo.Reason
+  isExternal: true
+  name: Reason
+  nameWithType: ExtendedLicenseInfo.Reason
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.Reason
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.CanBeActivated*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedLicenseInfo.CanBeActivated
+  isExternal: true
+  name: CanBeActivated
+  nameWithType: ExtendedLicenseInfo.CanBeActivated
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.CanBeActivated
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.New*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedLicenseInfo.New
+  isExternal: true
+  name: New
+  nameWithType: ExtendedLicenseInfo.New
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.New
+- uid: SuperOffice.WebApi.Data.LicenseInfo
+  commentId: T:SuperOffice.WebApi.Data.LicenseInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: LicenseInfo
+  nameWithType: LicenseInfo
+  fullName: SuperOffice.WebApi.Data.LicenseInfo
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.Current*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedLicenseInfo.Current
+  isExternal: true
+  name: Current
+  nameWithType: ExtendedLicenseInfo.Current
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.Current
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.ExtendedModuleLicenses*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedLicenseInfo.ExtendedModuleLicenses
+  isExternal: true
+  name: ExtendedModuleLicenses
+  nameWithType: ExtendedLicenseInfo.ExtendedModuleLicenses
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.ExtendedModuleLicenses
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense[]
+  isExternal: true
+  name: ExtendedModuleLicense[]
+  nameWithType: ExtendedModuleLicense[]
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense[]
+  nameWithType.vb: ExtendedModuleLicense()
+  fullName.vb: SuperOffice.WebApi.Data.ExtendedModuleLicense()
+  name.vb: ExtendedModuleLicense()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ExtendedModuleLicense
+    name: ExtendedModuleLicense
+    nameWithType: ExtendedModuleLicense
+    fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ExtendedModuleLicense
+    name: ExtendedModuleLicense
+    nameWithType: ExtendedModuleLicense
+    fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo.AccumulatedNextCheckDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedLicenseInfo.AccumulatedNextCheckDate
+  isExternal: true
+  name: AccumulatedNextCheckDate
+  nameWithType: ExtendedLicenseInfo.AccumulatedNextCheckDate
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo.AccumulatedNextCheckDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

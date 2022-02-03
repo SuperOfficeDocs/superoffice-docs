@@ -1,0 +1,415 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.Tab
+  id: Tab
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.Tab.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.Tab.AddCustomControl(System.Web.UI.Control)
+  - SuperOffice.CRM.Web.UI.Controls.Tab.AddTabItem(System.String,SuperOffice.CRM.Web.UI.Controls.TabItem)
+  - SuperOffice.CRM.Web.UI.Controls.Tab.getItemByIndex(System.Int32)
+  - SuperOffice.CRM.Web.UI.Controls.Tab.GetItemByKey(System.String)
+  - SuperOffice.CRM.Web.UI.Controls.Tab.OnLoad(System.EventArgs)
+  - SuperOffice.CRM.Web.UI.Controls.Tab.RemoveItemByKey(System.String)
+  - SuperOffice.CRM.Web.UI.Controls.Tab.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.UI.Controls.Tab.TabCount
+  langs:
+  - csharp
+  - vb
+  name: Tab
+  nameWithType: Tab
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class Tab : Control'
+    content.vb: >-
+      Public Class Tab
+          Inherits Control
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.AddTabItem(System.String,SuperOffice.CRM.Web.UI.Controls.TabItem)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.Tab.AddTabItem(System.String,SuperOffice.CRM.Web.UI.Controls.TabItem)
+  id: AddTabItem(System.String,SuperOffice.CRM.Web.UI.Controls.TabItem)
+  parent: SuperOffice.CRM.Web.UI.Controls.Tab
+  langs:
+  - csharp
+  - vb
+  name: AddTabItem(String, TabItem)
+  nameWithType: Tab.AddTabItem(String, TabItem)
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.AddTabItem(System.String, SuperOffice.CRM.Web.UI.Controls.TabItem)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public void AddTabItem(string key, TabItem item)
+    parameters:
+    - id: key
+      type: System.String
+    - id: item
+      type: SuperOffice.CRM.Web.UI.Controls.TabItem
+    content.vb: Public Sub AddTabItem(key As String, item As TabItem)
+  overload: SuperOffice.CRM.Web.UI.Controls.Tab.AddTabItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.GetItemByKey(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.Tab.GetItemByKey(System.String)
+  id: GetItemByKey(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.Tab
+  langs:
+  - csharp
+  - vb
+  name: GetItemByKey(String)
+  nameWithType: Tab.GetItemByKey(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.GetItemByKey(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public TabItem GetItemByKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TabItem
+    content.vb: Public Function GetItemByKey(key As String) As TabItem
+  overload: SuperOffice.CRM.Web.UI.Controls.Tab.GetItemByKey*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.RemoveItemByKey(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.Tab.RemoveItemByKey(System.String)
+  id: RemoveItemByKey(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.Tab
+  langs:
+  - csharp
+  - vb
+  name: RemoveItemByKey(String)
+  nameWithType: Tab.RemoveItemByKey(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.RemoveItemByKey(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public void RemoveItemByKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+    content.vb: Public Sub RemoveItemByKey(key As String)
+  overload: SuperOffice.CRM.Web.UI.Controls.Tab.RemoveItemByKey*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.getItemByIndex(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.Tab.getItemByIndex(System.Int32)
+  id: getItemByIndex(System.Int32)
+  parent: SuperOffice.CRM.Web.UI.Controls.Tab
+  langs:
+  - csharp
+  - vb
+  name: getItemByIndex(Int32)
+  nameWithType: Tab.getItemByIndex(Int32)
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.getItemByIndex(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public TabItem getItemByIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TabItem
+    content.vb: Public Function getItemByIndex(index As Integer) As TabItem
+  overload: SuperOffice.CRM.Web.UI.Controls.Tab.getItemByIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.AddCustomControl(System.Web.UI.Control)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.Tab.AddCustomControl(System.Web.UI.Control)
+  id: AddCustomControl(System.Web.UI.Control)
+  parent: SuperOffice.CRM.Web.UI.Controls.Tab
+  langs:
+  - csharp
+  - vb
+  name: AddCustomControl(Control)
+  nameWithType: Tab.AddCustomControl(Control)
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.AddCustomControl(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public void AddCustomControl(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    content.vb: Public Sub AddCustomControl(control As Control)
+  overload: SuperOffice.CRM.Web.UI.Controls.Tab.AddCustomControl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.Tab.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.CRM.Web.UI.Controls.Tab
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: Tab.OnLoad(EventArgs)
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overload: SuperOffice.CRM.Web.UI.Controls.Tab.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.Tab.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.Tab
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: Tab.Render(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.CRM.Web.UI.Controls.Tab.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.Tab.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.Tab
+  langs:
+  - csharp
+  - vb
+  name: Tab()
+  nameWithType: Tab.Tab()
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.Tab()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public Tab()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.Tab.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.TabCount
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.Tab.TabCount
+  id: TabCount
+  parent: SuperOffice.CRM.Web.UI.Controls.Tab
+  langs:
+  - csharp
+  - vb
+  name: TabCount
+  nameWithType: Tab.TabCount
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.TabCount
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int TabCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property TabCount As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.Tab.TabCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.AddTabItem*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.Tab.AddTabItem
+  isExternal: true
+  name: AddTabItem
+  nameWithType: Tab.AddTabItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.AddTabItem
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.TabItem
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.TabItem
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: TabItem
+  nameWithType: TabItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabItem
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.GetItemByKey*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.Tab.GetItemByKey
+  isExternal: true
+  name: GetItemByKey
+  nameWithType: Tab.GetItemByKey
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.GetItemByKey
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.RemoveItemByKey*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.Tab.RemoveItemByKey
+  isExternal: true
+  name: RemoveItemByKey
+  nameWithType: Tab.RemoveItemByKey
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.RemoveItemByKey
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.getItemByIndex*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.Tab.getItemByIndex
+  isExternal: true
+  name: getItemByIndex
+  nameWithType: Tab.getItemByIndex
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.getItemByIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.AddCustomControl*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.Tab.AddCustomControl
+  isExternal: true
+  name: AddCustomControl
+  nameWithType: Tab.AddCustomControl
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.AddCustomControl
+- uid: System.Web.UI.Control
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.Tab.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: Tab.OnLoad
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.Render*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.Tab.Render
+  isExternal: true
+  name: Render
+  nameWithType: Tab.Render
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.Tab.#ctor
+  isExternal: true
+  name: Tab
+  nameWithType: Tab.Tab
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.Tab
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab.TabCount*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.Tab.TabCount
+  isExternal: true
+  name: TabCount
+  nameWithType: Tab.TabCount
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab.TabCount

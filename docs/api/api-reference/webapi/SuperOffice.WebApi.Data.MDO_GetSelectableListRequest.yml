@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest
+  commentId: T:SuperOffice.WebApi.Data.MDO_GetSelectableListRequest
+  id: MDO_GetSelectableListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.#ctor
+  - SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.AdditionalInfo
+  - SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.ForceFlatList
+  - SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.Name
+  - SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.OnlyHistory
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetSelectableListRequest
+  nameWithType: MDO_GetSelectableListRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class MDO_GetSelectableListRequest : Object'
+    content.vb: >-
+      Public Class MDO_GetSelectableListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetSelectableListRequest()
+  nameWithType: MDO_GetSelectableListRequest.MDO_GetSelectableListRequest()
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.MDO_GetSelectableListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public MDO_GetSelectableListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MDO_GetSelectableListRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.ForceFlatList
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.ForceFlatList
+  id: ForceFlatList
+  parent: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest
+  langs:
+  - csharp
+  - vb
+  name: ForceFlatList
+  nameWithType: MDO_GetSelectableListRequest.ForceFlatList
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.ForceFlatList
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool ForceFlatList { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ForceFlatList As Boolean
+  overload: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.ForceFlatList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.AdditionalInfo
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.AdditionalInfo
+  id: AdditionalInfo
+  parent: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest
+  langs:
+  - csharp
+  - vb
+  name: AdditionalInfo
+  nameWithType: MDO_GetSelectableListRequest.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.AdditionalInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string AdditionalInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AdditionalInfo As String
+  overload: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.AdditionalInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.OnlyHistory
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.OnlyHistory
+  id: OnlyHistory
+  parent: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest
+  langs:
+  - csharp
+  - vb
+  name: OnlyHistory
+  nameWithType: MDO_GetSelectableListRequest.OnlyHistory
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.OnlyHistory
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool OnlyHistory { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property OnlyHistory As Boolean
+  overload: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.OnlyHistory*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.#ctor
+  isExternal: true
+  name: MDO_GetSelectableListRequest
+  nameWithType: MDO_GetSelectableListRequest.MDO_GetSelectableListRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.MDO_GetSelectableListRequest
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: MDO_GetSelectableListRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.ForceFlatList*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.ForceFlatList
+  isExternal: true
+  name: ForceFlatList
+  nameWithType: MDO_GetSelectableListRequest.ForceFlatList
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.ForceFlatList
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.AdditionalInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.AdditionalInfo
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: MDO_GetSelectableListRequest.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.AdditionalInfo
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.OnlyHistory*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.OnlyHistory
+  isExternal: true
+  name: OnlyHistory
+  nameWithType: MDO_GetSelectableListRequest.OnlyHistory
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListRequest.OnlyHistory

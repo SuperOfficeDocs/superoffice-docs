@@ -1,0 +1,384 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+  commentId: T:SuperOffice.WebApi.Data.PreferenceDescriptionLine
+  id: PreferenceDescriptionLine
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PreferenceDescriptionLine.#ctor
+  - SuperOffice.WebApi.Data.PreferenceDescriptionLine.Description
+  - SuperOffice.WebApi.Data.PreferenceDescriptionLine.IsBuiltin
+  - SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescId
+  - SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescLineId
+  - SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefShowValue
+  - SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefValue
+  langs:
+  - csharp
+  - vb
+  name: PreferenceDescriptionLine
+  nameWithType: PreferenceDescriptionLine
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PreferenceDescriptionLine.\nPreference description line, contains information about a single item in a preference description list.    \n"
+  example:
+  - "\nGet PreferenceDescriptionLine 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new PreferenceAgent(configuration);\nvar preferenceDescriptionLine = agent.GetPreferenceDescriptionLine( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class PreferenceDescriptionLine : Carrier'
+    content.vb: >-
+      Public Class PreferenceDescriptionLine
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PreferenceAgent
+    commentId: T:SuperOffice.WebApi.Agents.PreferenceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PreferenceDescriptionLine.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+  langs:
+  - csharp
+  - vb
+  name: PreferenceDescriptionLine()
+  nameWithType: PreferenceDescriptionLine.PreferenceDescriptionLine()
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PreferenceDescriptionLine()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PreferenceDescriptionLine()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PreferenceDescriptionLine.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescLineId
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescLineId
+  id: PrefDescLineId
+  parent: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+  langs:
+  - csharp
+  - vb
+  name: PrefDescLineId
+  nameWithType: PreferenceDescriptionLine.PrefDescLineId
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescLineId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int PrefDescLineId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PrefDescLineId As Integer
+  overload: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescLineId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescId
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescId
+  id: PrefDescId
+  parent: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+  langs:
+  - csharp
+  - vb
+  name: PrefDescId
+  nameWithType: PreferenceDescriptionLine.PrefDescId
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference description (parent)\n"
+  syntax:
+    content: public virtual int PrefDescId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PrefDescId As Integer
+  overload: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefValue
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefValue
+  id: PrefValue
+  parent: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+  langs:
+  - csharp
+  - vb
+  name: PrefValue
+  nameWithType: PreferenceDescriptionLine.PrefValue
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPossible value\n"
+  syntax:
+    content: public virtual string PrefValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PrefValue As String
+  overload: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefShowValue
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefShowValue
+  id: PrefShowValue
+  parent: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+  langs:
+  - csharp
+  - vb
+  name: PrefShowValue
+  nameWithType: PreferenceDescriptionLine.PrefShowValue
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefShowValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescriptive value, multilang-parsed, to put in list\n"
+  syntax:
+    content: public virtual string PrefShowValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PrefShowValue As String
+  overload: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefShowValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.Description
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescriptionLine.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: PreferenceDescriptionLine.Description
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescription of preference value, multi-language parsed\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.PreferenceDescriptionLine.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.IsBuiltin
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescriptionLine.IsBuiltin
+  id: IsBuiltin
+  parent: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltin
+  nameWithType: PreferenceDescriptionLine.IsBuiltin
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.IsBuiltin
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1 = This row populated and maintained by SuperOffice\n"
+  syntax:
+    content: public virtual bool IsBuiltin { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsBuiltin As Boolean
+  overload: SuperOffice.WebApi.Data.PreferenceDescriptionLine.IsBuiltin*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.PreferenceAgent
+  commentId: T:SuperOffice.WebApi.Agents.PreferenceAgent
+  isExternal: true
+  name: PreferenceAgent
+  nameWithType: PreferenceAgent
+  fullName: SuperOffice.WebApi.Agents.PreferenceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescriptionLine.#ctor
+  isExternal: true
+  name: PreferenceDescriptionLine
+  nameWithType: PreferenceDescriptionLine.PreferenceDescriptionLine
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PreferenceDescriptionLine
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescLineId*
+  commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescLineId
+  isExternal: true
+  name: PrefDescLineId
+  nameWithType: PreferenceDescriptionLine.PrefDescLineId
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescLineId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescId*
+  commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescId
+  isExternal: true
+  name: PrefDescId
+  nameWithType: PreferenceDescriptionLine.PrefDescId
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefDescId
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefValue*
+  commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefValue
+  isExternal: true
+  name: PrefValue
+  nameWithType: PreferenceDescriptionLine.PrefValue
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefShowValue*
+  commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefShowValue
+  isExternal: true
+  name: PrefShowValue
+  nameWithType: PreferenceDescriptionLine.PrefShowValue
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.PrefShowValue
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescriptionLine.Description
+  isExternal: true
+  name: Description
+  nameWithType: PreferenceDescriptionLine.Description
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.Description
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine.IsBuiltin*
+  commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescriptionLine.IsBuiltin
+  isExternal: true
+  name: IsBuiltin
+  nameWithType: PreferenceDescriptionLine.IsBuiltin
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine.IsBuiltin
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
+  id: Dashboard_GetDashboardTilesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.#ctor
+  - SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.DashboardTileIds
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_GetDashboardTilesRequest
+  nameWithType: Dashboard_GetDashboardTilesRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dashboard_GetDashboardTilesRequest : Object'
+    content.vb: >-
+      Public Class Dashboard_GetDashboardTilesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_GetDashboardTilesRequest()
+  nameWithType: Dashboard_GetDashboardTilesRequest.Dashboard_GetDashboardTilesRequest()
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.Dashboard_GetDashboardTilesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dashboard_GetDashboardTilesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.DashboardTileIds
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.DashboardTileIds
+  id: DashboardTileIds
+  parent: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileIds
+  nameWithType: Dashboard_GetDashboardTilesRequest.DashboardTileIds
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.DashboardTileIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] DashboardTileIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property DashboardTileIds As Integer()
+  overload: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.DashboardTileIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.#ctor
+  isExternal: true
+  name: Dashboard_GetDashboardTilesRequest
+  nameWithType: Dashboard_GetDashboardTilesRequest.Dashboard_GetDashboardTilesRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.Dashboard_GetDashboardTilesRequest
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.DashboardTileIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.DashboardTileIds
+  isExternal: true
+  name: DashboardTileIds
+  nameWithType: Dashboard_GetDashboardTilesRequest.DashboardTileIds
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.DashboardTileIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

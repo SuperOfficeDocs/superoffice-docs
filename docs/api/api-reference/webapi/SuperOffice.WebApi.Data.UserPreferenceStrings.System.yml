@@ -1,0 +1,1060 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  id: UserPreferenceStrings.System
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.AllowCentralLogin
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.AllowForcedLogin
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.BaseCurrencyId
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.CRMBaseURL
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionappointment
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersioncontact
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersiondocument
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionperson
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionproject
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionsale
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.DefaultDocPlugin
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.DisableDynamicSelectionInMailings
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.DisableDynamicSelectionInMailings_HardDefault
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.EnableCurrency
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.ForceSinglePhaseArchives
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.FulltextIndexing
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.IgnoreADUsernameAuthentication
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.LastFetchedTimezones
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.NoDbUsers
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.NotesIniPath
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.NotesSODbName
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.OurCurrencyId
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.OwnCountry
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.PasswordPolicy
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferDocLanguage
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferredNotesDocServer
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferredNotesMailServer
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.ReplicateSelection
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.SendLoginEmailNewUsers
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.SoftDeleteRetention
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.UpdateStatusMonitorsRealTime
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.System
+  nameWithType: UserPreferenceStrings.System
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSystem\n"
+  syntax:
+    content: 'public static class System : Object'
+    content.vb: >-
+      Public Module System
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.System.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "System"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "System"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.FulltextIndexing
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.FulltextIndexing
+  id: FulltextIndexing
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: FulltextIndexing
+  nameWithType: UserPreferenceStrings.System.FulltextIndexing
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.FulltextIndexing
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSaint period length, add 1, 2 or 3 for the period number to get the complete key\n"
+  remarks: "\nOBSOLETE as of dictionary step SuperOffice/20\n"
+  syntax:
+    content: public const string FulltextIndexing = "FulltextIndexing"
+    return:
+      type: System.String
+    content.vb: Public Const FulltextIndexing As String = "FulltextIndexing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.IgnoreADUsernameAuthentication
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.IgnoreADUsernameAuthentication
+  id: IgnoreADUsernameAuthentication
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: IgnoreADUsernameAuthentication
+  nameWithType: UserPreferenceStrings.System.IgnoreADUsernameAuthentication
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.IgnoreADUsernameAuthentication
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIgnore Username and Password authentication with Active Directory \n"
+  syntax:
+    content: public const string IgnoreADUsernameAuthentication = "IgnoreADUsernameAuthentication"
+    return:
+      type: System.String
+    content.vb: Public Const IgnoreADUsernameAuthentication As String = "IgnoreADUsernameAuthentication"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.AllowCentralLogin
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.AllowCentralLogin
+  id: AllowCentralLogin
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: AllowCentralLogin
+  nameWithType: UserPreferenceStrings.System.AllowCentralLogin
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.AllowCentralLogin
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTravel users allowed to log into the central database (Default = No)\n<p></p>Control type: List, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string AllowCentralLogin = "AllowCentralLogin"
+    return:
+      type: System.String
+    content.vb: Public Const AllowCentralLogin As String = "AllowCentralLogin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.AllowForcedLogin
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.AllowForcedLogin
+  id: AllowForcedLogin
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: AllowForcedLogin
+  nameWithType: UserPreferenceStrings.System.AllowForcedLogin
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.AllowForcedLogin
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAllow users to log on to the system even if they are already logged in on another computer (Default = No)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string AllowForcedLogin = "AllowForcedLogin"
+    return:
+      type: System.String
+    content.vb: Public Const AllowForcedLogin As String = "AllowForcedLogin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.BaseCurrencyId
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.BaseCurrencyId
+  id: BaseCurrencyId
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: BaseCurrencyId
+  nameWithType: UserPreferenceStrings.System.BaseCurrencyId
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.BaseCurrencyId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBase currency for your system. This is a common currency for reports etc.\n<p></p>Control type: ListTableRef, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string BaseCurrencyId = "BaseCurrencyId"
+    return:
+      type: System.String
+    content.vb: Public Const BaseCurrencyId As String = "BaseCurrencyId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersioncontact
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersioncontact
+  id: CurrentUdefVersioncontact
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersioncontact
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersioncontact
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersioncontact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe current version number for user-defined fields in the Company screen\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersioncontact = "CurrentUdefVersioncontact"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersioncontact As String = "CurrentUdefVersioncontact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionperson
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionperson
+  id: CurrentUdefVersionperson
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersionperson
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersionperson
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionperson
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe current version number for user-defined fields in the Contact dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersionperson = "CurrentUdefVersionperson"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersionperson As String = "CurrentUdefVersionperson"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionproject
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionproject
+  id: CurrentUdefVersionproject
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersionproject
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersionproject
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionproject
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe current version number for user-defined fields in the Project screen\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersionproject = "CurrentUdefVersionproject"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersionproject As String = "CurrentUdefVersionproject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionsale
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionsale
+  id: CurrentUdefVersionsale
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersionsale
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersionsale
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionsale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe current version number for user-defined fields in the Sale dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersionsale = "CurrentUdefVersionsale"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersionsale As String = "CurrentUdefVersionsale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionappointment
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionappointment
+  id: CurrentUdefVersionappointment
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersionappointment
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersionappointment
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersionappointment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe current version number for user-defined fields in the Appointment dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersionappointment = "CurrentUdefVersionappointment"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersionappointment As String = "CurrentUdefVersionappointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersiondocument
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersiondocument
+  id: CurrentUdefVersiondocument
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersiondocument
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersiondocument
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CurrentUdefVersiondocument
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe current version number for user-defined fields in the Document dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersiondocument = "CurrentUdefVersiondocument"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersiondocument As String = "CurrentUdefVersiondocument"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.DefaultDocPlugin
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.DefaultDocPlugin
+  id: DefaultDocPlugin
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: DefaultDocPlugin
+  nameWithType: UserPreferenceStrings.System.DefaultDocPlugin
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.DefaultDocPlugin
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault document management system to be used by SuperOffice CRM.\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultDocPlugin = "DefaultDocPlugin"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDocPlugin As String = "DefaultDocPlugin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.DisableDynamicSelectionInMailings
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.DisableDynamicSelectionInMailings
+  id: DisableDynamicSelectionInMailings
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: DisableDynamicSelectionInMailings
+  nameWithType: UserPreferenceStrings.System.DisableDynamicSelectionInMailings
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.DisableDynamicSelectionInMailings
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisables mailing tasks for dynamic selections\n<p></p>Control type: Bool\n"
+  syntax:
+    content: public const string DisableDynamicSelectionInMailings = "DisableDynamicSelectionInMailings"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDynamicSelectionInMailings As String = "DisableDynamicSelectionInMailings"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.DisableDynamicSelectionInMailings_HardDefault
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.DisableDynamicSelectionInMailings_HardDefault
+  id: DisableDynamicSelectionInMailings_HardDefault
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: DisableDynamicSelectionInMailings_HardDefault
+  nameWithType: UserPreferenceStrings.System.DisableDynamicSelectionInMailings_HardDefault
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.DisableDynamicSelectionInMailings_HardDefault
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHard default for: Disables mailing tasks for dynamic selections\n"
+  syntax:
+    content: public const bool DisableDynamicSelectionInMailings_HardDefault = false
+    return:
+      type: System.Boolean
+    content.vb: Public Const DisableDynamicSelectionInMailings_HardDefault As Boolean = False
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferDocLanguage
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferDocLanguage
+  id: PreferDocLanguage
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: PreferDocLanguage
+  nameWithType: UserPreferenceStrings.System.PreferDocLanguage
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferDocLanguage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreferred document language. Default blank = current UI language.\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string PreferDocLanguage = "PreferDocLanguage"
+    return:
+      type: System.String
+    content.vb: Public Const PreferDocLanguage As String = "PreferDocLanguage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.EnableCurrency
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.EnableCurrency
+  id: EnableCurrency
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: EnableCurrency
+  nameWithType: UserPreferenceStrings.System.EnableCurrency
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.EnableCurrency
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAllow sales to be recorded in another currency\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string EnableCurrency = "EnableCurrency"
+    return:
+      type: System.String
+    content.vb: Public Const EnableCurrency As String = "EnableCurrency"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.NotesIniPath
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.NotesIniPath
+  id: NotesIniPath
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: NotesIniPath
+  nameWithType: UserPreferenceStrings.System.NotesIniPath
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.NotesIniPath
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSets the path to the Notes.ini file\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string NotesIniPath = "NotesIniPath"
+    return:
+      type: System.String
+    content.vb: Public Const NotesIniPath As String = "NotesIniPath"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.NotesSODbName
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.NotesSODbName
+  id: NotesSODbName
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: NotesSODbName
+  nameWithType: UserPreferenceStrings.System.NotesSODbName
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.NotesSODbName
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the database in SuperOffice CRM where Lotus Notes e-mail is saved (default: SOCONFIG\\SoMailArchive.nsf )\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string NotesSODbName = "NotesSODbName"
+    return:
+      type: System.String
+    content.vb: Public Const NotesSODbName As String = "NotesSODbName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.OurCurrencyId
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.OurCurrencyId
+  id: OurCurrencyId
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: OurCurrencyId
+  nameWithType: UserPreferenceStrings.System.OurCurrencyId
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.OurCurrencyId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault currency for new sales\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string OurCurrencyId = "OurCurrencyId"
+    return:
+      type: System.String
+    content.vb: Public Const OurCurrencyId As String = "OurCurrencyId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.OwnCountry
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.OwnCountry
+  id: OwnCountry
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: OwnCountry
+  nameWithType: UserPreferenceStrings.System.OwnCountry
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.OwnCountry
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhich country you are currently located in. This affects phone number prefixes and the suggested country when entering a new company.\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string OwnCountry = "OwnCountry"
+    return:
+      type: System.String
+    content.vb: Public Const OwnCountry As String = "OwnCountry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferredNotesDocServer
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferredNotesDocServer
+  id: PreferredNotesDocServer
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: PreferredNotesDocServer
+  nameWithType: UserPreferenceStrings.System.PreferredNotesDocServer
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferredNotesDocServer
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreferred server name of the Lotus Notes document server\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string PreferredNotesDocServer = "PreferredNotesDocServer"
+    return:
+      type: System.String
+    content.vb: Public Const PreferredNotesDocServer As String = "PreferredNotesDocServer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferredNotesMailServer
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferredNotesMailServer
+  id: PreferredNotesMailServer
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: PreferredNotesMailServer
+  nameWithType: UserPreferenceStrings.System.PreferredNotesMailServer
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.PreferredNotesMailServer
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreferred e-mail server name for Lotus Notes\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string PreferredNotesMailServer = "PreferredNotesMailServer"
+    return:
+      type: System.String
+    content.vb: Public Const PreferredNotesMailServer As String = "PreferredNotesMailServer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.ReplicateSelection
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.ReplicateSelection
+  id: ReplicateSelection
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: ReplicateSelection
+  nameWithType: UserPreferenceStrings.System.ReplicateSelection
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.ReplicateSelection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReplicates selection members to Travel and satellite databases. After changing this preference you need to regenerate satellites and create new prototypes. This will reduce performance. Default: No\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ReplicateSelection = "ReplicateSelection"
+    return:
+      type: System.String
+    content.vb: Public Const ReplicateSelection As String = "ReplicateSelection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.UpdateStatusMonitorsRealTime
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.UpdateStatusMonitorsRealTime
+  id: UpdateStatusMonitorsRealTime
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: UpdateStatusMonitorsRealTime
+  nameWithType: UserPreferenceStrings.System.UpdateStatusMonitorsRealTime
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.UpdateStatusMonitorsRealTime
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUpdate StatusMonitors in real time.\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UpdateStatusMonitorsRealTime = "UpdateStatusMonitorsRealTime"
+    return:
+      type: System.String
+    content.vb: Public Const UpdateStatusMonitorsRealTime As String = "UpdateStatusMonitorsRealTime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.NoDbUsers
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.NoDbUsers
+  id: NoDbUsers
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: NoDbUsers
+  nameWithType: UserPreferenceStrings.System.NoDbUsers
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.NoDbUsers
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBlock creation/maintenance of db users for application users. Present in SaaS installations\n"
+  syntax:
+    content: public const string NoDbUsers = "NoDbUsers"
+    return:
+      type: System.String
+    content.vb: Public Const NoDbUsers As String = "NoDbUsers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.PasswordPolicy
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.PasswordPolicy
+  id: PasswordPolicy
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: PasswordPolicy
+  nameWithType: UserPreferenceStrings.System.PasswordPolicy
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.PasswordPolicy
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSet a password policy: MinTotal=&lt;n>&amp;MinNum=&lt;n>&amp;MinSpec=&lt;n>&amp;MinLC=&lt;n>&amp;MinUC=&lt;n>&amp;Msg=&lt;message>; governs the password-policy check\n"
+  syntax:
+    content: public const string PasswordPolicy = "PasswordPolicy"
+    return:
+      type: System.String
+    content.vb: Public Const PasswordPolicy As String = "PasswordPolicy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.WebAppUsage
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.WebAppUsage
+  id: WebAppUsage
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsage
+  nameWithType: UserPreferenceStrings.System.WebAppUsage
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.WebAppUsage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable/disable logging to WebAppUsage\n"
+  syntax:
+    content: public const string WebAppUsage = "WebAppUsage"
+    return:
+      type: System.String
+    content.vb: Public Const WebAppUsage As String = "WebAppUsage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.LastFetchedTimezones
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.LastFetchedTimezones
+  id: LastFetchedTimezones
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: LastFetchedTimezones
+  nameWithType: UserPreferenceStrings.System.LastFetchedTimezones
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.LastFetchedTimezones
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast fetch of timezone data\n"
+  syntax:
+    content: public const string LastFetchedTimezones = "LastFetchedTimezones"
+    return:
+      type: System.String
+    content.vb: Public Const LastFetchedTimezones As String = "LastFetchedTimezones"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.ForceSinglePhaseArchives
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.ForceSinglePhaseArchives
+  id: ForceSinglePhaseArchives
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: ForceSinglePhaseArchives
+  nameWithType: UserPreferenceStrings.System.ForceSinglePhaseArchives
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.ForceSinglePhaseArchives
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nForce single-phase queries (like the Win client uses) in archives, instead of two-phase\nwhere we first determine primary keys, and use a second query to get the full-width rows afterwards\n"
+  syntax:
+    content: public const string ForceSinglePhaseArchives = "ForceSinglePhase"
+    return:
+      type: System.String
+    content.vb: Public Const ForceSinglePhaseArchives As String = "ForceSinglePhase"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CRMBaseURL
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.CRMBaseURL
+  id: CRMBaseURL
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CRMBaseURL
+  nameWithType: UserPreferenceStrings.System.CRMBaseURL
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.CRMBaseURL
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStore the base URL to CRM, so it can be used by for example CS to generate CRM URLs\n"
+  syntax:
+    content: public const string CRMBaseURL = "CRMBaseURL"
+    return:
+      type: System.String
+    content.vb: Public Const CRMBaseURL As String = "CRMBaseURL"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.SoftDeleteRetention
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.SoftDeleteRetention
+  id: SoftDeleteRetention
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: SoftDeleteRetention
+  nameWithType: UserPreferenceStrings.System.SoftDeleteRetention
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.SoftDeleteRetention
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFor how long are deleted person/companies kept before hard delete\n"
+  syntax:
+    content: public const string SoftDeleteRetention = "SoftDeleteRetention"
+    return:
+      type: System.String
+    content.vb: Public Const SoftDeleteRetention As String = "SoftDeleteRetention"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.SendLoginEmailNewUsers
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.SendLoginEmailNewUsers
+  id: SendLoginEmailNewUsers
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: SendLoginEmailNewUsers
+  nameWithType: UserPreferenceStrings.System.SendLoginEmailNewUsers
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.SendLoginEmailNewUsers
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAutomatically send e-mail with login information when creating new SuperOffice users in CRM Online (Default=Yes)\n"
+  syntax:
+    content: public const string SendLoginEmailNewUsers = "SendLoginEmailNewUsers"
+    return:
+      type: System.String
+    content.vb: Public Const SendLoginEmailNewUsers As String = "SendLoginEmailNewUsers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

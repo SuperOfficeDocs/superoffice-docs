@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades
+  commentId: N:SuperOffice.CRM.Services.Implementation.ServiceFacades
+  id: SuperOffice.CRM.Services.Implementation.ServiceFacades
+  children:
+  - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+  - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacadeRequestHeader
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Services.Implementation.ServiceFacades
+  nameWithType: SuperOffice.CRM.Services.Implementation.ServiceFacades
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacadeRequestHeader
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacadeRequestHeader
+  isExternal: true
+  name: ServiceFacadeRequestHeader
+  nameWithType: ServiceFacadeRequestHeader
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacadeRequestHeader
+- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+  isExternal: true
+  name: ServiceFacade
+  nameWithType: ServiceFacade
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
