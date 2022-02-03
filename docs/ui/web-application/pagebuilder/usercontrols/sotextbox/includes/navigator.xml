@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel id="Navigator" type="SoPanel" soprotocol="" paneltype="Navigator" top="20px" left="0px" height="800px" overflow="auto" width="160px" position="absolute" zindex="99">
+  <cards>
+    <card id="NavigatorCard" type="SoCard" placeholderid="" cardtype="NavigatorCard">
+      <views>
+        <view id="NavigatorView" type="SoPlainView" overflow="auto" soprotocol="Navigator" >
+          <controlgroups>
+            <!--my SoTextBox Starts-->
+            <controlgroup id="sotextbox" type="SoControlGroup" position="relative" top="5px" left="26px">
+              <controls>
+                <control id="ContactSoTextBox" type="SoTextBox" width="50px" >
+                  <datasource>ContactEntityDataHandler.ContactEntity.Name</datasource>
+                </control>
+              </controls>
+            </controlgroup>
+            <!--my SoTextBox Ends-->
+            <!--Code for another controlgroup-->
+            <!--Code for another controlgroup-->
+            <!--Code for another controlgroup-->
+            <!--Code for another controlgroup-->
+            <!--Code for another controlgroup-->
+           </controlgroups>
+          <config>
+          </config>
+        </view>
+        <view id="NavigatorSystemView" type="SoSystemView" soprotocol="">
+          <caption>SystemView</caption>
+          <tooltip></tooltip>
+          <controlgroups>
+            <controlgroup id="NavigatorSystemGroup" type="SoControlGroup">
+              <controls>
+                <control id="NavigatorSetActive" type="SoScriptControl">
+                  <config>
+                    <switch value="NavigatorDataHandler.CurrentPage" binding="data" >
+                      <case operator="equal" value="contact">SetActiveNavButton('contactButton_image');</case>
+                      <case operator="equal" value="diary">SetActiveNavButton('diaryButton_image');</case>
+                      <case operator="equal" value="project">SetActiveNavButton('projectButton_image');</case>
+                      <case operator="equal" value="selection">SetActiveNavButton('selectionButton_image');</case>
+                      <case operator="equal" value="mail">SetActiveNavButton('mailButton_image');</case>
+                    </switch>
+                  </config>
+                </control>
+              </controls>
+            </controlgroup>
+          </controlgroups>
+        </view>
+      </views>
+    </card>
+  </cards>
+</panel>

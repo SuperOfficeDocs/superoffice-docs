@@ -1,0 +1,10 @@
+<control id="projtemp5_4" type="SoMDOControl" column="3" row="4" width="200px" >
+  <caption></caption>
+    <datasource>FindDataHandler.associateId.Values[0]</datasource>
+    <config>
+      <displaytext-datasource>
+        FindDataHandler.associateId.DisplayValues[0]
+      </displaytext-datasource>
+    <listname>Associate</listname>
+  </config>
+</control>
