@@ -1,0 +1,8 @@
+digraph company_domain  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+company_domain[fillcolor = "cadetblue1"]
+contact[fillcolor = "azure1"]
+company_domain -> contact [headlabel = "company_id"]
+}

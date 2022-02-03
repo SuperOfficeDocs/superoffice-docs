@@ -1,0 +1,20 @@
+digraph ejuser  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ejuser[fillcolor = "cadetblue1"]
+hierarchy[fillcolor = "azure1"]
+ej_category[fillcolor = "azure1"]
+profile[fillcolor = "azure1"]
+dbi_agent[fillcolor = "azure1"]
+attachment[fillcolor = "azure1"]
+ticket_status[fillcolor = "azure1"]
+ejuser -> hierarchy [headlabel = "usergroup"]
+ejuser -> ej_category [headlabel = "default_category"]
+ejuser -> ej_category [label = "last_category"]
+ejuser -> profile [headlabel = "profile_id"]
+ejuser -> dbi_agent [headlabel = "dbi_agent_id"]
+ejuser -> attachment [headlabel = "picture_id"]
+ejuser -> ticket_status [headlabel = "default_status_new_ticket"]
+ejuser -> ticket_status [label = "default_status_add_message"]
+}

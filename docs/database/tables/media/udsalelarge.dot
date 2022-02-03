@@ -1,0 +1,10 @@
+digraph udsalelarge  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+udsalelarge[fillcolor = "cadetblue1"]
+sale[fillcolor = "azure1"]
+SaleHist[fillcolor = "azure1"]
+sale -> udsalelarge [label = "userdef2_id"]
+SaleHist -> udsalelarge [label = "userdef2_id"]
+}

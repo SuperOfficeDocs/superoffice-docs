@@ -1,0 +1,13 @@
+digraph ContIntHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ContIntHeadingLink[fillcolor = "cadetblue1"]
+ContInt[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ContIntHeadingLink -> ContInt [headlabel = "contint_id"]
+ContIntHeadingLink -> Heading [headlabel = "heading_id"]
+ContIntHeadingLink -> associate [headlabel = "registered_associate_id"]
+ContIntHeadingLink -> associate [label = "updated_associate_id"]
+}

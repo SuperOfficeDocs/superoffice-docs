@@ -1,0 +1,13 @@
+digraph PersIntGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PersIntGroupLink[fillcolor = "cadetblue1"]
+PersInt[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+PersIntGroupLink -> PersInt [headlabel = "persint_id"]
+PersIntGroupLink -> UserGroup [headlabel = "group_id"]
+PersIntGroupLink -> associate [headlabel = "registered_associate_id"]
+PersIntGroupLink -> associate [label = "updated_associate_id"]
+}

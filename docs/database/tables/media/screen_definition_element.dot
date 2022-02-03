@@ -1,0 +1,10 @@
+digraph screen_definition_element  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+screen_definition_element[fillcolor = "cadetblue1"]
+screen_definition[fillcolor = "azure1"]
+element_profile[fillcolor = "azure1"]
+screen_definition_element -> screen_definition [headlabel = "screen_definition"]
+element_profile -> screen_definition_element [label = "screen_definition_element"]
+}

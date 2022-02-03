@@ -1,0 +1,8 @@
+digraph ms_substitute  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ms_substitute[fillcolor = "cadetblue1"]
+ms_filter[fillcolor = "azure1"]
+ms_substitute -> ms_filter [headlabel = "ms_filter_id"]
+}

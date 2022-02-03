@@ -1,0 +1,8 @@
+digraph s_smtp_servers  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_smtp_servers[fillcolor = "cadetblue1"]
+s_shipment[fillcolor = "azure1"]
+s_smtp_servers -> s_shipment [headlabel = "shipment_id"]
+}

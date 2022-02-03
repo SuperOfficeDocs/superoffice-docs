@@ -1,0 +1,11 @@
+digraph cust_config  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+cust_config[fillcolor = "cadetblue1"]
+cust_lang[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+cust_config -> cust_lang [headlabel = "cust_lang_id"]
+cust_config -> associate [headlabel = "registered_associate_id"]
+cust_config -> associate [label = "updated_associate_id"]
+}

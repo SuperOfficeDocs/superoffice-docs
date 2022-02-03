@@ -1,0 +1,11 @@
+digraph Product  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Product[fillcolor = "cadetblue1"]
+PriceList[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+Product -> PriceList [headlabel = "PriceListId"]
+Product -> associate [headlabel = "registered_associate_id"]
+Product -> associate [label = "updated_associate_id"]
+}

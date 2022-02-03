@@ -1,0 +1,10 @@
+digraph category_membership  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+category_membership[fillcolor = "cadetblue1"]
+ej_category[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+category_membership -> ej_category [headlabel = "category_id"]
+category_membership -> ejuser [headlabel = "user_id"]
+}

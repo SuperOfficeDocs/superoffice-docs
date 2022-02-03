@@ -1,0 +1,13 @@
+digraph AmountClassHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+AmountClassHeadingLink[fillcolor = "cadetblue1"]
+AmountClass[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+AmountClassHeadingLink -> AmountClass [headlabel = "amountclass_id"]
+AmountClassHeadingLink -> Heading [headlabel = "heading_id"]
+AmountClassHeadingLink -> associate [headlabel = "registered_associate_id"]
+AmountClassHeadingLink -> associate [label = "updated_associate_id"]
+}

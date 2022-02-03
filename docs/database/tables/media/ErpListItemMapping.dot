@@ -1,0 +1,11 @@
+digraph ErpListItemMapping  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ErpListItemMapping[fillcolor = "cadetblue1"]
+ErpField[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ErpListItemMapping -> ErpField [headlabel = "ErpFieldId"]
+ErpListItemMapping -> associate [headlabel = "registered_associate_id"]
+ErpListItemMapping -> associate [label = "updated_associate_id"]
+}

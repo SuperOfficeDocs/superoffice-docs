@@ -1,0 +1,13 @@
+digraph ProductTypeHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ProductTypeHeadingLink[fillcolor = "cadetblue1"]
+ProductType[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ProductTypeHeadingLink -> ProductType [headlabel = "producttype_id"]
+ProductTypeHeadingLink -> Heading [headlabel = "heading_id"]
+ProductTypeHeadingLink -> associate [headlabel = "registered_associate_id"]
+ProductTypeHeadingLink -> associate [label = "updated_associate_id"]
+}

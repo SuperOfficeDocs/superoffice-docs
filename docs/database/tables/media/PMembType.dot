@@ -1,0 +1,15 @@
+digraph PMembType  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PMembType[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+projectmember[fillcolor = "azure1"]
+PMembTypeGroupLink[fillcolor = "azure1"]
+PMembTypeHeadingLink[fillcolor = "azure1"]
+PMembType -> associate [headlabel = "registered_associate_id"]
+PMembType -> associate [label = "updated_associate_id"]
+projectmember -> PMembType [label = "mtype_idx"]
+PMembTypeGroupLink -> PMembType [label = "pmembtype_id"]
+PMembTypeHeadingLink -> PMembType [label = "pmembtype_id"]
+}

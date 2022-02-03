@@ -1,0 +1,12 @@
+digraph kb_entry_comment  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_entry_comment[fillcolor = "cadetblue1"]
+kb_entry[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+dbi_agent[fillcolor = "azure1"]
+kb_entry_comment -> kb_entry [headlabel = "kb_entry_id"]
+kb_entry_comment -> person [headlabel = "customer_id"]
+kb_entry_comment -> dbi_agent [headlabel = "dbi_agent_id"]
+}

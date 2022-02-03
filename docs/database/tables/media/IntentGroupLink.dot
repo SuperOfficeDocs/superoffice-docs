@@ -1,0 +1,13 @@
+digraph IntentGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+IntentGroupLink[fillcolor = "cadetblue1"]
+Intent[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+IntentGroupLink -> Intent [headlabel = "intent_id"]
+IntentGroupLink -> UserGroup [headlabel = "group_id"]
+IntentGroupLink -> associate [headlabel = "registered_associate_id"]
+IntentGroupLink -> associate [label = "updated_associate_id"]
+}

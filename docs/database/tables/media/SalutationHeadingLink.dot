@@ -1,0 +1,13 @@
+digraph SalutationHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SalutationHeadingLink[fillcolor = "cadetblue1"]
+Salutation[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+SalutationHeadingLink -> Salutation [headlabel = "salutation_id"]
+SalutationHeadingLink -> Heading [headlabel = "heading_id"]
+SalutationHeadingLink -> associate [headlabel = "registered_associate_id"]
+SalutationHeadingLink -> associate [label = "updated_associate_id"]
+}

@@ -1,0 +1,22 @@
+digraph extra_tables  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+extra_tables[fillcolor = "cadetblue1"]
+hierarchy[fillcolor = "azure1"]
+extra_fields[fillcolor = "azure1"]
+screen_chooser[fillcolor = "azure1"]
+extra_menus[fillcolor = "azure1"]
+extra_tables_result[fillcolor = "azure1"]
+extra_tables -> hierarchy [headlabel = "hierarchy_id"]
+extra_tables -> extra_fields [headlabel = "display_field"]
+extra_tables -> extra_tables [headlabel = "parent_field"]
+extra_tables -> extra_tables [label = "fullname_field"]
+extra_tables -> screen_chooser [headlabel = "screen_chooser_entry"]
+extra_tables -> screen_chooser [label = "screen_chooser_all"]
+extra_tables -> screen_chooser [label = "screen_chooser_edit"]
+extra_fields -> extra_tables [label = "extra_table"]
+extra_fields -> extra_tables [label = "target_extra_table"]
+extra_menus -> extra_tables [label = "extra_table"]
+extra_tables_result -> extra_tables [label = "extra_table"]
+}

@@ -1,0 +1,20 @@
+digraph Email  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Email[fillcolor = "cadetblue1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+project[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+dbi_agent[fillcolor = "azure1"]
+appointment[fillcolor = "azure1"]
+Email -> contact [headlabel = "contact_id"]
+Email -> person [headlabel = "person_id"]
+Email -> project [headlabel = "project_id"]
+Email -> associate [headlabel = "registered_associate_id"]
+Email -> associate [label = "updated_associate_id"]
+Email -> dbi_agent [headlabel = "dbi_agent_id"]
+Email -> appointment [headlabel = "appointment_id"]
+appointment -> Email [label = "emailId"]
+}

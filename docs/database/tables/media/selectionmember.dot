@@ -1,0 +1,12 @@
+digraph selectionmember  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+selectionmember[fillcolor = "cadetblue1"]
+selection[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+selectionmember -> selection [headlabel = "selection_id"]
+selectionmember -> contact [headlabel = "contact_id"]
+selectionmember -> person [headlabel = "person_id"]
+}

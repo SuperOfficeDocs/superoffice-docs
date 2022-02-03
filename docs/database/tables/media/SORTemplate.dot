@@ -1,0 +1,13 @@
+digraph SORTemplate  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SORTemplate[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+SORPublish[fillcolor = "azure1"]
+SORSection[fillcolor = "azure1"]
+SORTemplate -> associate [headlabel = "registered_associate_id"]
+SORTemplate -> associate [label = "updated_associate_id"]
+SORPublish -> SORTemplate [label = "SORTemplate_id"]
+SORSection -> SORTemplate [label = "SORTemplate_id"]
+}

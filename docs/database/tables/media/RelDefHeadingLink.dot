@@ -1,0 +1,13 @@
+digraph RelDefHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+RelDefHeadingLink[fillcolor = "cadetblue1"]
+relationdefinition[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+RelDefHeadingLink -> relationdefinition [headlabel = "reldef_id"]
+RelDefHeadingLink -> Heading [headlabel = "heading_id"]
+RelDefHeadingLink -> associate [headlabel = "registered_associate_id"]
+RelDefHeadingLink -> associate [label = "updated_associate_id"]
+}

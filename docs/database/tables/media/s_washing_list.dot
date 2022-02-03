@@ -1,0 +1,8 @@
+digraph s_washing_list  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_washing_list[fillcolor = "cadetblue1"]
+s_list[fillcolor = "azure1"]
+s_washing_list -> s_list [headlabel = "list_id"]
+}

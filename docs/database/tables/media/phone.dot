@@ -1,0 +1,13 @@
+digraph phone  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+phone[fillcolor = "cadetblue1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+phone -> contact [headlabel = "owner_id" style="dashed"]
+phone -> person [headlabel = "owner_id" style="dashed"]
+phone -> associate [headlabel = "registered_associate_id"]
+phone -> associate [label = "updated_associate_id"]
+}

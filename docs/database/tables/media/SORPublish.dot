@@ -1,0 +1,18 @@
+digraph SORPublish  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SORPublish[fillcolor = "cadetblue1"]
+SORTemplate[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+SORLabelLayout[fillcolor = "azure1"]
+SORPublishGroupLink[fillcolor = "azure1"]
+SORCriteria[fillcolor = "azure1"]
+SORPublish -> SORTemplate [headlabel = "SORTemplate_id"]
+SORPublish -> associate [headlabel = "associate_id"]
+SORPublish -> SORLabelLayout [headlabel = "defaultLabelLayout"]
+SORPublish -> associate [label = "registered_associate_id"]
+SORPublish -> associate [label = "updated_associate_id"]
+SORPublishGroupLink -> SORPublish [label = "SORPublishId"]
+SORCriteria -> SORPublish [label = "SORPublish_id"]
+}

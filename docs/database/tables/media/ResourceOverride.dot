@@ -1,0 +1,9 @@
+digraph ResourceOverride  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ResourceOverride[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+ResourceOverride -> associate [headlabel = "registered_associate_id"]
+ResourceOverride -> associate [label = "updated_associate_id"]
+}

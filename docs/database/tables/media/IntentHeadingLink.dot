@@ -1,0 +1,13 @@
+digraph IntentHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+IntentHeadingLink[fillcolor = "cadetblue1"]
+Intent[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+IntentHeadingLink -> Intent [headlabel = "intent_id"]
+IntentHeadingLink -> Heading [headlabel = "heading_id"]
+IntentHeadingLink -> associate [headlabel = "registered_associate_id"]
+IntentHeadingLink -> associate [label = "updated_associate_id"]
+}

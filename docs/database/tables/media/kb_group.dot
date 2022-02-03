@@ -1,0 +1,14 @@
+digraph kb_group  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_group[fillcolor = "cadetblue1"]
+kb_category[fillcolor = "azure1"]
+dbi_agent[fillcolor = "azure1"]
+ej_category[fillcolor = "azure1"]
+kb_group_entry[fillcolor = "azure1"]
+kb_group -> kb_category [headlabel = "kb_category_id"]
+kb_group -> dbi_agent [headlabel = "dbi_agent_id"]
+kb_group -> ej_category [headlabel = "parent_id"]
+kb_group_entry -> kb_group [label = "kb_group_id"]
+}

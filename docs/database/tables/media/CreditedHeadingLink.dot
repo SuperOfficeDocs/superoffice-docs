@@ -1,0 +1,13 @@
+digraph CreditedHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+CreditedHeadingLink[fillcolor = "cadetblue1"]
+Credited[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+CreditedHeadingLink -> Credited [headlabel = "credited_id"]
+CreditedHeadingLink -> Heading [headlabel = "heading_id"]
+CreditedHeadingLink -> associate [headlabel = "registered_associate_id"]
+CreditedHeadingLink -> associate [label = "updated_associate_id"]
+}

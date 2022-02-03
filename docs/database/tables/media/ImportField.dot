@@ -1,0 +1,11 @@
+digraph ImportField  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ImportField[fillcolor = "cadetblue1"]
+ImportObject[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ImportField -> ImportObject [headlabel = "ImportObject_id"]
+ImportField -> associate [headlabel = "registered_associate_id"]
+ImportField -> associate [label = "updated_associate_id"]
+}

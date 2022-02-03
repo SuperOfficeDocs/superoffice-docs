@@ -1,0 +1,8 @@
+digraph redletterday  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+redletterday[fillcolor = "cadetblue1"]
+country[fillcolor = "azure1"]
+redletterday -> country [headlabel = "country_id"]
+}

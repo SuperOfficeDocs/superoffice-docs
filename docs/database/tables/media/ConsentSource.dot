@@ -1,0 +1,13 @@
+digraph ConsentSource  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ConsentSource[fillcolor = "cadetblue1"]
+DocTmpl[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ConsentPerson[fillcolor = "azure1"]
+ConsentSource -> DocTmpl [headlabel = "mailTemplate_id"]
+ConsentSource -> associate [headlabel = "registered_associate_id"]
+ConsentSource -> associate [label = "updated_associate_id"]
+ConsentPerson -> ConsentSource [label = "consentSource_id"]
+}

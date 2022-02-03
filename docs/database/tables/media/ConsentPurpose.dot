@@ -1,0 +1,11 @@
+digraph ConsentPurpose  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ConsentPurpose[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+ConsentPerson[fillcolor = "azure1"]
+ConsentPurpose -> associate [headlabel = "registered_associate_id"]
+ConsentPurpose -> associate [label = "updated_associate_id"]
+ConsentPerson -> ConsentPurpose [label = "consentPurpose_id"]
+}

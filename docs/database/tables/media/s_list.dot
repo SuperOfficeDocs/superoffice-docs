@@ -1,0 +1,18 @@
+digraph s_list  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_list[fillcolor = "cadetblue1"]
+dbi_agent[fillcolor = "azure1"]
+s_washing_list[fillcolor = "azure1"]
+s_list_element[fillcolor = "azure1"]
+s_list_customer[fillcolor = "azure1"]
+s_list_shipment[fillcolor = "azure1"]
+s_dyn_criteria[fillcolor = "azure1"]
+s_list -> dbi_agent [headlabel = "dbi_agent_id"]
+s_washing_list -> s_list [label = "list_id"]
+s_list_element -> s_list [label = "list_id"]
+s_list_customer -> s_list [label = "list_id"]
+s_list_shipment -> s_list [label = "list_id"]
+s_dyn_criteria -> s_list [label = "list_id"]
+}

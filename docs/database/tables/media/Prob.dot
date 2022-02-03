@@ -1,0 +1,19 @@
+digraph Prob  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Prob[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+sale[fillcolor = "azure1"]
+ProbGroupLink[fillcolor = "azure1"]
+ProbHeadingLink[fillcolor = "azure1"]
+SaleHist[fillcolor = "azure1"]
+SaleTypeStageLink[fillcolor = "azure1"]
+Prob -> associate [headlabel = "registered_associate_id"]
+Prob -> associate [label = "updated_associate_id"]
+sale -> Prob [label = "probability_idx"]
+ProbGroupLink -> Prob [label = "prob_id"]
+ProbHeadingLink -> Prob [label = "prob_id"]
+SaleHist -> Prob [label = "probability_idx"]
+SaleTypeStageLink -> Prob [label = "stageId"]
+}

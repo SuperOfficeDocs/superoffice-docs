@@ -1,0 +1,10 @@
+digraph screen_definition_action  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+screen_definition_action[fillcolor = "cadetblue1"]
+screen_definition[fillcolor = "azure1"]
+ejscript[fillcolor = "azure1"]
+screen_definition_action -> screen_definition [headlabel = "screen_definition"]
+screen_definition_action -> ejscript [headlabel = "ejscript"]
+}

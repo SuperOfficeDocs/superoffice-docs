@@ -1,0 +1,13 @@
+digraph LanguageInfoCountry  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+LanguageInfoCountry[fillcolor = "cadetblue1"]
+LanguageInfo[fillcolor = "azure1"]
+country[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+LanguageInfoCountry -> LanguageInfo [headlabel = "languageId"]
+LanguageInfoCountry -> country [headlabel = "countryId"]
+LanguageInfoCountry -> associate [headlabel = "registered_associate_id"]
+LanguageInfoCountry -> associate [label = "updated_associate_id"]
+}

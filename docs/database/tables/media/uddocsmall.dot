@@ -1,0 +1,8 @@
+digraph uddocsmall  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+uddocsmall[fillcolor = "cadetblue1"]
+document[fillcolor = "azure1"]
+document -> uddocsmall [label = "userdef_id"]
+}

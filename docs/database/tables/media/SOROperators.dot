@@ -1,0 +1,11 @@
+digraph SOROperators  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SOROperators[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+SORCriteria[fillcolor = "azure1"]
+SOROperators -> associate [headlabel = "registered_associate_id"]
+SOROperators -> associate [label = "updated_associate_id"]
+SORCriteria -> SOROperators [label = "SOROperators_id"]
+}

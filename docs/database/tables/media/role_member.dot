@@ -1,0 +1,10 @@
+digraph role_member  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+role_member[fillcolor = "cadetblue1"]
+ej_role[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+role_member -> ej_role [headlabel = "role"]
+role_member -> ejuser [headlabel = "ejuser"]
+}

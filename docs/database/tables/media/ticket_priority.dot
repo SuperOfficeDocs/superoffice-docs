@@ -1,0 +1,23 @@
+digraph ticket_priority  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_priority[fillcolor = "cadetblue1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+ticket[fillcolor = "azure1"]
+mail_in_filter[fillcolor = "azure1"]
+ticket_alert[fillcolor = "azure1"]
+ms_filter[fillcolor = "azure1"]
+chat_topic[fillcolor = "azure1"]
+s_link[fillcolor = "azure1"]
+contact -> ticket_priority [label = "ticketPriorityId"]
+person -> ticket_priority [label = "ticketPriorityId"]
+ticket -> ticket_priority [label = "priority"]
+ticket -> ticket_priority [label = "orig_priority"]
+mail_in_filter -> ticket_priority [label = "priority"]
+ticket_alert -> ticket_priority [label = "priority"]
+ms_filter -> ticket_priority [label = "new_priority"]
+chat_topic -> ticket_priority [label = "priority_id"]
+s_link -> ticket_priority [label = "ticket_priority"]
+}

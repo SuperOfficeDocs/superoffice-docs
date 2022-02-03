@@ -1,0 +1,14 @@
+digraph ticket_log_change  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_log_change[fillcolor = "cadetblue1"]
+ticket[fillcolor = "azure1"]
+ej_message[fillcolor = "azure1"]
+ticket_log_action[fillcolor = "azure1"]
+extra_fields[fillcolor = "azure1"]
+ticket_log_change -> ticket [headlabel = "ticket_id"]
+ticket_log_change -> ej_message [headlabel = "message_id"]
+ticket_log_change -> ticket_log_action [headlabel = "action_id"]
+ticket_log_change -> extra_fields [headlabel = "extra_field_id"]
+}

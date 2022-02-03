@@ -1,0 +1,13 @@
+digraph SaleTypeCatHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SaleTypeCatHeadingLink[fillcolor = "cadetblue1"]
+SaleTypeCat[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+SaleTypeCatHeadingLink -> SaleTypeCat [headlabel = "saletypecat_id"]
+SaleTypeCatHeadingLink -> Heading [headlabel = "heading_id"]
+SaleTypeCatHeadingLink -> associate [headlabel = "registered_associate_id"]
+SaleTypeCatHeadingLink -> associate [label = "updated_associate_id"]
+}

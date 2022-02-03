@@ -1,0 +1,19 @@
+digraph dashboard  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+dashboard[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+dashboard_theme[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+dashboard_tile[fillcolor = "azure1"]
+dashboard -> associate [headlabel = "associate_id"]
+dashboard -> dashboard_theme [headlabel = "dashboard_theme_id"]
+dashboard -> associate [label = "registered_associate_id"]
+dashboard -> associate [label = "updated_associate_id"]
+dashboard -> associate [headlabel = "visible_for_associates" style="dashed"]
+dashboard -> UserGroup [headlabel = "visible_for_groups" style="dashed"]
+dashboard -> associate [headlabel = "pin_for_associates" style="dashed"]
+dashboard -> UserGroup [headlabel = "pin_for_groups" style="dashed"]
+dashboard_tile -> dashboard [label = "dashboard_id"]
+}

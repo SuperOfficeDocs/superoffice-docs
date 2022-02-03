@@ -1,0 +1,8 @@
+digraph s_dyn_criteria  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_dyn_criteria[fillcolor = "cadetblue1"]
+s_list[fillcolor = "azure1"]
+s_dyn_criteria -> s_list [headlabel = "list_id"]
+}

@@ -1,0 +1,11 @@
+digraph SearchCriterionValue  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SearchCriterionValue[fillcolor = "cadetblue1"]
+SearchCriterion[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+SearchCriterionValue -> SearchCriterion [headlabel = "SearchCriterion_id"]
+SearchCriterionValue -> associate [headlabel = "registered_associate_id"]
+SearchCriterionValue -> associate [label = "updated_associate_id"]
+}

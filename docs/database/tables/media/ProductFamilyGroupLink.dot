@@ -1,0 +1,13 @@
+digraph ProductFamilyGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ProductFamilyGroupLink[fillcolor = "cadetblue1"]
+ProductFamily[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ProductFamilyGroupLink -> ProductFamily [headlabel = "productfamily_id"]
+ProductFamilyGroupLink -> UserGroup [headlabel = "group_id"]
+ProductFamilyGroupLink -> associate [headlabel = "registered_associate_id"]
+ProductFamilyGroupLink -> associate [label = "updated_associate_id"]
+}

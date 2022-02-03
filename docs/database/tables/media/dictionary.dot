@@ -1,0 +1,10 @@
+digraph dictionary  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+dictionary[fillcolor = "cadetblue1"]
+dictionary_base[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+dictionary -> dictionary_base [headlabel = "base_id"]
+dictionary -> ejuser [headlabel = "user_id"]
+}

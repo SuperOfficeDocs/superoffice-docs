@@ -1,0 +1,11 @@
+digraph RefCounts  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+RefCounts[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+RefCountRange[fillcolor = "azure1"]
+RefCounts -> associate [headlabel = "registered_associate_id"]
+RefCounts -> associate [label = "updated_associate_id"]
+RefCountRange -> RefCounts [label = "RefCounts_id"]
+}

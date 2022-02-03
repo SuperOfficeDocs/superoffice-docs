@@ -1,0 +1,14 @@
+digraph travelcurrent  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+travelcurrent[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+traveltransactionlog[fillcolor = "azure1"]
+travelcurrent -> associate [headlabel = "current_id"]
+travelcurrent -> associate [label = "central_id"]
+travelcurrent -> traveltransactionlog [headlabel = "last_recordnumber"]
+travelcurrent -> traveltransactionlog [label = "first_recordnumber"]
+travelcurrent -> associate [label = "registered_associate_id"]
+travelcurrent -> associate [label = "updated_associate_id"]
+}

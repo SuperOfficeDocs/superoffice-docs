@@ -1,0 +1,14 @@
+digraph StatusDef  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+StatusDef[fillcolor = "cadetblue1"]
+Task[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+StatusValue[fillcolor = "azure1"]
+StatusDef -> Task [headlabel = "defaultTask"]
+StatusDef -> associate [headlabel = "registered_associate_id"]
+StatusDef -> associate [label = "updated_associate_id"]
+text -> StatusDef [label = "owner_id" style="dashed"]
+StatusValue -> StatusDef [label = "StatusDef_id"]
+}

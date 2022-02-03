@@ -1,0 +1,13 @@
+digraph ProjTypeHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ProjTypeHeadingLink[fillcolor = "cadetblue1"]
+ProjType[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ProjTypeHeadingLink -> ProjType [headlabel = "projtype_id"]
+ProjTypeHeadingLink -> Heading [headlabel = "heading_id"]
+ProjTypeHeadingLink -> associate [headlabel = "registered_associate_id"]
+ProjTypeHeadingLink -> associate [label = "updated_associate_id"]
+}

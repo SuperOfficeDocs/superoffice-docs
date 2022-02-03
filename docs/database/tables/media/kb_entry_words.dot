@@ -1,0 +1,8 @@
+digraph kb_entry_words  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_entry_words[fillcolor = "cadetblue1"]
+word_relations[fillcolor = "azure1"]
+word_relations -> kb_entry_words [label = "entry_word_id"]
+}

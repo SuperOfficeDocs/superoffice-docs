@@ -1,0 +1,13 @@
+digraph screen_chooser  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+screen_chooser[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+extra_tables[fillcolor = "azure1"]
+screen_chooser -> associate [headlabel = "registered_associate_id"]
+screen_chooser -> associate [label = "updated_associate_id"]
+extra_tables -> screen_chooser [label = "screen_chooser_entry"]
+extra_tables -> screen_chooser [label = "screen_chooser_all"]
+extra_tables -> screen_chooser [label = "screen_chooser_edit"]
+}

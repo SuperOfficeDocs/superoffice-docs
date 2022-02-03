@@ -1,0 +1,17 @@
+digraph StatusValue  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+StatusValue[fillcolor = "cadetblue1"]
+StatusDef[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+project[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+StatusValue -> StatusDef [headlabel = "StatusDef_id"]
+StatusValue -> contact [headlabel = "contact_id"]
+StatusValue -> person [headlabel = "person_id"]
+StatusValue -> project [headlabel = "project_id"]
+StatusValue -> associate [headlabel = "registered_associate_id"]
+StatusValue -> associate [label = "updated_associate_id"]
+}

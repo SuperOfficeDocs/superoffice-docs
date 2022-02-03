@@ -1,0 +1,13 @@
+digraph CountryGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+CountryGroupLink[fillcolor = "cadetblue1"]
+country[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+CountryGroupLink -> country [headlabel = "country_id"]
+CountryGroupLink -> UserGroup [headlabel = "group_id"]
+CountryGroupLink -> associate [headlabel = "registered_associate_id"]
+CountryGroupLink -> associate [label = "updated_associate_id"]
+}

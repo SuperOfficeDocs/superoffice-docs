@@ -1,0 +1,14 @@
+digraph ErpConnectionAccess  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ErpConnectionAccess[fillcolor = "cadetblue1"]
+ErpConnection[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+ErpConnectionAccess -> ErpConnection [headlabel = "ErpConnectionId"]
+ErpConnectionAccess -> associate [headlabel = "AssociateId"]
+ErpConnectionAccess -> UserGroup [headlabel = "UserGroupId"]
+ErpConnectionAccess -> associate [label = "registered_associate_id"]
+ErpConnectionAccess -> associate [label = "updated_associate_id"]
+}

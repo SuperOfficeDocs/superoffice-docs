@@ -1,0 +1,12 @@
+digraph MessageHandler  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+MessageHandler[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+Message[fillcolor = "azure1"]
+MessageHandler -> associate [headlabel = "registered_associate_id"]
+MessageHandler -> associate [label = "updated_associate_id"]
+Message -> MessageHandler [label = "sourceHandler"]
+Message -> MessageHandler [label = "targetHandler"]
+}

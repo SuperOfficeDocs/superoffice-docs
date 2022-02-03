@@ -1,0 +1,10 @@
+digraph kb_category_log  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_category_log[fillcolor = "cadetblue1"]
+kb_category[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+kb_category_log -> kb_category [headlabel = "kb_category_id"]
+kb_category_log -> ejuser [headlabel = "user_id"]
+}

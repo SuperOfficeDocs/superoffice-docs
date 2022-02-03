@@ -1,0 +1,8 @@
+digraph UsageStats  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+UsageStats[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+UsageStats -> associate [headlabel = "assoc_id"]
+}

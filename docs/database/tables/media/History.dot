@@ -1,0 +1,8 @@
+digraph History  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+History[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+History -> associate [headlabel = "associate_id"]
+}

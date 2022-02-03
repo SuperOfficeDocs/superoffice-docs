@@ -1,0 +1,17 @@
+digraph Credited  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Credited[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+sale[fillcolor = "azure1"]
+CreditedGroupLink[fillcolor = "azure1"]
+CreditedHeadingLink[fillcolor = "azure1"]
+SaleHist[fillcolor = "azure1"]
+Credited -> associate [headlabel = "registered_associate_id"]
+Credited -> associate [label = "updated_associate_id"]
+sale -> Credited [label = "credited_id"]
+CreditedGroupLink -> Credited [label = "credited_id"]
+CreditedHeadingLink -> Credited [label = "credited_id"]
+SaleHist -> Credited [label = "credited_id"]
+}

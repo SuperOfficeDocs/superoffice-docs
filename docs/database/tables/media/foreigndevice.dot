@@ -1,0 +1,14 @@
+digraph foreigndevice  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+foreigndevice[fillcolor = "cadetblue1"]
+foreignapp[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+foreignkey[fillcolor = "azure1"]
+foreigndevice -> foreignapp [headlabel = "foreignapp_id"]
+foreigndevice -> associate [headlabel = "owner_id"]
+foreigndevice -> associate [label = "registered_associate_id"]
+foreigndevice -> associate [label = "updated_associate_id"]
+foreignkey -> foreigndevice [label = "foreigndevice_id"]
+}

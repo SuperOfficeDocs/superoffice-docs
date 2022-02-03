@@ -1,0 +1,8 @@
+digraph tree_explorer_link  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+tree_explorer_link[fillcolor = "cadetblue1"]
+tree_explorer_entry[fillcolor = "azure1"]
+tree_explorer_link -> tree_explorer_entry [headlabel = "entry_id"]
+}

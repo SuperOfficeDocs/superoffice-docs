@@ -1,0 +1,17 @@
+digraph Reason  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Reason[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+sale[fillcolor = "azure1"]
+ReasonGroupLink[fillcolor = "azure1"]
+ReasonHeadingLink[fillcolor = "azure1"]
+SaleHist[fillcolor = "azure1"]
+Reason -> associate [headlabel = "registered_associate_id"]
+Reason -> associate [label = "updated_associate_id"]
+sale -> Reason [label = "reason_id"]
+ReasonGroupLink -> Reason [label = "reason_id"]
+ReasonHeadingLink -> Reason [label = "reason_id"]
+SaleHist -> Reason [label = "reason_id"]
+}

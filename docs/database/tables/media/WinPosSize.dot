@@ -1,0 +1,10 @@
+digraph WinPosSize  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+WinPosSize[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+WinPosSize -> associate [headlabel = "assoc_id"]
+WinPosSize -> associate [label = "registered_associate_id"]
+WinPosSize -> associate [label = "updated_associate_id"]
+}

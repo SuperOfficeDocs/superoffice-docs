@@ -1,0 +1,11 @@
+digraph ej_category  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ej_category[fillcolor = "cadetblue1"]
+ejuser[fillcolor = "azure1"]
+reply_template[fillcolor = "azure1"]
+ej_category -> ej_category [headlabel = "parent_id"]
+ej_category -> ejuser [headlabel = "category_master"]
+ej_category -> reply_template [headlabel = "reply_template"]
+}

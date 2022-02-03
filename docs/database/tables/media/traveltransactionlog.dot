@@ -1,0 +1,17 @@
+digraph traveltransactionlog  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+traveltransactionlog[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+travelgeneratedtransaction[fillcolor = "azure1"]
+traveller[fillcolor = "azure1"]
+travelcurrent[fillcolor = "azure1"]
+traveltransactionlog -> associate [headlabel = "associate_id"]
+travelgeneratedtransaction -> traveltransactionlog [label = "tranlogfirst_id"]
+travelgeneratedtransaction -> traveltransactionlog [label = "tranloglast_id"]
+traveller -> traveltransactionlog [label = "last_recordnumber"]
+traveller -> traveltransactionlog [label = "last_playbacknumber"]
+travelcurrent -> traveltransactionlog [label = "last_recordnumber"]
+travelcurrent -> traveltransactionlog [label = "first_recordnumber"]
+}

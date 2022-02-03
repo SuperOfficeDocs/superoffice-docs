@@ -1,0 +1,12 @@
+digraph ejsel_meta_result  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ejsel_meta_result[fillcolor = "cadetblue1"]
+ejselection[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+ejsel_result_set[fillcolor = "azure1"]
+ejsel_meta_result -> ejselection [headlabel = "ejselection"]
+ejsel_meta_result -> ejuser [headlabel = "owner"]
+ejsel_result_set -> ejsel_meta_result [label = "meta_result"]
+}

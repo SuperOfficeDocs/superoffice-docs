@@ -1,0 +1,12 @@
+digraph UserGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+UserGroupLink[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+UserGroupLink -> associate [headlabel = "assoc_id"]
+UserGroupLink -> UserGroup [headlabel = "UserGroup_id"]
+UserGroupLink -> associate [label = "registered_associate_id"]
+UserGroupLink -> associate [label = "updated_associate_id"]
+}

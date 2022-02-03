@@ -1,0 +1,19 @@
+digraph QuoteConnection  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+QuoteConnection[fillcolor = "cadetblue1"]
+ErpConnection[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+QuoteConnectionAccess[fillcolor = "azure1"]
+Quote[fillcolor = "azure1"]
+PriceList[fillcolor = "azure1"]
+ConnectionConfigField[fillcolor = "azure1"]
+QuoteConnection -> ErpConnection [headlabel = "ErpConnectionId"]
+QuoteConnection -> associate [headlabel = "registered_associate_id"]
+QuoteConnection -> associate [label = "updated_associate_id"]
+QuoteConnectionAccess -> QuoteConnection [label = "QuoteConnectionId"]
+Quote -> QuoteConnection [label = "QuoteConnectionId"]
+PriceList -> QuoteConnection [label = "QuoteConnectionId"]
+ConnectionConfigField -> QuoteConnection [label = "QuoteConnectionId"]
+}

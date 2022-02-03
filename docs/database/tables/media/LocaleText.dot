@@ -1,0 +1,9 @@
+digraph LocaleText  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+LocaleText[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+LocaleText -> associate [headlabel = "registered_associate_id"]
+LocaleText -> associate [label = "updated_associate_id"]
+}

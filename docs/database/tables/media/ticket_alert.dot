@@ -1,0 +1,23 @@
+digraph ticket_alert  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_alert[fillcolor = "cadetblue1"]
+ticket_priority[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+ejscript[fillcolor = "azure1"]
+reply_template[fillcolor = "azure1"]
+notify[fillcolor = "azure1"]
+ticket_alert -> ticket_priority [headlabel = "priority"]
+ticket_alert -> ejuser [headlabel = "delegate_to"]
+ticket_alert -> ejscript [headlabel = "script_id"]
+ticket_alert -> reply_template [headlabel = "reply_template_id_customer"]
+ticket_alert -> reply_template [label = "reply_template_id_user"]
+ticket_alert -> reply_template [label = "reply_template_id_catmast"]
+ticket_alert -> reply_template [label = "reply_template_id_email"]
+ticket_alert -> reply_template [label = "rti_customer_sms"]
+ticket_alert -> reply_template [label = "reply_template_id_user_sms"]
+ticket_alert -> reply_template [label = "reply_template_id_catmast_sms"]
+ticket_alert -> reply_template [label = "reply_template_id_sms"]
+notify -> ticket_alert [label = "ticket_alert_id"]
+}

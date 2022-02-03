@@ -1,0 +1,20 @@
+digraph ExternalEvent  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ExternalEvent[fillcolor = "cadetblue1"]
+Task[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+text[fillcolor = "azure1"]
+ExternalEvent -> Task [headlabel = "signOnTaskId"]
+ExternalEvent -> associate [headlabel = "signOnAssocId"]
+ExternalEvent -> text [headlabel = "signOnTextId"]
+ExternalEvent -> text [label = "signOnConfTextId"]
+ExternalEvent -> Task [label = "signOffTaskId"]
+ExternalEvent -> associate [label = "signOffAssocId"]
+ExternalEvent -> text [label = "signOffTextId"]
+ExternalEvent -> text [label = "signOffConfTextId"]
+ExternalEvent -> associate [label = "registered_associate_id"]
+ExternalEvent -> associate [label = "updated_associate_id"]
+text -> ExternalEvent [label = "owner_id" style="dashed"]
+}

@@ -1,0 +1,11 @@
+digraph LegalBase  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+LegalBase[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+ConsentPerson[fillcolor = "azure1"]
+LegalBase -> associate [headlabel = "registered_associate_id"]
+LegalBase -> associate [label = "updated_associate_id"]
+ConsentPerson -> LegalBase [label = "legalBase_id"]
+}

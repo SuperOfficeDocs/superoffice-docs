@@ -1,0 +1,8 @@
+digraph session_object  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+session_object[fillcolor = "cadetblue1"]
+login[fillcolor = "azure1"]
+session_object -> login [headlabel = "login_id"]
+}

@@ -1,0 +1,13 @@
+digraph AudienceLayout  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+AudienceLayout[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+AudienceLayoutLink[fillcolor = "azure1"]
+AudienceConfig[fillcolor = "azure1"]
+AudienceLayout -> associate [headlabel = "registered_associate_id"]
+AudienceLayout -> associate [label = "updated_associate_id"]
+AudienceLayoutLink -> AudienceLayout [label = "audienceLayoutId"]
+AudienceConfig -> AudienceLayout [label = "audienceLayoutId"]
+}

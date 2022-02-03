@@ -1,0 +1,13 @@
+digraph PaymentTerms  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PaymentTerms[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+PaymentTermsGroupLink[fillcolor = "azure1"]
+PaymentTermsHeadingLink[fillcolor = "azure1"]
+PaymentTerms -> associate [headlabel = "registered_associate_id"]
+PaymentTerms -> associate [label = "updated_associate_id"]
+PaymentTermsGroupLink -> PaymentTerms [label = "paymentterms_id"]
+PaymentTermsHeadingLink -> PaymentTerms [label = "paymentterms_id"]
+}

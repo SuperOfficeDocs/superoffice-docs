@@ -1,0 +1,6 @@
+digraph static_list_ref  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+static_list_ref[fillcolor = "cadetblue1"]
+}

@@ -1,0 +1,8 @@
+digraph locking  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+locking[fillcolor = "cadetblue1"]
+inbox[fillcolor = "azure1"]
+inbox -> locking [label = "locking_id"]
+}

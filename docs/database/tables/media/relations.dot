@@ -1,0 +1,14 @@
+digraph relations  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+relations[fillcolor = "cadetblue1"]
+relationdefinition[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+relations -> relationdefinition [headlabel = "reldef_id"]
+relations -> UserGroup [headlabel = "group_idx"]
+relations -> associate [headlabel = "registered_associate_id"]
+relations -> associate [label = "updated_associate_id"]
+relations -> associate [label = "associateId"]
+}
