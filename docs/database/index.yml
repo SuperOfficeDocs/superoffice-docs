@@ -6,8 +6,8 @@ brand: devdocs
 
 metadata:
   title: Database
-  description: Database
-  so.product: superid
+  description: "Learn about the SuperOffice database, Continuous Database Development, and Mirroring."
+  so.product: superoffice
   so.topic: hub-page
   so.collection: collection
   author: Bergfrid Dias

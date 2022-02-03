@@ -13,7 +13,7 @@ so.envir: onsite
 
 ## New tables
 
-### [outgoing\_message][1] (407) Delivery of outgoing messages to messageplugins, updated with status asynchroneously
+### [outgoing_message][1] (407) Delivery of outgoing messages to message plugins, updated with status asynchronously
 
 | Field | Type | Description |
 |---|---|---|

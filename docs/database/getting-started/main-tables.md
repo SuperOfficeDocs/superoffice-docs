@@ -1,8 +1,9 @@
 ---
 title: The main tables
 uid: main_db_tables
-description: The main tables
-author: {github-id}
+description: "Overview of the main database tables in SuperOffice."
+author: Bergfrid Dias
+so.date: 02.02.2022
 keywords: database
 so.topic: concept
 # so.envir:

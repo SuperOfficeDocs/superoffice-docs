@@ -1,7 +1,7 @@
 ---
 uid: table-appointment
 title: appointment table
-description: Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. 
+description: Tasks, appointments, followups, phone calls; and documents (document_id != 0).
 so.generated: true
 keywords:
   - "database"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # appointment Table (9)
+
+An appointment always has a corresponding record in VisibleFor specifying who may see this.
 
 ## Fields
 
