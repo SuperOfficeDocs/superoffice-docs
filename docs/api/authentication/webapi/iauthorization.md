@@ -1,7 +1,7 @@
 ---
 title: IAuthorization
 uid: iauthorization-intro
-description: IAuthorization
+description: "Introduction to IAuthorization and its built-in implementations."
 author: Anthony Yates
 so.date: 11.24.2021
 keywords: API, web services, proxy, WebAPI, REST, IAuthorization, credentials, AuthorizationSystemUserTicket, AuthorizationAccessToken, AuthorizationUserToken, jwks_uri

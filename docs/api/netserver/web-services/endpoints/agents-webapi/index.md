@@ -1,7 +1,7 @@
 ---
 title: Agents WebAPI
 uid: webapi_agents
-description: Agents Web API
+description: "The Agents API contains everything in the normal web service API but does not attempt to model entities."
 author: Bergfrid Dias
 so.date: 12.02.2021
 keywords: API, web services, endpoints, WebAPI, REST, Agents

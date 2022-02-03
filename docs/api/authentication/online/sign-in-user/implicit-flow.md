@@ -1,7 +1,7 @@
 ---
 title: OICD Implicit flow
 uid: oidc_implicit_flow
-description: OICD Implicit flow
+description: "Introduction to the OICD Implicit flow."
 author: {github-id}
 keywords: authentication, OAuth 2.0, OIDC, Implicit flow
 so.topic: concept

@@ -1,7 +1,7 @@
 ---
-uid: webhook_subscription       
-title: Webhook subscription 
-description: Webhook subscription 
+uid: webhook_subscription
+title: Webhook subscription
+description: "How to create a webhook using both NetServer core and web services."
 author: AnthonyYates
 so.date: 04.06.2018
 keywords: automation

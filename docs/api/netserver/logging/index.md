@@ -1,6 +1,7 @@
 ---
 uid: logging_netserver
 title: Logging in NetServer
+description: "Introduction to the ILogger-based plugin system for logging in NetServer."
 author: xt1
 so.date: 05.07.2021
 keywords: logging

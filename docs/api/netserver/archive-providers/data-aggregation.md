@@ -1,7 +1,7 @@
 ---
 title: Data aggregation
 uid: data_aggregation
-description: Data aggregation
+description: "Learn about data aggregation and aggregate functions."
 author: Tony Yates
 so.date: 11.17.2017.
 keywords:

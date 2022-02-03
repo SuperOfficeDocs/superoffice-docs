@@ -1,7 +1,7 @@
 ---
 uid: users_and_associates
 title: Users and associates
-description: Users and associates 
+description: "Learn about user types, user groups and the associate database table."
 author: {github-id}
 keywords: database
 so.topic: concept

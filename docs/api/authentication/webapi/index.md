@@ -1,7 +1,7 @@
 ---
 title: Authorization
 uid: webapi_auth
-description: Web API authentication
+description: "Authentication options for the SuperOffice WebAPI."
 author: AnthonyYates
 so.date: 12.17.2021
 keywords: security, authentication, WebAPI, SOTICKET, BEARER

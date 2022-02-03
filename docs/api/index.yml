@@ -6,7 +6,7 @@ brand: devdocs
 
 metadata:
   title: Learn SuperOffice APIs
-  description: SuperOffice Application Programming Interfaces.
+  description: "Introduction to SuperOffice APIs and authentication, the ins and outs of NetServer, and the complete API reference."
   so.product: dotnet
   so.topic: hub-page
   so.collection: collection

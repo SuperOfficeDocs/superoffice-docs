@@ -1,7 +1,7 @@
 ---
 title: Authorization Code flow
 uid: auth_code_flow
-description: Authorization Code flow
+description: "Introduction to the Authorization Code flow."
 author: {github-id}
 keywords: oidc
 so.topic: concept

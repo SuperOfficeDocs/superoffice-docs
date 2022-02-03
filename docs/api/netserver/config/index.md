@@ -1,7 +1,7 @@
 ---
 uid: nerserver_config
 title: NetServer configuration
-description: NetServer configuration
+description: "Introduction to the NetServer configuration file for SuperOffice with explanations and examples for each section."
 author: Bergfrid Dias
 so.date: 12.07.2021
 keywords: config, web.config, NetServer

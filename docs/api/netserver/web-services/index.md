@@ -1,7 +1,7 @@
 ---
 uid: netserver-web-services-overview
 title: NetServer web services
-description: The SuperOffice web services are the highest level for working with NetServer. This layer consists of endpoints based on WCF SOAP and RESTful WebAPI and web service proxies.
+description: "The SuperOffice web services are the highest level for working with NetServer."
 author: Bergfrid Dias
 so.date: 12.02.2021
 keywords: API, web services, endpoints, proxy, NetServer, SOAP, REST, Agent, SuperOffice.CRM.Services, DTO, carrier

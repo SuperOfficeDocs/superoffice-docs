@@ -1,7 +1,7 @@
 ---
 title: Webhook secrets
 uid: webhook_security
-description: Webhook secrets
+description: "How to verify that the webhook has not been tampered with."
 author: Tony Yates
 so.date: 04.06.2018
 keywords:
