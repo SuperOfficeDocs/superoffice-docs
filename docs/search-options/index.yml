@@ -34,7 +34,7 @@ highlightedContent:
     # Card
     - title: Selection table
       itemType: reference
-      url: ../../../database/docs/tables/selection.md
+      url: ../database/tables/selection.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -173,28 +173,28 @@ conceptualContent:
       links:
       - text: Selection table
         itemType: reference
-        url: ../../../database/docs/tables/selection.md
+        url: ../database/tables/selection.md
       - text: SelectionMember table
         itemType: reference
-        url: ../../../database/docs/tables/selectionmember.md
+        url: ../database/tables/selectionmember.md
       - text: Associate table
         itemType: reference
-        url: ../../../database/docs/tables/associate.md
+        url: ../database/tables/associate.md
       - text: UserGroup table
         itemType: reference
-        url: ../../../database/docs/tables/usergroup.md
+        url: ../database/tables/usergroup.md
       - text: VisibleFor table
         itemType: reference
-        url: ../../../database/docs/tables/visiblefor.md
+        url: ../database/tables/visiblefor.md
       - text: SearchCat table
         itemType: reference
-        url: ../../../database/docs/tables/searchcat.md
+        url: ../database/tables/searchcat.md
       - text: FreetextIndex table
         itemType: reference
-        url: ../../../database/docs/tables/freetextindex.md
+        url: ../database/tables/freetextindex.md
       - text: FreetextWords table
         itemType: reference
-        url: ../../../database/docs/tables/freetextwords.md
+        url: ../database/tables/freetextwords.md
       - text: FreetextStopwords table
         itemType: reference
-        url: ../../../database/docs/tables/freetextstopwords.md
+        url: ../database/tables/freetextstopwords.md

@@ -11,5 +11,20 @@ items:
   items:
   - name: "8.5"
     href: 8.5/toc.yml
-
-
+- name: Database changes
+  href: database/index.md
+  items:
+  - name: Changes 6-7
+    href: database/changes-6-7.md
+  - name: Changes 7
+    href: database/changes-7.md
+  - name: Changes 70-71
+    href: database/changes-70-71.md
+  - name: Changes 71-75
+    href: database/changes-71-75.md
+  - name: Changes 75 80
+    href: database/changes-75-80.md
+  - name: Changes 81
+    href: database/changes-81.md
+  - name: Whats new in 9.8.7717.1401
+    href: database/Whats New in 9.8.7717.1401.md

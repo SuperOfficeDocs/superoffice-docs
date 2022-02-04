@@ -278,6 +278,6 @@ The line will also include **information duplicated from the product** (rather t
 For a complete list of fields, see the [database reference][3].
 
 <!-- Referenced links -->
-[1]: ./quote-properties.md
-[2]: ../../../database/docs/tables/quotealternative.md
-[3]: ../../../database/docs/tables/quoteline.md
+[1]: quote-properties.md
+[2]: ../../../database/tables/quotealternative.md
+[3]: ../../../database/tables/quoteline.md

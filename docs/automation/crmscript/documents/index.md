@@ -51,11 +51,11 @@ When working with documents, data will often intersect with the following entiti
 * [sale][10]
 
 <!-- Referenced links -->
-[1]: ../../../database/docs/tables/document.md
+[1]: ../../../database/tables/document.md
 [2]: ../follow-ups/appointment.md
 [3]: ../follow-ups/task.md
 [4]: ../follow-ups/call.md
-[5]: ../../../database/docs/tables/appointment.md
+[5]: ../../../database/tables/appointment.md
 [6]: ../api-reference/CRMScript.NetServer.NSAppointment.yml
 [7]: ../persons-and-organizations/company.md
 [8]: ../persons-and-organizations/customer.md

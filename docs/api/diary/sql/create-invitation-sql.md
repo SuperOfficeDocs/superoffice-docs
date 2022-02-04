@@ -127,6 +127,6 @@ UPDATE CRM."countervalue" SET "CounterValue_id" = 16595, "contact_id" = 13, "per
 [Appointment table][1]
 
 <!-- Referenced links -->
-[1]: ../../../../database/docs/tables/appointment.md
+[1]: ../../../database/tables/appointment.md
 
 <!-- Referenced images -->

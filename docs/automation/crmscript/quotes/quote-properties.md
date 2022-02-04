@@ -221,5 +221,5 @@ For a complete list of fields, see the [database reference][8].
 [4]: quote-alternatives.md
 [5]: quote-document.md
 [6]: quote-order.md
-[7]: ../../../database/docs/tables/quote.md
-[8]: ../../../database/docs/tables/quoteversion.md
+[7]: ../../../database/tables/quote.md
+[8]: ../../../database/tables/quoteversion.md

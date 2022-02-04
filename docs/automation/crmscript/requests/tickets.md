@@ -494,4 +494,4 @@ For a complete list of fields, see the [database reference][6].
 [3]: <xref:CRMScript.Native.Ticket.getValue(String)>
 [4]: ../parser-and-templates/reply-template.md
 [5]: ../parser-and-templates/parser.md
-[6]: ../../../database/docs/tables/ticket.md
+[6]: ../../../database/tables/ticket.md

@@ -87,4 +87,4 @@ All other calculations are happening in the background. We use `time_counter` to
 1. autolist
 
 <!-- Referenced links -->
-[1]: ../../../database/docs/tables/ticket-priority.md
+[1]: ../../../database/tables/ticket-priority.md

@@ -100,7 +100,7 @@ AND a.atype_idx = 2
 | Client System AS | Tidligere kunde | IT og telecom | 66 77 63 90 | Norway | 15834 | 15184 | 2 | |
 
 <!-- Referenced links -->
-[1]: ../../../../database/docs/tables/phone.md
-[2]: ../../../../database/docs/tables/address.md
+[1]: ../../../database/tables/phone.md
+[2]: ../../../database/tables/address.md
 
 <!-- Referenced images -->

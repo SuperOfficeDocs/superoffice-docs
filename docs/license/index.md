@@ -79,6 +79,6 @@ User plans are what the user is paying for. They define multiple implied, hidden
 The same SCIM caveat applies: count the number of user plans in use, rather than the total number available.
 
 <!-- Referenced links -->
-[1]: ../../../database/docs/tables/ModuleOwner.md
-[2]: ../../../database/docs/tables/ModuleLicense.md
-[3]: ../../../database/docs/tables/LicenseAssocLink.md
+[1]: ../database/tables/ModuleOwner.md
+[2]: ../database/tables/ModuleLicense.md
+[3]: ../database/tables/LicenseAssocLink.md

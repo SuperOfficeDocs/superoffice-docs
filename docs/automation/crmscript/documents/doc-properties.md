@@ -221,5 +221,5 @@ For a complete list of fields, see the [database reference][3].
 <!-- Referenced links -->
 [1]: doc-templates.md
 [2]: ../sales/guides.md
-[3]: ../../../database/docs/tables/document.md
+[3]: ../../../database/tables/document.md
 [4]: ../persons-and-organizations/index.md

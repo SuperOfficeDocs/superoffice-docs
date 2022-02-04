@@ -40,7 +40,7 @@ And in the client:
 ![x -screenshot][img3]
 
 <!-- Referenced links -->
-[1]: ../../../../database/docs/tables/prefdesc.md
+[1]: ../../database/tables/prefdesc.md
 
 <!-- Referenced images -->
 [img1]: media/prefdesc.jpg

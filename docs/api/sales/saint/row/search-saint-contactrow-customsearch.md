@@ -38,4 +38,4 @@ CRM.countervalue.totalReg > 2
 > It is not necessary to set the `IsDistinct` property to True. But the join statement returns a large number of rows with the same `contact_id`, and therefore it would be better to set the `IsDistinct` property to True.
 
 <!-- Referenced links -->
-[1]:  ../../../../../database/docs/tables/countervalue.md
+[1]: ../../../../database/tables/countervalue.md

@@ -217,7 +217,7 @@ See the [full list of encodings][5].
 
 <!-- Referenced links -->
 [1]: ../parser-and-templates/reply-template.md
-[2]: ../../../database/docs/tables/heading.md
+[2]: ../../../database/tables/heading.md
 [3]: ../../../superoffice-docs/docs/document/templates/index.md
-[4]: ../../../database/docs/tables/doctmpl.md
+[4]: ../../../database/tables/doctmpl.md
 [5]: ../../../data-access/docs/api-reference/netserver/core/SuperOffice.Data.GeneratorEncoding.yml

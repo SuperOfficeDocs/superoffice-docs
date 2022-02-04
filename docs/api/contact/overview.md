@@ -136,8 +136,8 @@ You can get a `Contact` entity either by using the classes provided in the entit
 [7]: entity/get-contact-via-entities-layer.md
 [8]: services/get-contact-via-services-layer.md
 [9]: sql/create-contact-sql.md
-[10]: ../../../database/docs/tables/phone.md
-[11]: ../../../database/docs/tables/address.md
+[10]: ../../database/tables/phone.md
+[11]: ../../database/tables/address.md
 
 <!-- Referenced images -->
 [img1]: media/so-contact.gif

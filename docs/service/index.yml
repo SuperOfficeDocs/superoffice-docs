@@ -78,7 +78,7 @@ conceptualContent:
         url: ../../../crmscript/docs/parser-and-templates/parser.md
       - text: Database table
         itemType: reference
-        url: ../../../database/docs/tables/reply-template.md
+        url: ../database/tables/reply-template.md
     # Card
     - title: Customer center
       summary: ""

@@ -269,4 +269,4 @@ For a complete list of fields, see the [database reference][3].
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Customer.setValue(String,String)>
 [2]: ../parser-and-templates/reply-template.md
-[3]: ../../../database/docs/tables/person.md
+[3]: ../../../database/tables/person.md

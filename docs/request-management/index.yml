@@ -34,7 +34,7 @@ highlightedContent:
     # Card
     - title: Ticket database table
       itemType: reference
-      url: ../../../database/docs/tables/ticket.md
+      url: ../database/tables/ticket.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -191,34 +191,34 @@ conceptualContent:
       links:
       - text: Ticket table
         itemType: reference
-        url: ../../../database/docs/tables/ticket.md
+        url: ../database/tables/ticket.md
       - text: Ticket type table
         itemType: reference
-        url: ../../../database/docs/tables/ticket-type.md
+        url: ../database/tables/ticket-type.md
       - text: Ticket status table
         itemType: reference
-        url: ../../../database/docs/tables/ticket-status.md
+        url: ../database/tables/ticket-status.md
       - text: Ticket priority table
         itemType: reference
-        url: ../../../database/docs/tables/ticket-priority.md
+        url: ../database/tables/ticket-priority.md
       - text: Reply template table
         itemType: reference
-        url: ../../../database/docs/tables/reply-template.md
+        url: ../database/tables/reply-template.md
       - text: Message table
         itemType: reference
-        url: ../../../database/docs/tables/message.md
+        url: ../database/tables/message.md
       - text: Contact table
         itemType: reference
-        url: ../../../database/docs/tables/contact.md
+        url: ../database/tables/contact.md
       - text: Person table
         itemType: reference
-        url: ../../../database/docs/tables/person.md
+        url: ../database/tables/person.md
       - text: EjUser table
         itemType: reference
-        url: ../../../database/docs/tables/ejuser.md
+        url: ../database/tables/ejuser.md
       - text: EjCategory table
         itemType: reference
-        url: ../../../database/docs/tables/ej-category.md
+        url: ../database/tables/ej-category.md
       - text: Form submission table
         itemType: reference
-        url: ../../../database/docs/tables/form-submission.md
+        url: ../database/tables/form-submission.md

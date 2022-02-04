@@ -176,5 +176,5 @@ For a complete list of fields, see the [database reference][1].
 For a complete list of fields, see the [database reference][2].
 
 <!-- Referenced links -->
-[1]: ../../../database/docs/tables/product.md
-[2]: ../../../database/docs/tables/pricelist.md
+[1]: ../../../database/tables/product.md
+[2]: ../../../database/tables/pricelist.md

@@ -79,6 +79,6 @@ For each change to a ticket, new entries are added to both the **ticket_log_acti
 
 <!-- Referenced links -->
 [1]: ../searchengine/index.md
-[2]: ../../../database/docs/tables/ticket-log.md
-[3]: ../../../database/docs/tables/ticket-log-action.md
-[4]: ../../../database/docs/tables/ticket-log-change.md
+[2]: ../../../database/tables/ticket-log.md
+[3]: ../../../database/tables/ticket-log-action.md
+[4]: ../../../database/tables/ticket-log-change.md

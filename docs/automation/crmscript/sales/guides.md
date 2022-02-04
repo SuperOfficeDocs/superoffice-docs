@@ -169,6 +169,6 @@ myBlueprint = appointmentAgent.SaveSuggestedAppointmentEntity(myBlueprint);
 For a complete list of fields, see the [database reference][3].
 
 <!-- Referenced links -->
-[1]: ../../../database/docs/tables/saletypestagelink.md
+[1]: ../../../database/tables/saletypestagelink.md
 [2]: ../documents/doc-properties.md
-[3]: ../../../database/docs/tables/suggestedappointment.md
+[3]: ../../../database/tables/suggestedappointment.md

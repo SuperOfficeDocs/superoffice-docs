@@ -138,4 +138,4 @@ For a complete list of fields, see the [database reference][3].
 <!-- Referenced links -->
 [1]: ../requests/tickets.md
 [2]: ../follow-ups/index.md
-[3]: ../../../database/docs/tables/sale.md
+[3]: ../../../database/tables/sale.md

@@ -30,7 +30,7 @@ highlightedContent:
     # Card
     - title: Sale table
       itemType: reference
-      url: ../../../database/docs/tables/sale.md
+      url: ../database/tables/sale.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -154,37 +154,37 @@ conceptualContent:
       links:
       - text: Sale table
         itemType: reference
-        url: ../../../database/docs/tables/sale.md
+        url: ../database/tables/sale.md
       - text: Saletype table
         itemType: reference
-        url: ../../../database/docs/tables/saletype.md
+        url: ../database/tables/saletype.md
       - text: Salehist table
         itemType: reference
-        url: ../../../database/docs/tables/salehist.md
+        url: ../database/tables/salehist.md
       - text: Salestakeholder table
         itemType: reference
-        url: ../../../database/docs/tables/salestakeholder.md
+        url: ../database/tables/salestakeholder.md
       - text: Reason table
         itemType: reference
-        url: ../../../database/docs/tables/reason.md
+        url: ../database/tables/reason.md
       - text: Currency table
         itemType: reference
-        url: ../../../database/docs/tables/currency.md
+        url: ../database/tables/currency.md
       - text: Associate table
         itemType: reference
-        url: ../../../database/docs/tables/associate.md
+        url: ../database/tables/associate.md
       - text: Appointment table
         itemType: reference
-        url: ../../../database/docs/tables/appointment.md
+        url: ../database/tables/appointment.md
       - text: Project table
         itemType: reference
-        url: ../../../database/docs/tables/project.md
+        url: ../database/tables/project.md
       - text: Quote table
         itemType: reference
-        url: ../../../database/docs/tables/quote.md
+        url: ../database/tables/quote.md
       - text: UdsaleSmall table
         itemType: reference
-        url: ../../../database/docs/tables/udsalesmall.md
+        url: ../database/tables/udsalesmall.md
       - text: UdsaleLarge table
         itemType: reference
-        url: ../../../database/docs/tables/udsalelarge.md
+        url: ../database/tables/udsalelarge.md

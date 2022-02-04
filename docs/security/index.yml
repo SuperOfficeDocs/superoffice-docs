@@ -184,7 +184,7 @@ additionalContent:
       - title: Database
         links:
         - text: The credentials database table
-          url: ../../../database/docs/tables/credentials.md
+          url: ../database/tables/credentials.md
         - text: Single database user
           url: ../../../database/docs/security/single-database-user.md
         - text: Mirroring blacklisted tables

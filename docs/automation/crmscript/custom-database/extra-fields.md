@@ -227,4 +227,4 @@ All users who have this role will now be able to see the extra field in the **De
 [4]: ../requests/tickets.md
 [5]: ../persons-and-organizations/user.md
 [6]: extra-tables.md
-[7]: ../../../database/docs/tables/extra-fields.md
+[7]: ../../../database/tables/extra-fields.md

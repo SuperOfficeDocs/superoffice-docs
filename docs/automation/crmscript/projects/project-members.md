@@ -157,4 +157,4 @@ For a complete list of fields, see the [database reference][2].
 
 <!-- Referenced links -->
 [1]: ../persons-and-organizations/customer.md
-[2]: ../../../database/docs/tables/projectmember.md
+[2]: ../../../database/tables/projectmember.md

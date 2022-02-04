@@ -59,4 +59,4 @@ Resources are typically meeting rooms or equipment such as projectors.
 [Database reference][1]
 
 <!-- Referenced links -->
-[1]: ../../../database/docs/tables/associate.md
+[1]: ../../../database/tables/associate.md

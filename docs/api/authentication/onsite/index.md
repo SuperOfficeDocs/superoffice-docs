@@ -159,6 +159,6 @@ For the time being, a user can have either password or AD authentication. The da
 <!-- Referenced links -->
 [1]: http://en.wikipedia.org/wiki/Globally_Unique_Identifier
 [2]: pipeline.md
-[3]: ../../../../database/docs/tables/credentials.md
+[3]: ../../database/tables/credentials.md
 
 <!-- Referenced images -->

@@ -165,7 +165,7 @@ For a complete list of fields, see the [database reference][6].
 <!-- Referenced links -->
 [1]: ../follow-ups/index.md
 [2]: ../documents/index.md
-[3]: ../../../database/docs/tables/projecttypestatuslink.md
+[3]: ../../../database/tables/projecttypestatuslink.md
 [4]: ../documents/doc-properties.md
-[5]: ../../../database/docs/tables/suggestedappointment.md
-[6]: ../../../database/docs/tables/suggesteddocument.md
+[5]: ../../../database/tables/suggestedappointment.md
+[6]: ../../../database/tables/suggesteddocument.md

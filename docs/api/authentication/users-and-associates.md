@@ -123,7 +123,7 @@ The `group_id` field stores the associate's primary group at the time the `assoc
 > When setting the `associate_id` field on something, you must make sure to also update the `group_id` field.
 
 <!-- Referenced links -->
-[1]: ../../../database/docs/tables/ownercontactlink.md
+[1]: ../../database/tables/ownercontactlink.md
 [2]: onsite/config-anonymous-user.md
 [3]: onsite/config-external-user.md
 

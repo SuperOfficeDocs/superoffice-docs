@@ -198,11 +198,11 @@ When storing typical searches to the database it’s would be possible to use a 
 **Continue reading:** [Details regarding export and import of typical search][6]
 
 <!-- Referenced links -->
-[1]: ../../../../../database/docs/tables/searchcriteria.md
-[2]: ../../../../../database/docs/tables/searchcriteriagroup.md
-[3]: ../../../../../database/docs/tables/searchcriterion.md
-[4]: ../../../../../database/docs/tables/searchcriterionvalue.md
-[5]: ../../../../../database/docs/tables/typicalsearch.md
+[1]: ../../../../database/tables/searchcriteria.md
+[2]: ../../../../database/tables/searchcriteriagroup.md
+[3]: ../../../../database/tables/searchcriterion.md
+[4]: ../../../../database/tables/searchcriterionvalue.md
+[5]: ../../../../database/tables/typicalsearch.md
 [6]: import-export-typical-search.md
 
 <!-- Referenced images -->

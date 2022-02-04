@@ -34,7 +34,7 @@ highlightedContent:
         # Card
     - title: Appointment database table
       itemType: reference
-      url: ../../../database/docs/tables/appointment.md
+      url: ../database/tables/appointment.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -107,10 +107,10 @@ conceptualContent:
         url: ../../../data-access/docs/custom-fields/overview.md
       - text: UdappntSmall table
         itemType: reference
-        url: ../../../database/docs/tables/udappntsmall.md
+        url: ../database/tables/udappntsmall.md
       - text: UdappntLarge table
         itemType: reference
-        url: ../../../database/docs/tables/udappntlarge.md
+        url: ../database/tables/udappntlarge.md
 
     # Card
     - title: Actions options
@@ -158,37 +158,37 @@ conceptualContent:
       links:
       - text: Appointment table
         itemType: reference
-        url: ../../../database/docs/tables/appointment.md
+        url: ../database/tables/appointment.md
       - text: Invitation table
         itemType: reference
-        url: ../../../database/docs/tables/invitation.md
+        url: ../database/tables/invitation.md
       - text: RecurrenceRule table
         itemType: reference
-        url: ../../../database/docs/tables/recurrencerule.md
+        url: ../database/tables/recurrencerule.md
       - text: Priority table
         itemType: reference
-        url: ../../../database/docs/tables/priority.md
+        url: ../database/tables/priority.md
       - text: DiaryView table
         itemType: reference
-        url: ../../../database/docs/tables/diaryview.md
+        url: ../database/tables/diaryview.md
       - text: Task table
         itemType: reference
-        url: ../../../database/docs/tables/task.md
+        url: ../database/tables/task.md
       - text: Project table
         itemType: reference
-        url: ../../../database/docs/tables/project.md
+        url: ../database/tables/project.md
       - text: SuggestedAppointment table
         itemType: reference
-        url: ../../../database/docs/tables/suggestedappointment.md
+        url: ../database/tables/suggestedappointment.md
       - text: Associate table
         itemType: reference
-        url: ../../../database/docs/tables/associate.md
+        url: ../database/tables/associate.md
       - text: UserGroup table
         itemType: reference
-        url: ../../../database/docs/tables/usergroup.md
+        url: ../database/tables/usergroup.md
       - text: UdappntSmall table
         itemType: reference
-        url: ../../../database/docs/tables/udappntsmall.md
+        url: ../database/tables/udappntsmall.md
       - text: UdappntLarge table
         itemType: reference
-        url: ../../../database/docs/tables/udappntlarge.md
+        url: ../database/tables/udappntlarge.md

@@ -122,19 +122,19 @@ conceptualContent:
       links:
       - text: Udeffield table
         itemType: reference
-        url: ../../../database/docs/tables/udeffield.md
+        url: ../database/tables/udeffield.md
       - text: udpersonsmall table
         itemType: reference
-        url: ../../../database/docs/tables/udpersonsmall.md
+        url: ../database/tables/udpersonsmall.md
       - text: udpersonlarge table
         itemType: reference
-        url: ../../../database/docs/tables/udpersonlarge.md
+        url: ../database/tables/udpersonlarge.md
       - text: udlist table
         itemType: reference
-        url: ../../../database/docs/tables/udlist.md
+        url: ../database/tables/udlist.md
       - text: extra_tables table
         itemType: reference
-        url: ../../../database/docs/tables/extra-tables.md
+        url: ../database/tables/extra-tables.md
       - text: extra_fields table
         itemType: reference
-        url: ../../../database/docs/tables/extra-fields.md
+        url: ../database/tables/extra-fields.md

@@ -34,7 +34,7 @@ highlightedContent:
     # Card
     - title: Person database table
       itemType: reference
-      url: ../../../database/docs/tables/person.md
+      url: ../database/tables/person.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -110,10 +110,10 @@ conceptualContent:
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM
       - text: UdpersonSmall table
         itemType: reference
-        url: ../../../database/docs/tables/udpersonsmall.md
+        url: ../database/tables/udpersonsmall.md
       - text: UdpersonLarge table
         itemType: reference
-        url: ../../../database/docs/tables/udpersonlarge.md
+        url: ../database/tables/udpersonlarge.md
 
     # Card
     - title: Actions options
@@ -164,25 +164,25 @@ conceptualContent:
       links:
       - text: Contact table
         itemType: reference
-        url: ../../../database/docs/tables/contact.md
+        url: ../database/tables/contact.md
       - text: Person table
         itemType: reference
-        url: ../../../database/docs/tables/person.md
+        url: ../database/tables/person.md
       - text: Associate table
         itemType: reference
-        url: ../../../database/docs/tables/associate.md
+        url: ../database/tables/associate.md
       - text: Address table
         itemType: reference
-        url: ../../../database/docs/tables/address.md
+        url: ../database/tables/address.md
       - text: Country table
         itemType: reference
-        url: ../../../database/docs/tables/country.md
+        url: ../database/tables/country.md
       - text: Business table
         itemType: reference
-        url: ../../../database/docs/tables/business.md
+        url: ../database/tables/business.md
       - text: UdpersonSmall table
         itemType: reference
-        url: ../../../database/docs/tables/udpersonsmall.md
+        url: ../database/tables/udpersonsmall.md
       - text: UdpersonLarge table
         itemType: reference
-        url: ../../../database/docs/tables/udpersonlarge.md
+        url: ../database/tables/udpersonlarge.md

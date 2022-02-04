@@ -77,13 +77,13 @@ There may be several URLs all referencing the same `project_id`. This is OK. The
 [2]: text-table.md
 [3]: project-guide.md
 [4]: create-project.md
-[5]: ../../../database/docs/tables/project.md
-[6]: ../../../database/docs/tables/projtype.md
-[7]: ../../../database/docs/tables/projstatus.md
-[8]: ../../../database/docs/tables/associate.md
-[9]: ../../../database/docs/tables/udprojectsmall.md
-[10]: ../../../database/docs/tables/udprojectlarge.md
-[11]: ../../../database/docs/tables/udeffield.md
+[5]: ../../database/tables/project.md
+[6]: ../../database/tables/projtype.md
+[7]: ../../database/tables/projstatus.md
+[8]: ../../database/tables/associate.md
+[9]: ../../database/tables/udprojectsmall.md
+[10]: ../../database/tables/udprojectlarge.md
+[11]: ../../database/tables/udeffield.md
 [12]: ../../../superoffice-docs/docs/license/user-plans.md
 
 <!-- Referenced images -->

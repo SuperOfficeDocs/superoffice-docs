@@ -171,13 +171,13 @@ Given this information, we can determine that the column identity values for the
 * [udappntsmall table][7]
 
 <!-- Referenced links -->
-[1]: ../../../database/docs/tables/udeffield.md
-[2]: ../../../database/docs/tables/udcontactsmall.md
-[3]: ../../../database/docs/tables/udpersonsmall.md
-[4]: ../../../database/docs/tables/udprojectsmall.md
-[5]: ../../../database/docs/tables/udsalesmall.md
-[6]: ../../../database/docs/tables/uddocsmall.md
-[7]: ../../../database/docs/tables/udappntsmall.md
+[1]: ../../database/tables/udeffield.md
+[2]: ../../database/tables/udcontactsmall.md
+[3]: ../../database/tables/udpersonsmall.md
+[4]: ../../database/tables/udprojectsmall.md
+[5]: ../../database/tables/udsalesmall.md
+[6]: ../../database/tables/uddocsmall.md
+[7]: ../../database/tables/udappntsmall.md
 
 <!-- Referenced images -->
 [img2]: media/udef-diagram.png

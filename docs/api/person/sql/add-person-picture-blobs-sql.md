@@ -48,5 +48,5 @@ INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "pre
 ```
 
 <!-- Referenced links -->
-[1]: ../../../../database/docs/tables/binaryobject.md
-[2]: ../../../../database/docs/tables/binaryobjectlink.md
+[1]: ../../../database/tables/binaryobject.md
+[2]: ../../../database/tables/binaryobjectlink.md

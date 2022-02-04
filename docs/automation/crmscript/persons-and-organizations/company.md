@@ -241,4 +241,4 @@ For a complete list of fields, see the [database reference][5].
 [2]: ../parser-and-templates/reply-template.md
 [3]: addresses.md
 [4]: ../netserver/ns-agents-and-carriers.md
-[5]: ../../../database/docs/tables/contact.md
+[5]: ../../../database/tables/contact.md

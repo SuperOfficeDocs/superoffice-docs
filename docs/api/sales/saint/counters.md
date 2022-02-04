@@ -61,8 +61,8 @@ SELECT * FROM countervalue where project_id =47 and sale_status in (1,2,4) and a
 * [statusdef table][3]
 
 <!-- Referenced links -->
-[1]: ../../../../database/docs/tables/countervalue.md
-[2]: ../../../../database/docs/tables/statusvalue.md
-[3]: ../../../../database/docs/tables/statusdef.md
+[1]: ../../../database/tables/countervalue.md
+[2]: ../../../database/tables/statusvalue.md
+[3]: ../../../database/tables/statusdef.md
 
 <!-- Referenced images -->

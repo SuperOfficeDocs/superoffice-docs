@@ -173,4 +173,4 @@ For a complete list of fields, see the [database reference][7].
 [4]: ../persons-and-organizations/company.md
 [5]: project-members.md
 [6]: project-guides.md
-[7]: ../../../database/docs/tables/project.md
+[7]: ../../../database/tables/project.md

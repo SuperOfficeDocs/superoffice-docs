@@ -63,9 +63,9 @@ To summarize in diagram form:
 * [relationtarget table][4]
 
 <!-- Referenced links -->
-[1]: ../../../../database/docs/tables/relationdefinition.md
-[2]: ../../../../database/docs/tables/relations.md
-[4]: ../../../../database/docs/tables/relationtarget.md
+[1]: ../../../database/tables/relationdefinition.md
+[2]: ../../../database/tables/relations.md
+[4]: ../../../database/tables/relationtarget.md
 
 <!-- Referenced images -->
 [img1]: ../../sales/saint/entity/media/sale-apt-link.png

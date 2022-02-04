@@ -46,5 +46,5 @@ It has generated a soundex value based on the project’s `name` field. This val
 It has timestamped and marked the record with the creator. You can see this in the registered and `registered_associate` fields.
 
 <!-- Referenced links -->
-[1]: ../../../database/docs/tables/project.md
-[2]: ../../../database/docs/tables/text.md
+[1]: ../../database/tables/project.md
+[2]: ../../database/tables/text.md

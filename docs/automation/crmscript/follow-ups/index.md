@@ -62,7 +62,7 @@ When working with follow-ups, data will often intersect with the following entit
 [3]: appointment.md
 [4]: task.md
 [5]: call.md
-[6]: ../../../database/docs/tables/appointment.md
+[6]: ../../../database/tables/appointment.md
 [7]: ../api-reference/CRMScript.NetServer.NSAppointment.yml
 [8]: ../persons-and-organizations/company.md
 [9]: ../persons-and-organizations/customer.md

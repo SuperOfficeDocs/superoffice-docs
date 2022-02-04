@@ -42,7 +42,7 @@ highlightedContent:
     # Card
     - title: "Document table"
       itemType: reference
-      url: ../../../database/docs/tables/document.md
+      url: ../database/tables/document.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -109,10 +109,10 @@ conceptualContent:
         url: ../../../data-access/docs/custom-fields/overview.md
       - text: UddocSmall table
         itemType: reference
-        url: ../../../database/docs/tables/uddocsmall.md
+        url: ../database/tables/uddocsmall.md
       - text: UddocLarge table
         itemType: reference
-        url: ../../../database/docs/tables/uddoclarge.md
+        url: ../database/tables/uddoclarge.md
 
     # Card
     - title: Actions options
@@ -154,28 +154,28 @@ conceptualContent:
       links:
       - text: Document table
         itemType: reference
-        url: ../../../database/docs/tables/document.md
+        url: ../database/tables/document.md
       - text: SuggestedDocument table
         itemType: reference
-        url: ../../../database/docs/tables/suggesteddocument.md
+        url: ../database/tables/suggesteddocument.md
       - text: DocTmpl table
         itemType: reference
-        url: ../../../database/docs/tables/doctmpl.md
+        url: ../database/tables/doctmpl.md
       - text: Associate table
         itemType: reference
-        url: ../../../database/docs/tables/associate.md
+        url: ../database/tables/associate.md
       - text: Quote table
         itemType: reference
-        url: ../../../database/docs/tables/quote.md
+        url: ../database/tables/quote.md
       - text: Appointment table
         itemType: reference
-        url: ../../../database/docs/tables/appointment.md
+        url: ../database/tables/appointment.md
       - text: UddocSmall table
         itemType: reference
-        url: ../../../database/docs/tables/uddocsmall.md
+        url: ../database/tables/uddocsmall.md
       - text: UddocLarge table
         itemType: reference
-        url: ../../../database/docs/tables/uddoclarge.md
+        url: ../database/tables/uddoclarge.md
 
 # Card with summary style
 additionalContent:

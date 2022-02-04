@@ -144,4 +144,4 @@ For a complete list of fields, see the [database reference][3].
 <!-- Referenced links -->
 [1]: ../persons-and-organizations/company.md
 [2]: ../persons-and-organizations/customer.md
-[3]: ../../../database/docs/tables/salestakeholder.md
+[3]: ../../../database/tables/salestakeholder.md

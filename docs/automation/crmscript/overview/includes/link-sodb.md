@@ -1,1 +1,1 @@
-[Database reference](../../../../database/docs/tables/index.md)
+[Database reference](../../../../database/tables/index.md)
