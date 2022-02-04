@@ -1,8 +1,8 @@
 items:
 - name: SuperOffice APIs
-  href: getting-started/index.md
+  href: overview/index.md
 - name: NetServer fundamentals
-  href: netserver/index.md
+  href: overview/netserver.md
 - name: Authentication
   href: authentication/index.yml
   items:
@@ -467,75 +467,5 @@ items:
     - name: Raw SQL
       href: security/sentry/sql/set-override-sql.md
 - name: Plug-ins
-  href: netserver/plug-ins/index.md
-  items:
-  - name: Document plug-in
-    href: documents/plugins/soarc-document-plugin.md
-  - name: ERP Connector
-    href: netserver/erp-connectors/index.md
-    items:
-    - name: Terminology
-      href: netserver/erp-connectors/terminology.md
-    - name: ERP Sync Engine
-      href: netserver/erp-connectors/sync-operation.md
-    - name: Automatic field mapping
-      href: netserver/erp-connectors/automatic-field-mapping.md
-    - name: ERP Sync client
-      href: netserver/erp-connectors/client-gui.md
-    - name: Architecture
-      href: netserver/erp-connectors/architecture/index.md
-      items:
-      - name: Sync Service
-        href: netserver/erp-connectors/architecture/sync-service.md
-      - name: SOAP Sync Service
-        href: netserver/erp-connectors/architecture/soap-service.md
-      - name: WCF Host
-        href: netserver/erp-connectors/architecture/wcf-host.md
-      - name: Multi-hosting
-        href: netserver/erp-connectors/architecture/wcf-host.md#multi-hosting
-    - name: Working with ERP Sync
-      href: netserver/erp-connectors/getting-started.md
-      items:
-      - name: Configure ERP Sync connection
-        href: netserver/erp-connectors/setup-connection.md
-      - name: Show fields in GUI and search
-        href: netserver/erp-connectors/search/show-fields.md
-      - name: Setup ERP field mapping
-        href: netserver/erp-connectors/setup-mapping.md
-      - name: Setup default values
-        href: netserver/erp-connectors/setup-defaults.md
-      - name: Setup field ranking
-        href: netserver/erp-connectors/ranking-fields.md
-      - name: Importing from ERP Sync
-        href: netserver/erp-connectors/import.md
-      - name: Company walk-through
-        href: netserver/erp-connectors/tutorial.md
-    - name: API
-      href: netserver/erp-connectors/api/index.md
-      items:
-      - name: IErpConnector
-        href: netserver/erp-connectors/api/ierpconnector.md
-      - name: Field metadata carrier
-        href: netserver/erp-connectors/api/field-meta-data-carrier.md
-      - name: ERP actor carrier
-        href: netserver/erp-connectors/api/erp-actor-carrier.md
-      - name: Plugin response info
-        href: netserver/erp-connectors/api/pluginresponseinfo.md
-      - name: Field value formats and conventions
-        href: netserver/erp-connectors/api/field-value-formats-and-conventions.md
-    - name: How-to search for actors
-      href: netserver/erp-connectors/search/index.md
-      items:
-      - name: Search operators
-        href: netserver/erp-connectors/search/search-operators.md
-    - name: Helper classes
-      href: netserver/erp-connectors/helpers.md
-    - name: Sample ERP Sync connector
-      href: netserver/erp-connectors/sample.md
-  - name: Sentry plug-in
-    href: security/sentry/plugins/index.md
-    items:
-    - name: Create sentry plug-in
-      href: security/sentry/plugins/create-sentry-plugin.md
-    - name: Use sentry plug-in
-      href: security/sentry/plugins/use-sentry-plugin.md
+  href: plug-ins/toc.yml
+  topicHref: plug-ins/index.md
