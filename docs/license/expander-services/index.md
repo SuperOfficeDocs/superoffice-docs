@@ -53,7 +53,7 @@ Development products are **stand-alone products** that help customers utilize an
 [2]: ../../../../crmscript/docs/overview/index.md
 [3]: ../../apps/getting-started/get-access-to-sod.md
 [4]: ../../automation/trigger/create-trigger-macro.md
-[5]: ../../../../user-interface/docs/service-ui/custom-screens/index.md
+[5]: ../../ui/blogic/custom-screens/index.md
 [6]: ../../apps/custom.md
 [7]: ../../../../crmscript/docs/custom-database/extra-tables.md
 [10]: ../../online/sandbox/index.md

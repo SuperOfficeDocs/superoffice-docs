@@ -38,5 +38,5 @@ In Service, web panels are called **extra browser tabs**. You can add the same t
 > Read more about [base programs and URL parameters][2].
 
 <!-- Referenced links -->
-[1]: ../service-ui/extra-menus.md
-[2]: ../service-ui/url-parameters.md
+[1]: ../blogic/extra-menus.md
+[2]: ../blogic/url-parameters.md

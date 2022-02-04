@@ -22,19 +22,19 @@ highlightedContent:
     # Card
     - title: "Web application reference"
       itemType: reference
-      url: web-application/overview.md
+      url: web-app/overview.md
     # Card
     - title: "Custom screens"
       itemType: overview
-      url: service-ui/index.yml
+      url: blogic/index.yml
     # Card
     - title: "bLogic screen element reference"
       itemType: reference
-      url: service-ui/blogic-screen-elements/index.md
+      url: blogic/blogic-screen-elements/index.md
     # Card
     - title: "URL parameters"
       itemType: reference
-      url: service-ui/url-parameters.md
+      url: blogic/url-parameters.md
 # conceptualContent section (optional)
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -95,50 +95,50 @@ conceptualContent:
     - title: Custom screens
       summary: ""
       links:
-        - url: service-ui/custom-screens/index.md
+        - url: blogic/custom-screens/index.md
           itemType: concept
           text: Intro
-        - url: service-ui/custom-screens/blogic-query-syntax.md
+        - url: blogic/custom-screens/blogic-query-syntax.md
           itemType: concept
           text: bLogic query syntax
-        - url: service-ui/custom-screens/layout-elements.md
+        - url: blogic/custom-screens/layout-elements.md
           itemType: concept
           text: Layout elements
-        - url: service-ui/custom-screens/view-elements.md
+        - url: blogic/custom-screens/view-elements.md
           itemType: concept
           text: View elements
-        - url: service-ui/custom-screens/form-elements.md
+        - url: blogic/custom-screens/form-elements.md
           itemType: concept
           text: Form elements
-        - url: service-ui/custom-screens/add-screen-element.md
+        - url: blogic/custom-screens/add-screen-element.md
           itemType: how-to-guide
           text: How to add a screen element
-        - url: service-ui/blogic-screen-elements/index.md
+        - url: blogic/blogic-screen-elements/index.md
           itemType: reference
           text: Element reference
     # Card
     - title: Web application
       summary: ""
       links:
-      - url: web-application/index.yml
+      - url: web-app/index.yml
         itemType: concept
         text: Overview
-      - url: web-application/getting-started/architecture.md
+      - url: web-app/getting-started/architecture.md
         itemType: concept
         text: Architecture
-      - url:  web-application/pagebuilder/index.md
+      - url:  web-app/pagebuilder/index.md
         itemType: concept
         text: PageBuilder
-      - url: web-application/getting-started/index.md
+      - url: web-app/getting-started/index.md
         itemType: get-started
         text: Getting started
-      - url: web-application/getting-started/change-system-config.md
+      - url: web-app/getting-started/change-system-config.md
         itemType: how-to-guide
         text: Change system config
-      - url: web-application/getting-started/change-page-config.md
+      - url: web-app/getting-started/change-page-config.md
         itemType: how-to-guide
         text: Change page config
-      - url: web-application/getting-started/debug.md
+      - url: web-app/getting-started/debug.md
         itemType: how-to-guide
         text: Debug
 # Card with summary style
@@ -151,7 +151,7 @@ additionalContent:
       # Card
       - title: Events
         links:
-        - url: service-ui/screen-events.md
+        - url: blogic/screen-events.md
           text: Screen events
         - url: ../../superoffice-docs/docs/automation/event-model/index.md
           text: Event model
@@ -160,12 +160,12 @@ additionalContent:
       # Card
       - title: Screen choosers
         links:
-        - url: service-ui/screen-choosers.md
+        - url: blogic/screen-choosers.md
           text: Intro
       # Card
       - title: Extra menus
         links:
-        - url: service-ui/extra-menus.md
+        - url: blogic/extra-menus.md
           text: Intro
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

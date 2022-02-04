@@ -114,22 +114,22 @@ conceptualContent:
         url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/Service/topics/blogic.html
       - text: bLogic messages
         itemType: reference
-        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/messages.md
+        url: ../../../user-interface/docs/blogic/blogic-screen-elements/messages.md
       - text: bLogic select message
         itemType: reference
-        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/select-message.md
+        url: ../../../user-interface/docs/blogic/blogic-screen-elements/select-message.md
       - text: bLogic select reply template
         itemType: reference
-        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/select-reply-template.md
+        url: ../../../user-interface/docs/blogic/blogic-screen-elements/select-reply-template.md
       - text: bLogic ticket status
         itemType: reference
-        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/ticket-status.md
+        url: ../../../user-interface/docs/blogic/blogic-screen-elements/ticket-status.md
       - text: bLogic select ticket status
         itemType: reference
-        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/select-ticket-status.md
+        url: ../../../user-interface/docs/blogic/blogic-screen-elements/select-ticket-status.md
       - text: bLogic select request status
         itemType: reference
-        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/select-request-status.md
+        url: ../../../user-interface/docs/blogic/blogic-screen-elements/select-request-status.md
 
     # Card
     - title: Data options

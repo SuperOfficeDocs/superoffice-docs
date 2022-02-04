@@ -170,9 +170,9 @@ Read more about each platform API in the SDK documentation.
 [22]: ../../../superoffice-docs/docs/automation/trigger/create-trigger-macro.md
 [23]: ../custom-fields/overview.md
 [24]: ../../../user-interface/docs/web-panels/index.md
-[25]: ../../../user-interface/docs/service-ui/custom-screens/index.md
-[26]: ../../../user-interface/docs/web-application/index.yml
-[27]: ../../../user-interface/docs/web-application/custom-ajax-methods.md
+[25]: ../../../user-interface/docs/blogic/custom-screens/index.md
+[26]: ../../../user-interface/docs/web-app/index.yml
+[27]: ../../../user-interface/docs/web-app/custom-ajax-methods.md
 [28]: ../netserver/archive-providers/index.md
 [29]: ../netserver/mdo-providers/reference/index.md
 [30]: ../../../crmscript/docs/custom-database/extra-tables.md

@@ -186,7 +186,7 @@ In this tutorial, I have shown you how to create a control and use it to valid
 
 This technique should be used when you want to add business logic to a page, and need to interact with the user when those business rules do not fulfill the business requirements.
 
-<a href="../../../assets/downloads/webvalidation.zip" download>Click to download examples</a>
+<a href="../../../../assets/downloads/ui/webvalidation.zip" download>Click to download examples</a>
 
 <!-- Referenced links -->
 [1]: ../override-default-save-button/index.md

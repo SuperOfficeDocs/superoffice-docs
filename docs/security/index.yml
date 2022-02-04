@@ -177,9 +177,9 @@ additionalContent:
         - text: Mailgun
           url: ../email/mailgun/security.md
         - text: Web application
-          url: ../../../user-interface/docs/web-application/technical-info.md#security
+          url: ../../../user-interface/docs/web-app/technical-info.md#security
         - text: Pagebuilder (sentry rights)
-          url: ../../../user-interface/docs/web-application/pagebuilder/rights-system.md
+          url: ../../../user-interface/docs/web-app/pagebuilder/rights-system.md
       # Card
       - title: Database
         links:
