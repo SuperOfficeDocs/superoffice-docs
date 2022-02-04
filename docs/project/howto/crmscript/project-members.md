@@ -1,7 +1,7 @@
 ---
 uid: crmscript_project_members
 title: Project members
-description: A project always has a project manager or owner. In addition, it can have (and usually has) project members. How to view project member info; list project members; add members to project; register, update and delete a member;
+description: A project always has a project manager or owner. In addition, it can have (and usually has) project members.
 author: Bergfrid Skaara Dias
 so.date: 11.02.2021
 keywords: CRMScript, project, project member
@@ -156,5 +156,5 @@ agent.DeleteProjectMembers(8,memberIds);
 For a complete list of fields, see the [database reference][2].
 
 <!-- Referenced links -->
-[1]: ../persons-and-organizations/customer.md
+[1]: ../../../contact/howto/crmscript/customer.md
 [2]: ../../../database/tables/projectmember.md

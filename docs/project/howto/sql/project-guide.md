@@ -98,4 +98,4 @@ SELECT * FROM suggesteddocument WHERE projectTypeStatusLinkId = 2
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/project-guide.png
+[img1]: ../../media/project-guide.png

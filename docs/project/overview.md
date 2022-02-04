@@ -1,9 +1,9 @@
 ---
 title: Projects
-uid: api_project
-description: Working with projects in API with raw SQL.
+uid: project-overview
+description: Working with projects
 author: Bergfrid Dias
-so.date: 11.05.2021
+so.date: 04.02.2022
 keywords: project, project management, SQL, API, ProjType, type_idx, ProjStatus, status_idx
 so.topic: concept
 # so.envir:
@@ -12,10 +12,22 @@ so.topic: concept
 
 # Projects
 
-> [!NOTE]
-> Project management requires either a Sales Premium, Service Premium, or Marketing license. For details, see the [list of user plans][12].
+[!include[License requirement](../includes/req-for-project-mgt.md)]
 
 ![Project card -screenshot][img1]
+
+A project typically consists of different stages. For each stage, you have certain activities and perhaps documents that need to be completed. With every activity and every stage completed, you will get closer to completing the project.
+
+## Key info
+
+* a unique ID
+* a name
+* a project manager or owner
+* project members
+* the type of project
+* a status
+* milestones
+* an (expected) end date
 
 The [project table][5] contains the name and IDs of some of the other items.
 
@@ -66,17 +78,25 @@ SELECT * FROM url WHERE project_id = 1234 ORDER BY rank
 
 There may be several URLs all referencing the same `project_id`. This is OK. The URLs will be presented in rank order. The first rank will always be 1.
 
-## More info
+## Howtos
 
-* [How to create a project][4]
-* [Project guides][3]
-* [Description and notes][2]
+* [Using CRMScript][3]
+* [Using raq SQL][2]
+
+## Projects vs. other entities
+
+When working with projects, data will often intersect with the following entities:
+
+* [company][14] (contact table)
+* [contact][15] (person table)
+* [documents][12]
+* [follow-ups][13] (appointment table)
+* [sales][16]
 
 <!-- Referenced links -->
 [1]: ../../api/lists/mdo-lists.md
-[2]: text-table.md
-[3]: project-guide.md
-[4]: create-project.md
+[2]: howto/sql/index.md
+[3]: howto/crmscript/index.md
 [5]: ../../database/tables/project.md
 [6]: ../../database/tables/projtype.md
 [7]: ../../database/tables/projstatus.md
@@ -84,7 +104,11 @@ There may be several URLs all referencing the same `project_id`. This is OK. The
 [9]: ../../database/tables/udprojectsmall.md
 [10]: ../../database/tables/udprojectlarge.md
 [11]: ../../database/tables/udeffield.md
-[12]: ../../admin/license/user-plans.md
+[12]: ../document/index.yml
+[13]: ../diary/index.yml
+[14]: ../company/index.yml
+[15]: ../contact/index.yml
+[16]: ../sale/index.yml
 
 <!-- Referenced images -->
 [img1]: media/project.png

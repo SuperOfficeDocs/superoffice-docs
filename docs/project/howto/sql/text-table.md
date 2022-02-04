@@ -45,4 +45,4 @@ You can add a project post-it text if you click on the **Note** button in the mi
 The text you type into the note also goes into the text table, with the same `owner_id`, but with a different type ID.
 
 <!-- Referenced links -->
-[1]: ../../database/tables/text.md
+[1]: ../../../database/tables/text.md

@@ -3,7 +3,7 @@ uid: crmscript_project_lifecycle
 title: Projects from start to end
 description: How to register a project; get selected projects; update, end, and delete a project
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+so.date: 02.04.2022
 keywords: CRMScript, project
 so.topic: howto
 ---
@@ -36,13 +36,15 @@ print(newProject.GetProjectId().toString());
 ## Get selected projects
 
 > [!TIP]
-> You can only retrieve projects for persons that are SuperOffice users ([associates][1]).<br>The signed-in user must also have permission to view those projects. Otherwise, an exception is thrown.
+> You can only retrieve projects for persons that are SuperOffice users ([associates][2]).
+>
+> The signed-in user must also have permission to view those projects. Otherwise, an exception is thrown.
 
 ### NSProject[] GetProjectList(Integer[] p0)
 
 To call `GetProjectList()`, we need to create the list of **project IDs** first.
 
-In this example, we use [SearchEngine][2] to get the ID of all projects headed by a specific associate and not marked as *done*.
+In this example, we use [SearchEngine][1] to get the ID of all projects headed by a specific associate and not marked as *done*.
 
 ```crmscript
 String associateId = "5";
@@ -167,10 +169,10 @@ For a complete list of fields, see the [database reference][7].
 | nextMilestoneDate | closest non-complete future milestone activity (DateTime) |
 
 <!-- Referenced links -->
-[1]: ../persons-and-organizations/employees.md
-[2]: ../searchengine/index.md
-[3]: ../persons-and-organizations/customer.md
-[4]: ../persons-and-organizations/company.md
+[1]: ../searchengine/index.md
+[2]: ../../../company/howto/crmscript/employees.md
+[3]: ../../../company/howto/crmscript/customer.md
+[4]: ../../../company/howto/crmscript/company.md
 [5]: project-members.md
 [6]: project-guides.md
 [7]: ../../../database/tables/project.md

@@ -1,9 +1,9 @@
 ---
 uid: crmscript_project-guides
 title: Project guides
-description: Some project types have an associated project guide. How to check if project is connected to a guide; work with stages; work with suggested activities in CRMScript
+description: Some project types have an associated project guide.
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+so.date: 02.04.2022
 keywords: CRMScript; project, project guide, project type
 so.topic: howto
 ---
@@ -67,9 +67,9 @@ printLine("This sale will auto advance: " + type.GetIsAutoAdvance().toString());
 
 ## Suggested activities
 
-Suggested activities are just that  - **suggested**. They're blueprints that can be used to create actual [follow-ups][1] and  [documents][2].
+Suggested activities are just that  - **suggested**. They're blueprints that can be used to create actual [follow-ups][1] and [documents][2].
 
-The blueprints sit at the intersection between project types and stages. A project type can have many stages, and a stage can apply to multiple project types. The [ProjectTypeStatusLink table][3] connects them all.
+The blueprints sit at the intersection between project types and stages. A project type can have many stages, and a stage can apply to multiple project types. The [ProjectTypeStatusLink table][4] connects them all.
 
 ### List available suggestions
 
@@ -94,7 +94,7 @@ newAppointment = appointmentAgent.SaveAppointmentEntity(newAppointment);
 ```
 
 > [!TIP]
-> You can also [create documents from suggestions][4].
+> You can also [create documents from suggestions][3].
 
 ### Create a suggestion and link it to a stage
 
@@ -163,9 +163,9 @@ For a complete list of fields, see the [database reference][5].
 For a complete list of fields, see the [database reference][6].
 
 <!-- Referenced links -->
-[1]: ../follow-ups/index.md
-[2]: ../documents/index.md
-[3]: ../../../database/tables/projecttypestatuslink.md
-[4]: ../documents/doc-properties.md
+[1]: ../../../diary/howto/crmscript/index.md
+[2]: ../../../documents/howto/crmscript/index.md
+[3]: ../../../documents/howto/crmscript/doc-properties.md
+[4]: ../../../database/tables/projecttypestatuslink.md
 [5]: ../../../database/tables/suggestedappointment.md
 [6]: ../../../database/tables/suggesteddocument.md

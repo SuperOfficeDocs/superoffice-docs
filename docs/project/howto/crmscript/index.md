@@ -1,29 +1,16 @@
 ---
 uid: crmscript_projects
 title: Projects
+description: Working with projects in CRMScript
 author: Bergfrid Dias
 so.date: 10.27.2021
 keywords: project, project management, CRMSCript
-so.topic: concept
+so.topic: howto
 ---
 
 # Projects
 
-A project typically consists of different stages. For each stage, you have certain activities and perhaps documents that need to be completed. With every activity and every stage completed, you will get closer to completing the project.
-
-> [!NOTE]
-> Project management requires either a Sales Premium, Service Premium, or Marketing license. For details, see the [list of user plans][7].
-
-## Key info
-
-* a unique ID
-* a name
-* a project manager or owner
-* project members
-* the type of project
-* a status
-* milestones
-* an (expected) end date
+[!include[License requirement](../../../includes/req-for-project-mgt.md)]
 
 ## Retrieve a project
 
@@ -92,25 +79,5 @@ se.addFields("ProjStatus", "ProjStatus_id,name");
 print(se.executeTextTable());
 ```
 
-## Projects vs. other entities
-
-When working with projects, data will often intersect with the following entities:
-
-* [company][4] (contact table)
-* [contact][5] (person table)
-* [documents][2]
-* [follow-ups][3] (appointment table)
-* [sales][6]
-
-## In this section
-
-1. autolist
-
 <!-- Referenced links -->
 [1]: project-guides.md
-[2]: ../documents/index.md
-[3]: ../follow-ups/index.md
-[4]: ../persons-and-organizations/company.md
-[5]: ../persons-and-organizations/customer.md
-[6]: ../sales/index.md
-[7]: ../../../admin/license/user-plans.md
