@@ -207,15 +207,15 @@ For a complete list of fields, see the [database reference][8].
 
 ### Status
 
-| Status | Description                               |
-|:------:|:------------------------------------------|
-| 0      | OK, all is good                           |
+| Status | Description               |
+|:------:|:--------------------------|
+| 0      | OK, all is good           |
 | 1      | All is good, however, the user should be made aware of something |
-| 2      | problem - notify user                     |
-| 3      | problem - action required                 |
+| 2      | problem - notify user     |
+| 3      | problem - action required |
 
 <!-- Referenced links -->
-[1]: ../sales/leads.md
+[1]: ../../../sales/howto/crmscript/leads.md
 [2]: products.md
 [3]: index.md
 [4]: quote-alternatives.md

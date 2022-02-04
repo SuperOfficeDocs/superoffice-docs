@@ -1,10 +1,10 @@
 ---
 uid: crmscript_quote_document
 title: Quote document
-author:
-so.date:
-keywords:
-so.topic:
+author: Bergfrid Dias
+so.date: 02.04.2022
+keywords: quote, document
+so.topic: howto
 ---
 
 # Quote document
@@ -66,5 +66,5 @@ if (state == 6 || state == 8 || state == 9) {
 * [template variables][2]
 
 <!-- Referenced links -->
-[1]: ../documents/index.md
-[2]: ../documents/doc-templates.md
+[1]: ../../../documents/howto/crmscript/index.md
+[2]: ../../../documents/howto/crmscript/doc-templates.md

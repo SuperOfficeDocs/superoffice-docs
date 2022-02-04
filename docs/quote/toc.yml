@@ -1,0 +1,23 @@
+items:
+- name: Quote
+  href: index.yml
+  expanded: true
+  items:
+  - name: Overview
+    href: overview.md
+  - name: API options
+    href: howto/index.md
+    items:
+    - name: CRMScript
+      href: howto/crmscript/index.md
+      items:
+      - name: One quote per sale
+        href: howto/crmscript/quote-properties.md
+      - name: Quote alternatives and quote lines
+        href: howto/crmscript/quote-alternatives.md
+      - name: Products and price lists
+        href: howto/crmscript/products.md
+      - name: Quote document
+        href: howto/crmscript/quote-document.md
+      - name: Place order
+        href: howto/crmscript/quote-order.md

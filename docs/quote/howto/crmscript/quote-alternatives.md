@@ -1,7 +1,7 @@
 ---
 uid: crmscript_quote_alternatives
 title: Alternatives and quote lines
-description: Each quote alternative can contain different products, numbers of products, prices, and discounts. How to get alternatives; create alternatives; set alternatives; delete alternatives; work with quote lines
+description: Each quote alternative can contain different products, numbers of products, prices, and discounts.
 author: Bergfrid Skaara Dias
 so.date: 11.02.2021
 keywords: CRMScript, quote, quote alternative, quote line

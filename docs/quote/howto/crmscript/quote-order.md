@@ -1,10 +1,10 @@
 ---
 uid: crmscript_quote_order
-title: 
-author:
-so.date:
-keywords:
-so.topic:
+title: Place order
+author: Bergfrid Dias
+so.date: 02.04.2022
+keywords: quote
+so.topic: howto
 ---
 
 # Place order
@@ -103,5 +103,5 @@ sale = saleAgent.SaveSaleEntity(sale);
 ```
 
 <!-- Referenced links -->
-[1]: ../datatypes/string-type.md
-[2]: ../documents/index.md
+[1]: ../../../datatypes/string-type.md
+[2]: ../../../documents/howto/crmscript/index.md
