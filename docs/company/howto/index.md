@@ -9,20 +9,6 @@ keywords: company, person, contact
 
 # Contact
 
-![Company card -screenshot][img2]
-
-The company card uses the `contact` table and its related tables:
-
-![Company tables diagram][img1]
-
-> [!NOTE]
-> There are multiple person records for any contact. A classic many-to-one relationship.
-
-* A person can only belong to one contact.
-* A contact can have zero or more persons.
-
-It is this relationship that drives the first to fields in the appointment, sale, and document dialogs. Every time you select a new company, the person list below it has to be re-populated.
-
 ## Address and phone: owner-id and type
 
 `Address` and `Phone` tables use two fields to determine where they belong: The `owner_id` field refers to a `contact_id` or a `person_id` depending on the `type_idx` field.
@@ -140,5 +126,3 @@ You can get a `Contact` entity either by using the classes provided in the entit
 [11]: ../../database/tables/address.md
 
 <!-- Referenced images -->
-[img1]: media/so-contact.gif
-[img2]: media/company-card.png
