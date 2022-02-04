@@ -141,7 +141,7 @@ You have the option to:
 [1]: ../entities/index.md
 [2]: endpoints/index.md
 [3]: ../index.md
-[4]: ../../../../superoffice-docs/docs/license/expander-services/tool-box.md
+[4]: ../../../admin/license/expander-services/tool-box.md
 [5]: proxies/index.md
 [6]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
 [7]: ../../api-reference/restful/rest/index.md

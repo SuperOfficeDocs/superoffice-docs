@@ -1,4 +1,29 @@
+### YamlMime:ManagedReference
 items:
 - name: Docs
-  href: 00-custom/toc.yml
-  expanded: true
+  items:
+  - name: Admin
+    href: admin/toc.yml
+    topicHref: admin/overview.md
+  - name: AI services
+    href: ai-services/toc.yml
+  - name: Apps
+    href: apps/toc.yml
+  - name: Automation
+    href: automation/toc.yml
+  - name: Diary
+    href: diary/toc.yml
+  - name: Document
+    href: document/toc.yml
+  - name: Email
+    href: email/toc.yml
+  - name: Online
+    href: online/toc.yml
+  - name: Onsite
+    href: onsite/toc.yml
+  - name: Mobile
+    href: mobile/toc.yml
+  - name: Security
+    href: security/toc.yml
+  - name: Service
+    href: service/toc.yml

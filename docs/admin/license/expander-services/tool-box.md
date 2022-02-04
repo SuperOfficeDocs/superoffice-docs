@@ -121,14 +121,14 @@ Software partners of SuperOffice typically use the SDK when developing standard 
 As your needs grow, so the capabilities of your CRM solution can expand.
 
 <!-- Referenced links -->
-[1]: ../../../../crmscript/docs/overview/index.md
-[2]: ../../automation/trigger/index.md
+[1]: ../../../automation/crmscript/overview/index.md
+[2]: ../../../automation/trigger/index.md
 [3]: index.md
 [4]: ../user-plans.md
-[5]: ../../apps/custom.md
-[6]: ../../apps/standard.md
+[5]: ../../../apps/custom.md
+[6]: ../../../apps/standard.md
 [7]: https://online.superoffice.com/appstore/
 [8]: https://www.superoffice.com/company/partners/
-[9]: ../../apps/terminology.md
+[9]: ../../../apps/terminology.md
 [10]: https://www.superoffice.com/pricing/
-[11]: ../../apps/getting-started/get-access-to-sod.md
+[11]: ../../../apps/getting-started/get-access-to-sod.md

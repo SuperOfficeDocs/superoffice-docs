@@ -3,21 +3,18 @@ items:
   href: overview.md
   expanded: true
   items:
-  # Import and export TBD
   - name: License
-    href: ../license/index.md
-    expanded: true
+    href: license/index.md
     items:
     - name: User plans
-      href: ../license/user-plans.md
+      href: license/user-plans.md
     - name: Expander services
-      href: ../license/expander-services/index.md
+      href: license/expander-services/index.md
       items:
       - name: Tool box
-        href: ../license/expander-services/tool-box.md
+        href: license/expander-services/tool-box.md
   - name: User preferences
     href: user-preferences/index.md
-    expanded: true
     items:
     - name: Add prefdesc
       href: user-preferences/add-prefdesc.md
@@ -54,7 +51,7 @@ items:
       - name: Phone
         href: user-preferences/reference/phone.md
       - name: Pocket Tasks
-        href: user-preferences/reference/pocket-tasks.md        
+        href: user-preferences/reference/pocket-tasks.md
       - name: Scripting
         href: user-preferences/reference/scripting.md
       - name: Sorting

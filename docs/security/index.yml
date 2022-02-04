@@ -78,16 +78,16 @@ conceptualContent:
       links:
       - text: Introduction
         itemType: concept
-        url: ../privacy/index.md
+        url: privacy/index.md
       - text: Consent management
         itemType: concept
-        url: ../privacy/consent-management.md
+        url: privacy/consent-management.md
       - text: E-marketing consent
         itemType: concept
-        url: ../privacy/e-marketing-consent.md
+        url: privacy/e-marketing-consent.md
       - text: Soft-delete
         itemType: concept
-        url: ../privacy/soft-delete.md
+        url: privacy/soft-delete.md
     # Card
     - title: Online applications
       summary: ""
@@ -109,7 +109,7 @@ conceptualContent:
         url: ../apps/provisioning/get-consent.md
       - text: GDPR for app developer
         itemType: concept
-        url: ../privacy/gdpr-for-app-developer.md
+        url: privacy/gdpr-for-app-developer.md
     # Card
     - title: Online authentication
       summary: ""

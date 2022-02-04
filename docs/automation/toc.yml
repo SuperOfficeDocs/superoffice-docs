@@ -7,11 +7,9 @@ items:
     href: overview.md
   - name: CRMScript
     href: ../../../crmscript/docs/00-custom/toc.yml
-    expanded: true
     topicHref: ../../../crmscript/docs/overview/index.md
   - name: Event model
     href: event-model/index.md
-    expanded: true
     items:
     - name: Email filter
       href: event-model/email-filter.md
@@ -25,7 +23,6 @@ items:
     href: macro/index.md
   - name: Trigger
     href: trigger/index.md
-    expanded: true
     items:
     - name: Create trigger macro
       href: trigger/create-trigger-macro.md
@@ -35,11 +32,10 @@ items:
       href: trigger/set-validation-rules.md
     - name: Update value
       href: trigger/update-value.md
-  - name: Trigger scripts (intro)
-    href: trigger-scripts/index.md
+    - name: Reference
+      href: trigger/reference/index.md
   - name: Webhook
     href: webhook/index.md
-    expanded: true
     items:
     - name: Tutorials
       items:

@@ -98,8 +98,8 @@ My application is ready, what should I consider before I ask for a certification
 [7]: ../provisioning/get-consent.md
 [8]: ../manage/revoke-app.md
 [9]: ../tenant-status/check-status.md
-[11]: ../../privacy/consent-management.md
-[12]: ../../privacy/e-marketing-consent.md
+[11]: ../../security/privacy/consent-management.md
+[12]: ../../security/privacy/e-marketing-consent.md
 [13]: ../requirements/localization.md
 [14]: ../requirements/security.md
 [15]: ../requirements/business.md

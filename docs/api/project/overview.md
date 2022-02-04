@@ -84,7 +84,7 @@ There may be several URLs all referencing the same `project_id`. This is OK. The
 [9]: ../../database/tables/udprojectsmall.md
 [10]: ../../database/tables/udprojectlarge.md
 [11]: ../../database/tables/udeffield.md
-[12]: ../../../superoffice-docs/docs/license/user-plans.md
+[12]: ../../admin/license/user-plans.md
 
 <!-- Referenced images -->
 [img1]: media/project.png

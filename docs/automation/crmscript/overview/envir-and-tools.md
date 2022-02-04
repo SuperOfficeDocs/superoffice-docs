@@ -73,4 +73,4 @@ Developer Tools is a **subscription-based** license part of Expander Services an
 [Read more][1]
 
 <!-- Referenced links -->
-[1]: ../../../superoffice-docs/docs/license/expander-services/tool-box.md
+[1]: ../../../admin/license/expander-services/tool-box.md

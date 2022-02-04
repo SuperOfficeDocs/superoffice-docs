@@ -153,9 +153,9 @@ additionalContent:
         links:
         - url: blogic/screen-events.md
           text: Screen events
-        - url: ../../superoffice-docs/docs/automation/event-model/index.md
+        - url: ../automation/event-model/index.md
           text: Event model
-        - url: ../../superoffice-docs/docs/automation/trigger-scripts/index.md
+        - url: ../automation/trigger/reference/index.md
           text: Trigger scripts
       # Card
       - title: Screen choosers

@@ -154,5 +154,5 @@ You should keep this flexibility in mind when integrating with specific features
 [4]: https://www.superoffice.com/crm/service-features/
 [5]: expander-services/index.md
 [6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
-[7]: ../ai-services/index.md
-[8]: ../../release-notes/9.2/cep/9.2-R01-update.md
+[7]: ../../ai-services/index.md
+[8]: ../../../release-notes/9.2/cep/9.2-R01-update.md

@@ -30,7 +30,7 @@ highlightedContent:
     # Card
     - title: Reply templates
       itemType: concept
-      url: ../reply-templates/index.md
+      url: ../service/reply-templates/index.md
     # Card
     - title: Ticket database table
       itemType: reference
@@ -105,31 +105,31 @@ conceptualContent:
       links:
       - text: Web panels
         itemType: overview
-        url: ../../../user-interface/docs/web-panels/index.md
+        url: ../ui/web-panels/index.md
       - text: SoProtocol
         itemType: concept
-        url: ../../../user-interface/docs/soprotocol/index.md
+        url: ../ui/soprotocol/index.md
       - text: System design
         itemType: how-to-guide
         url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/Service/topics/blogic.html
       - text: bLogic messages
         itemType: reference
-        url: ../../../user-interface/docs/blogic/blogic-screen-elements/messages.md
+        url: ../ui/blogic/blogic-screen-elements/messages.md
       - text: bLogic select message
         itemType: reference
-        url: ../../../user-interface/docs/blogic/blogic-screen-elements/select-message.md
+        url: ../ui/blogic/blogic-screen-elements/select-message.md
       - text: bLogic select reply template
         itemType: reference
-        url: ../../../user-interface/docs/blogic/blogic-screen-elements/select-reply-template.md
+        url: ../ui/blogic/blogic-screen-elements/select-reply-template.md
       - text: bLogic ticket status
         itemType: reference
-        url: ../../../user-interface/docs/blogic/blogic-screen-elements/ticket-status.md
+        url: ../ui/blogic/blogic-screen-elements/ticket-status.md
       - text: bLogic select ticket status
         itemType: reference
-        url: ../../../user-interface/docs/blogic/blogic-screen-elements/select-ticket-status.md
+        url: ../ui/blogic/blogic-screen-elements/select-ticket-status.md
       - text: bLogic select request status
         itemType: reference
-        url: ../../../user-interface/docs/blogic/blogic-screen-elements/select-request-status.md
+        url: ../ui/blogic/blogic-screen-elements/select-request-status.md
 
     # Card
     - title: Data options
@@ -137,7 +137,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../../../data-access/docs/custom-fields/overview.md
+        url: ../api/custom-fields/overview.md
       - text: How to add user-defined fields
         itemType: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM
@@ -174,7 +174,7 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: ../../../crmscript/docs/requests/index.md
+        url: ../automation/crmscript/requests/index.md
       - text: REST
         itemType: reference
         url: ../../../data-access/docs/api-reference/restful/rest/Ticket/index.md

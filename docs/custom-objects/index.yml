@@ -72,13 +72,13 @@ conceptualContent:
       links:
       - text: Web panels
         itemType: overview
-        url: ../../../user-interface/docs/web-panels/index.md
+        url: ../ui/web-panels/index.md
       - text: SoProtocol
         itemType: concept
-        url: ../../../user-interface/docs/soprotocol/index.md
+        url: ../ui/soprotocol/index.md
       - text: bLogic - select extra field
         itemType: reference
-        url: ../../../user-interface/docs/blogic/blogic-screen-elements/select-extra-field.md
+        url: ../ui/blogic/blogic-screen-elements/select-extra-field.md
 
     # Card
     - title: Data options

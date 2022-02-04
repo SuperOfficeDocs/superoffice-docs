@@ -92,7 +92,7 @@ The attachment folder can potentially have hundreds of thousands of files, which
 [1]: ../../onsite/upgrade/75-to-8/crm-server.md
 [2]: ../../onsite/upgrade/75-to-8/web-client.md
 [3]: ../../onsite/requirements/crm-server.md
-[4]: ../../customer-center/templates.md
+[4]: ../customer-center/templates.md
 [5]: ../automated-tasks/upgrade.md
 
 <!-- Referenced images -->

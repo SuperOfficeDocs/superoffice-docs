@@ -113,4 +113,4 @@ When working with projects, data will often intersect with the following entitie
 [4]: ../persons-and-organizations/company.md
 [5]: ../persons-and-organizations/customer.md
 [6]: ../sales/index.md
-[7]: ../../../superoffice-docs/docs/license/user-plans.md
+[7]: ../../../admin/license/user-plans.md

@@ -41,4 +41,4 @@ To develop applications and scripts in our SOD environment is free. [Required li
 [4]: ../code-quality/best-practices.md
 [5]: ../debugging/index.md
 [6]: https://regex101.com/
-[7]: ../../../superoffice-docs/docs/license/index.md
+[7]: ../../../admin/license/index.md
