@@ -1,0 +1,21 @@
+items:
+- name: Requests
+  href: index.yml
+  expanded: true
+  items:
+  - name: Overview
+    href: overview.md
+  - name: API options
+    href: howto/index.md
+    items:
+    - name: CRMScript
+      href: howto/crmscript/index.md
+      items:
+      - name: Tickets
+        href: howto/crmscript/tickets.md
+      - name: Messages
+        href: howto/crmscript/messages.md
+      - name: Request logs
+        href: howto/crmscript/request-logs.md
+      - name: Samples
+        href: howto/crmscript/samples.md
