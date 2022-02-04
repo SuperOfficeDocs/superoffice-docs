@@ -28,3 +28,5 @@ items:
     href: database/changes-81.md
   - name: Whats new in 9.8.7717.1401
     href: database/Whats New in 9.8.7717.1401.md
+- name: API changes
+  href: api/index.md
