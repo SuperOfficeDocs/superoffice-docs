@@ -1,18 +1,14 @@
 ---
-title: Diary
-uid: diary_ns_overview
+title: Diary howto
+uid: diary_howto
 description: You can create an appointment at multiple levels of NetServer.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
-keywords: diary, calendar, appointment, API, associate
-so.topic: concept
+so.date: 04.02.2022
+keywords: diary, calendar, appointment, API
+so.topic: howto
 ---
 
-# Diary
-
-Appointments are the foundation of the SuperOffice diary.
-
-![Diary screen -screenshot][img1]
+# Howto
 
 ## Create appointments
 
@@ -26,10 +22,6 @@ You can create an appointment at multiple levels of NetServer:
 * [Create an Appointment through OSQL][6]
 * [Create an Appointment through raw SQL][7]
 
-## Appointment owner
-
-`Associate` acts as the owner of the appointment. If you don't assign an associate to the `Associate` property of the appointment, the current user will become the owner of the appointment and only one row will be added to the `appointment` table when the appointment is saved.
-
 <!-- Referenced links -->
 [1]: entity/create-apt-entity.md
 [2]: entity/create-apt-entity-in-entity.md
@@ -40,4 +32,3 @@ You can create an appointment at multiple levels of NetServer:
 [7]: sql/create-apt-sql.md
 
 <!-- Referenced images -->
-[img1]: media/diary-screen.png

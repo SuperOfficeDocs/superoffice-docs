@@ -87,7 +87,7 @@ If you change the start time for a single appointment, the rule is not affected.
 * [recurrencerule table][1]
 
 <!-- Referenced links -->
-[1]: ../../database/tables/recurrencerule.md
+[1]: ../database/tables/recurrencerule.md
 
 <!-- Referenced images -->
 [img1]: media/recurrence-dialog.png
