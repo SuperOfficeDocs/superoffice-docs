@@ -166,9 +166,9 @@ myBlueprint = appointmentAgent.SaveSuggestedAppointmentEntity(myBlueprint);
 | duration                | in minutes                                |
 | text                    | The suggested text of the new appointment |
 
-For a complete list of fields, see the [database reference][3].
+For a complete list of fields, see the [database reference][2].
 
 <!-- Referenced links -->
 [1]: ../../../database/tables/saletypestagelink.md
-[2]: ../documents/doc-properties.md
-[3]: ../../../database/tables/suggestedappointment.md
+[2]: ../../../database/tables/suggestedappointment.md
+[3]: ../../../documents/howto/crmscript/doc-properties.md

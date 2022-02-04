@@ -11,7 +11,7 @@ so.topic: concept
 
 A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as **stakeholders** and can be either individuals, organizations, or a mix.
 
-[!include[License requirement](../includes/req-sales-prem.md)]
+[!include[License requirement](../../../includes/req-sales-prem.md)]
 
 ## Organizations as stakeholders
 
@@ -142,6 +142,6 @@ sale = saleAgent.SaveSaleEntity(sale);
 For a complete list of fields, see the [database reference][3].
 
 <!-- Referenced links -->
-[1]: ../persons-and-organizations/company.md
-[2]: ../persons-and-organizations/customer.md
+[1]: ../../../company/howto/crmscript/company.md
+[2]: ../../../company/howto/crmscript/customer.md
 [3]: ../../../database/tables/salestakeholder.md

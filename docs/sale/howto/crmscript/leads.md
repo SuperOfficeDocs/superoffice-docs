@@ -136,6 +136,6 @@ For a complete list of fields, see the [database reference][3].
 | nextDueDate   | closest future activity date<br>if nothing is planned: the most recent activity |
 
 <!-- Referenced links -->
-[1]: ../requests/tickets.md
-[2]: ../follow-ups/index.md
+[1]: ../../../../requests/howto/crmscript/tickets.md
+[2]: ../../../../diary/howto/crmscript/index.md
 [3]: ../../../database/tables/sale.md
