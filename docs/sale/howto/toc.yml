@@ -30,3 +30,18 @@ items:
       href: saint/sql/get-contact-by-saint-value-sql.md
     - name: Search SAINT values
       href: saint/sql/search-saint-values-sql.md
+- name: CRMScript
+  href: crmscript/index.md
+  items:
+  - name: Leads
+    href: crmscript/leads.md
+  - name: Stakeholders
+    href: crmscript/stakeholders.md
+  - name: Pipeline
+    href: crmscript/pipeline.md
+  - name: Guides
+    href: crmscript/guides.md
+  - name: Currency
+    href: crmscript/currency.md
+  - name: Lost or sold
+    href: crmscript/lost-or-sold.md

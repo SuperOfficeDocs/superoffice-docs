@@ -5,9 +5,20 @@ items:
   items:
   - name: Overview
     href: overview.md
+  - name: Chatbot
+    href: chatbot/index.md
+    items:
+    - name: Registration
+      href: chatbot/registration.md
+    - name: Chat sessions
+      href: chatbot/sessions.md
+    - name: Messages
+      href: chatbot/messages.md
+    - name: Script reference
+      href: chatbot/reference.md 
   - name: CRMScript
-    href: ../../../crmscript/docs/00-custom/toc.yml
-    topicHref: ../../../crmscript/docs/overview/index.md
+    href: crmscript/toc.yml
+    topicHref: crmscript/index.yml
   - name: Event model
     href: event-model/index.md
     items:
@@ -34,6 +45,9 @@ items:
       href: trigger/update-value.md
     - name: Reference
       href: trigger/reference/index.md
+      items:
+      - name: Trigger scripts
+        href: trigger/reference/CRMScript.Event.Trigger.yml
   - name: Webhook
     href: webhook/index.md
     items:

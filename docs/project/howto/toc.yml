@@ -7,3 +7,12 @@ items:
   href: text-table.md
 - name: Project guide
   href: project-guide.md
+- name: CRMScript
+  href: crmscript/index.md
+  items:
+  - name: Projects from start to end
+    href: crmscript/project-lifecycle.md
+  - name: Project members
+    href: crmscript/project-members.md
+  - name: Guides
+    href: crmscript/project-guides.md

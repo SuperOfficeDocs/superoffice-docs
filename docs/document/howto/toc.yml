@@ -24,4 +24,12 @@ items:
     href: rest/add-document-template.md
   - name: Generate document
     href: rest/generate-document.md
-
+- name: CRMScript
+  href: crmscript/index.md
+  items:
+  - name: Document properties
+    href: crmscript/doc-properties.md
+  - name: Document files
+    href: crmscript/doc-files.md
+  - name: Document templates
+    href: crmscript/doc-templates.md

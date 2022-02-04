@@ -1076,5 +1076,3 @@ items:
       href: CRMScript.NetServer.WidgetRequiredFields.yml
     - name: WidgetTheme
       href: CRMScript.NetServer.WidgetTheme.yml
-- name: Trigger scripts
-  href: CRMScript.Event.Trigger.yml

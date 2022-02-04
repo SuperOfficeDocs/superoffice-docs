@@ -50,3 +50,16 @@ items:
     href: sql/update-person-sql.md
   - name: Add person picture BLOBs
     href: sql/add-person-picture-blobs-sql.md
+- name: CRMScript
+  href: crmscript/index.md
+  items:
+  - name: Customer (class)
+    href: crmscript/customer.md
+  - name: Company (class)
+    href: crmscript/company.md
+  - name: Employees (internal)
+    href: crmscript/employees.md
+  - name: User (class)
+    href: crmscript/user.md
+  - name: Address localization
+    href: crmscript/addresses.md

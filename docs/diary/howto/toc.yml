@@ -59,4 +59,16 @@ items:
     href: sql/create-invitation-sql.md
   - name: Accept invitation
     href: sql/accept-invitation-sql.md
-
+- name: CRMScript
+  href: crmscript/index.md
+  items:
+    - name: Calendar appointments
+      href: crmscript/appointment.md
+    - name: Todo list
+      href: crmscript/task.md
+    - name: Phone calls
+      href: crmscript/call.md
+    - name: Meeting invitations
+      href: crmscript/invitations.md
+    - name: Recurrence
+      href: crmscript/recurrence.md

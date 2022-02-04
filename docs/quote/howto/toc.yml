@@ -1,0 +1,14 @@
+items:
+- name: CRMScript
+  href: crmscript/index.md
+  items:
+  - name: One quote per sale
+    href: crmscript/quote-properties.md
+  - name: Quote alternatives and quote lines
+    href: crmscript/quote-alternatives.md
+  - name: Products and price lists
+    href: crmscript/products.md
+  - name: Quote document
+    href: crmscript/quote-document.md
+  - name: Place order
+    href: crmscript/quote-order.md
