@@ -62,7 +62,7 @@ Alternatively, if the HTML page is running in the context of a SuperOffice web p
 <!-- Referenced links -->
 [1]: enable-iis-identity.md
 [2]: reuse-session.md
-[4]: ../../netserver/config/webapi.md
+[4]: ../../config/webapi.md
 
 <!-- Referenced images -->
 [img1]: media/simple-rest-page.png

@@ -38,11 +38,11 @@ highlightedContent:
     # Card
     - title: "CRMScript Overview"
       itemType: overview
-      url: ../../../crmscript/docs/index.yml
+      url: ../automation/crmscript/index.yml
     # Card
     - title: "Trigger script reference"
       itemType: reference
-      url: ../../../crmscript/docs/api-reference/CRMScript.Event.Trigger.yml
+      url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml
     # Card
     - title: "Macros and scripts"
       itemType: reference
@@ -72,10 +72,10 @@ conceptualContent:
         url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fdocument.replyTemplates.newReplyTemplate.html
       - text: Using CRMScript
         itemType: how-to-guide
-        url: ../../../crmscript/docs/parser-and-templates/reply-template.md
+        url: ../automation/crmscript/parser-and-templates/reply-template.md
       - text: CRMScript template engine
         itemType: concept
-        url: ../../../crmscript/docs/parser-and-templates/parser.md
+        url: ../automation/crmscript/parser-and-templates/parser.md
       - text: Database table
         itemType: reference
         url: ../database/tables/reply-template.md

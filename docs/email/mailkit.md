@@ -86,7 +86,7 @@ Read section [Mail logging][1]
 [1]: ../onsite/debug/web-client.md
 [2]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=166
 [3]: https://cs.superoffice.com/
-[4]: ../../../data-access/docs/netserver/config/mail.md
+[4]: ../api/config/mail.md
 
 <!-- Referenced images -->
 [img1]: media/mailkit.jpg

@@ -180,4 +180,4 @@ Ensure your web project contains the following files from the sample project `Su
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/change-application
 [2]: ../certificates/configure.md
-[3]: ../../../netserver/config/data.md#session
+[3]: ../../../config/data.md#session

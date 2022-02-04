@@ -102,10 +102,10 @@ conceptualContent:
       links:
       - text: Web panels
         itemType: overview
-        url: ../../../user-interface/docs/web-panels/index.md
+        url: ../ui/web-panels/index.md
       - text: SoProtocol
         itemType: concept
-        url: ../../../user-interface/docs/soprotocol/index.md
+        url: ../ui/soprotocol/index.md
 
     # Card
     - title: Data options
@@ -113,7 +113,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../../../data-access/docs/custom-fields/overview.md
+        url: ../custom-objects/howto/overview.md
       - text: How to add user-defined fields
         itemType: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM
@@ -138,34 +138,34 @@ conceptualContent:
       links:
       - text: CRMScript SearchEngine class
         itemType: concept
-        url: ../../../crmscript/docs/searchengine/index.md
+        url: ../automation/crmscript/searchengine/index.md
       - text: Script-based selections
         itemType: tutorial
-        url: ../../../crmscript/docs/tutorials/script-based-selections.md
+        url: ../automation/crmscript/tutorials/script-based-selections.md
       - text: NetServer Archive agents
         itemType: overview
-        url: ../../../data-access/docs/netserver/search/iarchiveagent/index.md
+        url: ../api/search/iarchiveagent/index.md
       - text: NetServer IFindAgent
         itemType: overview
-        url: ../../../data-access/docs/netserver/search/ifindagent/index.md
+        url: ../api/search/ifindagent/index.md
       - text: REST Web API search
         itemType: overview
-        url: ../../../data-access/docs/netserver/search/odata/index.md
+        url: ../api/search/odata/index.md
       - text: NetServer web services
         itemType: how-to-guide
-        url: ../../../data-access/docs/netserver/search/selection/services/add-member-to-static-selection-services.md
+        url: ../api/search/selection/services/add-member-to-static-selection-services.md
       - text: NetServer archive providers
         itemType: how-to-guide
-        url: ../../../data-access/docs/netserver/search/selection/archive/get-selection-members-provider.md
+        url: ../api/search/selection/archive/get-selection-members-provider.md
       - text: NetServer entities
         itemType: how-to-guide
-        url: ../../../data-access/docs/netserver/search/selection/entity/add-member-to-static-selection-entities.md
+        url: ../api/search/selection/entity/add-member-to-static-selection-entities.md
       - text: NetServer OSQL
         itemType: how-to-guide
-        url: ../../../data-access/docs/netserver/search/selection/osql/add-member-to-static-selection-osql.md
+        url: ../api/search/selection/osql/add-member-to-static-selection-osql.md
       - text: Raw SQL
         itemType: how-to-guide
-        url: ../../../data-access/docs/netserver/search/selection/sql/add-person-to-selection.md
+        url: ../api/search/selection/sql/add-person-to-selection.md
 
     # Card
     - title: Database options

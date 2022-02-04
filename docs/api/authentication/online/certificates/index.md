@@ -65,11 +65,11 @@ The `SuperIdTokenHandler` class is responsible for validating security tokens. B
     * There are hidden characters in the value field - such as an "&shy;" character.
 
 <!-- Referenced links -->
-[1]: ../../../../../superoffice-docs/docs/apps/getting-started/app-envir.md
+[1]: ../../../apps/getting-started/app-envir.md
 [2]: ../validate-security-tokens.md
 [3]: ../troubleshooting/index.md
 [4]: configure.md
-[5]: ../../../assets/downloads/superofficeonlinecertificates.zip
+[5]: ../../../../assets/downloads/api/superofficeonlinecertificates.zip
 
 <!-- Referenced images -->
 [img1]: media/certificateheirarchy.png

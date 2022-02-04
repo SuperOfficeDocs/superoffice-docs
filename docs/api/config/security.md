@@ -103,5 +103,5 @@ See the [NetServer Core reference][1] for details about handling this programmat
 <!-- Referenced links -->
 [1]: <xref:SuperOffice.Configuration.ConfigFile.Security>
 [2]: ../../security/sentry/index.md
-[3]: ../../../../superoffice-docs/docs/onsite/security/deployment-scenarios.md#scenario2
+[3]: ../../onsite/security/deployment-scenarios.md#scenario2
 [4]: ../../authentication/onsite/sosession/suspend.md

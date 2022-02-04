@@ -116,7 +116,7 @@ for (Integer i = 0; i < featureToggles.length(); i++)
 > You can retrieve the `feature_toggle` field value using the dynamic archive provider when using the SuperOffice web services.
 
 <!-- Referenced links -->
-[1]: ../../../data-access/docs/netserver/config/featuretoggles.md
+[1]: ../../api/config/featuretoggles.md
 
 <!-- Referenced images -->
 [img2]: media/feature-toggle-result.png

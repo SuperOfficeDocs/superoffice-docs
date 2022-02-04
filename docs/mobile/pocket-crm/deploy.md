@@ -88,7 +88,7 @@ You can send a predefined email with this URL by clicking **Pocket CRM settings*
 [4]: https://play.google.com/store/apps/details?id=no.superoffice.pocket.j2me.SuperOffice
 [5]: http://itunes.apple.com/no/app/superoffice/ce/id445355343
 [6]: install.md
-[7]: ../../../../data-access/docs/netserver/config/soformsauthentication.md
+[7]: ../../api/config/soformsauthentication.md
 
 <!-- Referenced images -->
 [img1]: media/image.png

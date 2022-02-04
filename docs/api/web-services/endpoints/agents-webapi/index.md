@@ -107,6 +107,6 @@ Happens when the request succeeds but the data is invalid. For example, a requir
 [3]: ../../../lists/services/listagent/add-catlist-item-webapi-agents.md
 [4]: ../../../../documents/agents-web-api/add-document-template.md
 [5]: ../../../../documents/agents-web-api/generate-document.md
-[6]: ../../../../assets/downloads/Swagger-v1-Agents.zip
+[6]: ../../../../../assets/downloads/api/Swagger-v1-Agents.zip
 [7]: ../get-webapi-version.md
 [8]: ../../../../api-reference/restful/agent/index.md

@@ -26,11 +26,11 @@ highlightedContent:
     # Card
     - title: "Mirroring"
       itemType: overview
-      url: ../../superoffice-docs/docs/mirroring/index.yml
+      url: mirroring/index.yml
     # Card
     - title: Production sandbox
       itemType: overview
-      url: ../../superoffice-docs/docs/online/sandbox/index.md
+      url: online/sandbox/index.md
     # Card
     - title: "Table reference"
       itemType: reference
@@ -84,16 +84,16 @@ conceptualContent:
       - title: Mirroring
         summary: "Database mirroring"
         links:
-        - url: ../../superoffice-docs/docs/mirroring/overview.md
+        - url: mirroring/overview.md
           itemType: concept
           text: What is mirroring?
-        - url: ../../superoffice-docs/docs/mirroring/requirements.md
+        - url: mirroring/requirements.md
           itemType: reference
           text: Requirements
-        - url: ../../superoffice-docs/docs/mirroring/getting-started/index.md
+        - url: mirroring/getting-started/index.md
           itemType: how-to-guide
           text: Where to begin
-        - url: ../../superoffice-docs/docs/mirroring/force-resync.md
+        - url: mirroring/force-resync.md
           itemType: how-to-guide
           text: How to force resync
     # Card
@@ -102,19 +102,19 @@ conceptualContent:
         links:
         - text: Overview
           itemType: overview
-          url: ../../superoffice-docs/docs/onsite/install/database/index.md
+          url: onsite/install/database/index.md
         - text: Create MS SQL Server database
           itemType: how-to-guide
-          url: ../../superoffice-docs/docs/onsite/install/database/create-ms-sql-server-db.md
+          url: onsite/install/database/create-ms-sql-server-db.md
         - text: Create Oracle database
           itemType: how-to-guide
-          url: ../../superoffice-docs/docs/onsite/install/database/create-oracle-db.md
+          url: onsite/install/database/create-oracle-db.md
         - text: SQL server full-text search
           itemType: concept
-          url: ../../superoffice-docs/docs/onsite/install/database/sql-server-full-text-search.md
+          url: onsite/install/database/sql-server-full-text-search.md
         - text: DBSetup
           itemType: concept
-          url: ../../superoffice-docs/docs/onsite/install/database/dbsetup-exe.md
+          url: onsite/install/database/dbsetup-exe.md
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
@@ -130,31 +130,31 @@ additionalContent:
         - text: Single database user
           url: security/single-database-user.md
         - text: Create CRM7 user
-          url: ../../superoffice-docs/docs/onsite/install/database/create-oracle-db.md#creating-the-crm7-user
+          url: onsite/install/database/create-oracle-db.md#creating-the-crm7-user
       # Card
       - title: Database compatibility
         links:
         - text: Overview
-          url: ../../superoffice-docs/docs/onsite/compatibility/database.md
+          url: onsite/compatibility/database.md
         - text: MS SQL Server
-          url: ../../superoffice-docs/docs/onsite/compatibility/ms-sql-server.md
+          url: onsite/compatibility/ms-sql-server.md
         - text: Oracle
-          url: ../../superoffice-docs/docs/onsite/compatibility/oracle.md
+          url: onsite/compatibility/oracle.md
     # Card
       - title: Travel
         links:
         - text: Intro
-          url: ../../superoffice-docs/docs/travel/index.md
+          url: travel/index.md
         - text: How to activate Travel
-          url: ../../superoffice-docs/docs/travel/activate.md
+          url: travel/activate.md
         - text: What is an update prototype?
-          url: ../../superoffice-docs/docs/travel/update-prototype.md
+          url: travel/update-prototype.md
         - text: Travel gateway
-          url: ../../superoffice-docs/docs/travel/travel-gateway/index.md
+          url: travel/travel-gateway/index.md
         - text: Area management
-          url: ../../superoffice-docs/docs/travel/area-management/index.md
+          url: travel/area-management/index.md
         - text: Satellite
-          url: ../../superoffice-docs/docs/travel/satellite/index.md
+          url: travel/satellite/index.md
       # Card
       - title: Changes
         links:
@@ -165,6 +165,6 @@ additionalContent:
         - text: What's new from 7.5 to 8.1
           url: whats-new/changes-75-80.md
         - text: Onsite version history
-          url: ../../superoffice-docs/docs/onsite/version-history.md
+          url: onsite/version-history.md
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://docs.superoffice.com/contribute)."

@@ -251,7 +251,7 @@ noHardDelete = true
 [8]: ../blogic-screen-elements/select-customers.md
 [9]: ../blogic-screen-elements/select-user.md
 [10]: ../blogic-screen-elements/category-membership.md
-[11]: ../../../../crmscript/docs/persons-and-organizations/user.md
+[11]: ../../../contact/howto/crmscript/user.md
 [12]: ../blogic-screen-elements/select-appointment.md
 [13]: ../blogic-screen-elements/select-date.md
 [14]: ../blogic-screen-elements/select-datetime.md

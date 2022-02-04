@@ -49,4 +49,4 @@ See the [NetServer Core reference][1] for details about handling this programmat
 
 <!-- Referenced links -->
 [1]: <xref:SuperOffice.Configuration.ConfigFile.Client>
-[2]: ../../../../superoffice-docs/docs/onsite/install/iis/reverse-proxy.md
+[2]: ../../onsite/install/iis/reverse-proxy.md

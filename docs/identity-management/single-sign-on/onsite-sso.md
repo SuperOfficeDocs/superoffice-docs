@@ -114,7 +114,7 @@ Steps to configure in the *web.config* file:
 
 <!-- Referenced links -->
 [1]: ../../service/install/index.md
-[2]: ../../../../data-access/docs/netserver/config/customerservice.md
+[2]: ../../api/config/customerservice.md
 [3]: https://blogs.technet.microsoft.com/askds/2008/06/13/understanding-kerberos-double-hop/
 
 <!-- Referenced images -->

@@ -92,7 +92,7 @@ By specifying the full name of this Organization Unit in the SuperOffice.config 
 ![image][10]
 
 <!-- Referenced links -->
-[1]:../../../../data-access/docs/netserver/config/security.md
+[1]:../../api/config/security.md
 
 <!-- Referenced images -->
 [img1]: media/1642-1987.jpg

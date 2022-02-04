@@ -96,7 +96,7 @@ If you take a look at for example *Scripts/Dialog.js*, you will find there are a
 
 <!-- Referenced links -->
 [1]: ../../pagebuilder/config/index.md
-[2]: ../../../../../data-access/docs/netserver/config/clientconfigurationprovider.md
+[2]: ../../../../api/config/clientconfigurationprovider.md
 
 <!-- Referenced images -->
 [img1]: media/image006.jpg

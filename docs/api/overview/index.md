@@ -87,7 +87,7 @@ The APIs that enable external integration with SuperOffice typically mean applic
 
 The difference between the two is that automation primarily deals with [scripting languages][14] while most integrations use a compiled program using .NET, Java, or Delphi.
 
-[!include[What is automation?](../../../superoffice-docs/docs/automation/includes/automation-intro.md)]
+[!include[What is automation?](../automation/includes/automation-intro.md)]
 
 **NetServer**, although used as an umbrella term that encapsulates a variety of data access capabilities, is just as much if not more extensible than the SuperOffice clients. With constructs such as [low-level database objects][17] to [high-level business objects][18], to [higher-level web services][19] and web service proxy libraries, NetServer is itself an extensible SuperOffice product.
 
@@ -148,37 +148,37 @@ Read more about each platform API in the SDK documentation.
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/forums/api-forums/
 [2]: mailto:sdk@superoffice.com
-[3]: ../../../crmscript/docs/overview/index.md
-[4]: ../../../superoffice-docs/docs/service/integrate/index.md
-[5]: ../../../superoffice-docs/docs/onsite/integrate/win-client/index.md
-[6]: ../../../superoffice-docs/docs/onsite/integrate/web-client/index.md
-[7]: ../../../superoffice-docs/docs/online/integrate/index.md
+[3]: ../../automation/crmscript/overview/index.md
+[4]: ../../service/integrate/index.md
+[5]: ../../onsite/integrate/win-client/index.md
+[6]: ../../onsite/integrate/web-client/index.md
+[7]: ../../online/integrate/index.md
 [8]: ../api-reference/restful/index.md
 [9]: ../api-reference/soap/index.md
-[10]: ../netserver/webhooks/index.md
-[11]: ../netserver/erp-connectors/index.md
-[12]: ../netserver/quote-connectors/index.md
-[13]: ../../../superoffice-docs/docs/mirroring/overview.md
-[14]: ../../../superoffice-docs/docs/automation/overview.md#languages
-[15]: ../netserver/index.md
-[16]: ../../../superoffice-docs/docs/automation/netserver-scripting/index.md
-[17]: ../netserver/osql/index.md
-[18]: ../netserver/entities/index.md
-[19]: ../netserver/web-services/index.md
-[20]: ../../../superoffice-docs/docs/admin/user-preferences/index.md
-[21]: ../../../superoffice-docs/docs/automation/trigger/create-trigger-script.md
-[22]: ../../../superoffice-docs/docs/automation/trigger/create-trigger-macro.md
+[10]: ../../automation/webhook/index.md
+[11]: ../plug-ins/erp-connectors/index.md
+[12]: ../plug-ins/quote-connectors/index.md
+[13]: ../../mirroring/overview.md
+[14]: ../../automation/overview.md#languages
+[15]: netserver.md
+[16]: ../../automation/netserver-scripting/index.md
+[17]: ../osql/index.md
+[18]: ../entities/index.md
+[19]: ../web-services/index.md
+[20]: ../../admin/user-preferences/index.md
+[21]: ../../automation/trigger/create-trigger-script.md
+[22]: ../../automation/trigger/create-trigger-macro.md
 [23]: ../custom-fields/overview.md
-[24]: ../../../user-interface/docs/web-panels/index.md
-[25]: ../../../user-interface/docs/blogic/custom-screens/index.md
-[26]: ../../../user-interface/docs/web-app/index.yml
-[27]: ../../../user-interface/docs/web-app/custom-ajax-methods.md
-[28]: ../netserver/archive-providers/index.md
-[29]: ../netserver/mdo-providers/reference/index.md
-[30]: ../../../crmscript/docs/custom-database/extra-tables.md
-[31]: ../../../superoffice-docs/docs/mobile/index.yml
-[32]: ../netserver/index.md#domain-level-apis-netserver-core
-[33]: ../netserver/config/services.md
+[24]: ../../ui/web-panels/index.md
+[25]: ../../ui/blogic/custom-screens/index.md
+[26]: ../../ui/web-app/index.yml
+[27]: ../../ui/web-app/custom-ajax-methods.md
+[28]: ../archive-providers/index.md
+[29]: ../mdo-providers/reference/index.md
+[30]: ../../custom-objects/howto/extra-tables.md
+[31]: ../../mobile/index.yml
+[32]: netserver.md#domain-level-apis-netserver-core
+[33]: ../config/services.md
 
 <!-- Referenced images -->
 [img1]: media/web-client-custom-code.png

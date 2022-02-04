@@ -64,16 +64,16 @@ You might also be interested in:
 * [Configuring the external user][5]
 
 <!-- Referenced links -->
-[1]: ../netserver/config/data.md
-[2]: ../netserver/osql/index.md
-[3]: ../../../superoffice-docs/docs/identity-management/federated-auth.md
+[1]: ../config/data.md
+[2]: ../osql/index.md
+[3]: ../identity-management/federated-auth.md
 [4]: onsite/config-anonymous-user.md
 [5]: onsite/config-external-user.md
 [6]: onsite/com/index.md
 [7]: onsite/sosession/index.md
 [8]: webapi/index.md
 [9]: onsite/custom-proxies/index.md
-[10]: ../netserver/config/index.md
+[10]: ../config/index.md
 
 <!-- Referenced images -->
 [img1]: media/authenticate-overview.png

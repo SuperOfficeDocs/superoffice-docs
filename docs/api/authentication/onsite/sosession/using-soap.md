@@ -72,4 +72,4 @@ This is the recommended calling pattern. The `Session` object is scoped with `us
 You can use `SoSession.Suspend` and `Continue` to avoid authenticating all the time.
 
 <!-- Referenced links -->
-[1]: ../../../netserver/web-services/index.md#agents
+[1]: ../../../web-services/index.md#agents

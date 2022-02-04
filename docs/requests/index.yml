@@ -163,7 +163,7 @@ conceptualContent:
         url: ../automation/event-model/saving-a-request.md
       - text: Webhooks - ticket events
         itemType: reference
-        url: ../../../data-access/docs/netserver/webhooks/reference/ticket-events.md
+        url: ../automation/webhook/reference/ticket-events.md
       - text: Zapier
         itemType: reference
         url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
@@ -177,13 +177,13 @@ conceptualContent:
         url: ../automation/crmscript/requests/index.md
       - text: REST
         itemType: reference
-        url: ../../../data-access/docs/api-reference/restful/rest/Ticket/index.md
+        url: ../api/api-reference/restful/rest/Ticket/index.md
       - text: SOAP (services88)
         itemType: reference
-        url: ../../../data-access/docs/api-reference/soap/Services88/Ticket/index.md
+        url: ../api/api-reference/soap/Services88/Ticket/index.md
       - text: SOAP (ticket port)
         itemType: reference
-        url: ../../../data-access/docs/service-soap/ports/ticket/index.md
+        url: ../service/soap/ports/ticket/index.md
 
     # Card
     - title: Database options

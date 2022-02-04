@@ -82,7 +82,7 @@ For each application and within each environment, you must define the following 
 
 ![x -screenshot][img2]
 
-<a href="../../../../data-access/docs/assets/downloads/superofficeonlinecertificates.zip" download>Click to download the SuperOffice certificates (ZIP file)</a>.
+<a href="../../assets/downloads/api/superofficeonlinecertificates.zip" download>Click to download the SuperOffice certificates (ZIP file)</a>.
 
 ## Base URL
 
@@ -113,7 +113,7 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 [8]: ../overview.md
 [9]: ../../identity-management/federated-auth.md
 [10]: ../terminology.md
-[11]: ../../../../data-access/docs/authentication/online/certificates/index.md
+[11]: ../../api/docs/authentication/online/certificates/index.md
 [12]: ../../online/sandbox/index.md
 [13]: ../tenant-status/index.md
 

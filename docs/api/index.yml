@@ -214,7 +214,7 @@ additionalContent:
        # Card
       - title: "CRMScript API"
         summary: CRMScript API reference documentation for Service
-        url: ../../crmscript/docs/api-reference/index.md
+        url: ../automation/crmscript/api-reference/index.md
       # Card
       - title: "NetServer Core API"
         summary: API reference documentation for NetServer Core

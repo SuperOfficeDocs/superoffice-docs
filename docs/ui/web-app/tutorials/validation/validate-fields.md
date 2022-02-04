@@ -140,8 +140,8 @@ If you log in, try to create a new sale, and do not select a project you will se
 You can use this method on every entity in SuperOffice by editing the config files and adding rules to your DLL file.
 
 <!-- Referenced links -->
-[1]: ../../../../../data-access/docs/netserver/config/clientconfigurationprovider.md
-[2]: ../../../../../data-access/docs/netserver/config/factory.md
+[1]: ../../../../api/config/clientconfigurationprovider.md
+[2]: ../../../../api/config/factory.md
 
 <!-- Referenced images -->
 [img1]: media/7237_12447.jpg

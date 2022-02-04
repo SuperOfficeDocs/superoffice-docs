@@ -245,7 +245,7 @@ url = ticket.exe?action=listTicket&ticketId=
 > Read more about [web panels][6] and [URL parameters][7].
 
 <!-- Referenced links -->
-[1]: ../../../../crmscript/docs/custom-database/extra-tables.md
+[1]: ../../../custom-objects/extra-tables/howto/crmscript/index.md
 [2]: <xref:CRMScript.Native.MainMenu>
 [3]: ../screen-choosers.md
 [4]: ../custom-screens/index.md

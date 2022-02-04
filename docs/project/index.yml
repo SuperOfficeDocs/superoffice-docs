@@ -83,10 +83,10 @@ conceptualContent:
       links:
       - text: Web panels
         itemType: overview
-        url: ../../../user-interface/docs/web-panels/index.md
+        url: ../ui/web-panels/index.md
       - text: SoProtocol
         itemType: concept
-        url: ../../../user-interface/docs/soprotocol/index.md
+        url: ../ui/soprotocol/index.md
 
     # Card
     - title: Data options
@@ -94,7 +94,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../../../data-access/docs/custom-fields/overview.md
+        url: ../custom-objects/howto/overview.md
       - text: How to add user-defined fields
         itemType: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM
@@ -117,10 +117,10 @@ conceptualContent:
         url: ../automation/trigger/index.md
       - text: Webhooks - project events
         itemType: reference
-        url: ../../../data-access/docs/netserver/webhooks/reference/project-events.md
+        url: ../automation/webhook/reference/project-events.md
       - text: Webhooks - project member events
         itemType: reference
-        url: ../../../data-access/docs/netserver/webhooks/reference/project-member-events.md
+        url: ../automation/webhook/reference/project-member-events.md
       - text: Zapier
         itemType: reference
         url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
@@ -131,10 +131,10 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: ../../../crmscript/docs/projects/index.md
+        url: howto/crmscript/index.md
       - text: NetServer
         itemType: overview
-        url: ../../../data-access/docs/project/overview.md
+        url: howto/overview.md
 
     # Card
     - title: Database options

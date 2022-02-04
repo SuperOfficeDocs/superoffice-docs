@@ -51,4 +51,4 @@ You can't customize the database schema via the APIs. It's on the roadmap, but f
 [1]: udef.md
 [2]: extra-fields.md
 [3]: extra-tables.md
-[4]: ../../../database/docs/dictionary/index.md
+[4]: ../database/dictionary/index.md

@@ -99,7 +99,7 @@ It might look something like this:
 [4]: ../blogic-screen-elements/index.md
 [5]: blogic-query-syntax.md
 [6]: <xref:CRMScript.Native.HtmlElement>
-[7]: ../../../../crmscript/docs/searchengine/se-select.md
-[8]: ../../../../crmscript/docs/searchengine/se-run.md
-[9]: ../../../../crmscript/docs/searchengine/se-results.md
-[10]: ../../../../crmscript/docs/datatypes/map-type.md
+[7]: ../../../automation/crmscript/searchengine/se-select.md
+[8]: ../../../automation/crmscript/searchengine/se-run.md
+[9]: ../../../automation/crmscript/searchengine/se-results.md
+[10]: ../../../automation/crmscript/datatypes/map-type.md

@@ -65,7 +65,7 @@ If you are unsure which Web Tools version you have, right-click on any DLL start
 ![x -screenshot][img3]
 
 <!-- Referenced links -->
-[1]: ../../../data-access/docs/netserver/config/downloads.md
+[1]: ../api/config/downloads.md
 
 <!-- Referenced images -->
 [img1]: media/2018-06-11.png

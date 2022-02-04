@@ -39,7 +39,7 @@ You can resolve this issue by signing in to SuperOffice, navigate to settings an
 Your user is now able to successfully approve the application.
 
 <!-- Referenced links -->
-[1]: ../../../../data-access/docs/authentication/online/sign-in-user/index.md
+[1]: ../../api/docs/authentication/online/sign-in-user/index.md
 [2]: consent.md
 
 <!-- Referenced images -->

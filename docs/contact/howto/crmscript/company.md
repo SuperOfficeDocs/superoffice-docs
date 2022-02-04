@@ -240,5 +240,5 @@ For a complete list of fields, see the [database reference][5].
 [1]: <xref:CRMScript.Native.Company.setValue(String,String)>
 [2]: ../parser-and-templates/reply-template.md
 [3]: addresses.md
-[4]: ../netserver/ns-agents-and-carriers.md
+[4]: ../ns-agents-and-carriers.md
 [5]: ../../../database/tables/contact.md

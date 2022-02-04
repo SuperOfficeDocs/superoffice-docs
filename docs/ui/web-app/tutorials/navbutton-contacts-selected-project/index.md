@@ -91,7 +91,7 @@ It consists of 4 panels and multiple cards and views.
 <!-- **See Also:** System.Web.UI.WebControls.Button -->
 
 <!-- Referenced links -->
-[1]: ../../../../../data-access/docs/netserver/config/clientconfigurationprovider.md
+[1]: ../../../../api/config/clientconfigurationprovider.md
 
 <!-- Referenced images -->
 [img1]: media/image004.jpg

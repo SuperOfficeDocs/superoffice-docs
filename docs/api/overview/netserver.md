@@ -128,7 +128,7 @@ This has been a high-level view of NetServer. As you can see, there is a vast di
 [8]: ../api-reference/netserver/core/index.md
 [9]: webhooks/index.md
 [10]: ../api-reference/webapi/index.md
-[11]: ../../../crmscript/docs/overview/index.md
+[11]: ../../automation/crmscript/overview/index.md
 [12]: config/index.md
 [13]: ../authentication/overview.md
 [14]: ../documents/plugins/soarc-document-plugin.md

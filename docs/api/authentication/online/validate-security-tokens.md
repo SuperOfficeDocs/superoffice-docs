@@ -231,7 +231,7 @@ Legacy security tokens are either a [JWT][2] or [SAML][1] token. We **strongly r
 
 The main class for processing tokens is `SuperIdTokenHandler` in the _SuperOffice.SuperID.Client_ DLL.
 
-<a href="../../assets/downloads/superofficeonlinecertificates.zip" download>Click to download the SuperOffice certificates (ZIP file)</a>.
+<a href="../../../assets/downloads/api/superofficeonlinecertificates.zip" download>Click to download the SuperOffice certificates (ZIP file)</a>.
 
 > [!NOTE]
 > If you don't have access to the certificate store, you must substitute this procedure with a [validation override][3].
@@ -262,7 +262,7 @@ public SuperIdToken ValidateToken(string token)
 }
 ```
 
-Instead of depending on certificates in the local certificate store, you can <a href="../../assets/downloads/superofficeonlinecertificates.zip" download>download the public certificates</a>, including *SuperOfficeFederatedLogin.crt*, to perform token validation.
+Instead of depending on certificates in the local certificate store, you can <a href="../../../assets/downloads/api/superofficeonlinecertificates.zip" download>download the public certificates</a>, including *SuperOfficeFederatedLogin.crt*, to perform token validation.
 
 ```csharp
 public static SuperIdToken ValidateToken(string token)
@@ -409,7 +409,7 @@ A claim can be either [standard OpenID Connect][14] or [custom][8] (with its own
 [3]: certificates/override-resolver.md
 [4]: certificates/index.md
 [6]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
-[7]: ../../assets/downloads.md
+[7]: ../../../assets/downloads/downloads.md
 [8]: api.md
 [9]: https://www.nuget.org/packages/SuperOffice.WebApi
 [11]: sign-in-user/legacy.md

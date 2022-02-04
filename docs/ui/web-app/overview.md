@@ -48,4 +48,4 @@ When creating your own controls and assemblies to be used by the application, yo
 [7]: strategic-goals.md
 [8]: technical-info.md
 [9]: getting-started/index.md
-[10]: ../../../data-access/docs/netserver/config/index.md
+[10]: ../../api/config/index.md

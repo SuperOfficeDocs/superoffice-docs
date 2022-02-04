@@ -39,7 +39,7 @@ One more important configuration section is the documents section. The reason fo
 ```
 
 <!-- Referenced links -->
-[1]: ../../../../data-access/docs/netserver/config/scripting.md
+[1]: ../../api/config/scripting.md
 
 <!-- Referenced images -->
 [img1]: media/scriptingsetup.png

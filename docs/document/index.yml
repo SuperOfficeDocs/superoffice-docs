@@ -95,10 +95,10 @@ conceptualContent:
       links:
       - text: Web panels
         itemType: overview
-        url: ../../../user-interface/docs/web-panels/index.md
+        url: ../ui/web-panels/index.md
       - text: SoProtocol - open dialog
         itemType: how-to-guide
-        url: ../../../user-interface/docs/soprotocol/open-dialog.md
+        url: ../ui/soprotocol/open-dialog.md
 
     # Card
     - title: Data options
@@ -106,7 +106,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../../../data-access/docs/custom-fields/overview.md
+        url: ../custom-objects/howto/overview.md
       - text: UddocSmall table
         itemType: reference
         url: ../database/tables/uddocsmall.md
@@ -134,19 +134,19 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: ../../../crmscript/docs/documents/index.md
+        url: howto/crmscript/index.md
       - text: REST
         itemType: how-to-guide
-        url: ../../../data-access/docs/documents/rest/generate-document.md
+        url: howto/rest/generate-document.md
       - text: Agents WebApi
         itemType: how-to-guide
-        url: ../../../data-access/docs/documents/agents-web-api/generate-document.md
+        url: howto/agents-web-api/generate-document.md
       - text: Services
         itemType: how-to-guide
-        url: ../../../data-access/docs/documents/services/index.md
+        url: howto/services/index.md
       - text: SO_Arc document plugin
         itemType: how-to-guide
-        url: ../../../data-access/docs/documents/plugins/soarc-document-plugin.md
+        url: howto/plugins/soarc-document-plugin.md
 
     # Card
     - title: Database options

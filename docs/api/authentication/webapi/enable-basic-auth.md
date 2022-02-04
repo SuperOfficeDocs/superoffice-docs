@@ -100,7 +100,7 @@ This returns the contact info
 
 <!-- Referenced links -->
 [1]: https://www.getpostman.com/
-[2]: ../../netserver/config/webapi.md
+[2]: ../../config/webapi.md
 
 <!-- Referenced images -->
 [img1]: media/iis-config-site.png

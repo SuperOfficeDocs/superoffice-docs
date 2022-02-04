@@ -178,7 +178,7 @@ You are now ready to log in and use Service by opening your client browser and g
 [Previous][15] | [Next][14] | [Back to guide][13]
 
 <!-- Referenced links -->
-[1]: ../../../../data-access/docs/netserver/config/security.md
+[1]: ../../api/config/security.md
 [2]: manual-steps.md
 [13]: ../../onsite/install/guide.md
 [14]: ../../onsite/install/web-client/index.md

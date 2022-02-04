@@ -58,4 +58,4 @@ When retrieving a contact, we have passed the contact ID of this particular user
 <!-- Referenced links -->
 [1]: config-anonymous-user.md
 [2]: ../users-and-associates.md
-[3]: ../../netserver/web-services/index.md#agents
+[3]: ../../web-services/index.md#agents

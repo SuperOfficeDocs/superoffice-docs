@@ -218,7 +218,7 @@ If you just want to expose the Customer center, Chat, or Mailings to the Interne
 <!-- Referenced links -->
 [1]: ../../security/deployment-scenarios.md#scenario2
 [2]: https://www.microsoft.com/web/downloads/platform.aspx
-[3]: ../../../../../data-access/docs/netserver/config/client.md
+[3]: ../../../api/config/client.md
 
 <!-- Referenced images -->
 [img1]: media/server-role-security.jpg

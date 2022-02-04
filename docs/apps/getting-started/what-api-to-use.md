@@ -215,11 +215,11 @@ Supported in version **Services86** and higher, when used in SOAP requests, the 
 
 <!-- Referenced links -->
 [1]: https://stackoverflow.com/questions/19884295/soap-vs-rest-differences
-[2]: ../../../../data-access/docs/api-reference/restful/rest/index.md
-[3]: ../../../../data-access/docs/api-reference/soap/index.md
+[2]: ../../api/docs/api-reference/restful/rest/index.md
+[3]: ../../api/docs/api-reference/soap/index.md
 [4]: https://www.nuget.org/packages/SuperOffice.NetServer.Services/
 [5]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.Login/SoPlugins
-[6]: ../../../../data-access/docs/authentication/online/index.md
+[6]: ../../api/docs/authentication/online/index.md
 [7]: https://online.superoffice.com/login/
 [8]: http://openid.net/connect/
 [9]: http://openid.net/developers/certified/

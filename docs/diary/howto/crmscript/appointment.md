@@ -376,6 +376,6 @@ For a complete list of fields, see the [database reference][4].
 
 <!-- Referenced links -->
 [1]: ../persons-and-organizations/employees.md
-[2]: ../netserver/crmscript-archiveagent.md
+[2]: ../crmscript-archiveagent.md
 [3]: invitations.md
 [4]: ../../../database/tables/appointment.md

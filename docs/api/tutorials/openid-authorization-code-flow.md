@@ -120,7 +120,7 @@ The `SoAppId` we need to fill in. We also need to add a couple of more settings 
 
 Add the file *SOD_SuperOfficeFederatedLogin.crt* to the *App_Data* folder.
 
-You can find the file in the <a href="../assets/downloads/superofficeonlinecertificates.zip" download>Online certificates ZIP</a>.
+You can find the file in the <a href="../../assets/downloads/api/superofficeonlinecertificates.zip" download>Online certificates ZIP</a>.
 
 We need this X509 certificate to verify that the tokens we have received are actually from SuperId, and not from some hacker trying to trick us.
 

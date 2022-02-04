@@ -84,13 +84,13 @@ The search criteria tables are also used when defining extra fields in the **Fin
 * [selection table][7]
 
 <!-- Referenced links -->
-[1]: ../../../../database/tables/contact.md
-[2]: ../../../../sales/saint/counters.md
-[3]: ../../../../database/tables/searchcriteria.md
-[4]: ../../../../database/tables/searchcriteriagroup.md
-[5]: ../../../../database/tables/searchcriterion.md
-[6]: ../../../../database/tables/searchcriterionvalue.md
-[7]: ../../../../database/tables/selection.md
+[1]: ../../../database/tables/contact.md
+[2]: ../../../sales/saint/counters.md
+[3]: ../../../database/tables/searchcriteria.md
+[4]: ../../../database/tables/searchcriteriagroup.md
+[5]: ../../../database/tables/searchcriterion.md
+[6]: ../../../database/tables/searchcriterionvalue.md
+[7]: ../../../database/tables/selection.md
 
 <!-- Referenced images -->
 [img1]: media/dynsel-card.png

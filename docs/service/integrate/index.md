@@ -35,6 +35,6 @@ There are several articles available that explain in detail many of the internal
 * [Customer Service][10]
 
 <!-- Referenced links -->
-[10]: ../../../../data-access/docs/service-soap/overview.md
+[10]: ../soap/overview.md
 
 <!-- Referenced images -->

@@ -58,12 +58,12 @@ using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
 [Read more about SOAP proxies.][7]
 
 <!-- Referenced links -->
-[1]: ../../../../api-reference/soap/Services88/index.md
-[2]: ../../../../api-reference/soap/Services87/index.md
-[3]: ../../../../api-reference/soap/Services86/index.md
-[4]: ../../../../api-reference/soap/Services85/index.md
-[5]: ../../../../api-reference/soap/Services84/index.md
-[6]: ../../../../service-soap/overview.md
+[1]: ../../../api-reference/soap/Services88/index.md
+[2]: ../../../api-reference/soap/Services87/index.md
+[3]: ../../../api-reference/soap/Services86/index.md
+[4]: ../../../api-reference/soap/Services85/index.md
+[5]: ../../../api-reference/soap/Services84/index.md
+[6]: ../../../service-soap/overview.md
 [7]: ../../proxies/index.md
 
 <!-- Referenced images -->

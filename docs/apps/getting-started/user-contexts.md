@@ -46,7 +46,7 @@ See also [application models terminology][6] and the [system user MVC example][7
 
 <!-- Referenced links -->
 [1]: ../../identity-management/federated-auth.md
-[2]: ../../../../data-access/docs/authentication/online/auth-application/index.md
-[4]: ../../../../data-access/docs/authentication/online/index.md
+[2]: ../../api/docs/authentication/online/auth-application/index.md
+[4]: ../../api/docs/authentication/online/index.md
 [6]: ../terminology.md
-[7]: ../../../../data-access/docs/tutorials/minimal-csharp-app/overview.md
+[7]: ../../api/docs/tutorials/minimal-csharp-app/overview.md

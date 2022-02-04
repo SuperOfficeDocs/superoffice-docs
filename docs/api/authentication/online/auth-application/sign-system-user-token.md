@@ -92,7 +92,7 @@ $signedSystemToken = $systemUserTokenAndTime + "." + base64_encode($signature)
 [2]: ../validate-security-tokens.md
 [4]: http://www.platanus.cz/blog/converting-rsa-xml-key-to-pem
 [5]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
-[6]: ../../../assets/downloads/superofficeonlinecertificates.zip
+[6]: ../../../../assets/downloads/api/superofficeonlinecertificates.zip
 [7]: https://sod.superoffice.com/login/.well-known/openid-configuration
 [8]: https://qaonline.superoffice.com/login/.well-known/openid-configuration
 [9]: https://online.superoffice.com/login/.well-known/openid-configuration

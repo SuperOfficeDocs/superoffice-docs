@@ -37,4 +37,4 @@ See the [NetServer Core reference][1] for details about handling this programmat
 
 <!-- Referenced links -->
 [1]: <xref:SuperOffice.Configuration.ConfigFile.Mail>
-[2]: ../../../../superoffice-docs/docs/email/mailkit.md
+[2]: ../../email/mailkit.md

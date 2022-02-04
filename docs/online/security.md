@@ -39,4 +39,4 @@ From August 25th, 2018 we also started to enforce the use of `app://appid` in th
 SuperOffice will always strive to inform partners before major changes, but customer security is our 1st priority and there may be situations that require us to take action before informing partners.
 
 <!-- Referenced links -->
-[1]: ../../../data-access/docs/netserver/erp-connectors/online/secure-in-online.md
+[1]: ../api/plug-ins/erp-connectors/online/secure-in-online.md

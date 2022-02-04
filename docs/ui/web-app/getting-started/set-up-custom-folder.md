@@ -132,7 +132,7 @@ The files placed in the custom folder will automatically be preferred by the web
 You can only replace files – you can’t replace parts of a config file – so you still need to check if there are changes you want to merge over from the standard config files after an upgrade – but hopefully, that is easier than patching in your changes every time there is an upgrade.
 
 <!-- Referenced links -->
-[1]: ../../../../data-access/docs/netserver/config/clientconfigurationprovider.md
+[1]: ../../../api/config/clientconfigurationprovider.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

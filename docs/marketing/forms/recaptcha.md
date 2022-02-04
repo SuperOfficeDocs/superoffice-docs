@@ -73,7 +73,7 @@ After you press Submit, your Site key and Secret key will be shown:
 <!-- Referenced links -->
 [1]: https://www.google.com/recaptcha/admin
 [2]: https://www.google.com/u/0/recaptcha/admin/create
-[3]: ../../../../data-access/docs/netserver/config/googlerecaptcha.md
+[3]: ../../api/config/googlerecaptcha.md
 
 <!-- Referenced images -->
 [img1]: media/imagehkoheq.png

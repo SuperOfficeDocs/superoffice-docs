@@ -34,6 +34,6 @@ SuperOffice CRM Web also enjoys many integration capabilities. I would go so far
 * [Web client SDK][7]
 
 <!-- Referenced links -->
-[7]: ../../../../../data-access/docs/api-reference/web/index.md
+[7]: ../../../api/api-reference/web/index.md
 
 <!-- Referenced images -->

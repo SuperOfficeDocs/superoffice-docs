@@ -37,4 +37,4 @@ Sets the selected `Time`. The value must be formatted as **HH:MI:SS**.
 Returns the time as a string formatted as **HH:MI:SS**.
 
 <!-- Referenced links -->
-[1]: ../../../../crmscript/docs/datatypes/time-type.md
+[1]: ../../../automation/crmscript/datatypes/time-type.md

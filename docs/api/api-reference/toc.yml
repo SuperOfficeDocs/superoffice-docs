@@ -1,8 +1,8 @@
 items:
 - name: API Reference
-  href: ../getting-started/index.md
+  href: ../overview/index.md
 - name: CRMScript reference
-  href: ../../../crmscript/docs/api-reference/
+  href: ../../crmscript/api-reference/
 - name: Web Services
   items:
   - name: RESTful REST Services

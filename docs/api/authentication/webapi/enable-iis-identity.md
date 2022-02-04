@@ -56,8 +56,8 @@ The HTTP.sys kernel driver will stop unauthenticated requests before they reach 
 Accessing `/api/v1/user/currentPrincipal` via Chrome or Edge should automatically log you in, and return the current user's info.
 
 <!-- Referenced links -->
-[1]: ../../netserver/config/webapi.md
-[2]: ../../netserver/config/security.md
+[1]: ../../config/webapi.md
+[2]: ../../config/security.md
 
 <!-- Referenced images -->
 [img1]: media/iis-authentication-windows.png

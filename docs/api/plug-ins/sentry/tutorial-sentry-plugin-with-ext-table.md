@@ -104,7 +104,7 @@ The sal0 user is restricted to a smaller subset of the contact table, due to the
 
 ## Download
 
-<a href="../../../assets/downloads/sentrypluginwithexternaltable.zip" download>Sentry plugin with external table source code (zip)</a>
+<a href="../../../../assets/downloads/api/sentrypluginwithexternaltable.zip" download>Sentry plugin with external table source code (zip)</a>
 
 <!-- Referenced links -->
 

@@ -122,12 +122,12 @@ With a valid credential set, the application can connect to and process data wit
 
 
 <!-- Referenced links -->
-[1]: ../../../../../superoffice-docs/docs/apps/provisioning/consent.md
-[2]: ../../../../../superoffice-docs/docs/apps/redirects/index.md
+[1]: ../../../apps/provisioning/consent.md
+[2]: ../../../apps/redirects/index.md
 [3]: ../validate-security-tokens.md
 [4]: ../api.md
 [5]: ../index.md
-[6]: ../../../../../superoffice-docs/docs/apps/tenant-status/index.md
+[6]: ../../../apps/tenant-status/index.md
 [8]: get-system-user-ticket.md
 
 <!-- Referenced images -->

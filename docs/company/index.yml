@@ -84,16 +84,16 @@ conceptualContent:
       links:
       - text: Web panels
         itemType: overview
-        url: ../../../user-interface/docs/web-panels/index.md
+        url: ../ui/web-panels/index.md
       - text: SoProtocol - create company
         itemType: how-to-guide
-        url: ../../../user-interface/docs/soprotocol/create-contact.md
+        url: ../ui/soprotocol/create-contact.md
       - text: SoProtocol - get company
         itemType: how-to-guide
-        url: ../../../user-interface/docs/soprotocol/get-contact.md
+        url: ../ui/soprotocol/get-contact.md
       - text: SoProtocol - edit company
         itemType: how-to-guide
-        url: ../../../user-interface/docs/soprotocol/edit-contact.md
+        url: ../ui/soprotocol/edit-contact.md
 
     # Card
     - title: Data options
@@ -101,7 +101,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../../../data-access/docs/custom-fields/overview.md
+        url: ../custom-objects/howto/overview.md
       - text: UdcontactSmall table
         itemType: reference
         url: ../database/tables/udcontactsmall.md
@@ -121,7 +121,7 @@ conceptualContent:
         url: ../automation/trigger/index.md
       - text: Webhooks
         itemType: reference
-        url: ../../../data-access/docs/netserver/webhooks/reference/contact-events.md
+        url: ../automation/webhook/reference/contact-events.md
       - text: Zapier
         itemType: reference
         url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
@@ -135,22 +135,22 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: ../../../crmscript/docs/persons-and-organizations/customer.md
+        url: howto/crmscript/customer.md
       - text: Raw SQL
         itemType: how-to-guide
-        url: ../../../data-access/docs/contact/sql/create-contact-sql.md
+        url: howto/sql/create-contact-sql.md
       - text: OSQL
         itemType: how-to-guide
-        url: ../../../data-access/docs/contact/osql/create-contact-osql.md
+        url: howto/osql/create-contact-osql.md
       - text: Row
         itemType: how-to-guide
-        url: ../../../data-access/docs/contact/row/create-contact-row.md
+        url: howto/row/create-contact-row.md
       - text: Entity
         itemType: how-to-guide
-        url: ../../../data-access/docs/contact/entity/create-contact-entity.md
+        url: howto/entity/create-contact-entity.md
       - text: REST
         itemType: how-to-guide
-        url: ../../../data-access/docs/contact/services/create-contact-services.md
+        url: howto/services/create-contact-services.md
 
     # Card
     - title: Database options

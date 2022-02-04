@@ -27,6 +27,6 @@ In this example, we have set the impersonation false because this is a Windows a
 Read more about these settings in the [NetServer configuration][1].
 
 <!-- Referenced links -->
-[1]: ../../netserver/config/documents.md
+[1]: ../../../api/config/documents.md
 
 <!-- Referenced images -->

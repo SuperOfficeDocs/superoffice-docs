@@ -73,7 +73,7 @@ There may be several URLs all referencing the same `project_id`. This is OK. The
 * [Description and notes][2]
 
 <!-- Referenced links -->
-[1]: ../netserver/lists/mdo-lists.md
+[1]: ../../api/lists/mdo-lists.md
 [2]: text-table.md
 [3]: project-guide.md
 [4]: create-project.md

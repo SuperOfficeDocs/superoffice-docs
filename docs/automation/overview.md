@@ -102,8 +102,8 @@ var contact = AjaxMethodDispatcher.CallSync(
 
 <!-- Referenced links -->
 [2]: https://msdn.microsoft.com/en-us/library/aa227633(v=vs.60).aspx
-[3]: ../../../user-interface/docs/blogic/extra-menus.md
-[4]: ../../../user-interface/docs/blogic/button-scripts.md
-[5]: ../../../user-interface/docs/blogic/screen-events.md
+[3]: ../ui/blogic/extra-menus.md
+[4]: ../ui/blogic/button-scripts.md
+[5]: ../ui/blogic/screen-events.md
 
 <!-- Referenced images -->

@@ -30,7 +30,7 @@ highlightedContent:
     # Card
     - title: "Authentication"
       itemType: overview
-      url: ../../../data-access/docs/authentication/overview.md
+      url: ../api/authentication/overview.md
     # Card
     - title: "Federated authentication"
       itemType: overview
@@ -122,7 +122,7 @@ additionalContent:
       # Card
       - title: OAuth 2.0
         links:
-        - url: ../../../data-access/docs/authentication/online/index.md
+        - url: ../api/authentication/online/index.md
           text: Intro
       # Card
       - title: Credentials

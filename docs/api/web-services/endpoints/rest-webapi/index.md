@@ -311,24 +311,24 @@ Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback
 
 <!-- Referenced links -->
 [1]: ../agents-webapi/index.md
-[2]: ../../../../contact/services/create-contact-rest.md
+[2]: ../../../../contact/howto/services/create-contact-rest.md
 [3]: ../../../lists/services/rest/add-catlist-item-rest.md
-[4]: ../../../../documents/rest/add-document-template.md
-[5]: ../../../../documents/rest/generate-document.md
-[6]: ../../../../person/services/get-person-image-rest.md
-[7]: ../../../../person/services/update-person-image-rest.md
-[8]: ../../../webhooks/register.md
-[9]: ../../../../assets/downloads/Swagger-v1-REST.zip
+[4]: ../../../../documents/howto/rest/add-document-template.md
+[5]: ../../../../documents/howto/rest/generate-document.md
+[6]: ../../../../person/howto/services/get-person-image-rest.md
+[7]: ../../../../person/howto/services/update-person-image-rest.md
+[8]: ../../../../automation/webhook/register.md
+[9]: ../../../../../assets/downloads/api/Swagger-v1-REST.zip
 [10]: ../../../../security/sentry/services/index.md
-[11]: ../../../webhooks/reference/index.md
+[11]: ../../../../automation/webhook/reference/index.md
 [12]: ../get-webapi-version.md
 [13]: ../../../../authentication/online/auth-application/get-system-user-ticket.md
 [14]: ../../../../api-reference/restful/rest/index.md
 [15]: ../../setup-rest.md
 [16]: ../../../search/odata/index.md
 [17]: ../../../search/index.md
-[18]: ../../../../../../superoffice-docs/docs/admin/user-preferences/index.md
-[19]: ../../../../../../superoffice-docs/docs/apps/best-practices.md#entity-creation
+[18]: ../../../../admin/user-preferences/index.md
+[19]: ../../../../apps/best-practices.md#entity-creation
 [20]: https://tools.ietf.org/html/rfc7386
 [21]: https://tools.ietf.org/html/rfc6902
 [22]: https://erosb.github.io/post/json-patch-vs-merge-patch/

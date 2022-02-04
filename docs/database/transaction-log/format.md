@@ -87,5 +87,5 @@ The extra `traveltransactionlog` record contains the previous owner ID (which is
 
 <!-- Referenced links -->
 [1]: ../tables/traveltransactionlog.md
-[2]: ../../../superoffice-docs/docs/travel/area-management/index.md
+[2]: ../travel/area-management/index.md
 [3]: ../getting-started/table-id-sequence.md

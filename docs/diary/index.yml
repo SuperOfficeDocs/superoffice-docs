@@ -90,13 +90,13 @@ conceptualContent:
       links:
       - text: Web panels
         itemType: overview
-        url: ../../../user-interface/docs/web-panels/index.md
+        url: ../ui/web-panels/index.md
       - text: SoProtocol - create appointment
         itemType: how-to-guide
-        url: ../../../user-interface/docs/soprotocol/create-appointment.md
+        url: ../ui/soprotocol/create-appointment.md
       - text: SoProtocol - open appointment dialog
         itemType: how-to-guide
-        url: ../../:./user-interface/docs/soprotocol/open-appointment-dialog.md
+        url: ../ui/soprotocol/open-appointment-dialog.md
 
     # Card
     - title: Data options
@@ -104,7 +104,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../../../data-access/docs/custom-fields/overview.md
+        url: ../custom-objects/howto/overview.md
       - text: UdappntSmall table
         itemType: reference
         url: ../database/tables/udappntsmall.md
@@ -132,25 +132,25 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: ../../../crmscript/docs/follow-ups/index.md
+        url: howto/crmscript/index.md
       - text: Raw SQL
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/sql/create-apt-sql.md
+        url: howto/sql/create-apt-sql.md
       - text: OSQL
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/osql/create-apt-osql.md
+        url: howto/osql/create-apt-osql.md
       - text: Row
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/row/create-apt-row.md
+        url: howto/row/create-apt-row.md
       - text: Entity
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/entity/create-apt-entity.md
+        url: howto/entity/create-apt-entity.md
       - text: REST
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/services/create-apt-services.md
+        url: howto/services/create-apt-services.md
       - text: Archive (search)
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/archive/invitation-archive.md
+        url: howto/archive/invitation-archive.md
 
     # Card
     - title: Database options

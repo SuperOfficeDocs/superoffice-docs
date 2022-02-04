@@ -190,9 +190,9 @@ This technique should be used when you want to add business logic to a page, an
 
 <!-- Referenced links -->
 [1]: ../override-default-save-button/index.md
-[2]: ../../../../../superoffice-docs/docs/automation/netserver-scripting/index.md
+[2]: ../../../../automation/netserver-scripting/index.md
 [3]: <xref:SuperOffice.DCF.Web.UI.Validations.ValidationBase>
-[4]: ../../../../../data-access/docs/netserver/config/clientconfigurationprovider.md
+[4]: ../../../../api/config/clientconfigurationprovider.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg
