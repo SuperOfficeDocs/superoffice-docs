@@ -1,50 +1,58 @@
 items:
-- name: Custom fields
+- name: Custom objects
   href: index.yml
   expanded: true
   items:
   - name: Introduction
     href: overview.md
-  - name: API options
+  - name: Udef
+    href: udef/index.md
     items:
-    - name: Overview
-      href: howto/overview.md
-    - name: Web services
-      href: howto/services/index.md
+    - name: API options
       items:
-      - name: Set udef list-item value
-        href: howto/services/set-udef-listitem-value.md
-      - name: Get udef list and values
-        href: howto/services/get-udef-list-and-values.md
-      - name: Find contact by udef
-        href: howto/services/find-contact-by-udef.md
-    - name: Entities
-      href: howto/entity/index.md
+      - name: CRMScript
+        href: udef/howto/crmscript/index.md
+      - name: Web services
+        href: udef/howto/services/index.md
+        items:
+        - name: Set udef list-item value
+          href: udef/howto/services/set-udef-listitem-value.md
+        - name: Get udef list and values
+          href: udef/howto/services/get-udef-list-and-values.md
+        - name: Find contact by udef
+          href: udef/howto/services/find-contact-by-udef.md
+      - name: Entities
+        href: udef/howto/entity/index.md
+        items:
+        - name: Set udef list-item value
+          href: udef/howto/entity/set-udef-listitem-value.md
+        - name: Get udef value
+          href: udef/howto/entity/get-udef-field-value.md
+        - name: Update udef
+          href: udef/howto/entity/update-udef.md
+        - name: Using UDFHelper
+          href: udef/howto/entity/using-udefhelper.md
+        - name: UDFHelper class
+          href: udef/howto/entity/udefhelper-class.md
+      - name: SQL
+        href: udef/sql/index.md
+        items:
+        - name: Set udef
+          href: udef/sql/set-udef.md
+  - name: Extra tables
+    href: extra-table/index.md
+    items:
+    - name: API options
       items:
-      - name: Set udef list-item value
-        href: howto/entity/set-udef-listitem-value.md
-      - name: Get udef value
-        href: howto/entity/get-udef-field-value.md
-      - name: Update udef
-        href: howto/entity/update-udef.md
-      - name: Using UDFHelper
-        href: howto/entity/using-udefhelper.md
-      - name: UDFHelper class
-        href: howto/entity/udefhelper-class.md
-    - name: SQL
-      href: sql/index.md
+      - name: CRMScript
+        href: extra-table/howto/crmscript/index.md
+  - name: Extra fields
+    href: extra-field/index.md
+    items:
+    - name: API options
       items:
-      - name: Set udef
-        href: sql/set-udef.md
-    - name: CRMScript
-      href: howto/crmscript/index.md
-      items:
-      - name: Udef
-        href: howto/crmscript/udef.md
-      - name: Extra tables
-        href: howto/crmscript/extra-tables.md
-      - name: Extra fields
-        href: howto/crmscript/extra-fields.md
+      - name: CRMScript
+        href: extra-field/howto/crmscript/index.md
         items:
         - name: Sort values
-          href: howto/crmscript/sort-extra-field-values.md
+          href: extra-field/howto/crmscript/sort-extra-field-values.md

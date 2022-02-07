@@ -1,26 +1,21 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-uid: sort_extra_field_values       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-title: Sorting CS extra fields list values # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+uid: sort_extra_field_values
+title: Sorting CS extra fields list values
 author: David Hollegien
 so.date: 06.19.2018
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir:           # cloud or onsite
-so.client:               # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir:
+so.client:
 ---
 
 # Sorting CS extra fields list values
 
-We have had multiple requests from customers to sort the list values of an customer service extra field alphabetically.
+We have had multiple requests from customers to sort the list values of a customer service extra field alphabetically.
 
 Since Customer Service doesn't have the same udlist system as sales, this is a bit more work to do by hand, so why not automate it?
 
-We have developed a small script which automatically sorts all list option values alphabetically:
+We have developed a small script that automatically sorts all list option values alphabetically:
 
 ```crmscript
 #setLanguageLevel 3;

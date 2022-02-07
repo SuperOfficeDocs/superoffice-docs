@@ -10,6 +10,14 @@ so.topic: concept
 
 # Database customizations
 
+[!include[License requirement](../includes/req-dev-tools.md)]
+
+## Why data-driven data
+
+In the SuperOffice application, we can have custom fields. When we have a set of fields that is constantly changing, we will face a problem with returning these fields in our web service methods because we cannot change web service methods when someone defines a new field. To avoid this situation, SuperOffice has introduced the concept of data-driven data in the NetServer.
+
+In NetServer all the user-defined fields have been packed into a single property of entity by using a string dictionary. If we take the `contact` entity, it will have a property called `UserDefinedFields` which represents all the user-defined fields. In the context of the `contact` entity, this property will house all the user-defined fields of the contact entity as key-value pairs.
+
 ## Ways to customize
 
 There are 3 ways to customize the database schema:
