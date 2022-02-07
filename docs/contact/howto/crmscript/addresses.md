@@ -1,10 +1,10 @@
 ---
 uid: crmscript_addresses
 title: Address localization
-author:
-so.date:
-keywords:
-so.topic:
+author: Bergfrid Dias
+so.date: 02.04.2022
+keywords: address
+so.topic: howto
 ---
 
 # Address localization
@@ -149,7 +149,7 @@ There are 2 separate groups of fields, 1 for person and 1 for company (contact).
 > The **Postal** and **Street** prefix reflect the address type (ContactPostalAddress or ContactStreetAddress).
 
 <!-- Referenced links -->
-[1]: company.md
+[1]: ../../../company/howto/crmscript/company.md
 [2]: customer.md
 [3]: ../../../api/globalization-and-localization/address/addresshelper.md
 

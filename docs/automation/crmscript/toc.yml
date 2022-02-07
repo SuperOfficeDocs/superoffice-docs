@@ -134,4 +134,4 @@ items:
   - name: Udef agent
     href: tutorials/udef-agent.md
   - name: Build custom rest API methods
-    href: persons-and-organizations/build-custom-rest-api-methods.md
+    href: tutorials/build-custom-rest-api-methods.md

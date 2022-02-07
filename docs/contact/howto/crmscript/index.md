@@ -1,28 +1,23 @@
 ---
-uid: crmscript_persons_and_org
-title: Persons and organizations
-author:
-so.date:
-keywords:
-so.topic:
+uid: crmscript_persons
+title: Persons
+author: Bergfrid Dias
+so.date: 02.04.2022
+keywords: person, contact, CRMScript
+so.topic: howto
 ---
 
-# Persons and organizations
-
-## An in-depth guide to working with persons and organizations
-
-For a better understanding of this section, we recommend that you read [SuperOffice view of the world][1].
-
-It is important to keep in mind that there's not a 1:1 mapping of labels and that you have to take context into account.
-
-* Real-life terms
-* UI labels
-* Database tables
-* CRMScript classes
+# Persons
 
 The content is organized by CRMScript **classes**.
 
-1. autolist
+* [Customer (class)][1]
+* [Employees (internal)][2]
+* [User (class)][3]
+* [Address localization][4]
 
 <!-- Referenced links -->
-[1]: ../overview/domain.md
+[1]: customer.md
+[2]: employees.md
+[3]: user.md
+[4]: addresses.md

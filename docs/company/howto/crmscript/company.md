@@ -3,7 +3,7 @@ uid: crmscript_class_company
 title: Company (class)
 description: The CRMScript company class and how to create and update companies; get company info
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+so.date: 02.07.2022
 keywords: CRMScript, company, organization, contact
 so.topic: concept
 ---
@@ -238,7 +238,7 @@ For a complete list of fields, see the [database reference][5].
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Company.setValue(String,String)>
-[2]: ../parser-and-templates/reply-template.md
-[3]: addresses.md
-[4]: ../ns-agents-and-carriers.md
+[2]: ../../../automation/crmscript/parser-and-templates/reply-template.md
+[3]: ../../../contact/howto/crmscript/addresses.md
+[4]: ../../../automation/crmscript/ns-agents-and-carriers.md
 [5]: ../../../database/tables/contact.md

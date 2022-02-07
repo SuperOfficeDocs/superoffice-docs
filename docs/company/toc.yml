@@ -10,6 +10,11 @@ items:
   - name: API options
     href: howto/index.md
     items:
+    - name: CRMScript
+      href: howto/crmscript/index.md
+      items:
+      - name: Company (class)
+        href: howto/crmscript/company.md
     - name: Web services
       href: howto/services/index.md
       items:
