@@ -27,7 +27,7 @@ SOAP is a simple XML-based protocol used to let applications exchange informatio
 
 The raw SOAP looks something like this:
 
-[!code-xml[XML](../../../../authentication/onsite/sosession/includes/soap-env.xml)]
+[!code-xml[XML](../../../authentication/onsite/sosession/includes/soap-env.xml)]
 
 The following example shows how to retrieve a `ContactEntity` using the `ContactAgent`.
 
@@ -63,7 +63,7 @@ using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
 [3]: ../../../api-reference/soap/Services86/index.md
 [4]: ../../../api-reference/soap/Services85/index.md
 [5]: ../../../api-reference/soap/Services84/index.md
-[6]: ../../../service-soap/overview.md
+[6]: ../../../../service/soap/overview.md
 [7]: ../../proxies/index.md
 
 <!-- Referenced images -->

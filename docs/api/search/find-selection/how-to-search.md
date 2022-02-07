@@ -567,9 +567,9 @@ ___
 This article has demonstrated how to search SuperOffice using the same routines used by SuperOffice Find. This way guarantees your applications receive the same results observed both in Selections and using the **Find** dialog.
 
 <!-- Referenced links -->
-[2]: ../../../api-reference/netserver/services/SuperOffice.CRM.Services.MDOListItem.yml
-[3]: ../../../api-reference/netserver/services/SuperOffice.CRM.Services.SelectionForFind.yml
-[4]: ../../../api-reference/netserver/core/SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.yml
+[2]: ../../api-reference/netserver/services/SuperOffice.CRM.Services.MDOListItem.yml
+[3]: ../../api-reference/netserver/services/SuperOffice.CRM.Services.SelectionForFind.yml
+[4]: ../../api-reference/netserver/core/SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.yml
 [5]: ../../archive-providers/reference/contactpersondynamicselectionv2.md
 [6]: ../../archive-providers/reference/appointmentdynamicselectionv2.md
 [8]: ../../archive-providers/reference/documentdynamicselectionv2.md

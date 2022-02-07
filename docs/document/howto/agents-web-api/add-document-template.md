@@ -31,4 +31,4 @@ item = Post("api/v1/Agents/List/SetDocumentTemplateStream", req)
 At this point, the document template record has been created, and the content
 has been written to the archive.
 
-[!include[Pseudocode](../../includes/note-javascripty.md)]
+[!include[Pseudocode](../../../api/includes/note-javascripty.md)]

@@ -12,7 +12,7 @@ so.topic: howto
 
 # Update a person with a new name, address, position using OSQL
 
-[!include[import OSQL namespaces](../../includes/using-osql.md)]
+[!include[import OSQL namespaces](../../../api/includes/using-osql.md)]
 
 ## Code
 

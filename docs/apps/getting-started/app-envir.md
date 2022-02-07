@@ -113,7 +113,7 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 [8]: ../overview.md
 [9]: ../../identity-management/federated-auth.md
 [10]: ../terminology.md
-[11]: ../../api/docs/authentication/online/certificates/index.md
+[11]: ../../api/authentication/online/certificates/index.md
 [12]: ../../online/sandbox/index.md
 [13]: ../tenant-status/index.md
 

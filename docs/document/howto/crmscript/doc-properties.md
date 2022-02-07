@@ -179,7 +179,9 @@ printLine(doc.GetDocumentId().toString() + "\t" + doc.GetHeader());
 ## Change document properties
 
 > [!NOTE]
-> The `NSDocumentEntity` can't be changed if the document is marked as **Completed**.<br>Use `GetCompleted()` to check the status. Toggle it to **0** to do your edits and then toggle it back if necessary.
+> The `NSDocumentEntity` can't be changed if the document is marked as **Completed**.
+>
+> Use `GetCompleted()` to check the status. Toggle it to **0** to do your edits and then toggle it back if necessary.
 
 ```crmscript
 NSDocumentAgent agent;
@@ -220,6 +222,6 @@ For a complete list of fields, see the [database reference][3].
 
 <!-- Referenced links -->
 [1]: doc-templates.md
-[2]: ../sales/guides.md
+[2]: ../../../sale/howto/crmscript/guides.md
 [3]: ../../../database/tables/document.md
-[4]: ../persons-and-organizations/index.md
+[4]: ../../../contact/howto/crmscript/index.md

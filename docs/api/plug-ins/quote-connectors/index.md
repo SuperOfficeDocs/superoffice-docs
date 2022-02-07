@@ -19,7 +19,7 @@ The SuperOffice Quote Management system is based on an architecture that allows 
 
 ![quote database][img2]
 
-[!include[License requirement](../../includes/req-sales-prem.md)]
+[!include[License requirement](../../../includes/req-sales-prem.md)]
 
 ## Architecture
 

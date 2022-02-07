@@ -78,11 +78,11 @@ There are 3 attempts to send a webhook payload during a single cycle. If the fir
 The EventID is the same for each attempt, however, if the HTTP request fails to receive a 200 response for 3 attempts, then the event is discarded, and the webhook `consecutive_errors` count is incremented. When the next consecutive attempt is sent, it will be a new EventID.
 
 <!-- Referenced links -->
-[1]: ../../../database/tables/appointment.md
-[2]: ../../../database/tables/associate.md
-[3]: ../../../database/tables/contact.md
-[4]: ../../../database/tables/person.md
-[5]: ../../../database/tables/project.md
-[6]: ../../../database/tables/projectmember.md
-[7]: ../../../database/tables/sale.md
-[8]: ../../../database/tables/salestakeholder.md
+[1]: ../../database/tables/appointment.md
+[2]: ../../database/tables/associate.md
+[3]: ../../database/tables/contact.md
+[4]: ../../database/tables/person.md
+[5]: ../../database/tables/project.md
+[6]: ../../database/tables/projectmember.md
+[7]: ../../database/tables/sale.md
+[8]: ../../database/tables/salestakeholder.md

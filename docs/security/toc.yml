@@ -3,12 +3,12 @@ items:
 - name: Privacy
   items:
   - name: Introduction
-    href: index.md
+    href: privacy/index.md
   - name: GDPR for app developer
-    href: gdpr-for-app-developer.md
+    href: privacy/gdpr-for-app-developer.md
   - name: Consent management
-    href: consent-management.md
+    href: privacy/consent-management.md
   - name: E-marketing consent
-    href: e-marketing-consent.md
+    href: privacy/e-marketing-consent.md
   - name: Soft-delete
-    href: soft-delete.md
+    href: privacy/soft-delete.md

@@ -86,7 +86,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: howto/overview.md
+        url: overview.md
 
     # Card
     - title: Actions options
@@ -105,16 +105,16 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: howto/crmscript/index.md
+        url: udef/howto/crmscript/index.md
       - text: Web services
         itemType: how-to-guide
-        url: howto/services/set-udef-listitem-value.md
+        url: udef/howto/services/set-udef-listitem-value.md
       - text: Entities
         itemType: how-to-guide
-        url: howto/entity/set-udef-listitem-value.md
+        url: udef/howto/entity/set-udef-listitem-value.md
       - text: Raw SQL
         itemType: how-to-guide
-        url: howto/sql/set-udef.md
+        url: udef/howto/sql/set-udef.md
 
     # Card
     - title: Database options

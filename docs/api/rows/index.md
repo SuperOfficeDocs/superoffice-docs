@@ -141,7 +141,7 @@ For example, in the `Sale` Entity, the `Associate` property would refer to the `
 [8]: update-row-in-entity.md
 [9]: delete-row.md
 [10]: delete-row-from-entity.md
-[11]: ../index.md
+[11]: ../overview/netserver.md
 
 <!-- Referenced images -->
 [img5]: media/personrowsobject.gif

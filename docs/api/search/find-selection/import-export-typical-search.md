@@ -99,6 +99,6 @@ The instances that only in exist in the imported lists (no matching entity + tit
 
 <!-- Referenced links -->
 
-[1]: ../../../tutorials/native-app-quickstart.md
+[1]: ../../tutorials/native-app-quickstart.md
 
 <!-- Referenced images -->

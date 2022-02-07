@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: "Introduction to SuperOffice APIs."
       itemType: get-started
-      url: getting-started/index.md
+      url: overview/index.md
     # Card
     - title: "Authentication overview."
       itemType: overview
@@ -30,19 +30,19 @@ highlightedContent:
     # Card
     - title: "Learn NetServer."
       itemType: learn
-      url: netserver/index.md
+      url: overview/netserver.md
     # Card
     - title: "Learn web services"
       itemType: learn
-      url: netserver/web-services/index.md
+      url: web-services/index.md
     # Card
     - title: "Learn bulk operations"
       itemType: learn
-      url: netserver/bulk-operations/index.md 
+      url: bulk-operations/index.md 
     # Card
     - title: "Learn search APIs"
       itemType: learn
-      url: netserver/search/index.md
+      url: search/index.md
     # Card
     - title: "NetServer API reference"
       itemType: reference
@@ -62,19 +62,16 @@ conceptualContent:
     - title: Core concepts
       summary: Learn the fundamental of NetServer core
       links:
-        - url: netserver/index.md
-          itemType: overview
-          text: NetServer overview
-        - url: netserver/index.md
+        - url: overview/netserver.md
           itemType: concept
           text: What is NetServer
-        - url: netserver/entities/index.md
+        - url: entities/index.md
           itemType: overview
           text: NetServer Entities
-        - url: netserver/rows/index.md
+        - url: rows/index.md
           itemType: overview
           text: NetServer Rows
-        - url: netserver/osql/index.md
+        - url: osql/index.md
           itemType: overview
           text: NetServer OSQL
      # Card
@@ -83,26 +80,26 @@ conceptualContent:
       links:
         - text: NetServer Services overview
           itemType: concept
-          url: netserver/web-services/index.md
+          url: web-services/index.md
         - text: Service agents and carriers
           itemType: concept
-          url: netserver/web-services/index.md#agents
+          url: web-services/index.md#agents
         - text: NetServer endpoints
           itemType: concept
-          url: netserver/web-services/endpoints/index.md
+          url: web-services/endpoints/index.md
         - text: NetServer proxies
           itemType: concept
-          url: netserver/web-services/proxies/index.md
+          url: web-services/proxies/index.md
     # Card
     - title: Search options
       summary: Start searching with NetServer
       links:
         - text: Using Find API
           itemType: how-to-guide
-          url: netserver/search/find-selection/index.md
+          url: search/find-selection/index.md
         - text: Using Archive Providers
           itemType: overview
-          url: netserver/search/index.md
+          url: search/index.md
     # Card
     - title: API Reference
       summary: Quick access to API reference
@@ -140,11 +137,11 @@ tools:
     # Card
     - title: "Archive Provider Listing"
       imageSrc: https://docs.superoffice.com/media/logos/netserver_archive_providers.svg
-      url: netserver/archive-providers/reference/index.md
+      url: archive-providers/reference/index.md
     # Card
     - title: "MDO Provider Listing"
       imageSrc: https://docs.superoffice.com/media/logos/netserver_archive_providers.svg
-      url: netserver/mdo-providers/reference/index.md
+      url: mdo-providers/reference/index.md
 
 # Card with summary style
 additionalContent:
@@ -238,7 +235,7 @@ additionalContent:
       # Card
       - title: "Customer Service SOAP API"
         summary: API reference documentation for Service SOAP endpoints
-        url: service-soap/overview.md
+        url: ../service/soap/overview.md
       # Card
       - title: "Web Application API"
         summary: API reference documentation for Web Application

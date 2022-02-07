@@ -216,8 +216,8 @@ For a complete list of fields, see the [database reference][4].
 See the [full list of encodings][5].
 
 <!-- Referenced links -->
-[1]: ../parser-and-templates/reply-template.md
+[1]: ../../../automation/crmscript/parser-and-templates/reply-template.md
 [2]: ../../../database/tables/heading.md
-[3]: ../document/templates/index.md
+[3]: ../../../document/templates/index.md
 [4]: ../../../database/tables/doctmpl.md
 [5]: ../../../api/api-reference/netserver/core/SuperOffice.Data.GeneratorEncoding.yml

@@ -168,14 +168,14 @@ Read more about each platform API in the SDK documentation.
 [20]: ../../admin/user-preferences/index.md
 [21]: ../../automation/trigger/create-trigger-script.md
 [22]: ../../automation/trigger/create-trigger-macro.md
-[23]: ../custom-fields/overview.md
+[23]: ../../custom-objects/overview.md
 [24]: ../../ui/web-panels/index.md
 [25]: ../../ui/blogic/custom-screens/index.md
 [26]: ../../ui/web-app/index.yml
 [27]: ../../ui/web-app/custom-ajax-methods.md
 [28]: ../archive-providers/index.md
 [29]: ../mdo-providers/reference/index.md
-[30]: ../../custom-objects/howto/extra-tables.md
+[30]: ../../custom-objects/extra-table/index.md
 [31]: ../../mobile/index.yml
 [32]: netserver.md#domain-level-apis-netserver-core
 [33]: ../config/services.md

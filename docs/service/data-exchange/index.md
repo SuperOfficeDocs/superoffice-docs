@@ -70,7 +70,7 @@ and in Sales & Marketing
 * [How to create a custom Data Exchange agent][1]
 
 <!-- Referenced links -->
-[1]:../tutorials/custom-data-exchange-agent/index.md
+[1]:../../api/tutorials/custom-data-exchange-agent/index.md
 
 <!-- Referenced images -->
 [img1]: media/image014.jpg

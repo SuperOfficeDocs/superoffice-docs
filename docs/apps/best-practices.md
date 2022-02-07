@@ -358,11 +358,11 @@ Read about [effective visual design][6].
 [2]: tenant-status/check-status.md
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/master/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
 [4]: https://community.superoffice.com/change-application
-[5]: ../api/docs/authentication/online/validate-security-tokens.md
-[6]: ../ui/docs/design/index.md
+[5]: ../api/authentication/online/validate-security-tokens.md
+[6]: ../ui/design/index.md
 [7]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/
-[8]: ../api/docs/authentication/online/sign-in-user/index.md
-[9]: ../api/docs/authentication/online/auth-application/index.md
+[8]: ../api/authentication/online/sign-in-user/index.md
+[9]: ../api/authentication/online/auth-application/index.md
 [10]: tenant-status/notifications.md
 [11]: tenant-status/get-notifications.md
 [12]: https://community.superoffice.com/application-registration/
@@ -375,10 +375,10 @@ Read about [effective visual design][6].
 [19]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/blob/master/source/SuperOffice.DevNet.RazorPages/Middleware/RefreshTokenMiddleware.cs
 [20]: https://en.wikipedia.org/wiki/Big_O_notation
 [21]: ../api/search/odata/index.md
-[22]: ../api/docs/authentication/online/api.md#access-tokens
-[23]: ../api/docs/authentication/online/api.md#soticket-authentication
+[22]: ../api/authentication/online/api.md#access-tokens
+[23]: ../api/authentication/online/api.md#soticket-authentication
 [24]: provisioning/index.md
-[25]: ../api/docs/security/sentry/index.md
+[25]: ../api/security/sentry/index.md
 
 <!-- Referenced images -->
 [img1]: media/count.png

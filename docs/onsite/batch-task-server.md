@@ -51,8 +51,8 @@ Whenever a task is running the area at the top right next to the free-text searc
 Task execution can timeout. This is handled in the batch processor in NetServer. If the queue of waiting tasks becomes too big, the administrator of the system should either increase the number of simultaneous tasks that can run in this service, install multiple instances of the service on one machine,  or set up more than one server running batch processing services. Tasks will be found in the database table `crm7.batchtask`.
 
 <!-- Referenced links -->
-[1]: ../../api/sem-batch-processing/index.md
-[2]: ../../api/config/batchservice.md
+[1]: ../api/tutorials/sem-batch-processing/index.md
+[2]: ../api/config/batchservice.md
 
 <!-- Referenced images -->
 [img1]: media/runtaskinprocess.png

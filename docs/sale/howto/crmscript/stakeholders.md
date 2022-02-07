@@ -143,5 +143,5 @@ For a complete list of fields, see the [database reference][3].
 
 <!-- Referenced links -->
 [1]: ../../../company/howto/crmscript/company.md
-[2]: ../../../company/howto/crmscript/customer.md
+[2]: ../../../contact/howto/crmscript/customer.md
 [3]: ../../../database/tables/salestakeholder.md

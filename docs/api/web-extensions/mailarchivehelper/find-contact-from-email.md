@@ -1,6 +1,6 @@
 ---
 title: Find contact from email
-uid: mailarchivehelper_find_contact
+uid: mailarchivehelper_archive_email
 description: Find contact from email
 author: Tony Yates
 so.date: 06.24.2016

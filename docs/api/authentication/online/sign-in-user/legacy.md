@@ -41,6 +41,6 @@ Before introducing OAuth 2.0, our web services used SuperOffice legacy federated
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../../apps/terminology.md
-[3]: ../../../apps/redirects/index.md
+[2]: ../../../../apps/terminology.md
+[3]: ../../../../apps/redirects/index.md
 [4]: ../validate-security-tokens.md

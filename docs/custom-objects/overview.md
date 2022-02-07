@@ -56,7 +56,7 @@ User-defined fields (udefs for short) belong in SuperOFfice CRM, while extra tab
 You can't customize the database schema via the APIs. It's on the roadmap, but for now, you must do this in the SuperOffice Service UI. After setting it up, you can manage the data in them via the APIs.
 
 <!-- Referenced links -->
-[1]: udef.md
-[2]: extra-fields.md
-[3]: extra-tables.md
+[1]: udef/index.md
+[2]: extra-field/index.md
+[3]: extra-table/index.md
 [4]: ../database/dictionary/index.md

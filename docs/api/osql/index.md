@@ -95,7 +95,7 @@ In the [syntax][1] section, we will be comparing SuperOffice Objectified SQL wit
 
 <!-- Referenced links -->
 [1]: and-clause.md
-[2]: ../index.md
+[2]: ../overview/netserver.md
 
 <!-- Referenced images -->
 [img1]: media/intro-osql2.png

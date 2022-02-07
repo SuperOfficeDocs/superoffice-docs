@@ -311,19 +311,19 @@ Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback
 
 <!-- Referenced links -->
 [1]: ../agents-webapi/index.md
-[2]: ../../../../contact/howto/services/create-contact-rest.md
+[2]: ../../../../company/howto/services/create-contact-rest.md
 [3]: ../../../lists/services/rest/add-catlist-item-rest.md
-[4]: ../../../../documents/howto/rest/add-document-template.md
-[5]: ../../../../documents/howto/rest/generate-document.md
-[6]: ../../../../person/howto/services/get-person-image-rest.md
-[7]: ../../../../person/howto/services/update-person-image-rest.md
+[4]: ../../../../document/howto/rest/add-document-template.md
+[5]: ../../../../document/howto/rest/generate-document.md
+[6]: ../../../../contact/howto/services/get-person-image-rest.md
+[7]: ../../../../contact/howto/services/update-person-image-rest.md
 [8]: ../../../../automation/webhook/register.md
-[9]: ../../../../../assets/downloads/api/Swagger-v1-REST.zip
-[10]: ../../../../security/sentry/services/index.md
+[9]: ../../../../assets/downloads/api/Swagger-v1-REST.zip
+[10]: ../../../security/sentry/services/index.md
 [11]: ../../../../automation/webhook/reference/index.md
 [12]: ../get-webapi-version.md
-[13]: ../../../../authentication/online/auth-application/get-system-user-ticket.md
-[14]: ../../../../api-reference/restful/rest/index.md
+[13]: ../../../authentication/online/auth-application/get-system-user-ticket.md
+[14]: ../../../api-reference/restful/rest/index.md
 [15]: ../../setup-rest.md
 [16]: ../../../search/odata/index.md
 [17]: ../../../search/index.md

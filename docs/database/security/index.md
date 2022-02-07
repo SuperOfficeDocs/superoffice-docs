@@ -21,6 +21,6 @@ Contents:
 
 <!-- Referenced links -->
 [1]: ../getting-started/index.md
-[2]: ../onsite/install/database/create-oracle-db.md#creating-the-crm7-user
+[2]: ../../onsite/install/database/create-oracle-db.md#creating-the-crm7-user
 [3]: single-database-user.md
-[4]: https://github.com/SuperOfficeDocs/database/issues
+[4]: https://github.com/SuperOfficeDocs/superoffice-docs/issues

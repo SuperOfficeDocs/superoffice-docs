@@ -1,6 +1,6 @@
 items:
 - name: Plug-ins
-  href: plug-ins/index.md
+  href: index.md
   items:
   - name: Document plug-in
     href: document/soarc-document-plugin.md

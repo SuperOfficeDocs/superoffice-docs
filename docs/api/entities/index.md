@@ -141,7 +141,7 @@ An entity is suitable for **one-at-a-time work**. Each entity will load its sub-
 
 <!-- Referenced links -->
 [1]: ../rows/index.md
-[2]: ../index.md
+[2]: ../overview/netserver.md
 [3]: ../rows/index.md#tableinfo-and-fieldinfo
 [4]: get-entity.md
 [6]: create-entity.md

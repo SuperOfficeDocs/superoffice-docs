@@ -118,23 +118,23 @@ All types of technology platforms, including Java, PHP, Python, Ruby, and many m
 This has been a high-level view of NetServer. As you can see, there is a vast difference between the different approaches. Be aware though that, just because one layer takes longer to complete than another, it does not imply that a layer should be ignored. Each query type has its place in the development world when used judiciously.
 
 <!-- Referenced links -->
-[1]: osql/index.md
-[2]: rows/index.md
-[3]: entities/index.md
-[4]: archive-providers/index.md
-[5]: web-services/index.md
+[1]: ../osql/index.md
+[2]: ../rows/index.md
+[3]: ../entities/index.md
+[4]: ../archive-providers/index.md
+[5]: ../web-services/index.md
 [6]: ../api-reference/soap/index.md
 [7]: ../api-reference/netserver/services/index.md
 [8]: ../api-reference/netserver/core/index.md
-[9]: webhooks/index.md
+[9]: ../../automation/webhook/index.md
 [10]: ../api-reference/webapi/index.md
 [11]: ../../automation/crmscript/overview/index.md
-[12]: config/index.md
+[12]: ../config/index.md
 [13]: ../authentication/overview.md
-[14]: ../documents/plugins/soarc-document-plugin.md
-[15]: web-services/endpoints/index.md
-[16]: web-services/proxies/index.md
-[17]: mdo-providers/reference/index.md
+[14]: ../plug-ins/document/soarc-document-plugin.md
+[15]: ../web-services/endpoints/index.md
+[16]: ../web-services/proxies/index.md
+[17]: ../mdo-providers/reference/index.md
 
 <!-- Referenced images -->
 [img1]: media/netserverhilevelview.png

@@ -37,6 +37,6 @@ u.load(getVariable("activeUser").toInteger());
 
 <!-- Referenced links -->
 [3]: http://www.ietf.org/rfc/rfc2279.txt
-[4]: ../document/templates/index.md
+[4]: ../../document/templates/index.md
 [5]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html
 [6]: ../blogic/custom-screens/index.md

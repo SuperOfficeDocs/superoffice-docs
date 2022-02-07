@@ -44,7 +44,7 @@ It is also important to know basic SQL.
 * [What's new][1]
 
 <!-- Referenced links -->
-[1]: whats-new/index.md
+[1]: ../../release-notes/database/index.md
 [2]: getting-started/index.md
 [3]: dictionary/index.md
 [4]: security/index.md

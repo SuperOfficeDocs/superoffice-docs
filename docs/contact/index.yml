@@ -104,7 +104,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../custom-objects/howto/overview.md
+        url: ../custom-objects/overview.md
       - text: How to add user-defined fields
         itemType: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM

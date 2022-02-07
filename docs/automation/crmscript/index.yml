@@ -145,15 +145,15 @@ landingContent:
       - linkListType: overview
         links:
         - text: Intro
-          url: chatbot/index.md
+          url: ../chatbot/index.md
         - text: Registration
-          url: chatbot/registration.md
+          url: ../chatbot/registration.md
         - text: Chat sessions
-          url: chatbot/sessions.md
+          url: ../chatbot/sessions.md
         - text: Messages
-          url: chatbot/messages.md
+          url: ../chatbot/messages.md
         - text: Script reference
-          url: chatbot/reference.md
+          url: ../chatbot/reference.md
   # Card
   - title: API reference
     linkLists:

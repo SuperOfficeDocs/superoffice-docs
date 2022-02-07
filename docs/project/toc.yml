@@ -16,7 +16,7 @@ items:
       - name: Project members
         href: howto/crmscript/project-members.md
       - name: Guides
-        href: howto/rmscript/project-guides.md
+        href: howto/crmscript/project-guides.md
     - name: Raw SQL
       href: howto/sql/index.md
       items:

@@ -61,5 +61,5 @@ See the [NetServer Core reference][1] for details about handling this programmat
 
 <!-- Referenced links -->
 [1]: <xref:SuperOffice.Configuration.ConfigFile.ClientConfigurationProvider>
-[2]: ../../../ui/web-app/pagebuilder/config/soml.md
-[3]: ../../../ui/web-app/pagebuilder/config/merge-files-and-actions.md
+[2]: ../../ui/web-app/pagebuilder/config/soml.md
+[3]: ../../ui/web-app/pagebuilder/config/merge-files-and-actions.md

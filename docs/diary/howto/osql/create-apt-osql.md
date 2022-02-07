@@ -12,7 +12,7 @@ so.topic: howto
 
 # Create an appointment through OSQL
 
-[!include[import OSQL namespaces](../../includes/using-osql.md)]
+[!include[import OSQL namespaces](../../../api/includes/using-osql.md)]
 
 The following example shows how we could create an appointment using OSQL.
 

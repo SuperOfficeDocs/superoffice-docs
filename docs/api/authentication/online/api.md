@@ -201,8 +201,8 @@ SuperOffice offers a set of claims in addition to the [OpenID Connect claims][3]
 | `webapi_url` | X | X | The URL to a tenant REST web services. |
 
 <!-- Referenced links -->
-[1]: ../../apps/getting-started/app-envir.md
-[2]: ../../apps/provisioning/get-consent.md
+[1]: ../../../apps/getting-started/app-envir.md
+[2]: ../../../apps/provisioning/get-consent.md
 [3]: index.md
 [6]: https://openid.net/specs/openid-connect-session-1_0.html#RPLogout
 [7]: https://www.nuget.org/packages/SuperOffice.NetServer.Services

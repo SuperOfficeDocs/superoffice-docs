@@ -487,7 +487,7 @@ Take your time getting to know SuperOffice REST services, and if you happen to s
 [1]: ../config/webapi.md
 [2]: https://www.getpostman.com/
 [3]: http://www.w3schools.com/jsref/met_win_btoa.asp
-[4]: ../../authentication/webapi/reuse-session.md
+[4]: ../authentication/webapi/reuse-session.md
 [6]: endpoints/agents-webapi/index.md
 [7]: https://en.wikipedia.org/wiki/Open_Data_Protocol
 [8]: ../search/odata/index.md

@@ -44,4 +44,4 @@ doc = Post("api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate", req);
 
 This will generate a new document based on the template and return the updated document object to us.
 
-[!include[Pseudocode](../../includes/note-javascripty.md)]
+[!include[Pseudocode](../../../api/includes/note-javascripty.md)]

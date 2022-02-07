@@ -54,10 +54,12 @@ WHERE l.deleted = 0 AND l.category_id = gl.category_id AND gl.group_id = ugl.use
 The result is a set of list names, filtered via the user's group membership. Items that the user is not allowed to see will not be returned.
 
 > [!NOTE]
-> Because a user may be a member of more than one usergroup we have to join against the [UserGroupLink][1] table.<br>Items that are visible to more than one group will be returned twice. Use `SELECT DISTINCT` to filter the duplicates out.
+> Because a user may be a member of more than one usergroup we have to join against the [UserGroupLink][1] table.
+>
+> Items that are visible to more than one group will be returned twice. Use `SELECT DISTINCT` to filter the duplicates out.
 
 <!-- Referenced links -->
-[1]: ../../../database/tables/usergrouplink.md
+[1]: ../../database/tables/usergrouplink.md
 
 <!-- Referenced images -->
 [img1]: media/mdo-grouplinks.gif

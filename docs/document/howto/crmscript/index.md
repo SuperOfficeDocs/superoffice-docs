@@ -40,25 +40,10 @@ Documents are part of a broader group of entities labeled **activities**:
 
 There's always a corresponding appointment record for a document. You can navigate the relation between them in both directions. Each document-type appointment record has a corresponding document record - always. However, the document-type appointments are not visible in the UI and they should not be mistaken for **linked activities**.
 
-## Documents vs. other entities
-
-When working with documents, data will often intersect with the following entities:
-
-* [company][7] (contact table)
-* [contact][8] (person table)
-* [follow-ups][9] (appointment table)
-* [project][11]
-* [sale][10]
-
 <!-- Referenced links -->
 [1]: ../../../database/tables/document.md
-[2]: ../follow-ups/appointment.md
-[3]: ../follow-ups/task.md
-[4]: ../follow-ups/call.md
+[2]: ../../../diary/howto/crmscript/appointment.md
+[3]: ../../../diary/howto/crmscript/task.md
+[4]: ../../../diary/howto/crmscript/call.md
 [5]: ../../../database/tables/appointment.md
-[6]: ../api-reference/CRMScript.NetServer.NSAppointment.yml
-[7]: ../persons-and-organizations/company.md
-[8]: ../persons-and-organizations/customer.md
-[9]: ../follow-ups/index.md
-[10]: ../sales/index.md
-[11]: ../projects/index.md
+[6]: ../../../automation/crmscript/api-reference/CRMScript.NetServer.NSAppointment.yml

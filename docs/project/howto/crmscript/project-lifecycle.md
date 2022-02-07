@@ -169,9 +169,9 @@ For a complete list of fields, see the [database reference][7].
 | nextMilestoneDate | closest non-complete future milestone activity (DateTime) |
 
 <!-- Referenced links -->
-[1]: ../searchengine/index.md
-[2]: ../../../company/howto/crmscript/employees.md
-[3]: ../../../company/howto/crmscript/customer.md
+[1]: ../../../automation/crmscript/searchengine/index.md
+[2]: ../../../contact/howto/crmscript/employees.md
+[3]: ../../../contact/howto/crmscript/customer.md
 [4]: ../../../company/howto/crmscript/company.md
 [5]: project-members.md
 [6]: project-guides.md

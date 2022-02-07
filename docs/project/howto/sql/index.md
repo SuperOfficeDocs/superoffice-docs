@@ -17,8 +17,8 @@ so.topic: howto
 * [Description][7]
 
 <!-- Referenced links -->
-[5]: sql/create-project.md
-[6]: sql/project-guide.md
-[7]: sql/text-table.md
+[5]: create-project.md
+[6]: project-guide.md
+[7]: text-table.md
 
 <!-- Referenced images -->

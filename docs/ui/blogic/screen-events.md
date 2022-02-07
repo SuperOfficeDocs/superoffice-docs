@@ -149,5 +149,5 @@ This lets you go to the standard screen with `&action=viewTableEntry&table=ticke
 [2]: custom-screens/add-screen-element.md
 [3]: custom-screens/layout-elements.md
 [4]: <xref:CRMScript.Native.HtmlElement>
-[5]: ../../crmscript/debugging/print-debug.md
+[5]: ../../automation/crmscript/debugging/print-debug.md
 [6]: custom-screens/form-elements.md

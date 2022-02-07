@@ -157,6 +157,6 @@ if (result.GetRowCount() > 0) {
 ```
 
 <!-- Referenced links -->
-[2]: ../persons-and-organizations/customer.md
-[6]: ../datatypes/datetime-type.md
-[7]: ../datatypes/date-type.md
+[2]: ../../../../contact/howto/crmscript/customer.md
+[6]: ../../../../automation/crmscript/datatypes/datetime-type.md
+[7]: ../../../../automation/crmscript/datatypes/date-type.md

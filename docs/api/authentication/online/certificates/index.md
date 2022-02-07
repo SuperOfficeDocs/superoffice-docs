@@ -1,8 +1,8 @@
 ---
-title: certificates       
-description:                    
+title: certificates
+description: SuperID certificates
 author: {github-id}
-keywords:
+keywords: SuperID, certificates, PKI
 ---
 
 # SuperID certificates
@@ -65,7 +65,7 @@ The `SuperIdTokenHandler` class is responsible for validating security tokens. B
     * There are hidden characters in the value field - such as an "&shy;" character.
 
 <!-- Referenced links -->
-[1]: ../../../apps/getting-started/app-envir.md
+[1]: ../../../../apps/getting-started/app-envir.md
 [2]: ../validate-security-tokens.md
 [3]: ../troubleshooting/index.md
 [4]: configure.md

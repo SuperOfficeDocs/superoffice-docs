@@ -26,8 +26,8 @@ se.insert();
 
 ### Table properties
 
-| Property       | Description                                                 |
-|:---------------|:------------------------------------------------------------|
+| Property | Description |
+|:--|:---|
 | Folder         | to organize tables in a hierarchy, optional                 |
 | Name           | label                                                       |
 | Database table | for the schema, can't be changed after creation             |
@@ -55,5 +55,5 @@ For a complete list of properties, see the [help files][3].
 
 <!-- Referenced links -->
 [1]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.editExtraTable.html
-[2]: ../../../automation/crmscript/searchengine/index.md
+[2]: ../../../../automation/crmscript/searchengine/index.md
 [3]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.listFields.editField.html

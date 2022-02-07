@@ -38,7 +38,7 @@ If you add a picture to a person, you must write the picture to the `BinaryObjec
 Without the link record, the picture will not appear.
 
 <!-- Referenced links -->
-[1]: ../overview/domain.md
+[1]: ../automation/crmscript/overview/domain.md
 
 <!-- Referenced images -->
 [img1]: media/edit-person.png

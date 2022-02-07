@@ -106,7 +106,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../custom-objects/howto/overview.md
+        url: ../custom-objects/overview.md
       - text: UddocSmall table
         itemType: reference
         url: ../database/tables/uddocsmall.md
@@ -146,7 +146,7 @@ conceptualContent:
         url: howto/services/index.md
       - text: SO_Arc document plugin
         itemType: how-to-guide
-        url: howto/plugins/soarc-document-plugin.md
+        url: ../api/plug-ins/document/soarc-document-plugin.md
 
     # Card
     - title: Database options

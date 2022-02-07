@@ -278,6 +278,6 @@ For a complete list of fields, see the [database reference][4].
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Message.setValue(String,String)>
-[2]: ../parser-and-templates/parser.md
-[3]: ../parser-and-templates/reply-template.md
+[2]: ../../../automation/crmscript/parser-and-templates/parser.md
+[3]: ../../../automation/crmscript/parser-and-templates/reply-template.md
 [4]: ../../../database/tables/ej-message.md

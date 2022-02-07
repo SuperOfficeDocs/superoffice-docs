@@ -31,9 +31,9 @@ There is always a row in the `countervalue` table corresponding to appointment, 
 * [SAINT counters][5]
 
 <!-- Referenced links -->
-[1]: ../../../database/tables/statusvalue.md
-[2]: ../../../database/tables/statusdef.md
-[3]: ../../../database/tables/countervalue.md
+[1]: ../../database/tables/statusvalue.md
+[2]: ../../database/tables/statusdef.md
+[3]: ../../database/tables/countervalue.md
 [4]: values.md
 [5]: counters.md
 

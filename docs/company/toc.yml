@@ -25,7 +25,7 @@ items:
       - name: Create contact WebApi agents
         href: howto/services/create-contact-webapi-agents.md
       - name: Get contact
-        href: services/get-contact-via-services-layer.md
+        href: howto/services/get-contact-via-services-layer.md
       - name: Get all contacts (REST)
         href: howto/services/get-all-contacts-rest.md
       - name: List interests for contact

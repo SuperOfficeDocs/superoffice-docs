@@ -13,7 +13,9 @@ so.topic: guide
 # Getting started with ERP development
 
 > [!TIP]
-> We recommend that connector developers use the connector web-service host, but it’s not a requirement.<br>If you choose to go with your own web-service host, you are not required to use the `IErpConnector` interface. `IErpConnector` is the communication interface between the connector host supplied by SuperOffice and its hosted connectors.
+> We recommend that connector developers use the connector web-service host, but it’s not a requirement.
+>
+> If you choose to go with your own web-service host, you are not required to use the `IErpConnector` interface. `IErpConnector` is the communication interface between the connector host supplied by SuperOffice and its hosted connectors.
 
 ## Using your own connector host
 
@@ -66,7 +68,7 @@ Each connection will have to be able to inform ERP Sync about which actor types 
 [3]: setup-mapping.md
 [4]: setup-defaults.md
 [5]: ranking-fields.md
-[6]: ../config/factory.md
+[6]: ../../config/factory.md
 
 <!-- Referenced images -->
 [img1]: media/sync-connector-plugin.png

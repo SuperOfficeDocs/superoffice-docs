@@ -120,14 +120,13 @@ See the `<NS:Credentials>` element:
 
 With a valid credential set, the application can connect to and process data with the customer tenant.
 
-
 <!-- Referenced links -->
-[1]: ../../../apps/provisioning/consent.md
-[2]: ../../../apps/redirects/index.md
+[1]: ../../../../apps/provisioning/consent.md
+[2]: ../../../../apps/redirects/index.md
 [3]: ../validate-security-tokens.md
 [4]: ../api.md
 [5]: ../index.md
-[6]: ../../../apps/tenant-status/index.md
+[6]: ../../../../apps/tenant-status/index.md
 [8]: get-system-user-ticket.md
 
 <!-- Referenced images -->

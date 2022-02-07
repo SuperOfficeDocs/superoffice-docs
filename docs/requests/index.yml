@@ -174,7 +174,7 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: ../automation/crmscript/requests/index.md
+        url: howto/crmscript/index.md
       - text: REST
         itemType: reference
         url: ../api/api-reference/restful/rest/Ticket/index.md

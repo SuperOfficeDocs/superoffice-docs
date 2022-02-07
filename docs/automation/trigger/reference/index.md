@@ -21,4 +21,4 @@ There can be many scripts hooked to the same event - in which case they are run 
 [Reference][1]
 
 <!-- Referenced links -->
-[1]:  ../crmscript/api-reference/CRMScript.Event.Trigger.yml
+[1]: CRMScript.Event.Trigger.yml

@@ -164,8 +164,8 @@ For a complete list of fields, see the [database reference][6].
 
 <!-- Referenced links -->
 [1]: ../../../diary/howto/crmscript/index.md
-[2]: ../../../documents/howto/crmscript/index.md
-[3]: ../../../documents/howto/crmscript/doc-properties.md
+[2]: ../../../document/howto/crmscript/index.md
+[3]: ../../../document/howto/crmscript/doc-properties.md
 [4]: ../../../database/tables/projecttypestatuslink.md
 [5]: ../../../database/tables/suggestedappointment.md
 [6]: ../../../database/tables/suggesteddocument.md

@@ -409,7 +409,7 @@ A claim can be either [standard OpenID Connect][14] or [custom][8] (with its own
 [3]: certificates/override-resolver.md
 [4]: certificates/index.md
 [6]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
-[7]: ../../../assets/downloads/downloads.md
+[7]: ../../../assets/downloads/api/index.md
 [8]: api.md
 [9]: https://www.nuget.org/packages/SuperOffice.WebApi
 [11]: sign-in-user/legacy.md

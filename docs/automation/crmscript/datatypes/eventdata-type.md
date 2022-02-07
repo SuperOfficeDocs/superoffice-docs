@@ -99,9 +99,9 @@ Navigation uses [SOProtocol][2] and [URL parameters][3].
 * String [getNavigateTo()][13]
 * Void [setNavigateTo(String url)][14]
 <!-- Referenced links -->
-[1]: ../../ui/blogic/screen-events.md
-[2]: ../../ui/soprotocol/index.md
-[3]: ../../ui/blogic/url-parameters.md
+[1]: ../../../ui/blogic/screen-events.md
+[2]: ../../../ui/soprotocol/index.md
+[3]: ../../../ui/blogic/url-parameters.md
 [4]:  <xref:CRMScript.Native.EventData.getType()>
 [5]:  <xref:CRMScript.Native.EventData.getInputValue(String)>
 [6]:  <xref:CRMScript.Native.EventData.getInputValues()>

@@ -114,8 +114,8 @@ The following example code has an extensive amount of logging to the console. Th
 <!-- Referenced links -->
 [1]: index.md
 [3]: ../validate-security-tokens.md
-[5]: ../../../apps/terminology.md
-[6]: ../../../apps/provisioning/get-consent.md
+[5]: ../../../../apps/terminology.md
+[6]: ../../../../apps/provisioning/get-consent.md
 [8]: sign-system-user-token.md
 [9]: https://www.nuget.org/packages/SuperOffice.WebApi
 [10]: https://github.com/SuperOffice/SuperOffice.WebApi-Samples

@@ -12,7 +12,7 @@ so.topic: howto
 
 The tooltip service can be extended using a plugin to include data that we want in our own application apart from the ones that have been provided by NetServer.
 
-Below is an example of a plugin that is developed to enhance the person tooltip that is provided by NetServer. For more information on plugins, see the [agent patterns][1].
+Below is an example of a plugin that is developed to enhance the person tooltip that is provided by NetServer.
 
 ## Code
 
@@ -84,7 +84,6 @@ All that remains is to tell NetServer about our DLL using the config file:
 NetServer will load the assembly. The `TooltipProviderFactory` will scan it for compatible plugins, and pick it up. Whenever a tooltip request comes in with the key that our plugin has declared, it will be called and is then running in process, authenticated, with all of NetServer available.
 
 <!-- Referenced links -->
-[1]: ../services/agents/agent-pattern.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

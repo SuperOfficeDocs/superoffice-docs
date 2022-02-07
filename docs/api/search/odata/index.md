@@ -120,7 +120,7 @@ Read more about [using filters][3].
 [9]: numbers.md
 [10]: strings.md
 [11]: unary.md
-[12]: ../../../contact/services/get-all-contacts-rest.md
+[12]: ../../../company/howto/services/get-all-contacts-rest.md
 
 <!-- Referenced images -->
 [img1]: media/get-sale.png

@@ -40,4 +40,4 @@ For example, a date, the ID in a drop-down menu, or a text value.
 The flags of the extra field (such as **cannot be empty**) are used to specify the behavior of the field.
 
 <!-- Referenced links -->
-[1]: ../../../custom-objects/extra-fields/howto/crmscript/index.md
+[1]: ../../../custom-objects/extra-field/howto/crmscript/index.md

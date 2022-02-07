@@ -101,7 +101,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../custom-objects/howto/overview.md
+        url: ../custom-objects/overview.md
       - text: UdcontactSmall table
         itemType: reference
         url: ../database/tables/udcontactsmall.md
@@ -135,7 +135,7 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: howto/crmscript/customer.md
+        url: howto/crmscript/company.md
       - text: Raw SQL
         itemType: how-to-guide
         url: howto/sql/create-contact-sql.md

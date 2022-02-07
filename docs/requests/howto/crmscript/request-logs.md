@@ -78,7 +78,7 @@ For each change to a ticket, new entries are added to both the **ticket_log_acti
 | ticket_log_change | 1 entry for each value that has changed | [LogChange][4] |
 
 <!-- Referenced links -->
-[1]: ../searchengine/index.md
+[1]: ../../../automation/crmscript/searchengine/index.md
 [2]: ../../../database/tables/ticket-log.md
 [3]: ../../../database/tables/ticket-log-action.md
 [4]: ../../../database/tables/ticket-log-change.md

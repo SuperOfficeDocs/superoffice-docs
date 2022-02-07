@@ -111,6 +111,6 @@ Each session option determines where in memory the authenticated session will be
 See the [NetServer Core reference][2] for details about handling this programmatically.
 
 <!-- Referenced links -->
-[1]: ../../authentication/onsite/sosession/suspend.md
+[1]: ../authentication/onsite/sosession/suspend.md
 [2]: <xref:SuperOffice.Configuration.ConfigFile.Data>
-[3]: ../../authentication/users-and-associates.md#external-users-type-4
+[3]: ../authentication/users-and-associates.md#external-users-type-4

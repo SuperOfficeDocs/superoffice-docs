@@ -16,69 +16,69 @@ items:
     href: howto/index.md
     items:
     - name: CRMScript
-      href: crmscript/index.md
+      href: howto/crmscript/index.md
       items:
         - name: Calendar appointments
-          href: crmscript/appointment.md
+          href: howto/crmscript/appointment.md
         - name: Todo list
-          href: crmscript/task.md
+          href: howto/crmscript/task.md
         - name: Phone calls
-          href: crmscript/call.md
+          href: howto/crmscript/call.md
         - name: Meeting invitations
-          href: crmscript/invitations.md
+          href: howto/crmscript/invitations.md
         - name: Recurrence
-          href: crmscript/recurrence.md
+          href: howto/crmscript/recurrence.md
     - name: Web services
-      href: services/index.md
+      href: howto/services/index.md
       items:
       - name: Create appointment
-        href: services/create-apt-services.md
+        href: howto/services/create-apt-services.md
       - name: Create recurring appointment
-        href: services/create-recurring-appointment-services.md
+        href: howto/services/create-recurring-appointment-services.md
       - name: Create invitation
-        href: services/create-invitation-services.md
+        href: howto/services/create-invitation-services.md
       - name: Get invitations
-        href: services/get-invitations-services.md
+        href: howto/services/get-invitations-services.md
       - name: Accept invitation
-        href: services/accept-invitation-services.md
+        href: howto/services/accept-invitation-services.md
     - name: ArchiveAgent
-      href: archive/index.md
+      href: howto/archive/index.md
       items:
       - name: Invitation archive
-        href: archive/invitation-archive.md
+        href: howto/archive/invitation-archive.md
     - name: Entities
-      href: entity/index.md
+      href: howto/entity/index.md
       items:
       - name: Create appointment
-        href: entity/create-apt-entity.md
+        href: howto/entity/create-apt-entity.md
       - name: Create appointment (in entity)
-        href: entity/create-apt-entity-in-entity.md
+        href: howto/entity/create-apt-entity-in-entity.md
       - name: Create appointment (in collection)
-        href: entity/create-apt-entity-in-collection.md
+        href: howto/entity/create-apt-entity-in-collection.md
       - name: Create recurring appointment
-        href: entity/create-recurring-appointment-entity.md
+        href: howto/entity/create-recurring-appointment-entity.md
       - name: Create invitation
-        href: entity/create-invitation-entity.md
+        href: howto/entity/create-invitation-entity.md
       - name: Accept invitation
-        href: entity/accept-invitation-entity.md
+        href: howto/entity/accept-invitation-entity.md
     - name: Rows
-      href: row/index.md
+      href: howto/row/index.md
       items:
       - name: Create appointment (Row)
-        href: row/create-apt-row.md
+        href: howto/row/create-apt-row.md
       - name: Create appointment (Rows)
-        href: row/create-apt-rows.md
+        href: howto/row/create-apt-rows.md
     - name: Objectified SQL
-      href: osql/index.md
+      href: howto/osql/index.md
       items:
       - name: Create appointment
-        href: osql/create-apt-osql.md
+        href: howto/osql/create-apt-osql.md
     - name: Raw SQL
-      href: sql/index.md
+      href: howto/sql/index.md
       items:
       - name: Create appointment
-        href: sql/create-apt-sql.md
+        href: howto/sql/create-apt-sql.md
       - name: Create invitation
-        href: sql/create-invitation-sql.md
+        href: howto/sql/create-invitation-sql.md
       - name: Accept invitation
-        href: sql/accept-invitation-sql.md
+        href: howto/sql/accept-invitation-sql.md

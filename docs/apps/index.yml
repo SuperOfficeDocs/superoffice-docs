@@ -56,7 +56,7 @@ conceptualContent:
           url: getting-started/user-contexts.md
         - text: Integration points
           itemType: concept
-          url: ../api/docs/getting-started/index.md
+          url: ../api/overview/index.md
     # Card
       - title: Tenant status
         summary: ""

@@ -76,6 +76,6 @@ public async Task<ContactEntity> GetContactEntity(contactId)
 ```
 
 <!-- Referenced links -->
-[1]: ../../../authentication/webapi/iauthorization.md
+[1]: ../../authentication/webapi/iauthorization.md
 [2]: built-in.md
 [3]: https://www.nuget.org/packages/AspNet.Security.OAuth.SuperOffice/

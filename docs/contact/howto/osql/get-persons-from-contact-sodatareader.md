@@ -12,7 +12,7 @@ so.topic: howto
 
 # Retrieve a list of people using SODataReader
 
-[!include[ALT](../../includes/note-using-sodatareader.md)]
+[!include[ALT](../../../api/includes/note-using-sodatareader.md)]
 
 [!code-csharp[CS](includes/get-persons-from-contact-sodatareader.cs)]
 

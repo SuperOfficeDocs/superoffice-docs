@@ -78,7 +78,7 @@ The example above retrieves whether the calendar for the signed-in user begins w
 See also: [intro to cache][1]
 
 <!-- Referenced links -->
-[1]: ../caching/index.md
+[1]: ../../../api/caching/index.md
 
 <!-- Referenced images -->
 [img1]: media/start-week-sunday.png

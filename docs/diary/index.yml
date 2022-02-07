@@ -104,7 +104,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../custom-objects/howto/overview.md
+        url: ../custom-objects/overview.md
       - text: UdappntSmall table
         itemType: reference
         url: ../database/tables/udappntsmall.md

@@ -14,7 +14,7 @@ so.topic: howto
 
 Creating a contact through an entity can be done in 2 different ways:
 
-[!include[ALT](../../includes/create-entity-options.md)]
+[!include[ALT](../../../api/includes/create-entity-options.md)]
 
 ## Example 1
 

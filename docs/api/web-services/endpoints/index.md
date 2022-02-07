@@ -14,7 +14,7 @@ An endpoint is the address, port, and protocol a web service is exposed at. In s
 
 ## WebAPI
 
-[!include[Intro to the WebAPI](../../../includes/webapi-intro.md)]
+[!include[Intro to the WebAPI](../../includes/webapi-intro.md)]
 
 ### Getting started
 
@@ -49,15 +49,15 @@ An endpoint is the address, port, and protocol a web service is exposed at. In s
 <!-- Referenced links -->
 [1]: rest-webapi/index.md
 [2]: agents-webapi/index.md
-[3]: ../../../authentication/webapi/index.md#options
-[4]: ../../../authentication/webapi/reuse-session.md
+[3]: ../../authentication/webapi/index.md#options
+[4]: ../../authentication/webapi/reuse-session.md
 [5]: http-headers.md#accept-language
 [6]: http-headers.md#content-type
 [7]: http-headers.md#modified-unmodified
-[8]: ../../../authentication/onsite/sosession/index.md
+[8]: ../../authentication/onsite/sosession/index.md
 [9]: soap/index.md
 [10]: ../proxies/index.md
-[11]: ../../../authentication/onsite/index.md#the-ticket
-[12]: ../../../api-reference/soap/Services88/index.md
+[11]: ../../authentication/onsite/index.md#the-ticket
+[12]: ../../api-reference/soap/Services88/index.md
 [13]: ../../../onsite/install/iis/reverse-proxy.md#webapi
 [14]: get-webapi-version.md

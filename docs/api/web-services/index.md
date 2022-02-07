@@ -140,13 +140,13 @@ You have the option to:
 <!-- Referenced links -->
 [1]: ../entities/index.md
 [2]: endpoints/index.md
-[3]: ../index.md
-[4]: ../../../admin/license/expander-services/tool-box.md
+[3]: ../overview/netserver.md
+[4]: ../../admin/license/expander-services/tool-box.md
 [5]: proxies/index.md
 [6]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
-[7]: ../../api-reference/restful/rest/index.md
-[8]: ../../api-reference/restful/agent/index.md
-[9]: ../../api-reference/webapi/index.md
+[7]: ../api-reference/restful/rest/index.md
+[8]: ../api-reference/restful/agent/index.md
+[9]: ../api-reference/webapi/index.md
 [10]: ../rows/index.md
 
 <!-- Referenced images -->

@@ -94,16 +94,16 @@ When working with projects, data will often intersect with the following entitie
 * [sales][16]
 
 <!-- Referenced links -->
-[1]: ../../api/lists/mdo-lists.md
+[1]: ../api/lists/mdo-lists.md
 [2]: howto/sql/index.md
 [3]: howto/crmscript/index.md
-[5]: ../../database/tables/project.md
-[6]: ../../database/tables/projtype.md
-[7]: ../../database/tables/projstatus.md
-[8]: ../../database/tables/associate.md
-[9]: ../../database/tables/udprojectsmall.md
-[10]: ../../database/tables/udprojectlarge.md
-[11]: ../../database/tables/udeffield.md
+[5]: ../database/tables/project.md
+[6]: ../database/tables/projtype.md
+[7]: ../database/tables/projstatus.md
+[8]: ../database/tables/associate.md
+[9]: ../database/tables/udprojectsmall.md
+[10]: ../database/tables/udprojectlarge.md
+[11]: ../database/tables/udeffield.md
 [12]: ../document/index.yml
 [13]: ../diary/index.yml
 [14]: ../company/index.yml
