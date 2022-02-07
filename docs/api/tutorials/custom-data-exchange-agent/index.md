@@ -125,7 +125,7 @@ Your output should (hopefully) look something like this:
 ![05][img5]
 
 <!-- Referenced links -->
-[1]: ../../expander-data-exchange/index.md
+[1]: ../../../service/data-exchange/index.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

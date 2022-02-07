@@ -87,7 +87,7 @@ The APIs that enable external integration with SuperOffice typically mean applic
 
 The difference between the two is that automation primarily deals with [scripting languages][14] while most integrations use a compiled program using .NET, Java, or Delphi.
 
-[!include[What is automation?](../automation/includes/automation-intro.md)]
+[!include[What is automation?](../../automation/includes/automation-intro.md)]
 
 **NetServer**, although used as an umbrella term that encapsulates a variety of data access capabilities, is just as much if not more extensible than the SuperOffice clients. With constructs such as [low-level database objects][17] to [high-level business objects][18], to [higher-level web services][19] and web service proxy libraries, NetServer is itself an extensible SuperOffice product.
 

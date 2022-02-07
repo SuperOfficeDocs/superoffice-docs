@@ -11,10 +11,6 @@ items:
     href: apps/toc.yml
   - name: Automation
     href: automation/toc.yml
-  - name: Diary
-    href: diary/toc.yml
-  - name: Document
-    href: document/toc.yml
   - name: Email
     href: email/toc.yml
   - name: Online

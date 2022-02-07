@@ -99,340 +99,340 @@ items:
       - name: From secret to ticket
         href: authentication/onsite/from-secret-to-ticket.md
 - name: Configuration
-  href: netserver/config/index.md
+  href: config/index.md
   items:
   - name: AccessGateway
-    href: netserver/config/accessgateway.md
+    href: config/accessgateway.md
   - name: BatchService
-    href: netserver/config/batchservice.md
+    href: config/batchservice.md
   - name: Client
-    href: netserver/config/client.md
+    href: config/client.md
   - name: ClientConfigurationProvider
-    href: netserver/config/clientconfigurationprovider.md
+    href: config/clientconfigurationprovider.md
   - name: Cloud
-    href: netserver/config/cloud.md
+    href: config/cloud.md
   - name: CssSprite
-    href: netserver/config/csssprite.md
+    href: config/csssprite.md
   - name: CustomerService
-    href: netserver/config/customerservice.md
+    href: config/customerservice.md
   - name: CustomProxy
-    href: netserver/config/customproxy.md
+    href: config/customproxy.md
   - name: Data
-    href: netserver/config/data.md
+    href: config/data.md
   - name: Diagnostics
-    href: netserver/config/diagnostics.md
+    href: config/diagnostics.md
   - name: Documents
-    href: netserver/config/documents.md
+    href: config/documents.md
   - name: Downloads
-    href: netserver/config/downloads.md
+    href: config/downloads.md
   - name: Factory
-    href: netserver/config/factory.md
+    href: config/factory.md
   - name: FeatureToggles
-    href: netserver/config/featuretoggles.md
+    href: config/featuretoggles.md
   - name: Globalization
-    href: netserver/config/globalization.md
+    href: config/globalization.md
   - name: GoogleRecaptcha
-    href: netserver/config/googlerecaptcha.md
+    href: config/googlerecaptcha.md
   - name: Infrastructure
-    href: netserver/config/infrastructure.md
+    href: config/infrastructure.md
   - name: IntelliSyncConnector
-    href: netserver/config/intellisyncconnector.md
+    href: config/intellisyncconnector.md
   - name: Mail
-    href: netserver/config/mail.md
+    href: config/mail.md
   - name: Messaging
-    href: netserver/config/messaging.md
+    href: config/messaging.md
   - name: OidcLogin
-    href: netserver/config/oidclogin.md
+    href: config/oidclogin.md
   - name: Pocket
-    href: netserver/config/pocket.md
+    href: config/pocket.md
   - name: Reporter
-    href: netserver/config/reporter.md
+    href: config/reporter.md
   - name: Scripting
-    href: netserver/config/scripting.md
+    href: config/scripting.md
   - name: Security
-    href: netserver/config/security.md
+    href: config/security.md
   - name: Services
-    href: netserver/config/services.md
+    href: config/services.md
   - name: SoFormsAuthentication
-    href: netserver/config/soformsauthentication.md
+    href: config/soformsauthentication.md
   - name: Subclients
-    href: netserver/config/subclients.md
+    href: config/subclients.md
   - name: Superid
-    href: netserver/config/superid.md
+    href: config/superid.md
   - name: SuspendedSite
-    href: netserver/config/suspendedsite.md
+    href: config/suspendedsite.md
   - name: Sync
-    href: netserver/config/sync.md
+    href: config/sync.md
   - name: Threading
-    href: netserver/config/threading.md
+    href: config/threading.md
   - name: Timezone
-    href: netserver/config/timezone.md
+    href: config/timezone.md
   - name: WebApi
-    href: netserver/config/webapi.md
+    href: config/webapi.md
   - name: Webhooks
-    href: netserver/config/webhooks.md
+    href: config/webhooks.md
   - name: WebServices
-    href: netserver/config/webservices.md
+    href: config/webservices.md
 - name: Logging
-  href: netserver/logging/index.md
+  href: logging/index.md
   items:
   - name: Filter Namespaces and Classes
-    href: netserver/logging/filter-logs.md
+    href: logging/filter-logs.md
   - name: Standard NetServer Logging
-    href: netserver/logging/standard-netserver-log.md
+    href: logging/standard-netserver-log.md
   - name: Using SerilLog
-    href: netserver/logging/serilog.md
+    href: logging/serilog.md
   - name: Configure SerilLog
-    href: netserver/logging/configure-serilog.md
+    href: logging/configure-serilog.md
   - name: Custom logger
-    href: netserver/logging/create-custom-logger.md
+    href: logging/create-custom-logger.md
 - name: Web Services
-  href: netserver/web-services/index.md
+  href: web-services/index.md
   items:
   - name: Endpoints
-    href: netserver/web-services/endpoints/index.md
+    href: web-services/endpoints/index.md
     items:
     - name: Agents WebAPI
-      href: netserver/web-services/endpoints/agents-webapi/index.md
+      href: web-services/endpoints/agents-webapi/index.md
     - name: REST WebAPI
-      href: netserver/web-services/endpoints/rest-webapi/index.md
+      href: web-services/endpoints/rest-webapi/index.md
     - name: Get version
-      href: netserver/web-services/endpoints/get-webapi-version.md
+      href: web-services/endpoints/get-webapi-version.md
     - name: HTTP request headers
-      href: netserver/web-services/endpoints/http-headers.md
+      href: web-services/endpoints/http-headers.md
     - name: SOAP
-      href: netserver/web-services/endpoints/soap/index.md
+      href: web-services/endpoints/soap/index.md
   - name: Proxies
-    href: netserver/web-services/proxies/index.md
+    href: web-services/proxies/index.md
     items:
     - name: Call using WebAPI client
-      href: netserver/web-services/proxies/webapi-client.md
+      href: web-services/proxies/webapi-client.md
     - name: Call using NetServer Services proxies
-      href: netserver/web-services/proxies/built-in.md
+      href: web-services/proxies/built-in.md
     - name: Call using custom proxies
-      href: netserver/web-services/proxies/custom.md
+      href: web-services/proxies/custom.md
   - name: Timezones
-    href: netserver/web-services/so-timezone.md
+    href: web-services/so-timezone.md
   - name: How to set up REST
-    href: netserver/web-services/setup-rest.md
+    href: web-services/setup-rest.md
 - name: Entities
-  href: netserver/entities/index.md
+  href: entities/index.md
   items:
   - name: Entity collections
-    href: netserver/entities/collections.md
+    href: entities/collections.md
   - name: Entity events
-    href: netserver/entities/events.md
+    href: entities/events.md
   - name: Entity activity links
-    href: netserver/entities/activity-links.md
+    href: entities/activity-links.md
   - name: Nested persist
-    href: netserver/entities/nested-persist.md
+    href: entities/nested-persist.md
   - name: How to...
     items:
     - name: Get an entity
-      href: netserver/entities/get-entity.md
+      href: entities/get-entity.md
     - name: Get an entity through an entity
-      href: netserver/entities/get-entity-from-entity.md
+      href: entities/get-entity-from-entity.md
     - name: Create an entity
-      href: netserver/entities/create-entity.md
+      href: entities/create-entity.md
     - name: Create an entity through an entity
-      href: netserver/entities/create-entity-in-entity.md
+      href: entities/create-entity-in-entity.md
     - name: Update an entity
-      href: netserver/entities/update-entity.md
+      href: entities/update-entity.md
     - name: Update an entity through an entity
-      href: netserver/entities/update-entity-in-entity.md
+      href: entities/update-entity-in-entity.md
     - name: Delete an entity
-      href: netserver/entities/delete-entity.md
+      href: entities/delete-entity.md
     - name: Delete an entity through an entity
-      href: netserver/entities/delete-entity-from-entity.md
+      href: entities/delete-entity-from-entity.md
 - name: Rows
-  href: netserver/rows/index.md
+  href: rows/index.md
   items:
   - name: Introduction to Row and Rows
-    href: netserver/rows/index.md
+    href: rows/index.md
   - name: CustomSearch
-    href: netserver/rows/customsearch.md
+    href: rows/customsearch.md
   - name: Row events
-    href: netserver/rows/events.md
+    href: rows/events.md
   - name: How to...
     items:
     - name: Get a row
-      href: netserver/rows/get-row.md
+      href: rows/get-row.md
     - name: Get a row through an entity
-      href: netserver/rows/get-row-from-entity.md
+      href: rows/get-row-from-entity.md
     - name: Create a row
-      href: netserver/rows/create-row.md
+      href: rows/create-row.md
     - name: Create a row through an entity
-      href: netserver/rows/create-row-in-entity.md
+      href: rows/create-row-in-entity.md
     - name: Update a row
-      href: netserver/rows/update-row.md
+      href: rows/update-row.md
     - name: Update a row through an entity
-      href: netserver/rows/update-row-in-entity.md
+      href: rows/update-row-in-entity.md
     - name: Delete a row
-      href: netserver/rows/delete-row.md
+      href: rows/delete-row.md
     - name: Delete a row through an entity
-      href: netserver/rows/delete-row-from-entity.md
+      href: rows/delete-row-from-entity.md
 - name: Objectified SQL
-  href: netserver/osql/index.md
+  href: osql/index.md
   items:
   - name: Introduction to OSQL
-    href: netserver/osql/index.md
+    href: osql/index.md
   - name: OSQL Evolution
-    href: netserver/osql/osql-evolution.md
+    href: osql/osql-evolution.md
   - name: Join
-    href: netserver/osql/join.md
+    href: osql/join.md
   - name: Outer Join
-    href: netserver/osql/outerjoin.md
+    href: osql/outerjoin.md
   - name: Like Operator
-    href: netserver/osql/like.md
+    href: osql/like.md
   - name: And Clause
-    href: netserver/osql/and-clause.md
+    href: osql/and-clause.md
   - name: Aliasing
-    href: netserver/osql/alias.md
+    href: osql/alias.md
   - name: Group By 
-    href: netserver/osql/groupby.md
+    href: osql/groupby.md
   - name: Order By
-    href: netserver/osql/orderby.md
+    href: osql/orderby.md
   - name: Insert Statement
-    href: netserver/osql/insert.md
+    href: osql/insert.md
   - name: Update Statement
-    href: netserver/osql/update.md
+    href: osql/update.md
   - name: Delete Statement
-    href: netserver/osql/delete.md
+    href: osql/delete.md
   - name: Functions
     items:
     - name: Count
-      href: netserver/osql/count.md
+      href: osql/count.md
     - name: Upper
-      href: netserver/osql/upper.md
+      href: osql/upper.md
 - name: Bulk Operation
-  href: netserver/bulk-operations/index.md
+  href: bulk-operations/index.md
   items:
   - name: Bulk Update
-    href: netserver/bulk-operations/bulk-update/index.md
+    href: bulk-operations/bulk-update/index.md
     items: # These items are navigation headers
     - name: How to use bulk update
-      href: netserver/bulk-operations/bulk-update/using-bulk-update.md
+      href: bulk-operations/bulk-update/using-bulk-update.md
     - name: Field value info
-      href: netserver/bulk-operations/bulk-update/field-value-info.md
+      href: bulk-operations/bulk-update/field-value-info.md
     - name: Operations and values
-      href: netserver/bulk-operations/bulk-update/operations-and-values.md
+      href: bulk-operations/bulk-update/operations-and-values.md
     - name: Entities and field types
-      href: netserver/bulk-operations/bulk-update/entities-field-types.md
+      href: bulk-operations/bulk-update/entities-field-types.md
     - name: Examples
-      href: netserver/bulk-operations/bulk-update/ns-core-examples.md
+      href: bulk-operations/bulk-update/ns-core-examples.md
     - name: Reference
-      href: netserver/bulk-operations/bulk-update/reference/index.md
+      href: bulk-operations/bulk-update/reference/index.md
       items:
       - name: Appointment table
-        href: netserver/bulk-operations/bulk-update/reference/appointment-table.md
+        href: bulk-operations/bulk-update/reference/appointment-table.md
       - name: Contact table
-        href: netserver/bulk-operations/bulk-update/reference/contact-table.md
+        href: bulk-operations/bulk-update/reference/contact-table.md
       - name: Document table
-        href: netserver/bulk-operations/bulk-update/reference/document-table.md
+        href: bulk-operations/bulk-update/reference/document-table.md
       - name: Person table
-        href: netserver/bulk-operations/bulk-update/reference/person-table.md
+        href: bulk-operations/bulk-update/reference/person-table.md
       - name: Project table
-        href: netserver/bulk-operations/bulk-update/reference/project-table.md
+        href: bulk-operations/bulk-update/reference/project-table.md
       - name: Sale table
-        href: netserver/bulk-operations/bulk-update/reference/sale-table.md
+        href: bulk-operations/bulk-update/reference/sale-table.md
       - name: Selection table
-        href: netserver/bulk-operations/bulk-update/reference/selection-table.md
+        href: bulk-operations/bulk-update/reference/selection-table.md
       - name: Ticket table
-        href: netserver/bulk-operations/bulk-update/reference/ticket-table.md
+        href: bulk-operations/bulk-update/reference/ticket-table.md
       - name: Extra fields
-        href: netserver/bulk-operations/bulk-update/reference/extra-fields.md
+        href: bulk-operations/bulk-update/reference/extra-fields.md
       - name: User-defined fields
-        href: netserver/bulk-operations/bulk-update/reference/user-defined-fields.md
+        href: bulk-operations/bulk-update/reference/user-defined-fields.md
   - name: Mass Operations
-    href: netserver/bulk-operations/mass-operations/index.md
+    href: bulk-operations/mass-operations/index.md
     items:
     - name: Delete
-      href: netserver/bulk-operations/mass-operations/delete.md
+      href: bulk-operations/mass-operations/delete.md
     - name: Insert
-      href: netserver/bulk-operations/mass-operations/insert.md
+      href: bulk-operations/mass-operations/insert.md
     - name: Truncate
-      href: netserver/bulk-operations/mass-operations/truncate.md
+      href: bulk-operations/mass-operations/truncate.md
     - name: Upsert
-      href: netserver/bulk-operations/mass-operations/upsert.md
+      href: bulk-operations/mass-operations/upsert.md
     - name: Protected Tables
-      href: netserver/bulk-operations/mass-operations/protected-tables.md
+      href: bulk-operations/mass-operations/protected-tables.md
 - name: Search APIs
-  href: netserver/search/index.md
+  href: search/index.md
   items:
   - name: Find Selection API
-    href: netserver/search/find-selection/index.md
+    href: search/find-selection/index.md
     items:
     - name: Terminology
-      href: netserver/search/find-selection/terminology.md
+      href: search/find-selection/terminology.md
     - name: How to search
-      href: netserver/search/find-selection/how-to-search.md
+      href: search/find-selection/how-to-search.md
     - name: How to populate selectable columns
-      href: netserver/search/find-selection/populate-selectable-columns.md
+      href: search/find-selection/populate-selectable-columns.md
     - name: Operators
-      href: netserver/search/find-selection/operators.md
+      href: search/find-selection/operators.md
     - name: Date range as criteria
-      href: netserver/search/find-selection/date-range-as-criteria.md
+      href: search/find-selection/date-range-as-criteria.md
     - name: Convert legacy operators
-      href: netserver/search/find-selection/convert-to-new-date-range-operators.md
+      href: search/find-selection/convert-to-new-date-range-operators.md
     - name: Typical search
-      href: netserver/search/find-selection/typical-search.md
+      href: search/find-selection/typical-search.md
   - name: Archive provider fundamentals
-    href: netserver/archive-providers/index.md
+    href: archive-providers/index.md
     items:
     - name: Encoded values
-      href: netserver/archive-providers/encoded-values.md
+      href: archive-providers/encoded-values.md
     - name: Perform query
-      href: netserver/archive-providers/how-to-query.md
+      href: archive-providers/how-to-query.md
     - name: Aggregation
-      href: netserver/archive-providers/data-aggregation.md
+      href: archive-providers/data-aggregation.md
     - name: Aggregation with GroupBy
-      href: netserver/archive-providers/aggregate-groupby.md
+      href: archive-providers/aggregate-groupby.md
     - name: Nested Aggregate Functions
-      href: netserver/archive-providers/nested-aggregate-functions.md
+      href: archive-providers/nested-aggregate-functions.md
   - name: Archive provider architecture
-    href: netserver/archive-providers/architecture.md
+    href: archive-providers/architecture.md
     items:
     - name: Interfaces
-      href: netserver/archive-providers/interfaces.md
+      href: archive-providers/interfaces.md
     - name: Data classes
-      href: netserver/archive-providers/data-classes.md
+      href: archive-providers/data-classes.md
     - name: Client usage scenarios
-      href: netserver/archive-providers/scenarios.md
+      href: archive-providers/scenarios.md
     - name: Provider metadata
-      href: netserver/archive-providers/metadata.md
+      href: archive-providers/metadata.md
     - name: Providers
-      href: netserver/archive-providers/providers.md
+      href: archive-providers/providers.md
     - name: Extenders
-      href: netserver/archive-providers/extenders.md
+      href: archive-providers/extenders.md
     - name: Joiners
-      href: netserver/archive-providers/joiners.md
+      href: archive-providers/joiners.md
     - name: Base and helper classes
-      href: netserver/archive-providers/base-and-helper-classes.md
+      href: archive-providers/base-and-helper-classes.md
   - name: Archive provider reference
-    href: netserver/archive-providers/reference/toc.yml
+    href: archive-providers/reference/toc.yml
   - name: MDO providers
-    href: netserver/mdo-providers/
+    href: mdo-providers/
   - name: OData Search in WebApi
-    href: netserver/search/odata/index.md
+    href: search/odata/index.md
     items:
     - name: Associate
-      href: netserver/search/odata/associate.md
+      href: search/odata/associate.md
     - name: Boolean
-      href: netserver/search/odata/boolean.md
+      href: search/odata/boolean.md
     - name: Date
-      href: netserver/search/odata/date.md
+      href: search/odata/date.md
     - name: DateTime
-      href: netserver/search/odata/datetime.md
+      href: search/odata/datetime.md
     - name: Lists
-      href: netserver/search/odata/lists.md
+      href: search/odata/lists.md
     - name: Numbers
-      href: netserver/search/odata/numbers.md
+      href: search/odata/numbers.md
     - name: Strings
-      href: netserver/search/odata/strings.md
+      href: search/odata/strings.md
     - name: Unary 
-      href: netserver/search/odata/unary.md
+      href: search/odata/unary.md
     - name: Filters
-      href: netserver/search/odata/using-filters.md
+      href: search/odata/using-filters.md
 - name: Security
   href: security/index.md
   items:

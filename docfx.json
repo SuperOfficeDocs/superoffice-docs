@@ -19,6 +19,7 @@
       {
         "files": [
           "images/**",
+          "media/**",
           "**/*.png",
           "**/*.svg",
           "**/*.jpg",
@@ -33,7 +34,7 @@
           "**/*.app"
         ]
       }
-    ],    
+    ],
     "dest": "_site",
     "globalMetadata": {
       
