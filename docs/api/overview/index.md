@@ -156,8 +156,8 @@ Read more about each platform API in the SDK documentation.
 [8]: ../api-reference/restful/index.md
 [9]: ../api-reference/soap/index.md
 [10]: ../../automation/webhook/index.md
-[11]: ../plug-ins/erp-connectors/index.md
-[12]: ../plug-ins/quote-connectors/index.md
+[11]: ../plugins/erp-connectors/index.md
+[12]: ../plugins/quote-connectors/index.md
 [13]: ../../mirroring/overview.md
 [14]: ../../automation/overview.md#languages
 [15]: netserver.md

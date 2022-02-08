@@ -467,5 +467,5 @@ items:
     - name: Raw SQL
       href: security/sentry/sql/set-override-sql.md
 - name: Plug-ins
-  href: plug-ins/toc.yml
-  topicHref: plug-ins/index.md
+  href: plugins/toc.yml
+  topicHref: plugins/index.md

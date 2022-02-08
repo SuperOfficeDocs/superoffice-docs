@@ -86,5 +86,5 @@ Applications are either [built to fit many][4] and available in the SuperOffice 
 [4]: standard.md
 [5]: custom.md
 [6]: ../mirroring/overview.md
-[7]: ../api/plug-ins/erp-connectors/index.md
-[8]: ../api/plug-ins/quote-connectors/index.md
+[7]: ../api/plugins/erp-connectors/index.md
+[8]: ../api/plugins/quote-connectors/index.md

@@ -146,7 +146,7 @@ conceptualContent:
         url: howto/services/index.md
       - text: SO_Arc document plugin
         itemType: how-to-guide
-        url: ../api/plug-ins/document/soarc-document-plugin.md
+        url: ../api/plugins/document/soarc-document-plugin.md
 
     # Card
     - title: Database options

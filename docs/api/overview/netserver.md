@@ -131,7 +131,7 @@ This has been a high-level view of NetServer. As you can see, there is a vast di
 [11]: ../../automation/crmscript/overview/index.md
 [12]: ../config/index.md
 [13]: ../authentication/overview.md
-[14]: ../plug-ins/document/soarc-document-plugin.md
+[14]: ../plugins/document/soarc-document-plugin.md
 [15]: ../web-services/endpoints/index.md
 [16]: ../web-services/proxies/index.md
 [17]: ../mdo-providers/reference/index.md
