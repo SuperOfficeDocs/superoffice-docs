@@ -66,5 +66,5 @@ if (state == 6 || state == 8 || state == 9) {
 * [template variables][2]
 
 <!-- Referenced links -->
-[1]: ../../../documents/howto/crmscript/index.md
-[2]: ../../../documents/howto/crmscript/doc-templates.md
+[1]: ../../../document/howto/crmscript/index.md
+[2]: ../../../document/howto/crmscript/doc-templates.md

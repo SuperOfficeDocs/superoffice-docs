@@ -24,21 +24,43 @@ highlightedContent:
       itemType: overview
       url: crmscript/index.yml
     # Card
-    - title: "Macros and scripts"
-      itemType: reference
-      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics_script%2Fblogic.listScripts.html
+    - title: "NetServer script engine (onsite)"
+      itemType: overview
+      url: netserver-scripting/index.md
     # Card
     - title: "Trigger script reference"
       itemType: reference
       url: trigger/reference/CRMScript.Event.Trigger.yml
       # FYI we're linking to a specific file rather than index because the folder doesn't have an index.md
-
+    # Card
+    - title: "Macros and scripts"
+      itemType: reference
+      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics_script%2Fblogic.listScripts.html
 # conceptualContent section (optional)
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
   title: "" # < 60 chars (optional)
   summary: ""
   items:
+    # Card
+      - title: CRMScript
+        summary: SuperOffice automation scripting language
+        links:
+          - url: crmscript/overview/index.md
+            itemType: overview
+            text: What is CRMScript
+          - url: crmscript/fundamentals/syntax.md
+            itemType: get-started
+            text: Fundamentals
+          - url: crmscript/code-quality/coding-conventions.md
+            itemType: how-to-guide
+            text: Coding conventions
+          - url: crmscript/datatypes/bool-type.md
+            itemType: reference
+            text: Basic datatypes
+          - url: crmscript/index.yml
+            itemType: reference
+            text: CRMScript API reference
     # Card
       - title: Trigger - scripts
         summary: CRMScripts that are run on user-interface events
@@ -49,6 +71,9 @@ conceptualContent:
           - url: trigger/create-trigger-script.md
             itemType: how-to-guide
             text: Create trigger script
+          - url: trigger/create-trigger-macro.md
+            itemType: how-to-guide
+            text: Create trigger macro
           - url: trigger/set-validation-rules.md
             itemType: how-to-guide
             text: Set validation rules
@@ -56,12 +81,24 @@ conceptualContent:
             itemType: how-to-guide
             text: Update value 
     # Card
-      - title: Trigger - macro
-        summary: ""
+      - title: NetServer script engine
+        summary: "Automate business logic workflows for onsite installations"
         links:
-        - url: trigger/create-trigger-macro.md
-          itemType: how-to-guide
-          text: Create trigger macro
+        - url: netserver-scripting/index.md
+          itemType: concept
+          text: Introduction
+        - url: netserver-scripting/configure.md
+          itemType: concept
+          text: Configuration
+        - url: netserver-scripting/basic-scripting.md
+          itemType: concept
+          text: Events
+        - url: netserver-scripting/run-scripts.md
+          itemType: concept
+          text: Deployment options
+        - url: netserver-scripting/reference/index.md
+          itemType: reference
+          text: Scripting API reference
     # Card
       - title: Event model
         summary: ""
@@ -92,9 +129,21 @@ additionalContent:
       - title: Webhooks
         links:
           - url: webhook/index.md
-            text: Intro
+            text: Introduction
+          - url: webhook/event-details.md
+            text: Event details
+          - url: webhook/subscription.md
+            text: Subscribing to a webhook
+          - url: webhook/notification.md
+            text: Receiving a webhook
+          - url: webhook/crmscript-handlers.md
+            text: CRMScript webhook handlers
+          - url: webhook/security.md
+            text: About security
+          - url: webhook/reference/activity-events.md
+            text: Webhook event reference
           - url: webhook/tutorials/add-msg-to-ticket/index.md
-            text: Add message to ticket with GitHub webhook
+            text: Using GitHub webhook to add a message to a ticket
       # Card
       - title: Windows
         links:

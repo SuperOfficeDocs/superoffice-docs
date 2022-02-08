@@ -103,5 +103,5 @@ sale = saleAgent.SaveSaleEntity(sale);
 ```
 
 <!-- Referenced links -->
-[1]: ../../../datatypes/string-type.md
-[2]: ../../../documents/howto/crmscript/index.md
+[1]: ../../../automation/crmscript/datatypes/string-type.md
+[2]: ../../../document/howto/crmscript/index.md

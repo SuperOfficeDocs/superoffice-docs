@@ -34,5 +34,5 @@ When working with quotes, data will often intersect with the following entities:
 [2]: ../diary/index.yml
 [3]: ../company/index.yml
 [4]: ../contact/index.yml
-[5]: ../projects/index.yml
-[6]: ../sales/index.yml
+[5]: ../project/index.yml
+[6]: ../sale/index.yml
