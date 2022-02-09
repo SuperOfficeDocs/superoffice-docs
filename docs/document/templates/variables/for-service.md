@@ -16,14 +16,14 @@ These are template variables from Service which can be used in Sales & Marketing
 
 | Variable | Description | Example |
 |---|---|---|
-| csbl | Base URL | blogic.exe |
+| csbl | Base URL | `http://systemtest.superoffice.com/scripts/blogic.fcgi` |
 | csbu | Base URL | `http://systemtest.superoffice.com/scripts/ticket.fcgi` |
-| cscu | Base URL | customer.exe |
+| cscu | Base URL | `http://systemtest.superoffice.com/scripts/customer.fcgi` |
 | csiu | CgiUrlInternal | `http://systemtest.superoffice.com` |
 | csbn | CgiBin | /scripts |
 | csre | RegistryExtension | .fcgi |
-| csrm | Base URL | ajax.exe |
-| csti | Base URL | ticket.exe |
+| csrm | Base URL | `http://systemtest.superoffice.com/scripts/rms.fcgi` |
+| csti | Base URL | `http://systemtest.superoffice.com/scripts/ticket.fcgi` |
 
 To get SuperOffice Sales to parse Service variables (for example in a web panel) the variable must be followed by a ? character.
 
