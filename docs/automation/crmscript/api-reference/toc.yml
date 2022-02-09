@@ -1,8 +1,5 @@
 ### YamlMime:ManagedReference
 items:
-- name: CRMScript API reference
-  href: ../index.yml
-  expanded: true
 - name: Global functions
   href: CRMScript.Global.Void.yml
 - name: Basic data types
