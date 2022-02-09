@@ -96,10 +96,10 @@ You can use scripts to precalculate variables from for example a form entry or C
 Read more about [screen events][5].
 
 <!-- Referenced links -->
-[1]: ../blogic-screen-elements/index.md
+[1]: ../reference/index.md
 [2]: add-screen-element.md
 [3]: ../screen-choosers.md
-[4]: ../blogic-screen-elements/info-fields-2.md
+[4]: ../reference/info-fields-2.md
 [5]: ../screen-events.md
 
 <!-- Referenced images -->

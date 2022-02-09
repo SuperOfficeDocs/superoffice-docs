@@ -256,18 +256,18 @@ Void element_setFieldValue(String field, Map map) {
 ```
 
 <!-- Referenced links -->
-[1]: ../blogic-screen-elements/header.md
-[2]: ../blogic-screen-elements/anchor-line.md
-[3]: ../blogic-screen-elements/br.md
-[4]: ../blogic-screen-elements/hr.md
-[5]: ../blogic-screen-elements/info-fields-2.md
+[1]: ../reference/header.md
+[2]: ../reference/anchor-line.md
+[3]: ../reference/br.md
+[4]: ../reference/hr.md
+[5]: ../reference/info-fields-2.md
 [6]: ../../../automation/crmscript/parser-and-templates/parser.md
-[7]: ../blogic-screen-elements/parser-code.md
-[8]: ../blogic-screen-elements/data-table.md
-[9]: ../blogic-screen-elements/static-grid.md
-[10]: ../blogic-screen-elements/chart.md
-[11]: ../blogic-screen-elements/dependency-graph.md
-[12]: ../blogic-screen-elements/messages.md
-[13]: ../blogic-screen-elements/recipients.md
-[14]: ../blogic-screen-elements/planner.md
-[15]: ../blogic-screen-elements/ejscript-element.md
+[7]: ../reference/parser-code.md
+[8]: ../reference/data-table.md
+[9]: ../reference/static-grid.md
+[10]: ../reference/chart.md
+[11]: ../reference/dependency-graph.md
+[12]: ../reference/messages.md
+[13]: ../reference/recipients.md
+[14]: ../reference/planner.md
+[15]: ../reference/ejscript-element.md

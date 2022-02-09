@@ -46,11 +46,11 @@ highlightedContent:
     # Card
     - title: "NetServer API reference"
       itemType: reference
-      url: api-reference/netserver/index.md
+      url: reference/netserver/index.md
     # Card
     - title: "RESTful API reference"
       itemType: reference
-      url: api-reference/restful/index.md
+      url: reference/restful/index.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -106,19 +106,19 @@ conceptualContent:
       links:
         - text: NetServer core client
           itemType: reference
-          url: api-reference/netserver/core/index.md
+          url: reference/netserver/core/index.md
         - text: SOAP API
           itemType: reference
-          url: api-reference/soap/index.md
+          url: reference/soap/index.md
         - text: NetServer SOAP proxy client
           itemType: concept
-          url: api-reference/netserver/services/index.md
+          url: reference/netserver/services/index.md
         - text: REST API
           itemType: reference
-          url: api-reference/restful/index.md
+          url: reference/restful/index.md
         - text: NetServer REST proxy client
           itemType: concept
-          url: api-reference/webapi/index.md
+          url: reference/webapi/index.md
 
 # tools section (optional)
 ## Languages: C#, VB, F#, 
@@ -129,11 +129,11 @@ tools:
     # Card
     - title: "NetServer core"
       imageSrc: https://docs.superoffice.com/media/logos/netserver_core.svg
-      url: api-reference/netserver/core/index.md
+      url: reference/netserver/core/index.md
     # Card
     - title: "NetServer services"
       imageSrc: https://docs.superoffice.com/media/logos/netserver_services.svg
-      url: api-reference/netserver/services/index.md
+      url: reference/netserver/services/index.md
     # Card
     - title: "Archive Provider Listing"
       imageSrc: https://docs.superoffice.com/media/logos/netserver_archive_providers.svg
@@ -211,27 +211,27 @@ additionalContent:
        # Card
       - title: "CRMScript API"
         summary: CRMScript API reference documentation for Service
-        url: ../automation/crmscript/api-reference/index.md
+        url: ../automation/crmscript/reference/index.md
       # Card
       - title: "NetServer Core API"
         summary: API reference documentation for NetServer Core
-        url: api-reference/netserver/core/index.md
+        url: reference/netserver/core/index.md
       # Card
       - title: "NetServer Web Services API"
         summary: API reference documentation for NetServer Services
-        url: api-reference/netserver/services/index.md
+        url: reference/netserver/services/index.md
       # Card
       - title: "NetServer SOAP API"
         summary: API reference documentation for SOAP endpoints
-        url: api-reference/soap/index.md
+        url: reference/soap/index.md
       # Card
       - title: "RESTful REST API"
         summary: API reference documentation for REST endpoints
-        url: api-reference/restful/rest/index.md
+        url: reference/restful/rest/index.md
       # Card
       - title: "RESTful AGENT API"
         summary: API reference documentation for AGENT REST endpoints
-        url: api-reference/restful/agent/index.md
+        url: reference/restful/agent/index.md
       # Card
       - title: "Customer Service SOAP API"
         summary: API reference documentation for Service SOAP endpoints
@@ -239,11 +239,11 @@ additionalContent:
       # Card
       - title: "Web Application API"
         summary: API reference documentation for Web Application
-        url: api-reference/web/index.md
+        url: reference/web/index.md
       # Card
       - title: "WebApi Client API"
         summary: API reference documentation for nuget package SuperOffice.WebApi
-        url: api-reference/webapi/index.md
+        url: reference/webapi/index.md
        # Card
       - title: "IApplication COM API"
         summary: API reference for windows client IApplication interface

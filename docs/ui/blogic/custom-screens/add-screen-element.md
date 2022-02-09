@@ -96,7 +96,7 @@ It might look something like this:
 [1]: layout-elements.md
 [2]: view-elements.md
 [3]: form-elements.md
-[4]: ../blogic-screen-elements/index.md
+[4]: ../reference/index.md
 [5]: blogic-query-syntax.md
 [6]: <xref:CRMScript.Native.HtmlElement>
 [7]: ../../../automation/crmscript/searchengine/se-select.md

@@ -48,4 +48,4 @@ landingContent:
       - linkListType: reference
         links:
         - text: bLogic screen elements
-          url: blogic-screen-elements/index.md
+          url: reference/index.md

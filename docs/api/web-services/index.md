@@ -144,9 +144,9 @@ You have the option to:
 [4]: ../../admin/license/expander-services/tool-box.md
 [5]: proxies/index.md
 [6]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
-[7]: ../api-reference/restful/rest/index.md
-[8]: ../api-reference/restful/agent/index.md
-[9]: ../api-reference/webapi/index.md
+[7]: ../reference/restful/rest/index.md
+[8]: ../reference/restful/agent/index.md
+[9]: ../reference/webapi/index.md
 [10]: ../rows/index.md
 
 <!-- Referenced images -->

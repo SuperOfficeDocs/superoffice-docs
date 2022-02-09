@@ -78,7 +78,7 @@ conceptualContent:
         url: ../ui/soprotocol/index.md
       - text: bLogic - select extra field
         itemType: reference
-        url: ../ui/blogic/blogic-screen-elements/select-extra-field.md
+        url: ../ui/blogic/reference/select-extra-field.md
 
     # Card
     - title: Data options

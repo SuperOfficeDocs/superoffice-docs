@@ -160,10 +160,10 @@ landingContent:
       - linkListType: reference
         links:
         - text: Classes (native)
-          url: api-reference/CRMScript.NetServer.yml
+          url: reference/CRMScript.NetServer.yml
         - text: Classes (NetServer)
-          url: api-reference/CRMScript.Native.yml
+          url: reference/CRMScript.Native.yml
         - text: Global functions
-          url: api-reference/CRMScript.Global.Void.yml
+          url: reference/CRMScript.Global.Void.yml
         - text: Trigger scripts
           url: ../trigger/reference/CRMScript.Event.Trigger.yml

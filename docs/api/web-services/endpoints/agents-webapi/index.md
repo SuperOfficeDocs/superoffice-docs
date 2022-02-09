@@ -109,4 +109,4 @@ Happens when the request succeeds but the data is invalid. For example, a requir
 [5]: ../../../../document/howto/agents-web-api/generate-document.md
 [6]: ../../../../assets/downloads/api/Swagger-v1-Agents.zip
 [7]: ../get-webapi-version.md
-[8]: ../../../api-reference/restful/agent/index.md
+[8]: ../../../reference/restful/agent/index.md

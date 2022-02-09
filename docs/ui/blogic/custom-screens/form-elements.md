@@ -473,20 +473,20 @@ verticalSpace = rest
 ![Screen capture of CK editor][img10]
 
 <!-- Referenced links -->
-[1]: ../blogic-screen-elements/form-page.md
+[1]: ../reference/form-page.md
 [2]: ./form-elements-per-entity.md
-[3]: ../blogic-screen-elements/button.md
-[4]: ../blogic-screen-elements/button-row.md
-[5]: ../blogic-screen-elements/checkbox.md
-[6]: ../blogic-screen-elements/radio-buttons.md
-[7]: ../blogic-screen-elements/list-box.md
-[8]: ../blogic-screen-elements/mdo-list.md
-[9]: ../blogic-screen-elements/related-drop-downs.md
-[10]: ../blogic-screen-elements/tree-explorer.md
-[11]: ../blogic-screen-elements/text.md
-[12]: ../blogic-screen-elements/textarea.md
-[13]: ../blogic-screen-elements/language-menu.md
-[14]: ../blogic-screen-elements/ck-editor.md
+[3]: ../reference/button.md
+[4]: ../reference/button-row.md
+[5]: ../reference/checkbox.md
+[6]: ../reference/radio-buttons.md
+[7]: ../reference/list-box.md
+[8]: ../reference/mdo-list.md
+[9]: ../reference/related-drop-downs.md
+[10]: ../reference/tree-explorer.md
+[11]: ../reference/text.md
+[12]: ../reference/textarea.md
+[13]: ../reference/language-menu.md
+[14]: ../reference/ck-editor.md
 
 <!-- Referenced images -->
 [img1]: media/crazy-checkbox.png

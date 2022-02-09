@@ -153,13 +153,13 @@ A [Form page][7] is a standard root frame used in a lot of screens.
 Use it to add a button to a form.
 
 <!-- Referenced links -->
-[1]: ../blogic-screen-elements/fieldset.md
-[2]: ../blogic-screen-elements/pane.md
-[3]: ../blogic-screen-elements/panes.md
-[4]: ../blogic-screen-elements/panel.md
-[5]: ../blogic-screen-elements/element-table.md
-[6]: ../blogic-screen-elements/element-table-2.md
-[7]: ../blogic-screen-elements/form-page.md
+[1]: ../reference/fieldset.md
+[2]: ../reference/pane.md
+[3]: ../reference/panes.md
+[4]: ../reference/panel.md
+[5]: ../reference/element-table.md
+[6]: ../reference/element-table-2.md
+[7]: ../reference/form-page.md
 
 <!-- Referenced images -->
 [img1]: media/move-element.png

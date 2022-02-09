@@ -114,22 +114,22 @@ conceptualContent:
         url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/Service/topics/blogic.html
       - text: bLogic messages
         itemType: reference
-        url: ../ui/blogic/blogic-screen-elements/messages.md
+        url: ../ui/blogic/reference/messages.md
       - text: bLogic select message
         itemType: reference
-        url: ../ui/blogic/blogic-screen-elements/select-message.md
+        url: ../ui/blogic/reference/select-message.md
       - text: bLogic select reply template
         itemType: reference
-        url: ../ui/blogic/blogic-screen-elements/select-reply-template.md
+        url: ../ui/blogic/reference/select-reply-template.md
       - text: bLogic ticket status
         itemType: reference
-        url: ../ui/blogic/blogic-screen-elements/ticket-status.md
+        url: ../ui/blogic/reference/ticket-status.md
       - text: bLogic select ticket status
         itemType: reference
-        url: ../ui/blogic/blogic-screen-elements/select-ticket-status.md
+        url: ../ui/blogic/reference/select-ticket-status.md
       - text: bLogic select request status
         itemType: reference
-        url: ../ui/blogic/blogic-screen-elements/select-request-status.md
+        url: ../ui/blogic/reference/select-request-status.md
 
     # Card
     - title: Data options
@@ -177,10 +177,10 @@ conceptualContent:
         url: howto/crmscript/index.md
       - text: REST
         itemType: reference
-        url: ../api/api-reference/restful/rest/Ticket/index.md
+        url: ../api/reference/restful/rest/Ticket/index.md
       - text: SOAP (services88)
         itemType: reference
-        url: ../api/api-reference/soap/Services88/Ticket/index.md
+        url: ../api/reference/soap/Services88/Ticket/index.md
       - text: SOAP (ticket port)
         itemType: reference
         url: ../service/soap/ports/ticket/index.md

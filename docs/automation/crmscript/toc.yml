@@ -136,5 +136,5 @@ items:
   - name: Build custom rest API methods
     href: tutorials/build-custom-rest-api-methods.md
 - name: Reference
-  href: api-reference/toc.yml
-  topicHref: api-reference/index.md
+  href: reference/toc.yml
+  topicHref: reference/index.md

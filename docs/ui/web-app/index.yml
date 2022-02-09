@@ -127,7 +127,7 @@ landingContent:
       - linkListType: reference
         links:
         - text: Web GUI .Net API reference
-          url: ../../api/api-reference/webapi/index.md
+          url: ../../api/reference/webapi/index.md
   # Card
   - title: More
     linkLists:

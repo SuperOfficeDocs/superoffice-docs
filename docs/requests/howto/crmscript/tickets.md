@@ -490,7 +490,7 @@ For a complete list of fields, see the [database reference][6].
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Ticket.setValue(String,String)>
-[2]: <xref:api-reference/CRMScript.Native.Vector>
+[2]: <xref:reference/CRMScript.Native.Vector>
 [3]: <xref:CRMScript.Native.Ticket.getValue(String)>
 [4]: ../../../automation/crmscript/parser-and-templates/reply-template.md
 [5]: ../../../automation/crmscript/parser-and-templates/parser.md

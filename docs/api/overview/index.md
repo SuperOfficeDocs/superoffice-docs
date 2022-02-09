@@ -153,8 +153,8 @@ Read more about each platform API in the SDK documentation.
 [5]: ../../onsite/integrate/win-client/index.md
 [6]: ../../onsite/integrate/web-client/index.md
 [7]: ../../online/integrate/index.md
-[8]: ../api-reference/restful/index.md
-[9]: ../api-reference/soap/index.md
+[8]: ../reference/restful/index.md
+[9]: ../reference/soap/index.md
 [10]: ../../automation/webhook/index.md
 [11]: ../plugins/erp-connectors/index.md
 [12]: ../plugins/quote-connectors/index.md

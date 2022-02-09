@@ -220,4 +220,4 @@ See the [full list of encodings][5].
 [2]: ../../../database/tables/heading.md
 [3]: ../../../document/templates/index.md
 [4]: ../../../database/tables/doctmpl.md
-[5]: ../../../api/api-reference/netserver/core/SuperOffice.Data.GeneratorEncoding.yml
+[5]: ../../../api/reference/netserver/core/SuperOffice.Data.GeneratorEncoding.yml

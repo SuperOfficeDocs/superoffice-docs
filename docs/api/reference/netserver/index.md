@@ -1,5 +1,5 @@
 ---
-uid: netserver-api-reference
+uid: netserver-reference
 title: NetServer API reference
 description: NetServer is a multi-tiered database access layer that bridges communication between clients and the SuperOffice database.
 author: AnthonyYates

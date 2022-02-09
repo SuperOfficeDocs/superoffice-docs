@@ -56,4 +56,4 @@ Follow-ups are part of a broader group of entities labeled **activities**:
 [4]: task.md
 [5]: call.md
 [6]: ../../../database/tables/appointment.md
-[7]: ../../../automation/crmscript/api-reference/CRMScript.NetServer.NSAppointment.yml
+[7]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSAppointment.yml

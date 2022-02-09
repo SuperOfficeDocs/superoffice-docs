@@ -46,4 +46,4 @@ There's always a corresponding appointment record for a document. You can naviga
 [3]: ../../../diary/howto/crmscript/task.md
 [4]: ../../../diary/howto/crmscript/call.md
 [5]: ../../../database/tables/appointment.md
-[6]: ../../../automation/crmscript/api-reference/CRMScript.NetServer.NSAppointment.yml
+[6]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSAppointment.yml

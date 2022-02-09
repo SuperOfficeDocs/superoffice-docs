@@ -30,7 +30,7 @@ highlightedContent:
     # Card
     - title: "bLogic screen element reference"
       itemType: reference
-      url: blogic/blogic-screen-elements/index.md
+      url: blogic/reference/index.md
     # Card
     - title: "URL parameters"
       itemType: reference
@@ -113,7 +113,7 @@ conceptualContent:
         - url: blogic/custom-screens/add-screen-element.md
           itemType: how-to-guide
           text: How to add a screen element
-        - url: blogic/blogic-screen-elements/index.md
+        - url: blogic/reference/index.md
           itemType: reference
           text: Element reference
     # Card

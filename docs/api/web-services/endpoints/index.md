@@ -58,6 +58,6 @@ An endpoint is the address, port, and protocol a web service is exposed at. In s
 [9]: soap/index.md
 [10]: ../proxies/index.md
 [11]: ../../authentication/onsite/index.md#the-ticket
-[12]: ../../api-reference/soap/Services88/index.md
+[12]: ../../reference/soap/Services88/index.md
 [13]: ../../../onsite/install/iis/reverse-proxy.md#webapi
 [14]: get-webapi-version.md

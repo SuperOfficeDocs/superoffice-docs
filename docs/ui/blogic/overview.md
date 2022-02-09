@@ -75,7 +75,7 @@ With scripts, you can:
 [6]: custom-screens/view-elements.md
 [7]: custom-screens/form-elements.md
 [8]: custom-screens/layout-elements.md
-[9]: blogic-screen-elements/index.md
+[9]: reference/index.md
 [10]: screen-choosers.md
 [11]: url-parameters.md
 [12]: ../web-panels/index.md

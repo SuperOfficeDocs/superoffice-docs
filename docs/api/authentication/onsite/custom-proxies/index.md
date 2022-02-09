@@ -29,7 +29,7 @@ With the WSDL files and using a tool like SOAPUI, raw SOAP requests are sent to 
 ***
 
 <!-- Referenced links -->
-[1]: ../../../api-reference/soap/index.md
+[1]: ../../../reference/soap/index.md
 
 <!-- Referenced images -->
 [img5]: media/services-authenticate-soapui.png
