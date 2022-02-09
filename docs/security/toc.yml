@@ -1,5 +1,6 @@
 items:
 - name: Overview
+  href: index.yml
 - name: Privacy
   items:
   - name: Introduction
