@@ -148,6 +148,6 @@ additionalContent:
       - title: Windows
         links:
         - url: windows/win-script-event-system.md
-          text: Win script and event system
+          text: Windows client script event system
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
