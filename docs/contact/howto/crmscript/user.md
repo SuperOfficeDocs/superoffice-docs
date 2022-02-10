@@ -198,4 +198,4 @@ Learn more about [tickets][3].
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.User.setValue(String,String,String)>
 [2]: ../../../automation/crmscript/parser-and-templates/reply-template.md
-[3]: ../../../requests/howto/crmscript/tickets.md
+[3]: ../../../request/howto/crmscript/tickets.md
